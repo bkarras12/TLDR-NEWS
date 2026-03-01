@@ -10,10 +10,29 @@ const CATEGORY_LABELS = {
   science: "Science",
 };
 
+const PREF_KEYS = {
+  style: "tldr_style",
+  mode: "tldr_mode",
+  layout: "tldr_layout",
+};
+
+const STYLE_LABELS = {
+  glass: "Glassmorphism",
+  material: "Material",
+  minimal: "Minimal / Flat",
+  neumo: "Neumorphism",
+  brutal: "Brutalism",
+  retro: "Retro / 90s",
+  max: "Maximalist",
+  illustration: "Illustration / Shapes",
+};
+
 let indexData = null;
 let currentDate = null;
 let currentCategory = "world";
 let currentReport = null;
+let isLoading = false;
+let headlineQuery = "";
 
 function el(id){ return document.getElementById(id); }
 
@@ -39,8 +58,96 @@ function setStatus(text){
 }
 
 function setError(text){
-  el("error").textContent = text;
-  el("error").style.display = text ? "block" : "none";
+  const node = el("error");
+  node.textContent = text || "";
+  node.hidden = !text;
+}
+
+function readPref(key, fallback){
+  try{
+    const v = localStorage.getItem(key);
+    return (v === null || v === undefined || v === "") ? fallback : v;
+  }catch(_){
+    return fallback;
+  }
+}
+
+function writePref(key, value){
+  try{ localStorage.setItem(key, String(value)); }catch(_){ /* ignore */ }
+}
+
+function applyUiPrefs(){
+  const root = document.documentElement;
+  const style = readPref(PREF_KEYS.style, root.dataset.style || "glass");
+  const mode = readPref(PREF_KEYS.mode, root.dataset.mode || "dark");
+  const layout = readPref(PREF_KEYS.layout, root.dataset.layout || "classic");
+  root.dataset.style = style;
+  root.dataset.mode = mode;
+  root.dataset.layout = layout;
+}
+
+function syncUiControls(){
+  const root = document.documentElement;
+  const styleSel = el("styleSelect");
+  if (styleSel){
+    styleSel.value = root.dataset.style || "glass";
+  }
+
+  const modeBtn = el("modeToggle");
+  if (modeBtn){
+    const isDark = (root.dataset.mode || "dark") === "dark";
+    modeBtn.setAttribute("aria-pressed", String(isDark));
+    modeBtn.textContent = `Dark mode: ${isDark ? "On" : "Off"}`;
+  }
+
+  const layoutBtn = el("layoutToggle");
+  if (layoutBtn){
+    const isBroken = (root.dataset.layout || "classic") === "broken";
+    layoutBtn.setAttribute("aria-pressed", String(isBroken));
+    layoutBtn.textContent = `Broken grid: ${isBroken ? "On" : "Off"}`;
+  }
+}
+
+function initUiControls(){
+  applyUiPrefs();
+  syncUiControls();
+
+  const styleSel = el("styleSelect");
+  if (styleSel){
+    styleSel.onchange = () => {
+      const v = (styleSel.value || "glass").trim();
+      document.documentElement.dataset.style = v;
+      writePref(PREF_KEYS.style, v);
+      syncUiControls();
+    };
+  }
+
+  const modeBtn = el("modeToggle");
+  if (modeBtn){
+    modeBtn.onclick = () => {
+      const root = document.documentElement;
+      const now = (root.dataset.mode || "dark") === "dark" ? "light" : "dark";
+      root.dataset.mode = now;
+      writePref(PREF_KEYS.mode, now);
+      syncUiControls();
+    };
+  }
+
+  const layoutBtn = el("layoutToggle");
+  if (layoutBtn){
+    layoutBtn.onclick = () => {
+      const root = document.documentElement;
+      const now = (root.dataset.layout || "classic") === "broken" ? "classic" : "broken";
+      root.dataset.layout = now;
+      writePref(PREF_KEYS.layout, now);
+      syncUiControls();
+    };
+  }
+}
+
+function setLoading(flag){
+  isLoading = !!flag;
+  document.documentElement.classList.toggle("is-loading", isLoading);
 }
 
 function buildTabs(){
@@ -49,8 +156,11 @@ function buildTabs(){
 
   for (const key of CATEGORY_ORDER){
     const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("role", "tab");
     b.className = "tab" + (key === currentCategory ? " active" : "");
     b.textContent = CATEGORY_LABELS[key] ?? key;
+    b.setAttribute("aria-selected", String(key === currentCategory));
     b.onclick = () => {
       currentCategory = key;
       buildTabs();
@@ -85,6 +195,7 @@ function populateDates(){
   sel.value = currentDate;
   sel.onchange = async () => {
     currentDate = sel.value;
+    renderSkeleton();
     await loadReport(currentDate);
     render();
   };
@@ -93,6 +204,7 @@ function populateDates(){
 async function loadIndex(){
   setError("");
   setStatus("Loading report index…");
+  setLoading(true);
   try{
     indexData = await fetchJson(INDEX_URL);
     currentDate = indexData.latest_date || (indexData.dates?.[0]?.date ?? null);
@@ -104,6 +216,8 @@ async function loadIndex(){
     populateDates();
     setStatus("No reports yet.");
     setError("Could not load reports index. Run the pipeline to generate your first report.");
+  } finally {
+    setLoading(false);
   }
 }
 
@@ -111,6 +225,7 @@ async function loadReport(dateKey){
   if (!dateKey) return;
   setError("");
   setStatus(`Loading report: ${dateKey}…`);
+  setLoading(true);
   try{
     currentReport = await fetchJson(`./data/reports/${dateKey}.json`);
     setStatus(`Loaded report: ${dateKey}`);
@@ -118,6 +233,8 @@ async function loadReport(dateKey){
     currentReport = null;
     setError("Could not load the selected report JSON. It may not exist yet.");
     setStatus("Report not available.");
+  } finally {
+    setLoading(false);
   }
 }
 
@@ -140,6 +257,11 @@ function render(){
 
   const container = el("content");
   container.innerHTML = "";
+
+  if (isLoading){
+    renderSkeleton();
+    return;
+  }
 
   if (!currentDate){
     container.innerHTML = `
@@ -193,7 +315,9 @@ function render(){
     `;
   }).join("");
 
-  const allHeadlines = items.map(it => {
+  const filteredItems = filterItems(items, headlineQuery);
+
+  const allHeadlines = filteredItems.map(it => {
     const title = escapeHtml(it.title || "");
     const url = escapeAttr(it.url || "#");
     const pub = it.published ? escapeHtml(it.published) : "—";
@@ -221,7 +345,7 @@ function render(){
           • Feed: <a href="${escapeAttr(src.feed_url || "#")}" target="_blank" rel="noopener">RSS</a>
         </div>
 
-        <div class="badges">
+        <div class="kpi">
           <span class="badge"><strong>Sentiment:</strong> ${escapeHtml(sent.label || "—")}</span>
           <span class="badge"><strong>Score:</strong> ${fmtScore(sent.score)}</span>
           <span class="badge"><strong>Outlook confidence:</strong> ${escapeHtml(outlook.confidence || "—")}</span>
@@ -242,15 +366,15 @@ function render(){
 
         <h3>Future outlook</h3>
         <div class="split3">
-          <div class="card" style="box-shadow:none">
+          <div class="card card--flat">
             <h3>Next 24–72 hours</h3>
             <ul>${out_72 || '<li>—</li>'}</ul>
           </div>
-          <div class="card" style="box-shadow:none">
+          <div class="card card--flat">
             <h3>Next 1–4 weeks</h3>
             <ul>${out_4w || '<li>—</li>'}</ul>
           </div>
-          <div class="card" style="box-shadow:none">
+          <div class="card card--flat">
             <h3>Watch list</h3>
             <ul>${watch || '<li>—</li>'}</ul>
           </div>
@@ -263,8 +387,12 @@ function render(){
       <div class="card">
         <h2>All headlines</h2>
         <div class="muted">Click any headline to read the original source.</div>
+
+        <div class="search" role="search" aria-label="Search headlines">
+          <input id="searchInput" type="search" placeholder="Search headlines…" value="${escapeAttr(headlineQuery)}" />
+        </div>
         <div class="hr"></div>
-        ${allHeadlines || '<p class="muted">—</p>'}
+        ${allHeadlines || `<p class="muted">${headlineQuery ? "No matches for your search." : "—"}</p>`}
       </div>
     </div>
 
@@ -272,6 +400,49 @@ function render(){
       Generated at (UTC): <strong>${escapeHtml(currentReport.generated_at_utc || "—")}</strong>
       • Timezone used for report date: <strong>${escapeHtml(currentReport.timezone || "—")}</strong>
       • Model: <strong>${escapeHtml(currentReport.model || "—")}</strong>
+    </div>
+  `;
+
+  const search = el("searchInput");
+  if (search){
+    search.oninput = (e) => {
+      headlineQuery = String(e.target.value || "");
+      render();
+    };
+  }
+}
+
+function filterItems(items, query){
+  const q = String(query || "").trim().toLowerCase();
+  if (!q) return items;
+  return (items || []).filter(it => {
+    const t = String(it?.title || "").toLowerCase();
+    const s = String(stripHtml(it?.summary || "")).toLowerCase();
+    const src = String(it?.source || "").toLowerCase();
+    return t.includes(q) || s.includes(q) || src.includes(q);
+  });
+}
+
+function renderSkeleton(){
+  const container = el("content");
+  container.innerHTML = `
+    <div class="grid">
+      <div class="card skeleton">
+        <div class="sk-line sk-title"></div>
+        <div class="sk-line sk-wide"></div>
+        <div class="sk-line sk-mid"></div>
+        <div class="hr"></div>
+        <div class="sk-line sk-short"></div>
+        <div class="sk-block"></div>
+        <div class="sk-block"></div>
+      </div>
+      <div class="card skeleton">
+        <div class="sk-line sk-title"></div>
+        <div class="sk-line sk-wide"></div>
+        <div class="sk-block"></div>
+        <div class="sk-block"></div>
+        <div class="sk-block"></div>
+      </div>
     </div>
   `;
 }
@@ -400,7 +571,13 @@ function stripHtml(str){
 }
 
 async function init(){
+  initUiControls();
+
+  renderSkeleton();
+
   el("refreshBtn").onclick = async () => {
+    headlineQuery = "";
+    renderSkeleton();
     await loadIndex();
     if (currentDate) await loadReport(currentDate);
     render();
@@ -410,9 +587,33 @@ async function init(){
   if (currentDate) await loadReport(currentDate);
   buildTabs();
   render();
+
+  initParallax();
 }
 
 init().catch(err => {
   setError("Unexpected error loading the app.");
   console.error(err);
 });
+
+function initParallax(){
+  const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const bg = document.querySelector(".hero__bg");
+  if (!bg || reduceMotion) return;
+
+  let ticking = false;
+  const update = () => {
+    ticking = false;
+    const y = window.scrollY || 0;
+    const offset = Math.min(28, y * 0.06);
+    bg.style.transform = `translate3d(0, ${offset}px, 0)`;
+  };
+
+  window.addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(update);
+  }, { passive: true });
+
+  update();
+}
