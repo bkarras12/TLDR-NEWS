@@ -6,17 +6,20 @@
   <title>AI News Reports</title>
   <meta name="color-scheme" content="dark light" />
 
-  <!-- Apply saved UI preferences before CSS loads to prevent a "flash". -->
+  <!-- Force Brutalism (and preserve mode/layout prefs). -->
   <script>
     (function () {
       try {
-        const style = localStorage.getItem("tldr_style") || "glass";
         const mode = localStorage.getItem("tldr_mode") || "dark";
         const layout = localStorage.getItem("tldr_layout") || "classic";
-        document.documentElement.dataset.style = style;
+        document.documentElement.dataset.style = "brutal";
         document.documentElement.dataset.mode = mode;
         document.documentElement.dataset.layout = layout;
-      } catch (_) {}
+      } catch (_) {
+        document.documentElement.dataset.style = "brutal";
+        document.documentElement.dataset.mode = "dark";
+        document.documentElement.dataset.layout = "classic";
+      }
     })();
   </script>
 
@@ -39,7 +42,7 @@
           <div class="logo" aria-hidden="true">TL;DR</div>
           <div class="brand__text">
             <h1>AI News Reports</h1>
-            <p class="sub">Daily, agent-generated summaries across 5 categories (World, Business, Technology, Sports, Science).</p>
+            <p class="sub">Daily, agent-generated summaries across 5 categories.</p>
           </div>
         </div>
 
@@ -47,20 +50,6 @@
           <div class="control">
             <label for="dateSelect">Date</label>
             <select id="dateSelect" aria-label="Select report date"></select>
-          </div>
-
-          <div class="control">
-            <label for="styleSelect">Style</label>
-            <select id="styleSelect" aria-label="Select visual style">
-              <option value="glass">Glassmorphism (default)</option>
-              <option value="material">Material</option>
-              <option value="minimal">Minimal / Flat</option>
-              <option value="neumo">Neumorphism</option>
-              <option value="brutal">Brutalism</option>
-              <option value="retro">Retro / 90s</option>
-              <option value="max">Maximalist</option>
-              <option value="illustration">Illustration / Shapes</option>
-            </select>
           </div>
 
           <button id="layoutToggle" class="btn ghost" type="button" aria-pressed="false" title="Toggle broken grid layout">
@@ -88,7 +77,7 @@
     <main id="content" class="content" style="margin-top:14px;"></main>
 
     <footer class="site-footer">
-      <span class="muted">Tip: switch styles to match your vibe (Glass, Material, Neumo, Brutal, Retro…).</span>
+      <span class="muted">Brutalist mode locked in.</span>
     </footer>
   </div>
 
