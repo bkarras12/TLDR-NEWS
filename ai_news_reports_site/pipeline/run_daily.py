@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from typing import Any, Dict
+from typing import Any, Dict, List
 
 from openai import OpenAI
 
@@ -16,6 +16,7 @@ from pipeline.agents.curator import CuratorAgent
 from pipeline.agents.sentiment import SentimentAgent
 from pipeline.agents.report_writer import ReportWriterAgent
 from pipeline.agents.publisher import PublisherAgent
+from pipeline.agents.base import NewsItem
 
 
 TZ = "America/Denver"
@@ -39,24 +40,82 @@ def to_item_dict(it) -> Dict[str, Any]:
     }
 
 
+def _extract_items_from_report(path: Path) -> Dict[str, List[NewsItem]]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    categories = data.get("categories") or {}
+    out: Dict[str, List[NewsItem]] = {}
+
+    for cat_key, cat_data in categories.items():
+        raw_items = cat_data.get("items") or []
+        items: List[NewsItem] = []
+        for row in raw_items:
+            title = (row.get("title") or "").strip()
+            url = (row.get("url") or "").strip()
+            if not title or not url:
+                continue
+            items.append(
+                NewsItem(
+                    title=title,
+                    url=url,
+                    published=row.get("published"),
+                    summary=row.get("summary"),
+                    source=row.get("source"),
+                )
+            )
+        if items:
+            out[cat_key] = items
+
+    return out
+
+
+def _load_backup_items(site_root: Path, date_key: str) -> Dict[str, List[NewsItem]]:
+    reports_dir = site_root / "news" / "data" / "reports"
+    if not reports_dir.exists():
+        return {}
+
+    report_paths = sorted(reports_dir.glob("*.json"), key=lambda p: p.stem, reverse=True)
+    preferred = reports_dir / f"{date_key}.json"
+    if preferred in report_paths:
+        report_paths.remove(preferred)
+        report_paths.insert(0, preferred)
+
+    for path in report_paths:
+        try:
+            out = _extract_items_from_report(path)
+            if out:
+                print(f"Loaded backup headlines from: {path}")
+                return out
+        except Exception:
+            continue
+
+    return {}
+
+
 def main() -> int:
     site_root = Path(__file__).resolve().parents[1]
     date_key = local_date_key()
 
     model = os.getenv("OPENAI_MODEL") or "gpt-4.1"
     api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        print("ERROR: OPENAI_API_KEY is not set.", file=sys.stderr)
-        print("Set it as an environment variable or as a GitHub Actions secret.", file=sys.stderr)
-        return 2
+    in_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
 
-    client = OpenAI()
+    if api_key:
+        client = OpenAI(api_key=api_key)
+    elif in_github_actions:
+        print("ERROR: OPENAI_API_KEY is not set in GitHub Actions.", file=sys.stderr)
+        print("Set repository/environment secret OPENAI_API_KEY for workflow runs.", file=sys.stderr)
+        return 2
+    else:
+        client = None
+        print(
+            "OPENAI_API_KEY is not set. Proceeding with deterministic local report generation.",
+            file=sys.stderr,
+        )
 
     sentiment_agent = SentimentAgent()
-    curator = CuratorAgent()
 
     categories_out: Dict[str, Any] = {}
-    available_categories = []
+    backup_items = _load_backup_items(site_root=site_root, date_key=date_key)
 
     for key, cfg in CATEGORIES.items():
         print(f"[{key}] Fetching RSS: {cfg.feed_url}")
@@ -68,6 +127,9 @@ def main() -> int:
             raw_items = []
 
         curated_items = CuratorAgent(max_items=cfg.max_items).run(raw_items)
+        if not curated_items and backup_items.get(key):
+            curated_items = CuratorAgent(max_items=cfg.max_items).run(list(backup_items[key]))
+            print(f"[{key}] Using {len(curated_items)} backup headlines from previous report")
         sentiment = sentiment_agent.run(curated_items)
 
         writer = ReportWriterAgent(client=client, model=model)
@@ -137,8 +199,6 @@ def main() -> int:
             "ai_report": report,
         }
 
-        if curated_items:
-            available_categories.append(key)
 
     daily_report = {
         "date": date_key,

@@ -49,11 +49,13 @@ REPORT_SCHEMA: Dict[str, Any] = {
 
 
 class ReportWriterAgent:
-    def __init__(self, client: OpenAI, model: str):
+    def __init__(self, client: OpenAI | None, model: str):
         self.client = client
         self.model = model
-        self.executive_summary_agent = ExecutiveSummaryAgent(client=client, model=model)
-        self.future_outlook_agent = FutureOutlookAgent(client=client, model=model)
+        self.executive_summary_agent = (
+            ExecutiveSummaryAgent(client=client, model=model) if client else None
+        )
+        self.future_outlook_agent = FutureOutlookAgent(client=client, model=model) if client else None
 
     @staticmethod
     def _items_to_prompt(items: List[NewsItem]) -> str:
@@ -91,6 +93,9 @@ class ReportWriterAgent:
                     "This is an automated report; verify details via the source links.",
                 ],
             }
+
+        if self.client is None:
+            return self._build_local_report(items=items, sentiment=sentiment)
 
         headlines_blob = self._items_to_prompt(items)
 
@@ -217,7 +222,7 @@ Return JSON ONLY that matches the provided schema.
         summary_missing = self._is_missing_or_failed_text(data.get("summary"))
         outlook_missing = self._is_missing_or_failed_outlook(data.get("future_outlook"))
 
-        if summary_missing:
+        if summary_missing and self.executive_summary_agent:
             try:
                 data["summary"] = self.executive_summary_agent.run(
                     category_title=category_title,
@@ -228,7 +233,7 @@ Return JSON ONLY that matches the provided schema.
             except Exception:
                 pass
 
-        if outlook_missing:
+        if outlook_missing and self.future_outlook_agent:
             try:
                 data["future_outlook"] = self.future_outlook_agent.run(
                     category_title=category_title,
@@ -240,3 +245,62 @@ Return JSON ONLY that matches the provided schema.
                 pass
 
         return data
+
+    @staticmethod
+    def _build_local_report(*, items: List[NewsItem], sentiment: SentimentResult) -> Dict[str, Any]:
+        top_titles = [it.title for it in items[:5] if it.title]
+        summary = (
+            f"{len(items)} headlines were curated for this category. "
+            f"Overall sentiment is {sentiment.label.lower()} ({sentiment.score:.3f}). "
+            + (f"Top story: {top_titles[0]}." if top_titles else "")
+        ).strip()
+
+        notable = []
+        for it in items[: min(8, len(items))]:
+            title = (it.title or "").strip()
+            if not title:
+                continue
+            note = (it.summary or "").strip()
+            note = note[:220] + ("…" if len(note) > 220 else "")
+            if not note:
+                note = "This item is noteworthy based on headline prominence in the feed."
+            notable.append(
+                {
+                    "headline": title,
+                    "why_it_matters": note,
+                    "signal": "Opportunity" if sentiment.score > 0.1 else "Risk" if sentiment.score < -0.1 else "Unclear",
+                }
+            )
+
+        return {
+            "summary": summary,
+            "key_themes": top_titles[:5] if len(top_titles) >= 3 else [
+                "Top headlines",
+                "Sentiment trend",
+                "Developing stories",
+            ],
+            "notable_headlines": notable[: min(8, len(notable))],
+            "future_outlook": {
+                "next_24_72_hours": [
+                    "Track updates to the leading stories listed above.",
+                    "Watch for clarifications or official responses in follow-up coverage.",
+                    "Expect sentiment to move as new details emerge.",
+                ],
+                "next_1_4_weeks": [
+                    "Some stories may transition from breaking news to policy or market impact.",
+                    "Recurring themes in the feed will indicate sustained momentum.",
+                    "Cross-category spillover effects may become clearer with additional reporting.",
+                ],
+                "watch_list": top_titles[:4] if len(top_titles) >= 4 else [
+                    "Top recurring headline",
+                    "Regulatory/official updates",
+                    "Industry reaction",
+                    "Public sentiment shifts",
+                ],
+                "confidence": "Medium",
+            },
+            "caveats": [
+                "This fallback report is generated from RSS headlines and summaries only.",
+                "Verify key details by opening the source links in the headlines list.",
+            ],
+        }
