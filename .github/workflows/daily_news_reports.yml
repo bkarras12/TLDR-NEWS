@@ -34,11 +34,13 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
+        working-directory: ai_news_reports_site
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run daily pipeline
+        working-directory: ai_news_reports_site
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
@@ -50,7 +52,7 @@ jobs:
           git status --porcelain
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add news/data
+          git add ai_news_reports_site/news/data
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
@@ -64,7 +66,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: ai_news_reports_site
 
       - name: Deploy to GitHub Pages
         id: deployment
