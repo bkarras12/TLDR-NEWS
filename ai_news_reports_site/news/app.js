@@ -179,8 +179,9 @@ function render(){
 
   const keyThemes = normalizeList(rep.key_themes).map(t => `<span class="pill">${escapeHtml(t)}</span>`).join("");
   const caveats = normalizeList(rep.caveats).map(c => `<li>${escapeHtml(c)}</li>`).join("");
+  const notableItems = normalizeNotableHeadlines(rep.notable_headlines, items);
 
-  const notable = (rep.notable_headlines || []).map(n => {
+  const notable = notableItems.map(n => {
     const url = findItemUrl(n.headline);
     const head = escapeHtml(n.headline || "");
     const link = url ? `<a href="${escapeAttr(url)}" target="_blank" rel="noopener">${head}</a>` : head;
@@ -309,6 +310,68 @@ function normalizeOutlook(value){
     next_1_4_weeks: normalizeList(value.next_1_4_weeks),
     watch_list: normalizeList(value.watch_list),
     confidence: value.confidence || "—",
+  };
+}
+
+function normalizeNotableHeadlines(value, fallbackItems = []){
+  if (Array.isArray(value)){
+    return value
+      .map(normalizeNotableItem)
+      .filter(Boolean);
+  }
+
+  if (value && typeof value === "object"){
+    const nested = value.items || value.headlines || value.notable || value.results;
+    if (Array.isArray(nested)){
+      return nested
+        .map(normalizeNotableItem)
+        .filter(Boolean);
+    }
+
+    const single = normalizeNotableItem(value);
+    if (single) return [single];
+  }
+
+  if (typeof value === "string" && value.trim()){
+    return [{
+      headline: value.trim(),
+      why_it_matters: "",
+      signal: "Unclear",
+    }];
+  }
+
+  return fallbackItems
+    .slice(0, 8)
+    .filter(it => it?.title)
+    .map(it => ({
+      headline: it.title,
+      why_it_matters: stripHtml(it.summary || "").slice(0, 240),
+      signal: "Unclear",
+    }));
+}
+
+function normalizeNotableItem(value){
+  if (!value) return null;
+  if (typeof value === "string"){
+    return {
+      headline: value,
+      why_it_matters: "",
+      signal: "Unclear",
+    };
+  }
+
+  if (typeof value !== "object") return null;
+
+  const headline = String(
+    value.headline ?? value.title ?? value.name ?? ""
+  ).trim();
+
+  if (!headline) return null;
+
+  return {
+    headline,
+    why_it_matters: String(value.why_it_matters ?? value.reason ?? value.summary ?? "").trim(),
+    signal: String(value.signal || "Unclear").trim() || "Unclear",
   };
 }
 
