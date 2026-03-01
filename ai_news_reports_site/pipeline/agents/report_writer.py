@@ -6,6 +6,8 @@ from typing import Any, Dict, List
 from openai import OpenAI
 
 from .base import NewsItem, SentimentResult
+from .executive_summary import ExecutiveSummaryAgent
+from .future_outlook import FutureOutlookAgent
 
 
 REPORT_SCHEMA: Dict[str, Any] = {
@@ -50,6 +52,8 @@ class ReportWriterAgent:
     def __init__(self, client: OpenAI, model: str):
         self.client = client
         self.model = model
+        self.executive_summary_agent = ExecutiveSummaryAgent(client=client, model=model)
+        self.future_outlook_agent = FutureOutlookAgent(client=client, model=model)
 
     @staticmethod
     def _items_to_prompt(items: List[NewsItem]) -> str:
@@ -159,5 +163,80 @@ Return JSON ONLY that matches the provided schema.
                     "This is an automated report; verify details via the source links.",
                 ],
             }
+
+        data = self._fill_summary_and_outlook(
+            data=data,
+            category_title=category_title,
+            source_name=source_name,
+            items=items,
+            sentiment=sentiment,
+        )
+
+        return data
+
+    @staticmethod
+    def _is_missing_or_failed_text(value: Any) -> bool:
+        if not isinstance(value, str):
+            return True
+        text = value.strip().lower()
+        return (not text) or ("failed" in text)
+
+
+    @classmethod
+    def _is_missing_or_failed_outlook(cls, value: Any) -> bool:
+        if not isinstance(value, dict):
+            return True
+
+        required_keys = ["next_24_72_hours", "next_1_4_weeks", "watch_list", "confidence"]
+        if any(k not in value for k in required_keys):
+            return True
+
+        for key in ["next_24_72_hours", "next_1_4_weeks", "watch_list"]:
+            entries = value.get(key)
+            if not isinstance(entries, list) or not entries:
+                return True
+            for entry in entries:
+                if cls._is_missing_or_failed_text(entry):
+                    return True
+
+        conf = value.get("confidence")
+        if conf not in {"Low", "Medium", "High"}:
+            return True
+
+        return False
+
+    def _fill_summary_and_outlook(
+        self,
+        *,
+        data: Dict[str, Any],
+        category_title: str,
+        source_name: str,
+        items: List[NewsItem],
+        sentiment: SentimentResult,
+    ) -> Dict[str, Any]:
+        summary_missing = self._is_missing_or_failed_text(data.get("summary"))
+        outlook_missing = self._is_missing_or_failed_outlook(data.get("future_outlook"))
+
+        if summary_missing:
+            try:
+                data["summary"] = self.executive_summary_agent.run(
+                    category_title=category_title,
+                    source_name=source_name,
+                    items=items,
+                    sentiment=sentiment,
+                )
+            except Exception:
+                pass
+
+        if outlook_missing:
+            try:
+                data["future_outlook"] = self.future_outlook_agent.run(
+                    category_title=category_title,
+                    source_name=source_name,
+                    items=items,
+                    sentiment=sentiment,
+                )
+            except Exception:
+                pass
 
         return data

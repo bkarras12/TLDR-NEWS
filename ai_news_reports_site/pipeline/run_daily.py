@@ -80,16 +80,40 @@ def main() -> int:
             )
         except Exception as e:
             print(f"[{key}] ERROR writing report: {type(e).__name__}: {e}", file=sys.stderr)
+
+            summary_text = "Report generation failed for this category."
+            outlook_data = {
+                "next_24_72_hours": ["Try again later."],
+                "next_1_4_weeks": ["Try again later."],
+                "watch_list": ["Pipeline reliability"],
+                "confidence": "Low",
+            }
+
+            try:
+                summary_text = writer.executive_summary_agent.run(
+                    category_title=cfg.title,
+                    source_name=cfg.site_name,
+                    items=curated_items,
+                    sentiment=sentiment,
+                )
+            except Exception:
+                pass
+
+            try:
+                outlook_data = writer.future_outlook_agent.run(
+                    category_title=cfg.title,
+                    source_name=cfg.site_name,
+                    items=curated_items,
+                    sentiment=sentiment,
+                )
+            except Exception:
+                pass
+
             report = {
-                "summary": "Report generation failed for this category.",
+                "summary": summary_text,
                 "key_themes": ["Generation error", "Try again later", "Verify via links"],
                 "notable_headlines": [],
-                "future_outlook": {
-                    "next_24_72_hours": ["Try again later."],
-                    "next_1_4_weeks": ["Try again later."],
-                    "watch_list": ["Pipeline reliability"],
-                    "confidence": "Low",
-                },
+                "future_outlook": outlook_data,
                 "caveats": [
                     "OpenAI generation failed for this category.",
                     "This is an automated report; verify details via the source links.",
