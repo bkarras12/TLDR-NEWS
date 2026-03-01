@@ -11,20 +11,8 @@ const CATEGORY_LABELS = {
 };
 
 const PREF_KEYS = {
-  style: "tldr_style",
   mode: "tldr_mode",
   layout: "tldr_layout",
-};
-
-const STYLE_LABELS = {
-  glass: "Glassmorphism",
-  material: "Material",
-  minimal: "Minimal / Flat",
-  neumo: "Neumorphism",
-  brutal: "Brutalism",
-  retro: "Retro / 90s",
-  max: "Maximalist",
-  illustration: "Illustration / Shapes",
 };
 
 let indexData = null;
@@ -78,20 +66,18 @@ function writePref(key, value){
 
 function applyUiPrefs(){
   const root = document.documentElement;
-  const style = readPref(PREF_KEYS.style, root.dataset.style || "glass");
+
+  // Force Brutalism always (no style switching).
+  root.dataset.style = "brutal";
+
   const mode = readPref(PREF_KEYS.mode, root.dataset.mode || "dark");
   const layout = readPref(PREF_KEYS.layout, root.dataset.layout || "classic");
-  root.dataset.style = style;
   root.dataset.mode = mode;
   root.dataset.layout = layout;
 }
 
 function syncUiControls(){
   const root = document.documentElement;
-  const styleSel = el("styleSelect");
-  if (styleSel){
-    styleSel.value = root.dataset.style || "glass";
-  }
 
   const modeBtn = el("modeToggle");
   if (modeBtn){
@@ -111,16 +97,6 @@ function syncUiControls(){
 function initUiControls(){
   applyUiPrefs();
   syncUiControls();
-
-  const styleSel = el("styleSelect");
-  if (styleSel){
-    styleSel.onchange = () => {
-      const v = (styleSel.value || "glass").trim();
-      document.documentElement.dataset.style = v;
-      writePref(PREF_KEYS.style, v);
-      syncUiControls();
-    };
-  }
 
   const modeBtn = el("modeToggle");
   if (modeBtn){
@@ -587,33 +563,9 @@ async function init(){
   if (currentDate) await loadReport(currentDate);
   buildTabs();
   render();
-
-  initParallax();
 }
 
 init().catch(err => {
   setError("Unexpected error loading the app.");
   console.error(err);
 });
-
-function initParallax(){
-  const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const bg = document.querySelector(".hero__bg");
-  if (!bg || reduceMotion) return;
-
-  let ticking = false;
-  const update = () => {
-    ticking = false;
-    const y = window.scrollY || 0;
-    const offset = Math.min(28, y * 0.06);
-    bg.style.transform = `translate3d(0, ${offset}px, 0)`;
-  };
-
-  window.addEventListener("scroll", () => {
-    if (ticking) return;
-    ticking = true;
-    window.requestAnimationFrame(update);
-  }, { passive: true });
-
-  update();
-}
