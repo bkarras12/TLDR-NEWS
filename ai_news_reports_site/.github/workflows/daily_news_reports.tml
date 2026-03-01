@@ -1,0 +1,71 @@
+name: Daily AI News Reports
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs daily at ~07:10 America/Denver during standard time (UTC-7).
+    # Note: GitHub cron uses UTC.
+    - cron: "10 14 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "daily-ai-news-reports"
+  cancel-in-progress: false
+
+jobs:
+  build-update-and-deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run daily pipeline
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+        run: |
+          python pipeline/run_daily.py
+
+      - name: Commit updated reports (if changed)
+        run: |
+          git status --porcelain
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add news/data
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily news report: $(date -u +%Y-%m-%d) [skip ci]"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
