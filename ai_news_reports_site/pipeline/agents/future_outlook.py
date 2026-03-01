@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-import json
 from typing import Any, Dict, List
 
 from openai import OpenAI
 
 from .base import NewsItem, SentimentResult
+from .openai_compat import chat_completion_json
 
 
 OUTLOOK_SCHEMA: Dict[str, Any] = {
@@ -68,47 +68,21 @@ Ground every point in the supplied headlines/summaries and avoid speculation bey
 """
 
         try:
-            resp = self.client.responses.create(
+            return chat_completion_json(
+                client=self.client,
                 model=self.model,
-                input=[
-                    {
-                        "role": "developer",
-                        "content": "You are a risk analyst producing cautious outlooks from current headlines.",
-                    },
-                    {"role": "user", "content": prompt},
-                ],
-                text={
-                    "format": {
-                        "type": "json_schema",
-                        "name": "future_outlook",
-                        "schema": OUTLOOK_SCHEMA,
-                        "strict": True,
-                    }
-                },
+                system="You are a risk analyst producing cautious outlooks from current headlines.",
+                user=prompt,
+                schema_name="future_outlook",
+                schema=OUTLOOK_SCHEMA,
+                strict=True,
+                fallback_models=["gpt-4o-mini", "gpt-4o"],
+                temperature=0.2,
             )
-            raw = resp.output_text
         except Exception:
-            resp = self.client.responses.create(
-                model=self.model,
-                input=[
-                    {
-                        "role": "developer",
-                        "content": "You are a risk analyst producing cautious outlooks from current headlines.",
-                    },
-                    {"role": "user", "content": prompt + "\n\n(Use valid JSON.)"},
-                ],
-                text={"format": {"type": "json_object"}},
-            )
-            raw = resp.output_text
-
-        try:
-            data = json.loads(raw)
-        except Exception:
-            data = {
-                "next_24_72_hours": ["Outlook generation returned invalid JSON; review current headlines."],
-                "next_1_4_weeks": ["Outlook generation returned invalid JSON; review current headlines."],
+            return {
+                "next_24_72_hours": ["Outlook generation failed; review current headlines."],
+                "next_1_4_weeks": ["Outlook generation failed; review current headlines."],
                 "watch_list": ["Model output reliability", "Major developing stories", "Source updates"],
                 "confidence": "Low",
             }
-
-        return data
