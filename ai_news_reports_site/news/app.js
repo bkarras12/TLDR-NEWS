@@ -177,8 +177,8 @@ function render(){
   const rep = cat.ai_report || {};
   const items = cat.items || [];
 
-  const keyThemes = (rep.key_themes || []).map(t => `<span class="pill">${escapeHtml(t)}</span>`).join("");
-  const caveats = (rep.caveats || []).map(c => `<li>${escapeHtml(c)}</li>`).join("");
+  const keyThemes = normalizeList(rep.key_themes).map(t => `<span class="pill">${escapeHtml(t)}</span>`).join("");
+  const caveats = normalizeList(rep.caveats).map(c => `<li>${escapeHtml(c)}</li>`).join("");
 
   const notable = (rep.notable_headlines || []).map(n => {
     const url = findItemUrl(n.headline);
@@ -196,7 +196,7 @@ function render(){
     const title = escapeHtml(it.title || "");
     const url = escapeAttr(it.url || "#");
     const pub = it.published ? escapeHtml(it.published) : "—";
-    const sum = it.summary ? escapeHtml(it.summary) : "";
+    const sum = it.summary ? escapeHtml(stripHtml(it.summary)) : "";
     return `
       <div class="item">
         <a href="${url}" target="_blank" rel="noopener">${title}</a>
@@ -206,10 +206,10 @@ function render(){
     `;
   }).join("");
 
-  const outlook = rep.future_outlook || {};
-  const out_72 = (outlook.next_24_72_hours || []).map(x => `<li>${escapeHtml(x)}</li>`).join("");
-  const out_4w = (outlook.next_1_4_weeks || []).map(x => `<li>${escapeHtml(x)}</li>`).join("");
-  const watch = (outlook.watch_list || []).map(x => `<li>${escapeHtml(x)}</li>`).join("");
+  const outlook = normalizeOutlook(rep.future_outlook);
+  const out_72 = outlook.next_24_72_hours.map(x => `<li>${escapeHtml(x)}</li>`).join("");
+  const out_4w = outlook.next_1_4_weeks.map(x => `<li>${escapeHtml(x)}</li>`).join("");
+  const watch = outlook.watch_list.map(x => `<li>${escapeHtml(x)}</li>`).join("");
 
   container.innerHTML = `
     <div class="grid">
@@ -286,6 +286,37 @@ function escapeHtml(str){
 
 function escapeAttr(str){
   return escapeHtml(str).replaceAll("`", "&#096;");
+}
+
+function normalizeList(value){
+  if (Array.isArray(value)) return value.filter(Boolean).map(v => String(v));
+  if (typeof value === "string" && value.trim()) return [value.trim()];
+  return [];
+}
+
+function normalizeOutlook(value){
+  if (!value || typeof value !== "object" || Array.isArray(value)){
+    return {
+      next_24_72_hours: normalizeList(value),
+      next_1_4_weeks: [],
+      watch_list: [],
+      confidence: "—",
+    };
+  }
+
+  return {
+    next_24_72_hours: normalizeList(value.next_24_72_hours),
+    next_1_4_weeks: normalizeList(value.next_1_4_weeks),
+    watch_list: normalizeList(value.watch_list),
+    confidence: value.confidence || "—",
+  };
+}
+
+function stripHtml(str){
+  return String(str ?? "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 async function init(){
