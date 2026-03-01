@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import json
 from typing import Any, Dict, List
 
 from openai import OpenAI
@@ -8,6 +7,7 @@ from openai import OpenAI
 from .base import NewsItem, SentimentResult
 from .executive_summary import ExecutiveSummaryAgent
 from .future_outlook import FutureOutlookAgent
+from .openai_compat import chat_completion_json
 
 
 REPORT_SCHEMA: Dict[str, Any] = {
@@ -119,55 +119,28 @@ HEADLINES (title, date if present, link, short summary):
 Return JSON ONLY that matches the provided schema.
 """
 
-        # Responses API uses text.format for structured outputs.
-        # We try json_schema first; if it fails for any reason, fall back to json_object.
+        # Use Chat Completions Structured Outputs when possible.
+        # This avoids SDK-version mismatch issues that commonly break the Responses-only code path.
         try:
-            resp = self.client.responses.create(
+            data = chat_completion_json(
+                client=self.client,
                 model=self.model,
-                input=[
-                    {"role": "developer", "content": developer_instructions},
-                    {"role": "user", "content": user_prompt},
-                ],
-                text={
-                    "format": {
-                        "type": "json_schema",
-                        "name": "daily_news_report",
-                        "schema": REPORT_SCHEMA,
-                        "strict": True,
-                    }
-                },
+                system=developer_instructions,
+                user=user_prompt,
+                schema_name="daily_news_report",
+                schema=REPORT_SCHEMA,
+                strict=True,
+                fallback_models=["gpt-4o-mini", "gpt-4o"],
+                temperature=0.2,
             )
-            raw = resp.output_text
-        except Exception:
-            resp = self.client.responses.create(
-                model=self.model,
-                input=[
-                    {"role": "developer", "content": developer_instructions},
-                    {"role": "user", "content": user_prompt + "\n\n(Use valid JSON.)"},
-                ],
-                text={"format": {"type": "json_object"}},
-            )
-            raw = resp.output_text
-
-        try:
-            data = json.loads(raw)
         except Exception as e:
-            # last resort: wrap as minimal structure
-            data = {
-                "summary": raw.strip()[:2000],
-                "key_themes": ["Parsing error", "Raw model output used", "Verify via links"],
-                "notable_headlines": [],
-                "future_outlook": {
-                    "next_24_72_hours": ["Model output could not be parsed; see summary."],
-                    "next_1_4_weeks": ["Model output could not be parsed; see summary."],
-                    "watch_list": ["Parsing reliability", "Feed stability"],
-                    "confidence": "Low",
-                },
-                "caveats": [
-                    f"Model output could not be parsed as JSON: {type(e).__name__}.",
-                    "This is an automated report; verify details via the source links.",
-                ],
-            }
+            # If the model/API fails for any reason, fall back to deterministic report
+            # so the website still publishes a usable report instead of "failed to generate".
+            local = self._build_local_report(items=items, sentiment=sentiment)
+            local["caveats"] = (local.get("caveats") or []) + [
+                f"OpenAI generation failed ({type(e).__name__}). Used deterministic fallback.",
+            ]
+            data = local
 
         data = self._fill_summary_and_outlook(
             data=data,
@@ -177,6 +150,12 @@ Return JSON ONLY that matches the provided schema.
             sentiment=sentiment,
         )
 
+        # Guard: if notable headlines is empty, create a reasonable fallback from items.
+        if not isinstance(data.get("notable_headlines"), list) or not data.get("notable_headlines"):
+            data["notable_headlines"] = self._build_local_report(items=items, sentiment=sentiment).get(
+                "notable_headlines", []
+            )
+
         return data
 
     @staticmethod
@@ -185,7 +164,6 @@ Return JSON ONLY that matches the provided schema.
             return True
         text = value.strip().lower()
         return (not text) or ("failed" in text)
-
 
     @classmethod
     def _is_missing_or_failed_outlook(cls, value: Any) -> bool:
