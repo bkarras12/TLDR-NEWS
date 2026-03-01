@@ -1,8 +1,8 @@
 {
   "date": "2026-02-28",
-  "generated_at_utc": "2026-03-01T02:31:15Z",
+  "generated_at_utc": "2026-03-01T03:06:57Z",
   "timezone": "America/Denver",
-  "model": "gpt-4.1",
+  "model": "gpt-4o-mini",
   "categories": {
     "world": {
       "key": "world",
@@ -104,28 +104,64 @@
         }
       ],
       "ai_report": {
-        "summary": "Report generation failed for this category.",
+        "summary": "Today's news highlights significant geopolitical tensions, particularly in Iran, where the death of Ayatollah Khamenei coincides with escalating military actions involving the US and Israel. The situation is compounded by Iran's retaliatory strikes, raising concerns about regional stability and security. Meanwhile, other global events include a tragic plane crash in Bolivia and ongoing political issues in Nepal and India.",
         "key_themes": [
-          "Generation error",
-          "Try again later",
-          "Verify via links"
+          "Geopolitical Tensions",
+          "Military Conflict",
+          "Regional Stability",
+          "Political Corruption",
+          "Public Safety"
         ],
-        "notable_headlines": [],
+        "notable_headlines": [
+          {
+            "headline": "Ayatollah Khamenei's iron grip on power in Iran comes to an end",
+            "why_it_matters": "The death of Iran's supreme leader during military strikes marks a critical turning point in the country's leadership and could lead to significant changes in its political landscape.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Inside Iran, panic as strikes hit but for some it's a moment of relief",
+            "why_it_matters": "The contrasting reactions among Iranians during the strikes highlight the complex sentiments towards the regime and the current military actions.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Luxury Dubai hotel hit as Iran launches retaliatory strikes across region",
+            "why_it_matters": "The attack on civilian targets in Dubai raises concerns about the spillover effects of the conflict and the safety of international locations.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "At least 20 killed after military plane carrying banknotes crashes in Bolivia",
+            "why_it_matters": "The crash and subsequent chaos underline issues of public safety and the potential for unrest in Bolivia following a tragic incident.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Iran retaliation raises questions about US air defences",
+            "why_it_matters": "The effectiveness of US air defenses in the region is now under scrutiny, which could impact future military strategies and alliances.",
+            "signal": "Risk"
+          }
+        ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Try again later."
+            "Monitor developments in Iran following Khamenei's death and the ongoing military strikes.",
+            "Watch for potential international responses to Iran's retaliatory actions.",
+            "Assess the situation in Bolivia regarding the aftermath of the plane crash."
           ],
           "next_1_4_weeks": [
-            "Try again later."
+            "Expect potential shifts in Iran's political landscape as new leadership emerges.",
+            "Observe the implications of the military conflict on regional stability in the Middle East.",
+            "Follow the political developments in Nepal as corruption issues continue to unfold."
           ],
           "watch_list": [
-            "Pipeline reliability"
+            "Iran's political succession and military responses.",
+            "US and allied military strategies in the Middle East.",
+            "Public safety measures in Bolivia post-plane crash.",
+            "Political stability in Nepal amid corruption allegations."
           ],
-          "confidence": "Low"
+          "confidence": "Medium"
         },
         "caveats": [
-          "OpenAI generation failed for this category.",
-          "This is an automated report; verify details via the source links."
+          "The situation in Iran is rapidly evolving and may change significantly in a short period.",
+          "Public sentiment in conflict zones can be unpredictable and may not reflect broader trends.",
+          "The impact of international responses to military actions can vary widely and is difficult to forecast."
         ]
       }
     },
@@ -229,28 +265,63 @@
         }
       ],
       "ai_report": {
-        "summary": "Report generation failed for this category.",
+        "summary": "Today's business news highlights significant developments in various sectors, including the impact of tariffs, corporate layoffs, and changes in consumer goods regulations. The overall sentiment is negative, reflecting concerns over job losses, economic pressures, and corporate decisions that may not favor workers or consumers.",
         "key_themes": [
-          "Generation error",
-          "Try again later",
-          "Verify via links"
+          "Tariffs and Trade",
+          "Corporate Layoffs",
+          "Consumer Goods Regulations",
+          "Worker Rights",
+          "Economic Sentiment"
         ],
-        "notable_headlines": [],
+        "notable_headlines": [
+          {
+            "headline": "The real winners of Trump’s global tariff war: law firms, hedge funds and AI",
+            "why_it_matters": "Businesses are seeking refunds related to tariffs, but consumers may not see benefits, indicating a potential imbalance in economic recovery.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Jack Dorsey to cut 4,000 jobs due to AI advances at Square parent Block",
+            "why_it_matters": "The decision to cut jobs reflects the growing influence of AI on employment, raising concerns about job security in the tech sector.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Target says it will stop selling breakfast cereals with synthetic colors",
+            "why_it_matters": "This move aligns with consumer demand for healthier products, but may also reflect regulatory pressures on food manufacturers.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Workers decry Whirlpool offshoring jobs despite praise for Trump’s tariffs",
+            "why_it_matters": "The offshoring of jobs contradicts the promises made by tariff supporters, highlighting ongoing challenges in the manufacturing sector.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US tariffs could rise to 15% or more after supreme court blow, trade representative says",
+            "why_it_matters": "Potential increases in tariffs could further strain international trade relations and impact consumer prices.",
+            "signal": "Risk"
+          }
+        ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Try again later."
+            "Monitoring reactions to potential tariff increases and their implications for trade relations.",
+            "Observing consumer responses to Target's new policy on synthetic colors.",
+            "Tracking developments in corporate layoffs and their impact on the job market."
           ],
           "next_1_4_weeks": [
-            "Try again later."
+            "Evaluating the long-term effects of AI on employment in various sectors, particularly in tech and manufacturing.",
+            "Watching for further announcements from companies regarding job cuts or restructuring due to economic pressures.",
+            "Assessing the impact of mortgage rate changes on the housing market as the spring buying season approaches."
           ],
           "watch_list": [
-            "Pipeline reliability"
+            "Tariff policy changes and their economic implications.",
+            "Corporate earnings reports, particularly from tech companies like Block and Nvidia.",
+            "Legislative developments regarding worker rights and protections.",
+            "Consumer sentiment regarding food products and health regulations."
           ],
-          "confidence": "Low"
+          "confidence": "Medium"
         },
         "caveats": [
-          "OpenAI generation failed for this category.",
-          "This is an automated report; verify details via the source links."
+          "The sentiment score indicates a negative outlook, which may not reflect all perspectives in the business community.",
+          "Future developments are subject to rapid change based on economic conditions and corporate decisions."
         ]
       }
     },
@@ -340,28 +411,63 @@
         }
       ],
       "ai_report": {
-        "summary": "Report generation failed for this category.",
+        "summary": "Today's technology news highlights a mix of product launches, market controversies, and significant developments in the tech industry. Polymarket faces backlash for allowing betting on war, while the Vera C. Rubin Observatory's alert system impressively sent out 800,000 alerts on its first night. Xiaomi has launched new devices, including a Bluetooth tracker and two flagship phones, while the gaming world sees a new adaptation of The Witcher. Additionally, the Pentagon has designated Anthropic as a supply chain risk, raising concerns in the AI sector.",
         "key_themes": [
-          "Generation error",
-          "Try again later",
-          "Verify via links"
+          "Product Launches",
+          "Market Controversies",
+          "AI Regulation",
+          "Gaming Adaptations",
+          "Astronomy Technology"
         ],
-        "notable_headlines": [],
+        "notable_headlines": [
+          {
+            "headline": "Polymarket defends its decision to allow betting on war as ‘invaluable’",
+            "why_it_matters": "The decision to allow betting on war raises ethical concerns and highlights the controversial nature of prediction markets in sensitive contexts.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "The Rubin Observatory’s alert system sent 800,000 pings on its first night",
+            "why_it_matters": "The high volume of alerts demonstrates the observatory's potential impact on astronomical research and discovery.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Xiaomi’s tracker doesn’t need a case to clip to your keys",
+            "why_it_matters": "Xiaomi's innovative design could enhance user convenience and compete with established products like Apple AirTag.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Defense secretary Pete Hegseth designates Anthropic a supply chain risk",
+            "why_it_matters": "This designation could have significant implications for the AI industry and government contracts, potentially affecting Anthropic's operations.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Tenways nearly perfects the shareable city e-bike",
+            "why_it_matters": "The adaptability of the e-bike could revolutionize urban transportation and promote shared mobility solutions.",
+            "signal": "Opportunity"
+          }
+        ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Try again later."
+            "Monitoring reactions to Polymarket's betting practices and any potential regulatory responses.",
+            "Observing the impact of the Rubin Observatory's alerts on the astronomical community.",
+            "Tracking consumer responses to Xiaomi's new product launches."
           ],
           "next_1_4_weeks": [
-            "Try again later."
+            "Evaluating the market performance of Xiaomi's new devices and their reception among consumers.",
+            "Following developments in the Pentagon's designation of Anthropic and any legal challenges that may arise.",
+            "Anticipating further updates on the effectiveness of the Rubin Observatory's alert system."
           ],
           "watch_list": [
-            "Pipeline reliability"
+            "Xiaomi's product performance in the competitive tech market.",
+            "Legal developments regarding Anthropic's designation as a supply chain risk.",
+            "Consumer trends in e-bikes and shared mobility solutions.",
+            "The impact of the Rubin Observatory's alerts on scientific research."
           ],
-          "confidence": "Low"
+          "confidence": "Medium"
         },
         "caveats": [
-          "OpenAI generation failed for this category.",
-          "This is an automated report; verify details via the source links."
+          "The sentiment score is based on a lexicon model and may not reflect nuanced public opinion.",
+          "Market reactions to new product launches can be unpredictable and influenced by external factors."
         ]
       }
     },
@@ -465,28 +571,63 @@
         }
       ],
       "ai_report": {
-        "summary": "Report generation failed for this category.",
+        "summary": "Today's sports news highlights significant performances at the NFL Combine, coaching changes in college football, and updates from various leagues including the NBA and soccer. The overall sentiment is positive, reflecting excitement around player achievements and upcoming events.",
         "key_themes": [
-          "Generation error",
-          "Try again later",
-          "Verify via links"
+          "NFL Combine",
+          "College Football Coaching Changes",
+          "NBA Updates",
+          "Soccer Highlights",
+          "NCAA Tournament Implications"
         ],
-        "notable_headlines": [],
+        "notable_headlines": [
+          {
+            "headline": "MSU's Thompson blazes combine-best 4.26 in 40",
+            "why_it_matters": "Brenen Thompson's impressive 40-yard dash time positions him as a top prospect ahead of the NFL draft, potentially impacting team selections.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Green, top-10 QB prospect, sets combine records",
+            "why_it_matters": "Taylen Green's record-setting performance at the combine enhances his draft stock and showcases his potential as a future NFL quarterback.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Michigan loses guard Cason (ACL) for rest of year",
+            "why_it_matters": "The loss of L.J. Cason due to injury could significantly impact Michigan's performance in the NCAA tournament, affecting their chances of success.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "FIFA to 'monitor developments' in Iran ahead of WC",
+            "why_it_matters": "FIFA's decision to monitor the situation in Iran highlights potential geopolitical risks that could affect the upcoming World Cup.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Barça's Yamal after 1st hat trick: I'm happy again",
+            "why_it_matters": "Lamine Yamal's resurgence in form could be pivotal for Barcelona as they aim for success in their season.",
+            "signal": "Opportunity"
+          }
+        ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Try again later."
+            "Continued coverage of the NFL Combine results and player performances.",
+            "Updates on NBA games and player health statuses, particularly regarding Kristaps Porzingis.",
+            "Further developments in college basketball as teams prepare for the NCAA tournament."
           ],
           "next_1_4_weeks": [
-            "Try again later."
+            "Increased focus on NFL draft preparations as combine results influence team strategies.",
+            "Ongoing analysis of NCAA tournament brackets as teams finalize their positions.",
+            "Monitoring of international soccer developments, particularly related to the World Cup."
           ],
           "watch_list": [
-            "Pipeline reliability"
+            "Performance of top NFL draft prospects as they prepare for the draft.",
+            "Injury updates for key players in college basketball and the NBA.",
+            "Geopolitical developments affecting the World Cup in Iran.",
+            "Coaching changes and their impacts on college football programs."
           ],
-          "confidence": "Low"
+          "confidence": "Medium"
         },
         "caveats": [
-          "OpenAI generation failed for this category.",
-          "This is an automated report; verify details via the source links."
+          "The sentiment score is based on a lexicon model and may not reflect all nuances of the news.",
+          "Injuries and geopolitical situations can evolve rapidly, affecting future predictions."
         ]
       }
     },
@@ -590,28 +731,64 @@
         }
       ],
       "ai_report": {
-        "summary": "Report generation failed for this category.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including microbiology, genetics, astronomy, and chemistry. Researchers have made discoveries that could impact the fight against superbugs, enhance our understanding of aging, and even revolutionize how we utilize natural resources like methane. The overall sentiment is positive, reflecting optimism about these scientific breakthroughs.",
         "key_themes": [
-          "Generation error",
-          "Try again later",
-          "Verify via links"
+          "Microbiology",
+          "Genetics",
+          "Astronomy",
+          "Chemistry",
+          "Aging",
+          "Evolution"
         ],
-        "notable_headlines": [],
+        "notable_headlines": [
+          {
+            "headline": "Scientists discover a bacterial kill switch and it could change the fight against superbugs",
+            "why_it_matters": "This discovery could lead to new treatments for drug-resistant bacterial infections, addressing a critical public health challenge.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "How the body really ages: 7 million cells mapped across 21 organs",
+            "why_it_matters": "Understanding the aging process at a cellular level could pave the way for anti-aging therapies and improve healthspan.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Your morning coffee could one day help fight cancer",
+            "why_it_matters": "This innovative approach to gene editing could enhance cancer treatment options and improve patient outcomes.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists discover microbe that breaks a fundamental rule of the genetic code",
+            "why_it_matters": "This finding challenges existing biological paradigms and could lead to new insights in genetics and protein synthesis.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Scientists turn methane into medicine in stunning breakthrough",
+            "why_it_matters": "Transforming methane into valuable pharmaceuticals could revolutionize the chemical industry and reduce reliance on fossil fuels.",
+            "signal": "Opportunity"
+          }
+        ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Try again later."
+            "Further analysis of the bacterial kill switch may lead to practical applications in medicine.",
+            "More studies on the aging cellular atlas could reveal additional insights into gender differences in aging.",
+            "Research on the coffee-based cancer treatment may progress towards clinical trials."
           ],
           "next_1_4_weeks": [
-            "Try again later."
+            "Anticipated discussions on the implications of the new findings regarding the genetic code and its impact on biotechnology.",
+            "Potential collaborations between chemists and medical researchers to explore the applications of methane-derived medicines.",
+            "Continued exploration of the implications of the findings on ancient sponges for evolutionary biology."
           ],
           "watch_list": [
-            "Pipeline reliability"
+            "Developments in anti-aging therapies based on the cellular atlas findings.",
+            "Progress in the application of chemogenetics in cancer treatment.",
+            "Research into the implications of the new microbial genetic findings.",
+            "Advancements in photocatalysis and its applications in sustainable chemistry."
           ],
-          "confidence": "Low"
+          "confidence": "Medium"
         },
         "caveats": [
-          "OpenAI generation failed for this category.",
-          "This is an automated report; verify details via the source links."
+          "The implications of some discoveries, particularly those related to genetic code and microbial behavior, are still unclear and require further validation.",
+          "Future applications of the findings may take time to develop and may not lead to immediate practical outcomes."
         ]
       }
     }
