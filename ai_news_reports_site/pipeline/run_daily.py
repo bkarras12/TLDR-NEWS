@@ -95,8 +95,9 @@ def main() -> int:
     site_root = Path(__file__).resolve().parents[1]
     date_key = local_date_key()
 
-    model = os.getenv("OPENAI_MODEL") or "gpt-4.1"
-    api_key = os.getenv("OPENAI_API_KEY")
+    # Normalize env vars (GitHub Secrets frequently include trailing newlines).
+    model = (os.getenv("OPENAI_MODEL") or "").strip() or "gpt-4o-mini"
+    api_key = (os.getenv("OPENAI_API_KEY") or "").strip() or None
     in_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
 
     if api_key:
@@ -141,41 +142,20 @@ def main() -> int:
                 sentiment=sentiment,
             )
         except Exception as e:
+            # This should be rare now (writer has its own robust fallbacks),
+            # but we keep this guard so the pipeline never crashes.
             print(f"[{key}] ERROR writing report: {type(e).__name__}: {e}", file=sys.stderr)
 
-            summary_text = "Report generation failed for this category."
-            outlook_data = {
-                "next_24_72_hours": ["Try again later."],
-                "next_1_4_weeks": ["Try again later."],
-                "watch_list": ["Pipeline reliability"],
-                "confidence": "Low",
-            }
-
-            try:
-                summary_text = writer.executive_summary_agent.run(
-                    category_title=cfg.title,
-                    source_name=cfg.site_name,
-                    items=curated_items,
-                    sentiment=sentiment,
-                )
-            except Exception:
-                pass
-
-            try:
-                outlook_data = writer.future_outlook_agent.run(
-                    category_title=cfg.title,
-                    source_name=cfg.site_name,
-                    items=curated_items,
-                    sentiment=sentiment,
-                )
-            except Exception:
-                pass
-
             report = {
-                "summary": summary_text,
+                "summary": "Report generation failed for this category.",
                 "key_themes": ["Generation error", "Try again later", "Verify via links"],
                 "notable_headlines": [],
-                "future_outlook": outlook_data,
+                "future_outlook": {
+                    "next_24_72_hours": ["Try again later."],
+                    "next_1_4_weeks": ["Try again later."],
+                    "watch_list": ["Pipeline reliability"],
+                    "confidence": "Low",
+                },
                 "caveats": [
                     "OpenAI generation failed for this category.",
                     "This is an automated report; verify details via the source links.",
@@ -198,7 +178,6 @@ def main() -> int:
             "items": [to_item_dict(i) for i in curated_items],
             "ai_report": report,
         }
-
 
     daily_report = {
         "date": date_key,
