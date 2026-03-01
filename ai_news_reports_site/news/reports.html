@@ -4,28 +4,92 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>AI News Reports</title>
+  <meta name="color-scheme" content="dark light" />
+
+  <!-- Apply saved UI preferences before CSS loads to prevent a "flash". -->
+  <script>
+    (function () {
+      try {
+        const style = localStorage.getItem("tldr_style") || "glass";
+        const mode = localStorage.getItem("tldr_mode") || "dark";
+        const layout = localStorage.getItem("tldr_layout") || "classic";
+        document.documentElement.dataset.style = style;
+        document.documentElement.dataset.mode = mode;
+        document.documentElement.dataset.layout = layout;
+      } catch (_) {}
+    })();
+  </script>
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__blob b1"></div>
+    <div class="ambient__blob b2"></div>
+    <div class="ambient__blob b3"></div>
+    <div class="ambient__noise"></div>
+  </div>
+
   <div class="wrap">
-    <header>
-      <h1>AI News Reports</h1>
-      <p class="sub">Daily, agent-generated summaries across 5 categories (World, Business, Technology, Sports, Science).</p>
+    <header class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
 
-      <div class="row">
-        <label class="muted" for="dateSelect"><strong>Date:</strong></label>
-        <select id="dateSelect" aria-label="Select report date"></select>
+      <div class="hero__top">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">TL;DR</div>
+          <div class="brand__text">
+            <h1>AI News Reports</h1>
+            <p class="sub">Daily, agent-generated summaries across 5 categories (World, Business, Technology, Sports, Science).</p>
+          </div>
+        </div>
 
-        <button id="refreshBtn" class="ghost" type="button">Refresh</button>
-        <span id="status" class="muted"></span>
+        <div class="controls" aria-label="Page controls">
+          <div class="control">
+            <label for="dateSelect">Date</label>
+            <select id="dateSelect" aria-label="Select report date"></select>
+          </div>
+
+          <div class="control">
+            <label for="styleSelect">Style</label>
+            <select id="styleSelect" aria-label="Select visual style">
+              <option value="glass">Glassmorphism (default)</option>
+              <option value="material">Material</option>
+              <option value="minimal">Minimal / Flat</option>
+              <option value="neumo">Neumorphism</option>
+              <option value="brutal">Brutalism</option>
+              <option value="retro">Retro / 90s</option>
+              <option value="max">Maximalist</option>
+              <option value="illustration">Illustration / Shapes</option>
+            </select>
+          </div>
+
+          <button id="layoutToggle" class="btn ghost" type="button" aria-pressed="false" title="Toggle broken grid layout">
+            Broken grid: Off
+          </button>
+
+          <button id="modeToggle" class="btn ghost" type="button" aria-pressed="true" title="Toggle dark mode">
+            Dark mode: On
+          </button>
+
+          <button id="refreshBtn" class="btn primary" type="button">Refresh</button>
+        </div>
       </div>
 
-      <div id="error" class="muted" style="display:none; margin-top:10px; color:#8b1d2c; font-weight:600;"></div>
+      <div class="hero__bottom">
+        <div class="statusline" role="status" aria-live="polite">
+          <span id="status" class="muted"></span>
+          <span id="error" class="error" hidden></span>
+        </div>
 
-      <div id="tabs" class="tabs" role="tablist" aria-label="News categories"></div>
+        <div id="tabs" class="tabs" role="tablist" aria-label="News categories"></div>
+      </div>
     </header>
 
-    <main id="content" style="margin-top:14px;"></main>
+    <main id="content" class="content" style="margin-top:14px;"></main>
+
+    <footer class="site-footer">
+      <span class="muted">Tip: switch styles to match your vibe (Glass, Material, Neumo, Brutal, Retro…).</span>
+    </footer>
   </div>
 
   <script src="app.js"></script>
