@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI News Reports</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>AI News Reports</h1>
+      <p class="sub">Daily, agent-generated summaries across 5 categories (World, Business, Technology, Sports, Science).</p>
+
+      <div class="row">
+        <label class="muted" for="dateSelect"><strong>Date:</strong></label>
+        <select id="dateSelect" aria-label="Select report date"></select>
+
+        <button id="refreshBtn" class="ghost" type="button">Refresh</button>
+        <span id="status" class="muted"></span>
+      </div>
+
+      <div id="error" class="muted" style="display:none; margin-top:10px; color:#8b1d2c; font-weight:600;"></div>
+
+      <div id="tabs" class="tabs" role="tablist" aria-label="News categories"></div>
+    </header>
+
+    <main id="content" style="margin-top:14px;"></main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
