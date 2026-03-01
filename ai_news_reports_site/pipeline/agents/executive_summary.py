@@ -5,6 +5,7 @@ from typing import List
 from openai import OpenAI
 
 from .base import NewsItem, SentimentResult
+from .openai_compat import chat_completion_text
 
 
 class ExecutiveSummaryAgent:
@@ -47,14 +48,12 @@ HEADLINES:
 Use only the supplied headlines and summaries. Do not invent facts.
 """
 
-        resp = self.client.responses.create(
+        res = chat_completion_text(
+            client=self.client,
             model=self.model,
-            input=[
-                {
-                    "role": "developer",
-                    "content": "You are a neutral news editor. Write clear, factual summaries.",
-                },
-                {"role": "user", "content": prompt},
-            ],
+            system="You are a neutral news editor. Write clear, factual summaries.",
+            user=prompt,
+            fallback_models=["gpt-4o-mini", "gpt-4o"],
+            temperature=0.2,
         )
-        return (resp.output_text or "").strip()
+        return res.text
