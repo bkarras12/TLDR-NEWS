@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>AI News Reports</title>
+  <title>AI News Reports · TL;DR News</title>
+  <meta name="description" content="Daily, agent-generated news summaries across 5 categories." />
   <meta name="color-scheme" content="dark light" />
 
   <!-- Force Brutalism (and preserve mode/layout prefs). -->
@@ -25,7 +26,9 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- Ambient background -->
   <div class="ambient" aria-hidden="true">
     <div class="ambient__blob b1"></div>
     <div class="ambient__blob b2"></div>
@@ -34,45 +37,49 @@
   </div>
 
   <div class="wrap">
-    <header class="hero">
+    <a class="skip-link" href="#content">Skip to reports</a>
+
+    <header class="hero" role="banner">
       <div class="hero__bg" aria-hidden="true"></div>
 
       <div class="hero__top">
-        <div class="brand">
-          <div class="logo" aria-hidden="true">TL;DR News</div>
+        <div class="brand" aria-label="Site branding">
+          <div class="logo" aria-hidden="true">TL;DR</div>
           <div class="brand__text">
-            <h1>AI News Reports</h1>
+            <h1 class="title">AI News Reports</h1>
             <p class="sub">Daily, agent-generated summaries across 5 categories.</p>
           </div>
         </div>
 
-        <div class="controls" aria-label="Page controls">
+        <div class="controls" aria-label="Report controls">
           <div class="control">
             <label for="dateSelect">Date</label>
             <select id="dateSelect" aria-label="Select report date"></select>
           </div>
 
-          
-
-          
-
-          <button id="refreshBtn" class="btn primary" type="button">Refresh</button>
+          <div class="control control--actions" aria-label="Actions">
+            <button id="refreshBtn" class="btn primary" type="button" aria-label="Refresh reports">
+              Refresh
+            </button>
+          </div>
         </div>
       </div>
 
       <div class="hero__bottom">
-        <div class="statusline" role="status" aria-live="polite">
+        <div class="statusline" role="status" aria-live="polite" aria-atomic="true">
           <span id="status" class="muted"></span>
           <span id="error" class="error" hidden></span>
         </div>
 
-        <div id="tabs" class="tabs" role="tablist" aria-label="News categories"></div>
+        <nav class="tabs-wrap" aria-label="News categories">
+          <div id="tabs" class="tabs" role="tablist"></div>
+        </nav>
       </div>
     </header>
 
-    <main id="content" class="content" style="margin-top:14px;"></main>
+    <main id="content" class="content" role="main" tabindex="-1"></main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
       <span class="muted">Quick news for shortened attention spans</span>
     </footer>
   </div>
