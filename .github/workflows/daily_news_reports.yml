@@ -44,6 +44,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          SITE_URL: ${{ secrets.SITE_URL }}
         run: |
           python -m pipeline.run_daily
 
@@ -52,7 +53,7 @@ jobs:
           git status --porcelain
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add ai_news_reports_site/news/data
+          git add ai_news_reports_site/news/data ai_news_reports_site/sitemap.xml
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

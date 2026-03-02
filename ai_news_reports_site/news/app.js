@@ -1,4 +1,5 @@
 const INDEX_URL = "./data/reports_index.json";
+const SITE_URL = "https://YOUR_DOMAIN";
 
 const CATEGORY_ORDER = ["world", "business", "technology", "sports", "science"];
 
@@ -142,6 +143,75 @@ function animateCards(){
   document.querySelectorAll("#content .card:not(.skeleton)").forEach((card, i) => {
     setTimeout(() => card.classList.add("is-visible"), i * 80);
   });
+}
+
+function readUrlParams(){
+  const p = new URLSearchParams(window.location.search);
+  const d = p.get("date");
+  const c = p.get("cat");
+  if (d) currentDate = d;
+  if (c && CATEGORY_ORDER.includes(c)) currentCategory = c;
+}
+
+function pushUrlState(){
+  if (!currentDate) return;
+  const url = new URL(window.location.href);
+  url.searchParams.set("date", currentDate);
+  url.searchParams.set("cat", currentCategory);
+  history.replaceState(null, "", url.toString());
+}
+
+function updateMeta(catData){
+  const date = currentDate || "";
+  const catLabel = CATEGORY_LABELS[currentCategory] || currentCategory;
+  const summary = catData?.ai_report?.summary || "";
+  const desc = summary
+    ? summary.slice(0, 155) + (summary.length > 155 ? "\u2026" : "")
+    : `${catLabel} news for ${date} \u2014 AI-generated daily briefing.`;
+  const title = `${catLabel} \u00b7 ${date} | TL;DR News`;
+  const pageUrl = `${SITE_URL}/news/reports.html?date=${date}&cat=${currentCategory}`;
+
+  document.title = title;
+
+  const can = document.getElementById("metaCanonical");
+  if (can) can.href = pageUrl;
+
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.content = desc;
+
+  const ogTitle = document.getElementById("metaOgTitle");
+  const ogDesc = document.getElementById("metaOgDesc");
+  const ogUrl = document.getElementById("metaOgUrl");
+  if (ogTitle) ogTitle.setAttribute("content", title);
+  if (ogDesc) ogDesc.setAttribute("content", desc);
+  if (ogUrl) ogUrl.setAttribute("content", pageUrl);
+
+  const twTitle = document.getElementById("metaTwTitle");
+  const twDesc = document.getElementById("metaTwDesc");
+  if (twTitle) twTitle.setAttribute("content", title);
+  if (twDesc) twDesc.setAttribute("content", desc);
+
+  const jsonLdPage = document.getElementById("jsonLdPage");
+  if (jsonLdPage && currentReport){
+    const themes = catData?.ai_report?.key_themes || [];
+    const ld = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": title,
+      "url": pageUrl,
+      "description": desc,
+      "datePublished": date,
+      "dateModified": currentReport.generated_at_utc || date,
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "TL;DR News",
+        "url": SITE_URL
+      },
+      "about": themes.map(t => ({ "@type": "Thing", "name": t })),
+      "keywords": [catLabel, "AI news", "daily briefing", "news summary", date].join(", ")
+    };
+    jsonLdPage.textContent = JSON.stringify(ld);
+  }
 }
 
 function buildTabs(){
@@ -425,6 +495,10 @@ function render(){
       render();
     };
   }
+
+  const catData = currentReport?.categories?.[currentCategory];
+  pushUrlState();
+  updateMeta(catData);
 }
 
 function filterItems(items, query){
@@ -586,6 +660,7 @@ function stripHtml(str){
 }
 
 async function init(){
+  readUrlParams();
   initUiControls();
   initProgressBar();
 

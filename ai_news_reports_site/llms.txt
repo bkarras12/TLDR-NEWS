@@ -1,0 +1,40 @@
+# TL;DR News
+
+> Daily AI-generated news intelligence across World, Business, Technology,
+> Sports, and Science — distilled for fast decision-making.
+
+TL;DR News is an automated pipeline that fetches top RSS headlines daily from
+authoritative sources (BBC News, The Guardian, The Verge, ESPN, ScienceDaily),
+runs sentiment analysis, and produces structured AI reports (GPT-4o-mini).
+Reports include executive summaries, key themes, notable headlines with signal
+labels (Opportunity / Risk / Unclear), 24–72h and 1–4wk future outlooks, and
+source caveats.
+
+## Reports
+
+- [Latest daily report](/news/reports.html) — full interactive reader
+- [Report index JSON](/news/data/reports_index.json) — machine-readable list of
+  available dates (last 45 days)
+
+## Data API
+
+Daily reports are available as structured JSON:
+`/news/data/reports/YYYY-MM-DD.json`
+
+Each report contains: date, model used, UTC generation timestamp, and per-category
+objects with source metadata, sentiment scores, and a full AI-generated report
+object (summary, key_themes, notable_headlines, future_outlook, caveats).
+
+## Categories
+
+- **World** — BBC News world RSS
+- **Business** — The Guardian business RSS
+- **Technology** — The Verge RSS
+- **Sports** — ESPN RSS
+- **Science** — ScienceDaily top science RSS
+
+## About
+
+TL;DR News is built for readers who need fast, accurate situational awareness
+without spending hours reading the news. Content is generated programmatically;
+all source links point to original journalism.

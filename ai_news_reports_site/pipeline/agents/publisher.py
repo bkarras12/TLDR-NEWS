@@ -1,8 +1,11 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 from typing import Any, Dict, List
+
+SITE_URL = os.environ.get("SITE_URL", "https://YOUR_DOMAIN").rstrip("/")
 
 
 class PublisherAgent:
@@ -41,3 +44,30 @@ class PublisherAgent:
         idx["dates"] = idx_dates
 
         self.index_path.write_text(json.dumps(idx, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+        self._write_sitemap(idx_dates)
+
+    def _write_sitemap(self, idx_dates: List[Dict[str, Any]]) -> None:
+        lines = [
+            '<?xml version="1.0" encoding="UTF-8"?>',
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+            '  <url>',
+            f'    <loc>{SITE_URL}/news/reports.html</loc>',
+            '    <changefreq>daily</changefreq>',
+            '    <priority>1.0</priority>',
+            '  </url>',
+        ]
+        for entry in idx_dates:
+            d = entry.get("date", "")
+            if d:
+                lines += [
+                    '  <url>',
+                    f'    <loc>{SITE_URL}/news/reports.html?date={d}</loc>',
+                    f'    <lastmod>{d}</lastmod>',
+                    '    <changefreq>never</changefreq>',
+                    '    <priority>0.8</priority>',
+                    '  </url>',
+                ]
+        lines.append('</urlset>')
+        sitemap_path = self.site_root / "sitemap.xml"
+        sitemap_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

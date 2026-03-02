@@ -6,6 +6,52 @@
   <title>AI News Reports · TL;DR News</title>
   <meta name="description" content="Daily, agent-generated news summaries across 5 categories." />
   <meta name="color-scheme" content="dark light" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical (updated dynamically by app.js per report) -->
+  <link rel="canonical" id="metaCanonical" href="https://YOUR_DOMAIN/news/reports.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="TL;DR News" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta id="metaOgTitle" property="og:title" content="TL;DR News — Daily AI News Reports" />
+  <meta id="metaOgDesc" property="og:description" content="Daily AI-generated news summaries across World, Business, Technology, Sports, and Science." />
+  <meta id="metaOgUrl" property="og:url" content="https://YOUR_DOMAIN/news/reports.html" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta id="metaTwTitle" name="twitter:title" content="TL;DR News — Daily AI News Reports" />
+  <meta id="metaTwDesc" name="twitter:description" content="Daily AI-generated news summaries across World, Business, Technology, Sports, and Science." />
+
+  <!-- JSON-LD: WebSite + NewsMediaOrganization (static) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "TL;DR News",
+        "url": "https://YOUR_DOMAIN/",
+        "description": "Daily AI-generated news intelligence across 5 categories.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://YOUR_DOMAIN/news/reports.html?date={date}",
+          "query-input": "required name=date"
+        }
+      },
+      {
+        "@type": "NewsMediaOrganization",
+        "name": "TL;DR News",
+        "url": "https://YOUR_DOMAIN/",
+        "description": "Automated daily news intelligence powered by AI."
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: WebPage — injected dynamically by app.js per report -->
+  <script id="jsonLdPage" type="application/ld+json">{}</script>
 
   <!-- Force Brutalism (and preserve mode/layout prefs). -->
   <script>
