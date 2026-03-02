@@ -126,6 +126,24 @@ function setLoading(flag){
   document.documentElement.classList.toggle("is-loading", isLoading);
 }
 
+function initProgressBar(){
+  const bar = el("progressBar");
+  if (!bar) return;
+  function update(){
+    const scrolled = window.scrollY;
+    const total = document.documentElement.scrollHeight - window.innerHeight;
+    bar.style.width = (total > 0 ? (scrolled / total) * 100 : 0) + "%";
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+}
+
+function animateCards(){
+  document.querySelectorAll("#content .card:not(.skeleton)").forEach((card, i) => {
+    setTimeout(() => card.classList.add("is-visible"), i * 80);
+  });
+}
+
 function buildTabs(){
   const tabs = el("tabs");
   tabs.innerHTML = "";
@@ -141,6 +159,7 @@ function buildTabs(){
       currentCategory = key;
       buildTabs();
       render();
+      animateCards();
     };
     tabs.appendChild(b);
   }
@@ -174,6 +193,7 @@ function populateDates(){
     renderSkeleton();
     await loadReport(currentDate);
     render();
+    animateCards();
   };
 }
 
@@ -226,6 +246,23 @@ function findItemUrl(headline){
     }
   }
   return null;
+}
+
+function buildSentimentKpi(sent, outlook){
+  const score = sent.score ?? 0;
+  const pct = ((Math.min(1, Math.max(-1, score)) + 1) / 2) * 100;
+  const fillColor = score > 0.1 ? "var(--positive)" : score < -0.1 ? "var(--negative)" : "var(--neutral)";
+  const labelClass = (sent.label || "").toLowerCase().includes("positive") ? "badge--positive"
+                   : (sent.label || "").toLowerCase().includes("negative") ? "badge--negative"
+                   : "badge--neutral";
+  return `
+    <span class="badge ${labelClass}">${escapeHtml(sent.label || "—")}</span>
+    <div class="sentiment-bar" title="Sentiment score: ${fmtScore(score)}">
+      <div class="sentiment-fill" style="width:${pct}%;background:${fillColor}"></div>
+    </div>
+    <span class="badge"><strong>Score:</strong> ${fmtScore(sent.score)}</span>
+    <span class="badge"><strong>Confidence:</strong> ${escapeHtml(outlook.confidence || "—")}</span>
+  `;
 }
 
 function render(){
@@ -283,9 +320,13 @@ function render(){
     const url = findItemUrl(n.headline);
     const head = escapeHtml(n.headline || "");
     const link = url ? `<a href="${escapeAttr(url)}" target="_blank" rel="noopener">${head}</a>` : head;
+    const sigLower = (n.signal || "").toLowerCase();
+    const sigClass = sigLower.includes("positive") ? "badge--positive"
+                   : sigLower.includes("negative") ? "badge--negative"
+                   : "badge--neutral";
     return `
       <div class="item">
-        <div>${link} <span class="badge"><strong>${escapeHtml(n.signal || "Unclear")}</strong></span></div>
+        <div>${link} <span class="badge ${sigClass}">${escapeHtml(n.signal || "Unclear")}</span></div>
         <div class="sum">${escapeHtml(n.why_it_matters || "")}</div>
       </div>
     `;
@@ -322,9 +363,7 @@ function render(){
         </div>
 
         <div class="kpi">
-          <span class="badge"><strong>Sentiment:</strong> ${escapeHtml(sent.label || "—")}</span>
-          <span class="badge"><strong>Score:</strong> ${fmtScore(sent.score)}</span>
-          <span class="badge"><strong>Outlook confidence:</strong> ${escapeHtml(outlook.confidence || "—")}</span>
+          ${buildSentimentKpi(sent, outlook)}
         </div>
 
         <div class="hr"></div>
@@ -548,6 +587,7 @@ function stripHtml(str){
 
 async function init(){
   initUiControls();
+  initProgressBar();
 
   renderSkeleton();
 
@@ -557,12 +597,14 @@ async function init(){
     await loadIndex();
     if (currentDate) await loadReport(currentDate);
     render();
+    animateCards();
   };
 
   await loadIndex();
   if (currentDate) await loadReport(currentDate);
   buildTabs();
   render();
+  animateCards();
 }
 
 init().catch(err => {
