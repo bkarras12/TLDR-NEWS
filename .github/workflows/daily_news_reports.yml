@@ -73,12 +73,14 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Post to Bluesky
-        if: ${{ secrets.BSKY_IDENTIFIER != '' }}
+      - name: Post to X
+        if: ${{ secrets.X_API_KEY != '' }}
         working-directory: ai_news_reports_site
         env:
-          BSKY_IDENTIFIER: ${{ secrets.BSKY_IDENTIFIER }}
-          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           SITE_URL: ${{ secrets.SITE_URL }}
         run: |
-          python pipeline/post_bluesky.py
+          python pipeline/post_x.py
