@@ -1,4 +1,108 @@
+# ==============================================================================
+# robots.txt — TL;DR News
+# SEO: explicit search engine permissions + crawl paths
+# GEO: explicit Allow for AI answer engines and LLM training crawlers so that
+#      content is eligible for citation in ChatGPT, Claude, Perplexity, Gemini.
+# Last updated: 2026-03-03
+# ==============================================================================
+
+# ── Major search engines ───────────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ── AI answer engines + LLM crawlers (GEO) ─────────────────────────────────────
+# Explicitly allowing these bots signals this site welcomes AI citation.
+# Each bot corresponds to a major AI product that can surface TL;DR News content.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ── SEO tools (allows site to appear in keyword/competitor research) ────────────
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+User-agent: DataForSeoBot
+Allow: /
+
+# ── Low-value scrapers (no traffic value, high noise) ──────────────────────────
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: SiteAuditBot
+Disallow: /
+
+# ── Default: allow everything else ────────────────────────────────────────────
 User-agent: *
 Allow: /
 
+# ── Sitemap ────────────────────────────────────────────────────────────────────
 Sitemap: https://YOUR_DOMAIN/sitemap.xml
