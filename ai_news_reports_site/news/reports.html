@@ -53,6 +53,11 @@
   <!-- JSON-LD: WebPage — injected dynamically by app.js per report -->
   <script id="jsonLdPage" type="application/ld+json">{}</script>
 
+  <!-- RSS feed discovery -->
+  <link rel="alternate" type="application/rss+xml"
+        title="TL;DR News — Daily AI Briefings"
+        href="https://YOUR_DOMAIN/feed.xml" />
+
   <!-- Force Brutalism (and preserve mode/layout prefs). -->
   <script>
     (function () {
@@ -105,9 +110,9 @@
           </div>
 
           <div class="control control--actions" aria-label="Actions">
-            <button id="refreshBtn" class="btn primary" type="button" aria-label="Refresh reports">
-              Refresh
-            </button>
+            <button id="shareBtn" class="btn" type="button" aria-label="Share this report">Share</button>
+            <button id="prefsBtn" class="btn" type="button" aria-label="Customize categories">Customize</button>
+            <button id="refreshBtn" class="btn primary" type="button" aria-label="Refresh reports">Refresh</button>
           </div>
         </div>
       </div>
@@ -121,13 +126,39 @@
         <nav class="tabs-wrap" aria-label="News categories">
           <div id="tabs" class="tabs" role="tablist"></div>
         </nav>
+
+        <!-- Category preferences panel (toggled by Customize button) -->
+        <div id="prefsPanel" class="prefs-panel" hidden aria-label="Customize visible categories"></div>
       </div>
     </header>
+
+    <!-- Newsletter signup band -->
+    <section class="signup-band" aria-label="Newsletter signup">
+      <div class="signup-band__inner">
+        <div class="signup-band__copy">
+          <strong>Get the daily briefing in your inbox.</strong>
+          <span class="muted">Free. No fluff. Unsubscribe anytime.</span>
+        </div>
+        <!-- Replace action URL with your Beehiiv/ConvertKit embed URL -->
+        <form class="signup-form" action="YOUR_BEEHIIV_EMBED_URL" method="post"
+              target="_blank" rel="noopener">
+          <input type="email" name="email" placeholder="your@email.com"
+                 required autocomplete="email" aria-label="Email address" />
+          <button type="submit" class="btn primary">Subscribe free</button>
+        </form>
+      </div>
+    </section>
 
     <main id="content" class="content" role="main" tabindex="-1"></main>
 
     <footer class="site-footer" role="contentinfo">
       <span class="muted">Quick news for shortened attention spans</span>
+      <span class="site-footer__sep" aria-hidden="true">·</span>
+      <!-- Replace YOUR_KOFI_ID with your Ko-fi username -->
+      <a href="https://ko-fi.com/YOUR_KOFI_ID" target="_blank" rel="noopener"
+         class="kofi-btn" aria-label="Support TL;DR News on Ko-fi">&#9829; Support</a>
+      <span class="site-footer__sep" aria-hidden="true">·</span>
+      <a href="https://YOUR_DOMAIN/feed.xml" class="muted" aria-label="RSS feed">RSS</a>
     </footer>
   </div>
 

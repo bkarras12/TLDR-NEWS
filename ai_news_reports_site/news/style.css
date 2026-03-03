@@ -544,6 +544,115 @@ select:focus, input:focus {
   margin-top: 6px;
 }
 
+/* ---------- Trending theme badge ---------- */
+.badge--trend {
+  background: rgba(251,191,36,.12);
+  color: #fbbf24;
+  border-color: rgba(251,191,36,.28);
+  font-size: 10px;
+  padding: 2px 7px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+/* ---------- Newsletter signup band ---------- */
+.signup-band {
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(34,211,238,.05) 0%, transparent 70%);
+  box-shadow: var(--shadow2);
+  margin-bottom: 16px;
+  padding: 20px var(--pad2);
+}
+.signup-band__inner {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.signup-band__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.signup-band__copy strong {
+  font-size: 15px;
+  color: var(--text);
+}
+.signup-form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.signup-form input[type="email"] {
+  width: 220px;
+  padding: 10px 14px;
+  border-radius: var(--radius2);
+  border: 1px solid var(--border2);
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 13px;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+.signup-form input[type="email"]:focus {
+  border-color: rgba(34,211,238,.55);
+  box-shadow: 0 0 0 3px rgba(34,211,238,.10);
+}
+
+/* ---------- Category prefs panel ---------- */
+.prefs-panel {
+  margin-top: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--border2);
+  border-radius: var(--radius2);
+  background: var(--surface2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  align-items: center;
+}
+.prefs-panel__label {
+  width: 100%;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--text2);
+}
+.prefs-check {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text);
+  cursor: pointer;
+  user-select: none;
+}
+.prefs-check input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+.prefs-check input:disabled { opacity: .4; cursor: not-allowed; }
+.prefs-reset {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--text2);
+  font-family: var(--mono);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius2);
+  transition: color .15s;
+}
+.prefs-reset:hover { color: var(--accent); }
+
 /* ---------- Site Footer ---------- */
 .site-footer {
   margin-top: 40px;
@@ -553,7 +662,21 @@ select:focus, input:focus {
   font-size: 11px;
   text-align: center;
   letter-spacing: .06em;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+.site-footer__sep { opacity: .35; }
+.kofi-btn {
+  color: #ff5f5f;
+  text-decoration: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  transition: opacity .15s;
+}
+.kofi-btn:hover { opacity: .75; text-decoration: none; }
 
 /* ---------- Loading Skeleton ---------- */
 @keyframes shimmer {
@@ -600,4 +723,8 @@ select:focus, input:focus {
   .item { padding: 12px 14px; }
   .search { padding: 10px 14px; }
   .split3 { padding: 10px 14px 14px; }
+  .signup-band { padding: 16px; }
+  .signup-band__inner { flex-direction: column; align-items: stretch; }
+  .signup-form { flex-direction: column; }
+  .signup-form input[type="email"] { width: 100%; }
 }

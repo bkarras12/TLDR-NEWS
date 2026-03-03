@@ -14,6 +14,7 @@ const CATEGORY_LABELS = {
 const PREF_KEYS = {
   mode: "tldr_mode",
   layout: "tldr_layout",
+  hiddenCats: "tldr_hidden_cats",
 };
 
 let indexData = null;
@@ -145,6 +146,111 @@ function animateCards(){
   });
 }
 
+// ── Category preferences ────────────────────────────────────────────────────
+
+function getHiddenCats(){
+  try{
+    const v = localStorage.getItem(PREF_KEYS.hiddenCats) || "";
+    return new Set(v.split(",").map(s => s.trim()).filter(Boolean));
+  }catch(_){ return new Set(); }
+}
+
+function setHiddenCats(hiddenSet){
+  try{ localStorage.setItem(PREF_KEYS.hiddenCats, [...hiddenSet].join(",")); }catch(_){}
+}
+
+function buildPrefsPanel(){
+  const panel = el("prefsPanel");
+  if (!panel) return;
+  const hidden = getHiddenCats();
+  const visibleCount = CATEGORY_ORDER.filter(k => !hidden.has(k)).length;
+
+  panel.innerHTML = `
+    <div class="prefs-panel__label">Visible categories</div>
+    ${CATEGORY_ORDER.map(key => `
+      <label class="prefs-check">
+        <input type="checkbox" data-cat="${key}"
+               ${hidden.has(key) ? "" : "checked"}
+               ${!hidden.has(key) && visibleCount === 1 ? "disabled" : ""} />
+        ${escapeHtml(CATEGORY_LABELS[key] ?? key)}
+      </label>
+    `).join("")}
+    <button class="prefs-reset" type="button">Reset</button>
+  `;
+
+  panel.querySelectorAll("input[data-cat]").forEach(cb => {
+    cb.onchange = () => {
+      const h = getHiddenCats();
+      const cat = cb.dataset.cat;
+      cb.checked ? h.delete(cat) : h.add(cat);
+      // Always keep at least one category visible
+      if (CATEGORY_ORDER.every(k => h.has(k))) h.delete(cat);
+      setHiddenCats(h);
+      if (h.has(currentCategory)){
+        currentCategory = CATEGORY_ORDER.find(k => !h.has(k)) || CATEGORY_ORDER[0];
+      }
+      buildPrefsPanel();
+      buildTabs();
+      render();
+      animateCards();
+    };
+  });
+
+  panel.querySelector(".prefs-reset").onclick = () => {
+    setHiddenCats(new Set());
+    buildPrefsPanel();
+    buildTabs();
+    render();
+    animateCards();
+  };
+}
+
+// ── Web Share ────────────────────────────────────────────────────────────────
+
+function initShareButton(){
+  const btn = el("shareBtn");
+  if (!btn) return;
+  btn.onclick = async () => {
+    const url = window.location.href;
+    const title = document.title;
+    try{
+      if (navigator.share){
+        await navigator.share({ title, url });
+      } else {
+        await navigator.clipboard.writeText(url);
+        const orig = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => { btn.textContent = orig; }, 1800);
+      }
+    }catch(_){}
+  };
+}
+
+// ── Trend helpers (for key themes) ──────────────────────────────────────────
+
+function wordsOverlap(a, b){
+  const stop = new Set(["the","a","an","of","in","to","and","for","on","is","are","at","by","with"]);
+  const words = str => new Set(
+    str.toLowerCase().split(/[\s,]+/)
+       .map(w => w.replace(/[^a-z]/g, ""))
+       .filter(w => w.length > 2 && !stop.has(w))
+  );
+  const wa = words(a), wb = words(b);
+  if (!wa.size || !wb.size) return false;
+  let shared = 0;
+  for (const w of wa) if (wb.has(w)) shared++;
+  return shared / Math.min(wa.size, wb.size) >= 0.5;
+}
+
+function trendBadge(theme, catTrends){
+  for (const t of (catTrends || [])){
+    if (wordsOverlap(theme, t.theme || "")){
+      return `<span class="badge badge--trend" title="${t.streak}-day recurring theme">${t.streak}d</span>`;
+    }
+  }
+  return "";
+}
+
 function readUrlParams(){
   const p = new URLSearchParams(window.location.search);
   const d = p.get("date");
@@ -217,8 +323,15 @@ function updateMeta(catData){
 function buildTabs(){
   const tabs = el("tabs");
   tabs.innerHTML = "";
+  const hidden = getHiddenCats();
+
+  // If the current category is hidden, fall back to the first visible one
+  if (hidden.has(currentCategory)){
+    currentCategory = CATEGORY_ORDER.find(k => !hidden.has(k)) || CATEGORY_ORDER[0];
+  }
 
   for (const key of CATEGORY_ORDER){
+    if (hidden.has(key)) continue;
     const b = document.createElement("button");
     b.type = "button";
     b.setAttribute("role", "tab");
@@ -381,8 +494,10 @@ function render(){
   const sent = cat.sentiment || {};
   const rep = cat.ai_report || {};
   const items = cat.items || [];
+  const catTrends = cat.trends || [];
 
-  const keyThemes = normalizeList(rep.key_themes).map(t => `<span class="pill">${escapeHtml(t)}</span>`).join("");
+  const keyThemes = normalizeList(rep.key_themes)
+    .map(t => `<span class="pill">${escapeHtml(t)}${trendBadge(t, catTrends)}</span>`).join("");
   const caveats = normalizeList(rep.caveats).map(c => `<li>${escapeHtml(c)}</li>`).join("");
   const notableItems = normalizeNotableHeadlines(rep.notable_headlines, items);
 
@@ -663,6 +778,25 @@ async function init(){
   readUrlParams();
   initUiControls();
   initProgressBar();
+  initShareButton();
+
+  // Customize button toggles the prefs panel
+  const prefsBtn = el("prefsBtn");
+  const prefsPanel = el("prefsPanel");
+  if (prefsBtn && prefsPanel){
+    prefsBtn.onclick = () => {
+      const isHidden = prefsPanel.hidden;
+      prefsPanel.hidden = !isHidden;
+      if (!isHidden) return;
+      buildPrefsPanel();
+    };
+    // Close panel when clicking outside
+    document.addEventListener("click", e => {
+      if (!prefsPanel.hidden && !prefsPanel.contains(e.target) && e.target !== prefsBtn){
+        prefsPanel.hidden = true;
+      }
+    }, { capture: true });
+  }
 
   renderSkeleton();
 

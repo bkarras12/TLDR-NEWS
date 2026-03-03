@@ -16,6 +16,7 @@ from pipeline.agents.curator import CuratorAgent
 from pipeline.agents.sentiment import SentimentAgent
 from pipeline.agents.report_writer import ReportWriterAgent
 from pipeline.agents.publisher import PublisherAgent
+from pipeline.agents.trend_tracker import TrendTrackerAgent
 from pipeline.agents.base import NewsItem
 
 
@@ -188,6 +189,13 @@ def main() -> int:
     }
 
     publisher = PublisherAgent(site_root=site_root)
+
+    # Attach cross-day trend data before saving
+    tracker = TrendTrackerAgent(publisher.reports_dir)
+    trend_data = tracker.run(date_key, list(categories_out.keys()))
+    for cat_key, trending in trend_data.items():
+        daily_report["categories"][cat_key]["trends"] = trending
+
     out_path = publisher.write_daily_report(date_key, daily_report)
     publisher.update_index(date_key=date_key, available_categories=list(CATEGORIES.keys()))
 
