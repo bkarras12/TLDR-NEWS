@@ -292,11 +292,6 @@ function updateMeta(catData){
   if (ogDesc) ogDesc.setAttribute("content", desc);
   if (ogUrl) ogUrl.setAttribute("content", pageUrl);
 
-  const twTitle = document.getElementById("metaTwTitle");
-  const twDesc = document.getElementById("metaTwDesc");
-  if (twTitle) twTitle.setAttribute("content", title);
-  if (twDesc) twDesc.setAttribute("content", desc);
-
   const jsonLdPage = document.getElementById("jsonLdPage");
   if (jsonLdPage && currentReport){
     const themes = catData?.ai_report?.key_themes || [];

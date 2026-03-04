@@ -555,53 +555,6 @@ select:focus, input:focus {
   vertical-align: middle;
 }
 
-/* ---------- Newsletter signup band ---------- */
-.signup-band {
-  border: 1px solid var(--border2);
-  border-radius: var(--radius);
-  background: linear-gradient(135deg, rgba(34,211,238,.05) 0%, transparent 70%);
-  box-shadow: var(--shadow2);
-  margin-bottom: 16px;
-  padding: 20px var(--pad2);
-}
-.signup-band__inner {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.signup-band__copy {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-.signup-band__copy strong {
-  font-size: 15px;
-  color: var(--text);
-}
-.signup-form {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-.signup-form input[type="email"] {
-  width: 220px;
-  padding: 10px 14px;
-  border-radius: var(--radius2);
-  border: 1px solid var(--border2);
-  background: var(--surface);
-  color: var(--text);
-  font-family: var(--mono);
-  font-size: 13px;
-  outline: none;
-  transition: border-color .15s, box-shadow .15s;
-}
-.signup-form input[type="email"]:focus {
-  border-color: rgba(34,211,238,.55);
-  box-shadow: 0 0 0 3px rgba(34,211,238,.10);
-}
-
 /* ---------- Category prefs panel ---------- */
 .prefs-panel {
   margin-top: 12px;
@@ -669,15 +622,6 @@ select:focus, input:focus {
   flex-wrap: wrap;
 }
 .site-footer__sep { opacity: .35; }
-.kofi-btn {
-  color: #ff5f5f;
-  text-decoration: none;
-  font-family: var(--mono);
-  font-size: 11px;
-  transition: opacity .15s;
-}
-.kofi-btn:hover { opacity: .75; text-decoration: none; }
-
 /* ---------- Loading Skeleton ---------- */
 @keyframes shimmer {
   0%   { background-position: -600px 0; }
@@ -723,8 +667,4 @@ select:focus, input:focus {
   .item { padding: 12px 14px; }
   .search { padding: 10px 14px; }
   .split3 { padding: 10px 14px 14px; }
-  .signup-band { padding: 16px; }
-  .signup-band__inner { flex-direction: column; align-items: stretch; }
-  .signup-form { flex-direction: column; }
-  .signup-form input[type="email"] { width: 100%; }
 }
