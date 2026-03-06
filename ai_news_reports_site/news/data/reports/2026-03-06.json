@@ -1,6 +1,6 @@
 {
   "date": "2026-03-06",
-  "generated_at_utc": "2026-03-06T17:20:08Z",
+  "generated_at_utc": "2026-03-06T23:42:41Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "categories": {
@@ -13,7 +13,7 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.9928,
+        "score": -0.9967,
         "label": "Negative",
         "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
@@ -26,10 +26,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Trump cuts his losses on Noem after controversial tenure at homeland security",
-          "url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Mar 2026 22:16:24 GMT",
-          "summary": "Noem was one of the administration's brightest stars when she stepped into the role, but has faced a mounting backlash in recent months.",
+          "title": "'Massive' numbers killed by gunmen in latest Nigeria attack, senator tells BBC",
+          "url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Mar 2026 17:06:14 GMT",
+          "summary": "Suspected Islamist militants reportedly seized control of a village for two days before being forced out by troops and air strikes.",
           "source": "BBC News"
         },
         {
@@ -40,10 +40,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Hungary to expel Ukrainian bank workers in row with Kyiv",
+          "title": "Ukrainian bank workers released after detention in Hungary",
           "url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 06 Mar 2026 15:17:18 GMT",
-          "summary": "Hungary says the workers were detained on suspicion of money laundering as a fierce row between the two countries escalates.",
+          "published": "Fri, 06 Mar 2026 18:37:58 GMT",
+          "summary": "Kyiv has reacted furiously after officials in Budapest accused staff transporting cash to Ukraine of money laundering.",
           "source": "BBC News"
         },
         {
@@ -104,79 +104,63 @@
         }
       ],
       "ai_report": {
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.993). Top story: 'What is the game plan?': The Iran war is unsettling China and its ambitions.",
+        "summary": "Today's world news highlights significant geopolitical tensions, particularly in the Middle East and Africa, alongside notable developments in international relations and domestic policies affecting youth. The overall sentiment is negative, reflecting concerns over violence, diplomatic instability, and economic challenges.",
         "key_themes": [
-          "'What is the game plan?': The Iran war is unsettling China and its ambitions",
-          "Trump cuts his losses on Noem after controversial tenure at homeland security",
-          "US and Venezuela agree to resume diplomatic ties after Maduro capture",
-          "Hungary to expel Ukrainian bank workers in row with Kyiv",
-          "US economy unexpectedly sheds 92,000 jobs in February"
+          "Geopolitical Tensions",
+          "International Relations",
+          "Youth Policy",
+          "Economic Challenges",
+          "Violence and Security"
         ],
         "notable_headlines": [
           {
-            "headline": "'What is the game plan?': The Iran war is unsettling China and its ambitions",
-            "why_it_matters": "China is not feeling the shock of war in the Middle East - yet. But it is feeling the ripples.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Trump cuts his losses on Noem after controversial tenure at homeland security",
-            "why_it_matters": "Noem was one of the administration's brightest stars when she stepped into the role, but has faced a mounting backlash in recent months.",
+            "headline": "'Massive' numbers killed by gunmen in latest Nigeria attack, senator tells BBC",
+            "why_it_matters": "The ongoing violence in Nigeria highlights the persistent threat of Islamist militants and the challenges faced by government forces in maintaining security.",
             "signal": "Risk"
           },
           {
             "headline": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
-            "why_it_matters": "The US said the two sides would make joint efforts to promote stability after the US seized Maduro and his wife.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Hungary to expel Ukrainian bank workers in row with Kyiv",
-            "why_it_matters": "Hungary says the workers were detained on suspicion of money laundering as a fierce row between the two countries escalates.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US economy unexpectedly sheds 92,000 jobs in February",
-            "why_it_matters": "The contraction came as a surprise with payrolls down in nearly every sector.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Indonesia to ban social media and other online platforms for under 16s",
-            "why_it_matters": "It is the latest country to curb young people's access to digital spaces to try and protect them from abuse.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US asked Ukraine for help fighting Iranian drones, Zelensky says",
-            "why_it_matters": "Ukraine's president says Kyiv will only help if doing so does not deplete its own air defences.",
-            "signal": "Risk"
+            "why_it_matters": "This development could lead to a shift in regional dynamics and impact US-Venezuela relations significantly after years of tension.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Israel strikes Beirut after evacuation warning sparks panic",
-            "why_it_matters": "Huge traffic jams form after the unprecedented warning for people to leave the Hezbollah stronghold, as Israel steps up its strikes across Lebanon.",
+            "why_it_matters": "The escalation of military actions in Lebanon raises concerns about broader regional instability and the humanitarian impact on civilians.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Finland plans to lift decades-old ban on hosting nuclear weapons",
+            "why_it_matters": "This move reflects changing security perceptions in Europe, particularly in response to Russia's actions, and could alter NATO dynamics.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Ukrainian bank workers released after detention in Hungary",
+            "why_it_matters": "The incident underscores the complexities of international relations in Eastern Europe and the potential for diplomatic fallout.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Track updates to the leading stories listed above.",
-            "Watch for clarifications or official responses in follow-up coverage.",
-            "Expect sentiment to move as new details emerge."
+            "Monitoring developments in Nigeria following the recent attack and military response.",
+            "Observing the impact of US-Venezuela diplomatic talks on regional stability.",
+            "Tracking Israel's military actions in Lebanon and potential international responses."
           ],
           "next_1_4_weeks": [
-            "Some stories may transition from breaking news to policy or market impact.",
-            "Recurring themes in the feed will indicate sustained momentum.",
-            "Cross-category spillover effects may become clearer with additional reporting."
+            "Evaluating the implications of Finland's nuclear policy changes on NATO and European security.",
+            "Assessing the long-term effects of the US economy shedding jobs on global markets.",
+            "Following the situation in Ukraine regarding its assistance with Iranian drone threats."
           ],
           "watch_list": [
-            "'What is the game plan?': The Iran war is unsettling China and its ambitions",
-            "Trump cuts his losses on Noem after controversial tenure at homeland security",
-            "US and Venezuela agree to resume diplomatic ties after Maduro capture",
-            "Hungary to expel Ukrainian bank workers in row with Kyiv"
+            "Continued violence in Nigeria and its implications for regional security.",
+            "The evolving diplomatic relationship between the US and Venezuela.",
+            "Israel's military strategy in Lebanon and its impact on civilian safety.",
+            "Finland's nuclear policy shift and its reception within NATO."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "This fallback report is generated from RSS headlines and summaries only.",
-          "Verify key details by opening the source links in the headlines list.",
-          "OpenAI generation failed (AuthenticationError). Used deterministic fallback."
+          "The sentiment score is based on a lexicon model and may not capture all nuances of the news.",
+          "Geopolitical situations are fluid and can change rapidly, affecting the accuracy of predictions."
         ]
       }
     },
@@ -189,18 +173,11 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.9938,
+        "score": -0.992,
         "label": "Negative",
         "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
-        {
-          "title": "Brent crude hits $90 as Kuwait ‘starts cutting oil production’; shock as US economy loses 92,000 jobs in February – as it happened",
-          "url": "https://www.theguardian.com/business/live/2026/mar/06/oil-biggest-weekly-gain-four-years-strait-of-hormuz-traffic-halt-stock-markets-dollar-imf-news-updates",
-          "published": "Fri, 06 Mar 2026 16:44:34 GMT",
-          "summary": "<p>Huge miss in US jobs report suggests labor market weakening, as Middle East crisis drives oil price higher and higher</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/06/iran-war-live-updates-us-temporarily-lets-india-buy-russian-oil-amid-energy-fears-israeli-military-launches-strikes-on-beirut#maincontent\"><strong>Iran war live updates: US temporarily lets India buy Russian oil amid energy fears; Israeli military launches strikes on Beirut</strong></a></p></li><li><p><a",
-          "source": "The Guardian"
-        },
         {
           "title": "US lost 92,000 jobs in February just before Trump joined Iran conflict",
           "url": "https://www.theguardian.com/business/2026/mar/06/february-jobs-report",
@@ -209,10 +186,24 @@
           "source": "The Guardian"
         },
         {
+          "title": "US preparing system to process refunds on billions in illegal Trump tariffs",
+          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds",
+          "published": "Fri, 06 Mar 2026 17:41:49 GMT",
+          "summary": "<p>Top official at customs agency says total sum held in relation to tariffs is estimated to be about $166bn</p><p>The US customs agency is preparing a system that will be ​ready to process refunds on billions of dollars of illegally ‌collected tariffs in 45 days without requiring importers to sue, a court has been told.</p><p>Brandon Lord, a top official at US Customs and Border Protection (CBP), said in a filing to the US court of international trade on Friday that the total sum held in relati",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Iran war pushes oil price above $90, threatening rise in global inflation",
+          "url": "https://www.theguardian.com/business/2026/mar/06/iran-war-pushes-oil-price-above-90-dollars-a-barrel",
+          "published": "Fri, 06 Mar 2026 17:04:22 GMT",
+          "summary": "<p>Reports Kuwait was cutting output pushed up cost of barrel of Brent crude to highest weekly gain since Covid pandemic began</p><p>The Iran conflict has driven the oil price past $90 a barrel to its highest weekly gains since the Covid-19 pandemic six years ago, threatening a fresh rise in global inflation.</p><p>Reports that Kuwait had begun cutting production of oil at some fields after running out of space to store it drove the cost of a barrel of Brent crude to as high as $91.89 at one poi",
+          "source": "The Guardian"
+        },
+        {
           "title": "‘You unbelievable coward’: conservative US media in open warfare over Iran",
           "url": "https://www.theguardian.com/media/2026/mar/06/conservative-media-open-warfare-over-iran",
           "published": "Fri, 06 Mar 2026 11:00:18 GMT",
-          "summary": "<p>Tucker Carlson, Megyn Kelly, Ben Shapiro and Mark Levin are all trading blows over US involvement – while Sean Hannity says he’s staying out of it</p><p>The stars of the conservative media movement have been duking it out – in extremely personal terms – over Donald Trump’s decision to enter the United States into a conflict with Iran.</p><p>While it can be hard to cleanly group the warring factions, much of the fighting has centered on disagreements about whether the US is too deferential to",
+          "summary": "<p>Tucker Carlson, Megyn Kelly, Ben Shapiro and Mark Levin are all trading blows over US involvement – while Sean Hannity says he’s staying out of it</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter aler",
           "source": "The Guardian"
         },
         {
@@ -251,13 +242,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Workers at top 20 US low-wage firms rely on public assistance, report says",
-          "url": "https://www.theguardian.com/business/2026/mar/04/workers-medicaid-snap-low-pay",
-          "published": "Wed, 04 Mar 2026 13:00:20 GMT",
-          "summary": "<p>Exclusive: study finds workers at 20 S&amp;P 500 firms rely on Medicaid and Snap as CEO pay and buybacks soar</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a></p></li></ul><p>",
-          "source": "The Guardian"
-        },
-        {
           "title": "‘A big burden for farmers’: Gulf shipping crisis threatens food price shock",
           "url": "https://www.theguardian.com/business/2026/mar/05/big-burden-for-farmers-gulf-shipping-crisis-threatens-food-price-shock",
           "published": "Thu, 05 Mar 2026 06:00:54 GMT",
@@ -280,79 +264,62 @@
         }
       ],
       "ai_report": {
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.994). Top story: Brent crude hits $90 as Kuwait ‘starts cutting oil production’; shock as US economy loses 92,000 jobs in February – as it happened.",
+        "summary": "Today's business news highlights significant challenges in the US labor market, the impact of rising oil prices due to geopolitical tensions, and ongoing legal disputes related to tariffs imposed during the Trump administration. The sentiment surrounding these developments is predominantly negative, reflecting concerns about inflation, job losses, and the implications for small businesses and the economy at large.",
         "key_themes": [
-          "Brent crude hits $90 as Kuwait ‘starts cutting oil production’; shock as US economy loses 92,000 jobs in February – as it happened",
-          "US lost 92,000 jobs in February just before Trump joined Iran conflict",
-          "‘You unbelievable coward’: conservative US media in open warfare over Iran",
-          "‘It’s discrimination’: US Small Business Administration cuts off loans to immigrant entrepreneurs",
-          "New York and other US states sue Trump over ‘illegal and reckless’ tariffs"
+          "US labor market",
+          "Geopolitical tensions and oil prices",
+          "Tariff disputes and legal challenges",
+          "Impact on small businesses"
         ],
         "notable_headlines": [
           {
-            "headline": "Brent crude hits $90 as Kuwait ‘starts cutting oil production’; shock as US economy loses 92,000 jobs in February – as it happened",
-            "why_it_matters": "<p>Huge miss in US jobs report suggests labor market weakening, as Middle East crisis drives oil price higher and higher</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/06/iran-war-live-updates-us-…",
-            "signal": "Risk"
-          },
-          {
             "headline": "US lost 92,000 jobs in February just before Trump joined Iran conflict",
-            "why_it_matters": "<p>The unemployment rate was 4.4% in February, with 130,000 jobs added in January</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/mar/06/oil-biggest-weekly-gain-four-years-strait-of-hormuz-traffic-h…",
+            "why_it_matters": "The unexpected job losses indicate a potential downturn in the labor market, raising concerns about economic stability.",
             "signal": "Risk"
           },
           {
-            "headline": "‘You unbelievable coward’: conservative US media in open warfare over Iran",
-            "why_it_matters": "<p>Tucker Carlson, Megyn Kelly, Ben Shapiro and Mark Levin are all trading blows over US involvement – while Sean Hannity says he’s staying out of it</p><p>The stars of the conservative media movement have been duking it…",
+            "headline": "US preparing system to process refunds on billions in illegal Trump tariffs",
+            "why_it_matters": "The refunds could affect a significant amount of money tied to tariffs, impacting businesses and the economy.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Iran war pushes oil price above $90, threatening rise in global inflation",
+            "why_it_matters": "Rising oil prices could lead to increased inflation, affecting consumers and businesses worldwide.",
             "signal": "Risk"
           },
           {
             "headline": "‘It’s discrimination’: US Small Business Administration cuts off loans to immigrant entrepreneurs",
-            "why_it_matters": "<p>Green card holders are now ineligible for loans through the SBA as agency carries out Trump’s ‘America First’ agenda</p><p>The US federal agency in charge of helping <a href=\"https://www.theguardian.com/business/small…",
+            "why_it_matters": "This policy change could severely limit funding opportunities for immigrant entrepreneurs, impacting small business growth.",
             "signal": "Risk"
           },
           {
             "headline": "New York and other US states sue Trump over ‘illegal and reckless’ tariffs",
-            "why_it_matters": "<p>Lawsuit says president does not have authority to impose levies and demands refunds from federal government</p><p>A coalition of Democratic attorneys general and governors across 24 US states are suing Donald Trump to…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Weight-loss jab could be made for $3 a month, study finds",
-            "why_it_matters": "<p>Cheap semaglutide, the drug in Ozempic and Wegovy, could help millions with diabetes and obesity in 160 countries</p><p>Weight-loss jabs such as Wegovy could be made for just $3 a month, according to new analysis, pot…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Paramount-Warner Bros mega-merger could still face ‘real threats’, antitrust experts say",
-            "why_it_matters": "<p>The $110bn deal will require approval from regulatory authorities in the US, the EU and the UK</p><p>Champagne <a href=\"https://www.nytimes.com/2026/02/28/business/warner-bros-paramount-reaction.html\">reportedly flowe…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Oil price continues to rise amid Middle East crisis but stock markets rebound across Asia",
-            "why_it_matters": "<p>Reports of attack on US registered tanker in Gulf lifts crude by 3% to $84 a barrel as gas price also starts to climb</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/mar/05/wizz-air-profits-warni…",
+            "why_it_matters": "The lawsuit could have significant implications for trade policy and economic relations, as well as for businesses affected by these tariffs.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Track updates to the leading stories listed above.",
-            "Watch for clarifications or official responses in follow-up coverage.",
-            "Expect sentiment to move as new details emerge."
+            "Monitoring job market reports for further insights on employment trends.",
+            "Observing oil price fluctuations in response to geopolitical developments.",
+            "Tracking legal proceedings related to tariffs and their implications for businesses."
           ],
           "next_1_4_weeks": [
-            "Some stories may transition from breaking news to policy or market impact.",
-            "Recurring themes in the feed will indicate sustained momentum.",
-            "Cross-category spillover effects may become clearer with additional reporting."
+            "Evaluating the economic impact of rising oil prices on inflation and consumer spending.",
+            "Following developments in the lawsuit against Trump regarding tariffs and potential outcomes.",
+            "Assessing the long-term effects of SBA loan policy changes on small businesses."
           ],
           "watch_list": [
-            "Brent crude hits $90 as Kuwait ‘starts cutting oil production’; shock as US economy loses 92,000 jobs in February – as it happened",
-            "US lost 92,000 jobs in February just before Trump joined Iran conflict",
-            "‘You unbelievable coward’: conservative US media in open warfare over Iran",
-            "‘It’s discrimination’: US Small Business Administration cuts off loans to immigrant entrepreneurs"
+            "Job market statistics and unemployment rates.",
+            "Oil price trends and their impact on inflation.",
+            "Legal developments regarding tariffs and refunds.",
+            "Responses from small business sectors to funding cuts."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "This fallback report is generated from RSS headlines and summaries only.",
-          "Verify key details by opening the source links in the headlines list.",
-          "OpenAI generation failed (AuthenticationError). Used deterministic fallback."
+          "The sentiment analysis is based on a coarse model and may not capture all nuances of the news.",
+          "Future outlook is subject to rapid changes due to ongoing geopolitical and economic developments."
         ]
       }
     },
@@ -365,11 +332,60 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.9902,
+        "score": 0.9914,
         "label": "Positive",
         "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Valve says it still plans to ship the Steam Machine in 2026",
+          "url": "https://www.theverge.com/games/890986/valve-steam-machine-frame-controller-delay-ram-memory",
+          "published": "2026-03-06T18:39:25-05:00",
+          "summary": "A blog post from Valve on Friday initially seemed to throw cold water on the idea that the Steam Machine, Steam Frame, and Steam Controller would arrive in 2026 at all. But Valve tells The Verge it did not mean to suggest that - and that all three pieces of hardware will indeed ship this [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Grammarly is using our identities without permission",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews",
+          "published": "2026-03-06T15:58:24-05:00",
+          "summary": "Grammarly's \"expert review\" feature offers to give users writing advice \"inspired by\" subject matter experts, including recently deceased professors, as Wired reported on Wednesday. When I tried the feature out myself, I found some experts that came as a surprise for a different reason - one of them was my boss. The AI-generated feedback included [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The best microSD Express card for the Switch 2 is the cheapest one you can find",
+          "url": "https://www.theverge.com/tech/676075/switch-2-microsd-express-cards-where-to-buy",
+          "published": "2026-03-06T15:30:00-05:00",
+          "summary": "Unlike the original Switch, the Nintendo Switch 2 requires microSD Express cards for storing and playing games. While physically identical to microSD cards (aside from a small, easy-to-miss “EX” emblem etched onto the front of the card, as highlighted in the main image above), microSD Express cards are significantly faster. They advertise a 4.4x increase [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Trump administration says it can’t process tariff refunds because of computer problems",
+          "url": "https://www.theverge.com/policy/890904/trump-administration-cbp-tariff-refunds-technology-issues",
+          "published": "2026-03-06T15:17:08-05:00",
+          "summary": "The US Customs and Border Protection says it currently can't comply with an order to process billions of dollars in refunds stemming from tariffs imposed by President Donald Trump. In a filing on Friday, CBP executive director Brandon Lord says the agency's digital import processing system is \"not well suited to a task of this [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Nintendo is suing the US government for a refund of Trump&#8217;s illegal tariffs",
+          "url": "https://www.theverge.com/games/890861/nintendo-lawsuit-tariffs-donald-trump",
+          "published": "2026-03-06T14:22:39-05:00",
+          "summary": "Nintendo of America is suing the US government over President Trump's tariffs and is demanding a \"prompt refund, with interest\" of any duties that it has paid, according to a complaint filed in the US Court of International Trade, as reported previously by Aftermath. The Supreme Court ruled last month that Trump's use of the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The best deals on MacBooks right now",
+          "url": "https://www.theverge.com/22399419/apple-macbook-air-pro-mac-mini-imac-deals",
+          "published": "2026-03-06T14:13:45-05:00",
+          "summary": "It’s 2026, and that means Apple sells MacBooks equipped with not just its capable M-series processors but A-series chips that were previously exclusive to the iPhone. With the MacBook Neo starting at $599, the company now offers a wider range of options with more sizes and price points than ever before, all of which run [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The AI Doc is an overwrought hype piece for doomers and accelerationists alike",
+          "url": "https://www.theverge.com/entertainment/890806/the-ai-doc-or-how-i-became-an-apocaloptimist-review",
+          "published": "2026-03-06T14:05:00-05:00",
+          "summary": "We are in the thick of a massive push to incorporate generative AI into almost every aspect of our lives, but it is still easy to be confused about what it is and how it works. It doesn't help that many of gen AI's proponents and detractors both speak about it with a feverish hyperbole [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "You can already save up to $50 on the new M4 iPad Air",
           "url": "https://www.theverge.com/gadgets/890389/apple-ipad-air-m4-xbox-wireless-controller-deal-sale",
@@ -390,131 +406,66 @@
           "published": "2026-03-06T10:00:00-05:00",
           "summary": "This is Optimizer, a weekly newsletter sent every Friday from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. We'll be taking a break next week and will back March 20th. Opt in for Optimizer here. On the surface, the wellness to [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Indie games are turning the act of looking into an art",
-          "url": "https://www.theverge.com/entertainment/889978/hidden-object-games-indie",
-          "published": "2026-03-06T09:00:00-05:00",
-          "summary": "Adriaan de Jongh and Sylvain Tegroeg did not necessarily set out to create a new genre. But, in some ways, that's exactly what the duo did when they released Hidden Folks in 2017. Hidden object games have been around for decades - they've existed well before computers, when people searched for objects in paintings and [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "This phone starts fires on purpose",
-          "url": "https://www.theverge.com/podcast/890324/mwc-2026-phones-epic-google-vergecast",
-          "published": "2026-03-06T08:30:15-05:00",
-          "summary": "Until now, most mobile phone companies have worked to ensure their phones won't start fires. (Occasional Samsung devices excepted, of course.) But this week at Mobile World Congress, we found a company that dared to go in a different direction. Oukitel's WP63 rugged smartphone includes a built-in fire starter, and this is what it looks [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Marathon is in a sprint",
-          "url": "https://www.theverge.com/entertainment/890333/marathon-live-service-game-mess",
-          "published": "2026-03-06T08:00:00-05:00",
-          "summary": "Marathon is weird as hell - and I mean that in the best possible way. The latest game from Destiny studio Bungie mixes the slick gunplay the developer is known for with a dark, and frankly bizarre, sci-fi universe. It's part of the burgeoning \"extraction shooter\" subgenre, where teams of players are dropped into a [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Meet your new phone away from phone",
-          "url": "https://www.theverge.com/tech/889756/mwc-2026-unihertz-light-phone-clicks",
-          "published": "2026-03-06T07:00:00-05:00",
-          "summary": "Unihertz's booth at MWC was a little out of the way, but those who did find it all seemed to want to pick up the Titan Elite 2. Sure, the cosmic orange color attracted attention, and the QWERTY keyboard reminded one showgoer of his old BlackBerry. But once I picked it up, I could see [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Amazon.com is back up and running after a Thursday night outage",
-          "url": "https://www.theverge.com/tech/890215/amazon-is-down-login-prices",
-          "published": "2026-03-05T20:24:36-05:00",
-          "summary": "If you were having issues shopping on Amazon or loading your playlists on Amazon Music on Thursday, you weren't alone. For over three hours today, Downdetector showed a sizable spike in people reporting issues with checkout, search, and logging in. The problem seemed to be affecting both the site and the mobile apps. But an [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The best iPad deals you can get right now",
-          "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
-          "published": "2026-03-05T20:08:00-05:00",
-          "summary": "While the best iPad deals usually land during major sale events like Black Friday,&#160;many great iPad deals are available outside of those times. The day-to-day discounts come and go like changing winds, so there’s often some amount to be saved, particularly on Apple’s most affordable iPad and the latest iPad Mini. Hell, you can even [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "What if your real computer was a supersized Lego computer brick?",
-          "url": "https://www.theverge.com/gadgets/890047/what-if-your-real-computer-was-a-super-sized-lego-computer-brick",
-          "published": "2026-03-05T19:59:11-05:00",
-          "summary": "In 1979 - nearly 50 years ago - Lego jazzed up its very first spaceships with an iconic sloped computer brick that was just painted plastic. In 2022, we introduced you to the engineer who fit an actual tiny computer inside. Now, industrial designer Paul Staal has flipped the script with a working desktop PC [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.990). Top story: You can already save up to $50 on the new M4 iPad Air.",
+        "summary": "Today's technology news highlights a mix of hardware developments, legal disputes, and market trends. Valve reassures that the Steam Machine will still launch in 2026, while Grammarly faces scrutiny over its use of identities for AI feedback. Nintendo is taking legal action against the US government regarding tariff refunds, and Apple is promoting discounts on its latest MacBooks and iPad Air. The ongoing discourse around AI continues, with mixed reactions to its integration into daily life.",
         "key_themes": [
-          "You can already save up to $50 on the new M4 iPad Air",
-          "The Trump phone was a no-show at the world’s biggest mobile show",
-          "Trump&#8217;s surgeon general nominee is running the wellness grifter playbook perfectly",
-          "Indie games are turning the act of looking into an art",
-          "This phone starts fires on purpose"
+          "Gaming Hardware",
+          "AI Ethics",
+          "Legal Disputes",
+          "Consumer Electronics",
+          "Market Trends"
         ],
         "notable_headlines": [
           {
+            "headline": "Valve says it still plans to ship the Steam Machine in 2026",
+            "why_it_matters": "Valve's commitment to the Steam Machine indicates ongoing investment in gaming hardware, which could influence market dynamics.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Grammarly is using our identities without permission",
+            "why_it_matters": "This raises ethical concerns about AI and data privacy, potentially impacting user trust and regulatory scrutiny.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Nintendo is suing the US government for a refund of Trump's illegal tariffs",
+            "why_it_matters": "This lawsuit could set a precedent for other companies affected by similar tariffs, affecting future trade policies.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "The best deals on MacBooks right now",
+            "why_it_matters": "Apple's competitive pricing strategy may attract more consumers, impacting sales and market share.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "You can already save up to $50 on the new M4 iPad Air",
-            "why_it_matters": "In case you missed it, Apple announced a host of new devices this week, including both a new phone and a cheaper laptop. It also unveiled the M4-powered iPad Air, which is already receiving a preorder discount ahead of i…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The Trump phone was a no-show at the world’s biggest mobile show",
-            "why_it_matters": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. This time, we tried, and failed, to find it at the world's biggest mobile…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Trump&#8217;s surgeon general nominee is running the wellness grifter playbook perfectly",
-            "why_it_matters": "This is Optimizer, a weekly newsletter sent every Friday from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. We'll be taking a …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Indie games are turning the act of looking into an art",
-            "why_it_matters": "Adriaan de Jongh and Sylvain Tegroeg did not necessarily set out to create a new genre. But, in some ways, that's exactly what the duo did when they released Hidden Folks in 2017. Hidden object games have been around for…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "This phone starts fires on purpose",
-            "why_it_matters": "Until now, most mobile phone companies have worked to ensure their phones won't start fires. (Occasional Samsung devices excepted, of course.) But this week at Mobile World Congress, we found a company that dared to go i…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Marathon is in a sprint",
-            "why_it_matters": "Marathon is weird as hell - and I mean that in the best possible way. The latest game from Destiny studio Bungie mixes the slick gunplay the developer is known for with a dark, and frankly bizarre, sci-fi universe. It's …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Meet your new phone away from phone",
-            "why_it_matters": "Unihertz's booth at MWC was a little out of the way, but those who did find it all seemed to want to pick up the Titan Elite 2. Sure, the cosmic orange color attracted attention, and the QWERTY keyboard reminded one show…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Amazon.com is back up and running after a Thursday night outage",
-            "why_it_matters": "If you were having issues shopping on Amazon or loading your playlists on Amazon Music on Thursday, you weren't alone. For over three hours today, Downdetector showed a sizable spike in people reporting issues with check…",
+            "why_it_matters": "Early discounts on new products can drive consumer interest and sales, indicating a strong market response to Apple's latest offerings.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Track updates to the leading stories listed above.",
-            "Watch for clarifications or official responses in follow-up coverage.",
-            "Expect sentiment to move as new details emerge."
+            "Monitoring Valve's updates on the Steam Machine launch timeline.",
+            "Observing public reaction to Grammarly's identity usage controversy.",
+            "Tracking developments in Nintendo's lawsuit against the US government."
           ],
           "next_1_4_weeks": [
-            "Some stories may transition from breaking news to policy or market impact.",
-            "Recurring themes in the feed will indicate sustained momentum.",
-            "Cross-category spillover effects may become clearer with additional reporting."
+            "Anticipating further announcements from Apple regarding new product launches and promotions.",
+            "Watching for responses from regulatory bodies regarding AI ethics and data privacy issues.",
+            "Evaluating the impact of ongoing legal disputes on tech companies' operations."
           ],
           "watch_list": [
-            "You can already save up to $50 on the new M4 iPad Air",
-            "The Trump phone was a no-show at the world’s biggest mobile show",
-            "Trump&#8217;s surgeon general nominee is running the wellness grifter playbook perfectly",
-            "Indie games are turning the act of looking into an art"
+            "Valve's Steam Machine release schedule.",
+            "Grammarly's response to identity usage concerns.",
+            "Nintendo's legal proceedings regarding tariffs.",
+            "Apple's sales performance on new products."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "This fallback report is generated from RSS headlines and summaries only.",
-          "Verify key details by opening the source links in the headlines list.",
-          "OpenAI generation failed (AuthenticationError). Used deterministic fallback."
+          "The sentiment score is based on a lexicon model and may not reflect nuanced public opinion.",
+          "Legal outcomes can be unpredictable and may take time to resolve."
         ]
       }
     },
@@ -527,170 +478,153 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.91,
-        "label": "Positive",
+        "score": -0.8861,
+        "label": "Negative",
         "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "What to know for all 32 teams ahead of NFL free agency: Top needs, candidates to leave and predictions",
-          "url": "https://www.espn.com/nfl/story/_/id/48100379/2026-nfl-free-agency-biggest-needs-predictions-32-teams",
-          "published": "Fri, 6 Mar 2026 10:34:23 EST",
-          "summary": "Malik Willis, Tyler Linderbaum, Mike Evans and Jaelan Phillips are worth keeping an eye on when free agency opens March 11.",
+          "title": "Why Tatum is coming back now and what it means for Boston",
+          "url": "https://www.espn.com/nba/story/_/id/48112573/how-jayson-tatum-improbable-return-boston-celtics-change-nba-title-race",
+          "published": "Fri, 6 Mar 2026 17:13:20 EST",
+          "summary": "Here's the latest on Jayson Tatum's return to Boston after a devastating Achilles injury -- and how it could shift the NBA's balance of power with just weeks to go in the season.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: Raiders set to release veteran QB Smith",
-          "url": "https://www.espn.com/nfl/story/_/id/48122237/sources-raiders-release-qb-geno-smith-barring-trade",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
-          "summary": "The Raiders are releasing quarterback Geno Smith, barring a trade before the start of the new league year, sources tell ESPN's Adam Schefter.",
+          "title": "Fired Michigan coach Moore reaches plea deal",
+          "url": "https://www.espn.com/college-football/story/_/id/48123821/fired-michigan-coach-sherrone-moore-pleads-no-contest",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
+          "summary": "Fired Michigan football coach Sherrone Moore pleaded no contest to two misdemeanors to resolve a felony home invasion case. The deal was struck on the same day that a judge planned to hear a challenge to Moore's arrest in December.",
           "source": "ESPN"
         },
         {
-          "title": "Source: Rams re-sign Curl in another DB splash",
-          "url": "https://www.espn.com/nfl/story/_/id/48120998/source-rams-re-signing-kam-curl-3-year-36m-contract",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
-          "summary": "The Rams are re-signing safety Kam Curl to a three-year, $36 million contract, a source confirmed to ESPN.",
+          "title": "Texans grant Mixon release after lost '25 season",
+          "url": "https://www.espn.com/nfl/story/_/id/48125078/sources-texans-release-joe-mixon-lost-2025-season",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
+          "summary": "The Texans released veteran running back Joe Mixon on Friday after he missed the 2025 season with a foot injury.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: Watson deal reworked to shrink cap hit",
-          "url": "https://www.espn.com/nfl/story/_/id/48121811/sources-browns-rework-watson-contract-lower-nfl-high-cap-hit",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
-          "summary": "The Browns have once again restructured the contract of quarterback Deshaun Watson, league sources confirmed to ESPN, a move that frees close to $36 million in cap space and lowers what was the largest cap hit in the NFL in 2026.",
+          "title": "Stewart: Union letter not to undermine Jackson",
+          "url": "https://www.espn.com/wnba/story/_/id/48126059/wnbpa-stewart-letter-not-meant-undermine-jackson",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
+          "summary": "WNBPA vice president Breanna Stewart said Friday that the letter to players' union executive director Terri Jackson earlier this week was intended to \"get the entire [executive committee] back on track\" to get the best CBA possible.",
           "source": "ESPN"
         },
         {
-          "title": "Suns forward Brooks arrested on suspected DUI",
-          "url": "https://www.espn.com/nba/story/_/id/48122500/suns-dillon-brooks-arrested-suspicion-dui-report-says",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
-          "summary": "Suns forward Dillon Brooks was arrested early Friday morning for suspicion of driving under the influence in Scottsdale, Arizona, police said.",
+          "title": "UNC's Wilson (thumb surgery) done for season",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48123740/sources-unc-wilson-rest-season-thumb-surgery",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
+          "summary": "North Carolina star freshman Caleb Wilson will miss the remainder of the season after breaking his right thumb during practice, the school announced.",
           "source": "ESPN"
         },
         {
-          "title": "PFL severs ties with combat sports star Ngannou",
-          "url": "https://www.espn.com/mma/story/_/id/48121763/mma-star-francis-ngannou-released-pfl-now-free-agent",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
-          "summary": "Combat sports star Francis Ngannou, who has competed in both MMA and boxing in recent years, is a free agent after his release by the PFL.",
+          "title": "Avalanche bring Kadri back in swap with Flames",
+          "url": "https://www.espn.com/nhl/story/_/id/48125752/avalanche-bring-nazem-kadri-back-trade-flames",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
+          "summary": "The Avalanche have re-acquired forward Nazem Kadri in a trade with the Flames. Kadri won a Stanley Cup with Colorado in the 2021-22 season but left for Calgary as a free agent that offseason.",
           "source": "ESPN"
         },
         {
-          "title": "Ohtani hits grand slam as Japan cruises in WBC",
-          "url": "https://www.espn.com/mlb/story/_/id/48121055/shohei-ohtani-grand-slam-leads-japan-wbc-rout-taiwan",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
-          "summary": "Shohei Ohtani hit a grand slam in the second inning as Japan hammered Taiwan 13-0 to win its opener at the World Baseball Classic.",
+          "title": "Ogunbowale arrested following Unrivaled title win",
+          "url": "https://www.espn.com/wnba/story/_/id/48123063/arike-ogunbowale-arrested-battery-unrivaled-win",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
+          "summary": "Dallas Wings guard Arike Ogunbowale was arrested and charged with misdemeanor battery in Miami early Thursday morning after she allegedly punched a man in the face, according to police records.",
           "source": "ESPN"
         },
         {
-          "title": "Source: Wild keep up in Central, get Flyers' Brink",
-          "url": "https://www.espn.com/nhl/story/_/id/48122260/wild-add-bobby-brink-trade-flyers-source-says",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
-          "summary": "The Wild have added Bobby Brink in a trade with the Philadelphia Flyers, a source told ESPN's Greg Wyshynski. The Minnesota native has 13 goals and 13 assists this season.",
+          "title": "Isles land Blues captain Schenn for playoff push",
+          "url": "https://www.espn.com/nhl/story/_/id/48124479/islanders-land-blues-captain-brayden-schenn-playoff-push",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
+          "summary": "The Islanders have acquired Brayden Schenn in trade that sends Jonathan Drouin, two picks and a prospect back to the Blues. Schenn, 34, had served as St. Louis' captain for the past three seasons.",
           "source": "ESPN"
         },
         {
-          "title": "Chargers reach deal with C Biadasz, source says",
-          "url": "https://www.espn.com/nfl/story/_/id/48121833/chargers-reach-deal-c-tyler-biadasz-source-says",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
-          "summary": "The Chargers and free agent center Tyler Biadasz have agreed to a deal, a source told ESPN. Biadasz will replace Bradley Bozeman, who retired last week.",
+          "title": "OT Decker, longest-tenured Lion, asks for release",
+          "url": "https://www.espn.com/nfl/story/_/id/48123589/ot-taylor-decker-asks-release-10-years-lions",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
+          "summary": "Offensive lineman Taylor Decker, the Lions' longest-tenured player, has requested his release, he announced on social media.",
           "source": "ESPN"
         },
         {
           "title": "🏀 Hoops coach allegedly moonlighted as a pimp",
           "url": "https://www.espn.com/college-sports/story/_/id/48099891/csub-basketball-coach-alleged-link-pimping-drugs-guns",
-          "published": "Fri, 6 Mar 2026 11:53:52 EST",
+          "published": "Fri, 6 Mar 2026 18:25:22 EST",
           "summary": "Multiple dismissals have occurred at Cal State Bakersfield as an investigation probes who knew what and when.",
           "source": "ESPN"
         },
         {
-          "title": "Live NHL trade tracker for 2025-26: All the deals made before March 6 deadline",
+          "title": "NHL trade tracker: All the deals made before Friday's deadline",
           "url": "https://www.espn.com/nhl/story/_/id/48043649/nhl-trade-deadline-2026-latest-contracts-rumors-grades-players",
-          "published": "Fri, 6 Mar 2026 11:12:32 EST",
+          "published": "Fri, 6 Mar 2026 18:32:58 EST",
           "summary": "Catch up on all the deals made, along with analysis from our reporters.",
           "source": "ESPN"
         },
         {
-          "title": "Wyshynski's NHL trade tier rankings: Who's still left on the market?",
-          "url": "https://www.espn.com/nhl/story/_/id/48033531/nhl-2025-26-trade-deadline-rankings-tiers-rumors-top-players-teams",
-          "published": "Fri, 6 Mar 2026 11:12:59 EST",
-          "summary": "Deadline day is here, with many teams seeking to bolster their rosters for a deep run this spring.",
+          "title": "NHL trade grades: Brayden Schenn costly, but worth risk for Islanders",
+          "url": "https://www.espn.com/nhl/story/_/id/47286518/nhl-2025-26-trade-grades-deals-report-cards-rankings-biggest-deals",
+          "published": "Fri, 6 Mar 2026 18:32:58 EST",
+          "summary": "Find grades for each GM involved in all the big swaps here.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "summary": "12 headlines were curated for this category. Overall sentiment is positive (0.910). Top story: What to know for all 32 teams ahead of NFL free agency: Top needs, candidates to leave and predictions.",
+        "summary": "Today's sports news features significant developments across various leagues, including player injuries, legal issues involving coaches, and notable trades as teams prepare for the playoffs. The overall sentiment is negative, reflecting challenges faced by players and teams alike.",
         "key_themes": [
-          "What to know for all 32 teams ahead of NFL free agency: Top needs, candidates to leave and predictions",
-          "Sources: Raiders set to release veteran QB Smith",
-          "Source: Rams re-sign Curl in another DB splash",
-          "Sources: Watson deal reworked to shrink cap hit",
-          "Suns forward Brooks arrested on suspected DUI"
+          "Player Injuries",
+          "Coaching Controversies",
+          "Trades and Acquisitions",
+          "Legal Issues"
         ],
         "notable_headlines": [
           {
-            "headline": "What to know for all 32 teams ahead of NFL free agency: Top needs, candidates to leave and predictions",
-            "why_it_matters": "Malik Willis, Tyler Linderbaum, Mike Evans and Jaelan Phillips are worth keeping an eye on when free agency opens March 11.",
+            "headline": "Fired Michigan coach Moore reaches plea deal",
+            "why_it_matters": "This case highlights the legal troubles surrounding college sports coaches and the potential implications for the program's reputation.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "UNC's Wilson (thumb surgery) done for season",
+            "why_it_matters": "The loss of a key player like Wilson could significantly impact North Carolina's performance in the remainder of the season.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Ogunbowale arrested following Unrivaled title win",
+            "why_it_matters": "This incident raises concerns about player conduct and its potential effects on team dynamics and public perception.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Avalanche bring Kadri back in swap with Flames",
+            "why_it_matters": "Kadri's return could bolster the Avalanche's chances in the playoffs, showcasing the strategic moves teams are making as the season progresses.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Sources: Raiders set to release veteran QB Smith",
-            "why_it_matters": "The Raiders are releasing quarterback Geno Smith, barring a trade before the start of the new league year, sources tell ESPN's Adam Schefter.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Source: Rams re-sign Curl in another DB splash",
-            "why_it_matters": "The Rams are re-signing safety Kam Curl to a three-year, $36 million contract, a source confirmed to ESPN.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Sources: Watson deal reworked to shrink cap hit",
-            "why_it_matters": "The Browns have once again restructured the contract of quarterback Deshaun Watson, league sources confirmed to ESPN, a move that frees close to $36 million in cap space and lowers what was the largest cap hit in the NFL…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Suns forward Brooks arrested on suspected DUI",
-            "why_it_matters": "Suns forward Dillon Brooks was arrested early Friday morning for suspicion of driving under the influence in Scottsdale, Arizona, police said.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "PFL severs ties with combat sports star Ngannou",
-            "why_it_matters": "Combat sports star Francis Ngannou, who has competed in both MMA and boxing in recent years, is a free agent after his release by the PFL.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Ohtani hits grand slam as Japan cruises in WBC",
-            "why_it_matters": "Shohei Ohtani hit a grand slam in the second inning as Japan hammered Taiwan 13-0 to win its opener at the World Baseball Classic.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Source: Wild keep up in Central, get Flyers' Brink",
-            "why_it_matters": "The Wild have added Bobby Brink in a trade with the Philadelphia Flyers, a source told ESPN's Greg Wyshynski. The Minnesota native has 13 goals and 13 assists this season.",
+            "headline": "Isles land Blues captain Schenn for playoff push",
+            "why_it_matters": "Acquiring a seasoned captain like Schenn could enhance the Islanders' leadership and performance as they aim for playoff success.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Track updates to the leading stories listed above.",
-            "Watch for clarifications or official responses in follow-up coverage.",
-            "Expect sentiment to move as new details emerge."
+            "Monitor reactions to Tatum's return and its impact on the Celtics' playoff aspirations.",
+            "Follow developments in the legal cases involving coaches and players.",
+            "Watch for updates on player injuries and their implications for team strategies."
           ],
           "next_1_4_weeks": [
-            "Some stories may transition from breaking news to policy or market impact.",
-            "Recurring themes in the feed will indicate sustained momentum.",
-            "Cross-category spillover effects may become clearer with additional reporting."
+            "Assess the impact of recent trades on playoff performance as teams finalize their rosters.",
+            "Evaluate the ongoing legal situations of coaches and players and their effects on team morale.",
+            "Observe how injuries affect team standings and playoff qualifications."
           ],
           "watch_list": [
-            "What to know for all 32 teams ahead of NFL free agency: Top needs, candidates to leave and predictions",
-            "Sources: Raiders set to release veteran QB Smith",
-            "Source: Rams re-sign Curl in another DB splash",
-            "Sources: Watson deal reworked to shrink cap hit"
+            "Jayson Tatum's performance post-injury",
+            "Legal outcomes for Sherrone Moore and Arike Ogunbowale",
+            "NHL playoff race developments and trade impacts.",
+            "Injury updates for key college basketball players."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "This fallback report is generated from RSS headlines and summaries only.",
-          "Verify key details by opening the source links in the headlines list.",
-          "OpenAI generation failed (AuthenticationError). Used deterministic fallback."
+          "The negative sentiment score suggests a challenging environment for many teams and players, which may affect future performance and public perception. The situation is fluid, and developments may change rapidly. Legal issues may have long-term implications that are not yet fully understood. Player injuries can have unpredictable effects on team dynamics. ",
+          "Overall, the sports landscape is currently marked by uncertainty and potential risks."
         ]
       }
     },
@@ -794,79 +728,63 @@
         }
       ],
       "ai_report": {
-        "summary": "12 headlines were curated for this category. Overall sentiment is positive (0.999). Top story: Astronomers discover giant cosmic sheet around the Milky Way.",
+        "summary": "Today's science headlines highlight significant discoveries across various fields, including astronomy, biology, and medicine. Notable findings include the discovery of a giant cosmic sheet surrounding the Milky Way, advancements in understanding electron movement in solar materials, and insights into the recovery of humpback whale populations. Additionally, researchers have made strides in cancer treatment, brain wiring mechanisms, and the effects of climate change on insect populations.",
         "key_themes": [
-          "Astronomers discover giant cosmic sheet around the Milky Way",
-          "Electrons catapult across solar materials in just 18 femtoseconds",
-          "ALMA captures the most detailed image ever of the Milky Way’s turbulent core",
-          "Humpback whale recovery is changing who fathers the calves",
-          "Scientists discover the switch that revives exhausted cancer-fighting T cells"
+          "Astronomy",
+          "Biology",
+          "Medicine",
+          "Climate Change",
+          "Wildlife Conservation"
         ],
         "notable_headlines": [
           {
             "headline": "Astronomers discover giant cosmic sheet around the Milky Way",
-            "why_it_matters": "For decades, astronomers wondered why most nearby galaxies are speeding away from the Milky Way instead of being pulled in by its gravity. New simulations reveal the answer: our galaxy sits in a gigantic, flat sheet of m…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Electrons catapult across solar materials in just 18 femtoseconds",
-            "why_it_matters": "Electrons in solar materials can be launched across molecules almost as fast as nature allows, thanks to tiny atomic vibrations acting like a “molecular catapult.” In experiments lasting just 18 femtoseconds, researchers…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "ALMA captures the most detailed image ever of the Milky Way’s turbulent core",
-            "why_it_matters": "A sweeping new ALMA image has peeled back the veil on the Milky Way’s core, exposing a dense network of cold gas filaments near the central black hole. Stretching across 650 light-years, the survey maps the hidden fuel f…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Humpback whale recovery is changing who fathers the calves",
-            "why_it_matters": "A new study shows that as humpback whale populations recover from past whaling, older males are gaining a major advantage in reproduction. Early in the recovery, breeding groups were dominated by younger whales. But as m…",
+            "why_it_matters": "This discovery explains the puzzling motions of nearby galaxies, enhancing our understanding of cosmic structures and dark matter.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover the switch that revives exhausted cancer-fighting T cells",
-            "why_it_matters": "Scientists have uncovered new genetic rules that determine whether the immune system’s “killer” T cells remain powerful long-term defenders or become worn out and ineffective. By building a detailed genetic atlas of CD8 …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists discover a hidden force that helps wire the brain",
-            "why_it_matters": "Growing neurons rely on chemical cues to find their targets, but new research shows that the brain’s physical properties help shape those signals. Scientists discovered that tissue stiffness can trigger the production of…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "T. rex took 40 years to reach full size, study finds",
-            "why_it_matters": "Tyrannosaurus rex may have taken far longer to grow up than scientists once thought. By analyzing growth rings in fossilized leg bones from 17 tyrannosaur specimens and using new statistical methods, researchers found th…",
+            "why_it_matters": "This finding could lead to improved cancer therapies by restoring the effectiveness of T cells in patients.",
             "signal": "Opportunity"
           },
           {
             "headline": "Half of Amazon insects could face dangerous heat stress",
-            "why_it_matters": "A sweeping new study of more than 2,000 insect species reveals a troubling reality: many insects may be far less capable of coping with rising temperatures than scientists once hoped. Researchers found that while some sp…",
+            "why_it_matters": "The vulnerability of insects to climate change poses risks to ecosystems and biodiversity, impacting food chains and pollination.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "New drug cuts seizures by up to 91% in children with rare epilepsy",
+            "why_it_matters": "This promising treatment could significantly improve the quality of life for children suffering from Dravet syndrome.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "Study finds wild release can be deadly for rescued slow lorises",
+            "why_it_matters": "This research highlights the challenges of wildlife conservation and the need for better strategies in animal reintroduction efforts.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Track updates to the leading stories listed above.",
-            "Watch for clarifications or official responses in follow-up coverage.",
-            "Expect sentiment to move as new details emerge."
+            "Further analysis of the Milky Way's cosmic structure may be released.",
+            "More studies on the implications of the new cancer T cell findings are expected.",
+            "Research on the impact of climate change on insect populations will continue."
           ],
           "next_1_4_weeks": [
-            "Some stories may transition from breaking news to policy or market impact.",
-            "Recurring themes in the feed will indicate sustained momentum.",
-            "Cross-category spillover effects may become clearer with additional reporting."
+            "Anticipated results from larger trials on the new epilepsy drug.",
+            "Ongoing discussions about wildlife conservation strategies for slow lorises.",
+            "Potential follow-up studies on the effects of dark matter on galaxy formation."
           ],
           "watch_list": [
-            "Astronomers discover giant cosmic sheet around the Milky Way",
-            "Electrons catapult across solar materials in just 18 femtoseconds",
-            "ALMA captures the most detailed image ever of the Milky Way’s turbulent core",
-            "Humpback whale recovery is changing who fathers the calves"
+            "Developments in cancer treatment based on T cell research.",
+            "Updates on the ecological impacts of climate change on insect species.",
+            "Further findings related to the Milky Way's structure and its implications.",
+            "Research on the recovery of humpback whale populations and their breeding patterns."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "This fallback report is generated from RSS headlines and summaries only.",
-          "Verify key details by opening the source links in the headlines list.",
-          "OpenAI generation failed (AuthenticationError). Used deterministic fallback."
+          "The implications of some findings may take time to fully understand and validate.",
+          "Further research is needed to confirm the long-term effects of new treatments and discoveries."
         ]
       }
     }
