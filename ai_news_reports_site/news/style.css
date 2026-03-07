@@ -732,6 +732,68 @@ a:hover { text-decoration: underline; }
   transition: width .7s cubic-bezier(.4,0,.2,1);
 }
 
+/* ── Trending topics ── */
+.trending {
+  padding: 10px var(--pad);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.trending__label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+  color: var(--warning);
+}
+.trending__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.pill--trending {
+  border-color: rgba(255,170,0,.35);
+  background: rgba(255,170,0,.10);
+  color: var(--warning);
+}
+
+/* ── Sentiment trend chart ── */
+.trend-chart {
+  padding: 10px var(--pad) 6px;
+}
+.trend-chart__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.trend-chart__label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.trend-chart__delta {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .03em;
+}
+.trend-chart__svg {
+  width: 100%;
+  height: 80px;
+  display: block;
+}
+.trend-chart__range {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
 /* ── HR divider ── */
 .hr {
   margin: 0;

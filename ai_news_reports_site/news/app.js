@@ -20,6 +20,7 @@ let currentCategory = "world";
 let currentReport   = null;
 let isLoading       = false;
 let headlineQuery   = "";
+let sentimentCache  = {};  // { "YYYY-MM-DD": { category: score } }
 
 /* ── Utilities ── */
 
@@ -168,6 +169,23 @@ function updateTopbar(){
   const dateEl = el("topbarDate");
   if (catEl)  catEl.textContent  = CATEGORY_LABELS[currentCategory] || currentCategory;
   if (dateEl) dateEl.textContent = currentDate || "—";
+}
+
+/* ── Dynamic meta description ── */
+
+function updateMeta(){
+  if (!currentReport) return;
+  const cat = currentReport.categories?.[currentCategory];
+  if (!cat) return;
+  const takeaway = cat.ai_report?.key_takeaway || "";
+  if (!takeaway) return;
+  const label = CATEGORY_LABELS[currentCategory] || currentCategory;
+  const desc = `${label}: ${takeaway}`;
+  const metaDesc = el("metaDesc");
+  const ogDesc = el("ogDesc");
+  if (metaDesc) metaDesc.setAttribute("content", desc);
+  if (ogDesc) ogDesc.setAttribute("content", desc);
+  document.title = `${label} — ${currentDate} · TL;DR News`;
 }
 
 /* ── Loading state ── */
@@ -331,10 +349,105 @@ function triggerReveal(){
   });
 }
 
+/* ── Sentiment trend chart ── */
+
+async function loadSentimentHistory(category, maxDays = 30) {
+  if (!indexData?.dates?.length) return [];
+  const dates = indexData.dates.slice(0, maxDays);
+  const points = [];
+
+  // Load reports we haven't cached yet
+  const toFetch = dates.filter(d => !(d.date in sentimentCache));
+  await Promise.all(toFetch.map(async (d) => {
+    try {
+      const report = await fetchJson(`./data/reports/${d.date}.json`);
+      const entry = {};
+      for (const [key, cat] of Object.entries(report.categories || {})) {
+        const score = cat?.sentiment?.score;
+        entry[key] = (score !== null && score !== undefined && !Number.isNaN(score)) ? score : null;
+      }
+      sentimentCache[d.date] = entry;
+    } catch (_) {
+      sentimentCache[d.date] = {};
+    }
+  }));
+
+  // Collect points in chronological order (oldest first)
+  for (let i = dates.length - 1; i >= 0; i--) {
+    const d = dates[i].date;
+    const score = sentimentCache[d]?.[category] ?? null;
+    if (score !== null) {
+      points.push({ date: d, score });
+    }
+  }
+  return points;
+}
+
+function renderSentimentChart(points) {
+  if (!points || points.length < 2) return "";
+
+  const W = 320, H = 80, PAD = 4;
+  const scores = points.map(p => p.score);
+  const minS = Math.min(...scores, -0.3);
+  const maxS = Math.max(...scores, 0.3);
+  const range = maxS - minS || 0.6;
+
+  const xStep = (W - PAD * 2) / (points.length - 1);
+  const coords = points.map((p, i) => ({
+    x: PAD + i * xStep,
+    y: PAD + (1 - (p.score - minS) / range) * (H - PAD * 2),
+    date: p.date,
+    score: p.score,
+  }));
+
+  const polyline = coords.map(c => `${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(" ");
+
+  // Zero line
+  const zeroY = PAD + (1 - (0 - minS) / range) * (H - PAD * 2);
+
+  // Dots for first, last, and extremes
+  const dotIndices = new Set([0, coords.length - 1]);
+  let minIdx = 0, maxIdx = 0;
+  scores.forEach((s, i) => { if (s < scores[minIdx]) minIdx = i; if (s > scores[maxIdx]) maxIdx = i; });
+  dotIndices.add(minIdx);
+  dotIndices.add(maxIdx);
+
+  const dots = [...dotIndices].map(i => {
+    const c = coords[i];
+    const color = c.score > 0.1 ? "var(--positive)" : c.score < -0.1 ? "var(--negative)" : "var(--accent)";
+    return `<circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="3" fill="${color}" stroke="var(--surface)" stroke-width="1.5"/>`;
+  }).join("");
+
+  const latest = points[points.length - 1];
+  const oldest = points[0];
+  const delta = latest.score - oldest.score;
+  const arrow = delta > 0.02 ? "&#9650;" : delta < -0.02 ? "&#9660;" : "&#9644;";
+  const deltaColor = delta > 0.02 ? "var(--positive)" : delta < -0.02 ? "var(--negative)" : "var(--muted2)";
+
+  return `
+    <div class="trend-chart">
+      <div class="trend-chart__header">
+        <span class="trend-chart__label">Sentiment Trend</span>
+        <span class="trend-chart__delta" style="color:${deltaColor}">${arrow} ${delta >= 0 ? "+" : ""}${delta.toFixed(3)} over ${points.length} days</span>
+      </div>
+      <svg viewBox="0 0 ${W} ${H}" class="trend-chart__svg" aria-label="Sentiment trend over ${points.length} days">
+        <line x1="${PAD}" y1="${zeroY.toFixed(1)}" x2="${W - PAD}" y2="${zeroY.toFixed(1)}" stroke="var(--border2)" stroke-width="0.5" stroke-dasharray="3,3"/>
+        <polyline points="${polyline}" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+        ${dots}
+      </svg>
+      <div class="trend-chart__range">
+        <span>${escapeHtml(oldest.date)}</span>
+        <span>${escapeHtml(latest.date)}</span>
+      </div>
+    </div>
+  `;
+}
+
 /* ── Main render ── */
 
 function render(){
   buildTabs();
+  updateMeta();
   const container = el("content");
   container.innerHTML = "";
 
@@ -378,6 +491,7 @@ function render(){
   const sent  = cat.sentiment || {};
   const rep   = cat.ai_report || {};
   const items = cat.items     || [];
+  const trending = currentReport.trending_topics || [];
 
   /* Sentiment gauge */
   const { pct: sentPct, color: sentColor } = sentimentStyle(sent.score);
@@ -434,6 +548,9 @@ function render(){
     + notableItems.reduce((a, n) => a + (n.why_it_matters || "").split(/\s+/).length, 0);
   const readMins  = Math.max(1, Math.round(wordCount / 200));
 
+  // Load sentiment trend in background
+  const trendPlaceholderId = `trend-${Date.now()}`;
+
   container.innerHTML = `
     <div class="grid">
 
@@ -449,6 +566,12 @@ function render(){
           <a href="${escapeAttr(src.feed_url || "#")}" target="_blank" rel="noopener">RSS feed ↗</a>
         </div>
 
+        ${trending.length ? `
+        <div class="trending">
+          <span class="trending__label">Trending across categories</span>
+          <div class="trending__pills">${trending.slice(0, 6).map(t => `<span class="pill pill--trending">${escapeHtml(t)}</span>`).join("")}</div>
+        </div>` : ""}
+
         <div class="kpi">
           <span class="badge">Sentiment: <strong>${escapeHtml(sent.label || "—")}</strong></span>
           <span class="badge">Score: <strong>${fmtScore(sent.score)}</strong></span>
@@ -457,6 +580,7 @@ function render(){
         <div class="sentiment-bar">
           <div class="sentiment-bar__fill" style="--pct:${sentPct}; --bar-color:${sentColor}"></div>
         </div>
+        <div id="${trendPlaceholderId}"></div>
 
         <div class="hr"></div>
 
@@ -528,6 +652,14 @@ function render(){
   }
 
   triggerReveal();
+
+  // Async: load sentiment trend chart
+  loadSentimentHistory(currentCategory, 30).then(points => {
+    const placeholder = document.getElementById(trendPlaceholderId);
+    if (placeholder && points.length >= 2) {
+      placeholder.innerHTML = renderSentimentChart(points);
+    }
+  }).catch(() => {});
 }
 
 /* ── Skeleton loader ── */
