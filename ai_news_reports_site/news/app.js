@@ -462,8 +462,14 @@ function render(){
   const search = el("searchInput");
   if (search){
     search.oninput = (e) => {
+      const pos = e.target.selectionEnd;
       headlineQuery = String(e.target.value || "");
       render();
+      const newSearch = el("searchInput");
+      if (newSearch){
+        newSearch.focus();
+        newSearch.setSelectionRange(pos, pos);
+      }
     };
   }
 
