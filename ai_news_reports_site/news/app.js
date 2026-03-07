@@ -450,13 +450,6 @@ function render(){
 
     </div>
 
-    <div class="footer">
-      Generated (UTC): <strong>${escapeHtml(currentReport.generated_at_utc || "—")}</strong>
-      &nbsp;&middot;&nbsp;
-      Timezone: <strong>${escapeHtml(currentReport.timezone || "—")}</strong>
-      &nbsp;&middot;&nbsp;
-      Model: <strong>${escapeHtml(currentReport.model || "—")}</strong>
-    </div>
   `;
 
   const search = el("searchInput");
