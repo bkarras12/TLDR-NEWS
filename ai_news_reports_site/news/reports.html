@@ -9,19 +9,14 @@
 
   <link rel="icon" type="image/x-icon" href="tldr_logo.ico">
 
-  <!-- Force Brutalism (and preserve mode/layout prefs). -->
+  <!-- Apply mode pref before paint to avoid flash -->
   <script>
     (function () {
       try {
         const mode = localStorage.getItem("tldr_mode") || "dark";
-        const layout = localStorage.getItem("tldr_layout") || "classic";
-        document.documentElement.dataset.style = "brutal";
         document.documentElement.dataset.mode = mode;
-        document.documentElement.dataset.layout = layout;
       } catch (_) {
-        document.documentElement.dataset.style = "brutal";
         document.documentElement.dataset.mode = "dark";
-        document.documentElement.dataset.layout = "classic";
       }
     })();
   </script>
@@ -30,7 +25,10 @@
 </head>
 
 <body>
-  <!-- Ambient background -->
+  <!-- Scroll progress bar -->
+  <div id="pg-bar" aria-hidden="true"></div>
+
+  <!-- Ambient background blobs -->
   <div class="ambient" aria-hidden="true">
     <div class="ambient__blob b1"></div>
     <div class="ambient__blob b2"></div>
@@ -48,20 +46,28 @@
         <div class="brand" aria-label="Site branding">
           <div class="logo" aria-hidden="true">TL;DR</div>
           <div class="brand__text">
-            <h1 class="title">AI News Reports</h1>
-            <p class="sub">Daily, agent-generated summaries across 5 categories.</p>
+            <h1>AI News Reports</h1>
+            <p class="sub">Daily, agent-generated summaries &middot; 5 categories</p>
           </div>
         </div>
 
+        <span id="live-clock" class="live-clock" aria-label="Current date and time"></span>
+
         <div class="controls" aria-label="Report controls">
           <div class="control">
-            <label for="dateSelect">Date</label>
+            <label for="dateSelect">Report date</label>
             <select id="dateSelect" aria-label="Select report date"></select>
           </div>
-
-          <div class="control control--actions" aria-label="Actions">
+          <div class="control control--actions">
+            <label style="visibility:hidden">&#8203;</label>
             <button id="refreshBtn" class="btn primary" type="button" aria-label="Refresh reports">
-              Refresh
+              &#8635; Refresh
+            </button>
+          </div>
+          <div class="control control--actions">
+            <label style="visibility:hidden">&#8203;</label>
+            <button id="modeToggle" class="btn" type="button" aria-pressed="true">
+              Dark mode: On
             </button>
           </div>
         </div>
@@ -82,7 +88,7 @@
     <main id="content" class="content" role="main" tabindex="-1"></main>
 
     <footer class="site-footer" role="contentinfo">
-      <span class="muted">Quick news for shortened attention spans</span>
+      <span class="muted">Quick intelligence for shortened attention spans</span>
     </footer>
   </div>
 
