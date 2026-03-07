@@ -14,12 +14,12 @@ const PREF_KEYS = {
   mode: "tldr_mode",
 };
 
-let indexData      = null;
-let currentDate    = null;
+let indexData       = null;
+let currentDate     = null;
 let currentCategory = "world";
-let currentReport  = null;
-let isLoading      = false;
-let headlineQuery  = "";
+let currentReport   = null;
+let isLoading       = false;
+let headlineQuery   = "";
 
 /* ── Utilities ── */
 
@@ -81,12 +81,51 @@ function startClock(){
 function initScrollProgress(){
   const bar = el("pg-bar");
   if (!bar) return;
-  window.addEventListener("scroll", () => {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const docH      = document.documentElement.scrollHeight - window.innerHeight;
-    const pct       = docH > 0 ? Math.round((scrollTop / docH) * 100) : 0;
+  const scrollEl = el("contentScroll");
+  const update = () => {
+    let pct = 0;
+    if (scrollEl && scrollEl.scrollHeight > scrollEl.clientHeight){
+      const max = scrollEl.scrollHeight - scrollEl.clientHeight;
+      pct = max > 0 ? Math.round((scrollEl.scrollTop / max) * 100) : 0;
+    } else {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const docH      = document.documentElement.scrollHeight - window.innerHeight;
+      pct = docH > 0 ? Math.round((scrollTop / docH) * 100) : 0;
+    }
     bar.style.setProperty("--pg", pct + "%");
-  }, { passive: true });
+  };
+  if (scrollEl) scrollEl.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("scroll", update, { passive: true });
+}
+
+/* ── Sidebar (mobile drawer) ── */
+
+function initSidebar(){
+  const sidebar   = el("sidebar");
+  const hamburger = el("hamburger");
+  const closeBtn  = el("sidebarClose");
+  const overlay   = el("navOverlay");
+
+  function openSidebar(){
+    if (!sidebar) return;
+    sidebar.classList.add("open");
+    overlay?.classList.add("visible");
+    hamburger?.setAttribute("aria-expanded", "true");
+  }
+
+  function closeSidebar(){
+    if (!sidebar) return;
+    sidebar.classList.remove("open");
+    overlay?.classList.remove("visible");
+    hamburger?.setAttribute("aria-expanded", "false");
+  }
+
+  if (hamburger) hamburger.onclick = openSidebar;
+  if (closeBtn)  closeBtn.onclick  = closeSidebar;
+  if (overlay)   overlay.onclick   = closeSidebar;
+
+  // Expose close so tab clicks can collapse the drawer on mobile
+  window._closeSidebar = closeSidebar;
 }
 
 /* ── Dark / light mode ── */
@@ -122,6 +161,15 @@ function initUiControls(){
   }
 }
 
+/* ── Topbar ── */
+
+function updateTopbar(){
+  const catEl  = el("topbarCat");
+  const dateEl = el("topbarDate");
+  if (catEl)  catEl.textContent  = CATEGORY_LABELS[currentCategory] || currentCategory;
+  if (dateEl) dateEl.textContent = currentDate || "—";
+}
+
 /* ── Loading state ── */
 
 function setLoading(flag){
@@ -144,7 +192,10 @@ function buildTabs(){
     b.onclick = () => {
       currentCategory = key;
       buildTabs();
+      updateTopbar();
       render();
+      // Close mobile drawer after selecting a category
+      if (window.innerWidth <= 960) window._closeSidebar?.();
     };
     tabs.appendChild(b);
   }
@@ -173,6 +224,7 @@ function populateDates(){
   sel.value = currentDate;
   sel.onchange = async () => {
     currentDate = sel.value;
+    updateTopbar();
     renderSkeleton();
     await loadReport(currentDate);
     render();
@@ -189,11 +241,13 @@ async function loadIndex(){
     indexData   = await fetchJson(INDEX_URL);
     currentDate = indexData.latest_date || (indexData.dates?.[0]?.date ?? null);
     populateDates();
+    updateTopbar();
     setStatus(currentDate ? `Latest report: ${currentDate}` : "No reports yet.");
   }catch(e){
     indexData   = { latest_date: null, dates: [] };
     currentDate = null;
     populateDates();
+    updateTopbar();
     setStatus("No reports yet.");
     setError("Could not load reports index. Run the pipeline to generate your first report.");
   }finally{
@@ -270,7 +324,6 @@ function triggerReveal(){
   cards.forEach((card, i) => {
     card.classList.add("reveal", `reveal-${Math.min(i + 1, 8)}`);
   });
-  // Items inside cards get a subtle stagger too
   const items = document.querySelectorAll(".content .item");
   items.forEach((item, i) => {
     item.style.animationDelay = `${0.1 + i * 0.03}s`;
@@ -321,10 +374,10 @@ function render(){
     return;
   }
 
-  const src     = cat.source      || {};
-  const sent    = cat.sentiment   || {};
-  const rep     = cat.ai_report   || {};
-  const items   = cat.items       || [];
+  const src   = cat.source    || {};
+  const sent  = cat.sentiment || {};
+  const rep   = cat.ai_report || {};
+  const items = cat.items     || [];
 
   /* Sentiment gauge */
   const { pct: sentPct, color: sentColor } = sentimentStyle(sent.score);
@@ -345,7 +398,7 @@ function render(){
     const link = url
       ? `<a href="${escapeAttr(url)}" target="_blank" rel="noopener">${head}</a>`
       : head;
-    const sc   = signalClass(n.signal);
+    const sc = signalClass(n.signal);
     return `
       <div class="item">
         <div>${link} <span class="badge ${escapeAttr(sc)}">${escapeHtml(n.signal || "Unclear")}</span></div>
@@ -594,6 +647,7 @@ function stripHtml(str){
 async function init(){
   startClock();
   initScrollProgress();
+  initSidebar();
   initUiControls();
 
   renderSkeleton();
@@ -609,6 +663,7 @@ async function init(){
   await loadIndex();
   if (currentDate) await loadReport(currentDate);
   buildTabs();
+  updateTopbar();
   render();
 }
 

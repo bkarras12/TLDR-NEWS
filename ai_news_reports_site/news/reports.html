@@ -33,63 +33,91 @@
     <div class="ambient__blob b1"></div>
     <div class="ambient__blob b2"></div>
     <div class="ambient__blob b3"></div>
-    <div class="ambient__noise"></div>
   </div>
 
-  <div class="wrap">
-    <a class="skip-link" href="#content">Skip to reports</a>
+  <!-- Mobile nav overlay -->
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
 
-    <header class="hero" role="banner">
-      <div class="hero__bg" aria-hidden="true"></div>
+  <div class="app-shell">
 
-      <div class="hero__top">
-        <div class="brand" aria-label="Site branding">
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar" id="sidebar" role="navigation" aria-label="Site navigation">
+      <a class="skip-link" href="#content">Skip to reports</a>
+
+      <div class="sidebar__inner">
+
+        <!-- Brand -->
+        <div class="sidebar__brand">
           <div class="logo" aria-hidden="true">TL;DR</div>
           <div class="brand__text">
-            <h1>AI News Reports</h1>
-            <p class="sub">Daily, agent-generated summaries &middot; 5 categories</p>
+            <div class="brand__name">TLDR News</div>
+            <div class="brand__tagline">AI Intelligence</div>
           </div>
+          <button class="sidebar__close" id="sidebarClose" aria-label="Close navigation">&#10005;</button>
         </div>
 
-        <span id="live-clock" class="live-clock" aria-label="Current date and time"></span>
-
-        <div class="controls" aria-label="Report controls">
-          <div class="control">
-            <label for="dateSelect">Report date</label>
-            <select id="dateSelect" aria-label="Select report date"></select>
-          </div>
-          <div class="control control--actions">
-            <label style="visibility:hidden">&#8203;</label>
-            <button id="refreshBtn" class="btn primary" type="button" aria-label="Refresh reports">
-              &#8635; Refresh
-            </button>
-          </div>
-          <div class="control control--actions">
-            <label style="visibility:hidden">&#8203;</label>
-            <button id="modeToggle" class="btn" type="button" aria-pressed="true">
-              Dark mode: On
-            </button>
-          </div>
+        <!-- Category navigation -->
+        <div class="sidebar__section">
+          <div class="sidebar__label">Categories</div>
+          <div id="tabs" class="tabs" role="tablist"></div>
         </div>
-      </div>
 
-      <div class="hero__bottom">
+        <!-- Date picker -->
+        <div class="sidebar__section">
+          <div class="sidebar__label">Report Date</div>
+          <select id="dateSelect" aria-label="Select report date"></select>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="sidebar__actions">
+          <button id="refreshBtn" class="btn btn--primary" type="button" aria-label="Refresh reports">
+            &#8635; Refresh
+          </button>
+          <button id="modeToggle" class="btn" type="button" aria-pressed="true">
+            &#9790; Dark mode
+          </button>
+        </div>
+
+        <!-- Status line -->
         <div class="statusline" role="status" aria-live="polite" aria-atomic="true">
           <span id="status" class="muted"></span>
           <span id="error" class="error" hidden></span>
         </div>
 
-        <nav class="tabs-wrap" aria-label="News categories">
-          <div id="tabs" class="tabs" role="tablist"></div>
-        </nav>
+        <!-- Sidebar footer -->
+        <div class="sidebar__footer">
+          Quick intelligence for shortened attention spans
+        </div>
+
       </div>
-    </header>
+    </aside>
 
-    <main id="content" class="content" role="main" tabindex="-1"></main>
+    <!-- ── Main area ── -->
+    <div class="main-area">
 
-    <footer class="site-footer" role="contentinfo">
-      <span class="muted">Quick intelligence for shortened attention spans</span>
-    </footer>
+      <!-- Topbar -->
+      <header class="topbar" role="banner">
+        <button class="hamburger" id="hamburger" type="button"
+                aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="topbar__title">
+          <span class="topbar__cat" id="topbarCat">World</span>
+          <span class="topbar__sep">&middot;</span>
+          <span class="topbar__date" id="topbarDate">Loading&hellip;</span>
+        </div>
+        <span id="live-clock" class="live-clock" aria-label="Current date and time"></span>
+      </header>
+
+      <!-- Scrollable content -->
+      <div class="content-scroll" id="contentScroll">
+        <main id="content" class="content" role="main" tabindex="-1"></main>
+        <footer class="site-footer" role="contentinfo">
+          <span class="muted">Daily AI-powered news intelligence &middot; TL;DR News</span>
+        </footer>
+      </div>
+
+    </div>
   </div>
 
   <script src="app.js"></script>
