@@ -331,6 +331,27 @@ function triggerReveal(){
   });
 }
 
+/* ── Archives nav ── */
+
+function buildArchivesNav(){
+  if (!indexData?.dates?.length) return "";
+  const recent = indexData.dates.slice(0, 7);
+  const chips  = recent.map(({ date }) => {
+    const active  = date === currentDate ? " active" : "";
+    const archUrl = escapeAttr(`./archives/${date}.html`);
+    return `
+      <div class="archive-chip${active}">
+        <button class="archive-chip__btn" data-date="${escapeAttr(date)}">${escapeHtml(date)}</button>
+        <a class="archive-chip__link" href="${archUrl}" target="_blank" rel="noopener" title="Static archive">&#8599;</a>
+      </div>`;
+  }).join("");
+  return `
+    <div class="archives-nav reveal reveal-5">
+      <div class="archives-nav__label">Browse Archives</div>
+      <div class="archives-nav__chips">${chips}</div>
+    </div>`;
+}
+
 /* ── Main render ── */
 
 function render(){
@@ -378,6 +399,16 @@ function render(){
   const sent  = cat.sentiment || {};
   const rep   = cat.ai_report || {};
   const items = cat.items     || [];
+
+  /* Share URL + Twitter intent — computed here for use in HTML template */
+  const shareTitle   = `${escapeHtml(cat.title)} News \u00b7 ${currentDate} \u00b7 TLDR News`;
+  const shareUrl     = `${REPORTS_URL}?date=${encodeURIComponent(currentDate)}&cat=${encodeURIComponent(currentCategory)}`;
+  const twitterUrl   = `https://x.com/intent/tweet?text=${encodeURIComponent(shareTitle)}&url=${encodeURIComponent(shareUrl)}`;
+  const shareGroupHtml = `
+    <div class="share-group" data-share-title="${escapeAttr(shareTitle)}" data-share-url="${escapeAttr(shareUrl)}">
+      <button class="share-btn" data-action="copy" title="Copy link">&#128279;</button>
+      <a class="share-btn" href="${escapeAttr(twitterUrl)}" target="_blank" rel="noopener" title="Share on X">&#120143;</a>
+    </div>`;
 
   /* Sentiment gauge */
   const { pct: sentPct, color: sentColor } = sentimentStyle(sent.score);
@@ -439,8 +470,11 @@ function render(){
 
       <!-- ── Left: AI Report ── -->
       <div class="card">
-        <h2>${escapeHtml(cat.title)} Report
-          <span style="font-family:var(--mono);font-size:11px;font-weight:400;color:var(--muted);margin-left:10px;letter-spacing:.04em;">~${readMins} min read</span>
+        <h2>
+          <span>${escapeHtml(cat.title)} Report
+            <span style="font-family:var(--mono);font-size:11px;font-weight:400;color:var(--muted);margin-left:10px;letter-spacing:.04em;">~${readMins} min read</span>
+          </span>
+          ${shareGroupHtml}
         </h2>
 
         <div class="source-line">
@@ -493,7 +527,10 @@ function render(){
 
       <!-- ── Right: All headlines ── -->
       <div class="card">
-        <h2>All Headlines <span style="font-family:var(--mono);font-size:11px;font-weight:400;color:var(--muted);margin-left:6px;">${items.length} items</span></h2>
+        <h2>
+          <span>All Headlines <span style="font-family:var(--mono);font-size:11px;font-weight:400;color:var(--muted);margin-left:6px;">${items.length} items</span></span>
+          ${shareGroupHtml}
+        </h2>
         <div class="search" role="search" aria-label="Search headlines">
           <input id="searchInput" type="search" placeholder="Filter headlines…" value="${escapeAttr(headlineQuery)}" />
         </div>
@@ -502,6 +539,8 @@ function render(){
       </div>
 
     </div>
+
+    ${buildArchivesNav()}
 
   `;
 
@@ -520,6 +559,37 @@ function render(){
   }
 
   triggerReveal();
+
+  /* Share button: copy link or native OS share */
+  document.querySelectorAll(".share-btn[data-action='copy']").forEach(btn => {
+    btn.onclick = async (e) => {
+      e.preventDefault();
+      const group = btn.closest(".share-group");
+      const url   = group.dataset.shareUrl;
+      const title = group.dataset.shareTitle;
+      try {
+        if (navigator.share && /Mobi|Android/i.test(navigator.userAgent)){
+          await navigator.share({ title, url });
+        } else {
+          await navigator.clipboard.writeText(url);
+          const orig = btn.innerHTML;
+          btn.innerHTML = "&#10003;";
+          setTimeout(() => { btn.innerHTML = orig; }, 1500);
+        }
+      } catch(_){}
+    };
+  });
+
+  /* Archives nav: load report on date chip click */
+  document.querySelectorAll(".archive-chip__btn").forEach(btn => {
+    btn.onclick = async () => {
+      currentDate = btn.dataset.date;
+      updateTopbar();
+      renderSkeleton();
+      await loadReport(currentDate);
+      render();
+    };
+  });
 
   /* Update SEO/GEO meta for this category view */
   updateMeta(currentCategory, cat);

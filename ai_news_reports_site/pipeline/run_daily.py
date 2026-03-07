@@ -187,13 +187,17 @@ def main() -> int:
         "categories": categories_out,
     }
 
-    publisher = PublisherAgent(site_root=site_root)
-    out_path = publisher.write_daily_report(date_key, daily_report)
+    publisher    = PublisherAgent(site_root=site_root)
+    out_path     = publisher.write_daily_report(date_key, daily_report)
+    archive_path = publisher.write_archive_page(date_key, daily_report)
     publisher.update_index(date_key=date_key, available_categories=list(CATEGORIES.keys()))
     sitemap_path = publisher.write_sitemap()
+    rss_path     = publisher.write_rss_feed()
 
-    print(f"Saved daily report to: {out_path}")
-    print(f"Updated sitemap: {sitemap_path}")
+    print(f"Saved daily report to:  {out_path}")
+    print(f"Wrote archive page:     {archive_path}")
+    print(f"Updated sitemap:        {sitemap_path}")
+    print(f"Updated RSS feed:       {rss_path}")
     return 0
 
 
