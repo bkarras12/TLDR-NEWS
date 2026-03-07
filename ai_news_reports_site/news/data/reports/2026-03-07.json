@@ -1,0 +1,794 @@
+{
+  "date": "2026-03-07",
+  "generated_at_utc": "2026-03-07T14:36:37Z",
+  "timezone": "America/Denver",
+  "model": "gpt-4o-mini",
+  "categories": {
+    "world": {
+      "key": "world",
+      "title": "World",
+      "source": {
+        "site_name": "BBC News",
+        "site_url": "https://www.bbc.com/news",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+      },
+      "sentiment": {
+        "score": -0.9954,
+        "label": "Negative",
+        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Iran will continue to defend itself against aggression, ambassador to UK says",
+          "url": "https://www.bbc.com/news/articles/cq6qp458zv1o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 07 Mar 2026 14:11:37 GMT",
+          "summary": "Seyed Ali Mousavi tells Laura Kuenssberg Iran's response depends on the actions of the US and Israel.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Armed robots take to the battlefield in Ukraine war",
+          "url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 07 Mar 2026 00:36:19 GMT",
+          "summary": "Ukraine has embarked on a programme to deploy armed robots on the battlefield against Russian forces.",
+          "source": "BBC News"
+        },
+        {
+          "title": "We've been speaking to Iranians during one week of war. Here's what they said",
+          "url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 07 Mar 2026 06:00:32 GMT",
+          "summary": "Ordinary Iranians reflect on seven days of conflict and where they see their country going next.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Heavy rains and flooding kills at least 23 in Nairobi",
+          "url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 07 Mar 2026 12:21:40 GMT",
+          "summary": "Flights in and out of Nairobi Airport have been disrupted while some roads in the capital are submerged.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Israeli troops push into Lebanon for yet another war with Iran's proxy Hezbollah",
+          "url": "https://www.bbc.com/news/articles/cpv8xlvk3p4o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Mar 2026 16:16:05 GMT",
+          "summary": "The BBC sees troops and tanks massing near the border, as speculation mounts that Israel is planning a full-scale ground invasion to fight Hezbollah.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Massive' numbers killed by gunmen in latest Nigeria attack, senator tells BBC",
+          "url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Mar 2026 17:06:14 GMT",
+          "summary": "Suspected Islamist militants reportedly seized control of a village for two days before being forced out by troops and air strikes.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Swiss to vote on right-wing push to slash licence fee for public broadcaster",
+          "url": "https://www.bbc.com/news/articles/c4g55v24wrno?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 07 Mar 2026 02:04:23 GMT",
+          "summary": "The move is backed by the right-wing Swiss People's Party, which says the current fee is unjustified because of the high cost of living.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Russian strike on Kharkiv apartment block kills ten",
+          "url": "https://www.bbc.com/news/articles/cn8zd049l08o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 07 Mar 2026 07:54:22 GMT",
+          "summary": "Ukraine President Volodymyr Zelensky says other people - including children - are injured as rescuers continue to search through rubble.",
+          "source": "BBC News"
+        },
+        {
+          "title": "China spent years building ties in Latin America. Can Trump make room for the US?",
+          "url": "https://www.bbc.com/news/articles/c5yvw0zwpd5o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 07 Mar 2026 01:56:20 GMT",
+          "summary": "US President Donald Trump will meet with ideologically-aligned Latin American leaders to try and counter China's influence in the region.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Indonesia to ban social media and other online platforms for under 16s",
+          "url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Mar 2026 13:25:12 GMT",
+          "summary": "It is the latest country to curb young people's access to digital spaces to try and protect them from abuse.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Ukrainian bank workers released after detention in Hungary",
+          "url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Mar 2026 18:37:58 GMT",
+          "summary": "Kyiv has reacted furiously after officials in Budapest accused staff transporting cash to Ukraine of money laundering.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
+          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Mar 2026 04:23:12 GMT",
+          "summary": "The US said the two sides would make joint efforts to promote stability after the US seized Maduro and his wife.",
+          "source": "BBC News"
+        }
+      ],
+      "ai_report": {
+        "summary": "Today's world news highlights significant geopolitical tensions, humanitarian crises, and domestic policy changes across various nations. The ongoing conflict in Ukraine continues to escalate with the introduction of armed robots, while Iran's ambassador asserts the nation's defensive stance against perceived aggression. Heavy rains in Nairobi have led to fatalities and disruptions, and violence in Nigeria raises concerns over security. Additionally, diplomatic developments between the US and Venezuela signal a potential shift in relations. The Swiss electorate is also set to vote on a controversial media funding issue.",
+        "key_themes": [
+          "Geopolitical Tensions",
+          "Humanitarian Crises",
+          "Domestic Policy Changes",
+          "Security Issues",
+          "Diplomatic Relations"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Iran will continue to defend itself against aggression, ambassador to UK says",
+            "why_it_matters": "This statement reflects Iran's ongoing tensions with the US and Israel, indicating a potential escalation in regional conflicts.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Armed robots take to the battlefield in Ukraine war",
+            "why_it_matters": "The deployment of armed robots signifies a new phase in warfare, potentially changing the dynamics of the conflict with Russia.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Heavy rains and flooding kills at least 23 in Nairobi",
+            "why_it_matters": "The flooding highlights the vulnerability of urban infrastructure to extreme weather events, raising concerns for disaster preparedness.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Israeli troops push into Lebanon for yet another war with Iran's proxy Hezbollah",
+            "why_it_matters": "This military action could lead to a broader conflict in the region, affecting stability in Lebanon and Israel.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "'Massive' numbers killed by gunmen in latest Nigeria attack, senator tells BBC",
+            "why_it_matters": "The attack underscores the ongoing security crisis in Nigeria, particularly from Islamist militants, raising questions about government effectiveness.",
+            "signal": "Risk"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Monitor developments in the Israel-Hezbollah conflict as troop movements continue.",
+            "Watch for updates on the humanitarian situation in Nairobi following the flooding.",
+            "Follow the implications of Iran's statements regarding US and Israeli actions."
+          ],
+          "next_1_4_weeks": [
+            "Assess the impact of armed robots in the Ukraine conflict as they are deployed in combat.",
+            "Observe the outcomes of the Swiss vote on public broadcaster funding and its implications for media.",
+            "Evaluate the evolving diplomatic relations between the US and Venezuela."
+          ],
+          "watch_list": [
+            "Potential escalation of violence in Ukraine and the Middle East.",
+            "Humanitarian responses to flooding in Nairobi.",
+            "Security developments in Nigeria and their impact on local communities.",
+            "The effectiveness of new policies in Indonesia regarding online platforms for youth."
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The situation in conflict zones is fluid and may change rapidly.",
+          "Sentiment analysis is based on headline and summary language, which may not capture the full context of events."
+        ]
+      }
+    },
+    "business": {
+      "key": "business",
+      "title": "Business",
+      "source": {
+        "site_name": "The Guardian",
+        "site_url": "https://www.theguardian.com/business",
+        "feed_url": "https://www.theguardian.com/business/rss"
+      },
+      "sentiment": {
+        "score": -0.992,
+        "label": "Negative",
+        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "US lost 92,000 jobs in February just before Trump joined Iran conflict",
+          "url": "https://www.theguardian.com/business/2026/mar/06/february-jobs-report",
+          "published": "Fri, 06 Mar 2026 13:38:12 GMT",
+          "summary": "<p>The unemployment rate was 4.4% in February, with 130,000 jobs added in January</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/mar/06/oil-biggest-weekly-gain-four-years-strait-of-hormuz-traffic-halt-stock-markets-dollar-imf-news-updates\">Business live – latest updates</a></p></li></ul><p>The US lost 92,000 jobs in February, an unexpected major slackening in the labor market that came just before <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> t",
+          "source": "The Guardian"
+        },
+        {
+          "title": "US preparing system to process refunds on billions in illegal Trump tariffs",
+          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds",
+          "published": "Fri, 06 Mar 2026 17:41:49 GMT",
+          "summary": "<p>Top official at customs agency says total sum held in relation to tariffs is estimated to be about $166bn</p><p>The US customs agency is preparing a system that will be ​ready to process refunds on billions of dollars of illegally ‌collected tariffs in 45 days without requiring importers to sue, a court has been told.</p><p>Brandon Lord, a top official at US Customs and Border Protection (CBP), said in a filing to the US court of international trade on Friday that the total sum held in relati",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Iran war pushes oil price above $90, threatening rise in global inflation",
+          "url": "https://www.theguardian.com/business/2026/mar/06/iran-war-pushes-oil-price-above-90-dollars-a-barrel",
+          "published": "Fri, 06 Mar 2026 17:04:22 GMT",
+          "summary": "<p>Reports Kuwait was cutting output pushed up cost of barrel of Brent crude to highest weekly gain since Covid pandemic began</p><p>The Iran conflict has driven the oil price past $90 a barrel to its highest weekly gains since the Covid-19 pandemic six years ago, threatening a fresh rise in global inflation.</p><p>Reports that Kuwait had begun cutting production of oil at some fields after running out of space to store it drove the cost of a barrel of Brent crude to as high as $91.89 at one poi",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘You unbelievable coward’: conservative US media in open warfare over Iran",
+          "url": "https://www.theguardian.com/media/2026/mar/06/conservative-media-open-warfare-over-iran",
+          "published": "Fri, 06 Mar 2026 11:00:18 GMT",
+          "summary": "<p>Tucker Carlson, Megyn Kelly, Ben Shapiro and Mark Levin are all trading blows over US involvement – while Sean Hannity says he’s staying out of it</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter aler",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘It’s discrimination’: US Small Business Administration cuts off loans to immigrant entrepreneurs",
+          "url": "https://www.theguardian.com/us-news/2026/mar/05/small-business-administration-loans-immigrant-entrepreneurs",
+          "published": "Thu, 05 Mar 2026 13:00:01 GMT",
+          "summary": "<p>Green card holders are now ineligible for loans through the SBA as agency carries out Trump’s ‘America First’ agenda</p><p>The US federal agency in charge of helping <a href=\"https://www.theguardian.com/business/small-business\">small businesses</a> has cut off an essential line of funding for immigrant entrepreneurs for the first time in the agency’s history.</p><p>Legal residents, or green card holders, are now <a href=\"https://www.sba.gov/document/policy-notice-5000-876441-update-sop-50-10-",
+          "source": "The Guardian"
+        },
+        {
+          "title": "New York and other US states sue Trump over ‘illegal and reckless’ tariffs",
+          "url": "https://www.theguardian.com/us-news/2026/mar/05/trump-administration-tariff-lawsuit",
+          "published": "Thu, 05 Mar 2026 20:10:16 GMT",
+          "summary": "<p>Lawsuit says president does not have authority to impose levies and demands refunds from federal government</p><p>A coalition of Democratic attorneys general and governors across 24 US states are suing Donald Trump to block his latest round of tariffs.</p><p>The White House is planning to enact a new 15% tariff on all imports after the supreme court declared Trump’s “liberation day” tariffs <a href=\"https://www.nbcnews.com/politics/supreme-court/supreme-court-strikes-trumps-tariffs-major-blow",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Weight-loss jab could be made for $3 a month, study finds",
+          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study",
+          "published": "Fri, 06 Mar 2026 09:00:16 GMT",
+          "summary": "<p>Cheap semaglutide, the drug in Ozempic and Wegovy, could help millions with diabetes and obesity in 160 countries</p><p>Weight-loss jabs such as Wegovy could be made for just $3 a month, according to new analysis, potentially making the treatment available to millions in poorer countries as patents expire.</p><p>More than <a href=\"https://www.theguardian.com/society/2024/feb/29/more-than-a-billion-people-worldwide-are-obese-research-finds\">a billion people live with obesity</a> worldwide, wit",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Paramount-Warner Bros mega-merger could still face ‘real threats’, antitrust experts say",
+          "url": "https://www.theguardian.com/film/2026/mar/05/paramount-warner-bros-merger-hurdles",
+          "published": "Thu, 05 Mar 2026 12:00:03 GMT",
+          "summary": "<p>The $110bn deal will require approval from regulatory authorities in the US, the EU and the UK</p><p>Champagne <a href=\"https://www.nytimes.com/2026/02/28/business/warner-bros-paramount-reaction.html\">reportedly flowed</a> at Paramount Skydance headquarters late last week after the media conglomerate edged out Netflix to acquire the entirety of Warner Bros Discovery for a cool $110bn.</p><p>And on a call with analysts and investors on Monday morning, David Ellison, Paramount Skydance’s chief",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Oil price continues to rise amid Middle East crisis but stock markets rebound across Asia",
+          "url": "https://www.theguardian.com/business/2026/mar/05/oil-price-continues-to-rise-amid-middle-east-crisis-but-stock-markets-rebound-across-asia",
+          "published": "Thu, 05 Mar 2026 10:01:13 GMT",
+          "summary": "<p>Reports of attack on US registered tanker in Gulf lifts crude by 3% to $84 a barrel as gas price also starts to climb</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/mar/05/wizz-air-profits-warning-iran-travel-middle-east-crisis-airlines-china-diesel-gasoline-exports-news-updates\">Business live – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/05/iran-war-latest-updates-canada-carney-trump-israel-tehran-strikes\">Middle East cris",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘A big burden for farmers’: Gulf shipping crisis threatens food price shock",
+          "url": "https://www.theguardian.com/business/2026/mar/05/big-burden-for-farmers-gulf-shipping-crisis-threatens-food-price-shock",
+          "published": "Thu, 05 Mar 2026 06:00:54 GMT",
+          "summary": "<p>Iranian blockade of the strategic strait of Hormuz is hitting global fertiliser supply chain</p><p></p><p>The global fertiliser supply chain could face significant disruption if the effective closure by Iran of the <a href=\"https://www.theguardian.com/business/2026/mar/01/us-israel-strikes-iran-oil-price\">strait of Hormuz</a> persists, prompting concerns from analysts about crop production and food security.</p><p>Passage through the waterway, located off Iran’s southern coast, has mostly sto",
+          "source": "The Guardian"
+        },
+        {
+          "title": "What was really behind Jack Dorsey laying off nearly half of Block’s staff?",
+          "url": "https://www.theguardian.com/technology/2026/mar/03/jack-dorsey-block-ai-worker-jobs",
+          "published": "Tue, 03 Mar 2026 22:06:19 GMT",
+          "summary": "<p>CEO cited AI advances in cutting 4,000 workers, but a weak crypto market and declining stock price may also be at play</p><p><a href=\"https://www.theguardian.com/technology/jack-dorsey\">Jack Dorsey</a> cited <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> as the driving force behind cutting 40% of his company’s employees, but other factors such as a weak crypto market, overstaffing and a declining stock price may also have motivated the move.</p><p>Last week,",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The real winners of Trump’s global tariff war: law firms, hedge funds and AI",
+          "url": "https://www.theguardian.com/us-news/2026/feb/28/trump-tariffs-refunds-law-firms",
+          "published": "Sat, 28 Feb 2026 12:00:12 GMT",
+          "summary": "<p>Businesses are vying for a refund, with nearly $175bn on the line, but customers are unlikely to benefit from reversal</p><p>At 8am, two hours before the US <a href=\"https://www.theguardian.com/us-news/us-supreme-court\">supreme court</a> officially slapped down <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>’s “liberation day” tariffs on 20 February, Joseph Spraragen’s phone was already ringing off the hook.</p><p>The seasoned New York-based attorney and his 40-stro",
+          "source": "The Guardian"
+        }
+      ],
+      "ai_report": {
+        "summary": "Today's business news highlights significant developments in the US labor market, tariff disputes, and rising oil prices amid geopolitical tensions. The US experienced a notable job loss in February, while the customs agency prepares to process refunds for illegally collected tariffs. The ongoing conflict in Iran is pushing oil prices higher, raising concerns about global inflation and food security due to disruptions in the fertilizer supply chain. Additionally, the Small Business Administration has cut off loans to immigrant entrepreneurs, and a coalition of states is suing Trump over tariffs. The overall sentiment is negative, reflecting uncertainty and potential risks in the business landscape.",
+        "key_themes": [
+          "US labor market",
+          "Tariff disputes",
+          "Oil prices and inflation",
+          "Impact on small businesses",
+          "Geopolitical tensions"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "US lost 92,000 jobs in February just before Trump joined Iran conflict",
+            "why_it_matters": "This unexpected job loss indicates a significant slackening in the labor market, which could have broader economic implications.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US preparing system to process refunds on billions in illegal Trump tariffs",
+            "why_it_matters": "The potential refunds could impact businesses financially, as they navigate the aftermath of Trump's tariff policies.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Iran war pushes oil price above $90, threatening rise in global inflation",
+            "why_it_matters": "Rising oil prices could lead to increased costs for consumers and businesses, exacerbating inflationary pressures globally.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "‘It’s discrimination’: US Small Business Administration cuts off loans to immigrant entrepreneurs",
+            "why_it_matters": "This policy change could severely limit funding opportunities for immigrant entrepreneurs, affecting their ability to start or grow businesses.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "New York and other US states sue Trump over ‘illegal and reckless’ tariffs",
+            "why_it_matters": "The lawsuit reflects ongoing tensions regarding trade policies and could lead to significant changes in tariff regulations.",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Monitoring job market reactions to February's employment report",
+            "Observing developments in the Iran conflict and its impact on oil prices",
+            "Tracking responses from businesses regarding the SBA's loan policy changes"
+          ],
+          "next_1_4_weeks": [
+            "Potential legal outcomes from the tariff lawsuits against Trump",
+            "Further analysis of inflation trends as oil prices fluctuate",
+            "Impact assessments of the job market on consumer spending"
+          ],
+          "watch_list": [
+            "Oil price movements",
+            "Legal developments regarding tariffs",
+            "Small business funding trends",
+            "Labor market statistics"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The sentiment score indicates a negative tone but does not reflect specific factual negativity.",
+          "Future developments in geopolitical situations can rapidly change the business landscape."
+        ]
+      }
+    },
+    "technology": {
+      "key": "technology",
+      "title": "Technology",
+      "source": {
+        "site_name": "The Verge",
+        "site_url": "https://www.theverge.com",
+        "feed_url": "https://www.theverge.com/rss/index.xml"
+      },
+      "sentiment": {
+        "score": 0.9918,
+        "label": "Positive",
+        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "The OpenClaw superfan meetup serves optimism and lobster",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/890517/openclaw-clawcon-meetup-nyc-open-source-ai",
+          "published": "2026-03-07T09:00:00-05:00",
+          "summary": "The woman at the door wore a plush lobster headdress. She sat in the front hallway of a multistory event venue in Manhattan, beside a bundle of wristbands. If she granted you one, the world of ClawCon beckoned behind her - full of vibey pink and purple lighting, lobster claw headbands, multicolored name tags, sponsor [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "A bite-sized adventure that puts a wrench into the classic Zelda formula",
+          "url": "https://www.theverge.com/entertainment/890664/ratcheteer-dx-review-zelda-steam-switch",
+          "published": "2026-03-07T09:00:00-05:00",
+          "summary": "There are a lot of games that try to emulate The Legend of Zelda, but few that manage to capture that spirit in such a small, concise package as Ratcheteer DX. The postapocalyptic game only takes a few hours to complete, but over that span it nails the classic Zelda vibe almost perfectly, offering a [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple’s cheap laptop looks like a winner",
+          "url": "https://www.theverge.com/tech/890785/macbook-neo-slay-spire-2-pokopia-installer",
+          "published": "2026-03-07T08:00:00-05:00",
+          "summary": "Hi, friends! Welcome to Installer No. 118, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, please take my Switch away so I can get some work done, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about moon [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Corvette ZR1X hybrid can outpace million-dollar sports cars for a fraction of the cost",
+          "url": "https://www.theverge.com/transportation/888573/chevy-corvette-zr1x-hybrid-racing-performance",
+          "published": "2026-03-07T07:00:00-05:00",
+          "summary": "When Elon Musk burst onto the scene in his little Tesla Roadster, it seemed a matter of time before electricity rendered gas-powered sports cars obsolete. It hasn't worked out that way. Automakers have struggled to bring purely electric two-seaters to market. The ones that managed to emerge have been flatly rejected by consumers. Porsche has [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "DJI will pay $30K to the man who accidentally hacked 7,000 Romo robovacs",
+          "url": "https://www.theverge.com/news/890982/dji-pay-sammy-azdoufal-robot-vacuum-hack-romo-security",
+          "published": "2026-03-06T21:59:32-05:00",
+          "summary": "On Valentine's Day, I brought you a story that's since made headlines all around the world: How one man, just trying to steer his DJI robot vacuum with a PlayStation gamepad, discovered an entire network of 7,000 remote-control DJI robots ready to let him peek into other people's homes. To be clear, DJI had already [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Valve says it still plans to ship the Steam Machine in 2026",
+          "url": "https://www.theverge.com/games/890986/valve-steam-machine-frame-controller-delay-ram-memory",
+          "published": "2026-03-06T18:39:25-05:00",
+          "summary": "A blog post from Valve on Friday initially seemed to throw cold water on the idea that the Steam Machine, Steam Frame, and Steam Controller would arrive in 2026 at all. But Valve tells The Verge it did not mean to suggest that - and that all three pieces of hardware will indeed ship this [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Grammarly is using our identities without permission",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews",
+          "published": "2026-03-06T15:58:24-05:00",
+          "summary": "Grammarly's \"expert review\" feature offers to give users writing advice \"inspired by\" subject matter experts, including recently deceased professors, as Wired reported on Wednesday. When I tried the feature out myself, I found some experts that came as a surprise for a different reason - one of them was my boss. The AI-generated feedback included [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The best microSD Express card for the Switch 2 is the cheapest one you can find",
+          "url": "https://www.theverge.com/tech/676075/switch-2-microsd-express-cards-where-to-buy",
+          "published": "2026-03-06T15:30:00-05:00",
+          "summary": "Unlike the original Switch, the Nintendo Switch 2 requires microSD Express cards for storing and playing games. While physically identical to microSD cards (aside from a small, easy-to-miss “EX” emblem etched onto the front of the card, as highlighted in the main image above), microSD Express cards are significantly faster. They advertise a 4.4x increase [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Trump administration says it can’t process tariff refunds because of computer problems",
+          "url": "https://www.theverge.com/policy/890904/trump-administration-cbp-tariff-refunds-technology-issues",
+          "published": "2026-03-06T15:17:08-05:00",
+          "summary": "The US Customs and Border Protection says it currently can't comply with an order to process billions of dollars in refunds stemming from tariffs imposed by President Donald Trump. In a filing on Friday, CBP executive director Brandon Lord says the agency's digital import processing system is \"not well suited to a task of this [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Nintendo is suing the US government for a refund of Trump&#8217;s illegal tariffs",
+          "url": "https://www.theverge.com/games/890861/nintendo-lawsuit-tariffs-donald-trump",
+          "published": "2026-03-06T14:22:39-05:00",
+          "summary": "Nintendo of America is suing the US government over President Trump's tariffs and is demanding a \"prompt refund, with interest\" of any duties that it has paid, according to a complaint filed in the US Court of International Trade, as reported previously by Aftermath. The Supreme Court ruled last month that Trump's use of the [&#8230;]",
+          "source": "The Verge"
+        }
+      ],
+      "ai_report": {
+        "summary": "Today's technology news highlights a mix of gaming innovations, hardware developments, and significant corporate actions. The OpenClaw superfan meetup showcases community engagement in AI, while gaming enthusiasts are treated to a new title that reinvents classic gameplay. Apple appears to have a promising new laptop on the market, and DJI is addressing a security breach with compensation. Meanwhile, Valve reassures fans about the upcoming Steam Machine, and concerns arise over Grammarly's use of identities. The ongoing legal battles regarding tariffs also feature prominently, with Nintendo taking action against the government.",
+        "key_themes": [
+          "Community Engagement",
+          "Gaming Innovations",
+          "Hardware Developments",
+          "Corporate Actions",
+          "Legal Issues"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "The OpenClaw superfan meetup serves optimism and lobster",
+            "why_it_matters": "This event highlights the growing community around open-source AI and the enthusiasm it generates.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Apple’s cheap laptop looks like a winner",
+            "why_it_matters": "Apple's new laptop could attract budget-conscious consumers and strengthen its market position.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "DJI will pay $30K to the man who accidentally hacked 7,000 Romo robovacs",
+            "why_it_matters": "This incident raises important questions about security in consumer robotics and corporate responsibility.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Grammarly is using our identities without permission",
+            "why_it_matters": "This raises ethical concerns regarding AI and user privacy, potentially impacting Grammarly's reputation.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Nintendo is suing the US government for a refund of Trump’s illegal tariffs",
+            "why_it_matters": "This lawsuit could have significant implications for trade policies and corporate finances in the tech industry.",
+            "signal": "Risk"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Further developments from the OpenClaw meetup may emerge, showcasing new AI projects.",
+            "Reactions to Apple's new laptop are expected as consumers and critics weigh in.",
+            "DJI's response to the hacking incident may lead to new security measures."
+          ],
+          "next_1_4_weeks": [
+            "Anticipation builds for the release of the Steam Machine and its impact on gaming hardware.",
+            "Legal proceedings regarding Nintendo's lawsuit may unfold, influencing other companies' approaches to tariffs.",
+            "Continued discussions on AI ethics, particularly regarding Grammarly's practices."
+          ],
+          "watch_list": [
+            "Monitor community feedback from the OpenClaw meetup for potential new AI trends.",
+            "Watch for consumer reviews of Apple's new laptop and its market performance.",
+            "Keep an eye on DJI's security measures following the hacking incident.",
+            "Follow the legal developments in Nintendo's lawsuit against the US government."
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The sentiment score is based on a lexicon model and may not reflect all nuances of the news.",
+          "Some headlines may require further context to fully understand their implications."
+        ]
+      }
+    },
+    "sports": {
+      "key": "sports",
+      "title": "Sports",
+      "source": {
+        "site_name": "ESPN",
+        "site_url": "https://www.espn.com",
+        "feed_url": "https://www.espn.com/espn/rss/news"
+      },
+      "sentiment": {
+        "score": 0.9951,
+        "label": "Positive",
+        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Maxx Crosby to the Ravens: What's next for both teams, plus free agency and draft implications",
+          "url": "https://www.espn.com/nfl/story/_/id/48127938/las-vegas-raiders-trade-maxx-crosby-baltimore-ravens-questions-draft-free-agency",
+          "published": "Sat, 7 Mar 2026 08:48:36 EST",
+          "summary": "Is Baltimore a contender? What's next for Las Vegas? Answering six questions about the Crosby trade.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Solak: Why Crosby fits perfectly with the Ravens' D -- and their Super Bowl window",
+          "url": "https://www.espn.com/nfl/story/_/id/48129144/2026-nfl-free-agency-trade-maxx-crosby-ravens-raiders-defense-minter-lamar",
+          "published": "Sat, 7 Mar 2026 08:48:36 EST",
+          "summary": "Baltimore had to give up two first-round picks to get him, but Crosby can dominate in the Ravens' defense.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Ravens to acquire Crosby in blockbuster",
+          "url": "https://www.espn.com/nfl/story/_/id/48127564/sources-raiders-trade-maxx-crosby-ravens-two-1sts",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "The Ravens have won the Maxx Crosby sweepstakes, beating out the Cowboys and others by sending 2026 and 2027 first-round picks to the Raiders for the star pass rusher, sources told ESPN's Adam Schefter.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Miami (Ohio) caps 31-0 season with overtime win",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48128883/no-19-miami-ohio-caps-undefeated-regular-season-ot-win",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "Miami (Ohio) finished the regular season as the only unbeaten team in Division I men's basketball, winning 110-108 in overtime over Ohio.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Skubal: No long-term Tigers offer, focused on '26",
+          "url": "https://www.espn.com/mlb/story/_/id/48131221/tarik-skubal-tigers-make-long-term-offer-offseason",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "Tarik Skubal told USA Today Sports that he never received a long-term offer from the Tigers this offseason.",
+          "source": "ESPN"
+        },
+        {
+          "title": "U.S. plates 15 in big win vs. Brazil to open WBC",
+          "url": "https://www.espn.com/mlb/story/_/id/48128853/judge-us-start-world-baseball-classic-rout-brazil",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "Aaron Judge hit a two-run homer and Brice Turang had three hits and four RBIs to lead the United States to a 15-5 win over Brazil in its World Baseball Classic opener.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Exhausted Wemby emotional after 25-point rally",
+          "url": "https://www.espn.com/nba/story/_/id/48129738/wemby-emotional-spurs-25-point-comeback-clippers",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "Victor Wembanyama said he had \"zero left\" physically but was all smiles after the Spurs overcame a 25-point deficit to stun the Clippers 116-112.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Trump plans 'all-encompassing' college sports EO",
+          "url": "https://www.espn.com/college-sports/story/_/id/48126931/donald-trump-plans-executive-order-solve-every-problem-raised-college-sports-panel",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "President Donald Trump says he will write an executive order within a week that will \"solve all of the problems\" brought forth in an unprecedented meeting at the White House to address the future of college sports.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Celts' Tatum calls 15-point return 'really good step'",
+          "url": "https://www.espn.com/nba/story/_/id/48129090/celtics-tatum-starts-rough-finds-groove-15-point-return",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "Celtics star Jayson Tatum said he felt anxious in his first game in 298 days but was able to relax and finished with 15 points, 12 rebounds and seven assists in a 120-100 win over the Mavericks.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Source: Patriots trading center Bradbury to Bears",
+          "url": "https://www.espn.com/nfl/story/_/id/48126368/patriots-trading-center-garrett-bradbury-bears",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "The Bears found a new starting center, acquiring Garrett Bradbury from the Patriots in exchange for a 2027 fifth-round pick, a source told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "✍️ NHL trade deadline winners and losers",
+          "url": "https://www.espn.com/nhl/story/_/id/48126226/nhl-trade-deadline-2026-prospects-picks-contracts-winners-losers-playoffs",
+          "published": "Sat, 7 Mar 2026 08:08:01 EST",
+          "summary": "The final week was a fun one, with some late shockers. Here's who feels great now -- and who might not.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Men's Bracketology: Rating Miami (Ohio) and other potential bid thieves",
+          "url": "https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2026-march-madness-men-field-predictions",
+          "published": "Sat, 7 Mar 2026 08:27:07 EST",
+          "summary": "Last year, we had no bid thieves -- but as Champ Week gets underway, plenty of teams look vulnerable.",
+          "source": "ESPN"
+        }
+      ],
+      "ai_report": {
+        "summary": "Today's sports news highlights significant trades in the NFL, a historic performance in college basketball, and a strong start for the U.S. in the World Baseball Classic. The emotional comeback of Victor Wembanyama in the NBA also garners attention, alongside developments in college sports governance and player returns in the NBA.",
+        "key_themes": [
+          "NFL Trades",
+          "College Basketball",
+          "World Baseball Classic",
+          "NBA Comebacks",
+          "College Sports Governance"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Maxx Crosby to the Ravens: What's next for both teams, plus free agency and draft implications",
+            "why_it_matters": "The trade of Maxx Crosby to the Ravens raises questions about both teams' futures and impacts the upcoming draft and free agency strategies.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Miami (Ohio) caps 31-0 season with overtime win",
+            "why_it_matters": "Miami (Ohio) finishes the regular season undefeated, marking a significant achievement in Division I men's basketball.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "U.S. plates 15 in big win vs. Brazil to open WBC",
+            "why_it_matters": "The U.S. team starts the World Baseball Classic with a commanding victory, showcasing their offensive strength.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Exhausted Wemby emotional after 25-point rally",
+            "why_it_matters": "Victor Wembanyama's performance in leading the Spurs to a comeback victory highlights his potential and resilience.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Trump plans 'all-encompassing' college sports EO",
+            "why_it_matters": "The potential executive order from President Trump could significantly alter the landscape of college sports governance.",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Analysis of the implications of the Crosby trade for both the Ravens and Raiders.",
+            "Expect updates on the U.S. team's performance in the World Baseball Classic as they continue their campaign.",
+            "Monitoring reactions to Trump's proposed executive order on college sports."
+          ],
+          "next_1_4_weeks": [
+            "Tracking the impact of trades made during the NFL offseason on team performances in the upcoming season.",
+            "Following Miami (Ohio) in the NCAA tournament as they aim to maintain their undefeated status.",
+            "Observing the developments in the NBA as players return from injuries."
+          ],
+          "watch_list": [
+            "Further developments on the NFL trade front as teams finalize their rosters.",
+            "Performance of Miami (Ohio) in the NCAA tournament and potential bid thieves in March Madness.",
+            "Updates on the World Baseball Classic as teams compete for the championship.",
+            "The impact of Trump's executive order on college sports."
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The implications of trades and executive orders can be complex and may evolve over time.",
+          "Performance in sports can be unpredictable, especially in tournament settings."
+        ]
+      }
+    },
+    "science": {
+      "key": "science",
+      "title": "Science",
+      "source": {
+        "site_name": "ScienceDaily",
+        "site_url": "https://www.sciencedaily.com",
+        "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
+      },
+      "sentiment": {
+        "score": -0.4404,
+        "label": "Negative",
+        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "A 4,000-year-old sheep reveals the secret of an ancient plague",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260306224232.htm",
+          "published": "Sat, 07 Mar 2026 03:41:28 EST",
+          "summary": "A mysterious form of plague that spread across Eurasia thousands of years before the Black Death has finally revealed a crucial clue. Scientists analyzing ancient DNA discovered the bacterium Yersinia pestis in a 4,000-year-old domesticated sheep from a Bronze Age settlement in the Ural Mountains—the first time the pathogen has ever been found in a non-human host from that era. Because this early strain couldn’t spread through fleas like the medieval plague, researchers have long puzzled over ho",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Physicists finally see strange magnetic vortices predicted 50 years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260306224223.htm",
+          "published": "Sat, 07 Mar 2026 00:36:21 EST",
+          "summary": "A team of physicists has experimentally confirmed a long-predicted sequence of exotic magnetic phases in an atomically thin material. When cooled, the material forms tiny magnetic vortices before transitioning into a second ordered magnetic state—exactly as predicted by a famous theoretical model from the 1970s. Observing both phases together for the first time validates key ideas about how magnetism behaves in two dimensions. The findings could help inspire ultracompact technologies built on na",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Antarctica has a strange gravity hole and scientists finally know why",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260306224213.htm",
+          "published": "Sat, 07 Mar 2026 00:45:53 EST",
+          "summary": "Gravity may seem constant, but it actually varies across the planet—and one of the strangest places is Antarctica, where gravity is slightly weaker than expected. Scientists have traced this “gravity hole” to slow, deep movements of rock inside Earth that unfolded over tens of millions of years. Using earthquake data to essentially create a CT scan of the planet’s interior, researchers reconstructed how the anomaly evolved and discovered that it strengthened between about 50 and 30 million years",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Koalas survived a devastating population crash and their DNA is bouncing back",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260306145610.htm",
+          "published": "Fri, 06 Mar 2026 19:19:07 EST",
+          "summary": "Koalas suffered a massive population decline that left them with dangerously low genetic diversity. However, new genomic research suggests their rapid rebound may be helping reverse some of that genetic damage. As koala numbers rise, recombination is mixing their remaining DNA into new combinations, which can rebuild functional diversity. The findings suggest that fast population recovery can sometimes help species regain lost evolutionary potential.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Astronomers discover giant cosmic sheet around the Milky Way",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260305223236.htm",
+          "published": "Fri, 06 Mar 2026 01:55:55 EST",
+          "summary": "For decades, astronomers wondered why most nearby galaxies are speeding away from the Milky Way instead of being pulled in by its gravity. New simulations reveal the answer: our galaxy sits in a gigantic, flat sheet of matter surrounded by huge empty voids. This hidden structure—dominated by dark matter—balances gravitational forces and lets neighboring galaxies drift outward. The discovery finally explains the puzzling motions of galaxies just beyond our Local Group.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists say most of what you do each day happens on autopilot",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260305223226.htm",
+          "published": "Fri, 06 Mar 2026 20:06:35 EST",
+          "summary": "Most of our daily actions may happen without much thought. Researchers found that around 65% of everyday behaviors are triggered automatically by habit rather than conscious decisions. Many of these habits actually support our personal goals, helping us follow through on things like healthy routines. The key to lasting change, scientists say, is building new positive habits while disrupting the cues that trigger bad ones.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover tiny ocean fungus that kills toxic algae",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260305223223.htm",
+          "published": "Fri, 06 Mar 2026 18:37:54 EST",
+          "summary": "Scientists have discovered a newly identified marine fungus that can infect and kill toxic algae responsible for harmful blooms. The microscopic parasite, named Algophthora mediterranea, attacks algae such as Ostreopsis cf. ovata, which produces toxins that can irritate the lungs, skin, and eyes of people exposed during coastal blooms. Remarkably, the fungus can infect several different algae species and even survive on pollen, suggesting it is far more adaptable than most known marine parasites",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Electrons catapult across solar materials in just 18 femtoseconds",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260305223219.htm",
+          "published": "Fri, 06 Mar 2026 00:49:18 EST",
+          "summary": "Electrons in solar materials can be launched across molecules almost as fast as nature allows, thanks to tiny atomic vibrations acting like a “molecular catapult.” In experiments lasting just 18 femtoseconds, researchers at the University of Cambridge observed electrons blasting across a boundary in a single burst, far faster than long-standing theories predicted. Instead of slow, random movement, the electron rides the natural vibrations of the molecule itself, challenging decades of design rul",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Tiny clump of moss helped solve a shocking cemetery crime",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260305223215.htm",
+          "published": "Fri, 06 Mar 2026 21:26:56 EST",
+          "summary": "A tiny piece of moss helped expose a cemetery scandal in Illinois, where workers allegedly dug up graves and resold burial plots. By identifying the moss and analyzing its chlorophyll to estimate its age, scientists proved the remains had been moved recently—evidence that helped secure convictions.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover the brain protein that drives cocaine relapse",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260305223211.htm",
+          "published": "Fri, 06 Mar 2026 14:45:26 EST",
+          "summary": "Cocaine addiction isn’t simply a failure of willpower — it’s the result of lasting biological changes in the brain. Researchers at Michigan State University discovered that repeated cocaine use rewires communication between the brain’s reward system and the hippocampus, the region responsible for memory. A protein called DeltaFosB builds up with continued drug use and acts like a genetic switch, altering how neurons function and strengthening the brain’s drive to seek cocaine.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "This ancient sea creature may already have had a brain",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260305223208.htm",
+          "published": "Fri, 06 Mar 2026 02:16:07 EST",
+          "summary": "Advanced 3D reconstructions of the comb jelly’s aboral organ reveal a sensory system far more complex than scientists expected. The organ contains a wide variety of specialized cells and is closely linked to the animal’s nerve network, allowing it to coordinate behavior and orientation in the water. Researchers say it may function as a primitive brain-like center. The discovery suggests that centralized nervous systems might have evolved independently in different animal lineages.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "ALMA captures the most detailed image ever of the Milky Way’s turbulent core",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260305182705.htm",
+          "published": "Thu, 05 Mar 2026 18:27:05 EST",
+          "summary": "A sweeping new ALMA image has peeled back the veil on the Milky Way’s core, exposing a dense network of cold gas filaments near the central black hole. Stretching across 650 light-years, the survey maps the hidden fuel for star formation in remarkable detail and reveals a surprisingly complex chemical brew. This extreme region hosts some of the galaxy’s most massive, short-lived stars. The findings could help explain how stars — and even entire galaxies — formed under the universe’s most chaotic",
+          "source": "ScienceDaily"
+        }
+      ],
+      "ai_report": {
+        "summary": "Today's science headlines reveal significant discoveries across various fields, including ancient pathogens, magnetic phenomena, and ecological advancements. The overall sentiment is negative, indicating a potential concern regarding the implications of these findings. Noteworthy topics include the discovery of a 4,000-year-old sheep revealing clues about ancient plagues, the confirmation of predicted magnetic vortices, and the recovery of koala populations after a severe decline.",
+        "key_themes": [
+          "Ancient Diseases",
+          "Magnetism",
+          "Ecology",
+          "Astronomy",
+          "Neuroscience"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "A 4,000-year-old sheep reveals the secret of an ancient plague",
+            "why_it_matters": "This discovery sheds light on the origins and evolution of plague pathogens, which could have implications for understanding modern diseases.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Physicists finally see strange magnetic vortices predicted 50 years ago",
+            "why_it_matters": "Validating long-held theories about magnetism could lead to advancements in technology and materials science.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Koalas survived a devastating population crash and their DNA is bouncing back",
+            "why_it_matters": "The genetic recovery of koalas highlights the resilience of species and the importance of conservation efforts.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists discover tiny ocean fungus that kills toxic algae",
+            "why_it_matters": "This discovery could provide a natural solution to harmful algal blooms, which pose risks to marine life and human health.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists discover the brain protein that drives cocaine relapse",
+            "why_it_matters": "Understanding the biological mechanisms behind addiction could lead to better treatment options for substance use disorders.",
+            "signal": "Risk"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Further analysis of the ancient sheep's DNA may provide more insights into historical pandemics.",
+            "Research on the magnetic vortices may lead to new experimental setups for technology applications.",
+            "Monitoring koala populations will be crucial to assess the long-term effects of genetic diversity."
+          ],
+          "next_1_4_weeks": [
+            "Expect more studies on the ecological impact of the newly discovered ocean fungus.",
+            "Further exploration of the Milky Way's core may yield additional findings on star formation.",
+            "Anticipate discussions on the implications of the brain protein discovery for addiction treatments."
+          ],
+          "watch_list": [
+            "Developments in ancient DNA research and its implications for modern pathogens.",
+            "Advancements in materials science related to magnetic phenomena.",
+            "Conservation efforts for koalas and their genetic health.",
+            "Research on addiction and the biological basis of relapse."
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The negative sentiment score suggests caution in interpreting the implications of these findings, particularly regarding health and ecological risks. Further research is needed to fully understand the long-term impacts of these discoveries. The tone of the reporting may reflect concerns over the implications of scientific advancements rather than the discoveries themselves. ",
+          "The complexity of the topics discussed means that ongoing developments could shift the current understanding and sentiment."
+        ]
+      }
+    }
+  }
+}
