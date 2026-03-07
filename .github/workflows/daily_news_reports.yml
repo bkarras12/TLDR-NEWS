@@ -52,7 +52,12 @@ jobs:
           git status --porcelain
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add ai_news_reports_site/news/data
+          git add ai_news_reports_site/news/data \
+                 ai_news_reports_site/news/feeds \
+                 ai_news_reports_site/news/sitemap.xml \
+                 ai_news_reports_site/news/robots.txt
+          # Stage static HTML pages (date dirs and category landing dirs)
+          find ai_news_reports_site/news -maxdepth 2 -name '*.html' -not -path '*/news/reports.html' -not -path '*/news/index.html' | xargs -r git add
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

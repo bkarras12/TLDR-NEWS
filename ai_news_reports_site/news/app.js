@@ -460,6 +460,14 @@ function render(){
 
         <div class="hr"></div>
 
+        ${rep.key_takeaway ? `
+        <div class="key-takeaway">
+          <span class="key-takeaway__label">Key Takeaway</span>
+          <span class="key-takeaway__text">${escapeHtml(rep.key_takeaway)}</span>
+        </div>
+        <div class="hr"></div>
+        ` : ""}
+
         <h3>Executive Summary</h3>
         <p>${escapeHtml(rep.summary || "No summary available.")}</p>
 
