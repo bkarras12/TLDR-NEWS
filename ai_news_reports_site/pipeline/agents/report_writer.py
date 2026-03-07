@@ -44,8 +44,15 @@ REPORT_SCHEMA: Dict[str, Any] = {
             "required": ["next_24_72_hours", "next_1_4_weeks", "watch_list", "confidence"],
         },
         "caveats": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 5},
+        "related_topics": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 3,
+            "maxItems": 6,
+            "description": "Long-tail keyword phrases readers might search for, e.g. 'What happened in AI this week'",
+        },
     },
-    "required": ["key_takeaway", "summary", "key_themes", "notable_headlines", "future_outlook", "caveats"],
+    "required": ["key_takeaway", "summary", "key_themes", "notable_headlines", "future_outlook", "caveats", "related_topics"],
 }
 
 
@@ -94,6 +101,7 @@ class ReportWriterAgent:
                     "RSS feed returned no usable items.",
                     "This is an automated report; verify details via the source links.",
                 ],
+                "related_topics": [],
             }
 
         if self.client is None:
@@ -108,7 +116,10 @@ class ReportWriterAgent:
             "IMPORTANT: The 'key_takeaway' field must be a single, self-contained sentence (max 30 words) that "
             "captures the most important takeaway from today's headlines. Write it as a standalone factual statement "
             "that could be directly quoted by an AI assistant answering a question about today's news. "
-            "Example: 'Global markets rallied on stronger-than-expected jobs data while tech earnings exceeded forecasts.'"
+            "Example: 'Global markets rallied on stronger-than-expected jobs data while tech earnings exceeded forecasts.'\n\n"
+            "IMPORTANT: The 'related_topics' field must contain 3-6 long-tail keyword phrases that a reader might "
+            "search for, written as natural questions or topic phrases. Examples: 'What happened in AI this week', "
+            "'latest global trade policy changes', 'tech earnings recap today'. These help with search discoverability."
         )
 
         user_prompt = f"""Create today's report for the category: {category_title}.
@@ -291,5 +302,10 @@ Return JSON ONLY that matches the provided schema.
             "caveats": [
                 "This fallback report is generated from RSS headlines and summaries only.",
                 "Verify key details by opening the source links in the headlines list.",
+            ],
+            "related_topics": [
+                f"today's {sentiment.label.lower()} news headlines",
+                f"latest news summary {items[0].title.split()[0].lower() if items else 'today'}",
+                "daily news briefing and analysis",
             ],
         }
