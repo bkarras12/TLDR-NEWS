@@ -683,6 +683,30 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* =========================================================
+   KEY TAKEAWAY
+   ========================================================= */
+.key-takeaway {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px var(--pad);
+  background: linear-gradient(135deg, var(--accent-dim), transparent);
+  border-left: 3px solid var(--accent);
+}
+.key-takeaway__label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.key-takeaway__text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+/* =========================================================
    KPI ROW
    ========================================================= */
 .kpi {

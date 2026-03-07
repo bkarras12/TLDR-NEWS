@@ -191,6 +191,19 @@ def main() -> int:
     out_path = publisher.write_daily_report(date_key, daily_report)
     publisher.update_index(date_key=date_key, available_categories=list(CATEGORIES.keys()))
 
+    # GEO: Static HTML pages, sitemap, RSS feeds, category landing pages
+    static_pages = publisher.write_static_pages(date_key, daily_report)
+    print(f"Wrote {len(static_pages)} static HTML pages")
+
+    landing_pages = publisher.write_category_landing_pages(date_key, daily_report)
+    print(f"Wrote {len(landing_pages)} category landing pages")
+
+    sitemap_path = publisher.write_sitemap()
+    print(f"Wrote sitemap: {sitemap_path}")
+
+    feeds = publisher.write_rss_feeds(date_key, daily_report)
+    print(f"Wrote {len(feeds)} RSS feeds")
+
     print(f"Saved daily report to: {out_path}")
     return 0
 
