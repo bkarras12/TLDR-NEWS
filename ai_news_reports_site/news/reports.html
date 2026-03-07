@@ -3,9 +3,86 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>AI News Reports · TL;DR News</title>
-  <meta name="description" content="Daily, agent-generated news summaries across 5 categories." />
+
+  <!-- Primary SEO -->
+  <title>TLDR News · AI-Powered Daily News Intelligence</title>
+  <meta name="description" content="Daily AI-generated news intelligence across world news, business, technology, sports, and science. Each report includes executive summaries, sentiment analysis, notable headlines, and forward-looking outlooks — powered by GPT-4o-mini." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="TLDR News AI Pipeline" />
   <meta name="color-scheme" content="dark light" />
+
+  <!-- Canonical (updated dynamically by app.js when a report is viewed) -->
+  <link rel="canonical" href="https://bkarras12.github.io/TLDR-NEWS/news/reports.html" id="canonicalLink" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:site_name"   content="TLDR News" />
+  <meta property="og:title"       content="TLDR News · AI-Powered Daily News Intelligence" />
+  <meta property="og:description" content="Daily AI-generated news intelligence across world news, business, technology, sports, and science." />
+  <meta property="og:url"         content="https://bkarras12.github.io/TLDR-NEWS/news/reports.html" />
+  <meta property="og:image"       content="https://bkarras12.github.io/TLDR-NEWS/news/tldr_logo.png" />
+  <meta property="og:image:alt"   content="TLDR News logo" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card"        content="summary" />
+  <meta name="twitter:title"       content="TLDR News · AI Daily Intelligence" />
+  <meta name="twitter:description" content="Daily AI-generated news intelligence across 5 categories: world, business, technology, sports, and science." />
+  <meta name="twitter:image"       content="https://bkarras12.github.io/TLDR-NEWS/news/tldr_logo.png" />
+
+  <!-- JSON-LD: site-level schema for GEO (generative engine optimisation) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://bkarras12.github.io/TLDR-NEWS/#website",
+        "name": "TLDR News",
+        "alternateName": "TL;DR News",
+        "description": "Daily AI-generated news intelligence across world news, business, technology, sports, and science. Each report includes executive summaries, key themes, sentiment scoring, notable headlines with signal classification, and forward-looking outlooks.",
+        "url": "https://bkarras12.github.io/TLDR-NEWS/",
+        "inLanguage": "en",
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://bkarras12.github.io/TLDR-NEWS/#org",
+          "name": "TLDR News",
+          "url": "https://bkarras12.github.io/TLDR-NEWS/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://bkarras12.github.io/TLDR-NEWS/news/tldr_logo.png"
+          },
+          "description": "An automated AI news aggregation and analysis service that processes RSS feeds from trusted sources daily and produces structured intelligence reports."
+        },
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": "https://bkarras12.github.io/TLDR-NEWS/news/reports.html"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://bkarras12.github.io/TLDR-NEWS/news/reports.html#webpage",
+        "url": "https://bkarras12.github.io/TLDR-NEWS/news/reports.html",
+        "name": "TLDR News · AI-Powered Daily News Intelligence",
+        "isPartOf": { "@id": "https://bkarras12.github.io/TLDR-NEWS/#website" },
+        "about": {
+          "@type": "Thing",
+          "name": "AI-generated news analysis",
+          "description": "Automated daily summaries of world, business, technology, sports, and science news using large language models."
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "TLDR News", "item": "https://bkarras12.github.io/TLDR-NEWS/" },
+            { "@type": "ListItem", "position": 2, "name": "Daily Reports", "item": "https://bkarras12.github.io/TLDR-NEWS/news/reports.html" }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Dynamic JSON-LD placeholder — replaced by app.js with NewsArticle schema per report view -->
+  <script type="application/ld+json" id="dynamicSchema">{}</script>
 
   <link rel="icon" type="image/x-icon" href="tldr_logo.ico">
 

@@ -190,8 +190,10 @@ def main() -> int:
     publisher = PublisherAgent(site_root=site_root)
     out_path = publisher.write_daily_report(date_key, daily_report)
     publisher.update_index(date_key=date_key, available_categories=list(CATEGORIES.keys()))
+    sitemap_path = publisher.write_sitemap()
 
     print(f"Saved daily report to: {out_path}")
+    print(f"Updated sitemap: {sitemap_path}")
     return 0
 
 

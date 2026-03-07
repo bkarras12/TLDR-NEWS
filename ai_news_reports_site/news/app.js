@@ -520,6 +520,9 @@ function render(){
   }
 
   triggerReveal();
+
+  /* Update SEO/GEO meta for this category view */
+  updateMeta(currentCategory, cat);
 }
 
 /* ── Skeleton loader ── */
@@ -640,6 +643,131 @@ function stripHtml(str){
     .replace(/&nbsp;/gi, " ").replace(/&amp;/gi, "&").replace(/&lt;/gi, "<")
     .replace(/&gt;/gi, ">").replace(/&#39;|&apos;/gi, "'").replace(/&quot;/gi, '"')
     .replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+}
+
+/* ── SEO / GEO meta helpers ── */
+
+const SITE_URL    = "https://bkarras12.github.io/TLDR-NEWS";
+const REPORTS_URL = `${SITE_URL}/news/reports.html`;
+
+/**
+ * Upsert a <meta> tag by attribute+name.
+ * Creates the element if it doesn't exist yet.
+ */
+function setMeta(attr, name, content){
+  let node = document.querySelector(`meta[${attr}="${CSS.escape(name)}"]`);
+  if (!node){
+    node = document.createElement("meta");
+    node.setAttribute(attr, name);
+    document.head.appendChild(node);
+  }
+  node.setAttribute("content", content);
+}
+
+/**
+ * Update <title>, meta description, canonical URL, OG/Twitter tags,
+ * and inject a NewsArticle JSON-LD block for the current category view.
+ * Called after every successful report render.
+ */
+function updateMeta(catKey, catData){
+  if (!catKey || !catData) return;
+
+  const date      = currentDate || "";
+  const title     = catData.title || CATEGORY_LABELS[catKey] || catKey;
+  const rep       = catData.ai_report   || {};
+  const sent      = catData.sentiment   || {};
+  const items     = catData.items       || [];
+  const themes    = normalizeList(rep.key_themes);
+  const rawSummary = rep.summary || "";
+
+  /* Page title */
+  const pageTitle = `${title} News · ${date} · TLDR News`;
+
+  /* Meta description: AI summary clipped to 155 chars, else fallback */
+  const desc = rawSummary
+    ? rawSummary.slice(0, 155).trimEnd() + (rawSummary.length > 155 ? "…" : "")
+    : `AI-generated ${title} news intelligence for ${date}. Sentiment: ${sent.label || "—"}.`;
+
+  /* Canonical URL with date + category query params */
+  const canonicalUrl = `${REPORTS_URL}?date=${encodeURIComponent(date)}&cat=${encodeURIComponent(catKey)}`;
+
+  /* ── Update DOM ── */
+  document.title = pageTitle;
+
+  setMeta("name",     "description",    desc);
+  setMeta("property", "og:title",       pageTitle);
+  setMeta("property", "og:description", desc);
+  setMeta("property", "og:url",         canonicalUrl);
+  setMeta("name",     "twitter:title",       pageTitle);
+  setMeta("name",     "twitter:description", desc);
+
+  const canonEl = document.getElementById("canonicalLink");
+  if (canonEl) canonEl.href = canonicalUrl;
+
+  /* ── Dynamic NewsArticle JSON-LD ── */
+  const src = catData.source || {};
+  const outlook = normalizeOutlook(rep.future_outlook);
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": `${title} News Intelligence — ${date}`,
+    "description": desc,
+    "datePublished": date,
+    "dateModified": date,
+    "url": canonicalUrl,
+    "inLanguage": "en",
+    "author": {
+      "@type": "Organization",
+      "name": "TLDR News AI Pipeline",
+      "url": `${SITE_URL}/`
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TLDR News",
+      "url": `${SITE_URL}/`,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${SITE_URL}/news/tldr_logo.png`
+      }
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "TLDR News",
+      "url": `${SITE_URL}/`
+    },
+    "articleSection": title,
+    "keywords": [title, "news", "AI analysis", "daily intelligence", ...themes].filter(Boolean).join(", "),
+    "about": themes.map(t => ({ "@type": "Thing", "name": t })),
+    "sourceOrganization": src.site_name ? {
+      "@type": "NewsMediaOrganization",
+      "name": src.site_name,
+      "url": src.site_url || ""
+    } : undefined,
+    /* Surface the raw headlines as cited NewsArticles so AI engines can follow sources */
+    "citation": items.slice(0, 10)
+      .filter(it => it.title && it.url)
+      .map(it => ({
+        "@type": "NewsArticle",
+        "headline": it.title,
+        "url": it.url,
+        "datePublished": it.published || date,
+        "publisher": {
+          "@type": "Organization",
+          "name": it.source || src.site_name || ""
+        }
+      })),
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    }
+  };
+
+  /* Remove undefined values (sourceOrganization when missing) */
+  const cleanSchema = JSON.parse(JSON.stringify(schema));
+
+  const scriptEl = document.getElementById("dynamicSchema");
+  if (scriptEl) scriptEl.textContent = JSON.stringify(cleanSchema, null, 2);
 }
 
 /* ── Init ── */
