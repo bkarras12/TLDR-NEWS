@@ -74,8 +74,25 @@ html[data-mode="light"] {
   --glow:    0 0 20px rgba(0,160,210,.10);
   --accent:     #0099bb;
   --accent-dim: rgba(0,153,187,.10);
-  --positive:   #008f5b;
-  --negative:   #d93030;
+  --positive:     #008f5b;
+  --positive-dim: rgba(0,143,91,.12);
+  --negative:     #d93030;
+  --negative-dim: rgba(217,48,48,.12);
+  --neutral-dim:  rgba(0,0,0,.05);
+}
+
+/* ── Light mode overrides for hardcoded dark-mode RGBA values ── */
+html[data-mode="light"] .card--flat {
+  background: rgba(0,0,0,.03);
+}
+html[data-mode="light"] .item:hover {
+  background: rgba(0,0,0,.03);
+}
+html[data-mode="light"] .statusline {
+  background: rgba(0,0,0,.02);
+}
+html[data-mode="light"] .live-clock {
+  background: rgba(0,0,0,.02);
 }
 
 /* ── Reset ── */
