@@ -83,7 +83,7 @@ class TweetWriterAgent:
     @staticmethod
     def _build_tweet(hook: str, sentiment_line: str, hashtags: str) -> str:
         """Assemble tweet parts, truncating hook if needed to fit 280 chars."""
-        suffix = f"\n\n{sentiment_line}\n\n{hashtags}\n\nRead the full breakdown: https://tldrnews.info"
+        suffix = f"\n\n{sentiment_line}\n\nRead the full breakdown: https://tldrnews.info\n\n{hashtags}"
         max_hook = 280 - len(suffix)
         if len(hook) > max_hook:
             hook = hook[: max_hook - 3].rsplit(" ", 1)[0] + "..."
