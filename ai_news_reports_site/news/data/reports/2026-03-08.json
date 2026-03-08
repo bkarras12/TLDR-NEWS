@@ -1,19 +1,11 @@
 {
   "date": "2026-03-08",
-  "generated_at_utc": "2026-03-08T18:29:59Z",
+  "generated_at_utc": "2026-03-08T18:35:10Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "war",
-    "you",
     "trump",
-    "media",
-    "years",
-    "why",
-    "white",
-    "tech",
-    "say",
-    "rules"
+    "media"
   ],
   "categories": {
     "world": {
@@ -25,9 +17,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.9973,
+        "score": -0.4133,
         "label": "Negative",
-        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.689, dampened ×0.6 → -0.4133). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -40,7 +32,7 @@
         {
           "title": "Explosion at US embassy in Oslo may have been terrorism, Norway police say",
           "url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 08 Mar 2026 12:30:16 GMT",
+          "published": "Sun, 08 Mar 2026 18:32:37 GMT",
           "summary": "Police say they are investigating other motives after the blast caused minor damage to the embassy building.",
           "source": "BBC News"
         },
@@ -116,70 +108,72 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Global tensions rise with violence in Lebanon and Ukraine, while severe weather impacts the US and Kenya.",
-        "summary": "Today's headlines reflect a series of global crises, including military tensions in Cyprus and Lebanon, severe weather events in the US and Kenya, and political shifts in Nepal and Switzerland.",
+        "key_takeaway": "Violence and natural disasters dominate global headlines, with significant events reported in Cyprus, Norway, the US, and the Middle East.",
+        "summary": "Today's news highlights a series of violent incidents and natural disasters across the globe, including a drone strike in Cyprus, an explosion at the US embassy in Oslo, and tornadoes in the US. Additionally, political shifts are noted in Nepal and Switzerland, while severe weather has caused fatalities in Nairobi. The ongoing conflict in the Middle East continues to escalate with significant casualties reported in Israel and Lebanon.",
         "key_themes": [
-          "military conflicts in Cyprus and Lebanon",
-          "severe weather impacts in the US and Kenya",
-          "political changes in Nepal and Switzerland"
+          "global violence incidents",
+          "natural disasters news",
+          "political changes in Nepal",
+          "flooding in Nairobi",
+          "US embassy explosion in Oslo"
         ],
         "notable_headlines": [
           {
             "headline": "War fuels debate in Cyprus over UK military bases",
-            "why_it_matters": "The ongoing conflict has reignited discussions about the presence of UK military bases in Cyprus, highlighting local sentiments against foreign military involvement.",
+            "why_it_matters": "The drone strike at RAF Akrotiri has intensified calls for the removal of UK military presence in Cyprus.",
             "signal": "Risk"
           },
           {
             "headline": "Explosion at US embassy in Oslo may have been terrorism, Norway police say",
-            "why_it_matters": "The investigation into the explosion raises concerns about security and potential threats to diplomatic missions in Europe.",
+            "why_it_matters": "The investigation into the embassy explosion raises concerns about security and potential terrorist threats in Europe.",
             "signal": "Risk"
           },
           {
             "headline": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
-            "why_it_matters": "The severe weather underscores the increasing frequency and intensity of storms affecting communities in the US.",
+            "why_it_matters": "The tornadoes have caused significant destruction and loss of life, highlighting the dangers of severe weather events.",
             "signal": "Risk"
           },
           {
             "headline": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
-            "why_it_matters": "The operation reflects ongoing tensions and violence in the region, raising humanitarian concerns.",
+            "why_it_matters": "The raid underscores the ongoing violence and tensions in the region, with high civilian casualties reported.",
             "signal": "Risk"
           },
           {
             "headline": "Heavy rains and flooding kills at least 23 in Nairobi",
-            "why_it_matters": "The flooding highlights the vulnerability of urban areas to climate-related disasters and the need for improved infrastructure.",
+            "why_it_matters": "The flooding has disrupted transportation and caused fatalities, emphasizing the impact of climate-related disasters.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in Cyprus regarding military base protests.",
-            "Watch for updates on the investigation into the Oslo embassy explosion.",
-            "Assess the impact of severe weather in the US and Kenya."
+            "Continued coverage of the aftermath of the embassy explosion in Oslo.",
+            "Monitoring the situation in Cyprus regarding military presence and protests.",
+            "Updates on recovery efforts in Nairobi following the flooding."
           ],
           "next_1_4_weeks": [
-            "Observe the political landscape in Nepal following the election results.",
-            "Track responses to the Israeli operation in Lebanon and its implications for regional stability.",
-            "Evaluate the long-term effects of flooding in Nairobi on infrastructure and public safety."
+            "Potential political ramifications in Nepal following the election results.",
+            "Ongoing analysis of the Israeli-Lebanese conflict and its implications for regional stability.",
+            "Further developments in US foreign policy towards Latin America in response to China's influence."
           ],
           "watch_list": [
-            "Cyprus military base protests",
-            "US embassy security measures",
-            "impact of climate change on severe weather events",
-            "political stability in Nepal",
-            "Israeli-Lebanese relations"
+            "Impact of severe weather on infrastructure in the US.",
+            "Responses from international communities regarding the violence in the Middle East.",
+            "Public sentiment in Cyprus regarding UK military bases.",
+            "Security measures in European embassies following the Oslo explosion."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Lebanon and Ukraine remains fluid and may change rapidly.",
+          "The situation in conflict zones is fluid and may change rapidly.",
+          "Casualty figures from violent incidents may be updated as more information becomes available.",
           "Weather-related impacts can vary significantly based on ongoing conditions."
         ],
         "related_topics": [
-          "What is happening in Cyprus regarding UK military bases?",
-          "Latest updates on the US embassy explosion in Oslo",
-          "Impact of tornadoes in Michigan and Oklahoma",
-          "Political changes in Nepal after recent elections",
-          "Flooding situation in Nairobi and its effects"
+          "What are the latest updates on the Cyprus military base protests?",
+          "How are natural disasters affecting the US Midwest?",
+          "What are the implications of the Oslo embassy explosion?",
+          "What political changes are happening in Nepal?",
+          "How is flooding impacting Nairobi's infrastructure?"
         ]
       }
     },
@@ -192,9 +186,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.9987,
+        "score": -0.3054,
         "label": "Negative",
-        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.509, dampened ×0.6 → -0.3054). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -283,69 +277,67 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Rising oil prices due to the US-Israel conflict with Iran threaten global economic recovery and inflation, while US job losses and tariff issues add to economic concerns.",
-        "summary": "The ongoing US-Israel conflict with Iran is causing significant economic repercussions, including rising gas prices and fears of inflation that could derail global recovery. Additionally, recent job losses in the US and legal challenges regarding tariffs are compounding economic instability.",
+        "key_takeaway": "Rising oil prices driven by the US-Israel conflict with Iran threaten global economic recovery and inflation rates.",
+        "summary": "The ongoing conflict in the Middle East is causing significant economic concerns, particularly with rising gas prices and potential inflation shocks. The US has seen a notable increase in gas prices, and economists warn that prolonged conflict could derail global economic recovery. Additionally, a federal judge has ruled against mass layoffs at a US media agency, and the US is preparing to process refunds on illegally collected tariffs. The job market also showed signs of strain with a loss of 92,000 jobs in February.",
         "key_themes": [
-          "US-Israel conflict economic impact",
-          "global inflation concerns",
+          "impact of Middle East conflict on oil prices",
           "US job market trends",
-          "tariff legal challenges",
-          "oil price fluctuations"
+          "inflation concerns due to geopolitical tensions"
         ],
         "notable_headlines": [
           {
             "headline": "White House worries as gas prices jump amid ongoing US-Israel war on Iran",
-            "why_it_matters": "Rising gas prices may impact consumer spending and overall economic stability in the US.",
+            "why_it_matters": "Rising gas prices could impact consumer spending and overall economic stability in the US.",
             "signal": "Risk"
           },
           {
             "headline": "Why an Iran war inflation shock could wreck global economic recovery",
-            "why_it_matters": "Prolonged conflict could lead to increased retail prices, affecting global growth forecasts.",
+            "why_it_matters": "Prolonged conflict may lead to increased retail prices, affecting global growth forecasts.",
             "signal": "Risk"
           },
           {
             "headline": "US lost 92,000 jobs in February just before Trump joined Iran conflict",
-            "why_it_matters": "Significant job losses indicate a weakening labor market, raising concerns about economic health.",
+            "why_it_matters": "Job losses indicate potential vulnerabilities in the labor market amid geopolitical tensions.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Iran war pushes oil price above $90, threatening rise in global inflation",
+            "why_it_matters": "Higher oil prices could lead to increased inflation, impacting economies worldwide.",
             "signal": "Risk"
           },
           {
             "headline": "US preparing system to process refunds on billions in illegal Trump tariffs",
-            "why_it_matters": "The potential refunds could impact government revenue and trade relations.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Iran war pushes oil price above $90, threatening rise in global inflation",
-            "why_it_matters": "Higher oil prices could lead to increased inflation globally, affecting economies worldwide.",
-            "signal": "Risk"
+            "why_it_matters": "This could alleviate financial burdens on businesses affected by previous tariff policies.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor gas price trends and their impact on consumer behavior.",
-            "Watch for updates on the US-Israel conflict and its economic implications.",
-            "Observe any announcements regarding job market recovery or further layoffs."
+            "Monitor gas prices for further increases due to geopolitical tensions.",
+            "Watch for updates on the US job market and economic indicators.",
+            "Follow developments in the Iran conflict and its impact on oil supply."
           ],
           "next_1_4_weeks": [
-            "Expect potential adjustments in economic forecasts due to rising inflation concerns.",
-            "Watch for developments in tariff refund processes and their implications for trade.",
-            "Monitor the global oil market for further price fluctuations and their economic impact."
+            "Expect potential inflation reports reflecting the impact of rising oil prices.",
+            "Observe how the job market responds to recent layoffs and economic pressures.",
+            "Keep an eye on legal developments regarding tariffs and their refunds."
           ],
           "watch_list": [
-            "US job market statistics",
-            "Oil price trends and forecasts",
-            "Updates on US-Israel conflict",
-            "Legal developments regarding tariffs"
+            "Oil price trends and their impact on inflation.",
+            "US job market recovery indicators.",
+            "Geopolitical developments in the Middle East.",
+            "Legal outcomes related to tariffs and media agency layoffs."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and may change rapidly, impacting economic forecasts.",
+          "The situation in the Middle East is fluid and could change rapidly, affecting economic forecasts.",
           "Job market data may be revised as more information becomes available."
         ],
         "related_topics": [
-          "What are the implications of the US-Israel conflict on global oil prices?",
-          "How is inflation affecting the global economy?",
-          "What recent job losses mean for the US economy?"
+          "What are the latest trends in oil prices?",
+          "How is the US job market performing?",
+          "What are the implications of the Iran conflict on global economy?"
         ]
       }
     },
@@ -358,9 +350,9 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.9968,
-        "label": "Positive",
-        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.2217,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.370, dampened ×0.6 → +0.2217). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -435,67 +427,67 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Apple is set to launch new high-end 'Ultra' products while Sony tests dynamic pricing for PlayStation games, indicating shifts in tech market strategies.",
-        "summary": "Today's technology news highlights Apple's upcoming high-end product releases, Sony's experimentation with dynamic pricing for games, and various updates in gaming and consumer electronics. The overall sentiment is positive, reflecting excitement around new product innovations and market strategies.",
+        "key_takeaway": "Apple is set to launch new high-end 'Ultra' products following the release of the low-cost MacBook Neo.",
+        "summary": "Today's technology news highlights Apple's upcoming high-end product line, the testing of dynamic pricing by Sony for PlayStation games, and the integration of Vizio accounts into Walmart accounts.",
         "key_themes": [
           "Apple's new product lineup",
-          "Sony dynamic pricing strategy",
-          "latest gaming technology updates"
+          "Sony dynamic pricing",
+          "Vizio account integration with Walmart"
         ],
         "notable_headlines": [
           {
             "headline": "Apple is going high-end with new ‘Ultra’ products next",
-            "why_it_matters": "Apple's shift to high-end products may redefine its market positioning and attract premium consumers.",
+            "why_it_matters": "Apple's shift to high-end products may impact its market positioning and consumer perception.",
             "signal": "Opportunity"
           },
           {
             "headline": "Sony appears to be testing dynamic pricing on PlayStation games",
-            "why_it_matters": "Dynamic pricing could change how consumers perceive value in digital gaming, impacting sales strategies.",
+            "why_it_matters": "Dynamic pricing could change how consumers perceive game value and affect sales strategies.",
             "signal": "Risk"
           },
           {
+            "headline": "Vizio accounts are becoming Walmart accounts",
+            "why_it_matters": "The integration of Vizio into Walmart may streamline user experience but raises concerns about data privacy.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Time’s running out to get a free gift card when you preorder a new MacBook",
-            "why_it_matters": "Promotional offers like gift cards can drive early sales and consumer interest in new products.",
+            "why_it_matters": "Promotional offers can influence consumer purchasing decisions and boost sales for new products.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Vizio accounts are becoming Walmart accounts",
-            "why_it_matters": "The integration of Vizio into Walmart's ecosystem may streamline user experience but raises concerns about data privacy.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "The best Switch 2 controller just got better (and a little worse)",
-            "why_it_matters": "Improvements in gaming accessories can enhance user experience but may also lead to mixed reviews.",
-            "signal": "Unclear"
+            "headline": "The uncomfortable truth about hybrid vehicles",
+            "why_it_matters": "Understanding the limitations of hybrid vehicles is crucial for consumers considering eco-friendly options.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Anticipation builds for Apple's product announcements and potential market reactions.",
-            "Monitoring consumer responses to Sony's dynamic pricing strategy.",
-            "Expect updates on the integration of Vizio accounts into Walmart."
+            "More details on Apple's upcoming product announcements are expected.",
+            "Further developments on Sony's dynamic pricing strategy may emerge.",
+            "Consumer reactions to Vizio's account changes will be monitored."
           ],
           "next_1_4_weeks": [
-            "Watch for reviews and consumer feedback on Apple's new 'Ultra' products.",
-            "Follow developments in dynamic pricing strategies across the gaming industry.",
-            "Keep an eye on the impact of Vizio's account changes on customer satisfaction."
+            "Apple's new product launches will be closely watched for market impact.",
+            "The effectiveness of Sony's dynamic pricing strategy will be evaluated.",
+            "Walmart's integration of Vizio may lead to new marketing strategies."
           ],
           "watch_list": [
-            "Apple's product launch events",
-            "Sony's pricing experiments",
-            "Consumer reactions to new gaming accessories.",
-            "Trends in hybrid vehicle technology."
+            "Apple's product release schedule",
+            "Sony's pricing strategy",
+            "Walmart's integration of Vizio accounts",
+            "Consumer feedback on hybrid vehicles"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of dynamic pricing on consumer behavior is still uncertain.",
-          "Apple's high-end strategy may not resonate with all market segments."
+          "The sentiment score is mixed, indicating varied public reactions to the news.",
+          "Details about Apple's 'Ultra' products remain speculative until official announcements."
         ],
         "related_topics": [
-          "What are Apple's new Ultra products?",
-          "How is Sony testing dynamic pricing?",
-          "Latest trends in gaming technology and accessories."
+          "What are Apple's new high-end products?",
+          "How is Sony implementing dynamic pricing?",
+          "What changes are happening with Vizio and Walmart accounts?"
         ]
       }
     },
@@ -508,9 +500,9 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.9778,
-        "label": "Positive",
-        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1442,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.240, dampened ×0.6 → +0.1442). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -599,71 +591,71 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "James Conner reworks his contract to stay with the Cardinals, while several college basketball coaches face firings amid March Madness preparations.",
-        "summary": "Today's sports news highlights include James Conner's contract extension with the Cardinals, coaching changes at Georgia Tech and Boston College, and updates from the World Baseball Classic and LIV Golf.",
+        "key_takeaway": "James Conner reworks his contract to stay with the Cardinals, while multiple college basketball coaches have been fired following disappointing seasons.",
+        "summary": "In today's sports news, NFL running back James Conner has restructured his contract to remain with the Arizona Cardinals for the 2026 season. Meanwhile, college basketball sees significant coaching changes as Georgia Tech and Boston College have both fired their head coaches after poor performances. In MLB, Japan secured a victory over Australia in the World Baseball Classic, and Jon Rahm celebrated his first individual title since 2024 at the LIV Golf Hong Kong event. Additionally, discussions continue regarding NFL free agency and quarterback options for the New York Jets.",
         "key_themes": [
-          "NFL contract updates",
+          "NFL contract negotiations",
           "college basketball coaching changes",
-          "World Baseball Classic results",
-          "LIV Golf tournament highlights",
-          "NCAA March Madness bracket predictions"
+          "World Baseball Classic updates",
+          "LIV Golf tournament results",
+          "NFL free agency news"
         ],
         "notable_headlines": [
           {
             "headline": "Sources: Conner reworks deal to stay with Cards",
-            "why_it_matters": "Conner's contract extension ensures stability for the Cardinals as they prepare for the upcoming season.",
+            "why_it_matters": "Conner's contract restructuring indicates the Cardinals' commitment to retaining key players for the upcoming season.",
             "signal": "Opportunity"
           },
           {
             "headline": "GA Tech fires Stoudamire after last-place finish",
-            "why_it_matters": "The firing of Stoudamire reflects the pressure on college coaches to perform, especially in competitive conferences.",
+            "why_it_matters": "The firing of Stoudamire reflects the pressure on college coaches to perform, especially after a disappointing season.",
             "signal": "Risk"
           },
           {
             "headline": "Source: Boston College fires hoops coach Grant",
-            "why_it_matters": "Grant's dismissal indicates a shift in expectations for Boston College's basketball program after a disappointing season.",
+            "why_it_matters": "Boston College's decision to fire Grant highlights the trend of coaching changes in college basketball as teams seek better results.",
             "signal": "Risk"
           },
           {
             "headline": "Japan rallies past Australia, clinches WBC group",
-            "why_it_matters": "Japan's victory showcases their resilience and strengthens their position in the World Baseball Classic.",
+            "why_it_matters": "Japan's victory showcases their strength in international baseball and secures their position in the World Baseball Classic.",
             "signal": "Opportunity"
           },
           {
             "headline": "Rahm calls LIV win 'weight off my shoulders'",
-            "why_it_matters": "Rahm's win at LIV Golf marks a significant personal achievement and could influence his future performances.",
+            "why_it_matters": "Rahm's win at LIV Golf signifies a personal achievement and could impact his future performance in tournaments.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "More updates expected on NFL free agency and player signings.",
-            "Further developments in NCAA basketball as teams finalize their tournament positions.",
-            "Anticipation builds for upcoming World Baseball Classic matches."
+            "Expect more updates on NFL free agency as teams finalize their strategies.",
+            "Monitor coaching changes in college basketball as more teams evaluate their performance post-season.",
+            "Watch for updates on the World Baseball Classic as teams prepare for upcoming matches."
           ],
           "next_1_4_weeks": [
-            "March Madness will dominate headlines as the NCAA tournament approaches.",
-            "NFL teams will finalize their rosters ahead of the new season.",
-            "LIV Golf events will continue to attract attention with top players competing."
+            "Anticipate further developments in NFL trades and free agency as the draft approaches.",
+            "Expect the NCAA tournament to generate significant buzz as teams finalize their brackets.",
+            "Follow the LIV Golf series for more tournament results and player performances."
           ],
           "watch_list": [
-            "Monitor coaching changes in college basketball as tournaments approach.",
-            "Watch for updates on NFL free agency and player movements.",
-            "Keep an eye on the performance of teams in the World Baseball Classic.",
-            "Follow Jon Rahm's progress in upcoming golf tournaments."
+            "Keep an eye on the performance of teams in the NCAA tournament.",
+            "Watch for potential coaching hires in college basketball following recent firings.",
+            "Track the progress of MLB teams in the World Baseball Classic.",
+            "Monitor NFL free agency news for major signings and trades."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is based on a lexicon model and may not capture all nuances of the news.",
-          "Coaching changes can lead to unexpected outcomes in team performance."
+          "The sentiment score indicates a mixed tone in sports news today, suggesting both positive and negative developments.",
+          "Coaching changes can lead to instability in programs, affecting team performance in the short term."
         ],
         "related_topics": [
-          "What are the latest NFL contract updates?",
+          "What are the latest NFL contract negotiations?",
           "Which college basketball coaches have been fired recently?",
-          "How did Japan perform in the World Baseball Classic?",
-          "What are the latest results from LIV Golf events?",
-          "What are the current NCAA March Madness bracket predictions?"
+          "Updates on the World Baseball Classic results",
+          "What happened in LIV Golf this week?",
+          "NFL free agency news and updates"
         ]
       }
     },
@@ -676,9 +668,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.9811,
-        "label": "Positive",
-        "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1389,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.231, dampened ×0.6 → +0.1389). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -767,14 +759,14 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include a new nuclear physics finding, insights into autism, and the impact of ancient agriculture on civilization.",
-        "summary": "Today's science headlines highlight significant breakthroughs in various fields, including nuclear physics, astronomy, genetics, and the historical impact of agriculture. Notable findings include the discovery of a new 'Island of Inversion' in nuclear physics, evidence of asteroid material exchange, and genetic links between dogs and human behavior. Additionally, researchers warn about the rise of fake research, while ancient DNA sheds light on historical plagues and agricultural practices.",
+        "key_takeaway": "Recent scientific discoveries reveal new insights into nuclear physics, ancient diseases, and the genetic links between dogs and human behavior.",
+        "summary": "Today's science headlines cover a range of topics from groundbreaking nuclear physics findings to the implications of ancient plagues and the genetic connections between dogs and humans. Notable discoveries include the identification of a new 'Island of Inversion' in atomic nuclei, evidence of asteroid material exchange, and the genetic basis for anxiety and aggression in golden retrievers. Additionally, concerns about the spread of fake research and the historical significance of seabird guano in ancient Peru are highlighted.",
         "key_themes": [
           "nuclear physics discoveries",
-          "autism research findings",
-          "impact of ancient agriculture",
-          "genetic links between species",
-          "fake research in science"
+          "ancient plague research",
+          "genetic links between dogs and humans",
+          "impact of fake research",
+          "asteroid material exchange"
         ],
         "notable_headlines": [
           {
@@ -784,17 +776,17 @@
           },
           {
             "headline": "NASA DART mission reveals asteroids throw “cosmic snowballs” at each other",
-            "why_it_matters": "This finding enhances our understanding of asteroid dynamics and their interactions, which could inform future space missions.",
+            "why_it_matters": "This finding enhances our understanding of asteroid dynamics and the active processes occurring in near-Earth space.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover a brain signal that may trigger autism’s domino effect",
-            "why_it_matters": "Identifying this molecular chain reaction could lead to new insights and treatments for autism spectrum disorders.",
+            "why_it_matters": "Identifying this molecular chain reaction could lead to new insights into autism and potential therapeutic targets.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists warn fake research is spreading faster than real science",
-            "why_it_matters": "The rise of organized scientific fraud poses a significant threat to the integrity of research and public trust in science.",
+            "why_it_matters": "The rise of organized scientific fraud poses significant risks to the integrity of scientific research and public trust.",
             "signal": "Risk"
           },
           {
@@ -805,33 +797,33 @@
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the implications of the new nuclear physics discovery is expected.",
-            "More details on the DART mission findings may be released, potentially influencing asteroid research.",
-            "Updates on the implications of the autism research may emerge, impacting treatment approaches."
+            "Further analysis of the implications of the 'Island of Inversion' discovery is expected.",
+            "More details on the impact of the DART mission findings may emerge.",
+            "Research on the genetic links between dogs and humans could lead to new studies."
           ],
           "next_1_4_weeks": [
-            "Expect discussions on the implications of the rise of fake research in scientific communities and potential policy responses.",
-            "Further studies on the genetic links between dogs and humans may be published, expanding understanding of behavior.",
-            "Anticipate more findings related to ancient diseases as researchers continue to analyze historical DNA."
+            "Anticipated discussions on the implications of the rise of fake research in scientific communities.",
+            "Potential follow-up studies on the ancient plague findings may be published.",
+            "Continued exploration of the effects of nitric oxide on brain signaling in autism research."
           ],
           "watch_list": [
-            "Monitor developments in nuclear physics research following the recent discovery.",
-            "Keep an eye on ongoing investigations into the prevalence of scientific fraud and its impact on research integrity.",
-            "Watch for new insights from the DART mission as NASA continues to analyze asteroid interactions.",
-            "Follow updates on autism research and its potential implications for treatment."
+            "Developments in nuclear physics research following the new findings.",
+            "Updates on the DART mission and asteroid studies.",
+            "Ongoing research into the genetic basis of behavior in dogs and its implications for humans.",
+            "Monitoring the response to the concerns about scientific fraud."
           ],
-          "confidence": "High"
+          "confidence": "Medium"
         },
         "caveats": [
-          "The findings in nuclear physics and autism research are still in early stages and require further validation.",
-          "The implications of the rise of fake research are complex and may take time to fully understand."
+          "The mixed sentiment signal indicates varying degrees of optimism and concern across different stories.",
+          "Some findings are preliminary and may require further validation."
         ],
         "related_topics": [
           "What are the latest discoveries in nuclear physics?",
           "How does the DART mission impact our understanding of asteroids?",
-          "What new insights have been found in autism research?",
-          "How is fake research affecting the scientific community?",
-          "What can ancient DNA tell us about historical diseases?"
+          "What genetic links exist between dogs and human behavior?",
+          "What are the implications of rising fake research in science?",
+          "What can ancient DNA tell us about historical plagues?"
         ]
       }
     }
