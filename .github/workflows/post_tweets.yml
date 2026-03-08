@@ -3,16 +3,17 @@ name: Post to X
 on:
   workflow_dispatch:
     inputs:
-      category_index:
-        description: "Category index to post (0-4)"
+      category:
+        description: "Category key to post (world, business, technology, sports, science)"
         required: true
-        default: "0"
+        default: "world"
   schedule:
-    - cron: "30 14 * * *"  # world
-    - cron: "50 14 * * *"  # business
-    - cron: "10 15 * * *"  # technology
-    - cron: "30 15 * * *"  # sports
-    - cron: "50 15 * * *"  # science
+    # Staggered 20 min apart, starting 50 min after pipeline (14:10 UTC)
+    - cron: "0 15 * * *"   # world
+    - cron: "20 15 * * *"  # business
+    - cron: "40 15 * * *"  # technology
+    - cron: "0 16 * * *"   # sports
+    - cron: "20 16 * * *"  # science
 
 jobs:
   post-tweet:
@@ -33,26 +34,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install tweepy>=4.14.0
 
-      - name: Determine category index
+      - name: Determine category
         id: cat
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "index=${{ github.event.inputs.category_index }}" >> "$GITHUB_OUTPUT"
+            echo "key=${{ github.event.inputs.category }}" >> "$GITHUB_OUTPUT"
           else
-            # Map cron minute to category index
-            MINUTE=$(date -u +%M)
-            HOUR=$(date -u +%H)
-            if [ "$HOUR" = "14" ] && [ "$MINUTE" -lt "45" ]; then
-              echo "index=0" >> "$GITHUB_OUTPUT"
-            elif [ "$HOUR" = "14" ]; then
-              echo "index=1" >> "$GITHUB_OUTPUT"
-            elif [ "$HOUR" = "15" ] && [ "$MINUTE" -lt "25" ]; then
-              echo "index=2" >> "$GITHUB_OUTPUT"
-            elif [ "$HOUR" = "15" ] && [ "$MINUTE" -lt "45" ]; then
-              echo "index=3" >> "$GITHUB_OUTPUT"
-            else
-              echo "index=4" >> "$GITHUB_OUTPUT"
-            fi
+            # Map cron expression to category key (immune to runner delay)
+            case "${{ github.event.schedule }}" in
+              "0 15 * * *")  echo "key=world" >> "$GITHUB_OUTPUT" ;;
+              "20 15 * * *") echo "key=business" >> "$GITHUB_OUTPUT" ;;
+              "40 15 * * *") echo "key=technology" >> "$GITHUB_OUTPUT" ;;
+              "0 16 * * *")  echo "key=sports" >> "$GITHUB_OUTPUT" ;;
+              "20 16 * * *") echo "key=science" >> "$GITHUB_OUTPUT" ;;
+              *) echo "ERROR: unknown schedule '${{ github.event.schedule }}'"; exit 1 ;;
+            esac
           fi
 
       - name: Post tweet
@@ -63,4 +59,4 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
         run: |
-          python -m pipeline.post_tweets ${{ steps.cat.outputs.index }}
+          python -m pipeline.post_tweets ${{ steps.cat.outputs.key }}

@@ -1,7 +1,11 @@
 """Post a single category tweet to X.
 
 Usage:
-    python -m pipeline.post_tweets <category_index>
+    python -m pipeline.post_tweets <category_key>
+
+Example:
+    python -m pipeline.post_tweets world
+    python -m pipeline.post_tweets technology
 
 Environment variables:
     X_CONSUMER_KEY     - OAuth 1.0a consumer key (API key)
@@ -29,10 +33,10 @@ def _today_key() -> str:
 
 def main() -> int:
     if len(sys.argv) < 2:
-        print("Usage: python -m pipeline.post_tweets <category_index>", file=sys.stderr)
+        print("Usage: python -m pipeline.post_tweets <category_key>", file=sys.stderr)
         return 1
 
-    cat_index = int(sys.argv[1])
+    cat_key = sys.argv[1]
     dry_run = os.getenv("X_DRY_RUN", "").strip().lower() == "true"
 
     date_key = _today_key()
@@ -47,13 +51,12 @@ def main() -> int:
         report = json.load(f)
 
     categories = report.get("categories", {})
-    cat_keys = list(categories.keys())
 
-    if cat_index < 0 or cat_index >= len(cat_keys):
-        print(f"Category index {cat_index} out of range (0-{len(cat_keys) - 1})", file=sys.stderr)
+    if cat_key not in categories:
+        print(f"Category '{cat_key}' not found in report. Available: {', '.join(categories.keys())}", file=sys.stderr)
         return 1
 
-    key = cat_keys[cat_index]
+    key = cat_key
     cat_data = categories[key]
     tweet_text = cat_data.get("tweet_text", "")
 
