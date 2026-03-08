@@ -1,19 +1,19 @@
 {
   "date": "2026-03-08",
-  "generated_at_utc": "2026-03-08T14:47:03Z",
+  "generated_at_utc": "2026-03-08T18:29:59Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "war",
     "you",
-    "say",
     "trump",
-    "real",
-    "years",
-    "plan",
     "media",
-    "free",
-    "card"
+    "years",
+    "why",
+    "white",
+    "tech",
+    "say",
+    "rules"
   ],
   "categories": {
     "world": {
@@ -116,76 +116,70 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Violence and natural disasters dominate global headlines, with significant incidents reported in Cyprus, Norway, the US, and the Middle East.",
-        "summary": "Today's news highlights a range of global issues, including protests in Cyprus against UK military bases following a drone strike, a possible terrorist explosion at the US embassy in Oslo, and severe weather causing fatalities in the US. Additionally, political shifts are noted in Nepal and Switzerland, while violence continues in the Middle East with Israeli operations in Lebanon and a Russian strike in Ukraine.",
+        "key_takeaway": "Global tensions rise with violence in Lebanon and Ukraine, while severe weather impacts the US and Kenya.",
+        "summary": "Today's headlines reflect a series of global crises, including military tensions in Cyprus and Lebanon, severe weather events in the US and Kenya, and political shifts in Nepal and Switzerland.",
         "key_themes": [
-          "global protests against military presence",
-          "terrorism threats in Europe",
-          "impact of natural disasters in the US",
-          "political changes in Nepal",
-          "Middle East conflict updates"
+          "military conflicts in Cyprus and Lebanon",
+          "severe weather impacts in the US and Kenya",
+          "political changes in Nepal and Switzerland"
         ],
         "notable_headlines": [
           {
             "headline": "War fuels debate in Cyprus over UK military bases",
-            "why_it_matters": "Protests in Cyprus reflect growing tensions regarding foreign military presence amid ongoing conflicts.",
+            "why_it_matters": "The ongoing conflict has reignited discussions about the presence of UK military bases in Cyprus, highlighting local sentiments against foreign military involvement.",
             "signal": "Risk"
           },
           {
             "headline": "Explosion at US embassy in Oslo may have been terrorism, Norway police say",
-            "why_it_matters": "The investigation into the embassy explosion raises concerns about security and potential terrorist threats in Europe.",
+            "why_it_matters": "The investigation into the explosion raises concerns about security and potential threats to diplomatic missions in Europe.",
             "signal": "Risk"
           },
           {
             "headline": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
-            "why_it_matters": "Severe weather events highlight the increasing impact of climate-related disasters on communities.",
+            "why_it_matters": "The severe weather underscores the increasing frequency and intensity of storms affecting communities in the US.",
             "signal": "Risk"
           },
           {
-            "headline": "Swiss reject right-wing plan to cut licence fee for public broadcaster",
-            "why_it_matters": "The decision indicates public support for maintaining funding for media services amid political debates.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Rapper-politician Balendra Shah unseats Nepal's ex-PM as he heads for victory",
-            "why_it_matters": "This political shift in Nepal signifies changing dynamics in governance following recent protests.",
-            "signal": "Opportunity"
-          },
-          {
             "headline": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
-            "why_it_matters": "The raid underscores the ongoing violence and complex historical grievances in the region.",
+            "why_it_matters": "The operation reflects ongoing tensions and violence in the region, raising humanitarian concerns.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Heavy rains and flooding kills at least 23 in Nairobi",
+            "why_it_matters": "The flooding highlights the vulnerability of urban areas to climate-related disasters and the need for improved infrastructure.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in Cyprus regarding military presence and protests.",
-            "Following updates on the investigation into the Oslo embassy explosion.",
-            "Assessing the aftermath of tornadoes in Michigan and Oklahoma."
+            "Monitor developments in Cyprus regarding military base protests.",
+            "Watch for updates on the investigation into the Oslo embassy explosion.",
+            "Assess the impact of severe weather in the US and Kenya."
           ],
           "next_1_4_weeks": [
-            "Observing the political landscape in Nepal after the recent election results.",
-            "Tracking the implications of Israeli operations in Lebanon on regional stability.",
-            "Evaluating responses to climate-related disasters in the US."
+            "Observe the political landscape in Nepal following the election results.",
+            "Track responses to the Israeli operation in Lebanon and its implications for regional stability.",
+            "Evaluate the long-term effects of flooding in Nairobi on infrastructure and public safety."
           ],
           "watch_list": [
-            "Potential escalation of violence in the Middle East.",
-            "Impact of severe weather on infrastructure and communities in the US.",
-            "Political developments in Switzerland and their implications for media funding.",
-            "Responses to terrorism threats in Europe."
+            "Cyprus military base protests",
+            "US embassy security measures",
+            "impact of climate change on severe weather events",
+            "political stability in Nepal",
+            "Israeli-Lebanese relations"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in conflict zones is fluid and may change rapidly.",
-          "Natural disaster impacts may evolve as recovery efforts continue."
+          "The situation in Lebanon and Ukraine remains fluid and may change rapidly.",
+          "Weather-related impacts can vary significantly based on ongoing conditions."
         ],
         "related_topics": [
-          "What are the latest protests in Cyprus about?",
-          "Updates on the Oslo embassy explosion investigation",
-          "How are tornadoes affecting communities in the US?",
+          "What is happening in Cyprus regarding UK military bases?",
+          "Latest updates on the US embassy explosion in Oslo",
+          "Impact of tornadoes in Michigan and Oklahoma",
           "Political changes in Nepal after recent elections",
-          "Current situation in the Middle East conflict"
+          "Flooding situation in Nairobi and its effects"
         ]
       }
     },
@@ -198,16 +192,30 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.9749,
+        "score": -0.9987,
         "label": "Negative",
         "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "What does the US military’s feud with Anthropic mean for AI used in war?",
-          "url": "https://www.theguardian.com/technology/2026/mar/07/anthropic-claude-ai-pentagon-us-military",
-          "published": "Sat, 07 Mar 2026 14:00:53 GMT",
-          "summary": "<p>Tech policy professor who served in US air force explains how a feud between an AI startup and the US military illuminates ethical fault lines</p><p>Anthropic’s ongoing fight with the Department of Defense over what <a href=\"https://www.theguardian.com/us-news/2026/feb/26/anthropic-pentagon-claude\">safety restrictions</a> it can put on its <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">artificial intelligence</a> models has captivated the tech industry, acting as a",
+          "title": "White House worries as gas prices jump amid ongoing US-Israel war on Iran",
+          "url": "https://www.theguardian.com/world/2026/mar/08/us-drivers-oil-prices-iran",
+          "published": "Sun, 08 Mar 2026 12:00:18 GMT",
+          "summary": "<p>US drivers are largely insulated from higher oil prices caused by Middle East turmoil – but only to a point</p><p>Across the US, the average cost of a gallon of regular gasoline has jumped nearly 27 cents in a week, to $3.25, and American consumers are bracing for higher prices at the gas pump as the <a href=\"https://www.theguardian.com/world/us-israel-war-on-iran\">US-Israel conflict with Iran</a> threatens to disrupt the global oil supply.</p><p>That fear has entered the White House too, whe",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Why an Iran war inflation shock could wreck global economic recovery",
+          "url": "https://www.theguardian.com/business/2026/mar/08/iran-israel-us-war-inflation-interest-rates-global-economy-middle-east",
+          "published": "Sun, 08 Mar 2026 08:00:15 GMT",
+          "summary": "<p>Central bankers and economists warn prolonged conflict could raise retail prices and rip up growth forecasts</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/06/iran-war-live-updates-us-temporarily-lets-india-buy-russian-oil-amid-energy-fears-israeli-military-launches-strikes-on-beirut\">Middle East crisis – live updates</a></p></li></ul><p>An inflation shock triggered by the US-Israel attack on Iran could wreck a fragile global economic recovery that had been expected to",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Judge rules Kari Lake unlawfully ran US media agency, voiding mass layoffs",
+          "url": "https://www.theguardian.com/us-news/2026/mar/08/kari-lake-us-media-agency-voice-of-america",
+          "published": "Sun, 08 Mar 2026 15:59:17 GMT",
+          "summary": "<p>Lake, whom Trump appointed without Senate confirmation to run Voice of America parent agency, cut over 1,000 jobs</p><p>A federal judge ruled Saturday that Kari Lake unlawfully led the US Agency for Global Media (USAGM) for several months last year and voided mass layoffs and other actions taken during that period to dismantle the agency.</p><p>The US Agency for Global Media (USAGM) is an independent federal agency that <a href=\"https://www.usagm.gov/who-we-are/\">oversees</a> the Voice of Ame",
           "source": "The Guardian"
         },
         {
@@ -253,17 +261,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "Weight-loss jab could be made for $3 a month, study finds",
-          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study",
-          "published": "Fri, 06 Mar 2026 09:00:16 GMT",
-          "summary": "<p>Cheap semaglutide, the drug in Ozempic and Wegovy, could help millions with diabetes and obesity in 160 countries</p><p>Weight-loss jabs such as Wegovy could be made for just $3 a month, according to new analysis, potentially making the treatment available to millions in poorer countries as patents expire.</p><p>More than <a href=\"https://www.theguardian.com/society/2024/feb/29/more-than-a-billion-people-worldwide-are-obese-research-finds\">a billion people live with obesity</a> worldwide, wit",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Paramount-Warner Bros mega-merger could still face ‘real threats’, antitrust experts say",
-          "url": "https://www.theguardian.com/film/2026/mar/05/paramount-warner-bros-merger-hurdles",
-          "published": "Thu, 05 Mar 2026 12:00:03 GMT",
-          "summary": "<p>The $110bn deal will require approval from regulatory authorities in the US, the EU and the UK</p><p>Champagne <a href=\"https://www.nytimes.com/2026/02/28/business/warner-bros-paramount-reaction.html\">reportedly flowed</a> at Paramount Skydance headquarters late last week after the media conglomerate edged out Netflix to acquire the entirety of Warner Bros Discovery for a cool $110bn.</p><p>And on a call with analysts and investors on Monday morning, David Ellison, Paramount Skydance’s chief",
+          "title": "Tech oligarchs reshape humanity while billionaires of old seem quaint",
+          "url": "https://www.theguardian.com/technology/2026/mar/08/billionaires-tech-oligarchs",
+          "published": "Sun, 08 Mar 2026 10:00:16 GMT",
+          "summary": "<p>From Gates to Musk and Altman, today’s ultra-rich steer AI and tech, raising questions about who decides the future</p><p>When <a href=\"https://www.theguardian.com/us-news/bill-gates\">Bill Gates</a> became the first modern IT mogul to reach the apex of wealth and power in 1992, the world was a very different place. Gates joined the top 10 on Forbes magazine’s billionaires list alongside Japanese, German, Canadian, South Korean and Swedish billionaires, including those with family fortunes fro",
           "source": "The Guardian"
         },
         {
@@ -279,83 +280,72 @@
           "published": "Tue, 03 Mar 2026 22:06:19 GMT",
           "summary": "<p>CEO cited AI advances in cutting 4,000 workers, but a weak crypto market and declining stock price may also be at play</p><p><a href=\"https://www.theguardian.com/technology/jack-dorsey\">Jack Dorsey</a> cited <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> as the driving force behind cutting 40% of his company’s employees, but other factors such as a weak crypto market, overstaffing and a declining stock price may also have motivated the move.</p><p>Last week,",
           "source": "The Guardian"
-        },
-        {
-          "title": "The real winners of Trump’s global tariff war: law firms, hedge funds and AI",
-          "url": "https://www.theguardian.com/us-news/2026/feb/28/trump-tariffs-refunds-law-firms",
-          "published": "Sat, 28 Feb 2026 12:00:12 GMT",
-          "summary": "<p>Businesses are vying for a refund, with nearly $175bn on the line, but customers are unlikely to benefit from reversal</p><p>At 8am, two hours before the US <a href=\"https://www.theguardian.com/us-news/us-supreme-court\">supreme court</a> officially slapped down <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>’s “liberation day” tariffs on 20 February, Joseph Spraragen’s phone was already ringing off the hook.</p><p>The seasoned New York-based attorney and his 40-stro",
-          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The US labor market shows signs of distress with a significant job loss in February, coinciding with rising oil prices and ongoing tariff disputes.",
-        "summary": "Today's business news highlights a troubling job loss in the US labor market, with 92,000 jobs cut in February, raising concerns about economic stability. Additionally, rising oil prices due to geopolitical tensions and ongoing tariff disputes are creating further economic uncertainty. The US is also preparing to process refunds for illegally collected tariffs, while the Small Business Administration has cut off loans to immigrant entrepreneurs, raising concerns about discrimination and economic inclusivity.",
+        "key_takeaway": "Rising oil prices due to the US-Israel conflict with Iran threaten global economic recovery and inflation, while US job losses and tariff issues add to economic concerns.",
+        "summary": "The ongoing US-Israel conflict with Iran is causing significant economic repercussions, including rising gas prices and fears of inflation that could derail global recovery. Additionally, recent job losses in the US and legal challenges regarding tariffs are compounding economic instability.",
         "key_themes": [
-          "US job market analysis",
-          "impact of oil prices on inflation",
-          "tariff disputes and their economic effects",
-          "small business funding challenges",
-          "AI's role in military and business sectors"
+          "US-Israel conflict economic impact",
+          "global inflation concerns",
+          "US job market trends",
+          "tariff legal challenges",
+          "oil price fluctuations"
         ],
         "notable_headlines": [
           {
-            "headline": "US lost 92,000 jobs in February just before Trump joined Iran conflict",
-            "why_it_matters": "This significant job loss indicates potential weaknesses in the US labor market, raising concerns about economic stability amid geopolitical tensions.",
+            "headline": "White House worries as gas prices jump amid ongoing US-Israel war on Iran",
+            "why_it_matters": "Rising gas prices may impact consumer spending and overall economic stability in the US.",
             "signal": "Risk"
           },
           {
-            "headline": "Iran war pushes oil price above $90, threatening rise in global inflation",
-            "why_it_matters": "The surge in oil prices could exacerbate inflationary pressures globally, impacting various sectors and consumer prices.",
+            "headline": "Why an Iran war inflation shock could wreck global economic recovery",
+            "why_it_matters": "Prolonged conflict could lead to increased retail prices, affecting global growth forecasts.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US lost 92,000 jobs in February just before Trump joined Iran conflict",
+            "why_it_matters": "Significant job losses indicate a weakening labor market, raising concerns about economic health.",
             "signal": "Risk"
           },
           {
             "headline": "US preparing system to process refunds on billions in illegal Trump tariffs",
-            "why_it_matters": "The move to refund illegally collected tariffs could have significant financial implications for businesses and the federal budget.",
-            "signal": "Opportunity"
+            "why_it_matters": "The potential refunds could impact government revenue and trade relations.",
+            "signal": "Unclear"
           },
           {
-            "headline": "‘It’s discrimination’: US Small Business Administration cuts off loans to immigrant entrepreneurs",
-            "why_it_matters": "This policy change raises serious concerns about economic inclusivity and support for immigrant entrepreneurs in the US.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "New York and other US states sue Trump over ‘illegal and reckless’ tariffs",
-            "why_it_matters": "The lawsuit reflects ongoing tensions regarding trade policies and could impact future tariff regulations and economic relations.",
+            "headline": "Iran war pushes oil price above $90, threatening rise in global inflation",
+            "why_it_matters": "Higher oil prices could lead to increased inflation globally, affecting economies worldwide.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor job market reactions to February's job loss report.",
-            "Watch for updates on oil price fluctuations amid ongoing geopolitical tensions.",
-            "Follow developments in the US tariff refund system."
+            "Monitor gas price trends and their impact on consumer behavior.",
+            "Watch for updates on the US-Israel conflict and its economic implications.",
+            "Observe any announcements regarding job market recovery or further layoffs."
           ],
           "next_1_4_weeks": [
-            "Anticipate further analysis on the impact of job losses on consumer spending and economic growth.",
-            "Expect discussions on the implications of rising oil prices for inflation and monetary policy.",
-            "Observe the legal proceedings regarding the tariffs and their potential economic impact."
+            "Expect potential adjustments in economic forecasts due to rising inflation concerns.",
+            "Watch for developments in tariff refund processes and their implications for trade.",
+            "Monitor the global oil market for further price fluctuations and their economic impact."
           ],
           "watch_list": [
-            "US unemployment rate trends",
-            "Global oil price movements",
-            "Legislative changes affecting small businesses",
-            "Developments in AI and military ethics",
-            "Tariff-related lawsuits and outcomes"
+            "US job market statistics",
+            "Oil price trends and forecasts",
+            "Updates on US-Israel conflict",
+            "Legal developments regarding tariffs"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The job loss figure may be revised as more data becomes available.",
-          "Geopolitical tensions can change rapidly, affecting oil prices unpredictably.",
-          "Legal outcomes regarding tariffs may take time to resolve."
+          "The situation in the Middle East is fluid and may change rapidly, impacting economic forecasts.",
+          "Job market data may be revised as more information becomes available."
         ],
         "related_topics": [
-          "What are the latest trends in the US job market?",
-          "How are rising oil prices affecting global inflation?",
-          "What are the implications of Trump's tariffs on businesses?",
-          "What challenges do immigrant entrepreneurs face in the US?",
-          "What is the current state of AI in military applications?"
+          "What are the implications of the US-Israel conflict on global oil prices?",
+          "How is inflation affecting the global economy?",
+          "What recent job losses mean for the US economy?"
         ]
       }
     },
@@ -368,11 +358,32 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.997,
+        "score": 0.9968,
         "label": "Positive",
         "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Apple is going high-end with new ‘Ultra’ products next",
+          "url": "https://www.theverge.com/tech/891151/apple-is-going-high-end-with-new-ultra-products-next",
+          "published": "2026-03-08T13:51:15-04:00",
+          "summary": "Fresh off launching the low-cost MacBook Neo, Apple is reportedly preparing at least three new products that will fit into its highest-end \"ultra\" lineup. According to Bloomberg's Mark Gruman, the next batch of releases may not bear the \"ultra\" name, like its Watch, but will all command price premiums over their mainline counterparts. There's the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Listen to this: Mabe Fratti’s experimental cello pop",
+          "url": "https://www.theverge.com/column/890713/mabe-fratti-sentir-que-no-sabes-review",
+          "published": "2026-03-08T12:00:00-04:00",
+          "summary": "The opening notes of \"Kravitz\", which kicks off Mabe Fratti's 2024 record Sentir Que No Sabes, are lodged in my brain permanently. It's not a showy album, by any means. But there's something about the buzzing of her cello, plucked as you might an upright bass. The way they ring out before coming to an [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "What we&#8217;re listening to, watching, and reading right now.",
+          "url": "https://www.theverge.com/entertainment/891057/what-were-listening-to-watching-and-reading",
+          "published": "2026-03-08T11:00:00-04:00",
+          "summary": "There is so much art out there that it’s absolutely impossible to keep up. Whether it&#8217;s a slept-on post-punk album from the ‘80s, a new sci-fi novel, or a cult classic horror movie, we’re always finding new obsessions here at The Verge — and we want to share those obsessions with you. Sometimes that might [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "The best Switch 2 controller just got better (and a little worse)",
           "url": "https://www.theverge.com/tech/888482/easysmx-s10-lite-switch-2-native-wireless-controller-hands-on",
@@ -421,95 +432,70 @@
           "published": "2026-03-07T09:00:00-05:00",
           "summary": "The woman at the door wore a plush lobster headdress. She sat in the front hallway of a multistory event venue in Manhattan, beside a bundle of wristbands. If she granted you one, the world of ClawCon beckoned behind her - full of vibey pink and purple lighting, lobster claw headbands, multicolored name tags, sponsor [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "A bite-sized adventure that puts a wrench into the classic Zelda formula",
-          "url": "https://www.theverge.com/entertainment/890664/ratcheteer-dx-review-zelda-steam-switch",
-          "published": "2026-03-07T09:00:00-05:00",
-          "summary": "There are a lot of games that try to emulate The Legend of Zelda, but few that manage to capture that spirit in such a small, concise package as Ratcheteer DX. The postapocalyptic game only takes a few hours to complete, but over that span it nails the classic Zelda vibe almost perfectly, offering a [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Apple’s cheap laptop looks like a winner",
-          "url": "https://www.theverge.com/tech/890785/macbook-neo-slay-spire-2-pokopia-installer",
-          "published": "2026-03-07T08:00:00-05:00",
-          "summary": "Hi, friends! Welcome to Installer No. 118, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, please take my Switch away so I can get some work done, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about moon [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Corvette ZR1X hybrid can outpace million-dollar sports cars for a fraction of the cost",
-          "url": "https://www.theverge.com/transportation/888573/chevy-corvette-zr1x-hybrid-racing-performance",
-          "published": "2026-03-07T07:00:00-05:00",
-          "summary": "When Elon Musk burst onto the scene in his little Tesla Roadster, it seemed a matter of time before electricity rendered gas-powered sports cars obsolete. It hasn't worked out that way. Automakers have struggled to bring purely electric two-seaters to market. The ones that managed to emerge have been flatly rejected by consumers. Porsche has [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The technology landscape is buzzing with new product announcements, dynamic pricing experiments, and innovative gaming experiences.",
-        "summary": "Today's technology news highlights include the improved EasySMX S10 controller for Switch 2, Sony's testing of dynamic pricing for PlayStation games, and the integration of Vizio accounts into Walmart accounts. Additionally, Apple is promoting a new MacBook with a gift card offer, while the gaming community celebrates unique titles like Ratcheteer DX and the nostalgic Furby. The Corvette ZR1X hybrid showcases impressive performance at a lower cost compared to traditional sports cars.",
+        "key_takeaway": "Apple is set to launch new high-end 'Ultra' products while Sony tests dynamic pricing for PlayStation games, indicating shifts in tech market strategies.",
+        "summary": "Today's technology news highlights Apple's upcoming high-end product releases, Sony's experimentation with dynamic pricing for games, and various updates in gaming and consumer electronics. The overall sentiment is positive, reflecting excitement around new product innovations and market strategies.",
         "key_themes": [
-          "gaming technology updates",
-          "Apple product announcements",
-          "dynamic pricing in gaming",
-          "Vizio Walmart account integration",
-          "hybrid vehicle performance"
+          "Apple's new product lineup",
+          "Sony dynamic pricing strategy",
+          "latest gaming technology updates"
         ],
         "notable_headlines": [
           {
-            "headline": "The best Switch 2 controller just got better (and a little worse)",
-            "why_it_matters": "The EasySMX S10 controller enhances gaming experience with features that rival more expensive options.",
+            "headline": "Apple is going high-end with new ‘Ultra’ products next",
+            "why_it_matters": "Apple's shift to high-end products may redefine its market positioning and attract premium consumers.",
             "signal": "Opportunity"
           },
           {
             "headline": "Sony appears to be testing dynamic pricing on PlayStation games",
-            "why_it_matters": "Dynamic pricing could change how consumers perceive game value and purchasing decisions.",
+            "why_it_matters": "Dynamic pricing could change how consumers perceive value in digital gaming, impacting sales strategies.",
             "signal": "Risk"
           },
           {
             "headline": "Time’s running out to get a free gift card when you preorder a new MacBook",
-            "why_it_matters": "Promotional offers like gift cards can influence consumer purchasing behavior for new tech products.",
+            "why_it_matters": "Promotional offers like gift cards can drive early sales and consumer interest in new products.",
             "signal": "Opportunity"
           },
           {
             "headline": "Vizio accounts are becoming Walmart accounts",
-            "why_it_matters": "This transition reflects Walmart's strategy to integrate its acquisitions and streamline customer accounts.",
+            "why_it_matters": "The integration of Vizio into Walmart's ecosystem may streamline user experience but raises concerns about data privacy.",
             "signal": "Unclear"
           },
           {
-            "headline": "The Corvette ZR1X hybrid can outpace million-dollar sports cars for a fraction of the cost",
-            "why_it_matters": "The ZR1X hybrid's performance challenges perceptions of electric vehicles in the sports car market.",
-            "signal": "Opportunity"
+            "headline": "The best Switch 2 controller just got better (and a little worse)",
+            "why_it_matters": "Improvements in gaming accessories can enhance user experience but may also lead to mixed reviews.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "More details on Sony's dynamic pricing strategy may emerge.",
-            "Expect further reactions to Apple's new MacBook and its promotional offers.",
-            "Additional gaming reviews and updates on new titles are likely."
+            "Anticipation builds for Apple's product announcements and potential market reactions.",
+            "Monitoring consumer responses to Sony's dynamic pricing strategy.",
+            "Expect updates on the integration of Vizio accounts into Walmart."
           ],
           "next_1_4_weeks": [
-            "Watch for consumer responses to the EasySMX S10 controller and its market impact.",
-            "Anticipate more news from Apple regarding its product lineup and sales strategies.",
-            "Monitor developments in hybrid vehicle technology and consumer acceptance."
+            "Watch for reviews and consumer feedback on Apple's new 'Ultra' products.",
+            "Follow developments in dynamic pricing strategies across the gaming industry.",
+            "Keep an eye on the impact of Vizio's account changes on customer satisfaction."
           ],
           "watch_list": [
-            "Sony's pricing experiments and their implications for the gaming industry.",
-            "Apple's product announcements and market performance.",
-            "Trends in hybrid vehicle technology and consumer preferences.",
-            "The reception of new gaming titles and their impact on the market."
+            "Apple's product launch events",
+            "Sony's pricing experiments",
+            "Consumer reactions to new gaming accessories.",
+            "Trends in hybrid vehicle technology."
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The impact of dynamic pricing on consumer behavior is still uncertain.",
-          "Consumer reactions to new product announcements can vary widely. "
+          "Apple's high-end strategy may not resonate with all market segments."
         ],
         "related_topics": [
-          "What are the latest gaming technology updates?",
-          "How is Apple promoting its new MacBook?",
-          "What is dynamic pricing in the gaming industry?",
-          "How are Vizio accounts changing with Walmart's acquisition?",
-          "What are the performance benefits of hybrid vehicles?"
+          "What are Apple's new Ultra products?",
+          "How is Sony testing dynamic pricing?",
+          "Latest trends in gaming technology and accessories."
         ]
       }
     },
@@ -522,167 +508,162 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.9806,
+        "score": 0.9778,
         "label": "Positive",
         "rationale": "Computed using a lexicon-based sentiment model over the combined headlines + summaries. This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Last-minute NFL free agency nuggets: What we're hearing on Eagles plans, top RBs and WRs",
-          "url": "https://www.espn.com/nfl/story/_/id/48111448/nfl-free-agency-news-latest-wrs-rbs-pierce-crosby",
-          "published": "Sun, 8 Mar 2026 09:19:13 EST",
-          "summary": "What are we hearing as free agency nears? We give you the latest buzz on top players and aggressive teams.",
+          "title": "Sources: Conner reworks deal to stay with Cards",
+          "url": "https://www.espn.com/nfl/story/_/id/48144246/sources-rb-james-conner-reworks-deal-stay-cardinals",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
+          "summary": "The Cardinals and Pro Bowl running back James Conner have agreed to a revised contract to keep him in Arizona for 2026, according to NFL Network.",
           "source": "ESPN"
         },
         {
-          "title": "Murray? Tua?? Geno?! Taking a look at who could be the Jets' starting QB in 2026",
-          "url": "https://www.espn.com/nfl/story/_/id/48114418/new-york-jets-2026-starting-qb-kyler-murray-tua-tagovailoa-draft-ty-simpson",
-          "published": "Sun, 8 Mar 2026 09:19:14 EST",
-          "summary": "New York has plenty of options to revamp its quarterbacks room through free agency, trading and the draft.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: Last-place GA Tech fires Stoudamire",
+          "title": "GA Tech fires Stoudamire after last-place finish",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48142565/sources-georgia-tech-fires-damon-stoudamire-last-place-finish-acc",
-          "published": "Sun, 8 Mar 2026 10:21:02 EST",
-          "summary": "Georgia Tech is dismissing coach Damon Stoudamire, sources told ESPN.",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
+          "summary": "Georgia Tech has fired men's basketball coach Damon Stoudamire, ending his tenure at the school after three seasons.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Source: Boston College fires hoops coach Grant",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48144775/boston-college-fires-men-basketball-coach-earl-grant-source-confirms",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
+          "summary": "Boston College has fired coach Earl Grant, according to ESPN's Pete Thamel and multiple reports, ending his five-year run at the school.",
           "source": "ESPN"
         },
         {
           "title": "Skubal mulls WBC plan, may pitch again for U.S.",
           "url": "https://www.espn.com/mlb/story/_/id/48142326/tarik-skubal-mulls-changing-wbc-plan-hard-walk-away",
-          "published": "Sun, 8 Mar 2026 10:21:02 EST",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
           "summary": "Tarik Skubal says he is considering pitching again for the United States at the World Baseball Classic, a potential change in plans for the Tigers' ace.",
           "source": "ESPN"
         },
         {
           "title": "White: Jones never in mind for White House card",
           "url": "https://www.espn.com/mma/story/_/id/48141330/jon-jones-conor-mcgregor-left-ufc-white-house-card",
-          "published": "Sun, 8 Mar 2026 10:21:02 EST",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
           "summary": "UFC legends Jon Jones and Conor McGregor were both left off the promotion's planned White House card, with Dana White saying Jones was \"never ever\" in his mind for a fight.",
           "source": "ESPN"
         },
         {
-          "title": "Japan rallies past Australia, clinches WBC pool",
+          "title": "Pack bring back versatile Rhyan on 3-year deal",
+          "url": "https://www.espn.com/nfl/story/_/id/48142637/packers-bring-back-sean-rhyan-3-year-33-million-deal",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
+          "summary": "The Packers have agreed to bring back Sean Rhyan on a three-year, $33 million deal, his agents told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Japan rallies past Australia, clinches WBC group",
           "url": "https://www.espn.com/mlb/story/_/id/48142460/japan-rallies-late-beat-australia-masataka-yoshida-hr",
-          "published": "Sun, 8 Mar 2026 10:21:02 EST",
-          "summary": "Defending champion Japan rallied from 1-0 down to beat Australia 4-3 behind a seventh-inning, two-run homer with two outs by Masataka Yoshida.",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
+          "summary": "Defending champion Japan rallied from 1-0 down to beat Australia 4-3 in the World Baseball Classic on Sunday behind a two-run homer from Masataka Yoshida with two outs in the seventh inning.",
           "source": "ESPN"
         },
         {
           "title": "Rahm calls LIV win 'weight off my shoulders'",
           "url": "https://www.espn.com/golf/story/_/id/48142148/jon-rahm-wins-liv-hong-kong-first-individual-title-2024",
-          "published": "Sun, 8 Mar 2026 10:21:02 EST",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
           "summary": "Jon Rahm won the LIV Golf Hong Kong event for his first individual title since 2024.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Messi paid $70M-$80M per year, Miami owner says",
-          "url": "https://www.espn.com/soccer/story/_/id/48135941/lionel-messi-salary-70-million-80-inter-miami-jorge-mas",
-          "published": "Sun, 8 Mar 2026 10:21:02 EST",
-          "summary": "Inter Miami co-owner Jorge Mas revealed that captain Lionel Messi is paid between $70 million and $80 million a year, including the player's ownership shares.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Hurley tossed, fined as UConn falls to Marquette",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48134790/danny-hurley-ejected-final-second-uconn-falls-marquette",
-          "published": "Sun, 8 Mar 2026 10:21:02 EST",
-          "summary": "UConn coach Danny Hurley was ejected in the final second as Marquette hung on for a 68-62 victory that prevented the fourth-ranked Huskies from winning a share of the Big East regular-season title and hurt their hopes for a 1-seed in the NCAA tournament.",
-          "source": "ESPN"
-        },
-        {
-          "title": "UTEP fan's clash with JSU players under review",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48137700/utep-fan-clash-jacksonville-state-players-review",
-          "published": "Sun, 8 Mar 2026 10:21:02 EST",
-          "summary": "UTEP, Jacksonville State and Conference USA will review a postgame altercation that appeared to involve a UTEP fan picking up a chair in a fiery exchange with Jacksonville State players.",
           "source": "ESPN"
         },
         {
           "title": "🏀 Men's Bubble Watch: Who's in and who's out?",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/47809690/bubble-watch-mens-ncaa-tournament-march-madness-bracket-predictions-2026",
-          "published": "Sun, 8 Mar 2026 10:21:03 EST",
+          "published": "Sun, 8 Mar 2026 14:06:42 EST",
           "summary": "Has Division I's only undefeated team done enough to secure its spot?",
           "source": "ESPN"
         },
         {
           "title": "Men's Bracketology: Florida replaces UConn as a 1-seed, bid thieves remain top of mind",
           "url": "https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2026-march-madness-men-field-predictions",
-          "published": "Sun, 8 Mar 2026 09:07:18 EST",
+          "published": "Sun, 8 Mar 2026 13:25:01 EST",
           "summary": "The Huskies were the shakiest 1-seed, and their loss at Marquette helped the Gators make the swap.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Last-minute NFL free agency nuggets: What we're hearing on Eagles plans, top RBs and WRs",
+          "url": "https://www.espn.com/nfl/story/_/id/48111448/nfl-free-agency-news-latest-wrs-rbs-pierce-crosby",
+          "published": "Sun, 8 Mar 2026 13:13:01 EST",
+          "summary": "What are we hearing as free agency nears? We give you the latest buzz on top players and aggressive teams.",
+          "source": "ESPN"
+        },
+        {
+          "title": "What’s the best option at QB for Jets? Here’s the latest",
+          "url": "https://www.espn.com/nfl/story/_/id/48114418/new-york-jets-2026-starting-qb-kyler-murray-tua-tagovailoa-draft-ty-simpson",
+          "published": "Sun, 8 Mar 2026 13:13:01 EST",
+          "summary": "New York has plenty of options to revamp its quarterbacks room through free agency, trading and the draft.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "NFL free agency buzz intensifies as teams prepare for significant player movements, while college basketball and international baseball also capture headlines.",
-        "summary": "Today's sports news highlights include the latest on NFL free agency, coaching changes in college basketball, and significant performances in international baseball and golf. The New York Jets are exploring quarterback options, while Georgia Tech has fired its coach. In MLB, Japan secured a victory over Australia in the World Baseball Classic, and Jon Rahm celebrated a LIV Golf win. Additionally, Messi's salary details were revealed, and UConn faced setbacks in college basketball.",
+        "key_takeaway": "James Conner reworks his contract to stay with the Cardinals, while several college basketball coaches face firings amid March Madness preparations.",
+        "summary": "Today's sports news highlights include James Conner's contract extension with the Cardinals, coaching changes at Georgia Tech and Boston College, and updates from the World Baseball Classic and LIV Golf.",
         "key_themes": [
-          "NFL free agency updates",
-          "New York Jets quarterback options",
-          "Georgia Tech coaching changes",
+          "NFL contract updates",
+          "college basketball coaching changes",
           "World Baseball Classic results",
-          "Jon Rahm LIV Golf victory"
+          "LIV Golf tournament highlights",
+          "NCAA March Madness bracket predictions"
         ],
         "notable_headlines": [
           {
-            "headline": "Last-minute NFL free agency nuggets: What we're hearing on Eagles plans, top RBs and WRs",
-            "why_it_matters": "As free agency approaches, teams are strategizing on player acquisitions, which could significantly impact the upcoming season.",
+            "headline": "Sources: Conner reworks deal to stay with Cards",
+            "why_it_matters": "Conner's contract extension ensures stability for the Cardinals as they prepare for the upcoming season.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Murray? Tua?? Geno?! Taking a look at who could be the Jets' starting QB in 2026",
-            "why_it_matters": "The Jets are considering multiple quarterbacks, indicating a potential shift in their offensive strategy for the next season.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Sources: Last-place GA Tech fires Stoudamire",
-            "why_it_matters": "This coaching change reflects the pressure on college programs to perform, especially in competitive conferences.",
+            "headline": "GA Tech fires Stoudamire after last-place finish",
+            "why_it_matters": "The firing of Stoudamire reflects the pressure on college coaches to perform, especially in competitive conferences.",
             "signal": "Risk"
           },
           {
-            "headline": "Japan rallies past Australia, clinches WBC pool",
-            "why_it_matters": "Japan's victory showcases their strength in international baseball, impacting their momentum in the tournament.",
+            "headline": "Source: Boston College fires hoops coach Grant",
+            "why_it_matters": "Grant's dismissal indicates a shift in expectations for Boston College's basketball program after a disappointing season.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Japan rallies past Australia, clinches WBC group",
+            "why_it_matters": "Japan's victory showcases their resilience and strengthens their position in the World Baseball Classic.",
             "signal": "Opportunity"
           },
           {
             "headline": "Rahm calls LIV win 'weight off my shoulders'",
-            "why_it_matters": "Rahm's victory marks a significant personal achievement and highlights the competitive nature of LIV Golf.",
+            "why_it_matters": "Rahm's win at LIV Golf marks a significant personal achievement and could influence his future performances.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Hurley tossed, fined as UConn falls to Marquette",
-            "why_it_matters": "UConn's loss and Hurley's ejection could affect their NCAA tournament seeding and team morale.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Expect more updates on NFL free agency as teams finalize their strategies.",
-            "Watch for reactions to coaching changes in college basketball as teams prepare for postseason play.",
-            "Anticipate further developments in the World Baseball Classic as teams compete for advancement."
+            "More updates expected on NFL free agency and player signings.",
+            "Further developments in NCAA basketball as teams finalize their tournament positions.",
+            "Anticipation builds for upcoming World Baseball Classic matches."
           ],
           "next_1_4_weeks": [
-            "Monitor the impact of NFL free agency on team rosters and strategies leading into the draft.",
-            "Follow NCAA tournament developments as teams finalize their brackets and prepare for March Madness.",
-            "Keep an eye on LIV Golf events as players like Jon Rahm seek to build on recent successes."
+            "March Madness will dominate headlines as the NCAA tournament approaches.",
+            "NFL teams will finalize their rosters ahead of the new season.",
+            "LIV Golf events will continue to attract attention with top players competing."
           ],
           "watch_list": [
-            "Upcoming NFL free agency signings and trades",
-            "NCAA tournament bracket predictions and bubble teams",
-            "World Baseball Classic matchups and results",
-            "LIV Golf tournament outcomes and player performances"
+            "Monitor coaching changes in college basketball as tournaments approach.",
+            "Watch for updates on NFL free agency and player movements.",
+            "Keep an eye on the performance of teams in the World Baseball Classic.",
+            "Follow Jon Rahm's progress in upcoming golf tournaments."
           ],
-          "confidence": "High"
+          "confidence": "Medium"
         },
         "caveats": [
-          "The situation regarding NFL free agency is fluid and subject to change as teams make final decisions.",
-          "Coaching changes in college basketball can lead to unpredictable outcomes for teams in the postseason."
+          "The sentiment score is based on a lexicon model and may not capture all nuances of the news.",
+          "Coaching changes can lead to unexpected outcomes in team performance."
         ],
         "related_topics": [
-          "What are the latest NFL free agency updates?",
-          "Who are the potential starting quarterbacks for the Jets?",
-          "What coaching changes are happening in college basketball?",
+          "What are the latest NFL contract updates?",
+          "Which college basketball coaches have been fired recently?",
           "How did Japan perform in the World Baseball Classic?",
-          "What are the implications of UConn's recent loss?"
+          "What are the latest results from LIV Golf events?",
+          "What are the current NCAA March Madness bracket predictions?"
         ]
       }
     },
@@ -786,96 +767,71 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include a new nuclear physics finding, insights into autism, and the impact of seabird guano on ancient Peruvian agriculture.",
-        "summary": "Today's science headlines highlight significant discoveries across various fields, including nuclear physics, astronomy, genetics, and ancient history. Notable findings include the identification of a new nuclear structure, evidence of cosmic material exchange between asteroids, and genetic links between dogs and human behavior. Additionally, researchers have uncovered the role of seabird guano in ancient agricultural practices and the recovery of koala populations. These advancements underscore the dynamic nature of scientific inquiry and its implications for understanding both historical and contemporary issues.",
+        "key_takeaway": "Recent scientific discoveries include a new nuclear physics finding, insights into autism, and the impact of ancient agriculture on civilization.",
+        "summary": "Today's science headlines highlight significant breakthroughs in various fields, including nuclear physics, astronomy, genetics, and the historical impact of agriculture. Notable findings include the discovery of a new 'Island of Inversion' in nuclear physics, evidence of asteroid material exchange, and genetic links between dogs and human behavior. Additionally, researchers warn about the rise of fake research, while ancient DNA sheds light on historical plagues and agricultural practices.",
         "key_themes": [
           "nuclear physics discoveries",
           "autism research findings",
-          "impact of seabird guano on agriculture",
-          "koala population recovery",
-          "genetic links between dogs and humans"
+          "impact of ancient agriculture",
+          "genetic links between species",
+          "fake research in science"
         ],
         "notable_headlines": [
           {
             "headline": "A perfectly balanced atom just broke one of nuclear physics’ biggest rules",
-            "why_it_matters": "This discovery challenges long-held beliefs in nuclear physics and opens new avenues for research.",
+            "why_it_matters": "This discovery challenges long-held beliefs in nuclear physics and could reshape our understanding of atomic structure.",
             "signal": "Opportunity"
           },
           {
             "headline": "NASA DART mission reveals asteroids throw “cosmic snowballs” at each other",
-            "why_it_matters": "This finding enhances our understanding of asteroid behavior and material exchange in space.",
+            "why_it_matters": "This finding enhances our understanding of asteroid dynamics and their interactions, which could inform future space missions.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover a brain signal that may trigger autism’s domino effect",
-            "why_it_matters": "This research could lead to new insights into autism and potential therapeutic approaches.",
+            "why_it_matters": "Identifying this molecular chain reaction could lead to new insights and treatments for autism spectrum disorders.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists warn fake research is spreading faster than real science",
-            "why_it_matters": "The rise of organized scientific fraud poses a significant risk to the integrity of research.",
+            "why_it_matters": "The rise of organized scientific fraud poses a significant threat to the integrity of research and public trust in science.",
             "signal": "Risk"
           },
           {
             "headline": "A 4,000-year-old sheep reveals the secret of an ancient plague",
-            "why_it_matters": "This discovery provides crucial insights into historical pandemics and their evolution.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Golden Retriever genes linked to anxiety, aggression, and intelligence in humans",
-            "why_it_matters": "Understanding these genetic links could improve pet training and human mental health insights.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Physicists finally see strange magnetic vortices predicted 50 years ago",
-            "why_it_matters": "This confirmation of theoretical predictions could lead to advancements in technology.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Bird droppings helped build one of ancient Peru’s most powerful kingdoms",
-            "why_it_matters": "This research highlights the importance of natural resources in historical societal development.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Antarctica has a strange gravity hole and scientists finally know why",
-            "why_it_matters": "Understanding gravity variations can enhance our knowledge of Earth's geological processes.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Koalas survived a devastating population crash and their DNA is bouncing back",
-            "why_it_matters": "This finding offers hope for conservation efforts and species recovery strategies.",
+            "why_it_matters": "This discovery provides crucial insights into the history of infectious diseases and their evolution over time.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Further analysis of the implications of the new nuclear physics discovery is expected.",
-            "More research on the genetic links between dogs and humans may be published.",
-            "Updates on the ongoing studies regarding the spread of fake research are anticipated."
+            "More details on the DART mission findings may be released, potentially influencing asteroid research.",
+            "Updates on the implications of the autism research may emerge, impacting treatment approaches."
           ],
           "next_1_4_weeks": [
-            "Expect new findings related to autism research as studies continue to explore the brain's signaling pathways.",
-            "Further insights into the ancient plague and its implications for modern diseases may emerge.",
-            "Research on the effects of environmental factors on species recovery, particularly koalas, will likely continue."
+            "Expect discussions on the implications of the rise of fake research in scientific communities and potential policy responses.",
+            "Further studies on the genetic links between dogs and humans may be published, expanding understanding of behavior.",
+            "Anticipate more findings related to ancient diseases as researchers continue to analyze historical DNA."
           ],
           "watch_list": [
-            "Monitor developments from NASA's DART mission for additional findings on asteroid interactions.",
-            "Keep an eye on new studies addressing the integrity of scientific research and combating fraud.",
-            "Watch for updates on the genetic studies involving dogs and their behavioral implications.",
-            "Follow ongoing research into ancient agricultural practices and their societal impacts."
+            "Monitor developments in nuclear physics research following the recent discovery.",
+            "Keep an eye on ongoing investigations into the prevalence of scientific fraud and its impact on research integrity.",
+            "Watch for new insights from the DART mission as NASA continues to analyze asteroid interactions.",
+            "Follow updates on autism research and its potential implications for treatment."
           ],
           "confidence": "High"
         },
         "caveats": [
-          "The findings on autism and genetic links are still in early research stages and require further validation.",
-          "The implications of the nuclear physics discovery may take time to fully understand and apply."
+          "The findings in nuclear physics and autism research are still in early stages and require further validation.",
+          "The implications of the rise of fake research are complex and may take time to fully understand."
         ],
         "related_topics": [
           "What are the latest discoveries in nuclear physics?",
-          "How do asteroids interact in space?",
-          "What is the connection between dog and human behavior?",
-          "What role did seabird guano play in ancient agriculture?",
-          "How are koalas recovering from population decline?"
+          "How does the DART mission impact our understanding of asteroids?",
+          "What new insights have been found in autism research?",
+          "How is fake research affecting the scientific community?",
+          "What can ancient DNA tell us about historical diseases?"
         ]
       }
     }
