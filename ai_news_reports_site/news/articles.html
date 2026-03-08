@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Articles · TL;DR News</title>
+  <meta name="description" content="Long-form articles and analysis from TL;DR News." />
+  <meta name="color-scheme" content="dark light" />
+  <meta property="og:title" content="TL;DR News — Articles & Analysis" />
+  <meta property="og:description" content="Long-form articles and analysis from TL;DR News." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TL;DR News" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="TL;DR News — Articles & Analysis" />
+  <meta name="twitter:description" content="Long-form articles and analysis from TL;DR News." />
+
+  <link rel="icon" type="image/x-icon" href="tldr_logo.ico">
+
+  <!-- Apply mode pref before paint to avoid flash -->
+  <script>
+    (function () {
+      try {
+        const mode = localStorage.getItem("tldr_mode") || "dark";
+        document.documentElement.dataset.mode = mode;
+      } catch (_) {
+        document.documentElement.dataset.mode = "dark";
+      }
+    })();
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Scroll progress bar -->
+  <div id="pg-bar" aria-hidden="true"></div>
+
+  <!-- Ambient background blobs -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__blob b1"></div>
+    <div class="ambient__blob b2"></div>
+    <div class="ambient__blob b3"></div>
+  </div>
+
+  <!-- Mobile nav overlay -->
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <div class="app-shell">
+
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar" id="sidebar" role="navigation" aria-label="Site navigation">
+      <a class="skip-link" href="#content">Skip to articles</a>
+
+      <div class="sidebar__inner">
+
+        <!-- Brand -->
+        <div class="sidebar__brand">
+          <div class="logo" aria-hidden="true">TL;DR</div>
+          <div class="brand__text">
+            <div class="brand__name">TLDR News</div>
+            <div class="brand__tagline">AI Intelligence</div>
+          </div>
+          <button class="sidebar__close" id="sidebarClose" aria-label="Close navigation">&#10005;</button>
+        </div>
+
+        <!-- Navigate -->
+        <div class="sidebar__section">
+          <div class="sidebar__label">Navigate</div>
+          <div class="tabs" role="tablist">
+            <a href="reports.html" class="tab" role="tab">Reports</a>
+            <a href="articles.html" class="tab tab--active" role="tab" aria-selected="true">Articles</a>
+          </div>
+        </div>
+
+        <!-- Filter -->
+        <div class="sidebar__section">
+          <div class="sidebar__label">Filter</div>
+          <select id="categoryFilter" aria-label="Filter by category">
+            <option value="all">All Categories</option>
+            <option value="world">World</option>
+            <option value="business">Business</option>
+            <option value="technology">Technology</option>
+            <option value="sports">Sports</option>
+            <option value="science">Science</option>
+          </select>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="sidebar__actions">
+          <button id="modeToggle" class="btn" type="button" aria-pressed="true">
+            &#9790; Dark mode
+          </button>
+        </div>
+
+        <!-- Sidebar footer -->
+        <div class="sidebar__footer">
+          Quick intelligence for shortened attention spans
+        </div>
+
+      </div>
+    </aside>
+
+    <!-- ── Main area ── -->
+    <div class="main-area">
+
+      <!-- Topbar -->
+      <header class="topbar" role="banner">
+        <button class="hamburger" id="hamburger" type="button"
+                aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="topbar__title">
+          <span class="topbar__cat" id="topbarCat">Articles</span>
+        </div>
+        <span id="live-clock" class="live-clock" aria-label="Current date and time"></span>
+      </header>
+
+      <!-- Scrollable content -->
+      <div class="content-scroll" id="contentScroll">
+        <main id="content" class="content" role="main" tabindex="-1"></main>
+        <footer class="site-footer" role="contentinfo">
+          <span class="muted">Daily AI-powered news intelligence &middot; TL;DR News</span>
+        </footer>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+  <script src="articles.js"></script>
+</body>
+</html>
