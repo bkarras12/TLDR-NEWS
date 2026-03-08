@@ -43,7 +43,7 @@ Post workflow (14:30, 14:50, 15:10, 15:30, 15:50 UTC)
 ## X API Authentication
 
 - OAuth 1.0a (User Authentication) using 4 credentials stored as GitHub Secrets:
-  - `X_API_KEY`, `X_API_SECRET`, `X_CONSUMER_KEY`, `X_CONSUMER_SECRET`
+  - `X_CONSUMER_KEY`, `X_CONSUMER_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`
 - Python library: `tweepy` (added to `requirements.txt`)
 
 ## Graceful Degradation
@@ -66,7 +66,7 @@ Post workflow (14:30, 14:50, 15:10, 15:30, 15:50 UTC)
 
 Add to GitHub repo Settings > Secrets and variables > Actions:
 
-- `X_API_KEY`
-- `X_API_SECRET`
 - `X_CONSUMER_KEY`
 - `X_CONSUMER_SECRET`
+- `X_ACCESS_TOKEN`
+- `X_ACCESS_SECRET`

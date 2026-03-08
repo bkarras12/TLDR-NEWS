@@ -4,10 +4,10 @@ Usage:
     python -m pipeline.post_tweets <category_index>
 
 Environment variables:
-    X_API_KEY          - X API key (OAuth 1.0a)
-    X_API_SECRET       - X API key secret
-    X_CONSUMER_KEY     - X consumer / access token
-    X_CONSUMER_SECRET  - X consumer / access token secret
+    X_CONSUMER_KEY     - OAuth 1.0a consumer key (API key)
+    X_CONSUMER_SECRET  - OAuth 1.0a consumer secret (API key secret)
+    X_ACCESS_TOKEN     - OAuth 1.0a access token
+    X_ACCESS_SECRET    - OAuth 1.0a access token secret
     X_DRY_RUN          - Set to "true" to print without posting
 """
 from __future__ import annotations
@@ -68,22 +68,22 @@ def main() -> int:
         return 0
 
     # Post to X
-    api_key = os.getenv("X_API_KEY", "").strip()
-    api_secret = os.getenv("X_API_SECRET", "").strip()
     consumer_key = os.getenv("X_CONSUMER_KEY", "").strip()
     consumer_secret = os.getenv("X_CONSUMER_SECRET", "").strip()
+    access_token = os.getenv("X_ACCESS_TOKEN", "").strip()
+    access_secret = os.getenv("X_ACCESS_SECRET", "").strip()
 
-    if not all([api_key, api_secret, consumer_key, consumer_secret]):
-        print("ERROR: Missing X API credentials. Set X_API_KEY, X_API_SECRET, X_CONSUMER_KEY, X_CONSUMER_SECRET.", file=sys.stderr)
+    if not all([consumer_key, consumer_secret, access_token, access_secret]):
+        print("ERROR: Missing X API credentials. Set X_CONSUMER_KEY, X_CONSUMER_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET.", file=sys.stderr)
         return 1
 
     import tweepy
 
     client = tweepy.Client(
-        consumer_key=api_key,
-        consumer_secret=api_secret,
-        access_token=consumer_key,
-        access_token_secret=consumer_secret,
+        consumer_key=consumer_key,
+        consumer_secret=consumer_secret,
+        access_token=access_token,
+        access_token_secret=access_secret,
     )
 
     try:
