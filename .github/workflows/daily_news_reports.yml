@@ -2,6 +2,12 @@ name: Daily AI News Reports
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - "ai_news_reports_site/news/**"
+      - "ai_news_reports_site/pipeline/**"
+      - ".github/workflows/daily_news_reports.yml"
   schedule:
     # Runs daily at ~07:10 America/Denver during standard time (UTC-7).
     # Note: GitHub cron uses UTC.
@@ -40,6 +46,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run daily pipeline
+        if: github.event_name != 'push'
         working-directory: ai_news_reports_site
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -48,6 +55,7 @@ jobs:
           python -m pipeline.run_daily
 
       - name: Commit updated reports (if changed)
+        if: github.event_name != 'push'
         run: |
           git status --porcelain
           git config user.name "github-actions"
