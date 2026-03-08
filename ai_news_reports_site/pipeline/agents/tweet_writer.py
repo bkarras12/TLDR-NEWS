@@ -1,9 +1,76 @@
 from __future__ import annotations
 
+import re
 from typing import Any, List
 
 from .base import NewsItem, SentimentResult
 from .openai_compat import chat_completion_text
+
+
+# Always appended to every tweet
+BASE_HASHTAGS = ["#BreakingNews", "#News", "#WorldNews", "#Headlines", "#Trending"]
+
+# Category-specific hashtag overrides
+CATEGORY_HASHTAGS = {
+    "world": "#WorldNews",
+    "business": "#Business",
+    "technology": "#Tech",
+    "sports": "#Sports",
+    "science": "#Science",
+}
+
+# Common words that make poor hashtags
+_HASHTAG_STOP = {
+    "the", "and", "for", "are", "but", "not", "you", "all", "can", "has",
+    "her", "was", "one", "our", "out", "his", "how", "its", "may", "new",
+    "now", "say", "she", "too", "use", "will", "with", "from", "have",
+    "been", "that", "this", "what", "when", "who", "more", "some", "than",
+    "them", "then", "into", "over", "also", "back", "after", "year", "years",
+    "just", "most", "about", "being", "could", "first", "would", "other",
+    "their", "there", "these", "those", "which", "people", "says", "said",
+    "report", "reports", "according", "news",
+}
+
+
+def _extract_buzz_hashtags(items: List[NewsItem], max_tags: int = 3) -> List[str]:
+    """Extract buzz-worthy words from headlines and turn them into hashtags."""
+    word_count: dict[str, int] = {}
+    for item in items[:8]:
+        words = re.sub(r"[^a-zA-Z0-9\s]", "", item.title).split()
+        for w in words:
+            lower = w.lower()
+            if len(lower) >= 4 and lower not in _HASHTAG_STOP:
+                word_count[lower] = word_count.get(lower, 0) + 1
+
+    # Sort by frequency, then alphabetically for stability
+    ranked = sorted(word_count.items(), key=lambda x: (-x[1], x[0]))
+    tags = []
+    for word, _ in ranked:
+        tag = f"#{word.capitalize()}"
+        if tag not in tags:
+            tags.append(tag)
+        if len(tags) >= max_tags:
+            break
+    return tags
+
+
+def _build_hashtag_line(category_key: str, items: List[NewsItem]) -> str:
+    """Build the hashtag line for a tweet."""
+    buzz = _extract_buzz_hashtags(items)
+    cat_tag = CATEGORY_HASHTAGS.get(category_key)
+
+    # Combine: buzz words + category tag + base tags, deduplicated
+    all_tags: List[str] = []
+    for tag in buzz:
+        if tag not in all_tags:
+            all_tags.append(tag)
+    if cat_tag and cat_tag not in all_tags:
+        all_tags.append(cat_tag)
+    for tag in BASE_HASHTAGS:
+        if tag not in all_tags:
+            all_tags.append(tag)
+
+    return " ".join(all_tags)
 
 
 class TweetWriterAgent:
@@ -14,19 +81,9 @@ class TweetWriterAgent:
         self.model = model
 
     @staticmethod
-    def _fallback_tweet(
-        category_title: str,
-        items: List[NewsItem],
-        sentiment: SentimentResult,
-    ) -> str:
-        """Deterministic fallback when OpenAI is unavailable."""
-        top = items[0].title if items else "Top stories"
-        sign = "+" if sentiment.score >= 0 else ""
-        suffix = (
-            f"\n\nSentiment: {sentiment.label} ({sign}{sentiment.score:.2f})"
-            f"\n\nRead the full breakdown: https://tldrnews.info"
-        )
-        hook = f"{category_title}: {top}"
+    def _build_tweet(hook: str, sentiment_line: str, hashtags: str) -> str:
+        """Assemble tweet parts, truncating hook if needed to fit 280 chars."""
+        suffix = f"\n\n{sentiment_line}\n\n{hashtags}\n\nRead the full breakdown: https://tldrnews.info"
         max_hook = 280 - len(suffix)
         if len(hook) > max_hook:
             hook = hook[: max_hook - 3].rsplit(" ", 1)[0] + "..."
@@ -35,6 +92,7 @@ class TweetWriterAgent:
     def run(
         self,
         *,
+        category_key: str = "",
         category_title: str,
         items: List[NewsItem],
         sentiment: SentimentResult,
@@ -44,25 +102,29 @@ class TweetWriterAgent:
         if not items:
             return ""
 
-        if self.client is None:
-            return self._fallback_tweet(category_title, items, sentiment)
-
-        headlines = "\n".join(f"- {it.title}" for it in items[:6])
         sign = "+" if sentiment.score >= 0 else ""
         sentiment_line = f"Sentiment: {sentiment.label} ({sign}{sentiment.score:.2f})"
+        hashtags = _build_hashtag_line(category_key, items)
 
-        prompt = f"""Write a single tweet (max 200 characters) about today's {category_title} news.
+        if self.client is None:
+            top = items[0].title if items else "Top stories"
+            hook = f"{category_title}: {top}"
+            return self._build_tweet(hook, sentiment_line, hashtags)
+
+        headlines = "\n".join(f"- {it.title}" for it in items[:6])
+
+        prompt = f"""Write a single tweet (max 140 characters) about today's {category_title} news.
 
 HEADLINES:
 {headlines}
 
 Requirements:
 - Emotion-sparking hook that makes people want to click
-- Do NOT use hashtags
+- Do NOT use hashtags (I will add them)
 - Do NOT use emojis
 - Write only the hook line, nothing else
 
-I will append the sentiment score and link myself, so only write the hook."""
+I will append the sentiment score, hashtags, and link myself, so only write the hook."""
 
         try:
             result = chat_completion_text(
@@ -74,12 +136,9 @@ I will append the sentiment score and link myself, so only write the hook."""
                 temperature=0.7,
             )
             hook = result.text.strip().strip('"').strip("'")
-            # Truncate hook if needed to fit full tweet under 280 chars
-            max_hook = 280 - len(f"\n\n{sentiment_line}\n\nRead the full breakdown: https://tldrnews.info")
-            if len(hook) > max_hook:
-                hook = hook[: max_hook - 3].rsplit(" ", 1)[0] + "..."
-
-            return f"{hook}\n\n{sentiment_line}\n\nRead the full breakdown: https://tldrnews.info"
+            return self._build_tweet(hook, sentiment_line, hashtags)
         except Exception as e:
             print(f"[tweet_writer] OpenAI failed: {e}", flush=True)
-            return self._fallback_tweet(category_title, items, sentiment)
+            top = items[0].title if items else "Top stories"
+            hook = f"{category_title}: {top}"
+            return self._build_tweet(hook, sentiment_line, hashtags)

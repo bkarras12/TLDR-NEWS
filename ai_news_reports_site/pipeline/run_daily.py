@@ -292,6 +292,7 @@ def main() -> int:
             rationale=cat_data["sentiment"]["rationale"],
         )
         tweet = tweet_writer.run(
+            category_key=key,
             category_title=cat_data["title"],
             items=cat_items,
             sentiment=cat_sentiment,
