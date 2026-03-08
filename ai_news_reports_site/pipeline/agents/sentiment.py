@@ -23,21 +23,34 @@ class SentimentAgent:
         return "Mixed"
 
     def run(self, items: List[NewsItem]) -> SentimentResult:
-        text_parts = []
-        for it in items:
-            text_parts.append(it.title)
-            if it.summary:
-                text_parts.append(it.summary)
-
-        text = "\n".join(text_parts).strip()
-        if not text:
+        if not items:
             return SentimentResult(score=0.0, label="Neutral", rationale="No headlines were available to score.")
 
-        score = float(self._analyzer.polarity_scores(text)["compound"])
+        # Score each headline individually, then average — prevents a single
+        # strongly-worded block of text from dominating the category score.
+        scores = []
+        for it in items:
+            parts = [it.title]
+            if it.summary:
+                parts.append(it.summary)
+            text = " ".join(parts).strip()
+            if text:
+                scores.append(float(self._analyzer.polarity_scores(text)["compound"]))
+
+        if not scores:
+            return SentimentResult(score=0.0, label="Neutral", rationale="No headlines were available to score.")
+
+        # Dampen: average the per-item scores then apply a 0.6 weight toward
+        # neutral so results cluster in the -0.4 .. +0.4 range instead of
+        # swinging to the extremes.
+        raw_avg = sum(scores) / len(scores)
+        score = round(raw_avg * 0.6, 4)
+
         label = self._label(score)
 
         rationale = (
-            "Computed using a lexicon-based sentiment model over the combined headlines + summaries. "
+            f"Average of {len(scores)} per-headline sentiment scores (raw avg {raw_avg:+.3f}, "
+            f"dampened ×0.6 → {score:+.4f}). "
             "This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
         )
 
