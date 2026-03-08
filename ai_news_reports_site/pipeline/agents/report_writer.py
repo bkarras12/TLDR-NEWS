@@ -14,6 +14,7 @@ REPORT_SCHEMA: Dict[str, Any] = {
     "type": "object",
     "additionalProperties": False,
     "properties": {
+        "key_takeaway": {"type": "string"},
         "summary": {"type": "string"},
         "key_themes": {"type": "array", "items": {"type": "string"}, "minItems": 3, "maxItems": 8},
         "notable_headlines": {
@@ -43,8 +44,15 @@ REPORT_SCHEMA: Dict[str, Any] = {
             "required": ["next_24_72_hours", "next_1_4_weeks", "watch_list", "confidence"],
         },
         "caveats": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 5},
+        "related_topics": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 3,
+            "maxItems": 6,
+            "description": "Long-tail keyword phrases readers might search for, e.g. 'What happened in AI this week'",
+        },
     },
-    "required": ["summary", "key_themes", "notable_headlines", "future_outlook", "caveats"],
+    "required": ["key_takeaway", "summary", "key_themes", "notable_headlines", "future_outlook", "caveats", "related_topics"],
 }
 
 
@@ -79,6 +87,7 @@ class ReportWriterAgent:
     ) -> Dict[str, Any]:
         if not items:
             return {
+                "key_takeaway": "No headlines were available from the RSS feed at generation time.",
                 "summary": "No headlines were available from the RSS feed at generation time.",
                 "key_themes": ["Feed unavailable", "No headlines", "Try again later"],
                 "notable_headlines": [],
@@ -92,6 +101,7 @@ class ReportWriterAgent:
                     "RSS feed returned no usable items.",
                     "This is an automated report; verify details via the source links.",
                 ],
+                "related_topics": [],
             }
 
         if self.client is None:
@@ -102,7 +112,14 @@ class ReportWriterAgent:
         developer_instructions = (
             "You are an expert news editor. Your job is to write a comprehensive, easy-to-scan daily report "
             "based ONLY on the provided RSS headlines and summaries. Do not invent facts. If something is unclear, "
-            "say so. Write neutral, professional analysis."
+            "say so. Write neutral, professional analysis.\n\n"
+            "IMPORTANT: The 'key_takeaway' field must be a single, self-contained sentence (max 30 words) that "
+            "captures the most important takeaway from today's headlines. Write it as a standalone factual statement "
+            "that could be directly quoted by an AI assistant answering a question about today's news. "
+            "Example: 'Global markets rallied on stronger-than-expected jobs data while tech earnings exceeded forecasts.'\n\n"
+            "IMPORTANT: The 'related_topics' field must contain 3-6 long-tail keyword phrases that a reader might "
+            "search for, written as natural questions or topic phrases. Examples: 'What happened in AI this week', "
+            "'latest global trade policy changes', 'tech earnings recap today'. These help with search discoverability."
         )
 
         user_prompt = f"""Create today's report for the category: {category_title}.
@@ -250,7 +267,13 @@ Return JSON ONLY that matches the provided schema.
                 }
             )
 
+        key_takeaway = (
+            f"{top_titles[0]}." if top_titles
+            else f"{len(items)} headlines curated; overall sentiment is {sentiment.label.lower()}."
+        )
+
         return {
+            "key_takeaway": key_takeaway,
             "summary": summary,
             "key_themes": top_titles[:5] if len(top_titles) >= 3 else [
                 "Top headlines",
@@ -280,5 +303,10 @@ Return JSON ONLY that matches the provided schema.
             "caveats": [
                 "This fallback report is generated from RSS headlines and summaries only.",
                 "Verify key details by opening the source links in the headlines list.",
+            ],
+            "related_topics": [
+                f"today's {sentiment.label.lower()} news headlines",
+                f"latest news summary {items[0].title.split()[0].lower() if items else 'today'}",
+                "daily news briefing and analysis",
             ],
         }

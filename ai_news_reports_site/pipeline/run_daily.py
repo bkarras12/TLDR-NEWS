@@ -1,12 +1,13 @@
 from __future__ import annotations
 
 import os
+import re
 import sys
 import json
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Set
 
 from openai import OpenAI
 
@@ -91,6 +92,57 @@ def _load_backup_items(site_root: Path, date_key: str) -> Dict[str, List[NewsIte
     return {}
 
 
+# ── Trending topic detection ──
+
+STOP_WORDS: Set[str] = {
+    "the", "a", "an", "is", "are", "was", "were", "be", "been", "being",
+    "have", "has", "had", "do", "does", "did", "will", "would", "could",
+    "should", "may", "might", "shall", "can", "need", "dare", "ought",
+    "to", "of", "in", "for", "on", "with", "at", "by", "from", "as",
+    "into", "through", "during", "before", "after", "above", "below",
+    "between", "out", "off", "over", "under", "again", "further", "then",
+    "once", "and", "but", "or", "nor", "not", "so", "yet", "both",
+    "either", "neither", "each", "every", "all", "any", "few", "more",
+    "most", "other", "some", "such", "no", "only", "own", "same", "than",
+    "too", "very", "just", "because", "if", "when", "while", "how", "what",
+    "which", "who", "whom", "this", "that", "these", "those", "it", "its",
+    "new", "says", "said", "also", "first", "last", "many", "much", "up",
+}
+
+
+def _extract_keywords(title: str) -> Set[str]:
+    """Extract meaningful keywords from a headline."""
+    words = re.sub(r"[^a-z0-9\s]", "", title.lower()).split()
+    return {w for w in words if len(w) > 2 and w not in STOP_WORDS}
+
+
+def _find_trending_topics(categories_out: Dict[str, Any]) -> List[str]:
+    """Find topics mentioned across multiple category feeds."""
+    keyword_cats: Dict[str, Set[str]] = {}
+    keyword_titles: Dict[str, List[str]] = {}
+
+    for cat_key, cat_data in categories_out.items():
+        for item in cat_data.get("items", []):
+            title = item.get("title", "")
+            keywords = _extract_keywords(title)
+            for kw in keywords:
+                keyword_cats.setdefault(kw, set()).add(cat_key)
+                keyword_titles.setdefault(kw, []).append(title)
+
+    cross_keywords = {kw for kw, cats in keyword_cats.items() if len(cats) >= 2}
+
+    if not cross_keywords:
+        return []
+
+    scored = []
+    for kw in cross_keywords:
+        score = len(keyword_cats[kw]) * len(keyword_titles[kw])
+        scored.append((score, kw))
+    scored.sort(reverse=True)
+
+    return [kw for _, kw in scored[:10]]
+
+
 def main() -> int:
     site_root = Path(__file__).resolve().parents[1]
     date_key = local_date_key()
@@ -147,6 +199,7 @@ def main() -> int:
             print(f"[{key}] ERROR writing report: {type(e).__name__}: {e}", file=sys.stderr)
 
             report = {
+                "key_takeaway": "Report generation failed for this category.",
                 "summary": "Report generation failed for this category.",
                 "key_themes": ["Generation error", "Try again later", "Verify via links"],
                 "notable_headlines": [],
@@ -160,6 +213,7 @@ def main() -> int:
                     "OpenAI generation failed for this category.",
                     "This is an automated report; verify details via the source links.",
                 ],
+                "related_topics": [],
             }
 
         categories_out[key] = {
@@ -179,17 +233,36 @@ def main() -> int:
             "ai_report": report,
         }
 
+    # Detect trending topics across categories
+    trending = _find_trending_topics(categories_out)
+    if trending:
+        print(f"Trending topics across categories: {', '.join(trending[:5])}")
+
     daily_report = {
         "date": date_key,
         "generated_at_utc": iso_utc_now(),
         "timezone": TZ,
         "model": model,
+        "trending_topics": trending,
         "categories": categories_out,
     }
 
     publisher = PublisherAgent(site_root=site_root)
     out_path = publisher.write_daily_report(date_key, daily_report)
     publisher.update_index(date_key=date_key, available_categories=list(CATEGORIES.keys()))
+
+    # Static HTML pages, sitemap, RSS feeds, category landing pages
+    static_pages = publisher.write_static_pages(date_key, daily_report)
+    print(f"Wrote {len(static_pages)} static HTML pages")
+
+    landing_pages = publisher.write_category_landing_pages(date_key, daily_report)
+    print(f"Wrote {len(landing_pages)} category landing pages")
+
+    sitemap_path = publisher.write_sitemap()
+    print(f"Wrote sitemap: {sitemap_path}")
+
+    feeds = publisher.write_rss_feeds(date_key, daily_report)
+    print(f"Wrote {len(feeds)} RSS feeds")
 
     print(f"Saved daily report to: {out_path}")
     return 0
