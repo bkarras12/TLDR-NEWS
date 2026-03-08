@@ -79,7 +79,7 @@ function startClock() {
     node.textContent = `${date} · ${time}`;
   }
   tick();
-  setInterval(tick, 30000);
+  setInterval(tick, 1000);
 }
 
 /* ── Scroll progress bar ── */
