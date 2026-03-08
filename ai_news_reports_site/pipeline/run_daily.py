@@ -18,7 +18,8 @@ from pipeline.agents.curator import CuratorAgent
 from pipeline.agents.sentiment import SentimentAgent
 from pipeline.agents.report_writer import ReportWriterAgent
 from pipeline.agents.publisher import PublisherAgent
-from pipeline.agents.base import NewsItem
+from pipeline.agents.base import NewsItem, SentimentResult
+from pipeline.agents.tweet_writer import TweetWriterAgent
 
 
 TZ = "America/Denver"
@@ -271,6 +272,33 @@ def main() -> int:
             "items": [to_item_dict(i) for i in curated_items],
             "ai_report": report,
         }
+
+    # Generate tweet text for each category
+    tweet_writer = TweetWriterAgent(client=client, model=model)
+    for key, cat_data in categories_out.items():
+        cat_items = [
+            NewsItem(
+                title=it["title"],
+                url=it["url"],
+                published=it.get("published"),
+                summary=it.get("summary"),
+                source=it.get("source"),
+            )
+            for it in cat_data.get("items", [])
+        ]
+        cat_sentiment = SentimentResult(
+            score=cat_data["sentiment"]["score"],
+            label=cat_data["sentiment"]["label"],
+            rationale=cat_data["sentiment"]["rationale"],
+        )
+        tweet = tweet_writer.run(
+            category_title=cat_data["title"],
+            items=cat_items,
+            sentiment=cat_sentiment,
+        )
+        if tweet:
+            cat_data["tweet_text"] = tweet
+            print(f"[{key}] Tweet: {tweet[:80]}...")
 
     # Detect trending topics across categories
     trending = _find_trending_topics(categories_out)
