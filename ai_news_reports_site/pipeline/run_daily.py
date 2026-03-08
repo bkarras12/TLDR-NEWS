@@ -94,25 +94,54 @@ def _load_backup_items(site_root: Path, date_key: str) -> Dict[str, List[NewsIte
 
 
 STOP_WORDS: Set[str] = {
-    "the", "a", "an", "is", "are", "was", "were", "be", "been", "being",
-    "have", "has", "had", "do", "does", "did", "will", "would", "could",
-    "should", "may", "might", "shall", "can", "need", "dare", "ought",
+    # Articles, pronouns, determiners
+    "the", "a", "an", "this", "that", "these", "those", "it", "its",
+    "you", "your", "yours", "he", "him", "his", "she", "her", "hers",
+    "we", "our", "ours", "they", "them", "their", "theirs", "me", "my",
+    # Be / have / do
+    "is", "are", "was", "were", "be", "been", "being", "am",
+    "have", "has", "had", "do", "does", "did", "done",
+    # Modals
+    "will", "would", "could", "should", "may", "might", "shall", "can",
+    "need", "dare", "ought", "must",
+    # Prepositions / conjunctions
     "to", "of", "in", "for", "on", "with", "at", "by", "from", "as",
     "into", "through", "during", "before", "after", "above", "below",
-    "between", "out", "off", "over", "under", "again", "further", "then",
-    "once", "and", "but", "or", "nor", "not", "so", "yet", "both",
-    "either", "neither", "each", "every", "all", "any", "few", "more",
-    "most", "other", "some", "such", "no", "only", "own", "same", "than",
-    "too", "very", "just", "because", "if", "when", "while", "how", "what",
-    "which", "who", "whom", "this", "that", "these", "those", "it", "its",
-    "new", "says", "said", "also", "first", "last", "many", "much", "up",
+    "between", "out", "off", "over", "under", "about", "around",
+    "and", "but", "or", "nor", "not", "so", "yet", "both",
+    "either", "neither",
+    # Adverbs / adjectives / filler
+    "again", "further", "then", "once", "each", "every", "all", "any",
+    "few", "more", "most", "other", "some", "such", "no", "only", "own",
+    "same", "than", "too", "very", "just", "because", "if", "when",
+    "while", "how", "what", "which", "who", "whom", "also", "still",
+    "even", "back", "now", "here", "there", "where", "why",
+    # Common news filler words
+    "new", "says", "said", "say", "tell", "tells", "told", "ask", "asks",
+    "first", "last", "many", "much", "up", "get", "gets", "got",
+    "make", "makes", "made", "take", "takes", "took", "come", "comes",
+    "came", "going", "goes", "went", "gone", "want", "wants", "wanted",
+    "know", "knows", "knew", "think", "thinks", "see", "seen", "look",
+    "looks", "give", "gives", "use", "used", "find", "found",
+    "put", "set", "run", "let", "keep", "keeps", "show", "shows",
+    "try", "call", "calls", "called", "big", "old", "long", "way",
+    "day", "days", "year", "years", "time", "week", "weeks", "month",
+    "part", "good", "bad", "best", "worst", "real", "really",
+    "right", "left", "high", "low", "top", "end", "two", "three",
+    "one", "people", "world", "life", "man", "men", "woman", "women",
+    "thing", "things", "well", "down", "like", "over", "after", "don",
+    "won", "being", "help", "helps", "report", "reports", "according",
+    "near", "per", "via", "ahead", "amid", "among",
 }
+
+# Minimum word length to be considered a keyword
+_MIN_KEYWORD_LEN = 4
 
 
 def _extract_keywords(title: str) -> Set[str]:
     """Extract meaningful keywords from a headline."""
     words = re.sub(r"[^a-z0-9\s]", "", title.lower()).split()
-    return {w for w in words if len(w) > 2 and w not in STOP_WORDS}
+    return {w for w in words if len(w) >= _MIN_KEYWORD_LEN and w not in STOP_WORDS}
 
 
 def _find_trending_topics(categories_out: Dict[str, Any]) -> List[str]:
@@ -129,8 +158,18 @@ def _find_trending_topics(categories_out: Dict[str, Any]) -> List[str]:
                 keyword_cats.setdefault(kw, set()).add(cat_key)
                 keyword_titles.setdefault(kw, []).append(title)
 
-    # Find keywords appearing in 2+ categories
-    cross_keywords = {kw for kw, cats in keyword_cats.items() if len(cats) >= 2}
+    # Find keywords appearing in 2+ categories with 3+ total mentions
+    cross_keywords = {
+        kw for kw, cats in keyword_cats.items()
+        if len(cats) >= 2 and len(keyword_titles[kw]) >= 3
+    }
+
+    if not cross_keywords:
+        # Fallback: 2+ categories, 2+ mentions
+        cross_keywords = {
+            kw for kw, cats in keyword_cats.items()
+            if len(cats) >= 2 and len(keyword_titles[kw]) >= 2
+        }
 
     if not cross_keywords:
         return []
