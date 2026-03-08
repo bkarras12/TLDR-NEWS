@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Any, List, Optional
+from typing import Any, List
 
 from .base import NewsItem, SentimentResult
 from .openai_compat import chat_completion_text
@@ -22,11 +22,15 @@ class TweetWriterAgent:
         """Deterministic fallback when OpenAI is unavailable."""
         top = items[0].title if items else "Top stories"
         sign = "+" if sentiment.score >= 0 else ""
-        return (
-            f"{category_title}: {top}\n\n"
-            f"Sentiment: {sentiment.label} ({sign}{sentiment.score:.2f})\n\n"
-            f"Read the full breakdown: https://tldrnews.info"
+        suffix = (
+            f"\n\nSentiment: {sentiment.label} ({sign}{sentiment.score:.2f})"
+            f"\n\nRead the full breakdown: https://tldrnews.info"
         )
+        hook = f"{category_title}: {top}"
+        max_hook = 280 - len(suffix)
+        if len(hook) > max_hook:
+            hook = hook[: max_hook - 3].rsplit(" ", 1)[0] + "..."
+        return hook + suffix
 
     def run(
         self,
