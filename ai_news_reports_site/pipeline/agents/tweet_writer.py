@@ -103,7 +103,7 @@ class TweetWriterAgent:
             return ""
 
         sign = "+" if sentiment.score >= 0 else ""
-        sentiment_line = f"Sentiment: {sentiment.label} ({sign}{sentiment.score:.2f})"
+        sentiment_line = f"{category_title} Sentiment: {sentiment.label} ({sign}{sentiment.score:.2f})"
         hashtags = _build_hashtag_line(category_key, items)
 
         if self.client is None:
