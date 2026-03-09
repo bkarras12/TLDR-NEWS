@@ -3,7 +3,7 @@ name: Daily AI News Reports
 on:
   workflow_dispatch:
   push:
-    branches: [main, master]
+    branches: [main, master, "claude/claude-md-*"]
     paths:
       - "ai_news_reports_site/news/**"
       - "ai_news_reports_site/pipeline/**"
