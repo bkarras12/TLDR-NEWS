@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About · TL;DR News</title>
+  <meta name="description" content="How TL;DR News works — a fully automated AI news intelligence platform built with Python, OpenAI, and vanilla JavaScript." />
+  <meta name="color-scheme" content="dark light" />
+  <meta property="og:title" content="TL;DR News — About the Project" />
+  <meta property="og:description" content="A fully automated AI news intelligence platform. Learn how it works and the technology behind it." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TL;DR News" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="TL;DR News — About the Project" />
+  <meta name="twitter:description" content="A fully automated AI news intelligence platform." />
+
+  <link rel="icon" type="image/x-icon" href="tldr_logo.ico">
+
+  <!-- Apply mode pref before paint to avoid flash -->
+  <script>
+    (function () {
+      try {
+        const mode = localStorage.getItem("tldr_mode") || "dark";
+        document.documentElement.dataset.mode = mode;
+      } catch (_) {
+        document.documentElement.dataset.mode = "dark";
+      }
+    })();
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ── About page specific styles ── */
+    .about-hero {
+      padding: 32px var(--pad2) 28px;
+      background: linear-gradient(135deg, var(--accent-dim), transparent 70%);
+      border-bottom: 1px solid var(--border);
+    }
+    .about-hero__title {
+      font-family: var(--serif);
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -.02em;
+      line-height: 1.2;
+      margin: 0 0 8px;
+    }
+    .about-hero__subtitle {
+      font-family: var(--mono);
+      font-size: 13px;
+      color: var(--muted2);
+      letter-spacing: .02em;
+      line-height: 1.5;
+      max-width: 640px;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px;
+      padding: 16px var(--pad);
+    }
+    .stat {
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--r2);
+      background: rgba(255,255,255,.02);
+      text-align: center;
+    }
+    .stat__value {
+      font-family: var(--mono);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1.2;
+    }
+    .stat__label {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: .10em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .arch-flow {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      padding: 16px var(--pad);
+      overflow-x: auto;
+      flex-wrap: wrap;
+    }
+    .arch-step {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-shrink: 0;
+    }
+    .arch-node {
+      padding: 8px 14px;
+      border: 1px solid var(--border-accent);
+      border-radius: var(--r2);
+      background: var(--accent-dim);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .04em;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    .arch-arrow {
+      padding: 0 6px;
+      font-family: var(--mono);
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 14px var(--pad);
+    }
+    .tech-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--r2);
+      background: rgba(255,255,255,.02);
+    }
+    .tech-item__icon {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--r3);
+      border: 1px solid var(--border2);
+      background: var(--surface2);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .tech-item__name {
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 1.3;
+    }
+    .tech-item__desc {
+      font-size: 12px;
+      color: var(--muted2);
+      line-height: 1.4;
+      margin-top: 2px;
+    }
+
+    .feature-list {
+      padding: 14px var(--pad) 14px calc(var(--pad) + 4px);
+    }
+    .feature-list dt {
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 14px;
+      color: var(--text);
+    }
+    .feature-list dt:first-child { margin-top: 0; }
+    .feature-list dd {
+      margin: 4px 0 0 0;
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--muted2);
+    }
+
+    .source-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 8px;
+      padding: 14px var(--pad);
+    }
+    .source-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--r2);
+      background: rgba(255,255,255,.02);
+    }
+    .source-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+    .source-item__name {
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .source-item__cat {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .about-cta {
+      display: flex;
+      gap: 10px;
+      padding: 18px var(--pad) 20px;
+      flex-wrap: wrap;
+    }
+    .about-cta .btn {
+      width: auto;
+      padding: 10px 20px;
+    }
+
+    @media (max-width: 600px) {
+      .about-hero { padding: 24px var(--pad) 20px; }
+      .about-hero__title { font-size: 22px; }
+      .stat-grid { grid-template-columns: repeat(2, 1fr); }
+      .arch-flow { flex-wrap: wrap; gap: 6px; }
+      .arch-arrow { padding: 0 3px; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Scroll progress bar -->
+  <div id="pg-bar" aria-hidden="true"></div>
+
+  <!-- Ambient background blobs -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__blob b1"></div>
+    <div class="ambient__blob b2"></div>
+    <div class="ambient__blob b3"></div>
+  </div>
+
+  <!-- Mobile nav overlay -->
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <div class="app-shell">
+
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar" id="sidebar" role="navigation" aria-label="Site navigation">
+      <a class="skip-link" href="#content">Skip to content</a>
+
+      <div class="sidebar__inner">
+
+        <!-- Brand -->
+        <div class="sidebar__brand">
+          <div class="logo" aria-hidden="true">TL;DR</div>
+          <div class="brand__text">
+            <div class="brand__name">TLDR News</div>
+            <div class="brand__tagline">AI Intelligence</div>
+          </div>
+          <button class="sidebar__close" id="sidebarClose" aria-label="Close navigation">&#10005;</button>
+        </div>
+
+        <!-- Page navigation -->
+        <div class="sidebar__section">
+          <div class="sidebar__label">Navigate</div>
+          <div class="tabs">
+            <a href="reports.html" class="tab">Reports</a>
+            <a href="articles.html" class="tab">Articles</a>
+            <a href="about.html" class="tab active">About</a>
+          </div>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="sidebar__actions">
+          <button id="modeToggle" class="btn" type="button" aria-pressed="true">
+            &#9790; Dark mode
+          </button>
+        </div>
+
+        <!-- Sidebar footer -->
+        <div class="sidebar__footer">
+          Quick intelligence for shortened attention spans
+        </div>
+
+      </div>
+    </aside>
+
+    <!-- ── Main area ── -->
+    <div class="main-area">
+
+      <!-- Topbar -->
+      <header class="topbar" role="banner">
+        <button class="hamburger" id="hamburger" type="button"
+                aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="topbar__title">
+          <span class="topbar__cat">About</span>
+          <span class="topbar__sep">&middot;</span>
+          <span class="topbar__date">How It Works</span>
+        </div>
+        <span id="live-clock" class="live-clock" aria-label="Current date and time"></span>
+      </header>
+
+      <!-- Scrollable content -->
+      <div class="content-scroll" id="contentScroll">
+        <main id="content" class="content" role="main" tabindex="-1">
+
+          <!-- ── Hero ── -->
+          <div class="card reveal reveal-1">
+            <div class="about-hero">
+              <h1 class="about-hero__title">Automated AI News Intelligence</h1>
+              <p class="about-hero__subtitle">
+                TLDR News is a fully automated daily news aggregation and reporting system.
+                Every day, it fetches headlines from 5 major news sources, runs sentiment analysis,
+                generates structured AI reports with key themes and future predictions,
+                and publishes everything as a static site &mdash; zero manual intervention required.
+              </p>
+            </div>
+
+            <div class="stat-grid">
+              <div class="stat">
+                <div class="stat__value">60+</div>
+                <div class="stat__label">Headlines / Day</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">5</div>
+                <div class="stat__label">News Sources</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">7</div>
+                <div class="stat__label">Processing Agents</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">3x</div>
+                <div class="stat__label">Daily Runs</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">40+</div>
+                <div class="stat__label">Pages Generated</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">0</div>
+                <div class="stat__label">npm Dependencies</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Pipeline Architecture ── -->
+          <div class="card reveal reveal-2">
+            <h2>Pipeline Architecture</h2>
+            <p>
+              The backend is a sequential agent chain built in Python. Each agent is a single-responsibility
+              class with its own fallback behavior, ensuring the pipeline never crashes &mdash;
+              even when RSS feeds go down or the AI API is unreachable.
+            </p>
+
+            <div class="arch-flow">
+              <div class="arch-step">
+                <div class="arch-node">RSS Feeds</div>
+                <div class="arch-arrow">&rarr;</div>
+              </div>
+              <div class="arch-step">
+                <div class="arch-node">RSS Reader</div>
+                <div class="arch-arrow">&rarr;</div>
+              </div>
+              <div class="arch-step">
+                <div class="arch-node">Curator</div>
+                <div class="arch-arrow">&rarr;</div>
+              </div>
+              <div class="arch-step">
+                <div class="arch-node">Sentiment</div>
+                <div class="arch-arrow">&rarr;</div>
+              </div>
+              <div class="arch-step">
+                <div class="arch-node">Report Writer</div>
+                <div class="arch-arrow">&rarr;</div>
+              </div>
+              <div class="arch-step">
+                <div class="arch-node">Publisher</div>
+                <div class="arch-arrow">&rarr;</div>
+              </div>
+              <div class="arch-step">
+                <div class="arch-node">Static Site</div>
+              </div>
+            </div>
+
+            <div class="hr"></div>
+            <h3>Agent Details</h3>
+            <dl class="feature-list">
+              <dt>RSS Reader Agent</dt>
+              <dd>Fetches and parses RSS feeds from 5 news sources with User-Agent spoofing for resilience. Falls back to the most recent archived report if a feed is unreachable.</dd>
+
+              <dt>Curator Agent</dt>
+              <dd>Deduplicates headlines via normalized text matching (lowercase, alphanumeric, first 120 chars) and trims each category to 12 items max.</dd>
+
+              <dt>Sentiment Agent</dt>
+              <dd>Runs VADER lexicon-based sentiment analysis on each headline, averages scores with a 0.6x dampening factor to prevent extreme swings, and classifies as Positive, Negative, Neutral, or Mixed.</dd>
+
+              <dt>Report Writer Agent</dt>
+              <dd>Calls OpenAI's Structured Outputs API with strict JSON schema validation to generate key themes, notable headlines with "why it matters" context, and confidence-rated future predictions. Includes automatic model fallback chain.</dd>
+
+              <dt>Executive Summary Agent</dt>
+              <dd>Generates a cross-category executive summary synthesizing the day's most important developments.</dd>
+
+              <dt>Future Outlook Agent</dt>
+              <dd>Produces time-horizon forecasts: 24-72 hours, 1-4 weeks, and a watch list of emerging stories to monitor.</dd>
+
+              <dt>Publisher Agent</dt>
+              <dd>Writes daily JSON reports, generates 40+ static HTML pages with Schema.org JSON-LD, creates RSS feeds and XML sitemaps, and maintains a 45-month report archive.</dd>
+            </dl>
+          </div>
+
+          <!-- ── Graceful Degradation ── -->
+          <div class="card reveal reveal-3">
+            <h2>Graceful Degradation</h2>
+            <p>
+              The system is engineered to never fail silently or crash the deployment pipeline.
+              Multiple fallback layers ensure reports are always generated and published.
+            </p>
+            <dl class="feature-list">
+              <dt>RSS Feed Down</dt>
+              <dd>Automatically loads headlines from the 45-month backup archive for that category.</dd>
+
+              <dt>OpenAI API Unreachable</dt>
+              <dd>Falls back through a model chain (gpt-4o-mini &rarr; gpt-4o), then generates a deterministic stub report with "Low" confidence rating.</dd>
+
+              <dt>No API Key (Local Dev)</dt>
+              <dd>Pipeline runs in full deterministic mode &mdash; all agents execute, AI reports are replaced with structured stubs.</dd>
+
+              <dt>Report Generation Error</dt>
+              <dd>Exception is caught at the orchestration layer; a fallback report is substituted and the pipeline continues to the next category.</dd>
+            </dl>
+          </div>
+
+          <!-- ── News Sources ── -->
+          <div class="card reveal reveal-4">
+            <h2>News Sources</h2>
+            <p>
+              Five curated RSS feeds covering the major news verticals, each capped at 12 headlines per run.
+            </p>
+            <div class="source-list">
+              <div class="source-item">
+                <div class="source-dot"></div>
+                <div>
+                  <div class="source-item__name">BBC News</div>
+                  <div class="source-item__cat">World</div>
+                </div>
+              </div>
+              <div class="source-item">
+                <div class="source-dot" style="background: var(--positive);"></div>
+                <div>
+                  <div class="source-item__name">The Guardian</div>
+                  <div class="source-item__cat">Business</div>
+                </div>
+              </div>
+              <div class="source-item">
+                <div class="source-dot" style="background: #6366f1;"></div>
+                <div>
+                  <div class="source-item__name">The Verge</div>
+                  <div class="source-item__cat">Technology</div>
+                </div>
+              </div>
+              <div class="source-item">
+                <div class="source-dot" style="background: var(--negative);"></div>
+                <div>
+                  <div class="source-item__name">ESPN</div>
+                  <div class="source-item__cat">Sports</div>
+                </div>
+              </div>
+              <div class="source-item">
+                <div class="source-dot" style="background: var(--warning);"></div>
+                <div>
+                  <div class="source-item__name">ScienceDaily</div>
+                  <div class="source-item__cat">Science</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Tech Stack ── -->
+          <div class="card reveal reveal-5">
+            <h2>Tech Stack</h2>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div class="tech-item__icon">Py</div>
+                <div>
+                  <div class="tech-item__name">Python 3.11</div>
+                  <div class="tech-item__desc">Pipeline orchestration, agent chain, data processing</div>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-item__icon">AI</div>
+                <div>
+                  <div class="tech-item__name">OpenAI Structured Outputs</div>
+                  <div class="tech-item__desc">AI report generation with strict JSON schema validation</div>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-item__icon">NLP</div>
+                <div>
+                  <div class="tech-item__name">VADER Sentiment</div>
+                  <div class="tech-item__desc">Lexicon-based sentiment analysis with dampened scoring</div>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-item__icon">RSS</div>
+                <div>
+                  <div class="tech-item__name">feedparser</div>
+                  <div class="tech-item__desc">Multi-source RSS feed ingestion and parsing</div>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-item__icon">JS</div>
+                <div>
+                  <div class="tech-item__name">Vanilla JavaScript</div>
+                  <div class="tech-item__desc">800+ line interactive dashboard with SVG charting, zero frameworks</div>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-item__icon">CI</div>
+                <div>
+                  <div class="tech-item__name">GitHub Actions</div>
+                  <div class="tech-item__desc">3x daily automated runs, static site deployment to Pages</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Frontend Features ── -->
+          <div class="card reveal reveal-6">
+            <h2>Frontend Features</h2>
+            <p>
+              The dashboard is built with vanilla JavaScript, HTML5, and CSS3 &mdash;
+              no frameworks, no build tools, no npm. Everything ships as three files.
+            </p>
+            <dl class="feature-list">
+              <dt>Sentiment Trend Visualization</dt>
+              <dd>SVG polyline charts showing 30-day sentiment history per category with marked extrema, zero-line reference, and delta indicators.</dd>
+
+              <dt>Real-time Search &amp; Filter</dt>
+              <dd>Instant headline filtering with cursor position preservation across re-renders.</dd>
+
+              <dt>Dark / Light Mode</dt>
+              <dd>Full theme system using CSS custom properties, persisted in localStorage, applied before first paint to prevent flash.</dd>
+
+              <dt>Responsive Sidebar Layout</dt>
+              <dd>Desktop sidebar collapses to a slide-in drawer on mobile with overlay, touch-optimized tap targets, and auto-close on category selection.</dd>
+
+              <dt>SEO &amp; Social Sharing</dt>
+              <dd>Dynamic meta descriptions, OpenGraph tags, Schema.org JSON-LD, canonical URLs, auto-generated RSS feeds, and XML sitemaps.</dd>
+
+              <dt>Progressive Loading</dt>
+              <dd>Skeleton loaders with shimmer animation, staggered card reveal, scroll progress bar, and cache-busted data fetching.</dd>
+            </dl>
+          </div>
+
+          <!-- ── CTA ── -->
+          <div class="card reveal reveal-7">
+            <h2>Explore</h2>
+            <p>
+              TLDR News runs automatically every day. Check out the latest reports or browse the article archive.
+            </p>
+            <div class="about-cta">
+              <a href="reports.html" class="btn btn--primary">View Reports</a>
+              <a href="articles.html" class="btn">Read Articles</a>
+            </div>
+          </div>
+
+        </main>
+        <footer class="site-footer" role="contentinfo">
+          <span class="muted">Daily AI-powered news intelligence &middot; TL;DR News</span>
+        </footer>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    /* ── Minimal JS for about page: clock, sidebar, dark mode ── */
+    function el(id){ return document.getElementById(id); }
+
+    function readPref(key, fallback){
+      try{
+        const v = localStorage.getItem(key);
+        return (v === null || v === undefined || v === "") ? fallback : v;
+      }catch(_){ return fallback; }
+    }
+
+    function writePref(key, value){
+      try{ localStorage.setItem(key, String(value)); }catch(_){}
+    }
+
+    /* Clock */
+    (function startClock(){
+      const node = el("live-clock");
+      if (!node) return;
+      function tick(){
+        const now = new Date();
+        const date = now.toLocaleDateString("en-US", { weekday:"short", month:"short", day:"numeric", year:"numeric" });
+        const time = now.toLocaleTimeString("en-US", { hour:"2-digit", minute:"2-digit", second:"2-digit" });
+        node.textContent = `${date} \u00b7 ${time}`;
+      }
+      tick();
+      setInterval(tick, 1000);
+    })();
+
+    /* Scroll progress */
+    (function(){
+      const bar = el("pg-bar");
+      if (!bar) return;
+      const scrollEl = el("contentScroll");
+      const update = () => {
+        let pct = 0;
+        if (scrollEl && scrollEl.scrollHeight > scrollEl.clientHeight){
+          const max = scrollEl.scrollHeight - scrollEl.clientHeight;
+          pct = max > 0 ? Math.round((scrollEl.scrollTop / max) * 100) : 0;
+        }
+        bar.style.setProperty("--pg", pct + "%");
+      };
+      if (scrollEl) scrollEl.addEventListener("scroll", update, { passive: true });
+    })();
+
+    /* Sidebar (mobile drawer) */
+    (function(){
+      const sidebar = el("sidebar");
+      const hamburger = el("hamburger");
+      const closeBtn = el("sidebarClose");
+      const overlay = el("navOverlay");
+
+      function open(){ sidebar?.classList.add("open"); overlay?.classList.add("visible"); hamburger?.setAttribute("aria-expanded","true"); }
+      function close(){ sidebar?.classList.remove("open"); overlay?.classList.remove("visible"); hamburger?.setAttribute("aria-expanded","false"); }
+
+      if (hamburger) hamburger.onclick = open;
+      if (closeBtn)  closeBtn.onclick  = close;
+      if (overlay)   overlay.onclick   = close;
+    })();
+
+    /* Dark / light mode */
+    (function(){
+      const root = document.documentElement;
+      const btn = el("modeToggle");
+      if (!btn) return;
+
+      function sync(){
+        const isDark = (root.dataset.mode || "dark") === "dark";
+        btn.setAttribute("aria-pressed", String(isDark));
+        btn.textContent = `${isDark ? "\u263E" : "\u2600"} ${isDark ? "Dark" : "Light"} mode`;
+      }
+      sync();
+
+      btn.onclick = () => {
+        const next = (root.dataset.mode || "dark") === "dark" ? "light" : "dark";
+        root.dataset.mode = next;
+        writePref("tldr_mode", next);
+        sync();
+      };
+    })();
+
+    /* Trigger reveal animations */
+    document.querySelectorAll(".reveal").forEach((card, i) => {
+      card.classList.add(`reveal-${Math.min(i + 1, 8)}`);
+    });
+  </script>
+</body>
+</html>
