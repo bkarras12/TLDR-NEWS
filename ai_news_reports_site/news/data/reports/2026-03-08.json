@@ -1,11 +1,14 @@
 {
   "date": "2026-03-08",
-  "generated_at_utc": "2026-03-08T20:54:40Z",
+  "generated_at_utc": "2026-03-09T01:30:34Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump",
-    "media"
+    "tech",
+    "rules",
+    "prices",
+    "free",
+    "agency"
   ],
   "categories": {
     "world": {
@@ -17,16 +20,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.4133,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.689, dampened ×0.6 → -0.4133). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.217,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.362, dampened ×0.6 → -0.2170). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "War fuels debate in Cyprus over UK military bases",
-          "url": "https://www.bbc.com/news/articles/cx2r1xldl1ko?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 08 Mar 2026 08:03:40 GMT",
-          "summary": "“British Bases Out” is the slogan of Cypriot protesters after a drone strike targeted the RAF Akrotiri airbase.",
+          "title": "Who is Mojtaba Khamenei, Iran's new supreme leader?",
+          "url": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 08 Mar 2026 21:51:48 GMT",
+          "summary": "Many expect the 56-year-old, who has largely kept a low profile, to continue his father's hardline policies.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Oil prices jump above $100 for first time in four years",
+          "url": "https://www.bbc.com/news/articles/c79542n0grwo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 09 Mar 2026 00:28:40 GMT",
+          "summary": "Major disruption to energy supplies threatens to push up prices for consumers and businesses around the world.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Masked fan unplugs VAR monitor in German match",
+          "url": "https://www.bbc.com/sport/football/articles/c0rj2kq978qo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 09 Mar 2026 00:13:32 GMT",
+          "summary": "A masked fan unplugged a VAR monitor in a German second division match as the referee was went to the pitchside screen to check a penalty award.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Spain's migrants welcome amnesty: 'It will help us in every way'",
+          "url": "https://www.bbc.com/news/articles/crk8rdz5131o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 09 Mar 2026 00:17:54 GMT",
+          "summary": "Madrid cites humanitarian and economic reasons to give undocumented workers legal status.",
           "source": "BBC News"
         },
         {
@@ -34,6 +58,27 @@
           "url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 08 Mar 2026 18:32:37 GMT",
           "summary": "Police say they are investigating other motives after the blast caused minor damage to the embassy building.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Rapper-politician Balendra Shah unseats Nepal's ex-PM as he heads for victory",
+          "url": "https://www.bbc.com/news/articles/c93w6y0lnd9o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 08 Mar 2026 04:36:12 GMT",
+          "summary": "Thursday's general election was the first since violent youth-led protests toppled the government in September.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Rihanna's Beverly Hills home hit by gunfire, police say",
+          "url": "https://www.bbc.com/news/articles/ckg2pm2kvkeo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 09 Mar 2026 01:15:44 GMT",
+          "summary": "A suspect was arrested after the shooting on Sunday afternoon, Los Angeles officers say.",
+          "source": "BBC News"
+        },
+        {
+          "title": "War fuels debate in Cyprus over UK military bases",
+          "url": "https://www.bbc.com/news/articles/cx2r1xldl1ko?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 08 Mar 2026 08:03:40 GMT",
+          "summary": "“British Bases Out” is the slogan of Cypriot protesters after a drone strike targeted the RAF Akrotiri airbase.",
           "source": "BBC News"
         },
         {
@@ -51,20 +96,6 @@
           "source": "BBC News"
         },
         {
-          "title": "Rapper-politician Balendra Shah unseats Nepal's ex-PM as he heads for victory",
-          "url": "https://www.bbc.com/news/articles/c93w6y0lnd9o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 08 Mar 2026 04:36:12 GMT",
-          "summary": "Thursday's general election was the first since violent youth-led protests toppled the government in September.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
-          "url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 07 Mar 2026 19:16:44 GMT",
-          "summary": "Overnight, one Israeli operation saw at least 41 people killed and 40 injured, according to the Lebanese health ministry.",
-          "source": "BBC News"
-        },
-        {
           "title": "Heavy rains and flooding kills at least 23 in Nairobi",
           "url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 07 Mar 2026 12:21:40 GMT",
@@ -77,105 +108,79 @@
           "published": "Sat, 07 Mar 2026 16:53:57 GMT",
           "summary": "Seyed Ali Mousavi says Iran has a \"right to self-defence\" if the UK directly joins US-Israeli attacks.",
           "source": "BBC News"
-        },
-        {
-          "title": "Russian strike on Kharkiv apartment block kills ten",
-          "url": "https://www.bbc.com/news/articles/cn8zd049l08o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 07 Mar 2026 07:54:22 GMT",
-          "summary": "Ukraine President Volodymyr Zelensky says other people - including children - are injured as rescuers continue to search through rubble.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Armed robots take to the battlefield in Ukraine war",
-          "url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 07 Mar 2026 00:36:19 GMT",
-          "summary": "Ukraine has embarked on a programme to deploy armed robots on the battlefield against Russian forces.",
-          "source": "BBC News"
-        },
-        {
-          "title": "China spent years building ties in Latin America. Can Trump make room for the US?",
-          "url": "https://www.bbc.com/news/articles/c5yvw0zwpd5o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 07 Mar 2026 01:56:20 GMT",
-          "summary": "US President Donald Trump will meet with ideologically-aligned Latin American leaders to try and counter China's influence in the region.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Indonesia to ban social media and other online platforms for under 16s",
-          "url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 06 Mar 2026 13:25:12 GMT",
-          "summary": "It is the latest country to curb young people's access to digital spaces to try and protect them from abuse.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Violence and natural disasters dominate global headlines, with significant incidents reported in Cyprus, Norway, the US, Lebanon, and Kenya.",
-        "summary": "Today's news highlights a series of violent events and natural disasters around the world, including protests in Cyprus against UK military bases, a potential terrorist attack in Norway, deadly tornadoes in the US, and escalating violence in Lebanon and Ukraine. Additionally, significant political developments occurred in Nepal and Switzerland, while Kenya faced severe flooding.",
+        "key_takeaway": "Oil prices have surged above $100 due to major disruptions in energy supplies, impacting consumers and businesses globally.",
+        "summary": "Today's headlines reflect a mix of political developments, environmental disasters, and social issues across the globe. Key stories include the rise of Iran's new supreme leader, a significant spike in oil prices, and the aftermath of severe tornadoes in the US. Additionally, there are reports of a terrorist investigation following an explosion at the US embassy in Oslo and a notable political shift in Nepal with a rapper-politician's victory.",
         "key_themes": [
-          "global violence updates",
-          "natural disasters news",
-          "political changes in Nepal",
-          "Cyprus UK military base protests",
-          "flooding in Nairobi"
+          "Iran's new leadership implications",
+          "Global oil price surge",
+          "Impact of tornadoes in the US",
+          "Political changes in Nepal",
+          "Terrorism concerns in Norway",
+          "Cyprus protests against UK military bases"
         ],
         "notable_headlines": [
           {
-            "headline": "War fuels debate in Cyprus over UK military bases",
-            "why_it_matters": "Protests in Cyprus reflect growing tensions regarding foreign military presence amid ongoing conflicts.",
+            "headline": "Who is Mojtaba Khamenei, Iran's new supreme leader?",
+            "why_it_matters": "His leadership may continue the hardline policies of his father, impacting regional stability.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Oil prices jump above $100 for first time in four years",
+            "why_it_matters": "This increase could lead to higher costs for consumers and businesses worldwide.",
             "signal": "Risk"
           },
           {
             "headline": "Explosion at US embassy in Oslo may have been terrorism, Norway police say",
-            "why_it_matters": "The investigation into the embassy explosion raises concerns about security and potential threats to diplomatic missions.",
+            "why_it_matters": "The investigation into the blast raises concerns about security and international relations.",
             "signal": "Risk"
           },
           {
             "headline": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
-            "why_it_matters": "The tornadoes highlight the increasing severity of weather-related disasters in the US.",
+            "why_it_matters": "The severe weather highlights the increasing frequency of extreme weather events.",
             "signal": "Risk"
           },
           {
-            "headline": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
-            "why_it_matters": "The raid underscores the ongoing violence and instability in the region, affecting civilian lives.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Heavy rains and flooding kills at least 23 in Nairobi",
-            "why_it_matters": "Severe weather events are causing significant loss of life and disruption in urban areas.",
-            "signal": "Risk"
+            "headline": "Spain's migrants welcome amnesty: 'It will help us in every way'",
+            "why_it_matters": "The amnesty could significantly improve the lives of undocumented workers in Spain.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in Cyprus regarding military protests.",
-            "Watch for updates on the investigation into the Oslo embassy explosion.",
-            "Follow recovery efforts in Michigan and Oklahoma after tornadoes."
+            "Monitoring the impact of rising oil prices on global markets.",
+            "Following developments in the investigation of the embassy explosion in Oslo.",
+            "Observing the political ramifications of the new Iranian leadership."
           ],
           "next_1_4_weeks": [
-            "Observe the political landscape in Nepal following the election results.",
-            "Track the impact of flooding in Nairobi on infrastructure and public health.",
-            "Assess the implications of Israeli operations in Lebanon on regional stability."
+            "Assessing the long-term effects of the tornado damage in the US.",
+            "Watching for responses to the amnesty for migrants in Spain.",
+            "Evaluating the implications of the oil price surge on global economies."
           ],
           "watch_list": [
-            "Potential escalation of violence in the Middle East.",
-            "Responses to natural disasters in the US and Africa.",
-            "Political ramifications of Swiss voters' decision on public broadcasting fees.",
-            "confidence",
-            "Medium"
+            "Iran's political landscape under Mojtaba Khamenei.",
+            "Global energy market trends following the oil price increase.",
+            "Security measures in response to the Oslo embassy explosion.",
+            "Political developments in Nepal post-election."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in conflict zones is fluid and may change rapidly.",
-          "Natural disaster recovery efforts can take time and may evolve.",
-          "Political outcomes can be unpredictable and influenced by various factors."
+          "The situation in Iran remains fluid and could change rapidly.",
+          "The impact of weather events can vary significantly over time.",
+          "Economic forecasts related to oil prices are inherently uncertain."
         ],
         "related_topics": [
-          "What are the latest updates on global violence?",
-          "How are natural disasters impacting communities worldwide?",
-          "What political changes are happening in Nepal?"
+          "What are the implications of Iran's new supreme leader?",
+          "How are global oil prices affecting economies?",
+          "What are the latest developments in US tornado aftermath?",
+          "What is the status of the US embassy explosion investigation?",
+          "How is Spain addressing undocumented migrants' status?"
         ]
       },
-      "tweet_text": "Chaos erupts worldwide as war, natural disasters, and political upheaval grip nations—are we on the brink of...\n\nWorld Sentiment: Negative (-0.41)\n\nRead the full breakdown: https://tldrnews.info\n\n#40yearold #Ambassador #Among #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Chaos reigns from Oslo to Tehran as oil prices soar and a rapper shakes up Nepal's political scene—discover the latest...\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Police #Above #Amnesty #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -186,16 +191,16 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.3082,
+        "score": -0.3071,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.514, dampened ×0.6 → -0.3082). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.512, dampened ×0.6 → -0.3071). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "White House worries as gas prices jump amid ongoing US-Israel war on Iran",
-          "url": "https://www.theguardian.com/world/2026/mar/08/us-drivers-oil-prices-iran",
-          "published": "Sun, 08 Mar 2026 12:00:18 GMT",
-          "summary": "<p>US drivers are largely insulated from higher oil prices caused by Middle East turmoil – but only to a point</p><p>Across the US, the average cost of a gallon of regular gasoline has jumped nearly 27 cents in a week, to $3.25, and American consumers are bracing for higher prices at the gas pump as the <a href=\"https://www.theguardian.com/world/us-israel-war-on-iran\">US-Israel conflict with Iran</a> threatens to disrupt the global oil supply.</p><p>That fear has entered the White House too, whe",
+          "title": "Iran war drives oil prices above $100 a barrel for first time since 2022",
+          "url": "https://www.theguardian.com/business/2026/mar/09/iran-war-drives-oil-price-above-100-a-barrel-for-first-time-since-2022",
+          "published": "Mon, 09 Mar 2026 00:44:57 GMT",
+          "summary": "<p>Donald Trump insists surge in energy prices is ‘very small price to pay’ as Middle East conflict rattles global markets</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/08/middle-east-crisis-live-china-warns-world-cannot-return-to-law-of-the-jungle-trump-says-iran-being-decimated\">Middle East crisis - live updates</a> </p></li></ul><p>Global oil prices surged past $100 (£74, AU$142) a barrel for the first time since 2022 as fallout from the US-Israel war with Iran contin",
           "source": "The Guardian"
         },
         {
@@ -277,72 +282,72 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Rising oil prices due to the US-Israel conflict with Iran are raising concerns about inflation and economic recovery globally.",
-        "summary": "Today's headlines highlight significant economic concerns stemming from the ongoing US-Israel conflict with Iran, particularly its impact on oil prices and potential inflation. The White House is worried about rising gas prices, which have increased nearly 27 cents in a week, while economists warn that prolonged conflict could derail global economic recovery. Additionally, a federal judge ruled against mass layoffs at a US media agency, and the US is preparing to process refunds for illegally collected tariffs. Overall, the sentiment remains negative as these developments could have far-reaching implications for the economy.",
+        "key_takeaway": "The ongoing conflict in Iran has driven oil prices above $100 a barrel, raising concerns about global inflation and economic recovery.",
+        "summary": "Today's business news highlights the significant impact of the Iran conflict on global oil prices, which have surged past $100 a barrel for the first time since 2022. Economists warn that this inflation shock could derail the fragile global economic recovery. Additionally, a federal judge ruled against Kari Lake's management of the US Agency for Global Media, voiding mass layoffs, while the US prepares to process refunds on illegally collected tariffs. The labor market showed signs of strain with a loss of 92,000 jobs in February, coinciding with the onset of the Iran conflict.",
         "key_themes": [
-          "US-Israel conflict economic impact",
-          "oil prices inflation concerns",
-          "job market February report",
-          "tariff refunds process",
-          "media agency layoffs ruling"
+          "Iran conflict and oil prices",
+          "global economic recovery risks",
+          "US job market trends",
+          "tariff refunds and legal challenges",
+          "impact of inflation on consumers"
         ],
         "notable_headlines": [
           {
-            "headline": "White House worries as gas prices jump amid ongoing US-Israel war on Iran",
-            "why_it_matters": "Rising gas prices could affect consumer spending and overall economic stability.",
+            "headline": "Iran war drives oil prices above $100 a barrel for first time since 2022",
+            "why_it_matters": "The surge in oil prices could exacerbate inflation and impact global economic stability.",
             "signal": "Risk"
           },
           {
             "headline": "Why an Iran war inflation shock could wreck global economic recovery",
-            "why_it_matters": "Prolonged conflict may lead to higher retail prices and hinder growth forecasts.",
+            "why_it_matters": "Prolonged conflict may lead to increased retail prices, undermining growth forecasts.",
             "signal": "Risk"
           },
           {
+            "headline": "Judge rules Kari Lake unlawfully ran US media agency, voiding mass layoffs",
+            "why_it_matters": "The ruling could have implications for future management practices in federal agencies.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "US lost 92,000 jobs in February just before Trump joined Iran conflict",
-            "why_it_matters": "Job losses indicate a weakening labor market, complicating economic recovery efforts.",
+            "why_it_matters": "The job loss indicates potential vulnerabilities in the labor market amid geopolitical tensions.",
             "signal": "Risk"
           },
           {
             "headline": "US preparing system to process refunds on billions in illegal Trump tariffs",
-            "why_it_matters": "Refunds could impact government revenue and trade relations.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Iran war pushes oil price above $90, threatening rise in global inflation",
-            "why_it_matters": "Higher oil prices could lead to increased inflation globally, affecting consumers and businesses.",
-            "signal": "Risk"
+            "why_it_matters": "This move could affect trade relations and financial recovery for impacted businesses.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor gas prices for further increases due to geopolitical tensions.",
-            "Watch for economic indicators related to inflation and consumer spending.",
-            "Follow developments in the US-Israel conflict and its impact on oil supply."
+            "Monitor oil price fluctuations and their impact on inflation rates.",
+            "Watch for updates on the US job market and economic indicators.",
+            "Follow developments in the Iran conflict and its global repercussions."
           ],
           "next_1_4_weeks": [
-            "Assess the impact of rising oil prices on inflation rates and consumer behavior.",
-            "Observe job market trends following February's job losses and potential policy responses.",
-            "Evaluate the effectiveness of the tariff refund process and its implications for trade."
+            "Assess the long-term effects of rising oil prices on consumer spending and inflation.",
+            "Evaluate the response of central banks to potential inflationary pressures.",
+            "Observe the legal proceedings regarding tariffs and their implications for trade policy."
           ],
           "watch_list": [
-            "Oil price fluctuations and their impact on inflation.",
-            "Economic recovery forecasts amid geopolitical tensions.",
-            "Job market recovery indicators and unemployment rates.",
-            "Legal developments regarding tariffs and media agency layoffs."
+            "Oil price trends and forecasts",
+            "Economic recovery indicators",
+            "Labor market statistics and unemployment rates",
+            "Legal developments regarding tariffs and trade disputes"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and could change rapidly, impacting economic forecasts.",
-          "Job market data may be revised as more information becomes available. "
+          "The situation in Iran is fluid and may change rapidly, affecting economic forecasts.",
+          "Job market data may be revised as more information becomes available."
         ],
         "related_topics": [
           "What are the implications of rising oil prices on the economy?",
-          "How is the US-Israel conflict affecting global markets?",
-          "What is the current state of the US job market?"
+          "How is the Iran conflict affecting global inflation?",
+          "What are the latest job market trends in the US?"
         ]
       },
-      "tweet_text": "Gas prices soar as the Iran conflict ignites inflation fears—will the global economy survive this...\n\nBusiness Sentiment: Negative (-0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Global #Inflation #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Oil prices soar past $100 as the Iran conflict ignites fears of a global economic meltdown—are we on the...\n\nBusiness Sentiment: Negative (-0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Above #Global #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -430,74 +435,71 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Apple is set to launch new high-end products while Sony experiments with dynamic pricing for PlayStation games.",
-        "summary": "Today's technology news highlights Apple's upcoming high-end product releases, Sony's dynamic pricing tests for games, and various updates in gaming and consumer electronics.",
+        "key_takeaway": "Apple is set to launch a new high-end 'Ultra' product lineup following the release of the low-cost MacBook Neo.",
+        "summary": "Today's technology news highlights Apple's upcoming high-end product releases, the testing of dynamic pricing on PlayStation games by Sony, and the integration of Vizio accounts into Walmart accounts. Additionally, there are updates on gaming accessories and cultural commentary on hybrid vehicles and nostalgic toys.",
         "key_themes": [
           "Apple's new product strategy",
-          "Sony dynamic pricing",
-          "gaming controller reviews",
-          "hybrid vehicle insights",
-          "Vizio account changes"
+          "Sony dynamic pricing experiment",
+          "Vizio account integration with Walmart"
         ],
         "notable_headlines": [
           {
             "headline": "Apple is going high-end with new ‘Ultra’ products next",
-            "why_it_matters": "Apple's shift towards premium products could redefine its market positioning and attract a different consumer segment.",
+            "why_it_matters": "Apple's shift to high-end products could redefine its market positioning and attract premium customers.",
             "signal": "Opportunity"
           },
           {
             "headline": "Sony appears to be testing dynamic pricing on PlayStation games",
-            "why_it_matters": "Dynamic pricing could impact consumer purchasing behavior and game sales strategies in the digital marketplace.",
+            "why_it_matters": "Dynamic pricing could change how consumers perceive value in digital gaming, impacting sales strategies.",
             "signal": "Risk"
           },
           {
-            "headline": "Time’s running out to get a free gift card when you preorder a new MacBook",
-            "why_it_matters": "Promotional offers can drive sales and consumer interest in new product launches, particularly in competitive markets.",
-            "signal": "Opportunity"
-          },
-          {
             "headline": "Vizio accounts are becoming Walmart accounts",
-            "why_it_matters": "The integration of Vizio into Walmart's ecosystem may streamline user experience but raises concerns about data privacy and account management.",
+            "why_it_matters": "The integration of Vizio into Walmart's ecosystem may streamline user experience but raises concerns about data privacy.",
             "signal": "Unclear"
           },
           {
-            "headline": "The best Switch 2 controller just got better (and a little worse)",
-            "why_it_matters": "Consumer feedback on gaming accessories can influence future product development and market competition.",
+            "headline": "Time’s running out to get a free gift card when you preorder a new MacBook",
+            "why_it_matters": "Promotional offers can drive early sales and customer interest in new products.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "The uncomfortable truth about hybrid vehicles",
+            "why_it_matters": "Understanding the limitations of hybrid vehicles is crucial as consumers shift towards more sustainable options.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Anticipate more details on Apple's new product lineup and pricing strategies.",
-            "Monitor reactions to Sony's dynamic pricing tests from gamers and industry analysts.",
-            "Expect further developments on Vizio's account integration with Walmart."
+            "Expect more details on Apple's product launches as the tech community anticipates high-end offerings.",
+            "Watch for reactions to Sony's dynamic pricing strategy from gamers and industry analysts.",
+            "Monitor consumer responses to the integration of Vizio accounts into Walmart."
           ],
           "next_1_4_weeks": [
-            "Watch for Apple's official announcements regarding its high-end products and their market impact.",
-            "Follow up on consumer responses to dynamic pricing in the gaming sector.",
-            "Keep an eye on trends in gaming accessories and their influence on user experience."
+            "Apple's new products will likely dominate tech discussions and reviews following their release.",
+            "The impact of dynamic pricing on PlayStation sales may become clearer as more data is collected.",
+            "The effects of Walmart's acquisition of Vizio on customer experience will be evaluated."
           ],
           "watch_list": [
-            "Apple's product launch events and their implications for the tech market.",
-            "Sony's pricing strategy and its effects on game sales.",
-            "Consumer reactions to Vizio's account changes and integration with Walmart.",
-            "Trends in hybrid vehicle technology and consumer adoption."
+            "Apple's product launch events and announcements",
+            "Sony's pricing strategies and consumer feedback",
+            "Walmart's integration process for Vizio accounts and customer reactions.",
+            "confidence",
+            "High"
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the technology news, suggesting a cautious outlook.",
-          "Details on Apple's new products and Sony's pricing strategy are still emerging, making predictions uncertain."
+          "The mixed sentiment score indicates a range of opinions on the news, suggesting caution in interpretation.",
+          "The impact of new product launches and pricing strategies may take time to fully materialize."
         ],
         "related_topics": [
           "What are Apple's new high-end products?",
-          "How is Sony implementing dynamic pricing for games?",
-          "Latest trends in gaming controllers and accessories.",
-          "What changes are happening with Vizio accounts?",
-          "Insights on hybrid vehicle technology advancements."
+          "How is Sony implementing dynamic pricing?",
+          "What changes are happening with Vizio and Walmart accounts?"
         ]
       },
-      "tweet_text": "Apple's 'Ultra' leap aims for luxury—will you take the plunge or stick with the familiar?\n\nTechnology Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Appears #Apple #Best #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Apple's going ultra—are you ready for the next level of luxury tech?\n\nTechnology Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Appears #Apple #Best #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -508,171 +510,162 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.1224,
+        "score": 0.1886,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.204, dampened ×0.6 → +0.1224). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.314, dampened ×0.6 → +0.1886). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Sources: Rams reach record deal with McDuffie",
+          "url": "https://www.espn.com/nfl/story/_/id/48148479/sources-trent-mcduffie-rams-reach-4-year-124m-extension",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
+          "summary": "The Los Angeles Rams and All-Pro cornerback Trent McDuffie reached agreement on a record four-year, $124 million extension that includes $100 million guaranteed, sources told ESPN's Adam Schefter on Sunday night.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Texas rolls SC for 1st women's SEC tourney title",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48146838/texas-routs-south-carolina-1st-women-sec-tournament-title",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
+          "summary": "Madison Booker scored 18 points as No. 4 Texas sprinted to a 14-0 lead against No. 3 South Carolina en route to the Longhorns' first women's SEC tournament title.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Spartans' Fears gets tech for another groin kick",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48147085/michigan-st-fears-gets-tech-another-kick-player-groin",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
+          "summary": "Michigan State point guard Jeremy Fears Jr. received another technical foul for a kick toward a player's groin area.",
+          "source": "ESPN"
+        },
+        {
           "title": "Sources: Conner reworks deal to stay with Cards",
           "url": "https://www.espn.com/nfl/story/_/id/48144246/sources-rb-james-conner-reworks-deal-stay-cardinals",
-          "published": "Sun, 8 Mar 2026 16:20:12 EST",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
           "summary": "The Cardinals and Pro Bowl running back James Conner have agreed to a revised contract to keep him in Arizona for 2026, according to NFL Network.",
           "source": "ESPN"
         },
         {
-          "title": "GA Tech fires Stoudamire after last-place finish",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48142565/sources-georgia-tech-fires-damon-stoudamire-last-place-finish-acc",
-          "published": "Sun, 8 Mar 2026 16:20:12 EST",
-          "summary": "Georgia Tech has fired men's basketball coach Damon Stoudamire, ending his tenure at the school after three seasons.",
+          "title": "Iraq coach asks FIFA to reschedule its WC playoff",
+          "url": "https://www.espn.com/soccer/story/_/id/48148224/iraq-coach-arnold-begs-fifa-reschedule-wc-playoff",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
+          "summary": "Graham Arnold is asking FIFA to come to Iraq's aid as the conflict between neighboring Iran and the United States threatens to derail his plans to help his team to its first World Cup in 40 years.",
           "source": "ESPN"
         },
         {
-          "title": "Duke women rally past Louisville to win ACC title",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48145898/duke-rallies-louisville-70-65-ot-win-acc-tournament",
-          "published": "Sun, 8 Mar 2026 16:20:12 EST",
-          "summary": "No. 13 Duke rallied to win its second straight women's Atlantic Coast Conference tournament title, beating No. 12 Louisville 70-65 in overtime Sunday.",
+          "title": "WVU avenges losses to TCU, wins Big 12 tourney",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48148147/west-virginia-beats-tcu-win-women-big-12-tournament-title",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
+          "summary": "No. 15 West Virginia avenged two regular-season losses to No. 10 TCU by beating the reigning Big 12 tournament champion 62-53 in the conference title game Sunday.",
           "source": "ESPN"
         },
         {
-          "title": "UNI wins MVC, clinches 1st NCAA berth since '16",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48145185/northern-iowa-clinches-1st-ncaa-tournament-berth-2016",
-          "published": "Sun, 8 Mar 2026 16:20:11 EST",
-          "summary": "Trey Campbell hit six 3-pointers in scoring 23 points as Northern Iowa defeated UIC 84-69 to win the Missouri Valley Conference tournament and earn an automatic NCAA bid",
+          "title": "UCLA rolls to 2nd straight Big Ten tourney title",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48146297/ucla-rolls-second-straight-women-big-ten-tourney-title",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
+          "summary": "Gianna Kneepkens scored 19 points and Kiki Rice added 15 points and eight assists Sunday as No. 2 UCLA rolled past No. 9 Iowa 96-45 to win its second straight Big Ten tournament crown.",
           "source": "ESPN"
         },
         {
-          "title": "B.C. fires hoops coach Grant after five years",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48144775/boston-college-fires-men-basketball-coach-earl-grant-source-confirms",
-          "published": "Sun, 8 Mar 2026 16:20:11 EST",
-          "summary": "Boston College has fired coach Earl Grant, ending his five-year run at the school.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Skubal mulls WBC plan, may pitch again for U.S.",
-          "url": "https://www.espn.com/mlb/story/_/id/48142326/tarik-skubal-mulls-changing-wbc-plan-hard-walk-away",
-          "published": "Sun, 8 Mar 2026 16:20:11 EST",
-          "summary": "Tarik Skubal says he is considering pitching again for the United States at the World Baseball Classic, a potential change in plans for the Tigers' ace.",
-          "source": "ESPN"
-        },
-        {
-          "title": "White: Jones never in mind for White House card",
-          "url": "https://www.espn.com/mma/story/_/id/48141330/jon-jones-conor-mcgregor-left-ufc-white-house-card",
-          "published": "Sun, 8 Mar 2026 16:20:12 EST",
-          "summary": "UFC legends Jon Jones and Conor McGregor were both left off the promotion's planned White House card, with Dana White saying Jones was \"never ever\" in his mind for a fight.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Pack bring back versatile Rhyan on 3-year deal",
-          "url": "https://www.espn.com/nfl/story/_/id/48142637/packers-bring-back-sean-rhyan-3-year-33-million-deal",
-          "published": "Sun, 8 Mar 2026 16:20:12 EST",
-          "summary": "The Packers have agreed to bring back Sean Rhyan on a three-year, $33 million deal, his agents told ESPN.",
+          "title": "Queens earns NCAA berth in first year eligible",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48146671/queens-university-earns-ncaa-tourney-berth-first-year-eligible",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
+          "summary": "Chris Ashby made 10 3-pointers and scored 34 points to lead Queens University to an NCAA berth in its first year of eligibility with a 98-93 win over Central Arkansas in the Atlantic Sun tournament.",
           "source": "ESPN"
         },
         {
           "title": "⏱️ Last-minute NFL free agency nuggets",
           "url": "https://www.espn.com/nfl/story/_/id/48111448/nfl-free-agency-news-latest-wrs-rbs-pierce-crosby",
-          "published": "Sun, 8 Mar 2026 16:20:12 EST",
+          "published": "Sun, 8 Mar 2026 20:17:48 EST",
           "summary": "What are we hearing as NFL free agency nears? We give you the latest buzz on top players and teams that could be active.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Men's Bracketology: Florida replaces UConn as a 1-seed, bid thieves remain top of mind",
-          "url": "https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2026-march-madness-men-field-predictions",
-          "published": "Sun, 8 Mar 2026 13:25:01 EST",
-          "summary": "The Huskies were the shakiest 1-seed, and their loss at Marquette helped the Gators make the swap.",
           "source": "ESPN"
         },
         {
           "title": "Women's Bracketology: No. 1 seeds set, but bubble is toughest in years",
           "url": "https://www.espn.com/espn/feature/story/_/id/30423107/ncaa-women-bracketology-2026-women-college-basketball-projections",
-          "published": "Sun, 8 Mar 2026 14:12:55 EST",
+          "published": "Sun, 8 Mar 2026 18:50:46 EST",
           "summary": "Texas and South Carolina are locks for 1-seeds. TCU replaces Michigan as the final 2-seed. The bubble? Wide open.",
           "source": "ESPN"
         },
         {
-          "title": "UConn's Strong, Fudd headline women's Wooden Award top 15",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/page/womenswoodenaward02102026/womens-college-basketball-2026-wooden-award-late-top-15-short-list",
-          "published": "Sun, 8 Mar 2026 14:12:55 EST",
-          "summary": "UConn and Texas each put multiple players on the top 15 short list.",
+          "title": "Men's Bracketology: The Champ Week chaos is alive and well",
+          "url": "https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2026-march-madness-men-field-predictions",
+          "published": "Sun, 8 Mar 2026 20:35:24 EST",
+          "summary": "True to form, the early conference tournaments have provided upsets and some unexpected champions.",
+          "source": "ESPN"
+        },
+        {
+          "title": "What’s the best option at QB for Jets? Here’s the latest",
+          "url": "https://www.espn.com/nfl/story/_/id/48114418/new-york-jets-2026-starting-qb-kyler-murray-tua-tagovailoa-draft-ty-simpson",
+          "published": "Sun, 8 Mar 2026 20:18:21 EST",
+          "summary": "New York has plenty of options to revamp its quarterbacks room through free agency, trading and the draft.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "James Conner reworks his contract to remain with the Cardinals, while several college basketball coaches face firings amid tournament season.",
-        "summary": "In today's sports news, NFL running back James Conner has restructured his contract to stay with the Arizona Cardinals. Meanwhile, college basketball sees significant coaching changes as Georgia Tech and Boston College fire their head coaches after disappointing seasons. In women's basketball, Duke clinches the ACC title, and Northern Iowa secures its first NCAA tournament berth since 2016. Additionally, Tarik Skubal considers pitching for the U.S. in the World Baseball Classic, and notable UFC fighters Jon Jones and Conor McGregor are not included in an upcoming event.",
+        "key_takeaway": "The Los Angeles Rams secured a record contract extension for Trent McDuffie while various college basketball teams celebrated tournament victories ahead of March Madness.",
+        "summary": "Today's sports headlines highlight significant contract developments in the NFL, including a record extension for Rams cornerback Trent McDuffie. In college basketball, teams like Texas and West Virginia achieved notable tournament victories, while bracketology discussions intensify as March Madness approaches. Additionally, the Iraq national team faces challenges ahead of their World Cup playoff due to geopolitical tensions.",
         "key_themes": [
-          "NFL contract negotiations",
-          "college basketball coaching changes",
-          "ACC women's basketball championship",
-          "NCAA tournament updates",
-          "World Baseball Classic participation",
-          "UFC fight card announcements"
+          "NFL contract extensions",
+          "college basketball tournament results",
+          "March Madness bracketology",
+          "Iraq World Cup playoff challenges"
         ],
         "notable_headlines": [
           {
-            "headline": "Sources: Conner reworks deal to stay with Cards",
-            "why_it_matters": "Conner's contract restructuring ensures the Cardinals retain a key player for the upcoming season.",
+            "headline": "Sources: Rams reach record deal with McDuffie",
+            "why_it_matters": "This extension sets a new benchmark for cornerbacks in the NFL, reflecting the player's value and the team's commitment.",
             "signal": "Opportunity"
           },
           {
-            "headline": "GA Tech fires Stoudamire after last-place finish",
-            "why_it_matters": "The firing reflects the pressure on coaches to perform, especially in competitive college basketball environments.",
+            "headline": "Texas rolls SC for 1st women's SEC tourney title",
+            "why_it_matters": "This victory marks a significant achievement for Texas in women's basketball, enhancing their profile in the SEC.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "WVU avenges losses to TCU, wins Big 12 tourney",
+            "why_it_matters": "West Virginia's win demonstrates resilience and could boost their momentum heading into the NCAA tournament.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Iraq coach asks FIFA to reschedule its WC playoff",
+            "why_it_matters": "The geopolitical situation poses a risk to Iraq's World Cup aspirations, highlighting the intersection of sports and global events.",
             "signal": "Risk"
           },
           {
-            "headline": "Duke women rally past Louisville to win ACC title",
-            "why_it_matters": "Duke's victory highlights their strong performance and momentum heading into the NCAA tournament.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "UNI wins MVC, clinches 1st NCAA berth since '16",
-            "why_it_matters": "Northern Iowa's win marks a significant achievement for the program, returning to the NCAA tournament after several years.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "B.C. fires hoops coach Grant after five years",
-            "why_it_matters": "The decision indicates a shift in strategy for Boston College's basketball program following a lackluster performance.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Skubal mulls WBC plan, may pitch again for U.S.",
-            "why_it_matters": "Skubal's potential participation could strengthen the U.S. team's chances in the World Baseball Classic.",
-            "signal": "Opportunity"
+            "headline": "Men's Bracketology: The Champ Week chaos is alive and well",
+            "why_it_matters": "The unpredictability of early conference tournaments impacts NCAA tournament predictions, making for an exciting March Madness.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Expect further updates on NFL free agency as teams finalize their rosters.",
-            "Watch for reactions to the NCAA tournament selections and potential upsets in bracketology.",
-            "Monitor coaching changes in college basketball as more teams conclude their seasons."
+            "Expect more updates on NFL free agency as teams finalize their rosters.",
+            "Watch for reactions to the NCAA tournament selections and potential upsets in upcoming games.",
+            "Monitor developments regarding Iraq's World Cup playoff situation."
           ],
           "next_1_4_weeks": [
-            "The NCAA tournament will begin, with teams vying for the championship.",
-            "Expect announcements regarding player commitments and transfers in college basketball.",
-            "The World Baseball Classic will commence, showcasing international talent."
+            "March Madness will dominate sports headlines as teams prepare for the NCAA tournaments.",
+            "NFL free agency will continue to unfold, impacting team strategies for the upcoming season.",
+            "Bracketology will evolve as teams compete in conference tournaments."
           ],
           "watch_list": [
-            "NCAA tournament bracket predictions",
-            "NFL free agency developments",
-            "Upcoming college basketball coaching changes",
-            "World Baseball Classic participant updates"
+            "Key NFL free agency signings and trades.",
+            "Performance of teams in the NCAA tournaments.",
+            "Updates on Iraq's World Cup playoff situation.",
+            "Emerging players in college basketball ahead of the NCAA tournament."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall sports news landscape today.",
-          "Coaching changes can lead to instability in programs, impacting future performance."
+          "The sentiment score reflects a mixed tone, indicating varying levels of positivity and negativity across different stories.",
+          "The geopolitical situation affecting Iraq's World Cup playoff is fluid and may change rapidly."
         ],
         "related_topics": [
-          "What are the latest NFL contract negotiations?",
-          "Updates on NCAA basketball coaching changes",
-          "How did Duke win the ACC women's basketball title?",
-          "What to expect in the NCAA tournament this year?",
-          "Latest news on the World Baseball Classic participation"
+          "What are the latest NFL contract extensions?",
+          "Updates on NCAA women's basketball tournament results",
+          "How is March Madness shaping up this year?"
         ]
       },
-      "tweet_text": "Drama unfolds in sports! Conner stays, GA Tech cleans house, and Duke women shine—plus, big NCAA news on the horizon!\n\nSports Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #Fires #White #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Record deals, historic wins, and shocking kicks—today's sports world is full of drama! Don't miss the action!\n\nSports Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Tourney #Deal #Rolls #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -683,9 +676,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.1487,
+        "score": 0.1104,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.248, dampened ×0.6 → +0.1487). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.184, dampened ×0.6 → +0.1104). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -696,6 +689,13 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Scientists stunned to find signs of ancient life in a place no one expected",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260307213247.htm",
+          "published": "Sun, 08 Mar 2026 17:31:54 EDT",
+          "summary": "While exploring ancient seabeds in Morocco, scientists discovered strange wrinkle-like textures in deep-water sediments that shouldn’t have been there. These structures are usually made by sunlight-loving microbial mats in shallow waters. But the rocks formed far below the reach of light, suggesting a different explanation. Evidence points to chemosynthetic microbes—organisms powered by chemical reactions—creating the mats in the dark depths of an ancient ocean.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "A perfectly balanced atom just broke one of nuclear physics’ biggest rules",
           "url": "https://www.sciencedaily.com/releases/2026/03/260307213241.htm",
           "published": "Sun, 08 Mar 2026 01:01:02 EST",
@@ -703,10 +703,24 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Brain scans reveal how ketamine quickly lifts severe depression",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260307213234.htm",
+          "published": "Sun, 08 Mar 2026 19:40:58 EDT",
+          "summary": "A new brain-imaging study has revealed how ketamine produces its fast antidepressant effects in people with treatment-resistant depression. Researchers tracked changes in a critical brain receptor that helps neurons communicate and found that ketamine reshapes its activity in specific brain regions tied to mood and reward. These shifts strongly matched improvements in patients’ symptoms. The findings could help scientists develop better ways to predict who will benefit from ketamine therapy.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "A new “magic mushroom” drug could treat depression without psychedelic hallucinations",
           "url": "https://www.sciencedaily.com/releases/2026/03/260307213232.htm",
           "published": "Sun, 08 Mar 2026 06:26:37 EDT",
           "summary": "Scientists are exploring a new way to harness the medical promise of psychedelic compounds without the mind-bending side effects. Researchers created modified versions of psilocin — the active form of psilocybin from “magic mushrooms” — that still target key serotonin pathways linked to depression and other brain disorders but appear to cause far fewer psychedelic-like effects.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Engineers make magnets behave like graphene",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260307213230.htm",
+          "published": "Sun, 08 Mar 2026 21:07:58 EDT",
+          "summary": "Engineers have discovered an unexpected link between two very different realms of physics: the behavior of electrons in graphene and magnetic waves in specially engineered materials. By designing a thin magnetic film with a hexagonal pattern of holes—similar to graphene’s structure—the researchers showed that magnetic “spin waves” can follow the same mathematical rules as graphene’s famously unusual electrons. The surprising overlap reveals a deeper connection between electronic and magnetic sys",
           "source": "ScienceDaily"
         },
         {
@@ -750,104 +764,77 @@
           "published": "Sat, 07 Mar 2026 15:54:22 EST",
           "summary": "Scientists studying 1,300 golden retrievers have uncovered genetic clues explaining why some dogs are more anxious, energetic, or aggressive than others. Remarkably, several of the same genes linked to canine behavior are also tied to human traits like anxiety, depression, and intelligence. The discovery suggests dogs and humans share biological roots for emotions and behavior. Understanding these links could help owners better interpret their pets’ reactions and even improve training and veteri",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Physicists finally see strange magnetic vortices predicted 50 years ago",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260306224223.htm",
-          "published": "Sat, 07 Mar 2026 00:36:21 EST",
-          "summary": "A team of physicists has experimentally confirmed a long-predicted sequence of exotic magnetic phases in an atomically thin material. When cooled, the material forms tiny magnetic vortices before transitioning into a second ordered magnetic state—exactly as predicted by a famous theoretical model from the 1970s. Observing both phases together for the first time validates key ideas about how magnetism behaves in two dimensions. The findings could help inspire ultracompact technologies built on na",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists finally reveal why mint feels cold",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260306224220.htm",
-          "published": "Sun, 08 Mar 2026 01:31:56 EST",
-          "summary": "Scientists have revealed how the body’s microscopic cold sensor, TRPM8, detects both chilly temperatures and the cooling effect of menthol. The discovery finally shows how the sensation of “cool” works at the molecular level—and could inspire new treatments for pain and eye disorders.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Bird droppings helped build one of ancient Peru’s most powerful kingdoms",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260306224219.htm",
-          "published": "Sat, 07 Mar 2026 19:02:30 EST",
-          "summary": "New research suggests seabird guano helped transform the Chincha Kingdom into one of the most prosperous societies in ancient Peru. Chemical clues in centuries-old maize show farmers fertilized their crops with guano gathered from nearby islands, dramatically boosting yields in the desert landscape. The resulting agricultural surplus fueled trade, population growth, and regional influence.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries range from satellite monitoring of bridges to new insights into Alzheimer’s and the genetic links between dogs and human behavior.",
-        "summary": "Today's science headlines highlight significant advancements in various fields, including structural monitoring via satellites, breakthroughs in nuclear physics, and new approaches to treating depression. Additionally, researchers are uncovering the roles of specific brain cells in Alzheimer's disease, the implications of ancient plagues, and the genetic connections between golden retrievers and human traits. The findings also touch on the behavior of asteroids and the molecular mechanisms behind sensory perceptions.",
+        "key_takeaway": "Recent scientific discoveries range from ancient life forms to advancements in mental health treatments and the challenges posed by scientific fraud.",
+        "summary": "Today's headlines highlight significant advancements in various scientific fields, including the use of satellites for bridge monitoring, discoveries of ancient life forms, and breakthroughs in mental health treatments. Researchers have also identified new roles for brain cells in Alzheimer's, explored the genetic links between dogs and human behavior, and raised concerns about the proliferation of fake research. These findings underscore the dynamic nature of scientific inquiry and its implications for society.",
         "key_themes": [
           "satellite monitoring of infrastructure",
-          "nuclear physics discoveries",
-          "treatment for depression",
-          "Alzheimer's disease research",
-          "ancient plague studies",
-          "genetic links between dogs and humans"
+          "ancient life discoveries",
+          "ketamine and depression treatment",
+          "genetic links between dogs and humans",
+          "scientific fraud concerns"
         ],
         "notable_headlines": [
           {
             "headline": "Satellites are exposing weak bridges in America and around the world",
-            "why_it_matters": "This technology could enhance infrastructure safety by identifying at-risk bridges before they fail.",
+            "why_it_matters": "This technology could significantly enhance infrastructure safety and maintenance by identifying at-risk bridges before they fail.",
             "signal": "Opportunity"
           },
           {
-            "headline": "A perfectly balanced atom just broke one of nuclear physics’ biggest rules",
-            "why_it_matters": "This discovery challenges long-held beliefs in nuclear physics and could lead to new understandings of atomic behavior.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "A new “magic mushroom” drug could treat depression without psychedelic hallucinations",
-            "why_it_matters": "This could revolutionize mental health treatment by providing effective therapies without the side effects of traditional psychedelics.",
+            "headline": "Scientists stunned to find signs of ancient life in a place no one expected",
+            "why_it_matters": "This discovery challenges existing theories about ancient life and its environmental adaptations, expanding our understanding of early ecosystems.",
             "signal": "Opportunity"
           },
           {
-            "headline": "NASA DART mission reveals asteroids throw “cosmic snowballs” at each other",
-            "why_it_matters": "This finding changes our understanding of asteroid behavior and their interactions in space.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Scientists discover hidden brain cells that may stop Alzheimer’s tau buildup",
-            "why_it_matters": "This could lead to new therapeutic strategies for combating Alzheimer’s disease.",
+            "headline": "Brain scans reveal how ketamine quickly lifts severe depression",
+            "why_it_matters": "Understanding ketamine's mechanism could lead to improved treatments for depression, particularly for those resistant to traditional therapies.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists warn fake research is spreading faster than real science",
-            "why_it_matters": "This raises concerns about the integrity of scientific research and its implications for public trust.",
+            "why_it_matters": "This trend poses a significant risk to the integrity of scientific research and public trust in science.",
             "signal": "Risk"
+          },
+          {
+            "headline": "Golden Retriever genes linked to anxiety, aggression, and intelligence in humans",
+            "why_it_matters": "This research could enhance our understanding of behavioral genetics in both dogs and humans, impacting training and veterinary practices.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of satellite data on bridge safety is expected to be released.",
-            "More studies on the implications of the new nuclear physics findings may emerge.",
-            "Updates on the efficacy of the new depression treatment will be anticipated."
+            "Further analysis of the implications of satellite monitoring for infrastructure safety is expected.",
+            "More studies on the ancient life discovery may emerge, providing deeper insights into early ecosystems.",
+            "Updates on the effectiveness of ketamine in treating depression could be released."
           ],
           "next_1_4_weeks": [
-            "Research on the role of tanycytes in Alzheimer's may lead to clinical trials.",
-            "Expect more findings related to the genetic studies on dogs and their implications for human behavior.",
-            "Further investigations into the spread of fake research in scientific communities are likely."
+            "Anticipated discussions on the implications of the findings regarding scientific fraud and its impact on research integrity.",
+            "Further research on the genetic links between dogs and human behavior may be published.",
+            "Potential new studies on the role of tanycytes in Alzheimer's disease could be forthcoming."
           ],
           "watch_list": [
-            "Monitor developments in satellite technology for infrastructure monitoring.",
-            "Keep an eye on new treatments for mental health disorders stemming from psychedelic research.",
-            "Watch for updates on ancient disease studies and their relevance to modern medicine.",
-            "Follow the implications of new findings in nuclear physics."
+            "Monitoring developments in satellite technology for infrastructure safety.",
+            "Following new research on ancient life forms and their implications for evolutionary biology.",
+            "Keeping an eye on advancements in mental health treatments, particularly related to ketamine.",
+            "Observing trends in scientific publishing and the fight against fraudulent research."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of some discoveries are still being evaluated and may change with further research.",
-          "The spread of fake research poses a significant challenge that requires ongoing vigilance."
+          "The mixed sentiment indicates that while many discoveries are promising, concerns about scientific integrity could overshadow some advancements.",
+          "The implications of some findings, particularly in mental health, require further validation through clinical trials."
         ],
         "related_topics": [
           "What are the latest advancements in satellite technology for infrastructure monitoring?",
-          "How are new treatments for depression being developed without psychedelic effects?",
-          "What recent discoveries have been made in nuclear physics?",
-          "What role do tanycytes play in Alzheimer's disease?",
-          "How do ancient diseases inform modern medical research?"
+          "How do ancient life discoveries impact our understanding of evolution?",
+          "What is the role of ketamine in treating depression?",
+          "What are the implications of scientific fraud in research?",
+          "How do dog genetics relate to human behavior and emotions?"
         ]
       },
-      "tweet_text": "Bridges are crumbling, hidden brain cells hold the key to Alzheimer's, and a new drug could change...\n\nScience Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Discover #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Satellites reveal America's vulnerable bridges, while scientists uncover ancient life in the most...\n\nScience Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Brain #Depression #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
