@@ -9,9 +9,10 @@ on:
       - "ai_news_reports_site/pipeline/**"
       - ".github/workflows/daily_news_reports.yml"
   schedule:
-    # Runs daily at ~07:10 America/Denver during standard time (UTC-7).
-    # Note: GitHub cron uses UTC.
-    - cron: "10 14 * * *"
+    # All times MST (UTC-7). GitHub cron uses UTC.
+    - cron: "0 14 * * *"   # 7:00 AM MST
+    - cron: "0 23 * * *"   # 4:00 PM MST
+    - cron: "0 3 * * *"    # 8:00 PM MST
 
 permissions:
   contents: write

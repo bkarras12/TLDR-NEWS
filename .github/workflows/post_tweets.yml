@@ -8,12 +8,25 @@ on:
         required: true
         default: "world"
   schedule:
-    # Staggered 20 min apart, starting 50 min after pipeline (14:10 UTC)
-    - cron: "0 15 * * *"   # world
-    - cron: "20 15 * * *"  # business
-    - cron: "40 15 * * *"  # technology
-    - cron: "0 16 * * *"   # sports
-    - cron: "20 16 * * *"  # science
+    # Staggered 20 min apart after each pipeline run. All times MST (UTC-7).
+    # After 7:00 AM MST pipeline (14:00 UTC):
+    - cron: "50 14 * * *"  # 7:50 AM MST  — world
+    - cron: "10 15 * * *"  # 8:10 AM MST  — business
+    - cron: "30 15 * * *"  # 8:30 AM MST  — technology
+    - cron: "50 15 * * *"  # 8:50 AM MST  — sports
+    - cron: "10 16 * * *"  # 9:10 AM MST  — science
+    # After 4:00 PM MST pipeline (23:00 UTC):
+    - cron: "50 23 * * *"  # 4:50 PM MST  — world
+    - cron: "10 0 * * *"   # 5:10 PM MST  — business
+    - cron: "30 0 * * *"   # 5:30 PM MST  — technology
+    - cron: "50 0 * * *"   # 5:50 PM MST  — sports
+    - cron: "10 1 * * *"   # 6:10 PM MST  — science
+    # After 8:00 PM MST pipeline (03:00 UTC):
+    - cron: "50 3 * * *"   # 8:50 PM MST  — world
+    - cron: "10 4 * * *"   # 9:10 PM MST  — business
+    - cron: "30 4 * * *"   # 9:30 PM MST  — technology
+    - cron: "50 4 * * *"   # 9:50 PM MST  — sports
+    - cron: "10 5 * * *"   # 10:10 PM MST — science
 
 jobs:
   post-tweet:
@@ -42,11 +55,11 @@ jobs:
           else
             # Map cron expression to category key (immune to runner delay)
             case "${{ github.event.schedule }}" in
-              "0 15 * * *")  echo "key=world" >> "$GITHUB_OUTPUT" ;;
-              "20 15 * * *") echo "key=business" >> "$GITHUB_OUTPUT" ;;
-              "40 15 * * *") echo "key=technology" >> "$GITHUB_OUTPUT" ;;
-              "0 16 * * *")  echo "key=sports" >> "$GITHUB_OUTPUT" ;;
-              "20 16 * * *") echo "key=science" >> "$GITHUB_OUTPUT" ;;
+              "50 14 * * *"|"50 23 * * *"|"50 3 * * *")  echo "key=world" >> "$GITHUB_OUTPUT" ;;
+              "10 15 * * *"|"10 0 * * *"|"10 4 * * *")   echo "key=business" >> "$GITHUB_OUTPUT" ;;
+              "30 15 * * *"|"30 0 * * *"|"30 4 * * *")   echo "key=technology" >> "$GITHUB_OUTPUT" ;;
+              "50 15 * * *"|"50 0 * * *"|"50 4 * * *")   echo "key=sports" >> "$GITHUB_OUTPUT" ;;
+              "10 16 * * *"|"10 1 * * *"|"10 5 * * *")   echo "key=science" >> "$GITHUB_OUTPUT" ;;
               *) echo "ERROR: unknown schedule '${{ github.event.schedule }}'"; exit 1 ;;
             esac
           fi
