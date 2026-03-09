@@ -183,8 +183,7 @@ body {
 .nav-overlay {
   display: none;
   position: fixed; inset: 0;
-  background: rgba(0,0,0,.55);
-  backdrop-filter: blur(3px);
+  background: rgba(0,0,0,.60);
   z-index: 49;
 }
 .nav-overlay.visible { display: block; }
