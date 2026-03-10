@@ -326,10 +326,10 @@ def main() -> int:
     landing_pages = publisher.write_category_landing_pages(date_key, daily_report)
     print(f"Wrote {len(landing_pages)} category landing pages")
 
-    sitemap_path = publisher.write_sitemap()
+    sitemap_path = publisher.write_sitemap(base_url=PublisherAgent.BASE_URL)
     print(f"Wrote sitemap: {sitemap_path}")
 
-    feeds = publisher.write_rss_feeds(date_key, daily_report)
+    feeds = publisher.write_rss_feeds(date_key, daily_report, base_url=PublisherAgent.BASE_URL)
     print(f"Wrote {len(feeds)} RSS feeds")
 
     print(f"Saved daily report to: {out_path}")
