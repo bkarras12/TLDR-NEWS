@@ -230,6 +230,18 @@ class PublisherAgent:
                 if len(parts) >= 3:
                     body = parts[2].strip()
 
+            # Extract first sentence for meta description
+            first_sentence = title
+            for line in body.split("\n"):
+                line = line.strip()
+                if line and not line.startswith("#"):
+                    # Take first ~160 chars ending at a sentence boundary
+                    if ". " in line[:200]:
+                        first_sentence = line[:line.index(". ", 0, 200) + 1]
+                    else:
+                        first_sentence = line[:160]
+                    break
+
             # Convert markdown to simple HTML
             body_html = self._md_to_html(body)
 
@@ -242,22 +254,22 @@ class PublisherAgent:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{e(title)} — TL;DR News</title>
-  <meta name="description" content="{e(title)}">
+  <meta name="description" content="{e(first_sentence)}">
   <meta name="robots" content="index, follow, max-snippet:-1">
   <link rel="canonical" href="{e(page_url)}">
   <meta property="og:title" content="{e(title)}">
-  <meta property="og:description" content="{e(title)}">
+  <meta property="og:description" content="{e(first_sentence)}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{e(page_url)}">
   <meta property="og:site_name" content="TL;DR News">
-  <meta property="og:image" content="{self.BASE_URL}news/tldr_logo.png">
+  <meta property="og:image" content="{self.BASE_URL}news/og-image.png">
   <meta property="article:published_time" content="{e(date)}">
   <meta property="article:section" content="{e(category.title())}">
   <meta property="article:author" content="{e(author)}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{e(title)}">
-  <meta name="twitter:description" content="{e(title)}">
-  <meta name="twitter:image" content="{self.BASE_URL}news/tldr_logo.png">
+  <meta name="twitter:description" content="{e(first_sentence)}">
+  <meta name="twitter:image" content="{self.BASE_URL}news/og-image.png">
   <script type="application/ld+json">
 {{
   "@context": "https://schema.org",
@@ -413,7 +425,7 @@ class PublisherAgent:
             "dateModified": date_key,
             "description": meta_desc,
             "articleSection": title,
-            "image": f"{self.BASE_URL}news/tldr_logo.png",
+            "image": f"{self.BASE_URL}news/og-image.png",
             "author": {
                 "@type": "Organization",
                 "name": "TL;DR News AI",
@@ -425,7 +437,7 @@ class PublisherAgent:
                 "url": self.BASE_URL,
                 "logo": {
                     "@type": "ImageObject",
-                    "url": f"{self.BASE_URL}news/tldr_logo.png",
+                    "url": f"{self.BASE_URL}news/og-image.png",
                 },
             },
             "mainEntityOfPage": {
@@ -533,11 +545,11 @@ class PublisherAgent:
             f'  <meta property="article:published_time" content="{e(date_key)}">\n'
             f'  <meta property="article:section" content="{e(title)}">\n'
             f'  <meta property="article:author" content="TL;DR News AI">\n'
-            f'  <meta property="og:image" content="{self.BASE_URL}news/tldr_logo.png">\n'
+            f'  <meta property="og:image" content="{self.BASE_URL}news/og-image.png">\n'
             f'  <meta name="twitter:card" content="summary_large_image">\n'
             f'  <meta name="twitter:title" content="{e(page_title)}">\n'
             f'  <meta name="twitter:description" content="{e(meta_desc)}">\n'
-            f'  <meta name="twitter:image" content="{self.BASE_URL}news/tldr_logo.png">\n'
+            f'  <meta name="twitter:image" content="{self.BASE_URL}news/og-image.png">\n'
         )
 
         # Related topics as keyword-rich H2 sections
@@ -689,11 +701,11 @@ class PublisherAgent:
   <meta property="og:type" content="website">
   <meta property="og:url" content="{e(idx_url)}">
   <meta property="og:site_name" content="TL;DR News">
-  <meta property="og:image" content="{self.BASE_URL}news/tldr_logo.png">
+  <meta property="og:image" content="{self.BASE_URL}news/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Daily News Summary — {e(date_key)}">
   <meta name="twitter:description" content="{e(idx_desc)}">
-  <meta name="twitter:image" content="{self.BASE_URL}news/tldr_logo.png">
+  <meta name="twitter:image" content="{self.BASE_URL}news/og-image.png">
   <link rel="canonical" href="{e(idx_url)}">
   <link rel="alternate" type="application/rss+xml" title="TL;DR News" href="../feeds/all.xml">
   <script type="application/ld+json">

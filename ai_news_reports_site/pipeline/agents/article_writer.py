@@ -32,6 +32,7 @@ class ArticleWriterAgent:
         for cat_key, cat_data in categories.items():
             title = cat_data.get("title", cat_key)
             ai = cat_data.get("ai_report", {})
+            sent = cat_data.get("sentiment", {})
             summary = ai.get("summary", "")
             themes = ai.get("key_themes", [])
             headlines = []
@@ -45,8 +46,11 @@ class ArticleWriterAgent:
             for nh in ai.get("notable_headlines", [])[:5]:
                 notable.append(f"  - {nh.get('headline', '')}: {nh.get('why_it_matters', '')}")
 
+            sentiment_line = f"Sentiment: {sent.get('label', 'N/A')} ({sent.get('score', 'N/A')})"
+
             prompt_sections.append(
                 f"## {title}\n"
+                f"{sentiment_line}\n"
                 f"Summary: {summary}\n"
                 f"Key themes: {', '.join(themes)}\n"
                 f"Headlines:\n" + "\n".join(headlines) + "\n"
@@ -56,26 +60,40 @@ class ArticleWriterAgent:
         report_blob = "\n\n".join(prompt_sections)
 
         system = (
-            "You are a sharp, engaging news writer for TL;DR News. Write a daily roundup article "
+            "You are a sharp, engaging news analyst for TL;DR News. Write a daily roundup article "
             "that synthesizes the day's news across all categories into one cohesive, readable piece. "
+            "Your unique value is connecting dots that single-source outlets miss.\n\n"
             "Your writing style is:\n"
             "- Conversational but authoritative, like a well-informed friend briefing you\n"
             "- Concrete and specific — use actual names, numbers, and details from the headlines\n"
             "- Analytical — don't just list what happened, explain why it matters and how stories connect\n"
+            "- Cross-category — actively look for how a business story impacts tech, how world events affect sports, etc.\n"
             "- Efficient — every sentence earns its place\n\n"
+            "IMPORTANT — What makes this article unique (not available from any single news source):\n"
+            "- CROSS-CATEGORY ANALYSIS: Explicitly connect stories across different categories. "
+            "If oil prices (business) are driven by geopolitics (world), say so. If a tech regulation affects business, connect them.\n"
+            "- SENTIMENT CONTEXT: Reference the overall sentiment for each category naturally. "
+            "E.g., 'The business category skewed heavily negative today, driven by...' or 'In a rare positive day for world news...'\n"
+            "- PATTERN RECOGNITION: Note when today's stories continue or break from recent trends.\n\n"
             "Format rules:\n"
             "- Output ONLY the markdown body (no frontmatter, no title — those are added separately)\n"
-            "- Use ## for section headings\n"
-            "- Write 800-1500 words\n"
+            "- Use ## for section headings — organize by THEME, not by category. Group related stories together.\n"
+            "- Write 1000-1800 words\n"
             "- Open with a punchy 2-3 sentence lede that captures the day's biggest themes\n"
-            "- Group related stories across categories when they connect\n"
-            "- End with a short 'Looking Ahead' section\n"
+            "- Include a '## The Bigger Picture' section that explicitly maps connections across categories\n"
+            "- End with a short '## Looking Ahead' section\n"
             "- Do not invent facts beyond what the headlines and summaries provide\n"
             "- Do not use bullet points — write in flowing paragraphs"
         )
 
+        trending = daily_report.get("trending_topics", [])
+        trending_line = ""
+        if trending:
+            trending_line = f"\nTRENDING TOPICS (appearing across multiple categories): {', '.join(trending[:8])}\n"
+
         user = (
-            f"Write today's daily roundup article for {date_key}.\n\n"
+            f"Write today's daily roundup article for {date_key}.\n"
+            f"{trending_line}\n"
             f"Here is the full report data across all categories:\n\n{report_blob}"
         )
 
