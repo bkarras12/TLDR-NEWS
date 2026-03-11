@@ -1,6 +1,6 @@
 {
   "date": "2026-03-11",
-  "generated_at_utc": "2026-03-11T23:11:42Z",
+  "generated_at_utc": "2026-03-11T23:57:59Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -18,9 +18,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3519,
+        "score": -0.311,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.587, dampened ×0.6 → -0.3519). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.518, dampened ×0.6 → -0.3110). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -42,6 +42,13 @@
           "url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 11 Mar 2026 16:00:34 GMT",
           "summary": "Iranians say they are sheltering at home and rarely venturing out on near-empty streets as the US-Israeli bombing campaign continues.",
+          "source": "BBC News"
+        },
+        {
+          "title": "China's biggest political meeting is ending - what have we learned?",
+          "url": "https://www.bbc.com/news/articles/cvg80pedxeyo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Mar 2026 23:03:12 GMT",
+          "summary": "BBC correspondents give us their biggest takeaways from China's National People's Congress.",
           "source": "BBC News"
         },
         {
@@ -99,84 +106,78 @@
           "published": "Wed, 11 Mar 2026 10:31:57 GMT",
           "summary": "Bellarmine Mugabe will negotiate a plea deal after being accused of attempted murder and other charges in South Africa.",
           "source": "BBC News"
-        },
-        {
-          "title": "Large WW2 bomb defused after Dresden evacuated",
-          "url": "https://www.bbc.com/news/articles/c1781gr5n9go?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Mar 2026 15:55:47 GMT",
-          "summary": "The city's biggest ever evacuation comes after the British flying bomb was discovered near a collapsed bridge.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The G7 nations have agreed to release emergency oil reserves in response to rising prices amid ongoing conflicts in the Middle East.",
-        "summary": "Today's headlines reflect a series of escalating global tensions, particularly in the Middle East, where the US-Israel war with Iran is impacting oil prices and regional stability. The G7's decision to release emergency oil reserves highlights the economic ramifications of these conflicts. Meanwhile, violence in the West Bank and drone strikes in the DR Congo further illustrate the widespread instability. Additionally, diplomatic tensions are evident with the new US ambassador to South Africa facing backlash over comments related to the country's apartheid history.",
+        "key_takeaway": "Global tensions rise as the US-Israel conflict escalates, prompting emergency oil reserve releases and increased violence in the West Bank.",
+        "summary": "Today's headlines reflect a world grappling with escalating conflicts, particularly in the Middle East, where the US-Israel war with Iran has led to significant geopolitical and humanitarian concerns. The G7's decision to release emergency oil reserves highlights the economic impact of these tensions, while reports from Iran reveal the struggles of civilians amidst ongoing violence. In addition, international responses to violence in the West Bank and incidents involving foreign diplomats underscore the broader implications of these conflicts.",
         "key_themes": [
-          "Middle East conflict updates",
+          "US-Israel conflict implications",
           "G7 oil reserve release",
+          "humanitarian impact in Iran",
           "West Bank violence",
-          "US diplomatic relations",
-          "DR Congo drone strikes"
+          "international diplomatic tensions"
         ],
         "notable_headlines": [
           {
             "headline": "Countries agree to record release of emergency oil reserves as prices surge",
-            "why_it_matters": "This decision by the G7 reflects the economic impact of the ongoing US-Israel war with Iran, aiming to stabilize oil prices.",
-            "signal": "Opportunity"
+            "why_it_matters": "This decision reflects the economic ramifications of the ongoing US-Israel conflict and aims to stabilize rising oil prices.",
+            "signal": "Risk"
           },
           {
             "headline": "'Even under missiles we carry on living' - how young Iranians are coping with war",
-            "why_it_matters": "This highlights the human impact of the conflict, showcasing resilience amid adversity in Iran.",
+            "why_it_matters": "This highlights the human cost of the conflict and the resilience of civilians in war-torn areas.",
             "signal": "Risk"
           },
           {
             "headline": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
-            "why_it_matters": "The international community's response to violence in the West Bank indicates rising tensions and potential for further conflict.",
+            "why_it_matters": "International calls for restraint indicate rising global concern over the humanitarian situation in the West Bank.",
             "signal": "Risk"
           },
           {
             "headline": "Three brothers arrested after explosion at US embassy in Oslo",
-            "why_it_matters": "The investigation into potential foreign involvement raises concerns about security and international relations.",
-            "signal": "Unclear"
+            "why_it_matters": "This incident raises concerns about security and potential foreign involvement in attacks on diplomatic missions.",
+            "signal": "Risk"
           },
           {
             "headline": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
-            "why_it_matters": "The targeting of expatriates and aid workers underscores the dangers in conflict zones and the humanitarian crisis.",
+            "why_it_matters": "The targeting of aid workers underscores the dangers faced by humanitarian efforts in conflict zones.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the impact of G7 oil reserve release on global markets",
-            "Continued coverage of the US-Israel conflict and its implications",
-            "Updates on the situation in the West Bank and international responses"
+            "Monitoring developments in the US-Israel conflict and its impact on global oil prices.",
+            "Observing international diplomatic responses to violence in the West Bank.",
+            "Following updates on the situation of civilians in Iran amidst ongoing conflict."
           ],
           "next_1_4_weeks": [
-            "Potential escalation of violence in the Middle East",
-            "Further developments in US diplomatic relations with South Africa",
-            "Humanitarian responses to the crisis in DR Congo"
+            "Anticipating further international discussions regarding the humanitarian crisis in Iran and the West Bank.",
+            "Watching for potential changes in global oil markets due to geopolitical tensions.",
+            "Evaluating the implications of recent violence on diplomatic relations in Europe."
           ],
           "watch_list": [
-            "Oil price fluctuations",
-            "Middle East conflict developments",
-            "International diplomatic tensions",
-            "Humanitarian aid efforts in conflict zones"
+            "US-Israel conflict developments",
+            "G7 oil reserve strategies",
+            "Humanitarian conditions in Iran and the West Bank",
+            "International diplomatic responses to violence",
+            "Security measures for embassies worldwide"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and may change rapidly.",
-          "Economic impacts of oil reserve releases are uncertain and depend on market reactions."
+          "The situation in the Middle East is fluid and may change rapidly, affecting the accuracy of current assessments.",
+          "Sentiment analysis indicates a negative tone, which may influence public perception and policy responses."
         ],
         "related_topics": [
-          "What are the latest developments in the US-Israel conflict?",
-          "How are global oil prices affected by geopolitical tensions?",
+          "What are the implications of the US-Israel conflict?",
+          "How are civilians in Iran coping with war?",
           "What is the current situation in the West Bank?",
-          "Updates on the humanitarian crisis in DR Congo",
-          "Diplomatic relations between the US and South Africa"
+          "What actions are the G7 taking regarding oil prices?",
+          "What security measures are in place for embassies?"
         ]
       },
-      "tweet_text": "From calls for uprising to oil reserves release, the world is on edge—here’s what you need to know today.\n\nWorld Sentiment: Negative (-0.35)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Surge #Three #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From calls for uprisings to oil crises, the world is on edge—discover the headlines shaping our future.\n\nWorld Sentiment: Negative (-0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Surge #Three #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -278,8 +279,8 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The IEA has ordered the largest release of oil stockpiles in response to market volatility caused by the ongoing Iran war.",
-        "summary": "Today's business news highlights significant developments including the IEA's unprecedented oil stockpile release, a major strike in the US meatpacking industry, and concerns over inflation and market stability amid geopolitical tensions.",
+        "key_takeaway": "The IEA has ordered the largest-ever release of oil stockpiles to stabilize prices amid market volatility caused by the ongoing Iran war.",
+        "summary": "Today's business news highlights significant developments including the IEA's unprecedented oil stockpile release, a major labor strike in the US meatpacking industry, and concerns over inflation and economic stability due to the Iran conflict.",
         "key_themes": [
           "oil market volatility",
           "US meatpacking strike",
@@ -290,7 +291,7 @@
         "notable_headlines": [
           {
             "headline": "IEA orders largest ever release of stockpiled oil to reduce crude price",
-            "why_it_matters": "This release aims to stabilize oil prices amid market volatility caused by the Iran conflict.",
+            "why_it_matters": "This unprecedented release aims to stabilize oil prices amid geopolitical tensions affecting supply.",
             "signal": "Risk"
           },
           {
@@ -300,53 +301,52 @@
           },
           {
             "headline": "US inflation stayed flat at 2.4% in February before effects of war on Iran kicked in",
-            "why_it_matters": "Inflation data may not yet reflect the economic impacts of the Iran war, raising concerns about future price increases.",
+            "why_it_matters": "The inflation data does not yet reflect the potential economic fallout from the Iran conflict, raising concerns about future price increases.",
             "signal": "Unclear"
           },
           {
             "headline": "Aramco warns of oil market ‘catastrophe’ unless strait of Hormuz reopens soon",
-            "why_it_matters": "The closure of this critical shipping route could lead to severe disruptions in global oil supply.",
+            "why_it_matters": "The closure of this critical shipping route poses a significant risk to global oil supply and prices.",
             "signal": "Risk"
           },
           {
             "headline": "Amazon is determined to use AI for everything – even when it slows down work",
-            "why_it_matters": "The push for AI integration at Amazon raises questions about efficiency and employee workload.",
+            "why_it_matters": "The push for AI integration raises questions about productivity and employee workload in tech environments.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor oil price fluctuations following the IEA's stockpile release.",
-            "Watch for developments in the US meatpacking strike and its impact on supply chains.",
-            "Keep an eye on inflation reports as the effects of the Iran war begin to manifest."
+            "Monitor oil price reactions to IEA stockpile release",
+            "Watch for developments in the US meatpacking strike",
+            "Observe inflation trends as war impacts economic data"
           ],
           "next_1_4_weeks": [
-            "Assess the long-term implications of the Iran conflict on global oil prices and inflation.",
-            "Evaluate the outcomes of the meatpacking strike and potential labor movements in other sectors.",
-            "Observe how companies like Amazon adapt their AI strategies in response to employee feedback."
+            "Evaluate long-term effects of the Iran war on global oil markets",
+            "Assess the impact of labor strikes on US food supply chains",
+            "Track inflation rates as geopolitical tensions evolve"
           ],
           "watch_list": [
-            "Oil price trends and geopolitical developments in the Middle East.",
-            "Labor movements in the US and their impact on various industries.",
-            "Inflation rates and economic forecasts amid global tensions.",
-            "Technological advancements and their implications for corporate efficiency."
+            "Oil price fluctuations",
+            "Labor movements in the US",
+            "Inflation data releases",
+            "AI implementation in corporate settings"
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The situation in Iran remains fluid and could change rapidly, affecting market conditions.",
-          "Labor strikes can have unpredictable outcomes on supply chains and pricing.",
-          "Inflation data may lag behind real-time economic changes due to reporting delays."
+          "Labor strikes can have unpredictable impacts on supply chains and pricing."
         ],
         "related_topics": [
-          "What are the latest developments in the oil market?",
-          "How is the Iran war affecting global economies?",
-          "What is the impact of labor strikes in the US?",
-          "How is inflation trending in the US?",
-          "What role does AI play in corporate environments today?"
+          "What are the implications of the IEA's oil release",
+          "How will the US meatpacking strike affect the industry",
+          "What is the current state of US inflation",
+          "Impact of the Iran war on global markets",
+          "How is AI changing corporate work environments"
         ]
       },
-      "tweet_text": "Oil prices on the brink as IEA unleashes a historic stockpile release—will it be enough to stave off...\n\nBusiness Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#4000 #Amazon #Antitrust #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Massive oil release, striking meatpackers, and inflation on pause—business news is heating up like never...\n\nBusiness Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#4000 #Amazon #Antitrust #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -434,75 +434,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Grammarly faces a lawsuit over unauthorized use of expert identities, while Microsoft announces new features for Windows and Xbox.",
-        "summary": "Today's technology news highlights a lawsuit against Grammarly for allegedly using real experts' identities without permission, the potential features of Apple's rumored foldable iPhone, and Microsoft's plans for integrating Xbox features into Windows 11. Additionally, Valve is preparing to contest a lawsuit regarding loot boxes, and OpenAI's Sora video generator may soon be integrated into ChatGPT. Humble Bundle has launched a horror game collection, and AltStore PAL is expanding its reach into the fediverse.",
+        "key_takeaway": "Grammarly faces a lawsuit over unauthorized use of expert identities, while Microsoft announces significant updates for Xbox and Windows 11.",
+        "summary": "Today's technology news highlights a lawsuit against Grammarly for using real experts' identities in its AI features without permission. Microsoft is set to enhance Windows 11 with an 'Xbox mode' and has revealed that its next-generation console, Project Helix, will not reach alpha until 2027. Additionally, OpenAI's Sora video generator may soon be integrated into ChatGPT, and AltStore PAL is expanding its presence in the fediverse.",
         "key_themes": [
-          "Grammarly lawsuit over AI",
-          "Apple foldable iPhone features",
-          "Microsoft Xbox integration",
-          "OpenAI Sora video generator",
-          "Humble Bundle horror games",
-          "Valve loot box lawsuit"
+          "Grammarly lawsuit news",
+          "Microsoft Xbox updates",
+          "OpenAI Sora integration",
+          "AltStore PAL fediverse expansion",
+          "iPhone Fold rumors"
         ],
         "notable_headlines": [
           {
             "headline": "One of Grammarly’s ‘experts’ is suing the company over its identity-stealing AI feature",
-            "why_it_matters": "This lawsuit raises significant questions about AI ethics and the use of personal identities without consent.",
+            "why_it_matters": "This lawsuit raises significant questions about the ethical use of AI and consent in technology.",
             "signal": "Risk"
           },
           {
-            "headline": "iPhone Fold rumor: iPad-like multitasking, but no iPad apps and no Face ID",
-            "why_it_matters": "The rumored features could redefine user experience for foldable devices, impacting Apple's market strategy.",
+            "headline": "Grammarly says it will stop using AI to clone experts without permission",
+            "why_it_matters": "The decision to disable the feature reflects a response to legal and ethical concerns regarding AI practices.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Valve says it will fight New York's loot box lawsuit",
-            "why_it_matters": "Valve's response could set a precedent for how gaming companies handle legal challenges regarding in-game purchases.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Microsoft’s ‘Xbox mode’ is coming to every Windows 11 PC",
-            "why_it_matters": "This integration could enhance gaming experiences on Windows and strengthen Microsoft's ecosystem.",
+            "why_it_matters": "This integration could enhance the gaming experience for Windows users and strengthen the Xbox ecosystem.",
             "signal": "Opportunity"
           },
           {
             "headline": "OpenAI’s Sora video generator is reportedly coming to ChatGPT",
-            "why_it_matters": "Integrating video generation into ChatGPT could significantly enhance user engagement and functionality.",
+            "why_it_matters": "Integrating Sora into ChatGPT could significantly enhance the platform's capabilities and user engagement.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "Microsoft’s next Xbox, Project Helix, won’t reach alpha until 2027",
+            "why_it_matters": "The timeline for Project Helix indicates a long wait for gamers anticipating next-gen features.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Grammarly lawsuit and its implications for AI ethics.",
-            "Watch for further details on the rumored features of the iPhone Fold.",
-            "Expect updates from Microsoft regarding the Xbox mode rollout."
+            "Monitoring developments in the Grammarly lawsuit and its implications for AI ethics.",
+            "Awaiting further details on Microsoft's Xbox mode rollout for Windows 11.",
+            "Expecting reactions from the gaming community regarding Project Helix's timeline."
           ],
           "next_1_4_weeks": [
-            "Follow the progress of Valve's legal battle over loot boxes.",
-            "Anticipate announcements from OpenAI regarding Sora's integration into ChatGPT.",
-            "Keep an eye on the response from the gaming community to Microsoft's Xbox plans."
+            "Tracking updates on the integration of Sora into ChatGPT and its impact on user experience.",
+            "Observing market reactions to the changes in the gaming landscape with Microsoft's announcements.",
+            "Following any legal developments related to the Grammarly lawsuit."
           ],
           "watch_list": [
-            "Grammarly's response to the lawsuit and any changes to its AI features.",
-            "Apple's official announcements regarding the foldable iPhone.",
-            "Updates on the gaming industry regulations related to loot boxes.",
-            "Microsoft's developments in the Xbox and Windows integration."
+            "Grammarly's response to the lawsuit and potential changes in AI practices.",
+            "Microsoft's announcements at upcoming gaming events and their implications for consumers.",
+            "OpenAI's updates regarding Sora and ChatGPT integration.",
+            "Trends in alternative app stores and their role in the fediverse."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The outcomes of ongoing lawsuits are uncertain and could change rapidly.",
-          "Rumors about the iPhone Fold are not confirmed and may evolve."
+          "The legal outcomes of the Grammarly lawsuit are uncertain and could evolve.",
+          "Microsoft's future plans may change based on market conditions and consumer feedback.",
+          "The integration of Sora into ChatGPT is still in the reporting phase and may not be finalized."
         ],
         "related_topics": [
           "What are the latest developments in AI ethics?",
-          "What features are expected in the upcoming foldable iPhone?",
-          "How is Microsoft integrating Xbox with Windows 11?",
-          "What is the status of the Valve loot box lawsuit?",
-          "What new features are coming to ChatGPT?"
+          "How is Microsoft enhancing Windows 11 for gamers?",
+          "What features can we expect from the next Xbox?",
+          "What is the future of alternative app stores?",
+          "Updates on OpenAI's Sora video generator integration."
         ]
       },
-      "tweet_text": "Grammarly faces backlash as an 'expert' sues over identity-stealing AI—will tech giants finally be held...\n\nTechnology Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Experts #Xbox #2027 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Grammarly's AI faces a lawsuit—has the tech gone too far in stealing identities?\n\nTechnology Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Experts #Xbox #2027 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -513,11 +513,74 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0208,
+        "score": -0.036,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.035, dampened ×0.6 → -0.0208). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.060, dampened ×0.6 → -0.0360). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Hurley out after 11 seasons at Arizona State",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48178095/arizona-state-renew-contract-coach-bobby-hurley",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "Arizona State will not renew the contract of men's basketball coach Bobby Hurley, the school announced Wednesday, hours after it was eliminated from the Big 12 tournament in a blowout loss to Iowa State.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Cowboys trade DT Odighizuwa to 49ers for pick",
+          "url": "https://www.espn.com/nfl/story/_/id/48177910/sources-cowboys-trade-dt-odighizuwa-49ers-3rd-round-pick",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "The Cowboys have traded defensive tackle Osa Odighizuwa to the 49ers in exchange for a 2026 third-round draft pick, and defensive tackle Solomon Thomas to the Titans in a seventh-round pick swap.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ravens GM 'gutted' that Crosby deal fell through",
+          "url": "https://www.espn.com/nfl/story/_/id/48178401/ravens-decosta-gutted-maxx-crosby-trade-fell-through",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "Ravens GM Eric DeCosta got emotional at times in explaining it was a difficult but necessary decision to rescind the trade with the Raiders for Maxx Crosby, saying, \"Nobody's more upset about this than me.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ex-Fins OLB Chubb gets 3-year deal with Bills",
+          "url": "https://www.espn.com/nfl/story/_/id/48176802/ex-dolphins-olb-bradley-chubb-gets-3-year-deal-bills",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "Pass rusher Bradley Chubb reached agreement on a three-year, $43.5 million deal worth up to $52.5 million that includes $29 million guaranteed with the Bills, agent Erik Burkhardt told ESPN's Adam Schefter.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Madrid in awe of one of 'best on planet' Valverde",
+          "url": "https://www.espn.com/soccer/story/_/id/48178057/real-madrid-awe-best-planet-federico-valverde",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "Trent Alexander-Arnold called Federico Valverde \"the most underrated footballer on the planet\" while coach Álvaro Arbeloa called him \"a benchmark\" after the midfielder's hat trick in Real Madrid's 3-0 win over Manchester City on Wednesday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Court filing: Jackson feared Pearce 'will kill me'",
+          "url": "https://www.espn.com/nfl/story/_/id/48177175/wnba-player-rickea-jackson-filed-petition-protective-order-vs-falcons-james-pearce-jr",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "WNBA player Rickea Jackson filed a petition for protection against her ex-boyfriend, Falcons player James Pearce Jr., saying she was \"in fear of my life\" and, if the court didn't intervene, she believed \"James will kill me,\" according to court documents.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ex-assistant sues Michigan over Stalions scandal",
+          "url": "https://www.espn.com/college-football/story/_/id/48177035/partridge-sues-michigan-firing-stalions-scandal",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "Former Michigan assistant Chris Partridge sued the university, its board and AD Warde Manuel, alleging he was made a \"scapegoat\" when he was fired during the Wolverines' 2023 sign-stealing scandal.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Chelsea's Neto sorry for shoving PSG ball boy",
+          "url": "https://www.espn.com/soccer/story/_/id/48177761/chelsea-pedro-neto-shove-ball-boy-psg-champions-league",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "Chelsea's Pedro Neto has apologised after shoving a ball boy late in his team's 5-2 loss to Paris Saint-Germain.",
+          "source": "ESPN"
+        },
+        {
+          "title": "🏆 NFL free agency awards: Best and worst moves",
+          "url": "https://www.espn.com/nfl/story/_/id/48147334/2026-nfl-free-agency-awards-superlatives-best-worst-surprising-moves-contracts",
+          "published": "Wed, 11 Mar 2026 19:41:08 EST",
+          "summary": "The edge rush market exploded, the Titans called on old friends, Mike Evans landed in a new place, and two players were very particular about their contract numbers.",
+          "source": "ESPN"
+        },
         {
           "title": "Live tracking NFL free agency: Updates on signings, trades, cuts",
           "url": "https://www.espn.com/nfl/story/_/id/47899175/2026-nfl-free-agency-tracker-live-updates-signings-trades-cuts-contracts-rumors",
@@ -533,69 +596,6 @@
           "source": "ESPN"
         },
         {
-          "title": "Hurley out after 11 seasons at Arizona State",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48178095/arizona-state-renew-contract-coach-bobby-hurley",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "Arizona State will not renew the contract of men's basketball coach Bobby Hurley, the school announced on Wednesday, hours after it was eliminated from the Big 12 tournament in a 91-42 blowout to Iowa State.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: Cowboys trade DT Odighizuwa to 49ers",
-          "url": "https://www.espn.com/nfl/story/_/id/48177910/sources-cowboys-trade-dt-odighizuwa-49ers-3rd-round-pick",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "The Cowboys have traded defensive tackle Osa Odighizuwa to the 49ers in exchange for a 2026 third-round draft pick, sources told ESPN's Adam Schefter and Todd Archer.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Ex-Fins OLB Chubb gets 3-year deal with Bills",
-          "url": "https://www.espn.com/nfl/story/_/id/48176802/ex-dolphins-olb-bradley-chubb-gets-3-year-deal-bills",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "Pass rusher Bradley Chubb reached agreement on a three-year, $43.5 million deal worth up to $52.5 million that includes $29 million guaranteed with the Bills, agent Erik Burkhardt told ESPN's Adam Schefter.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Valverde's hat trick dazzles as Madrid dump City",
-          "url": "https://www.espn.com/soccer/report/_/gameId/401862645",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "Federico Valverde's stellar first-half hat trick was the catalyst as Real Madrid eased past Manchester City 3-0 in the first leg of their Champions League round-of-16 match Wednesday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Court filing: Jackson feared Pearce 'will kill me'",
-          "url": "https://www.espn.com/nfl/story/_/id/48177175/wnba-player-rickea-jackson-filed-petition-protective-order-vs-falcons-james-pearce-jr",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "WNBA player Rickea Jackson filed a petition for protection against her ex-boyfriend, Falcons player James Pearce Jr., saying she was \"in fear of my life\" and, if the court didn't intervene, she believed \"James will kill me,\" according to court documents.",
-          "source": "ESPN"
-        },
-        {
-          "title": "DT Hargrave stays in NFC North, joins Packers",
-          "url": "https://www.espn.com/nfl/story/_/id/48177102/dt-hargrave-stays-nfc-north-joins-packers-2-year-deal",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "Defensive tackle Javon Hargrave reached agreement Wednesday on a two-year, $23 million contract with the Packers, agent Drew Rosenhaus told ESPN's Adam Schefter.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Ex-assistant sues Michigan over Stalions scandal",
-          "url": "https://www.espn.com/college-football/story/_/id/48177035/partridge-sues-michigan-firing-stalions-scandal",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "Former Michigan assistant Chris Partridge sued the university, its board and AD Warde Manuel, alleging he was made a \"scapegoat\" when he was fired during the Wolverines' 2023 sign-stealing scandal.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Chelsea's Neto sorry for shoving PSG ball boy",
-          "url": "https://www.espn.com/soccer/story/_/id/48177761/chelsea-pedro-neto-shove-ball-boy-psg-champions-league",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "Chelsea's Pedro Neto has apologised after shoving a ball boy late in his team's 5-2 loss to Paris Saint-Germain.",
-          "source": "ESPN"
-        },
-        {
-          "title": "🏆 NFL free agency awards: Best and worst moves",
-          "url": "https://www.espn.com/nfl/story/_/id/48147334/2026-nfl-free-agency-awards-superlatives-best-worst-surprising-moves-contracts",
-          "published": "Wed, 11 Mar 2026 19:02:48 EST",
-          "summary": "The edge rush market exploded, the Titans called on old friends, Mike Evans landed in a new place, and two players were very particular about their contract numbers.",
-          "source": "ESPN"
-        },
-        {
           "title": "Men's Bracketology: What could Duke injuries mean for ACC tourney -- and overall seeding?",
           "url": "https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2026-march-madness-men-field-predictions",
           "published": "Wed, 11 Mar 2026 14:41:14 EST",
@@ -604,70 +604,72 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "NFL free agency is active with multiple trades and signings, while college basketball sees coaching changes and injury impacts ahead of tournament play.",
-        "summary": "Today's sports news highlights significant developments in NFL free agency, including trades and player signings, alongside coaching changes in college basketball and a notable Champions League match.",
+        "key_takeaway": "Arizona State men's basketball coach Bobby Hurley will not return after 11 seasons, while NFL teams are active in trades and free agency.",
+        "summary": "Today's sports news highlights significant changes in coaching and player trades across various leagues. Arizona State has parted ways with men's basketball coach Bobby Hurley following a disappointing tournament exit. In the NFL, the Cowboys traded defensive tackle Osa Odighizuwa to the 49ers, while the Ravens faced disappointment as a trade for Maxx Crosby fell through. Additionally, Bradley Chubb signed a lucrative deal with the Bills. Off the field, WNBA player Rickea Jackson filed a protective order against Falcons player James Pearce Jr., citing fears for her safety. In soccer, Chelsea's Pedro Neto apologized for an incident involving a ball boy during a match against PSG. The NFL free agency period continues to generate buzz with various signings and trades being tracked live.",
         "key_themes": [
-          "NFL free agency updates",
           "coaching changes in college basketball",
-          "Champions League results"
+          "NFL trade updates",
+          "WNBA player safety issues",
+          "soccer player controversies",
+          "NFL free agency news"
         ],
         "notable_headlines": [
           {
-            "headline": "Live tracking NFL free agency: Updates on signings, trades, cuts",
-            "why_it_matters": "This tracker provides real-time updates on player movements in the NFL, crucial for fans and analysts alike.",
-            "signal": "Opportunity"
-          },
-          {
             "headline": "Hurley out after 11 seasons at Arizona State",
-            "why_it_matters": "The decision to not renew Bobby Hurley's contract marks a significant shift for Arizona State's basketball program after a disappointing season.",
+            "why_it_matters": "This decision marks a significant shift for Arizona State's basketball program after a disappointing season.",
             "signal": "Risk"
           },
           {
-            "headline": "Valverde's hat trick dazzles as Madrid dump City",
-            "why_it_matters": "Real Madrid's strong performance in the Champions League sets a positive tone for their campaign, showcasing Valverde's talent.",
+            "headline": "Cowboys trade DT Odighizuwa to 49ers for pick",
+            "why_it_matters": "This trade reflects the Cowboys' strategy to reshape their roster ahead of the upcoming season.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Ex-assistant sues Michigan over Stalions scandal",
-            "why_it_matters": "This lawsuit could have implications for Michigan's football program and its handling of the sign-stealing controversy.",
+            "headline": "Ravens GM 'gutted' that Crosby deal fell through",
+            "why_it_matters": "The failed trade highlights the challenges teams face in negotiations during free agency.",
             "signal": "Risk"
           },
           {
-            "headline": "Chelsea's Neto sorry for shoving PSG ball boy",
-            "why_it_matters": "Neto's actions during a high-stakes match raise questions about player conduct and sportsmanship in professional soccer.",
+            "headline": "Ex-Fins OLB Chubb gets 3-year deal with Bills",
+            "why_it_matters": "Chubb's signing adds a strong defensive presence to the Bills, impacting their playoff aspirations.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Court filing: Jackson feared Pearce 'will kill me'",
+            "why_it_matters": "This alarming situation raises concerns about player safety and domestic violence in sports.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Continued updates on NFL free agency signings and trades are expected as teams finalize their rosters.",
-            "Further developments in college basketball as teams prepare for conference tournaments.",
-            "Potential fallout from coaching changes in college basketball may lead to more vacancies."
+            "Monitor reactions to Hurley's departure from Arizona State",
+            "Watch for further NFL trade announcements and signings",
+            "Follow updates on Rickea Jackson's protective order case"
           ],
           "next_1_4_weeks": [
-            "The NFL draft approaches, which will influence team strategies following free agency.",
-            "March Madness will dominate college basketball coverage, with injuries impacting team performance.",
-            "Champions League matches will continue, with teams vying for advancement in the tournament."
+            "Expect more coaching changes as college basketball seasons conclude",
+            "Anticipate further developments in NFL free agency and trades",
+            "Watch for updates on the ACC tournament and its implications for Duke"
           ],
           "watch_list": [
-            "Monitor NFL free agency for major signings and trades.",
-            "Watch for updates on college basketball injuries and their effects on tournament seeding.",
-            "Keep an eye on the Champions League results and player performances.",
-            "Follow the legal developments regarding the Michigan football scandal."
+            "Upcoming NCAA tournament matchups",
+            "NFL free agency trends",
+            "Player safety initiatives in professional sports",
+            "Impact of coaching changes on team performance"
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The sentiment score indicates a neutral tone overall, suggesting mixed reactions to the news.",
-          "Details on player contracts and trades may evolve as more information becomes available."
+          "Details on player safety issues are still developing and may evolve."
         ],
         "related_topics": [
-          "What are the latest NFL free agency updates?",
-          "How are coaching changes affecting college basketball?",
-          "What happened in the Champions League matches today?"
+          "What are the latest coaching changes in college basketball?",
+          "Updates on NFL trades and free agency",
+          "What are the implications of the WNBA protective order case?"
         ]
       },
-      "tweet_text": "NFL chaos reigns as trades heat up, legends move, and a shocking coaching exit shakes the foundations!\n\nSports Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trade #3year #49ers #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Major shake-ups in sports today: Hurley exits ASU, Cowboys trade, and a chilling court filing from Jackson....\n\nSports Sentiment: Neutral (-0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #3year #49ers #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -769,76 +771,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries range from ancient asteroid impacts to advancements in cancer treatment and crop yield enhancement.",
-        "summary": "Today's headlines highlight significant scientific advancements, including the confirmation of an ancient asteroid impact, a discovery that could enhance crop yields, and a new molecule for treating aggressive breast cancer. Other notable findings include the effects of THC on memory, the adaptability of marine microbes to warming oceans, and the potential discovery of a new mineral on Mars. Additionally, researchers have developed a method to create detailed 3D models of ants and uncovered insights into cosmic voids and dinosaur evolution.",
+        "key_takeaway": "Recent scientific discoveries range from ancient asteroid impacts to breakthroughs in cancer treatment and crop yield enhancement.",
+        "summary": "Today's science headlines cover a variety of topics, including the confirmation of an ancient asteroid impact in the North Sea, a discovery that could enhance crop yields through improved photosynthesis, and a study revealing THC's potential to create false memories. Additionally, researchers have found that ocean warming may benefit certain microbes, while advancements in 3D modeling of ants and the identification of a new mineral on Mars highlight ongoing explorations in biodiversity and planetary science. Other notable findings include a dinosaur fossil that challenges existing evolutionary theories, a link between colorblindness and bladder cancer mortality, and the development of a new aluminum alloy from scrap materials. Lastly, a new molecule shows promise in treating aggressive breast cancer.",
         "key_themes": [
-          "ancient asteroid impacts",
+          "asteroid impact North Sea",
           "crop yield enhancement",
-          "cancer treatment advancements",
-          "effects of THC on memory",
-          "marine microbe adaptability",
-          "new mineral discovery on Mars"
+          "THC false memories",
+          "marine nutrient cycles",
+          "new mineral Mars",
+          "breast cancer treatment breakthrough"
         ],
         "notable_headlines": [
           {
             "headline": "A massive asteroid hit the North Sea and triggered a 330-foot tsunami",
-            "why_it_matters": "This discovery resolves a long-standing debate about the Silverpit Crater and its implications for understanding ancient impacts on Earth.",
-            "signal": "Opportunity"
+            "why_it_matters": "This discovery resolves a long-standing debate about the formation of the Silverpit Crater and its implications for understanding ancient impacts on Earth.",
+            "signal": "Unclear"
           },
           {
             "headline": "Scientists discover tiny plant trick that could supercharge crop yields",
-            "why_it_matters": "This finding could lead to more efficient photosynthesis in crops, potentially addressing food security issues.",
+            "why_it_matters": "The finding could lead to genetically engineered crops that capture carbon dioxide more efficiently, addressing food security and climate change.",
             "signal": "Opportunity"
           },
           {
             "headline": "Cannabis study finds THC can create false memories",
-            "why_it_matters": "Understanding THC's impact on memory could influence public health policies and cannabis usage guidelines.",
+            "why_it_matters": "This research highlights the cognitive effects of THC, which may have implications for understanding memory and cannabis use.",
             "signal": "Risk"
           },
           {
             "headline": "Ocean warming may supercharge a tiny microbe that controls marine nutrients",
-            "why_it_matters": "The adaptability of this microbe could help sustain ocean productivity amid climate change.",
+            "why_it_matters": "The adaptability of this microbe could help sustain ocean productivity amid climate change, impacting marine ecosystems.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Scientists discover molecule that stops aggressive breast cancer in its tracks",
-            "why_it_matters": "This breakthrough could lead to new treatments for one of the most challenging forms of cancer.",
+            "headline": "Scientists may have discovered a brand-new mineral on Mars",
+            "why_it_matters": "Identifying new minerals on Mars enhances our understanding of the planet's geological history and potential for past life.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the implications of the asteroid impact on Earth's geological history is expected.",
-            "More studies on the efficiency of the newly discovered protein in crops may be released.",
-            "Research on THC's effects on memory may lead to new guidelines for cannabis consumption."
+            "Further analysis of the asteroid impact findings may be released.",
+            "More studies on the implications of the new crop yield enhancement technique are expected.",
+            "Research on THC's effects on memory may lead to new insights."
           ],
           "next_1_4_weeks": [
-            "Anticipated publications on the long-term effects of ocean warming on marine ecosystems.",
-            "Updates on the development of new cancer treatments based on the discovered molecule.",
-            "Potential announcements regarding the application of RidgeAlloy in automotive manufacturing."
+            "Anticipated publications on the implications of the new mineral discovery on Mars.",
+            "Further exploration of the link between colorblindness and bladder cancer may yield new health insights.",
+            "Updates on the development of the new aluminum alloy and its applications in the automotive industry."
           ],
           "watch_list": [
-            "Monitoring developments in cancer research related to the new molecule SU212.",
-            "Following up on the implications of the asteroid impact for Earth's history.",
-            "Observing advancements in agricultural biotechnology related to crop yield improvements.",
-            "Keeping track of new findings related to marine microbes and ocean health."
+            "Follow developments in cancer treatment research, especially regarding the new molecule for breast cancer.",
+            "Monitor studies on the effects of climate change on marine life and nutrient cycles.",
+            "Keep an eye on advancements in agricultural biotechnology related to crop yield improvements.",
+            "Watch for new findings related to the ancient asteroid impact and its geological significance."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The long-term effects of the newly discovered cancer treatment are still unknown.",
-          "The implications of the asteroid impact on current geological models require further study.",
-          "The adaptability of marine microbes to warming conditions may vary across different species."
+          "The mixed sentiment score indicates varying levels of optimism and concern across different headlines.",
+          "Some findings, particularly in cancer research and environmental science, may require further validation."
         ],
         "related_topics": [
-          "What are the latest discoveries in cancer research?",
-          "How does THC affect memory and cognition?",
-          "What advancements are being made in agricultural biotechnology?",
-          "What new insights have been found about ancient asteroid impacts?",
-          "How are marine microbes adapting to climate change?"
+          "What are the latest discoveries in cancer treatment?",
+          "How does THC affect memory?",
+          "What impact did the asteroid have on Earth?",
+          "What are the implications of ocean warming on marine life?",
+          "What new minerals have been found on Mars?"
         ]
       },
-      "tweet_text": "A colossal asteroid just triggered a 330-foot tsunami—are we prepared for the next big cosmic shock?\n\nScience Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Create #Supercharge #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A massive asteroid triggered a tsunami, while scientists unlock secrets to supercharged crops and...\n\nScience Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Create #Supercharge #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
