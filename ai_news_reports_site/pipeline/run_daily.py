@@ -345,6 +345,10 @@ def main() -> int:
     else:
         print("Skipped article generation (no client or generation failed)")
 
+    # Generate static HTML for all articles
+    article_pages = publisher.write_article_pages()
+    print(f"Wrote {len(article_pages)} static article HTML pages")
+
     print(f"Saved daily report to: {out_path}")
     return 0
 

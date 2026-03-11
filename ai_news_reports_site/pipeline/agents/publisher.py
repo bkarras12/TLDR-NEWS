@@ -105,6 +105,20 @@ class PublisherAgent:
                 if date == idx.get("latest_date"):
                     urls.append(self._sitemap_url(base_url, f"news/{cat}/index.html", lastmod=date))
 
+        # Articles pages
+        urls.append(self._sitemap_url(base_url, "news/articles.html"))
+        articles_index_path = self.site_root / "news" / "articles" / "articles_index.json"
+        if articles_index_path.exists():
+            try:
+                articles = json.loads(articles_index_path.read_text(encoding="utf-8"))
+                for article in articles:
+                    slug = article.get("slug", "")
+                    date = article.get("date", "")
+                    if slug:
+                        urls.append(self._sitemap_url(base_url, f"news/articles/{slug}.html", lastmod=date))
+            except Exception:
+                pass
+
         xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
         xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         xml += "\n".join(urls)
@@ -155,6 +169,152 @@ class PublisherAgent:
             written.append(cat_path)
 
         return written
+
+    def write_article_pages(self) -> List[Path]:
+        """Generate static HTML pages for all articles in the articles index."""
+        articles_dir = self.site_root / "news" / "articles"
+        index_path = articles_dir / "articles_index.json"
+        if not index_path.exists():
+            return []
+
+        try:
+            articles = json.loads(index_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, Exception):
+            return []
+
+        written: List[Path] = []
+        for article in articles:
+            slug = article.get("slug", "")
+            if not slug:
+                continue
+            md_path = articles_dir / f"{slug}.md"
+            if not md_path.exists():
+                continue
+
+            raw = md_path.read_text(encoding="utf-8")
+            title = article.get("title", slug)
+            date = article.get("date", "")
+            category = article.get("category", "world")
+            author = article.get("author", "TL;DR News")
+
+            # Extract body (skip frontmatter)
+            body = raw
+            if raw.startswith("---"):
+                parts = raw.split("---", 2)
+                if len(parts) >= 3:
+                    body = parts[2].strip()
+
+            # Convert markdown to simple HTML
+            body_html = self._md_to_html(body)
+
+            page_url = f"{self.BASE_URL}news/articles/{slug}.html"
+            e = self._e
+
+            page_html = f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{e(title)} — TL;DR News</title>
+  <meta name="description" content="{e(title)}">
+  <meta name="robots" content="index, follow, max-snippet:-1">
+  <link rel="canonical" href="{e(page_url)}">
+  <meta property="og:title" content="{e(title)}">
+  <meta property="og:description" content="{e(title)}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{e(page_url)}">
+  <meta property="og:site_name" content="TL;DR News">
+  <meta property="og:image" content="{self.BASE_URL}news/tldr_logo.png">
+  <meta property="article:published_time" content="{e(date)}">
+  <meta property="article:section" content="{e(category.title())}">
+  <meta property="article:author" content="{e(author)}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{e(title)}">
+  <meta name="twitter:description" content="{e(title)}">
+  <meta name="twitter:image" content="{self.BASE_URL}news/tldr_logo.png">
+  <script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{self._ex(title)}",
+  "datePublished": "{e(date)}",
+  "dateModified": "{e(date)}",
+  "author": {{ "@type": "Organization", "name": "{e(author)}", "url": "{self.BASE_URL}" }},
+  "publisher": {{ "@type": "Organization", "name": "TL;DR News", "url": "{self.BASE_URL}" }},
+  "mainEntityOfPage": {{ "@type": "WebPage", "@id": "{e(page_url)}" }}
+}}
+  </script>
+  <style>
+    body {{ font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.7; color: #1a1a2e; background: #fafbff; }}
+    h1 {{ font-size: 1.6em; border-bottom: 2px solid #0099bb; padding-bottom: 8px; }}
+    h2 {{ font-size: 1.3em; color: #0099bb; margin-top: 1.8em; }}
+    h3 {{ font-size: 1.1em; margin-top: 1.4em; }}
+    p {{ margin: 0.8em 0; }}
+    a {{ color: #0099bb; text-decoration: none; }}
+    a:hover {{ text-decoration: underline; }}
+    nav {{ font-size: 0.9em; margin-bottom: 16px; }}
+    nav a {{ margin-right: 12px; }}
+    .meta {{ font-size: 0.85em; color: #666; margin-bottom: 1.5em; }}
+    footer {{ margin-top: 30px; padding-top: 14px; border-top: 1px solid #e0e0e0; font-size: 0.8em; color: #888; }}
+  </style>
+</head>
+<body>
+  <nav aria-label="Site navigation">
+    <a href="../reports.html">Dashboard</a>
+    <a href="../articles.html">All Articles</a>
+  </nav>
+  <article>
+    <h1>{e(title)}</h1>
+    <p class="meta">By {e(author)} &middot; {e(date)}</p>
+{body_html}
+  </article>
+  <footer>
+    <p>Generated by <a href="{e(self.BASE_URL)}">TL;DR News AI</a> on {e(date)}. Daily AI-powered news intelligence.</p>
+  </footer>
+</body>
+</html>
+"""
+            out_path = articles_dir / f"{slug}.html"
+            out_path.write_text(page_html, encoding="utf-8")
+            written.append(out_path)
+
+        return written
+
+    @staticmethod
+    def _md_to_html(md: str) -> str:
+        """Minimal markdown to HTML conversion for article bodies."""
+        lines = md.split("\n")
+        html_lines: List[str] = []
+        in_paragraph = False
+
+        for line in lines:
+            stripped = line.strip()
+
+            if stripped.startswith("### "):
+                if in_paragraph:
+                    html_lines.append("    </p>")
+                    in_paragraph = False
+                html_lines.append(f"    <h3>{html.escape(stripped[4:])}</h3>")
+            elif stripped.startswith("## "):
+                if in_paragraph:
+                    html_lines.append("    </p>")
+                    in_paragraph = False
+                html_lines.append(f"    <h2>{html.escape(stripped[3:])}</h2>")
+            elif stripped == "":
+                if in_paragraph:
+                    html_lines.append("    </p>")
+                    in_paragraph = False
+            else:
+                if not in_paragraph:
+                    html_lines.append(f"    <p>{html.escape(stripped)}")
+                    in_paragraph = True
+                else:
+                    html_lines.append(f" {html.escape(stripped)}")
+
+        if in_paragraph:
+            html_lines.append("    </p>")
+
+        return "\n".join(html_lines)
 
     # ── Private helpers ──────────────────────────────────────
 
@@ -306,9 +466,11 @@ class PublisherAgent:
             f'  <meta property="article:published_time" content="{e(date_key)}">\n'
             f'  <meta property="article:section" content="{e(title)}">\n'
             f'  <meta property="article:author" content="TL;DR News AI">\n'
-            f'  <meta name="twitter:card" content="summary">\n'
+            f'  <meta property="og:image" content="{self.BASE_URL}news/tldr_logo.png">\n'
+            f'  <meta name="twitter:card" content="summary_large_image">\n'
             f'  <meta name="twitter:title" content="{e(page_title)}">\n'
             f'  <meta name="twitter:description" content="{e(meta_desc)}">\n'
+            f'  <meta name="twitter:image" content="{self.BASE_URL}news/tldr_logo.png">\n'
         )
 
         # Related topics as keyword-rich H2 sections
@@ -456,9 +618,11 @@ class PublisherAgent:
   <meta property="og:type" content="website">
   <meta property="og:url" content="{e(idx_url)}">
   <meta property="og:site_name" content="TL;DR News">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="{self.BASE_URL}news/tldr_logo.png">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Daily News Summary — {e(date_key)}">
   <meta name="twitter:description" content="{e(idx_desc)}">
+  <meta name="twitter:image" content="{self.BASE_URL}news/tldr_logo.png">
   <link rel="canonical" href="{e(idx_url)}">
   <link rel="alternate" type="application/rss+xml" title="TL;DR News" href="../feeds/all.xml">
   <script type="application/ld+json">
