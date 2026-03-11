@@ -63,6 +63,7 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
           git add ai_news_reports_site/news/data \
                  ai_news_reports_site/news/feeds \
+                 ai_news_reports_site/news/articles \
                  ai_news_reports_site/news/sitemap.xml \
                  ai_news_reports_site/news/robots.txt
           # Stage static HTML pages (date dirs and category landing dirs)

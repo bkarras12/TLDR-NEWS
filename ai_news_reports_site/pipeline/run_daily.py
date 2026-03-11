@@ -20,6 +20,7 @@ from pipeline.agents.report_writer import ReportWriterAgent
 from pipeline.agents.publisher import PublisherAgent
 from pipeline.agents.base import NewsItem, SentimentResult
 from pipeline.agents.tweet_writer import TweetWriterAgent
+from pipeline.agents.article_writer import ArticleWriterAgent
 
 
 TZ = "America/Denver"
@@ -331,6 +332,18 @@ def main() -> int:
 
     feeds = publisher.write_rss_feeds(date_key, daily_report, base_url="https://tldrnews.info/")
     print(f"Wrote {len(feeds)} RSS feeds")
+
+    # Generate daily roundup article
+    article_writer = ArticleWriterAgent(client=client, model=model)
+    article_path = article_writer.write_article(
+        site_root=site_root,
+        date_key=date_key,
+        daily_report=daily_report,
+    )
+    if article_path:
+        print(f"Wrote article: {article_path}")
+    else:
+        print("Skipped article generation (no client or generation failed)")
 
     print(f"Saved daily report to: {out_path}")
     return 0
