@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional
 
 
 class PublisherAgent:
-    BASE_URL = "https://bkarras12.github.io/TLDR-NEWS/"
+    BASE_URL = "https://tldrnews.info/"
 
     def __init__(self, site_root: Path):
         self.site_root = site_root
