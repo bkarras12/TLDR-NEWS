@@ -105,8 +105,9 @@ class PublisherAgent:
                 if date == idx.get("latest_date"):
                     urls.append(self._sitemap_url(base_url, f"news/{cat}/index.html", lastmod=date))
 
-        # Articles pages
+        # Other pages
         urls.append(self._sitemap_url(base_url, "news/articles.html"))
+        urls.append(self._sitemap_url(base_url, "news/about.html"))
         articles_index_path = self.site_root / "news" / "articles" / "articles_index.json"
         if articles_index_path.exists():
             try:
@@ -129,16 +130,30 @@ class PublisherAgent:
         return sitemap_path
 
     def write_rss_feeds(self, date_key: str, report: Dict[str, Any], base_url: str = "") -> List[Path]:
-        """Generate RSS feeds: one combined feed and one per category."""
+        """Generate RSS feeds: one combined feed and one per category, with 14 days of history."""
         categories = report.get("categories") or {}
         feeds_dir = self.site_root / "news" / "feeds"
         feeds_dir.mkdir(parents=True, exist_ok=True)
         written: List[Path] = []
 
+        # Load historical reports for feed history (up to 14 days)
+        idx = self._read_index()
+        historical_dates = [e.get("date", "") for e in idx.get("dates", [])[:14]]
+
         # Combined feed
         all_items_xml: List[str] = []
+        # Current day's items first
         for cat_key, cat in categories.items():
             all_items_xml.extend(self._rss_items_for_category(date_key, cat_key, cat, base_url))
+        # Historical items
+        for hist_date in historical_dates:
+            if hist_date == date_key:
+                continue
+            hist_report = self._load_report(hist_date)
+            if not hist_report:
+                continue
+            for cat_key, cat in (hist_report.get("categories") or {}).items():
+                all_items_xml.extend(self._rss_items_for_category(hist_date, cat_key, cat, base_url))
 
         combined_path = feeds_dir / "all.xml"
         combined_path.write_text(
@@ -152,10 +167,21 @@ class PublisherAgent:
         )
         written.append(combined_path)
 
-        # Per-category feeds
+        # Per-category feeds (with history)
         for cat_key, cat in categories.items():
             cat_title = cat.get("title", cat_key.title())
             cat_items = self._rss_items_for_category(date_key, cat_key, cat, base_url)
+            # Add historical items for this category
+            for hist_date in historical_dates:
+                if hist_date == date_key:
+                    continue
+                hist_report = self._load_report(hist_date)
+                if not hist_report:
+                    continue
+                hist_cat = (hist_report.get("categories") or {}).get(cat_key)
+                if hist_cat:
+                    cat_items.extend(self._rss_items_for_category(hist_date, cat_key, hist_cat, base_url))
+
             cat_path = feeds_dir / f"{cat_key}.xml"
             cat_path.write_text(
                 self._wrap_rss_feed(
@@ -326,6 +352,16 @@ class PublisherAgent:
                 pass
         return {"latest_date": None, "dates": []}
 
+    def _load_report(self, date_key: str) -> Optional[Dict[str, Any]]:
+        """Load a saved daily report JSON by date key."""
+        path = self.reports_dir / f"{date_key}.json"
+        if not path.exists():
+            return None
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            return None
+
     @staticmethod
     def _e(text: Any) -> str:
         """HTML-escape a value."""
@@ -377,6 +413,7 @@ class PublisherAgent:
             "dateModified": date_key,
             "description": meta_desc,
             "articleSection": title,
+            "image": f"{self.BASE_URL}news/tldr_logo.png",
             "author": {
                 "@type": "Organization",
                 "name": "TL;DR News AI",
@@ -386,13 +423,43 @@ class PublisherAgent:
                 "@type": "Organization",
                 "name": "TL;DR News",
                 "url": self.BASE_URL,
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": f"{self.BASE_URL}news/tldr_logo.png",
+                },
             },
             "mainEntityOfPage": {
                 "@type": "WebPage",
                 "@id": page_url,
             },
             "about": key_themes[:5],
-            "keywords": ", ".join(related_topics[:6]) if related_topics else ", ".join(key_themes[:5]),
+            "keywords": ", ".join(key_themes[:5]),
+        }, ensure_ascii=False, indent=2)
+
+        # BreadcrumbList schema
+        breadcrumb_ld = json.dumps({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": f"{self.BASE_URL}news/reports.html",
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": date_key,
+                    "item": f"{self.BASE_URL}news/{date_key}/index.html",
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": title,
+                    "item": page_url,
+                },
+            ],
         }, ensure_ascii=False, indent=2)
 
         # FAQ Schema for notable headlines
@@ -428,7 +495,7 @@ class PublisherAgent:
             it_sum = e(it.get("summary", ""))
             items_html += f"""      <article class="headline-item">
         <h3><a href="{it_url}" rel="noopener">{it_title}</a></h3>
-        <p class="meta">Published: {it_pub} — via {it_src}</p>
+        <p class="meta">Published: <time>{it_pub}</time> — via {it_src}</p>
         {f'<p>{it_sum}</p>' if it_sum else ''}
       </article>
 """
@@ -500,6 +567,9 @@ class PublisherAgent:
 {og_tags}  <script type="application/ld+json">
 {schema_ld}
   </script>
+  <script type="application/ld+json">
+{breadcrumb_ld}
+  </script>
 {f'''  <script type="application/ld+json">
 {faq_ld}
   </script>''' if faq_ld else ''}
@@ -524,20 +594,21 @@ class PublisherAgent:
     .outlook-card h3 {{ margin: 0 0 8px; font-size: 0.95em; }}
     .outlook-card ul {{ margin: 0; padding-left: 18px; }}
     .outlook-card li {{ font-size: 0.9em; margin-bottom: 4px; }}
-    nav {{ font-size: 0.9em; margin-bottom: 16px; }}
-    nav a {{ margin-right: 12px; }}
+    .breadcrumb {{ font-size: 0.85em; margin-bottom: 16px; color: #666; }}
+    .breadcrumb a {{ margin-right: 4px; }}
+    .breadcrumb span {{ color: #333; }}
     footer {{ margin-top: 30px; padding-top: 14px; border-top: 1px solid #e0e0e0; font-size: 0.8em; color: #888; }}
   </style>
 </head>
 <body>
-  <nav aria-label="Site navigation">
-    <a href="../reports.html">Dashboard</a>
-    <a href="../{date_key}/index.html">{date_key} Report</a>
-    <a href="../feeds/{cat_key}.xml">RSS Feed</a>
+  <nav aria-label="Breadcrumb" class="breadcrumb">
+    <a href="../reports.html">Home</a> &rsaquo;
+    <a href="../{date_key}/index.html">{date_key}</a> &rsaquo;
+    <span>{e(title)}</span>
   </nav>
 
   <article>
-    <h1>{e(title)} News Summary — {e(date_key)}</h1>
+    <h1>{e(title)} News Summary — <time datetime="{e(date_key)}">{e(date_key)}</time></h1>
 {landing_note}
     <p>Source: <a href="{e(src.get('site_url', ''))}" rel="noopener">{e(src.get('site_name', ''))}</a>
       | Sentiment: <strong>{e(sent.get('label', '—'))}</strong> ({e(sent.get('score', '—'))})
