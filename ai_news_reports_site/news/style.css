@@ -509,10 +509,12 @@ select:focus, input:focus {
   z-index: 10;
 }
 
+h1.topbar__title,
 .topbar__title {
   flex: 1;
   font-family: var(--mono);
   font-size: 12px;
+  font-weight: normal;
   color: var(--muted2);
   letter-spacing: .06em;
   display: flex;
@@ -520,6 +522,8 @@ select:focus, input:focus {
   gap: 8px;
   min-width: 0;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 .topbar__cat {
   color: var(--accent);
