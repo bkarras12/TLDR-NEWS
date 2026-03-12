@@ -1,4 +1,8 @@
-"""Search X for trending news conversations and post AI-generated replies.
+"""Reply to people who engage with @tldrnewsusa tweets.
+
+Fetches recent mentions and replies to our account, generates conversational
+AI-powered responses, and posts them. Tracks reply history to avoid
+double-replying.
 
 Usage:
     python -m pipeline.post_replies
@@ -8,7 +12,7 @@ Environment variables:
     X_CONSUMER_SECRET  - OAuth 1.0a consumer secret
     X_ACCESS_TOKEN     - OAuth 1.0a access token
     X_ACCESS_SECRET    - OAuth 1.0a access token secret
-    X_BEARER_TOKEN     - OAuth 2.0 bearer token (for search)
+    X_BEARER_TOKEN     - OAuth 2.0 bearer token (for reading mentions)
     OPENAI_API_KEY     - OpenAI API key (for reply generation)
     OPENAI_MODEL       - Model override (default: gpt-4o-mini)
     X_DRY_RUN          - Set to "true" to log without posting
@@ -29,9 +33,6 @@ from pipeline.agents.reply_writer import ReplyWriterAgent
 
 # ── Configuration ──
 MAX_REPLIES_PER_RUN = 10
-MIN_LIKES = 5
-MIN_RETWEETS = 3
-MAX_TWEET_AGE_HOURS = 6
 REPLY_DELAY_SECONDS = 60
 REPLIED_TWEETS_RETENTION_DAYS = 7
 SELF_USERNAME = "tldrnewsusa"
@@ -58,39 +59,6 @@ def _load_report(site_root: Path, date_key: str) -> Optional[Dict[str, Any]]:
         return json.load(f)
 
 
-def _extract_search_terms(report: Dict[str, Any]) -> List[str]:
-    """Extract search terms from trending topics and notable headlines."""
-    terms: List[str] = []
-
-    # 1. Trending topics (cross-category keywords from pipeline)
-    for topic in report.get("trending_topics", [])[:8]:
-        topic = topic.strip()
-        if len(topic) >= 3:
-            terms.append(topic)
-
-    # 2. Notable headline keywords (names, companies, events)
-    categories = report.get("categories", {})
-    for cat_data in categories.values():
-        ai = cat_data.get("ai_report", {})
-        for nh in ai.get("notable_headlines", [])[:3]:
-            headline = nh.get("headline", "")
-            # Extract capitalized proper nouns (2+ words) as search terms
-            proper_nouns = re.findall(r"[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+", headline)
-            for noun in proper_nouns[:2]:
-                if noun not in terms:
-                    terms.append(noun)
-
-    # Deduplicate while preserving order
-    seen = set()
-    unique: List[str] = []
-    for t in terms:
-        lower = t.lower()
-        if lower not in seen:
-            seen.add(lower)
-            unique.append(t)
-    return unique[:15]
-
-
 def _has_profanity(text: str) -> bool:
     words = set(re.sub(r"[^a-zA-Z\s]", "", text.lower()).split())
     return bool(words & _PROFANITY)
@@ -109,7 +77,6 @@ def _match_category(tweet_text: str, report: Dict[str, Any]) -> Optional[Dict[st
         themes = ai.get("key_themes", [])
         summary = ai.get("summary", "")
 
-        # Score by keyword overlap with themes + summary
         cat_words = set()
         for theme in themes:
             cat_words.update(theme.lower().split())
@@ -144,16 +111,26 @@ def _save_replied_ids(path: Path, replied: Dict[str, str]) -> None:
     path.write_text(json.dumps(pruned, indent=2) + "\n", encoding="utf-8")
 
 
-def _search_tweets(client: Any, query: str, max_results: int = 20) -> List[Dict[str, Any]]:
-    """Search recent tweets using X API v2. Returns list of tweet dicts."""
+def _get_mentions(
+    client: Any,
+    user_id: str,
+    since_id: Optional[str] = None,
+) -> List[Dict[str, Any]]:
+    """Fetch recent mentions of our account. Returns list of tweet dicts."""
     try:
-        response = client.search_recent_tweets(
-            query=f"{query} -is:retweet -is:reply lang:en",
-            max_results=min(max_results, 100),
-            tweet_fields=["created_at", "public_metrics", "author_id", "in_reply_to_user_id"],
-            expansions=["author_id"],
-            user_fields=["username"],
-        )
+        kwargs: Dict[str, Any] = {
+            "id": user_id,
+            "max_results": 100,
+            "tweet_fields": ["created_at", "public_metrics", "author_id",
+                             "in_reply_to_user_id", "conversation_id",
+                             "referenced_tweets"],
+            "expansions": ["author_id"],
+            "user_fields": ["username"],
+        }
+        if since_id:
+            kwargs["since_id"] = since_id
+
+        response = client.get_users_mentions(**kwargs)
         if not response.data:
             return []
 
@@ -171,29 +148,25 @@ def _search_tweets(client: Any, query: str, max_results: int = 20) -> List[Dict[
                 "created_at": tweet.created_at.isoformat() if tweet.created_at else "",
                 "likes": metrics.get("like_count", 0),
                 "retweets": metrics.get("retweet_count", 0),
-                "is_reply": tweet.in_reply_to_user_id is not None,
+                "conversation_id": str(tweet.conversation_id) if tweet.conversation_id else "",
+                "in_reply_to_user_id": str(tweet.in_reply_to_user_id) if tweet.in_reply_to_user_id else "",
             })
         return tweets
     except Exception as e:
-        print(f"[search] Error searching for '{query}': {type(e).__name__}: {e}", file=sys.stderr)
+        print(f"[mentions] Error fetching mentions: {type(e).__name__}: {e}", file=sys.stderr)
         return []
 
 
-def _filter_and_score(
+def _filter_mentions(
     tweets: List[Dict[str, Any]],
     replied_ids: Dict[str, str],
+    own_user_id: str,
 ) -> List[Dict[str, Any]]:
-    """Filter tweets by engagement/recency/content, then score and rank."""
-    now = datetime.now(timezone.utc)
-    cutoff = now - timedelta(hours=MAX_TWEET_AGE_HOURS)
+    """Filter mentions: skip self, already-replied, profanity."""
     candidates = []
 
     for tw in tweets:
-        # Skip replies
-        if tw.get("is_reply"):
-            continue
-
-        # Skip self
+        # Skip our own tweets
         if tw.get("author_username", "").lower() == SELF_USERNAME.lower():
             continue
 
@@ -201,32 +174,12 @@ def _filter_and_score(
         if tw["id"] in replied_ids:
             continue
 
-        # Engagement minimum
-        likes = tw.get("likes", 0)
-        retweets = tw.get("retweets", 0)
-        if likes < MIN_LIKES and retweets < MIN_RETWEETS:
-            continue
-
-        # Recency check
-        created = tw.get("created_at", "")
-        if created:
-            try:
-                tweet_time = datetime.fromisoformat(created.replace("Z", "+00:00"))
-                if tweet_time < cutoff:
-                    continue
-            except ValueError:
-                pass
-
         # Profanity filter
         if _has_profanity(tw.get("text", "")):
             continue
 
-        # Score: likes + 2*retweets
-        tw["score"] = likes + (retweets * 2)
         candidates.append(tw)
 
-    # Sort by score descending
-    candidates.sort(key=lambda t: t["score"], reverse=True)
     return candidates[:MAX_REPLIES_PER_RUN]
 
 
@@ -240,15 +193,7 @@ def main() -> int:
     if report is None:
         return 1
 
-    # Extract search terms
-    search_terms = _extract_search_terms(report)
-    if not search_terms:
-        print("No search terms extracted from report.", file=sys.stderr)
-        return 0
-
-    print(f"Search terms ({len(search_terms)}): {', '.join(search_terms)}")
-
-    # Setup X client (bearer token for search)
+    # Setup X clients
     bearer_token = os.getenv("X_BEARER_TOKEN", "").strip()
     consumer_key = os.getenv("X_CONSUMER_KEY", "").strip()
     consumer_secret = os.getenv("X_CONSUMER_SECRET", "").strip()
@@ -256,7 +201,7 @@ def main() -> int:
     access_secret = os.getenv("X_ACCESS_SECRET", "").strip()
 
     if not bearer_token:
-        print("ERROR: X_BEARER_TOKEN required for search.", file=sys.stderr)
+        print("ERROR: X_BEARER_TOKEN required.", file=sys.stderr)
         return 1
     if not all([consumer_key, consumer_secret, access_token, access_secret]):
         print("ERROR: Missing X API OAuth credentials.", file=sys.stderr)
@@ -264,8 +209,8 @@ def main() -> int:
 
     import tweepy
 
-    # Read client (bearer token) for searching
-    search_client = tweepy.Client(bearer_token=bearer_token)
+    # Read client (bearer token) for fetching mentions
+    read_client = tweepy.Client(bearer_token=bearer_token)
 
     # Write client (OAuth 1.0a) for posting replies
     post_client = tweepy.Client(
@@ -274,6 +219,18 @@ def main() -> int:
         access_token=access_token,
         access_token_secret=access_secret,
     )
+
+    # Get our own user ID
+    try:
+        me = read_client.get_user(username=SELF_USERNAME)
+        if not me.data:
+            print(f"ERROR: Could not find user @{SELF_USERNAME}", file=sys.stderr)
+            return 1
+        own_user_id = str(me.data.id)
+        print(f"Account: @{SELF_USERNAME} (ID: {own_user_id})")
+    except Exception as e:
+        print(f"ERROR: Could not look up @{SELF_USERNAME}: {type(e).__name__}: {e}", file=sys.stderr)
+        return 1
 
     # Setup OpenAI client for reply generation
     openai_key = os.getenv("OPENAI_API_KEY", "").strip()
@@ -290,40 +247,40 @@ def main() -> int:
     replied_ids = _load_replied_ids(replied_path)
     print(f"Reply history: {len(replied_ids)} tweets in log")
 
-    # Search for candidate tweets
-    all_tweets: Dict[str, Dict[str, Any]] = {}  # dedup by tweet ID
-    for term in search_terms:
-        results = _search_tweets(search_client, term, max_results=20)
-        for tw in results:
-            if tw["id"] not in all_tweets:
-                all_tweets[tw["id"]] = tw
-        print(f"  Searched '{term}': {len(results)} results ({len(all_tweets)} total unique)")
+    # Fetch mentions
+    mentions = _get_mentions(read_client, own_user_id)
+    print(f"Fetched {len(mentions)} recent mentions")
 
-    if not all_tweets:
-        print("No tweets found matching search terms.")
+    if not mentions:
+        print("No mentions found.")
         _save_replied_ids(replied_path, replied_ids)
         return 0
 
-    # Filter and score
-    candidates = _filter_and_score(list(all_tweets.values()), replied_ids)
-    print(f"\nFiltered to {len(candidates)} candidates (max {MAX_REPLIES_PER_RUN})")
+    # Filter
+    candidates = _filter_mentions(mentions, replied_ids, own_user_id)
+    print(f"Filtered to {len(candidates)} candidates (max {MAX_REPLIES_PER_RUN})")
 
     if not candidates:
-        print("No candidates passed filters.")
+        print("No candidates after filtering.")
         _save_replied_ids(replied_path, replied_ids)
         return 0
 
     # Generate and post replies
     replies_posted = 0
     for i, tw in enumerate(candidates):
-        print(f"\n--- Candidate {i + 1}/{len(candidates)} (score: {tw['score']}) ---")
+        print(f"\n--- Mention {i + 1}/{len(candidates)} ---")
         print(f"@{tw['author_username']}: {tw['text'][:120]}...")
 
         # Match to most relevant category
         cat_context = _match_category(tw["text"], report)
         if cat_context is None:
-            print("  Skipped: no matching category")
-            continue
+            # Fall back to first category if no match
+            categories = report.get("categories", {})
+            if categories:
+                cat_context = next(iter(categories.values()))
+            else:
+                print("  Skipped: no category data")
+                continue
 
         # Generate reply
         reply_text = reply_agent.run(
