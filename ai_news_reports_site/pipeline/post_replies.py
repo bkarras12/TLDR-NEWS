@@ -1,8 +1,8 @@
-"""Reply to people who engage with @tldrnewsusa tweets.
+"""Find popular trending tweets and quote-tweet them with AI commentary.
 
-Fetches recent mentions and replies to our account, generates conversational
-AI-powered responses, and posts them. Tracks reply history to avoid
-double-replying.
+X API does not allow replying to tweets unless you've been mentioned or
+engaged by the author. Quote tweets work on any public tweet — same
+engagement benefit, no restriction.
 
 Usage:
     python -m pipeline.post_replies
@@ -12,8 +12,8 @@ Environment variables:
     X_CONSUMER_SECRET  - OAuth 1.0a consumer secret
     X_ACCESS_TOKEN     - OAuth 1.0a access token
     X_ACCESS_SECRET    - OAuth 1.0a access token secret
-    X_BEARER_TOKEN     - OAuth 2.0 bearer token (for reading mentions)
-    OPENAI_API_KEY     - OpenAI API key (for reply generation)
+    X_BEARER_TOKEN     - OAuth 2.0 bearer token (for search)
+    OPENAI_API_KEY     - OpenAI API key (for commentary generation)
     OPENAI_MODEL       - Model override (default: gpt-4o-mini)
     X_DRY_RUN          - Set to "true" to log without posting
 """
@@ -32,13 +32,16 @@ from zoneinfo import ZoneInfo
 from pipeline.agents.reply_writer import ReplyWriterAgent
 
 # ── Configuration ──
-MAX_REPLIES_PER_RUN = 10
-REPLY_DELAY_SECONDS = 60
-REPLIED_TWEETS_RETENTION_DAYS = 7
+MAX_QUOTES_PER_RUN = 5
+MIN_LIKES = 50
+MIN_RETWEETS = 10
+MAX_TWEET_AGE_HOURS = 12
+QUOTE_DELAY_SECONDS = 90
+QUOTED_TWEETS_RETENTION_DAYS = 7
 SELF_USERNAME = "tldrnewsusa"
 TZ = "America/Denver"
 
-# Basic profanity filter for inbound tweets
+# Profanity filter for inbound tweets
 _PROFANITY = {
     "fuck", "shit", "bitch", "ass", "damn", "crap", "dick", "piss",
     "bastard", "slut", "whore", "nigger", "faggot", "retard",
@@ -53,10 +56,42 @@ def _load_report(site_root: Path, date_key: str) -> Optional[Dict[str, Any]]:
     """Load today's daily report JSON."""
     report_path = site_root / "news" / "data" / "reports" / f"{date_key}.json"
     if not report_path.exists():
-        print(f"No report found for {date_key} at {report_path}", file=sys.stderr)
+        print(f"[post_replies] No report for {date_key}", file=sys.stderr)
         return None
     with open(report_path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def _extract_search_terms(report: Dict[str, Any]) -> List[str]:
+    """Extract search terms from trending topics and notable headlines."""
+    terms: List[str] = []
+
+    # 1. Trending topics (cross-category keywords from pipeline)
+    for topic in report.get("trending_topics", [])[:8]:
+        topic = topic.strip()
+        if len(topic) >= 3:
+            terms.append(topic)
+
+    # 2. Notable headline keywords (names, companies, events)
+    categories = report.get("categories", {})
+    for cat_data in categories.values():
+        ai = cat_data.get("ai_report", {})
+        for nh in ai.get("notable_headlines", [])[:3]:
+            headline = nh.get("headline", "")
+            proper_nouns = re.findall(r"[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+", headline)
+            for noun in proper_nouns[:2]:
+                if noun not in terms:
+                    terms.append(noun)
+
+    # Deduplicate while preserving order
+    seen: set[str] = set()
+    unique: List[str] = []
+    for t in terms:
+        lower = t.lower()
+        if lower not in seen:
+            seen.add(lower)
+            unique.append(t)
+    return unique[:15]
 
 
 def _has_profanity(text: str) -> bool:
@@ -69,18 +104,14 @@ def _match_category(tweet_text: str, report: Dict[str, Any]) -> Optional[Dict[st
     categories = report.get("categories", {})
     best_cat = None
     best_score = 0
-
     tweet_words = set(tweet_text.lower().split())
 
     for cat_data in categories.values():
         ai = cat_data.get("ai_report", {})
-        themes = ai.get("key_themes", [])
-        summary = ai.get("summary", "")
-
-        cat_words = set()
-        for theme in themes:
+        cat_words: set[str] = set()
+        for theme in ai.get("key_themes", []):
             cat_words.update(theme.lower().split())
-        cat_words.update(summary.lower().split())
+        cat_words.update(ai.get("summary", "").lower().split())
 
         overlap = len(tweet_words & cat_words)
         if overlap > best_score:
@@ -90,52 +121,52 @@ def _match_category(tweet_text: str, report: Dict[str, Any]) -> Optional[Dict[st
     return best_cat
 
 
-def _load_replied_ids(path: Path) -> Dict[str, str]:
-    """Load replied tweet IDs. Returns {tweet_id: iso_timestamp}."""
+def _load_quoted_ids(path: Path) -> Dict[str, str]:
+    """Load quoted tweet IDs. Returns {tweet_id: iso_timestamp}."""
     if not path.exists():
         return {}
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            return {}
+        return data
     except (json.JSONDecodeError, ValueError):
         return {}
 
 
-def _save_replied_ids(path: Path, replied: Dict[str, str]) -> None:
-    """Save replied tweet IDs, pruning entries older than retention window."""
-    cutoff = datetime.now(timezone.utc) - timedelta(days=REPLIED_TWEETS_RETENTION_DAYS)
-    pruned = {
-        tid: ts for tid, ts in replied.items()
-        if datetime.fromisoformat(ts) > cutoff
-    }
+def _save_quoted_ids(path: Path, quoted: Dict[str, str]) -> None:
+    """Save quoted tweet IDs, pruning entries older than retention window."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=QUOTED_TWEETS_RETENTION_DAYS)
+    pruned: Dict[str, str] = {}
+    for tid, ts in quoted.items():
+        try:
+            if datetime.fromisoformat(ts) > cutoff:
+                pruned[tid] = ts
+        except (ValueError, TypeError):
+            pass  # Drop malformed entries
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(pruned, indent=2) + "\n", encoding="utf-8")
 
 
-def _get_mentions(
-    client: Any,
-    user_id: str,
-    since_id: Optional[str] = None,
-) -> List[Dict[str, Any]]:
-    """Fetch recent mentions of our account. Returns list of tweet dicts."""
+def _search_tweets(client: Any, query: str, max_results: int = 20) -> List[Dict[str, Any]]:
+    """Search recent tweets using X API v2."""
     try:
-        kwargs: Dict[str, Any] = {
-            "id": user_id,
-            "max_results": 100,
-            "tweet_fields": ["created_at", "public_metrics", "author_id",
-                             "in_reply_to_user_id", "conversation_id",
-                             "referenced_tweets"],
-            "expansions": ["author_id"],
-            "user_fields": ["username"],
-        }
-        if since_id:
-            kwargs["since_id"] = since_id
-
-        response = client.get_users_mentions(**kwargs)
+        # Ensure max_results is within API bounds (10-100)
+        clamped = max(10, min(max_results, 100))
+        response = client.search_recent_tweets(
+            query=f"{query} -is:retweet -is:reply lang:en",
+            max_results=clamped,
+            tweet_fields=["created_at", "public_metrics", "author_id"],
+            expansions=["author_id"],
+            user_fields=["username"],
+        )
         if not response.data:
             return []
 
         # Build author lookup
-        users = {u.id: u.username for u in (response.includes.get("users", []) or [])}
+        includes = response.includes or {}
+        user_list = includes.get("users") or []
+        users = {u.id: u.username for u in user_list}
 
         tweets = []
         for tweet in response.data:
@@ -144,56 +175,82 @@ def _get_mentions(
                 "id": str(tweet.id),
                 "text": tweet.text,
                 "author_id": str(tweet.author_id),
-                "author_username": users.get(tweet.author_id, ""),
+                "author_username": users.get(tweet.author_id, "unknown"),
                 "created_at": tweet.created_at.isoformat() if tweet.created_at else "",
                 "likes": metrics.get("like_count", 0),
                 "retweets": metrics.get("retweet_count", 0),
-                "conversation_id": str(tweet.conversation_id) if tweet.conversation_id else "",
-                "in_reply_to_user_id": str(tweet.in_reply_to_user_id) if tweet.in_reply_to_user_id else "",
             })
         return tweets
     except Exception as e:
-        print(f"[mentions] Error fetching mentions: {type(e).__name__}: {e}", file=sys.stderr)
+        print(f"[search] Error for '{query}': {type(e).__name__}: {e}", file=sys.stderr)
         return []
 
 
-def _filter_mentions(
+def _filter_and_score(
     tweets: List[Dict[str, Any]],
-    replied_ids: Dict[str, str],
-    own_user_id: str,
+    quoted_ids: Dict[str, str],
 ) -> List[Dict[str, Any]]:
-    """Filter mentions: skip self, already-replied, profanity."""
+    """Filter by engagement/recency/content, score, and rank."""
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=MAX_TWEET_AGE_HOURS)
     candidates = []
 
     for tw in tweets:
-        # Skip our own tweets
+        # Skip self
         if tw.get("author_username", "").lower() == SELF_USERNAME.lower():
             continue
 
-        # Skip already replied
-        if tw["id"] in replied_ids:
+        # Skip already quoted
+        if tw["id"] in quoted_ids:
             continue
+
+        # Engagement minimum (must meet BOTH thresholds for popular tweets)
+        likes = tw.get("likes", 0)
+        retweets = tw.get("retweets", 0)
+        if likes < MIN_LIKES or retweets < MIN_RETWEETS:
+            continue
+
+        # Recency check
+        created = tw.get("created_at", "")
+        if created:
+            try:
+                tweet_time = datetime.fromisoformat(created.replace("Z", "+00:00"))
+                if tweet_time < cutoff:
+                    continue
+            except (ValueError, TypeError):
+                pass
 
         # Profanity filter
         if _has_profanity(tw.get("text", "")):
             continue
 
+        tw["score"] = likes + (retweets * 2)
         candidates.append(tw)
 
-    return candidates[:MAX_REPLIES_PER_RUN]
+    candidates.sort(key=lambda t: t["score"], reverse=True)
+    return candidates[:MAX_QUOTES_PER_RUN]
 
 
 def main() -> int:
     dry_run = os.getenv("X_DRY_RUN", "").strip().lower() == "true"
+    if dry_run:
+        print("[DRY RUN MODE] No tweets will be posted.\n")
 
-    # Load report
+    # ── Load today's report ──
     date_key = _today_key()
     site_root = Path(__file__).resolve().parents[1]
     report = _load_report(site_root, date_key)
     if report is None:
         return 1
 
-    # Setup X clients
+    # ── Extract search terms ──
+    search_terms = _extract_search_terms(report)
+    if not search_terms:
+        print("No search terms extracted from report.")
+        return 0
+    print(f"Search terms ({len(search_terms)}): {', '.join(search_terms)}")
+
+    # ── Validate credentials ──
     bearer_token = os.getenv("X_BEARER_TOKEN", "").strip()
     consumer_key = os.getenv("X_CONSUMER_KEY", "").strip()
     consumer_secret = os.getenv("X_CONSUMER_SECRET", "").strip()
@@ -201,18 +258,16 @@ def main() -> int:
     access_secret = os.getenv("X_ACCESS_SECRET", "").strip()
 
     if not bearer_token:
-        print("ERROR: X_BEARER_TOKEN required.", file=sys.stderr)
+        print("ERROR: X_BEARER_TOKEN required for search.", file=sys.stderr)
         return 1
     if not all([consumer_key, consumer_secret, access_token, access_secret]):
         print("ERROR: Missing X API OAuth credentials.", file=sys.stderr)
         return 1
 
+    # ── Setup clients ──
     import tweepy
 
-    # Read client (bearer token) for fetching mentions
-    read_client = tweepy.Client(bearer_token=bearer_token)
-
-    # Write client (OAuth 1.0a) for posting replies
+    search_client = tweepy.Client(bearer_token=bearer_token)
     post_client = tweepy.Client(
         consumer_key=consumer_key,
         consumer_secret=consumer_secret,
@@ -220,19 +275,6 @@ def main() -> int:
         access_token_secret=access_secret,
     )
 
-    # Get our own user ID
-    try:
-        me = read_client.get_user(username=SELF_USERNAME)
-        if not me.data:
-            print(f"ERROR: Could not find user @{SELF_USERNAME}", file=sys.stderr)
-            return 1
-        own_user_id = str(me.data.id)
-        print(f"Account: @{SELF_USERNAME} (ID: {own_user_id})")
-    except Exception as e:
-        print(f"ERROR: Could not look up @{SELF_USERNAME}: {type(e).__name__}: {e}", file=sys.stderr)
-        return 1
-
-    # Setup OpenAI client for reply generation
     openai_key = os.getenv("OPENAI_API_KEY", "").strip()
     openai_model = os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip()
     openai_client = None
@@ -240,85 +282,104 @@ def main() -> int:
         import openai
         openai_client = openai.OpenAI(api_key=openai_key)
 
+    if openai_client is None:
+        print("ERROR: OPENAI_API_KEY required for commentary generation.", file=sys.stderr)
+        return 1
+
     reply_agent = ReplyWriterAgent(client=openai_client, model=openai_model)
 
-    # Load reply history
-    replied_path = site_root / "news" / "data" / "replied_tweets.json"
-    replied_ids = _load_replied_ids(replied_path)
-    print(f"Reply history: {len(replied_ids)} tweets in log")
+    # ── Load quote history ──
+    quoted_path = site_root / "news" / "data" / "replied_tweets.json"
+    quoted_ids = _load_quoted_ids(quoted_path)
+    print(f"Quote history: {len(quoted_ids)} tweets in log")
 
-    # Fetch mentions
-    mentions = _get_mentions(read_client, own_user_id)
-    print(f"Fetched {len(mentions)} recent mentions")
+    # ── Search for candidate tweets ──
+    all_tweets: Dict[str, Dict[str, Any]] = {}
+    for term in search_terms:
+        results = _search_tweets(search_client, term, max_results=20)
+        for tw in results:
+            if tw["id"] not in all_tweets:
+                all_tweets[tw["id"]] = tw
+        print(f"  '{term}': {len(results)} results ({len(all_tweets)} total unique)")
 
-    if not mentions:
-        print("No mentions found.")
-        _save_replied_ids(replied_path, replied_ids)
+    if not all_tweets:
+        print("\nNo tweets found matching search terms.")
+        _save_quoted_ids(quoted_path, quoted_ids)
         return 0
 
-    # Filter
-    candidates = _filter_mentions(mentions, replied_ids, own_user_id)
-    print(f"Filtered to {len(candidates)} candidates (max {MAX_REPLIES_PER_RUN})")
+    # ── Filter and score ──
+    candidates = _filter_and_score(list(all_tweets.values()), quoted_ids)
+    print(f"\nFiltered to {len(candidates)} candidates (max {MAX_QUOTES_PER_RUN})")
 
     if not candidates:
-        print("No candidates after filtering.")
-        _save_replied_ids(replied_path, replied_ids)
+        print("No candidates passed filters.")
+        _save_quoted_ids(quoted_path, quoted_ids)
         return 0
 
-    # Generate and post replies
-    replies_posted = 0
+    # ── Generate and post quote tweets ──
+    quotes_posted = 0
     for i, tw in enumerate(candidates):
-        print(f"\n--- Mention {i + 1}/{len(candidates)} ---")
-        print(f"@{tw['author_username']}: {tw['text'][:120]}...")
+        print(f"\n--- Candidate {i + 1}/{len(candidates)} "
+              f"(score: {tw['score']}, likes: {tw['likes']}, RTs: {tw['retweets']}) ---")
+        print(f"@{tw['author_username']}: {tw['text'][:140]}...")
 
         # Match to most relevant category
         cat_context = _match_category(tw["text"], report)
         if cat_context is None:
-            # Fall back to first category if no match
             categories = report.get("categories", {})
             if categories:
                 cat_context = next(iter(categories.values()))
             else:
-                print("  Skipped: no category data")
+                print("  Skipped: no category data available")
                 continue
 
-        # Generate reply
-        reply_text = reply_agent.run(
+        # Generate commentary
+        commentary = reply_agent.run(
             tweet_text=tw["text"],
             category_context=cat_context,
         )
 
-        if reply_text is None:
-            print("  Skipped: reply generation failed or was rejected")
+        if commentary is None:
+            print("  Skipped: commentary generation failed or was rejected")
             continue
 
-        print(f"  Reply ({len(reply_text)} chars): {reply_text}")
+        print(f"  Commentary ({len(commentary)} chars): {commentary}")
 
         if dry_run:
-            print("  [DRY RUN] Not posted.")
-            replied_ids[tw["id"]] = datetime.now(timezone.utc).isoformat()
-            replies_posted += 1
+            print("  [DRY RUN] Would quote tweet — not posted.")
+            quoted_ids[tw["id"]] = datetime.now(timezone.utc).isoformat()
+            quotes_posted += 1
         else:
             try:
                 response = post_client.create_tweet(
-                    text=reply_text,
-                    in_reply_to_tweet_id=tw["id"],
+                    text=commentary,
+                    quote_tweet_id=tw["id"],
                 )
-                reply_id = response.data["id"]
-                print(f"  Posted: https://x.com/tldrnewsusa/status/{reply_id}")
-                replied_ids[tw["id"]] = datetime.now(timezone.utc).isoformat()
-                replies_posted += 1
+                new_tweet_id = response.data["id"]
+                print(f"  Posted: https://x.com/tldrnewsusa/status/{new_tweet_id}")
+                quoted_ids[tw["id"]] = datetime.now(timezone.utc).isoformat()
+                quotes_posted += 1
+            except tweepy.Forbidden as e:
+                err_msg = str(e).lower()
+                if "duplicate" in err_msg:
+                    print("  Skipped: duplicate content (already quoted)")
+                    quoted_ids[tw["id"]] = datetime.now(timezone.utc).isoformat()
+                else:
+                    print(f"  ERROR (Forbidden): {e}", file=sys.stderr)
+            except tweepy.TooManyRequests as e:
+                print(f"  Rate limited. Stopping. {e}", file=sys.stderr)
+                break
             except Exception as e:
-                print(f"  ERROR posting reply: {type(e).__name__}: {e}", file=sys.stderr)
+                print(f"  ERROR: {type(e).__name__}: {e}", file=sys.stderr)
 
-        # Rate limit delay (skip after last reply)
-        if i < len(candidates) - 1 and replies_posted < MAX_REPLIES_PER_RUN:
-            print(f"  Waiting {REPLY_DELAY_SECONDS}s...")
-            time.sleep(REPLY_DELAY_SECONDS)
+        # Delay between posts (skip after last)
+        if i < len(candidates) - 1 and quotes_posted < MAX_QUOTES_PER_RUN:
+            print(f"  Waiting {QUOTE_DELAY_SECONDS}s...")
+            time.sleep(QUOTE_DELAY_SECONDS)
 
-    # Save reply history
-    _save_replied_ids(replied_path, replied_ids)
-    print(f"\nDone. Posted {replies_posted} replies.")
+    # ── Save history ──
+    _save_quoted_ids(quoted_path, quoted_ids)
+    print(f"\nDone. Posted {quotes_posted} quote tweets.")
     return 0
 
 

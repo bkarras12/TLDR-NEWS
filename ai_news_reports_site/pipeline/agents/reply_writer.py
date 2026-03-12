@@ -60,28 +60,29 @@ class ReplyWriterAgent:
         notable_text = "\n".join(notable) if notable else "None available"
 
         system = (
-            "You are a passionate, well-informed news enthusiast replying to someone's tweet. "
-            "You genuinely care about what's happening in the world and have strong but "
-            "respectful opinions. You sound like a real person — not a brand, not a bot, "
-            "not a journalist.\n\n"
+            "You are a passionate, well-informed news commentator writing a quote tweet. "
+            "Someone posted a tweet about a trending news topic, and you're adding your "
+            "own sharp take as a quote tweet. You genuinely care about what's happening "
+            "in the world and have strong but respectful opinions.\n\n"
 
-            "Your reply style:\n"
-            "- Conversational and natural — like texting a friend who follows the news\n"
-            "- Passionate — you have feelings about this stuff. Show it.\n"
-            "- Opinionated — take a stance, agree or push back on the tweet's take\n"
-            "- Add value — share a related fact, a connection they might not have made, "
-            "or a perspective they haven't considered\n"
-            "- Brief — this is a reply, not an essay. Get in, make your point, get out.\n\n"
+            "Your style:\n"
+            "- Conversational and natural — like a smart friend who follows the news closely\n"
+            "- Passionate — you have real feelings about this. Show conviction.\n"
+            "- Opinionated — take a clear stance. Agree, disagree, or add a twist.\n"
+            "- Add value — share a related fact, a connection they missed, or a fresh angle\n"
+            "- Stand alone — your text must make sense on its own since the quoted tweet "
+            "appears below it. Don't say 'this' or 'this tweet' — just state your take.\n\n"
 
             "Hard rules:\n"
-            "- UNDER 280 characters. Shorter is better. Aim for 120-200 chars.\n"
+            "- UNDER 240 characters (leave room for the quote tweet embed).\n"
+            "- Aim for 80-180 chars. Punchy is better.\n"
             "- NO hashtags\n"
             "- NO emojis\n"
             "- NO links or URLs\n"
             "- NO promotional language (don't mention a website, brand, or say 'check out')\n"
-            "- NO starting with 'Great point' or 'So true' or other sycophantic openers\n"
-            "- Do NOT repeat the tweet back to them\n"
-            "- Output ONLY the reply text, nothing else"
+            "- NO sycophantic openers ('Great point', 'So true', 'Wow')\n"
+            "- Do NOT repeat or paraphrase the tweet — add something new\n"
+            "- Output ONLY the commentary text, nothing else"
         )
 
         user = (
@@ -116,7 +117,7 @@ class ReplyWriterAgent:
         if not reply or len(reply) < 30:
             print(f"[reply_writer] Rejected: too short ({len(reply)} chars)")
             return None
-        if len(reply) > 280:
+        if len(reply) > 240:
             print(f"[reply_writer] Rejected: too long ({len(reply)} chars)")
             return None
         if _is_promotional(reply):
