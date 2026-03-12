@@ -74,8 +74,8 @@ class ReplyWriterAgent:
             "appears below it. Don't say 'this' or 'this tweet' — just state your take.\n\n"
 
             "Hard rules:\n"
-            "- UNDER 240 characters (leave room for the quote tweet embed).\n"
-            "- Aim for 80-180 chars. Punchy is better.\n"
+            "- UNDER 280 characters. Your text has its own 280-char limit.\n"
+            "- Aim for 80-200 chars. Punchy is better.\n"
             "- NO hashtags\n"
             "- NO emojis\n"
             "- NO links or URLs\n"
@@ -117,7 +117,7 @@ class ReplyWriterAgent:
         if not reply or len(reply) < 30:
             print(f"[reply_writer] Rejected: too short ({len(reply)} chars)")
             return None
-        if len(reply) > 240:
+        if len(reply) > 280:
             print(f"[reply_writer] Rejected: too long ({len(reply)} chars)")
             return None
         if _is_promotional(reply):
