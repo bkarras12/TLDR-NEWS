@@ -32,7 +32,7 @@ from zoneinfo import ZoneInfo
 from pipeline.agents.reply_writer import ReplyWriterAgent
 
 # ── Configuration ──
-MAX_QUOTES_PER_RUN = 5
+MAX_QUOTES_PER_RUN = 1
 MIN_LIKES = 50
 MIN_RETWEETS = 10
 MAX_TWEET_AGE_HOURS = 12
