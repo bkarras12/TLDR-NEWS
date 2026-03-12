@@ -93,6 +93,12 @@ def main() -> int:
         response = client.create_tweet(text=tweet_text)
         tweet_id = response.data["id"]
         print(f"[{key}] Posted tweet: https://x.com/tldrnewsusa/status/{tweet_id}")
+    except tweepy.Forbidden as e:
+        if "duplicate" in str(e).lower():
+            print(f"[{key}] Tweet already posted (duplicate content). Skipping.")
+            return 0
+        print(f"[{key}] ERROR posting tweet: Forbidden: {e}", file=sys.stderr)
+        return 1
     except Exception as e:
         print(f"[{key}] ERROR posting tweet: {type(e).__name__}: {e}", file=sys.stderr)
         return 1
