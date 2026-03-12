@@ -7,6 +7,9 @@ on:
     - cron: "30 15 * * *"  # 8:30 AM MST (after 7 AM pipeline + tweets)
     - cron: "30 0 * * *"   # 5:30 PM MST (after 4 PM pipeline + tweets)
 
+permissions:
+  contents: write
+
 jobs:
   post-replies:
     runs-on: ubuntu-latest
