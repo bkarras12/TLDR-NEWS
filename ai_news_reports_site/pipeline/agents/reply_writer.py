@@ -18,6 +18,8 @@ _PROFANITY = {
     "bastard", "slut", "whore", "nigger", "faggot", "retard",
 }
 
+MAX_CHARS = 280
+
 
 def _is_promotional(text: str) -> bool:
     """Check if reply text contains promotional language."""
@@ -31,12 +33,49 @@ def _has_profanity(text: str) -> bool:
     return bool(words & _PROFANITY)
 
 
+def _truncate_to_limit(text: str, limit: int = MAX_CHARS) -> str:
+    """Truncate text at last sentence boundary under limit, or last word boundary."""
+    if len(text) <= limit:
+        return text
+
+    # Try to cut at last sentence-ending punctuation under limit
+    truncated = text[:limit]
+    for punct in [". ", "! ", "? "]:
+        idx = truncated.rfind(punct)
+        if idx > 60:  # Must keep at least 60 chars
+            return truncated[: idx + 1].strip()
+
+    # Fall back to last space
+    idx = truncated.rfind(" ")
+    if idx > 60:
+        return truncated[:idx].strip()
+
+    # Last resort: hard cut
+    return truncated.strip()
+
+
 class ReplyWriterAgent:
-    """Generates conversational, passionate replies to tweets about trending news."""
+    """Generates conversational, passionate quote-tweet commentary."""
 
     def __init__(self, client: Any | None, model: str):
         self.client = client
         self.model = model
+
+    def _generate(self, system: str, user: str) -> Optional[str]:
+        """Call OpenAI and return stripped text, or None on failure."""
+        try:
+            result = chat_completion_text(
+                client=self.client,
+                model=self.model,
+                system=system,
+                user=user,
+                fallback_models=["gpt-4o-mini", "gpt-4o"],
+                temperature=0.8,
+            )
+            return result.text.strip().strip('"').strip("'")
+        except Exception as e:
+            print(f"[reply_writer] ERROR: {type(e).__name__}: {e}", flush=True)
+            return None
 
     def run(
         self,
@@ -44,7 +83,7 @@ class ReplyWriterAgent:
         tweet_text: str,
         category_context: Dict[str, Any],
     ) -> Optional[str]:
-        """Generate a reply to a tweet. Returns reply text or None."""
+        """Generate quote-tweet commentary. Returns text or None."""
         if self.client is None:
             return None
 
@@ -60,56 +99,64 @@ class ReplyWriterAgent:
         notable_text = "\n".join(notable) if notable else "None available"
 
         system = (
-            "You are a passionate, well-informed news commentator writing a quote tweet. "
-            "Someone posted a tweet about a trending news topic, and you're adding your "
-            "own sharp take as a quote tweet. You genuinely care about what's happening "
-            "in the world and have strong but respectful opinions.\n\n"
+            "You write short, punchy quote tweets — ONE or TWO sentences MAX.\n\n"
 
-            "Your style:\n"
-            "- Conversational and natural — like a smart friend who follows the news closely\n"
-            "- Passionate — you have real feelings about this. Show conviction.\n"
-            "- Opinionated — take a clear stance. Agree, disagree, or add a twist.\n"
-            "- Add value — share a related fact, a connection they missed, or a fresh angle\n"
-            "- Stand alone — your text must make sense on its own since the quoted tweet "
-            "appears below it. Don't say 'this' or 'this tweet' — just state your take.\n\n"
+            "You are a passionate news commentator adding your take to a trending tweet. "
+            "You sound like a real person, not a brand or bot.\n\n"
 
-            "Hard rules:\n"
-            "- UNDER 280 characters. Your text has its own 280-char limit.\n"
-            "- Aim for 80-200 chars. Punchy is better.\n"
-            "- NO hashtags\n"
-            "- NO emojis\n"
-            "- NO links or URLs\n"
-            "- NO promotional language (don't mention a website, brand, or say 'check out')\n"
-            "- NO sycophantic openers ('Great point', 'So true', 'Wow')\n"
-            "- Do NOT repeat or paraphrase the tweet — add something new\n"
+            "CRITICAL LENGTH RULE:\n"
+            "- Your response MUST be 1-2 sentences.\n"
+            "- Keep it under 200 characters. Shorter is ALWAYS better.\n"
+            "- If you can say it in 15 words, don't use 30.\n\n"
+
+            "Style:\n"
+            "- Conversational, passionate, opinionated\n"
+            "- Add one specific fact, connection, or fresh angle\n"
+            "- Your text stands alone (the quoted tweet appears below it)\n\n"
+
+            "Banned:\n"
+            "- NO hashtags, emojis, links, or URLs\n"
+            "- NO promotional language\n"
+            "- NO 'Great point', 'So true', or similar openers\n"
+            "- Do NOT repeat or paraphrase the original tweet\n"
             "- Output ONLY the commentary text, nothing else"
         )
 
         user = (
-            f"Reply to this tweet:\n"
+            f"Write a quote tweet (under 200 characters, 1-2 sentences) for:\n"
             f'"{tweet_text}"\n\n'
-            f"Context you know from today's {cat_title} news:\n"
-            f"Overall sentiment: {sent_label}\n"
-            f"Key themes: {', '.join(themes)}\n"
+            f"Your {cat_title} news context:\n"
+            f"Sentiment: {sent_label}\n"
+            f"Themes: {', '.join(themes)}\n"
             f"Summary: {summary}\n"
-            f"Notable stories:\n{notable_text}\n\n"
-            f"Write a passionate, conversational reply that adds value to this conversation."
+            f"Notable:\n{notable_text}"
         )
 
-        try:
-            result = chat_completion_text(
-                client=self.client,
-                model=self.model,
-                system=system,
-                user=user,
-                fallback_models=["gpt-4o-mini", "gpt-4o"],
-                temperature=0.8,
-            )
-            reply = result.text.strip().strip('"').strip("'")
-            return self._validate(reply)
-        except Exception as e:
-            print(f"[reply_writer] ERROR: {type(e).__name__}: {e}", flush=True)
+        # Attempt 1
+        reply = self._generate(system, user)
+        if reply is None:
             return None
+
+        # If too long, retry once with explicit shortening instruction
+        if len(reply) > MAX_CHARS:
+            print(f"[reply_writer] Too long ({len(reply)} chars), retrying shorter...")
+            shorten_user = (
+                f"Your previous quote tweet was {len(reply)} characters — way too long. "
+                f"Rewrite it in ONE short sentence under 150 characters. Be blunt and direct.\n\n"
+                f"Original tweet: \"{tweet_text}\"\n"
+                f"Your previous attempt: \"{reply}\"\n\n"
+                f"Write a shorter version. ONE sentence. Under 150 characters. Output ONLY the text."
+            )
+            reply = self._generate(system, shorten_user)
+            if reply is None:
+                return None
+
+        # If STILL too long after retry, truncate at sentence boundary
+        if len(reply) > MAX_CHARS:
+            print(f"[reply_writer] Still too long ({len(reply)} chars), truncating...")
+            reply = _truncate_to_limit(reply, MAX_CHARS)
+
+        return self._validate(reply)
 
     @staticmethod
     def _validate(reply: str) -> Optional[str]:
@@ -117,7 +164,7 @@ class ReplyWriterAgent:
         if not reply or len(reply) < 30:
             print(f"[reply_writer] Rejected: too short ({len(reply)} chars)")
             return None
-        if len(reply) > 280:
+        if len(reply) > MAX_CHARS:
             print(f"[reply_writer] Rejected: too long ({len(reply)} chars)")
             return None
         if _is_promotional(reply):
