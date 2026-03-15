@@ -1,10 +1,11 @@
 {
   "date": "2026-03-14",
-  "generated_at_utc": "2026-03-14T23:37:36Z",
+  "generated_at_utc": "2026-03-15T05:01:57Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "iran"
+    "iran",
+    "markets"
   ],
   "categories": {
     "world": {
@@ -16,11 +17,18 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1827,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.305, dampened ×0.6 → -0.1827). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.3311,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.552, dampened ×0.6 → -0.3311). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
+          "url": "https://www.bbc.com/news/articles/c20lvn0ex6yo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Mar 2026 22:55:40 GMT",
+          "summary": "A relative tells BBC those killed were civilians and not Hezbollah operatives, but the Israel Defence Forces says it was targeting \"terrorist infrastructure\".",
+          "source": "BBC News"
+        },
         {
           "title": "Three more Iran football team members change minds over asylum",
           "url": "https://www.bbc.com/news/articles/c98gz372683o?at_medium=RSS&at_campaign=rss",
@@ -29,10 +37,31 @@
           "source": "BBC News"
         },
         {
+          "title": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
+          "url": "https://www.bbc.com/news/articles/cjwz8051y0lo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 15 Mar 2026 00:01:31 GMT",
+          "summary": "Predictions markets have hosted millions of dollars of bets related to the war in Iran.",
+          "source": "BBC News"
+        },
+        {
           "title": "Hamas urges key ally Iran to halt attacks on Gulf states",
           "url": "https://www.bbc.com/news/articles/cvg3xk6xgyzo?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 14 Mar 2026 13:34:17 GMT",
           "summary": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Cuban protesters ransack Communist office as energy crisis deepens",
+          "url": "https://www.bbc.com/news/articles/c875zd7de5xo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Mar 2026 22:07:50 GMT",
+          "summary": "Discontent is mounting over rolling blackouts and shortages of food, fuel and medicine, exacerbated by a US blockade.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Iraq taking private plane to Mexico for World Cup play-off",
+          "url": "https://www.bbc.com/sport/football/articles/c0k10zzjk6yo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Mar 2026 23:56:28 GMT",
+          "summary": "Iraq will travel to Mexico by private plane for their World Cup play-off despite calls from coach Graham Arnold to postpone the match amid the escalating US-Israeli war with Iran, the country's FA president Adnan Dirjal says.",
           "source": "BBC News"
         },
         {
@@ -57,13 +86,6 @@
           "source": "BBC News"
         },
         {
-          "title": "Cuban protesters ransack Communist office as energy crisis deepens",
-          "url": "https://www.bbc.com/news/articles/c875zd7de5xo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Mar 2026 22:07:50 GMT",
-          "summary": "Discontent is mounting over rolling blackouts and shortages of food, fuel and medicine, exacerbated by a US blockade.",
-          "source": "BBC News"
-        },
-        {
           "title": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
           "url": "https://www.bbc.com/news/articles/cwyg4j58gdyo?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 14 Mar 2026 12:45:41 GMT",
@@ -83,98 +105,79 @@
           "published": "Sat, 14 Mar 2026 04:34:30 GMT",
           "summary": "Ice Cube's alien invasion adaptation receives five Razzies, which go to the year's worst movies.",
           "source": "BBC News"
-        },
-        {
-          "title": "More US Marines and warships being moved to Middle East, reports say",
-          "url": "https://www.bbc.com/news/articles/cq8gj9n12g8o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Mar 2026 13:27:32 GMT",
-          "summary": "The reinforcements will come from an amphibious ready group that is usually based in Japan, an official told CBS, the BBC's US partner.",
-          "source": "BBC News"
-        },
-        {
-          "title": "German philosopher and social critic Jürgen Habermas dies at 96",
-          "url": "https://www.bbc.com/news/articles/crk8yxd2g0no?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Mar 2026 18:02:15 GMT",
-          "summary": "One the most influential thinkers in post-war Germany, he linked philosophy and political action throughout his life.",
-          "source": "BBC News"
-        },
-        {
-          "title": "LA asks for investigation into 2028 Olympics chief over Epstein ties",
-          "url": "https://www.bbc.com/news/articles/cn9ewxq98e5o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Mar 2026 02:28:50 GMT",
-          "summary": "The city council votes unanimously for an investigation into Casey Wasserman after he appeared in the Epstein files.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Iran's football team members are returning home, while tensions rise in the Middle East amid calls for restraint from Hamas and increased US military presence.",
-        "summary": "Today's news highlights significant developments in global affairs, including the return of Iranian football team members from Australia, escalating tensions in the Middle East, and a tragic rise in avalanche deaths in the Alps. Protests in Cuba against the energy crisis and a deliberate attack on a Jewish school in Amsterdam also underscore ongoing social unrest. Additionally, the death of philosopher Jürgen Habermas marks a notable loss in intellectual circles.",
+        "key_takeaway": "The global situation remains tense with escalating conflicts in the Middle East and civil unrest in Cuba amid worsening economic conditions.",
+        "summary": "Today's headlines reflect a range of global issues, including the aftermath of an Israeli strike in Lebanon, asylum decisions by Iranian football team members, and civil unrest in Cuba due to an energy crisis. Additionally, there are concerns over the implications of the Iran war, with calls for regulation of war-related prediction markets and rising tensions in Europe following an explosion at a Jewish school in Amsterdam.",
         "key_themes": [
+          "Middle East conflict updates",
+          "Cuban civil unrest",
           "Iran football team asylum decisions",
-          "Hamas Iran Gulf tensions",
-          "Alps avalanche deaths",
-          "Cuba energy crisis protests",
-          "Amsterdam Jewish school attack"
+          "European security concerns",
+          "Avalanche deaths in the Alps"
         ],
         "notable_headlines": [
           {
-            "headline": "Three more Iran football team members change minds over asylum",
-            "why_it_matters": "This reflects shifting sentiments among the team members regarding their future and safety.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Hamas urges key ally Iran to halt attacks on Gulf states",
-            "why_it_matters": "This plea indicates the complex dynamics of Middle Eastern geopolitics and the influence of Iran.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Rescuers blame weather and 'underprepared skiers' for rise in Alps avalanche deaths",
-            "why_it_matters": "The increase in avalanche fatalities raises concerns about safety measures and skier preparedness.",
+            "headline": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
+            "why_it_matters": "This incident highlights the ongoing violence and civilian casualties in the Israeli-Lebanese conflict.",
             "signal": "Risk"
           },
           {
             "headline": "Cuban protesters ransack Communist office as energy crisis deepens",
-            "why_it_matters": "This incident highlights growing discontent in Cuba amid severe shortages and government challenges.",
+            "why_it_matters": "The protests indicate rising discontent with the government amid worsening living conditions.",
             "signal": "Risk"
           },
           {
             "headline": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
-            "why_it_matters": "This attack raises alarms about security and rising anti-Semitism in Europe.",
+            "why_it_matters": "This incident raises concerns about security and anti-Semitic violence in Europe.",
             "signal": "Risk"
+          },
+          {
+            "headline": "Russia exploiting Iran war, Zelensky says after fresh bombardment",
+            "why_it_matters": "Zelensky's comments underscore the geopolitical ramifications of the Iran conflict on European security.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Three more Iran football team members change minds over asylum",
+            "why_it_matters": "This shift reflects the complexities faced by athletes in politically charged environments.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments regarding the Iranian football team's return and its implications for asylum seekers.",
-            "Watch for responses from Iranian and US officials regarding Hamas's call for restraint.",
-            "Keep an eye on the situation in Cuba as protests may escalate."
+            "Monitor developments in the Israeli-Lebanese conflict and potential international responses.",
+            "Watch for updates on the situation in Cuba as protests may escalate further.",
+            "Follow news regarding the aftermath of the explosion in Amsterdam and its implications for security."
           ],
           "next_1_4_weeks": [
-            "Expect further discussions on Middle Eastern tensions, particularly involving Iran and US military presence.",
-            "Anticipate updates on avalanche safety measures in the Alps as the ski season progresses.",
-            "Follow the investigation into the Amsterdam school attack and its impact on community safety."
+            "Expect continued tensions in the Middle East, particularly regarding Iran and its allies.",
+            "Anticipate further developments in the European security landscape following recent attacks.",
+            "Watch for potential changes in asylum policies affecting athletes and refugees from conflict zones."
           ],
           "watch_list": [
-            "Iran's geopolitical actions and their repercussions in the Gulf region.",
-            "Cuba's ongoing energy crisis and its effects on public sentiment.",
-            "The impact of recent attacks on Jewish institutions in Europe.",
-            "The legacy and influence of Jürgen Habermas in contemporary philosophy."
+            "Ongoing Israeli-Lebanese conflict developments",
+            "Cuban government response to protests",
+            "Impact of the Iran war on global security dynamics",
+            "Trends in international asylum requests",
+            "Avalanche safety measures in ski resorts"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East remains fluid and may change rapidly.",
-          "Public sentiment in Cuba could lead to further unrest, but the extent is uncertain."
+          "The situation in the Middle East is fluid and may change rapidly.",
+          "Civil unrest can escalate unexpectedly, affecting regional stability.",
+          "Economic conditions in Cuba are influenced by external factors, including US policies."
         ],
         "related_topics": [
-          "What are the latest developments in Iranian asylum cases?",
-          "How is Hamas influencing Iran's military actions?",
-          "What are the causes of avalanche deaths in the Alps?",
-          "What is happening in Cuba regarding the energy crisis?",
-          "What security measures are being taken after the Amsterdam school attack?"
+          "What are the latest developments in the Israeli-Lebanese conflict?",
+          "How is the energy crisis affecting Cuba?",
+          "What is the status of Iranian athletes seeking asylum?",
+          "What security measures are being taken in Europe after recent attacks?",
+          "What are the implications of the Iran war on global politics?"
         ]
       },
-      "tweet_text": "Chaos reigns worldwide as asylum seekers shift loyalties, protests erupt in Cuba, and avalanches claim lives in the Alps.\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Ally #Alps #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "In a world on edge, tragedy unfolds in Lebanon, while hope flickers for Iran's football stars seeking asylum.\n\nWorld Sentiment: Negative (-0.33)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Aftermath #Ally #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -254,7 +257,7 @@
           "source": "The Guardian"
         },
         {
-          "title": "How the war in Iran and its economic fallout will lead to Trump’s defeat",
+          "title": "How the war in Iran and its economic fallout could lead to Trump’s defeat",
           "url": "https://www.theguardian.com/world/2026/mar/14/trump-iran-war",
           "published": "Sat, 14 Mar 2026 16:32:56 GMT",
           "summary": "<p>The war is deeply unpopular, and the spike in oil prices will mean long-term high prices across the board for Americans</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> is still high on the capture of <a href=\"https://www.theguardian.com/world/nicolas-maduro\">Nicolás Maduro</a>. The easy abduction of the Venezuelan president didn’t just grant Trump <a href=\"https://www.crisisgroup.org/qna/latin-america-caribbean/venezuela/us-snaps-venezuelas-oil-and-rare-minera",
@@ -276,70 +279,70 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Americans are facing rising costs of living and soaring gas prices, amid concerns over the economic impact of the ongoing Iran conflict.",
-        "summary": "Today's headlines highlight the struggles of Americans with affordability amidst rising gas prices and economic challenges linked to the Iran war. Concerns are growing over the potential long-term impacts on food supplies and the economy, as well as political ramifications for the Trump administration.",
+        "key_takeaway": "Americans are facing rising costs of living and soaring gas prices, raising concerns about economic management amid ongoing geopolitical tensions.",
+        "summary": "Today's headlines highlight the struggles of American workers with affordability issues despite claims of economic recovery, alongside soaring gas prices and potential global food supply disruptions due to the Iran war.",
         "key_themes": [
-          "affordability crisis in the US",
-          "impact of Iran war on global economy",
-          "rising gas prices and consumer sentiment"
+          "US economic challenges",
+          "gas price surges",
+          "impact of Iran war on global markets"
         ],
         "notable_headlines": [
           {
             "headline": "‘Everything is going up’: Americans struggle with affordability despite Trump’s claims",
-            "why_it_matters": "This reflects the disconnect between political rhetoric and the lived experiences of American workers, raising questions about economic policies.",
+            "why_it_matters": "This reflects widespread dissatisfaction with economic conditions amid rising costs, contradicting official narratives of recovery.",
             "signal": "Risk"
           },
           {
             "headline": "Gas prices are soaring – but one Los Angeles gas station is taking it to the extreme",
-            "why_it_matters": "The extreme pricing at this gas station exemplifies the broader issue of rising fuel costs affecting consumers nationwide.",
+            "why_it_matters": "The extreme pricing at this gas station exemplifies the broader issue of rising fuel costs affecting consumers.",
             "signal": "Risk"
           },
           {
             "headline": "Global food supplies could be badly hit if Iran war drags on, says fertiliser boss",
-            "why_it_matters": "This statement underscores the potential for a significant food crisis if the conflict continues, impacting global markets.",
+            "why_it_matters": "Potential disruptions in food supply chains could exacerbate global food insecurity, especially in poorer nations.",
             "signal": "Risk"
           },
           {
             "headline": "Middle East war creating ‘largest supply disruption in the history of oil markets’",
-            "why_it_matters": "The ongoing conflict is severely affecting oil supply chains, which could lead to further economic instability.",
+            "why_it_matters": "This situation could lead to significant economic repercussions globally, affecting oil prices and supply chains.",
             "signal": "Risk"
           },
           {
-            "headline": "How the war in Iran and its economic fallout will lead to Trump’s defeat",
-            "why_it_matters": "This analysis suggests that the economic consequences of the war may have significant political implications for the Trump administration.",
+            "headline": "How the war in Iran and its economic fallout could lead to Trump’s defeat",
+            "why_it_matters": "The ongoing conflict and its economic impact could influence public sentiment and electoral outcomes.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor gas price trends and consumer reactions in major cities.",
-            "Watch for updates on the Iran conflict and its implications for global food supply.",
-            "Follow developments regarding the FCC's stance on news broadcasts."
+            "Monitor gas price trends and consumer sentiment regarding affordability.",
+            "Watch for updates on the Iran conflict and its implications for global markets.",
+            "Keep an eye on economic indicators related to inflation and consumer spending."
           ],
           "next_1_4_weeks": [
-            "Assess the long-term effects of rising gas prices on consumer spending.",
-            "Evaluate the political landscape as economic pressures mount on the Trump administration.",
-            "Observe the response of global markets to potential food supply disruptions."
+            "Expect potential policy responses from the government regarding rising costs and economic management.",
+            "Observe the impact of geopolitical tensions on oil and food prices.",
+            "Follow developments in the FCC's stance on news broadcasting amid political pressures."
           ],
           "watch_list": [
-            "Gas price fluctuations in the US",
-            "Impact of the Iran war on global food supplies",
-            "Public sentiment towards the Trump administration's economic policies.",
-            "FCC actions regarding news broadcasting permits"
+            "Gas prices in major US cities",
+            "Economic indicators related to inflation",
+            "Global food supply chain disruptions due to geopolitical events.",
+            "Public sentiment towards the Trump administration's economic policies."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates a generally negative outlook, which may affect consumer confidence and spending.",
-          "Political dynamics are fluid and could change rapidly based on developments in the Iran conflict."
+          "The economic situation is fluid and subject to rapid changes due to geopolitical events.",
+          "Consumer sentiment can shift quickly based on new developments in the Iran conflict and domestic policies."
         ],
         "related_topics": [
-          "What is causing the affordability crisis in the US?",
-          "How are rising gas prices affecting consumers?",
-          "What are the implications of the Iran war on global food supplies?"
+          "What are the current gas prices in the US",
+          "How is the Iran war affecting global food supplies",
+          "What are the economic implications of rising living costs in America"
         ]
       },
-      "tweet_text": "Gas prices are skyrocketing and Americans are feeling the squeeze—how much longer can we afford to fill up?\n\nBusiness Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Chair #Dont #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "As gas prices hit new heights, Americans are left wondering: who really benefits while we all struggle to...\n\nBusiness Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Chair #Dont #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -427,7 +430,7 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Meta plans to lay off up to 20% of its workforce as it seeks to reduce costs amid rising AI investments.",
+        "key_takeaway": "Meta plans to lay off up to 20 percent of its workforce as it reallocates funds towards AI and data centers.",
         "summary": "Today's technology news highlights significant developments including Meta's potential layoffs, the Trump administration's TikTok deal, and new product reviews from major tech companies.",
         "key_themes": [
           "Meta layoffs impact",
@@ -439,59 +442,59 @@
         "notable_headlines": [
           {
             "headline": "Trump administration is allegedly collecting $10 billion on the TikTok deal",
-            "why_it_matters": "The TikTok deal's financial implications could influence future tech negotiations and investor confidence.",
+            "why_it_matters": "The TikTok deal could have significant financial implications for the U.S. government and investors involved.",
             "signal": "Opportunity"
           },
           {
             "headline": "Meta is reportedly laying off up to 20 percent of its staff",
-            "why_it_matters": "This could signal a shift in Meta's operational strategy and impact the tech job market significantly.",
+            "why_it_matters": "This marks the largest layoff in Meta's history, reflecting broader trends in tech industry cost-cutting.",
             "signal": "Risk"
           },
           {
             "headline": "MacBook Air M5 review: a small update for the ‘just right’ Mac",
-            "why_it_matters": "The review reflects ongoing trends in laptop performance and consumer expectations for incremental upgrades.",
+            "why_it_matters": "The new MacBook Air continues to maintain Apple's reputation for quality, despite only minor updates.",
             "signal": "Unclear"
           },
           {
             "headline": "Samsung Galaxy S26 Ultra review: show off",
-            "why_it_matters": "The review highlights the competitive landscape of premium smartphones and consumer privacy concerns.",
+            "why_it_matters": "The review highlights the features and potential concerns of Samsung's latest flagship smartphone.",
             "signal": "Unclear"
           },
           {
             "headline": "5 great indie games from GDC 2026",
-            "why_it_matters": "Spotlighting indie games can influence market trends and consumer interest in diverse gaming experiences.",
+            "why_it_matters": "Spotlighting innovative indie games showcases the creativity and diversity in the gaming industry.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Meta's layoffs and their impact on the tech industry.",
+            "Monitor reactions to Meta's layoffs and their impact on the tech job market.",
             "Watch for updates on the TikTok deal and its implications for U.S.-China relations.",
-            "Expect more product reviews and tech announcements following recent events."
+            "Expect reviews and consumer feedback on the new MacBook Air and Samsung Galaxy S26 Ultra."
           ],
           "next_1_4_weeks": [
-            "Observe how Meta's layoffs affect its stock performance and employee morale.",
-            "Track developments in the gaming industry post-GDC and the reception of indie games.",
-            "Look for responses from competitors regarding the new MacBook Air and Samsung Galaxy models."
+            "Observe trends in tech layoffs across the industry as companies adjust to economic pressures.",
+            "Follow developments in the gaming industry following GDC 2026 and the reception of indie games.",
+            "Keep an eye on consumer responses to new product launches from major tech companies."
           ],
           "watch_list": [
-            "Meta's restructuring plans and future hiring policies.",
-            "Trends in consumer electronics following product reviews.",
-            "Emerging indie games and their market performance.",
-            "Updates on the TikTok deal and related regulatory actions."
+            "Meta's restructuring plans and their effects on company culture.",
+            "The ongoing developments of the TikTok deal and investor reactions.",
+            "Upcoming tech product reviews and consumer trends in the market.",
+            "Innovations and announcements from the gaming sector post-GDC."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is based on a limited number of headlines and may not reflect broader industry trends.",
+          "The sentiment score is based on a limited number of headlines and may not reflect the overall market sentiment accurately.",
           "Details regarding the TikTok deal are still emerging and may change."
         ],
         "related_topics": [
-          "What are the implications of Meta's layoffs?",
-          "Details on the Trump TikTok deal",
-          "Latest reviews of the MacBook Air M5",
-          "What to expect from the Samsung Galaxy S26 Ultra?",
-          "Highlights from GDC 2026 indie games"
+          "What are the latest updates on Meta layoffs?",
+          "How is the TikTok deal impacting U.S. investors?",
+          "What are the features of the new MacBook Air M5?",
+          "Samsung Galaxy S26 Ultra review highlights",
+          "What indie games were showcased at GDC 2026?"
         ]
       },
       "tweet_text": "From TikTok billion-dollar deals to Meta's massive layoffs, this week's tech news is a...\n\nTechnology Sentiment: Positive (+0.27)\n\nRead the full breakdown: https://tldrnews.info\n\n#Review #Administration #Allegedly #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
@@ -505,162 +508,186 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0117,
+        "score": 0.049,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.019, dampened ×0.6 → -0.0117). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.082, dampened ×0.6 → +0.0490). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Duke shows mettle in holding off UVA for ACC title",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48210833/duke-holds-virginia-2nd-straight-acc-tournament-title",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
+          "summary": "No. 1 Duke defeated No. 10 Virginia on Saturday night for its second straight Atlantic Coast Conference tournament championship under coach Jon Scheyer and its third title in the past four years.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Venezuela KO's defending champ Japan from WBC",
+          "url": "https://www.espn.com/mlb/story/_/id/48211341/venezuela-rallies-stun-japan-advances-wbc-semifinals",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
+          "summary": "Wilyer Abreu hit a go-ahead, three-run shot in the sixth, and Venezuela rallied to stun defending champion Japan to advance to the World Baseball Classic semifinals.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Arizona gets revenge, tops UH to win Big 12 title",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48209506/arizona-gets-revenge-tops-houston-win-big-12-championship",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
+          "summary": "Arizona will head into the NCAA tournament with a nine-game winning streak after holding off Houston 79-74 in Saturday's Big 12 tournament final, avenging its loss to the Cougars in last season's conference title game.",
+          "source": "ESPN"
+        },
+        {
+          "title": "St. John's routs UConn to defend Big East title",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48209589/st-john-routs-uconn-2nd-straight-big-east-tourney-title",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
+          "summary": "A tenacious defensive performance carried No. 13 St. John's to its second straight Big East tournament championship Saturday night with a 72-52 blowout of sixth-ranked UConn at Madison Square Garden.",
+          "source": "ESPN"
+        },
+        {
           "title": "Leafs want Gudas punished more for Matthews hit",
           "url": "https://www.espn.com/nhl/story/_/id/48207266/leafs-call-harsher-punishment-gudas-hit-matthews",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
           "summary": "The Maple Leafs believe the NHL didn't go far enough in punishing Ducks defenseman Radko Gudas for the hit that ended Auston Matthews' season.",
           "source": "ESPN"
         },
         {
-          "title": "Moser returning to OU with player NIL upgrade",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48205568/porter-moser-returning-oklahoma-nil-upgrade-players",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
-          "summary": "Oklahoma men's basketball coach Porter Moser will return for the 2026-27 season, athletic director Roger Denny told ESPN on Saturday.",
+          "title": "Cubs' Suzuki (knee) exits Japan's WBC loss",
+          "url": "https://www.espn.com/mlb/story/_/id/48210231/cubs-seiya-suzuki-knee-exits-japan-wbc-quarterfinal",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
+          "summary": "Chicago Cubs outfielder Seiya Suzuki exited Japan's World Baseball Classic quarterfinal matchup against Venezuela because of right knee discomfort.",
           "source": "ESPN"
         },
         {
-          "title": "Langeliers homers 3 times in spring training game",
-          "url": "https://www.espn.com/mlb/story/_/id/48208128/a-shea-langeliers-homers-3-s-spring-training-game",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
-          "summary": "Athletics catcher Shea Langeliers homered in all three of his three plate appearances in a spring training game Saturday against the Royals.",
+          "title": "TTU to have star Anderson available for tourney",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48210868/texas-tech-star-christian-anderson-available-tournament",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
+          "summary": "Texas Tech star guard Christian Anderson will be available for the NCAA tournament after leaving the Red Raiders' Big 12 tournament loss because of an apparent groin injury.",
           "source": "ESPN"
         },
         {
-          "title": "Irsay collection nets more than $93M at auction",
-          "url": "https://www.espn.com/nfl/story/_/id/48205033/jim-irsay-memorabilia-collection-nets-93m-auction",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
-          "summary": "An expansive memorabilia collection belonging to late Colts owner Jim Irsay has brought in more than $93 million via auction with Christie's.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Arsenal's Dowman becomes youngest PL scorer",
-          "url": "https://www.espn.com/soccer/story/_/id/48206506/max-dowman-16-becomes-youngest-goalscorer-ever-premier-league",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
-          "summary": "Arsenal's Max Dowman has become the youngest goal scorer in Premier League history.",
-          "source": "ESPN"
-        },
-        {
-          "title": "F1 cancels Bahrain, Saudi races due to Iran war",
-          "url": "https://www.espn.com/f1/story/_/id/48203712/f1-cancel-bahrain-saudi-arabia-races-iran-war",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
-          "summary": "Formula 1 has confirmed that the grands prix in Bahrain and Saudi Arabia will be canceled due to the war in Iran.",
-          "source": "ESPN"
-        },
-        {
-          "title": "UNC, WVU make women's top 16, to host tourney",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48206714/unc-wvu-make-top-16-host-women-tournament-games",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
-          "summary": "The top 16 seeds of the women's NCAA tournament were announced Saturday, with both North Carolina and West Virginia making the cut.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Party foul: Red flag for caterers on IndyCar track",
-          "url": "https://www.espn.com/racing/story/_/id/48205845/red-flag-indycar-practice-workers-walk-texas-track",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
-          "summary": "IndyCar officials had to throw a red flag to slow the cars as they were pulling out of the pit area during practice when three workers were spotted on the hot track.",
+          "title": "Wemby's do-it-all showcase propels red-hot Spurs",
+          "url": "https://www.espn.com/nba/story/_/id/48209108/wembanyama-do-all-showcase-propels-spurs-hornets",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
+          "summary": "Victor Wembanyama made his mark in every facet of Saturday's game against the Hornets, posting 32 points, 12 boards, eight assists, four blocks and two steals as the Spurs improved to 17-2 since Feb. 1.",
           "source": "ESPN"
         },
         {
           "title": "🏈 Which NFL teams have improved most in FA?",
           "url": "https://www.espn.com/nfl/story/_/id/48196399/2026-nfl-free-agency-best-signings-trades-moves-most-improved-teams",
-          "published": "Sat, 14 Mar 2026 18:27:23 EST",
+          "published": "Sun, 15 Mar 2026 00:48:57 EST",
           "summary": "We picked out the teams that took the biggest steps forward this week through their signings and other moves -- including the 49ers.",
+          "source": "ESPN"
+        },
+        {
+          "title": "12 questions the men's committee must answer heading into Selection Sunday",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48210828/mens-ncaa-tournament-selection-sunday-committee-questions-miami-ohio-auburn",
+          "published": "Sun, 15 Mar 2026 00:33:43 EST",
+          "summary": "The RedHawks and Tigers continue to be the talk of the bubble, plus more considerations for men's committee.",
           "source": "ESPN"
         },
         {
           "title": "Men's Bracketology: What the SEC's bloated bubble means for the overall field",
           "url": "https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2026-march-madness-men-field-predictions",
-          "published": "Sat, 14 Mar 2026 16:51:01 EST",
-          "summary": "The conference could finish with anywhere from nine to 12 bids with Texas, Oklahoma and Auburn in question.",
+          "published": "Sat, 14 Mar 2026 23:39:11 EST",
+          "summary": "null",
           "source": "ESPN"
         },
         {
-          "title": "Men's Bubble Watch: What VCU's win, Saint Louis' loss mean for the A-10 picture",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/47809690/bubble-watch-mens-ncaa-tournament-march-madness-bracket-predictions-2026",
-          "published": "Sat, 14 Mar 2026 16:51:01 EST",
-          "summary": "The Rams advance to the Atlantic 10 final, potentially controlling more than just their NCAA tournament fate.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Women's Bracketology: How the committee's top-16 reveal rippled through the field",
-          "url": "https://www.espn.com/espn/feature/story/_/id/30423107/ncaa-women-bracketology-2026-women-college-basketball-projections",
-          "published": "Sat, 14 Mar 2026 15:20:53 EST",
-          "summary": "Saturday, the committee revealed the top-16 teams that will host early round games. North Carolina moved in.",
+          "title": "Has UCLA leapfrogged UConn for No. 1 overall and four more big questions for Selection Sunday",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48210965/womens-ncaa-tournament-2026-bracket-march-madness-selection-sunday-questions-committee",
+          "published": "Sun, 15 Mar 2026 00:33:20 EST",
+          "summary": "Where the top eight seeds play in the regionals is as big of a question as which bubble teams get in Selection Sunday.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The NHL faces scrutiny over player safety, while significant events unfold in college basketball and Formula 1 due to external conflicts.",
-        "summary": "Today's sports headlines feature a mix of player safety concerns in the NHL, notable achievements in college basketball, and significant cancellations in Formula 1 due to geopolitical issues. The Maple Leafs are calling for harsher penalties for Radko Gudas after a hit on Auston Matthews, while Porter Moser is set to return to Oklahoma basketball with an NIL upgrade. Shea Langeliers made headlines with a three-homer game in spring training, and Arsenal's Max Dowman became the youngest scorer in Premier League history. Additionally, Formula 1 has canceled races in Bahrain and Saudi Arabia due to the ongoing war in Iran, and the women's NCAA tournament has announced its top 16 seeds, including UNC and WVU.",
+        "key_takeaway": "Duke, Arizona, and St. John's secured conference titles, while Venezuela stunned Japan in the World Baseball Classic quarterfinals.",
+        "summary": "In a busy sports weekend, Duke claimed the ACC title, Arizona avenged last year's loss to win the Big 12, and St. John's defended their Big East championship. Venezuela's upset over Japan in the World Baseball Classic quarterfinals was a highlight, while the NHL faced scrutiny over player safety following a controversial hit. Additionally, Texas Tech confirmed their star player will be available for the NCAA tournament, and discussions around NFL free agency and NCAA tournament selections are heating up.",
         "key_themes": [
-          "NHL player safety concerns",
-          "NCAA basketball tournament updates",
-          "Formula 1 race cancellations due to war"
+          "NCAA tournament updates",
+          "World Baseball Classic results",
+          "NHL player safety concerns"
         ],
         "notable_headlines": [
           {
+            "headline": "Duke shows mettle in holding off UVA for ACC title",
+            "why_it_matters": "Duke's victory reinforces their dominance in the ACC and sets them up favorably for the NCAA tournament.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Venezuela KO's defending champ Japan from WBC",
+            "why_it_matters": "This upset highlights Venezuela's growing strength in international baseball and advances them to the semifinals.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Arizona gets revenge, tops UH to win Big 12 title",
+            "why_it_matters": "Arizona's win boosts their momentum heading into the NCAA tournament, showcasing their improvement this season.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "St. John's routs UConn to defend Big East title",
+            "why_it_matters": "St. John's strong performance solidifies their status as a top contender in the NCAA tournament.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Leafs want Gudas punished more for Matthews hit",
-            "why_it_matters": "This highlights ongoing concerns about player safety in the NHL and the league's response to dangerous plays.",
+            "why_it_matters": "The Maple Leafs' call for harsher punishment raises ongoing concerns about player safety in the NHL.",
             "signal": "Risk"
           },
           {
-            "headline": "Moser returning to OU with player NIL upgrade",
-            "why_it_matters": "Moser's return signals stability for Oklahoma basketball amid changing NIL dynamics in college sports.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Langeliers homers 3 times in spring training game",
-            "why_it_matters": "Langeliers' performance showcases his potential impact for the Athletics this season.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Irsay collection nets more than $93M at auction",
-            "why_it_matters": "The auction results reflect the high value of sports memorabilia and its cultural significance.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "F1 cancels Bahrain, Saudi races due to Iran war",
-            "why_it_matters": "The cancellations underscore the impact of geopolitical issues on international sporting events.",
+            "headline": "Cubs' Suzuki (knee) exits Japan's WBC loss",
+            "why_it_matters": "Suzuki's injury could impact Japan's chances in the tournament and raises concerns for the Cubs' season.",
             "signal": "Risk"
+          },
+          {
+            "headline": "TTU to have star Anderson available for tourney",
+            "why_it_matters": "Anderson's availability is crucial for Texas Tech's chances in the NCAA tournament.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Wemby's do-it-all showcase propels red-hot Spurs",
+            "why_it_matters": "Wembanyama's performance highlights his potential and the Spurs' strong form heading into the playoffs.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Which NFL teams have improved most in FA?",
+            "why_it_matters": "Identifying the most improved teams can influence expectations for the upcoming NFL season.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "12 questions the men's committee must answer heading into Selection Sunday",
+            "why_it_matters": "The decisions made by the committee will shape the NCAA tournament landscape.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to the NHL's handling of player safety issues.",
-            "Watch for updates on the NCAA tournament as teams prepare for the upcoming games.",
-            "Expect further developments regarding the impact of the war in Iran on sports events."
+            "NCAA tournament selections will be finalized, impacting team matchups and expectations.",
+            "Further updates on player injuries and their implications for upcoming games will be monitored.",
+            "NHL disciplinary actions regarding player safety will be closely watched."
           ],
           "next_1_4_weeks": [
-            "Follow the NCAA tournament as teams compete for a championship.",
-            "Keep an eye on the MLB season as spring training progresses and rosters finalize.",
-            "Watch for potential changes in the F1 schedule based on geopolitical developments."
+            "The NCAA tournament will commence, providing high-stakes matchups and potential upsets.",
+            "The World Baseball Classic semifinals and finals will showcase top international talent.",
+            "NHL playoff races will intensify as teams vie for postseason positions."
           ],
           "watch_list": [
-            "NHL player safety policies",
-            "NCAA tournament bracket updates",
-            "Impact of NIL on college sports",
-            "Upcoming MLB season highlights",
-            "F1 schedule changes due to international conflicts"
+            "Monitor the performance of teams in the NCAA tournament and their potential upsets.",
+            "Keep an eye on player health updates, especially regarding injuries from the WBC and NHL.",
+            "Watch for developments in NFL free agency and how teams adjust their rosters. ",
+            "Follow the outcomes of the World Baseball Classic as it progresses to the semifinals."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation regarding the NHL's player safety policies is ongoing and may evolve.",
-          "The impact of geopolitical events on sports can change rapidly, affecting future events."
+          "The sentiment score indicates a neutral tone overall, suggesting mixed reactions to the events reported.",
+          "Injuries and player availability can change rapidly, impacting team dynamics and performance. "
         ],
         "related_topics": [
-          "What are the latest updates on NHL player safety?",
-          "How are college basketball teams preparing for March Madness?",
-          "What is the impact of the Iran war on sports events?"
+          "What are the latest NCAA tournament updates?",
+          "How did Venezuela perform in the World Baseball Classic?",
+          "What are the implications of player injuries in the NHL?"
         ]
       },
-      "tweet_text": "Leafs call for Gudas to face the music after Matthews hit, while Irsay's auction breaks records—sports...\n\nSports Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Arsenals #Auction #Bahrain #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Championships were claimed and upsets shook the world—today's sports are nothing short of electric!\n\nSports Sentiment: Neutral (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Title #Anderson #Arizona #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -671,11 +698,53 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.1359,
+        "score": 0.1723,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.226, dampened ×0.6 → +0.1359). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.287, dampened ×0.6 → +0.1723). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Scared of spiders? Scientists say the real nightmare is losing them",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260314030512.htm",
+          "published": "Sat, 14 Mar 2026 20:37:58 EDT",
+          "summary": "Spiders and insects may not be fan favorites, but they are vital to the health of ecosystems—and scientists barely know how they’re doing. Researchers found that nearly 90% of North America’s insect and arachnid species have no conservation status, leaving their fate largely unknown. Even more striking, most states don’t protect a single arachnid species. The study warns that these overlooked creatures are essential to planetary health and urgently need better monitoring and protection.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260314030507.htm",
+          "published": "Sun, 15 Mar 2026 00:05:53 EDT",
+          "summary": "A protein tied to ALS and dementia may have a much bigger role in disease than scientists realized. Researchers found that TDP43 controls a key DNA repair process, but when the protein becomes imbalanced, the repair system can spiral out of control, harming neurons and destabilizing DNA. The team also discovered that high levels of the protein are linked to increased mutation rates in cancer. The discovery places TDP43 at the center of both neurodegeneration and cancer biology.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Hidden deep-sea proteins could supercharge disease tests",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260314030502.htm",
+          "published": "Sat, 14 Mar 2026 23:50:05 EDT",
+          "summary": "Hidden in volcanic lakes and deep-sea vents, scientists have discovered tough new DNA-binding proteins built to survive extreme conditions. After scanning huge genetic databases, researchers found molecules that remain stable under heat, salt, and harsh chemistry. One of these proteins significantly improved rapid LAMP diagnostic tests, making them faster and more sensitive. The discovery could help create better tools for detecting infectious diseases.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "A donut-shaped protein breaks apart to start bacterial cell division",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260314030457.htm",
+          "published": "Sat, 14 Mar 2026 23:36:50 EDT",
+          "summary": "Researchers have revealed how bacteria precisely control the genes that trigger cell division. The study shows that the MraZ protein, which normally forms a donut-shaped structure, must bend and partially break apart to bind key DNA sequences that activate division genes. Using cryo-electron microscopy, scientists captured this interaction in remarkable detail. The mechanism appears to be widespread across bacteria, offering a new window into how microbes regulate growth.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA launches twin spacecraft to solve the mystery of Mars’ lost atmosphere",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260314030452.htm",
+          "published": "Sat, 14 Mar 2026 22:31:40 EDT",
+          "summary": "Mars didn’t always look like the barren world we see today. Over billions of years, the Sun’s solar wind stripped away much of its atmosphere, helping transform it from a warmer, wetter planet into a frozen desert. NASA’s twin-spacecraft ESCAPADE mission aims to watch this process in action by measuring how the solar wind interacts with Mars’ fragile magnetic environment. The findings could reveal how Mars lost its habitability—and help prepare humans for future missions there.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA’s Curiosity rover investigates strange spiderweb ridges on Mars",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260314030449.htm",
+          "published": "Sat, 14 Mar 2026 21:08:34 EDT",
+          "summary": "NASA’s Curiosity rover is investigating strange spiderweb-like ridges on Mars that may reveal a hidden chapter of the planet’s watery history. These “boxwork” formations likely formed when groundwater flowed through cracks in the rock, leaving minerals that hardened into ridges while surrounding material eroded away. New chemical analyses of drilled rock samples show minerals linked to water activity.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Scientists discover giant swirling plumes hidden deep inside Greenland’s ice sheet",
           "url": "https://www.sciencedaily.com/releases/2026/03/260314030446.htm",
@@ -717,117 +786,78 @@
           "published": "Sat, 14 Mar 2026 08:15:12 EDT",
           "summary": "Hair may grow in a completely different way than scientists once believed. Instead of being pushed out from the root, new research shows that moving cells inside the follicle actually pull the hair upward like a microscopic motor. Advanced 3D imaging revealed a spiral movement of cells that generates this force. The finding could change how scientists study hair loss and design future treatments.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Monty Python Got It Wrong About Medieval Disease",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260313002645.htm",
-          "published": "Fri, 13 Mar 2026 05:38:00 EDT",
-          "summary": "In medieval Denmark, people could pay for more prestigious graves closer to the church — a sign of wealth and status. But when researchers examined hundreds of skeletons, they discovered something unexpected: even people with stigmatized diseases like leprosy were buried in these high-status spots. Instead of excluding the sick, many communities appear to have treated them much like everyone else.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Gut bacteria that make serotonin may hold the key to IBS",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260313002640.htm",
-          "published": "Fri, 13 Mar 2026 23:28:29 EDT",
-          "summary": "Researchers have identified two gut bacteria that can produce serotonin, a key chemical that regulates bowel movements. In experiments with mice lacking serotonin, the microbes boosted serotonin levels, increased nerve cells in the colon, and normalized intestinal movement. The study also found that people with IBS have lower levels of one of these bacteria. The discovery suggests gut microbes could become a powerful new target for treating digestive disorders.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Microplastics may be quietly damaging your brain and fueling Alzheimer’s and Parkinson’s",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260313002637.htm",
-          "published": "Fri, 13 Mar 2026 20:38:26 EDT",
-          "summary": "Tiny plastic particles may be quietly threatening brain health. New research suggests microplastics—now widely found in food, water, and even household dust—could trigger inflammation and damage in the brain through multiple biological pathways. Scientists estimate adults may consume about 250 grams of these particles each year, and some can accumulate in organs including the brain.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists crack a 20-year nuclear mystery behind the creation of gold",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260313002633.htm",
-          "published": "Fri, 13 Mar 2026 02:38:42 EDT",
-          "summary": "Gold and other heavy elements are born in some of the universe’s most violent events—but scientists still struggle to understand the nuclear steps that create them. Now, nuclear physicists have uncovered three key discoveries about how unstable atomic nuclei decay during the rapid neutron-capture process, the chain reaction responsible for forging elements like gold and platinum.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Simple water trick cuts diesel engine pollution by over 60%",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260313002630.htm",
-          "published": "Fri, 13 Mar 2026 19:04:01 EDT",
-          "summary": "Scientists are exploring a surprisingly simple way to clean up diesel engines: adding tiny droplets of water to the fuel. During combustion, the water rapidly vaporizes, triggering micro-explosions that improve fuel mixing and lower combustion temperatures. Studies show this technique can slash nitrogen oxide and soot emissions by more than 60% while sometimes even improving engine efficiency. Because it works in existing engines without redesign, it could provide a quick path to cleaner diesel",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "The surprising new ways bacteria spread without propellers",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260313001759.htm",
-          "published": "Fri, 13 Mar 2026 01:21:04 EDT",
-          "summary": "Scientists at Arizona State University have uncovered surprising new ways bacteria move, even without their usual whip-like propellers called flagella. In one study, E. coli and salmonella were found to spread across moist surfaces by fermenting sugars and creating tiny fluid currents that carry them forward — a newly identified behavior researchers call “swashing.” In another study, a different group of bacteria was shown to control its movement using a microscopic molecular “gearbox” that can",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include the dynamics of Greenland's ice sheet, ancient DNA in plants, and new methods for drug modification and pollution reduction.",
-        "summary": "Today's science headlines highlight significant discoveries, including the dynamics of Greenland's ice sheet, the migration history of our Sun, innovative drug modification techniques, and the impact of microplastics on brain health. Researchers also revealed new insights into plant DNA, the surprising growth of human hair, and methods to reduce diesel engine pollution. Additionally, studies on gut bacteria and bacterial movement mechanisms provide new avenues for medical and environmental research.",
+        "key_takeaway": "Recent scientific discoveries highlight the importance of ecosystem health, advancements in disease research, and new insights into planetary and biological processes.",
+        "summary": "Today's science headlines cover a range of topics, including the ecological importance of spiders and insects, the discovery of a protein linked to ALS and cancer, and NASA's exploration of Mars. Other notable findings include new DNA-binding proteins from extreme environments, mechanisms of bacterial cell division, and ancient DNA switches in plants. Additionally, researchers warn about the potential extinction of Australia's 'zombie tree' and reveal new insights into human hair growth.",
         "key_themes": [
-          "Greenland ice sheet dynamics",
-          "ancient plant DNA discoveries",
-          "new drug modification techniques",
-          "impact of microplastics on health",
-          "bacterial movement mechanisms"
+          "importance of spiders and insects in ecosystems",
+          "ALS protein discovery and its implications",
+          "NASA's Mars exploration missions",
+          "deep-sea proteins for disease testing",
+          "mechanisms of bacterial cell division",
+          "ancient DNA switches in plants"
         ],
         "notable_headlines": [
           {
+            "headline": "Scared of spiders? Scientists say the real nightmare is losing them",
+            "why_it_matters": "Spiders and insects are crucial for ecosystem health, yet most lack conservation status, highlighting a need for better monitoring.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
+            "why_it_matters": "The discovery of TDP43's role in DNA repair could reshape understanding of neurodegeneration and cancer biology.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "NASA launches twin spacecraft to solve the mystery of Mars’ lost atmosphere",
+            "why_it_matters": "The ESCAPADE mission aims to uncover how solar wind affected Mars' atmosphere, informing future human exploration.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Scientists discover giant swirling plumes hidden deep inside Greenland’s ice sheet",
-            "why_it_matters": "Understanding these plumes could improve predictions about ice sheet behavior in a warming climate.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "A lab mistake at Cambridge reveals a powerful new way to modify drug molecules",
-            "why_it_matters": "This method could accelerate drug discovery and reduce environmental impact.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Microplastics may be quietly damaging your brain and fueling Alzheimer’s and Parkinson’s",
-            "why_it_matters": "The findings raise concerns about the widespread health effects of microplastics.",
+            "why_it_matters": "Understanding these plumes could improve predictions about Greenland's ice behavior in a warming climate.",
             "signal": "Risk"
           },
           {
-            "headline": "Scientists warn Australia’s “zombie tree” could vanish within a generation",
-            "why_it_matters": "The loss of this tree species highlights the impact of disease on biodiversity.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Gut bacteria that make serotonin may hold the key to IBS",
-            "why_it_matters": "This discovery could lead to new treatments for digestive disorders.",
+            "headline": "Textbooks were wrong: Scientists reveal the surprising way human hair really grows",
+            "why_it_matters": "New insights into hair growth mechanisms could lead to better treatments for hair loss.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of Greenland's ice dynamics may be released.",
-            "More studies on the health impacts of microplastics are expected.",
-            "Updates on the conservation efforts for Australia's zombie tree."
+            "Further analysis of the ecological impact of spiders and insects is expected.",
+            "More details on the TDP43 protein's implications for disease may emerge.",
+            "Initial findings from NASA's Mars missions will be closely monitored."
           ],
           "next_1_4_weeks": [
-            "Anticipated publications on the implications of the new drug modification technique.",
-            "Research findings on gut bacteria and their role in mental health may emerge.",
-            "Continued exploration of ancient DNA sequences in plants is likely."
+            "Anticipated studies on the effectiveness of new DNA-binding proteins in disease diagnostics.",
+            "Research on the implications of Greenland's ice sheet findings will continue.",
+            "Updates on the conservation status of the 'zombie tree' in Australia are expected."
           ],
           "watch_list": [
-            "Developments in the study of microplastics and brain health.",
-            "Progress in drug discovery methods using the new light-powered reaction.",
-            "Conservation strategies for endangered plant species.",
-            "Research on the effects of diesel engine pollution reduction techniques."
+            "Developments in ALS and cancer research related to TDP43.",
+            "Progress from NASA's Mars missions and their findings.",
+            "Further studies on ancient DNA switches in plants.",
+            "Research on the ecological roles of spiders and insects."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The long-term implications of these findings are still being studied.",
-          "Some discoveries may require further validation through peer review."
+          "The ecological status of many species remains largely unknown due to lack of monitoring.",
+          "The implications of new scientific discoveries may take time to fully understand."
         ],
         "related_topics": [
-          "What are the latest discoveries in Greenland's ice sheet research?",
-          "How do gut bacteria influence digestive health?",
-          "What new methods are being developed for drug modification?"
+          "What is the ecological importance of spiders and insects?",
+          "How does TDP43 protein relate to ALS and cancer?",
+          "What are NASA's latest findings on Mars?",
+          "How do deep-sea proteins improve disease testing?",
+          "What new insights have been discovered about human hair growth?"
         ]
       },
-      "tweet_text": "Uncover the secrets of our planet and beyond: from ancient DNA to the Sun's cosmic escape!\n\nScience Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Discover #Hidden #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "What if the key to fighting ALS, cancer, and dementia is hidden in the tiniest proteins deep beneath...\n\nScience Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Discover #Hidden #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
