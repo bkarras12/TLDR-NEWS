@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from datetime import date
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -152,7 +153,11 @@ class ArticleWriterAgent:
             "- Use ## for section headings, ### for subheadings within sections\n"
             "- Write in flowing paragraphs — no bullet points in the article body\n"
             "- Do not invent facts beyond what the headlines and summaries provide\n"
-            "- Every claim must be traceable to the provided source data"
+            "- Every claim must be traceable to the provided source data\n"
+            "- When referencing a specific news category (World, Business, Technology, Sports, "
+            "Science), hyperlink it to the corresponding report page using the URLs provided "
+            "below. Use markdown link syntax: [Category Name](url). Do this naturally — "
+            "2-4 links per article, placed where the category is first mentioned in a section."
         )
 
         trending = daily_report.get("trending_topics", [])
@@ -160,9 +165,15 @@ class ArticleWriterAgent:
         if trending:
             trending_line = f"\nTRENDING TOPICS (appearing across multiple categories): {', '.join(trending[:8])}\n"
 
+        cat_links = "\n".join(
+            f"  - {cat_data.get('title', k)}: https://tldrnews.info/news/{date_key}/{k}.html"
+            for k, cat_data in categories.items()
+        )
+
         user = (
             f"Write today's daily roundup article for {date_key}.\n"
             f"{trending_line}\n"
+            f"Category report page URLs for internal linking:\n{cat_links}\n\n"
             f"Here is the full report data across all categories:\n\n{report_blob}"
         )
 
@@ -261,7 +272,13 @@ class ArticleWriterAgent:
             return None
 
         title = self.generate_title(date_key=date_key, daily_report=daily_report)
-        frontmatter = self.build_frontmatter(date_key=date_key, title=title)
+
+        # Rotate category daily based on date
+        _CATEGORY_ROTATION = ["world", "business", "technology", "sports", "science"]
+        day_ordinal = date.fromisoformat(date_key).toordinal()
+        category = _CATEGORY_ROTATION[day_ordinal % len(_CATEGORY_ROTATION)]
+
+        frontmatter = self.build_frontmatter(date_key=date_key, title=title, category=category)
         markdown = frontmatter + "\n" + body + "\n"
 
         articles_dir = site_root / "news" / "articles"
@@ -284,7 +301,7 @@ class ArticleWriterAgent:
         index.insert(0, {
             "slug": slug,
             "title": title,
-            "category": "world",
+            "category": category,
             "date": date_key,
             "author": "TL;DR News",
         })

@@ -65,6 +65,7 @@ jobs:
                  ai_news_reports_site/news/feeds \
                  ai_news_reports_site/news/articles \
                  ai_news_reports_site/news/sitemap.xml \
+                 ai_news_reports_site/news/news-sitemap.xml \
                  ai_news_reports_site/news/robots.txt
           # Stage static HTML pages (date dirs and category landing dirs)
           find ai_news_reports_site/news -maxdepth 2 -name '*.html' -not -path '*/news/reports.html' -not -path '*/news/index.html' | xargs -r git add

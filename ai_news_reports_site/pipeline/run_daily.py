@@ -330,6 +330,9 @@ def main() -> int:
     sitemap_path = publisher.write_sitemap(base_url="https://tldrnews.info/")
     print(f"Wrote sitemap: {sitemap_path}")
 
+    news_sitemap_path = publisher.write_news_sitemap(base_url="https://tldrnews.info/")
+    print(f"Wrote news sitemap: {news_sitemap_path}")
+
     feeds = publisher.write_rss_feeds(date_key, daily_report, base_url="https://tldrnews.info/")
     print(f"Wrote {len(feeds)} RSS feeds")
 

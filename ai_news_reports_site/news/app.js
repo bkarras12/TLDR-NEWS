@@ -32,7 +32,7 @@ function fmtScore(x){
 }
 
 function cacheBust(url){
-  const u = new URL(url, window.location.href);
+  const u = new URL(url, document.baseURI);
   u.searchParams.set("_ts", Date.now());
   return u.toString();
 }

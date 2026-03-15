@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -128,6 +129,84 @@ class PublisherAgent:
         sitemap_path = self.site_root / "news" / "sitemap.xml"
         sitemap_path.write_text(xml, encoding="utf-8")
         return sitemap_path
+
+    def write_news_sitemap(self, base_url: str = "") -> Path:
+        """Generate news-sitemap.xml for Google News (last 2 days only)."""
+        idx = self._read_index()
+        urls: List[str] = []
+        ex = self._ex
+
+        recent_dates = [e.get("date", "") for e in idx.get("dates", [])[:2]]
+
+        for date_str in recent_dates:
+            report = self._load_report(date_str)
+            if not report:
+                continue
+            for cat_key, cat in (report.get("categories") or {}).items():
+                title = cat.get("title", cat_key.title())
+                rep = cat.get("ai_report") or {}
+                key_takeaway = rep.get("key_takeaway", "")
+                key_themes = rep.get("key_themes") or []
+
+                news_title = key_takeaway or f"{title} News Summary — {date_str}"
+                keywords_str = ", ".join(key_themes[:5])
+
+                loc = f"{base_url}news/{date_str}/{cat_key}.html"
+                url_xml = (
+                    f"  <url>\n"
+                    f"    <loc>{ex(loc)}</loc>\n"
+                    f"    <news:news>\n"
+                    f"      <news:publication>\n"
+                    f"        <news:name>TL;DR News</news:name>\n"
+                    f"        <news:language>en</news:language>\n"
+                    f"      </news:publication>\n"
+                    f"      <news:publication_date>{ex(date_str)}</news:publication_date>\n"
+                    f"      <news:title>{ex(news_title)}</news:title>\n"
+                    f"      <news:keywords>{ex(keywords_str)}</news:keywords>\n"
+                    f"    </news:news>\n"
+                    f"  </url>"
+                )
+                urls.append(url_xml)
+
+        # Include daily roundup articles from last 2 days
+        articles_index_path = self.site_root / "news" / "articles" / "articles_index.json"
+        if articles_index_path.exists():
+            try:
+                articles = json.loads(articles_index_path.read_text(encoding="utf-8"))
+                for article in articles:
+                    date_str = article.get("date", "")
+                    if date_str not in recent_dates:
+                        continue
+                    slug = article.get("slug", "")
+                    title = article.get("title", "")
+                    if slug and title:
+                        loc = f"{base_url}news/articles/{slug}.html"
+                        url_xml = (
+                            f"  <url>\n"
+                            f"    <loc>{ex(loc)}</loc>\n"
+                            f"    <news:news>\n"
+                            f"      <news:publication>\n"
+                            f"        <news:name>TL;DR News</news:name>\n"
+                            f"        <news:language>en</news:language>\n"
+                            f"      </news:publication>\n"
+                            f"      <news:publication_date>{ex(date_str)}</news:publication_date>\n"
+                            f"      <news:title>{ex(title)}</news:title>\n"
+                            f"    </news:news>\n"
+                            f"  </url>"
+                        )
+                        urls.append(url_xml)
+            except Exception:
+                pass
+
+        xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+        xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+        xml += '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n'
+        xml += "\n".join(urls)
+        xml += "\n</urlset>\n"
+
+        news_sitemap_path = self.site_root / "news" / "news-sitemap.xml"
+        news_sitemap_path.write_text(xml, encoding="utf-8")
+        return news_sitemap_path
 
     def write_rss_feeds(self, date_key: str, report: Dict[str, Any], base_url: str = "") -> List[Path]:
         """Generate RSS feeds: one combined feed and one per category, with 14 days of history."""
@@ -319,7 +398,20 @@ class PublisherAgent:
         return written
 
     @staticmethod
-    def _md_to_html(md: str) -> str:
+    def _escape_with_links(text: str) -> str:
+        """HTML-escape text while preserving markdown links as <a> tags."""
+        _LINK_RE = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
+        parts: List[str] = []
+        last = 0
+        for m in _LINK_RE.finditer(text):
+            parts.append(html.escape(text[last:m.start()]))
+            parts.append(f'<a href="{html.escape(m.group(2), quote=True)}">{html.escape(m.group(1))}</a>')
+            last = m.end()
+        parts.append(html.escape(text[last:]))
+        return "".join(parts)
+
+    @classmethod
+    def _md_to_html(cls, md: str) -> str:
         """Minimal markdown to HTML conversion for article bodies."""
         lines = md.split("\n")
         html_lines: List[str] = []
@@ -332,22 +424,22 @@ class PublisherAgent:
                 if in_paragraph:
                     html_lines.append("    </p>")
                     in_paragraph = False
-                html_lines.append(f"    <h3>{html.escape(stripped[4:])}</h3>")
+                html_lines.append(f"    <h3>{cls._escape_with_links(stripped[4:])}</h3>")
             elif stripped.startswith("## "):
                 if in_paragraph:
                     html_lines.append("    </p>")
                     in_paragraph = False
-                html_lines.append(f"    <h2>{html.escape(stripped[3:])}</h2>")
+                html_lines.append(f"    <h2>{cls._escape_with_links(stripped[3:])}</h2>")
             elif stripped == "":
                 if in_paragraph:
                     html_lines.append("    </p>")
                     in_paragraph = False
             else:
                 if not in_paragraph:
-                    html_lines.append(f"    <p>{html.escape(stripped)}")
+                    html_lines.append(f"    <p>{cls._escape_with_links(stripped)}")
                     in_paragraph = True
                 else:
-                    html_lines.append(f" {html.escape(stripped)}")
+                    html_lines.append(f" {cls._escape_with_links(stripped)}")
 
         if in_paragraph:
             html_lines.append("    </p>")
@@ -412,15 +504,26 @@ class PublisherAgent:
         caveats = rep.get("caveats") or []
         related_topics = rep.get("related_topics") or []
 
-        page_title = f"{title} News Summary — {date_key}"
-        meta_desc = key_takeaway or summary[:160]
+        # Build search-friendly title from key takeaway
+        if is_landing:
+            page_title = f"Today's {title} News Summary & Analysis | TL;DR News"
+        elif key_takeaway and len(key_takeaway) > 15:
+            trunc = key_takeaway[:60].rsplit(" ", 1)[0] if len(key_takeaway) > 60 else key_takeaway
+            trunc = trunc.rstrip(".,;:— ")
+            page_title = f"{trunc} — {title} News | TL;DR News"
+        else:
+            page_title = f"{title} News Summary — {date_key} | TL;DR News"
+        if is_landing:
+            meta_desc = f"Today's {title.lower()} news summary with AI analysis, sentiment scoring, key themes, and forward-looking outlook. Updated daily."
+        else:
+            meta_desc = key_takeaway or summary[:160]
         page_url = f"{self.BASE_URL}news/{date_key}/{cat_key}.html"
 
         # Schema.org JSON-LD
         schema_ld = json.dumps({
             "@context": "https://schema.org",
             "@type": "NewsArticle",
-            "headline": f"{title} News Summary — {date_key}",
+            "headline": page_title,
             "datePublished": date_key,
             "dateModified": date_key,
             "description": meta_desc,
@@ -573,6 +676,7 @@ class PublisherAgent:
   <title>{e(page_title)}</title>
   <meta name="description" content="{e(meta_desc)}">
   <meta name="robots" content="index, follow, max-snippet:-1">
+  <meta name="news_keywords" content="{e(', '.join(key_themes[:10]))}">
   <link rel="canonical" href="{e(page_url)}">
   <link rel="alternate" type="application/rss+xml" title="TL;DR News — {e(title)}" href="../feeds/{cat_key}.xml">
   <link rel="alternate" type="application/rss+xml" title="TL;DR News — All Categories" href="../feeds/all.xml">
