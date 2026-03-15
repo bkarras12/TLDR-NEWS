@@ -1,11 +1,11 @@
 {
   "date": "2026-03-15",
-  "generated_at_utc": "2026-03-15T14:24:30Z",
+  "generated_at_utc": "2026-03-15T20:41:41Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "iran",
-    "markets"
+    "trump"
   ],
   "categories": {
     "world": {
@@ -17,9 +17,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3155,
+        "score": -0.3052,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.526, dampened ×0.6 → -0.3155). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.509, dampened ×0.6 → -0.3052). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -37,10 +37,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Severe flooding kills 62 in Kenya, as heavy rains continue",
+          "title": "Severe flooding kills 66 in Kenya, as heavy rains continue",
           "url": "https://www.bbc.com/news/articles/cz6e5eng03yo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 15 Mar 2026 13:19:04 GMT",
+          "published": "Sun, 15 Mar 2026 16:12:11 GMT",
           "summary": "Eleven people were rescued overnight after a minibus taxi got stuck in rising floodwaters in Nairobi.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Sweden detains captain of Russian shadow fleet ship",
+          "url": "https://www.bbc.com/news/articles/cpqwg0yej04o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 15 Mar 2026 18:40:59 GMT",
+          "summary": "The skipper of the Sea Owl One is suspected of producing forged documents when it was boarded by coast guard.",
           "source": "BBC News"
         },
         {
@@ -58,6 +65,20 @@
           "source": "BBC News"
         },
         {
+          "title": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
+          "url": "https://www.bbc.com/news/articles/c98gz372683o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 15 Mar 2026 18:46:24 GMT",
+          "summary": "Five of the seven members of the women's football delegation who originally sought to stay in Australia have now chosen to return home.",
+          "source": "BBC News"
+        },
+        {
+          "title": "French police detain brothers over 'lethal and antisemitic' plot",
+          "url": "https://www.bbc.com/news/articles/ckgl5d3d3kjo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 15 Mar 2026 16:12:34 GMT",
+          "summary": "A loaded gun, hydrochloric acid and an Islamic State flag were found in their car, prosecutors say.",
+          "source": "BBC News"
+        },
+        {
           "title": "Treasure hunter freed from prison after refusing to turn over shipwreck gold",
           "url": "https://www.bbc.com/news/articles/cg4g7kn99q3o?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 14 Mar 2026 22:27:41 GMT",
@@ -72,13 +93,6 @@
           "source": "BBC News"
         },
         {
-          "title": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
-          "url": "https://www.bbc.com/news/articles/cjwz8051y0lo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 15 Mar 2026 00:01:31 GMT",
-          "summary": "Predictions markets have hosted millions of dollars of bets related to the war in Iran.",
-          "source": "BBC News"
-        },
-        {
           "title": "Cuban protesters ransack Communist office as energy crisis deepens",
           "url": "https://www.bbc.com/news/articles/c875zd7de5xo?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 14 Mar 2026 22:07:50 GMT",
@@ -86,105 +100,83 @@
           "source": "BBC News"
         },
         {
-          "title": "Three more Iran football team members change minds over asylum",
-          "url": "https://www.bbc.com/news/articles/c98gz372683o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Mar 2026 20:48:55 GMT",
-          "summary": "Four of seven members of the women's football delegation who originally sought to stay in Australia have now chosen to return home.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Medvedev stuns Alcaraz to set up Sinner final",
-          "url": "https://www.bbc.com/sport/tennis/articles/cqlgn0vz4y1o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 15 Mar 2026 00:32:02 GMT",
-          "summary": "World number two Jannik Sinner puts on a masterclass to beat Alexander Zverev 6-2 6-4 and reach his first final at Indian Wells, while Daniil Medvedev ends Carlos Alcaraz's winning run.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Russia exploiting Iran war, Zelensky says after fresh bombardment",
-          "url": "https://www.bbc.com/news/articles/c0mger2zkmwo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Mar 2026 21:50:22 GMT",
-          "summary": "Volodymyr Zelensky cast concern over the supply of air-defence missiles after a heavy overnight attack kills at least five.",
+          "title": "Trump urges UK and other nations to send warships to Strait of Hormuz",
+          "url": "https://www.bbc.com/news/articles/cd039n9vj3vo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Mar 2026 20:33:34 GMT",
+          "summary": "The US president says he hopes China, France, Japan and South Korea will also send ships to defend the key oil shipping route.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Severe flooding in Kenya has resulted in 62 fatalities, while tensions in the Middle East continue to escalate with recent violence in Israel and Palestine.",
-        "summary": "Today's news highlights significant global issues, including severe flooding in Kenya leading to numerous casualties, escalating violence in Israel and Palestine, and political tensions in Ukraine regarding oil sanctions. Additionally, protests in Cuba reflect growing discontent over energy shortages, while a Ugandan opposition leader has fled after threats against his life.",
+        "key_takeaway": "Severe flooding in Kenya has resulted in 66 fatalities, while tensions in the Middle East escalate with Israeli strikes and Palestinian casualties.",
+        "summary": "Today's news highlights significant global events, including severe flooding in Kenya leading to numerous deaths, escalating violence in the Middle East, and political tensions in Europe and Uganda. The situation remains dire as humanitarian crises unfold alongside geopolitical conflicts.",
         "key_themes": [
-          "Middle East violence updates",
+          "Middle East conflict updates",
           "Kenya flooding impact",
-          "Ukraine oil pipeline tensions",
-          "Cuban protests energy crisis",
-          "Ugandan opposition leader news"
+          "European political tensions",
+          "Ugandan opposition news",
+          "Cuban protests against government"
         ],
         "notable_headlines": [
           {
-            "headline": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
-            "why_it_matters": "This incident underscores the ongoing conflict in the region and raises questions about civilian casualties in military operations.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Zelensky accuses EU allies of 'blackmail' in oil pipeline row",
-            "why_it_matters": "Zelensky's comments highlight the complex geopolitical dynamics surrounding energy supplies and sanctions against Russia.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Severe flooding kills 62 in Kenya, as heavy rains continue",
-            "why_it_matters": "The flooding crisis in Kenya illustrates the severe impact of climate-related disasters on vulnerable populations.",
+            "headline": "Severe flooding kills 66 in Kenya, as heavy rains continue",
+            "why_it_matters": "The flooding has caused significant loss of life and highlights ongoing climate-related challenges in the region.",
             "signal": "Risk"
           },
           {
             "headline": "Israeli forces kill Palestinian couple and two of their children in occupied West Bank",
-            "why_it_matters": "This tragic event adds to the ongoing humanitarian crisis and violence in the Israeli-Palestinian conflict.",
+            "why_it_matters": "This incident underscores the ongoing violence and humanitarian issues in the Israeli-Palestinian conflict.",
             "signal": "Risk"
           },
           {
-            "headline": "US names six crew killed in refuelling plane crash in Iraq",
-            "why_it_matters": "The incident reflects the ongoing military operations in the region and the risks faced by US forces.",
+            "headline": "Zelensky accuses EU allies of 'blackmail' in oil pipeline row",
+            "why_it_matters": "This accusation reflects the strained relations between Ukraine and its European allies amid energy supply disputes.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Ugandan opposition leader goes abroad after two months in hiding",
+            "why_it_matters": "The situation raises concerns about political repression and human rights in Uganda.",
             "signal": "Risk"
           },
           {
             "headline": "Cuban protesters ransack Communist office as energy crisis deepens",
-            "why_it_matters": "The protests indicate rising public frustration with government policies amid worsening economic conditions.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Ugandan opposition leader goes abroad after two months in hiding",
-            "why_it_matters": "This situation raises concerns about political repression and human rights in Uganda.",
+            "why_it_matters": "This event indicates rising discontent in Cuba over economic hardships and government response.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the situation in Kenya as floodwaters recede and recovery efforts begin.",
-            "Observing developments in the Israeli-Palestinian conflict following recent violence.",
-            "Tracking responses from the EU regarding Zelensky's accusations."
+            "Monitoring the humanitarian response to flooding in Kenya.",
+            "Observing developments in the Israeli-Palestinian conflict.",
+            "Tracking political reactions to Zelensky's accusations in Europe."
           ],
           "next_1_4_weeks": [
-            "Potential escalation in Middle East tensions as military operations continue.",
-            "Further developments in Ukraine's energy negotiations with the EU.",
-            "Continued monitoring of the humanitarian situation in Kenya."
+            "Potential escalation of violence in the Middle East as tensions rise.",
+            "Continued scrutiny of the humanitarian situation in Kenya.",
+            "Further developments in Uganda's political landscape."
           ],
           "watch_list": [
-            "Impact of flooding on Kenya's infrastructure and economy.",
-            "Reactions from international communities regarding violence in Israel and Palestine.",
-            "Political developments in Uganda concerning opposition leaders.",
-            "confidence",
-            "Medium"
+            "Humanitarian aid efforts in Kenya",
+            "Middle East peace negotiations",
+            "Cuban government response to protests",
+            "Political developments in Uganda"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in conflict zones is fluid and may change rapidly.",
-          "Casualty figures in disasters may be updated as recovery efforts continue."
+          "The situation in the Middle East is fluid and may change rapidly.",
+          "Flooding impacts may evolve as weather conditions change.",
+          "Political tensions in Europe and Uganda are subject to rapid developments."
         ],
         "related_topics": [
-          "What are the latest updates on the Israeli-Palestinian conflict?",
-          "How is flooding affecting Kenya's population?",
-          "What is the current political situation in Uganda?"
+          "What are the latest updates on flooding in Kenya?",
+          "How is the Israeli-Palestinian conflict evolving?",
+          "What are the political tensions in Ukraine and the EU?",
+          "What is happening with the Ugandan opposition leader?",
+          "Why are Cubans protesting against the government?"
         ]
       },
-      "tweet_text": "Tragedy unfolds as families mourn in Lebanon and the West Bank, while floods ravage Kenya—global turmoil deepens.\n\nWorld Sentiment: Negative (-0.32)\n\nRead the full breakdown: https://tldrnews.info\n\n#Israeli #Killed #Abroad #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tragedy strikes as conflict escalates: families shattered, nations at odds, and the world watches in despair.\n\nWorld Sentiment: Negative (-0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Captain #Israeli #Killed #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -195,11 +187,18 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.2927,
+        "score": -0.2907,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.488, dampened ×0.6 → -0.2927). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.484, dampened ×0.6 → -0.2907). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Beyond the strait: why attacks on Kargh Island could keep oil prices high",
+          "url": "https://www.theguardian.com/business/2026/mar/15/middle-east-oilfield-shutdowns-prices-high-iran-war-strait-of-hormuz",
+          "published": "Sun, 15 Mar 2026 15:11:27 GMT",
+          "summary": "<p>Oil could pass 2008 record of $147.50 a barrel as damage and field closures risk compounding supply shock caused by Iran war</p><p>About 20 miles off the coast of Iran lies the source of the petrostate’s economic lifeblood and the latest target of US military aggression: an 8 sq mile coral island through which nine in every 10 barrels of Iranian crude passes each day.</p><p>The US president’s decision to launch a weekend attack on Kharg Island, the home of Iran’s processing hub and the heart",
+          "source": "The Guardian"
+        },
         {
           "title": "‘Everything is going up’: Americans struggle with affordability despite Trump’s claims",
           "url": "https://www.theguardian.com/business/2026/mar/14/americans-struggle-affordability-despite-trump-claims",
@@ -257,13 +256,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Middle East war creating ‘largest supply disruption in the history of oil markets’",
-          "url": "https://www.theguardian.com/business/2026/mar/12/middle-east-war-creating-largest-supply-disruption-in-the-history-of-oil-markets",
-          "published": "Thu, 12 Mar 2026 17:14:03 GMT",
-          "summary": "<p>Vast release of emergency crude reserves fails to quell mounting fears about supply crunch, rattling markets</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/12/iran-war-live-updates-oil-trump-middle-east-crisis-israel-lebanon-iraq-latest-news\">Middle East crisis – live updates</a></p></li></ul><p>Oil markets are facing the “largest supply disruption in history” as the war in Iran continues to block tankers from shipping millions of barrels of crude each day, the world e",
-          "source": "The Guardian"
-        },
-        {
           "title": "How the war in Iran and its economic fallout could lead to Trump’s defeat",
           "url": "https://www.theguardian.com/world/2026/mar/14/trump-iran-war",
           "published": "Sat, 14 Mar 2026 16:32:56 GMT",
@@ -286,75 +278,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Americans are facing rising costs of living, particularly in gas prices, amid concerns over the economic impact of the ongoing Iran war.",
-        "summary": "Today's headlines highlight the struggles of American workers with affordability issues, soaring gas prices, and the potential global food supply crisis due to the Iran war. The FCC chair's threats against news broadcasts and a judge's ruling on a subpoena for the Fed chair also reflect ongoing tensions in the political landscape.",
+        "key_takeaway": "Rising oil prices and inflation are straining affordability for Americans amid ongoing geopolitical tensions and economic challenges.",
+        "summary": "Today's headlines highlight the impact of the Iran war on oil prices, the struggles of American workers with rising costs, and the potential global food supply crisis. The FCC's threat to news outlets over coverage of the conflict adds to the tense atmosphere surrounding these economic issues.",
         "key_themes": [
-          "US affordability crisis",
-          "impact of Iran war on global economy",
-          "soaring gas prices in America",
-          "FCC threats to news outlets",
-          "Federal Reserve subpoena news"
+          "oil prices and geopolitical tensions",
+          "affordability crisis in the US",
+          "impact of Iran war on global food supplies",
+          "FCC threats to news media",
+          "rising gas prices in America"
         ],
         "notable_headlines": [
           {
-            "headline": "‘Everything is going up’: Americans struggle with affordability despite Trump’s claims",
-            "why_it_matters": "This reflects a disconnect between government claims and the lived experiences of workers, highlighting economic challenges.",
+            "headline": "Beyond the strait: why attacks on Kargh Island could keep oil prices high",
+            "why_it_matters": "The ongoing conflict in Iran is likely to exacerbate oil supply issues, potentially driving prices to record highs.",
             "signal": "Risk"
           },
           {
-            "headline": "Gas prices are soaring – but one Los Angeles gas station is taking it to the extreme",
-            "why_it_matters": "The extreme pricing at this gas station exemplifies the broader issue of rising fuel costs affecting consumers.",
+            "headline": "‘Everything is going up’: Americans struggle with affordability despite Trump’s claims",
+            "why_it_matters": "Despite claims of economic recovery, many Americans are facing increased costs of living, raising concerns about affordability.",
             "signal": "Risk"
           },
           {
             "headline": "Global food supplies could be badly hit if Iran war drags on, says fertiliser boss",
-            "why_it_matters": "The potential for a food supply crisis underscores the interconnectedness of global markets and geopolitical conflicts.",
+            "why_it_matters": "The potential closure of the Strait of Hormuz could severely impact global food supplies, affecting poorer nations the most.",
             "signal": "Risk"
           },
           {
-            "headline": "Judge blocks justice department from subpoenaing Fed chair Jerome Powell",
-            "why_it_matters": "This ruling may impact the ongoing investigations into the Federal Reserve, affecting market confidence.",
-            "signal": "Unclear"
+            "headline": "FCC chair threatens to throttle news broadcasts over ‘hoaxes’ about Iran war",
+            "why_it_matters": "The FCC's warning to news outlets could have significant implications for media freedom and the dissemination of information during a crisis.",
+            "signal": "Risk"
           },
           {
-            "headline": "Middle East war creating ‘largest supply disruption in the history of oil markets’",
-            "why_it_matters": "The disruption in oil supply could have far-reaching implications for global energy prices and economic stability.",
+            "headline": "Gas prices are soaring – but one Los Angeles gas station is taking it to the extreme",
+            "why_it_matters": "The extreme gas prices in Los Angeles highlight the broader issue of rising fuel costs affecting consumers nationwide.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor gas price trends as they may continue to rise due to geopolitical tensions.",
-            "Watch for updates on the FCC's actions regarding news broadcasts and potential impacts on media freedom.",
-            "Keep an eye on economic indicators related to consumer spending and inflation."
+            "Monitor developments in the Iran conflict and their impact on oil prices.",
+            "Watch for consumer sentiment reports regarding affordability and inflation.",
+            "Keep an eye on gas prices and potential government responses."
           ],
           "next_1_4_weeks": [
-            "Expect further developments regarding the Iran war and its impact on global food and oil supplies.",
-            "Watch for political responses to the affordability crisis in the US as elections approach.",
-            "Anticipate potential shifts in Federal Reserve policy following the recent legal developments."
+            "Expect continued volatility in oil markets as geopolitical tensions persist.",
+            "Anticipate further discussions on inflation and its impact on the upcoming elections.",
+            "Watch for potential policy changes from the FCC regarding media coverage."
           ],
           "watch_list": [
-            "Gas price fluctuations in major US cities",
-            "Updates on the Iran war and its economic implications",
-            "Consumer sentiment reports regarding affordability and spending",
-            "Federal Reserve announcements and market reactions",
-            "Legislative actions related to media regulation"
+            "Oil price trends and forecasts",
+            "Consumer price index updates",
+            "Political responses to rising inflation",
+            "Impact of the Iran war on global markets"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates a generally negative outlook, which may affect consumer confidence and spending.",
-          "Geopolitical events can rapidly change market conditions, making predictions uncertain."
+          "The situation in Iran is fluid and could change rapidly, affecting all related economic indicators.",
+          "Consumer sentiment can be influenced by various external factors, including political developments."
         ],
         "related_topics": [
-          "What are the latest trends in US gas prices?",
-          "How is the Iran war affecting global food supplies?",
-          "What is the current state of the US economy?",
-          "Impact of rising costs on American households",
-          "Latest news on Federal Reserve policies"
+          "What are the latest oil price trends?",
+          "How is the Iran war affecting global markets?",
+          "What is the current state of affordability in the US?",
+          "Impact of rising gas prices on consumers",
+          "What are the implications of FCC threats to news media?"
         ]
       },
-      "tweet_text": "Gas prices are skyrocketing, and Americans are feeling the pinch—who's really paying the price for the chaos?\n\nBusiness Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Chair #Dont #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "As gas prices soar, Americans are left wondering: who will really pay the price of the Iran conflict?\n\nBusiness Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #Chair #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -365,11 +356,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1072,
+        "score": 0.0847,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.179, dampened ×0.6 → +0.1072). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.141, dampened ×0.6 → +0.0847). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Aether OS is a computer in a browser built for the AT Protocol",
+          "url": "https://www.theverge.com/tech/895083/aether-os-browser-at-protocol",
+          "published": "2026-03-15T15:35:57-04:00",
+          "summary": "Aether OS puts a full-fledged desktop in your browser that ties directly into the AT Protocol. That means it connects to your Bluesky account and other public records. It offers a pretty full suite of apps, 42 in total, covering text editing, task management, and social media. There's even a rudimentary tracker for making chiptunes, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Sotomayor’s Wabi Sabi is the funnest record of 2026",
+          "url": "https://www.theverge.com/entertainment/895065/sotomayor-wabi-sabi-review",
+          "published": "2026-03-15T12:45:00-04:00",
+          "summary": "Shout out to subscriber N_Gorski for today's pick. They popped into the comments on last week's recommendation to ask what I thought of the new Sotomayor record. Well, I hadn't actually heard it yet, but now I'm obsessed. The group consists of siblings Raul and Paulina Sotomayor from Mexico City. Wabi Sabi is their first [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "AI Czar David Sacks wants Trump to ‘get out’ of Iran",
           "url": "https://www.theverge.com/policy/895059/trump-ai-czar-out-of-iran",
@@ -425,90 +430,77 @@
           "published": "2026-03-14T14:48:56-04:00",
           "summary": "According to Reuters, Meta is looking to offset spending on AI and data centers with a massive round of layoffs. Sources familiar with the matter say the company could lay off as much as 20 percent of its staff, eliminating roughly 15,800 positions. That would be the largest series of layoffs at the company since [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Hulu, Disney Plus, and the Pixel Watch 4 are among this week’s best deals",
-          "url": "https://www.theverge.com/gadgets/894699/hulu-disney-plus-subscription-oscars-google-pixel-watch-4-deal-sale",
-          "published": "2026-03-14T11:46:28-04:00",
-          "summary": "Happy Saturday, all! This week, we found a number of deals that should help you unwind and relax over the next few days (and beyond). If you’re planning to stream the Oscars on Sunday, there’s still time to take advantage of a great deal on Hulu and Disney Plus, as well as Google’s latest 4K [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Prediction markets want the Oscars to be your gateway drug to betting on everything",
-          "url": "https://www.theverge.com/entertainment/894878/oscars-2026-kalshi-sinners-one-battle-after-anothers-marty-supreme-baftas-gambling",
-          "published": "2026-03-14T11:30:00-04:00",
-          "summary": "Though it was weird to see the Golden Globes partner with Polymarket for its most recent awards show, the collaboration wasn't shocking given the way that people have begun using prediction markets to gamble on basically anything. Prediction markets are being used to bet on everything from when wars might break out to who will [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "David Sacks warns of potential catastrophe in Iran, while AI companies seek to enhance emotional training through improv actors' skills.",
-        "summary": "Today's technology news covers a range of topics, including geopolitical concerns from AI czar David Sacks regarding Iran, AI companies looking to improv actors for emotional training, and Samsung's new Galaxy Buds 4 Pro. Additionally, there are discussions on the challenges faced by live-service games, Meta's potential layoffs, and the implications of increased H-1B visa fees.",
+        "key_takeaway": "Aether OS introduces a browser-based desktop experience, while Meta plans significant layoffs amid rising AI and data center costs.",
+        "summary": "Today's technology news highlights the launch of Aether OS, a browser-based operating system, and Meta's potential layoffs of up to 20% of its workforce. Other stories include Samsung's new Galaxy Buds, the challenges of live-service games, and the implications of increased H-1B visa fees. AI companies are also exploring new ways to train models using improv actors' skills, and the rise and fall of Clubhouse is examined.",
         "key_themes": [
-          "AI and geopolitical concerns",
-          "AI training with improv actors",
+          "Aether OS browser-based desktop",
+          "Meta layoffs and AI spending",
           "Samsung Galaxy Buds 4 Pro review",
           "Challenges in live-service games",
-          "Meta layoffs and financial strategy"
+          "H-1B visa fee implications"
         ],
         "notable_headlines": [
           {
-            "headline": "AI Czar David Sacks wants Trump to ‘get out’ of Iran",
-            "why_it_matters": "Sacks highlights the risks of ongoing conflict in Iran, emphasizing the need for diplomatic solutions.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
-            "why_it_matters": "This initiative aims to enhance AI's ability to understand and replicate human emotions, potentially improving user interactions.",
+            "headline": "Aether OS is a computer in a browser built for the AT Protocol",
+            "why_it_matters": "Aether OS offers a full desktop experience in a browser, integrating with the AT Protocol and Bluesky.",
             "signal": "Opportunity"
           },
           {
             "headline": "Samsung’s Galaxy Buds 4 Pro are the choice — if you have a Galaxy phone",
-            "why_it_matters": "The new features of the Galaxy Buds 4 Pro may appeal to Galaxy phone users, but the incremental upgrades may not attract new customers.",
+            "why_it_matters": "The new Galaxy Buds feature improved sound and design, appealing primarily to Galaxy phone users.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Meta is reportedly laying off up to 20 percent of its staff",
+            "why_it_matters": "Meta's layoffs reflect broader trends in tech companies cutting costs amid rising AI investments.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
+            "why_it_matters": "This initiative highlights the growing intersection of AI and creative arts, raising ethical questions.",
             "signal": "Unclear"
           },
           {
             "headline": "Live-service games are a mess",
-            "why_it_matters": "The ongoing issues in live-service games reflect broader challenges in the gaming industry, impacting player satisfaction and company revenues.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Meta is reportedly laying off up to 20 percent of its staff",
-            "why_it_matters": "These layoffs could significantly impact Meta's operations and reflect the company's shift in focus towards AI and data centers.",
+            "why_it_matters": "The ongoing challenges in live-service games indicate potential risks for developers and players alike.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in Iran as diplomatic discussions may evolve.",
-            "Watch for reactions from the gaming community regarding live-service game issues.",
-            "Expect announcements from Meta regarding the restructuring of its workforce."
+            "Monitor reactions to Aether OS launch and user adoption rates.",
+            "Watch for updates on Meta's layoffs and their impact on the tech industry.",
+            "Expect reviews and user feedback on Samsung Galaxy Buds 4 Pro."
           ],
           "next_1_4_weeks": [
-            "Follow the impact of AI training initiatives on the industry and user experiences.",
-            "Observe how Samsung's new products perform in the market against competitors.",
-            "Keep an eye on the implications of H-1B visa fee increases on tech hiring."
+            "Follow developments in AI training methods and their implications for the industry.",
+            "Observe trends in live-service games and potential changes from developers.",
+            "Keep an eye on the fallout from Meta's layoffs and its effect on tech employment."
           ],
           "watch_list": [
-            "AI advancements in emotional intelligence training",
-            "Trends in live-service gaming",
-            "Meta's restructuring and its effects on the tech job market",
-            "Samsung's product reception and sales performance"
+            "Aether OS user feedback and performance metrics.",
+            "Meta's restructuring plans and future workforce strategy.",
+            "Trends in AI training and ethical considerations.",
+            "Samsung Galaxy Buds 4 Pro market reception."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The geopolitical situation in Iran remains fluid and unpredictable.",
-          "The effectiveness of AI training with improv actors is yet to be tested in real-world applications.",
-          "Market reception of new tech products can vary widely based on consumer preferences."
+          "The sentiment score is mixed, indicating varying opinions on the news.",
+          "Details about Meta's layoffs are still emerging, and the full impact is yet to be seen."
         ],
         "related_topics": [
-          "What are the latest developments in AI training techniques?",
-          "How are live-service games performing in the current market?",
-          "What impact will Meta's layoffs have on the tech industry?"
+          "What is Aether OS and its features?",
+          "Impact of Meta's layoffs on the tech industry",
+          "Latest updates on Samsung Galaxy Buds 4 Pro",
+          "Challenges facing live-service games today",
+          "How are AI companies training models with improv actors?"
         ]
       },
-      "tweet_text": "From AI czars to the demise of Clubhouse, today's tech news is a rollercoaster of innovation and chaos!\n\nTechnology Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Galaxy #Trump #100000 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From a browser-based OS to the rise and fall of Clubhouse—today's tech news is a wild ride you won't want to miss!\n\nTechnology Sentiment: Mixed (+0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Galaxy #100000 #2026 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -519,165 +511,167 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.2312,
+        "score": 0.2377,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.385, dampened ×0.6 → +0.2312). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.396, dampened ×0.6 → +0.2377). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Men's Bracketology: What the SEC's bloated bubble means for the overall field",
+          "title": "Men's Bracketology: How the projected NCAA tournament field is taking shape",
           "url": "https://www.espn.com/espn/feature/story/_/page/bracketology/ncaa-bracketology-2026-march-madness-men-field-predictions",
-          "published": "Sun, 15 Mar 2026 08:08:02 EST",
-          "summary": "null",
+          "published": "Sun, 15 Mar 2026 15:17:33 EST",
+          "summary": "The selection show is almost here! Here's the latest look at what we're expecting when it starts.",
           "source": "ESPN"
         },
         {
-          "title": "12 questions the men's committee must answer heading into Selection Sunday",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48210828/mens-ncaa-tournament-selection-sunday-committee-questions-miami-ohio-auburn",
-          "published": "Sun, 15 Mar 2026 08:08:01 EST",
-          "summary": "The RedHawks and Tigers continue to be the talk of the bubble, plus more considerations for men's committee.",
+          "title": "Men's Bubble Watch: VCU's A-10 win clears lane for Saint Louis as an at-large",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/47809690/bubble-watch-mens-ncaa-tournament-march-madness-bracket-predictions-2026",
+          "published": "Sun, 15 Mar 2026 15:17:33 EST",
+          "summary": "The NCAA tournament at-large picture has come into clear focus. Here's the latest snapshot.",
           "source": "ESPN"
         },
         {
-          "title": "Duke shows mettle in holding off UVA for ACC title",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48210833/duke-holds-virginia-2nd-straight-acc-tournament-title",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
-          "summary": "No. 1 Duke defeated No. 10 Virginia for its second straight ACC tournament championship under coach Jon Scheyer and its third title in the past four years.",
+          "title": "Acuff scores 30 as Calipari, Hogs roll to SEC title",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48216252/arkansas-tops-vanderbilt-win-first-sec-tournament-2000",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
+          "summary": "Darius Acuff Jr. had 30 points as No. 17 Arkansas beat No. 22 Vanderbilt to win its first SEC tournament crown and first automatic NCAA tournament berth since 2000.",
           "source": "ESPN"
         },
         {
-          "title": "Venezuela KO's defending champ Japan from WBC",
-          "url": "https://www.espn.com/mlb/story/_/id/48211341/venezuela-rallies-stun-japan-advances-wbc-semifinals",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
-          "summary": "Wilyer Abreu hit a go-ahead, three-run shot in the sixth as Venezuela rallied to stun defending champion Japan and advance to the World Baseball Classic semifinals.",
+          "title": "Sources: Goedert stays with Eagles on new deal",
+          "url": "https://www.espn.com/nfl/story/_/id/48216706/sources-dallas-goedert-stays-eagles-new-1-year-deal",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
+          "summary": "Tight end Dallas Goedert reached agreement Sunday on a one-year deal to return to the Eagles for his ninth season in Philadelphia, sources told ESPN's Adam Schefter.",
           "source": "ESPN"
         },
         {
-          "title": "DeChambeau wins playoff as foe misses 2-footer",
-          "url": "https://www.espn.com/golf/story/_/id/48213525/bryson-dechambeau-beats-liv-wild-card-singapore-playoff",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
-          "summary": "Bryson DeChambeau hit his drive into the water and still won the playoff with a par at LIV Golf Singapore after Richard T. Lee of Canada missed a 2-foot putt.",
+          "title": "NBA: Missed call late in Lakers-Nuggets thriller",
+          "url": "https://www.espn.com/nba/story/_/id/48216797/reaves-was-stripped-clean-late-lakers-win-report-says",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
+          "summary": "The NBA ruled that Spencer Jones had a clean strip of Austin Reaves with 9.2 seconds remaining in regulation of Saturday's Nuggets-Lakers game and that Reaves should not have gone to the free throw line.",
           "source": "ESPN"
         },
         {
-          "title": "Antontelli gets 1st win; Hamilton back on podium",
-          "url": "https://www.espn.com/f1/story/_/id/48174019/chinese-grand-prix-2026-kimi-antonelli-win-mercedes-george-russell-lewis-hamilton-charles-leclerc",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
-          "summary": "Kimi Antonelli secured his first Formula One race win on Sunday as Mercedes went to their second 1-2 of the season in the Chinese Grand Prix",
+          "title": "Late flurry allows SGA to maintain 20-point run",
+          "url": "https://www.espn.com/nba/story/_/id/48216796/shai-gilgeous-alexander-barely-extends-streak-thunder-win",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
+          "summary": "Shai Gilgeous-Alexander barely extended his record streak of games with at least 20 points to 128 during Sunday's win over the Timberwolves.",
           "source": "ESPN"
         },
         {
-          "title": "Missed Utah Valley alley-oop gives WAC to CBU",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48213681/cal-baptist-wins-wac-utah-valley-misses-tying-alley-oop",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
-          "summary": "No. 2 seed Cal Baptist beat top-seeded Utah Valley 63-61 to win the final Western Athletic Conference tournament after the Wolverines' Isaac Davis missed a potential tying alley-oop dunk with three seconds left.",
+          "title": "Power drops 44 to lead Penn over Yale in Ivy final",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48216037/tj-power-drops-44-lead-penn-yale-ivy-final",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
+          "summary": "TJ Power scored an Ivy Madness-record 44 points to lift Pennsylvania to an 88-84 victory over Yale to win the Ivy Legue championship on Sunday.",
           "source": "ESPN"
         },
         {
-          "title": "No Messi vs. Yamal: Qatar Finalissima canceled",
-          "url": "https://www.espn.com/soccer/story/_/id/48213565/spain-vs-argentina-finalissima-cancelled-due-middle-east-conflict-lionel-messi-lamine-yamal",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
-          "summary": "Spain and Argentina's 'Finalissima' clash in Qatar has been cancelled, UEFA confirmed on Sunday.",
+          "title": "McDavid calls on NHL to audit suspension process",
+          "url": "https://www.espn.com/nhl/story/_/id/48215760/connor-mcdavid-calls-nhl-audit-suspension-process",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
+          "summary": "Connor McDavid called on the NHL to investigate how it doles out suspensions in the wake of a controversial ban of just five games for Radko Gudas' hit on Auston Matthews.",
           "source": "ESPN"
         },
         {
-          "title": "Reaves, Luka deliver late-game magic in OT thriller",
-          "url": "https://www.espn.com/nba/story/_/id/48211868/lakers-reaves-doncic-deliver-late-game-magic-ot-thriller",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
-          "summary": "Austin Reaves executed a perfect missed free throw before sinking the tying bucket to force overtime, and Luka Doncic drained the winning jumper in the extra frame to lift the Lakers past the Nuggets.",
+          "title": "Vonn: 'I'm the only one that will decide my future'",
+          "url": "https://www.espn.com/olympics/skiing/story/_/id/48215972/lindsey-vonn-not-ready-discuss-future-ski-racing",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
+          "summary": "Lindsey Vonn, who is recovering from a crash at the Olympics, said she's not ready to discuss her skiing future but \"I'm the only one that will decide my future.\"",
           "source": "ESPN"
         },
         {
-          "title": "Shiffrin ties record with another WC slalom win",
-          "url": "https://www.espn.com/olympics/skiing/story/_/id/48213542/mikaela-shiffrin-wins-record-tying-8th-wc-slalom-win-season",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
-          "summary": "Olympic champion Mikaela Shiffrin won her record-equaling eighth World Cup slalom of the season Sunday.",
+          "title": "Para gold nets U.S. historic hockey sweep in Italy",
+          "url": "https://www.espn.com/olympics/story/_/id/48215106/us-hockey-completes-historic-sweep-olympics-paralympics",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
+          "summary": "Three weeks after the United States beat Canada in the Olympic hockey finals, the Americans overcame their neighbors again to win Paralympic gold and complete the three-peat at Milan Cortina.",
           "source": "ESPN"
         },
         {
           "title": "⚾ Big USA-Dominican Republic WBC showdown",
           "url": "https://www.espn.com/mlb/story/_/id/48194734/wbc-2026-team-usa-dominican-republic-semifinal-live-updates-analysis-takeaways",
-          "published": "Sun, 15 Mar 2026 09:49:17 EST",
+          "published": "Sun, 15 Mar 2026 16:36:59 EST",
           "summary": "Who will win Sunday's star-studded World Baseball Classic semifinal? We've got you covered with players to watch, live updates and postgame takeaways.",
           "source": "ESPN"
         },
         {
           "title": "Has UCLA leapfrogged UConn for No. 1 overall and four more big questions for Selection Sunday",
           "url": "https://www.espn.com/womens-college-basketball/story/_/id/48210965/womens-ncaa-tournament-2026-bracket-march-madness-selection-sunday-questions-committee",
-          "published": "Sun, 15 Mar 2026 08:09:51 EST",
+          "published": "Sun, 15 Mar 2026 16:28:42 EST",
           "summary": "Where the top eight seeds play in the regionals is as big of a question as which bubble teams get in Selection Sunday.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Duke secured its second consecutive ACC title, while Venezuela upset Japan in the World Baseball Classic, and Shiffrin tied a record with her eighth slalom win.",
-        "summary": "Today's sports headlines highlight Duke's victory in the ACC tournament, Venezuela's stunning win over Japan in the World Baseball Classic, and Mikaela Shiffrin's record-tying performance in slalom skiing. Additionally, the NCAA men's basketball Selection Sunday approaches with key questions for the committee, and the cancellation of the Finalissima match between Spain and Argentina due to geopolitical tensions.",
+        "key_takeaway": "The NCAA tournament field is shaping up as teams secure spots, while the NBA faces scrutiny over officiating decisions.",
+        "summary": "Today's sports headlines highlight significant developments in college basketball as teams prepare for the NCAA tournament, alongside notable performances in the NBA and NHL. The World Baseball Classic also features a highly anticipated semifinal matchup.",
         "key_themes": [
-          "NCAA basketball Selection Sunday implications",
-          "Duke ACC championship victory",
-          "Venezuela's upset over Japan in WBC",
-          "Mikaela Shiffrin's record-tying slalom win",
-          "NBA overtime thriller between Lakers and Nuggets"
+          "NCAA tournament predictions",
+          "NBA officiating controversies",
+          "World Baseball Classic updates"
         ],
         "notable_headlines": [
           {
-            "headline": "Duke shows mettle in holding off UVA for ACC title",
-            "why_it_matters": "Duke's victory reinforces their dominance in college basketball, marking their third ACC title in four years.",
+            "headline": "Men's Bracketology: How the projected NCAA tournament field is taking shape",
+            "why_it_matters": "As the NCAA tournament approaches, understanding the projected field is crucial for fans and teams alike.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Men's Bubble Watch: VCU's A-10 win clears lane for Saint Louis as an at-large",
+            "why_it_matters": "This update provides insight into which teams are likely to secure at-large bids for the NCAA tournament.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Venezuela KO's defending champ Japan from WBC",
-            "why_it_matters": "This upset highlights Venezuela's rising talent in international baseball and sets the stage for an exciting semifinal.",
+            "headline": "Acuff scores 30 as Calipari, Hogs roll to SEC title",
+            "why_it_matters": "Arkansas' SEC title win marks a significant achievement and secures their NCAA tournament berth.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Shiffrin ties record with another WC slalom win",
-            "why_it_matters": "Shiffrin's achievement underscores her status as one of the greatest alpine skiers of all time.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "No Messi vs. Yamal: Qatar Finalissima canceled",
-            "why_it_matters": "The cancellation reflects ongoing geopolitical issues affecting international sports events.",
+            "headline": "NBA: Missed call late in Lakers-Nuggets thriller",
+            "why_it_matters": "The NBA's ruling on a missed call raises questions about officiating standards in crucial game moments.",
             "signal": "Risk"
           },
           {
-            "headline": "Reaves, Luka deliver late-game magic in OT thriller",
-            "why_it_matters": "This game showcases the Lakers' resilience and the star power of Doncic and Reaves in clutch situations.",
+            "headline": "McDavid calls on NHL to audit suspension process",
+            "why_it_matters": "Connor McDavid's call for an audit highlights ongoing concerns about fairness in player suspensions.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Para gold nets U.S. historic hockey sweep in Italy",
+            "why_it_matters": "The U.S. hockey team's success in both the Olympics and Paralympics showcases their dominance in the sport.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Anticipation builds for NCAA Selection Sunday outcomes and bracket announcements.",
-            "Fans await the results of the USA vs. Dominican Republic WBC semifinal match.",
-            "Expect updates on the geopolitical situation affecting international sports events."
+            "Final preparations for NCAA tournament selection",
+            "Continued analysis of NBA officiating and its impact on playoffs",
+            "Updates on player performances in the World Baseball Classic"
           ],
           "next_1_4_weeks": [
-            "The NCAA tournament will commence, with teams vying for the championship.",
-            "The World Baseball Classic will continue with semifinals and finals approaching.",
-            "Upcoming golf tournaments will feature Bryson DeChambeau and other top players."
+            "NCAA tournament games and outcomes",
+            "NBA playoff race intensifies",
+            "World Baseball Classic finals and implications"
           ],
           "watch_list": [
-            "Monitor NCAA tournament bracket predictions and bubble team discussions.",
-            "Watch for updates on international sports events affected by geopolitical tensions.",
-            "Follow the performance of Mikaela Shiffrin in upcoming skiing competitions.",
-            "Keep an eye on the NBA playoff race as teams finalize their positions."
+            "NCAA tournament bracket updates",
+            "NBA playoff predictions",
+            "World Baseball Classic results and analysis",
+            "NHL suspension policy changes"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall sports landscape today.",
-          "Geopolitical issues may continue to impact international sporting events."
+          "The sentiment score reflects mixed opinions on the headlines, indicating a balance of positive and negative news.",
+          "Some developments, particularly in the NCAA tournament, may change rapidly as selection day approaches."
         ],
         "related_topics": [
-          "What are the latest updates on NCAA Selection Sunday?",
-          "How did Duke win the ACC championship?",
-          "What were the highlights of the WBC upset by Venezuela?",
-          "What records did Mikaela Shiffrin tie in skiing?",
-          "What happened in the NBA overtime thriller between the Lakers and Nuggets?"
+          "What are the latest NCAA tournament predictions?",
+          "How is the NBA addressing officiating issues?",
+          "Updates on the World Baseball Classic semifinals",
+          "What are the implications of recent NHL suspension calls?"
         ]
       },
-      "tweet_text": "Chaos reigns in sports! Selection Sunday drama, Duke's grit, and a stunning WBC upset—don't miss the highlights!\n\nSports Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Mens #2footer #Alleyoop #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "March Madness heats up as bracket dreams shatter and stars shine—who's in, who's out?\n\nSports Sentiment: Mixed (+0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Late #Mens #20point #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -779,74 +773,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Astronomers have identified the source of the brightest fast radio burst ever, while new findings suggest hidden water on Mars could have supported ancient life.",
-        "summary": "Today's science headlines highlight significant discoveries, including the identification of the brightest fast radio burst, evidence of ancient water on Mars, and the implications of wastewater irrigation on crops. Additionally, research reveals the importance of spiders and insects in ecosystems, the role of a protein in ALS and cancer, and new insights into Mars' atmosphere and Greenland's ice sheet. These findings underscore the ongoing exploration and understanding of our planet and beyond.",
+        "key_takeaway": "Astronomers have identified the source of the brightest fast radio burst ever detected, while new findings suggest hidden water on Mars could have supported life.",
+        "summary": "Today's science headlines highlight significant discoveries, including the identification of the source of a bright fast radio burst, evidence of ancient water on Mars, and the impact of wastewater irrigation on crops. Additionally, researchers are uncovering the roles of proteins in disease, the importance of spiders and insects in ecosystems, and new insights into Mars' atmosphere and Greenland's ice sheet.",
         "key_themes": [
           "Mars water discovery implications",
-          "brightest fast radio burst",
+          "fast radio burst source identification",
           "impact of wastewater on crops",
-          "importance of spiders in ecosystems",
-          "ALS protein and cancer link"
+          "role of proteins in disease",
+          "importance of insect conservation"
         ],
         "notable_headlines": [
           {
             "headline": "Astronomers just found the source of the brightest fast radio burst ever",
-            "why_it_matters": "This discovery could challenge existing theories about fast radio bursts and their origins.",
+            "why_it_matters": "This discovery could challenge current theories about fast radio bursts and their origins.",
             "signal": "Unclear"
           },
           {
             "headline": "Scientists discover hidden water beneath Mars that could have supported life",
-            "why_it_matters": "This finding suggests that Mars may have been habitable for longer than previously thought, impacting future exploration.",
+            "why_it_matters": "This finding suggests Mars may have been habitable longer than previously thought, impacting the search for extraterrestrial life.",
             "signal": "Opportunity"
           },
           {
             "headline": "Crops irrigated with wastewater store drugs in their leaves",
-            "why_it_matters": "Understanding how crops absorb pharmaceuticals is crucial as wastewater reuse increases.",
+            "why_it_matters": "Understanding how crops absorb pharmaceuticals is crucial as wastewater reuse becomes more common.",
             "signal": "Risk"
           },
           {
             "headline": "Scared of spiders? Scientists say the real nightmare is losing them",
-            "why_it_matters": "The lack of conservation status for many species highlights a gap in ecological protection efforts.",
+            "why_it_matters": "The lack of conservation status for many insect and arachnid species poses a risk to ecosystem health.",
             "signal": "Risk"
           },
           {
-            "headline": "Scientists discover ALS protein that links DNA repair to cancer and dementia",
-            "why_it_matters": "This research could lead to new insights into neurodegenerative diseases and cancer treatment.",
+            "headline": "NASA launches twin spacecraft to solve the mystery of Mars’ lost atmosphere",
+            "why_it_matters": "This mission aims to provide insights into Mars' atmospheric history, which is essential for future exploration.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the brightest fast radio burst may provide new insights into cosmic phenomena.",
-            "Additional studies on Mars' hidden water could refine our understanding of its habitability.",
-            "Research on the impact of wastewater on crops may lead to new agricultural guidelines."
+            "Further analysis of the fast radio burst source may yield new insights.",
+            "More research on the implications of hidden water on Mars is expected.",
+            "Studies on the effects of wastewater on crop safety will continue."
           ],
           "next_1_4_weeks": [
-            "Expect more findings from ongoing Mars missions, particularly regarding its geological history.",
-            "Further investigations into the ecological roles of spiders and insects may emerge.",
-            "New studies may explore the implications of the ALS protein discovery on treatment strategies."
+            "Anticipated results from NASA's Mars missions could reshape our understanding of the planet's history.",
+            "Ongoing research into the ecological roles of insects and arachnids may lead to conservation initiatives.",
+            "Further investigations into the impacts of pharmaceuticals in crops will be published."
           ],
           "watch_list": [
-            "Developments in Mars exploration missions, including Curiosity and ESCAPADE.",
-            "Research on the ecological impacts of wastewater irrigation practices.",
-            "Updates on conservation efforts for insect and arachnid species.",
-            "New findings related to the health impacts of pharmaceuticals in crops."
+            "Updates on the ESCAPADE mission to Mars.",
+            "New findings related to the TDP43 protein and its implications for neurodegenerative diseases.",
+            "Research developments on Greenland's ice sheet dynamics.",
+            "Conservation efforts for insect and arachnid species."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of the discoveries are still being assessed and may evolve with further research.",
-          "Some findings, particularly regarding ecological impacts, may take time to fully understand."
+          "The implications of the fast radio burst discovery are still being evaluated.",
+          "The findings regarding Mars' water and habitability are based on current interpretations and may evolve with new data.",
+          "The impact of pharmaceuticals in crops requires further long-term studies."
         ],
         "related_topics": [
-          "What are the latest discoveries about Mars' water history?",
-          "How do fast radio bursts challenge current astrophysical theories?",
-          "What are the effects of wastewater irrigation on crop safety?",
-          "Why are spiders and insects important for ecosystems?",
-          "What is the link between ALS, cancer, and DNA repair?"
+          "What are the latest discoveries about Mars' water",
+          "How do fast radio bursts challenge current astrophysics",
+          "What is the impact of wastewater on agriculture",
+          "Why are spiders and insects important for ecosystems",
+          "What new insights have been found about Greenland's ice sheet"
         ]
       },
-      "tweet_text": "A cosmic mystery unfolds as astronomers pinpoint the source of the universe's brightest fast radio...\n\nScience Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Discover #Hidden #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From the depths of space to the mysteries of Mars, today's science news unveils secrets that could...\n\nScience Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Discover #Hidden #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
