@@ -564,6 +564,8 @@ function render(){
           Source: <a href="${escapeAttr(src.site_url || "#")}" target="_blank" rel="noopener">${escapeHtml(src.site_name || "")}</a>
           &nbsp;&middot;&nbsp;
           <a href="${escapeAttr(src.feed_url || "#")}" target="_blank" rel="noopener">RSS feed ↗</a>
+          &nbsp;&middot;&nbsp;
+          <a href="./${escapeAttr(currentDate)}/${escapeAttr(currentCategory)}.html">Full report ↗</a>
         </div>
 
         ${trending.length ? `
