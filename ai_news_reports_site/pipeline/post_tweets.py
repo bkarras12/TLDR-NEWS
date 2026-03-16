@@ -31,6 +31,14 @@ def _today_key() -> str:
     return datetime.now(ZoneInfo(TZ)).strftime("%Y-%m-%d")
 
 
+def _find_latest_report(reports_dir: Path) -> Path | None:
+    """Find the most recent report file by date in the filename."""
+    if not reports_dir.exists():
+        return None
+    candidates = sorted(reports_dir.glob("*.json"), key=lambda p: p.stem, reverse=True)
+    return candidates[0] if candidates else None
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         print("Usage: python -m pipeline.post_tweets <category_key>", file=sys.stderr)
@@ -41,11 +49,17 @@ def main() -> int:
 
     date_key = _today_key()
     site_root = Path(__file__).resolve().parents[1]
-    report_path = site_root / "news" / "data" / "reports" / f"{date_key}.json"
+    reports_dir = site_root / "news" / "data" / "reports"
+    report_path = reports_dir / f"{date_key}.json"
 
+    # If today's report doesn't exist (cron delayed past midnight), use the latest available
     if not report_path.exists():
-        print(f"No report found for {date_key} at {report_path}", file=sys.stderr)
-        return 1
+        latest = _find_latest_report(reports_dir)
+        if latest is None:
+            print(f"No report found for {date_key} and no fallback available", file=sys.stderr)
+            return 1
+        report_path = latest
+        print(f"No report for {date_key}, falling back to {latest.stem}")
 
     with open(report_path, "r", encoding="utf-8") as f:
         report = json.load(f)
@@ -94,11 +108,19 @@ def main() -> int:
         tweet_id = response.data["id"]
         print(f"[{key}] Posted tweet: https://x.com/tldrnewsusa/status/{tweet_id}")
     except tweepy.Forbidden as e:
-        if "duplicate" in str(e).lower():
+        err_msg = str(e).lower()
+        if "duplicate" in err_msg:
             print(f"[{key}] Tweet already posted (duplicate content). Skipping.")
+            return 0
+        # Daily tweet limit or other quota errors — not actionable, skip gracefully
+        if "limit" in err_msg or "quota" in err_msg or "capacity" in err_msg:
+            print(f"[{key}] Daily tweet limit reached, skipping: {e}")
             return 0
         print(f"[{key}] ERROR posting tweet: Forbidden: {e}", file=sys.stderr)
         return 1
+    except tweepy.TooManyRequests as e:
+        print(f"[{key}] Rate limited, skipping: {e}")
+        return 0
     except Exception as e:
         print(f"[{key}] ERROR posting tweet: {type(e).__name__}: {e}", file=sys.stderr)
         return 1
