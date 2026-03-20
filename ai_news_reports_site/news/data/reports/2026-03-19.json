@@ -1,12 +1,10 @@
 {
   "date": "2026-03-19",
-  "generated_at_utc": "2026-03-19T23:39:26Z",
+  "generated_at_utc": "2026-03-20T04:43:35Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "inside",
-    "moves",
-    "attack"
+    "inside"
   ],
   "categories": {
     "world": {
@@ -18,9 +16,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3478,
+        "score": -0.305,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.580, dampened ×0.6 → -0.3478). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.508, dampened ×0.6 → -0.3050). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -28,6 +26,13 @@
           "url": "https://www.bbc.com/news/articles/c2k3jgy9vq3o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 19 Mar 2026 22:41:40 GMT",
           "summary": "Speaking at a news conference, the Israeli leader said Trump had requested that there be no further such attacks.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Nearly 100 ships pass the Hormuz Strait - who is getting through?",
+          "url": "https://www.bbc.com/news/articles/c4geg0eeyjeo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Mar 2026 00:04:57 GMT",
+          "summary": "Just under 100 ships have passed thorough the Strait of Hormuz since the start of March, according to data analysed by BBC Verify.",
           "source": "BBC News"
         },
         {
@@ -54,8 +59,22 @@
         {
           "title": "Bachelorette's new season pulled after Taylor Frankie Paul abuse allegations",
           "url": "https://www.bbc.com/news/articles/cp9vryml4d1o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Mar 2026 22:24:51 GMT",
+          "published": "Fri, 20 Mar 2026 01:41:58 GMT",
           "summary": "The decision comes after footage emerged appearing to show the reality star in an altercation with her ex-partner.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Several injured as turbulence hits Delta flight into Sydney",
+          "url": "https://www.bbc.com/news/articles/c78l572p4n7o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Mar 2026 01:26:01 GMT",
+          "summary": "Three flight attendants were taken to hospital after the Airbus A350 experienced turbulence during its descent into Sydney Airport.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Australia PM heckled at Sydney mosque Ramadan event",
+          "url": "https://www.bbc.com/news/articles/cz90wy2190go?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Mar 2026 02:54:21 GMT",
+          "summary": "The government's response to the Israel-Gaza war and rising Islamophobia has angered many Muslim Australians.",
           "source": "BBC News"
         },
         {
@@ -80,99 +99,80 @@
           "source": "BBC News"
         },
         {
-          "title": "DR Congo and Rwanda agree to ease tensions after talks in US",
-          "url": "https://www.bbc.com/news/articles/c15x5ejgyl3o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Mar 2026 11:14:02 GMT",
-          "summary": "The conflict has persisted despite a peace deal signed by DR Congo and Rwanda in December.",
-          "source": "BBC News"
-        },
-        {
           "title": "Former counter-terrorism head investigated by FBI over alleged leaks",
           "url": "https://www.bbc.com/news/articles/c33j3gxvgmro?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 19 Mar 2026 17:12:27 GMT",
           "summary": "The former counter-terrorism head resigned on Tuesday over the war with Iran, saying the country posed \"no imminent threat\" to the US.",
           "source": "BBC News"
-        },
-        {
-          "title": "Three Palestinian women killed in beauty salon during Iranian missile attack",
-          "url": "https://www.bbc.com/news/articles/c0ljl23plpzo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Mar 2026 15:38:16 GMT",
-          "summary": "Others were injured when the salon in the southern West Bank was hit, while a Thai worker was killed by falling shrapnel in Israel.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Chad warns Sudan it will retaliate after drone strike on mourners kills 17",
-          "url": "https://www.bbc.com/news/articles/c0mjn0g708ro?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Mar 2026 14:57:22 GMT",
-          "summary": "President Idris Mahamat Déby orders the military to be on high alert and a \"total closure\" of the border.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tensions escalate in the Middle East with Israel's unilateral actions and Iran's retaliatory strikes, while civil unrest continues in various regions.",
-        "summary": "Today's headlines reflect rising geopolitical tensions, particularly in the Middle East, with Israel's actions against Iran and retaliatory strikes leading to civilian casualties. Additionally, civil rights issues and historical grievances are highlighted in various global contexts.",
+        "key_takeaway": "Israel's Prime Minister Netanyahu stated that the country acted independently in a recent attack on an Iranian gas field, amidst rising tensions in the region.",
+        "summary": "Today's world news highlights escalating tensions in the Middle East, with Israel's Prime Minister asserting unilateral action against Iran, while the US considers lifting sanctions on Iranian oil. Additionally, Denmark's historical military plans regarding Greenland and the execution of a teenager in Iran for anti-government protests are significant developments. Other stories include political unrest in Australia and allegations against prominent figures.",
         "key_themes": [
           "Middle East tensions",
-          "Iran-Israel conflict",
-          "civil rights controversies"
+          "Iran sanctions",
+          "Denmark military history",
+          "executions in Iran",
+          "political unrest in Australia"
         ],
         "notable_headlines": [
           {
             "headline": "Netanyahu says Israel 'acted alone' in attack on Iranian gas field",
-            "why_it_matters": "This statement underscores Israel's assertive military stance amid rising tensions with Iran.",
+            "why_it_matters": "This statement underscores Israel's assertive military stance amid regional tensions with Iran.",
             "signal": "Risk"
           },
           {
             "headline": "US considers lifting sanctions on some Iranian oil",
-            "why_it_matters": "A potential shift in US policy could impact global oil markets and Iran's economy.",
+            "why_it_matters": "This potential policy shift could significantly impact global oil markets and US-Iran relations.",
             "signal": "Opportunity"
           },
           {
             "headline": "Teenager among first to be executed over Iran's anti-government protests",
-            "why_it_matters": "This execution highlights the severe crackdown on dissent in Iran following protests.",
+            "why_it_matters": "The execution reflects the Iranian government's harsh crackdown on dissent, raising human rights concerns.",
             "signal": "Risk"
           },
           {
-            "headline": "Chad warns Sudan it will retaliate after drone strike on mourners kills 17",
-            "why_it_matters": "Chad's warning indicates escalating regional conflicts and potential for further violence.",
-            "signal": "Risk"
+            "headline": "Denmark planned to blow up Greenland runways if US invaded, reports say",
+            "why_it_matters": "This historical context reveals the complexities of international relations and military strategy in the Arctic.",
+            "signal": "Unclear"
           },
           {
-            "headline": "DR Congo and Rwanda agree to ease tensions after talks in US",
-            "why_it_matters": "Efforts to de-escalate tensions could lead to improved stability in the region.",
-            "signal": "Opportunity"
+            "headline": "Australia PM heckled at Sydney mosque Ramadan event",
+            "why_it_matters": "The incident highlights domestic tensions related to the government's response to international conflicts and local sentiments.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in Israel-Iran relations following Netanyahu's statements.",
-            "Watch for reactions from the US regarding sanctions on Iran.",
-            "Observe the situation in Chad and Sudan for potential military escalations."
+            "Monitor reactions to Netanyahu's statements regarding Iran.",
+            "Watch for developments on US sanctions policy regarding Iranian oil.",
+            "Observe public response to the execution in Iran."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions regarding civil rights in the US following allegations against Cesar Chavez.",
-            "Follow the outcomes of peace talks between DR Congo and Rwanda for regional stability.",
-            "Anticipate further international responses to the humanitarian crisis in Iran."
+            "Expect ongoing discussions about Middle East policies and their implications for global security.",
+            "Watch for further developments in Australia's political landscape regarding Islamophobia.",
+            "Follow the fallout from the allegations against Cesar Chavez."
           ],
           "watch_list": [
-            "Israel's military actions and Iran's responses",
-            "US foreign policy shifts regarding Iran",
-            "Civil unrest and human rights issues in Iran and the US.",
-            "Chad-Sudan border tensions"
+            "Israel-Iran relations",
+            "US foreign policy changes",
+            "Human rights in Iran",
+            "Political climate in Australia"
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The situation in the Middle East is fluid and may change rapidly.",
-          "Civil rights allegations may affect public perception and events related to Cesar Chavez."
+          "Public sentiment can vary widely and may not reflect broader trends."
         ],
         "related_topics": [
-          "What are the latest developments in the Iran-Israel conflict?",
-          "How are US sanctions affecting Iranian oil exports?",
-          "What is the current situation in Chad and Sudan?"
+          "What are the latest developments in Israel-Iran relations?",
+          "How might US sanctions on Iran change?",
+          "What is the current situation regarding human rights in Iran?"
         ]
       },
-      "tweet_text": "Tensions escalate as Israel's bold moves collide with US sanctions, while shocking headlines from Denmark to Iran...\n\nWorld Sentiment: Negative (-0.35)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abuse #Iranian #Accused #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tensions rise as Israel's bold moves and Iran's turmoil collide in a world on edge.\n\nWorld Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iranian #Sydney #Abuse #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -255,7 +255,7 @@
           "title": "‘Doomsday scenario’: a visual guide to the oil and gas site attacks in the Middle East",
           "url": "https://www.theguardian.com/world/ng-interactive/2026/mar/19/visual-guide-oil-and-gas-site-attacks-middle-east",
           "published": "Thu, 19 Mar 2026 15:58:21 GMT",
-          "summary": "<p>Attacks on facilities by both sides in the conflict this week threaten grave consequences for the global economy</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news\">Middle East crisis – live updates</a></p></li></ul><p>The escalating attacks on key oil and gas projects in the Middle East are expected to fuel a new phase of the ongoing conflict, with profound consequences for the world’s en",
+          "summary": "<p>Attacks on facilities by both sides in the conflict this week threaten grave consequences for the global economy</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/20/iran-war-live-updates-oil-prices-israel-netanyahu-ground-component-us-tensions-hormuz\">Middle East crisis – live updates</a></p></li></ul><p>The escalating attacks on key oil and gas projects in the Middle East are expected to fuel a new phase of the ongoing conflict, with profound consequences for the world’",
           "source": "The Guardian"
         },
         {
@@ -274,72 +274,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Oil and gas prices surged following attacks on facilities in the Middle East, while the US Federal Reserve plans to soften capital rules for major banks.",
-        "summary": "Today's business news highlights significant developments including a spike in oil and gas prices due to attacks in the Middle East, the US Federal Reserve's move to ease capital requirements for banks, and ongoing discussions about inflation and interest rates. Additionally, there are insights into China's advancements in robotics and the impact of rising real estate costs in Florida.",
+        "key_takeaway": "Oil and gas prices surged following attacks on facilities in the Middle East, while the US Federal Reserve is expected to lower capital requirements for major banks.",
+        "summary": "Today's business news highlights significant developments in the oil and gas sector due to geopolitical tensions, as well as changes in US banking regulations. The Iranian attack on QatarEnergy's facilities has led to a 17% reduction in LNG capacity, causing oil and gas prices to rise sharply. Concurrently, the Federal Reserve is poised to ease capital requirements for major banks, which could impact financial stability. Additionally, the ongoing conflict in the Middle East raises concerns about inflation and economic repercussions globally.",
         "key_themes": [
-          "Middle East oil and gas crisis",
-          "US Federal Reserve capital requirements",
-          "China robotics industry developments",
-          "Florida real estate market trends"
+          "oil and gas price increase",
+          "US banking regulations",
+          "impact of Middle East conflict on economy",
+          "Federal Reserve interest rates",
+          "China robotics industry developments"
         ],
         "notable_headlines": [
           {
             "headline": "Oil and gas prices jump after Iran and Israel attack gasfields",
-            "why_it_matters": "The Iranian attack has severely impacted LNG capacity, leading to a significant rise in oil and gas prices globally.",
+            "why_it_matters": "The attack has significant implications for global energy markets and inflation.",
             "signal": "Risk"
           },
           {
             "headline": "US moves to soften capital rules: ‘Big banks can declare mission accomplished’",
-            "why_it_matters": "Lowering capital requirements could enhance the profitability of major banks but may raise concerns about financial stability.",
-            "signal": "Opportunity"
+            "why_it_matters": "Lowering capital requirements could affect the stability of the banking sector.",
+            "signal": "Risk"
           },
           {
             "headline": "Fed holds interest rates steady as Iran war drives up oil prices and inflation fears",
-            "why_it_matters": "The Fed's decision reflects a balancing act between rising inflation and a weakening job market amid geopolitical tensions.",
+            "why_it_matters": "The Fed's decision reflects the balancing act between inflation and economic growth.",
             "signal": "Unclear"
           },
           {
             "headline": "Inside China’s robotics revolution",
-            "why_it_matters": "China's advancements in robotics could reshape industries and labor markets, highlighting the global shift towards automation.",
+            "why_it_matters": "China's advancements in robotics could reshape labor markets and industries globally.",
             "signal": "Opportunity"
           },
           {
             "headline": "Trump waives US shipping law for oil and gas in bid to lower prices",
-            "why_it_matters": "This move aims to alleviate rising oil prices amid ongoing conflicts, impacting the energy market significantly.",
+            "why_it_matters": "This move aims to alleviate rising oil prices amid ongoing geopolitical tensions.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Monitor oil and gas price fluctuations following the Middle East attacks.",
-            "Watch for further announcements from the Federal Reserve regarding interest rates.",
-            "Keep an eye on developments in the US banking sector as capital rules are adjusted."
+            "Watch for updates on US banking regulations and their implications.",
+            "Keep an eye on inflation data as it relates to energy prices."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of geopolitical tensions on global oil supply and prices.",
-            "Track the progress of China's robotics industry and its implications for global markets.",
-            "Follow trends in the Florida real estate market as luxury demand continues."
+            "Assess the long-term impact of the Iranian attacks on global energy supply chains.",
+            "Evaluate the effects of relaxed capital requirements on major US banks.",
+            "Observe trends in the robotics industry and its economic implications."
           ],
           "watch_list": [
-            "Potential changes in US interest rate policy amid inflation concerns.",
-            "Reactions from major banks to the easing of capital requirements.",
-            "Updates on the Middle East conflict and its economic repercussions.",
-            "confidence",
-            "Medium"
+            "Geopolitical developments in the Middle East and their economic impact.",
+            "Federal Reserve announcements regarding interest rates and banking regulations.",
+            "Trends in luxury real estate in Florida and its socio-economic effects.",
+            "China's advancements in robotics and automation."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and may change rapidly, affecting oil prices further.",
-          "The impact of the Fed's capital rule changes on the banking sector remains to be seen."
+          "The situation in the Middle East is fluid and may change rapidly, impacting economic forecasts.",
+          "The implications of banking regulation changes are uncertain and may evolve as new policies are implemented."
         ],
         "related_topics": [
-          "What are the latest developments in the Middle East oil crisis?",
-          "How are US banks responding to new capital requirements?",
-          "What is the current state of China's robotics industry?"
+          "What are the latest developments in oil and gas prices?",
+          "How are US banking regulations changing?",
+          "What is the impact of the Middle East conflict on global markets?",
+          "What advancements are being made in robotics in China?",
+          "How is inflation affecting the US economy?"
         ]
       },
-      "tweet_text": "Oil prices soar as conflict escalates, while big banks celebrate new freedom—are we on the brink of a...\n\nBusiness Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prices #Inside #Iran #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Oil prices surge as conflict escalates; will your wallet feel the heat?\n\nBusiness Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prices #Inside #Iran #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -350,11 +352,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2309,
+        "score": 0.24,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.385, dampened ×0.6 → +0.2309). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.400, dampened ×0.6 → +0.2400). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Valve’s huge SteamOS 3.8 update adds long-awaited features — and supports Steam Machine",
+          "url": "https://www.theverge.com/games/897765/valve-steamos-3-8-update-steam-deck-hibernation-steam-machine-xbox-ally",
+          "published": "2026-03-19T20:34:04-04:00",
+          "summary": "Valve has just released SteamOS 3.8.0 in preview, and it's a doozy. Not only is it the first release to support the upcoming Steam Machine living room gaming PC, it comes with long-awaited features for Valve's handhelds and more support for other companies' handhelds than we've seen to date - including Microsoft and Asus' Xbox [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "OpenAI is planning a desktop ‘superapp’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/897778/openai-chatgpt-codex-atlas-browser-superapp",
+          "published": "2026-03-19T20:09:38-04:00",
+          "summary": "OpenAI is working on a desktop \"superapp\" that merges its ChatGPT app, the Codex AI coding app, and its AI-powered Atlas browser into one app, The Wall Street Journal reports. The company is making the change as part of an effort to simplify its various product efforts, according to a memo cited by the WSJ [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Sony’s new WF-1000XM6 earbuds are already on sale for $30 off",
           "url": "https://www.theverge.com/gadgets/897668/sony-wf-1000xm6-wireless-earbuds-deal-sale",
@@ -410,92 +426,79 @@
           "published": "2026-03-19T13:00:42-04:00",
           "summary": "Prediction markets are working to ingratiate themselves with mainstream news and culture: The Golden Globes broadcast in January was plastered with Polymarket odds, the AP is licensing election data to Kalshi, and a partnership between Polymarket and Substack means more prediction market data in newsletters. Some prediction market exchanges are now attempting to strike deals [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Google reveals its solution for true Android sideloading: a mandatory waiting period",
-          "url": "https://www.theverge.com/tech/897420/android-sideloading-unverified-developers-process",
-          "published": "2026-03-19T13:00:33-04:00",
-          "summary": "Google has revealed the \"advanced flow\" that will be required to install certain Android apps once the company introduces mandatory developer verification later this year. The company had initially announced that it would no longer be possible to install apps from unverified developers, and the process announced today is its concession to critics who accused [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Meta is actually keeping its VR metaverse running, for now",
-          "url": "https://www.theverge.com/tech/897396/meta-vr-horizon-worlds-metaverse-andrew-bosworth",
-          "published": "2026-03-19T12:36:21-04:00",
-          "summary": "Meta is reversing its plans to shut down its VR metaverse - sort of. On Monday, the company announced that it would be shutting down the VR version of its 3D social platform Horizon Worlds on June 15th in favor of a new focus on the mobile version of the app. But in a Wednesday [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Sony's new WF-1000XM6 earbuds are discounted, while Meta faces scrutiny over a rogue AI incident affecting data access.",
-        "summary": "Today's technology news highlights significant product discounts, including Sony's WF-1000XM6 earbuds and Microsoft's Xbox controller, alongside notable incidents involving Meta's AI and the EV industry.",
+        "key_takeaway": "Valve's SteamOS 3.8 update introduces significant features, while OpenAI plans a desktop superapp to consolidate its offerings.",
+        "summary": "Today's technology news highlights Valve's major SteamOS 3.8 update, which supports Steam Machine and enhances handheld gaming. OpenAI is developing a desktop superapp to unify its applications. Sony's new earbuds are on sale, and a rogue AI incident at Meta raised security concerns. The EV industry faces challenges as several promising models are canceled, and prediction markets are seeking partnerships with journalists.",
         "key_themes": [
-          "discounts on tech products",
+          "Valve SteamOS update features",
+          "OpenAI desktop superapp development",
+          "Sony WF-1000XM6 earbuds sale",
           "Meta AI security incident",
-          "EV industry challenges",
-          "Android sideloading changes",
-          "prediction markets in journalism"
+          "EV industry cancellations",
+          "Prediction markets and journalism"
         ],
         "notable_headlines": [
           {
-            "headline": "Sony’s new WF-1000XM6 earbuds are already on sale for $30 off",
-            "why_it_matters": "The discount makes the latest model more competitive against older versions, potentially boosting sales.",
+            "headline": "Valve’s huge SteamOS 3.8 update adds long-awaited features — and supports Steam Machine",
+            "why_it_matters": "This update marks a significant step for Valve in enhancing its gaming ecosystem and supporting new hardware.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "OpenAI is planning a desktop ‘superapp’",
+            "why_it_matters": "The consolidation of OpenAI's tools could streamline user experience and increase engagement with its products.",
             "signal": "Opportunity"
           },
           {
             "headline": "A rogue AI led to a serious security incident at Meta",
-            "why_it_matters": "This incident raises concerns about AI reliability and data security within major tech companies.",
+            "why_it_matters": "This incident highlights potential vulnerabilities in AI systems and their impact on data security.",
             "signal": "Risk"
           },
           {
             "headline": "All the wrong EVs are getting canceled",
-            "why_it_matters": "The cancellation of promising electric vehicle models reflects broader challenges in the EV market.",
+            "why_it_matters": "The cancellation of promising EV models reflects broader challenges in the electric vehicle market and consumer demand.",
             "signal": "Risk"
           },
           {
-            "headline": "Google reveals its solution for true Android sideloading: a mandatory waiting period",
-            "why_it_matters": "This change aims to enhance security but may frustrate developers and users seeking flexibility.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Meta is actually keeping its VR metaverse running, for now",
-            "why_it_matters": "Meta's decision to maintain its VR platform indicates ongoing investment in virtual reality despite challenges.",
-            "signal": "Unclear"
+            "headline": "Prediction markets are trying to lure journalists with partnership deals",
+            "why_it_matters": "This trend could reshape how news is reported and consumed, integrating predictive analytics into journalism.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to the Meta AI incident and its implications for data security practices.",
-            "Watch for further developments in the EV industry as more cancellations may occur.",
-            "Expect consumer response to discounts on Sony and Microsoft products."
+            "Monitor reactions to Valve's SteamOS update from gamers and developers.",
+            "Watch for further details on OpenAI's superapp and its features.",
+            "Keep an eye on sales trends for Sony's earbuds and Microsoft's Xbox controller."
           ],
           "next_1_4_weeks": [
-            "Anticipate more details on Google's Android sideloading process and its impact on developers.",
-            "Follow the evolution of Meta's VR strategy and its implications for the metaverse.",
-            "Observe trends in the EV market as companies adjust their strategies."
+            "Observe the impact of the rogue AI incident on Meta's security protocols and public perception.",
+            "Track developments in the EV market as more cancellations may occur.",
+            "Follow the evolution of prediction markets and their integration into journalism."
           ],
           "watch_list": [
-            "Sony WF-1000XM6 sales performance",
-            "Meta's handling of AI-related security issues",
-            "Developments in Android app installation policies",
-            "Future of electric vehicle models",
-            "Impact of prediction markets on journalism"
+            "Valve's SteamOS updates and community feedback.",
+            "OpenAI's product announcements and user adoption rates.",
+            "Trends in the EV market and consumer preferences.",
+            "Security measures taken by Meta post-incident."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating a balance of positive and negative news in the technology sector.",
-          "The implications of the Meta AI incident are still unfolding, making it difficult to assess long-term effects."
+          "The sentiment score indicates mixed feelings about the overall technology landscape today.",
+          "The impact of the rogue AI incident at Meta is still unfolding, and its long-term effects are uncertain. "
         ],
         "related_topics": [
-          "What are the latest discounts on tech products?",
-          "How is Meta handling AI security incidents?",
-          "What challenges is the EV industry facing?",
-          "What changes are coming to Android sideloading?",
+          "What are the new features in Valve's SteamOS 3.8?",
+          "Details about OpenAI's desktop superapp plans",
+          "Best deals on Sony WF-1000XM6 earbuds",
+          "What happened with the rogue AI incident at Meta?",
+          "Why are EV models being canceled?",
           "How are prediction markets influencing journalism?"
         ]
       },
-      "tweet_text": "Big discounts, rogue AIs, and luxury blunders—today’s tech news is a rollercoaster you don’t want to miss!\n\nTechnology Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Controller #5150 #Adapter #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready for a tech revolution: SteamOS 3.8 drops, OpenAI's desktop superapp looms, and luxury just got...\n\nTechnology Sentiment: Mixed (+0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Controller #5150 #Adapter #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -506,163 +509,166 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.1723,
+        "score": 0.1744,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.287, dampened ×0.6 → +0.1723). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.291, dampened ×0.6 → +0.1744). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Men's March Madness live tracker: Updates from Thursday's first round",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48248690/march-madness-live-tracker-updates-ncaa-tournament-first-round-thursday-2026",
-          "published": "Thu, 19 Mar 2026 17:24:47 EST",
-          "summary": "ESPN reporters are on site across the country with real-time updates from the 2026 NCAA tournament.",
+          "title": "Make your picks now",
+          "url": "https://fantasy.espn.com/games/tournament-challenge-bracket-women-2026/?addata=tcwomens2026_ncaaw_web_CreateabracketP1Hero",
+          "published": "Fri, 20 Mar 2026 00:35:08 EST",
+          "summary": "Like favorites? Pick one as your champ",
+          "source": "ESPN"
+        },
+        {
+          "title": "Luka puts up 60 vs. Heat as Lakers stay hot",
+          "url": "https://www.espn.com/nba/story/_/id/48255013/luka-doncic-puts-60-vs-heat-lakers-win-streak-hits-8",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
+          "summary": "Luka Doncic scored 60 points, tying the second-most points he has scored in a game, as the Lakers pushed their season-best winning streak to eight games.",
+          "source": "ESPN"
+        },
+        {
+          "title": "UNC's Davis: Fatigue not to blame for collapse",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48255008/unc-hubert-davis-defends-decisions-latest-early-exit",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
+          "summary": "In a series of terse exchanges with reporters after VCU's 82-78 OT win, North Carolina coach Hubert Davis said he didn't think his team was tired and said it was \"my decision\" when asked why he had gone with a six-man rotation in the waning minutes.",
+          "source": "ESPN"
+        },
+        {
+          "title": "LeBron ties Parish's record with 1,611th game",
+          "url": "https://www.espn.com/nba/story/_/id/48253906/lebron-james-ties-robert-parish-nba-games-played-record",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
+          "summary": "LeBron James tied Robert Parish for the NBA's all-time games-played mark, with the Hall of Famer saying James is \"deserving\" of breaking the record.",
           "source": "ESPN"
         },
         {
           "title": "Duke dodges scare, tips cap to McNamara, Siena",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48252405/duke-avoids-historic-upset-stops-siena-ncaa-tournament",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
           "summary": "Duke barely avoided a shocking upset to open the NCAA tournament, with the No. 1 overall seed having to rally from 13 points down and going ahead for good in the final five minutes to beat 16th-seeded Siena 71-65 on Thursday.",
           "source": "ESPN"
         },
         {
           "title": "Sources: NFL to vote on Raiders succession plan",
           "url": "https://www.espn.com/nfl/story/_/id/48252529/nfl-owners-set-vote-raiders-succession-plan",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
           "summary": "NFL owners are scheduled to vote on a Raiders succession plan that gives Silver Lake co-chief executive officer Egon Durban the option to purchase a majority stake in the team from longtime owner Mark Davis, sources told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Texas overcomes Dybantsa's 35 points, tops BYU",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48254557/texas-overcomes-dybantsa-byu-ncaa-tournament-upset",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
+          "summary": "No. 11 seed Texas knocked off sixth-seeded BYU 79-71 on Thursday in the opening round of the NCAA tournament, overcoming 35 points from Cougars forward AJ Dybantsa.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: WNBA's new CBA expedites max deals",
+          "url": "https://www.espn.com/wnba/story/_/id/48254113/wnba-new-cba-expedites-ability-land-max-deals",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
+          "summary": "A new provision in the WNBA's pending CBA fast-tracks the ability for players on rookie-scale contracts to make maximum and supermax salaries, sources told ESPN.",
           "source": "ESPN"
         },
         {
           "title": "Johnston, High Point stun 5th-seeded Badgers",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48251956/high-point-upsets-wisconsin-1st-round-ncaa-tournament",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
           "summary": "Chase Johnston made his first 2-point basket of the season to give No. 12 seed High Point an 83-82 victory over fifth-seeded Wisconsin on Thursday in the first round of the NCAA tournament.",
-          "source": "ESPN"
-        },
-        {
-          "title": "TCU backs up its tough talk, bounces Buckeyes",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48251453/tcu-backs-tough-talk-bounces-buckeyes-1st-round",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
-          "summary": "Xavier Edmonds converted a layup to beat the shot clock with 4.3 seconds left, and No. 9 seed TCU held off a furious second-half rally by eighth-seeded Ohio State for a 66-64 victory to open the first round of the NCAA tournament.",
-          "source": "ESPN"
-        },
-        {
-          "title": "WBC title game ratings nearly double from 2023",
-          "url": "https://www.espn.com/mlb/story/_/id/48253204/world-baseball-classic-title-game-ratings-nearly-double-23",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
-          "summary": "This year's World Baseball Classic championship game between Venezuela and the United States was seen by 10,784,000 viewers on Fox and Fox Deportes, nearly double the viewership for Japan's victory over the U.S. in the 2023 final.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Leafs' Matthews (MCL surgery) down 12 weeks",
-          "url": "https://www.espn.com/nhl/story/_/id/48252480/maple-leafs-star-auston-matthews-undergoes-surgery-mcl-tear",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
-          "summary": "Maple Leafs captain Auston Matthews underwent successful MCL surgery Thursday, with an expected recovery time of 12 weeks, the team announced.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Profar gets full PED ban after appeal resolved",
-          "url": "https://www.espn.com/mlb/story/_/id/48249604/jurickson-profar-gets-162-game-ped-suspension-appeal-resolved",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
-          "summary": "Braves outfielder Jurickson Profar will miss the entire 2026 season after his appeal of a positive test for performance-enhancing drugs was resolved.",
-          "source": "ESPN"
-        },
-        {
-          "title": "'Storybook ending': Nebraska ends NCAA drought",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48252012/nebraska-breaks-special-ncaa-tournament-win",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
-          "summary": "No. 4 seed Nebraska captured its first-ever NCAA tournament win in a 76-47 drubbing of No. 13 seed Troy in the first round Thursday.",
           "source": "ESPN"
         },
         {
           "title": "🏀 Best bets for men's tournament first round",
           "url": "https://www.espn.com/espn/betting/story/_/id/48230534/2026-men-tournament-betting-picks-odds-first-round-college-basketball-eliminator",
-          "published": "Thu, 19 Mar 2026 19:04:50 EST",
+          "published": "Fri, 20 Mar 2026 00:35:23 EST",
           "summary": "As you prepare for tipoff, here are our best bets for the first round, plus picks for the new Eliminator game.",
           "source": "ESPN"
         },
         {
-          "title": "Make your picks now",
-          "url": "https://fantasy.espn.com/games/tournament-challenge-bracket-women-2026/?addata=tcwomens2026_ncaaw_web_CreateabracketP1Hero",
-          "published": "Thu, 19 Mar 2026 19:06:04 EST",
-          "summary": "Like favorites? Pick one as your champ",
+          "title": "LeBron in Miami -- where he was at his career best",
+          "url": "https://www.espn.com/nba/story/_/id/48174027/27-straight-wins-lebron-james-most-dominant-stretch-career-heat-cavaliers-lakers-moments",
+          "published": "Thu, 19 Mar 2026 23:15:08 EST",
+          "summary": "When was LeBron James' peak? There's an argument to be made for 2013, when his Miami Heat did not lose for 52 straight days.",
           "source": "ESPN"
         },
         {
-          "title": "10 great signings, six great trades: The NFL free agency moves that Walder graded with an 'A'",
-          "url": "https://www.espn.com/nfl/story/_/id/48226368/2026-nfl-free-agency-signings-ranking-best-deals-contracts-fits-values",
-          "published": "Thu, 19 Mar 2026 19:05:52 EST",
-          "summary": "We've graded more than 60 signings and trades over the past few weeks. But only 16 moves received top marks. We ranked those deals.",
+          "title": "What the 2026 WNBA CBA means for league, players, salaries",
+          "url": "https://www.espn.com/wnba/story/_/id/48243808/wnba-cba-2026-collective-bargaining-agreement-news-line-salaries-schedule",
+          "published": "Thu, 19 Mar 2026 17:57:40 EST",
+          "summary": "Is this CBA truly transformational? Breaking down the impact of the WNBA's new deal.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Duke narrowly escaped an upset in the NCAA tournament while Nebraska celebrated its first-ever tournament victory, and NFL owners prepare to vote on a succession plan for the Raiders.",
-        "summary": "Today's sports headlines highlight the excitement of the NCAA tournament, with Duke and Nebraska making headlines for their performances. Additionally, NFL owners are set to vote on a significant succession plan for the Raiders, while viewership for the World Baseball Classic title game has surged.",
+        "key_takeaway": "Luka Doncic scored 60 points as the Lakers extended their winning streak to eight games, while NCAA tournament upsets marked the opening rounds.",
+        "summary": "Today's sports headlines highlight Luka Doncic's impressive 60-point game, the Lakers' ongoing success, and notable upsets in the NCAA tournament. Additionally, discussions around the NFL's Raiders succession plan and the WNBA's new CBA are prominent.",
         "key_themes": [
-          "NCAA tournament updates",
-          "NFL succession plan news",
-          "World Baseball Classic viewership trends"
+          "NCAA tournament upsets",
+          "Luka Doncic performance",
+          "WNBA new CBA impact",
+          "NFL Raiders succession plan",
+          "LeBron James records"
         ],
         "notable_headlines": [
           {
-            "headline": "Duke dodges scare, tips cap to McNamara, Siena",
-            "why_it_matters": "Duke's near upset showcases the unpredictability of March Madness and the pressure on top seeds.",
+            "headline": "Luka puts up 60 vs. Heat as Lakers stay hot",
+            "why_it_matters": "Doncic's performance underscores his elite status and contributes to the Lakers' strong season.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "UNC's Davis: Fatigue not to blame for collapse",
+            "why_it_matters": "Davis' defense of his coaching decisions raises questions about team management under pressure.",
             "signal": "Risk"
           },
           {
-            "headline": "'Storybook ending': Nebraska ends NCAA drought",
-            "why_it_matters": "Nebraska's first NCAA tournament win marks a significant milestone for the program and its fans.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "WBC title game ratings nearly double from 2023",
-            "why_it_matters": "The surge in viewership indicates growing interest in international baseball competitions.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "NFL to vote on Raiders succession plan",
-            "why_it_matters": "The outcome of this vote could significantly impact the future ownership and direction of the Raiders franchise.",
+            "headline": "Sources: NFL to vote on Raiders succession plan",
+            "why_it_matters": "The outcome of this vote could significantly impact the future ownership structure of the Raiders.",
             "signal": "Unclear"
           },
           {
-            "headline": "Profar gets full PED ban after appeal resolved",
-            "why_it_matters": "Profar's suspension highlights ongoing issues with performance-enhancing drugs in sports.",
-            "signal": "Risk"
+            "headline": "Texas overcomes Dybantsa's 35 points, tops BYU",
+            "why_it_matters": "Texas' victory showcases their resilience in the NCAA tournament despite individual standout performances from opponents.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Sources: WNBA's new CBA expedites max deals",
+            "why_it_matters": "The new CBA could reshape player salaries and team dynamics in the WNBA, enhancing competitive balance.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Continued updates from the NCAA tournament as more games unfold.",
-            "Potential reactions to the NFL owners' vote on the Raiders succession plan.",
-            "Monitoring player injuries and their impact on team performances."
+            "More NCAA tournament games will take place, potentially leading to further upsets.",
+            "Updates on the NFL's Raiders succession plan vote are expected soon.",
+            "Expect analysis on the implications of the WNBA's new CBA."
           ],
           "next_1_4_weeks": [
-            "Further developments in NFL free agency as teams finalize their rosters.",
-            "Analysis of NCAA tournament outcomes as teams progress to later rounds.",
-            "Expectations for MLB season as teams prepare for opening day."
+            "Continued coverage of the NCAA tournament as teams advance or are eliminated.",
+            "Monitoring the performance of the Lakers and Doncic as the NBA season progresses.",
+            "Further developments in the NFL regarding ownership changes."
           ],
           "watch_list": [
-            "NCAA tournament results and upsets",
-            "NFL ownership changes and implications",
-            "MLB season viewership trends and player performances.",
-            "Updates on player injuries and recoveries."
+            "Upcoming NCAA tournament matchups and potential Cinderella stories.",
+            "LeBron James' pursuit of the all-time games-played record.",
+            "Impact of the new WNBA CBA on player contracts and team strategies.",
+            "confidence",
+            "Medium"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about today's sports news, suggesting both positive and negative developments.",
-          "The outcomes of ongoing events like the NCAA tournament can change rapidly, affecting future headlines."
+          "The sentiment score reflects a mixed tone across the headlines, indicating varied public reactions to the events.",
+          "The outcomes of ongoing tournaments and games can change rapidly, affecting future analyses."
         ],
         "related_topics": [
-          "What are the latest NCAA tournament updates?",
-          "How is the NFL handling the Raiders succession plan?",
-          "What were the viewership ratings for the World Baseball Classic?",
-          "Latest news on player injuries in the NHL and MLB.",
-          "What are the top NFL free agency signings this year?"
+          "What are the latest NCAA tournament results?",
+          "How did Luka Doncic perform against the Heat?",
+          "What changes are coming to the WNBA with the new CBA?",
+          "What is the status of the NFL Raiders succession plan?",
+          "LeBron James' career milestones and records."
         ]
       },
-      "tweet_text": "March Madness shocks, NFL drama unfolds, and TCU proves tough—don’t miss today’s thrilling sports action!\n\nSports Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#2023 #5thseeded #Appeal #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Luka's 60 ignites the Lakers, while LeBron etches his name in history—don't miss this sports showdown!\n\nSports Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #1611th #Blame #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -673,9 +679,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0374,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.062, dampened ×0.6 → +0.0374). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1766,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.294, dampened ×0.6 → +0.1766). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -683,6 +689,20 @@
           "url": "https://www.sciencedaily.com/releases/2026/03/260319074552.htm",
           "published": "Thu, 19 Mar 2026 08:09:07 EDT",
           "summary": "New strength training guidelines emphasize that doing any resistance training is what truly matters. Based on decades of research, experts say even simple routines can increase muscle, strength, and physical function. The key is not perfection but consistency. In fact, the best workout plan is the one you can maintain long term.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "What happens after Ozempic shocked researchers",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044648.htm",
+          "published": "Thu, 19 Mar 2026 23:08:04 EDT",
+          "summary": "Stopping popular weight-loss injections like Ozempic or Mounjaro might not trigger the dramatic rebound many fear. A large real-world study of nearly 8,000 patients found that most people who discontinue these drugs manage to keep the weight off—or even continue losing—by restarting treatment, switching medications, or adopting lifestyle changes. While earlier clinical trials suggested rapid weight regain, this new evidence paints a more hopeful picture.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists thought ravens followed wolves. They were wrong",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044643.htm",
+          "published": "Thu, 19 Mar 2026 21:52:07 EDT",
+          "summary": "Ravens have long been thought to follow wolves to find food, but new research shows they’re far more strategic. By tracking both animals in Yellowstone, scientists discovered that ravens memorize areas where wolf kills are likely and fly directly to those spots—sometimes from great distances. Rather than trailing wolves, they rely on learned patterns in the landscape. It’s a clever system that highlights just how intelligent these birds really are.",
           "source": "ScienceDaily"
         },
         {
@@ -747,91 +767,103 @@
           "published": "Wed, 18 Mar 2026 04:15:21 EDT",
           "summary": "A critically ill 33-year-old man survived an almost unimaginable scenario—living for 48 hours without lungs—thanks to a groundbreaking surgical approach. After a severe flu-triggered infection destroyed his lungs and caused multiple organ failure, doctors removed both lungs entirely to stop the spread of infection. In their place, they used a specially engineered “artificial lung” system to oxygenate his blood and keep his body functioning while he stabilized.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Even JWST can’t see through this planet’s massive haze",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260317064449.htm",
-          "published": "Wed, 18 Mar 2026 00:47:28 EDT",
-          "summary": "Kepler-51d is a giant, ultra-light “super-puff” planet wrapped in an unusually thick haze that’s blocking scientists from seeing what it’s made of. Observations from JWST revealed that this haze may be one of the largest ever detected, possibly stretching as wide as Earth itself. The planet’s low density and close orbit don’t match existing models of how gas giants form or survive. Now, researchers are left with more questions than answers about how such a strange world came to be.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "This massive crater could expose the heart of a lost planet",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260317064440.htm",
-          "published": "Tue, 17 Mar 2026 07:19:15 EDT",
-          "summary": "A mysterious metal-rich asteroid called Psyche has been baffling scientists for over two centuries, and its true origin remains one of the biggest unanswered questions in planetary science. Is it the exposed core of a failed planet, or a chaotic mix of rock and metal forged through countless violent collisions? To find out, researchers simulated how a massive crater near Psyche’s north pole formed, revealing that the asteroid’s internal “porosity” — how much empty space it contains — may hold th",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include a new subatomic particle, insights into dinosaur nesting behaviors, and the mapping of cancer genetics in cats and humans.",
-        "summary": "Today's science headlines highlight significant advancements, including the discovery of a new particle at CERN, insights into dinosaur incubation methods, and genetic overlaps in cancer between cats and humans. Additionally, researchers have made strides in understanding superconductors and the unique characteristics of exoplanets, while a groundbreaking surgical case demonstrates innovative medical techniques.",
+        "key_takeaway": "Recent scientific discoveries range from new strength training guidelines to groundbreaking findings in particle physics and cancer genetics.",
+        "summary": "Today's science headlines highlight a variety of significant discoveries, including new insights into strength training, the behavior of ravens, and the genetics of cancer in cats. Additionally, researchers have made strides in understanding subatomic particles, dinosaur nesting behaviors, and the unique characteristics of a newly discovered exoplanet. These findings not only advance scientific knowledge but also have potential implications for health and technology.",
         "key_themes": [
-          "new discoveries in particle physics",
-          "dinosaur nesting behavior research",
-          "cancer genetics in cats and humans",
-          "advancements in superconductors",
+          "strength training guidelines",
+          "Ozempic weight loss study",
+          "cancer genetics in cats",
+          "subatomic particle discovery",
+          "dinosaur nesting behavior",
           "exoplanet characteristics"
         ],
         "notable_headlines": [
           {
             "headline": "The best strength training plan might be simpler than you think",
-            "why_it_matters": "Emphasizes the importance of consistency over perfection in strength training routines.",
+            "why_it_matters": "Emphasizes the importance of consistency in resistance training for muscle and strength gains.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "What happens after Ozempic shocked researchers",
+            "why_it_matters": "New evidence suggests that discontinuing weight-loss drugs may not lead to rapid weight regain, offering hope for patients.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Scientists thought ravens followed wolves. They were wrong",
+            "why_it_matters": "Reveals the strategic intelligence of ravens in finding food, challenging previous assumptions about their behavior.",
             "signal": "Opportunity"
           },
           {
             "headline": "Physicists discover a heavy cousin of the proton at CERN’s Large Hadron Collider",
-            "why_it_matters": "Confirms decades-long predictions about subatomic particles, enhancing our understanding of particle physics.",
+            "why_it_matters": "Confirms long-predicted subatomic particle existence, advancing our understanding of particle physics.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists recreated a dinosaur nest to solve a 70-million-year-old mystery",
-            "why_it_matters": "Provides insights into dinosaur behavior and incubation methods, contributing to paleontological knowledge.",
+            "why_it_matters": "Provides insights into dinosaur incubation methods, enhancing our understanding of prehistoric life.",
             "signal": "Opportunity"
           },
           {
             "headline": "The surprising cancer link between cats and humans",
-            "why_it_matters": "Reveals genetic similarities that could lead to shared treatments for cancer in both species.",
+            "why_it_matters": "Uncovers genetic overlaps in cancers between species, potentially leading to new treatments.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "These strange pink rocks just revealed a hidden giant beneath Antarctica",
+            "why_it_matters": "Solves a geological mystery and enhances knowledge of Antarctica's geological history.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "These dinosaurs had wings but couldn’t fly",
+            "why_it_matters": "Challenges assumptions about feathered dinosaurs and their evolutionary adaptations.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover tiny rocket engines inside malaria parasites",
-            "why_it_matters": "Could lead to new drug developments and innovations in microscopic robotics.",
+            "why_it_matters": "Reveals potential for new drug development and innovations in microscopic robotics.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "JWST reveals a strange sulfur world unlike any planet we know",
+            "why_it_matters": "Challenges existing classifications of exoplanets and expands our understanding of planetary formation.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the new particle discovered at CERN may be released.",
-            "Additional studies on the implications of the cancer genetics findings in pets may emerge.",
-            "Updates on the dinosaur nesting research could provide more insights."
+            "Further analysis of the implications of the new strength training guidelines may emerge.",
+            "Research on the long-term effects of discontinuing Ozempic could be published.",
+            "More studies on the behavior of ravens in different environments may be conducted."
           ],
           "next_1_4_weeks": [
-            "Expect more detailed reports on the implications of the superconductors study.",
-            "Further exploration of the unique exoplanet characteristics may be published.",
-            "Research on the applications of the malaria parasite findings could advance."
+            "Anticipated discussions on the applications of the new cancer genetics findings in veterinary and human medicine.",
+            "Potential announcements regarding new discoveries at CERN as research continues.",
+            "Further insights into the implications of the dinosaur nesting study may be released."
           ],
           "watch_list": [
-            "Monitor developments in cancer treatment research related to genetic overlaps.",
-            "Watch for new findings from ongoing studies at CERN.",
-            "Keep an eye on advancements in strength training guidelines.",
-            "Follow updates on the dinosaur nesting behavior research."
+            "Developments in cancer treatment strategies based on genetic overlaps with pets.",
+            "Updates on the research surrounding the newly discovered subatomic particle.",
+            "New findings related to the behavior of ravens and their ecological impact.",
+            "Follow-up studies on the effects of weight-loss drug discontinuation."
           ],
-          "confidence": "High"
+          "confidence": "Medium"
         },
         "caveats": [
-          "The implications of some discoveries may take time to fully understand.",
-          "Further research is needed to confirm initial findings in various studies."
+          "The mixed sentiment score indicates a range of reactions to the news, suggesting some findings may be controversial or require further validation.",
+          "Not all studies have immediate practical applications, and some may take time to influence public understanding or policy."
         ],
         "related_topics": [
-          "What are the latest discoveries in particle physics?",
-          "How do dinosaurs incubate their eggs?",
-          "What are the genetic links between cats and human cancers?",
-          "What advancements have been made in superconductors?",
-          "What unique characteristics do exoplanets have?"
+          "What are the latest findings in strength training?",
+          "How do weight-loss drugs affect long-term weight management?",
+          "What new discoveries have been made in particle physics?",
+          "How do genetics link cancer in cats and humans?",
+          "What insights have been gained from studying dinosaur nesting behaviors?"
         ]
       },
-      "tweet_text": "Unraveling mysteries from dinosaurs to hidden giants—today's science news will leave you...\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Discover #Scientists #Strange #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Can a simple strength training plan unlock your fitness potential? Discover the surprising...\n\nScience Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #70millionyearold #Antarctica #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
