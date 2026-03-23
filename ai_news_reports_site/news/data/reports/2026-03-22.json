@@ -1,10 +1,10 @@
 {
   "date": "2026-03-22",
-  "generated_at_utc": "2026-03-22T23:37:38Z",
+  "generated_at_utc": "2026-03-23T04:59:21Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "attacks"
+    "iran"
   ],
   "categories": {
     "world": {
@@ -16,16 +16,16 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2229,
+        "score": -0.222,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.371, dampened ×0.6 → -0.2229). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.370, dampened ×0.6 → -0.2220). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Israeli settlers target Palestinian villages in occupied West Bank, attacking people and properties",
-          "url": "https://www.bbc.com/news/articles/cew719w80g7o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 22 Mar 2026 22:38:24 GMT",
-          "summary": "The violence began after 18-year-old settler Yehuda Sherman was killed after reportedly being hit by a vehicle driven by a Palestinian while on his quad bike.",
+          "title": "Asia stocks slide as US and Iran threaten to intensify war",
+          "url": "https://www.bbc.com/news/articles/czex56kwxxzo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 23 Mar 2026 03:00:32 GMT",
+          "summary": "The International Energy Agency chief said the war could lead to the world's worst energy crisis in decades.",
           "source": "BBC News"
         },
         {
@@ -43,10 +43,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Kenyans fighting illegally for Russia in Ukraine to be granted amnesty",
-          "url": "https://www.bbc.com/news/articles/cj94jmj2p28o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 22 Mar 2026 19:05:30 GMT",
-          "summary": "It is illegal for Kenyans to serve in foreign armies and can carry a sentence of up to 10 years in jail.",
+          "title": "Israeli settlers target Palestinian villages in occupied West Bank, attacking people and properties",
+          "url": "https://www.bbc.com/news/articles/cew719w80g7o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 22 Mar 2026 22:38:24 GMT",
+          "summary": "The violence began after 18-year-old settler Yehuda Sherman was killed after reportedly being hit by a vehicle driven by a Palestinian while on his quad bike.",
+          "source": "BBC News"
+        },
+        {
+          "title": "UN issues new climate warning as El Niño looms",
+          "url": "https://www.bbc.com/news/articles/c203rdxkezwo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 23 Mar 2026 04:06:22 GMT",
+          "summary": "The Earth's climate is further out of balance than at any time in recorded history, the UN's weather agency says.",
           "source": "BBC News"
         },
         {
@@ -71,6 +78,13 @@
           "source": "BBC News"
         },
         {
+          "title": "Kenyans fighting illegally for Russia in Ukraine to be granted amnesty",
+          "url": "https://www.bbc.com/news/articles/cj94jmj2p28o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 22 Mar 2026 19:05:30 GMT",
+          "summary": "It is illegal for Kenyans to serve in foreign armies and can carry a sentence of up to 10 years in jail.",
+          "source": "BBC News"
+        },
+        {
           "title": "Hawaii storms have caused $1bn in damage, governor says",
           "url": "https://www.bbc.com/news/articles/czxrdxn6qwqo?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 22 Mar 2026 20:24:27 GMT",
@@ -90,92 +104,83 @@
           "published": "Sun, 22 Mar 2026 12:15:05 GMT",
           "summary": "The strike killed 64 people, including 13 children, two nurses and a doctor, according to the WHO head.",
           "source": "BBC News"
-        },
-        {
-          "title": "Socialists battle to hold Paris as France holds mayoral elections",
-          "url": "https://www.bbc.com/news/articles/c87wgw27201o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 22 Mar 2026 07:08:59 GMT",
-          "summary": "The capital could shift to the right after 25 years under the Socialists if Rachida Dati defeats Emmanuel Grégoire.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Russian attacks kill six in Ukraine, officials say",
-          "url": "https://www.bbc.com/news/articles/crl18nwjzzzo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 22 Mar 2026 19:29:06 GMT",
-          "summary": "The deaths were reported in four south-eastern Ukrainian regions in the past 24 hours.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Violence escalates in the Middle East, while Cuba faces ongoing power issues and France's Socialists maintain control in key cities amid local elections.",
-        "summary": "Today's headlines highlight escalating violence in the Middle East, including attacks by Israeli settlers and missile strikes near Israeli nuclear sites. In Cuba, a national blackout underscores ongoing power struggles exacerbated by external pressures. Meanwhile, France's Socialists secured significant victories in local elections, maintaining control in major cities. The situation in Ukraine remains dire with continued Russian attacks, and Kenyans fighting in Ukraine may receive amnesty despite legal risks.",
+        "key_takeaway": "Escalating conflicts in the Middle East and climate warnings from the UN dominate global news, alongside significant political developments in France and ongoing crises in Cuba and Sudan.",
+        "summary": "Today's headlines reflect a mixed sentiment regarding global events, with escalating tensions in the Middle East, significant political shifts in France, and urgent climate warnings from the UN. The situation in Cuba continues to deteriorate with repeated blackouts, while Sudan faces a humanitarian crisis following a deadly drone attack. Additionally, the plight of Kenyans fighting in Ukraine and the aftermath of severe storms in Hawaii highlight ongoing global challenges.",
         "key_themes": [
-          "Middle East violence updates",
+          "Middle East conflict updates",
+          "France local elections results",
+          "UN climate change warnings",
           "Cuba power grid issues",
-          "France local election results",
-          "Ukraine conflict news",
-          "Kenyans in foreign military service"
+          "Sudan humanitarian crisis news"
         ],
         "notable_headlines": [
           {
-            "headline": "Israeli settlers target Palestinian villages in occupied West Bank, attacking people and properties",
-            "why_it_matters": "This incident reflects the ongoing tensions and violence in the region, particularly following the death of a settler.",
+            "headline": "Asia stocks slide as US and Iran threaten to intensify war",
+            "why_it_matters": "The potential for a major energy crisis looms as tensions escalate between the US and Iran, impacting global markets.",
             "signal": "Risk"
           },
           {
             "headline": "Israel to expand ground and air attacks against Hezbollah in Lebanon",
-            "why_it_matters": "The potential for a large-scale ground invasion raises concerns about further regional instability.",
+            "why_it_matters": "Increased military actions could lead to a larger regional conflict, affecting stability in the Middle East.",
             "signal": "Risk"
           },
           {
             "headline": "France's Socialists hold onto power in major cities in election boost for mainstream",
-            "why_it_matters": "The results indicate a resilience of mainstream political parties against rising nationalist sentiments.",
+            "why_it_matters": "The election results may influence France's political landscape and the strength of mainstream parties against rising nationalism.",
             "signal": "Opportunity"
           },
           {
+            "headline": "UN issues new climate warning as El Niño looms",
+            "why_it_matters": "The warning highlights the urgent need for global action on climate change as conditions worsen.",
+            "signal": "Risk"
+          },
+          {
             "headline": "National blackout hits Cuba for second time in a week",
-            "why_it_matters": "The blackout highlights the challenges Cuba faces with its power infrastructure amid external pressures.",
+            "why_it_matters": "The blackout underscores the ongoing challenges Cuba faces due to infrastructure issues and external pressures.",
             "signal": "Risk"
           },
           {
             "headline": "Sudan drone attack on key hospital killed 64 people during Eid, WHO says",
-            "why_it_matters": "This tragic event underscores the humanitarian crisis in Sudan and the impact of ongoing conflict.",
+            "why_it_matters": "The attack raises serious concerns about civilian safety and humanitarian conditions in conflict zones.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in Israeli-Palestinian tensions and potential military actions in Lebanon.",
-            "Watch for updates on Cuba's power restoration efforts and the impact on daily life.",
-            "Follow the aftermath of the drone attack in Sudan and international responses."
+            "Monitor developments in the Middle East as tensions rise between Israel and Hezbollah.",
+            "Watch for updates on the UN's climate report and its implications for global policy.",
+            "Follow the political landscape in France after local election results."
           ],
           "next_1_4_weeks": [
-            "Observe the political landscape in France following local elections and potential shifts in governance.",
-            "Track the humanitarian situation in Ukraine and Sudan as conflicts continue.",
-            "Assess the implications of Kenyans receiving amnesty for fighting in Ukraine."
+            "Expect potential escalation in military actions in the Middle East and their impact on global energy markets.",
+            "Anticipate further humanitarian reports from Sudan as the situation develops.",
+            "Watch for responses from the international community regarding Cuba's power crisis."
           ],
           "watch_list": [
-            "Escalation of violence in the Middle East",
+            "Middle East conflict dynamics",
+            "France's political stability post-elections",
+            "UN climate change initiatives",
             "Cuba's energy crisis",
-            "Political shifts in France",
-            "Humanitarian crises in Ukraine and Sudan"
+            "Sudan's humanitarian situation"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and may change rapidly.",
-          "Cuba's power issues are influenced by external factors that could evolve.",
-          "Election outcomes may lead to unforeseen political shifts in France."
+          "The situation in the Middle East is fluid and may change rapidly, affecting market and geopolitical stability.",
+          "Local election results in France may have varying impacts depending on national political trends."
         ],
         "related_topics": [
           "What are the latest developments in the Middle East conflict?",
-          "How is Cuba addressing its power grid failures?",
-          "What were the results of the French local elections?",
-          "What is the current situation in Ukraine?",
-          "What legal issues do Kenyans face for fighting in Ukraine?"
+          "How did France's elections impact the political landscape?",
+          "What is the UN's latest climate warning about?",
+          "What are the implications of Cuba's power grid failures?",
+          "What happened in Sudan following the drone attack?"
         ]
       },
-      "tweet_text": "Chaos escalates as violence erupts in the West Bank, while Cuba faces another blackout and Iran's missiles leave...\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Israeli #Against #Agents #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tensions rise as war looms in the Middle East, while climate chaos and power outages shake the globe—are we on the brink?\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Israeli #Against #Agents #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -277,76 +282,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The ongoing conflict in Iran is causing significant economic concerns, impacting oil prices, stock markets, and consumer behavior in the US.",
-        "summary": "Today's headlines highlight the economic ramifications of the Iran conflict, including rising oil prices, increased interest in electric vehicles, and challenges faced by various industries. Additionally, child labor violations are on the rise amid legislative rollbacks, while a major media merger faces legal challenges from several states.",
+        "key_takeaway": "The ongoing Iran war is causing significant economic concerns, including rising oil prices, stock market dips, and increased interest in electric vehicles.",
+        "summary": "Today's business news highlights the potential long-term economic impacts of the Iran war, including rising oil prices affecting consumer behavior and stock market performance. Additionally, child labor violations are increasing in the US amid regulatory rollbacks, while the Napa Valley wine industry faces challenges. A proposed merger in the media sector is facing legal challenges from several states, and CBS News is undergoing layoffs as part of restructuring efforts.",
         "key_themes": [
-          "impact of Iran war on global economy",
-          "child labor regulations in the US",
+          "Iran war economic impact",
+          "child labor regulations",
           "electric vehicle market trends",
           "Napa Valley wine industry challenges",
-          "Nexstar Tegna merger legal issues"
+          "media merger legal issues"
         ],
         "notable_headlines": [
           {
             "headline": "‘The stakes are enormous’: how a prolonged Iran war could shock the global economy",
-            "why_it_matters": "Experts warn that the Iran conflict could lead to long-term economic consequences, particularly in oil prices and inflation.",
+            "why_it_matters": "Experts warn of long-term economic fallout from the Iran conflict, affecting oil prices and inflation.",
             "signal": "Risk"
           },
           {
             "headline": "Child labor violations rise in US – as Republicans still roll back protections",
-            "why_it_matters": "The increase in child labor violations coincides with legislative efforts to reduce protections for young workers, raising ethical concerns.",
+            "why_it_matters": "The increase in child labor violations coincides with legislative efforts to reduce protections for minors in the workforce.",
             "signal": "Risk"
           },
           {
             "headline": "US interest in electric vehicles surges as gas prices jump amid Iran war",
-            "why_it_matters": "Rising gas prices due to the Iran conflict are driving consumer interest in electric vehicles, indicating a potential shift in market dynamics.",
+            "why_it_matters": "Rising fuel prices due to the Iran conflict are driving consumers to seek electric and hybrid vehicles.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Eight US states ask judge to temporarily stop $3.5bn Nexstar and Tegna merger",
-            "why_it_matters": "The merger's potential impact on job losses and consumer costs has prompted legal action from multiple states, highlighting regulatory scrutiny.",
+            "headline": "Shifting tastes, shrinking sales: Napa Valley’s wineries adapt amid ‘shocking’ downturn",
+            "why_it_matters": "The California wine industry is facing significant challenges, prompting innovation among small producers.",
             "signal": "Risk"
           },
           {
-            "headline": "US stock markets dip for fourth straight week over US-Israel war on Iran",
-            "why_it_matters": "Continued market declines reflect investor anxiety over geopolitical tensions and their economic implications, particularly for oil prices.",
+            "headline": "Eight US states ask judge to temporarily stop $3.5bn Nexstar and Tegna merger",
+            "why_it_matters": "Legal challenges to the merger highlight concerns over market concentration and job losses in the media sector.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Iran conflict and its impact on oil prices.",
-            "Watch for updates on the Nexstar and Tegna merger legal proceedings.",
-            "Follow consumer trends in electric vehicle searches as gas prices fluctuate."
+            "Monitor oil price fluctuations due to ongoing geopolitical tensions.",
+            "Watch for updates on the legal proceedings regarding the Nexstar and Tegna merger.",
+            "Observe consumer behavior shifts towards electric vehicles as gas prices rise."
           ],
           "next_1_4_weeks": [
-            "Assess the long-term effects of rising child labor violations on labor markets and regulations.",
-            "Evaluate the economic performance of the Napa Valley wine industry amid ongoing challenges.",
-            "Observe stock market reactions to geopolitical developments and economic indicators."
+            "Expect continued volatility in stock markets as the Iran war progresses.",
+            "Follow developments in child labor legislation and its implications for the workforce.",
+            "Keep an eye on the Napa Valley wine industry's adaptation strategies."
           ],
           "watch_list": [
-            "Iran conflict developments",
-            "Child labor legislation changes",
-            "Electric vehicle market growth",
-            "Nexstar Tegna merger updates",
-            "Napa Valley wine industry performance"
+            "Oil price trends and their impact on inflation.",
+            "Legislative changes regarding child labor protections.",
+            "Market responses to the electric vehicle surge.",
+            "Nexstar and Tegna merger outcomes."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran is fluid and could change rapidly, impacting economic forecasts.",
-          "Child labor violations may not reflect broader national trends due to localized legislative changes.",
-          "Market reactions can be volatile and influenced by external factors beyond current headlines."
+          "The situation in Iran remains fluid and could change rapidly, affecting economic forecasts.",
+          "Child labor violations may not be fully reported, complicating the assessment of the issue."
         ],
         "related_topics": [
           "What are the economic impacts of the Iran war?",
           "How are child labor laws changing in the US?",
-          "What trends are emerging in the electric vehicle market?",
+          "What is driving interest in electric vehicles?",
           "What challenges is the Napa Valley wine industry facing?",
-          "What is the status of the Nexstar Tegna merger?"
+          "What is the status of the Nexstar and Tegna merger?"
         ]
       },
-      "tweet_text": "Brace for impact: the Iran conflict could send shockwaves through the global economy, as US markets falter and...\n\nBusiness Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Amid #Really #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "As tensions rise in the Middle East, the ripple effects could reshape your wallet and the global economy forever.\n\nBusiness Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Amid #Really #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -357,11 +360,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.3332,
+        "score": 0.3721,
         "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.555, dampened ×0.6 → +0.3332). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.620, dampened ×0.6 → +0.3721). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "AI influencer awards season is upon us",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/898781/ai-personality-of-the-year-influencer-contest",
+          "published": "2026-03-22T20:01:00-04:00",
+          "summary": "First came the AI beauty pageant. Then the AI music contests. Now, there is an award for AI Personality of the Year - perhaps the inevitable next step for the AI influencer economy as it transforms from quirky novelty into a serious and lucrative industry. The contest, a joint venture between generative AI studio OpenArt [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Topical Dancer is propulsive, playful, and political",
           "url": "https://www.theverge.com/entertainment/898796/charlotte-adigery-bolis-pupul-topical-dancer-review",
@@ -424,29 +434,23 @@
           "published": "2026-03-21T17:02:56-04:00",
           "summary": "Lux Optics co-founder Sebastiaan de With made headlines when he joined Apple in late January. The company was behind Halide, one of the most popular photography apps for the iPhone, which gained a cult following for its robust pro-level controls. Apple was apparently a big enough fan that it tried to acquire the developer last [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "The AirPods Pro 3 are $50 off right now, nearly matching their best-ever price",
-          "url": "https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal",
-          "published": "2026-03-21T13:00:00-04:00",
-          "summary": "Less than a week ago, Apple announced the forthcoming AirPods Max 2, a pair of over-ear headphones that leverage the company’s H2 chip for AI-powered live translation, conversation awareness, and a host of newer features. However, if you’re okay with a pair of earbuds, the AirPods Pro 3 offer access to all the same features [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Elon Musk announced plans for a new chip plant in Austin, Texas, while AI's role in gaming continues to evolve amid mixed developer conference reactions.",
-        "summary": "Today's technology news highlights Elon Musk's announcement of a Terafab chip plant in Austin, Texas, aimed at producing chips for robotics and AI. Additionally, the gaming industry is seeing a significant focus on AI tools at the GDC Festival, despite a lack of AI integration in actual games. Other notable mentions include a developer's apology for using AI-generated art in a game, and various sales on tech products like Sonos speakers and AirPods Pro 3.",
+        "key_takeaway": "AI continues to influence various sectors, from awards for AI personalities to the integration of AI in gaming and art.",
+        "summary": "Today's technology news highlights the emergence of AI influencer awards, the controversy surrounding AI-generated art in gaming, and Elon Musk's plans for a new chip plant in Texas. Additionally, Amazon's upcoming Big Spring Sale offers early discounts, while the vocoder's historical significance in music is explored. The gaming industry sees a strong presence of AI tools at the GDC Festival, although their application in games remains limited. A lawsuit involving a co-founder of Halide and Apple also draws attention.",
         "key_themes": [
-          "Elon Musk chip plant announcement",
-          "AI in gaming industry",
-          "Crimson Desert AI art controversy",
-          "Amazon Big Spring Sale deals",
-          "Halide co-founder lawsuit against Apple"
+          "AI influencer economy",
+          "AI in gaming",
+          "Elon Musk chip plant",
+          "Amazon Spring Sale",
+          "vocoder history in music",
+          "Halide lawsuit against Apple"
         ],
         "notable_headlines": [
           {
-            "headline": "Musk says he’s building Terafab chip plant in Austin, Texas",
-            "why_it_matters": "This plant aims to address the chip supply issues affecting multiple industries, including robotics and AI.",
+            "headline": "AI influencer awards season is upon us",
+            "why_it_matters": "This marks a significant development in the AI influencer economy, indicating its growth into a serious industry.",
             "signal": "Opportunity"
           },
           {
@@ -455,53 +459,53 @@
             "signal": "Risk"
           },
           {
+            "headline": "Musk says he’s building Terafab chip plant in Austin, Texas",
+            "why_it_matters": "This initiative aims to address chip shortages and enhance production capabilities for AI and robotics.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "AI was everywhere at gaming’s big developer conference — except the games",
-            "why_it_matters": "Despite AI's prominence in discussions, its practical application in gaming remains limited, raising questions about its future role.",
+            "why_it_matters": "The presence of AI tools at GDC reflects the industry's interest in AI, though practical applications in games remain limited.",
             "signal": "Unclear"
           },
           {
-            "headline": "The best deals you can already grab from Amazon’s Big Spring Sale",
-            "why_it_matters": "Early sales provide consumers with opportunities to save on popular tech products ahead of larger events like Prime Day.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The AirPods Pro 3 are $50 off right now, nearly matching their best-ever price",
-            "why_it_matters": "Discounts on popular tech items indicate consumer interest and market competitiveness in the audio device sector.",
-            "signal": "Opportunity"
+            "headline": "Halide co-founder is suing former partner for bringing source code to Apple",
+            "why_it_matters": "This lawsuit raises questions about intellectual property and competition in the tech industry.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further details on Musk's chip plant plans may emerge as the project develops.",
-            "Expect more reactions and analyses regarding AI's role in gaming following the GDC Festival.",
-            "Watch for updates on the Crimson Desert controversy and its impact on the game's reception."
+            "Watch for reactions to the AI influencer awards announcement.",
+            "Monitor discussions around AI art in gaming following the Crimson Desert controversy.",
+            "Expect updates on Musk's Terafab chip plant plans."
           ],
           "next_1_4_weeks": [
-            "Monitor the outcomes of the Amazon Big Spring Sale as it progresses and consumer responses.",
-            "Anticipate potential legal developments in the Halide co-founder lawsuit against Apple.",
-            "Observe trends in AI applications within gaming as developers respond to the GDC discussions."
+            "Observe trends in AI applications at upcoming tech conferences.",
+            "Follow developments in the Halide lawsuit and its implications for tech partnerships.",
+            "Keep an eye on Amazon's Big Spring Sale outcomes."
           ],
           "watch_list": [
-            "Elon Musk's Terafab chip plant developments",
-            "AI integration in gaming",
-            "Consumer electronics sales trends",
-            "Legal implications of tech partnerships and acquisitions"
+            "AI influencer economy developments",
+            "AI in gaming and creative industries",
+            "Elon Musk's chip manufacturing plans",
+            "Legal battles in tech startups"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is based on a limited number of headlines and may not fully represent the broader technology landscape.",
-          "The implications of AI in gaming are still evolving and may change as new technologies emerge."
+          "The sentiment score is a coarse signal and should be interpreted with caution.",
+          "The future outlook is subject to change based on emerging news and developments."
         ],
         "related_topics": [
-          "What are the latest developments in AI and gaming?",
-          "Elon Musk's new chip plant plans",
+          "What are the latest trends in AI influencer marketing?",
           "How is AI impacting the gaming industry?",
-          "Best tech deals from Amazon's Big Spring Sale",
-          "Legal issues in tech partnerships and acquisitions"
+          "What are the implications of AI-generated art in video games?",
+          "What to expect from Amazon's Big Spring Sale?",
+          "What is the history and significance of the vocoder in music?"
         ]
       },
-      "tweet_text": "Get ready to dance through tech! From playful art debates to groundbreaking chip plants—this week...\n\nTechnology Sentiment: Positive (+0.33)\n\nRead the full breakdown: https://tldrnews.info\n\n#Already #Amazons #Apologizes #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "AI influencers are taking over awards season—who will reign supreme in this digital age of fame?\n\nTechnology Sentiment: Positive (+0.37)\n\nRead the full breakdown: https://tldrnews.info\n\n#Already #Amazons #Apologizes #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -512,164 +516,165 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0896,
+        "score": 0.1804,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.149, dampened ×0.6 → -0.0896). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.301, dampened ×0.6 → +0.1804). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Follow live: 5-seed St. John's, 4-seed Kansas dueling for spot in Sweet 16",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48275055/mens-march-madness-live-updates-analysis-ncaa-tournament-second-round-saturday-2026",
-          "published": "Sun, 22 Mar 2026 19:29:39 EST",
-          "summary": "null",
+          "title": "Men's March Madness 2026: Ranking the remaining 16 teams",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48275626/mens-march-madness-2026-ranking-ncaa-tournament-teams-sweet-16",
+          "published": "Mon, 23 Mar 2026 00:43:57 EST",
+          "summary": "Five (!) Big Ten teams! Upset-minded Texas! Buzzer beaters and blowouts! Here's how the Sweet 16 teams stack up.",
           "source": "ESPN"
         },
         {
-          "title": "Women's March Madness live updates: Previews, action from Sunday's second round",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48271632/womens-march-madness-live-tracker-updates-ncaa-tournament-second-round-sunday-2026",
-          "published": "Sun, 22 Mar 2026 17:45:42 EST",
-          "summary": "We're following all the action from eight games throughout Day 3 of the women's NCAA tournament.",
+          "title": "Your guide to men's March Madness Day 4: Recaps, every winner's chance to advance",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48275330/mens-march-madness-scores-recaps-second-round-takeaways-sunday-2026",
+          "published": "Mon, 23 Mar 2026 00:43:57 EST",
+          "summary": "The Sweet 16 is set. Here's how Iowa, St. John's and more teams advanced -- and their chances of doing it again.",
           "source": "ESPN"
         },
         {
-          "title": "Women's March Madness Day 3 takeaways: How every team won",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48274416/womens-march-madness-ncaa-tournament-takeaways-day-3-sunday-scores-analysis-recap",
-          "published": "Sun, 22 Mar 2026 17:45:42 EST",
-          "summary": "We're breaking down all of Sunday's action and sharing how each winner can advance to the Elite Eight.",
+          "title": "Iowa takes down defending champ UF in thriller",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48283943/iowa-takes-no-1-florida-ncaa-tournament-thriller",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
+          "summary": "Alvaro Folgueiras nailed a 3-pointer with 4.5 seconds remaining, and Iowa eliminated defending national champion Florida in the second round of the men's NCAA tournament.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Darling calls own shot to keep St. John's dancing",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48282941/darling-layup-seals-st-john-tournament-win-kansas",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
+          "summary": "Dylan Darling's layup as time expired sent St. John's to its first Sweet 16 since 1999 with a 67-65 win over Kansas in the men's NCAA tournament.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Kentucky out with its worst tourney loss since '72",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48282395/kentucky-suffer-historic-19-point-loss-iowa-state",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
+          "summary": "The Wildcats' 19-point loss in an 82-63 defeat against Iowa State was Kentucky's largest in an NCAA tournament game since 1972.",
+          "source": "ESPN"
+        },
+        {
+          "title": "TCU outlasts UW in OT, heads back to Sweet 16",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48284957/olivia-miles-tcu-top-washington-ot-ncaa-tournament",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
+          "summary": "Olivia Miles had a double-double with 18 points and 10 rebounds, and TCU finally overcame Washington for a 62-59 overtime victory Sunday night that sent the Horned Frogs to the Sweet 16 of the women's NCAA tournament for the second year in a row.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Booker dominates Oregon with 40 in Texas win",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48283210/madison-booker-dominates-oregon-40-no-1-texas-rolls-on",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
+          "summary": "Madison Booker scored a career-high 40 points in a dazzling display of shotmaking and No. 1 Texas rolled past No. 8 Oregon 100-58.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Kansas' Self: No decision yet on coaching future",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48283793/bill-self-says-coaching-future-kansas-determined",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
+          "summary": "Longtime Kansas coach Bill Self said after Sunday's season-ending loss to St. John's that he has not yet made a decision about his coaching future, later adding that any decision will be based solely on his health.",
           "source": "ESPN"
         },
         {
           "title": "Luka avoids suspension after 16th tech rescinded",
           "url": "https://www.espn.com/nba/story/_/id/48281598/luka-doncic-avoids-suspension-16th-tech-rescinded",
-          "published": "Sun, 22 Mar 2026 19:15:24 EST",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
           "summary": "The NBA has rescinded Luka Doncic's 16th technical foul, allowing him to play in the Los Angeles Lakers' road game against the Detroit Pistons on Monday night.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Wrong 'answer' as Kentucky hit with historic loss",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48282395/kentucky-suffer-historic-19-point-loss-iowa-state",
-          "published": "Sun, 22 Mar 2026 19:15:24 EST",
-          "summary": "On Sunday, there was one stat that couldn't be easily dismissed -- the margin of defeat. The Wildcats' 19-point loss in an 82-63 defeat against Iowa State was Kentucky's largest defeat in an NCAA tournament game since 1972.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: Cuse turns to ex-star McNamara as HC",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48278903/sources-syracuse-hire-gerry-mcnamara-basketball-coach",
-          "published": "Sun, 22 Mar 2026 19:15:23 EST",
-          "summary": "Syracuse is working toward hiring Siena's Gerry McNamara as its next head coach, sources told ESPN.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Ovechkin scores 1,000th career goal in Caps' loss",
-          "url": "https://www.espn.com/nhl/story/_/id/48280591/ovechkin-joins-gretzky-only-players-score-1000-goals",
-          "published": "Sun, 22 Mar 2026 19:15:23 EST",
-          "summary": "Alex Ovechkin scored his 1,000th NHL goal combining the regular season and playoffs, but the league-leading Avalanche beat the Capitals 3-2 in overtime Sunday.",
           "source": "ESPN"
         },
         {
           "title": "Hockey world mourns loss of Wild reporter Pierce",
           "url": "https://www.espn.com/nhl/story/_/id/48282269/nhl-reporter-jessi-pierce-3-children-die-house-fire",
-          "published": "Sun, 22 Mar 2026 19:15:23 EST",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
           "summary": "Jessi Pierce, who covered the Wild as the correspondent for NHL.com for the past decade. and her three children were killed Saturday in a house fire in Minnesota.",
           "source": "ESPN"
         },
         {
-          "title": "Miami won't rest Messi in 'final stretch' to WC",
-          "url": "https://www.espn.com/soccer/story/_/id/48281791/inter-miami-rest-lionel-messi-final-stretch-wc",
-          "published": "Sun, 22 Mar 2026 19:15:24 EST",
-          "summary": "Inter Miami CF head coach Javier Mascherano does not anticipate resting captain Lionel Messi in the final stretch of games ahead of the 2026 World Cup, emphasizing the Argentine must play for the team to reach success.",
+          "title": "😈 Haliburton trolls Kentucky alums after ISU win",
+          "url": "https://www.espn.com/nba/story/_/id/48282972/tyrese-haliburton-kentucky-iowa-state-troll",
+          "published": "Mon, 23 Mar 2026 00:51:57 EST",
+          "summary": "John Calipari, who most of Kentucky's active NBA contingent played for in Lexington, coaches Arkansas these days.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: OKC star Williams to return vs. 76ers",
-          "url": "https://www.espn.com/nba/story/_/id/48281282/sources-thunder-star-jalen-williams-return-vs-76ers",
-          "published": "Sun, 22 Mar 2026 19:15:24 EST",
-          "summary": "Thunder star Jalen Williams will return from a nagging hamstring injury for Monday's road game against the 76ers, sources told ESPN.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Women's junior flyweight boxer in coma after KO",
-          "url": "https://www.espn.com/boxing/story/_/id/48281039/women-junior-flyweight-boxer-isis-sio-coma-knockout",
-          "published": "Sun, 22 Mar 2026 19:15:24 EST",
-          "summary": "Women's junior flyweight boxer Isis Sio, 19, has been placed in a medically induced coma after suffering a knockout during a bout on ProBoxTV's card.",
-          "source": "ESPN"
-        },
-        {
-          "title": "👀 Soccer star Jorginho upset with Chappell Roan",
-          "url": "https://www.espn.com/soccer/story/_/id/48278760/jorginho-slams-singer-chappell-roan-upsetting-situation",
-          "published": "Sun, 22 Mar 2026 19:15:24 EST",
-          "summary": "Pop singer Chappell Roan has said she \"does not hate children\" in response to former Chelsea and Arsenal player Jorginho's criticism.",
+          "title": "Women's March Madness Day 3 takeaways: How half the Sweet 16 was set",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48274416/womens-march-madness-ncaa-tournament-takeaways-day-3-sunday-scores-analysis-recap",
+          "published": "Mon, 23 Mar 2026 00:49:28 EST",
+          "summary": "All the better seeds won Sunday as half the Sweet 16 was set. We broke down how each winner can keep advancing.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "St. John's and Kansas compete for a Sweet 16 spot as March Madness progresses, while Luka Doncic avoids suspension and Alex Ovechkin scores his 1,000th goal.",
-        "summary": "Today's sports headlines highlight key moments in March Madness, including St. John's and Kansas vying for advancement, as well as Luka Doncic's suspension reprieve and Alex Ovechkin's milestone goal. Additionally, the sports community mourns the loss of reporter Jessi Pierce and a junior boxer remains in critical condition after a knockout.",
+        "key_takeaway": "The NCAA tournament progresses with significant upsets and standout performances as teams advance to the Sweet 16 in both men's and women's competitions.",
+        "summary": "The NCAA tournament is heating up as the Sweet 16 is set for both men's and women's basketball, featuring major upsets and impressive individual performances. Iowa eliminated defending champion Florida, while St. John's advanced for the first time since 1999. In women's action, TCU and Texas showcased dominant performances. Off the court, the sports community mourns the loss of NHL reporter Jessi Pierce and her children in a tragic fire.",
         "key_themes": [
-          "March Madness updates",
-          "NBA player news",
-          "NHL milestones",
-          "boxing health concerns"
+          "March Madness 2026 updates",
+          "NCAA tournament Sweet 16 analysis",
+          "Iowa upsets defending champion Florida",
+          "St. John's historic advancement",
+          "TCU and Texas women's basketball highlights"
         ],
         "notable_headlines": [
           {
-            "headline": "Follow live: 5-seed St. John's, 4-seed Kansas dueling for spot in Sweet 16",
-            "why_it_matters": "This matchup is crucial for both teams as they aim to advance in the NCAA tournament.",
+            "headline": "Men's March Madness 2026: Ranking the remaining 16 teams",
+            "why_it_matters": "Highlights the competitive landscape of the NCAA tournament as teams vie for the championship.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Iowa takes down defending champ UF in thriller",
+            "why_it_matters": "Iowa's upset of Florida marks a significant moment in the tournament, showcasing their potential.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Luka avoids suspension after 16th tech rescinded",
-            "why_it_matters": "Luka Doncic's availability is vital for the Mavericks as they face the Lakers.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Ovechkin scores 1,000th career goal in Caps' loss",
-            "why_it_matters": "Ovechkin's milestone highlights his legendary career despite the team's defeat.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Women's junior flyweight boxer in coma after KO",
-            "why_it_matters": "The incident raises concerns about safety in boxing and the health of athletes.",
+            "headline": "Kentucky out with its worst tourney loss since '72",
+            "why_it_matters": "Kentucky's historic loss raises questions about the team's future and performance in the tournament.",
             "signal": "Risk"
           },
           {
+            "headline": "TCU outlasts UW in OT, heads back to Sweet 16",
+            "why_it_matters": "TCU's victory demonstrates resilience and skill, securing their place in the next round.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Hockey world mourns loss of Wild reporter Pierce",
-            "why_it_matters": "The sports community is affected by the tragic loss of a respected journalist.",
+            "why_it_matters": "The tragic loss of a respected reporter impacts the sports community, highlighting the human side of sports.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "March Madness continues with more games scheduled for the Sweet 16.",
-            "NBA teams prepare for critical matchups as playoffs approach.",
-            "Updates on the health status of boxer Isis Sio are expected."
+            "Upcoming Sweet 16 matchups in men's and women's tournaments",
+            "Analysis of potential upsets in the next round",
+            "Updates on coaching decisions following tournament exits"
           ],
           "next_1_4_weeks": [
-            "The NCAA tournament will progress towards the Final Four.",
-            "NBA playoff positioning will become clearer as the regular season concludes.",
-            "Further developments in the investigation surrounding the tragic incident involving Jessi Pierce may arise."
+            "Continued coverage of NCAA tournament progress",
+            "Potential player transfers and coaching changes",
+            "Impact of tournament results on future seasons"
           ],
           "watch_list": [
-            "Upcoming March Madness games and potential upsets.",
-            "NBA playoff race and player injuries to monitor.",
-            "Health updates on Isis Sio and implications for boxing.",
-            "Reactions to Ovechkin's milestone and its impact on his legacy."
+            "Key players to watch in the Sweet 16",
+            "Coaching decisions affecting team dynamics",
+            "Upcoming matchups and predictions for the next rounds of March Madness.",
+            "Community reactions to the loss of Jessi Pierce"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score reflects mixed feelings in the sports community today.",
-          "Details on some events are still developing, particularly regarding health and safety."
+          "The sentiment score reflects a mixed tone, indicating both positive and negative developments in sports today.",
+          "Future outcomes in the tournament are uncertain and depend on team performances. "
         ],
         "related_topics": [
-          "What are the latest updates in March Madness?",
-          "NBA player news and injury updates",
-          "NHL milestones and player achievements",
-          "Boxing health and safety concerns",
-          "Latest sports community reactions to tragedies"
+          "What are the latest March Madness updates?",
+          "How did Iowa upset Florida in the NCAA tournament?",
+          "What are the Sweet 16 matchups for men's and women's basketball?",
+          "Who are the standout players in March Madness 2026?",
+          "What is the impact of Jessi Pierce's passing on the sports community?"
         ]
       },
-      "tweet_text": "March Madness is heating up—who will seize the spotlight in the epic clash of St. John's and Kansas?\n\nSports Sentiment: Mixed (-0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Loss #Live #Madness #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "March Madness just got wild: Iowa shocks the champs, Kentucky crumbles, and a Cinderella story unfolds!\n\nSports Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Madness #March #Mens #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -680,9 +685,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.2099,
+        "score": 0.2345,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.350, dampened ×0.6 → +0.2099). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.391, dampened ×0.6 → +0.2345). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -693,10 +698,31 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "This floating time crystal breaks Newton’s third law of motion",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260322020258.htm",
+          "published": "Sun, 22 Mar 2026 21:54:16 EDT",
+          "summary": "Scientists have created a new kind of time crystal using sound waves to levitate tiny beads in mid-air. These particles interact in a one-sided, unbalanced way, breaking the usual rules of motion and creating a steady, repeating rhythm. The system is surprisingly simple yet reveals complex physics with big implications. It could help advance quantum computing and deepen our understanding of biological timing systems.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Webb Telescope spots “impossible” atmosphere on ancient super Earth",
           "url": "https://www.sciencedaily.com/releases/2026/03/260322020255.htm",
           "published": "Sun, 22 Mar 2026 04:19:46 EDT",
           "summary": "Astronomers have uncovered surprising evidence of a thick atmosphere surrounding TOI-561 b, a scorching, fast-orbiting rocky planet once thought too extreme to hold onto any gas. Using NASA’s James Webb Space Telescope, researchers found the planet is far cooler than expected for a bare rock, hinting at a heat-distributing atmosphere above a churning magma ocean. This strange world—where a year lasts just over 10 hours and one side is locked in eternal daylight—may even be rich in volatile mater",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists twisted a mysterious superconductor and got a shocking result",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260322020252.htm",
+          "published": "Sun, 22 Mar 2026 22:42:09 EDT",
+          "summary": "A decades-old superconducting mystery just took a surprising turn. Strontium ruthenate, a material that conducts electricity with zero resistance at low temperatures, has long puzzled scientists with hints of an exotic, complex superconducting state. But by carefully twisting and distorting ultra-thin crystals, researchers found something unexpected: the material barely reacted at all. This challenges years of assumptions and suggests its behavior may be far simpler—or far stranger—than previous",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "World’s first quantum battery could enable ultra fast charging",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+          "published": "Sun, 22 Mar 2026 23:14:57 EDT",
+          "summary": "Scientists in Australia have demonstrated a prototype quantum battery that could revolutionize energy storage. By harnessing quantum effects, it can absorb energy in a rapid “super absorption” event, enabling much faster charging than conventional batteries. Even more surprisingly, the system becomes more efficient as it scales up. The research opens the door to ultra-fast, next-generation energy technologies.",
           "source": "ScienceDaily"
         },
         {
@@ -747,99 +773,77 @@
           "published": "Sat, 21 Mar 2026 01:26:48 EDT",
           "summary": "In an incredibly lucky cosmic accident, NASA’s Hubble Space Telescope captured a comet breaking apart in real time—something astronomers have long tried and failed to observe. The comet, C/2025 K1 (ATLAS), wasn’t even the original target, but when researchers pivoted to it, they unknowingly caught it mid-disintegration into multiple pieces.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Ancient DNA reveals a farming shift that pushed a society to the brink",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260321012642.htm",
-          "published": "Sat, 21 Mar 2026 23:21:09 EDT",
-          "summary": "A new study reveals that farming in Argentina’s Uspallata Valley was adopted by local hunter-gatherers rather than introduced by outside populations. Centuries later, a stressed group of maize-heavy farmers migrated into the region, facing climate instability, disease, and declining numbers. Despite these pressures, there’s no sign of violence—instead, families stayed connected across generations, using kinship networks to survive. The research shows how cooperation, not conflict, helped communi",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A massive freshwater reservoir is hiding under the Great Salt Lake",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260321012640.htm",
-          "published": "Sat, 21 Mar 2026 21:20:18 EDT",
-          "summary": "A hidden freshwater system deep beneath the Great Salt Lake has been revealed using airborne electromagnetic surveys. Scientists found that freshwater extends much farther under the lake than expected, reaching depths of up to 4 kilometers. The discovery began with mysterious reed-covered mounds formed by pressurized groundwater pushing upward. Researchers are now investigating whether this underground water could help control hazardous dust from the drying lakebed.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Hidden antibiotics in river fish spark new food safety fears",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260321012638.htm",
-          "published": "Sat, 21 Mar 2026 20:48:07 EDT",
-          "summary": "Antibiotics are accumulating in a major Brazilian river, especially during the dry season when pollution becomes more concentrated. Scientists even detected a banned drug inside fish sold for food, raising concerns about human exposure. A common aquatic plant showed promise in removing these chemicals from water—but it also altered how fish absorb them, creating unexpected risks.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include the oldest known cave art, surprising findings about exoplanet atmospheres, and new insights into mosquito behavior and cancer spread.",
-        "summary": "Today's science headlines highlight groundbreaking discoveries, including the oldest cave art, unexpected atmospheric conditions on an exoplanet, and new understandings of mosquito attraction and cancer metastasis. Additionally, research reveals the role of beavers in carbon storage, friction without contact, and hidden freshwater reservoirs under the Great Salt Lake, alongside concerns about antibiotics in river fish.",
+        "key_takeaway": "Recent scientific discoveries include the oldest known cave art, a new type of time crystal, and advancements in quantum batteries and cancer prediction.",
+        "summary": "Today's science headlines highlight groundbreaking discoveries, including the oldest cave art, a floating time crystal that defies Newton's laws, and a prototype quantum battery that could revolutionize energy storage. Additionally, researchers have made significant strides in understanding mosquito behavior, the role of beavers in carbon storage, and the predictive capabilities of AI in cancer spread. Other notable findings include the discovery of friction without contact and the identification of a prehistoric crocodile-like reptile.",
         "key_themes": [
           "ancient cave art discoveries",
-          "exoplanet atmosphere research",
-          "mosquito behavior insights",
-          "beavers and climate change",
-          "cancer metastasis prediction",
-          "hidden freshwater reservoirs"
+          "quantum technology advancements",
+          "mosquito behavior research",
+          "climate change and carbon sinks",
+          "AI in cancer prediction"
         ],
         "notable_headlines": [
           {
             "headline": "This 67,800-year-old handprint is the oldest art ever found",
-            "why_it_matters": "This discovery provides insight into early human symbolic thinking and migration patterns.",
+            "why_it_matters": "This discovery provides insight into early human symbolic thinking and supports theories about human migration to Australia.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "This floating time crystal breaks Newton’s third law of motion",
+            "why_it_matters": "The creation of this time crystal could advance quantum computing and deepen our understanding of physical laws.",
             "signal": "Opportunity"
           },
           {
             "headline": "Webb Telescope spots “impossible” atmosphere on ancient super Earth",
-            "why_it_matters": "Reveals new understanding of planetary atmospheres and conditions for life.",
-            "signal": "Opportunity"
+            "why_it_matters": "The findings challenge previous assumptions about extreme environments and could reshape our understanding of planetary atmospheres.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Why mosquitoes always find you and how they decide to attack",
-            "why_it_matters": "Understanding mosquito behavior can lead to better prevention strategies for diseases.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Beavers are turning rivers into powerful carbon sinks",
-            "why_it_matters": "Highlights the ecological importance of beavers in climate change mitigation.",
+            "headline": "World’s first quantum battery could enable ultra fast charging",
+            "why_it_matters": "This prototype could revolutionize energy storage and charging technology, making it more efficient as it scales up.",
             "signal": "Opportunity"
           },
           {
             "headline": "New AI tool predicts cancer spread with surprising accuracy",
-            "why_it_matters": "Could revolutionize cancer treatment by identifying patients needing aggressive care.",
+            "why_it_matters": "This tool could significantly improve treatment decisions for cancer patients by predicting metastasis risk.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Further analysis of the implications of the oldest cave art discovery is expected.",
-            "More studies on the atmospheric conditions of TOI-561 b may be released.",
-            "Research on mosquito behavior may lead to new pest control methods."
+            "Research on the floating time crystal may lead to new insights in quantum physics.",
+            "Updates on the Webb Telescope's findings regarding TOI-561 b may emerge."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the role of beavers in carbon sequestration in climate policy.",
-            "Updates on the effectiveness of the new AI cancer prediction tool in clinical settings.",
-            "Continued investigation into the freshwater reservoir under the Great Salt Lake."
+            "Anticipated discussions on the environmental impact of beavers as carbon sinks will likely continue.",
+            "Further developments in quantum battery technology are expected as researchers refine prototypes.",
+            "New studies on mosquito behavior may lead to innovative pest control strategies."
           ],
           "watch_list": [
-            "Developments in ancient DNA research related to agriculture and societal changes.",
-            "New findings on antibiotic pollution in aquatic ecosystems.",
-            "Progress in understanding the implications of friction without contact in physics.",
-            "Future studies on the ecological impact of beavers."
+            "Monitoring advancements in quantum computing technologies.",
+            "Following the implications of AI in medical diagnostics and treatment.",
+            "Keeping an eye on climate change research related to wildlife and ecosystems.",
+            "Updates on the Webb Telescope's ongoing observations."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates a range of reactions to the findings, suggesting some may be viewed with skepticism or concern.",
-          "Further research is needed to confirm the long-term implications of these discoveries."
+          "The significance of some findings may take time to fully understand and validate.",
+          "Future research is needed to confirm the practical applications of new technologies."
         ],
         "related_topics": [
           "What are the latest discoveries in ancient art?",
-          "How do mosquitoes choose their targets?",
-          "What is the significance of beavers in climate change?",
-          "How does AI predict cancer spread?",
-          "What hidden resources are found under the Great Salt Lake?"
+          "How does quantum technology impact energy storage?",
+          "What new insights have been gained about mosquito behavior?",
+          "How can AI improve cancer treatment predictions?",
+          "What role do beavers play in climate change mitigation?"
         ]
       },
-      "tweet_text": "Uncover the secrets of ancient art, impossible atmospheres, and prehistoric predators in today’s...\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Found #300yearold #48dimensional #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Discover the ancient handprint that redefines art history and the floating time crystal that...\n\nScience Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#300yearold #67800yearold #Always #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
