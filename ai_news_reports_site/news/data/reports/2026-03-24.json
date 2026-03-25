@@ -1,13 +1,12 @@
 {
   "date": "2026-03-24",
-  "generated_at_utc": "2026-03-24T23:41:07Z",
+  "generated_at_utc": "2026-03-25T04:50:24Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "deal",
     "iran",
-    "finds",
-    "ever",
-    "deal"
+    "ever"
   ],
   "categories": {
     "world": {
@@ -19,16 +18,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1617,
+        "score": -0.1667,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.270, dampened ×0.6 → -0.1617). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.278, dampened ×0.6 → -0.1667). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Oil at $150 will trigger global recession, says boss of financial giant BlackRock",
+          "url": "https://www.bbc.com/news/articles/c9wqrdkx8ppo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 25 Mar 2026 00:00:20 GMT",
+          "summary": "Larry Fink says if oil prices stay high for a sustained period it will have \"profound implications\" for the world economy.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Tough negotiations loom as Denmark's Social Democrats fail to secure a majority",
+          "url": "https://www.bbc.com/news/articles/c74v5qynl9vo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 25 Mar 2026 03:40:53 GMT",
+          "summary": "The party, which has governed since 2019, gained the most votes but saw its weakest results in over a century.",
+          "source": "BBC News"
+        },
         {
           "title": "Iran war shows norms of international conflicts have been overturned",
           "url": "https://www.bbc.com/news/articles/c4gjv02g54ko?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 24 Mar 2026 15:55:08 GMT",
           "summary": "US threats against energy infrastructure, and Iran's retaliation on its Gulf neighbours, signal a clear change.",
+          "source": "BBC News"
+        },
+        {
+          "title": "OpenAI ends Disney partnership as it closes Sora video-making app",
+          "url": "https://www.bbc.com/news/articles/c3w3e467ewqo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 25 Mar 2026 04:48:56 GMT",
+          "summary": "The move comes less two years after the launch of the AI video app sent shockwaves through the media industry.",
           "source": "BBC News"
         },
         {
@@ -39,17 +59,17 @@
           "source": "BBC News"
         },
         {
+          "title": "Democrats flip Florida  seat that includes Trump's Mar-a-Lago home",
+          "url": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 25 Mar 2026 03:36:08 GMT",
+          "summary": "Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.",
+          "source": "BBC News"
+        },
+        {
           "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
           "url": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 24 Mar 2026 21:47:10 GMT",
           "summary": "Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Australia and EU agree sweeping trade deal in face of global uncertainty",
-          "url": "https://www.bbc.com/news/articles/cly6g6l6lq7o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 24 Mar 2026 12:14:15 GMT",
-          "summary": "Australia and the EU sign sweeping trade and security deals after years of negotiations.",
           "source": "BBC News"
         },
         {
@@ -60,6 +80,20 @@
           "source": "BBC News"
         },
         {
+          "title": "BTS comeback concert on Netflix draws 18.4m global viewers",
+          "url": "https://www.bbc.com/news/articles/cy513rvg91ro?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 25 Mar 2026 02:55:12 GMT",
+          "summary": "The livestreamed show saw the band perform together for the first time since October 2022.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Australia and EU agree sweeping trade deal in face of global uncertainty",
+          "url": "https://www.bbc.com/news/articles/cly6g6l6lq7o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 24 Mar 2026 12:14:15 GMT",
+          "summary": "Australia and the EU sign sweeping trade and security deals after years of negotiations.",
+          "source": "BBC News"
+        },
+        {
           "title": "'Truly magical woman': Tributes to Married at First Sight's Mel Schilling",
           "url": "https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 24 Mar 2026 17:59:25 GMT",
@@ -67,117 +101,83 @@
           "source": "BBC News"
         },
         {
-          "title": "Journalists at Australia's national broadcaster to strike over pay and possible use of AI",
+          "title": "Journalists at Australia's national broadcaster strike for first time in 20 years",
           "url": "https://www.bbc.com/news/articles/c208ngv1mz7o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 24 Mar 2026 23:21:55 GMT",
-          "summary": "Staff at the Australian Broadcasting Corporation will strike for the first time in 20 years.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Israel says it will take control of large buffer zone in southern Lebanon",
-          "url": "https://www.bbc.com/news/articles/cy91j9qwp4do?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 24 Mar 2026 16:58:08 GMT",
-          "summary": "Thousands of displaced Lebanese residents will not be allowed to return home until northern Israel is safe, Israel's defence minister says.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Decline in migratory fish populations prompts fight for protection",
-          "url": "https://www.bbc.com/news/articles/cr4105d93d3o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 24 Mar 2026 12:00:30 GMT",
-          "summary": "The UN assessment of the state of migratory freshwater fish revealed an 81% decline in the last 50 years.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Danes vote as PM Mette Frederiksen seeks third term after Greenland boost",
-          "url": "https://www.bbc.com/news/articles/cvgk02j4l4ko?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 24 Mar 2026 12:26:42 GMT",
-          "summary": "Frederiksen enjoyed a surge in popularity for standing up to the US over Greenland but her support is down on 2022.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Death toll from Colombian military plane crash rises to 69 as search ends",
-          "url": "https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 24 Mar 2026 21:30:53 GMT",
-          "summary": "The Hercules military transport plane crashed minutes after take-off near Colombia's southern border with Peru.",
-          "source": "BBC News"
-        },
-        {
-          "title": "China dials back on fuel price hikes to 'reduce burden' on drivers",
-          "url": "https://www.bbc.com/news/articles/cwyvxejqyx4o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 24 Mar 2026 05:56:42 GMT",
-          "summary": "It comes as countries across the region are taking various measures to weather the soaring cost of fuel.",
+          "published": "Wed, 25 Mar 2026 03:07:54 GMT",
+          "summary": "Staff have walked out for 24 hours over a pay rise offer that was below inflation.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The Iran war is reshaping international conflict norms, while global events like trade deals and military incidents continue to impact various regions.",
-        "summary": "Today's headlines reflect significant global developments, including the ongoing Iran war's impact on international norms, a major drone attack in Ukraine, and a new trade agreement between Australia and the EU. Additionally, tragic incidents such as plane crashes in Colombia and New York highlight ongoing risks in aviation, while rising fuel prices in Asia and China’s response to them indicate economic pressures affecting daily life.",
+        "key_takeaway": "High oil prices could lead to a global recession, while geopolitical tensions and local political shifts are impacting various regions.",
+        "summary": "Today's news highlights significant global concerns, including the potential economic impact of rising oil prices, political instability in Denmark, and escalating tensions in the Iran conflict affecting Asia. Additionally, there are notable developments in trade agreements and cultural events.",
         "key_themes": [
-          "Iran war impact on global norms",
-          "Ukraine drone attacks",
+          "global economic outlook",
+          "Denmark political situation",
+          "Iran conflict implications",
           "Australia EU trade agreement",
-          "aviation safety incidents",
-          "fuel price crisis in Asia"
+          "impact of oil prices on economy"
         ],
         "notable_headlines": [
           {
-            "headline": "Iran war shows norms of international conflicts have been overturned",
-            "why_it_matters": "The conflict is changing how nations interact and respond to threats, particularly regarding energy infrastructure.",
+            "headline": "Oil at $150 will trigger global recession, says boss of financial giant BlackRock",
+            "why_it_matters": "Larry Fink warns that sustained high oil prices could have severe economic consequences globally.",
             "signal": "Risk"
           },
           {
-            "headline": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
-            "why_it_matters": "This escalation in military aggression raises concerns about civilian safety and the ongoing conflict's intensity.",
+            "headline": "Tough negotiations loom as Denmark's Social Democrats fail to secure a majority",
+            "why_it_matters": "The party's weak performance may lead to instability and challenges in governance.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Iran war shows norms of international conflicts have been overturned",
+            "why_it_matters": "The changing dynamics of international conflict could reshape future geopolitical strategies.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Everyday life in Asia is being upended by Iran war fuel crisis",
+            "why_it_matters": "Rising oil prices are starting to significantly impact daily life and economies in Asia.",
             "signal": "Risk"
           },
           {
             "headline": "Australia and EU agree sweeping trade deal in face of global uncertainty",
-            "why_it_matters": "This agreement could strengthen economic ties and provide stability amid global market fluctuations.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Death toll from Colombian military plane crash rises to 69 as search ends",
-            "why_it_matters": "The incident highlights ongoing safety issues in military aviation and the human cost of such tragedies.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "China dials back on fuel price hikes to 'reduce burden' on drivers",
-            "why_it_matters": "This move reflects efforts to mitigate economic pressures on consumers amid rising fuel costs.",
+            "why_it_matters": "This agreement may strengthen economic ties amid ongoing global challenges.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Iran conflict and its implications for international relations.",
-            "Watch for updates on the aftermath of the drone attacks in Ukraine and potential responses from Ukraine and its allies.",
-            "Follow the impact of the Australia-EU trade deal on global markets."
+            "Monitor oil price trends and their economic implications",
+            "Watch for developments in Denmark's political negotiations",
+            "Observe the impact of the Iran conflict on global oil supply"
           ],
           "next_1_4_weeks": [
-            "Assess the long-term effects of the Iran war on global energy markets and international diplomacy.",
-            "Evaluate the effectiveness of new policies in China aimed at stabilizing fuel prices and their impact on the economy.",
-            "Observe the political landscape in Denmark following the elections and PM Frederiksen's performance."
+            "Assess the long-term effects of the Australia-EU trade deal",
+            "Evaluate the political landscape in Denmark post-elections",
+            "Follow the humanitarian situation in Ukraine amid ongoing attacks"
           ],
           "watch_list": [
-            "Ongoing military actions in Ukraine and their humanitarian impact.",
-            "International reactions to the Iran war and shifts in global alliances.",
-            "Economic indicators related to the Australia-EU trade deal.",
-            "Safety regulations and investigations following recent aviation incidents."
+            "Oil price fluctuations",
+            "Denmark's political developments",
+            "Iran conflict updates",
+            "Asia's economic response to fuel crisis",
+            "Australia-EU trade relations"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran and Ukraine is fluid and may change rapidly, affecting the analysis.",
-          "Economic impacts of trade deals can take time to materialize and may vary by sector."
+          "The geopolitical landscape is highly fluid and subject to rapid change.",
+          "Economic predictions regarding oil prices are inherently uncertain."
         ],
         "related_topics": [
-          "What are the implications of the Iran war on global norms?",
-          "Latest updates on the Ukraine conflict and drone attacks.",
-          "Details about the Australia-EU trade agreement.",
-          "Impact of fuel price changes in Asia and China.",
-          "Recent aviation safety incidents and their consequences."
+          "What are the implications of high oil prices on the global economy?",
+          "How is Denmark's political situation evolving?",
+          "What are the latest developments in the Iran conflict?",
+          "What trade agreements have been made between Australia and the EU?",
+          "How is Asia coping with the fuel crisis?"
         ]
       },
-      "tweet_text": "Global tensions escalate as the Iran war reshapes conflict norms, while tragedy strikes at LaGuardia and drones rain down...\n\nWorld Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #24hour #Agree #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "BlackRock warns $150 oil could spell global recession—are we on the brink of economic chaos?\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Democrats #Iran #24hour #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -279,77 +279,80 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "TSA workers face uncertainty amid a government shutdown, while Delta Airlines suspends perks for Congress as airport security issues persist.",
-        "summary": "Today's business news highlights the struggles of TSA workers during a government shutdown, Delta Airlines' suspension of special services for Congress, and the impact of the Iran war on global energy and agriculture. Additionally, prediction markets are facing new regulations, and a study suggests corporate jargon may hinder employee performance.",
+        "key_takeaway": "TSA workers face uncertainty amid a government shutdown, while Delta Airlines suspends special services for Congress members as funding battles continue.",
+        "summary": "Today's business news highlights the struggles of TSA workers amid a potential government shutdown, Delta Airlines' suspension of special services for Congress members, and the impact of the Iran war on global energy and fertilizer prices. Additionally, prediction markets are facing increased scrutiny from lawmakers, and a study suggests that employees who buy into corporate jargon may perform worse at their jobs.",
         "key_themes": [
-          "TSA shutdown impact on workers",
+          "TSA funding and government shutdown",
           "Delta Airlines Congress service suspension",
-          "regulation of prediction markets",
-          "effects of Iran war on energy prices",
-          "corporate jargon and employee performance"
+          "impact of Iran war on energy prices",
+          "prediction markets regulation",
+          "effects of corporate jargon on employee performance"
         ],
         "notable_headlines": [
           {
             "headline": "TSA workers try to survive second shutdown and ICE influx: ‘We need to be paid’",
-            "why_it_matters": "TSA workers are caught in a political standoff, affecting their livelihoods and airport operations.",
+            "why_it_matters": "TSA workers are caught in political negotiations affecting their pay and job security during a potential government shutdown.",
             "signal": "Risk"
           },
           {
             "headline": "Delta suspends special service perk for Congress members amid DHS funding battle",
-            "why_it_matters": "The suspension reflects ongoing tensions in Congress over TSA funding, impacting airport efficiency.",
+            "why_it_matters": "Delta's decision reflects the ongoing tensions in Congress over TSA funding, impacting both airline operations and congressional relations.",
             "signal": "Risk"
           },
           {
             "headline": "Kalshi and Polymarket ban insider trading as senators look to curb prediction markets",
-            "why_it_matters": "New regulations could reshape the prediction market landscape, affecting investors and companies involved.",
+            "why_it_matters": "New regulations in prediction markets may reshape the industry as lawmakers seek to impose stricter controls.",
             "signal": "Unclear"
           },
           {
             "headline": "Stock markets swing and oil prices fall after Trump postpones strikes on Iran power plants",
-            "why_it_matters": "Market reactions indicate investor sensitivity to geopolitical tensions and their economic implications.",
+            "why_it_matters": "Market reactions indicate investor sensitivity to geopolitical tensions and their potential economic impacts.",
             "signal": "Opportunity"
           },
           {
             "headline": "Iran war energy crisis equal to 70s twin oil shocks and fallout from Ukraine war, says IEA chief",
-            "why_it_matters": "The IEA's warning highlights the potential for significant disruptions in global energy markets.",
+            "why_it_matters": "The IEA's assessment highlights the severe implications of the Iran conflict on global energy markets, reminiscent of past crises.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Workers who fall for ‘corporate bullshit’ may be worse at their jobs, study finds",
+            "why_it_matters": "This study raises concerns about workplace communication and its effects on employee decision-making and performance.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in TSA funding negotiations and their impact on airport operations.",
-            "Watch for further updates on Delta Airlines' service changes and their implications for Congress.",
-            "Keep an eye on stock market reactions to geopolitical developments, particularly regarding Iran."
+            "Monitor developments in TSA funding negotiations and potential impacts on airport operations.",
+            "Watch for further reactions from airlines regarding government funding issues.",
+            "Observe market responses to geopolitical developments in Iran."
           ],
           "next_1_4_weeks": [
-            "Expect potential regulatory changes in prediction markets as Senate discussions progress.",
-            "Observe trends in energy prices as the situation in Iran evolves and its impact on global supply chains.",
-            "Follow the ongoing effects of rising fertilizer costs on US agriculture due to geopolitical tensions."
+            "Expect ongoing discussions in Congress regarding prediction market regulations and their implications for the industry.",
+            "Anticipate potential shifts in energy prices as the situation in Iran evolves.",
+            "Keep an eye on the effects of rising fertilizer costs on US agriculture."
           ],
           "watch_list": [
-            "TSA funding negotiations and their impact on workers and airport security.",
-            "Delta Airlines' operational changes and their effects on customer service.",
-            "Regulatory developments regarding prediction markets and their implications for investors.",
-            "Geopolitical developments in Iran and their impact on global energy markets."
+            "TSA funding negotiations",
+            "Delta Airlines service changes",
+            "Prediction market regulations",
+            "Energy prices related to Iran conflict",
+            "Corporate communication studies"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation is fluid, and outcomes may change rapidly based on political negotiations and global events. The sentiment score indicates mixed feelings in the market, suggesting caution. ",
-          "related_topics",
-          "What is the impact of the TSA shutdown on workers?",
-          "Latest updates on Delta Airlines service changes",
-          "How is the Iran war affecting global energy prices?"
+          "The sentiment score indicates mixed feelings about the current business climate, suggesting uncertainty in various sectors.",
+          "Political negotiations may lead to rapid changes affecting the TSA and airline industries."
         ],
         "related_topics": [
-          "What is the impact of the TSA shutdown on workers?",
-          "Latest updates on Delta Airlines service changes",
+          "What is the impact of the TSA funding battle on travelers?",
+          "How are airlines responding to government shutdowns?",
+          "What are the latest regulations on prediction markets?",
           "How is the Iran war affecting global energy prices?",
-          "What are the new regulations for prediction markets?",
-          "How does corporate jargon affect employee performance?"
+          "What does recent research say about corporate jargon in the workplace?"
         ]
       },
-      "tweet_text": "Chaos unfolds as TSA workers plead for pay amid a turbulent economy—can Congress step up before it's too late?\n\nBusiness Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Markets #Fall #Iran #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "As tensions rise, TSA workers fight for pay while the stock market wobbles—will Congress step up or let chaos...\n\nBusiness Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Markets #Fall #Iran #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -360,11 +363,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1629,
+        "score": 0.1331,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.272, dampened ×0.6 → +0.1629). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.222, dampened ×0.6 → +0.1331). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "The BB-777 is the ultimate in boombox nostalgia",
+          "url": "https://www.theverge.com/tech/897876/the-bb-777-is-the-ultimate-in-boombox-nostalgia",
+          "published": "2026-03-24T22:00:00-04:00",
+          "summary": "Bumpboxx is fully embracing nostalgia with its latest boombox, the BB-777, which is modeled very closely on the legendary Sharp GF-777. A real deal GF-777 will set you back over $2,000 for one in working order. Plus, that vintage unit lacks modern amenities like Bluetooth or a rechargeable battery. Heck, it doesn't even have a [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Instagram and Facebook are about to be filled with affiliate content",
           "url": "https://www.theverge.com/news/899717/meta-instagram-facebook-affiliate-shopping-links-reels",
@@ -427,85 +437,77 @@
           "published": "2026-03-24T15:22:29-04:00",
           "summary": "iOS 26.4 is here, and it comes with a bunch of small but notable updates. That includes a new Playlist Playground launching in beta in Apple Music, which uses AI to generate a song playlist - complete with a title, description, and tracklist - based on a text prompt. Apple Music is also adding a [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "The Lego Game Boy makes for a great gift, and it’s $10 off today",
-          "url": "https://www.theverge.com/gadgets/899688/lego-game-boy-set-nintendo-handheld-kohls-deal-sale",
-          "published": "2026-03-24T14:38:35-04:00",
-          "summary": "Deals on the Lego Game Boy are virtually nonexistent, save for the $10 discount that Costco and Sam’s Club offered their members when the set launched late last year. The deal is back — this time, at Kohl&#8217;s — and no membership is required to get $10 off. You can purchase the Lego Game Boy and have [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Meta faces a $375 million penalty for misleading users about product safety, while Instagram and Facebook prepare to integrate affiliate shopping links into posts.",
-        "summary": "Today's technology news highlights significant developments including Meta's legal troubles, NASA's ambitious lunar base plans, and updates from Apple and OpenAI. Meta's new affiliate features on Instagram and Facebook aim to enhance commerce, but the company is also dealing with a jury's decision to impose a hefty penalty for misleading users. Meanwhile, NASA's plans for a $20 billion Moon base signal a commitment to space exploration, and Apple is testing a revamped Siri app ahead of its upcoming developers conference. OpenAI has discontinued its Sora project, which was part of a major deal with Disney, while Arm introduces its first CPU for Meta's AI data centers.",
+        "key_takeaway": "Meta faces a $375 million penalty for misleading users about product safety, while Apple and NASA announce significant updates and plans for their technologies.",
+        "summary": "Today's technology news highlights a mix of nostalgia with Bumpboxx's new boombox, Meta's legal troubles over user safety, and ambitious plans from NASA for a lunar base. Additionally, Apple is testing a new Siri app and has launched iOS 26.4, while OpenAI has discontinued its Sora project. Arm is set to debut its first CPU for Meta's AI data centers, indicating a shift in chip production strategy.",
         "key_themes": [
-          "Meta's affiliate content strategy",
+          "Meta's legal issues",
           "NASA's lunar base plans",
+          "Apple's Siri updates",
           "OpenAI's project discontinuation",
-          "Apple's Siri app development",
           "Arm's new CPU for AI"
         ],
         "notable_headlines": [
           {
-            "headline": "Instagram and Facebook are about to be filled with affiliate content",
-            "why_it_matters": "Meta's integration of shopping links could reshape social media commerce.",
-            "signal": "Opportunity"
-          },
-          {
             "headline": "Meta misled users about its products’ safety, jury decides",
-            "why_it_matters": "The $375 million penalty highlights the legal risks tech companies face regarding user safety.",
+            "why_it_matters": "This ruling could have significant financial implications for Meta and impact its reputation.",
             "signal": "Risk"
           },
           {
             "headline": "NASA wants to put a $20 billion base on the Moon",
-            "why_it_matters": "This ambitious plan could enhance human presence in space and drive technological advancements.",
+            "why_it_matters": "This ambitious plan could mark a new era of lunar exploration and presence.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Apple launches iOS 26.4 with AI playlists, purchase sharing, and more",
+            "why_it_matters": "The update enhances user experience with AI features, reflecting Apple's focus on integrating AI into its ecosystem.",
             "signal": "Opportunity"
           },
           {
             "headline": "OpenAI just gave up on Sora and its billion-dollar Disney deal",
-            "why_it_matters": "The discontinuation of Sora reflects challenges in AI project viability and partnerships.",
-            "signal": "Risk"
+            "why_it_matters": "This decision raises questions about OpenAI's future direction and partnerships in AI development.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Apple is testing a standalone app for its overhauled Siri",
-            "why_it_matters": "A revamped Siri could significantly improve user experience and integration across Apple devices.",
+            "headline": "Arm’s first CPU ever will plug into Meta’s AI data centers later this year",
+            "why_it_matters": "This marks a significant shift for Arm as it enters direct chip production, potentially influencing the AI hardware market.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Meta's new affiliate features on social media platforms.",
-            "Watch for updates on the jury's decision regarding Meta's penalties.",
-            "Expect announcements from NASA regarding the lunar base project."
+            "Monitor reactions to Meta's jury verdict and its implications for user trust.",
+            "Watch for announcements from Apple regarding the new Siri app at WWDC.",
+            "Keep an eye on public response to NASA's lunar base plans."
           ],
           "next_1_4_weeks": [
-            "Follow developments on Apple's WWDC and the new Siri app.",
-            "Observe the impact of Meta's affiliate strategy on user engagement and commerce.",
-            "Keep an eye on the tech community's response to OpenAI's project changes."
+            "Anticipate further developments in Meta's legal challenges and potential appeals.",
+            "Expect updates on the rollout of iOS 26.4 features and user feedback.",
+            "Watch for news on Arm's CPU integration into Meta's infrastructure."
           ],
           "watch_list": [
-            "Meta's legal challenges and their implications for tech regulations.",
+            "Meta's ongoing legal issues and their impact on business operations.",
             "NASA's plans for lunar exploration and potential partnerships.",
-            "Apple's advancements in AI and voice technology.",
-            "OpenAI's future projects and partnerships."
+            "Apple's developments in AI and voice assistant technology.",
+            "OpenAI's strategic direction following the discontinuation of Sora."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The legal implications for Meta may evolve as appeals are possible.",
-          "NASA's plans are subject to funding and political support.",
-          "OpenAI's strategic decisions may change based on market conditions."
+          "The mixed sentiment score indicates uncertainty in the overall technology landscape.",
+          "Legal outcomes for Meta may evolve, affecting future headlines."
         ],
         "related_topics": [
-          "What are the latest developments in Meta's affiliate marketing strategy?",
-          "How is NASA planning to establish a base on the Moon?",
-          "What features are coming in Apple's new Siri app?",
-          "What led to OpenAI discontinuing the Sora project?",
-          "What are the implications of Meta's legal penalties for tech companies?"
+          "What are the latest developments in Meta's legal issues?",
+          "NASA's plans for a lunar base explained.",
+          "What features are included in Apple's iOS 26.4 update?",
+          "OpenAI's strategy after discontinuing Sora.",
+          "How is Arm changing its approach to chip production?"
         ]
       },
-      "tweet_text": "Meta's trust just hit rock bottom as jury rules they misled users, while NASA dreams big with a $20...\n\nTechnology Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Actually #Affiliate #Airport #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready to groove with nostalgia as the BB-777 hits the scene, but watch out—Meta's in hot water...\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Actually #Affiliate #Airport #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -516,166 +518,188 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0182,
+        "score": 0.0275,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.030, dampened ×0.6 → -0.0182). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.046, dampened ×0.6 → +0.0275). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Who's next at UNC? Potential candidates to replace Hubert Davis, their priorities",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48300317/north-carolina-coaching-candidates-recruits-retention-priorities-2026",
+          "published": "Tue, 24 Mar 2026 22:42:21 EST",
+          "summary": "Hubert Davis is out after five seasons in Chapel Hill. Here are names expected to be on the short list.",
+          "source": "ESPN"
+        },
+        {
+          "title": "UNC fires coach Davis after early tourney exit",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48300016/source-hubert-davis-fired-north-carolina-hoops-coach",
+          "published": "Tue, 24 Mar 2026 22:52:05 EST",
+          "summary": "North Carolina men's basketball coach Hubert Davis was fired by the school after another early exit in the NCAA tournament.",
+          "source": "ESPN"
+        },
+        {
+          "title": "L.A. spoils Tiger's return, cruises to TGL title",
+          "url": "https://www.espn.com/golf/story/_/id/48300365/la-spoils-tiger-return-tops-jupiter-links-tgl-title",
+          "published": "Tue, 24 Mar 2026 22:52:05 EST",
+          "summary": "Tiger Woods competed for the first time in more than a year and that wasn't nearly enough to stop Los Angeles Golf Club, which made three straight eagles to close out a 9-2 victory in the TGL finals Tuesday night to capture the SoFi Cup.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Grizzlies rule Morant's season over due to elbow",
+          "url": "https://www.espn.com/nba/story/_/id/48300820/grizzlies-rule-ja-morant-season-due-left-elbow-injury",
+          "published": "Tue, 24 Mar 2026 22:52:05 EST",
+          "summary": "Ja Morant will miss the rest of the season with an ulnar collateral ligament sprain in his left elbow but is expected to be ready for the start of the 2026-27 season.",
+          "source": "ESPN"
+        },
+        {
           "title": "Elite longevity: Flacco, 41, agrees to Cincy deal",
           "url": "https://www.espn.com/nfl/story/_/id/48298896/bengals-41-year-old-qb-joe-flacco-agree-1-year-deal",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
+          "published": "Tue, 24 Mar 2026 22:52:05 EST",
           "summary": "Quarterback Joe Flacco is coming back for a 19th NFL season, agreeing to a one-year, $6 million deal with the Bengals, sources told ESPN's Jeremy Fowler.",
           "source": "ESPN"
         },
         {
-          "title": "Bucks rebuked by NBPA over Giannis dispute",
-          "url": "https://www.espn.com/nba/story/_/id/48297502/nbpa-rebukes-bucks-giannis-antetokounmpo-dispute",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
-          "summary": "The NBA Players Association rebuked the Bucks over their dispute with Giannis Antetokounmpo, implying that Milwaukee is \"tanking\" and damaging the league's integrity by wanting to shut down the All-Star forward for the rest of the season.",
-          "source": "ESPN"
-        },
-        {
-          "title": "NFL to consider rule tweaks for replacement refs",
-          "url": "https://www.espn.com/nfl/story/_/id/48298693/nfl-consider-rule-proposals-case-ref-work-stoppage",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
-          "summary": "The NFL competition committee has finalized a series of wide-ranging rule change proposals to account for the growing possibility of a work stoppage amid tense collective bargaining negotiations with the NFL Referees Association.",
+          "title": "Sources: Crow-Armstrong deal for 6 years, $115M",
+          "url": "https://www.espn.com/mlb/story/_/id/48299358/sources-pete-crow-armstrong-cubs-deal-6-years-115m",
+          "published": "Tue, 24 Mar 2026 22:52:05 EST",
+          "summary": "Pete Crow-Armstrong's new contract extension with the Chicago Cubs is for six years and $115 million, sources told ESPN's Jeff Passan on Tuesday.",
           "source": "ESPN"
         },
         {
           "title": "NBA players' union calls for 65-game rule change",
           "url": "https://www.espn.com/nba/story/_/id/48297741/nbpa-calls-65-game-rule-change-citing-cunningham-case",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
+          "published": "Tue, 24 Mar 2026 22:52:05 EST",
           "summary": "The NBPA is calling on the league to, at minimum, amend the 65-game rule for players to be eligible for end-of-season awards.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Florida hoping to ink Golden to third extension",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48298065/florida-hoping-sign-golden-extension-stave-blue-bloods",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
-          "summary": "Florida is aiming to sign coach Todd Golden to a third contract extension in as many years, while heading off potential interest from schools with open head coaching jobs.",
-          "source": "ESPN"
-        },
-        {
-          "title": "76ers' George says mental health led to PED use",
-          "url": "https://www.espn.com/nba/story/_/id/48297535/76ers-paul-george-set-return-25-game-drug-suspension",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
-          "summary": "The Sixers' Paul George, who was suspended 25 games for a failed drug test, is set to return Wednesday when Philadelphia faces the Boston Celtics.",
           "source": "ESPN"
         },
         {
           "title": "Thomas sues White Sox for using name on jersey",
           "url": "https://www.espn.com/mlb/story/_/id/48298515/frank-thomas-files-suit-white-sox-nike-fanatics",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
+          "published": "Tue, 24 Mar 2026 22:52:05 EST",
           "summary": "Hall of Famer Frank Thomas has filed a lawsuit against the White Sox, alleging unauthorized use of his likeness on City Connect 2.0 uniforms last season.",
           "source": "ESPN"
         },
         {
-          "title": "Amputee cornhole player faces murder charges",
-          "url": "https://www.espn.com/espn/story/_/id/48295975/quadruple-amputee-cornhole-player-fatally-shoots-man-authorities-say",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
-          "summary": "A county sheriff's office in Maryland said Monday that a professional cornhole player who's also a quadruple amputee fatally shot a passenger in the front seat of a car he was driving during an argument.",
+          "title": "House passes Ali Revival Act; bill heads to Senate",
+          "url": "https://www.espn.com/boxing/story/_/id/48299327/house-passes-ali-revival-act-bill-now-headed-senate",
+          "published": "Tue, 24 Mar 2026 22:52:05 EST",
+          "summary": "The Muhammad Ali Boxing Revival Act, which would shift the structure of pro boxing by allowing Unified Boxing Organizations as options for boxers, passed the U.S. House of Representatives by a voice vote Tuesday.",
           "source": "ESPN"
         },
         {
           "title": "⚾ Fantasy baseball draft guide: Rankings, more",
           "url": "https://www.espn.com/fantasy/baseball/story/_/id/47683716/espn-mlb-2026-fantasy-baseball-draft-guide-rankings-analysis-projections-cheat-sheets",
-          "published": "Tue, 24 Mar 2026 18:58:44 EST",
+          "published": "Tue, 24 Mar 2026 22:52:06 EST",
           "summary": "All the rankings, projections, cheat sheets, strategy and analysis you need for the 2026 fantasy baseball season.",
           "source": "ESPN"
         },
         {
-          "title": "The trade that wasn't: Inside the Maxx Crosby saga between the Raiders, Ravens",
-          "url": "https://www.espn.com/nfl/story/_/id/48287941/las-vegas-raiders-baltimore-ravens-maxx-crosby-trade",
-          "published": "Tue, 24 Mar 2026 15:04:48 EST",
-          "summary": "We talked to people about the Maxx Crosby trade situation to find out what really went down between Baltimore and Las Vegas.",
+          "title": "Rankings, playoff odds for all 30 teams as baseball returns",
+          "url": "https://www.espn.com/mlb/story/_/id/48287373/opening-day-2026-mlb-season-preview-rankings-every-team-playoff-odds-world-series-chances",
+          "published": "Tue, 24 Mar 2026 22:43:49 EST",
+          "summary": "Whether your club enters Opening Day as the team to beat or hoping to be 2026's biggest surprise, we've got you covered.",
           "source": "ESPN"
         },
         {
-          "title": "Predicting Rounds 1-2 of the NFL draft: Yates finds landing spots for 64 top prospects",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48259253/2026-nfl-mock-draft-two-rounds-64-picks-field-yates",
-          "published": "Tue, 24 Mar 2026 16:13:28 EST",
-          "summary": "Field Yates unveils his latest NFL mock draft, projecting two full rounds. Which top prospects could go in the opening 64 picks?",
-          "source": "ESPN"
-        },
-        {
-          "title": "Meet the 'Tokyo Toe' -- the NFL draft's most interesting kicker prospect",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48249122/kansei-matsuzawa-tokyo-toe-kicker-nfl-draft-2026-hawaii",
-          "published": "Tue, 24 Mar 2026 16:13:27 EST",
-          "summary": "After learning how to kick and teaching himself English, Kansei Matsuzawa's dream is nearing reality.",
+          "title": "Ready for Opening Day? Here's your guide to the offseason chaos that rocked MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/48240870/mlb-2026-offseason-moves-season-preview-tucker-bichette-bregman-alonso-mets-dodgers-red-sox",
+          "published": "Tue, 24 Mar 2026 22:43:49 EST",
+          "summary": "Kyle Tucker got how much from the Dodgers!? Pete Alonso left the Mets for WHERE!?",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Joe Flacco signs a one-year deal with the Bengals, while the NBA Players Association criticizes the Bucks over their handling of Giannis Antetokounmpo.",
-        "summary": "Today's sports headlines feature Joe Flacco's return to the NFL with the Bengals, a dispute between the Bucks and the NBA Players Association regarding Giannis Antetokounmpo, and various updates from the NFL and NBA. Additionally, Florida seeks to extend coach Todd Golden's contract, and Paul George prepares to return from suspension. Off the field, Frank Thomas has filed a lawsuit against the White Sox, and a cornhole player faces serious legal issues.",
+        "key_takeaway": "Hubert Davis was fired as UNC's basketball coach following an early NCAA tournament exit, while other sports news includes significant player contracts and rule changes.",
+        "summary": "In today's sports news, Hubert Davis has been dismissed as the head coach of North Carolina's men's basketball team after a disappointing NCAA tournament performance. The search for his replacement is underway, with potential candidates being discussed. In golf, the Los Angeles Golf Club won the TGL title, overshadowing Tiger Woods' return to competition. The NBA's Ja Morant will miss the remainder of the season due to an elbow injury, while Joe Flacco has signed a one-year deal with the Bengals, extending his NFL career. Additionally, the MLB's Pete Crow-Armstrong secured a six-year contract with the Cubs, and Frank Thomas has filed a lawsuit against the White Sox regarding the use of his likeness. The NBA players' union is advocating for changes to eligibility rules for end-of-season awards, and the House has passed the Muhammad Ali Boxing Revival Act, which aims to reform professional boxing.",
         "key_themes": [
+          "coaching changes in college basketball",
+          "Tiger Woods return to golf",
+          "NBA injury updates",
           "NFL player contracts",
-          "NBA player disputes",
-          "college basketball coaching news",
-          "mental health in sports",
-          "sports lawsuits",
-          "fantasy baseball updates"
+          "MLB player contracts",
+          "boxing legislation updates"
         ],
         "notable_headlines": [
           {
-            "headline": "Elite longevity: Flacco, 41, agrees to Cincy deal",
-            "why_it_matters": "Flacco's signing highlights the trend of veteran quarterbacks continuing their careers in the NFL.",
+            "headline": "Who's next at UNC? Potential candidates to replace Hubert Davis, their priorities",
+            "why_it_matters": "The firing of Hubert Davis opens a critical chapter for UNC basketball as they seek a new leader.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Bucks rebuked by NBPA over Giannis dispute",
-            "why_it_matters": "The NBPA's criticism could impact the Bucks' reputation and the league's integrity.",
+            "headline": "UNC fires coach Davis after early tourney exit",
+            "why_it_matters": "This decision reflects the high expectations and pressures within college basketball programs.",
             "signal": "Risk"
           },
           {
-            "headline": "NFL to consider rule tweaks for replacement refs",
-            "why_it_matters": "Potential rule changes could affect the officiating landscape in the NFL amid ongoing negotiations.",
+            "headline": "L.A. spoils Tiger's return, cruises to TGL title",
+            "why_it_matters": "Tiger Woods' comeback was significant, but the team's performance overshadowed his return.",
             "signal": "Unclear"
           },
           {
-            "headline": "NBA players' union calls for 65-game rule change",
-            "why_it_matters": "Changes to eligibility rules for awards could significantly impact player incentives and team strategies.",
+            "headline": "Grizzlies rule Morant's season over due to elbow",
+            "why_it_matters": "Morant's injury impacts the Grizzlies' playoff prospects and raises questions about his recovery.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Elite longevity: Flacco, 41, agrees to Cincy deal",
+            "why_it_matters": "Flacco's continued presence in the NFL highlights the evolving nature of player longevity in sports.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Florida hoping to ink Golden to third extension",
-            "why_it_matters": "Securing Golden's contract could stabilize Florida's basketball program amid coaching changes elsewhere.",
+            "headline": "Sources: Crow-Armstrong deal for 6 years, $115M",
+            "why_it_matters": "This contract extension signifies the Cubs' commitment to building a competitive team around young talent.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "NBA players' union calls for 65-game rule change",
+            "why_it_matters": "The proposed change could significantly affect player eligibility for awards and the league's competitive landscape.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Thomas sues White Sox for using name on jersey",
+            "why_it_matters": "This lawsuit raises important questions about athlete rights and the use of likeness in merchandise.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "House passes Ali Revival Act; bill heads to Senate",
+            "why_it_matters": "This legislation could reshape the boxing industry and impact how boxing organizations operate.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Paul George returns to play against the Celtics after suspension.",
-            "Further developments expected in the Bucks-Giannis situation.",
-            "NFL competition committee to discuss proposed rule changes."
+            "Watch for updates on potential candidates for the UNC basketball coaching position.",
+            "Expect reactions from the NBA regarding Morant's injury and its implications for the playoffs.",
+            "Monitor the response to the Ali Revival Act as it moves to the Senate."
           ],
           "next_1_4_weeks": [
-            "NFL draft approaches, with teams finalizing their strategies and player evaluations.",
-            "NBA playoffs will begin, intensifying competition and player performances.",
-            "Coaching changes in college basketball may unfold as the season concludes."
+            "Anticipate the announcement of UNC's new head coach and the impact on recruiting.",
+            "Follow the developments in the MLB as teams prepare for Opening Day and finalize rosters.",
+            "Keep an eye on the NBA's response to the players' union's proposed rule changes."
           ],
           "watch_list": [
-            "Monitor the impact of Flacco's signing on the Bengals' season.",
-            "Watch for updates on the Bucks' handling of the Giannis situation.",
-            "Keep an eye on the NFL draft predictions and player movements.",
-            "Follow the legal proceedings involving Frank Thomas and the White Sox."
+            "UNC basketball coaching search updates",
+            "Tiger Woods' performance in future tournaments",
+            "Ja Morant's recovery timeline",
+            "Joe Flacco's impact on the Bengals' season",
+            "Pete Crow-Armstrong's performance with the Cubs"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating mixed reactions to the headlines.",
-          "Future developments may change the current landscape in sports."
+          "The coaching search at UNC is still in its early stages, and no candidates have been confirmed yet.",
+          "Injuries in sports can have unpredictable recovery timelines, affecting player availability.",
+          "Legislative processes can be lengthy and subject to change, impacting the Ali Revival Act's future."
         ],
         "related_topics": [
-          "What are the latest NFL player contract updates?",
-          "NBA Players Association disputes explained",
-          "College basketball coaching news and updates",
-          "Mental health issues in professional sports",
-          "Fantasy baseball draft strategies for 2026"
+          "What are the latest updates on UNC basketball coaching candidates?",
+          "How did Tiger Woods perform in his return to golf?",
+          "What is the status of Ja Morant's injury?",
+          "What are the implications of the Ali Revival Act?",
+          "What are the latest MLB player contracts and signings?"
         ]
       },
-      "tweet_text": "Veteran QB Flacco signs with Cincy, but will the Bucks and 76ers steal the spotlight with their drama?\n\nSports Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Rule #65game #76ers #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "UNC's coaching shakeup sparks a frenzy—who’s the next big name to take the helm after Davis’ early exit?\n\nSports Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Davis #Deal #Rule #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -686,11 +710,18 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0731,
+        "score": 0.1298,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.122, dampened ×0.6 → +0.0731). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.216, dampened ×0.6 → +0.1298). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Honey bees dance better with an audience",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324230105.htm",
+          "published": "Tue, 24 Mar 2026 23:25:25 EDT",
+          "summary": "Honey bees don’t just perform their famous waggle dance to share directions, they actually adjust how well they dance depending on who’s watching. Researchers found that when fewer bees pay attention, the dancer becomes less precise as it moves around trying to attract an audience. This means the dance is not simply a fixed message about food location, but a flexible performance shaped by social feedback.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Insulin pills may soon replace daily injections",
           "url": "https://www.sciencedaily.com/releases/2026/03/260324024302.htm",
@@ -703,6 +734,27 @@
           "url": "https://www.sciencedaily.com/releases/2026/03/260324024300.htm",
           "published": "Tue, 24 Mar 2026 07:52:48 EDT",
           "summary": "Astronomers have finally cracked a decades-old mystery about red giant stars—how material from their deep interiors makes its way to the surface. Using cutting-edge supercomputer simulations, researchers discovered that stellar rotation plays a powerful role in mixing elements across a previously unexplained barrier inside the star.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "First ever atomic movie reveals hidden driver of radiation damage",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024251.htm",
+          "published": "Tue, 24 Mar 2026 23:53:24 EDT",
+          "summary": "Researchers have visualized atoms in motion just before a radiation-driven decay process occurs, revealing a surprisingly dynamic scene. Instead of remaining fixed, the atoms roam and rearrange, directly influencing how and when the decay unfolds. This “atomic movie” shows that structure and motion play a central role in radiation damage mechanisms. The findings could improve our understanding of how harmful radiation affects biological matter.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "This tiny implant, smaller than a grain of salt, can read your brain",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024249.htm",
+          "published": "Tue, 24 Mar 2026 22:23:36 EDT",
+          "summary": "A new neural implant is so small it can rest on a grain of salt, yet it can track and wirelessly transmit brain activity for over a year. It’s powered by laser light that safely passes through tissue and communicates using tiny infrared signals. This ultra-miniature device could transform how scientists study the brain without invasive wiring.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists just solved a major mystery about how your brain stores memories",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024247.htm",
+          "published": "Tue, 24 Mar 2026 21:13:47 EDT",
+          "summary": "Scientists have found that your brain separates memories into “what” and “where/when” using two different groups of neurons. One set responds to specific objects or people, while another tracks the context or situation. When you remember something correctly, these groups briefly connect and reconstruct the full memory. This system may be the secret behind how we recognize the same things across totally different experiences.",
           "source": "ScienceDaily"
         },
         {
@@ -746,106 +798,78 @@
           "published": "Mon, 23 Mar 2026 23:19:35 EDT",
           "summary": "Two new species of black bass have been officially identified after decades of confusion with similar fish. Bartram’s bass and Altamaha bass stand out not just in appearance, but in their DNA, revealed through detailed genetic analysis of hundreds of specimens. Scientists say this breakthrough helps preserve a record of these species as habitat changes and hybridization threaten their future. What was once overlooked could soon be at risk of vanishing.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "A surprising foam discovery could change everyday products",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260323005530.htm",
-          "published": "Mon, 23 Mar 2026 23:44:40 EDT",
-          "summary": "Foams have long baffled scientists because liquid drains from them far sooner than theory predicts. New research shows the reason: the bubbles don’t stay put—they rearrange, opening pathways for liquid to escape. The key factor is the pressure needed to shift bubbles, not just push liquid through them. This insight reshapes how we understand foams and could improve everyday products.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Most people get food’s environmental impact completely wrong, study finds",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260323005528.htm",
-          "published": "Mon, 23 Mar 2026 04:53:00 EDT",
-          "summary": "People often get the environmental impact of food wrong, according to new research. While many assume processed foods are the worst, they tend to overlook the surprisingly high impact of items like nuts and underestimate how damaging beef really is. These misunderstandings come from relying on simple categories like “animal vs. plant” rather than the full picture.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists discover Alzheimer’s hidden “death switch” in the brain",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260323005526.htm",
-          "published": "Mon, 23 Mar 2026 05:34:10 EDT",
-          "summary": "Scientists have uncovered a hidden “death switch” in the brain that may be driving Alzheimer’s disease—and even found a way to turn it off in mice. The culprit is a toxic pairing of two proteins that, when combined, triggers the destruction of brain cells and fuels memory loss. By using a new compound to break apart this deadly duo, researchers were able to slow disease progression, protect brain cells, and even reduce hallmark amyloid buildup.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "This 67,800-year-old handprint is the oldest art ever found",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260322020300.htm",
-          "published": "Sun, 22 Mar 2026 05:38:42 EDT",
-          "summary": "Researchers have uncovered the world’s oldest known cave art—a 67,800-year-old hand stencil in Indonesia. The unusual, claw-like design hints at early symbolic thinking and possibly spiritual beliefs. This discovery also strengthens the case that humans reached Australia at least 65,000 years ago. It offers rare insight into the creative lives of some of our earliest ancestors.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include potential insulin pills, a new rhino species in the Arctic, and breakthroughs in understanding chronic pain and Alzheimer's disease.",
-        "summary": "Today's science headlines highlight significant advancements, including a potential replacement for insulin injections, the discovery of a new rhino species in the Arctic, and insights into chronic pain and Alzheimer's disease. Researchers have also made strides in understanding the behavior of sperm whales, reconstructing galaxy histories, and identifying new bass species. Additionally, studies reveal misconceptions about food's environmental impact and the mechanics of foam, while the oldest known cave art has been discovered in Indonesia.",
+        "key_takeaway": "Recent scientific discoveries include advancements in insulin delivery, memory storage, and the behavior of honey bees, alongside significant findings in astronomy and paleontology.",
+        "summary": "Today's science headlines highlight a range of breakthroughs, from honey bees adjusting their dance based on audience size to the development of insulin pills that could replace injections. Researchers have also made strides in understanding memory storage in the brain, the dynamics of radiation damage at the atomic level, and the discovery of a new rhinoceros species in the Arctic. Additionally, the behavior of sperm whales has been documented, and astronomers have reconstructed a galaxy's history using chemical clues.",
         "key_themes": [
-          "insulin pill development",
-          "new rhino species discovery",
-          "chronic pain treatment advancements",
-          "Alzheimer's disease research",
-          "sperm whale behavior study",
-          "environmental impact of food"
+          "insulin delivery advancements",
+          "honey bee behavior",
+          "memory storage in the brain",
+          "radiation damage mechanisms",
+          "new species discoveries",
+          "galaxy evolution insights"
         ],
         "notable_headlines": [
           {
+            "headline": "Honey bees dance better with an audience",
+            "why_it_matters": "This study reveals the social dynamics of honey bee communication, indicating that their dance is more flexible than previously thought.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Insulin pills may soon replace daily injections",
-            "why_it_matters": "This breakthrough could significantly improve the quality of life for millions of diabetes patients.",
+            "why_it_matters": "This breakthrough could significantly improve the quality of life for millions of diabetes patients by eliminating the need for daily injections.",
             "signal": "Opportunity"
           },
           {
             "headline": "Supercomputers just solved a 50-year-old mystery about giant stars",
-            "why_it_matters": "Understanding stellar rotation could advance our knowledge of star evolution and formation.",
+            "why_it_matters": "Understanding stellar rotation and material mixing in giant stars enhances our knowledge of stellar evolution and the universe's history.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "First ever atomic movie reveals hidden driver of radiation damage",
+            "why_it_matters": "This visualization could lead to improved safety measures in environments exposed to harmful radiation.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists found a rhino in the Arctic and it changes everything",
-            "why_it_matters": "This discovery challenges existing theories about animal migration and climate adaptation.",
+            "why_it_matters": "This discovery challenges existing theories about the migration patterns of ancient species and their habitats.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists discover Alzheimer’s hidden “death switch” in the brain",
-            "why_it_matters": "Identifying this mechanism could lead to new treatments for Alzheimer's disease.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Most people get food’s environmental impact completely wrong, study finds",
-            "why_it_matters": "This research could influence dietary choices and environmental policies.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis on the implications of the insulin pill development is expected.",
-            "More studies on the newly discovered rhino species may be published.",
-            "Anticipated discussions on the environmental impact of food choices in public forums."
+            "Further analysis of the implications of the honey bee study may emerge.",
+            "Updates on the insulin pill research could be released as trials progress.",
+            "New findings related to the atomic movie may be published."
           ],
           "next_1_4_weeks": [
-            "Research on chronic pain treatments may lead to clinical trials.",
-            "New findings on Alzheimer's disease could prompt more funding for related research.",
-            "Expect updates on the implications of the foam discovery for product development."
+            "Anticipated discussions on the impact of the rhino discovery on paleontological studies.",
+            "Potential announcements regarding the commercialization of insulin pills.",
+            "Further research on memory storage mechanisms may be published."
           ],
           "watch_list": [
-            "Follow developments in diabetes treatment innovations.",
-            "Monitor ongoing research into the environmental impact of food.",
-            "Watch for new studies on animal behavior and migration patterns.",
-            "Keep an eye on advancements in Alzheimer's research."
+            "Follow developments in insulin delivery systems.",
+            "Monitor ongoing research in animal behavior studies.",
+            "Keep an eye on advancements in supercomputing and astronomy.",
+            "Watch for updates on chronic pain treatments using bone hormones."
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The long-term implications of these discoveries are still uncertain.",
-          "Further research is needed to validate the findings on chronic pain and Alzheimer's disease."
+          "The long-term effects of the new insulin delivery method are still unknown.",
+          "Further studies are needed to confirm the findings related to memory storage in the brain."
         ],
         "related_topics": [
-          "What are the latest advancements in diabetes treatment?",
-          "New discoveries in Arctic wildlife and their implications",
-          "How does food impact the environment?",
-          "Recent breakthroughs in Alzheimer's research",
-          "Understanding animal behavior through new studies"
+          "What are the latest advancements in insulin delivery systems?",
+          "How do honey bees communicate through dance?",
+          "What new discoveries have been made in paleontology?",
+          "What is the significance of the atomic movie in radiation research?",
+          "How does the brain store memories?"
         ]
       },
-      "tweet_text": "Say goodbye to needles! Insulin pills could change the game for diabetes management forever.\n\nScience Sentiment: Mixed (+0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #12billionyear #50yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlocking the secrets of the universe: from honey bee dances to the brain’s memory vaults, science just...\n\nScience Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Brain #Mystery #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
