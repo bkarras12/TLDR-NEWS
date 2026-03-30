@@ -1,12 +1,14 @@
 {
   "date": "2026-03-29",
-  "generated_at_utc": "2026-03-29T23:42:33Z",
+  "generated_at_utc": "2026-03-30T05:18:25Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "final",
     "trump",
-    "hidden"
+    "hidden",
+    "final",
+    "early",
+    "brown"
   ],
   "categories": {
     "world": {
@@ -18,9 +20,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2719,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.453, dampened ×0.6 → -0.2719). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2173,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.362, dampened ×0.6 → -0.2173). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -59,10 +61,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Israeli police block Latin Patriarch from Palm Sunday mass in Jerusalem",
+          "title": "Netanyahu says Latin Patriarch will have full access to holy site",
           "url": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 29 Mar 2026 21:39:08 GMT",
-          "summary": "The move drew criticism from the church, global leaders and the US ambassador. Israel's PM said it was a safety measure following recent Iranian strikes.",
+          "published": "Mon, 30 Mar 2026 00:41:58 GMT",
+          "summary": "The Israeli PM said Cardinal Pierbattista Pizzaballa had been asked not to enter the church out of concern for his safety.",
           "source": "BBC News"
         },
         {
@@ -96,7 +98,7 @@
         {
           "title": "No Kings protests draw large crowds to rally against Donald Trump",
           "url": "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 29 Mar 2026 20:42:32 GMT",
+          "published": "Sun, 29 Mar 2026 23:57:25 GMT",
           "summary": "One of the flagship No Kings rallies happened in Minnesota, where singer Bruce Springsteen performed to crowds.",
           "source": "BBC News"
         },
@@ -109,81 +111,73 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The ongoing conflict in Iran is escalating, with significant regional impacts including attacks in the Gulf and rising tensions in Israel and Palestine.",
-        "summary": "Today's headlines reflect a series of escalating global tensions, particularly in the Middle East, where the conflict in Iran continues to affect neighboring regions and international relations. Notable incidents include Iranian attacks on industrial sites in the Gulf, the killing of journalists in Israeli strikes, and protests against Donald Trump in the U.S. Additionally, economic pressures are evident in Australia and Egypt due to rising fuel prices and energy crises, respectively.",
+        "key_takeaway": "The ongoing conflict in Iran continues to escalate, impacting regional stability and prompting various international responses.",
+        "summary": "Today's headlines reflect a mix of escalating tensions in the Middle East, including attacks in the Gulf and casualties from Israeli strikes, alongside political developments in Canada and protests in the U.S. Additionally, economic measures are being taken in Australia and Egypt in response to rising fuel prices and energy crises.",
         "key_themes": [
-          "Middle East conflict",
-          "Iranian attacks",
-          "Israeli military actions",
-          "global protests against Trump",
-          "energy crisis in Egypt",
-          "Australian public transport incentives"
+          "Middle East conflict updates",
+          "international political developments",
+          "economic responses to fuel prices",
+          "protests against political leaders",
+          "cultural theft and art crime"
         ],
         "notable_headlines": [
           {
             "headline": "Jeremy Bowen: Trump is waging war based on instinct and it isn't working",
-            "why_it_matters": "Bowen critiques Trump's approach to the Iran conflict, suggesting it lacks effectiveness and strategic depth.",
+            "why_it_matters": "Analysis of Trump's approach to the Iran conflict raises questions about its effectiveness.",
             "signal": "Risk"
           },
           {
             "headline": "Iranian attacks across Gulf continue as major industrial sites hit",
-            "why_it_matters": "The attacks indicate a dangerous escalation in the conflict, affecting regional stability and safety.",
+            "why_it_matters": "Ongoing violence in the region poses risks to international trade and security.",
             "signal": "Risk"
           },
           {
             "headline": "Three Lebanese journalists killed in Israeli strike, say broadcasters",
-            "why_it_matters": "The incident raises concerns about press freedom and the safety of journalists in conflict zones.",
+            "why_it_matters": "The loss of journalists highlights the dangers of conflict reporting in war zones.",
             "signal": "Risk"
           },
           {
             "headline": "Three arrested in Paris after attempted bomb attack outside Bank of America",
-            "why_it_matters": "The attempted attack highlights ongoing security threats in Europe amid rising tensions globally.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Israeli police block Latin Patriarch from Palm Sunday mass in Jerusalem",
-            "why_it_matters": "This action has drawn international criticism and reflects the heightened tensions in Jerusalem.",
+            "why_it_matters": "The incident underscores ongoing security concerns in Europe amid rising tensions.",
             "signal": "Risk"
           },
           {
             "headline": "Two Australian states offer free public transport as war pushes up fuel prices",
-            "why_it_matters": "This initiative aims to alleviate the economic burden on citizens due to rising fuel costs linked to the Iran conflict.",
+            "why_it_matters": "Economic measures reflect the broader impact of international conflicts on local economies.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Monitor developments in the Iran conflict and potential international responses.",
-            "Watch for updates on the investigation into the attempted bomb attack in Paris.",
-            "Follow reactions to the Israeli police actions regarding religious gatherings."
+            "Watch for updates on the investigation into the Paris bomb attempt.",
+            "Follow the impact of rising fuel prices on public transport initiatives in Australia."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions regarding energy policies in response to the crisis in Egypt.",
-            "Anticipate further protests related to U.S. domestic politics and international conflicts.",
-            "Observe the impact of rising fuel prices on global economies and public transport initiatives."
+            "Observe the political landscape in Canada following the election of Avi Lewis.",
+            "Track the implications of the energy crisis in Egypt on local businesses.",
+            "Stay updated on the outcomes of protests against political leaders in the U.S."
           ],
           "watch_list": [
-            "Iran conflict developments",
-            "International reactions to Israeli military actions",
-            "Economic impacts of rising fuel prices",
-            "Public sentiment towards Trump and related protests",
-            "Energy crisis management strategies in Egypt"
+            "Iran conflict escalation",
+            "European security measures",
+            "Australian economic policies",
+            "Canadian political shifts",
+            "Middle Eastern regional stability"
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The situation in the Middle East is fluid and may change rapidly.",
-          "Sentiment scores indicate a generally negative outlook, but specific events may vary in impact."
+          "Economic measures may not fully mitigate the impact of rising fuel prices."
         ],
         "related_topics": [
-          "What is happening in the Iran conflict today?",
-          "Latest news on Israeli military actions",
-          "How are global protests against Trump evolving?",
-          "Impact of fuel prices on public transport in Australia",
-          "Energy crisis updates in Egypt"
+          "What are the latest developments in the Iran conflict?",
+          "How are countries responding to rising fuel prices?",
+          "What is the impact of protests against political leaders?"
         ]
       },
-      "tweet_text": "Global tensions escalate: from Trump's instinctive warfare to deadly strikes in Lebanon—what's next for the world's...\n\nWorld Sentiment: Negative (-0.27)\n\nRead the full breakdown: https://tldrnews.info\n\n#Israeli #Three #Across #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From Trump’s instinctual blunders to ongoing chaos in the Gulf, today’s world news is a gripping tale of conflict and...\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Three #Access #Across #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -217,7 +211,7 @@
           "title": "Oil on track for record monthly surge as Iran war disrupts markets",
           "url": "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
           "published": "Sun, 29 Mar 2026 11:20:00 GMT",
-          "summary": "<p>Brent crude jumps 51% since start of March and gold suffers fifth-largest monthly fall in 50 years</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/29/middle-east-crisis-live-explosions-tehran-yemen-houthis-iran-war-updates-trump-us-israel-strikes-lebanon\">Middle East crisis – latest updates</a></p></li></ul><p>The Brent crude oil price is on track for its biggest monthly gain on record in March after the Iran war caused mayhem in the markets.</p><p>Brent crude, the inte",
+          "summary": "<p>Brent crude jumps 51% since start of March and gold suffers fifth-largest monthly fall in 50 years</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/30/iran-war-live-updates-trump-oil-kharg-island-houthis-israel-lebanon-middle-east\">Middle East crisis – live updates</a></p></li></ul><p>The Brent crude oil price is on track for its biggest monthly gain on record in March after the Iran war caused mayhem in the markets.</p><p>Brent crude, the international benchmark, has cl",
           "source": "The Guardian"
         },
         {
@@ -285,74 +279,73 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "US churches are increasingly developing land for affordable housing, while the Iran war disrupts oil markets and impacts US businesses.",
-        "summary": "Today's headlines highlight the growing trend of US churches converting land into affordable housing amid a housing shortage, the negative impact of border tensions on US businesses, and the significant rise in oil prices due to the ongoing Iran war. Additionally, the US stock market continues to decline, and President Trump is offering aid to farmers affected by the conflict. Meanwhile, discussions around raising the minimum wage in New York and California gain momentum, and Ticketmaster adjusts fees following regulatory changes.",
+        "key_takeaway": "US churches are increasingly developing affordable housing on underutilized land as border businesses suffer from reduced Canadian tourism amid rising oil prices and economic challenges.",
+        "summary": "Today's business news highlights the innovative approach of US churches in addressing housing shortages, the struggles of border businesses due to political tensions, and the significant impact of the Iran war on oil prices and the broader economy.",
         "key_themes": [
           "affordable housing initiatives",
-          "impact of Iran war on oil prices",
-          "US border business struggles",
-          "minimum wage increase movements",
-          "Trump administration policies"
+          "impact of political tensions on businesses",
+          "oil price fluctuations due to geopolitical events"
         ],
         "notable_headlines": [
           {
             "headline": "Putting the ‘lord’ in ‘landlord’: US churches step up to build housing amid shortage",
-            "why_it_matters": "Churches are addressing the housing crisis by utilizing their land for affordable housing developments, potentially easing local housing shortages.",
+            "why_it_matters": "Churches are utilizing their land to help alleviate the housing crisis, reflecting a community-driven approach to social issues.",
             "signal": "Opportunity"
           },
           {
             "headline": "‘Canadians don’t want to come here any more’: anger over Trump squeezes US border businesses",
-            "why_it_matters": "US border businesses are facing challenges as Canadian tourists are deterred by political tensions and tariffs, impacting local economies.",
+            "why_it_matters": "Border businesses are facing economic challenges as Canadian tourists are deterred by political climate and tariffs.",
             "signal": "Risk"
           },
           {
             "headline": "Oil on track for record monthly surge as Iran war disrupts markets",
-            "why_it_matters": "The ongoing conflict in Iran is causing significant volatility in oil prices, which could have broader economic implications.",
+            "why_it_matters": "The ongoing conflict in Iran is causing significant disruptions in oil markets, leading to unprecedented price increases.",
             "signal": "Risk"
           },
           {
             "headline": "US stock market caps off fifth consecutive week of closing down",
-            "why_it_matters": "The stock market's continued decline reflects investor concerns over rising oil prices and geopolitical instability.",
+            "why_it_matters": "The stock market's continued decline indicates investor anxiety amid rising oil prices and geopolitical tensions.",
             "signal": "Risk"
           },
           {
             "headline": "$30 an hour by 2030: new pushes to increase minimum wage in New York and California",
-            "why_it_matters": "Efforts to raise the minimum wage are gaining traction as workers advocate for better pay amid rising living costs.",
+            "why_it_matters": "Efforts to raise the minimum wage reflect ongoing struggles with living costs and economic inequality.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Iran war and its impact on oil prices.",
-            "Watch for responses from US border businesses to ongoing political tensions.",
-            "Follow updates on minimum wage campaigns in New York and California."
+            "Monitor developments in the Iran war and its impact on oil prices and global markets.",
+            "Watch for reactions from US border businesses to potential policy changes regarding tariffs.",
+            "Follow updates on housing initiatives by churches and their impact on local communities."
           ],
           "next_1_4_weeks": [
-            "Expect further fluctuations in the stock market as geopolitical tensions persist.",
-            "Anticipate more initiatives from churches and community organizations addressing housing shortages.",
-            "Observe potential legislative actions regarding minimum wage increases."
+            "Expect further fluctuations in oil prices as the geopolitical situation evolves.",
+            "Anticipate discussions around minimum wage increases in New York and California to gain momentum.",
+            "Watch for potential economic policies from the US government aimed at supporting border businesses."
           ],
           "watch_list": [
-            "Iran war developments and oil market reactions.",
-            "US border business performance amid changing tourist dynamics.",
-            "Progress of affordable housing projects initiated by churches.",
-            "Minimum wage legislation updates in key states."
+            "Trends in affordable housing developments by religious organizations.",
+            "Impact of US-Canada relations on border commerce and tourism.",
+            "Responses from the stock market to ongoing geopolitical tensions.",
+            "Legislative progress on minimum wage initiatives in key states."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran remains fluid and could change rapidly, impacting markets further.",
-          "The effectiveness of church-led housing initiatives is yet to be fully assessed."
+          "The situation in Iran remains fluid and could change rapidly, affecting oil prices and market stability.",
+          "The long-term effects of housing initiatives by churches are yet to be fully realized.",
+          "Economic conditions are influenced by a variety of external factors, including international relations and domestic policies."
         ],
         "related_topics": [
-          "What are churches doing to address housing shortages?",
+          "What are US churches doing to address housing shortages?",
           "How is the Iran war affecting global oil prices?",
-          "What is the current state of US border businesses?",
-          "What are the latest developments in minimum wage legislation?",
-          "How is the stock market responding to geopolitical tensions?"
+          "What challenges are US border businesses facing?",
+          "What is the current status of minimum wage discussions in New York and California?",
+          "How are small businesses preparing for the retirement of baby boomer owners?"
         ]
       },
-      "tweet_text": "Churches become landlords, Canadians turn away, oil prices soar, stocks dive—business as usual or a sign of...\n\nBusiness Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Trump #Amid #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Churches step up as landlords, while businesses feel the heat from Trump—can the US economy weather these storms?\n\nBusiness Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Trump #Amid #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -363,11 +356,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1966,
+        "score": 0.1671,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.328, dampened ×0.6 → +0.1966). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.278, dampened ×0.6 → +0.1671). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "All the latest in AI &#8216;music&#8217;",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
+          "published": "2026-03-29T21:32:14-04:00",
+          "summary": "AI has touched every part of the music industry, from sample sourcing and demo recording, to serving up digital liner notes and building playlists. There are technical and legal challenges, fierce ethical debates, and fears that the slop will simply crush working musicians through sheer volume. Is it art or just an output? What exactly [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Bluesky’s new app is an AI for customizing your feed",
           "url": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
@@ -430,80 +430,77 @@
           "published": "2026-03-28T14:33:10-04:00",
           "summary": "Suno just released one of its biggest updates yet with v5.5 of its AI music model. Where previous updates focused mostly on improving fidelity and creating more natural vocals, v5.5 is about giving users more control. It includes three new features: Voices, My Taste, and Custom Models. In the release notes, Suno says that Voices [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "SteelSeries’ feature-packed Nova Pro Wireless headset is $80 off",
-          "url": "https://www.theverge.com/gadgets/902643/steelseries-arctis-nova-pro-wireless-pc-ps5-xbox-headset-gaming-amazon-big-spring-sale-2026-deal",
-          "published": "2026-03-28T11:00:00-04:00",
-          "summary": "The SteelSeries Arctis Nova Pro Wireless came out almost four years ago, yet it’s still one of the best gaming headsets you can buy. Turns out, it’s not easy for other companies to duplicate all that SteelSeries got right with this one — mixing multiple audio sources, active noise cancellation, a retractable mic, hot-swappable batteries, [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Bluesky launched Attie, an AI app for customizing feeds, while Amazon's Big Spring Sale offers various tech deals, including AI-powered gadgets.",
-        "summary": "Today's technology news highlights the launch of Bluesky's Attie, an AI app designed for personalized content feeds, and Amazon's ongoing Big Spring Sale featuring discounts on tech products. Additionally, updates on gaming gadgets and a retrospective on the Macintosh's impact on computing are discussed.",
+        "key_takeaway": "AI continues to influence various sectors, including music and social media, while ongoing sales events highlight consumer technology trends.",
+        "summary": "Today's technology headlines cover the impact of AI in music and social media, the latest consumer gadgets on sale, and reflections on historical tech milestones. Notable developments include Bluesky's new AI app for customizing feeds and Suno's latest AI music model update, which emphasizes user control. Additionally, Amazon's Big Spring Sale features innovative tech products, including AI-powered bird feeders and retro gaming gadgets.",
         "key_themes": [
-          "AI in social media",
-          "Amazon Spring Sale tech deals",
-          "impact of Macintosh on computing"
+          "AI in music industry",
+          "Bluesky AI feed customization",
+          "Amazon Big Spring Sale highlights",
+          "historical impact of Macintosh",
+          "Apple App Store antitrust issues"
         ],
         "notable_headlines": [
           {
+            "headline": "All the latest in AI ‘music’",
+            "why_it_matters": "Explores the transformative role of AI in the music industry amid legal and ethical challenges.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Bluesky’s new app is an AI for customizing your feed",
-            "why_it_matters": "Attie allows users to personalize their social media experience, reflecting a growing trend in AI-driven content curation.",
+            "why_it_matters": "Introduces an AI tool that allows users to personalize their social media experience.",
             "signal": "Opportunity"
           },
           {
             "headline": "Amazon’s Big Spring Sale is a great time to get a fancy, AI-powered bird feeder",
-            "why_it_matters": "The sale highlights the increasing integration of AI in everyday products, appealing to tech-savvy consumers.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The Macintosh changed computers forever",
-            "why_it_matters": "Reflecting on the Macintosh's legacy underscores its significance in shaping modern computing and user interfaces.",
+            "why_it_matters": "Highlights innovative tech products available during a major retail event.",
             "signal": "Opportunity"
           },
           {
             "headline": "Apple’s long, bitter App Store antitrust war",
-            "why_it_matters": "The ongoing legal challenges faced by Apple reveal the complexities of antitrust issues in the tech industry.",
+            "why_it_matters": "Sheds light on the ongoing legal battles faced by Apple regarding its App Store practices.",
             "signal": "Risk"
           },
           {
             "headline": "Suno leans into customization with v5.5",
-            "why_it_matters": "The update emphasizes user control in AI music creation, showcasing advancements in personalized technology.",
+            "why_it_matters": "Showcases advancements in AI music technology, focusing on user customization features.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Bluesky's Attie launch and its impact on user engagement.",
-            "Watch for updates on Amazon's Big Spring Sale as it approaches its end date.",
-            "Keep an eye on consumer feedback regarding AI-powered gadgets."
+            "Monitor reactions to Bluesky's Attie app launch and its impact on social media engagement.",
+            "Watch for consumer responses to Amazon's Big Spring Sale and its effect on tech gadget sales.",
+            "Follow developments in AI music technology as Suno's v5.5 update gains traction."
           ],
           "next_1_4_weeks": [
-            "Expect further developments in AI applications across social media platforms.",
-            "Anticipate more discussions on the implications of Apple's antitrust battles.",
-            "Look for trends in consumer electronics as tech companies unveil new products."
+            "Expect discussions around the ethical implications of AI in creative industries to intensify.",
+            "Anticipate further developments in Apple's App Store antitrust case as legal proceedings unfold.",
+            "Look for trends in consumer preferences for AI-integrated gadgets as sales events continue."
           ],
           "watch_list": [
-            "Bluesky's user adoption rates for Attie.",
+            "Bluesky's user engagement metrics post-Attie launch.",
             "Sales performance of AI-powered gadgets during Amazon's Big Spring Sale.",
-            "Legal outcomes of Apple's App Store antitrust case. ",
-            "Trends in AI music technology following Suno's update."
+            "Updates on the Apple App Store antitrust case.",
+            "Trends in AI music technology and its reception by artists and consumers."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the technology news today, suggesting caution in interpreting the overall tone.",
-          "The impact of Bluesky's Attie on user engagement remains to be seen, as it is a new product launch."
+          "The impact of AI on the music industry remains a contentious topic with varying opinions.",
+          "Consumer interest in AI gadgets may fluctuate based on pricing and perceived value. "
         ],
         "related_topics": [
-          "What are the latest AI applications in social media?",
-          "How is Amazon's Big Spring Sale affecting tech purchases?",
-          "What is the legacy of the Macintosh in computing history?"
+          "What are the latest advancements in AI music technology?",
+          "How is Bluesky's new AI app changing social media?",
+          "What deals are available during Amazon's Big Spring Sale?",
+          "What is the history of the Macintosh computer?",
+          "What is the current status of Apple's App Store antitrust case?"
         ]
       },
-      "tweet_text": "Get ready to level up your feed, thrill-seekers, and savvy shoppers—today’s tech news has something for everyone!\n\nTechnology Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amazons #Sale #Spring #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Dive into the wild world of AI music, poker thrills, and the ethics of binge-watching—today’s tech news has...\n\nTechnology Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amazons #Sale #Spring #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -514,161 +511,165 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.0965,
+        "score": 0.0623,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.161, dampened ×0.6 → +0.0965). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.104, dampened ×0.6 → +0.0623). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "2-seed UConn stuns 1-seed Duke with go-ahead 3 in final seconds to secure spot in Final Four",
+          "title": "Sunday's Elite Eight analysis: Inside UConn's stunning win over Duke",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48335596/march-madness-predictions-live-tracker-elite-eight-michigan-duke-uconn-2026",
-          "published": "Sun, 29 Mar 2026 19:35:15 EST",
-          "summary": "null",
+          "published": "Sun, 29 Mar 2026 23:50:23 EST",
+          "summary": "ESPN's college basketball crew breaks down Sunday's games -- including the Huskies' wild comeback.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Early Men's Final Four preview: Arizona-Michigan, UConn-Illinois predictions",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48341357/final-four-preview-arizona-michigan-uconn-illinois-predictions-2026",
+          "published": "Sun, 29 Mar 2026 22:24:13 EST",
+          "summary": "Who will cut down the nets in Indianapolis? Here's an early look at the national semifinals.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Men's March Madness 2026: Ranking the Final Four teams",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48341549/mens-march-madness-2026-ranking-ncaa-tournament-teams-final-four",
+          "published": "Sun, 29 Mar 2026 22:24:13 EST",
+          "summary": "Four teams will play for it all next weekend. Let's rank Michigan, Arizona, Illinois and UConn one final time.",
           "source": "ESPN"
         },
         {
           "title": "Mullins' last-second 3 sends UConn to Final Four",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament",
-          "published": "Sun, 29 Mar 2026 19:34:11 EST",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
           "summary": "UConn eliminated No. 1 overall seed Duke from the men's NCAA tournament on Braylon Mullins' 3-pointer with 0.4 seconds left.",
           "source": "ESPN"
         },
         {
-          "title": "UCLA rallies vs. Duke to make women's Final Four",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48341780/ucla-rallies-vs-duke-make-women-final-four",
-          "published": "Sun, 29 Mar 2026 19:34:11 EST",
-          "summary": "UCLA overcame a rare first-half deficit, battling back against an aggressive Duke defense to win 70-58 and advance to the women's Final Four.",
+          "title": "Eagles GM offers same reply to every Brown query",
+          "url": "https://www.espn.com/nfl/story/_/id/48343831/eagles-gm-howie-roseman-fields-questions-aj-brown-reiterates-aj-brown-member-eagles",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
+          "summary": "Eagles general manager Howie Roseman had a stock answer for every question about receiver A.J. Brown that he fielded from the local media at the league meetings Sunday, opting for a neutral response amid the ongoing trade speculation.",
           "source": "ESPN"
         },
         {
-          "title": "May guides Michigan to first Final Four since '18",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48341285/michigan-overwhelms-tennessee-reach-1st-final-four-2018",
-          "published": "Sun, 29 Mar 2026 19:34:11 EST",
-          "summary": "Yaxel Lendeborg scored 27 points, Elliot Cadeau had 10 assists and Michigan rolled into the Final Four, overwhelming Tennessee for a 95-62 victory in the NCAA tournament Sunday.",
+          "title": "Source: Agreed-to Epenesa-Browns deal now off",
+          "url": "https://www.espn.com/nfl/story/_/id/48343827/source-browns-opt-not-sign-aj-epenesa-physical",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
+          "summary": "The Cleveland Browns will not be signing AJ Epenesa, with the team uncomfortable finalizing the deal after the veteran defensive end had his physical, a source told ESPN on Sunday.",
           "source": "ESPN"
         },
         {
-          "title": "UConn women shed slow start, reach Final Four",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48340682/uconn-dispatches-notre-dame-reach-women-final-four",
-          "published": "Sun, 29 Mar 2026 19:34:10 EST",
-          "summary": "No. 1 UConn grinded out a 70-52 victory against No. 6 seed Notre Dame to secure its 25th Final Four appearance and 17th in the past 18 tournaments.",
+          "title": "Sources: NFL set to begin hiring replacement refs",
+          "url": "https://www.espn.com/nfl/story/_/id/48344034/nfl-begin-hiring-replacement-officials-given-state-negotiations-nfl-referees-association",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
+          "summary": "NFL owners are \"alarmed\" by the state of negotiations with the NFL Referees Association and have authorized staff members to begin hiring and onboarding replacement officials in the coming weeks, league sources said Sunday.",
           "source": "ESPN"
         },
         {
-          "title": "Woodland wins Houston by 5 amid PTSD battle",
-          "url": "https://www.espn.com/golf/story/_/id/48342395/woodland-wins-houston-open-first-title-brain-surgery",
-          "published": "Sun, 29 Mar 2026 19:34:10 EST",
-          "summary": "Gary Woodland won the Houston Open by five shots on Sunday, his first PGA Tour victory since undergoing brain surgery in 2023.",
-          "source": "ESPN"
-        },
-        {
-          "title": "GM: Garrett deal tweak not a precursor to trade",
-          "url": "https://www.espn.com/nfl/story/_/id/48340452/browns-gm-myles-garrett-contract-tweak-unrelated-trade",
-          "published": "Sun, 29 Mar 2026 19:34:11 EST",
-          "summary": "The modified language in Myles Garrett's contract is unrelated to a possible trade for the NFL's reigning Defensive Player of the Year, Browns general manager Andrew Berry said Sunday.",
+          "title": "'Gap' year? Celts win 50th as Brown jabs doubters",
+          "url": "https://www.espn.com/nba/story/_/id/48344348/jaylen-brown-pokes-fun-doubters-celtics-reach-50-wins",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
+          "summary": "The Celtics are headed back to the playoffs thanks to another 50-win season. Not too bad for a \"gap\" year, according to Jaylen Brown.",
           "source": "ESPN"
         },
         {
           "title": "Sources: St. John's inks Pitino to lucrative new deal",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48342357/st-john-men-basketball-signs-rick-pitino-new-contract-making-second-highest-paid-coach-big-east",
-          "published": "Sun, 29 Mar 2026 19:34:11 EST",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
           "summary": "Rick Pitino has signed a new deal with St. John's that makes him the second-highest-paid coach in the Big East, sources told ESPN on Sunday, confirming a report by NJ.com.",
           "source": "ESPN"
         },
         {
-          "title": "Cassidy out, Tortorella in for slumping Knights",
-          "url": "https://www.espn.com/nhl/story/_/id/48341426/golden-knights-fire-bruce-cassidy-hire-john-tortorella",
-          "published": "Sun, 29 Mar 2026 19:34:11 EST",
-          "summary": "The Golden Knights fired Bruce Cassidy on Sunday and turned to John Tortorella to replace him.",
+          "title": "Woodland wins Houston by 5 amid PTSD battle",
+          "url": "https://www.espn.com/golf/story/_/id/48342395/woodland-wins-houston-open-first-title-brain-surgery",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
+          "summary": "Gary Woodland won the Houston Open by five shots Sunday, his first PGA Tour victory since undergoing brain surgery in 2023.",
           "source": "ESPN"
         },
         {
-          "title": "🏈 NFL draft: Predicting top WR prospects' stats",
-          "url": "https://www.espn.com/nfl/story/_/id/48304971/2026-nfl-draft-wide-receiver-projections-stats-historical-comps-prospects",
-          "published": "Sun, 29 Mar 2026 19:34:11 EST",
-          "summary": "Which receivers in the 2026 draft class will have the most success in the pros? We have projections for the top prospects.",
+          "title": "Mets fans boo Bichette as early strikeouts mount",
+          "url": "https://www.espn.com/mlb/story/_/id/48342743/bo-bichette-hears-boos-mets-fans-strikeouts-mount",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
+          "summary": "Bo Bichette heard his first boos from Mets fans as he has struck out eight times in his first three games. \"I thought my at-bats were terrible, too,\" he said.",
           "source": "ESPN"
         },
         {
-          "title": "How UConn and UCLA clinched a spot in the women's Final Four",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48334068/women-march-madness-2026-previews-updates-analysis-elite-eight-uconn-ucla-duke",
-          "published": "Sun, 29 Mar 2026 18:35:10 EST",
-          "summary": "UCLA rallied to beat Duke and UConn held off Notre Dame as both No. 1 seeds won Sunday in the Elite Eight.",
-          "source": "ESPN"
-        },
-        {
-          "title": "NBA playoff watch: With postseason teams set, seeding battles begin",
-          "url": "https://www.espn.com/nba/story/_/id/48287649/nba-playoff-watch-2026-standings-schedules-projections-clinchings",
-          "published": "Sun, 29 Mar 2026 17:48:59 EST",
-          "summary": "Things are getting tight in the East. Plus, updated playoff projections, draft lottery standings after Saturday.",
+          "title": "📷 Men's NCAA Sweet 16, Elite Eight superlatives",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48334340/2026-men-march-madness-ncaa-tournament-sweet-16-elite-eight-superlatives",
+          "published": "Sun, 29 Mar 2026 23:09:34 EST",
+          "summary": "Here are nonstatistical and personality-driven superlatives from the Sweet 16 and Elite Eight rounds of the men's NCAA tournament.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "UConn and UCLA both secured spots in the Final Four, while Gary Woodland won the Houston Open amid personal challenges.",
-        "summary": "In a thrilling day of college basketball, UConn stunned top-seeded Duke with a last-second three-pointer, while UCLA also advanced to the women's Final Four by defeating Duke. Michigan and UConn's women's team also secured their spots in the Final Four. In golf, Gary Woodland claimed victory at the Houston Open, marking his first title since undergoing brain surgery. Additionally, the Golden Knights made a coaching change, and Rick Pitino signed a lucrative deal with St. John's.",
+        "key_takeaway": "UConn's dramatic last-second victory over Duke secured their place in the Final Four, while the NFL faces challenges with referee negotiations and player trades.",
+        "summary": "The sports landscape today features UConn's thrilling Elite Eight win, setting the stage for the Final Four, alongside NFL trade speculations and coaching contract developments. Gary Woodland's victory at the Houston Open marks a significant personal comeback after health challenges.",
         "key_themes": [
-          "March Madness updates",
-          "NCAA Final Four results",
-          "Gary Woodland Houston Open victory"
+          "UConn's Elite Eight victory analysis",
+          "Final Four predictions",
+          "NFL referee negotiations",
+          "Rick Pitino's new coaching deal",
+          "Gary Woodland's comeback win"
         ],
         "notable_headlines": [
           {
-            "headline": "2-seed UConn stuns 1-seed Duke with go-ahead 3 in final seconds to secure spot in Final Four",
-            "why_it_matters": "This victory highlights UConn's resilience and ability to perform under pressure, eliminating the top seed in a dramatic fashion.",
+            "headline": "Sunday's Elite Eight analysis: Inside UConn's stunning win over Duke",
+            "why_it_matters": "UConn's comeback victory highlights their resilience and sets them up as a strong contender in the Final Four.",
             "signal": "Opportunity"
           },
           {
-            "headline": "UCLA rallies vs. Duke to make women's Final Four",
-            "why_it_matters": "UCLA's comeback against a strong Duke team showcases their competitive spirit and determination in the tournament.",
+            "headline": "Mullins' last-second 3 sends UConn to Final Four",
+            "why_it_matters": "This dramatic finish not only eliminates Duke but also showcases UConn's potential in the tournament.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Gary Woodland wins Houston by 5 amid PTSD battle",
-            "why_it_matters": "Woodland's victory is a significant personal achievement, demonstrating his strength and perseverance following a serious health challenge.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Cassidy out, Tortorella in for slumping Knights",
-            "why_it_matters": "The coaching change reflects the Knights' struggles and the organization's desire to revitalize their performance.",
+            "headline": "Sources: NFL set to begin hiring replacement refs",
+            "why_it_matters": "The NFL's decision to hire replacement referees indicates ongoing issues with referee negotiations, potentially impacting the upcoming season.",
             "signal": "Risk"
           },
           {
-            "headline": "Sources: St. John's inks Pitino to lucrative new deal",
-            "why_it_matters": "Pitino's new contract solidifies his position as a key figure in college basketball, impacting recruitment and team performance.",
+            "headline": "Rick Pitino inks lucrative new deal with St. John's",
+            "why_it_matters": "Pitino's contract solidifies his position as a top coach in the Big East, impacting recruiting and team performance.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Woodland wins Houston by 5 amid PTSD battle",
+            "why_it_matters": "Woodland's victory represents a significant personal achievement following his health struggles, inspiring many.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Analysis of NCAA Final Four matchups",
-            "Updates on NBA playoff seeding",
-            "Reactions to coaching changes in NHL"
+            "Analysis of the Final Four matchups will dominate sports discussions.",
+            "Expect updates on NFL referee negotiations and potential player trades.",
+            "Further reactions to UConn's Elite Eight victory are anticipated."
           ],
           "next_1_4_weeks": [
-            "Coverage of the NCAA Final Four and championship games",
-            "Insights into the upcoming NFL draft",
-            "Follow-up on NBA playoff developments"
+            "The Final Four games will be a major focus for college basketball fans.",
+            "NFL teams will finalize their rosters as the draft approaches.",
+            "Expect more developments in coaching contracts and player trades."
           ],
           "watch_list": [
-            "NCAA tournament results",
-            "Golf tournament updates",
-            "NHL coaching changes and impacts",
-            "NFL draft predictions"
+            "UConn's performance in the Final Four",
+            "NFL referee negotiations updates",
+            "Gary Woodland's next tournament appearance",
+            "Rick Pitino's impact at St. John's"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall sports news today.",
-          "Future outcomes in sports can be unpredictable, especially in playoffs and tournaments."
+          "The sentiment score indicates mixed feelings about the overall sports news today, suggesting varying reactions among fans and analysts.",
+          "Trade negotiations and player performances can change rapidly, affecting future outlooks."
         ],
         "related_topics": [
-          "What are the latest NCAA tournament results?",
-          "Updates on Gary Woodland's career after surgery",
-          "NHL coaching changes and their implications"
+          "What are the predictions for the Final Four teams?",
+          "How did UConn secure their place in the Final Four?",
+          "What is the latest on NFL referee negotiations?",
+          "Rick Pitino's impact on St. John's basketball program",
+          "Gary Woodland's comeback story in golf."
         ]
       },
-      "tweet_text": "UConn's Mullins sinks a jaw-dropping 3 to shock Duke and send the Huskies to the Final Four—this madness just got...\n\nSports Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Final #Four #Uconn #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "UConn's last-second magic steals the show—can the Final Four handle the madness?\n\nSports Sentiment: Mixed (+0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Final #Four #Brown #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -770,20 +771,19 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific studies reveal significant health risks associated with sugar substitutes, breakthroughs in pain management, and new insights into human evolution and water behavior.",
-        "summary": "Today's science headlines cover a range of topics including health risks linked to erythritol, new findings on the Crab Pulsar, advancements in pain therapy, and insights into human origins. Notably, researchers have identified a new gene therapy for pain relief that avoids opioid addiction, while a fossil discovery in Egypt may alter our understanding of human evolution. Additionally, a breakthrough in understanding water's behavior could reshape scientific perspectives on its role in life.",
+        "key_takeaway": "New research reveals potential health risks of erythritol, while breakthroughs in pain therapy and human origins reshape scientific understanding.",
+        "summary": "Today's science headlines cover a range of significant findings, including health risks associated with erythritol, new insights into the Crab Pulsar, and advancements in pain management therapies. Additionally, discoveries in carbon capture technology and human evolution are highlighted, indicating ongoing developments in both health and environmental science.",
         "key_themes": [
           "health risks of sugar substitutes",
-          "advancements in pain management",
-          "new findings in human evolution",
-          "understanding water behavior",
           "quantum computing breakthroughs",
-          "cholesterol testing guidelines"
+          "pain management without opioids",
+          "new cholesterol guidelines",
+          "human evolution discoveries"
         ],
         "notable_headlines": [
           {
             "headline": "Popular sugar substitute linked to brain damage and stroke risk",
-            "why_it_matters": "Research indicates erythritol may pose significant health risks, challenging its safety as a common sugar substitute.",
+            "why_it_matters": "This research raises concerns about the safety of erythritol, a common sugar substitute, and its potential health implications.",
             "signal": "Risk"
           },
           {
@@ -792,51 +792,50 @@
             "signal": "Opportunity"
           },
           {
+            "headline": "This quantum computing breakthrough may not be what it seemed",
+            "why_it_matters": "The findings challenge previously accepted claims in quantum computing, highlighting the need for rigorous validation in scientific research.",
+            "signal": "Risk"
+          },
+          {
             "headline": "This new therapy turns off pain without opioids or addiction",
-            "why_it_matters": "A novel gene therapy could revolutionize pain management by providing relief without the risks associated with opioids.",
+            "why_it_matters": "This gene therapy could revolutionize pain management by providing effective relief without the risks associated with opioids.",
             "signal": "Opportunity"
           },
           {
             "headline": "New cholesterol guidelines could change when you get tested",
-            "why_it_matters": "Updated guidelines emphasize early screening and personalized prevention strategies for heart disease.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists say the evidence is clear: E-cigarettes beat patches and gum in helping smokers quit",
-            "why_it_matters": "This research supports the efficacy of e-cigarettes as a smoking cessation tool, influencing public health strategies.",
+            "why_it_matters": "The updated guidelines emphasize early screening and personalized prevention strategies for heart disease, potentially improving public health outcomes.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the health implications of erythritol is expected to emerge.",
-            "More studies on the new gene therapy for pain management may be released.",
-            "Anticipated discussions on the implications of the new cholesterol guidelines."
+            "Further analysis of erythritol's health impacts may emerge as researchers continue to investigate its effects.",
+            "Anticipate discussions on the implications of the new cholesterol guidelines in medical communities.",
+            "Expect more research on the efficacy of the new pain therapy as clinical trials progress."
           ],
           "next_1_4_weeks": [
-            "Continued exploration of the Crab Pulsar's findings may lead to new astrophysical theories.",
-            "Research on the effectiveness of e-cigarettes for smoking cessation will likely continue to evolve.",
-            "Further investigations into the implications of the fossil discovery in Egypt are expected."
+            "Continued exploration of the implications of the Crab Pulsar findings in astrophysics literature.",
+            "Potential advancements in carbon capture technology as researchers build on recent discoveries.",
+            "Further studies on the human origins discovery may lead to new insights in evolutionary biology."
           ],
           "watch_list": [
-            "Developments in pain management therapies without opioids.",
-            "Updates on cholesterol testing guidelines and their adoption in clinical practice.",
-            "New research on the health impacts of common food additives.",
-            "Follow-up studies on the Crab Pulsar and its implications for astrophysics."
+            "Monitor developments in pain management therapies and their clinical applications.",
+            "Watch for updates on the health implications of sugar substitutes like erythritol.",
+            "Keep an eye on new research related to human evolution and fossil discoveries.",
+            "Follow advancements in quantum computing validation methods."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The health risks associated with erythritol are still being studied and may evolve as more data becomes available.",
-          "The findings on the Crab Pulsar are based on new interpretations and may require further validation.",
-          "The effectiveness of new therapies and guidelines will depend on clinical trials and real-world applications."
+          "The mixed sentiment indicates that while some findings are promising, others raise significant concerns that require further investigation.",
+          "The complexity of scientific research means that initial findings may evolve as more data becomes available."
         ],
         "related_topics": [
           "What are the health risks of erythritol?",
-          "Latest advancements in pain management therapies",
+          "Latest breakthroughs in pain management therapies",
           "How do new cholesterol guidelines affect testing?",
-          "Recent discoveries in human evolution",
-          "What is the significance of the Crab Pulsar findings?"
+          "What recent discoveries have reshaped human evolution?",
+          "Understanding the Crab Pulsar and its significance"
         ]
       },
       "tweet_text": "Is your sweet tooth putting your brain at risk? Discover the shocking truth behind popular sugar substitutes!\n\nScience Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Brain #Change #Explain #Science #BreakingNews #News #WorldNews #Headlines #Trending"
