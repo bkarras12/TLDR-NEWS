@@ -1,11 +1,15 @@
 {
   "date": "2026-04-01",
-  "generated_at_utc": "2026-04-01T14:59:34Z",
+  "generated_at_utc": "2026-04-01T23:46:05Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "trumps",
+    "trump",
+    "judge",
     "iran",
-    "2026"
+    "price",
+    "artemis"
   ],
   "categories": {
     "world": {
@@ -17,16 +21,16 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2028,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.338, dampened ×0.6 → -0.2028). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.31,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.517, dampened ×0.6 → -0.3100). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "China is trying to play peacemaker in the Iran war - will it work?",
-          "url": "https://www.bbc.com/news/articles/cze0kz7gr84o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 01 Apr 2026 07:16:15 GMT",
-          "summary": "It's a turnaround for Beijing, whose official response has been muted so far. Why is China stepping in now?",
+          "title": "What do Trump's latest comments on leaving Nato mean for the alliance?",
+          "url": "https://www.bbc.com/news/articles/c79je4vldq5o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 01 Apr 2026 16:31:17 GMT",
+          "summary": "Trump has criticised Nato members for showing a lack of support for US objectives in Iran.",
           "source": "BBC News"
         },
         {
@@ -37,17 +41,17 @@
           "source": "BBC News"
         },
         {
+          "title": "Families cram into Greek court for trial into deadliest train crash",
+          "url": "https://www.bbc.com/news/articles/cx2wq13758no?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 01 Apr 2026 16:30:17 GMT",
+          "summary": "Fifty-seven people were killed when two trains collided in 2023 in the worst rail accident in Greek history, with 36 accused in a trial expected to last years.",
+          "source": "BBC News"
+        },
+        {
           "title": "Peter Magyar, the former Orban ally vying for power in Hungary",
           "url": "https://www.bbc.com/news/articles/c78l7vyylgqo?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 01 Apr 2026 13:43:10 GMT",
           "summary": "Magyar represents the biggest threat to Viktor Orban's rule in Hungary since he won the first of four consecutive victories in 2010.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Russian military plane crash kills 29 in occupied Crimea",
-          "url": "https://www.bbc.com/news/articles/cly6387xgqxo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 01 Apr 2026 09:55:28 GMT",
-          "summary": "Russian authorities say a technical malfunction caused the An-26 to crash into a cliff.",
           "source": "BBC News"
         },
         {
@@ -65,9 +69,16 @@
           "source": "BBC News"
         },
         {
+          "title": "Trump to give primetime address on war as questions swirl over his next move",
+          "url": "https://www.bbc.com/news/articles/c74vqd8k3g1o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 01 Apr 2026 17:07:51 GMT",
+          "summary": "The US president finds himself under growing pressure at home to avoid a protracted conflict.",
+          "source": "BBC News"
+        },
+        {
           "title": "Explosions at Burundi ammunition depot kill civilians, witnesses say",
           "url": "https://www.bbc.com/news/articles/c5y7x7qre0zo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 01 Apr 2026 14:46:52 GMT",
+          "published": "Wed, 01 Apr 2026 16:26:19 GMT",
           "summary": "Powerful blasts destroyed homes and sparked panic in the city of Bujumbura on Tuesday night.",
           "source": "BBC News"
         },
@@ -95,89 +106,81 @@
         {
           "title": "Megan Thee Stallion taken to hospital during Moulin Rouge performance",
           "url": "https://www.bbc.com/news/articles/c86e1403793o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 01 Apr 2026 05:30:52 GMT",
-          "summary": "The rapper \"started feeling very ill\" mid-way through the show in New York, her representative told US media.",
-          "source": "BBC News"
-        },
-        {
-          "title": "DR Congo declares national holiday after reaching World Cup for first time in 52 years",
-          "url": "https://www.bbc.com/news/articles/cm296yv05eeo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 01 Apr 2026 13:50:56 GMT",
-          "summary": "This is just the second time that DR Congo have reached the World Cup finals, sparking celebrations in Kinshasa.",
+          "published": "Wed, 01 Apr 2026 23:16:58 GMT",
+          "summary": "The rapper says she felt faint while performing in the Broadway show and was later diagnosed with \"extreme exhaustion\".",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "China's intervention in the Iran conflict raises questions about its role as a peacemaker amid ongoing global tensions.",
-        "summary": "Today's headlines highlight significant global events, including China's diplomatic efforts in Iran, escalating violence in Lebanon, and a tragic plane crash in Crimea. Additionally, Italy's World Cup failure and civil unrest in Burundi are notable stories, alongside developments in South Africa and Brazil.",
+        "key_takeaway": "Global tensions rise as Israel intensifies military actions in Lebanon and Trump faces scrutiny over NATO comments amid ongoing conflicts.",
+        "summary": "Today's headlines reflect a range of global issues, including military actions in the Middle East, political challenges in Hungary, and social unrest in South Africa. The sentiment is predominantly negative, highlighting concerns over international relations and domestic pressures in various countries.",
         "key_themes": [
-          "China's role in global diplomacy",
-          "Israel-Lebanon conflict updates",
-          "Hungary's political landscape",
-          "Russian military incidents",
-          "South Africa's crime response"
+          "Israel military actions in Lebanon",
+          "Trump NATO comments implications",
+          "Hungary political landscape changes",
+          "South Africa crime and military intervention",
+          "Burundi ammunition depot explosions news"
         ],
         "notable_headlines": [
           {
-            "headline": "China is trying to play peacemaker in the Iran war - will it work?",
-            "why_it_matters": "China's involvement could shift the dynamics of the Iran conflict and influence regional stability.",
-            "signal": "Unclear"
+            "headline": "What do Trump's latest comments on leaving Nato mean for the alliance?",
+            "why_it_matters": "Trump's criticism of NATO could impact US relations with allies and the alliance's cohesion.",
+            "signal": "Risk"
           },
           {
             "headline": "Israel intensifies Lebanon attacks and hits areas not in Hezbollah's control",
-            "why_it_matters": "The escalation of military actions may lead to broader regional instability and humanitarian concerns.",
+            "why_it_matters": "Escalation of military actions could lead to broader regional instability.",
             "signal": "Risk"
           },
           {
-            "headline": "Russian military plane crash kills 29 in occupied Crimea",
-            "why_it_matters": "The incident raises questions about military safety and operational protocols in conflict zones.",
-            "signal": "Risk"
+            "headline": "Families cram into Greek court for trial into deadliest train crash",
+            "why_it_matters": "The trial represents a significant moment for accountability in Greece's transportation safety.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Peter Magyar, the former Orban ally vying for power in Hungary",
+            "why_it_matters": "Magyar's challenge could reshape Hungary's political landscape and impact Orban's long-standing rule.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Explosions at Burundi ammunition depot kill civilians, witnesses say",
-            "why_it_matters": "Civilian casualties in such incidents highlight ongoing security issues in Burundi.",
+            "why_it_matters": "The incident raises concerns about safety and governance in Burundi amid ongoing unrest.",
             "signal": "Risk"
-          },
-          {
-            "headline": "South African army arrive in crime hotspots to help tackle gangs",
-            "why_it_matters": "The deployment reflects the government's response to escalating crime and public safety concerns.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Iran conflict and China's diplomatic efforts.",
-            "Watch for updates on the situation in Lebanon and Israel's military strategy.",
-            "Follow the aftermath of the plane crash in Crimea and its implications for Russian military operations."
+            "Monitor developments in Israel-Lebanon tensions and potential international responses.",
+            "Watch for reactions to Trump's NATO comments from European leaders.",
+            "Follow updates on the trial related to the Greek train crash."
           ],
           "next_1_4_weeks": [
-            "Observe the political landscape in Hungary as Peter Magyar challenges Viktor Orban.",
-            "Track the impact of the Iran war on global economies, particularly in Australia.",
-            "Assess the effectiveness of South Africa's military intervention in crime hotspots."
+            "Observe the political landscape in Hungary as Magyar's challenge unfolds.",
+            "Assess the impact of military interventions in South Africa on crime rates.",
+            "Evaluate the long-term effects of the Burundi explosions on local governance."
           ],
           "watch_list": [
-            "China's diplomatic initiatives in the Middle East",
-            "Israel's military actions in Lebanon",
-            "Political developments in Hungary",
-            "Civil unrest and security in Burundi",
-            "Crime rates and military response in South Africa"
+            "International reactions to Israel's military actions in Lebanon.",
+            "Trump's upcoming address regarding the war and NATO.",
+            "Progress of the trial in Greece regarding the train crash.",
+            "Political developments in Hungary surrounding Peter Magyar."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and may change rapidly.",
-          "Local reactions to military actions can vary significantly and may not be fully reported.",
-          "Political dynamics in Hungary may evolve as elections approach."
+          "The situation in Israel and Lebanon is fluid and may change rapidly.",
+          "Political dynamics in Hungary could evolve with new developments.",
+          "The impact of the Burundi explosions on civilian safety remains to be fully assessed."
         ],
         "related_topics": [
-          "What is China's role in the Iran conflict?",
-          "Latest updates on the Israel-Lebanon conflict",
-          "Political challenges facing Viktor Orban in Hungary",
-          "Impact of the Russian plane crash in Crimea",
-          "South Africa's military response to crime"
+          "What are the implications of Trump's NATO comments?",
+          "How is Israel's military action affecting Lebanon?",
+          "What is the latest on the Greek train crash trial?",
+          "What political changes are happening in Hungary?",
+          "How is South Africa addressing crime with military intervention?"
         ]
       },
-      "tweet_text": "Chaos reigns as China attempts to broker peace in the Iran conflict, while tragedy strikes in Crimea and Italy...\n\nWorld Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ally #Ammunition #Apocalypse #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Trump's NATO remarks could send shockwaves through global alliances—what's at stake?\n\nWorld Sentiment: Negative (-0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Address #Alliance #Ally #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -188,16 +191,23 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1074,
+        "score": -0.0846,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.179, dampened ×0.6 → -0.1074). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.141, dampened ×0.6 → -0.0846). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Oil tumbles and stock markets soar on hopes Middle East war will end soon, as Bank of England warns of ‘substantial negative supply shock’ – business live",
-          "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
-          "published": "Wed, 01 Apr 2026 14:45:22 GMT",
-          "summary": "<p>Brent crude prices have fallen sharply, while the FTSE 100 is up 1.8% and government bonds are rallying</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/apr/01/uk-food-inflation-iran-war-drives-up-energy-prices\"><strong>UK food inflation ‘could hit 9% this year’ as Iran war drives up energy prices</strong></a></p></li><li><p><a href=\"https://www.theguardian.com/world/middle-east-live/live/2026/apr/01/iran-live-updates-trump-claims-war-will-end-rubio-nato-relationship\"><strong>",
+          "title": "SpaceX confidentially files to go public at $1.75tn, reports say",
+          "url": "https://www.theguardian.com/technology/2026/apr/01/spacex-public-offering-stock-market",
+          "published": "Wed, 01 Apr 2026 17:45:58 GMT",
+          "summary": "<p>Elon Musk’s rocket company could go public as early as June, Bloomberg reports</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a></p></li></ul><p>SpaceX has confidentially filed",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Oil price falls and markets rally after Trump says Iran war over in ‘two to three weeks’",
+          "url": "https://www.theguardian.com/world/2026/apr/01/iran-war-oil-prices-trump-crude-stock-markets-business-us-israel-middle-east",
+          "published": "Wed, 01 Apr 2026 12:23:29 GMT",
+          "summary": "<p>US president’s claim that conflict is nearing end prompts 15% drop in Brent crude and stock market climb in Asia</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates\">Business live – latest updates</a></p></li></ul><p>Oil prices tumbled and stock markets have rallied across the world after Donald Trump said <a href=\"https://www.theguardian.com/world/middle-east-live/live/20",
           "source": "The Guardian"
         },
         {
@@ -250,13 +260,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Putting the ‘lord’ in ‘landlord’: US churches step up to build housing amid shortage",
-          "url": "https://www.theguardian.com/society/2026/mar/29/yigby-churches-build-housing-amid-shortage",
-          "published": "Sun, 29 Mar 2026 11:00:02 GMT",
-          "summary": "<p>The ‘Yes in God’s Back Yard’ movement sees churches across the country develop their underutilized land into affordable housing</p><p>A parcel of land behind Little Rock AME Zion church in Charlotte, North Carolina, remained mostly empty for nearly a decade before the congregation approached the city with a proposal.</p><p>The land sat unused while housing prices climbed and locals were being pushed out of their neighborhoods. So, the church proposed in 2018, why not develop housing there?</p",
-          "source": "The Guardian"
-        },
-        {
           "title": "Florida space coast cities abuzz before Nasa’s Artemis launch: ‘At the doorstep of the future’",
           "url": "https://www.theguardian.com/us-news/2026/mar/30/nasa-artemis-launch-florida",
           "published": "Mon, 30 Mar 2026 12:00:09 GMT",
@@ -279,74 +282,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Oil prices have dropped while stock markets have risen amid hopes for an end to the Middle East conflict, despite warnings of economic impacts.",
-        "summary": "Today's business news highlights a significant drop in oil prices alongside a rise in stock markets, driven by optimism regarding the resolution of the Middle East conflict. Oracle is cutting thousands of jobs as it shifts focus towards AI investments, while US fuel prices have surpassed $4 per gallon for the first time in four years, influenced by the ongoing war in Iran. Additionally, Washington state is implementing a millionaire tax aimed at the ultra-wealthy, raising questions about its potential success. The overall sentiment remains mixed, reflecting both optimism in certain sectors and concerns over economic repercussions.",
+        "key_takeaway": "SpaceX confidentially files for a public offering, while oil prices drop and markets rally following Trump's comments on the Iran conflict.",
+        "summary": "Today's business news highlights significant developments including SpaceX's potential IPO, a drop in oil prices linked to geopolitical tensions, and job cuts at Oracle as it shifts focus to AI investments.",
         "key_themes": [
+          "SpaceX IPO news",
           "Oil price fluctuations",
-          "Impact of Middle East conflict on markets",
-          "Job cuts in tech sector",
-          "US fuel price trends",
-          "Millionaire tax implications in Washington"
+          "Oracle job cuts and AI investment",
+          "US fuel price increase",
+          "Washington millionaire tax implications"
         ],
         "notable_headlines": [
           {
-            "headline": "Oil tumbles and stock markets soar on hopes Middle East war will end soon",
-            "why_it_matters": "The drop in oil prices and rise in stock markets indicate investor optimism about geopolitical stability, despite warnings of economic challenges ahead.",
+            "headline": "SpaceX confidentially files to go public at $1.75tn, reports say",
+            "why_it_matters": "This move could reshape the space industry and attract significant investor interest.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Oil price falls and markets rally after Trump says Iran war over in ‘two to three weeks’",
+            "why_it_matters": "The statement has immediate effects on global oil prices and stock market performance.",
             "signal": "Opportunity"
           },
           {
             "headline": "US tech firm Oracle cuts thousands of jobs as it steps up AI spending",
-            "why_it_matters": "Oracle's job cuts reflect a strategic shift towards AI, raising concerns about workforce stability in the tech sector.",
+            "why_it_matters": "This reflects a broader trend in the tech industry prioritizing AI over traditional workforce structures.",
             "signal": "Risk"
           },
           {
             "headline": "US average fuel price passes $4 a gallon for first time in four years amid Iran war",
-            "why_it_matters": "Rising fuel prices could impact consumer spending and inflation, complicating the economic landscape.",
+            "why_it_matters": "Rising fuel prices could impact consumer spending and inflation rates.",
             "signal": "Risk"
           },
           {
             "headline": "Washington state’s ‘historic’ millionaire tax takes aim at super-rich – will it succeed?",
-            "why_it_matters": "This tax initiative could set a precedent for other states, influencing wealth distribution policies nationwide.",
+            "why_it_matters": "This tax could set a precedent for other states considering similar measures against wealth inequality.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "If OpenAI is to float on the stock market this year, it needs to start turning a profit",
-            "why_it_matters": "OpenAI's potential IPO hinges on its ability to demonstrate profitability, impacting investor confidence in the AI sector.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Middle East for potential impacts on oil and stock markets.",
-            "Watch for further announcements from Oracle regarding job cuts and AI investments.",
-            "Keep an eye on fuel price trends and their effects on consumer behavior."
+            "Monitoring SpaceX's IPO developments and investor reactions.",
+            "Observing oil price trends in response to geopolitical updates.",
+            "Tracking Oracle's restructuring and its impact on the tech job market."
           ],
           "next_1_4_weeks": [
-            "Evaluate the effectiveness of Washington state's millionaire tax and its reception among residents and businesses.",
-            "Observe how tech companies adapt to workforce changes and AI investments in the coming weeks.",
-            "Anticipate market reactions to any geopolitical changes in the Middle East."
+            "Evaluating the long-term effects of the Iran conflict on oil prices and market stability.",
+            "Assessing the implementation and impact of Washington's millionaire tax on high earners.",
+            "Watching for potential IPO announcements from other tech companies."
           ],
           "watch_list": [
-            "Oil price trends and stock market performance",
-            "Job market shifts in the tech industry",
-            "Consumer spending patterns in response to rising fuel prices",
-            "Legislative developments regarding millionaire taxes in other states"
+            "SpaceX IPO news updates",
+            "Oil price trends and market reactions",
+            "Oracle's AI strategy and job market implications",
+            "Washington millionaire tax developments"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The geopolitical situation in the Middle East remains fluid and could change rapidly, impacting market conditions.",
-          "Job cuts in the tech sector may lead to broader economic implications that are not yet fully understood."
+          "The geopolitical situation remains fluid, which could rapidly change market conditions.",
+          "Job cuts at Oracle may signal broader trends in the tech industry, but the full impact is yet to be seen."
         ],
         "related_topics": [
-          "What are the latest trends in oil prices?",
-          "How is the tech industry responding to AI investments?",
-          "What is the impact of rising fuel prices on the economy?",
-          "What are the implications of Washington state's millionaire tax?",
-          "How are global markets reacting to the Middle East conflict?"
+          "What are the implications of SpaceX's IPO?",
+          "How are oil prices affected by geopolitical events?",
+          "What is the impact of Oracle's job cuts on the tech industry?",
+          "What does the Washington millionaire tax mean for high earners?",
+          "How is the US fuel price trend affecting consumers?"
         ]
       },
-      "tweet_text": "Oil prices plunge while stocks skyrocket—can peace in the Middle East rescue the economy?\n\nBusiness Sentiment: Mixed (-0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Stock #Amid #Average #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "SpaceX aims for a $1.75 trillion IPO as markets react to Trump's bold claims on the Iran war—could this shift...\n\nBusiness Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Price #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -357,151 +360,149 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1946,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.324, dampened ×0.6 → +0.1946). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0114,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.019, dampened ×0.6 → +0.0114). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Amazon&#8217;s Big Spring Sale 2026: all of the latest deals",
-          "url": "https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news",
-          "published": "2026-04-01T10:44:38-04:00",
-          "summary": "If you were looking for the best time to get a deal this spring, it might have just passed you by, as Amazon&#8217;s Big Spring Sale is over. That being said, several deals are still happening (some companies list April 1st as the final day to save). So, we’re still highlighting the best that the [&#8230;]",
+          "title": "Trump’s birthright citizenship ban may fail — but the administration already got too far",
+          "url": "https://www.theverge.com/policy/905649/trump-supreme-court-birthright-citizenship-scotus-arguments",
+          "published": "2026-04-01T19:39:15-04:00",
+          "summary": "On Wednesday morning, the Supreme Court heard arguments in Trump v. Barbara, a case challenging President Donald Trump's 2025 executive order banning birthright citizenship. Justices seemed skeptical of the administration's argument, but by taking up birthright citizenship at all, they showed how much ground nativists have gained since Trump's first term. The 14th Amendment is [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "NASA launches four astronauts toward the Moon on the Artemis II mission",
+          "url": "https://www.theverge.com/science/904458/nasa-artemis-ii-mission-moon-astronauts",
+          "published": "2026-04-01T18:44:30-04:00",
+          "summary": "NASA's Artemis II flight, which is set to take four astronauts toward the Moon for the first time in more than 50 years, successfully launched on Wednesday evening. The Artemis II mission, part of NASA's Artemis program that's intended to bring humans back onto the Moon as early as 2028, will bring the four astronauts [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Artemis Moon base project is legally dubious",
+          "url": "https://www.theverge.com/science/905406/artemis-ii-moon-base-law",
+          "published": "2026-04-01T15:05:23-04:00",
+          "summary": "With NASA planning to launch four astronauts on Wednesday on its Artemis II mission, the race to return to the Moon is back on. The current mission will see astronauts aboard the Orion capsule travel around the Moon before returning to Earth in 10 days' time. They'll be testing out the hardware and systems that [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Everything is iPhone now",
+          "url": "https://www.theverge.com/tech/905398/apple-iphone-anniversary-jobs-release",
+          "published": "2026-04-01T14:02:52-04:00",
+          "summary": "This is part of our package about Apple's 50th anniversary. Read more here. The thing about the iPhone is that everyone knew it was going to be a big deal, and then it was an even bigger deal than that. Hell, it's still the biggest thing going. It's hard to remember, but almost 20 years [&#8230;]",
           "source": "The Verge"
         },
         {
           "title": "April Fools’ Day 2026: the best and cringiest pranks",
           "url": "https://www.theverge.com/tldr/904346/april-fools-day-2026-pranks-jokes-best-worst",
-          "published": "2026-04-01T10:44:22-04:00",
+          "published": "2026-04-01T13:59:04-04:00",
           "summary": "Welcome to the worst day on the internet! As Chaim Gartenberg pointed out years ago, brands and a holiday dedicated to hoaxes are rarely a winning combo. If you’re a company with any kind of social media, internet, or AI chatbot presence in 2026, you really, truly only have four options on April Fools’ Day: [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The best Amazon Big Spring Sale deals you can still get",
-          "url": "https://www.theverge.com/gadgets/905059/best-amazon-big-spring-sale-2026-deals-you-can-still-get",
-          "published": "2026-04-01T10:41:22-04:00",
-          "summary": "Amazon’s Big Spring Sale is technically over, but not all of the deals are gone. In fact, dozens of deals are still here and selling at the same prices, while other discounts aren’t quite as low as before. If you didn’t partake in the past week of savings, some companies list today as the final [&#8230;]",
+          "title": "Kia&#8217;s compact EV3 is coming to the US this year, with 320 miles of range",
+          "url": "https://www.theverge.com/transportation/905363/kia-ev3-north-america-launch",
+          "published": "2026-04-01T13:50:15-04:00",
+          "summary": "At the New York International Auto Show on Wednesday, Kia announced that its compact electric SUV, the EV3, will be available in the US \"in late 2026.\" The EV3 has been available overseas since 2024, when it launched in South Korea and Europe. The 2027 model coming to the US appears to have the same [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Korg Handytraxx Play finally got me learning to scratch",
-          "url": "https://www.theverge.com/tech/898696/korg-handytraxx-play-dj-scratching-turntable-review",
-          "published": "2026-04-01T10:30:00-04:00",
-          "summary": "About 20 years ago, I bought a turntable with the idea that it would be a staple of my music-making setup. I dreamed of learning to scratch and digging through dollar bin vinyl for samples. Instead, it just got hooked up to a stereo. But a few months ago, I got my hands on the [&#8230;]",
+          "title": "The Shokz OpenRun Pro 2 are now at their lowest price in months",
+          "url": "https://www.theverge.com/gadgets/905292/shokz-openrun-pro-2-ember-mug-2-deal-sale",
+          "published": "2026-04-01T13:11:50-04:00",
+          "summary": "As the days get warmer, it’s tempting to take your workouts outside. Bone conduction headphones let you listen while staying aware of your surroundings, making them ideal for runs, walks, and more. Through April 7th, Shokz is discounting several models during its spring sale, from the Shokz OpenFit Air Earbuds to the OpenDots One clip. [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "A YouTuber channeled his distaste for the PS5’s design into slick console covers",
-          "url": "https://www.theverge.com/tech/904086/boxplates-ps5-pro-slim-console-covers-hands-on",
-          "published": "2026-04-01T10:00:00-04:00",
-          "summary": "The PlayStation 5's curvy design is divisive. The Verge's Andrew Webster called it a \"robotic clam\" in his 2020 review, which is actually kind of endearing. Personally, I kind of got over hating it sometime during the past almost-six years of its existence. Small form factor PC enthusiast Devyn Johnston is someone who did not [&#8230;]",
+          "title": "I tested a living room full of cheap Ikea speakers against Sonos and Bose",
+          "url": "https://www.theverge.com/tech/904822/ikea-kallsup-bluetooth-speaker-review",
+          "published": "2026-04-01T12:30:00-04:00",
+          "summary": "Ikea's $10 Kallsup Bluetooth speaker is fun and colorful and sounds better than its price suggests. It's not mind-blowing (it is a $10 speaker, after all), and there are no features to speak of, other than the ability to connect up to 100 of them together, but at that price, I don't really care. They're [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Nintendo is weathering the storm",
-          "url": "https://www.theverge.com/games/904653/nintendo-games-industry-success",
-          "published": "2026-04-01T09:30:00-04:00",
-          "summary": "Things aren't going so well in the video game industry. Consoles are getting more expensive, games are shutting down, layoffs are prevalent, the live-service space is a mess, major platforms are entering eras of uncertainty, and AI is infiltrating the medium in frustrating ways. Finding a bright spot is rare. But amid all of that, [&#8230;]",
+          "title": "Snapchat&#8217;s &#8216;Reals&#8217; joke mocks Instagram&#8217;s many ripoffs",
+          "url": "https://www.theverge.com/tech/905272/snapchat-reals-spotlight-instagram-feed-april-fools-day-2026",
+          "published": "2026-04-01T12:24:37-04:00",
+          "summary": "It's April Fools' Day, and Snap is using the occasion to \"announce\" that it's switching the name of Snapchat's Spotlight feed, the app's Instagram Reels-like feed of shortform vertical videos, to \"Reals.\" In a video featuring co-founder and CEO Evan Spiegel, Snap also includes a description of \"Reals\" as a place where \"real people share [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Today is the final day to save up to $150 on a PS5 before the price goes up",
-          "url": "https://www.theverge.com/gadgets/904614/playstation-5-ps5-pro-digital-edition-refurbished-deal-sale-price-increase",
-          "published": "2026-04-01T09:21:21-04:00",
-          "summary": "The cost of the PlayStation Portal and every PlayStation 5 console is going up tomorrow, April 2nd, by as much as $150 in some cases. That means time is running out if you want to save yourself the money you’d soon have to spend to secure a PS5, which is why I’m going to point [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "AI can push your Stream Deck buttons for you",
-          "url": "https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update",
-          "published": "2026-04-01T08:38:58-04:00",
-          "summary": "If you're tired of controlling Stream Deck devices by manually pushing buttons, then good news: Elgato will now let you delegate that task to a chatbot instead. The Stream Deck 7.4 software update released today introduces Model Context Protocol (MCP) support, allowing AI assistants like Claude, ChatGPT, and Nvidia G-Assist to find and activate Stream [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Baidu’s robotaxis froze in traffic, creating chaos",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china",
-          "published": "2026-04-01T06:39:52-04:00",
-          "summary": "Numerous robotaxis operated by Chinese tech giant Baidu froze in a major city on Tuesday, reportedly trapping passengers inside, stranding them on highways, and causing at least one accident in snarled traffic. Police in Wuhan confirmed receiving multiple reports of Baidu's Apollo Go robotaxis stopping in the middle of streets and being unable to move. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The best deals to shop during the last few hours of Amazon’s Big Spring Sale",
-          "url": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
-          "published": "2026-03-31T21:14:30-04:00",
-          "summary": "Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third annual Big Spring Sale, which runs through 11:59PM PT tonight, the retail behemoth is hoping to lure in would-be shoppers with the promise of steep(ish) savings and discounts on more seasonal, spring-centric items to hold folks over [&#8230;]",
+          "title": "The Trump administration&#8217;s antitrust honeymoon is over",
+          "url": "https://www.theverge.com/policy/905222/antitrust-trump-tech-live-nation",
+          "published": "2026-04-01T11:55:39-04:00",
+          "summary": "\"It's not personal, Sonny, it's strictly business.\" That quote was first delivered by mob boss Michael Corleone in The Godfather, but last Monday, it became the title of a speech by the Justice Department's acting antitrust chief Omeed Assefi. At a George Washington University event co-hosted with the publication MLex, Assefi described an agency firing [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Amazon's Big Spring Sale has ended, but some deals remain available as consumers rush to save before price increases on gaming consoles.",
-        "summary": "Today's technology news highlights the conclusion of Amazon's Big Spring Sale, ongoing discussions around April Fools' Day pranks, and various developments in gaming and AI technology. Notably, Baidu's robotaxis faced significant operational issues, while Elgato introduced AI support for Stream Deck devices. Additionally, a YouTuber has created custom PS5 console covers in response to the console's design, and Nintendo continues to navigate challenges in the gaming industry.",
+        "key_takeaway": "NASA successfully launched the Artemis II mission, marking a significant step towards returning humans to the Moon.",
+        "summary": "Today's technology news highlights NASA's Artemis II mission launch, the legal challenges of the Artemis Moon base project, and various updates from the tech industry including product launches and April Fools' Day pranks.",
         "key_themes": [
-          "Amazon Spring Sale 2026",
-          "April Fools' Day technology pranks",
-          "Baidu robotaxi operational issues",
-          "AI integration in gaming devices",
-          "PS5 design controversy"
+          "NASA Artemis II mission launch",
+          "legal issues surrounding Moon base project",
+          "Apple's iPhone anniversary",
+          "Kia EV3 electric SUV announcement",
+          "April Fools' Day tech pranks"
         ],
         "notable_headlines": [
           {
-            "headline": "Amazon's Big Spring Sale 2026: all of the latest deals",
-            "why_it_matters": "Despite the sale's end, some deals are still available, impacting consumer purchasing decisions.",
+            "headline": "NASA launches four astronauts toward the Moon on the Artemis II mission",
+            "why_it_matters": "This mission represents a pivotal moment in NASA's efforts to return humans to the Moon after over 50 years.",
             "signal": "Opportunity"
           },
           {
-            "headline": "April Fools’ Day 2026: the best and cringiest pranks",
-            "why_it_matters": "Brands struggle to balance humor and marketing on a day dedicated to hoaxes, affecting their online presence.",
+            "headline": "The Artemis Moon base project is legally dubious",
+            "why_it_matters": "Legal uncertainties could impact the future of lunar exploration and habitation plans.",
             "signal": "Risk"
           },
           {
-            "headline": "Nintendo is weathering the storm",
-            "why_it_matters": "Amid industry challenges, Nintendo's resilience highlights its unique position in the gaming market.",
+            "headline": "Kia's compact EV3 is coming to the US this year, with 320 miles of range",
+            "why_it_matters": "The introduction of the EV3 expands Kia's electric vehicle offerings in the competitive US market.",
             "signal": "Opportunity"
           },
           {
-            "headline": "AI can push your Stream Deck buttons for you",
-            "why_it_matters": "Elgato's new AI feature enhances user experience by automating device control, showcasing AI's growing role in tech.",
-            "signal": "Opportunity"
+            "headline": "Everything is iPhone now",
+            "why_it_matters": "Reflecting on the iPhone's impact highlights its significance in the tech landscape over the past 50 years.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Baidu’s robotaxis froze in traffic, creating chaos",
-            "why_it_matters": "Operational failures of autonomous vehicles raise concerns about safety and reliability in AI technology.",
-            "signal": "Risk"
+            "headline": "Snapchat's 'Reals' joke mocks Instagram's many ripoffs",
+            "why_it_matters": "This playful jab at competitors showcases the ongoing rivalry in the social media space.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor consumer reactions to remaining Amazon deals",
-            "Watch for responses to Baidu's robotaxi incident",
-            "Expect more April Fools' Day tech-related content"
+            "Monitoring reactions to the Artemis II mission launch",
+            "Anticipating further developments in the legal challenges to the Artemis Moon base project",
+            "Watching for consumer responses to Kia's EV3 announcement"
           ],
           "next_1_4_weeks": [
-            "Anticipate updates on AI integration in consumer tech",
-            "Follow developments in the gaming industry post-price increases",
-            "Observe trends in consumer electronics sales"
+            "Tracking updates on the performance of the Artemis II mission",
+            "Observing the market response to new tech products and April Fools' Day campaigns",
+            "Following legal developments regarding antitrust issues in the tech industry"
           ],
           "watch_list": [
-            "Elgato Stream Deck updates",
-            "Baidu's autonomous vehicle performance",
-            "Nintendo's upcoming game releases and strategies",
-            "PS5 design alternatives"
+            "Artemis II mission updates",
+            "Kia EV3 market launch",
+            "Apple's ongoing product developments",
+            "Social media trends post-April Fools' Day"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall technology landscape today.",
-          "Consumer reactions to sales and product designs can vary widely."
+          "The legal status of the Artemis Moon base project remains uncertain and could evolve rapidly.",
+          "Consumer reactions to new products can be unpredictable and may affect market dynamics."
         ],
         "related_topics": [
-          "What are the latest Amazon Spring Sale deals?",
-          "How did brands handle April Fools' Day 2026?",
-          "What happened with Baidu's robotaxi incident?",
-          "Latest updates on AI in gaming technology",
-          "PS5 design changes and consumer feedback"
+          "What are the latest updates on NASA's Artemis II mission?",
+          "What legal challenges does the Artemis Moon base project face?",
+          "How is the tech industry responding to April Fools' Day?"
         ]
       },
-      "tweet_text": "Amazon's Big Spring Sale is here—snag the deals before they're gone and get ready to save big!\n\nTechnology Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#2026 #Best #Deals #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "NASA’s Artemis II is a giant leap for mankind, but is the Moon base dream already in legal trouble?\n\nTechnology Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Artemis #Moon #2026 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -512,167 +513,166 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.102,
+        "score": -0.1237,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.170, dampened ×0.6 → -0.1020). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.206, dampened ×0.6 → -0.1237). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Ranking every starter in the men's Final Four",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48364142/mens-final-four-player-starter-ranking-arizona-michigan-uconn-illinois-2026",
-          "published": "Wed, 1 Apr 2026 09:34:43 EST",
-          "summary": "Arizona, Michigan, UConn and Illinois each have a representative in the top five -- but one semifinalist has two.",
+          "title": "NBA Power Rankings: What to watch over the final two weeks for all 30 teams",
+          "url": "https://www.espn.com/nba/story/_/id/48356634/nba-power-rankings-watch-final-two-weeks-all-30-teams",
+          "published": "Wed, 1 Apr 2026 19:30:41 EST",
+          "summary": "With just a handful of matchups left for each team in the regular season, where do all 30 teams land in this week's Power Rankings?",
           "source": "ESPN"
         },
         {
-          "title": "'There's not one path': The unexpected rise of Keaton Wagler at Illinois",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48037112/keaton-wagler-rise-illinois-freshman",
-          "published": "Wed, 1 Apr 2026 09:34:43 EST",
-          "summary": "The Fighting Illini star has ascended toward the top of a historically talented freshman class.",
+          "title": "Draymond Green reflects on his future amid uncertainty in Golden State",
+          "url": "https://www.espn.com/nba/story/_/id/48359923/draymond-green-reflects-future-amid-uncertainty-golden-state-warriors",
+          "published": "Wed, 1 Apr 2026 19:30:41 EST",
+          "summary": "As the Warriors face another season lost to injuries, Green confronts an uncertain future.",
           "source": "ESPN"
         },
         {
-          "title": "Tiger stepping away from golf to seek treatment",
-          "url": "https://www.espn.com/golf/story/_/id/48361336/tiger-woods-stepping-away-golf-seek-treatment",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "In a statement four days after his arrest in Florida, Tiger Woods said Tuesday he is \"committed to taking the time needed to return to a healthier, stronger, and more focused place, both personally and professionally.\"",
+          "title": "Woods can leave U.S. for treatment, judge rules",
+          "url": "https://www.espn.com/golf/story/_/id/48371629/judge-grants-tiger-woods-permission-leave-us-treatment",
+          "published": "Wed, 1 Apr 2026 19:13:51 EST",
+          "summary": "A Florida judge granted Tiger Woods' request on Wednesday to travel outside the U.S. and enter a comprehensive inpatient treatment facility.",
           "source": "ESPN"
         },
         {
-          "title": "Out like a lion: Luka ends March with 600 points",
-          "url": "https://www.espn.com/nba/story/_/id/48366595/luka-totals-600-points-march-lakers-go-15-2",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "Luka Doncic had his third straight 40-point game, lifting his March scoring total to 600 points and adding to a strong month for the Lakers, who finished with a 15-2 record.",
+          "title": "Kansas coach Self to return for 2026-27 season",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48372657/bill-self-return-kansas-jayhawks-men-basketball-coach",
+          "published": "Wed, 1 Apr 2026 19:13:52 EST",
+          "summary": "Kansas men's basketball coach Bill Self is set to return for the 2026-27 season, saying in a statement Wednesday that he remains \"focused and committed to Kansas\" and \"competing for a National Championship.\"",
           "source": "ESPN"
         },
         {
-          "title": "Portugal outclasses U.S. amid Pulisic goal drought",
-          "url": "https://www.espn.com/soccer/report/_/gameId/762259",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "The United States dropped its second match in a row Tuesday, losing to Portugal in a friendly at Mercedes-Benz Stadium in Atlanta to conclude its March international window.",
+          "title": "U-M's Cadeau treated for possible allergic reaction",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48371635/michigan-says-elliot-cadeau-receiving-medical-treatment",
+          "published": "Wed, 1 Apr 2026 19:13:52 EST",
+          "summary": "Michigan PG Elliot Cadeau is receiving medical attention for a possible allergic reaction and is set to meet the Wolverines in Indianapolis later Wednesday.",
           "source": "ESPN"
         },
         {
-          "title": "Goodell backs Rooney Rule amid litigation threat",
-          "url": "https://www.espn.com/nfl/story/_/id/48362846/goodell-backs-rooney-rule-says-diversity-benefit-nfl",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "NFL commissioner Roger Goodell says he believes the Rooney Rule is \"consistent\" with hiring laws after recently being threatened by Florida's attorney general with potential civil litigation if the rule was not eliminated.",
+          "title": "NCAA proposes ban on players who stay in draft",
+          "url": "https://www.espn.com/espn/story/_/id/48372762/ncaa-proposes-barring-players-opt-remain-draft",
+          "published": "Wed, 1 Apr 2026 19:13:52 EST",
+          "summary": "The NCAA Division I Cabinet will consider proposed changes to eligibility rules, including one that would bar athletes who have entered and remained in a professional sports draft from competing in college.",
           "source": "ESPN"
         },
         {
-          "title": "Ump Bucknor in spotlight again after missed call",
-          "url": "https://www.espn.com/mlb/story/_/id/48364653/bucknor-spotlight-again-missed-call-brewers-rays",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "Umpire C.B. Bucknor, who had the poorest results among umpires in MLB's new ABS system last weekend, had another call overturned at first base during Tuesday's Brewers-Rays game.",
+          "title": "Bears' stadium choice 'late spring, early summer'",
+          "url": "https://www.espn.com/nfl/story/_/id/48371358/bears-ceo-stadium-decision-likely-late-spring-early-summer",
+          "published": "Wed, 1 Apr 2026 19:13:52 EST",
+          "summary": "Kevin Warren, president and CEO of the Chicago Bears, says the team is targeting \"late spring, early summer\" for a decision on where the team's new stadium will be built.",
           "source": "ESPN"
         },
         {
-          "title": "No bond for amputee cornhole pro in murder case",
-          "url": "https://www.espn.com/espn/story/_/id/48368530/amputee-cornhole-pro-denied-bond-murder-case",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "Dayton Webber, the quadruple amputee cornhole player who is facing murder charges, will continue to be held without bond as his case moves forward, a Maryland judge ruled Wednesday.",
+          "title": "Izzo 'seriously' eyed Suns HC job last summer",
+          "url": "https://www.espn.com/nba/story/_/id/48371949/tom-izzo-says-seriously-considered-suns-hc-job-last-summer",
+          "published": "Wed, 1 Apr 2026 19:13:51 EST",
+          "summary": "Michigan State basketball head coach Tom Izzo said he \"talked seriously\" with Suns majority owner Mat Ishbia about Phoenix's head coaching job last summer before the team ultimately hired Jordan Ott.",
           "source": "ESPN"
         },
         {
-          "title": "Italy miss out on 3rd straight WC in shootout loss",
-          "url": "https://www.espn.com/soccer/story/_/id/48359181/italy-miss-3rd-straight-world-cup-loss-bosnia",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "Italy has missed out on a third consecutive World Cup after losing to Bosnia and Herzegovina in a penalty shootout on Tuesday in Zenica.",
+          "title": "Judge dismisses Indiana sex abuse lawsuit",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48371063/judge-dismisses-lawsuit-alleging-sex-abuse-ex-iu-doctor",
+          "published": "Wed, 1 Apr 2026 19:13:52 EST",
+          "summary": "A federal judge dismissed a lawsuit Tuesday against Indiana University in which former men's basketball players alleged improper sexual conduct by a former team physician because the players' complaint fell far beyond the two-year statute of limitations.",
           "source": "ESPN"
         },
         {
-          "title": "Hurley: I thought ref was looking to chest-bump",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48359957/dan-hurley-thought-ncaa-tournament-ref-was-looking-chest-bump",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "UConn coach Dan Hurley downplayed his bizarre interaction with an official at the end of Sunday's NCAA tournament victory against Duke, saying he thought the referee was looking to \"chest-bump me to celebrate.\"",
+          "title": "Ex-Wisconsin TE Pugh dies at 24; cause not given",
+          "url": "https://www.espn.com/college-football/story/_/id/48369922/former-wisconsin-te-jack-pugh-dies-24-cause-death-not-given",
+          "published": "Wed, 1 Apr 2026 19:13:51 EST",
+          "summary": "Jack Pugh, a former tight end on Wisconsin's football team who stepped away from football three years ago citing mental health concerns, has died at 24.",
           "source": "ESPN"
         },
         {
-          "title": "📉 2026 Pain Index: Where does Duke's loss rank?",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48273891/mens-march-madness-2026-pain-index-tournament-loss-hurt",
-          "published": "Wed, 1 Apr 2026 10:50:36 EST",
-          "summary": "Some losses are understandable in the NCAA tournament. Others will haunt us forever (see: Duke). We rank them all.",
+          "title": "📽️ Solak: 2026 NFL draft prospects All-Film team",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48357403/2026-nfl-draft-all-tape-team-best-prospects-every-position-nussmeier-bernard-barham",
+          "published": "Wed, 1 Apr 2026 19:13:52 EST",
+          "summary": "NFL scouts are watching a lot of tape as we get ready for the 2026 draft. Which underrated players jump off the screen? Ben Solak fills out his All-Film team.",
           "source": "ESPN"
         },
         {
-          "title": "Inside Eagles' 2025 friction as Jalen Hurts stands at crossroads",
+          "title": "Inside the friction between Jalen Hurts and the Eagles",
           "url": "https://www.espn.com/nfl/story/_/id/48224913/the-crossroad-awaits-quarterback-jalen-hurts-philadelphia-eagles-offense-aj-brown-2026",
-          "published": "Wed, 1 Apr 2026 10:21:47 EST",
+          "published": "Wed, 1 Apr 2026 16:54:58 EST",
           "summary": "ESPN pulls back the curtain on what's ailing a star-studded Eagles offense, one in which its QB must evolve.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tiger Woods announced he is stepping away from golf to seek treatment following his recent arrest, while the men's Final Four approaches with notable player rankings.",
-        "summary": "Today's sports headlines highlight a mix of significant events, including Tiger Woods' decision to step back from golf for treatment, the ranking of players in the men's Final Four, and Luka Doncic's impressive scoring performance. Additionally, the U.S. soccer team faced a setback against Portugal, and Italy missed qualifying for the World Cup for the third consecutive time. NFL Commissioner Roger Goodell expressed support for the Rooney Rule amid legal challenges, while umpire C.B. Bucknor faced scrutiny for missed calls in MLB.",
+        "key_takeaway": "NBA teams are preparing for the final weeks of the regular season while Tiger Woods receives permission for treatment outside the U.S.",
+        "summary": "Today's sports headlines cover various topics, including NBA Power Rankings as teams approach the end of the regular season, Draymond Green's uncertain future with the Warriors, and Tiger Woods being granted permission to leave the U.S. for treatment. Additionally, Kansas coach Bill Self confirms his return for the next season, while Michigan's Elliot Cadeau is treated for a possible allergic reaction. The NCAA proposes new eligibility rules affecting players in the draft, and the Chicago Bears are expected to announce their stadium decision soon. Other notable stories include Tom Izzo's past consideration for the Suns head coaching job, a judge dismissing a lawsuit against Indiana University, and the untimely death of former Wisconsin TE Jack Pugh.",
         "key_themes": [
-          "Tiger Woods treatment announcement",
-          "men's Final Four player rankings",
-          "Luka Doncic scoring record",
-          "U.S. soccer team performance",
-          "Italy World Cup qualification failure",
-          "NFL Rooney Rule support"
+          "NBA Power Rankings updates",
+          "Draymond Green future with Warriors",
+          "Tiger Woods treatment news",
+          "Kansas basketball coach return",
+          "NCAA eligibility rule changes"
         ],
         "notable_headlines": [
           {
-            "headline": "Tiger stepping away from golf to seek treatment",
-            "why_it_matters": "Woods' decision comes after his arrest, indicating a need for personal and professional recovery.",
+            "headline": "NBA Power Rankings: What to watch over the final two weeks for all 30 teams",
+            "why_it_matters": "This ranking provides insights into team performance as the regular season concludes, impacting playoff positioning.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Draymond Green reflects on his future amid uncertainty in Golden State",
+            "why_it_matters": "Green's future is pivotal for the Warriors, especially with ongoing injury issues affecting the team.",
             "signal": "Risk"
           },
           {
-            "headline": "Ranking every starter in the men's Final Four",
-            "why_it_matters": "Highlights key players as teams prepare for the semifinals, impacting fan engagement and predictions.",
+            "headline": "Woods can leave U.S. for treatment, judge rules",
+            "why_it_matters": "Woods' treatment could significantly impact his career and future participation in golf events.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Portugal outclasses U.S. amid Pulisic goal drought",
-            "why_it_matters": "The U.S. soccer team's loss raises concerns about their performance ahead of future competitions.",
-            "signal": "Risk"
+            "headline": "Kansas coach Self to return for 2026-27 season",
+            "why_it_matters": "Self's commitment is crucial for Kansas as they aim for a National Championship next season.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Italy miss out on 3rd straight WC in shootout loss",
-            "why_it_matters": "Italy's failure to qualify again raises questions about the future of their national team.",
+            "headline": "NCAA proposes ban on players who stay in draft",
+            "why_it_matters": "This proposal could reshape college athletics and player eligibility, affecting future drafts.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Goodell backs Rooney Rule amid litigation threat",
-            "why_it_matters": "Goodell's support underscores ongoing debates about diversity and hiring practices in the NFL.",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further updates on Tiger Woods' treatment progress are expected.",
-            "Anticipation builds for the men's Final Four matchups this weekend.",
-            "Expect analysis on the implications of the U.S. soccer team's recent performance."
+            "Monitor NBA matchups as teams finalize their playoff positions.",
+            "Watch for updates on Tiger Woods' treatment progress.",
+            "Expect announcements regarding the NCAA's eligibility rule changes."
           ],
           "next_1_4_weeks": [
-            "The NCAA tournament will conclude with the Final Four and championship games.",
-            "The NFL draft approaches, with discussions around the Rooney Rule likely to continue.",
-            "Soccer teams will prepare for upcoming international matches, including qualifiers."
+            "Follow the NBA playoffs as they begin and teams finalize their rosters.",
+            "Keep an eye on the Bears' stadium decision timeline.",
+            "Watch for developments in the NCAA's proposed eligibility rules."
           ],
           "watch_list": [
-            "Tiger Woods' health updates",
-            "Men's Final Four outcomes",
-            "U.S. soccer team's strategy moving forward",
-            "Italy's national team rebuilding efforts",
-            "NFL diversity initiatives"
+            "NBA playoff predictions and analysis",
+            "Updates on Draymond Green's situation with the Warriors",
+            "Tiger Woods' recovery and return to golf.",
+            "Kansas basketball's preparations for the next season",
+            "NCAA eligibility rule changes and their implications."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall tone of sports news today, suggesting both positive and negative developments.",
-          "Some events may evolve rapidly, particularly regarding player health and team performances."
+          "The sentiment score indicates mixed feelings about the overall tone of today's sports news.",
+          "Uncertainty remains regarding the outcomes of proposed NCAA rule changes and their impact."
         ],
         "related_topics": [
-          "What are the latest updates on Tiger Woods' treatment?",
-          "How are players ranked in the men's Final Four?",
-          "What happened in the U.S. soccer match against Portugal?",
-          "Why did Italy fail to qualify for the World Cup?",
-          "What is the current status of the NFL Rooney Rule?"
+          "What are the latest NBA Power Rankings?",
+          "Updates on Draymond Green's future with the Warriors",
+          "Tiger Woods treatment news and updates",
+          "Kansas basketball coach Bill Self's return",
+          "NCAA eligibility rule changes explained"
         ]
       },
-      "tweet_text": "March madness heats up as Luka roars, Tiger retreats, and the Final Four ranking sparks debate—who’s your champion?\n\nSports Sentiment: Mixed (-0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amid #Again #Amputee #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "NBA's final stretch heats up as futures hang in the balance—who will rise, who will fall, and who might walk...\n\nSports Sentiment: Mixed (-0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Summer #202627 #Allergic #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -774,76 +774,82 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries range from advancements in drug treatments for shift workers to insights into ancient marine life and the evolution of squid.",
-        "summary": "Today's science headlines highlight significant advancements in various fields, including a new drug for shift work disorder, the discovery of a baby dinosaur, and insights into ocean health from old salmon. Additionally, researchers have uncovered cellular mechanisms that could explain cancer spread, and studies reveal the impact of caffeine on behavior. Other notable findings include the evolution of squid and the effects of deep sleep on muscle and brain function.",
+        "key_takeaway": "Recent scientific discoveries range from advancements in sleep and muscle growth to insights into ancient marine life and the evolution of squid.",
+        "summary": "Today's science headlines highlight significant findings, including a drug that aids early shift workers, the discovery of a baby dinosaur, and insights into ocean health from old salmon. Other notable studies reveal the role of DNA supergenes in rapid evolution, the effects of nighttime caffeine on behavior, and the discovery of cellular mechanisms that may explain cancer spread. Additionally, researchers found that simple therapies can effectively relieve knee arthritis pain, while the Webb telescope observed a mysterious cosmic explosion.",
         "key_themes": [
-          "impact of caffeine on behavior",
-          "new drug for shift work disorder",
-          "discoveries in marine biology",
-          "evolution of squid",
-          "cellular mechanisms in cancer",
-          "benefits of non-drug therapies for arthritis"
+          "impact of drugs on shift work",
+          "new dinosaur discovery",
+          "ocean health indicators",
+          "DNA supergenes and evolution",
+          "effects of caffeine on behavior",
+          "cellular mechanisms in cancer"
         ],
         "notable_headlines": [
           {
             "headline": "Millions start work too early. This drug helps them stay awake",
-            "why_it_matters": "A new drug shows promise in improving productivity for early-morning shift workers.",
+            "why_it_matters": "The drug solriamfetol significantly improves alertness for early-morning shift workers, enhancing productivity and safety.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists found a baby dinosaur hidden in rock and it is surprisingly cute",
-            "why_it_matters": "The discovery of a baby dinosaur suggests many more fossils may be hidden in South Korea.",
+            "why_it_matters": "The discovery of Doolysaurus suggests that many more dinosaur fossils may be hidden in South Korea.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists open 40-year-old salmon and find a surprising sign of ocean recovery",
-            "why_it_matters": "Old canned salmon reveals insights into marine ecosystem recovery over decades.",
+            "why_it_matters": "The increase of parasitic worms in salmon indicates a healthier marine ecosystem, reflecting decades of recovery.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Scientists discover hidden “winds” inside cells that could explain cancer spread",
-            "why_it_matters": "New findings challenge existing biology and may explain rapid cancer cell movement.",
-            "signal": "Unclear"
+            "headline": "Scientists just found DNA “supergenes” that speed up evolution",
+            "why_it_matters": "The identification of supergenes in fish DNA sheds light on rapid species evolution in diverse environments.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Scientists discover sleep switch that builds muscle, burns fat, and boosts brainpower",
-            "why_it_matters": "Understanding sleep's role in growth hormone regulation could impact health and fitness.",
+            "headline": "Coffee at night may increase risky behavior, especially in women",
+            "why_it_matters": "The study highlights the potential behavioral risks associated with nighttime caffeine consumption, particularly in females.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Scientists discover hidden “winds” inside cells that could explain cancer spread",
+            "why_it_matters": "The discovery of cellular currents challenges traditional biology and may explain rapid cancer cell movement.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the baby dinosaur discovery may reveal more about its species.",
-            "Research on the drug for shift work disorder could lead to broader applications in sleep medicine.",
-            "Studies on the cellular mechanisms of cancer may lead to new treatment strategies."
+            "Further analysis of the baby dinosaur's ecosystem may be conducted.",
+            "More studies on the effects of solriamfetol in different work environments are expected.",
+            "Research on the implications of the cellular winds in cancer may advance."
           ],
           "next_1_4_weeks": [
-            "More findings are expected from ongoing research into the effects of caffeine on behavior.",
-            "Anticipated publications on the implications of the salmon study for marine biology.",
-            "New insights into the evolution of squid may emerge from genetic studies."
+            "Anticipated publications on the long-term effects of caffeine on behavior in humans.",
+            "Further exploration of the implications of the salmon study on marine conservation efforts.",
+            "New findings on the role of supergenes in other species may emerge."
           ],
           "watch_list": [
-            "Follow developments in the study of the drug solriamfetol for shift work disorder.",
-            "Monitor research on the implications of cellular winds for cancer treatment.",
-            "Watch for updates on the impact of sleep on physical and mental health.",
-            "Keep an eye on new discoveries related to ancient marine life."
+            "Follow-up studies on the effectiveness of solriamfetol in various populations.",
+            "Monitor developments in the understanding of cellular mechanisms in cancer.",
+            "Watch for new discoveries related to marine biology and ecosystem recovery.",
+            "Updates on the implications of the Webb telescope's findings."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of the new drug for shift work disorder is still under clinical evaluation.",
-          "The implications of the baby dinosaur discovery are yet to be fully understood.",
-          "Further research is needed to confirm the findings related to cancer cell behavior."
+          "The long-term effects of solriamfetol are still unknown.",
+          "The implications of the baby dinosaur discovery require further research to understand its significance.",
+          "The relationship between caffeine consumption and behavior may vary among individuals."
         ],
         "related_topics": [
-          "What are the latest discoveries in marine biology?",
-          "How does caffeine affect behavior and impulsivity?",
-          "What advancements have been made in shift work treatments?",
-          "What are the implications of the new findings on cancer spread?",
-          "How do sleep patterns influence health and fitness?"
+          "What are the effects of solriamfetol on shift workers?",
+          "Latest discoveries in paleontology",
+          "How do supergenes influence evolution?",
+          "What are the health benefits of salt substitutes?",
+          "Recent findings on cellular mechanisms in cancer",
+          "Impact of caffeine on behavior and impulsivity"
         ]
       },
-      "tweet_text": "From baby dinosaurs to supergenes, today's science news is a treasure trove of astonishing discoveries!\n\nScience Sentiment: Positive (+0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Hidden #Found #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From baby dinosaurs to cosmic secrets, today's science news is a treasure trove of surprises!\n\nScience Sentiment: Positive (+0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Hidden #Found #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
