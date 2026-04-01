@@ -1,11 +1,13 @@
 {
   "date": "2026-03-31",
-  "generated_at_utc": "2026-03-31T23:43:05Z",
+  "generated_at_utc": "2026-04-01T05:19:15Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "tiger",
     "iran",
-    "trumps"
+    "trumps",
+    "2026"
   ],
   "categories": {
     "world": {
@@ -17,9 +19,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2714,
+        "score": -0.2924,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.452, dampened ×0.6 → -0.2714). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.487, dampened ×0.6 → -0.2924). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -51,6 +53,13 @@
           "source": "BBC News"
         },
         {
+          "title": "India begins counting more than a billion people in massive census",
+          "url": "https://www.bbc.com/news/articles/c7vqnpqrgy3o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 01 Apr 2026 00:11:33 GMT",
+          "summary": "The two-phase exercise - the world’s most ambitious - will see three million officials count every Indian.",
+          "source": "BBC News"
+        },
+        {
           "title": "Italian Christmas meal tragedy turns into murder inquiry",
           "url": "https://www.bbc.com/news/articles/cje470qgl1yo?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 31 Mar 2026 19:52:31 GMT",
@@ -58,24 +67,31 @@
           "source": "BBC News"
         },
         {
-          "title": "US Army suspends crews who flew helicopters near Kid Rock's home",
-          "url": "https://www.bbc.com/news/articles/c4gx2rw87e9o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 31 Mar 2026 22:36:15 GMT",
-          "summary": "President Donald Trump, when asked about the helicopters flying by his friend's house said: \"They like Kid Rock. I like Kid Rock.\"",
+          "title": "'My six-year-old has nosebleeds': Chiang Mai air pollution sparks health fears",
+          "url": "https://www.bbc.com/news/articles/c0le03ne05ro?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 01 Apr 2026 03:19:10 GMT",
+          "summary": "It's peak fire season in the Thai city, which now ranks as one of the world's most polluted.",
           "source": "BBC News"
         },
         {
-          "title": "Woods to 'step away and seek treatment' after crash",
+          "title": "Tiger Woods to 'step away and seek treatment' after crash",
           "url": "https://www.bbc.com/sport/golf/articles/c87wjj424vro?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 31 Mar 2026 23:33:48 GMT",
-          "summary": "Tiger Woods says he is \"stepping away for a period of time to seek treatment and focus on my health\" following an arrest after a car crash.",
+          "published": "Tue, 31 Mar 2026 23:44:19 GMT",
+          "summary": "The golf champion was arrested and charged with driving under the influence after clipping a truck and rolling his car in Florida on Friday.",
           "source": "BBC News"
         },
         {
           "title": "Judge temporarily halts construction of Trump's White House ballroom",
           "url": "https://www.bbc.com/news/articles/c7056exw78xo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 31 Mar 2026 22:16:06 GMT",
-          "summary": "The Republican-appointed judge ruled that Trump was the \"steward\" of the White House, but not the \"owner\".",
+          "published": "Tue, 31 Mar 2026 23:58:29 GMT",
+          "summary": "The Republican-appointed judge ruled that Trump was a \"steward\" of the White House, not the owner.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US Army pilots who flew near Kid Rock's home suspended and then reinstated within hours",
+          "url": "https://www.bbc.com/news/articles/c4gx2rw87e9o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 01 Apr 2026 00:51:56 GMT",
+          "summary": "The crews of two military helicopters were suspended by the army, then told there would be \"no investigation\" by Defence Secretary Pete Hegseth.",
           "source": "BBC News"
         },
         {
@@ -91,91 +107,75 @@
           "published": "Tue, 31 Mar 2026 10:53:10 GMT",
           "summary": "China bans 'bone ash apartments' where mourners are storing cremated remains instead of cemeteries.",
           "source": "BBC News"
-        },
-        {
-          "title": "Wolf bites woman in shock German attack on busy Hamburg shopping street",
-          "url": "https://www.bbc.com/news/articles/c20qxjxe2nno?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 31 Mar 2026 13:00:32 GMT",
-          "summary": "It is believed to be the first wolf attack on a human since the animals began to reestablish themselves in Germany decades ago.",
-          "source": "BBC News"
-        },
-        {
-          "title": "King's state visit to US to go ahead in April, but no Harry meeting",
-          "url": "https://www.bbc.com/news/articles/cjd8nkezdyxo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 31 Mar 2026 21:00:24 GMT",
-          "summary": "Despite political tensions between the US and UK, the King will travel to Washington next month.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Reports indicate Iran is using children in security roles amid ongoing conflicts, while tensions in Lebanon and the kidnapping of a US journalist raise significant concerns.",
-        "summary": "Today's headlines highlight serious global issues, including the use of children in military roles in Iran, ongoing tensions between Israel and Lebanon, and the kidnapping of a US journalist in Baghdad. Additionally, peacekeepers in Lebanon were killed by a roadside explosion, and an Italian Christmas meal incident has turned into a murder inquiry. The overall sentiment is negative, reflecting the gravity of these events.",
+        "key_takeaway": "Iran is reportedly using children in security roles amid ongoing conflicts, raising serious humanitarian concerns.",
+        "summary": "Today's headlines highlight escalating tensions in the Middle East, with reports of child involvement in security roles in Iran, Israel's military plans in Lebanon, and the kidnapping of a US journalist. Additionally, peacekeepers were killed in Lebanon, and India has begun a massive census. Other stories include health concerns over air pollution in Chiang Mai and a murder inquiry in Italy.",
         "key_themes": [
-          "Iran's use of child soldiers",
-          "Israel's control over Lebanon",
-          "US journalist kidnapping",
-          "peacekeeper casualties in Lebanon",
-          "Italian murder inquiry"
+          "Middle East conflict updates",
+          "Iran child security roles",
+          "Lebanon peacekeeper casualties",
+          "India census 2026",
+          "Chiang Mai air pollution health risks"
         ],
         "notable_headlines": [
           {
             "headline": "Iran using children in security roles in war, reports and witnesses say",
-            "why_it_matters": "The use of children in military roles raises serious ethical and humanitarian concerns, especially in conflict zones.",
+            "why_it_matters": "The use of children in military roles raises significant ethical and humanitarian issues.",
             "signal": "Risk"
           },
           {
             "headline": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends",
-            "why_it_matters": "This decision could escalate tensions in the region and impact future peace negotiations.",
+            "why_it_matters": "Israel's military strategy could impact regional stability and relations with Lebanon.",
             "signal": "Risk"
           },
           {
             "headline": "US journalist Shelly Kittleson kidnapped in Baghdad",
-            "why_it_matters": "The abduction highlights the dangers faced by journalists in conflict areas and the influence of militia groups.",
+            "why_it_matters": "The abduction highlights the dangers faced by journalists in conflict zones.",
             "signal": "Risk"
           },
           {
             "headline": "Peacekeepers killed by roadside explosion in Lebanon, initial report finds",
-            "why_it_matters": "The deaths of peacekeepers indicate the ongoing volatility in Lebanon and the risks to international forces.",
+            "why_it_matters": "The deaths of peacekeepers underscore the ongoing violence and instability in Lebanon.",
             "signal": "Risk"
           },
           {
-            "headline": "Italian Christmas meal tragedy turns into murder inquiry",
-            "why_it_matters": "The investigation into potential poisoning raises public safety concerns and the need for accountability.",
-            "signal": "Risk"
+            "headline": "India begins counting more than a billion people in massive census",
+            "why_it_matters": "This census is crucial for understanding demographic changes and planning in India.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in Iran regarding the use of child soldiers",
-            "Observing Israel's military actions in Lebanon",
-            "Following updates on the kidnapped US journalist"
+            "Monitor developments regarding the kidnapped journalist in Baghdad.",
+            "Watch for updates on the situation in Lebanon following the peacekeeper casualties.",
+            "Follow the progress of India's census and its implications."
           ],
           "next_1_4_weeks": [
-            "Potential diplomatic responses to the situation in Lebanon",
-            "Investigations into the kidnapping of the journalist",
-            "Continued scrutiny of Iran's military practices"
+            "Observe potential international responses to Iran's reported use of children in military roles.",
+            "Assess the impact of Israel's military decisions on regional dynamics.",
+            "Keep an eye on air quality and health responses in Chiang Mai."
           ],
           "watch_list": [
-            "Human rights reports on child soldiers",
-            "Israel-Lebanon border tensions",
-            "Updates on journalist safety in conflict zones",
-            "Investigations into the Italian murder case"
+            "Ongoing conflicts in the Middle East",
+            "Humanitarian implications of child soldiers",
+            "India's census results and demographic trends.",
+            "Health impacts of air pollution in Southeast Asia."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in conflict zones can change rapidly, affecting the accuracy of reports.",
-          "Sentiment scores are subjective and may not reflect all perspectives."
+          "The situation in the Middle East is fluid and subject to rapid changes.",
+          "Reports of child involvement in military roles require further verification."
         ],
         "related_topics": [
-          "What is happening in Iran regarding child soldiers?",
-          "Latest updates on Israel-Lebanon tensions",
-          "Details on the kidnapping of US journalists",
-          "Peacekeeper safety in conflict zones",
-          "Investigations into Italian murder cases"
+          "What are the latest developments in the Middle East conflict?",
+          "How is India conducting its massive census?",
+          "What are the health impacts of air pollution in Chiang Mai?"
         ]
       },
-      "tweet_text": "Children in war zones, journalists kidnapped, and peacekeepers lost—today’s headlines remind us of the fragile state of...\n\nWorld Sentiment: Negative (-0.27)\n\nRead the full breakdown: https://tldrnews.info\n\n#Lebanon #Army #Away #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "War's grim toll: children in Iran, a journalist kidnapped, and peacekeepers lost in Lebanon—today's world cries for...\n\nWorld Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Lebanon #Away #Baghdad #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -186,9 +186,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1019,
+        "score": -0.1269,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.170, dampened ×0.6 → -0.1019). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.211, dampened ×0.6 → -0.1269). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -203,6 +203,13 @@
           "url": "https://www.theguardian.com/world/2026/mar/30/how-could-us-forcibly-reopen-strait-of-hormuz-iran-what-are-the-risks",
           "published": "Mon, 30 Mar 2026 09:32:06 GMT",
           "summary": "<p>US ground troops have arrived in Middle East but military options to open strait risk strong retaliation from Iran</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/30/iran-war-live-updates-trump-oil-kharg-island-houthis-israel-lebanon-middle-east\">Middle East crisis – live updates</a></p></li></ul><p>The arrival of US ground invasion forces in the Middle East over the weekend provides Donald Trump with the muscle for a perilous attempt to forcibly open the strait of Horm",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Federal judge blocks Trump order to end funding for NPR and PBS",
+          "url": "https://www.theguardian.com/us-news/2026/mar/31/judge-blocks-trump-npr-pbs-funding-cut",
+          "published": "Tue, 31 Mar 2026 21:39:59 GMT",
+          "summary": "<p>Citing the first amendment, judge says president’s executive order is unlawful and unenforceable</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a></p></li></ul><p>Citing the fi",
           "source": "The Guardian"
         },
         {
@@ -248,13 +255,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "US stock market caps off fifth consecutive week of closing down",
-          "url": "https://www.theguardian.com/business/2026/mar/27/us-stock-market-selloff-iran",
-          "published": "Fri, 27 Mar 2026 20:11:52 GMT",
-          "summary": "<p>Dow fell 800 points as oil prices continue to climb, and markets are still on edge despite US pause on Iranian energy strikes</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a><",
-          "source": "The Guardian"
-        },
-        {
           "title": "Florida space coast cities abuzz before Nasa’s Artemis launch: ‘At the doorstep of the future’",
           "url": "https://www.theguardian.com/us-news/2026/mar/30/nasa-artemis-launch-florida",
           "published": "Mon, 30 Mar 2026 12:00:09 GMT",
@@ -277,75 +277,76 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "US fuel prices exceed $4 a gallon for the first time in four years amid ongoing geopolitical tensions, impacting markets and consumer sentiment.",
-        "summary": "Today's business news highlights rising US fuel prices, the implications of military actions in the Middle East, and significant developments in taxation and corporate profitability. The US average fuel price has surpassed $4 a gallon for the first time in four years, influenced by the ongoing Iran war. Meanwhile, Washington state is implementing a millionaire tax aimed at the ultra-wealthy, raising questions about its potential success. OpenAI is under pressure to demonstrate profitability ahead of a possible stock market flotation. Additionally, Air Canada's CEO is resigning following backlash over a tribute video, and US border businesses are struggling due to decreased Canadian tourism. Lastly, oil prices are surging, marking a record monthly increase due to market disruptions from the Iran conflict.",
+        "key_takeaway": "US average fuel prices exceed $4 per gallon for the first time in four years amid ongoing conflict in Iran, impacting markets and consumer sentiment.",
+        "summary": "Today's business news highlights rising fuel prices in the US, the implications of military actions in the Middle East, and significant developments in taxation and corporate governance. The average fuel price has surpassed $4 per gallon for the first time in four years, influenced by the Iran war, while stocks have rallied on speculation of a potential end to the conflict. A federal judge has blocked an executive order from Trump aimed at cutting funding for NPR and PBS, citing First Amendment rights. Washington state is implementing a millionaire tax targeting the ultra-wealthy, raising questions about its effectiveness and potential for replication in other states. OpenAI faces pressure to demonstrate profitability ahead of a potential stock market flotation. Additionally, Air Canada's CEO is resigning following backlash over a tribute video, and US churches are stepping up to address housing shortages by developing land for affordable housing.",
         "key_themes": [
-          "US fuel prices rise",
-          "Iran war impact on markets",
-          "Washington state millionaire tax",
-          "OpenAI profitability concerns",
-          "Air Canada CEO resignation",
-          "US border business challenges"
+          "US fuel prices and market impact",
+          "Iran conflict and economic implications",
+          "Federal funding for public broadcasting",
+          "Millionaire tax in Washington state",
+          "OpenAI profitability and IPO prospects",
+          "Air Canada CEO resignation news"
         ],
         "notable_headlines": [
           {
             "headline": "US average fuel price passes $4 a gallon for first time in four years amid Iran war",
-            "why_it_matters": "Rising fuel prices can affect consumer spending and overall economic sentiment.",
+            "why_it_matters": "Rising fuel prices affect consumer spending and inflation, impacting the broader economy.",
             "signal": "Risk"
           },
           {
-            "headline": "Washington state’s ‘historic’ millionaire tax takes aim at super-rich – will it succeed?",
-            "why_it_matters": "The tax could set a precedent for other states, impacting wealth distribution and taxation policies.",
+            "headline": "Federal judge blocks Trump order to end funding for NPR and PBS",
+            "why_it_matters": "This ruling reinforces First Amendment protections and affects public broadcasting funding.",
             "signal": "Opportunity"
           },
           {
+            "headline": "Washington state’s ‘historic’ millionaire tax takes aim at super-rich – will it succeed?",
+            "why_it_matters": "The tax could set a precedent for other states and influence wealth distribution policies.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "If OpenAI is to float on the stock market this year, it needs to start turning a profit",
-            "why_it_matters": "OpenAI's profitability is crucial for its valuation and investor confidence ahead of a potential IPO.",
+            "why_it_matters": "OpenAI's financial performance will be critical for its valuation and investor confidence.",
             "signal": "Risk"
           },
           {
             "headline": "Air Canada CEO to resign after backlash to video tribute of pilots killed in crash",
-            "why_it_matters": "Leadership changes can impact company reputation and operational stability.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Oil on track for record monthly surge as Iran war disrupts markets",
-            "why_it_matters": "Fluctuating oil prices can have widespread implications for global markets and economies.",
+            "why_it_matters": "Leadership changes in major companies can impact corporate culture and public perception.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor fuel price trends and consumer reactions",
-            "Watch for updates on the Washington millionaire tax implementation",
-            "Observe OpenAI's strategic announcements regarding profitability"
+            "Monitor developments in the Iran conflict and its impact on oil prices.",
+            "Watch for reactions to the federal judge's ruling on NPR and PBS funding.",
+            "Observe market responses to OpenAI's profitability announcements."
           ],
           "next_1_4_weeks": [
-            "Evaluate the impact of rising oil prices on inflation and consumer spending",
-            "Assess the effectiveness of Washington's millionaire tax and its reception",
-            "Follow developments in the Iran conflict and its economic repercussions"
+            "Evaluate the effectiveness of Washington state's millionaire tax after its implementation.",
+            "Track the performance of oil prices and fuel costs amid geopolitical tensions.",
+            "Assess the implications of Air Canada's leadership change on its operations."
           ],
           "watch_list": [
-            "US fuel price trends",
-            "OpenAI financial performance",
-            "Impact of the Iran war on global markets",
-            "Washington state tax policy outcomes"
+            "Fuel price trends and consumer behavior",
+            "Updates on the Iran war and market reactions",
+            "Public response to the millionaire tax in Washington state",
+            "OpenAI's financial disclosures and market strategies",
+            "Corporate governance changes in major companies like Air Canada"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Geopolitical tensions can change rapidly, affecting market conditions.",
-          "Economic forecasts are subject to uncertainty based on various external factors."
+          "The geopolitical situation in Iran remains fluid and could change rapidly, affecting market conditions.",
+          "The effectiveness of new tax policies may take time to assess fully."
         ],
         "related_topics": [
           "What are the latest trends in US fuel prices?",
-          "How is the Iran war affecting global markets?",
-          "What is the impact of Washington's millionaire tax?",
-          "What challenges is OpenAI facing before its IPO?",
-          "How are US border businesses coping with decreased tourism?"
+          "Impact of the Iran war on global markets",
+          "Updates on Washington state's millionaire tax",
+          "OpenAI's financial performance and IPO plans",
+          "Corporate governance changes in major companies"
         ]
       },
-      "tweet_text": "Fuel prices hit $4/gallon for the first time in four years—what does this mean for your wallet and the economy?\n\nBusiness Sentiment: Mixed (-0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amid #Iran #Anger #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Fuel prices soar past $4 as the Iran war escalates—what's next for the American wallet?\n\nBusiness Sentiment: Mixed (-0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amid #Trump #Anger #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -356,11 +357,32 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2469,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.412, dampened ×0.6 → +0.2469). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.3449,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.575, dampened ×0.6 → +0.3449). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "The best deals to shop during the last few hours of Amazon’s Big Spring Sale",
+          "url": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
+          "published": "2026-03-31T21:14:30-04:00",
+          "summary": "Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third annual Big Spring Sale, which runs through 11:59PM PT tonight, the retail behemoth is hoping to lure in would-be shoppers with the promise of steep(ish) savings and discounts on more seasonal, spring-centric items to hold folks over [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Amazon&#8217;s Big Spring Sale 2026: all of the latest deals",
+          "url": "https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news",
+          "published": "2026-03-31T20:45:00-04:00",
+          "summary": "If you&#8217;re looking for the best time to get a deal this spring, it might very well be during Amazon&#8217;s Big Spring Sale, which runs through 11:59PM PT tonight. We’re still highlighting the best that the sale has to offer, including the many so-called “doorbuster” deals that will appear throughout the remainder of the seasonal [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The AirPods Pro 3 are nearly matching their best-ever price for Amazon’s Big Spring Sale",
+          "url": "https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal",
+          "published": "2026-03-31T19:53:47-04:00",
+          "summary": "Earlier this month, Apple announced the AirPods Max 2, a pair of over-ear headphones that leverage the company’s H2 chip for AI-powered live translation, conversation awareness, and a host of newer features. However, if you’re okay with a pair of earbuds, the AirPods Pro 3 offer access to all the same features for less — [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale",
           "url": "https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals",
@@ -409,98 +431,75 @@
           "published": "2026-03-31T15:00:00-04:00",
           "summary": "With The Super Mario Bros. Movie, Nintendo entered the next phase of its plan to become a different kind of entertainment giant. Though it wasn't the company's first go at putting its iconic plumbers on the big screen, the film demonstrated that Nintendo could collaborate with partners like Illumination to produce box office hits. The [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Evercade’s new handheld has a larger screen and dual thumbsticks for 3D games",
-          "url": "https://www.theverge.com/tech/904543/evercade-nexus-handheld-console-retro-gaming-preorder-pricing-availability",
-          "published": "2026-03-31T14:34:17-04:00",
-          "summary": "After releasing smaller versions of its handhelds, Evercade has announced a new portable console called the Nexus featuring a large 5.89-inch screen. That's larger than the 4.3-inch screen on Evercade's previous handheld, the EXP-R. The Nexus' display also delivers a small bump in resolution from 800&#215;480 pixels to 840&#215;512, and a switch from a 4:3 [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "No Kings is taking back Americana",
-          "url": "https://www.theverge.com/policy/904405/no-kings-protests-portland-americana",
-          "published": "2026-03-31T14:31:41-04:00",
-          "summary": "\"I was hoping we were going to have a bigger crowd than this, especially with the nice weather and everything,\" Michael Maria told me. \"I'm a little disappointed because the last march, I think there were about 10 times as many people at this time of day.\" At 11AM, the crowd at Portland's downtown waterfront [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Galaxy S26’s photo app can sloppify your memories",
-          "url": "https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop",
-          "published": "2026-03-31T14:15:00-04:00",
-          "summary": "The Google Pixel 9 walked so that the Samsung Galaxy S26 could run. Google introduced AI editing tools to Photos slowly. It started with changes to the background - make the sky more blue, or remove crowds of tourists. Things got weird once the company added natural language requests and let you ask for basically [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Amazon's Big Spring Sale features significant discounts on tech accessories, while notable advancements in AI and mobile technology continue to emerge.",
-        "summary": "Today's technology news highlights Amazon's Big Spring Sale with discounts on chargers and smart bulbs, a significant code leak from Anthropic's Claude, and new features in mobile technology including ChatGPT integration with Apple CarPlay and Samsung's motion sickness app. Additionally, Evercade announced a new handheld console, and Samsung's Galaxy S26 introduces innovative photo editing capabilities.",
+        "key_takeaway": "Amazon's Big Spring Sale offers significant discounts on various tech products, while new AI developments continue to emerge in the technology sector.",
+        "summary": "Today's technology news highlights Amazon's Big Spring Sale, featuring discounts on popular gadgets like AirPods and smart bulbs, alongside notable advancements in AI, including ChatGPT's integration with Apple CarPlay and Samsung's new app for motion sickness relief.",
         "key_themes": [
           "Amazon Big Spring Sale discounts",
-          "Claude Code leak implications",
-          "ChatGPT integration with CarPlay",
-          "Samsung motion sickness app",
-          "Evercade handheld console features"
+          "AI advancements in technology",
+          "smart home devices deals"
         ],
         "notable_headlines": [
           {
-            "headline": "Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale",
-            "why_it_matters": "The sale provides consumers with substantial savings on popular tech accessories, enhancing accessibility to essential gadgets.",
+            "headline": "The best deals to shop during the last few hours of Amazon’s Big Spring Sale",
+            "why_it_matters": "This sale provides consumers with an opportunity to save on seasonal items and tech gadgets.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent",
-            "why_it_matters": "The leak raises concerns about security and intellectual property in AI development, potentially impacting future updates and trust in AI systems.",
-            "signal": "Risk"
-          },
-          {
             "headline": "You can now use ChatGPT with Apple’s CarPlay",
-            "why_it_matters": "This integration signifies a growing trend of AI applications in everyday technology, enhancing user experience in vehicles.",
+            "why_it_matters": "This integration enhances the functionality of in-car systems, allowing for voice-based AI interactions.",
             "signal": "Opportunity"
           },
           {
             "headline": "Samsung’s new app claims to alleviate motion sickness using sound",
-            "why_it_matters": "The app represents innovation in health tech, potentially providing relief for many users suffering from motion sickness.",
+            "why_it_matters": "This innovative approach to motion sickness could provide a non-invasive solution for users.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Evercade’s new handheld has a larger screen and dual thumbsticks for 3D games",
-            "why_it_matters": "The new console aims to attract retro gaming enthusiasts with improved features, indicating a competitive market for handheld devices.",
+            "headline": "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent",
+            "why_it_matters": "The leak raises concerns about data security and the implications of AI development.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale",
+            "why_it_matters": "Discounts on essential tech accessories can attract budget-conscious consumers.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor consumer response to Amazon's Big Spring Sale and its impact on sales figures.",
-            "Watch for reactions to the Claude Code leak from the AI community and potential security measures.",
-            "Observe user feedback on the new Samsung app for motion sickness."
+            "Monitor final sales results from Amazon's Big Spring Sale",
+            "Watch for reactions to the Claude Code leak in the AI community",
+            "Observe user feedback on Samsung's Hearapy app"
           ],
           "next_1_4_weeks": [
-            "Expect further developments from Anthropic regarding the Claude Code leak and its implications for AI safety.",
-            "Look for updates on the integration of AI features in mobile platforms like CarPlay and Android.",
-            "Anticipate reviews and market performance of Evercade's new handheld console."
+            "Expect further developments in AI integration with consumer technology",
+            "Look for new product announcements from tech companies following the sale",
+            "Anticipate reviews and discussions around the Super Mario Galaxy Movie"
           ],
           "watch_list": [
-            "Trends in AI development and security following the Claude Code leak.",
-            "Consumer electronics sales trends post-Amazon sale.",
-            "Innovations in health tech applications for everyday use.",
-            "Performance of new gaming consoles in the market."
+            "Trends in consumer electronics pricing post-sale",
+            "Updates on AI technology and applications",
+            "Consumer feedback on new smart home devices and apps for health management.",
+            "Potential implications of AI code leaks on future developments"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score reflects a mixed overall tone, indicating varying opinions on the news items.",
-          "The impact of the Claude Code leak on AI development remains uncertain."
+          "The sentiment score is based on a limited number of headlines and may not represent the entire technology sector accurately.",
+          "Sales and discounts may vary widely depending on stock and availability."
         ],
         "related_topics": [
-          "What are the latest deals in Amazon's Big Spring Sale?",
-          "How does the Claude Code leak affect AI development?",
+          "What are the best deals in Amazon's Big Spring Sale?",
+          "How is AI technology evolving in 2026?",
           "What new features does ChatGPT offer with Apple CarPlay?",
-          "What is Samsung's new app for motion sickness?",
-          "What are the specifications of Evercade's new handheld console?"
+          "How can sound help alleviate motion sickness?",
+          "What are the latest trends in smart home devices?"
         ]
       },
-      "tweet_text": "Unlock epic savings on chargers and dive into the future with tech that keeps your heart racing and your...\n\nTechnology Sentiment: Mixed (+0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Agent #Alleviate #Alwayson #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Last chance to snag epic deals at Amazon’s Big Spring Sale—don’t miss out on savings that could spark joy!\n\nTechnology Sentiment: Positive (+0.34)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sale #Spring #Amazons #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -511,166 +510,166 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.1474,
+        "score": -0.0776,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.246, dampened ×0.6 → -0.1474). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.129, dampened ×0.6 → -0.0776). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Tiger stepping away from golf to seek treatment",
           "url": "https://www.espn.com/golf/story/_/id/48361336/tiger-woods-stepping-away-golf-seek-treatment",
-          "published": "Tue, 31 Mar 2026 19:36:16 EST",
+          "published": "Wed, 1 Apr 2026 01:07:37 EST",
           "summary": "In a statement four days after his arrest in Florida, Tiger Woods said Tuesday he's \"committed to taking the time needed to return to a healthier, stronger, and more focused place, both personally and professionally.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Portugal outclasses U.S. amid Pulisic goal drought",
+          "url": "https://www.espn.com/soccer/report/_/gameId/762259",
+          "published": "Wed, 1 Apr 2026 01:07:37 EST",
+          "summary": "The United States dropped its second match in a row Tuesday, losing to Portugal in a friendly at Mercedes-Benz Stadium in Atlanta to conclude its March international window.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Goodell backs Rooney Rule amid litigation threat",
+          "url": "https://www.espn.com/nfl/story/_/id/48362846/goodell-backs-rooney-rule-says-diversity-benefit-nfl",
+          "published": "Wed, 1 Apr 2026 01:07:37 EST",
+          "summary": "NFL commissioner Roger Goodell said he believes the Rooney Rule is \"consistent\" with hiring laws after recently being threatened by Florida's attorney general with potential civil litigation if the rule was not eliminated.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ump Bucknor in spotlight again after missed call",
+          "url": "https://www.espn.com/mlb/story/_/id/48364653/bucknor-spotlight-again-missed-call-brewers-rays",
+          "published": "Wed, 1 Apr 2026 01:07:38 EST",
+          "summary": "Umpire C.B. Bucknor, who had the poorest results among umpires in MLB's new ABS system last weekend, had another call overturned at first base during Tuesday's Brewers-Rays game.",
           "source": "ESPN"
         },
         {
           "title": "Italy miss out on 3rd straight WC in shootout loss",
           "url": "https://www.espn.com/soccer/story/_/id/48359181/italy-miss-3rd-straight-world-cup-loss-bosnia",
-          "published": "Tue, 31 Mar 2026 18:56:36 EST",
+          "published": "Wed, 1 Apr 2026 01:07:38 EST",
           "summary": "Italy has missed out on a third-consecutive World Cup after losing to Bosnia and Herzegovina in a penalty shootout on Tuesday in Zenica.",
           "source": "ESPN"
         },
         {
-          "title": "NFL owners OK two significant replay changes",
-          "url": "https://www.espn.com/nfl/story/_/id/48358865/plan-assist-replacement-refs-five-approved-nfl-rules",
-          "published": "Tue, 31 Mar 2026 18:56:35 EST",
-          "summary": "NFL owners approved a contingency plan Tuesday to centralize officiating in the event of a work stoppage as negotiations continue on a CBA with the NFL Referees Association.",
+          "title": "Ovechkin extends record with 20th 30-goal season",
+          "url": "https://www.espn.com/nhl/story/_/id/48363556/alex-ovechkin-scores-twice-hitting-30-goals-20th-season-capitals-win",
+          "published": "Wed, 1 Apr 2026 01:07:38 EST",
+          "summary": "Alex Ovechkin scored twice and hit the 30-goal mark for the record-extending 20th time in his NHL career, and the Washington Capitals beat the Philadelphia Flyers 6-4 on Tuesday night.",
           "source": "ESPN"
         },
         {
           "title": "Hurley: I thought ref was looking to 'chest-bump'",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48359957/dan-hurley-thought-ncaa-tournament-ref-was-looking-chest-bump",
-          "published": "Tue, 31 Mar 2026 18:56:35 EST",
+          "published": "Wed, 1 Apr 2026 01:07:37 EST",
           "summary": "UConn coach Dan Hurley downplayed his bizarre interaction with an official at the end of Sunday's NCAA tournament victory against Duke, saying he thought the referee was looking to \"chest-bump me to celebrate.\"",
           "source": "ESPN"
         },
         {
           "title": "With lockout possible, MLBPA war chest at $415M",
           "url": "https://www.espn.com/mlb/story/_/id/48360278/mlbpa-increases-war-chest-415m-ahead-possible-lockout",
-          "published": "Tue, 31 Mar 2026 18:56:35 EST",
-          "summary": "MLB players have accumulated $415 million in U.S. Treasury Securities, cash and other investments as they prepare for the possibility of an extended lockout when the CBA expires on Dec. 1.",
-          "source": "ESPN"
-        },
-        {
-          "title": "OSU's Day likens CFB to dinosaurs: 'Adapt or die'",
-          "url": "https://www.espn.com/college-football/story/_/id/48359330/ryan-day-likens-cfb-dinosaur-extinction-adapt-die",
-          "published": "Tue, 31 Mar 2026 18:56:35 EST",
-          "summary": "Ohio State coach Ryan Day drew parallels between the evolving state of college football and when dinosaurs faced their extinction-level event. \"Either adapt or you die,\" he said.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Cuban: I regret selling Mavs to Adelson, Dumont",
-          "url": "https://www.espn.com/nba/story/_/id/48356499/mark-cuban-says-regrets-selling-mavericks-adelson-dumont-families",
-          "published": "Tue, 31 Mar 2026 18:56:36 EST",
-          "summary": "Mark Cuban says he regrets selling the Mavericks to the Adelson and Dumont families, adding that he \"made a lot of mistakes in the process.\"",
-          "source": "ESPN"
-        },
-        {
-          "title": "Pats' Vrabel doesn't dismiss Brown trade chatter",
-          "url": "https://www.espn.com/nfl/story/_/id/48358277/patriots-mike-vrabel-dismiss-aj-brown-trade-talk",
-          "published": "Tue, 31 Mar 2026 18:56:35 EST",
-          "summary": "As speculation swirls, coach Mike Vrabel didn't rule out the possibility of the Patriots acquiring receiver A.J. Brown in a trade with the Eagles.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Police: Fight preceded shooting by cornhole pro",
-          "url": "https://www.espn.com/espn/story/_/id/48359144/cornhole-pro-argued-guns-drugs-shooting-police-say",
-          "published": "Tue, 31 Mar 2026 18:56:36 EST",
-          "summary": "An argument over \"drugs, guns and a woman\" allegedly preceded a quadruple amputee cornhole player's fatal shooting of a passenger in his vehicle last week, according to a court document obtained by ESPN.",
+          "published": "Wed, 1 Apr 2026 01:07:37 EST",
+          "summary": "MLB players have accumulated $415 million in U.S. Treasury securities, cash and other investments as they prepare for the possibility of an extended lockout when the CBA expires on Dec. 1.",
           "source": "ESPN"
         },
         {
           "title": "📉 2026 Pain Index: Where does Duke's loss rank?",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48273891/mens-march-madness-2026-pain-index-tournament-loss-hurt",
-          "published": "Tue, 31 Mar 2026 18:56:36 EST",
+          "published": "Wed, 1 Apr 2026 01:07:38 EST",
           "summary": "Some losses are understandable in the NCAA tournament. Others will haunt us forever (see: Duke). We rank them all.",
+          "source": "ESPN"
+        },
+        {
+          "title": "What we heard at the 2026 annual league meeting: Last-minute buzz from more than 25 NFL teams",
+          "url": "https://www.espn.com/nfl/story/_/id/48358306/nfl-owners-meetings-2026-buzz-annual-league-draft-phoenix",
+          "published": "Wed, 1 Apr 2026 00:39:08 EST",
+          "summary": "Annual NFL owners meeting wrapped up Tuesday, and 30 of our reporters shared all the buzz from Phoenix.",
           "source": "ESPN"
         },
         {
           "title": "18-game regular season? Mixed reaction by NFL owners, coaches",
           "url": "https://www.espn.com/nfl/story/_/id/48352133/18-game-regular-season-cba-nfl-owners-coaches-weigh-league-meetings-phoenix",
-          "published": "Tue, 31 Mar 2026 18:43:51 EST",
-          "summary": "Colts, Chiefs, Browns and Patriots owners among those talking about the feasibility of expanding the schedule.",
+          "published": "Wed, 1 Apr 2026 00:39:08 EST",
+          "summary": "Colts, Chiefs, Browns and Patriots owners among those talking about feasibility of expanding schedule.",
           "source": "ESPN"
         },
         {
-          "title": "Follow live: USMNT takes on Portugal after Belgium loss",
-          "url": "https://www.espn.com/soccer/match/_/gameId/762259/portugal-united-states",
-          "published": "Tue, 31 Mar 2026 19:14:31 EST",
-          "summary": "null",
+          "title": "Should the USMNT be concerned about Pulisic's goal drought?",
+          "url": "https://www.espn.com/soccer/story/_/id/48363170/should-usmnt-concerned-pulisics-goal-drought",
+          "published": "Wed, 1 Apr 2026 00:33:20 EST",
+          "summary": "Roberto Martinez might think it's \"worthless\" to read into any results ahead of the World Cup, but alarm bells must surely be ringing in the USMNT camp over Christian Pulisic's 14-match goal drought.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tiger Woods is stepping away from golf to seek treatment following his recent arrest, while Italy fails to qualify for a third consecutive World Cup.",
-        "summary": "Today's sports headlines highlight significant developments including Tiger Woods' decision to step away from golf for treatment, Italy's heartbreaking loss in a World Cup qualifier, and NFL owners approving replay changes amidst ongoing labor negotiations. Additionally, Mark Cuban expresses regret over selling the Mavericks, and speculation surrounds potential trades in the NFL.",
+        "key_takeaway": "Tiger Woods is stepping away from golf to seek treatment following his recent arrest, while the U.S. soccer team struggles with a loss to Portugal.",
+        "summary": "Today's sports headlines feature Tiger Woods announcing a break from golf for treatment, the U.S. soccer team's defeat to Portugal, and ongoing discussions about the NFL's Rooney Rule and potential changes to the regular season schedule. Additionally, Italy's national team faces disappointment after missing a third consecutive World Cup, while Alex Ovechkin sets a new record in the NHL. The MLBPA prepares for a possible lockout with a substantial financial reserve.",
         "key_themes": [
-          "Tiger Woods treatment news",
-          "Italy World Cup qualification",
-          "NFL replay rule changes",
-          "Mark Cuban Mavericks sale regrets",
+          "Tiger Woods treatment announcement",
+          "USMNT soccer loss to Portugal",
+          "NFL Rooney Rule support",
+          "Italy World Cup elimination",
+          "Ovechkin's record-breaking season",
           "MLBPA lockout preparations"
         ],
         "notable_headlines": [
           {
             "headline": "Tiger stepping away from golf to seek treatment",
-            "why_it_matters": "Woods' decision underscores the importance of mental health and personal well-being in professional sports.",
+            "why_it_matters": "Woods' decision highlights his commitment to personal health amidst recent controversies.",
             "signal": "Risk"
           },
           {
-            "headline": "Italy miss out on 3rd straight WC in shootout loss",
-            "why_it_matters": "Italy's failure to qualify raises questions about the future of their national team and its competitiveness.",
+            "headline": "Portugal outclasses U.S. amid Pulisic goal drought",
+            "why_it_matters": "The U.S. team's struggles raise concerns ahead of upcoming competitions.",
             "signal": "Risk"
           },
           {
-            "headline": "NFL owners OK two significant replay changes",
-            "why_it_matters": "These changes could impact the officiating landscape and the integrity of the game amid labor negotiations.",
+            "headline": "Goodell backs Rooney Rule amid litigation threat",
+            "why_it_matters": "Support for the Rooney Rule reflects ongoing debates about diversity in the NFL.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Cuban: I regret selling Mavs to Adelson, Dumont",
-            "why_it_matters": "Cuban's regrets may influence future ownership decisions and the direction of the Mavericks franchise.",
-            "signal": "Unclear"
+            "headline": "Italy miss out on 3rd straight WC in shootout loss",
+            "why_it_matters": "Italy's failure to qualify for the World Cup marks a significant decline in their footballing stature.",
+            "signal": "Risk"
           },
           {
-            "headline": "With lockout possible, MLBPA war chest at $415M",
-            "why_it_matters": "The MLBPA's financial preparations indicate a potential for significant labor disputes in the upcoming season.",
-            "signal": "Risk"
+            "headline": "Ovechkin extends record with 20th 30-goal season",
+            "why_it_matters": "Ovechkin's achievement underscores his longevity and impact in the NHL.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor updates on Tiger Woods' treatment progress and its impact on his career.",
-            "Watch for reactions from Italy's football community regarding their World Cup exit.",
-            "Expect further developments on NFL labor negotiations and potential rule changes."
+            "Further updates on Tiger Woods' treatment progress",
+            "Analysis of the U.S. soccer team's performance and strategies moving forward",
+            "Reactions to the NFL owners' meeting outcomes"
           ],
           "next_1_4_weeks": [
-            "Keep an eye on the MLBPA's strategies as the CBA deadline approaches.",
-            "Watch for trade rumors and developments in the NFL as teams prepare for the draft.",
-            "Follow the NCAA tournament outcomes and their implications for college basketball programs."
+            "Potential implications of the MLBPA's financial preparations for a lockout",
+            "Continued scrutiny of the Rooney Rule and diversity initiatives in the NFL",
+            "Monitoring Christian Pulisic's performance leading up to the World Cup"
           ],
           "watch_list": [
             "Tiger Woods' health updates",
-            "Italy's national team future",
-            "NFL labor negotiations",
-            "MLB lockout developments",
-            "NCAA tournament results"
+            "USMNT's upcoming matches",
+            "NFL schedule expansion discussions",
+            "Italy's future in international football"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score reflects mixed feelings across the headlines, indicating a balance of positive and negative news in sports today.",
-          "Some headlines may require further context to fully understand their implications."
+          "The sentiment score indicates mixed feelings about the overall sports news landscape today.",
+          "Some developments may evolve rapidly, particularly in player health and team performance."
         ],
         "related_topics": [
-          "What is Tiger Woods' current status?",
-          "Italy's World Cup qualification history",
-          "NFL replay rule changes explained",
-          "Mark Cuban's regrets about the Mavericks",
-          "MLBPA preparations for potential lockout"
+          "What is the latest on Tiger Woods' treatment",
+          "How did the USMNT perform against Portugal",
+          "What are the implications of the Rooney Rule in the NFL",
+          "Italy's chances in future World Cups",
+          "Ovechkin's record achievements in the NHL"
         ]
       },
-      "tweet_text": "Tiger steps back, Italy heartbreaks, and CFB faces extinction—today’s sports world is anything but ordinary!\n\nSports Sentiment: Mixed (-0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#415m #Adapt #Adelson #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Tiger steps back, Portugal shines, and Ovechkin makes history—today’s sports world is anything but quiet!\n\nSports Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amid #20th #30goal #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -681,11 +680,32 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.2063,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.344, dampened ×0.6 → +0.2063). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.3369,
+        "label": "Positive",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.562, dampened ×0.6 → +0.3369). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "NASA’s asteroid Bennu sample reveals a hidden chemical patchwork",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260331231739.htm",
+          "published": "Tue, 31 Mar 2026 23:40:47 EDT",
+          "summary": "Scientists studying Bennu samples have discovered that its chemistry is far from uniform. Organic compounds and minerals cluster into three distinct types of regions, each shaped differently by past water activity. This uneven pattern shows that water altered the asteroid in a complex, localized way. The survival of delicate organic molecules adds an important clue to how life’s building blocks may persist in space.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Hardly anyone uses this surprisingly simple blood pressure fix",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260331034337.htm",
+          "published": "Tue, 31 Mar 2026 06:57:40 EDT",
+          "summary": "Salt substitutes offer a simple, low-cost way to reduce sodium intake and improve blood pressure, yet very few Americans actually use them—even among those who need them most. A large national analysis spanning nearly two decades found that usage remains surprisingly low and has not improved over time. Researchers say this gap represents a major missed opportunity for preventing heart disease and stroke.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "How squid survived Earth’s biggest extinction and took over the oceans",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260331001100.htm",
+          "published": "Wed, 01 Apr 2026 00:10:41 EDT",
+          "summary": "Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed—until a dramatic post-extinction boom sparked rapid diversification as they move",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Scientists discover sleep switch that builds muscle, burns fat, and boosts brainpower",
           "url": "https://www.sciencedaily.com/releases/2026/03/260330210905.htm",
@@ -705,6 +725,13 @@
           "url": "https://www.sciencedaily.com/releases/2026/03/260330001156.htm",
           "published": "Mon, 30 Mar 2026 08:33:20 EDT",
           "summary": "Astronomers have spotted a bizarre cosmic explosion that refuses to play by the rules—and it’s leaving scientists scrambling for answers. GRB 250702B, detected by NASA’s James Webb Space Telescope and a global network of observatories, lasted an astonishing seven hours—far longer than typical gamma-ray bursts, which usually fade in under a minute.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Your DNA is constantly moving—and it may explain cancer",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260330001147.htm",
+          "published": "Tue, 31 Mar 2026 06:47:40 EDT",
+          "summary": "Scientists have uncovered a surprising secret about our DNA: it’s not a static blueprint, but a constantly shifting, folding structure that helps control how genes turn on and off. Researchers at the Salk Institute found that different parts of the genome loop and unloop at different speeds, with more active regions constantly reshaping themselves to support gene activity.",
           "source": "ScienceDaily"
         },
         {
@@ -731,7 +758,7 @@
         {
           "title": "Scientists stretched a liquid and it snapped like a solid",
           "url": "https://www.sciencedaily.com/releases/2026/03/260330001133.htm",
-          "published": "Mon, 30 Mar 2026 09:30:11 EDT",
+          "published": "Mon, 30 Mar 2026 00:11:33 EDT",
           "summary": "Scientists have discovered something that seems almost impossible: under the right conditions, ordinary liquids can snap apart like solid objects. In experiments, researchers found that when certain liquids are stretched with enough force, they don’t just thin and flow—they suddenly fracture with a sharp break, much like metal under stress. This surprising behavior appears to be tied to viscosity, not elasticity, challenging long-held assumptions about how liquids behave.",
           "source": "ScienceDaily"
         },
@@ -741,107 +768,83 @@
           "published": "Sun, 29 Mar 2026 23:25:07 EDT",
           "summary": "Scientists may have been unknowingly inflating microplastics pollution estimates, and the surprising source could be their own lab gloves. A University of Michigan study found that common nitrile and latex gloves release tiny particles called stearates, which closely resemble microplastics and can contaminate samples during testing. In some cases, this led to wildly exaggerated results, forcing researchers to track down the unexpected culprit.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Lost in space: Microgravity makes sperm lose their sense of direction",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260329222934.htm",
-          "published": "Sun, 29 Mar 2026 23:03:13 EDT",
-          "summary": "Making babies in space may be more complicated than expected, as new research shows sperm struggle to navigate in microgravity. Scientists found that while sperm can still swim normally, they lose their sense of direction without gravity, making it harder to reach and fertilize an egg. In lab experiments simulating space conditions, far fewer sperm successfully made it through a maze designed to mimic the reproductive tract, and fertilization rates in mice dropped by about 30%.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "One of Earth’s most explosive supervolcanoes is recharging",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260329222930.htm",
-          "published": "Sun, 29 Mar 2026 22:39:28 EDT",
-          "summary": "Far beneath the ocean near Japan, scientists have discovered that the magma system linked to the most powerful eruption of the Holocene is slowly rebuilding. By using seismic imaging, researchers mapped a large magma reservoir under the Kikai caldera and confirmed it is the same system that fueled the massive eruption 7,300 years ago. However, the magma now present is newly injected, not leftover, as shown by changes in the chemistry of recent volcanic material and the growth of a lava dome over",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Popular sugar substitute linked to brain damage and stroke risk",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260328065333.htm",
-          "published": "Sat, 28 Mar 2026 07:01:23 EDT",
-          "summary": "A widely used sugar substitute found in everything from keto snacks to diet drinks may not be as harmless as it seems. New research shows that erythritol can disrupt brain blood vessel cells, reducing their ability to relax, increasing harmful oxidative stress, and impairing the body’s ability to break down clots. These changes create conditions that could raise stroke risk, even at typical consumption levels.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "After 20 years, scientists finally explain the Crab Pulsar’s strange “zebra stripes”",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260328043605.htm",
-          "published": "Sat, 28 Mar 2026 07:24:47 EDT",
-          "summary": "For decades, astronomers have been puzzled by strange “zebra stripe” patterns in radio waves from the Crab Pulsar — bright bands separated by complete darkness. Now, new research suggests the answer lies in a cosmic tug-of-war between gravity and plasma. The pulsar’s plasma spreads light apart, while gravity bends it back together, creating interference patterns that form the striking stripes.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries reveal new insights into muscle growth during sleep, effective arthritis treatments, and cosmic phenomena that challenge existing theories.",
-        "summary": "Today's science headlines highlight significant findings in various fields, including the impact of sleep on muscle growth, effective non-drug therapies for knee arthritis, and a mysterious cosmic explosion detected by the Webb telescope. Other notable studies explore the effects of black holes on star formation, the behavior of liquids under stress, and the challenges of reproduction in microgravity. Additionally, researchers have raised concerns about the accuracy of microplastics data due to lab glove contamination and linked a popular sugar substitute to potential health risks.",
+        "key_takeaway": "Recent scientific discoveries reveal new insights into asteroids, blood pressure management, evolutionary biology, and the behavior of materials, highlighting ongoing advancements in various fields.",
+        "summary": "Today's science headlines cover a range of topics, including the complex chemistry of asteroid Bennu, the underutilization of salt substitutes for blood pressure management, and new findings on squid evolution. Other notable studies reveal the benefits of deep sleep on muscle growth and metabolism, the effectiveness of non-drug therapies for knee arthritis, and a mysterious cosmic explosion detected by the Webb telescope. Additionally, research on DNA dynamics, the impact of black holes on star formation, and new theories about the Big Bang are also highlighted, along with surprising findings regarding liquid behavior and microplastics contamination in lab settings.",
         "key_themes": [
-          "sleep and muscle growth",
-          "non-drug arthritis treatments",
-          "cosmic explosions and physics",
-          "black holes and star formation",
-          "liquid behavior under stress",
-          "microgravity effects on reproduction"
+          "asteroid chemistry",
+          "blood pressure management",
+          "squid evolution",
+          "deep sleep benefits",
+          "non-drug arthritis therapies",
+          "cosmic explosions"
         ],
         "notable_headlines": [
           {
+            "headline": "NASA’s asteroid Bennu sample reveals a hidden chemical patchwork",
+            "why_it_matters": "This discovery enhances our understanding of how water has influenced asteroid chemistry and the potential for organic molecules in space.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Hardly anyone uses this surprisingly simple blood pressure fix",
+            "why_it_matters": "The low usage of salt substitutes represents a missed opportunity for heart disease prevention.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "How squid survived Earth’s biggest extinction and took over the oceans",
+            "why_it_matters": "Understanding squid evolution provides insights into resilience and adaptation in changing environments.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Scientists discover sleep switch that builds muscle, burns fat, and boosts brainpower",
-            "why_it_matters": "This discovery could lead to new approaches in enhancing physical and mental health through sleep.",
+            "why_it_matters": "This research could lead to new approaches in enhancing physical and mental health through sleep.",
             "signal": "Opportunity"
           },
           {
             "headline": "Simple therapies beat drugs for knee arthritis pain relief",
-            "why_it_matters": "The findings may shift treatment paradigms towards more accessible and safer non-drug therapies for arthritis.",
+            "why_it_matters": "The findings suggest a shift towards more accessible and safer treatment options for arthritis.",
             "signal": "Opportunity"
           },
           {
             "headline": "Webb telescope spots mysterious explosion that defies known physics",
-            "why_it_matters": "This observation challenges existing astrophysical theories and could lead to new understandings of cosmic events.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Monster black holes are silencing star formation across the universe",
-            "why_it_matters": "Understanding this phenomenon could reshape our knowledge of galaxy evolution and interactions.",
+            "why_it_matters": "This unprecedented observation challenges existing theories in astrophysics and prompts further investigation.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Scientists shocked to find lab gloves may be skewing microplastics data",
-            "why_it_matters": "This revelation could impact environmental research and the accuracy of pollution assessments.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the cosmic explosion detected by the Webb telescope may yield new insights.",
-            "Research on the implications of sleep on health could lead to new therapeutic strategies.",
-            "Studies on non-drug therapies for arthritis may prompt clinical trials."
+            "Further analysis of Bennu samples may reveal additional insights into asteroid formation.",
+            "Public health campaigns may increase awareness of salt substitutes for blood pressure management.",
+            "New studies may emerge regarding the implications of squid evolution on marine ecosystems."
           ],
           "next_1_4_weeks": [
-            "Ongoing investigations into the effects of black holes on star formation may provide deeper insights into galaxy dynamics.",
-            "More research is expected on the health implications of erythritol and other sugar substitutes.",
-            "The scientific community may focus on addressing the contamination issues in microplastics research."
+            "Anticipated discussions on the implications of deep sleep research for health and wellness practices.",
+            "Potential clinical trials may explore non-drug therapies for arthritis based on recent findings.",
+            "Ongoing investigations into the cosmic explosion detected by the Webb telescope may yield new theories."
           ],
           "watch_list": [
-            "Developments in quantum gravity theories related to the Big Bang.",
-            "Further studies on the behavior of liquids under stress and their applications.",
-            "Updates on the Kikai caldera and its volcanic activity.",
-            "New findings related to the Crab Pulsar and its radio wave patterns."
+            "Developments in the study of microplastics and their sources in laboratory settings.",
+            "Research updates on the effects of black holes on galaxy formation.",
+            "New theories regarding the Big Bang and quantum gravity.",
+            "Advancements in understanding the dynamics of DNA and its implications for cancer research."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates uncertainty in the implications of some findings.",
-          "Further research is needed to confirm the health risks associated with erythritol.",
-          "The cosmic explosion's nature is still not fully understood."
+          "The findings on microplastics contamination may require further validation to ensure accuracy.",
+          "The implications of the squid evolution study are still being explored and may evolve with new data."
         ],
         "related_topics": [
-          "What are the latest discoveries in sleep science?",
-          "How effective are non-drug treatments for arthritis?",
-          "What did the Webb telescope find in space?",
-          "How do black holes affect galaxy formation?",
-          "What are the risks of sugar substitutes like erythritol?"
+          "What are the latest findings on asteroid Bennu?",
+          "How can salt substitutes improve blood pressure?",
+          "What new insights have been discovered about squid evolution?",
+          "What are the benefits of deep sleep on health?",
+          "How effective are non-drug therapies for arthritis?"
         ]
       },
-      "tweet_text": "Unlock the secrets of sleep: a new switch could transform your muscles, metabolism, and mind!\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Like #Across #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlocking the secrets of the universe and our bodies: science just dropped some game-changing revelations!\n\nScience Sentiment: Positive (+0.34)\n\nRead the full breakdown: https://tldrnews.info\n\n#Simple #Across #Anyone #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
