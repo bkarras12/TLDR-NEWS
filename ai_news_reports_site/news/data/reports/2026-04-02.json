@@ -1,11 +1,13 @@
 {
   "date": "2026-04-02",
-  "generated_at_utc": "2026-04-02T23:44:29Z",
+  "generated_at_utc": "2026-04-03T05:00:55Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
-    "iran"
+    "iran",
+    "artemis",
+    "general"
   ],
   "categories": {
     "world": {
@@ -17,16 +19,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2384,
+        "score": -0.2122,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.397, dampened ×0.6 → -0.2384). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.354, dampened ×0.6 → -0.2122). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Artemis II blasts ever closer to the far side of the Moon",
+          "url": "https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 03 Apr 2026 03:35:28 GMT",
+          "summary": "The mission's last, big push on its lunar journey takes humans out of the Earth's orbit for the first time since 1972.",
+          "source": "BBC News"
+        },
+        {
           "title": "Trump removes US Attorney General Pam Bondi",
           "url": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 02 Apr 2026 20:39:32 GMT",
-          "summary": "Bondi's time as America's top law enforcement officer was overshadowed by the justice department's handling of the Jeffrey Epstein investigation.",
+          "published": "Fri, 03 Apr 2026 00:31:27 GMT",
+          "summary": "Bondi's time as top US law enforcement officer was overshadowed by her handling of the Epstein files.",
           "source": "BBC News"
         },
         {
@@ -65,6 +74,13 @@
           "source": "BBC News"
         },
         {
+          "title": "Hegseth asks US Army's top general to step down",
+          "url": "https://www.bbc.com/news/articles/cn8d63v058zo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 02 Apr 2026 22:57:37 GMT",
+          "summary": "Gen Randy George was nominated for the role in 2023 by former President Joe Biden.",
+          "source": "BBC News"
+        },
+        {
           "title": "Iran's two largest steel plants shut down due to air strikes, companies say",
           "url": "https://www.bbc.com/news/articles/c1w4pdexxqpo?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 02 Apr 2026 17:01:08 GMT",
@@ -81,7 +97,7 @@
         {
           "title": "Baby shot dead in pram in New York City, police say",
           "url": "https://www.bbc.com/news/articles/c203w57pkn3o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 02 Apr 2026 15:20:02 GMT",
+          "published": "Fri, 03 Apr 2026 02:15:45 GMT",
           "summary": "The seven-month-old child is the unintended victim of a suspected gang-related shooting, officials say.",
           "source": "BBC News"
         },
@@ -91,87 +107,76 @@
           "published": "Thu, 02 Apr 2026 17:32:25 GMT",
           "summary": "Several regions are flooded in mainland Greece, while a Saharan dust storm envelopes the island of Crete.",
           "source": "BBC News"
-        },
-        {
-          "title": "US lifts sanctions on Venezuelan interim leader Delcy Rodríguez",
-          "url": "https://www.bbc.com/news/articles/cje4l9de0d1o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 02 Apr 2026 11:55:37 GMT",
-          "summary": "It is the latest sign of warming relations between the US and Venezuela after Nicolás Maduro was seized in a commando raid.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Iranian Nobel laureate suffered suspected heart attack in prison, family says",
-          "url": "https://www.bbc.com/news/articles/cdj7xye8knxo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 02 Apr 2026 16:00:58 GMT",
-          "summary": "Narges Mohammadi's brother says he fears her life is in imminent danger and she needs to be transferred to a hospital.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The ongoing war in Iran is causing widespread economic distress and geopolitical tensions, impacting various sectors globally.",
-        "summary": "Today's headlines highlight the escalating situation in Iran, with reports of economic hardship and military actions affecting both local and international markets. Additionally, geopolitical tensions involving the US and Venezuela are noted, alongside domestic issues in Brazil and the US.",
+        "key_takeaway": "The ongoing war in Iran is causing significant economic distress and impacting global supply chains, while political tensions in the US and Europe continue to rise.",
+        "summary": "Today's headlines highlight the escalating humanitarian crisis in Iran amid ongoing conflict, the political fallout in the US with Trump's recent actions, and environmental challenges in Greece due to severe weather. Additionally, Brazil's new pet custody law reflects changing societal values, while a notable archaeological recovery in the Netherlands marks a significant cultural event.",
         "key_themes": [
-          "Iran war economic impact",
-          "US Venezuela relations",
-          "Brazil pet custody law"
+          "Iran war humanitarian crisis",
+          "Trump political changes",
+          "Brazil pet custody law",
+          "Greece weather impact",
+          "US-Israel relations"
         ],
         "notable_headlines": [
           {
             "headline": "'I haven't slept for days': Iranians describe mounting desperation after a month of war",
-            "why_it_matters": "This reflects the severe humanitarian crisis and economic impact of the ongoing conflict in Iran.",
+            "why_it_matters": "This highlights the severe humanitarian impact of the ongoing conflict in Iran, affecting ordinary citizens.",
             "signal": "Risk"
           },
           {
             "headline": "Iran war could make beer and bottled water pricier for Indians",
-            "why_it_matters": "Supply chain disruptions from the Iran conflict could lead to increased costs for essential goods in India.",
+            "why_it_matters": "The conflict is disrupting supply chains, which could lead to increased prices for essential goods in other countries.",
             "signal": "Risk"
           },
           {
-            "headline": "US lifts sanctions on Venezuelan interim leader Delcy Rodríguez",
-            "why_it_matters": "This move indicates a potential thaw in US-Venezuela relations amidst ongoing geopolitical shifts.",
-            "signal": "Opportunity"
+            "headline": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war",
+            "why_it_matters": "Macron's criticism underscores the international tensions and differing approaches to the Iran conflict.",
+            "signal": "Risk"
           },
           {
             "headline": "Iran's two largest steel plants shut down due to air strikes, companies say",
-            "why_it_matters": "The shutdown of major industrial facilities could have significant repercussions for Iran's economy and global supply chains.",
+            "why_it_matters": "The shutdown of major industrial facilities could have long-term economic repercussions for Iran.",
             "signal": "Risk"
           },
           {
-            "headline": "Man dies in storm near Athens as Saharan dust shrouds Crete",
-            "why_it_matters": "Severe weather events are impacting regions in Europe, highlighting the effects of climate change.",
+            "headline": "Baby shot dead in pram in New York City, police say",
+            "why_it_matters": "This tragic incident highlights ongoing issues with gun violence in urban areas in the US.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Continued monitoring of the humanitarian situation in Iran as strikes escalate.",
-            "Potential international responses to the economic fallout from the Iran conflict.",
-            "Updates on the US-Venezuela diplomatic relations."
+            "Continued coverage of the humanitarian situation in Iran as the conflict persists.",
+            "Monitoring of political reactions in the US following Trump's recent actions.",
+            "Updates on the economic impact of the Iran war on global markets."
           ],
           "next_1_4_weeks": [
-            "Further developments in the Iran war and its global economic implications.",
-            "Legislative responses in Brazil regarding pet custody and its societal impact.",
-            "Monitoring the health of Iranian Nobel laureate Narges Mohammadi."
+            "Potential escalation of the Iran conflict and its implications for regional stability.",
+            "Further developments in US political dynamics as the 2026 elections approach.",
+            "Legislative responses in Brazil regarding pet custody and animal rights."
           ],
           "watch_list": [
-            "Iran's economic stability and humanitarian conditions.",
-            "US foreign policy shifts regarding Venezuela and Iran.",
-            "Impact of weather events in Europe on local economies.",
-            "Global commodity prices affected by the Iran conflict."
+            "Iran's economic situation and humanitarian response efforts.",
+            "US political landscape changes and their implications for foreign policy.",
+            "Global supply chain disruptions related to the Iran conflict.",
+            "confidence",
+            "Medium"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran is fluid and may change rapidly, affecting economic forecasts.",
-          "Geopolitical relations can shift unexpectedly, impacting international markets."
+          "The situation in Iran is fluid and may change rapidly, affecting the humanitarian crisis and economic conditions.",
+          "Political dynamics in the US can shift quickly, impacting international relations."
         ],
         "related_topics": [
           "What is the current situation in Iran's war?",
-          "How are global markets reacting to the Iran conflict?",
-          "What are the implications of US sanctions on Venezuela?"
+          "How is the Iran conflict affecting global supply chains?",
+          "What are the latest political developments in the US?"
         ]
       },
-      "tweet_text": "From Trump's shake-up to desperate cries in Iran, today’s world news is a rollercoaster of turmoil and unexpected laws.\n\nWorld Sentiment: Mixed (-0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Trump #Ancient #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "As Artemis II reaches the Moon's dark side, a world in turmoil grapples with war, leadership shake-ups, and rising costs.\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#General #Iran #Trump #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -182,9 +187,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1695,
+        "score": -0.1556,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.282, dampened ×0.6 → -0.1695). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.259, dampened ×0.6 → -0.1556). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -199,6 +204,13 @@
           "url": "https://www.theguardian.com/us-news/2026/apr/02/new-jersey-hindu-temple-lung-disease",
           "published": "Thu, 02 Apr 2026 11:00:23 GMT",
           "summary": "<p>Workers allege abuse, visa fraud and medical neglect during the New Jersey temple’s construction – and say two died from lung disease caused by inhaling silica dust</p><p>In the center of the suburban town of Robbinsville, New Jersey, sits the <a href=\"https://www.pbs.org/newshour/arts/largest-hindu-temple-outside-india-in-the-modern-era-opens-in-central-new-jersey\">largest modern</a> Hindu mandir outside India.</p><p>What visitors from around the world see is a breathtaking display of crafts",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump threatens 100% tariff on US drug makers that don’t strike deals to lower prices",
+          "url": "https://www.theguardian.com/us-news/2026/apr/02/trump-100-tariff-us-pharmaceutical-drug-makers",
+          "published": "Thu, 02 Apr 2026 21:33:24 GMT",
+          "summary": "<p>New tax will hit branded drugs and active ingredients while exempting generics for at least one year</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a></p></li></ul><p><a href=\"",
           "source": "The Guardian"
         },
         {
@@ -244,13 +256,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "How could US forcibly reopen strait of Hormuz and what are the risks?",
-          "url": "https://www.theguardian.com/world/2026/mar/30/how-could-us-forcibly-reopen-strait-of-hormuz-iran-what-are-the-risks",
-          "published": "Mon, 30 Mar 2026 09:32:06 GMT",
-          "summary": "<p>US ground troops have arrived in Middle East but military options to open strait risk strong retaliation from Iran</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/mar/30/iran-war-live-updates-trump-oil-kharg-island-houthis-israel-lebanon-middle-east\">Middle East crisis – live updates</a></p></li></ul><p>The arrival of US ground invasion forces in the Middle East over the weekend provides Donald Trump with the muscle for a perilous attempt to forcibly open the strait of Horm",
-          "source": "The Guardian"
-        },
-        {
           "title": "Florida space coast cities abuzz before Nasa’s Artemis launch: ‘At the doorstep of the future’",
           "url": "https://www.theguardian.com/us-news/2026/mar/30/nasa-artemis-launch-florida",
           "published": "Mon, 30 Mar 2026 12:00:09 GMT",
@@ -273,74 +278,72 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Oil prices surged following Trump's warning to Iran, while Blue Owl Capital faced withdrawal limits amid declining confidence in the private credit market.",
-        "summary": "Today's business news highlights significant fluctuations in oil prices due to geopolitical tensions, with Brent crude rising sharply after President Trump's threats against Iran. Meanwhile, Blue Owl Capital has limited withdrawals as investors seek to redeem billions from its funds, reflecting growing concerns in the unregulated lending market. Additionally, Oracle has announced substantial job cuts as it pivots towards AI investments, and analysts reflect on the impact of Trump's tariffs one year later.",
+        "key_takeaway": "Oil prices surged following Trump's warning to Iran, while Blue Owl Capital limited withdrawals amid investor concerns over the unregulated lending market.",
+        "summary": "Today's business news highlights significant fluctuations in oil prices due to geopolitical tensions, major corporate layoffs in the tech sector, and regulatory actions impacting the pharmaceutical industry. The market sentiment remains mixed as investors react to these developments.",
         "key_themes": [
-          "oil price fluctuations",
-          "impact of Trump's policies on markets",
-          "Blue Owl Capital withdrawal limits",
-          "Oracle job cuts and AI investment",
-          "analysis of Trump's tariffs"
+          "impact of geopolitical tensions on oil prices",
+          "corporate layoffs in tech sector",
+          "pharmaceutical industry tariffs",
+          "investor confidence in lending markets",
+          "construction worker health issues"
         ],
         "notable_headlines": [
           {
             "headline": "Oil price jumps and markets slide after Trump warning to Iran",
-            "why_it_matters": "The surge in oil prices reflects market reactions to geopolitical tensions, impacting global economic stability.",
+            "why_it_matters": "The rise in oil prices reflects heightened geopolitical tensions, impacting global markets and consumer costs.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trump threatens 100% tariff on US drug makers that don’t strike deals to lower prices",
+            "why_it_matters": "This potential tariff could significantly affect drug pricing and the pharmaceutical industry’s profitability.",
             "signal": "Risk"
           },
           {
             "headline": "Blue Owl Capital limits withdrawals after investors try to redeem $5.4bn",
-            "why_it_matters": "This move indicates a significant loss of confidence in the private credit sector, raising concerns about liquidity.",
+            "why_it_matters": "The firm's decision indicates a loss of confidence in the private credit market, raising concerns for investors.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US tech firm Oracle cuts thousands of jobs as it steps up AI spending",
+            "why_it_matters": "Oracle's layoffs highlight the ongoing shift in the tech industry towards AI, despite the immediate negative impact on employment.",
             "signal": "Risk"
           },
           {
             "headline": "‘If he’d stayed on the golf course, we’d be in a better place’: experts on Trump’s tariffs, one year on",
-            "why_it_matters": "Experts critique the long-term effects of Trump's tariff policies, suggesting they have not achieved intended economic benefits.",
+            "why_it_matters": "Experts suggest that Trump's tariff policies have not yielded the intended economic benefits, reflecting on their long-term impact.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "US tech firm Oracle cuts thousands of jobs as it steps up AI spending",
-            "why_it_matters": "Oracle's job cuts signal a strategic shift towards AI, reflecting broader trends in the tech industry.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "US average fuel price passes $4 a gallon for first time in four years amid Iran war",
-            "why_it_matters": "Rising fuel prices could have widespread implications for consumer spending and inflation.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor oil price movements in response to geopolitical developments.",
-            "Watch for further announcements from Blue Owl Capital regarding investor withdrawals.",
-            "Observe market reactions to Oracle's job cuts and AI strategy."
+            "Monitor oil price fluctuations as geopolitical tensions evolve",
+            "Watch for investor reactions to Oracle's job cuts and AI strategy",
+            "Keep an eye on developments regarding Trump's tariff threats"
           ],
           "next_1_4_weeks": [
-            "Expect ongoing volatility in oil markets as the situation in Iran evolves.",
-            "Anticipate potential regulatory scrutiny of private credit firms like Blue Owl Capital.",
-            "Watch for tech industry trends related to AI investments and job market shifts."
+            "Assess the impact of Blue Owl Capital's withdrawal limits on investor confidence",
+            "Evaluate the pharmaceutical industry's response to potential tariffs",
+            "Observe trends in the tech sector regarding AI investments and job stability"
           ],
           "watch_list": [
-            "Geopolitical developments in Iran and their economic implications.",
-            "Trends in private credit markets and investor confidence.",
-            "Oracle's performance post-job cuts and AI investment strategy.",
-            "Analysis of Trump's tariff impacts on trade relations."
+            "Geopolitical developments in Iran",
+            "Corporate earnings reports from tech firms",
+            "Updates on US drug pricing policies",
+            "Trends in private credit markets"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Market reactions are highly sensitive to geopolitical events, making predictions uncertain.",
-          "The private credit market's stability is contingent on broader economic conditions."
+          "Market reactions may vary based on new developments in geopolitical situations.",
+          "Corporate strategies may change rapidly in response to economic pressures."
         ],
         "related_topics": [
           "What are the latest oil price trends?",
-          "How are geopolitical tensions affecting global markets?",
-          "What is the impact of Trump's tariffs on the economy?",
-          "Latest developments in private credit markets",
-          "How is AI investment changing the tech job landscape?"
+          "How are tech companies responding to AI demands?",
+          "What are the implications of Trump's tariffs on pharmaceuticals?"
         ]
       },
-      "tweet_text": "Oil prices soar and markets tumble as Trump's Iran warning sends shockwaves—will this be a turning point for...\n\nBusiness Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Price #Markets #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Oil prices soar, markets tumble, and Trump’s tariff threats loom—today's business news is a rollercoaster...\n\nBusiness Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Iran #Markets #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -388,7 +391,7 @@
           "title": "This bike rack pioneer is selling Bluetooth suction cups to stick bikes to your car",
           "url": "https://www.theverge.com/gadgets/906076/allen-smart-suction-go-bike-rack",
           "published": "2026-04-02T16:05:02-04:00",
-          "summary": "Richard Allen didn't invent the automobile bike rack - his 1967 patent application makes it clear that others came before. But after nearly sixty years selling popular and simple mechanical bike carriers, his company Allen Bikes now offers a line of - yes - Bluetooth-monitored suction cups to stick bikes to your car. If you [&#8230;]",
+          "summary": "Richard Allen didn't invent the automobile bike rack - his 1967 patent application makes it clear that others came before. But after nearly sixty years selling popular and simple mechanical bike carriers, his company Allen Sports now offers a line of - yes - Bluetooth-monitored suction cups to stick bikes to your car. If you [&#8230;]",
           "source": "The Verge"
         },
         {
@@ -429,74 +432,71 @@
       ],
       "ai_report": {
         "key_takeaway": "Archive of Our Own exits beta after 17 years, while Granola app raises privacy concerns over note-sharing settings.",
-        "summary": "Today's technology news highlights significant updates including the official launch of Archive of Our Own after 17 years, privacy issues with the Granola note-taking app, and Reddit's decision to deprecate the r/all feed. Additionally, there are notable deals on AirPods, innovative bike rack technology, and a quirky compass designed for navigating to a specific restaurant in Times Square.",
+        "summary": "Today's technology news highlights the official exit of Archive of Our Own from beta after 17 years, privacy issues with the Granola note-taking app, and Reddit's decision to deprecate its r/all feed. Additionally, there are notable deals on AirPods and innovative products like Bluetooth suction cups for bike racks. Elon Musk is also expected to be busy with upcoming IPO plans for SpaceX.",
         "key_themes": [
-          "privacy concerns in tech",
-          "updates on fanfiction platforms",
-          "Reddit feed changes",
-          "AirPods discounts",
-          "innovative bike accessories",
-          "Elon Musk's upcoming IPO"
+          "privacy concerns in technology",
+          "updates on popular tech platforms",
+          "new product innovations in gadgets"
         ],
         "notable_headlines": [
           {
             "headline": "AO3 is finally out of beta after 17 years",
-            "why_it_matters": "The long-awaited launch signifies a major milestone for the fanfiction community and the Organization for Transformative Works.",
+            "why_it_matters": "This marks a significant milestone for the fanfiction community and the nonprofit behind the platform.",
             "signal": "Opportunity"
           },
           {
             "headline": "PSA: Anyone with a link can view your Granola notes by default",
-            "why_it_matters": "This raises significant privacy concerns for users of the AI-powered note-taking app, highlighting the need for better user awareness.",
+            "why_it_matters": "Users need to be aware of privacy settings to protect their personal notes.",
             "signal": "Risk"
           },
           {
             "headline": "Reddit is moving on from r/all",
-            "why_it_matters": "The change reflects Reddit's ongoing efforts to enhance user experience and personalize content feeds.",
+            "why_it_matters": "This change reflects Reddit's ongoing efforts to enhance user experience and content personalization.",
             "signal": "Unclear"
           },
           {
             "headline": "The best AirPods deals you can get right now",
-            "why_it_matters": "Consumers can take advantage of discounts on popular Apple products, which may influence purchasing decisions.",
+            "why_it_matters": "Consumers can benefit from discounts on popular Apple products, enhancing accessibility.",
             "signal": "Opportunity"
           },
           {
             "headline": "This bike rack pioneer is selling Bluetooth suction cups to stick bikes to your car",
-            "why_it_matters": "Innovative technology in bike transportation could appeal to cyclists looking for convenience and security.",
+            "why_it_matters": "Innovative solutions in transportation technology could change how bikes are transported.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor user reactions to Granola's privacy settings",
-            "Watch for further updates from Reddit regarding feed changes",
-            "Keep an eye on AirPods sales trends"
+            "Monitoring user reactions to Granola's privacy concerns",
+            "Tracking Reddit's user engagement post-r/all deprecation",
+            "Observing consumer response to AirPods deals"
           ],
           "next_1_4_weeks": [
-            "Expect more details on Elon Musk's IPO plans",
-            "Look for user feedback on AO3's new features",
-            "Watch for developments in bike accessory innovations"
+            "Anticipating further developments in SpaceX's IPO process",
+            "Watching for updates from AO3 on new features post-beta",
+            "Evaluating user feedback on new bike rack technology"
           ],
           "watch_list": [
             "Granola app privacy updates",
-            "Reddit user engagement metrics",
-            "Trends in AirPods sales and discounts",
-            "Elon Musk's IPO announcements"
+            "Reddit's content personalization changes",
+            "Elon Musk's upcoming IPO announcements",
+            "New product launches in tech gadgets"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall technology landscape today.",
-          "Privacy issues may evolve as users react to Granola's settings."
+          "The sentiment score is mixed, indicating varied public reactions to the news.",
+          "Some headlines may not directly relate to technology but have tech implications."
         ],
         "related_topics": [
-          "What are the latest updates on Archive of Our Own?",
-          "How does Granola app handle user privacy?",
-          "What changes is Reddit making to its feeds?",
-          "Where can I find the best AirPods deals?",
-          "What innovative bike accessories are available?"
+          "What are the latest updates on Archive of Our Own",
+          "How to ensure privacy in note-taking apps",
+          "What changes is Reddit making to its platform",
+          "Best deals on Apple AirPods",
+          "Innovations in bike transportation technology"
         ]
       },
-      "tweet_text": "After 17 years, AO3 finally breaks free from beta—what's next for fanfiction?\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #Airpods #Anyone #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "After 17 years, AO3 finally breaks free from beta—what's next for fanfic lovers?\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #Airpods #Anyone #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -507,72 +507,86 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.0088,
+        "score": 0.027,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.015, dampened ×0.6 → +0.0088). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.045, dampened ×0.6 → +0.0270). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Tiger told deputy: 'Was just talking to president'",
           "url": "https://www.espn.com/golf/story/_/id/48378214/bodycam-shows-tiger-woods-surprised-dui-arrest",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
           "summary": "After crashing his SUV last week in Florida, Tiger Woods took out his phone and told a deputy, \"I was just talking to the president,\" according to body camera footage released Thursday showing the golfer's arrest on a DUI charge.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Source: Luka (hamstring) set for MRI after exit",
+          "url": "https://www.espn.com/nba/story/_/id/48382849/luka-doncic-exits-lakers-game-okc-hamstring-strain",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
+          "summary": "Lakers star Luka Doncic exited Thursday's loss to the Thunder early because of a strained left hamstring.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: KU's Bidunga to test draft, enter portal",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48382218/sources-kansas-bidunga-declare-draft-enter-portal",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
+          "summary": "Flory Bidunga, who projects as a second-round pick, would be the top player in the portal among the more than 800 players so far who intend to enter.",
           "source": "ESPN"
         },
         {
           "title": "Phil to miss Masters due to family health matter",
           "url": "https://www.espn.com/golf/story/_/id/48379971/phil-mickelson-miss-masters-personal-health-matter",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
           "summary": "Phil Mickelson announced Thursday that he won't play in next week's Masters and will be out for an extended period as his family continues to \"navigate a personal health matter.\"",
           "source": "ESPN"
         },
         {
           "title": "Two-time All-Pro, 2019 DPOY Gilmore retiring",
           "url": "https://www.espn.com/nfl/story/_/id/48380010/two-all-pro-2019-dpoy-stephon-gilmore-retires-nfl",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
           "summary": "Two-time All-Pro cornerback Stephon Gilmore announced his retirement from the NFL.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Judge denies UVA QB Morris' request for 7th year",
+          "url": "https://www.espn.com/college-football/story/_/id/48381387/virginia-qb-morris-injunction-request-denied-judge",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
+          "summary": "A Virginia circuit court judge denied Virginia quarterback Chandler Morris' request for a preliminary injunction to play a seventh season on Thursday.",
           "source": "ESPN"
         },
         {
           "title": "Not a multitasker: Lloyd focused on Zona, not UNC",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48380222/not-multitasker-lloyd-focusing-arizona-not-north-carolina",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
           "summary": "Arizona head coach Tommy Lloyd said he's not a \"multitasker\" amid rumors tying him to the North Carolina opening as his team prepares to play Michigan in the Final Four on Saturday.",
           "source": "ESPN"
         },
         {
-          "title": "Cadeau rejoins U-M, 'fine' after allergic reaction",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48380065/elliot-cadeau-rejoins-wolverines-allergic-reaction",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
-          "summary": "Michigan starting point guard Elliot Cadeau rejoined his teammates for the Final Four and said Thursday his allergic reaction that required hospitalization a day earlier was due to an accidental exposure to nuts.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Bauer returns to U.S. with minor league Ducks",
-          "url": "https://www.espn.com/mlb/story/_/id/48378454/trevor-bauer-signs-long-island-ducks-us-return",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
-          "summary": "Former Cy Young winner Trevor Bauer has signed with the Long Island Ducks of the Atlantic League and is scheduled to pitch opening night April 21 for the minor league team.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Cignetti backs Hoover after turnover dig by Dykes",
-          "url": "https://www.espn.com/college-football/story/_/id/48379388/indiana-cignetti-backs-hoover-turnover-dig-dykes",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
-          "summary": "Indiana coach Curt Cignetti reiterated his support for transfer quarterback Josh Hoover while responding to recent comments from TCU coach Sonny Dykes about Hoover's high turnovers total.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Just foolin': Wizards sorry about $10K shot 'skit'",
-          "url": "https://www.espn.com/nba/story/_/id/48378756/wizards-apologize-april-fools-stunt-say-bit-was-scripted",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
-          "summary": "The Wizards have apologized for an April Fools' \"skit\" in which a planted fan was seemingly tricked into believing he made a half-court shot for $10,000, saying the entire bit was scripted but that they \"missed the mark.\"",
+          "title": "Royals' Jensen oversleeps, scratched from lineup",
+          "url": "https://www.espn.com/mlb/story/_/id/48381778/royals-catcher-carter-jensen-scratched-oversleeping",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
+          "summary": "Catcher Carter Jensen was removed from the Royals' starting lineup for Thursday's game against the Twins after he overslept.",
           "source": "ESPN"
         },
         {
           "title": "🍼 Allen, Steinfeld announce birth of first child",
           "url": "https://www.espn.com/nfl/story/_/id/48377774/josh-allen-hailee-steinfeld-birth-child-buffalo-bills",
-          "published": "Thu, 2 Apr 2026 17:48:31 EST",
+          "published": "Thu, 2 Apr 2026 23:50:31 EST",
           "summary": "The Buffalo Bills quarterback and the \"Sinners\" actress did not share the date of birth or the name of their daughter.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Women's March Madness: The 15 best players left in the field",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48373247/women-final-four-march-madness-ranking-15-best-players",
+          "published": "Fri, 3 Apr 2026 00:51:13 EST",
+          "summary": "Wondering who to watch during this weekend's Final Four? We break down the best on the court.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Preview and predictions: Which teams will win in the semifinals?",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48353722/womens-final-four-march-madness-2026-predictions-preview-uconn-ucla-texas-south-carolina",
+          "published": "Fri, 3 Apr 2026 00:51:13 EST",
+          "summary": "Here's how UConn, UCLA, South Carolina and Texas can win the NCAA title, and what might derail them.",
           "source": "ESPN"
         },
         {
@@ -581,91 +595,77 @@
           "published": "Thu, 2 Apr 2026 08:18:22 EST",
           "summary": "We asked four draft analysts -- Mel Kiper Jr., Matt Miller, Jordan Reid and Field Yates -- to make picks in the first three rounds. Where do the top prospects land?",
           "source": "ESPN"
-        },
-        {
-          "title": "These flaws could hold back the draft's top QBs",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48369237/nfl-draft-2026-flaws-top-quarterbacks-fernando-mendoza-ty-simpson",
-          "published": "Thu, 2 Apr 2026 08:18:22 EST",
-          "summary": "We saw a lot during the college careers of the draft's top QBs. Each has something that could set them back.",
-          "source": "ESPN"
-        },
-        {
-          "title": "The latest on Kawhi Leonard, Steve Ballmer and the NBA's investigation into the LA Clippers",
-          "url": "https://www.espn.com/nba/story/_/id/48369328/the-latest-kawhi-leonard-steve-ballmer-nba-investigation-aspiration-la-clippers",
-          "published": "Thu, 2 Apr 2026 17:36:57 EST",
-          "summary": "What was actually in Leonard's contract? What do league insiders think of it? Here's what we know about the allegations -- and where the investigation stands.",
-          "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tiger Woods faces DUI charges following a crash, while Phil Mickelson will miss the Masters due to family health issues.",
-        "summary": "Today's sports headlines cover significant events including Tiger Woods' DUI arrest, Phil Mickelson's withdrawal from the Masters, and Stephon Gilmore's retirement from the NFL. Additionally, college basketball and NFL draft discussions are highlighted, along with a controversy involving the Washington Wizards.",
+        "key_takeaway": "Tiger Woods faces DUI charges following a crash, while Luka Doncic's injury raises concerns for the NBA playoffs.",
+        "summary": "Today's sports headlines highlight significant events including Tiger Woods' DUI arrest, Luka Doncic's hamstring injury, and Phil Mickelson's withdrawal from the Masters due to family health issues. Additionally, Stephon Gilmore announced his retirement, and the women's NCAA Final Four approaches with predictions and player rankings.",
         "key_themes": [
           "Tiger Woods DUI arrest details",
+          "Luka Doncic injury update",
           "Phil Mickelson Masters withdrawal",
-          "Stephon Gilmore NFL retirement news",
-          "NCAA Final Four updates",
-          "NFL draft prospects analysis"
+          "Stephon Gilmore retirement announcement",
+          "Women's NCAA Final Four predictions"
         ],
         "notable_headlines": [
           {
             "headline": "Tiger told deputy: 'Was just talking to president'",
-            "why_it_matters": "Woods' arrest raises concerns about his personal conduct and public image.",
+            "why_it_matters": "This incident highlights the ongoing struggles of high-profile athletes with personal issues and legal troubles.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Source: Luka (hamstring) set for MRI after exit",
+            "why_it_matters": "Luka Doncic's injury could significantly impact the Dallas Mavericks' playoff chances.",
             "signal": "Risk"
           },
           {
             "headline": "Phil to miss Masters due to family health matter",
-            "why_it_matters": "Mickelson's absence from a major tournament impacts the event's competitive landscape.",
+            "why_it_matters": "Mickelson's absence from the Masters raises questions about his future in the sport amid personal challenges.",
             "signal": "Risk"
           },
           {
             "headline": "Two-time All-Pro, 2019 DPOY Gilmore retiring",
-            "why_it_matters": "Gilmore's retirement marks the end of a notable career in the NFL.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Cadeau rejoins U-M, 'fine' after allergic reaction",
-            "why_it_matters": "Cadeau's return is crucial for Michigan's performance in the upcoming Final Four.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Just foolin': Wizards sorry about $10K shot 'skit'",
-            "why_it_matters": "The Wizards' apology reflects on the impact of public relations in sports.",
+            "why_it_matters": "Gilmore's retirement marks the end of a notable career in the NFL, impacting team dynamics and future player acquisitions.",
             "signal": "Risk"
+          },
+          {
+            "headline": "Women's March Madness: The 15 best players left in the field",
+            "why_it_matters": "Highlighting top players in the NCAA tournament can influence viewer engagement and fan interest in women's sports.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further developments in Tiger Woods' DUI case are expected.",
-            "Phil Mickelson's family health situation may provide updates soon.",
-            "The Final Four games will take place this weekend."
+            "Updates on Luka Doncic's MRI results are expected soon.",
+            "Further details on Tiger Woods' legal situation may emerge.",
+            "Phil Mickelson's family health matter could lead to more public statements."
           ],
           "next_1_4_weeks": [
-            "The NFL draft will occur, with analysts predicting player selections.",
-            "The Masters will take place next week without Phil Mickelson.",
-            "Continued coverage of the NBA's investigation into the Clippers."
+            "The NCAA Women's Final Four will take place, with predictions and player performances closely monitored.",
+            "The NFL draft is approaching, with analysts providing insights on top prospects.",
+            "The impact of injuries on NBA playoff teams will become clearer as the playoffs begin."
           ],
           "watch_list": [
-            "Monitor updates on Tiger Woods' legal situation.",
-            "Watch for news on Phil Mickelson's family health matter.",
-            "Follow the outcomes of the NCAA Final Four.",
-            "Keep an eye on the NFL draft predictions and player evaluations."
+            "Monitor Luka Doncic's recovery and its effect on the Mavericks.",
+            "Follow developments in Tiger Woods' legal case.",
+            "Keep an eye on Phil Mickelson's return to golf after personal matters. ",
+            "Watch for updates on the NCAA Women's Final Four matchups."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation surrounding Tiger Woods is still developing and may change rapidly.",
-          "Phil Mickelson's family health matter is private and details may remain undisclosed."
+          "The situation surrounding Tiger Woods is still developing and may change as more information becomes available.",
+          "Luka Doncic's injury status is uncertain until MRI results are released."
         ],
         "related_topics": [
           "What are the latest updates on Tiger Woods' DUI case?",
-          "Why is Phil Mickelson missing the Masters this year?",
-          "What are the implications of Stephon Gilmore's retirement?",
-          "How are NCAA teams preparing for the Final Four?",
-          "What are the top prospects in the upcoming NFL draft?"
+          "How will Luka Doncic's injury affect the NBA playoffs?",
+          "What are the predictions for the Women's NCAA Final Four?",
+          "Who are the top players in Women's March Madness?",
+          "What are the implications of Stephon Gilmore's retirement?"
         ]
       },
-      "tweet_text": "Tiger's surprising chat, Phil's heartbreaking absence, and Gilmore's retirement—today's sports world is full...\n\nSports Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#2019 #Allergic #Allpro #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Tiger claims he was just chatting with the president, while Luka faces an MRI—sports drama just hit a new level!\n\nSports Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#2019 #Allpro #Bidunga #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -767,75 +767,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "NASA's Artemis II mission marks the first crewed Moon flyby in over 50 years, signaling a new era in lunar exploration.",
-        "summary": "Today's science headlines cover a range of topics from innovative cooking techniques to significant archaeological discoveries and advancements in space exploration. Notably, NASA has launched Artemis II, the first crewed mission to the Moon in over half a century, while researchers have made strides in understanding ancient gambling practices and the complexities of cancer treatment. Additionally, new findings in biology and physics are reshaping our understanding of health and energy.",
+        "key_takeaway": "NASA's Artemis II mission marks the first crewed Moon flyby in over 50 years, alongside significant discoveries in health, archaeology, and environmental science.",
+        "summary": "Today's science headlines highlight a range of discoveries and advancements, including NASA's Artemis II mission, a new microwave frying technique for healthier fries, and insights into ancient gambling practices. Other notable findings include a unique microbial fingerprint in colorectal cancer, a bizarre termite species, and a baby dinosaur discovery in South Korea. Additionally, research on the Earth's magnetic field and dietary impacts on Alzheimer's risk provide further insights into health and environmental science.",
         "key_themes": [
           "NASA Artemis II mission details",
+          "health benefits of new frying technique",
           "ancient gambling practices in America",
-          "new cancer treatment discoveries",
-          "innovations in cooking techniques",
-          "recent discoveries in biology",
-          "understanding Earth's magnetic field changes"
+          "microbial fingerprints in colorectal cancer",
+          "new species discoveries in South America"
         ],
         "notable_headlines": [
           {
-            "headline": "New microwave frying technique could make french fries much healthier",
-            "why_it_matters": "This technique could revolutionize how we prepare fried foods, making them healthier without sacrificing taste.",
+            "headline": "NASA launches Artemis II for first crewed Moon flyby in 50 years",
+            "why_it_matters": "This mission represents a significant milestone in human space exploration and aims to pave the way for future lunar and Martian missions.",
             "signal": "Opportunity"
           },
           {
-            "headline": "NASA launches Artemis II for first crewed Moon flyby in 50 years",
-            "why_it_matters": "This mission represents a significant milestone in human space exploration and sets the stage for future lunar and Mars missions.",
+            "headline": "New microwave frying technique could make french fries much healthier",
+            "why_it_matters": "This innovation could lead to healthier food options without sacrificing taste, impacting public health positively.",
             "signal": "Opportunity"
           },
           {
             "headline": "Ancient bone dice reveal 12,000-year history of gambling in America",
-            "why_it_matters": "This discovery sheds light on the cultural practices of early Native Americans and their use of games of chance.",
+            "why_it_matters": "This discovery sheds light on the cultural practices of early Native Americans, enriching our understanding of their history.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Scientists discover “molecular shredder” that helps deadly parasite evade the immune system",
-            "why_it_matters": "Understanding this mechanism could lead to new treatments for diseases caused by this parasite.",
+            "headline": "Scientists discover bizarre termite that looks like a tiny sperm whale",
+            "why_it_matters": "The discovery of this unique species highlights biodiversity and the importance of rainforest ecosystems.",
             "signal": "Opportunity"
           },
           {
             "headline": "Eating more meat may lower Alzheimer’s risk for some people",
-            "why_it_matters": "This challenges existing dietary guidelines and suggests a need for personalized nutrition based on genetics.",
-            "signal": "Unclear"
+            "why_it_matters": "This study challenges existing dietary guidelines and could influence future nutritional recommendations for brain health.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the Artemis II mission's initial data will be conducted.",
+            "Further analysis of the Artemis II mission's initial data is expected to be released.",
             "More studies on the health impacts of the new frying technique may emerge.",
-            "Research on the implications of the ancient gambling findings will continue."
+            "Anticipation builds for additional findings from the baby dinosaur excavation."
           ],
           "next_1_4_weeks": [
-            "Expect updates on the outcomes of the Artemis II mission and its implications for future space exploration.",
-            "Further research on the microbial communities in colorectal cancer may be published.",
-            "New studies on the health effects of diet and genetics will likely be released."
+            "Researchers will likely publish more on the implications of the microbial fingerprint in colorectal cancer.",
+            "Expect updates on the ongoing studies of the Earth's magnetic field and its historical significance.",
+            "Further exploration of the implications of dietary impacts on Alzheimer's risk is anticipated."
           ],
           "watch_list": [
-            "Follow developments in the Artemis II mission and its findings.",
-            "Monitor ongoing research into the molecular mechanisms of parasites.",
-            "Keep an eye on new dietary studies related to Alzheimer's risk.",
-            "Watch for updates on the ancient gambling artifacts and their cultural significance."
+            "Developments from NASA's Artemis II mission and its implications for future space exploration.",
+            "Research on the health benefits of new cooking techniques and their adoption in the food industry.",
+            "Updates on the discoveries related to ancient cultures and their practices.",
+            "New findings in biodiversity and species discovery in rainforests."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of dietary changes on health are complex and may vary by individual.",
-          "The findings regarding the ancient dice require further archaeological context to fully understand their significance."
+          "The mixed sentiment indicates varying levels of enthusiasm and skepticism regarding the implications of these discoveries.",
+          "Further research is needed to confirm the health claims related to diet and Alzheimer's risk."
         ],
         "related_topics": [
-          "What are the latest advancements in lunar exploration?",
-          "How does diet influence Alzheimer's risk?",
-          "What new discoveries have been made in ancient archaeology?",
-          "What are the health benefits of new cooking techniques?",
-          "How do parasites evade the immune system?"
+          "What are the latest discoveries in space exploration?",
+          "How does microwave frying impact health?",
+          "What does the ancient history of gambling reveal?",
+          "What are the implications of microbial fingerprints in cancer?",
+          "What new species have been discovered recently?"
         ]
       },
-      "tweet_text": "Get ready for healthier fries and a 12,000-year-old gambling secret as NASA reaches for the Moon and...\n\nScience Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Discover #Reveal #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready for healthier fries, ancient gambling secrets, and a moon mission that’s 50 years in the making!\n\nScience Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Discover #Reveal #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
