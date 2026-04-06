@@ -1,11 +1,13 @@
 {
   "date": "2026-04-05",
-  "generated_at_utc": "2026-04-05T23:44:18Z",
+  "generated_at_utc": "2026-04-06T05:17:53Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "iran",
-    "trump"
+    "hidden",
+    "trump",
+    "four"
   ],
   "categories": {
     "world": {
@@ -17,18 +19,11 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0166,
+        "score": -0.0053,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.028, dampened ×0.6 → -0.0166). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.009, dampened ×0.6 → -0.0053). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
-        {
-          "title": "Trump issues expletive-laden threat  to Iran over Hormuz Strait blockage",
-          "url": "https://www.bbc.com/news/articles/cvg0q6wdzp1o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 05 Apr 2026 21:10:06 GMT",
-          "summary": "The US president says he will destroy Iranian power plants and bridges if the vital waterway is not reopened.",
-          "source": "BBC News"
-        },
         {
           "title": "How rescue of US airman in remote part of Iran unfolded",
           "url": "https://www.bbc.com/news/articles/cx2vpz1kwreo?at_medium=RSS&at_campaign=rss",
@@ -37,9 +32,9 @@
           "source": "BBC News"
         },
         {
-          "title": "Analysis: Trump declares victory in Iran war after rescue, but threats to US operation still loom",
+          "title": "Trump declares victory after rescue but threats to US operation in Iran still loom",
           "url": "https://www.bbc.com/news/articles/cy01vg7x5ppo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 05 Apr 2026 20:02:01 GMT",
+          "published": "Mon, 06 Apr 2026 00:23:16 GMT",
           "summary": "The rescue could impact how Trump views a ground operation to take Kharg Island or to seize enriched uranium sites.",
           "source": "BBC News"
         },
@@ -105,75 +100,85 @@
           "published": "Sat, 04 Apr 2026 18:54:53 GMT",
           "summary": "A Russian drone hit a busy spot in the southern Ukrainian town on Saturday morning, injuring another 21 people.",
           "source": "BBC News"
+        },
+        {
+          "title": "Fugitive mafia boss wanted for murder arrested in Amalfi Coast luxury villa",
+          "url": "https://www.bbc.com/news/articles/cn437qkk80lo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 04 Apr 2026 11:10:28 GMT",
+          "summary": "Roberto Mazzarella has been on the run for more than a year and was living under a false name, police say.",
+          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tensions escalate in the Middle East as Trump threatens Iran over the Hormuz Strait, while Hungary faces election-related security concerns.",
-        "summary": "Today's headlines highlight escalating tensions in the Middle East, particularly involving the US and Iran, alongside significant political developments in Hungary and a call for peace from Pope Leo XIV. The rescue of a US airman in Iran has drawn attention to ongoing military operations, while Hungary alleges a plot to disrupt its upcoming elections. Additionally, a statue honoring a landmine-sniffing rat has been unveiled in Cambodia, and a tragic shooting incident in New York has resulted in charges against two men.",
+        "key_takeaway": "The rescue of a US airman in Iran has significant implications for US military operations, while Hungary faces election-related tensions and violence continues in Ukraine.",
+        "summary": "Today's headlines cover a range of global issues, including the complex rescue of a US airman in Iran, Hungary's election tensions amid alleged plots, and ongoing violence in Ukraine. Pope Leo XIV's Easter message calls for peace, while Cambodia honors a landmine-sniffing rat. Additionally, new regulations in Germany may affect young males traveling abroad, and the US has detained relatives of the late Iranian general Qasem Soleimani.",
         "key_themes": [
-          "US-Iran relations",
-          "Hungary election security",
-          "Pope Leo XIV Easter message",
-          "Cambodia landmine rat statue",
-          "Russian attack on Ukraine"
+          "US military operations in Iran",
+          "Hungary election tensions",
+          "Pope's Easter message",
+          "Cambodia landmine-sniffing rat",
+          "Ukraine violence updates",
+          "German travel regulations"
         ],
         "notable_headlines": [
           {
-            "headline": "Trump issues expletive-laden threat to Iran over Hormuz Strait blockage",
-            "why_it_matters": "This statement escalates tensions in a critical geopolitical area, impacting global oil supply routes.",
-            "signal": "Risk"
-          },
-          {
             "headline": "How rescue of US airman in remote part of Iran unfolded",
-            "why_it_matters": "The complexity of the rescue operation highlights the ongoing US military involvement in Iran.",
+            "why_it_matters": "The operation highlights the complexities of US military engagement in hostile territories.",
             "signal": "Unclear"
           },
           {
+            "headline": "Trump declares victory after rescue but threats to US operation in Iran still loom",
+            "why_it_matters": "The rescue's impact on future military decisions could shape US-Iran relations.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Hungary alleges plot to blow up gas pipeline ahead of election",
-            "why_it_matters": "This allegation raises concerns about election security and potential voter manipulation.",
+            "why_it_matters": "This allegation raises concerns about election integrity and security in Hungary.",
             "signal": "Risk"
           },
           {
             "headline": "Pope Leo calls for global leaders to choose peace in his first Easter Mass",
-            "why_it_matters": "The Pope's message emphasizes the need for diplomacy and peace in a time of global conflict.",
+            "why_it_matters": "The Pope's message emphasizes the need for global cooperation and peace amid conflicts.",
             "signal": "Opportunity"
           },
           {
             "headline": "Russian attack on Ukraine market kills five",
-            "why_it_matters": "This incident underscores the ongoing violence in Ukraine and its humanitarian impact.",
+            "why_it_matters": "This incident underscores the ongoing humanitarian crisis and violence in Ukraine.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor US-Iran relations following Trump's threats.",
-            "Watch for developments in Hungary's election security measures.",
-            "Expect reactions to Pope Leo XIV's peace message."
+            "Monitoring reactions to the US airman rescue operation and potential military responses from Iran.",
+            "Observing developments in Hungary's election as tensions rise ahead of polling day.",
+            "Following up on the humanitarian situation in Ukraine after the recent attack."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of the US airman rescue on military strategy in Iran.",
-            "Follow the political landscape in Hungary as elections approach.",
-            "Track ongoing violence in Ukraine and international responses."
+            "Analyzing the implications of US military strategies in Iran post-rescue operation.",
+            "Watching for election outcomes in Hungary and their impact on domestic and foreign policy.",
+            "Tracking the enforcement of new travel regulations in Germany."
           ],
           "watch_list": [
-            "US military operations in Iran",
-            "Hungary's election security",
-            "Pope Leo XIV's future addresses",
-            "Russian military actions in Ukraine"
+            "US-Iran relations and military operations",
+            "Hungary's political climate and election integrity",
+            "Humanitarian developments in Ukraine",
+            "Pope Leo XIV's influence on global peace initiatives",
+            "Regulatory changes affecting young German travelers"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran remains fluid and could change rapidly based on diplomatic or military actions.",
-          "Election-related allegations in Hungary may not be substantiated and could be politically motivated."
+          "The situation in Iran remains fluid and could change rapidly based on US and Iranian responses.",
+          "Election-related tensions in Hungary may escalate as the polling date approaches.",
+          "The humanitarian situation in Ukraine is dire and could worsen with ongoing attacks."
         ],
         "related_topics": [
-          "What are the latest developments in US-Iran relations?",
-          "How is Hungary preparing for its upcoming elections?",
-          "What did Pope Leo XIV say during Easter Mass?"
+          "What are the implications of the US airman rescue in Iran?",
+          "How is Hungary's election being influenced by recent events?",
+          "What is the latest on the conflict in Ukraine?"
         ]
       },
-      "tweet_text": "Tensions rise as Trump threatens Iran while a heroic airman’s rescue sparks debate—can peace prevail amidst chaos?\n\nWorld Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Hungary #Rescue #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "US airman rescued from Iran, Trump claims victory, but shadows of looming threats still hang over the operation.\n\nWorld Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hungary #Iran #Rescue #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -275,72 +280,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The ongoing conflict in the Middle East is causing significant volatility in oil markets, leading to rising prices and economic uncertainty.",
-        "summary": "Today's business news highlights the impact of the Middle East conflict on global oil markets, with energy traders facing volatility and rising prices affecting consumers. Additionally, workplace trends are under scrutiny as they seem to prioritize flexibility over productivity. The job market showed positive growth in March, but previous losses were worse than expected, raising concerns about economic stability.",
+        "key_takeaway": "The ongoing conflict in the Middle East is causing significant volatility in oil markets, impacting prices and economic expectations globally.",
+        "summary": "Today's business news highlights the volatility in oil markets due to the Middle East conflict, rising consumer prices in the U.S., and workplace trends that reflect changing work dynamics. Energy traders are struggling to adapt to rapid market changes, while experts warn of sustained price increases in gas and air travel. Additionally, a feud between Hershey and the heir of Reese's raises concerns about product quality, and U.S. job growth shows mixed signals with a drop in unemployment but revisions to previous job losses.",
         "key_themes": [
           "oil market volatility",
-          "impact of Middle East conflict on economy",
-          "US job market analysis",
-          "workplace trends and productivity",
-          "consumer price increases due to conflict"
+          "US consumer prices",
+          "workplace trends",
+          "Hershey Reese's feud",
+          "US job market analysis"
         ],
         "notable_headlines": [
           {
             "headline": "‘It’s all fear and headlines’: energy traders race to keep pace with volatile oil markets",
-            "why_it_matters": "The volatility in oil markets due to geopolitical tensions poses risks for traders and consumers alike.",
+            "why_it_matters": "The conflict in the Middle East is causing significant disruptions in oil trading, leading to potential financial losses for traders.",
             "signal": "Risk"
           },
           {
             "headline": "‘The good old days are gone’: how will US prices stand as war in Iran surges on?",
-            "why_it_matters": "Rising costs in gas and air travel signal broader economic implications as the conflict escalates.",
+            "why_it_matters": "Experts predict that rising costs in gas and air travel are just the beginning of a broader trend of increasing consumer prices.",
             "signal": "Risk"
           },
           {
             "headline": "US jobs market surpassed expectations in March but February losses were worse than first reported",
-            "why_it_matters": "Despite job growth, the revision of previous losses raises concerns about the overall health of the labor market.",
+            "why_it_matters": "While job growth in March was strong, the revisions to February's data indicate underlying weaknesses in the labor market.",
             "signal": "Unclear"
           },
           {
-            "headline": "Oil price jumps and markets slide after Trump warning to Iran",
-            "why_it_matters": "The immediate reaction in oil prices and stock markets indicates the sensitivity of the economy to geopolitical events.",
+            "headline": "Trump threatens 100% tariff on drug makers that don’t strike deals to lower US prices",
+            "why_it_matters": "This new tax could significantly impact the pharmaceutical industry and drug pricing in the U.S.",
             "signal": "Risk"
           },
           {
-            "headline": "Trump threatens 100% tariff on drug makers that don’t strike deals to lower US prices",
-            "why_it_matters": "This potential tariff could significantly impact pharmaceutical pricing and availability in the US market.",
-            "signal": "Opportunity"
+            "headline": "Oil price jumps and markets slide after Trump warning to Iran",
+            "why_it_matters": "The surge in oil prices following political tensions could have widespread economic implications.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor oil price fluctuations as geopolitical tensions evolve.",
-            "Watch for consumer reactions to rising gas and travel costs.",
-            "Keep an eye on job market reports for further revisions."
+            "Monitor oil price fluctuations as traders react to ongoing geopolitical tensions.",
+            "Watch for updates on U.S. consumer price indices as the impact of rising oil prices becomes clearer.",
+            "Follow developments in the Hershey-Reese's feud for potential impacts on the confectionery market."
           ],
           "next_1_4_weeks": [
-            "Expect continued volatility in oil prices as the situation in the Middle East develops.",
-            "Anticipate potential legislative responses to rising drug prices from the Trump administration.",
-            "Observe trends in workplace productivity as companies adapt to new working models."
+            "Expect continued volatility in oil markets as the situation in the Middle East evolves.",
+            "Anticipate further analysis on the U.S. job market as new data is released and revisions are made.",
+            "Watch for potential legislative responses to Trump's tariff threats on drug makers."
           ],
           "watch_list": [
-            "Energy market responses to Middle East conflict",
-            "US job market updates",
-            "Consumer price index changes",
-            "Legislative actions on drug pricing"
+            "Oil price trends and market reactions to geopolitical events.",
+            "Consumer price index reports and inflation forecasts.",
+            "Updates on workplace trends and their impact on productivity.",
+            "Developments in the Hershey-Reese's recipe controversy."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and could change rapidly, impacting economic forecasts.",
-          "Job market data may be revised further as more information becomes available."
+          "The situation in the Middle East is fluid and could change rapidly, affecting market conditions.",
+          "Economic forecasts are subject to revision based on new data and geopolitical developments."
         ],
         "related_topics": [
           "What is causing oil market volatility today?",
-          "How is the US job market performing amid rising prices?",
-          "What are the latest trends in workplace productivity?"
+          "How are rising prices affecting US consumers?",
+          "What are the latest trends in workplace productivity?",
+          "What is the impact of Trump's tariffs on drug prices?",
+          "How is the US job market performing amid economic uncertainty?"
         ]
       },
-      "tweet_text": "Oil markets in chaos, Reese's family feud, and job surprises—are we ready for the rollercoaster ahead?\n\nBusiness Sentiment: Negative (-0.33)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Markets #Accuses #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Is the oil market on the brink of chaos, or is it just the fear talking?\n\nBusiness Sentiment: Negative (-0.33)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Markets #Accuses #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -428,74 +435,70 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "AI music platform Suno faces challenges with copyright enforcement, while Google Maps' Gemini feature receives positive feedback for planning capabilities.",
-        "summary": "Today's technology headlines cover a range of topics including AI music copyright issues, the performance of Google's Gemini in Maps, and the evolving landscape of AR gaming glasses. Additionally, there are insights into the Amazon Echo's development and a notable sale on Nintendo Switch games.",
+        "key_takeaway": "AI music platform Suno faces challenges with copyright issues, while Google Maps' Gemini feature receives positive feedback for planning assistance.",
+        "summary": "Today's technology headlines highlight the mixed reception of AI applications in music and navigation, alongside discussions on innovative products like the Slate Truck and AR gaming glasses.",
         "key_themes": [
-          "AI music copyright challenges",
+          "AI music copyright issues",
           "Google Maps Gemini feature review",
-          "AR gaming glasses features",
-          "Amazon Echo development history",
-          "Nintendo Switch game sale"
+          "Slate Truck design analysis"
         ],
         "notable_headlines": [
           {
             "headline": "Suno is a music copyright nightmare",
-            "why_it_matters": "The challenges faced by Suno highlight ongoing issues in AI-generated content and copyright enforcement.",
+            "why_it_matters": "Suno's failure to effectively manage copyrighted material raises concerns about the implications for artists and the music industry.",
             "signal": "Risk"
           },
           {
             "headline": "I let Gemini in Google Maps plan my day and it went surprisingly well",
-            "why_it_matters": "Positive user experiences with Gemini could enhance Google Maps' appeal and functionality.",
+            "why_it_matters": "Positive user experiences with Gemini in Google Maps suggest potential for enhanced navigation and planning tools.",
             "signal": "Opportunity"
           },
           {
             "headline": "A folk musician became a target for AI fakes and a copyright troll",
-            "why_it_matters": "This case illustrates the risks artists face from AI-generated content and copyright infringement.",
+            "why_it_matters": "The case of Murphy Campbell illustrates the growing issue of AI-generated content infringing on artists' rights.",
             "signal": "Risk"
           },
           {
-            "headline": "My dream pair of AR gaming glasses needs to have these nine features",
-            "why_it_matters": "Consumer expectations for AR technology are evolving, influencing future product designs.",
-            "signal": "Opportunity"
+            "headline": "How the Amazon Echo learned to talk — and listen",
+            "why_it_matters": "Understanding the evolution of voice technology provides insights into future developments in AI and user interaction.",
+            "signal": "Unclear"
           },
           {
-            "headline": "How the Amazon Echo learned to talk — and listen",
-            "why_it_matters": "Understanding the development of voice technology can inform future innovations in smart devices.",
-            "signal": "Unclear"
+            "headline": "My dream pair of AR gaming glasses needs to have these nine features",
+            "why_it_matters": "Consumer expectations for AR gaming glasses could shape future product designs and market trends.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further developments in AI copyright policies may emerge as cases like Suno's gain attention.",
-            "Consumer reactions to Google's Gemini feature in Maps could lead to updates or enhancements.",
-            "Expect more discussions around the implications of AI in music and art."
+            "Monitoring developments in AI copyright legislation",
+            "Tracking user feedback on Google Maps' Gemini feature",
+            "Observing consumer reactions to new AR gaming glasses"
           ],
           "next_1_4_weeks": [
-            "Anticipate new product announcements in AR technology as consumer interest grows.",
-            "Watch for updates from AI platforms regarding copyright enforcement measures.",
-            "Expect ongoing debates about the role of AI in creative industries."
+            "Anticipating further discussions on AI's impact on music and copyright",
+            "Expecting new product announcements in AR technology",
+            "Watching for updates on the Slate Truck's market performance"
           ],
           "watch_list": [
-            "Monitor developments in AI music copyright cases.",
-            "Keep an eye on user feedback regarding Google Maps' Gemini feature.",
-            "Watch for new AR gaming glasses releases and their features.",
-            "Follow trends in smart home technology, particularly voice assistants."
+            "AI music platforms and copyright challenges",
+            "Innovations in navigation technology",
+            "Trends in AR gaming devices and consumer preferences",
+            "Slate Truck's reception in the automotive market"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating a balance of positive and negative reactions across the headlines.",
-          "The impact of AI on copyright and creative industries remains a developing issue with no clear resolution."
+          "The sentiment score is mixed, indicating varied public opinion on the topics discussed.",
+          "The implications of AI in music and copyright are still evolving and may change rapidly."
         ],
         "related_topics": [
-          "What are the challenges of AI in music copyright?",
-          "How does Google's Gemini feature enhance Maps?",
-          "What features do consumers want in AR gaming glasses?",
-          "What is the history of the Amazon Echo's development?",
-          "What are the latest deals on Nintendo Switch games?"
+          "What are the challenges with AI music copyright?",
+          "How does Google Maps' Gemini feature work?",
+          "What features do consumers want in AR gaming glasses?"
         ]
       },
-      "tweet_text": "From mellow melodies to music copyright chaos, today’s tech news has something for every curious mind!\n\nTechnology Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Copyright #Target #Amazon #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready for a wild ride through tech: from AI planning your day to music copyright chaos—this is...\n\nTechnology Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Copyright #Target #Amazon #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -506,165 +509,165 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.1478,
+        "score": 0.1725,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.246, dampened ×0.6 → +0.1478). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.288, dampened ×0.6 → +0.1725). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "'The best decision I ever made': How UCLA's roster converged to become NCAA champs",
           "url": "https://www.espn.com/womens-college-basketball/story/_/id/48406645/ucla-bruins-ncaa-championship-women-march-madness-lauren-betts",
-          "published": "Sun, 5 Apr 2026 19:36:58 EST",
+          "published": "Mon, 6 Apr 2026 00:02:51 EST",
           "summary": "How a longtime coach and an eclectic mix of transfers finally delivered an NCAA title years in the making.",
           "source": "ESPN"
         },
         {
-          "title": "UCLA blows out South Carolina for women's title",
+          "title": "Luka to seek care in Europe, aims for playoffs",
+          "url": "https://www.espn.com/nba/story/_/id/48409097/luka-doncic-hamstring-seek-specialized-treatment-europe",
+          "published": "Mon, 6 Apr 2026 00:53:05 EST",
+          "summary": "Luka Doncic will seek specialized treatment on his Grade 2 left hamstring strain as he and Austin Reaves target a return to the Lakers' lineup during the playoffs.",
+          "source": "ESPN"
+        },
+        {
+          "title": "'We did it!': UCLA wins first women's NCAA title",
           "url": "https://www.espn.com/womens-college-basketball/story/_/id/48406646/ucla-blows-south-carolina-first-women-ncaa-title",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
+          "published": "Mon, 6 Apr 2026 00:53:05 EST",
           "summary": "UCLA dominated every phase of the game in Sunday's women's national final, blowing out the Gamecocks for Bruins coach Cori Close's first championship.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Staley praises Close: Happy for 'quality people'",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48408286/staley-lauds-ucla-close-title-game-loss-auriemma-spat",
+          "published": "Mon, 6 Apr 2026 00:53:05 EST",
+          "summary": "South Carolina coach Dawn Staley spoke glowingly of UCLA coach Cori Close after the Gamecocks' loss to the Bruins in the NCAA championship game Sunday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Flagg flips ROY odds after latest 'statement' game",
+          "url": "https://www.espn.com/nba/story/_/id/48409452/flagg-passes-knueppel-roy-odds-statement-game",
+          "published": "Mon, 6 Apr 2026 00:53:05 EST",
+          "summary": "After putting up 45 points in a near triple-double Sunday, Cooper Flagg passed Kon Knueppel as the favorite for Rookie of the Year.",
           "source": "ESPN"
         },
         {
           "title": "Sources: Michigan's May not pursuing other jobs",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48407326/informs-michigan-not-pursuing-other-jobs",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
-          "summary": "null",
+          "published": "Mon, 6 Apr 2026 00:53:05 EST",
+          "summary": "Michigan coach Dusty May informed university officials that he's not pursuing any college basketball jobs, sources told ESPN on Sunday.",
           "source": "ESPN"
         },
         {
-          "title": "Staley makes show of pregame hug with Close",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48405687/gamecocks-staley-makes-show-pregame-hug-ucla-close",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
-          "summary": "Dawn Staley made sure the crowd acknowledged her pregame handshake with Cori Close before South Carolina and UCLA met in the women's final, an apparent dig at Geno Auriemma",
+          "title": "Anthony calls Red Sox's 2-7 start 'unacceptable'",
+          "url": "https://www.espn.com/mlb/story/_/id/48408336/roman-anthony-red-sox-start-unacceptable-fans-team",
+          "published": "Mon, 6 Apr 2026 00:53:06 EST",
+          "summary": "The Boston Red Sox fell to a major league-worst 2-7 on Sunday, tying the worst start through nine games in the franchise's long history.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Vitello ejected, 'frustration' mounts for 3-7 Giants",
+          "url": "https://www.espn.com/mlb/story/_/id/48409067/tony-vitello-nets-first-mlb-ejection-giants-fall-3-7",
+          "published": "Mon, 6 Apr 2026 00:53:05 EST",
+          "summary": "First-year manager Tony Vitello, 47, was ejected for the first time in his major league career Sunday afternoon, during the San Francisco Giants' 5-2 loss to the New York Mets, his team's third straight defeat and its sixth this season at Oracle Park.",
           "source": "ESPN"
         },
         {
           "title": "Scheffler, 9-day-old son Remy arrive at Masters",
           "url": "https://www.espn.com/golf/story/_/id/48405738/scottie-scheffler-arrives-masters-9-day-old-son-remy",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
+          "published": "Mon, 6 Apr 2026 00:53:05 EST",
           "summary": "Two-time Masters champion Scottie Scheffler arrived at Augusta National on Sunday, along with his 9-day-old son, Remy.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Corner kick: Machado boots pickoff, rallies Padres",
-          "url": "https://www.espn.com/mlb/story/_/id/48407096/machado-well-d-kick-helps-padres-rally-beat-boston",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
-          "summary": "Padres third baseman Manny Machado kicked aside a pickoff attempt to help San Diego score two runs as they rallied from a four-run deficit on their way to an 8-6 victory over the Red Sox on Sunday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Reeling Islanders fire Roy, hand reins to DeBoer",
-          "url": "https://www.espn.com/nhl/story/_/id/48404199/islanders-fire-patrick-roy-name-peter-deboer-replacement",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
-          "summary": "The Islanders have fired coach Patrick Roy and named Peter DeBoer his replacement after losing seven of their last 10 games.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Marlins' Fairbanks starts, goes on paternity leave",
-          "url": "https://www.espn.com/mlb/story/_/id/48406953/pete-fairbanks-gets-start-leaves-marlins-birth-child",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
-          "summary": "Reliever Pete Fairbanks, 32, was given a rare start by the Miami Marlins on Sunday afternoon to allow the closer to get home for the birth of his child, and the reliever threw a 27-pitch first inning against the New York Yankees.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Cam Boozer got facial fractures in loss to UConn",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48404741/duke-star-cam-boozer-says-suffered-fractures-eye",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
-          "summary": "Duke's Cameron Boozer, a projected top-five pick in the 2026 NBA draft, said he suffered multiple fractures around one of his eyes during his team's loss to UConn in the Elite Eight.",
           "source": "ESPN"
         },
         {
           "title": "📈 Masters tiers: Ranking favorites, contenders",
           "url": "https://www.espn.com/golf/story/_/id/48347092/masters-2026-ranking-favorites-contenders-rory-mcilroy-scottie-scheffler-bryson-dechambeau",
-          "published": "Sun, 5 Apr 2026 19:11:03 EST",
+          "published": "Mon, 6 Apr 2026 00:53:06 EST",
           "summary": "Can Rory McIlroy repeat? Will Scottie Scheffler find more magic at Augusta? We break down the Masters field from the favorites to the players just looking to make the cut.",
           "source": "ESPN"
         },
         {
-          "title": "NCAA women's basketball Way-Too-Early 2026-27 Top 25 rankings",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48399414/ncaa-womens-basketball-2026-27-way-too-early-top-25-rankings",
-          "published": "Sun, 5 Apr 2026 17:54:50 EST",
-          "summary": "UCLA is the 2026 champion -- but unranked in the first top 25 for next season. Runner-up South Carolina is No. 3.",
+          "title": "How Michigan, UConn won Saturday's Final Four -- and keys to Monday's title game",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48386376/final-four-live-updates-analysis-arizona-michigan-uconn-illinois-march-madness-2026",
+          "published": "Sun, 5 Apr 2026 22:44:09 EST",
+          "summary": "ESPN's college basketball crew breaks down what they saw in Indianapolis -- and what could decide the championship.",
           "source": "ESPN"
         },
         {
-          "title": "What's next for UCLA and South Carolina? Breaking down recruits, portal priorities, more",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48322646/womens-march-madness-2026-ncaa-tournament-losers-offseason-recruits-transfer-portal",
-          "published": "Sun, 5 Apr 2026 17:54:50 EST",
-          "summary": "As the women's NCAA tournament comes to an end, we look ahead to next season.",
+          "title": "F-bombs, herky jerks and the Final Straw: Every Dan Hurley reaction from the Final Four",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48401188/march-madness-uconn-huskies-dan-hurley-ncaa-championship",
+          "published": "Sun, 5 Apr 2026 22:44:09 EST",
+          "summary": "What's it like watching Dan Hurley lead UConn to the title game? In a word: exhausting.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "UCLA won the NCAA women's basketball championship, defeating South Carolina, while notable coaching changes and player injuries were reported across various sports.",
-        "summary": "UCLA's women's basketball team claimed the NCAA championship by decisively defeating South Carolina, marking a significant achievement for coach Cori Close. In other sports news, the NHL's Islanders fired coach Patrick Roy, and Duke's Cameron Boozer suffered facial fractures during a tournament loss. Additionally, Scottie Scheffler made a memorable appearance at the Masters with his newborn son, and MLB's Pete Fairbanks took a rare start before going on paternity leave.",
+        "key_takeaway": "UCLA celebrates its first women's NCAA championship while Luka Doncic seeks treatment for his hamstring injury ahead of the NBA playoffs.",
+        "summary": "Today's sports headlines highlight UCLA's historic win in the women's NCAA championship, Luka Doncic's injury update as he seeks treatment in Europe, and the struggles of the Boston Red Sox and San Francisco Giants early in their seasons. Additionally, Cooper Flagg's impressive performance boosts his Rookie of the Year odds, while Scottie Scheffler arrives at the Masters with his newborn son.",
         "key_themes": [
-          "UCLA women's basketball championship",
-          "NHL coaching changes",
-          "Duke basketball injuries",
-          "Masters 2026 preview",
-          "MLB player updates"
+          "UCLA women's NCAA championship",
+          "Luka Doncic injury update",
+          "Boston Red Sox poor start",
+          "Cooper Flagg Rookie of the Year odds",
+          "Scottie Scheffler Masters arrival"
         ],
         "notable_headlines": [
           {
-            "headline": "UCLA blows out South Carolina for women's title",
-            "why_it_matters": "This victory marks UCLA's first NCAA women's basketball championship, showcasing the team's growth and resilience under coach Cori Close.",
+            "headline": "The best decision I ever made: How UCLA's roster converged to become NCAA champs",
+            "why_it_matters": "This article explores the journey of UCLA's women's basketball team to their first NCAA title, highlighting coaching and player dynamics.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Reeling Islanders fire Roy, hand reins to DeBoer",
-            "why_it_matters": "The Islanders' coaching change reflects their struggles this season and the need for a turnaround to remain competitive.",
+            "headline": "Luka to seek care in Europe, aims for playoffs",
+            "why_it_matters": "Luka Doncic's decision to seek specialized treatment could impact the Lakers' playoff chances if he returns healthy.",
             "signal": "Risk"
           },
           {
-            "headline": "Cam Boozer got facial fractures in loss to UConn",
-            "why_it_matters": "Boozer's injury could impact his draft stock and Duke's future performance as they navigate the offseason.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Scheffler, 9-day-old son Remy arrive at Masters",
-            "why_it_matters": "Scheffler's family moment adds a personal touch to the prestigious tournament, highlighting the intersection of sports and life events.",
+            "headline": "'We did it!': UCLA wins first women's NCAA title",
+            "why_it_matters": "UCLA's victory marks a significant achievement in women's college basketball, showcasing their dominance in the championship game.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Marlins' Fairbanks starts, goes on paternity leave",
-            "why_it_matters": "Fairbanks' unique situation underscores the balance athletes must maintain between professional commitments and personal life.",
-            "signal": "Unclear"
+            "headline": "Anthony calls Red Sox's 2-7 start 'unacceptable'",
+            "why_it_matters": "The Red Sox's poor start raises concerns about the team's performance and future in the MLB season.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Flagg flips ROY odds after latest 'statement' game",
+            "why_it_matters": "Cooper Flagg's standout performance positions him as a leading candidate for Rookie of the Year, impacting future player evaluations.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Analysis of UCLA's championship impact on women's basketball recruiting",
-            "Updates on Duke's Cameron Boozer's recovery",
-            "Reactions to the Islanders' coaching change"
+            "Updates on Luka Doncic's recovery progress and potential return to the Lakers.",
+            "Further analysis on UCLA's championship win and its implications for women's college basketball.",
+            "Reactions to the Boston Red Sox's next games following their poor start."
           ],
           "next_1_4_weeks": [
-            "Monitoring the performance of new NHL coach Peter DeBoer",
-            "Tracking player movements in the NCAA transfer portal",
-            "Previewing upcoming MLB matchups and player performances"
+            "Monitoring the performance of Cooper Flagg as the NBA season progresses and Rookie of the Year discussions heat up.",
+            "Following Scottie Scheffler's performance at the Masters and its impact on his career.",
+            "Tracking the Boston Red Sox's efforts to improve their season record."
           ],
           "watch_list": [
-            "UCLA's offseason strategies",
-            "NHL playoff race developments",
-            "Masters tournament outcomes and player performances",
-            "Duke basketball injury updates"
+            "UCLA's next season prospects after their championship win.",
+            "Luka Doncic's recovery timeline and its effect on the Lakers' playoff strategy.",
+            "Cooper Flagg's performance in upcoming NBA games.",
+            "Scottie Scheffler's performance at the Masters."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall sports landscape today.",
-          "Injuries and coaching changes can have unpredictable impacts on team performance."
+          "The sentiment score is mixed, indicating varied reactions to the headlines.",
+          "Injuries and team performances can change rapidly, affecting future outlooks."
         ],
         "related_topics": [
-          "What were the highlights of the NCAA women's basketball championship",
-          "Latest updates on NHL coaching changes",
-          "Duke basketball injury news",
-          "Masters 2026 player previews",
-          "MLB player news and updates"
+          "What are the implications of UCLA's NCAA championship win?",
+          "How is Luka Doncic's injury affecting the Lakers' playoff chances?",
+          "What is the current state of the Boston Red Sox season?",
+          "Who are the top contenders for Rookie of the Year in the NBA?",
+          "What to expect from Scottie Scheffler at the Masters?"
         ]
       },
-      "tweet_text": "UCLA's dream team storms the court, claiming the NCAA title in a showdown that left South Carolina reeling!\n\nSports Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#9dayold #Arrive #Become #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "UCLA's journey to glory: From roster reshuffle to historic NCAA victory!\n\nSports Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ncaa #Aims #Anthony #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -675,9 +678,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0284,
+        "score": 0.0439,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.047, dampened ×0.6 → +0.0284). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.073, dampened ×0.6 → +0.0439). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -688,10 +691,24 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Study of 1,700 languages reveals surprising hidden patterns",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405003943.htm",
+          "published": "Sun, 05 Apr 2026 20:01:39 EDT",
+          "summary": "A massive new analysis of over 1,700 languages shows that some long-debated “universal” grammar rules are actually real. By using cutting-edge evolutionary methods, researchers found that languages tend to evolve in predictable ways rather than randomly. Key patterns—like word order and grammatical structure—keep reappearing across the globe. The results suggest shared human thinking and communication pressures shape how all languages develop.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Buried Roman sanctuary discovered beneath Frankfurt hints at shocking rituals",
           "url": "https://www.sciencedaily.com/releases/2026/04/260405003937.htm",
           "published": "Sun, 05 Apr 2026 00:39:37 EDT",
           "summary": "A hidden Roman sanctuary discovered beneath Frankfurt is offering rare clues about ancient rituals, including possible human sacrifice. With major funding secured, scientists are now racing to uncover how this mysterious, multi-god cult site operated.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists find hidden brain cells helping deadly cancer grow",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405003933.htm",
+          "published": "Sun, 05 Apr 2026 19:48:12 EDT",
+          "summary": "Scientists in Canada have uncovered a surprising weakness in glioblastoma, one of the deadliest brain cancers. They found that certain brain cells—once believed to only support healthy nerves—can actually help tumors grow by sending signals that strengthen cancer cells. When researchers blocked this communication, tumor growth slowed dramatically in lab models.",
           "source": "ScienceDaily"
         },
         {
@@ -749,92 +766,78 @@
           "published": "Fri, 03 Apr 2026 22:44:49 EDT",
           "summary": "Asteroid impacts may have helped kick-start life on Earth by creating hot, chemical-rich environments ideal for early biology. These impact-generated hydrothermal systems could have lasted thousands of years—long enough for life’s building blocks to form. Scientists now think these environments may have been common on early Earth, making them a strong candidate for where life began. The idea could also guide the search for life on other worlds.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Deafness reversed: One injection restores hearing in just weeks",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260403044651.htm",
-          "published": "Fri, 03 Apr 2026 04:50:43 EDT",
-          "summary": "A new gene therapy is giving people born deaf the chance to hear, often within just weeks. In a small but groundbreaking study, researchers delivered a working copy of a key hearing gene directly into the inner ear using a single injection. All ten patients, ranging from young children to adults, experienced improved hearing, with some showing rapid gains in just one month.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists discover why flu and COVID hit older adults so hard",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
-          "published": "Fri, 03 Apr 2026 00:20:27 EDT",
-          "summary": "A new study reveals that aging lungs may play a major role in why flu and COVID can become so dangerous for older adults. Researchers found that certain lung cells can trigger an exaggerated immune response, creating clusters of inflammatory cells that end up damaging lung tissue instead of protecting it. In experiments, activating this aging-related signal in young mice caused their lungs to behave like older ones, leading to severe illness.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include breakthroughs in brain aging, blood pressure treatment, and the potential origins of life on Earth.",
-        "summary": "Today's science headlines highlight significant advancements in understanding brain aging, ancient rituals, Martian chemistry, blood pressure treatment, fear memory, cancer detection, stellar phenomena, energy technology, and the origins of life on Earth.",
+        "key_takeaway": "Recent scientific discoveries include a protein linked to brain aging, new insights into language evolution, and a potential breakthrough in cancer treatment.",
+        "summary": "Today's science headlines highlight significant advancements in understanding brain aging, language patterns, ancient rituals, cancer growth, Martian chemistry, and innovative medical treatments. Key findings include the identification of a protein that affects memory in aging brains, the discovery of universal grammar rules across languages, and the unveiling of a Roman sanctuary with potential human sacrifice practices. Additionally, researchers have made strides in glioblastoma treatment, Mars' electrical activity, and early cancer detection through gut signals.",
         "key_themes": [
           "brain aging research",
+          "language evolution patterns",
           "ancient Roman rituals",
+          "cancer treatment breakthroughs",
           "Mars dust storms",
-          "blood pressure treatment",
-          "fear memory and PTSD",
-          "early cancer detection"
+          "early cancer detection methods"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists found a protein that drives brain aging — and how to stop it",
-            "why_it_matters": "Identifying FTL1 could lead to new therapies for memory decline associated with aging.",
+            "why_it_matters": "Identifying FTL1 could lead to new treatments for memory decline associated with aging.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Study of 1,700 languages reveals surprising hidden patterns",
+            "why_it_matters": "Understanding language evolution can provide insights into human cognition and communication.",
             "signal": "Opportunity"
           },
           {
             "headline": "Buried Roman sanctuary discovered beneath Frankfurt hints at shocking rituals",
-            "why_it_matters": "This discovery may provide insights into ancient cultures and their practices, including potential human sacrifice.",
+            "why_it_matters": "This discovery could reshape our understanding of ancient religious practices and societal norms.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists find hidden brain cells helping deadly cancer grow",
+            "why_it_matters": "Blocking communication in these cells may offer new strategies for glioblastoma treatment.",
             "signal": "Opportunity"
           },
           {
             "headline": "Mars dust storms are sparking electricity and rewriting the planet’s chemistry",
-            "why_it_matters": "Understanding Martian dust storms could reshape our knowledge of the planet's atmosphere and surface chemistry.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists reveal new blood pressure treatment that works when others fail",
-            "why_it_matters": "Baxdrostat offers hope for patients with resistant hypertension, potentially reducing risks of serious health issues.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists discover hidden gut signals that could detect cancer early",
-            "why_it_matters": "This research could revolutionize early cancer detection methods, improving patient outcomes.",
+            "why_it_matters": "Revealing Mars' chemical processes can enhance our understanding of planetary atmospheres.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the protein FTL1 may lead to new therapeutic strategies for brain health.",
-            "Archaeological studies will continue at the Roman sanctuary site to uncover more about ancient rituals.",
-            "More research on Mars dust storms may provide insights into planetary chemistry."
+            "Further analysis of the protein FTL1 may lead to potential therapeutic applications.",
+            "More studies on language patterns could emerge, influencing linguistics and anthropology.",
+            "Updates on the Roman sanctuary excavation may reveal more about ancient rituals."
           ],
           "next_1_4_weeks": [
-            "Clinical trials for baxdrostat will be closely monitored for further results on blood pressure management.",
-            "Studies on astrocytes may lead to new treatments for PTSD and anxiety disorders.",
-            "Ongoing research into gut bacteria may yield new biomarkers for early cancer detection."
+            "Research on glioblastoma treatment could progress, potentially leading to clinical trials.",
+            "Continued exploration of Mars may yield new findings related to its atmospheric chemistry.",
+            "Investigations into gut signals for cancer detection may advance, leading to new diagnostic tools."
           ],
           "watch_list": [
-            "Developments in gene therapy for hearing restoration.",
-            "New findings related to the origins of life on Earth and implications for astrobiology.",
-            "Advancements in quantum battery technology and its potential applications.",
-            "Research on the effects of aging on immune responses to viruses."
+            "Developments in brain aging research and its implications for memory loss treatments.",
+            "New findings in linguistics that could challenge existing theories on language structure.",
+            "Updates on ancient archaeological discoveries and their historical significance.",
+            "Advancements in cancer research, particularly glioblastoma and early detection methods."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of these discoveries are still being studied and may take time to translate into practical applications.",
-          "Further research is needed to confirm findings and explore their broader impacts."
+          "The implications of these discoveries are still being explored and may take time to translate into practical applications.",
+          "Further research is needed to confirm initial findings and their broader impacts."
         ],
         "related_topics": [
           "What are the latest discoveries in brain aging research?",
-          "How are ancient Roman rituals being studied?",
-          "What new treatments are available for high blood pressure?",
-          "How do Mars dust storms affect its chemistry?",
-          "What breakthroughs are being made in cancer detection?"
+          "How do languages evolve and what patterns have been found?",
+          "What archaeological findings have been made in ancient Roman sites?",
+          "What new treatments are available for glioblastoma?",
+          "How do Mars dust storms affect its chemistry?"
         ]
       },
-      "tweet_text": "Unlock the secrets of aging and fear with groundbreaking discoveries that could change everything we...\n\nScience Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Discover #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlock the secrets of aging and disease as scientists unveil new breakthroughs that could change...\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Hidden #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
