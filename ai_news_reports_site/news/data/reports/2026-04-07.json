@@ -1,11 +1,11 @@
 {
   "date": "2026-04-07",
-  "generated_at_utc": "2026-04-07T23:50:24Z",
+  "generated_at_utc": "2026-04-08T05:07:17Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "iran",
-    "turn"
+    "major"
   ],
   "categories": {
     "world": {
@@ -17,16 +17,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.198,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.330, dampened ×0.6 → -0.1980). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0062,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.010, dampened ×0.6 → +0.0062). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Tracking recent US-Israeli strikes on Iranian infrastructure",
-          "url": "https://www.bbc.com/news/articles/cx2w0v19gw8o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 07 Apr 2026 17:15:34 GMT",
-          "summary": "Attacks have targeted bridges, steel plants and pharmaceutical facilities, verified videos show.",
+          "title": "Iran ceasefire deal a partial win for Trump - but at a high cost",
+          "url": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 08 Apr 2026 03:30:55 GMT",
+          "summary": "The path to the two-week ceasefire with Iran may have fundamentally altered the way the rest of the world views the US.",
+          "source": "BBC News"
+        },
+        {
+          "title": "What we know about the two-week ceasefire between the US and Iran",
+          "url": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 08 Apr 2026 02:58:55 GMT",
+          "summary": "The provisional truce comes more than a month after the US and Israel launched coordinated attacks on Iran.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump-backed Republican Clay Fuller wins election to replace Marjorie Taylor Greene",
+          "url": "https://www.bbc.com/news/articles/c8r40erdj6mo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 08 Apr 2026 02:33:45 GMT",
+          "summary": "He will serve out the rest of Marjorie Taylor Greene's term, which ends in January 2027.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Oil plunges after US-Iran ceasefire deal to reopen Strait of Hormuz",
+          "url": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 08 Apr 2026 03:24:53 GMT",
+          "summary": "The agreement was announced not long before Trump's Tuesday evening deadline was reached.",
           "source": "BBC News"
         },
         {
@@ -37,31 +58,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Has Artemis II shown we can land on the Moon again?",
-          "url": "https://www.bbc.com/news/articles/cj60nkd8nrko?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 07 Apr 2026 15:23:05 GMT",
-          "summary": "The Artemis II mission has been near flawless to date, but has the test flight shown Nasa is ready to send humans to the lunar surface?",
-          "source": "BBC News"
-        },
-        {
-          "title": "US journalist Shelly Kittleson to be released after kidnap in Iraq, militia says",
+          "title": "US journalist Shelly Kittleson released after kidnap in Iraq, officials say",
           "url": "https://www.bbc.com/news/articles/crm1xjp08k3o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 07 Apr 2026 17:50:17 GMT",
-          "summary": "Kataib Hezbollah says the release comes on condition that she leave Iraq immediately.",
-          "source": "BBC News"
-        },
-        {
-          "title": "French couple leave Iran after more than three years in jail",
-          "url": "https://www.bbc.com/news/articles/clyxk5640wko?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 07 Apr 2026 19:18:08 GMT",
-          "summary": "Cecile Kohler and Jacques Paris are on their way home after being allowed to leave the country, the French president says.",
-          "source": "BBC News"
-        },
-        {
-          "title": "JD Vance backs Orbán's re-election bid in Budapest visit and hits out at EU",
-          "url": "https://www.bbc.com/news/articles/cyv16lq2rp1o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 07 Apr 2026 18:11:38 GMT",
-          "summary": "US Vice-President JD Vance intervenes in the campaign to give Orbán a ringing endorsement in Budapest.",
+          "published": "Wed, 08 Apr 2026 01:44:26 GMT",
+          "summary": "US officials say they are now \"working to support her safe departure from Iraq\".",
           "source": "BBC News"
         },
         {
@@ -69,6 +69,13 @@
           "url": "https://www.bbc.com/news/articles/cg54zy5dq1yo?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 07 Apr 2026 23:15:33 GMT",
           "summary": "The ruling party has unveiled a draft law that strips voters of the chance to elect the president.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Has Artemis II shown we can land on the Moon again?",
+          "url": "https://www.bbc.com/news/articles/cj60nkd8nrko?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 07 Apr 2026 15:23:05 GMT",
+          "summary": "The Artemis II mission has been near flawless to date, but has the test flight shown Nasa is ready to send humans to the lunar surface?",
           "source": "BBC News"
         },
         {
@@ -86,98 +93,88 @@
           "source": "BBC News"
         },
         {
+          "title": "French couple leave Iran after more than three years in jail",
+          "url": "https://www.bbc.com/news/articles/clyxk5640wko?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 07 Apr 2026 19:18:08 GMT",
+          "summary": "Cecile Kohler and Jacques Paris are on their way home after being allowed to leave the country, the French president says.",
+          "source": "BBC News"
+        },
+        {
           "title": "Chilean woman accused of Pinochet-era kidnaps loses Australia extradition battle",
           "url": "https://www.bbc.com/news/articles/c8r40d4xdngo?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 07 Apr 2026 12:19:46 GMT",
           "summary": "Adriana Rivas moved from Chile to Australia in the 1970s, working there as a nanny and cleaner.",
           "source": "BBC News"
-        },
-        {
-          "title": "One dead as train travelling 99mph collides with lorry in France",
-          "url": "https://www.bbc.com/news/articles/cq590egv9vzo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 07 Apr 2026 12:31:01 GMT",
-          "summary": "The lorry driver is in custody after the train driver died during the collision in northern France.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Australia's most-decorated living soldier charged over alleged war crimes",
-          "url": "https://www.bbc.com/news/articles/crr1jyk0qwjo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 07 Apr 2026 07:19:27 GMT",
-          "summary": "Ben Roberts-Smith, who denies all wrongdoing, previously lost a landmark defamation case over the alleged murders.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent global events include US-Israeli strikes on Iranian infrastructure, the release of a kidnapped journalist in Iraq, and political tensions in Zimbabwe.",
-        "summary": "Today's world news highlights a range of significant events including military actions in the Middle East, political developments in Europe and Africa, and social issues in Australia. The cancellation of the Wireless Festival due to Kanye West's past comments also drew attention. The overall sentiment is mixed, reflecting both positive and negative developments across various regions.",
+        "key_takeaway": "A two-week ceasefire between the US and Iran has been established, impacting global perceptions and oil markets.",
+        "summary": "Today's headlines highlight significant geopolitical developments, including a ceasefire deal between the US and Iran, the election of a Trump-backed Republican, and ongoing tensions in the Middle East. The ceasefire has led to a drop in oil prices and has altered international views on US foreign policy. Additionally, the WHO has suspended medical evacuations from Gaza following violence, and a French couple has been released from Iranian custody after years in jail.",
         "key_themes": [
-          "US-Israeli relations and military actions",
-          "Kanye West Wireless Festival cancellation",
-          "journalist release in Iraq",
-          "political unrest in Zimbabwe",
-          "train collision in France",
-          "war crimes allegations in Australia"
+          "US Iran relations",
+          "impact of ceasefire on oil prices",
+          "political developments in Zimbabwe",
+          "journalist safety in Iraq",
+          "international responses to violence in Gaza"
         ],
         "notable_headlines": [
           {
-            "headline": "Tracking recent US-Israeli strikes on Iranian infrastructure",
-            "why_it_matters": "The strikes indicate escalating tensions in the region and potential implications for international relations.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Wireless Festival cancelled after Kanye West blocked from coming to UK",
-            "why_it_matters": "The cancellation highlights ongoing debates around free speech and the impact of past actions on public events.",
+            "headline": "Iran ceasefire deal a partial win for Trump - but at a high cost",
+            "why_it_matters": "The ceasefire may reshape global perceptions of US leadership and foreign policy.",
             "signal": "Unclear"
           },
           {
-            "headline": "US journalist Shelly Kittleson to be released after kidnap in Iraq, militia says",
-            "why_it_matters": "Her release may signal a shift in the treatment of foreign journalists in conflict zones.",
-            "signal": "Opportunity"
+            "headline": "What we know about the two-week ceasefire between the US and Iran",
+            "why_it_matters": "Understanding the implications of the ceasefire on regional stability and international relations.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Plan to scrap presidential elections puts Zimbabweans at loggerheads",
-            "why_it_matters": "This move could lead to significant political unrest and challenges to democracy in Zimbabwe.",
+            "headline": "Oil plunges after US-Iran ceasefire deal to reopen Strait of Hormuz",
+            "why_it_matters": "The ceasefire's impact on oil prices could influence global markets and economies.",
             "signal": "Risk"
           },
           {
-            "headline": "WHO suspends Gaza medical evacuations after contractor killed by Israeli troops",
-            "why_it_matters": "The suspension raises concerns about humanitarian access and the ongoing conflict's impact on civilians.",
+            "headline": "US journalist Shelly Kittleson released after kidnap in Iraq, officials say",
+            "why_it_matters": "Her release highlights ongoing risks for journalists in conflict zones.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Plan to scrap presidential elections puts Zimbabweans at loggerheads",
+            "why_it_matters": "The proposed law could lead to significant political unrest in Zimbabwe.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to the US-Israeli strikes and their implications for regional stability.",
-            "Observing the fallout from the cancellation of the Wireless Festival and its impact on public discourse.",
-            "Following developments in Zimbabwe regarding the proposed changes to presidential elections."
+            "Monitoring reactions to the US-Iran ceasefire from global leaders",
+            "Observing oil market fluctuations in response to geopolitical changes",
+            "Following developments in Zimbabwe's political landscape"
           ],
           "next_1_4_weeks": [
-            "Assessing the long-term effects of the journalist's release on media freedom in Iraq.",
-            "Watching for international responses to the WHO's suspension of medical evacuations in Gaza.",
-            "Evaluating the political landscape in Zimbabwe as tensions rise over election changes."
+            "Assessing the long-term effects of the ceasefire on US-Iran relations",
+            "Evaluating the impact of the new Republican election on US politics",
+            "Watching for potential protests in Zimbabwe against the election law changes"
           ],
           "watch_list": [
-            "US-Israeli military actions",
-            "Kanye West's public image and future events",
-            "Political developments in Zimbabwe",
-            "Humanitarian situation in Gaza",
-            "War crimes allegations in Australia"
+            "US-Iran diplomatic relations",
+            "Global oil market trends",
+            "Political stability in Zimbabwe",
+            "Safety of journalists in conflict regions"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates uncertainty in the interpretation of these events.",
-          "Political developments may evolve rapidly, affecting the stability of regions involved."
+          "The situation in the Middle East remains fluid and subject to rapid changes.",
+          "The long-term effects of the ceasefire are still uncertain.",
+          "Political reactions in Zimbabwe could escalate quickly."
         ],
         "related_topics": [
-          "What are the latest developments in US-Israeli relations?",
-          "Why was the Wireless Festival cancelled?",
-          "What is the current situation for journalists in Iraq?",
-          "What are the implications of Zimbabwe's election changes?",
-          "What happened in the Gaza medical evacuation situation?"
+          "What are the implications of the US-Iran ceasefire",
+          "Latest developments in Zimbabwe's political situation",
+          "Impact of geopolitical events on oil prices"
         ]
       },
-      "tweet_text": "Tensions escalate as US-Israeli strikes target Iran, while a journalist's release offers a glimmer of hope amidst chaos.\n\nWorld Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Again #Artemis #Backs #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From ceasefires to cancelled festivals, today's headlines pack a punch!\n\nWorld Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceasefire #Deal #Iran #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -279,74 +276,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The oil and gas crisis from the Iran war is deemed more severe than previous crises, while unemployment remains high among skilled workers in Washington, DC.",
-        "summary": "Today's business news highlights a significant oil and gas crisis exacerbated by the ongoing conflict in Iran, with the International Energy Agency warning of its severity. Meanwhile, Washington, DC faces a troubling unemployment rate, particularly affecting highly qualified workers. Additionally, Universal Music Group has received a substantial takeover offer, and rising prices are impacting consumers amid the war's economic fallout.",
+        "key_takeaway": "The oil and gas crisis stemming from the Iran war is deemed more severe than previous crises, while unemployment remains high among skilled workers in Washington, DC.",
+        "summary": "Today's business news highlights a significant oil and gas crisis due to the Iran war, which is reported to be worse than past crises. Concurrently, Washington, DC faces high unemployment rates among qualified workers, raising concerns about job availability. Universal Music Group has received a substantial takeover offer, indicating ongoing activity in the entertainment sector. Additionally, rising gas prices are benefiting oil and defense companies, while some older workers are turning to AI training as a last resort amid a challenging job market.",
         "key_themes": [
-          "oil and gas crisis",
-          "Washington DC unemployment",
-          "Universal Music takeover",
-          "impact of Iran war on economy",
-          "rising consumer prices"
+          "Oil and gas crisis impact",
+          "Unemployment in Washington DC",
+          "Universal Music Group takeover",
+          "Profit surge for defense companies",
+          "AI training for older workers"
         ],
         "notable_headlines": [
           {
             "headline": "Oil and gas crisis from Iran war worse than 1973, ​1979 and 2022 together, says IEA",
-            "why_it_matters": "The IEA's warning highlights the potential for significant economic disruption due to rising oil prices and geopolitical tensions.",
+            "why_it_matters": "The IEA's assessment underscores the severity of the current energy crisis, impacting global markets and economies.",
             "signal": "Risk"
           },
           {
             "headline": "DC’s highly qualified workers can’t find jobs: ‘What is happening?’",
-            "why_it_matters": "The high unemployment rate among skilled workers raises concerns about the job market and economic recovery in the capital.",
+            "why_it_matters": "The high unemployment rate among skilled workers raises questions about the job market's health and economic recovery.",
             "signal": "Risk"
           },
           {
             "headline": "Universal Music, home to Taylor Swift and Drake, receives €55bn takeover offer",
-            "why_it_matters": "This potential acquisition could reshape the music industry landscape and reflects investor interest in major entertainment assets.",
+            "why_it_matters": "This significant offer reflects ongoing consolidation trends in the entertainment industry and investor interest.",
             "signal": "Opportunity"
           },
           {
             "headline": "War in Iran is boosting profits for oil and defense companies as US gas prices soar",
-            "why_it_matters": "The conflict is creating a dual impact on the economy, benefiting certain sectors while burdening consumers with higher costs.",
-            "signal": "Risk"
+            "why_it_matters": "The conflict is creating financial gains for specific sectors, highlighting the intersection of geopolitics and business.",
+            "signal": "Opportunity"
           },
           {
             "headline": "‘There’s a lot of desperation’: skilled older workers turn to AI training to stay afloat",
-            "why_it_matters": "The trend of older workers seeking AI training underscores the challenges faced in the current job market and the need for reskilling.",
-            "signal": "Unclear"
+            "why_it_matters": "The shift towards AI training among older workers illustrates the challenges faced in the current job market.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring oil price fluctuations as tensions in Iran continue to escalate.",
-            "Observing job market trends in Washington, DC for potential recovery signs.",
-            "Tracking developments in Universal Music's takeover discussions."
+            "Monitoring oil price fluctuations as the situation in Iran evolves.",
+            "Observing job market trends in Washington DC for potential recovery signs.",
+            "Tracking developments regarding the Universal Music Group takeover offer."
           ],
           "next_1_4_weeks": [
-            "Anticipating further economic impacts from the Iran conflict on global oil prices.",
-            "Evaluating the effectiveness of AI training programs for unemployed skilled workers.",
-            "Watching for regulatory responses to rising gas prices and inflation."
+            "Anticipating further analysis on the long-term impacts of the Iran war on global energy markets.",
+            "Watching for updates on employment initiatives in Washington DC.",
+            "Evaluating the outcomes of the Universal Music Group acquisition discussions."
           ],
           "watch_list": [
-            "Oil price trends amid geopolitical tensions",
-            "Job market recovery indicators in Washington, DC",
-            "Universal Music Group acquisition developments",
-            "Consumer price index changes due to inflation"
+            "Oil price trends amid geopolitical tensions.",
+            "Job market recovery indicators in major US cities.",
+            "Developments in the entertainment industry regarding mergers and acquisitions.",
+            "The impact of rising gas prices on consumer behavior."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran is fluid and could change rapidly, impacting oil prices further.",
-          "Unemployment data may not fully capture the complexities of the job market, especially for skilled workers."
+          "The situation in Iran is fluid and may change rapidly, affecting market conditions.",
+          "Unemployment statistics can vary based on new data releases and economic policies."
         ],
         "related_topics": [
-          "What is the current state of the oil and gas market?",
-          "How is the job market in Washington DC affecting skilled workers?",
-          "What are the implications of the Universal Music takeover offer?",
-          "How is the Iran war impacting global economies?",
-          "What trends are emerging in AI training for job seekers?"
+          "What is the current state of the oil market?",
+          "How is the job market in Washington DC?",
+          "What are the implications of the Iran war on global energy?",
+          "Latest news on Universal Music Group takeover",
+          "Trends in AI training for older workers"
         ]
       },
-      "tweet_text": "Oil and gas prices are skyrocketing—could this crisis be worse than the oil shocks of the '70s combined?\n\nBusiness Sentiment: Negative (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #1973 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Oil crisis hits new heights, DC's job market falters, and Universal Music faces a massive takeover—today's...\n\nBusiness Sentiment: Negative (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #1973 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -435,14 +432,14 @@
       ],
       "ai_report": {
         "key_takeaway": "Amazon will end support for older Kindle devices starting May 20, 2026, impacting users' ability to access new content.",
-        "summary": "Today's technology news highlights include a significant discount on Nothing's CMF Buds 2A, Amazon's decision to discontinue support for older Kindle devices, Spotify's new podcast feature, and advancements in 3D app experiences with Samsung's Galaxy XR headset. Additionally, Anthropic's new AI model has identified security vulnerabilities across major operating systems, while the AI musicmaker Suno faces challenges in licensing agreements with major music labels.",
+        "summary": "Today's technology news highlights include a significant discount on Nothing's CMF Buds 2A, Amazon's decision to discontinue support for older Kindle devices, and Spotify's expansion of its Prompted Playlists feature to include podcasts. Additionally, Samsung's Galaxy XR headset now allows users to convert 2D apps into 3D experiences, while Anthropic's new AI model has identified security vulnerabilities across major operating systems. Other notable mentions include discounts on Samsung's Galaxy S26 Ultra and Bose Soundlink Flex, along with a discussion on the benefits of vertical browser tabs and ongoing licensing disputes in AI music sharing.",
         "key_themes": [
-          "discounts on wireless earbuds",
+          "discounts on tech gadgets",
           "Amazon Kindle support changes",
           "Spotify podcast features",
-          "3D app experiences on Galaxy XR",
+          "Samsung Galaxy XR updates",
           "AI security vulnerabilities",
-          "AI music licensing issues"
+          "AI music sharing disputes"
         ],
         "notable_headlines": [
           {
@@ -452,62 +449,62 @@
           },
           {
             "headline": "Amazon is ending support for older Kindles and Kindle Fires",
-            "why_it_matters": "This decision affects users' ability to access new content on older devices, prompting potential upgrades.",
+            "why_it_matters": "This decision affects users' access to new content, raising concerns about device longevity.",
             "signal": "Risk"
           },
           {
             "headline": "Spotify's Prompted Playlists can help you find new podcasts to listen to",
-            "why_it_matters": "This feature enhances user experience by making podcast discovery easier for Premium subscribers.",
+            "why_it_matters": "This feature enhances user experience by simplifying podcast discovery for Premium users.",
             "signal": "Opportunity"
           },
           {
             "headline": "You can now turn 2D apps into 3D while using the Galaxy XR headset",
-            "why_it_matters": "This innovation represents a significant step in enhancing user interaction with digital content.",
+            "why_it_matters": "This innovation represents a significant advancement in how users interact with apps and media.",
             "signal": "Opportunity"
           },
           {
             "headline": "A new Anthropic model found security problems ‘in every major operating system and web browser’",
-            "why_it_matters": "Identifying vulnerabilities across platforms underscores the importance of cybersecurity in technology.",
+            "why_it_matters": "The findings underscore the importance of cybersecurity in today's digital landscape.",
             "signal": "Risk"
           },
           {
             "headline": "Suno and major music labels reportedly clash over AI music sharing",
-            "why_it_matters": "The disagreement highlights ongoing tensions in the music industry regarding AI-generated content and licensing.",
+            "why_it_matters": "This conflict could shape the future of AI-generated music and its distribution.",
             "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Amazon's Kindle support announcement among users and tech analysts.",
-            "Watch for updates on Spotify's podcast feature usage and user feedback.",
-            "Keep an eye on potential responses from music labels regarding AI-generated music sharing."
+            "Monitor reactions to Amazon's Kindle support announcement among users.",
+            "Watch for updates on Spotify's Prompted Playlists feature performance.",
+            "Keep an eye on the response to the CMF Buds 2A deal."
           ],
           "next_1_4_weeks": [
-            "Observe sales trends for the CMF Buds 2A and other discounted tech products.",
-            "Track developments in AI security as more companies adopt Anthropic's model.",
-            "Follow the evolution of 3D app experiences on Galaxy XR and user adoption rates."
+            "Expect discussions around the implications of Anthropic's security findings.",
+            "Follow developments in the AI music sharing dispute between Suno and major labels.",
+            "Watch for user feedback on Samsung's Galaxy XR headset features."
           ],
           "watch_list": [
-            "Upcoming product announcements from Amazon regarding new Kindle devices.",
-            "Potential updates from Spotify on user engagement with the new podcast feature.",
-            "Further developments in AI music licensing negotiations.",
-            "New features or updates from Google Chrome related to vertical tabs."
+            "Amazon's Kindle support changes",
+            "Spotify's new podcast features",
+            "Samsung Galaxy S26 Ultra sales performance",
+            "AI music sharing licensing negotiations"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is based on a limited number of headlines and may not represent the overall technology landscape.",
-          "Future developments in AI and music licensing are highly unpredictable and subject to rapid change."
+          "The sentiment score is based on a limited number of headlines and may not reflect broader trends.",
+          "Details on the impact of Amazon's Kindle support changes are still emerging."
         ],
         "related_topics": [
-          "What are the latest discounts on wireless earbuds?",
-          "How is Amazon changing support for Kindle devices?",
-          "What new features has Spotify introduced for podcasts?",
-          "How does Samsung's Galaxy XR enhance app experiences?",
-          "What are the implications of AI in music licensing?"
+          "What are the latest discounts on tech gadgets?",
+          "How is Amazon changing Kindle support?",
+          "What new features does Spotify offer for podcasts?",
+          "What are the benefits of using vertical browser tabs?",
+          "What security vulnerabilities were found in major operating systems?"
         ]
       },
-      "tweet_text": "Grab the hottest tech deals today: killer earbuds for $19.99, $200 off the Galaxy S26 Ultra, and more!\n\nTechnology Sentiment: Positive (+0.33)\n\nRead the full breakdown: https://tldrnews.info\n\n#Galaxy #1999 #8216in #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Grab the noise-canceling CMF Buds 2A for just $19.99—your ears will thank you!\n\nTechnology Sentiment: Positive (+0.33)\n\nRead the full breakdown: https://tldrnews.info\n\n#Galaxy #1999 #8216in #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -518,71 +515,71 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.0547,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.091, dampened ×0.6 → +0.0547). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0236,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.039, dampened ×0.6 → -0.0236). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Sources: UNC's Malone top five in coaches' salary",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48422336/sources-unc-michael-malone-highest-paid-coaches",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
-          "summary": "North Carolina is making new head coach Michael Malone the second-highest-paid coach in college basketball, sources confirmed to ESPN.",
+          "title": "Soler, Lopez trade haymakers, ejected in brawl",
+          "url": "https://www.espn.com/mlb/story/_/id/48426065/angels-soler-braves-lopez-ejected-benches-clear-brawl",
+          "published": "Wed, 8 Apr 2026 00:43:36 EST",
+          "summary": "Angels DH Jorge Soler charged the mound after Braves starter Reynaldo Lopez threw a high inside pitch, as both players threw punches amid a bench-clearing brawl in the fifth inning of Tuesday's game.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Mavs dispute claim they erred with Reaves' MRI",
+          "url": "https://www.espn.com/nba/story/_/id/48424364/mavericks-dispute-redick-claim-erred-reaves-mri",
+          "published": "Wed, 8 Apr 2026 00:41:18 EST",
+          "summary": "The Mavericks disputed Lakers coach JJ Redick's claim that their medical team examined the wrong part of Austin Reaves' body when the Lakers guard received an MRI by the Mavs' staff.",
+          "source": "ESPN"
+        },
+        {
+          "title": "NBA vet Malone sees 'special' opportunity at UNC",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48425089/malone-sees-chance-part-special-unc",
+          "published": "Wed, 8 Apr 2026 00:41:18 EST",
+          "summary": "New Tar Heels coach Michael Malone called North Carolina the only college job he would've accepted, saying he recognizes he has a \"chance to be a part of something special\" there.",
           "source": "ESPN"
         },
         {
           "title": "Colorado QB's BAC twice legal limit in fatal crash",
           "url": "https://www.espn.com/college-football/story/_/id/48422979/colorado-qb-dominiq-ponder-bac-double-limit-fatal-crash",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
+          "published": "Wed, 8 Apr 2026 00:41:18 EST",
           "summary": "Colorado quarterback Dominiq Ponder had a blood alcohol level twice the legal limit for driving under the influence when he died in a single-car crash near Boulder on March 1.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Geno apologizes to Staley, says 'I lost myself'",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48425047/uconn-auriemma-apologizes-staley",
+          "published": "Wed, 8 Apr 2026 00:41:18 EST",
+          "summary": "UConn Huskies coach Geno Auriemma said in a statement Tuesday night that he lost himself with his behavior toward South Carolina coach Dawn Staley during his team's Final Four defeat last Friday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Avalanche clinch Central, secure West's top seed",
+          "url": "https://www.espn.com/nhl/story/_/id/48426007/colorado-avalanche-clinch-central-division-west-top-seed",
+          "published": "Wed, 8 Apr 2026 00:41:18 EST",
+          "summary": "The Colorado Avalanche defeated the St. Louis Blues 3-1 on Tuesday night to clinch Central Division and secure the No. 1 seed in the Western Conference, but after the win, coach Jared Bednar was quick to caution his team is \"not all the way there yet.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Tatum preps for MSG return: 'Just another game'",
+          "url": "https://www.espn.com/nba/story/_/id/48426101/jayson-tatum-preps-return-msg-just-another-game",
+          "published": "Wed, 8 Apr 2026 00:41:18 EST",
+          "summary": "Jayson Tatum said that although he's not thrilled to return to the arena where he tore an Achilles less than a year ago, he is aiming to treat Thursday's matchup against the Knicks at MSG as \"just another game.\"",
           "source": "ESPN"
         },
         {
           "title": "Reinsdorf: Next Bulls GM must be sold on Donovan",
           "url": "https://www.espn.com/nba/story/_/id/48423854/bulls-reinsdorf-says-next-gm-sold-donovan-coach",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
+          "published": "Wed, 8 Apr 2026 00:41:18 EST",
           "summary": "Bulls CEO and president Michael Reinsdorf, who is looking for a new head of basketball operations after firing Arturas Karnisovas earlier this week, said Tuesday that retaining Billy Donovan as head coach would be a major requirement.",
-          "source": "ESPN"
-        },
-        {
-          "title": "U-M toasts title with fans: 'This trophy is yours'",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48423063/michigan-toast-title-fans-trophy-yours",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
-          "summary": "Michigan's men's basketball team returned to campus as national champions Tuesday, and coach Dusty May told dozens of fans who greeted them at the Crisler Center that \"this trophy is yours.\"",
-          "source": "ESPN"
-        },
-        {
-          "title": "Staley talks to Geno, wants focus on growing game",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48421840/staley-says-spoke-auriemma-wants-turn-page",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
-          "summary": "South Carolina coach Dawn Staley said Tuesday that she has spoken to UConn's Geno Auriemma and suggested for \"everyone to turn the page\" after their midcourt argument at the Final Four fueled a firestorm of controversy.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Fab 40: Veteran Neuer stops Madrid on MVP night",
-          "url": "https://www.espn.com/soccer/story/_/id/48423434/bayern-munich-neuer-mvp-night-win-real-madrid",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
-          "summary": "Vincent Kompany said he's \"impressed every day\" by Manuel Neuer after the veteran goalkeeper made nine saves in Bayern Munich's 2-1 Champions League win over Real Madrid on Tuesday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: Mendoza not planning to attend draft",
-          "url": "https://www.espn.com/nfl/story/_/id/48421461/sources-fernando-mendoza-not-planning-attend-nfl-draft",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
-          "summary": "Fernando Mendoza has informed the NFL that he is not planning to attend the draft, sources told ESPN.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Lawrence not with Giants; Harbaugh optimistic",
-          "url": "https://www.espn.com/nfl/story/_/id/48422457/lawrence-absent-giants-workouts-harbaugh-optimistic",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
-          "summary": "Giants coach John Harbaugh expressed optimism during a video call with reporters Tuesday that defensive lineman Dexter Lawrence II will remain with the team next season.",
           "source": "ESPN"
         },
         {
           "title": "🏈 Schrager's first-round NFL mock draft",
           "url": "https://www.espn.com/nfl/draft2026/story/_/id/48408193/2026-nfl-mock-draft-peter-schrager-insider-intel-first-round-picks-predictions",
-          "published": "Tue, 7 Apr 2026 19:22:41 EST",
+          "published": "Wed, 8 Apr 2026 00:41:18 EST",
           "summary": "Peter Schrager leans on his intel after last week's annual league meeting to project picks in the NFL draft. Here's where things stand right now in Round 1.",
           "source": "ESPN"
         },
@@ -609,75 +606,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "North Carolina's new head coach Michael Malone is now the second-highest-paid coach in college basketball, while Michigan celebrates its national championship victory.",
-        "summary": "Today's sports news highlights include North Carolina's significant investment in new head coach Michael Malone, the tragic death of Colorado QB Dominiq Ponder due to a DUI crash, and Michigan's celebration as national champions. Additionally, discussions around the future of the Chicago Bulls and the NFL draft are prominent, along with ongoing concerns about the state of baseball in Latin America.",
+        "key_takeaway": "The Colorado Avalanche clinched the Central Division title and the top seed in the Western Conference, while a brawl erupted in an MLB game between the Angels and Braves.",
+        "summary": "Today's sports headlines feature a significant brawl in MLB, disputes over medical claims in the NBA, and the Colorado Avalanche securing the top seed in the Western Conference. Additionally, UConn's coach issued an apology, and the NFL draft predictions are underway. The tragic death of a Colorado quarterback raises concerns about alcohol use in sports, while college basketball teams are preparing for next season.",
         "key_themes": [
-          "coaching salaries in college basketball",
-          "impact of DUI incidents in sports",
-          "celebrations of national championships",
-          "future of Chicago Bulls management",
-          "NFL draft predictions",
-          "issues in Latin American baseball"
+          "MLB brawl analysis",
+          "NBA medical disputes",
+          "NHL playoff implications",
+          "UConn coach apology",
+          "NFL draft predictions"
         ],
         "notable_headlines": [
           {
-            "headline": "Sources: UNC's Malone top five in coaches' salary",
-            "why_it_matters": "This move reflects UNC's commitment to success in college basketball by investing heavily in coaching talent.",
+            "headline": "Soler, Lopez trade haymakers, ejected in brawl",
+            "why_it_matters": "The incident highlights tensions in MLB and the potential impact on player discipline.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Mavs dispute claim they erred with Reaves' MRI",
+            "why_it_matters": "This dispute could affect team dynamics and player trust in medical decisions.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Avalanche clinch Central, secure West's top seed",
+            "why_it_matters": "This positions the Avalanche favorably for the upcoming NHL playoffs.",
             "signal": "Opportunity"
           },
           {
             "headline": "Colorado QB's BAC twice legal limit in fatal crash",
-            "why_it_matters": "The incident raises serious concerns about player safety and the consequences of impaired driving.",
+            "why_it_matters": "Raises serious concerns about player safety and alcohol use in sports.",
             "signal": "Risk"
           },
           {
-            "headline": "U-M toasts title with fans: 'This trophy is yours'",
-            "why_it_matters": "Michigan's celebration highlights the connection between teams and their fanbases, especially after a championship win.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Baseball in Latin America is broken -- is an international draft the answer?",
-            "why_it_matters": "This issue underscores systemic problems in talent acquisition and player welfare in Latin American baseball.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Way-Too-Early Top 25: Ranking the best teams for next season, now",
-            "why_it_matters": "Early rankings can influence recruiting and expectations for the upcoming college basketball season.",
-            "signal": "Opportunity"
+            "headline": "Geno apologizes to Staley, says 'I lost myself'",
+            "why_it_matters": "This apology may impact future interactions between the coaches and their teams.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Expect more details on the NFL draft as teams finalize their strategies.",
-            "Further discussions on the implications of the tragic DUI incident may arise.",
-            "Michigan's celebration may lead to increased recruitment efforts."
+            "Upcoming NBA games may see heightened scrutiny on player health protocols.",
+            "NHL playoff matchups will be finalized as teams prepare for the postseason.",
+            "Expect reactions to the MLB brawl and potential disciplinary actions."
           ],
           "next_1_4_weeks": [
-            "Anticipate reactions to the new coaching salaries and their impact on recruiting.",
-            "The NFL draft will dominate headlines as teams prepare for the event.",
-            "Continued analysis of the state of baseball in Latin America and potential reforms."
+            "The NFL draft will dominate headlines as teams finalize their strategies.",
+            "NHL playoffs will begin, with the Avalanche as a key contender.",
+            "College basketball teams will be active in recruiting and the transfer portal."
           ],
           "watch_list": [
-            "Monitor the Chicago Bulls' search for a new GM and its impact on team dynamics.",
-            "Watch for updates on the NFL draft and player selections.",
-            "Keep an eye on the developments in college basketball recruiting.",
-            "Follow the ongoing discussions about reforms in Latin American baseball."
+            "Monitor the fallout from the MLB brawl and any resulting suspensions.",
+            "Keep an eye on the Mavericks' handling of the Reaves MRI situation.",
+            "Watch for updates on the Avalanche's playoff preparations.",
+            "Follow UConn's response to Auriemma's apology and its impact on the team."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates a balance of positive and negative news in sports today. The tragic incident involving Dominiq Ponder may overshadow other stories in the short term. Future developments could shift the focus of sports news rapidly. ",
-          "The impact of coaching salaries on team performance remains to be seen."
+          "The sentiment score indicates a neutral tone, suggesting mixed reactions to the events reported.",
+          "Details surrounding the brawl and its consequences are still developing."
         ],
         "related_topics": [
-          "What are the latest coaching salaries in college basketball?",
-          "How did Michigan celebrate their national championship win?",
-          "What are the implications of the DUI incident involving Colorado QB?",
-          "What are the predictions for the upcoming NFL draft?",
-          "What reforms are being discussed for baseball in Latin America?"
+          "What happened in MLB brawls today",
+          "NBA medical disputes and their implications",
+          "NHL playoff predictions and standings",
+          "UConn basketball coach apology news",
+          "NFL draft predictions and analysis"
         ]
       },
-      "tweet_text": "Tragedy strikes the field as Colorado's QB faces serious charges; meanwhile, UNC's Malone cashes in big as the...\n\nSports Sentiment: Mixed (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #Attend #Bulls #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Fists fly in a wild brawl, while a tragic crash shakes Colorado football—today's sports world is...\n\nSports Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Another #Apologizes #Avalanche #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -688,11 +684,39 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.1531,
+        "score": 0.1214,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.255, dampened ×0.6 → +0.1531). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.202, dampened ×0.6 → +0.1214). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Scientists map the brain’s hidden wiring using RNA barcodes in major breakthrough",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193848.htm",
+          "published": "Tue, 07 Apr 2026 21:37:16 EDT",
+          "summary": "Researchers have developed a cutting-edge technique that uses RNA “barcodes” to map how neurons connect, capturing thousands of links with single-synapse precision. The method transforms brain mapping into a sequencing task, making it faster and more scalable than traditional approaches. In mice, it revealed surprising new connections between brain cells that were previously unknown. This could open the door to earlier detection and targeted treatment of neurological diseases.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover reversible male birth control that stops sperm production",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193844.htm",
+          "published": "Tue, 07 Apr 2026 20:52:22 EDT",
+          "summary": "Scientists at Cornell University may be closing in on the long-sought “holy grail” of male contraception: a safe, reversible, nonhormonal method that completely halts sperm production. In a breakthrough mouse study, researchers used a compound called JQ1 to temporarily shut down meiosis—the critical process that produces sperm—without causing lasting harm. After treatment stopped, sperm production bounced back, fertility returned, and the animals produced healthy offspring.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Your vitamin D levels in midlife could shape your brain decades later",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407073850.htm",
+          "published": "Tue, 07 Apr 2026 07:47:09 EDT",
+          "summary": "Vitamin D levels in midlife may play a bigger role in long-term brain health than previously thought. In a study following nearly 800 people over 16 years, those with higher vitamin D levels in their 30s and 40s had lower levels of tau protein later on, a key marker linked to dementia.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists solve 30-year mystery of a hidden nutrient that protects the brain and fights cancer",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407004815.htm",
+          "published": "Tue, 07 Apr 2026 06:57:46 EDT",
+          "summary": "Scientists have finally uncovered the missing link in how our bodies absorb queuosine, a rare micronutrient crucial for brain health, memory, stress response, and cancer defense. For decades, researchers suspected a transporter had to exist, but it remained elusive—until now. By identifying the gene SLC35F2 as the gateway into cells, this breakthrough opens new possibilities for therapies and highlights how diet and gut microbes profoundly shape human health.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Scientists found a “lost world” of animals that shouldn’t exist yet",
           "url": "https://www.sciencedaily.com/releases/2026/04/260406234153.htm",
@@ -748,105 +772,83 @@
           "published": "Sun, 05 Apr 2026 07:08:57 EDT",
           "summary": "Scientists have uncovered a powerful new clue in the mystery of brain aging: a single protein called FTL1. In aging mice, higher levels of this protein weakened connections between brain cells and led to memory decline. But when researchers reduced FTL1, something remarkable happened — the brain began to recover, rebuilding lost connections and restoring memory performance.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "These bizarre new tarantulas turn mating into a fight for survival",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260405003946.htm",
-          "published": "Mon, 06 Apr 2026 08:31:08 EDT",
-          "summary": "A newly discovered group of tarantulas is so bizarre that scientists had to invent a whole new genus—Satyrex—to describe them. With unusually long mating appendages and fierce, hissing defenses, these spiders are as strange as they are intimidating.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Study of 1,700 languages reveals surprising hidden patterns",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260405003943.htm",
-          "published": "Sun, 05 Apr 2026 20:01:39 EDT",
-          "summary": "A massive new analysis of over 1,700 languages shows that some long-debated “universal” grammar rules are actually real. By using cutting-edge evolutionary methods, researchers found that languages tend to evolve in predictable ways rather than randomly. Key patterns—like word order and grammatical structure—keep reappearing across the globe. The results suggest shared human thinking and communication pressures shape how all languages develop.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists may finally detect hidden ripples in spacetime",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260405003940.htm",
-          "published": "Mon, 06 Apr 2026 07:57:41 EDT",
-          "summary": "Scientists have taken a major step toward probing one of physics’ biggest mysteries—how gravity and quantum mechanics fit together—by creating the first unified way to detect tiny “ripples” in spacetime itself. These subtle fluctuations, long predicted but poorly defined, are now organized into clear categories with specific signals that real-world instruments can search for. The breakthrough means powerful tools like LIGO and even small tabletop experiments could start testing competing theorie",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Buried Roman sanctuary discovered beneath Frankfurt hints at shocking rituals",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260405003937.htm",
-          "published": "Sun, 05 Apr 2026 00:39:37 EDT",
-          "summary": "A hidden Roman sanctuary discovered beneath Frankfurt is offering rare clues about ancient rituals, including possible human sacrifice. With major funding secured, scientists are now racing to uncover how this mysterious, multi-god cult site operated.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries reveal significant insights into ancient ecosystems, brain function, and the nature of consciousness, challenging existing theories and opening new avenues for research.",
-        "summary": "Today's science headlines highlight groundbreaking discoveries, including a fossil find that alters our understanding of early animal life, the role of oxygen in Earth's habitability, and new insights into brain aging and consciousness. Additionally, researchers are uncovering hidden patterns in language evolution and making strides in detecting spacetime ripples, while a newly discovered tarantula genus showcases the diversity of life.",
+        "key_takeaway": "Recent scientific breakthroughs include advanced brain mapping techniques, discoveries in male contraception, and insights into brain health and aging.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including neuroscience, reproductive health, nutrition, and evolutionary biology. Researchers have developed innovative methods for brain mapping using RNA barcodes, discovered a reversible male contraceptive, and identified the impact of vitamin D on long-term brain health. Additionally, the resolution of a 30-year mystery regarding a nutrient crucial for brain health and cancer defense was reported, alongside discoveries that challenge existing theories about the origins of complex life and the formation of Earth's ocean currents. These findings collectively enhance our understanding of health, evolution, and the fundamental processes that shape life on Earth.",
         "key_themes": [
-          "ancient ecosystems and fossils",
-          "role of oxygen in life formation",
-          "brain aging and memory",
-          "language evolution patterns",
-          "spacetime detection advancements"
+          "brain mapping techniques",
+          "male contraception breakthroughs",
+          "impact of vitamin D on brain health",
+          "nutrient absorption and brain health",
+          "evolutionary biology discoveries",
+          "theories of consciousness and brain function"
         ],
         "notable_headlines": [
           {
+            "headline": "Scientists map the brain’s hidden wiring using RNA barcodes in major breakthrough",
+            "why_it_matters": "This technique could revolutionize our understanding of neural connections and neurological diseases.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists discover reversible male birth control that stops sperm production",
+            "why_it_matters": "This could provide a safe and effective contraceptive option for men, impacting family planning.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Your vitamin D levels in midlife could shape your brain decades later",
+            "why_it_matters": "Highlights the long-term health implications of vitamin D, potentially influencing public health recommendations.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists solve 30-year mystery of a hidden nutrient that protects the brain and fights cancer",
+            "why_it_matters": "Understanding queuosine absorption could lead to new therapies for brain health and cancer.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Scientists found a “lost world” of animals that shouldn’t exist yet",
-            "why_it_matters": "This discovery challenges existing timelines of animal evolution, suggesting complex life existed millions of years earlier than previously thought.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists discover the “Goldilocks” secret behind life on Earth",
-            "why_it_matters": "Understanding the delicate balance of oxygen in Earth's early atmosphere could reshape the search for extraterrestrial life.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The brain might not create consciousness after all",
-            "why_it_matters": "This challenges long-held beliefs about consciousness and could lead to new interdisciplinary research between neuroscience and physics.",
+            "why_it_matters": "This discovery could reshape our understanding of evolutionary timelines and biodiversity.",
             "signal": "Risk"
           },
           {
-            "headline": "Scientists may finally detect hidden ripples in spacetime",
-            "why_it_matters": "This breakthrough could lead to significant advancements in understanding gravity and quantum mechanics, impacting fundamental physics.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists discover hidden brain switch that tells you to stop eating",
-            "why_it_matters": "This finding could pave the way for innovative treatments for obesity and eating disorders, addressing a major health issue.",
-            "signal": "Opportunity"
+            "headline": "The brain might not create consciousness after all",
+            "why_it_matters": "Challenges fundamental assumptions about consciousness, prompting further research into its nature.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the fossil discovery may yield more insights into early life forms.",
-            "Research on the Goldilocks zone may lead to new theories in astrobiology.",
-            "Studies on the brain's appetite control may progress towards clinical applications."
+            "Further analysis of the implications of the brain mapping technique is expected.",
+            "More studies on the effects of vitamin D on brain health may be released.",
+            "Updates on the male contraceptive research could emerge."
           ],
           "next_1_4_weeks": [
-            "Anticipated publications on the implications of the consciousness debate may emerge.",
-            "Continued exploration of the newly discovered tarantula genus could reveal more about its behavior.",
-            "Ongoing research into spacetime ripples may lead to experimental validations."
+            "Anticipated discussions on the ethical implications of new male contraceptive methods.",
+            "Potential new research on the role of nutrients in brain health and aging.",
+            "Continued exploration of consciousness theories may gain traction."
           ],
           "watch_list": [
-            "Developments in the study of ancient ecosystems and their implications for evolution.",
-            "Updates on the search for extraterrestrial life based on new findings about Earth's conditions.",
-            "Progress in understanding the mechanisms of brain aging and potential treatments.",
-            "Research outputs on language evolution and its implications for cognitive science."
+            "Developments in RNA sequencing technologies for neuroscience.",
+            "Research on the long-term effects of vitamin D on cognitive health.",
+            "Follow-up studies on the newly discovered nutrient queuosine.",
+            "Investigations into the implications of the 'forbidden' exoplanet's atmosphere."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of these discoveries are still being evaluated and may evolve with further research.",
-          "Some findings, particularly regarding consciousness, remain highly theoretical and debated."
+          "The findings are based on preliminary research and may require further validation.",
+          "Some discoveries may take time to translate into practical applications."
         ],
         "related_topics": [
-          "What are the latest discoveries in ancient ecosystems?",
-          "How does oxygen influence the formation of life on Earth?",
-          "What new insights have been found about brain aging?",
-          "What patterns have been discovered in language evolution?",
-          "How are scientists detecting ripples in spacetime?"
+          "What are the latest breakthroughs in brain mapping?",
+          "How does vitamin D affect brain health?",
+          "What are the new developments in male contraception?",
+          "What is the significance of queuosine for brain health?",
+          "What discoveries are challenging our understanding of consciousness?"
         ]
       },
-      "tweet_text": "Unlocking the mysteries of existence: Scientists reveal shocking secrets that could change everything we...\n\nScience Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Found #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A game-changing discovery reveals the brain's hidden wiring—could this reshape our understanding of...\n\nScience Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Discover #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
