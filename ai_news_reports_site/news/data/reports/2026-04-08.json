@@ -1,13 +1,13 @@
 {
   "date": "2026-04-08",
-  "generated_at_utc": "2026-04-08T23:50:21Z",
+  "generated_at_utc": "2026-04-09T05:05:22Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "iran",
     "prices",
     "ceasefire",
-    "taylor"
+    "trump"
   ],
   "categories": {
     "world": {
@@ -19,11 +19,18 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2006,
+        "score": -0.2437,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.334, dampened ×0.6 → -0.2006). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.406, dampened ×0.6 → -0.2437). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
+          "url": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 09 Apr 2026 01:59:34 GMT",
+          "summary": "The US president says Nato \"wasn't there when we needed them\" during the Iran war.",
+          "source": "BBC News"
+        },
         {
           "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
           "url": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
@@ -46,10 +53,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
-          "url": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 08 Apr 2026 20:15:35 GMT",
-          "summary": "Crude prices tumbled by as much as 15% on the conditional pause but remain far higher than before the war.",
+          "title": "He's Australia's most decorated soldier. Now he's at the centre of a historic war crimes case",
+          "url": "https://www.bbc.com/news/articles/czjwp1vjn9lo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 08 Apr 2026 21:10:14 GMT",
+          "summary": "Ben Roberts-Smith's case is not only unprecedented for Australia but \"extraordinary\" for the globe too, scholars say.",
           "source": "BBC News"
         },
         {
@@ -76,7 +83,7 @@
         {
           "title": "Pioneering wildlife cameraman Doug Allan dies in Nepal",
           "url": "https://www.bbc.com/news/articles/czx9kvqxeq5o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 08 Apr 2026 22:08:33 GMT",
+          "published": "Thu, 09 Apr 2026 01:01:26 GMT",
           "summary": "The cameraman and photographer won eight Emmy Awards for his work on acclaimed series like Blue Planet alongside Sir David Attenborough.",
           "source": "BBC News"
         },
@@ -100,85 +107,78 @@
           "published": "Wed, 08 Apr 2026 13:07:57 GMT",
           "summary": "The government usually refrains from commenting on the participation of its citizens in the conflict.",
           "source": "BBC News"
-        },
-        {
-          "title": "Trump-backed Republican Clay Fuller wins election to replace Marjorie Taylor Greene",
-          "url": "https://www.bbc.com/news/articles/c8r40erdj6mo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 08 Apr 2026 02:33:45 GMT",
-          "summary": "He will serve out the rest of Marjorie Taylor Greene's term, which ends in January 2027.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The US-Iran ceasefire has led to significant geopolitical shifts and economic reactions, including a plunge in oil prices and rising tensions in Lebanon.",
-        "summary": "Today's headlines focus on the recent US-Iran ceasefire, which has implications for global perceptions of the US and has coincided with a wave of violence in Lebanon. The ceasefire has also impacted oil prices, causing a notable drop. Other news includes Germany's military policy changes and Nigeria's mass trial of terrorism suspects.",
+        "key_takeaway": "The US-Iran ceasefire has shifted global perceptions of the US, while ongoing conflicts in Lebanon and Nigeria highlight regional instability.",
+        "summary": "Today's headlines reflect a complex geopolitical landscape, with the US and Iran reaching a ceasefire that may alter international views on US foreign policy. Meanwhile, violence continues in Lebanon, and Nigeria initiates a mass trial of terrorism suspects. Additionally, notable developments include Germany's military policy changes and Greece's social media regulations for minors.",
         "key_themes": [
-          "US-Iran relations",
-          "Middle East conflict",
-          "global oil market reactions",
-          "international military policies",
-          "social media regulations in Europe"
+          "US-Iran relations and ceasefire",
+          "Lebanon conflict updates",
+          "Nigeria terrorism trial news",
+          "Germany military policy changes",
+          "Greece social media regulations"
         ],
         "notable_headlines": [
           {
-            "headline": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
-            "why_it_matters": "The ceasefire may reshape global views on US foreign policy and its implications for future conflicts.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "At least 182 killed across Lebanon in large wave of Israeli strikes",
-            "why_it_matters": "The violence underscores the fragility of the ceasefire and the ongoing humanitarian crisis in the region.",
+            "headline": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
+            "why_it_matters": "Trump's comments may influence NATO's future role and US alliances.",
             "signal": "Risk"
           },
           {
-            "headline": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
-            "why_it_matters": "The economic impact of the ceasefire is significant, affecting global markets and energy prices.",
+            "headline": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
+            "why_it_matters": "The ceasefire could reshape global perceptions of US military engagement.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Germany suspends military approval for long stays abroad for men under 45",
-            "why_it_matters": "This policy change may affect Germany's military engagement and international commitments.",
-            "signal": "Unclear"
+            "headline": "At least 182 killed across Lebanon in large wave of Israeli strikes",
+            "why_it_matters": "The escalation of violence raises concerns about regional stability.",
+            "signal": "Risk"
           },
           {
             "headline": "Nigeria begins mass trial of 500 terrorism suspects",
-            "why_it_matters": "This trial highlights ongoing issues with terrorism and justice in Nigeria, raising concerns about human rights.",
-            "signal": "Risk"
+            "why_it_matters": "This trial could set a precedent for handling terrorism in Nigeria.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Greece to ban social media for under-15s from next year",
+            "why_it_matters": "This move reflects growing concerns over youth safety online.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the situation in Lebanon for further developments following the ceasefire announcement.",
-            "Observing oil market reactions as traders assess the implications of the US-Iran ceasefire.",
-            "Tracking international responses to Germany's military policy changes."
+            "Monitoring reactions to the US-Iran ceasefire from global leaders.",
+            "Observing developments in Lebanon following the recent strikes.",
+            "Tracking the progress of Nigeria's mass terrorism trial."
           ],
           "next_1_4_weeks": [
-            "Evaluating the long-term effects of the US-Iran ceasefire on regional stability and US foreign policy.",
-            "Watching for updates on the mass trial of terrorism suspects in Nigeria and its impact on justice reforms.",
-            "Assessing the impact of Greece's social media ban on youth engagement and digital rights."
+            "Evaluating the long-term impacts of the US-Iran ceasefire on international relations.",
+            "Assessing the effectiveness of Greece's new social media regulations.",
+            "Watching for further military developments in Lebanon."
           ],
           "watch_list": [
-            "US-Iran relations and potential future ceasefire developments.",
-            "The humanitarian situation in Lebanon following recent violence.",
-            "Global oil price trends in response to geopolitical events.",
-            "Germany's military policy and its implications for NATO."
+            "US-Iran diplomatic relations",
+            "Lebanon conflict escalation",
+            "Nigeria's approach to terrorism trials",
+            "European social media regulations"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Lebanon remains fluid and could change rapidly.",
-          "Economic reactions to geopolitical events can be unpredictable.",
-          "Legal proceedings in Nigeria may face delays or complications."
+          "The situation in Lebanon is fluid and may change rapidly.",
+          "The implications of the US-Iran ceasefire are still unfolding and may vary.",
+          "Details on the Nigeria trial are limited and may evolve."
         ],
         "related_topics": [
           "What are the implications of the US-Iran ceasefire?",
-          "How is the oil market reacting to geopolitical tensions?",
-          "What is the current situation in Lebanon?",
-          "What changes are being made to military policies in Europe?",
-          "What are the latest developments in Nigeria's terrorism trials?"
+          "Latest updates on the Lebanon conflict",
+          "How is Nigeria handling terrorism trials?",
+          "Germany's military policy changes explained",
+          "Greece's social media ban for minors news"
         ]
       },
-      "tweet_text": "A fragile ceasefire could reshape tensions in the Middle East, but at what price for peace?\n\nWorld Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceasefire #Iran #Abroad #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From war crimes to ceasefires, today's headlines reveal a world on the brink—what's next?\n\nWorld Sentiment: Mixed (-0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceasefire #Iran #Trump #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -281,38 +281,38 @@
       ],
       "ai_report": {
         "key_takeaway": "Oil prices fell sharply while stocks rose following a conditional ceasefire announcement between the US and Iran, though shipping impacts remain limited.",
-        "summary": "Today's business news highlights significant fluctuations in oil prices and stock markets due to geopolitical developments. A conditional ceasefire between the US and Iran has led to a notable drop in oil prices, marking the largest daily fall since the pandemic. Despite this, experts suggest that shipping through the strait of Hormuz will not see a significant increase due to ongoing Iranian control. Delta Air Lines has warned customers of impending fare increases due to rising fuel costs linked to the conflict. The International Energy Agency has described the current oil and gas crisis as unprecedented, surpassing previous crises in 1973, 1979, and 2022. Meanwhile, the job market remains challenging for highly qualified workers in Washington, DC, who are struggling to find employment amid rising unemployment rates.",
+        "summary": "Today's business news highlights significant fluctuations in oil prices and stock markets due to geopolitical developments in the Middle East. A conditional ceasefire between the US and Iran has led to a notable drop in oil prices, marking the largest daily decline since the pandemic. Despite this, experts caution that the ceasefire will not lead to a substantial increase in shipping traffic through the strait of Hormuz, as vessels will still require Iranian permission. Delta Air Lines has warned customers of impending fare increases due to rising fuel costs linked to the ongoing conflict. The International Energy Agency has described the current oil and gas crisis as unprecedented, surpassing previous crises in 1973, 1979, and 2022. Meanwhile, the job market remains challenging for highly qualified workers in Washington, DC, and Universal Music Group has received a significant takeover offer amid these turbulent economic conditions.",
         "key_themes": [
           "Oil price fluctuations",
-          "US-Iran ceasefire impact",
-          "Delta Air Lines fare increase",
-          "International Energy Agency oil crisis report",
-          "Job market challenges in Washington DC"
+          "Impact of US-Iran relations on markets",
+          "Job market challenges in Washington DC",
+          "Universal Music Group takeover news",
+          "Airline fare increases due to oil prices"
         ],
         "notable_headlines": [
           {
             "headline": "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran",
-            "why_it_matters": "The ceasefire has led to the largest daily drop in oil prices since the pandemic, affecting global markets.",
+            "why_it_matters": "The announcement has led to significant market reactions, with oil prices experiencing their largest drop since the pandemic.",
             "signal": "Opportunity"
           },
           {
             "headline": "Ceasefire changes little for shipping in strait of Hormuz, experts say",
-            "why_it_matters": "Limited shipping increases are expected despite the ceasefire, maintaining uncertainty in oil transport.",
+            "why_it_matters": "Despite the ceasefire, shipping analysts predict limited changes in transit through the strait, impacting global trade.",
             "signal": "Risk"
           },
           {
             "headline": "Delta CEO braces flyers for higher fares amid surge in oil prices tied to Iran war",
-            "why_it_matters": "Rising fuel costs are projected to significantly impact airline fares, affecting consumer travel budgets.",
+            "why_it_matters": "Rising oil prices are expected to lead to increased airline fares, affecting consumers and travel demand.",
             "signal": "Risk"
           },
           {
-            "headline": "Oil and gas crisis from Iran war worse than 1973, ​1979 and 2022 together, says IEA",
-            "why_it_matters": "The IEA's assessment highlights the severity of the current energy crisis, influencing market stability.",
+            "headline": "Oil and gas crisis from Iran war worse than 1973, 1979 and 2022 together, says IEA",
+            "why_it_matters": "The IEA's assessment highlights the severity of the current energy crisis, which could have long-term economic implications.",
             "signal": "Unclear"
           },
           {
             "headline": "DC’s highly qualified workers can’t find jobs: ‘What is happening?’",
-            "why_it_matters": "The high unemployment rate in DC raises concerns about job availability for skilled professionals.",
+            "why_it_matters": "The high unemployment rate among skilled workers in DC raises concerns about the broader job market and economic recovery.",
             "signal": "Risk"
           }
         ],
@@ -320,32 +320,32 @@
           "next_24_72_hours": [
             "Monitor oil price trends following the ceasefire announcement.",
             "Watch for updates on shipping regulations in the strait of Hormuz.",
-            "Keep an eye on Delta Air Lines' fare adjustments."
+            "Keep an eye on airline fare adjustments as fuel prices fluctuate."
           ],
           "next_1_4_weeks": [
-            "Assess the long-term impacts of the Iran ceasefire on global oil markets.",
-            "Evaluate the job market trends in Washington DC for skilled workers.",
-            "Observe the response of other airlines to rising fuel costs."
+            "Assess the long-term impacts of the US-Iran ceasefire on global oil markets.",
+            "Evaluate the job market recovery in Washington DC and its effects on skilled workers.",
+            "Observe developments in the Universal Music Group takeover negotiations."
           ],
           "watch_list": [
-            "Oil price forecasts",
-            "Shipping industry updates",
-            "Airline fare trends",
-            "Job market analysis in DC"
+            "Oil price forecasts and market reactions.",
+            "Updates on the US-Iran conflict and its economic implications.",
+            "Trends in airline industry pricing strategies.",
+            "Job market statistics for highly skilled workers."
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The geopolitical situation remains fluid and could change rapidly, impacting market conditions.",
-          "Analysts' predictions about shipping may evolve as more information becomes available."
+          "Economic forecasts are subject to revision based on new developments in the Middle East."
         ],
         "related_topics": [
           "What are the latest developments in the US-Iran conflict?",
-          "How are oil prices affecting airline fares?",
-          "What is the current job market situation in Washington DC?"
+          "How are oil prices affecting the airline industry?",
+          "What is the job market outlook for skilled workers in DC?"
         ]
       },
-      "tweet_text": "Trump’s ceasefire sends oil prices tumbling, but the fallout for flyers and job seekers could be even...\n\nBusiness Sentiment: Negative (-0.32)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #Ceasefire #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Trump's ceasefire sends oil prices tumbling, but the storm of the Iran war’s impact is just beginning.\n\nBusiness Sentiment: Negative (-0.32)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #Ceasefire #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -356,11 +356,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1359,
+        "score": 0.1985,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.227, dampened ×0.6 → +0.1359). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.331, dampened ×0.6 → +0.1985). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Gemini gets notebooks to help you organize projects",
+          "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
+          "published": "2026-04-08T20:06:12-04:00",
+          "summary": "Google's Gemini is getting a feature called \"notebooks\" to help you organize things about certain topics in a single place while using the AI chatbot, the company announced on Wednesday. You can pull in things like files, past conversations, and custom instructions into notebooks that Gemini can then use as context while you're talking with [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Dyson made a handheld version of its iconic fans",
+          "url": "https://www.theverge.com/tech/907802/dyson-hushjet-mini-cool-handheld-personal-fan-specs-availability",
+          "published": "2026-04-08T20:01:00-04:00",
+          "summary": "Nearly 17 years after Dyson first announced its Air Multiplier fans - one of its first big consumer products after vacuums - the company has miniaturized their design to create a handheld personal cooler called the HushJet Mini Cool. Like Dyson's larger Air Multipliers, humidifiers, air purifiers, and heaters, the HushJet Mini Cool doesn't have [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "OpenAI made economic proposals — here’s what DC thinks of them",
           "url": "https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them",
@@ -416,91 +430,82 @@
           "published": "2026-04-08T11:00:00-04:00",
           "summary": "In Manuel Gonzales' 2013 short story \"The Miniature Wife,\" a woman starts to become a different kind of person after her husband accidentally shrinks her down to the size of a coffee mug. Because of her new stature, the woman is more physically vulnerable, and it's difficult for her to effectively communicate with normal sized [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "The vibes are off at OpenAI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
-          "published": "2026-04-08T09:47:38-04:00",
-          "summary": "OpenAI is in a relatively precarious position. The company is and has been a funding behemoth - just over a week ago, it closed $122 billion in funding at a post-money valuation of $852 billion. It's potentially planning for an IPO later this year. ChatGPT's longtime lead in consumer-facing AI led it to name-brand status [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Tractive’s new dog and cat trackers provide more health insights for your pets",
-          "url": "https://www.theverge.com/tech/907947/tractive-dog-6-xl-cat-mini-pet-trackers-health-monitoring-location",
-          "published": "2026-04-08T09:00:00-04:00",
-          "summary": "After acquiring its competitor Whistle from Mars Petcare nearly a year ago, Tractive is introducing two new pet trackers today. The Cat 6 Mini features a sleeker design than Tractive's current smart cat tracker and monitors additional vital signs. The Dog 6 XL, specifically designed for larger breeds, is now lighter and more durable with [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "OpenAI faces scrutiny over economic proposals, while tech companies like Meta and Microsoft undergo significant changes and product launches.",
-        "summary": "Today's technology news highlights OpenAI's economic proposals and their reception in Washington, the introduction of new products by Meta and Amazon, and ongoing executive changes at Microsoft. The rising prices of SSDs due to an AI RAM shortage and the impact of Apple's MacBook Neo on the market are also notable developments.",
+        "key_takeaway": "Google's Gemini introduces notebooks for project organization, while Meta reenters the AI space with a new model called Muse Spark.",
+        "summary": "Today's technology news highlights Google's Gemini launching a new feature for project organization, Dyson's release of a handheld fan, and Meta's new AI model Muse Spark. Additionally, Microsoft faces executive changes, and SSD prices are rising due to an AI RAM shortage.",
         "key_themes": [
-          "OpenAI economic proposals",
-          "Meta AI model launch",
+          "Google Gemini notebooks feature",
+          "Dyson handheld fan release",
+          "Meta AI model Muse Spark",
           "Microsoft executive changes",
-          "SSD price increases",
-          "Apple MacBook Neo impact"
+          "SSD price increases due to RAM shortage"
         ],
         "notable_headlines": [
           {
+            "headline": "Gemini gets notebooks to help you organize projects",
+            "why_it_matters": "This feature enhances user experience by allowing better organization of information and context during interactions with the AI chatbot.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Dyson made a handheld version of its iconic fans",
+            "why_it_matters": "The introduction of a portable fan expands Dyson's product line and caters to consumer demand for convenience and personal cooling solutions.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "OpenAI made economic proposals — here’s what DC thinks of them",
-            "why_it_matters": "OpenAI's proposals are under scrutiny, reflecting the intersection of technology and politics.",
+            "why_it_matters": "Understanding regulatory perspectives on OpenAI's proposals is crucial for the future of AI governance and innovation.",
             "signal": "Unclear"
           },
           {
-            "headline": "Microsoft’s executive shake-up continues as developer division chief resigns",
-            "why_it_matters": "The resignation of a long-time executive raises questions about Microsoft's future direction and leadership stability.",
+            "headline": "The AI RAM shortage is also driving up SSD prices",
+            "why_it_matters": "The rising costs of SSDs could impact consumers and businesses relying on affordable storage solutions, reflecting broader supply chain issues.",
             "signal": "Risk"
           },
           {
             "headline": "Meta is reentering the AI race with a new model called Muse Spark",
-            "why_it_matters": "Meta's new AI model signifies its renewed commitment to compete in the AI landscape.",
+            "why_it_matters": "Meta's renewed focus on AI could intensify competition in the tech industry and influence future developments in AI applications.",
             "signal": "Opportunity"
           },
           {
-            "headline": "The AI RAM shortage is also driving up SSD prices",
-            "why_it_matters": "The increase in SSD prices due to RAM shortages highlights supply chain vulnerabilities in tech.",
+            "headline": "Microsoft’s executive shake-up continues as developer division chief resigns",
+            "why_it_matters": "Leadership changes at Microsoft may affect its strategic direction and innovation in software development.",
             "signal": "Risk"
-          },
-          {
-            "headline": "The Neo Effect: How Apple’s cheapest Mac is changing the PC game",
-            "why_it_matters": "Apple's MacBook Neo is positioning the company as a competitive value option in the laptop market.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to OpenAI's proposals in Washington.",
-            "Tracking further developments in Microsoft's executive changes.",
-            "Observing consumer response to Meta's new AI model."
+            "Monitor reactions to Google's Gemini notebooks feature launch.",
+            "Watch for consumer feedback on Dyson's handheld fan.",
+            "Follow developments regarding Meta's Muse Spark AI model."
           ],
           "next_1_4_weeks": [
-            "Evaluating the impact of rising SSD prices on consumer electronics.",
-            "Watching for updates on OpenAI's potential IPO plans.",
-            "Assessing the market performance of Apple's MacBook Neo."
+            "Observe the impact of rising SSD prices on the tech market.",
+            "Track Microsoft's response to executive changes and any strategic shifts.",
+            "Evaluate the effectiveness of Meta's AI model in real-world applications."
           ],
           "watch_list": [
-            "OpenAI's funding and IPO developments.",
-            "Meta's AI model performance and integration.",
-            "Microsoft's leadership changes and their implications.",
-            "Trends in SSD pricing and availability."
+            "Google Gemini updates and user adoption rates.",
+            "Dyson product reviews and sales performance.",
+            "Meta's AI model integration across platforms.",
+            "Microsoft's new leadership initiatives."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment around OpenAI's proposals is mixed and may evolve as more information becomes available.",
-          "Market reactions to new product launches can be unpredictable."
+          "The sentiment score indicates mixed feelings about the overall technology news landscape today.",
+          "Future developments in AI and tech may shift rapidly, affecting current analyses."
         ],
         "related_topics": [
-          "What are OpenAI's latest economic proposals?",
-          "How is Meta reentering the AI market?",
-          "What impact is the SSD price increase having on consumers?",
-          "What changes are happening at Microsoft?",
-          "How is Apple's MacBook Neo affecting the laptop market?"
+          "What are the latest features of Google Gemini?",
+          "How is Dyson innovating with personal cooling products?",
+          "What is Meta's new AI model Muse Spark?",
+          "What are the implications of SSD price increases?",
+          "What changes are happening in Microsoft's leadership?"
         ]
       },
-      "tweet_text": "Is your tech future in jeopardy? Discover the latest twists from OpenAI to Meta that could change...\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amazons #Apple8217s #Bills #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Tech just got a major upgrade: from AI notebooks to Dyson's handheld fans, discover the game-changers...\n\nTechnology Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Made #Apple8217s #Called #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -511,71 +516,85 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.025,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.042, dampened ×0.6 → -0.0250). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.3004,
+        "label": "Positive",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.501, dampened ×0.6 → +0.3004). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Scottie Scheffler brings different vibes to Augusta than other star golfers",
+          "url": "https://www.espn.com/golf/story/_/id/48431063/scottie-scheffler-different-vibes-augusta-national-2026-masters",
+          "published": "Thu, 9 Apr 2026 00:14:08 EST",
+          "summary": "Scheffler might not generate the same buzz as players like Tiger and Phil, but he's a different kind of superstar, and maybe that's a good thing.",
+          "source": "ESPN"
+        },
+        {
+          "title": "2026 Masters: Experts' picks and betting tips",
+          "url": "https://www.espn.com/golf/story/_/id/48420091/2026-masters-experts-picks-betting-tips-scottie-scheffler-bryson-dechambeau",
+          "published": "Thu, 9 Apr 2026 00:14:08 EST",
+          "summary": "Who do our golf experts think will win? Where does our betting expert believe there's value? We break it all down.",
+          "source": "ESPN"
+        },
+        {
+          "title": "OKC locks up No. 1 seed, home court throughout",
+          "url": "https://www.espn.com/nba/story/_/id/48435203/okc-locks-no-1-seed-home-court-postseason",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
+          "summary": "The Thunder clinched the NBA's best regular-season record with a 128-110 win over the Clippers on Wednesday night, securing homecourt advantage throughout the postseason in their title defense.",
+          "source": "ESPN"
+        },
+        {
           "title": "Bryson: Using 3D printer-made iron at Masters",
           "url": "https://www.espn.com/golf/story/_/id/48431238/bryson-dechambeau-using-iron-made-3d-printer-masters",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
           "summary": "Bryson DeChambeau confirmed to ESPN that he'll play the Masters with a 5-iron that he fabricated himself with a 3D printer.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Prosecutors seek Tiger's prescription drug records",
-          "url": "https://www.espn.com/golf/story/_/id/48432549/prosecutors-seeking-tiger-woods-prescription-drug-records",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
-          "summary": "Prosecutors want the times Tiger Woods' prescriptions were filled, the number of pills, the dosage amounts and any instructions that accompanied the pills, such as warnings about driving while taking them.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: Kings' late foul was error, not tanking",
-          "url": "https://www.espn.com/nba/story/_/id/48432683/sources-kings-late-foul-was-tactical-error-not-tanking",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
-          "summary": "The NBA is looking into what team sources say was a strategy mistake by Kings coach Doug Christie -- and not tanking tactics -- during Tuesday's loss to the Warriors.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Rai 'wins,' young Fleetwood steals show at Par 3",
-          "url": "https://www.espn.com/golf/story/_/id/48432775/aaron-rai-wins-frankie-fleetwood-steals-show-par-3-contest",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
-          "summary": "Eight-year-old Frankie Fleetwood stole the show at Wednesday's family-friendly Masters Par 3 Contest, which saw Aaron Rai win and four holes-in-one.",
           "source": "ESPN"
         },
         {
           "title": "Cousins: I shouldn't play if not Raiders' best QB",
           "url": "https://www.espn.com/nfl/story/_/id/48432916/kirk-cousins-raiders-need-play-best-qb-even-not-me",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
           "summary": "Raiders quarterback Kirk Cousins is aware that Las Vegas is expected to draft Fernando Mendoza and says he only wants to play if it's determined he's the best option.",
           "source": "ESPN"
         },
         {
-          "title": "Flick furious over bizarre 'clear red' in Barça loss",
-          "url": "https://www.espn.com/soccer/story/_/id/48432893/barcelona-flick-furious-bizarre-missed-red",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
-          "summary": "Hansi Flick raged that Barcelona should have been given a penalty and Marc Pubill sent off after his team crashed to a 2-0 defeat to Atlético Madrid at Spotify Camp Nou in the Champions League on Wednesday.",
+          "title": "Full of thanks, UCLA celebrates title at Pauley",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48435015/ucla-celebrates-basketball-title-fans-pauley-pavilion",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
+          "summary": "Lauren Betts and her UCLA teammates celebrated the Bruins' first NCAA women's basketball championship with their fans at Pauley Pavilion on Wednesday night.",
           "source": "ESPN"
         },
         {
-          "title": "Falcons pivot after RT McGary retires, add Taylor",
-          "url": "https://www.espn.com/nfl/story/_/id/48431526/falcons-starting-rt-kaleb-mcgary-retiring-age-31-agent-says",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
-          "summary": "Falcons right tackle Kaleb McGary is retiring, agent Collin Roberts announced Wednesday.",
+          "title": "Reports: NCAA to discuss 5-year eligibility model",
+          "url": "https://www.espn.com/college-sports/story/_/id/48433858/reports-ncaa-discuss-five-year-eligibility-proposal",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
+          "summary": "An NCAA panel is scheduled to discuss changes to eligibility rules that would incorporate age into the process, sources said Wednesday.",
           "source": "ESPN"
         },
         {
-          "title": "Dodgers speedster Davey Lopes dies at age 80",
-          "url": "https://www.espn.com/mlb/story/_/id/48431732/dodgers-great-davey-lopes-four-all-star-dies-80",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
-          "summary": "Davey Lopes, a speedy four-time All-Star who won the World Series with the Dodgers in 1981, died Wednesday at the age of 80 after a battle with Parkinson's disease.",
+          "title": "Prosecutors seek Tiger's prescription drug records",
+          "url": "https://www.espn.com/golf/story/_/id/48432549/prosecutors-seeking-tiger-woods-prescription-drug-records",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
+          "summary": "Prosecutors want the times Tiger Woods' prescriptions were filled, the number of pills, the dosage amounts and any instructions that accompanied the pills, such as warnings about driving while taking them.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Prized recruit Hiller, No. 2 OT in '27, picks Florida",
+          "url": "https://www.espn.com/college-football/story/_/id/48433829/maxwell-hiller-no-2-ot-class-2027-commits-florida",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
+          "summary": "Maxwell Hiller, the No. 2 offensive tackle and No. 7 overall recruit in the SC Next Junior 300, gave Florida and new head coach Jon Sumrall his verbal pledge Wednesday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Rai 'wins,' young Fleetwood steals show at Par 3",
+          "url": "https://www.espn.com/golf/story/_/id/48432775/aaron-rai-wins-frankie-fleetwood-steals-show-par-3-contest",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
+          "summary": "Eight-year-old Frankie Fleetwood stole the show at Wednesday's family-friendly Masters Par 3 Contest, which saw Aaron Rai win and four holes-in-one.",
           "source": "ESPN"
         },
         {
           "title": "📈 Ranking top men's hoops players in the portal",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48424179/mens-college-basketball-transfer-portal-player-rankings-commitments-2026",
-          "published": "Wed, 8 Apr 2026 18:18:45 EST",
+          "published": "Thu, 9 Apr 2026 00:50:59 EST",
           "summary": "More than 1,000 players have entered the portal less than 24 hours after it opened. Here's the top talent.",
           "source": "ESPN"
         },
@@ -585,91 +604,77 @@
           "published": "Wed, 8 Apr 2026 16:37:54 EST",
           "summary": "From a shocking NL East champion to a 50-homer slugger you probably haven't heard of yet, our experts go bold with their early predictions.",
           "source": "ESPN"
-        },
-        {
-          "title": "The art of taking a lead: Why every step matters in baseball's game of inches",
-          "url": "https://www.espn.com/mlb/story/_/id/48413464/mlb-2026-baserunning-taking-lead-stolen-bases-runs-kiner-falefa-2025-world-series-game-7",
-          "published": "Wed, 8 Apr 2026 16:37:54 EST",
-          "summary": "A bad lead helped keep the Blue Jays from a title. Tim Kurkjian explores the state of a critical skill.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Inside the 'strange phenomenon' the NBA is struggling to contain",
-          "url": "https://www.espn.com/nba/story/_/id/48414627/nba-tanking-adam-silver-league-problem-solutions-epidemic",
-          "published": "Wed, 8 Apr 2026 19:11:21 EST",
-          "summary": "With tanking strategies growing in both audaciousness and frequency of use, can the league get its arms around the often-effective practice?",
-          "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Bryson DeChambeau will use a 3D-printed iron at the Masters, while Tiger Woods faces scrutiny over prescription drug records amid ongoing investigations.",
-        "summary": "Today's sports news highlights include Bryson DeChambeau's innovative use of a 3D-printed iron at the Masters, legal challenges for Tiger Woods regarding his prescription drug records, and a mix of notable performances and retirements across various sports. The NBA is also addressing concerns over tanking strategies, while the MLB season is generating bold predictions and analysis.",
+        "key_takeaway": "The Oklahoma City Thunder secured the No. 1 seed in the NBA playoffs, while Scottie Scheffler and Bryson DeChambeau make headlines at the Masters.",
+        "summary": "Today's sports news highlights include the Oklahoma City Thunder clinching the top seed in the NBA playoffs, Scottie Scheffler's unique presence at the Masters, and Bryson DeChambeau's innovative use of a 3D-printed iron. Additionally, UCLA celebrates its first NCAA women's basketball championship, and discussions are underway regarding a potential five-year eligibility model in college sports.",
         "key_themes": [
-          "3D printing in sports",
-          "Tiger Woods prescription drug case",
-          "NBA tanking strategies",
-          "MLB early season predictions",
-          "Kirk Cousins and Raiders quarterback situation"
+          "NBA playoffs update",
+          "Masters golf tournament news",
+          "NCAA eligibility changes",
+          "UCLA women's basketball championship",
+          "3D printing in sports equipment"
         ],
         "notable_headlines": [
           {
-            "headline": "Bryson: Using 3D printer-made iron at Masters",
-            "why_it_matters": "DeChambeau's use of a 3D-printed club showcases innovation in golf equipment.",
+            "headline": "OKC locks up No. 1 seed, home court throughout",
+            "why_it_matters": "The Thunder's clinching of the top seed ensures they will have home-court advantage throughout the playoffs, crucial for their title defense.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Prosecutors seek Tiger's prescription drug records",
-            "why_it_matters": "The investigation into Woods' prescriptions could have significant legal implications.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Sources: Kings' late foul was error, not tanking",
-            "why_it_matters": "Clarification on the Kings' strategy may impact perceptions of team integrity.",
+            "headline": "Scottie Scheffler brings different vibes to Augusta than other star golfers",
+            "why_it_matters": "Scheffler's unique approach to the Masters may appeal to fans looking for a fresh perspective in golf.",
             "signal": "Unclear"
           },
           {
-            "headline": "Dodgers speedster Davey Lopes dies at age 80",
-            "why_it_matters": "Lopes' passing marks the loss of a significant figure in baseball history.",
-            "signal": "Risk"
+            "headline": "Bryson: Using 3D printer-made iron at Masters",
+            "why_it_matters": "DeChambeau's use of a 3D-printed iron showcases innovation in golf equipment, potentially influencing future designs.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Falcons pivot after RT McGary retires, add Taylor",
-            "why_it_matters": "McGary's retirement necessitates adjustments for the Falcons' offensive line strategy.",
+            "headline": "Full of thanks, UCLA celebrates title at Pauley",
+            "why_it_matters": "UCLA's victory in women's basketball highlights the growing prominence of women's sports and college athletics.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Reports: NCAA to discuss 5-year eligibility model",
+            "why_it_matters": "Changes to eligibility rules could significantly impact college athletes and recruitment strategies.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further developments in Tiger Woods' legal situation are expected.",
-            "More reactions to Bryson DeChambeau's equipment choice at the Masters will emerge.",
-            "The NBA may release findings regarding the Kings' foul controversy."
+            "Follow-up on the Masters tournament results and player performances.",
+            "Monitor reactions to the NCAA's discussions on eligibility changes.",
+            "Watch for updates on the NBA playoffs as teams finalize their rosters."
           ],
           "next_1_4_weeks": [
-            "The impact of tanking strategies on NBA teams will continue to be analyzed.",
-            "MLB season predictions will evolve as teams settle into their rhythms.",
-            "The NFL draft will bring clarity to the Raiders' quarterback situation."
+            "Expect more coverage on the Masters as it progresses and concludes.",
+            "Anticipate developments in the NBA playoffs, including matchups and player performances.",
+            "Watch for recruiting news as college football teams finalize their rosters."
           ],
           "watch_list": [
-            "Monitor updates on Tiger Woods' prescription drug case.",
-            "Watch for reactions to Bryson DeChambeau's performance at the Masters.",
-            "Keep an eye on the NBA's response to tanking practices.",
-            "Follow the MLB for emerging stars from the transfer portal."
+            "Scottie Scheffler's performance at the Masters",
+            "Oklahoma City Thunder's playoff journey",
+            "NCAA eligibility rule changes and their implications",
+            "UCLA's impact on women's college basketball"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating no strong positive or negative trends in today's sports news.",
-          "The implications of ongoing investigations may change as new information becomes available."
+          "The sentiment score is based on a limited number of headlines and may not reflect broader trends in sports news.",
+          "Future outlook is subject to change based on ongoing events and developments."
         ],
         "related_topics": [
-          "What innovations are being used in golf equipment today?",
-          "Latest updates on Tiger Woods' legal issues",
-          "How is the NBA addressing tanking strategies?",
-          "What are the early predictions for the MLB season?",
-          "What is the current status of the NFL draft and team strategies?"
+          "What are the latest updates from the NBA playoffs?",
+          "How is Scottie Scheffler performing at the Masters?",
+          "What changes are being proposed for NCAA eligibility rules?",
+          "UCLA women's basketball championship celebrations details",
+          "Innovations in golf equipment and technology news"
         ]
       },
-      "tweet_text": "Bryson's 3D-printed iron sparks intrigue at the Masters while Tiger's past prescription records could steal the...\n\nSports Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Bara #Best #Bizarre #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Scottie Scheffler shakes up Augusta vibes—find out how the 2026 Masters is shaping up with expert picks and...\n\nSports Sentiment: Positive (+0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Masters #2026 #5year #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -771,75 +776,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include a new lunar crater, insights into proton transport, and breakthroughs in male contraception and brain mapping techniques.",
-        "summary": "Today's science headlines highlight significant discoveries, including a newly identified lunar crater, the mechanics behind proton transport in biology and technology, and a potential breakthrough in male contraception. Additionally, researchers have made strides in understanding brain wiring, the origins of octopuses, and the implications of vitamin D on long-term brain health. Other notable findings involve ancient fossils that challenge evolutionary timelines and a mysterious exoplanet with an unexplained atmosphere.",
+        "key_takeaway": "Recent scientific discoveries include a new lunar crater, insights into proton movement, and breakthroughs in male contraception and brain mapping.",
+        "summary": "Today's science headlines highlight a variety of significant discoveries, including a newly identified lunar crater, advancements in understanding proton transport, and a potential breakthrough in male contraception. Additionally, researchers have made strides in brain mapping, uncovered the origins of a famous fossil, and explored the conditions necessary for life on Earth. These findings collectively enhance our understanding of both biological and cosmic phenomena.",
         "key_themes": [
           "lunar discoveries",
-          "proton transport mechanisms",
-          "male contraception breakthroughs",
-          "brain mapping advancements",
-          "evolutionary biology insights"
+          "proton transport",
+          "male contraception",
+          "brain mapping techniques",
+          "evolutionary biology",
+          "conditions for life on Earth"
         ],
         "notable_headlines": [
           {
             "headline": "Something just hit the Moon and left a bright new scar",
-            "why_it_matters": "This discovery shows that the Moon is still geologically active and can provide insights into its history and impact events.",
+            "why_it_matters": "The identification of a new lunar crater demonstrates that the Moon is still geologically active and changing over time.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Scientists just uncovered the secret behind nature’s 'proton highway'",
-            "why_it_matters": "Understanding proton transport could lead to advancements in energy materials and biological processes.",
+            "headline": "Scientists just uncovered the secret behind nature’s “proton highway”",
+            "why_it_matters": "Understanding proton movement could lead to advancements in energy materials and biological processes.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists say we’ve been wrong about what makes sprinters fast",
-            "why_it_matters": "This research challenges existing beliefs about athletic performance and could influence training methods for sprinters.",
+            "why_it_matters": "This research challenges existing notions of athletic performance, emphasizing individual variation in sprinting techniques.",
             "signal": "Unclear"
           },
           {
-            "headline": "Did a black hole just explode? This 'impossible' particle may be the evidence",
-            "why_it_matters": "This theory could lead to new discoveries in particle physics and our understanding of dark matter.",
+            "headline": "Did a black hole just explode? This “impossible” particle may be the evidence",
+            "why_it_matters": "The detection of a unique neutrino could provide insights into primordial black holes and dark matter.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Scientists map the brain’s hidden wiring using RNA barcodes in major breakthrough",
-            "why_it_matters": "This technique could revolutionize brain research and improve treatments for neurological diseases.",
+            "headline": "Scientists discover reversible male birth control that stops sperm production",
+            "why_it_matters": "This breakthrough could revolutionize male contraception, offering a safe and effective method for fertility control.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the lunar crater's implications for lunar geology is expected.",
-            "More studies on the newly discovered proton transport mechanisms may emerge.",
-            "Anticipation builds for additional findings related to the black hole explosion theory."
+            "Further analysis of the newly discovered lunar crater may provide insights into its formation.",
+            "Expect more details on the implications of the proton transport discovery for energy materials.",
+            "Research on the implications of the male contraception breakthrough may be published."
           ],
           "next_1_4_weeks": [
-            "Research on male contraception may progress towards human trials.",
-            "Further exploration of the implications of the brain mapping technique is likely.",
-            "Expect more insights into the evolutionary history of octopuses and related species."
+            "Continued exploration of the implications of the black hole neutrino discovery may emerge.",
+            "Further studies on brain mapping techniques could lead to new neurological insights.",
+            "Investigations into the evolutionary implications of the nautilus fossil discovery may be published."
           ],
           "watch_list": [
-            "Developments in energy materials inspired by proton transport research.",
-            "Updates on the implications of vitamin D on brain health over time.",
-            "New findings related to the 'forbidden' exoplanet and its atmosphere.",
-            "confidence",
-            "High"
+            "Watch for updates on the lunar impact studies and their implications for lunar geology.",
+            "Monitor developments in male contraception research and its potential applications.",
+            "Keep an eye on new findings related to the origins of life on Earth.",
+            "Follow research on the implications of the black hole particle for dark matter studies."
           ],
-          "confidence": "High"
+          "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates that while there are exciting discoveries, some findings may be controversial or require further validation.",
-          "The implications of some discoveries, such as the black hole theory, are still speculative."
+          "The mixed sentiment indicates that while there are exciting discoveries, some findings may require further validation or could lead to unexpected challenges.",
+          "The implications of some discoveries, such as the sprinting study, remain uncertain and may evolve with additional research."
         ],
         "related_topics": [
           "What are the latest discoveries in lunar geology?",
-          "How does proton transport affect energy materials?",
+          "How do protons move in biological systems?",
           "What advancements have been made in male contraception?",
           "What new techniques are being used in brain mapping?",
-          "What does the latest research say about the origins of octopuses?"
+          "What does the latest research say about the origins of life on Earth?"
         ]
       },
-      "tweet_text": "A mysterious impact on the Moon reveals a bright new scar—what secrets does it hold?\n\nScience Sentiment: Mixed (+0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Octopus #Your #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A mysterious impact has left a bright new scar on the Moon—what secrets does it hold?\n\nScience Sentiment: Mixed (+0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Octopus #Your #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
