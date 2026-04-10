@@ -1,11 +1,13 @@
 {
   "date": "2026-04-09",
-  "generated_at_utc": "2026-04-09T23:49:21Z",
+  "generated_at_utc": "2026-04-10T05:19:51Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "moon",
-    "ceasefire"
+    "strait",
+    "hormuz",
+    "defense"
   ],
   "categories": {
     "world": {
@@ -17,11 +19,18 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1403,
+        "score": -0.1195,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.234, dampened ×0.6 → -0.1403). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.199, dampened ×0.6 → -0.1195). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
+          "url": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Apr 2026 02:10:44 GMT",
+          "summary": "The US president accused Iran of \"doing a very poor job\" with the waterway as Israel and Lebanon to begin peace talks.",
+          "source": "BBC News"
+        },
         {
           "title": "Ceasefire or no ceasefire, the Middle East's reshuffling is not yet done",
           "url": "https://www.bbc.com/news/articles/cp3l4yk5rlgo?at_medium=RSS&at_campaign=rss",
@@ -41,6 +50,13 @@
           "url": "https://www.bbc.com/news/articles/cre13qn9z7do?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 09 Apr 2026 17:09:57 GMT",
           "summary": "Defence Secretary John Healey says there is \"no evidence\" of any damage to UK infrastructure in the Atlantic.",
+          "source": "BBC News"
+        },
+        {
+          "title": "White House staff told not to place bets on prediction markets",
+          "url": "https://www.bbc.com/news/articles/cgld65x396go?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Apr 2026 02:32:27 GMT",
+          "summary": "The gambling platforms have grown in popularity, with some users making wagers on conflicts.",
           "source": "BBC News"
         },
         {
@@ -65,17 +81,24 @@
           "source": "BBC News"
         },
         {
-          "title": "Israel to hold direct talks with Lebanon but no ceasefire, Netanyahu says",
-          "url": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Apr 2026 20:47:02 GMT",
-          "summary": "Lebanese officials had called for a ceasefire before talks begin.",
-          "source": "BBC News"
-        },
-        {
           "title": "Artemis crew returning to Earth with 'all the good stuff' from Moon discoveries",
           "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 09 Apr 2026 05:57:18 GMT",
           "summary": "The four astronauts said they were returning to Earth with \"so many more pictures, so many more stories\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Hip-hop pioneer, Afrika Bambaataa,  dies aged 68",
+          "url": "https://www.bbc.com/news/articles/c2evppm30p7o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Apr 2026 00:50:21 GMT",
+          "summary": "The Bronx born rapper's global hit Planet Rock is credited with shaping hip-hop in the 1980s.",
+          "source": "BBC News"
+        },
+        {
+          "title": "India proposes new rules to regulate news and political posts on social media",
+          "url": "https://www.bbc.com/news/articles/ce9mx2j3xlxo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Apr 2026 00:23:18 GMT",
+          "summary": "The changes will give government more power over news-related posts shared by podcasters and influencers.",
           "source": "BBC News"
         },
         {
@@ -84,94 +107,78 @@
           "published": "Thu, 09 Apr 2026 01:59:34 GMT",
           "summary": "The US president says Nato \"wasn't there when we needed them\" during the Iran war.",
           "source": "BBC News"
-        },
-        {
-          "title": "French far-right leader romantically linked to Italian princess",
-          "url": "https://www.bbc.com/news/articles/clye1288l8no?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Apr 2026 15:05:15 GMT",
-          "summary": "Presidential hopeful Jordan Bardella was pictured on a Corsican beach with Princess Maria Carolina of Bourbon-Two Sicilies.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Amazon to end support for older Kindles, prompting user outcry",
-          "url": "https://www.bbc.com/news/articles/c98k91yy4z4o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Apr 2026 13:12:45 GMT",
-          "summary": "The move means owners of Kindles released before 2013 will be unable to download new e-books.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Spreading Islamist insurgency dominates Benin's presidential campaign",
-          "url": "https://www.bbc.com/news/articles/c75k1631e75o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Apr 2026 23:02:13 GMT",
-          "summary": "Cross-border raids from militant Islamists are increasingly threatening the West African state's stability.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The Middle East remains in turmoil with ongoing conflicts, while geopolitical tensions involving Russia and the US continue to shape global dynamics.",
-        "summary": "Today's news highlights ongoing conflicts in the Middle East, including a truce agreement between Russia and Ukraine for Orthodox Easter, and the complexities surrounding ceasefire negotiations. Additionally, geopolitical tensions are evident with the UK accusing Russia of submarine operations, and Melania Trump denying connections to Jeffrey Epstein. The situation in Benin is also concerning, as Islamist insurgency influences the presidential campaign.",
+        "key_takeaway": "Tensions in the Middle East continue as ceasefire discussions unfold, while global political dynamics shift with new regulations and international incidents.",
+        "summary": "Today's headlines reflect ongoing geopolitical tensions, particularly in the Middle East, with ceasefire discussions and accusations between nations. Additionally, domestic political issues in the US and India are highlighted, alongside cultural news.",
         "key_themes": [
-          "Middle East conflict updates",
-          "Russia Ukraine truce news",
-          "US refugee policy changes"
+          "Middle East ceasefire discussions",
+          "US-Iran relations",
+          "India social media regulations",
+          "NATO criticisms",
+          "impact of journalist killings"
         ],
         "notable_headlines": [
           {
+            "headline": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
+            "why_it_matters": "This statement underscores ongoing tensions between the US and Iran, particularly regarding strategic waterways.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Ceasefire or no ceasefire, the Middle East's reshuffling is not yet done",
-            "why_it_matters": "The ongoing conflict dynamics in the Middle East continue to evolve, impacting regional stability.",
+            "why_it_matters": "The lack of common ground in peace talks indicates potential for continued conflict in the region.",
             "signal": "Unclear"
           },
           {
             "headline": "UK says Russia ran submarine operation over cables and pipelines",
-            "why_it_matters": "Accusations of Russian military activities raise concerns over security in the Atlantic region.",
+            "why_it_matters": "This highlights concerns over national security and the potential for international conflict in the Atlantic.",
             "signal": "Risk"
           },
           {
             "headline": "Russia and Ukraine agree to truce for Orthodox Easter",
-            "why_it_matters": "A temporary truce may provide a brief respite in ongoing hostilities, but lasting peace remains uncertain.",
+            "why_it_matters": "This temporary truce could provide a brief respite in ongoing hostilities, but its sustainability is uncertain.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "India proposes new rules to regulate news and political posts on social media",
+            "why_it_matters": "These proposed regulations could significantly impact freedom of expression and the dissemination of information in India.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
-            "why_it_matters": "The incident highlights the ongoing violence in Gaza and raises questions about media safety in conflict zones.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Spreading Islamist insurgency dominates Benin's presidential campaign",
-            "why_it_matters": "The rise of militant threats in Benin poses significant risks to national stability and governance.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the implementation of the Russia-Ukraine truce during Orthodox Easter.",
-            "Observing developments in Middle East ceasefire negotiations.",
-            "Tracking responses to the UK’s accusations against Russia."
+            "Monitoring developments in Middle East peace talks and ceasefire agreements.",
+            "Observing reactions to India's proposed social media regulations.",
+            "Tracking the implications of the Russia-Ukraine truce."
           ],
           "next_1_4_weeks": [
-            "Potential shifts in Middle East alliances as ceasefire talks progress or stall.",
-            "Impact of Islamist insurgency on Benin's political landscape as elections approach.",
-            "Further developments in US refugee policies under the current administration."
+            "Evaluating the effectiveness of the ceasefire in the Middle East and its impact on regional stability.",
+            "Assessing the fallout from Trump's comments on NATO and Iran.",
+            "Watching for further developments in India's social media policy."
           ],
           "watch_list": [
-            "Middle East ceasefire negotiations",
-            "Russia's military activities in international waters",
-            "Benin's presidential election outcomes and security situation.",
-            "US refugee admission trends and policies."
+            "Middle East peace negotiations",
+            "US-Russia relations",
+            "India's social media landscape",
+            "NATO's strategic positioning"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and subject to rapid changes.",
-          "Geopolitical tensions can escalate unexpectedly, impacting global stability."
+          "The situation in the Middle East remains fluid and subject to rapid changes.",
+          "Political statements may not reflect actual on-ground realities.",
+          "Regulatory changes in India may face legal challenges."
         ],
         "related_topics": [
-          "What is the latest on the Russia-Ukraine conflict?",
-          "Updates on Middle East ceasefire negotiations",
-          "How is the US handling refugee admissions?"
+          "What are the latest developments in Middle East peace talks?",
+          "How is the US handling relations with Iran?",
+          "What are India's new social media regulations?",
+          "What is the current status of the Russia-Ukraine conflict?",
+          "How is NATO responding to recent criticisms?"
         ]
       },
-      "tweet_text": "Amid shifting global tides, the echoes of conflict and survival resonate louder than ever.\n\nWorld Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceasefire #Russia #4499 #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From Trump to the Middle East, the world's stage is set for a dramatic showdown—who will emerge as the ultimate game...\n\nWorld Sentiment: Mixed (-0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceasefire #Russia #Trump #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -273,72 +280,70 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The ongoing Iran war is causing significant economic disruptions, with rising oil prices and warnings of long-term global economic scars.",
-        "summary": "Today's headlines highlight the escalating impact of the Iran war on global oil prices, economic forecasts, and the airline industry, alongside concerns about job markets and corporate takeovers.",
+        "key_takeaway": "The ongoing Iran conflict is significantly impacting global oil prices and economic forecasts, with potential long-term effects on the economy.",
+        "summary": "Today's business news highlights the rising crude oil prices due to uncertainties surrounding the US-Iran ceasefire, with the IMF warning of lasting economic scars from the conflict. Delta Air Lines anticipates higher fares as fuel costs surge, while the International Energy Agency describes the current oil crisis as unprecedented. Additionally, skilled workers in Washington DC face high unemployment, prompting some to seek AI training as a means to adapt to the challenging job market.",
         "key_themes": [
           "impact of Iran war on global economy",
-          "oil price fluctuations",
-          "job market challenges in DC",
-          "corporate takeover news",
-          "airline fare increases due to oil prices"
+          "oil prices and market volatility",
+          "job market challenges in Washington DC"
         ],
         "notable_headlines": [
           {
             "headline": "Strait of Hormuz not open, Abu Dhabi’s oil chief says as crude prices rise",
-            "why_it_matters": "The uncertainty surrounding the US-Iran ceasefire is driving Brent crude prices towards $100 a barrel, indicating potential economic instability.",
+            "why_it_matters": "The uncertainty over the US-Iran ceasefire is driving Brent crude prices towards $100 a barrel, affecting global markets.",
             "signal": "Risk"
           },
           {
             "headline": "Head of IMF says Iran war will permanently scar global economy even if peace is reached",
-            "why_it_matters": "The IMF warns that the conflict will have lasting negative effects on global growth and living standards, regardless of future peace efforts.",
+            "why_it_matters": "The IMF warns of a downgrade in growth and living standards due to the ongoing conflict, highlighting long-term economic implications.",
             "signal": "Risk"
           },
           {
             "headline": "Delta CEO braces flyers for higher fares amid surge in oil prices tied to Iran war",
-            "why_it_matters": "Delta Air Lines anticipates a significant increase in fuel costs due to rising oil prices, which will likely lead to higher ticket prices for consumers.",
+            "why_it_matters": "Delta projects a significant increase in fuel costs, which will likely lead to higher ticket prices for consumers.",
             "signal": "Risk"
           },
           {
             "headline": "Oil and gas crisis from Iran war worse than 1973, ​1979 and 2022 together, says IEA",
-            "why_it_matters": "The International Energy Agency's comparison underscores the severity of the current energy crisis, affecting global markets and economies.",
+            "why_it_matters": "The IEA's comparison underscores the severity of the current oil crisis, which could have widespread economic repercussions.",
             "signal": "Risk"
           },
           {
             "headline": "DC’s highly qualified workers can’t find jobs: ‘What is happening?’",
-            "why_it_matters": "The high unemployment rate in Washington DC raises concerns about job market dynamics, especially for skilled professionals.",
+            "why_it_matters": "High unemployment rates in Washington DC raise concerns about the job market for skilled professionals, indicating economic distress.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring oil price trends as the Iran conflict evolves",
-            "Observing potential shifts in airline pricing strategies",
-            "Tracking updates on the US-Iran ceasefire negotiations"
+            "Monitor oil price fluctuations as geopolitical tensions evolve",
+            "Watch for updates on the US-Iran ceasefire negotiations",
+            "Observe Delta Air Lines' pricing strategies in response to fuel costs"
           ],
           "next_1_4_weeks": [
-            "Evaluating the long-term economic impacts of the Iran war",
-            "Watching for changes in global energy policies",
-            "Assessing the job market recovery in DC and nationwide"
+            "Assess the impact of rising oil prices on consumer spending and inflation",
+            "Evaluate the long-term economic forecasts from the IMF and other financial institutions",
+            "Track developments in the job market, particularly for skilled workers"
           ],
           "watch_list": [
-            "Oil price movements",
-            "International Monetary Fund economic forecasts",
-            "Airline industry responses to fuel cost increases",
-            "Job market trends for skilled workers"
+            "Global oil price trends",
+            "Economic forecasts related to the Iran conflict",
+            "Job market conditions in major US cities",
+            "Airline industry responses to fuel cost changes"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and may change rapidly, affecting economic forecasts.",
-          "Economic predictions are subject to revisions based on new developments."
+          "The situation in the Middle East remains fluid and could change rapidly, impacting economic forecasts.",
+          "Market reactions to geopolitical events can be unpredictable and may not follow historical patterns."
         ],
         "related_topics": [
-          "What are the latest oil price trends due to the Iran war?",
-          "How is the Iran conflict affecting global economies?",
-          "What are the implications of rising airline fares?"
+          "What are the implications of the Iran war on global oil prices?",
+          "How is the IMF assessing the economic impact of the Iran conflict?",
+          "What challenges are skilled workers facing in the current job market?"
         ]
       },
-      "tweet_text": "As crude prices soar and global stability hangs by a thread, the Iran war's impact on the economy could...\n\nBusiness Sentiment: Negative (-0.38)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #Hormuz #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Crude prices soar as the Iran war reshapes the global economy—are we heading for a crisis worse than the...\n\nBusiness Sentiment: Negative (-0.38)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #Hormuz #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -427,76 +432,79 @@
       ],
       "ai_report": {
         "key_takeaway": "OpenAI introduces a new $100 per month Pro subscription for ChatGPT, while Florida investigates the company over potential national security risks.",
-        "summary": "Today's technology news highlights OpenAI's launch of a new premium subscription for ChatGPT, Florida's investigation into the company, and various updates on smartwatches and social media platforms. The Electronic Frontier Foundation has decided to leave X due to declining engagement, while John Deere settles a lawsuit with farmers over repair access. Additionally, Instagram now allows users to edit comments, and Netflix expands its gaming offerings with new Jackbox titles.",
+        "summary": "Today's technology news highlights OpenAI's launch of a new ChatGPT Pro subscription, Florida's investigation into OpenAI, and various updates on smartwatches and social media platforms.",
         "key_themes": [
           "OpenAI subscription news",
-          "Florida investigation into OpenAI",
-          "smartwatch deals and updates",
-          "Electronic Frontier Foundation leaves X",
+          "Florida investigation into AI",
+          "latest smartwatch deals",
           "Instagram comment editing feature",
-          "Netflix gaming expansion"
+          "Netflix gaming updates",
+          "Framework Linux event teaser"
         ],
         "notable_headlines": [
           {
             "headline": "ChatGPT has a new $100 per month Pro subscription",
-            "why_it_matters": "This new subscription tier offers enhanced features for users, indicating OpenAI's strategy to monetize its AI tools more effectively.",
+            "why_it_matters": "The new subscription tier offers enhanced capabilities for users, indicating OpenAI's focus on premium services.",
             "signal": "Opportunity"
           },
           {
             "headline": "Florida launches investigation into OpenAI",
-            "why_it_matters": "The investigation raises concerns about national security and the potential misuse of AI technology, which could impact OpenAI's operations.",
+            "why_it_matters": "Concerns over national security risks associated with AI technology could impact OpenAI's operations and reputation.",
             "signal": "Risk"
           },
           {
             "headline": "The EFF is quitting X",
-            "why_it_matters": "The departure of a prominent digital rights organization from X highlights ongoing issues with platform engagement and user experience.",
+            "why_it_matters": "The departure of a prominent digital privacy organization from X highlights ongoing issues with the platform's engagement and user experience.",
             "signal": "Risk"
           },
           {
             "headline": "John Deere will pay farmers $99 million over right-to-repair lawsuit",
-            "why_it_matters": "This settlement could set a precedent for future right-to-repair legislation and farmer rights in the agricultural sector.",
+            "why_it_matters": "This settlement could set a precedent for other companies regarding consumer rights and repair accessibility.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Samsung’s Galaxy Watch 8 is easier to recommend now it starts at $260",
+            "why_it_matters": "Price reductions on popular devices may influence consumer purchasing decisions in the smartwatch market.",
             "signal": "Opportunity"
           },
           {
             "headline": "Instagram now lets you edit your own comments",
-            "why_it_matters": "This feature enhances user experience on the platform, addressing a common user complaint and potentially increasing engagement.",
+            "why_it_matters": "This feature addresses user feedback and enhances the overall user experience on the platform.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to OpenAI's new subscription model and its impact on user engagement.",
-            "Watch for updates on the Florida investigation into OpenAI and its implications for the company.",
-            "Keep an eye on social media trends following the EFF's departure from X."
+            "Monitor reactions to OpenAI's new subscription model and its implications for users.",
+            "Watch for updates on the Florida investigation into OpenAI.",
+            "Observe consumer responses to the latest smartwatch deals."
           ],
           "next_1_4_weeks": [
-            "Expect further developments in the right-to-repair movement, particularly in agriculture.",
-            "Look for new features and updates from Instagram and other social media platforms.",
-            "Anticipate responses from OpenAI regarding the Florida investigation."
+            "Anticipate further developments in the right-to-repair movement following John Deere's settlement.",
+            "Expect announcements from Framework regarding their Linux event on April 21st.",
+            "Keep an eye on social media trends following the EFF's departure from X."
           ],
           "watch_list": [
-            "OpenAI's subscription model performance",
-            "Florida's investigation outcomes",
-            "Trends in smartwatch sales and promotions",
-            "Impact of EFF's exit from X on digital rights advocacy",
-            "New features from Instagram and other social media platforms"
+            "OpenAI's subscription service performance and user adoption rates.",
+            "Florida's investigation outcomes and potential regulatory impacts.",
+            "Upcoming smartwatch releases and pricing strategies from competitors.",
+            "Framework's Linux event announcements and product reveals."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The investigation into OpenAI is still in its early stages, and outcomes are uncertain.",
-          "Market reactions to new subscription models can be unpredictable.",
-          "The impact of social media changes may take time to fully assess."
+          "The mixed sentiment score indicates a balance of positive and negative news in the technology sector today. Some developments may evolve rapidly, particularly regarding investigations and legal matters.",
+          "Market reactions to subscription services and pricing changes can be unpredictable."
         ],
         "related_topics": [
           "What are the latest updates on OpenAI's ChatGPT subscription?",
-          "How is Florida investigating OpenAI for national security?",
+          "How is Florida investigating OpenAI's technology?",
           "What are the best smartwatch deals available now?",
-          "Why did the EFF leave X (Twitter)?",
-          "What new features has Instagram introduced recently?"
+          "What new features has Instagram introduced recently?",
+          "What games are available on Netflix for subscribers?"
         ]
       },
-      "tweet_text": "Big tech shake-ups today: from ChatGPT’s pricey Pro plan to John Deere’s mega payout—don’t miss the latest twists!\n\nTechnology Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Watch #Apple #Around #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Big tech shakeups today: from ChatGPT's pricey new plan to farmers winning big against John Deere!\n\nTechnology Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Watch #Apple #Around #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -507,79 +515,86 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.1684,
+        "score": 0.157,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.281, dampened ×0.6 → +0.1684). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.262, dampened ×0.6 → +0.1570). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Pressure eased, Rory co-leads in Masters defense",
-          "url": "https://www.espn.com/golf/story/_/id/48441676/rory-mcilroy-fires-67-lowest-masters-round-1-11",
-          "published": "Thu, 9 Apr 2026 19:29:58 EST",
-          "summary": "Rory McIlroy did not, by his standards, play his best golf in the opening round yet still managed a 5-under 67, good for a share of the early lead with Sam Burns and his lowest opening round at the Masters since 2011.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: DOJ opens probe of NFL over TV deals",
-          "url": "https://www.espn.com/nfl/story/_/id/48440303/sources-doj-opens-antitrust-investigation-nfl-tv-deals",
-          "published": "Thu, 9 Apr 2026 19:29:57 EST",
-          "summary": "The Justice Department has begun an investigation into whether the NFL has violated anticompetitive practices with their television contracts that require consumers to pay subscription costs to watch some games, sources confirmed to ABC News.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sixers' Embiid undergoes surgery for appendicitis",
-          "url": "https://www.espn.com/nba/story/_/id/48440701/76ers-joel-embiid-undergoes-surgery-appendicitis",
-          "published": "Thu, 9 Apr 2026 19:29:58 EST",
-          "summary": "Philadelphia star center Joel Embiid has been diagnosed with appendicitis and is undergoing surgery Thursday in Houston. It's unclear when he'll be able to return.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: Aces agree to $1.19M deal with Young",
-          "url": "https://www.espn.com/wnba/story/_/id/48442449/aces-agree-119-million-deal-jackie-young",
-          "published": "Thu, 9 Apr 2026 19:29:58 EST",
-          "summary": "The Aces are finalizing an agreement for four-time All-Star guard Jackie Young to return to Las Vegas, sources told ESPN on Thursday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Michigan lands coveted Vols transfer Estrella",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48441085/michigan-lands-coveted-tennessee-transfer-jp-estrella",
-          "published": "Thu, 9 Apr 2026 19:29:57 EST",
-          "summary": "Tennessee's J.P. Estrella, a 6-foot-11 redshirt sophomore transfer, told ESPN he committed to Michigan, giving the Wolverines their first portal player since winning the national title Monday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Hidalgo returning to Notre Dame for senior year",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48442027/hannah-hidalgo-returning-notre-dame-senior-season",
-          "published": "Thu, 9 Apr 2026 19:29:58 EST",
-          "summary": "Notre Dame guard Hannah Hidalgo, who was the Naismith and WBCA Defensive Player of the Year this season in women's basketball, will return to the Fighting Irish for her senior season.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Minnesota Viking: Wild ink D with fitting name",
-          "url": "https://www.espn.com/nhl/story/_/id/48439815/wild-sign-college-free-agent-viking-gustafsson-nyberg",
-          "published": "Thu, 9 Apr 2026 19:29:58 EST",
-          "summary": "The Wild signed a defenseman named Viking Gustafsson Nyberg, a former UConn standout who signed a two-year, entry-level contract that begins with the current season.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Big Ten pockets $69.4M in NCAA tourney revenue",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48439547/big-ten-earns-694m-revenue-ncaa-basketball-tournaments",
-          "published": "Thu, 9 Apr 2026 19:29:57 EST",
-          "summary": "The Big Ten amassed $69.4 million from NCAA distributions that will be paid for appearances and performances in the 2026 men's and women's basketball tournaments.",
-          "source": "ESPN"
-        },
-        {
-          "title": "🏀 WNBA mock draft: New projected No. 1",
-          "url": "https://www.espn.com/wnba/story/_/id/48424940/wnba-mock-draft-2026-dallas-wings-no-1-pick-olivia-miles-awa-fam-azzi-fudd-awa-fam-lauren-betts",
-          "published": "Thu, 9 Apr 2026 19:29:58 EST",
-          "summary": "Lauren Betts and three teammates on UCLA's NCAA championship team are projected first-round picks.",
+          "title": "Masters 2026: Rory's defense, most disappointing first rounds and looking ahead to the rest of the tournament",
+          "url": "https://www.espn.com/golf/story/_/id/48441019/rory-mcilroy-defense-disappointing-first-rounds-looking-ahead-2026-masters",
+          "published": "Fri, 10 Apr 2026 01:09:54 EST",
+          "summary": "How will a loaded leaderboard take shape? Will the course continue to get more difficult? We look at Round 1 and what could come next at Augusta National.",
           "source": "ESPN"
         },
         {
           "title": "Sights and sounds from the first round of the Masters",
           "url": "https://www.espn.com/golf/story/_/id/48432358/masters-2026-sights-sounds-first-round",
-          "published": "Thu, 9 Apr 2026 19:32:58 EST",
+          "published": "Fri, 10 Apr 2026 00:56:32 EST",
           "summary": "The first golf major of the year is underway as the 90th edition of the Masters Tournament tees off.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Pressure eased, Rory co-leads in Masters defense",
+          "url": "https://www.espn.com/golf/story/_/id/48441676/rory-mcilroy-fires-67-lowest-masters-round-1-11",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "Rory McIlroy did not, by his standards, play his best golf in the opening round yet still managed a 5-under 67, good for a share of the early lead with Sam Burns and his lowest opening round at the Masters since 2011.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Tatum clears hurdle, happy to exit MSG on '2 feet'",
+          "url": "https://www.espn.com/nba/story/_/id/48444324/celtics-jayson-tatum-checks-another-box-return-msg",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "Jayson Tatum had 24 points, 13 rebounds and eight assists in 40 minutes Thursday night but more importantly, walked \"off the floor on my own two feet.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Aces agree to $1.19M deal with Young",
+          "url": "https://www.espn.com/wnba/story/_/id/48442449/aces-agree-119-million-deal-jackie-young",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "The Aces are finalizing an agreement for four-time All-Star guard Jackie Young to return to Las Vegas, sources told ESPN on Thursday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Final Four MOP Cadeau to return to Wolverines",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48443335/star-pg-elliot-cadeau-return-senior-season-michigan",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "Fresh off being named the Most Outstanding Player at the Final Four, star point guard Elliot Cadeau told ESPN's Pete Thamel on Thursday that he will return for his senior season at Michigan.",
+          "source": "ESPN"
+        },
+        {
+          "title": "FIFA adds new, more expensive, WC ticket tiers",
+          "url": "https://www.espn.com/soccer/story/_/id/48443157/fifa-adds-new-even-more-expensive-world-cup-ticket-categories",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "FIFA added new, even more expensive tiers of tickets for this year's World Cup, asking up to $4,105 for a front category 1 seat at the U.S. opener against Paraguay in Inglewood, California, on June 12.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Source: Cincinnati looking into move for Neymar",
+          "url": "https://www.espn.com/soccer/story/_/id/48442034/cincinnati-exploring-move-bring-neymar-mls",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "Neymar has emerged as the latest global soccer icon to draw interest from MLS, as FC Cincinnati has begun exploring options to bring the Santos star to the United States, a source told ESPN's Nathalia Ferrão.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sixers' Embiid undergoes surgery for appendicitis",
+          "url": "https://www.espn.com/nba/story/_/id/48440701/76ers-joel-embiid-undergoes-surgery-appendicitis",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "Philadelphia 76ers star center Joel Embiid underwent emergency surgery in Houston on Thursday after being diagnosed with appendicitis a few hours before the team fell to the Rockets 113-102 in a pivotal late regular-season clash.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Hidalgo returning to Notre Dame for senior year",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48442027/hannah-hidalgo-returning-notre-dame-senior-season",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "Notre Dame guard Hannah Hidalgo, who was the Naismith and WBCA Defensive Player of the Year this season in women's basketball, will return to the Fighting Irish for her senior season.",
+          "source": "ESPN"
+        },
+        {
+          "title": "🏀 WNBA mock draft: New projected No. 1",
+          "url": "https://www.espn.com/wnba/story/_/id/48424940/wnba-mock-draft-2026-dallas-wings-no-1-pick-olivia-miles-awa-fam-azzi-fudd-awa-fam-lauren-betts",
+          "published": "Fri, 10 Apr 2026 01:00:41 EST",
+          "summary": "Lauren Betts and three teammates on UCLA's NCAA championship team are projected first-round picks.",
           "source": "ESPN"
         },
         {
@@ -588,85 +603,76 @@
           "published": "Thu, 9 Apr 2026 19:05:43 EST",
           "summary": "Teams with championship hopes are falling down our list while a number of surprising starts have boosted the status of other unexpected contenders in Week 2.",
           "source": "ESPN"
-        },
-        {
-          "title": "2026 NBA draft top 100: Where top prospects land on the big board after March",
-          "url": "https://www.espn.com/nba/story/_/id/46886245/2026-nba-draft-big-board-rankings-top-100-prospects-players",
-          "published": "Thu, 9 Apr 2026 19:05:57 EST",
-          "summary": "Here is the updated top 100 big board for the 2026 class after an exciting college season.",
-          "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Rory McIlroy co-leads the Masters while the DOJ investigates the NFL's television contracts, and Joel Embiid undergoes surgery for appendicitis.",
-        "summary": "Today's sports headlines highlight Rory McIlroy's strong start at the Masters, the DOJ's investigation into NFL TV deals, Joel Embiid's surgery, and various player movements in college and professional basketball.",
+        "key_takeaway": "Rory McIlroy co-leads the Masters after a strong opening round, while NBA star Joel Embiid undergoes surgery for appendicitis.",
+        "summary": "The sports world is buzzing with the ongoing Masters Tournament, where Rory McIlroy shares the lead after a solid performance. Meanwhile, NBA star Joel Embiid faces a setback with emergency surgery for appendicitis. Other notable news includes Jayson Tatum's successful return to the court, the Aces securing Jackie Young, and FIFA's new ticket pricing for the World Cup.",
         "key_themes": [
-          "Rory McIlroy Masters performance",
-          "NFL TV deals investigation",
-          "Joel Embiid surgery update",
+          "Masters Tournament 2026 updates",
+          "NBA injury news",
           "WNBA player contracts",
-          "NCAA basketball revenue",
-          "MLB power rankings changes"
+          "NCAA basketball player decisions",
+          "FIFA World Cup ticket prices"
         ],
         "notable_headlines": [
           {
-            "headline": "Pressure eased, Rory co-leads in Masters defense",
-            "why_it_matters": "McIlroy's performance sets a positive tone for his title defense at a major tournament.",
+            "headline": "Masters 2026: Rory's defense, most disappointing first rounds and looking ahead to the rest of the tournament",
+            "why_it_matters": "The Masters is a prestigious event, and Rory's performance could impact his title defense and the tournament's outcome.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Sources: DOJ opens probe of NFL over TV deals",
-            "why_it_matters": "The investigation could have significant implications for how NFL games are broadcast and consumed.",
-            "signal": "Risk"
+            "headline": "Pressure eased, Rory co-leads in Masters defense",
+            "why_it_matters": "Rory's strong start positions him well in the tournament, raising expectations for his title defense.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Sixers' Embiid undergoes surgery for appendicitis",
-            "why_it_matters": "Embiid's health is crucial for the Sixers' playoff aspirations, and his absence could impact their performance.",
+            "why_it_matters": "Embiid's surgery could significantly affect the Sixers' playoff chances and team dynamics moving forward.",
             "signal": "Risk"
           },
           {
             "headline": "Sources: Aces agree to $1.19M deal with Young",
-            "why_it_matters": "This contract reflects the growing investment in women's basketball and the Aces' commitment to retaining talent.",
+            "why_it_matters": "Retaining a key player like Young strengthens the Aces' roster for the upcoming WNBA season.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Michigan lands coveted Vols transfer Estrella",
-            "why_it_matters": "Estrella's commitment strengthens Michigan's basketball program following their recent national title win.",
+            "headline": "Final Four MOP Cadeau to return to Wolverines",
+            "why_it_matters": "Cadeau's return is a boost for Michigan's basketball program as they look to build on last season's success.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor updates on Joel Embiid's recovery timeline after surgery.",
-            "Watch for further developments in the DOJ's investigation into NFL TV contracts.",
-            "Follow Rory McIlroy's performance in the Masters as the tournament progresses."
+            "Continued coverage of the Masters Tournament as it progresses into the weekend.",
+            "Updates on Joel Embiid's recovery and potential return timeline.",
+            "Further developments on player contracts in the WNBA and NCAA basketball."
           ],
           "next_1_4_weeks": [
-            "Expect updates on the impact of Embiid's absence on the Sixers' playoff strategy.",
-            "Watch for the WNBA draft and how it affects team rosters and player movements.",
-            "Keep an eye on MLB power rankings as the season unfolds."
+            "Analysis of the Masters Tournament results and implications for future tournaments.",
+            "Monitoring Embiid's health and the Sixers' performance without him.",
+            "Tracking the WNBA draft and player movements leading up to the season."
           ],
           "watch_list": [
             "Rory McIlroy's performance in the Masters Tournament.",
-            "Outcomes of the DOJ investigation into NFL practices.",
-            "Player movements and contracts in the WNBA and NCAA basketball.",
-            "Updates on the NBA draft prospects and rankings."
+            "Joel Embiid's recovery process and its impact on the Sixers.",
+            "WNBA draft prospects and team strategies.",
+            "confidence",
+            "High"
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating a balance of positive and negative news in sports today.",
-          "Details on Embiid's surgery and recovery timeline are still unclear."
+          "The sentiment score is mixed, indicating a balance of positive and negative news in sports today. Some developments may evolve rapidly, particularly regarding player health and tournament outcomes.",
+          "The ongoing Masters Tournament may shift dynamics in golf rankings and player performances."
         ],
         "related_topics": [
           "What are the latest updates from the Masters Tournament?",
-          "How is the DOJ investigating NFL television contracts?",
-          "What is the impact of Joel Embiid's surgery on the Sixers?",
-          "Latest WNBA player contracts and signings",
-          "NCAA basketball transfer news and player commitments"
+          "How is Joel Embiid's surgery affecting the Sixers?",
+          "What are the implications of the WNBA draft projections?"
         ]
       },
-      "tweet_text": "Rory rises to the occasion, the NFL faces scrutiny, and Embiid's surgery shakes up the Sixers—today's sports...\n\nSports Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #119m #694m #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Rory's on a mission to defend his title—can he turn the tide at the Masters?\n\nSports Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Masters #Defense #Looking #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -768,20 +774,19 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries reveal significant advancements in understanding inflammation, genetic control, brain health, and human migration patterns.",
-        "summary": "Today's science headlines highlight breakthroughs in anti-inflammatory compounds, the effects of weight loss drugs, genetic silencing mechanisms, gut bacteria's role in neurodegenerative diseases, and new insights into human migration and brain function.",
+        "key_takeaway": "Recent scientific discoveries reveal significant insights into health, genetics, and human history, including new anti-inflammatory compounds and the role of gut bacteria in neurodegenerative diseases.",
+        "summary": "Today's science headlines cover a range of topics from the discovery of synergistic plant compounds that enhance anti-inflammatory effects, to the role of gut bacteria in ALS and dementia. Other notable findings include the identification of a second genetic code influencing gene expression, the historical migration of humans to Australia, and the discovery of a waste-removal pathway in the brain. Additionally, studies reveal insights into weight loss drugs, the brain's perception of artificial sweeteners, and the connection between autism and ADHD.",
         "key_themes": [
-          "anti-inflammatory compounds",
-          "weight loss drugs effects",
-          "genetic control mechanisms",
-          "gut bacteria and neurodegeneration",
-          "human migration history",
-          "brain health and Alzheimer's"
+          "anti-inflammatory plant compounds",
+          "gut bacteria and neurodegenerative diseases",
+          "genetic code and gene silencing",
+          "human migration to Australia",
+          "brain waste removal pathways"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists discover spice synergy that boosts anti-inflammation 100x",
-            "why_it_matters": "This research could lead to more effective treatments for chronic inflammation-related diseases.",
+            "why_it_matters": "This research could lead to new anti-inflammatory treatments using common plant compounds.",
             "signal": "Opportunity"
           },
           {
@@ -791,12 +796,12 @@
           },
           {
             "headline": "Your DNA has a secret “second code” that decides which genes get silenced",
-            "why_it_matters": "This discovery adds a new layer to our understanding of genetic regulation and its implications for health.",
-            "signal": "Opportunity"
+            "why_it_matters": "This discovery adds a new layer to our understanding of genetic regulation and expression.",
+            "signal": "Unclear"
           },
           {
             "headline": "Scientists discover hidden gut trigger behind ALS and dementia",
-            "why_it_matters": "Identifying gut bacteria's role in these diseases opens new avenues for treatment and prevention.",
+            "why_it_matters": "Identifying gut bacteria's role in these diseases could open new avenues for treatment.",
             "signal": "Opportunity"
           },
           {
@@ -807,36 +812,36 @@
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the anti-inflammatory spice synergy may be released.",
-            "More studies on the implications of weight loss drugs on muscle mass are expected.",
-            "Research on gut bacteria's role in neurodegenerative diseases may lead to new treatment trials."
+            "Further analysis of the anti-inflammatory compounds may lead to clinical trials.",
+            "Research on gut bacteria's impact on neurodegenerative diseases will continue to evolve.",
+            "Studies on the genetic code may lead to breakthroughs in gene therapy."
           ],
           "next_1_4_weeks": [
-            "Anticipated publications on genetic control mechanisms and their health implications.",
-            "New findings on the relationship between brain health and Alzheimer's disease may emerge.",
-            "Continued exploration of ancient human migration patterns and their significance in anthropology."
+            "Expect more discussions on the implications of weight loss drugs and their health trade-offs.",
+            "New findings on the brain's waste removal system may prompt further studies on Alzheimer's.",
+            "Research on the connection between autism and ADHD may lead to new therapeutic approaches."
           ],
           "watch_list": [
-            "Updates on anti-inflammatory treatments from spice synergy research.",
-            "New clinical trials related to weight loss drugs and muscle preservation.",
-            "Research developments in gut microbiome studies and neurodegenerative diseases.",
-            "Insights from ongoing studies about the genetic code and its implications for health."
+            "Developments in anti-inflammatory treatments from plant compounds.",
+            "Updates on gut bacteria research related to ALS and dementia.",
+            "New insights into human migration patterns based on genetic studies.",
+            "Advancements in understanding the brain's waste removal pathways."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates varying levels of optimism and concern in the scientific community regarding these findings.",
-          "Further research is needed to confirm the long-term implications of these discoveries."
+          "The implications of these findings are still being explored and may change with further research.",
+          "Some studies are preliminary and require replication for validation."
         ],
         "related_topics": [
-          "What are the latest findings on anti-inflammatory compounds?",
-          "How do weight loss drugs affect muscle mass?",
-          "What is the role of gut bacteria in neurodegenerative diseases?",
-          "What new insights have been discovered about human migration?",
-          "How does genetic control affect health outcomes?"
+          "What are the latest discoveries in anti-inflammatory research?",
+          "How do gut bacteria influence neurodegenerative diseases?",
+          "What new insights have been found about human migration?",
+          "What is the connection between autism and ADHD?",
+          "How does the brain remove waste and what does it mean for health?"
         ]
       },
-      "tweet_text": "Unlocking the secrets of spice could be the game-changer in your fight against inflammation—100 times...\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hidden #Brain #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlocking the secrets of your DNA could hold the key to fighting inflammation and neurological...\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hidden #Brain #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
