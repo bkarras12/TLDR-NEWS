@@ -1,11 +1,10 @@
 {
   "date": "2026-04-12",
-  "generated_at_utc": "2026-04-12T14:36:36Z",
+  "generated_at_utc": "2026-04-12T23:47:43Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "iran",
-    "trump"
+    "cant"
   ],
   "categories": {
     "world": {
@@ -17,23 +16,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1191,
+        "score": -0.2149,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.199, dampened ×0.6 → -0.1191). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.358, dampened ×0.6 → -0.2149). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "After Iran talks falter, the big question is 'what happens next?'",
-          "url": "https://www.bbc.com/news/articles/c5y943x2g8qo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 12 Apr 2026 12:48:01 GMT",
-          "summary": "Twenty-one hours was not enough to end 47 years of hostility between Iran and the US, writes the BBC's Lyse Doucet.",
+          "title": "Trump's blockade threat raises risks and leaves predicaments unchanged",
+          "url": "https://www.bbc.com/news/articles/c8dl5mly2rzo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 12 Apr 2026 22:57:22 GMT",
+          "summary": "The conflict is now a test of wills - Iran’s capacity to absorb strikes versus Trump’s tolerance for the war's costs.",
           "source": "BBC News"
         },
         {
           "title": "Asha Bhosle: The sound of Bollywood dies aged 92",
           "url": "https://www.bbc.com/news/articles/c6ppd0qdp1do?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 12 Apr 2026 10:03:00 GMT",
+          "published": "Sun, 12 Apr 2026 16:56:08 GMT",
           "summary": "Her infectious voice got fans dancing and singing, becoming the soundtrack for generations of Indians.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Civilians feared killed after reports of air strike on Nigerian market",
+          "url": "https://www.bbc.com/news/articles/cgk021z3ejpo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 12 Apr 2026 18:11:04 GMT",
+          "summary": "The Nigerian Air Force has not addressed reports it struck a village market while targeting militants.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Pope prioritises world's fastest-growing Catholic region in major Africa tour",
+          "url": "https://www.bbc.com/news/articles/cvg0jyx4qq7o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 12 Apr 2026 23:08:40 GMT",
+          "summary": "Leo XIV wants the world's attention on a continent vital to the Church's future, an aide says.",
           "source": "BBC News"
         },
         {
@@ -41,6 +54,13 @@
           "url": "https://www.bbc.com/news/articles/cz78y73v830o?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 12 Apr 2026 11:53:37 GMT",
           "summary": "Ukrainian President Volodymyr Zelensky says his nation's forces would respond \"symmetrically\" to Russian attacks.",
+          "source": "BBC News"
+        },
+        {
+          "title": "What is a naval blockade and how would it work in Strait of Hormuz?",
+          "url": "https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 12 Apr 2026 21:31:29 GMT",
+          "summary": "Donald Trump says that the US is going to start blockading the Strait of Hormuz. What does this mean in practice?",
           "source": "BBC News"
         },
         {
@@ -60,7 +80,7 @@
         {
           "title": "Justin Bieber headlines Coachella with nostalgia-fuelled set",
           "url": "https://www.bbc.com/news/articles/c75kx5dw395o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 12 Apr 2026 10:07:58 GMT",
+          "published": "Sun, 12 Apr 2026 15:00:09 GMT",
           "summary": "The star spent much of the gig singing along to YouTube videos of early hits like Baby and Never say Never.",
           "source": "BBC News"
         },
@@ -84,101 +104,78 @@
           "published": "Sat, 11 Apr 2026 18:08:46 GMT",
           "summary": "Police fatally shot the assailant after he ignored at least 20 demands to drop the weapon, NYPD says.",
           "source": "BBC News"
-        },
-        {
-          "title": "Nearly 400 sentenced in Nigeria for links to militant Islamists",
-          "url": "https://www.bbc.com/news/articles/cvge1kdmpzwo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Apr 2026 14:41:31 GMT",
-          "summary": "Judges handed down sentences ranging from five years to life imprisonment following mass trials.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Artemis crew home safely after completing historic mission to the Moon",
-          "url": "https://www.bbc.com/news/articles/cr51z54d5rpo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Apr 2026 07:53:46 GMT",
-          "summary": "Four astronauts splashed down in the Pacific after a nine-day voyage that took them further from Earth than any humans.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Coachella kicks off with Sabrina Carpenter and surprise guests",
-          "url": "https://www.bbc.com/news/articles/cpwjnvrpn8eo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Apr 2026 15:45:05 GMT",
-          "summary": "The festival in California was also forced to cancel a set by DJ Anyma on Friday because of strong winds.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Iran-US talks have stalled, raising questions about future relations, while Ukraine and Russia continue to accuse each other of ceasefire violations.",
-        "summary": "Today's headlines reflect a mix of significant global events, including stalled negotiations between Iran and the US, ongoing tensions between Ukraine and Russia, and a tragic incident in Haiti. The world also mourns the loss of Bollywood legend Asha Bhosle, while political developments unfold in the US and Germany.",
+        "key_takeaway": "Global tensions rise as Trump threatens a blockade in the Strait of Hormuz, while civilian casualties are reported in Nigeria and Haiti.",
+        "summary": "Today's headlines reflect a mix of global tensions and significant cultural events. The potential for conflict escalates with Trump's blockade threat in the Strait of Hormuz, while civilian casualties are feared in Nigeria following an airstrike. The Pope's tour in Africa highlights the region's importance to the Catholic Church, and the tragic crush at a Haitian tourist site raises concerns over safety at public events. Additionally, Ukraine and Russia continue to accuse each other of ceasefire violations, indicating ongoing strife in Eastern Europe.",
         "key_themes": [
-          "Iran-US relations",
-          "Ukraine-Russia conflict",
-          "Haitian tourist tragedy",
-          "Asha Bhosle death",
-          "California governor race",
-          "Germany's far-right politics"
+          "Global tensions in the Strait of Hormuz",
+          "Civilian casualties in Nigeria",
+          "Pope's Africa tour significance",
+          "Ceasefire violations between Ukraine and Russia",
+          "Tragic events in Haiti"
         ],
         "notable_headlines": [
           {
-            "headline": "After Iran talks falter, the big question is 'what happens next?'",
-            "why_it_matters": "The failure of talks between Iran and the US raises concerns about the future of their long-standing hostility.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
-            "why_it_matters": "Escalating tensions between Ukraine and Russia could impact regional stability and international relations.",
+            "headline": "Trump's blockade threat raises risks and leaves predicaments unchanged",
+            "why_it_matters": "This situation could escalate tensions in the Middle East and impact global oil supply.",
             "signal": "Risk"
           },
           {
-            "headline": "At least 30 feared dead in crush at Haitian tourist site",
-            "why_it_matters": "The tragic event highlights safety concerns at public gatherings in Haiti and the need for better crowd management.",
+            "headline": "Civilians feared killed after reports of air strike on Nigerian market",
+            "why_it_matters": "The incident highlights the dangers faced by civilians in conflict zones.",
             "signal": "Risk"
           },
           {
-            "headline": "Germany's far-right AfD adopts 'radical' manifesto ahead of key polls",
-            "why_it_matters": "The rise of the far-right in Germany could influence the political landscape and social dynamics in Europe.",
+            "headline": "Pope prioritises world's fastest-growing Catholic region in major Africa tour",
+            "why_it_matters": "The Pope's focus on Africa underscores the continent's growing significance to the Catholic Church.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Nearly 400 sentenced in Nigeria for links to militant Islamists",
-            "why_it_matters": "The mass sentencing reflects ongoing efforts to combat extremism in Nigeria, but raises concerns about judicial processes.",
+            "headline": "At least 30 feared dead in crush at Haitian tourist site",
+            "why_it_matters": "This tragedy raises questions about safety regulations at large public events.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
+            "why_it_matters": "Continued hostilities could hinder peace efforts in the region.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in Iran-US relations following the stalled talks.",
-            "Observing the situation in Ukraine as ceasefire violations continue.",
-            "Awaiting further details on the Haitian tragedy and government response."
+            "Monitor developments regarding Trump's blockade threat and its implications for global shipping.",
+            "Watch for updates on the civilian casualties in Nigeria and any official responses.",
+            "Follow the Pope's tour in Africa for potential announcements or actions."
           ],
           "next_1_4_weeks": [
-            "Potential shifts in political dynamics in Germany as elections approach.",
-            "Continued scrutiny of the California governor race amid allegations against candidates.",
-            "Further analysis of the implications of the mass sentencing in Nigeria."
+            "Expect ongoing tensions between Ukraine and Russia as ceasefire violations continue.",
+            "Watch for potential political ramifications from the tragic events in Haiti and Nigeria.",
+            "Observe the impact of the Pope's Africa tour on Catholic engagement in the region."
           ],
           "watch_list": [
-            "Iran-US diplomatic efforts",
-            "Ukraine-Russia ceasefire negotiations",
-            "Haitian government response to tourist site tragedy",
-            "California political landscape",
-            "Germany's far-right electoral strategies"
+            "Developments in the Strait of Hormuz and international responses to Trump's blockade threat.",
+            "Civilian safety measures in conflict zones, particularly in Nigeria and Haiti.",
+            "Political shifts in Europe related to the Ukraine conflict and far-right movements.",
+            "Cultural impacts of Asha Bhosle's passing on Bollywood and Indian music."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates a mixed overall tone, suggesting uncertainty in some areas of reporting.",
-          "Details on the Iranian talks and their implications remain unclear."
+          "The situation in the Strait of Hormuz is fluid and could change rapidly depending on diplomatic negotiations.",
+          "Casualty figures from Nigeria and Haiti may be updated as more information becomes available.",
+          "The political landscape in Europe is influenced by multiple factors, making predictions uncertain."
         ],
         "related_topics": [
-          "What is the current status of Iran-US relations?",
-          "Latest updates on the Ukraine-Russia conflict",
-          "Details on the Haitian tourist site tragedy",
-          "Who was Asha Bhosle and her impact on Bollywood?",
-          "California governor race news",
-          "Germany's far-right political movements"
+          "What are the implications of Trump's blockade threat?",
+          "Latest updates on civilian casualties in Nigeria and Haiti",
+          "Significance of the Pope's tour in Africa",
+          "Current status of Ukraine and Russia ceasefire negotiations",
+          "Cultural impact of Asha Bhosle's death on Bollywood"
         ]
       },
-      "tweet_text": "As tensions rise, the world holds its breath: what’s next after Iran talks collapse?\n\nWorld Sentiment: Mixed (-0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abuse #Accuse #Adopts #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World on edge: Trump's blockade threat, a Bollywood legend lost, and lives at risk in Nigeria—click for the full story.\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Blockade #Feared #Accuse #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -189,11 +186,25 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.2974,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.496, dampened ×0.6 → -0.2974). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.1873,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.312, dampened ×0.6 → -0.1873). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Collapse of US-Iran talks heightens fears of prolonged energy shock",
+          "url": "https://www.theguardian.com/business/2026/apr/12/collapse-us-iran-talks-energy-shock-oil-prices",
+          "published": "Sun, 12 Apr 2026 13:07:45 GMT",
+          "summary": "<p>Oil prices and borrowing costs are expected to rise this week as tankers remain stranded in the Gulf</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/apr/12/middle-east-crisis-live-us-iran-pakistan-peace-talks-jd-vance-delegation-leaves-without-a-deal\">Middle East crisis live – latest updates</a></p></li></ul><p>The failure of the US and Iran to reach a peace deal after marathon negotiations has put markets on alert for further oil and gas price rises.</p><p>With large numbe",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Low-tax Texas opens London office to lure jobs and investment",
+          "url": "https://www.theguardian.com/business/2026/apr/12/texas-opens-london-office-lure-jobs-investment-low-tax-subsidies",
+          "published": "Sun, 12 Apr 2026 05:00:08 GMT",
+          "summary": "<p>Exclusive: US state is targeting corporate heavyweights in the UK with subsidies and incentives </p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/apr/10/dallas-new-york-business\">Y’all Street: Bullish Dallas aims to steal New York’s crown</a></p></li></ul><p>The US state of Texas is putting UK businesses in its crosshairs with the launch this month of a dedicated London office to lure jobs and investment to the low-tax Lone Star State.</p><p>Texas recently secured approval for",
+          "source": "The Guardian"
+        },
         {
           "title": "‘Abhorrent’: the inside story of the Polymarket gamblers betting millions on war",
           "url": "https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth",
@@ -244,17 +255,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "Ceasefire changes little for shipping in strait of Hormuz, experts say",
-          "url": "https://www.theguardian.com/world/2026/apr/08/us-iran-ceasefire-mass-exodus-ships-strait-hormuz-analysts",
-          "published": "Wed, 08 Apr 2026 15:36:29 GMT",
-          "summary": "<p>Analysts expect only limited increase in shipping as vessels will still need to seek Iranian permission to transit</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/apr/08/iran-war-ceasefire-live-updates-trump-deadline-middle-east-crisis-latest-news\">Middle East crisis – live updates</a></p></li></ul><p>There will be no “mass exodus” of ships through the strait of Hormuz, shipping analysts say, despite a <a href=\"https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Delta CEO braces flyers for higher fares amid surge in oil prices tied to Iran war",
-          "url": "https://www.theguardian.com/business/2026/apr/08/delta-ceo-higher-fares-oil-prices-iran-war",
-          "published": "Wed, 08 Apr 2026 15:51:21 GMT",
-          "summary": "<p>Airline projected a $2bn increase in fuel costs this quarter amid volatility in oil markets sparked by the war</p><p>The CEO of Delta Air Lines, Ed Bastian, braced customers for higher fares following the surge in oil prices sparked by the US-Israel war on Iran, amid strong demand from passengers.</p><p>Though rising oil prices have cost the company an extra $330m in fuel expenses, and it projected a $2bn increase in fuel costs in the current quarter, Delta forecast that revenue would grow 10",
+          "title": "Trump’s new budget ignores dying Americans and gives away record sums to the US military",
+          "url": "https://www.theguardian.com/us-news/2026/apr/12/trump-budget-healthcare-military",
+          "published": "Sun, 12 Apr 2026 11:00:16 GMT",
+          "summary": "<p>President’s proposed budget slashes health department by 12% while throwing $1.5tn – a 42% increase – to the military</p><p>Americans are dying in droves. Deaths due to <a href=\"https://data-viewer.oecd.org/?chartId=6d7c06ee-bc5f-4ffa-8423-112f01ca8d5c\">avoidable causes</a> in the United States –which could be dealt with via prevention or proper <a href=\"https://www.theguardian.com/us-news/healthcare\">healthcare</a> – far outpace those in most of country’s peers in the industrialized world. M",
           "source": "The Guardian"
         },
         {
@@ -265,87 +269,82 @@
           "source": "The Guardian"
         },
         {
-          "title": "‘There’s a lot of desperation’: skilled older workers turn to AI training to stay afloat",
-          "url": "https://www.theguardian.com/technology/ng-interactive/2026/apr/07/ai-training-work-jobs",
-          "published": "Tue, 07 Apr 2026 12:00:46 GMT",
-          "summary": "<p>They have degrees, expertise and years of experience – but can’t find work. For many Americans, AI training has become a last refuge in a brutal job market</p><p>When Patrick Ciriello lost his job and couldn’t find work for nearly a year, his family’s foundation crumbled.</p><p>“You hear about people who hit rock bottom,” Ciriello told the Guardian. “Well, I was there.”</p> <a href=\"https://www.theguardian.com/technology/ng-interactive/2026/apr/07/ai-training-work-jobs\">Continue reading...</a",
-          "source": "The Guardian"
-        },
-        {
-          "title": "How Trump’s Iran war could make the world more reliant on coal",
-          "url": "https://www.theguardian.com/business/2026/apr/05/coal-reliance-iran-war-fossil-fuels",
-          "published": "Sun, 05 Apr 2026 11:00:49 GMT",
-          "summary": "<p>The energy crisis sparked by the war is making some countries consider ramping up their use of dirty fuels</p><p>Not two months in office, as the <a href=\"https://fred.stlouisfed.org/series/WTISPLC\">price of west Texas crude</a> approached $14 a barrel, Jimmy Carter, then president, donned a cardigan <a href=\"https://millercenter.org/the-presidency/presidential-speeches/february-2-1977-report-american-people-energy\">to speak candidly</a> about his strategy to face the permanent energy shortag",
+          "title": "DC’s highly qualified workers can’t find jobs: ‘What is happening?’",
+          "url": "https://www.theguardian.com/us-news/2026/apr/07/washington-dc-highly-qualified-workers-unemployment",
+          "published": "Tue, 07 Apr 2026 11:00:46 GMT",
+          "summary": "<p>Washington DC has the highest unemployment rate in the US</p><p>Alicia Contreras was in Tunisia, working as the deputy country representative for Libya for USAID, when she received the news: she was fired. The Trump administration had ceased the cooperation agency’s operations and terminated most overseas staff. What she didn’t expect back then was that after a double major, an MBA and 17 years of experience as a public servant, she wouldn’t be able to find a job back at home.</p><p>Contreras",
           "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "US inflation rises sharply amid ongoing geopolitical tensions, while federal workers face job market challenges post-Trump cuts.",
-        "summary": "Today's business news highlights significant economic challenges, including rising inflation linked to the Iran conflict, job struggles for federal workers, and corporate responses to social issues. The CEO of Delta Air Lines anticipates higher fares due to increased oil prices, while McDonald's CEO faces backlash over a viral video. Additionally, a California coffee chain faces criticism for its decision to remove Pride flags, reflecting broader societal tensions.",
+        "key_takeaway": "The collapse of US-Iran talks raises concerns about rising energy prices and economic uncertainty, while Texas seeks to attract investment with a new London office.",
+        "summary": "Today's business news highlights the collapse of US-Iran negotiations, which is expected to lead to increased oil prices and economic instability. Meanwhile, Texas is actively pursuing investment opportunities in the UK by opening a London office, aiming to attract businesses with low-tax incentives. The job market remains challenging for federal workers affected by past cuts, and inflation continues to rise amid geopolitical tensions. Additionally, the head of the IMF warns of long-term economic scars from the ongoing conflict in Iran.",
         "key_themes": [
-          "US inflation trends",
+          "US-Iran negotiations impact on oil prices",
+          "Texas investment strategies",
           "job market challenges for federal workers",
-          "corporate social responsibility issues"
+          "inflation trends in the US",
+          "IMF warnings on global economy"
         ],
         "notable_headlines": [
           {
+            "headline": "Collapse of US-Iran talks heightens fears of prolonged energy shock",
+            "why_it_matters": "The failure of negotiations may lead to significant increases in oil prices and economic instability.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Low-tax Texas opens London office to lure jobs and investment",
+            "why_it_matters": "Texas aims to attract UK businesses with incentives, potentially reshaping investment flows.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "US inflation soars in March as war on Iran drives economy into uncertainty",
-            "why_it_matters": "Rising inflation adds to economic unpredictability, impacting consumer prices and overall economic stability.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Federal workers struggle to find roles a year after Trump cuts: ‘I’ve applied to over 250 jobs’",
-            "why_it_matters": "The ongoing job market difficulties highlight the long-term effects of government workforce reductions.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Delta CEO braces flyers for higher fares amid surge in oil prices tied to Iran war",
-            "why_it_matters": "Increased operational costs due to rising oil prices could lead to higher travel expenses for consumers.",
+            "why_it_matters": "Rising inflation adds to economic unpredictability, complicating financial planning for consumers and businesses.",
             "signal": "Risk"
           },
           {
             "headline": "Head of IMF says Iran war will permanently scar global economy even if peace is reached",
-            "why_it_matters": "Long-term economic impacts from geopolitical conflicts can affect global growth and living standards.",
+            "why_it_matters": "Long-term economic impacts from the conflict could affect global growth and living standards.",
             "signal": "Risk"
           },
           {
-            "headline": "California coffee chain faces backlash after pledge to remove Pride flags",
-            "why_it_matters": "Corporate decisions regarding social issues can lead to public backlash and impact brand reputation.",
+            "headline": "Federal workers struggle to find roles a year after Trump cuts: ‘I’ve applied to over 250 jobs’",
+            "why_it_matters": "The ongoing job market difficulties highlight the lasting effects of government workforce reductions.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor inflation reports for further economic indicators",
-            "Watch for reactions from federal workers and unions regarding job market conditions",
-            "Observe corporate responses to social issues and public sentiment"
+            "Monitor oil price fluctuations following US-Iran talks collapse",
+            "Watch for reactions from Texas businesses regarding the new London office",
+            "Observe inflation trends as economic data is released"
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions about inflation and its impact on consumer behavior",
-            "Watch for potential policy responses from the government regarding job support",
-            "Follow developments in corporate governance related to social responsibility"
+            "Evaluate the impact of rising energy prices on consumer spending",
+            "Assess the effectiveness of Texas's strategy to attract UK investment",
+            "Follow developments in the job market for federal workers"
           ],
           "watch_list": [
-            "US inflation rates and economic forecasts",
-            "Job market trends for federal employees",
-            "Corporate social responsibility initiatives in the wake of public backlash",
-            "Oil price fluctuations and their impact on industries"
+            "US-Iran relations and their economic implications",
+            "Texas's investment initiatives and outcomes",
+            "Trends in US inflation and consumer prices",
+            "Job market recovery for federal employees"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The geopolitical situation remains fluid and could change rapidly, affecting economic forecasts.",
-          "Job market recovery may take longer than anticipated due to structural changes."
+          "Geopolitical tensions can change rapidly, affecting market predictions.",
+          "Economic forecasts are subject to revision based on new data."
         ],
         "related_topics": [
+          "What are the implications of US-Iran negotiations on oil prices?",
+          "How is Texas attracting UK businesses?",
+          "What is the current state of the US job market?",
           "What are the latest trends in US inflation?",
-          "How are federal workers coping after job cuts?",
-          "What are the implications of rising oil prices for airlines?",
-          "Corporate responses to social issues in 2026",
-          "Impact of the Iran war on the global economy"
+          "How will the Iran war affect the global economy?"
         ]
       },
-      "tweet_text": "From war betting to fast-food faux pas, today's business news is a wild ride—don't miss the shocking...\n\nBusiness Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Economy #Iran #Abhorrent #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Energy prices on the brink as US-Iran talks collapse—are we heading for a financial disaster?\n\nBusiness Sentiment: Mixed (-0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Jobs #Abhorrent #Anthropics #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -356,11 +355,32 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1446,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.241, dampened ×0.6 → +0.1446). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.3223,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.537, dampened ×0.6 → +0.3223). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Room for the Moon is thrillingly weird experimental pop",
+          "url": "https://www.theverge.com/entertainment/910826/room-for-the-moon-is-thrillingly-weird-experimental-pop",
+          "published": "2026-04-12T16:00:00-04:00",
+          "summary": "For obvious reasons, I've had Moon on the mind all week. So I was trying to figure out what I should recommend this week that would thematically fit. Brian Eno's Apollo: Atmospheres and Soundtracks is incredible, and if you haven't listened to it, go do that now. But it also seemed a bit on the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Rockstar Games says hack will have ‘no impact’",
+          "url": "https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact",
+          "published": "2026-04-12T13:02:00-04:00",
+          "summary": "Rockstar confirmed on Saturday that some of its data was compromised in a breach of a third-party provider. The group ShinyHunters claimed responsibility, saying it had gained access to the company's Snowflake instances (a cloud-hosting provider popular with enterprise customers) via Anodot, a cost-monitoring and analytics service. The group is demanding a ransom by April [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "You can save $20 on the Super Mario Galaxy game bundle when you buy a Nintendo Switch 2",
+          "url": "https://www.theverge.com/gadgets/909928/nintendo-switch-2-super-mario-galaxy-bundle-deal-sale",
+          "published": "2026-04-12T12:00:00-04:00",
+          "summary": "In celebration of The Super Mario Galaxy Movie coming to theaters, Nintendo is making it a little cheaper to get both Super Mario Galaxy games when you buy a $449.99 Nintendo Switch 2 console. Now through May 9th, you can buy a Switch 2 with Super Mario Galaxy + Super Mario Galaxy 2 for $499.99 [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "You can grab a refurbished 2021 Kindle Paperwhite starting at just $49.99",
           "url": "https://www.theverge.com/gadgets/910482/2021-amazon-kindle-paperwhite-signature-edition-refurbished-woot-deal-sale",
@@ -409,98 +429,77 @@
           "published": "2026-04-11T11:07:47-04:00",
           "summary": "Polymarket bets started popping up in Google News alongside legitimate news articles. But now those results aren't showing, and Google says they were never supposed to. Spokesperson Ned Adriance told The Verge that \"Google News is designed to show sources that create content about current issues, events, and important topics, and we have policies for [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Pokémon Champions is off to a rough start",
-          "url": "https://www.theverge.com/games/910110/pokemon-champions-bugs-balance-issues-vgc-newcomers",
-          "published": "2026-04-11T11:00:00-04:00",
-          "summary": "Like many live-service games before it, Pok&#233;mon Champions' launch has been messy. The free-to-start battle sim, which is out now on the Switch and Switch 2 (and also coming to mobile later this year), is plagued with bugs, some of which cause issues with basic battle mechanics - not great for a game that's only [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Your article about AI doesn’t need AI art",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
-          "published": "2026-04-11T11:00:00-04:00",
-          "summary": "The illustration for The New Yorker's profile of OpenAI CEO Sam Altman is a jump scare. Altman stands in a blue sweater with a blank expression. Around his head hovers a cluster of disembodied faces - creepy alt-Altmans, their expressions ranging from anger to open-mouthed woe. Some barely look like Altman. One final face rests [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Google’s latest Nest Doorbells just hit their lowest prices of the year",
-          "url": "https://www.theverge.com/gadgets/910472/google-nest-doorbell-wired-battery-powered-deal-sale",
-          "published": "2026-04-11T11:00:00-04:00",
-          "summary": "If you’ve ever worried about porch pirates stealing packages while you’re away, a video doorbell can offer some peace of mind, letting you keep tabs on deliveries no matter where you are. Google offers some of the best around, and right now, its battery-powered, second-gen Nest Doorbell is available for $129.99 ($50 off) from&#160;Amazon and [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The Netherlands becomes the first European country to approve Tesla's supervised Full Self-Driving technology, signaling potential wider adoption in the EU.",
-        "summary": "Today's technology headlines cover a range of topics including affordable refurbished gadgets, advancements in TV technology, the history of iconic phones, the ongoing AI coding competition, and updates on Tesla's Full Self-Driving approval in Europe.",
+        "key_takeaway": "Rockstar Games downplays the impact of a recent data breach, while Tesla's Full Self-Driving receives regulatory approval in the Netherlands.",
+        "summary": "Today's technology news highlights include Rockstar Games' response to a data breach, a promotional Nintendo Switch 2 bundle, and Tesla's Full Self-Driving approval in the Netherlands. Additionally, the Hisense UR9 TV showcases new RGB LED technology, while Google clarifies an error regarding Polymarket bets appearing in news results.",
         "key_themes": [
-          "affordable refurbished gadgets",
-          "advancements in TV technology",
-          "history of iconic phones",
-          "AI coding competition",
-          "Tesla Full Self-Driving approval"
+          "data breach impact on gaming",
+          "Tesla Full Self-Driving approval",
+          "Nintendo Switch 2 promotional bundle",
+          "RGB LED TV technology",
+          "Google News content policies"
         ],
         "notable_headlines": [
           {
-            "headline": "You can grab a refurbished 2021 Kindle Paperwhite starting at just $49.99",
-            "why_it_matters": "Refurbished devices like the Kindle Paperwhite offer great value for consumers looking for budget-friendly options.",
+            "headline": "Rockstar Games says hack will have ‘no impact’",
+            "why_it_matters": "Rockstar's reassurance may help maintain consumer trust despite the data breach.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "The Netherlands is the first European country to approve Tesla’s supervised Full Self-Driving",
+            "why_it_matters": "This approval could pave the way for broader adoption of Tesla's FSD technology across Europe.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "You can save $20 on the Super Mario Galaxy game bundle when you buy a Nintendo Switch 2",
+            "why_it_matters": "The promotion coincides with the release of a related movie, potentially boosting console sales.",
             "signal": "Opportunity"
           },
           {
             "headline": "The Hisense UR9 is a great first shot against OLED’s bow",
-            "why_it_matters": "The Hisense UR9 showcases new RGB LED technology, potentially changing the landscape of TV displays.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The Netherlands is the first European country to approve Tesla’s supervised Full Self-Driving",
-            "why_it_matters": "This approval could pave the way for broader adoption of autonomous driving technologies across Europe.",
+            "why_it_matters": "The introduction of RGB LED technology could challenge OLED dominance in the TV market.",
             "signal": "Opportunity"
           },
           {
             "headline": "Google says Polymarket bets showing up in News was an ‘error’",
-            "why_it_matters": "Clarification from Google highlights the importance of content curation in news aggregation.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Pokémon Champions is off to a rough start",
-            "why_it_matters": "The launch issues of Pokémon Champions may affect its long-term success and player retention.",
+            "why_it_matters": "Clarifying this issue is crucial for maintaining the integrity of Google News.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor consumer reactions to the Tesla FSD approval in the Netherlands.",
-            "Watch for updates on the performance of the Hisense UR9 in the market.",
-            "Expect reviews of the refurbished Kindle Paperwhite to emerge."
+            "Monitoring further developments on the Rockstar Games data breach response.",
+            "Expecting consumer reactions to Tesla's FSD approval in the Netherlands.",
+            "Following up on the impact of Nintendo's promotional bundle on sales."
           ],
           "next_1_4_weeks": [
-            "Anticipate further developments in AI coding competitions as companies ramp up efforts.",
-            "Look for more feedback on the Pokémon Champions game as players report their experiences.",
-            "Follow the impact of Tesla's FSD approval on other European countries."
+            "Anticipating more news on AI developments in coding and technology.",
+            "Watching for consumer feedback on the Hisense UR9 TV performance.",
+            "Tracking regulatory responses to Tesla's FSD in other European countries."
           ],
           "watch_list": [
-            "Trends in refurbished electronics sales.",
-            "Advancements in TV technology and consumer preferences.",
-            "Updates on AI technology and coding competitions.",
-            "Performance of new gaming titles post-launch."
+            "Updates on Rockstar Games' security measures post-breach.",
+            "Sales figures for the Nintendo Switch 2 bundle.",
+            "Performance reviews of the Hisense UR9 TV.",
+            "Further developments in AI coding competition."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall technology landscape, suggesting caution in interpreting the news.",
-          "The approval of Tesla's FSD is a significant step, but its practical implications remain to be seen."
+          "The impact of the data breach on Rockstar Games remains to be fully assessed.",
+          "Consumer response to Tesla's FSD approval is uncertain and may vary by region. "
         ],
         "related_topics": [
-          "What are the latest advancements in TV technology?",
-          "How is Tesla's Full Self-Driving technology evolving?",
-          "What are the best refurbished gadgets available now?",
-          "What challenges are live-service games facing at launch?",
-          "What is the significance of AI in coding competitions?"
+          "What are the implications of the Rockstar Games data breach?",
+          "How is Tesla's Full Self-Driving technology being received in Europe?",
+          "What deals are available for the Nintendo Switch 2?",
+          "What advancements are being made in RGB LED TV technology?",
+          "How does Google News manage content integrity?"
         ]
       },
-      "tweet_text": "Unlock the future of reading for just $49.99 and discover why tech giants are shaking in their boots!\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#2021 #4999 #Against #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From experimental pop to gaming deals, today’s tech news is packed with surprises you won't want to miss!\n\nTechnology Sentiment: Positive (+0.32)\n\nRead the full breakdown: https://tldrnews.info\n\n#2021 #4999 #Against #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -511,165 +510,166 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.1209,
+        "score": 0.1195,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.201, dampened ×0.6 → +0.1209). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.199, dampened ×0.6 → +0.1195). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "How Rory McIlroy's Saturday stumble sets up a dramatic Sunday at the Masters",
-          "url": "https://www.espn.com/golf/story/_/id/48460566/rory-mcilroy-saturday-stumble-sets-dramatic-sunday-2026-masters",
-          "published": "Sun, 12 Apr 2026 09:32:15 EST",
-          "summary": "After losing the biggest 36-hole lead in Masters history, McIlroy and Augusta will have another spin Sunday.",
+          "title": "Rory prevails, becomes 4th to repeat at Masters",
+          "url": "https://www.espn.com/golf/story/_/id/48469822/rory-mcilroy-wins-masters-first-repeat-tiger-woods",
+          "published": "Sun, 12 Apr 2026 19:30:24 EST",
+          "summary": "The green jacket is Rory McIlroy's again. He won the Masters on Sunday by one shot, becoming the first back-to-back winner since Tiger Woods in 2001-02.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: Sparks re-signing Plum to 1-year deal",
-          "url": "https://www.espn.com/wnba/story/_/id/48465712/sources-kelsey-plum-signing-one-year-deal-return-sparks",
-          "published": "Sun, 12 Apr 2026 10:26:04 EST",
-          "summary": "Four-time WNBA All-Star and two-time champion Kelsey Plum is signing a one-year, $999,999 deal to return to the Los Angeles Sparks, sources told ESPN's Shams Charania on Sunday.",
+          "title": "McIlroy holds off Scheffler by 1 shot for back-to-back green jackets",
+          "url": "https://www.espn.com/golf/story/_/id/48461232/masters-2026-sights-sounds-final-round-sunday-rory-mcilroy-cameron-young",
+          "published": "Sun, 12 Apr 2026 19:40:35 EST",
+          "summary": "Here are the best moments from Sunday at August National.",
           "source": "ESPN"
         },
         {
-          "title": "Moving day: Young ties Rory amid Masters drama",
-          "url": "https://www.espn.com/golf/story/_/id/48461145/cameron-young-surges-masters-ties-rory-mcilroy-lead",
-          "published": "Sun, 12 Apr 2026 10:26:04 EST",
-          "summary": "Cameron Young, who started the day eight back of Rory McIlroy, shot a 7-under 65 and is tied with the defending champion entering the final round of the Masters.",
+          "title": "Sources: Kings to retain Christie for next season",
+          "url": "https://www.espn.com/nba/story/_/id/48466453/sources-kings-retain-coach-doug-christie-next-season",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
+          "summary": "The Kings are retaining coach Doug Christie for next season, team sources told ESPN.",
           "source": "ESPN"
         },
         {
-          "title": "Urged by Trump, UFC adds Lewis-Hokit to WH card",
-          "url": "https://www.espn.com/mma/story/_/id/48463110/urged-trump-ufc-adds-lewis-vs-hokit-white-house-card",
-          "published": "Sun, 12 Apr 2026 10:26:04 EST",
-          "summary": "The UFC added a heavyweight matchup between Derrick Lewis and Josh Hokit to its White House event, and according to Dana White, the move happened after President Donald Trump asked why Lewis wasn't on the card.",
+          "title": "Three-time All-Star, former manager Garner dies",
+          "url": "https://www.espn.com/mlb/story/_/id/48467343/three-all-star-former-manager-phil-garner-dies-age-76",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
+          "summary": "Phil Garner, a three-time All-Star infielder who went on to manage the Astros to their first World Series appearance, has died. He was 76.",
           "source": "ESPN"
         },
         {
-          "title": "Hayes hails U.S. evolution after 10th straight win",
-          "url": "https://www.espn.com/soccer/story/_/id/48460994/rose-lavelle-usa-japan-lindsey-heaps-friendly-soccer",
-          "published": "Sun, 12 Apr 2026 10:26:03 EST",
-          "summary": "Rose Lavelle had a goal and an assist and the United States won the first of three matches against Japan 2-1 on Saturday.",
+          "title": "Yelich exits hurt as Brewers expecting 'bad news'",
+          "url": "https://www.espn.com/mlb/story/_/id/48468885/christian-yelich-exits-brewers-game-hamstring-tightness",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
+          "summary": "Christian Yelich left the Milwaukee Brewers' game against the Washington Nationals on Sunday with tightness in his left hamstring.",
           "source": "ESPN"
         },
         {
-          "title": "Cunningham to re-sign with Fever, sources say",
-          "url": "https://www.espn.com/wnba/story/_/id/48465262/sources-sophie-cunningham-reaches-deal-return-fever",
-          "published": "Sun, 12 Apr 2026 10:26:04 EST",
-          "summary": "Free agent Sophie Cunningham has agreed to a one-year deal to return to the Fever, sources told ESPN on Sunday.",
+          "title": "Bridges extends streak after 23-second stint",
+          "url": "https://www.espn.com/nba/story/_/id/48469840/bridges-extends-games-played-streak-23-second-stint",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
+          "summary": "Mikal Bridges' consecutive games played streak reached 638 in Sunday's season finale, after the Knicks wing played all of 23 seconds before leaving the game.",
           "source": "ESPN"
         },
         {
-          "title": "Fury dominates Makhmudov, calls out Joshua",
-          "url": "https://www.espn.com/boxing/story/_/id/48459845/tyson-fury-arslanbek-makhmudov-anthony-joshua-fight",
-          "published": "Sun, 12 Apr 2026 10:26:04 EST",
-          "summary": "Tyson Fury shook off some ring rust on his comeback to earn a unanimous points win over Arslanbek Makhmudov on Saturday and potentially set up a long-awaited clash with Anthony Joshua.",
+          "title": "Ovi lauds Penguins but waves off farewell shakes",
+          "url": "https://www.espn.com/nhl/story/_/id/48470167/ovechkin-dodges-penguins-farewells-mulling-retirement",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
+          "summary": "Following Washington's 3-0 loss to Pittsburgh Sunday, Capitals star Alex Ovechkin, considering retirement after the season, waved off potential farewell handshakes with Sidney Crosby and the rest of the Penguins, who lingered after the win to salute him.",
           "source": "ESPN"
         },
         {
-          "title": "Badly hobbled, Ulberg KO's Procházka to win title",
-          "url": "https://www.espn.com/mma/story/_/id/48463277/badly-hobbled-ulberg-stuns-prochazka-wild-ko-ufc-327",
-          "published": "Sun, 12 Apr 2026 10:26:04 EST",
-          "summary": "Moments after suffering an apparent injury to his knee, Carlos Ulberg rocked Jiří Procházka with a left hook en route to a knockout victory to become the new light heavyweight champion at UFC 327.",
+          "title": "Mercury re-sign 4-time All-Star Copper, Bonner",
+          "url": "https://www.espn.com/wnba/story/_/id/48469764/four-all-star-kahleah-copper-re-signs-mercury",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
+          "summary": "Four-time WNBA All-Star Kahleah Copper and two-time champion DeWanna Bonner re-signed Sunday with Phoenix, the team announced.",
           "source": "ESPN"
         },
         {
-          "title": "'That's not him': Lindor's gaffes leave Mets at loss",
-          "url": "https://www.espn.com/mlb/story/_/id/48462049/not-struggling-lindor-gaffes-leave-mets-loss",
-          "published": "Sun, 12 Apr 2026 10:26:04 EST",
-          "summary": "Mets shortstop Francisco Lindor had his third miscue in two days during an 11-6 loss to the A's, and manager Carlos Mendoza acknowledged the uncharacteristic lapses were \"hard to explain.\"",
+          "title": "Frustrated Garcia breaks driver on No. 2 tee box",
+          "url": "https://www.espn.com/golf/story/_/id/48465791/frustrated-sergio-garcia-breaks-driver-no-2-tee-box",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
+          "summary": "Sergio García broke his driver on No. 2 at Augusta National after an outburst on the tee box and was issued a code-of-conduct warning, a first at the Masters.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Transfer guard Vaaks chooses Illinois, agents say",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48468889/guard-stefan-vaaks-transfer-illinois-agents-say",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
+          "summary": "Transfer guard Stefan Vaaks, one of the surprise freshmen in college basketball this season who starred at Providence, has committed to Illinois, his agents at Excel Sports Management told ESPN on Sunday afternoon.",
           "source": "ESPN"
         },
         {
           "title": "🏈 NFL draft: Seven prospects climbing boards",
           "url": "https://www.espn.com/nfl/draft2026/story/_/id/48443025/2026-nfl-draft-risers-prospects-freeling-thieneman-iheanachor",
-          "published": "Sun, 12 Apr 2026 10:26:04 EST",
+          "published": "Sun, 12 Apr 2026 19:39:45 EST",
           "summary": "Dillon Thieneman and Monroe Freeling have drastically boosted their stock since the start of last season. Who else has climbed the board?",
-          "source": "ESPN"
-        },
-        {
-          "title": "NBA playoff watch: What's at stake on Sunday",
-          "url": "https://www.espn.com/nba/story/_/id/48287649/nba-playoff-watch-2026-standings-schedules-projections-clinchings",
-          "published": "Sun, 12 Apr 2026 09:55:45 EST",
-          "summary": "We break down every seeding possibility, plus a look at the race to secure the best odds for the No. 1 pick.",
           "source": "ESPN"
         },
         {
           "title": "NBA playoff intel: Early buzz on the Lakers, Celtics, Cavs, Pistons, Spurs and Warriors",
           "url": "https://www.espn.com/nba/story/_/id/48443792/nba-playoffs-intel-lebron-lakers-chances-curry-warriors-issues-major-questions",
-          "published": "Sun, 12 Apr 2026 09:55:45 EST",
+          "published": "Sun, 12 Apr 2026 19:27:07 EST",
           "summary": "We canvass the league on six storylines that could define the postseason.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Rory McIlroy's Masters lead evaporated, setting the stage for a dramatic final round, while Kelsey Plum and Sophie Cunningham re-signed with their WNBA teams.",
-        "summary": "Today's sports headlines highlight a mix of dramatic moments in golf, significant player re-signings in the WNBA, and notable performances in boxing and MMA. Rory McIlroy's unexpected stumble at the Masters has created a competitive final round, while Kelsey Plum and Sophie Cunningham are set to return to their respective WNBA teams. Tyson Fury's victory over Arslanbek Makhmudov and Carlos Ulberg's knockout win at UFC 327 also made headlines, alongside updates on the NBA playoff race.",
+        "key_takeaway": "Rory McIlroy won the Masters for the second consecutive year, becoming the first back-to-back champion since Tiger Woods.",
+        "summary": "In today's sports news, Rory McIlroy made headlines by winning the Masters for the second year in a row, while the NBA and MLB also saw significant developments. The Sacramento Kings confirmed they will retain coach Doug Christie for the next season, and the Milwaukee Brewers are concerned about Christian Yelich's injury. Additionally, notable figures in sports, including Phil Garner and Alex Ovechkin, were in the spotlight for various reasons, including Garner's passing and Ovechkin's potential retirement. The NFL draft is also generating buzz with rising prospects, and the NBA playoffs are approaching with key storylines emerging.",
         "key_themes": [
-          "Masters golf tournament updates",
-          "WNBA player re-signings",
-          "Tyson Fury boxing match recap",
-          "UFC 327 highlights",
-          "NBA playoff implications"
+          "Rory McIlroy Masters victory analysis",
+          "NBA playoff predictions",
+          "MLB injury updates",
+          "NFL draft prospects",
+          "Phil Garner's legacy",
+          "Alex Ovechkin retirement considerations"
         ],
         "notable_headlines": [
           {
-            "headline": "How Rory McIlroy's Saturday stumble sets up a dramatic Sunday at the Masters",
-            "why_it_matters": "McIlroy's loss of a significant lead adds tension to the Masters' final round.",
+            "headline": "Rory prevails, becomes 4th to repeat at Masters",
+            "why_it_matters": "McIlroy's victory marks a significant achievement in golf, highlighting his dominance in the sport.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Sources: Kings to retain Christie for next season",
+            "why_it_matters": "Retaining a coach can provide stability for the team as they prepare for the next season.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Three-time All-Star, former manager Garner dies",
+            "why_it_matters": "Garner's passing is a loss for the baseball community, reflecting on his contributions as a player and manager.",
             "signal": "Risk"
           },
           {
-            "headline": "Sources: Sparks re-signing Plum to 1-year deal",
-            "why_it_matters": "Plum's return strengthens the Sparks' roster for the upcoming WNBA season.",
-            "signal": "Opportunity"
+            "headline": "Yelich exits hurt as Brewers expecting 'bad news'",
+            "why_it_matters": "Injuries to key players can impact team performance and playoff aspirations.",
+            "signal": "Risk"
           },
           {
-            "headline": "Moving day: Young ties Rory amid Masters drama",
-            "why_it_matters": "Cameron Young's performance creates a competitive atmosphere for the Masters' conclusion.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Fury dominates Makhmudov, calls out Joshua",
-            "why_it_matters": "Fury's victory sets up a potential high-profile fight with Anthony Joshua.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Badly hobbled, Ulberg KO's Procházka to win title",
-            "why_it_matters": "Ulberg's unexpected victory highlights the unpredictability of MMA.",
-            "signal": "Opportunity"
+            "headline": "Ovi lauds Penguins but waves off farewell shakes",
+            "why_it_matters": "Ovechkin's potential retirement raises questions about his future and the end of an era in hockey.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Final round of the Masters will conclude with potential for dramatic outcomes.",
-            "NBA playoff implications will become clearer as teams compete for seeding.",
-            "UFC 327's impact on future matchups will be analyzed."
+            "Further updates on Christian Yelich's injury status are expected.",
+            "More details on the NBA playoff matchups will emerge as teams finalize their standings.",
+            "Expect reactions to McIlroy's Masters win from the golf community."
           ],
           "next_1_4_weeks": [
-            "WNBA teams will prepare for the upcoming season with training camps starting soon.",
-            "NBA playoffs will commence, with teams vying for championship positions.",
-            "Boxing fans will anticipate the potential Fury vs. Joshua matchup."
+            "The NBA playoffs will begin, with key matchups and storylines developing.",
+            "The NFL draft is approaching, with teams finalizing their strategies and player evaluations.",
+            "Ongoing discussions about Ovechkin's future and potential retirement will continue."
           ],
           "watch_list": [
-            "Rory McIlroy's performance in the Masters final round.",
-            "Kelsey Plum's impact on the Sparks this season.",
-            "Tyson Fury's next fight announcement.",
-            "NBA playoff matchups and predictions."
+            "Monitor injury updates for Christian Yelich and other MLB players.",
+            "Keep an eye on the NBA playoff landscape and emerging storylines.",
+            "Watch for news on NFL draft prospects and team selections.",
+            "Follow developments regarding Rory McIlroy's career after his Masters victory."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings across the sports landscape today.",
-          "Player performances and outcomes can be unpredictable, affecting future analyses."
+          "The sentiment score indicates mixed feelings in the sports community, reflecting both triumphs and losses.",
+          "Injuries and retirements can significantly alter team dynamics and fan expectations."
         ],
         "related_topics": [
-          "What are the latest updates from the Masters golf tournament?",
-          "WNBA player signings and team news",
-          "Tyson Fury's boxing career and future fights",
-          "UFC 327 results and highlights",
-          "NBA playoff scenarios and predictions"
+          "What are the implications of McIlroy's Masters win?",
+          "Latest updates on NBA playoffs and predictions",
+          "Injury news for MLB players like Christian Yelich",
+          "NFL draft prospects to watch this season",
+          "Phil Garner's impact on baseball history"
         ]
       },
-      "tweet_text": "Masters drama unfolds as Rory stumbles, young guns rise, and the UFC shakes things up—Sunday's showdown...\n\nSports Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Masters #Rory #Sources #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Rory McIlroy makes history at the Masters, while heartbreak strikes the Brewers and the sports world mourns...\n\nSports Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Allstar #23second #4time #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -771,74 +771,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries reveal significant insights into human history, health, and the universe, including Neanderthal interactions and advancements in cancer treatment.",
-        "summary": "Today's science headlines cover a range of topics, from groundbreaking discoveries about Neanderthal cooperation and the detection of airborne toxins, to advancements in cancer treatment and the mysteries of the universe's expansion. Key findings include evidence of Neanderthals and Homo sapiens collaborating, the potential of vitamin B1 in chemical manufacturing, and the role of genetic factors in drug effectiveness. Additionally, studies highlight the importance of early detection of Alzheimer's through smell loss and the resilience of life on Mars.",
+        "key_takeaway": "Recent scientific discoveries reveal significant insights into human history, health, and the universe, including Neanderthal interactions and potential cancer treatments.",
+        "summary": "Today's science headlines highlight groundbreaking research on Neanderthal cooperation, dietary habits linked to weight management, the detection of airborne toxins, and advancements in cancer treatment and understanding of the universe's expansion.",
         "key_themes": [
-          "Neanderthal cooperation and human history",
-          "Health benefits of eating habits",
+          "Neanderthal cooperation and cultural exchange",
+          "Dietary habits and weight management",
           "Airborne toxins and environmental health",
-          "Advancements in cancer treatment",
-          "The mystery of the universe's expansion"
+          "Cancer treatment advancements",
+          "Universe expansion and Hubble tension"
         ],
         "notable_headlines": [
           {
             "headline": "110,000-year-old discovery rewrites human history: Neanderthals and Homo sapiens worked together",
-            "why_it_matters": "This research challenges previous notions of human isolation and highlights the complexity of early human interactions.",
+            "why_it_matters": "This research challenges previous notions of human isolation and highlights the importance of cultural exchange in early human societies.",
             "signal": "Opportunity"
           },
           {
             "headline": "Two simple eating habits linked to lower weight, study finds",
-            "why_it_matters": "Understanding eating patterns can inform public health strategies for obesity prevention.",
+            "why_it_matters": "Understanding the timing of meals could provide new strategies for weight management and public health initiatives.",
             "signal": "Opportunity"
           },
           {
             "headline": "Unusual airborne toxin detected in the U.S. for the first time",
-            "why_it_matters": "This discovery raises concerns about environmental health and pollution sources.",
+            "why_it_matters": "The discovery of toxic MCCPs raises concerns about environmental contamination and public health risks.",
             "signal": "Risk"
           },
           {
             "headline": "Your nose could detect Alzheimer’s years before symptoms begin",
-            "why_it_matters": "Early detection of Alzheimer’s could lead to better treatment outcomes.",
+            "why_it_matters": "Early detection of Alzheimer’s through smell could lead to improved treatment and patient outcomes.",
             "signal": "Opportunity"
           },
           {
             "headline": "Hidden weak spots in HIV and Ebola revealed with breakthrough nanodisc technology",
-            "why_it_matters": "This technology could accelerate the development of effective vaccines against these viruses.",
+            "why_it_matters": "This technology could accelerate vaccine development by providing new insights into viral interactions with the immune system.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of Neanderthal findings may emerge",
-            "Additional studies on the health impacts of eating habits are expected",
-            "Monitoring of airborne toxins will continue"
+            "Further analysis on Neanderthal findings expected to be published",
+            "More studies on dietary habits and their implications for health may emerge",
+            "Monitoring of airborne toxins and their sources will continue"
           ],
           "next_1_4_weeks": [
-            "Results from ongoing cancer treatment studies will be published",
-            "New research on Alzheimer's detection methods may be released",
-            "Updates on the universe's expansion rate will be shared"
+            "Anticipated results from ongoing cancer treatment studies involving zeaxanthin",
+            "Potential updates on the implications of the universe's expansion rate",
+            "New research on Alzheimer’s detection methods may be released"
           ],
           "watch_list": [
             "Developments in nanodisc technology for vaccine research",
-            "Long-term studies on the effects of dietary habits",
-            "Research on the implications of the Hubble tension in cosmology.",
-            "Advancements in understanding Neanderthal behavior"
+            "Updates on environmental health regarding airborne toxins",
+            "Further studies on the relationship between diet and health outcomes in the population.",
+            "Research on Neanderthal cultural practices and their implications"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates varying levels of optimism and concern across different studies.",
-          "Some findings are preliminary and require further validation."
+          "The mixed sentiment indicates that while some findings are promising, others raise concerns that require further investigation.",
+          "The implications of these discoveries may take time to fully understand and apply."
         ],
         "related_topics": [
-          "What are the latest discoveries in human evolution?",
+          "What are the latest discoveries about Neanderthals?",
           "How do eating habits affect weight management?",
-          "What new toxins have been found in the environment?",
-          "What breakthroughs are being made in cancer treatment?",
-          "How is the universe's expansion rate being measured?"
+          "What new advancements are there in cancer treatment?",
+          "What is the significance of airborne toxins in the environment?",
+          "Why is the universe expanding faster than expected?"
         ]
       },
-      "tweet_text": "Ancient alliances and modern discoveries: how Neanderthals and Homo sapiens redefined survival and what...\n\nScience Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Finds #Study #110000yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Ancient alliances and modern mysteries collide: Discover how Neanderthals and Homo sapiens teamed up...\n\nScience Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Finds #Study #110000yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
