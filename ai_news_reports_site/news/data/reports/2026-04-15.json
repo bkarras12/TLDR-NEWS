@@ -1,15 +1,13 @@
 {
   "date": "2026-04-15",
-  "generated_at_utc": "2026-04-15T23:54:29Z",
+  "generated_at_utc": "2026-04-16T05:24:53Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trumps",
     "monopoly",
-    "live",
     "jury",
     "finds",
-    "deal",
     "trump",
     "iran"
   ],
@@ -23,9 +21,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2898,
+        "score": -0.2957,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.483, dampened ×0.6 → -0.2898). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.493, dampened ×0.6 → -0.2957). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -33,6 +31,13 @@
           "url": "https://www.bbc.com/news/articles/c4g44gj7rgno?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 15 Apr 2026 21:10:14 GMT",
           "summary": "The BBC's chief international correspondent reports from Iran as diplomatic efforts to avoid a return to war intensify.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Former US Marine pilot loses appeal against extradition from Australia",
+          "url": "https://www.bbc.com/news/articles/c20q2n0l9vgo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 16 Apr 2026 02:17:38 GMT",
+          "summary": "Daniel Duggan was arrested in 2022 over claims he illegally trained the Chinese military in South Africa.",
           "source": "BBC News"
         },
         {
@@ -52,7 +57,7 @@
         {
           "title": "Trump threatens to fire Fed chair Powell if he doesn't leave in May",
           "url": "https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 15 Apr 2026 18:29:50 GMT",
+          "published": "Thu, 16 Apr 2026 01:55:12 GMT",
           "summary": "Donald Trump's threat marks the latest escalation in his ongoing spat with Jerome Powell.",
           "source": "BBC News"
         },
@@ -64,17 +69,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Prominent Palestinian prisoner Marwan Barghouti assaulted three times in a month, family says",
-          "url": "https://www.bbc.com/news/articles/czreedn4n7jo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 15 Apr 2026 15:59:24 GMT",
-          "summary": "The Israeli Prison Service says the allegation that Barghouti was subjected to physical violence by prison guards are \"false and baseless\".",
-          "source": "BBC News"
-        },
-        {
           "title": "Israeli triple-tap strike kills three paramedics in Lebanon, officials say",
           "url": "https://www.bbc.com/news/articles/cgqkkxd09e2o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 15 Apr 2026 18:48:34 GMT",
           "summary": "Lebanon's government condemns as a \"flagrant crime\" the killing of the paramedics, one of whom featured in a BBC report.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Prominent Palestinian prisoner Marwan Barghouti assaulted three times in a month, family says",
+          "url": "https://www.bbc.com/news/articles/czreedn4n7jo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 15 Apr 2026 15:59:24 GMT",
+          "summary": "The Israeli Prison Service says the allegation that Barghouti was subjected to physical violence by prison guards are \"false and baseless\".",
           "source": "BBC News"
         },
         {
@@ -104,85 +109,76 @@
           "published": "Wed, 15 Apr 2026 17:56:47 GMT",
           "summary": "Prosecutors say Stefan Pildes spent hundreds of thousands of $2.7m raised for charity on personal expenses.",
           "source": "BBC News"
-        },
-        {
-          "title": "South Korea jails American YouTuber for public nuisance",
-          "url": "https://www.bbc.com/news/articles/cj400lje9vxo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 15 Apr 2026 04:21:51 GMT",
-          "summary": "Johnny Somali sparked outrage after kissing a statue representing World War Two sex slaves.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Diplomatic tensions rise in the Middle East amid violence in Turkey and Lebanon, while Trump's political conflicts continue to unfold.",
-        "summary": "Today's headlines highlight escalating geopolitical tensions, particularly in the Middle East, with a fragile ceasefire in Iran and violence in Turkey and Lebanon. Additionally, Trump's political disputes are impacting his support among conservative Catholics. The report also covers a range of other global issues, including South Africa's diplomatic appointments and a unique smuggling case in Kenya.",
+        "key_takeaway": "Diplomatic efforts to prevent war in Iran intensify amid ongoing violence in the region and political tensions in the US.",
+        "summary": "Today's headlines highlight escalating violence in the Middle East, including a ceasefire in Iran, school shootings in Turkey, and military strikes in Lebanon, alongside significant political developments in the US and South Africa.",
         "key_themes": [
-          "Middle East conflict updates",
-          "Trump's political challenges",
+          "Iran ceasefire negotiations",
           "Turkey school shootings",
-          "Israeli actions in Lebanon",
-          "South Africa's new ambassador"
+          "US political tensions",
+          "Lebanon military strikes",
+          "South Africa diplomatic appointments"
         ],
         "notable_headlines": [
           {
             "headline": "Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done",
-            "why_it_matters": "This report sheds light on the precarious diplomatic situation in Iran as efforts to prevent war intensify.",
+            "why_it_matters": "Diplomatic efforts are crucial to prevent further conflict in Iran, impacting regional stability.",
             "signal": "Unclear"
           },
           {
             "headline": "Nine killed in second Turkish school shooting in two days",
-            "why_it_matters": "The repeated violence in Turkish schools raises concerns about safety and security in educational institutions.",
+            "why_it_matters": "The repeated violence in Turkish schools raises concerns about public safety and security measures.",
             "signal": "Risk"
           },
           {
             "headline": "Israeli triple-tap strike kills three paramedics in Lebanon, officials say",
-            "why_it_matters": "The killing of paramedics has drawn international condemnation and highlights the ongoing violence in the region.",
+            "why_it_matters": "The attack on paramedics highlights the ongoing humanitarian crisis and violence in the region.",
             "signal": "Risk"
           },
           {
-            "headline": "Trump's rift with Pope is playing out in public - it's costing him valuable support",
-            "why_it_matters": "The conflict may affect Trump's support among conservative Catholics, a key demographic in his political base.",
+            "headline": "Trump threatens to fire Fed chair Powell if he doesn't leave in May",
+            "why_it_matters": "This threat could have significant implications for US economic policy and market stability.",
             "signal": "Risk"
           },
           {
-            "headline": "South Africa names apartheid-era politician as new ambassador to the US",
-            "why_it_matters": "This appointment reflects South Africa's complex political history and its current diplomatic strategies.",
-            "signal": "Opportunity"
+            "headline": "Prominent Palestinian prisoner Marwan Barghouti assaulted three times in a month, family says",
+            "why_it_matters": "Allegations of violence against prisoners raise human rights concerns and could affect international relations.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in Iran's ceasefire negotiations.",
-            "Watch for reactions to the Turkish school shootings from the government and public.",
-            "Follow updates on Trump's political maneuvers and their impact on his support."
+            "Monitoring developments in Iran's ceasefire negotiations and potential US involvement.",
+            "Observing the response to the Turkish school shootings and any government actions taken.",
+            "Following the political fallout from Trump's threats against the Fed chair."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions regarding the Iran conflict and potential US involvement.",
-            "Anticipate further developments in the Israeli-Lebanese tensions following recent strikes.",
-            "Watch for implications of South Africa's new ambassador on US-South Africa relations."
+            "Anticipating further developments in the Iran conflict and regional diplomatic efforts.",
+            "Watching for potential changes in US economic policy following Trump's threats.",
+            "Evaluating the impact of ongoing violence in Lebanon and Turkey on regional stability."
           ],
           "watch_list": [
-            "Iran ceasefire negotiations",
+            "Iran ceasefire developments",
             "Turkey's response to school shootings",
-            "Trump's political support among conservatives",
-            "Israeli military actions in Lebanon",
-            "South Africa's diplomatic initiatives"
+            "US political dynamics regarding the Federal Reserve",
+            "Human rights issues in Israel and Palestine",
+            "Lebanon's military actions and international reactions"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and may change rapidly.",
-          "Public sentiment regarding Trump's political conflicts is difficult to gauge accurately."
+          "The situation in Iran remains fluid and unpredictable, making it difficult to assess long-term outcomes.",
+          "Political tensions in the US could shift rapidly, impacting economic policies and international relations."
         ],
         "related_topics": [
-          "What is happening in the Middle East today?",
-          "Updates on Turkey school shootings",
-          "Trump's political challenges and support",
-          "Israeli actions in Lebanon explained",
-          "South Africa's diplomatic relations with the US"
+          "What are the latest developments in the Iran ceasefire negotiations?",
+          "How are school shootings affecting Turkey's public safety policies?",
+          "What are the implications of Trump's threats to the Federal Reserve?"
         ]
       },
-      "tweet_text": "Fragile ceasefire hangs by a thread as Iranians question if a US deal is even possible amidst global chaos.\n\nWorld Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Three #Assaulted #Barghouti #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "As fragile ceasefires falter, the world holds its breath—can diplomacy save Iran from chaos?\n\nWorld Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Three #Against #Appeal #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -284,29 +280,29 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Wall Street reached a record high amid optimism over the end of the Iran war, while Trump faces pressure over military spending and potential trade deal changes.",
-        "summary": "Today's business news highlights a mix of optimism and challenges, with Wall Street hitting record highs as investors anticipate the end of the Iran conflict. Meanwhile, President Trump faces scrutiny over military spending and potential changes to the US-UK trade deal, alongside significant developments in labor movements and corporate monopolies.",
+        "key_takeaway": "Wall Street reached a record high amid optimism about the end of the Iran war, while Trump faces scrutiny over military spending and potential trade deal changes.",
+        "summary": "Today's business news highlights a mixed sentiment as Wall Street celebrates a record high driven by hopes for peace in Iran, while controversies surrounding military spending and corporate monopolies unfold. Trump threatens to fire the Fed chair, and union leaders push for labor movement revival amid economic challenges.",
         "key_themes": [
           "US military spending analysis",
           "Wall Street record highs",
-          "Trump's economic policies",
-          "Live Nation Ticketmaster monopoly ruling",
+          "Trump's influence on the Fed",
+          "Live Nation monopoly ruling",
           "US labor movement revival efforts"
         ],
         "notable_headlines": [
           {
             "headline": "Tax day: US taxpayers spend hundreds more on military as Trump pushes for vast increase",
-            "why_it_matters": "This analysis reveals the growing financial burden on taxpayers due to increased military spending under Trump's administration.",
+            "why_it_matters": "The analysis reveals the impact of military spending on taxpayers as Trump advocates for increased defense budgets.",
             "signal": "Risk"
           },
           {
             "headline": "Wall Street scales fresh record high as investors bet on end of Iran war",
-            "why_it_matters": "The S&P 500's historic milestone reflects investor confidence amid geopolitical developments.",
+            "why_it_matters": "The S&P 500 reaching 7,000 points reflects investor confidence amid geopolitical developments.",
             "signal": "Opportunity"
           },
           {
             "headline": "Trump threatens to fire Fed chair Jerome Powell amid pressure campaign",
-            "why_it_matters": "This threat raises concerns about the independence of the Federal Reserve and its impact on monetary policy.",
+            "why_it_matters": "This threat raises concerns about the independence of the Federal Reserve and its impact on economic policy.",
             "signal": "Risk"
           },
           {
@@ -316,45 +312,47 @@
           },
           {
             "headline": "‘Power in the hands of people’: union leaders push to revive ailing US labor movement",
-            "why_it_matters": "This initiative aims to address declining union membership and combat wealth inequality in the US.",
+            "why_it_matters": "This initiative aims to address declining union membership and rising wealth inequality in the US.",
             "signal": "Opportunity"
           },
           {
             "headline": "Trump warns US-UK trade deal ‘can always be changed’ with relations in ‘sad state’",
-            "why_it_matters": "Trump's comments signal potential instability in international trade relations, particularly with the UK.",
+            "why_it_matters": "Trump's comments could signal instability in US-UK trade relations, impacting economic forecasts.",
             "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Wall Street's record highs and potential market adjustments.",
-            "Watch for updates on Trump's comments regarding the Fed and trade deals.",
-            "Expect further developments in the Live Nation and Ticketmaster case."
+            "Monitor Wall Street's response to ongoing geopolitical developments in Iran.",
+            "Watch for reactions from the Federal Reserve regarding Trump's threats.",
+            "Follow updates on the Live Nation ruling and its implications for the ticketing industry."
           ],
           "next_1_4_weeks": [
-            "Observe trends in labor movement revitalization efforts and their impact on union membership.",
-            "Anticipate potential shifts in US-UK trade relations following Trump's statements.",
-            "Keep an eye on the economic implications of the Iran war's status."
+            "Expect potential shifts in US-UK trade negotiations following Trump's comments.",
+            "Observe the labor movement's progress in reviving union membership.",
+            "Keep an eye on corporate responses to the Live Nation monopoly ruling."
           ],
           "watch_list": [
-            "Impact of military spending on taxpayer sentiment and economic growth.",
-            "Developments in the US labor market and unionization efforts.",
-            "Responses from the Federal Reserve to Trump's pressure campaign.",
-            "Outcomes of the Live Nation and Ticketmaster monopoly ruling."
+            "Impact of military spending on taxpayers and the economy.",
+            "Trends in Wall Street performance amid geopolitical tensions.",
+            "Developments in the US labor movement and union membership rates.",
+            "Potential changes in US monetary policy under pressure from Trump."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall economic outlook.",
-          "Geopolitical tensions may influence market stability and investor confidence."
+          "The sentiment score is mixed and reflects a range of opinions on the economic outlook.",
+          "Geopolitical events can rapidly change market conditions and investor sentiment."
         ],
         "related_topics": [
-          "What are the implications of Trump's military spending policies?",
-          "How is the US labor movement evolving in 2026?",
-          "What factors contributed to Wall Street's record high today?"
+          "What is the impact of military spending on US taxpayers?",
+          "How did Wall Street reach a record high today?",
+          "What are the implications of the Live Nation monopoly ruling?",
+          "What is the current state of the US labor movement?",
+          "How might Trump's threats affect the Federal Reserve?"
         ]
       },
-      "tweet_text": "Tax day takes a wild turn as Trump pushes for military spending while Wall Street soars amid hopes for...\n\nBusiness Sentiment: Mixed (-0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Iran #Warns #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Taxpayers brace for a military bill as Trump stirs the pot, while Wall Street celebrates a potential peace...\n\nBusiness Sentiment: Mixed (-0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Iran #Warns #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -442,8 +440,8 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "YouTube introduces a feature to turn off Shorts, while Ford's EV chief departs and Ticketmaster is found to be an illegal monopoly.",
-        "summary": "Today's technology news highlights YouTube's new feature allowing users to disable Shorts, Ford's leadership changes in its EV division, and a jury ruling against Ticketmaster for monopolistic practices. Additionally, the FTC is pushing ad agencies to drop brand safety rules, Google launches a Gemini AI app for Mac, and Microsoft responds to Apple's MacBook Neo with student offers. Ikea unveils a smart donut lamp, and Best Buy kicks off its Ultimate Upgrade Sale.",
+        "key_takeaway": "YouTube introduces a feature to disable Shorts, while Ford's EV chief departs and Ticketmaster is found to be an illegal monopoly.",
+        "summary": "Today's technology news highlights YouTube's new option to turn off Shorts, Ford's leadership changes in its EV division, and a jury's ruling against Ticketmaster for monopolistic practices. Additionally, the FTC is pushing ad agencies to drop certain brand safety rules, Google launches a Gemini AI app for Mac, and Microsoft responds to Apple's new MacBook with student offers. Ikea unveils a smart lamp, and Best Buy kicks off its Ultimate Upgrade Sale.",
         "key_themes": [
           "YouTube Shorts feature update",
           "Ford EV leadership changes",
@@ -455,69 +453,67 @@
         "notable_headlines": [
           {
             "headline": "YouTube now lets you turn off Shorts",
-            "why_it_matters": "This feature allows users to customize their viewing experience by removing Shorts, which may impact user engagement on the platform.",
+            "why_it_matters": "This feature allows users to customize their experience by removing Shorts, reflecting YouTube's responsiveness to user feedback.",
             "signal": "Opportunity"
           },
           {
             "headline": "Ford’s EV and software chief Doug Field is leaving the company",
-            "why_it_matters": "Doug Field's departure could signal a shift in Ford's strategy for electric vehicles and software development.",
+            "why_it_matters": "Doug Field's departure signals a significant shift in Ford's strategy for electric vehicles and software development.",
             "signal": "Risk"
           },
           {
             "headline": "Ticketmaster is an illegal monopoly, jury finds",
-            "why_it_matters": "The ruling could lead to significant changes in the live event ticketing industry and impact competition.",
+            "why_it_matters": "The ruling could have major implications for the live event ticketing industry and competition laws.",
             "signal": "Risk"
           },
           {
             "headline": "FTC pushes ad agencies into dropping brand safety rules",
-            "why_it_matters": "This move may reshape advertising practices and influence how brands engage with platforms based on political views.",
+            "why_it_matters": "This move could reshape advertising practices and impact how brands engage with platforms based on political views.",
             "signal": "Unclear"
           },
           {
             "headline": "Google launches a Gemini AI app on Mac",
-            "why_it_matters": "The new app enhances user interaction with AI, potentially increasing productivity for Mac users.",
+            "why_it_matters": "The app enhances user interaction with AI, potentially increasing productivity and engagement with Google's services.",
             "signal": "Opportunity"
           },
           {
             "headline": "Microsoft counters the MacBook Neo with freebies for students",
-            "why_it_matters": "Microsoft's response to Apple's pricing strategy may attract more students to its ecosystem.",
+            "why_it_matters": "This strategy aims to retain student customers amidst competitive pricing from Apple.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor user feedback on YouTube's Shorts feature",
-            "Watch for reactions to Ford's leadership changes",
-            "Follow developments in the Ticketmaster antitrust case"
+            "Monitor reactions to YouTube's Shorts feature update.",
+            "Watch for announcements from Ford regarding its EV strategy post-Field.",
+            "Follow developments in the Ticketmaster antitrust case."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of the FTC's settlement on ad agencies",
-            "Track sales performance of Best Buy's Ultimate Upgrade Sale",
-            "Evaluate the adoption of Google's Gemini AI app among Mac users"
+            "Observe the impact of the FTC's settlement on advertising practices.",
+            "Track sales performance of Best Buy's Ultimate Upgrade Sale.",
+            "Evaluate user feedback on Google's Gemini app."
           ],
           "watch_list": [
-            "YouTube engagement metrics post-Shorts update",
-            "Ford's strategic direction under new leadership",
-            "Ticketmaster's response to the jury ruling",
-            "FTC's influence on advertising practices"
+            "YouTube user engagement metrics post-update.",
+            "Ford's next leadership announcements.",
+            "Implications of the Ticketmaster ruling on other industries.",
+            "FTC's future actions regarding ad agencies."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of YouTube's new feature on user engagement is yet to be determined.",
-          "Ford's future direction under new leadership remains uncertain.",
-          "The long-term effects of the Ticketmaster ruling on the industry are unclear."
+          "The sentiment score indicates mixed feelings about the news, suggesting varying public reactions.",
+          "Details on the implications of the Ticketmaster ruling are still unfolding."
         ],
         "related_topics": [
-          "What are the latest updates on YouTube Shorts",
-          "Ford's leadership changes in electric vehicles",
-          "Ticketmaster antitrust ruling implications",
-          "FTC's new advertising regulations",
-          "Google Gemini AI app features",
-          "Microsoft's offers for students"
+          "What are the latest updates on YouTube Shorts?",
+          "How is Ford changing its EV leadership?",
+          "What does the Ticketmaster ruling mean for the industry?",
+          "What are the features of Google's new Gemini AI app?",
+          "How is Microsoft responding to Apple's MacBook Neo?"
         ]
       },
-      "tweet_text": "YouTube’s new feature lets you ditch those pesky Shorts—freedom is just a click away!\n\nTechnology Sentiment: Mixed (+0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Agencies #Aigenerated #Brand #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "YouTube’s new feature lets you ditch Shorts—finally, a break from the scroll!\n\nTechnology Sentiment: Mixed (+0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Agencies #Aigenerated #Brand #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -528,166 +524,168 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0748,
+        "score": 0.1316,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.125, dampened ×0.6 → -0.0748). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.219, dampened ×0.6 → +0.1316). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Follow live: 76ers, Magic face off in play-in tournament",
+          "title": "As it happened: Top moments as Warriors and 76ers win play-in games",
           "url": "https://www.espn.com/nba/story/_/id/48488725/nba-2026-play-tournament-magic-76ers-clippers-warriors-live-updates-results-highlights",
-          "published": "Wed, 15 Apr 2026 19:39:43 EST",
+          "published": "Thu, 16 Apr 2026 01:08:31 EST",
           "summary": "null",
           "source": "ESPN"
         },
         {
-          "title": "Sources: NBA investigating Ball trip of Adebayo",
-          "url": "https://www.espn.com/nba/story/_/id/48496840/sources-nba-probing-ball-play-adebayo-heat-hornets",
-          "published": "Wed, 15 Apr 2026 19:40:22 EST",
-          "summary": "The NBA is investigating LaMelo Ball's trip of Bam Adebayo, which resulted in the Miami Heat star's lower back injury during Tuesday's play-in game against the Charlotte Hornets, sources told ESPN's Shams Charania.",
+          "title": "Minus Embiid, Maxey propels Sixers into playoffs",
+          "url": "https://www.espn.com/nba/story/_/id/48499241/maxey-scores-31-lead-sixers-magic-east-no-7-seed",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
+          "summary": "With Joel Embiid watching from the bench, Tyrese Maxey scored 31 points to lead the Sixers past the Magic 109-97 and lock up a first-round playoff date with the rival Boston Celtics.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Hornets' Ball fined $35K for 'reckless' Bam play",
+          "url": "https://www.espn.com/nba/story/_/id/48498981/hornets-ball-fined-60k-total-pair-play-incidents",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
+          "summary": "The NBA has fined LaMelo Ball $35,000 \"for making unnecessary and reckless contact\" with Bam Adebayo during Tuesday's play-in game. The Hornets star also was fined $25,000 for using profane language during a TV interview after that game.",
+          "source": "ESPN"
+        },
+        {
+          "title": "LIV CEO says season to continue 'at full throttle'",
+          "url": "https://www.espn.com/golf/story/_/id/48498138/liv-ceo-shoots-speculation-says-26-season-unaltered",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
+          "summary": "Amid reports that Saudi Arabia's Public Investment Fund might be on the verge of pulling its funding for the league, LIV Golf CEO Scott O'Neil told staff in an email Wednesday that its season will go on \"as planned, uninterrupted and at full throttle.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: MLBPA fires two top execs with cause",
+          "url": "https://www.espn.com/mlb/story/_/id/48498255/sources-mlbpa-fires-coo-human-resources-head-cause",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
+          "summary": "The Major League Baseball Players Association fired two top executives with cause Wednesday following an internal investigation, sources told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ulberg says he lost UFC title belt celebrating win",
+          "url": "https://www.espn.com/mma/story/_/id/48499734/carlos-ulberg-says-lost-title-belt-celebrating-ufc-327-win",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
+          "summary": "Newly crowned UFC light heavyweight champion Carlos Ulberg told Fox Sports Australia that he misplaced his title belt while celebrating his victory.",
+          "source": "ESPN"
+        },
+        {
+          "title": "MLB celebrates Robinson's legacy, dons No. 42",
+          "url": "https://www.espn.com/mlb/story/_/id/48498454/mlb-honors-jackie-robinson-legacy-79th-anniversary-debut",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
+          "summary": "Major League Baseball celebrated the 79th anniversary of Jackie Robinson breaking the sport's color barrier, with every player, coach and umpire wearing his No. 42 on Jackie Robinson Day.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Ohtani takes mound but doesn't hit vs. Mets",
+          "url": "https://www.espn.com/mlb/story/_/id/48498339/shohei-ohtani-starts-mound-not-lineup-dodgers-vs-mets",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
+          "summary": "Shohei Ohtani was not in the lineup for his start day Wednesday, the first time in five years that he pitched but did not also hit.",
           "source": "ESPN"
         },
         {
           "title": "'Joke': Madrid fume at costly red card in UCL exit",
           "url": "https://www.espn.com/soccer/story/_/id/48497483/real-madrid-eduardo-camavinga-red-card-bayern-munich-champions-league",
-          "published": "Wed, 15 Apr 2026 19:40:22 EST",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
           "summary": "Coach Álvaro Arbeloa said it was \"obvious\" that Eduardo Camavinga's red card was crucial in Real Madrid's Champions League quarterfinal elimination by Bayern Munich on Wednesday, while midfielder Jude Bellingham called the decision \"a joke.\"",
-          "source": "ESPN"
-        },
-        {
-          "title": "Memo: NFL onboarding replacement officials",
-          "url": "https://www.espn.com/nfl/story/_/id/48497778/memo-nfl-begins-onboarding-potential-replacement-officials",
-          "published": "Wed, 15 Apr 2026 19:40:22 EST",
-          "summary": "The NFL has started onboarding potential replacement officials as the expiration of its CBA with the NFL Referees Association approaches.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: Wilson staying with Aces on $5M deal",
-          "url": "https://www.espn.com/wnba/story/_/id/48494265/sources-wilson-staying-aces-3-year-5m-supermax-deal",
-          "published": "Wed, 15 Apr 2026 19:40:22 EST",
-          "summary": "A'ja Wilson, the only four-time MVP in WNBA history, is staying with the Las Vegas Aces on a 3-year, $5 million supermax contract, sources told ESPN.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Arch '100%,' says wins came when he loosened up",
-          "url": "https://www.espn.com/college-football/story/_/id/48495848/texas-longhorns-qb-arch-manning-feels-100-percent-offseason-foot-surgery",
-          "published": "Wed, 15 Apr 2026 19:40:22 EST",
-          "summary": "Texas quarterback Arch Manning said Wednesday he feels \"100% right now\" following offseason foot surgery. He also reflected on last year, saying, \"The first half of the season, I was pissed. I wasn't playing well and it wasn't fun for me.\"",
-          "source": "ESPN"
-        },
-        {
-          "title": "Messi hit with $7M lawsuit over missed friendly",
-          "url": "https://www.espn.com/soccer/story/_/id/48496977/messi-argentina-federation-sued-missed-exhibition-match",
-          "published": "Wed, 15 Apr 2026 19:40:21 EST",
-          "summary": "A Miami-based event promoter has filed a $7 million lawsuit against Lionel Messi and the Argentine Football Association, alleging fraud and breach of contract after the star sat out an exhibition match last October.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Islanders' fundraiser for convicted cop causes stir",
-          "url": "https://www.espn.com/nhl/story/_/id/48497349/victim-family-angered-islanders-fundraiser-convicted-cop",
-          "published": "Wed, 15 Apr 2026 19:40:22 EST",
-          "summary": "The Islanders are facing questions about a jumbotron promotion urging hockey fans to donate to a former New York City police sergeant who was recently convicted of manslaughter for hurling a cooler of ice at a man fleeing arrest.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Investigation underway after fan-Duran incident",
-          "url": "https://www.espn.com/mlb/story/_/id/48496143/mlb-twins-investigating-red-sox-outfielder-jarren-duran-allegation-fan-comment",
-          "published": "Wed, 15 Apr 2026 19:40:22 EST",
-          "summary": "The Twins and Major League Baseball are investigating Jarren Duran's allegation that a fan he directed his middle finger at during a game had told the Red Sox outfielder to kill himself.",
           "source": "ESPN"
         },
         {
           "title": "🏈 Kiper's two-round NFL mock draft",
           "url": "https://www.espn.com/nfl/draft2026/story/_/id/48478995/2026-nfl-mock-draft-mel-kiper-two-rounds-64-picks-final-predictions",
-          "published": "Wed, 15 Apr 2026 19:40:22 EST",
+          "published": "Thu, 16 Apr 2026 00:41:01 EST",
           "summary": "Mel Kiper Jr. predicts 64 picks across the first two rounds of the draft, including two potential trades, a few QB landing spots and plenty of impact additions.",
           "source": "ESPN"
         },
         {
-          "title": "'He wants a Cy Young': With his arm at full strength, Shohei Ohtani is a man on a mission",
-          "url": "https://www.espn.com/mlb/story/_/id/48043882/mlb-2026-shohei-ohtani-los-angeles-dodgers-cy-young-spring-training",
-          "published": "Wed, 15 Apr 2026 18:46:11 EST",
-          "summary": "Dodgers teammates say MLB's most singular star has set his sights on another history-making achievement.",
+          "title": "What MLB players really think of automated ball-strike challenge rule",
+          "url": "https://www.espn.com/mlb/story/_/id/48486702/mlb-2026-automated-ball-strike-challenge-system-rule-players-weigh-in",
+          "published": "Wed, 15 Apr 2026 19:40:00 EST",
+          "summary": "ABS has been the talk of the MLB season. Here's what those in the game say about the new rule -- and how it changes their jobs.",
           "source": "ESPN"
         },
         {
           "title": "The legacy of Jackie Robinson, baseball's greatest agent of change",
           "url": "https://www.espn.com/mlb/story/_/id/48475790/mlb-2026-jackie-robinson-day-legacy-negro-leagues-dodgers",
-          "published": "Wed, 15 Apr 2026 18:46:11 EST",
+          "published": "Wed, 15 Apr 2026 22:00:56 EST",
           "summary": "On Jackie Robinson Day, we remember one of the game's most legendary players and his lasting impact.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The NBA is investigating LaMelo Ball's actions during a play-in game, while A'ja Wilson secures a supermax deal with the Aces.",
-        "summary": "Today's sports headlines cover a range of topics including the NBA's investigation into LaMelo Ball, Real Madrid's controversial Champions League exit, and A'ja Wilson's contract extension with the Aces. Additionally, the NFL is onboarding replacement officials, and there are ongoing investigations related to fan incidents in MLB.",
+        "key_takeaway": "The NBA play-in games concluded with the Warriors and 76ers advancing, while MLB celebrates Jackie Robinson's legacy amid executive changes in the Players Association.",
+        "summary": "In today's sports news, the NBA play-in games saw the Warriors and 76ers secure playoff spots, with Tyrese Maxey leading the Sixers in a win over the Magic. LaMelo Ball faced fines for reckless play, and LIV Golf's CEO reassured staff about the season's continuity despite funding concerns. The MLB honored Jackie Robinson's legacy on the anniversary of his debut, while the Players Association made significant executive changes. Additionally, UFC champion Carlos Ulberg misplaced his title belt during celebrations, and Real Madrid expressed frustration over a controversial red card in their Champions League exit.",
         "key_themes": [
-          "NBA play-in tournament updates",
-          "Real Madrid Champions League controversy",
-          "A'ja Wilson contract news",
-          "NFL replacement officials onboarding",
-          "MLB fan incident investigations"
+          "NBA play-in game results",
+          "Jackie Robinson Day celebrations",
+          "LIV Golf season updates",
+          "MLB Players Association executive changes",
+          "UFC title belt incident",
+          "Real Madrid Champions League exit controversy"
         ],
         "notable_headlines": [
           {
-            "headline": "Sources: NBA investigating Ball trip of Adebayo",
-            "why_it_matters": "The investigation could have implications for player conduct and league policies regarding injuries.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "'Joke': Madrid fume at costly red card in UCL exit",
-            "why_it_matters": "The decision could affect the perception of officiating standards in major tournaments.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Memo: NFL onboarding replacement officials",
-            "why_it_matters": "This move indicates potential labor issues within the NFL as the CBA expiration approaches.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Sources: Wilson staying with Aces on $5M deal",
-            "why_it_matters": "A'ja Wilson's contract solidifies her status as a key player in the WNBA.",
+            "headline": "Minus Embiid, Maxey propels Sixers into playoffs",
+            "why_it_matters": "Tyrese Maxey's performance without Joel Embiid highlights his potential impact in the playoffs against the Celtics.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Investigation underway after fan-Duran incident",
-            "why_it_matters": "The outcome may influence fan behavior and league policies on player interactions.",
+            "headline": "Hornets' Ball fined $35K for 'reckless' Bam play",
+            "why_it_matters": "LaMelo Ball's fines reflect the NBA's stance on player conduct and safety during games.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "LIV CEO says season to continue 'at full throttle'",
+            "why_it_matters": "The LIV Golf CEO's statement aims to quell concerns about the league's future amid funding speculation.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "MLB celebrates Robinson's legacy, dons No. 42",
+            "why_it_matters": "Jackie Robinson Day serves as a reminder of the ongoing impact of diversity and inclusion in sports.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Sources: MLBPA fires two top execs with cause",
+            "why_it_matters": "The firing of MLBPA executives indicates potential internal issues and shifts in leadership within the organization.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Updates on the NBA investigation into LaMelo Ball's actions",
-            "Reactions to Real Madrid's Champions League exit",
-            "Further developments regarding the NFL's onboarding of replacement officials"
+            "Upcoming NBA playoff matchups will be finalized as teams prepare for the first round.",
+            "MLB games will continue with teams reflecting on Jackie Robinson's legacy.",
+            "LIV Golf events will proceed as scheduled, with attention on funding stability."
           ],
           "next_1_4_weeks": [
-            "Potential outcomes of the NBA investigation",
-            "Impact of A'ja Wilson's contract on the WNBA landscape",
-            "Continued analysis of MLB fan interaction policies"
+            "The NBA playoffs will commence, showcasing top teams and players in high-stakes matchups.",
+            "MLB will monitor player reactions to new rules and ongoing executive changes in the Players Association.",
+            "LIV Golf's season will unfold, potentially revealing impacts of funding discussions."
           ],
           "watch_list": [
-            "NBA play-in tournament results",
-            "Real Madrid's next matches",
-            "NFL labor negotiations",
-            "WNBA season developments",
-            "MLB fan conduct regulations"
+            "Monitor NBA playoff performance of the 76ers and Warriors.",
+            "Watch for updates on MLBPA leadership and player reactions to new rules.",
+            "Follow LIV Golf's developments regarding funding and season continuity.",
+            "confidence",
+            "High"
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating a balance of positive and negative news in sports today.",
-          "Ongoing investigations may lead to further developments that could change the current narrative."
+          "The sentiment score is mixed, indicating a balance of positive and negative news in sports today. Some headlines may require further context for full understanding.",
+          "related_topics",
+          "What are the latest NBA playoff updates?",
+          "How is Jackie Robinson's legacy being honored in sports?",
+          "What are the implications of the MLBPA executive changes?"
         ],
         "related_topics": [
-          "What are the latest updates on the NBA play-in tournament?",
-          "How did Real Madrid's red card affect their UCL exit?",
-          "What is the status of A'ja Wilson's contract with the Aces?",
-          "What are the implications of the NFL's replacement officials?",
-          "What happened in the MLB fan incident involving Jarren Duran?"
+          "What are the latest NBA playoff updates?",
+          "How is Jackie Robinson's legacy being honored in sports?",
+          "What are the implications of the MLBPA executive changes?"
         ]
       },
-      "tweet_text": "Playoff drama heats up as the 76ers clash with the Magic—who's ready to shine in the spotlight?\n\nSports Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #76ers #Aces #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Playoff drama unfolds as Maxey shines for the Sixers, while Ball feels the heat after a reckless move—sports just...\n\nSports Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#76ers #Ball #Belt #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -790,13 +788,13 @@
       ],
       "ai_report": {
         "key_takeaway": "Recent scientific discoveries range from ancient fossils to breakthroughs in understanding productivity and potential alien life detection methods.",
-        "summary": "Today's science headlines highlight a variety of groundbreaking discoveries, including insights into productivity, ancient fossils, and new methods for detecting extraterrestrial life. Researchers have also made significant strides in understanding viral infections and animal behavior, while debunking long-held myths about species extinction.",
+        "summary": "Today's headlines highlight significant advancements in various scientific fields, including productivity research, paleontology, astrophysics, virology, and evolutionary biology. Notable findings include the reconstruction of ancient dinosaurs, the discovery of a new species, and breakthroughs in understanding the Epstein-Barr virus and mammal evolution.",
         "key_themes": [
-          "ancient fossils discoveries",
-          "productivity research findings",
+          "productivity research breakthroughs",
+          "paleontological discoveries",
           "alien life detection methods",
-          "viral infection breakthroughs",
-          "animal behavior studies"
+          "advancements in virology",
+          "evolutionary biology insights"
         ],
         "notable_headlines": [
           {
@@ -806,82 +804,63 @@
           },
           {
             "headline": "This 31-foot “terror croc” ate dinosaurs. Now it’s back",
-            "why_it_matters": "The reconstruction of Deinosuchus schwimmeri provides valuable insights into prehistoric ecosystems and predator-prey dynamics.",
+            "why_it_matters": "The reconstruction of Deinosuchus schwimmeri provides insights into prehistoric ecosystems and apex predators.",
             "signal": "Opportunity"
           },
           {
             "headline": "A crushed fossil revealed a dinosaur that shouldn’t have existed",
-            "why_it_matters": "The discovery of a new carnivorous dinosaur species challenges existing theories about dinosaur survival during extinction events.",
+            "why_it_matters": "This discovery challenges existing theories about dinosaur extinction and survival during the Triassic period.",
             "signal": "Risk"
           },
           {
             "headline": "Scientists think alien life might be hiding in patterns",
-            "why_it_matters": "This new detection method could revolutionize the search for extraterrestrial life by identifying patterns across planets.",
+            "why_it_matters": "This new method could revolutionize how scientists search for extraterrestrial life by focusing on planetary patterns.",
             "signal": "Opportunity"
           },
           {
             "headline": "Graphene just defied a fundamental law of physics",
-            "why_it_matters": "This breakthrough could lead to advancements in technology by revealing new properties of materials at the quantum level.",
+            "why_it_matters": "This breakthrough could lead to new technologies by revealing novel behaviors of electrons in materials.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists just solved a 160-million-year fossil mystery “I’ve never seen anything like it”",
-            "why_it_matters": "The finding of a rare sponge fossil enhances our understanding of early animal evolution and fossil preservation.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists just recreated a rare cosmic reaction never seen before",
-            "why_it_matters": "This experiment provides critical insights into the formation of elements in supernovae, refining astrophysical models.",
-            "signal": "Risk"
           },
           {
             "headline": "95% of people carry this virus and scientists may have just found how to stop it",
-            "why_it_matters": "Developing effective antibodies against Epstein-Barr virus could have significant implications for public health.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists just debunked a 50-year myth about Hawaii’s birds",
-            "why_it_matters": "This research shifts the narrative on species extinction and highlights the impact of environmental changes.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Mammal ancestors laid eggs, and this 250-million-year-old fossil finally proves it",
-            "why_it_matters": "The discovery of an ancient egg provides crucial evidence for the reproductive history of mammal ancestors.",
+            "why_it_matters": "Developing effective antibodies against Epstein-Barr virus could have significant health implications.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the productivity study may emerge.",
-            "More details on the ancient croc exhibit could be released.",
-            "Expect discussions on the implications of the new alien life detection method."
+            "Further analysis on the implications of the productivity study may emerge.",
+            "Expect more details on the Deinosuchus exhibit and its educational impact.",
+            "New studies may be released regarding the implications of the Epstein-Barr virus findings."
           ],
           "next_1_4_weeks": [
-            "Anticipate more findings related to the Epstein-Barr virus research.",
-            "Further studies on the newly discovered dinosaur species may be published.",
-            "Research on the implications of graphene's properties will likely continue."
+            "Anticipate discussions on the broader implications of the alien life detection method.",
+            "Research on the newly discovered dinosaur species may lead to more fossil explorations.",
+            "Further studies on graphene's properties and potential applications are likely."
           ],
           "watch_list": [
-            "Follow developments in ancient species discoveries.",
-            "Monitor advancements in viral infection treatments.",
-            "Keep an eye on new methodologies for detecting extraterrestrial life.",
-            "Watch for updates on productivity research and its applications."
+            "Monitor developments in virology related to Epstein-Barr virus treatments.",
+            "Keep an eye on new paleontological discoveries that may challenge existing theories.",
+            "Watch for advancements in quantum materials research, particularly involving graphene.",
+            "confidence",
+            "High"
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The implications of some discoveries may take time to fully understand.",
-          "Further research is needed to confirm initial findings in several studies."
+          "The interpretations of productivity findings may vary among individuals and contexts.",
+          "Paleontological discoveries often require further validation and peer review before conclusions can be drawn."
         ],
         "related_topics": [
-          "What are the latest discoveries in ancient fossils?",
+          "What are the latest discoveries in paleontology?",
           "How does productivity vary from day to day?",
-          "What new methods are being used to detect alien life?",
-          "What breakthroughs have been made in viral infections?",
-          "How do animal behaviors reveal ecological relationships?"
+          "What advancements have been made in virology recently?",
+          "What methods are scientists using to detect alien life?",
+          "What are the implications of graphene research?"
         ]
       },
-      "tweet_text": "What if your productivity is tied to an ancient creature that once ruled the Earth? Discover the...\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Fossil #Never #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Uncover the shocking reasons behind your productivity highs and lows—it's more than just coffee!\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Fossil #Never #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
