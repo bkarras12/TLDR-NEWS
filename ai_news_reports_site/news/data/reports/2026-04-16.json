@@ -1,10 +1,9 @@
 {
   "date": "2026-04-16",
-  "generated_at_utc": "2026-04-16T23:53:42Z",
+  "generated_at_utc": "2026-04-17T05:22:39Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "live",
     "trump",
     "next",
     "netflix"
@@ -19,16 +18,16 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1892,
+        "score": -0.2176,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.315, dampened ×0.6 → -0.1892). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.363, dampened ×0.6 → -0.2176). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Israel and Lebanon agree 10-day ceasefire, Trump says",
-          "url": "https://www.bbc.com/news/articles/c8x7w1w9gd2o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 16 Apr 2026 21:18:31 GMT",
-          "summary": "The US president invites the two countries' leaders to Washington as Israel's prime minister insists troops will not leave southern Lebanon.",
+          "title": "Singer D4vd arrested in connection with death of missing teen girl",
+          "url": "https://www.bbc.com/news/articles/c20d22ev21wo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Apr 2026 01:43:12 GMT",
+          "summary": "The remains of 14-year-old Celeste Rivas Hernandez were found in the singer's car last year.",
           "source": "BBC News"
         },
         {
@@ -46,20 +45,6 @@
           "source": "BBC News"
         },
         {
-          "title": "Former Arsenal goalkeeper Alex Manninger dies after car hit by train",
-          "url": "https://www.bbc.com/sport/football/articles/c4g84l14e5eo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 16 Apr 2026 13:53:25 GMT",
-          "summary": "Former Arsenal goalkeeper Alex Manninger dies at the age of 48 after his car is struck by a train.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine",
-          "url": "https://www.bbc.com/news/articles/cm29plylqnvo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 16 Apr 2026 15:20:59 GMT",
-          "summary": "A Ukrainian drone attack killed two people in Russia, Moscow says, after an Orthodox Easter truce.",
-          "source": "BBC News"
-        },
-        {
           "title": "Brazil's former spy chief released from ICE detention",
           "url": "https://www.bbc.com/news/articles/cvglz72rjl2o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 16 Apr 2026 11:00:22 GMT",
@@ -74,13 +59,6 @@
           "source": "BBC News"
         },
         {
-          "title": "Rescuers to use air cushions in latest effort to save stranded whale",
-          "url": "https://www.bbc.com/news/articles/c2082pljyk1o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 16 Apr 2026 18:30:08 GMT",
-          "summary": "\"Timmy\" has been stranded in the Baltic Sea for weeks despite several attempts to free the ailing animal.",
-          "source": "BBC News"
-        },
-        {
           "title": "Ex-Virginia deputy governor kills wife and himself in murder-suicide, police say",
           "url": "https://www.bbc.com/news/articles/cy0124xel35o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 16 Apr 2026 15:41:33 GMT",
@@ -88,10 +66,31 @@
           "source": "BBC News"
         },
         {
+          "title": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine",
+          "url": "https://www.bbc.com/news/articles/cm29plylqnvo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 16 Apr 2026 15:20:59 GMT",
+          "summary": "A Ukrainian drone attack killed two people in Russia, Moscow says, after an Orthodox Easter truce.",
+          "source": "BBC News"
+        },
+        {
+          "title": "South Korea's runaway wolf finally captured after nine-day search",
+          "url": "https://www.bbc.com/news/articles/cn08p8nzejko?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Apr 2026 03:22:09 GMT",
+          "summary": "The search has been marked by twists and turns, gripping South Korea and even inspiring a meme coin.",
+          "source": "BBC News"
+        },
+        {
           "title": "Lawmakers clash with RFK Jr as he shifts focus away from vaccines",
           "url": "https://www.bbc.com/news/articles/c30r2v68lg8o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 16 Apr 2026 17:55:15 GMT",
           "summary": "During a three-hour hearing, the US health secretary tried to focus on chronic disease while being pressed on vaccines.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Rescuers to use air cushions in latest effort to save stranded whale",
+          "url": "https://www.bbc.com/news/articles/c2082pljyk1o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 16 Apr 2026 18:30:08 GMT",
+          "summary": "\"Timmy\" has been stranded in the Baltic Sea for weeks despite several attempts to free the ailing animal.",
           "source": "BBC News"
         },
         {
@@ -110,74 +109,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Israel and Lebanon have agreed to a 10-day ceasefire amid ongoing tensions, while global leaders address various crises including violence in Ukraine and social issues in Africa.",
-        "summary": "Today's headlines highlight a significant ceasefire agreement between Israel and Lebanon, criticism from the Pope regarding global conflicts, and ongoing violence in Ukraine and Turkey. Additionally, notable incidents include a tragic murder-suicide in the US and a bank robbery in Italy.",
+        "key_takeaway": "Pope Francis criticizes global leaders and foreign exploitation while various international incidents, including violence and crime, dominate headlines.",
+        "summary": "Today's news highlights a range of global events, including the arrest of singer D4vd in connection with a teen's death, Pope Francis's criticism of war and exploitation, and significant violence in Turkey and Ukraine. Additionally, Brazil's former spy chief has been released from detention, and a South Korean wolf has been captured after a lengthy search. The mixed sentiment reflects both serious issues and lighter stories, such as the rescue efforts for a stranded whale.",
         "key_themes": [
-          "Middle East ceasefire developments",
-          "Pope's comments on global conflicts",
-          "Ukraine-Russia tensions",
-          "Turkey's response to school shootings",
-          "South African political sentencing"
+          "Pope Francis comments on war and exploitation",
+          "D4vd arrest and teen death",
+          "Turkey school shooting detentions",
+          "Brazil's former spy chief release",
+          "South Korea wolf capture",
+          "South African opposition figure sentencing"
         ],
         "notable_headlines": [
           {
-            "headline": "Israel and Lebanon agree 10-day ceasefire, Trump says",
-            "why_it_matters": "This ceasefire could provide a temporary respite in ongoing regional tensions and may influence future diplomatic efforts.",
-            "signal": "Opportunity"
+            "headline": "Singer D4vd arrested in connection with death of missing teen girl",
+            "why_it_matters": "This case raises concerns about celebrity involvement in serious crimes and the impact on public perception.",
+            "signal": "Risk"
           },
           {
             "headline": "Pope criticises 'tyrants' who spend billions on wars after Trump spat",
-            "why_it_matters": "The Pope's comments reflect growing frustration with global leaders' priorities amid humanitarian crises.",
+            "why_it_matters": "The Pope's remarks highlight ongoing global tensions and the moral responsibilities of leaders in conflict situations.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Turkish police detain 162 people over online posts about school shootings",
+            "why_it_matters": "This reflects the government's response to rising violence and public discourse surrounding school safety.",
             "signal": "Risk"
           },
           {
             "headline": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine",
-            "why_it_matters": "This escalation in violence underscores the ongoing conflict's severity and its impact on civilian lives.",
+            "why_it_matters": "This escalation in violence underscores the ongoing conflict and humanitarian crisis in Ukraine.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Turkish police detain 162 people over online posts about school shootings",
-            "why_it_matters": "The detentions highlight the government's response to public discourse on violence and safety in schools.",
-            "signal": "Unclear"
           },
           {
             "headline": "South African opposition figure Malema sentenced to five years in prison for firing a gun",
-            "why_it_matters": "Malema's sentencing could have significant implications for South African politics and public sentiment.",
-            "signal": "Risk"
+            "why_it_matters": "Malema's case could have significant political implications in South Africa, especially regarding opposition dynamics.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the ceasefire's implementation between Israel and Lebanon",
-            "Observing reactions to the Pope's statements on global conflicts",
-            "Tracking developments in Ukraine following the recent aerial attacks"
+            "Further developments in the investigation of D4vd and the teen's death are expected.",
+            "Responses from international leaders to the Pope's comments may emerge.",
+            "Updates on the situation in Ukraine following the recent aerial attacks."
           ],
           "next_1_4_weeks": [
-            "Potential diplomatic initiatives stemming from the ceasefire agreement",
-            "Continued scrutiny of Turkey's handling of public safety issues",
-            "Legal developments regarding Malema's appeal"
+            "The appeal process for Malema's sentencing will unfold, potentially impacting South African politics.",
+            "Continued discussions around school safety and government responses in Turkey are anticipated.",
+            "The aftermath of the Pope's visit to Cameroon may lead to further statements on foreign exploitation."
           ],
           "watch_list": [
-            "Impact of the ceasefire on regional stability",
-            "Pope's upcoming engagements and statements",
-            "Ongoing violence in Ukraine and its international repercussions",
-            "Public response to Turkey's crackdown on social media"
+            "Monitor the situation in Ukraine for further escalations or peace talks.",
+            "Watch for public reactions to the Pope's statements on war and exploitation.",
+            "Keep an eye on developments regarding the detained individuals in Turkey.",
+            "Follow the ongoing rescue efforts for the stranded whale in the Baltic Sea."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East remains fluid and subject to rapid changes.",
-          "Public sentiment regarding political figures can shift quickly based on new developments."
+          "The sentiment score indicates a mixed tone, suggesting that while some stories are serious, others may not have significant implications.",
+          "The situation in Ukraine remains fluid, and developments can change rapidly."
         ],
         "related_topics": [
-          "What is the latest on the Israel-Lebanon ceasefire?",
-          "Pope's recent comments on global conflicts explained",
-          "Updates on the Ukraine-Russia war",
-          "Turkey's response to school violence incidents",
-          "South African political developments involving Malema"
+          "What are the latest updates on the D4vd arrest case?",
+          "How is the Pope addressing global conflicts?",
+          "What are the implications of the recent school shootings in Turkey?",
+          "What happened with Brazil's former spy chief?",
+          "What is the status of the stranded whale rescue efforts?"
         ]
       },
-      "tweet_text": "As global tensions rise, a fragile ceasefire in the Middle East clashes with tragic loss and chilling detentions—click to...\n\nWorld Sentiment: Mixed (-0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Former #Trump #10day #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tragedy strikes as singer D4vd is arrested in a shocking twist to the case of a missing teen girl.\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Police #Aerial #Arrested #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -279,76 +279,76 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Senate Democrats are attempting to block Trump's nomination of Kevin Warsh as Fed chair amid concerns over economic stability and military spending increases.",
-        "summary": "Today's business news highlights significant political maneuvers affecting the Federal Reserve, leadership changes at Netflix, and critical energy supply issues in Europe due to the ongoing Iran conflict. Additionally, a Supreme Court case involving Monsanto could have far-reaching implications for agriculture, while consumer sentiment reflects the impact of rising gas prices. Wall Street continues to show resilience, reaching new highs amid optimism regarding the end of the Iran war.",
+        "key_takeaway": "Senate Democrats are attempting to delay the confirmation of Trump's nominee for Federal Reserve chair amid ongoing tensions surrounding military spending and economic stability.",
+        "summary": "Today's business news highlights significant political maneuvers regarding the Federal Reserve, leadership changes at Netflix, and critical energy supply issues in Europe due to the Iran war. Additionally, Wall Street reached a record high, while consumers express concerns over rising gas prices and military spending.",
         "key_themes": [
-          "impact of political decisions on the economy",
+          "Federal Reserve chair confirmation",
           "Netflix leadership changes",
-          "energy supply crisis in Europe",
-          "Supreme Court rulings on agriculture",
-          "consumer reactions to rising gas prices",
-          "Wall Street market trends"
+          "Europe jet fuel supply crisis",
+          "Wall Street record highs",
+          "US military spending concerns"
         ],
         "notable_headlines": [
           {
             "headline": "Senate Democrats move to stall Trump’s ‘absurd’ bid to install new Fed chair",
-            "why_it_matters": "This move reflects concerns over economic policy and stability under Trump's administration.",
+            "why_it_matters": "The confirmation of a new Fed chair could impact monetary policy and economic stability during a tumultuous political climate.",
             "signal": "Risk"
           },
           {
             "headline": "Co-founder Reed Hastings to step down from Netflix board",
-            "why_it_matters": "Hastings' departure marks a significant change for Netflix as it navigates recent challenges in the streaming market.",
+            "why_it_matters": "Hastings' departure marks a significant change in leadership for Netflix as it navigates post-pandemic challenges.",
             "signal": "Unclear"
           },
           {
             "headline": "Europe has only six weeks’ supply of jet fuel left owing to Iran war, says energy chief",
-            "why_it_matters": "A potential fuel shortage could lead to widespread flight cancellations, impacting travel and commerce.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Stakes high as supreme court set to rule on law involving Monsanto’s weed-killing pesticide",
-            "why_it_matters": "The ruling could set precedents affecting agricultural practices and corporate accountability.",
+            "why_it_matters": "A potential jet fuel shortage could lead to widespread flight cancellations, affecting travel and commerce.",
             "signal": "Risk"
           },
           {
             "headline": "Wall Street scales fresh record high as investors bet on end of Iran war",
-            "why_it_matters": "Investor optimism about geopolitical stability is driving market gains, reflecting broader economic sentiments.",
+            "why_it_matters": "Investor optimism regarding geopolitical stability has driven stock prices to unprecedented levels, reflecting market confidence.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "‘A dollar or two increase is devastating’: US consumers on toll of rising gas prices",
+            "why_it_matters": "Rising gas prices are impacting consumer spending and sentiment, highlighting the economic effects of international conflicts.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments regarding the Senate's actions on the Fed chair nomination.",
-            "Watch for Netflix's upcoming annual meeting and any investor reactions to Hastings' departure.",
-            "Keep an eye on energy supply reports as the situation in Europe evolves."
+            "Monitoring Senate actions regarding Fed chair confirmation hearings.",
+            "Observing Netflix's strategic direction post-Hastings.",
+            "Tracking developments in jet fuel supply and potential impacts on air travel."
           ],
           "next_1_4_weeks": [
-            "Follow the Supreme Court's ruling on the Monsanto case and its implications for the agricultural sector.",
-            "Observe trends in consumer spending as gas prices fluctuate due to geopolitical tensions.",
-            "Evaluate the ongoing performance of Wall Street in light of international developments."
+            "Evaluating market reactions to potential changes in Federal Reserve leadership.",
+            "Assessing Netflix's performance and strategic initiatives after board changes.",
+            "Watching for updates on the Iran war and its implications for global energy supplies."
           ],
           "watch_list": [
-            "Potential changes in Federal Reserve leadership and their economic implications.",
-            "Netflix's strategic direction post-Hastings and its impact on the streaming industry.",
-            "Energy supply stability in Europe amid the Iran conflict.",
-            "Legal outcomes from the Supreme Court regarding pesticide regulations."
+            "Federal Reserve chair confirmation process",
+            "Netflix's upcoming investor meeting",
+            "Energy supply issues in Europe",
+            "US military spending trends",
+            "Consumer sentiment regarding gas prices"
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "Political developments can rapidly change market conditions.",
-          "Consumer sentiment may shift quickly based on economic indicators.",
-          "Geopolitical tensions can lead to unexpected market volatility."
+          "Consumer sentiment may not reflect broader economic trends.",
+          "Geopolitical tensions can lead to unpredictable economic impacts."
         ],
         "related_topics": [
-          "What are the implications of Trump's Fed chair nomination",
-          "Latest updates on Netflix leadership changes",
-          "How is the Iran war affecting global energy supplies",
-          "Supreme Court rulings on agricultural regulations",
-          "Consumer impact of rising gas prices in the US"
+          "What is happening with the Federal Reserve chair confirmation?",
+          "Latest news on Netflix leadership changes",
+          "Impact of the Iran war on global energy supplies",
+          "Wall Street market trends and analysis",
+          "Consumer reactions to rising gas prices"
         ]
       },
-      "tweet_text": "From Hollywood drama to global crises—today's business news will have you on the edge of your seat!\n\nBusiness Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Chair #High #Iran #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Senate showdown, Netflix shakeup, and a jet fuel crisis—today's business news is packed with drama and urgency!\n\nBusiness Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Chair #High #Iran #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -437,11 +437,11 @@
       ],
       "ai_report": {
         "key_takeaway": "YouTube introduces timestamp sharing on mobile, while Netflix updates its app for vertical video and cofounder Reed Hastings announces his departure.",
-        "summary": "Today's technology news highlights significant updates from major companies. YouTube's mobile app now allows users to share videos from specific timestamps, enhancing user experience. Google is set to collaborate with Gucci on stylish AI smart glasses, expected to launch in 2027. Netflix is redesigning its mobile app to include vertical video, reflecting changing viewing habits, while cofounder Reed Hastings will leave the company after nearly three decades. Additionally, Live Nation plans to contest a recent antitrust ruling, and Casely has reannounced a recall of power banks due to safety concerns.",
+        "summary": "Today's technology news highlights significant updates from major companies. YouTube's mobile app now allows users to share videos from specific timestamps, enhancing user interaction. Google is set to collaborate with Gucci on stylish AI smart glasses expected in 2027. Netflix is redesigning its mobile app to include vertical video, catering to changing viewing habits, while cofounder Reed Hastings will step down from his role. Additionally, Live Nation plans to contest a recent antitrust ruling, and Casely has reannounced a recall of power banks linked to safety issues.",
         "key_themes": [
           "YouTube mobile app updates",
           "Google Gucci smart glasses",
-          "Netflix app redesign",
+          "Netflix vertical video feature",
           "Reed Hastings departure",
           "Live Nation antitrust case",
           "Casely power bank recall"
@@ -454,63 +454,62 @@
           },
           {
             "headline": "Gucci-branded Google smart glasses are coming next year",
-            "why_it_matters": "This partnership could redefine the market for wearable technology by merging fashion with functionality.",
+            "why_it_matters": "The collaboration may attract more consumers to smart glasses, blending fashion with technology.",
             "signal": "Opportunity"
           },
           {
             "headline": "Netflix embraces vertical video with major mobile app update",
-            "why_it_matters": "The update aligns with current trends in content consumption, catering to mobile users.",
+            "why_it_matters": "This update reflects changing viewer preferences and competition in the streaming market.",
             "signal": "Opportunity"
           },
           {
             "headline": "Netflix cofounder Reed Hastings is officially leaving the company",
-            "why_it_matters": "Hastings' departure marks a significant leadership change at Netflix, potentially impacting its future direction.",
-            "signal": "Risk"
+            "why_it_matters": "Hastings' departure marks a significant leadership change for Netflix after nearly 30 years.",
+            "signal": "Unclear"
           },
           {
             "headline": "Live Nation says it will fight monopoly suit loss",
-            "why_it_matters": "The company's response to the antitrust ruling could have implications for the live entertainment industry.",
+            "why_it_matters": "The company's response to the antitrust ruling could impact the live entertainment industry.",
             "signal": "Risk"
           },
           {
             "headline": "Casely has reannounced a power bank recall from 2025 following a fatality",
-            "why_it_matters": "Safety concerns surrounding consumer electronics highlight the importance of product reliability.",
+            "why_it_matters": "Safety concerns over consumer electronics highlight the importance of product recalls.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor user reactions to YouTube's new sharing feature.",
+            "Monitor reactions to YouTube's new sharing feature.",
             "Watch for updates on Netflix's app redesign launch.",
             "Follow developments in Live Nation's legal strategy."
           ],
           "next_1_4_weeks": [
-            "Observe market response to Gucci's smart glasses announcement.",
-            "Track Netflix's performance post-Hastings departure.",
-            "Keep an eye on consumer safety discussions related to Casely's recall."
+            "Expect more details on Gucci's smart glasses release.",
+            "Anticipate further news on Netflix's leadership transition.",
+            "Observe consumer response to Casely's power bank recall."
           ],
           "watch_list": [
-            "YouTube's engagement metrics post-update.",
-            "Gucci smart glasses release details.",
-            "Netflix's subscriber trends after leadership change.",
-            "Live Nation's legal outcomes."
+            "YouTube user engagement metrics post-update.",
+            "Google's smart glasses market impact.",
+            "Netflix's subscriber trends after Hastings' exit.",
+            "Live Nation's legal challenges and implications."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of Reed Hastings' departure on Netflix's strategy remains uncertain.",
-          "Consumer response to new features may vary widely.",
-          "Legal outcomes for Live Nation could take time to resolve."
+          "The impact of Reed Hastings' departure on Netflix's future direction remains uncertain.",
+          "Consumer response to new product launches can be unpredictable."
         ],
         "related_topics": [
           "What are the latest updates on YouTube features?",
-          "When will Gucci's smart glasses be released?",
+          "When will Gucci's smart glasses be available?",
           "How is Netflix changing its mobile app?",
           "What does Reed Hastings' departure mean for Netflix?",
-          "What are the implications of the Live Nation antitrust case?"
+          "What are the implications of Live Nation's antitrust ruling?"
         ]
       },
-      "tweet_text": "YouTube's big update, Gucci glasses on the horizon, and Netflix's shake-up—today's tech news is a must-read!\n\nTechnology Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Mobile #Netflix #Next #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "YouTube just leveled up sharing, Gucci's glasses are on the horizon, and Netflix's shakeup continues—don't...\n\nTechnology Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Mobile #Netflix #Next #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -521,190 +520,162 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0509,
+        "score": 0.0783,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.085, dampened ×0.6 → -0.0509). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.130, dampened ×0.6 → +0.0783). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Report: Penix, Njoku among targets used in fraud",
-          "url": "https://www.espn.com/nfl/story/_/id/48504890/report-penix-njoku-mckinney-targets-ex-bama-de-fraud",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
-          "summary": "A former Alabama defensive end is accused of using wigs and fake IDs to impersonate NFL players to secure nearly $20 million in fraudulent loans, with a report identifying Michael Penix Jr., David Njoku and Xavier McKinney as the targeted players.",
+          "title": "How all 32 teams can crush the NFL draft: We have prospects and positions to target",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48494162/2026-nfl-draft-32-teams-positions-picks-grades-predictions-needs-solak",
+          "published": "Fri, 17 Apr 2026 00:51:07 EST",
+          "summary": "A week before the draft, Ben Solak hits the top priorities for every single team -- and the prospects who can meet those needs.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Yates' final rankings for the draft: Sizing up the top 150 prospects",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/id/47590505/2026-nfl-draft-rankings-board-top-prospects-best-positional-field-yates",
+          "published": "Fri, 17 Apr 2026 00:51:07 EST",
+          "summary": "Field Yates stacks his top 150 prospects, including scouting reports on the first 50.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Collier back to Lynx on supermax deal",
+          "url": "https://www.espn.com/wnba/story/_/id/48508706/sources-napheesa-collier-stays-lynx-14m-supermax-deal",
+          "published": "Fri, 17 Apr 2026 00:39:24 EST",
+          "summary": "Napheesa Collier has signed a one-year, $1.4 million supermax contract to return to Minnesota, sources said.",
+          "source": "ESPN"
+        },
+        {
+          "title": "McDavid seals 6th scoring title with 4-assist finale",
+          "url": "https://www.espn.com/nhl/story/_/id/48509318/oilers-mcdavid-wraps-nhl-scoring-title-4-assist-finale",
+          "published": "Fri, 17 Apr 2026 00:39:25 EST",
+          "summary": "The Oilers' Connor McDavid won his sixth Art Ross title as the NHL scoring leader, finishing the regular season with 138 points after Thursday's four-assist performance in a 6-1 win over the Canucks.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Messick loses no-hit bid in 9th; Guardians hold on",
+          "url": "https://www.espn.com/mlb/story/_/id/48508569/messick-loses-no-hit-bid-9th-guardians-hold-orioles",
+          "published": "Fri, 17 Apr 2026 00:39:25 EST",
+          "summary": "Guardians rookie Parker Messick's bid for MLB's first no-hitter of 2026 was broken up in the ninth inning, but Cleveland held on for a 4-2 win over the Orioles on Thursday night.",
           "source": "ESPN"
         },
         {
           "title": "Trout's latest blast caps 5-homer series in Bronx",
           "url": "https://www.espn.com/mlb/story/_/id/48506296/mike-trout-crushes-fifth-yankee-stadium-hr-four-games",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
+          "published": "Fri, 17 Apr 2026 00:39:25 EST",
           "summary": "Mike Trout homered for the fifth time during a four-game series at Yankee Stadium by crushing a 446-foot drive in the seventh inning.",
           "source": "ESPN"
         },
         {
-          "title": "Judge grants Oklahoma LB Heinecke extra year",
-          "url": "https://www.espn.com/college-football/story/_/id/48507276/judge-grants-oklahoma-lb-heinecke-extra-year-eligibility",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
-          "summary": "A district court judge has granted Oklahoma linebacker Owen Heinecke a preliminary injunction, handing him an additional year of eligibility in 2026.",
+          "title": "Report: Penix, Njoku among targets used in fraud",
+          "url": "https://www.espn.com/nfl/story/_/id/48504890/report-penix-njoku-mckinney-targets-ex-bama-de-fraud",
+          "published": "Fri, 17 Apr 2026 00:39:25 EST",
+          "summary": "A former Alabama defensive end is accused of using wigs and fake IDs to impersonate NFL players to secure nearly $20 million in fraudulent loans, with a report identifying Michael Penix Jr., David Njoku and Xavier McKinney as the targeted players.",
           "source": "ESPN"
         },
         {
-          "title": "NCAA recommends earlier start to football season",
-          "url": "https://www.espn.com/college-football/story/_/id/48507083/ncaa-recommends-earlier-start-football-season-2027",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
-          "summary": "An NCAA committee recommended Thursday that Football Bowl Subdivision teams play a 12-game schedule over 14 weeks beginning in 2027 with the season starting on the Thursday of what is now designated Week 0.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Chargers GM shuts down Johnston trade rumors",
-          "url": "https://www.espn.com/nfl/story/_/id/48505918/chargers-gm-joe-hortiz-shuts-quentin-johnston-trade-rumors",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
-          "summary": "Chargers general manager Joe Hortiz shut down trade rumors surrounding wide receiver Quentin Johnston on Thursday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Wings stifle Fudd-Bueckers relationship questions",
-          "url": "https://www.espn.com/wnba/story/_/id/48505618/wings-stifle-questions-azzi-fudd-paige-bueckers-relationship",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
-          "summary": "The WNBA's Wings shut down a question to No. 1 overall draft pick Azzi Fudd about her relationship with teammate Paige Bueckers, which the two made public in 2025.",
+          "title": "Devils hire Panthers executive Mehta as GM",
+          "url": "https://www.espn.com/nhl/story/_/id/48507904/devils-hire-panthers-exec-sunny-mehta-general-manager",
+          "published": "Fri, 17 Apr 2026 00:39:25 EST",
+          "summary": "The Devils have hired Sunny Mehta, who was an assistant GM when the Panthers won the Stanley Cup the past two years, as their general manager.",
           "source": "ESPN"
         },
         {
           "title": "WR Knox found negligent in crash, to pay $2.8M",
           "url": "https://www.espn.com/nfl/story/_/id/48506401/court-rules-smu-theodore-knox-28m-judgement",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
+          "published": "Fri, 17 Apr 2026 00:39:25 EST",
           "summary": "A Texas court on Wednesday issued a default judgment of more than $2.8 million against Theodore Knox, the co-defendant in one of the civil lawsuits against Chiefs receiver Rashee Rice stemming from a 2024 street racing crash in Dallas.",
           "source": "ESPN"
         },
         {
-          "title": "Spoelstra: No need to penalize Ball any further",
-          "url": "https://www.espn.com/nba/story/_/id/48504650/spoelstra-no-need-penalize-hornets-ball-further",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
-          "summary": "Heat head coach Erik Spoelstra said Thursday that LaMelo Ball didn't need to be \"penalized more moving forward\" in the wake of the Hornets star's fine for tripping Miami's Bam Adebayo.",
+          "title": "Sources: NWSL expected to vote on calendar shift",
+          "url": "https://www.espn.com/soccer/story/_/id/48508613/nwsl-expected-vote-calendar-shift-month",
+          "published": "Fri, 17 Apr 2026 00:39:25 EST",
+          "summary": "The NWSL's board of governors is expected to vote later this month on whether to flip the league's calendar to a fall-to-spring season, multiple sources told ESPN.",
           "source": "ESPN"
         },
         {
           "title": "👀 Inside the making of Mariners' Ichiro statue",
           "url": "https://www.espn.com/mlb/story/_/id/48420303/mlb-2026-seattle-mariners-ichiro-suzuki-statue-design-reveal",
-          "published": "Thu, 16 Apr 2026 18:38:56 EST",
+          "published": "Fri, 17 Apr 2026 00:39:25 EST",
           "summary": "You know about the reveal mishap. Here's what went into creating the sculpture that will forever honor a Seattle icon.",
           "source": "ESPN"
         },
         {
-          "title": "Watch live: Guards' Messick working on no-hitter",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401814962",
-          "published": "Thu, 16 Apr 2026 19:46:40 EST",
-          "summary": "null",
-          "source": "ESPN"
-        },
-        {
-          "title": "A lapsed fan's guide to WrestleMania 42: McAfee in the mix; Lesnar-Femi could steal the weekend",
-          "url": "https://www.espn.com/wwe/story/_/id/48496684/lapsed-fan-guide-wwe-wrestlemania-42-pat-mcafee-cody-rhodes-brock-lesnar-oba-femi",
-          "published": "Thu, 16 Apr 2026 16:33:45 EST",
-          "summary": "Greg Wyshynski catches you up on all of the storylines you might have missed entering this weekend's event.",
-          "source": "ESPN"
-        },
-        {
-          "title": "WrestleMania 42: Key stats for all 13 matches across both nights",
-          "url": "https://www.espn.com/wwe/story/_/id/48490151/wrestlemania-42-key-stats-notes-cm-punk-roman-reigns-cody-rhodes-randy-orton",
-          "published": "Thu, 16 Apr 2026 16:10:43 EST",
-          "summary": "With eight title bouts in two nights, WrestleMania 42 is stacked. Get caught up before this weekend's PLE.",
+          "title": "Stanley Cup contender flaws: Biggest issues for the NHL's top playoff teams",
+          "url": "https://www.espn.com/nhl/story/_/id/48494583/nhl-2026-stanley-cup-playoffs-contenders-fatal-flaws-issues-weaknesses",
+          "published": "Fri, 17 Apr 2026 01:03:56 EST",
+          "summary": "No NHL team is perfect, and postseason opponents will be certain to key in on these areas of weakness.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "A former Alabama player is accused of fraud involving NFL players, while Mike Trout shines with five homers in a series against the Yankees.",
-        "summary": "Today's sports headlines feature a mix of legal issues, player performances, and upcoming events. A fraud case involving impersonation of NFL players has emerged, with notable names like Michael Penix Jr. mentioned. In baseball, Mike Trout continues to impress with his hitting prowess, while a judge grants an Oklahoma linebacker an extra year of eligibility. The NCAA is considering changes to the football season schedule, and trade rumors surrounding Chargers' Quentin Johnston have been dismissed. Additionally, WNBA's Wings addressed questions about player relationships, and a court ruling found WR Theodore Knox negligent in a crash case. As WrestleMania 42 approaches, fans are being updated on key match statistics and storylines.",
+        "key_takeaway": "As the NFL draft approaches, teams are focusing on key prospects while Connor McDavid secures another scoring title and Napheesa Collier signs a supermax deal.",
+        "summary": "Today's sports headlines highlight the upcoming NFL draft with team strategies and top prospect rankings, while also covering significant player contracts in the WNBA and NHL, and recent MLB performances.",
         "key_themes": [
-          "NFL fraud case involving players",
-          "Mike Trout's performance recap",
-          "NCAA football season changes",
-          "WrestleMania 42 preview",
-          "WNBA player relationship news"
+          "NFL draft strategies",
+          "NHL scoring leaders",
+          "WNBA player contracts"
         ],
         "notable_headlines": [
           {
-            "headline": "Report: Penix, Njoku among targets used in fraud",
-            "why_it_matters": "This case highlights ongoing issues of fraud in sports, affecting the reputations of involved players.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Trout's latest blast caps 5-homer series in Bronx",
-            "why_it_matters": "Trout's performance showcases his elite talent and contributes to the excitement of the MLB season.",
+            "headline": "How all 32 teams can crush the NFL draft: We have prospects and positions to target",
+            "why_it_matters": "Teams are preparing for the NFL draft by identifying key prospects to address their needs.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Judge grants Oklahoma LB Heinecke extra year",
-            "why_it_matters": "This decision impacts college football eligibility rules and player opportunities.",
+            "headline": "Yates' final rankings for the draft: Sizing up the top 150 prospects",
+            "why_it_matters": "Field Yates provides insights into the top prospects, aiding teams in their draft decisions.",
             "signal": "Opportunity"
           },
           {
-            "headline": "NCAA recommends earlier start to football season",
-            "why_it_matters": "Changes to the football season could affect scheduling and team preparations moving forward.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Chargers GM shuts down Johnston trade rumors",
-            "why_it_matters": "Clarifying Johnston's status helps stabilize the Chargers' roster and fan expectations.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Wings stifle Fudd-Bueckers relationship questions",
-            "why_it_matters": "Addressing player relationships publicly can influence team dynamics and media narratives.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "WR Knox found negligent in crash, to pay $2.8M",
-            "why_it_matters": "The ruling could have financial and reputational implications for Knox and the NFL.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Spoelstra: No need to penalize Ball any further",
-            "why_it_matters": "This statement reflects the ongoing discussions about player conduct and disciplinary actions in the NBA.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Inside the making of Mariners' Ichiro statue",
-            "why_it_matters": "The statue symbolizes Ichiro's legacy and impact on baseball, enhancing fan engagement.",
+            "headline": "Sources: Collier back to Lynx on supermax deal",
+            "why_it_matters": "Napheesa Collier's return to the Lynx on a supermax deal signifies her importance to the team.",
             "signal": "Opportunity"
           },
           {
-            "headline": "A lapsed fan's guide to WrestleMania 42: McAfee in the mix; Lesnar-Femi could steal the weekend",
-            "why_it_matters": "This guide helps fans reconnect with WWE storylines ahead of a major event.",
+            "headline": "McDavid seals 6th scoring title with 4-assist finale",
+            "why_it_matters": "Connor McDavid's achievement highlights his dominance in the NHL this season.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Messick loses no-hit bid in 9th; Guardians hold on",
+            "why_it_matters": "Parker Messick's near no-hitter showcases his potential as a rookie pitcher.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further developments in the fraud case may emerge as investigations continue.",
-            "Mike Trout's performance will be closely watched as the MLB season progresses.",
-            "Updates on the NCAA's recommendations for the football season are expected."
+            "Anticipation builds for the NFL draft as teams finalize their strategies.",
+            "Expect updates on player contracts and trades leading up to the draft.",
+            "Watch for reactions to McDavid's scoring title and its impact on the playoffs."
           ],
           "next_1_4_weeks": [
-            "The impact of the judge's ruling on Heinecke's eligibility will be monitored during the upcoming college football season.",
-            "WrestleMania 42 will take place this weekend, with significant viewer interest anticipated.",
-            "The fallout from the negligence ruling against Knox may influence NFL player conduct discussions."
+            "The NFL draft will take place, reshaping team rosters and strategies.",
+            "NHL playoffs will begin, with teams addressing their weaknesses identified in recent analyses.",
+            "The NWSL's board will vote on a potential calendar shift, impacting league scheduling."
           ],
           "watch_list": [
-            "Monitor the fraud case for any new revelations or player involvement.",
-            "Keep an eye on Trout's performance as the season unfolds.",
-            "Watch for reactions to the NCAA's proposed changes to the football schedule.",
-            "Follow developments in the WNBA regarding player dynamics and relationships."
+            "Monitor NFL draft predictions and team needs.",
+            "Follow NHL playoff matchups and team performance.",
+            "Keep an eye on WNBA player movements and contract negotiations.",
+            "confidence",
+            "High"
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall tone of today's sports news.",
-          "Details on the fraud case are still emerging, making it a developing story."
+          "The sentiment score is mixed, indicating varied reactions to the news.",
+          "Details on the NWSL calendar shift are still pending a vote."
         ],
         "related_topics": [
-          "What are the latest updates on NFL player fraud cases?",
-          "How did Mike Trout perform in recent games?",
-          "What changes are being proposed for NCAA football scheduling?",
-          "What to expect from WrestleMania 42 this weekend?",
-          "What are the implications of the negligence ruling against WR Knox?"
+          "What are the top prospects for the NFL draft 2026?",
+          "How did Connor McDavid perform this NHL season?",
+          "What are the latest updates on WNBA player contracts?"
         ]
       },
-      "tweet_text": "Shocking fraud allegations rock college football while Trout’s power shines bright in the Bronx—this week’s...\n\nSports Sentiment: Mixed (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#5homer #Among #Ball #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From draft strategies to McDavid's magic—today's sports headlines are a must-read!\n\nSports Sentiment: Mixed (+0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Prospects #4assist #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -806,74 +777,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries reveal challenges in ozone recovery, new insights into ancient species, and breakthroughs in understanding viruses and cosmic reactions.",
-        "summary": "Today's science headlines highlight significant findings, including a potential delay in ozone layer recovery due to industrial chemicals, the identification of a distinct dinosaur species, and advancements in combating the Epstein-Barr virus. Additionally, researchers have uncovered new sources of oceanic methane that could exacerbate climate change, and a breakthrough in understanding cosmic reactions has been achieved. These discoveries not only enhance our knowledge of past life forms but also address pressing contemporary issues such as health and environmental challenges.",
+        "key_takeaway": "Recent scientific discoveries highlight both challenges and breakthroughs in understanding climate change, ancient species, and viral infections.",
+        "summary": "Today's science headlines cover a range of topics, including the ozone layer's recovery challenges, productivity fluctuations, ancient dinosaur discoveries, and significant advancements in understanding viruses and climate change.",
         "key_themes": [
           "ozone layer recovery challenges",
-          "new dinosaur species discovery",
-          "advancements in virus research",
-          "ocean methane emissions",
-          "cosmic reaction breakthroughs"
+          "impact of productivity on performance",
+          "ancient dinosaur discoveries",
+          "methane emissions and climate change",
+          "advancements in viral research"
         ],
         "notable_headlines": [
           {
             "headline": "MIT scientists just found a hidden problem slowing the ozone comeback",
-            "why_it_matters": "Industrial chemicals are leaking into the atmosphere, potentially delaying ozone recovery by up to seven years.",
+            "why_it_matters": "Identifying loopholes in chemical regulations is crucial for accelerating ozone layer recovery and reducing UV exposure.",
             "signal": "Risk"
           },
           {
             "headline": "Scientists discover hidden ocean methane source that could worsen global warming",
-            "why_it_matters": "Microbes producing methane in nutrient-poor oceans may increase emissions, creating a feedback loop that intensifies climate change.",
+            "why_it_matters": "Understanding new methane sources is vital for addressing potential climate change feedback loops.",
             "signal": "Risk"
           },
           {
-            "headline": "Scientists just solved a 160-million-year fossil mystery",
-            "why_it_matters": "A rare sponge fossil discovery provides insights into early sponge evolution and the origins of animal life.",
+            "headline": "Scientists think alien life might be hiding in patterns",
+            "why_it_matters": "This new approach could enhance the search for extraterrestrial life by identifying patterns across planets.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Scientists think alien life might be hiding in patterns",
-            "why_it_matters": "New methods for detecting life on other planets could prioritize targets for exploration based on statistical patterns.",
+            "headline": "Scientists just solved a 160-million-year fossil mystery",
+            "why_it_matters": "This discovery provides insights into early sponge evolution, reshaping our understanding of animal life origins.",
             "signal": "Opportunity"
           },
           {
             "headline": "95% of people carry this virus and scientists may have just found how to stop it",
-            "why_it_matters": "Breakthroughs in blocking Epstein-Barr virus could lead to significant advancements in treating related diseases.",
+            "why_it_matters": "Developing effective antibodies against Epstein-Barr virus could significantly impact public health.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Further analysis on the implications of the ozone layer findings is expected.",
-            "More studies on the newly discovered ocean methane sources may be published.",
-            "Updates on the Epstein-Barr virus research could emerge."
+            "More details on the productivity study may emerge, influencing workplace strategies.",
+            "Updates on the ancient species discoveries could lead to new research directions."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the impact of industrial chemicals on ozone recovery in environmental forums.",
-            "Potential announcements regarding new dinosaur species findings and their implications for paleontology.",
-            "Continued exploration of cosmic reactions and their relevance to astrophysics."
+            "Anticipated discussions on climate change strategies in light of new methane findings.",
+            "Potential announcements regarding clinical trials for Epstein-Barr virus treatments.",
+            "New fossil discoveries may prompt reevaluation of prehistoric ecosystems."
           ],
           "watch_list": [
-            "Ongoing research into the effects of climate change on oceanic ecosystems.",
-            "Developments in the study of ancient species and their evolutionary significance.",
-            "Progress in medical research targeting Epstein-Barr virus and its associated diseases.",
-            "New findings related to the detection of extraterrestrial life."
+            "Monitor developments in ozone layer recovery efforts.",
+            "Watch for advancements in understanding oceanic methane emissions.",
+            "Keep an eye on research related to Epstein-Barr virus treatments.",
+            "Follow ongoing studies on ancient species and their ecosystems."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of industrial chemicals on ozone recovery is still being assessed and may evolve with further research.",
-          "The relationship between ocean methane emissions and climate change is complex and requires more investigation."
+          "The impact of the ozone layer findings is still uncertain and requires further investigation.",
+          "The relationship between productivity and mental state may vary among individuals."
         ],
         "related_topics": [
-          "What are the latest discoveries about the ozone layer?",
-          "How are scientists studying ancient dinosaur species?",
-          "What breakthroughs have been made in virus research?",
-          "What new findings have emerged about ocean methane?",
-          "How do cosmic reactions contribute to our understanding of the universe?"
+          "What are the latest discoveries in climate science?",
+          "How do productivity fluctuations affect work performance?",
+          "What new dinosaur species have been discovered recently?",
+          "What is the significance of ocean methane emissions?",
+          "How are scientists tackling Epstein-Barr virus?"
         ]
       },
-      "tweet_text": "A shocking discovery reveals hidden threats to our planet's ozone and climate—science just got a lot...\n\nScience Sentiment: Neutral (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Hidden #31foot #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A shocking discovery reveals the hidden threats to our ozone and the planet's future—are we running...\n\nScience Sentiment: Neutral (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Hidden #31foot #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
