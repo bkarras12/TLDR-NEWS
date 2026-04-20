@@ -1,12 +1,15 @@
 {
   "date": "2026-04-20",
-  "generated_at_utc": "2026-04-20T15:12:14Z",
+  "generated_at_utc": "2026-04-20T23:54:38Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "prices",
-    "strait",
-    "hormuz"
+    "apple",
+    "trump",
+    "ship",
+    "problem",
+    "cook"
   ],
   "categories": {
     "world": {
@@ -18,16 +21,44 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1588,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.265, dampened ×0.6 → -0.1588). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0303,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.051, dampened ×0.6 → -0.0303). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
+          "url": "https://www.bbc.com/news/articles/cpd575n1znzo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 18:57:25 GMT",
+          "summary": "The Israeli military says it views with \"great severity\" the actions of the soldier, as the US ambassador demands \"swift\" consequences.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
+          "url": "https://www.bbc.com/news/articles/crr1v4gzkvlo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 22:53:24 GMT",
+          "summary": "Prosecutors say the singer, real name David Anthony Burke, could face life in prison due to the nature of the case, if convicted.",
+          "source": "BBC News"
+        },
         {
           "title": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
           "url": "https://www.bbc.com/news/articles/czd7m7d699do?at_medium=RSS&at_campaign=rss",
           "published": "Mon, 20 Apr 2026 14:54:21 GMT",
           "summary": "Japan's meteorological agency warns another, stronger earthquake may hit in the next week,",
+          "source": "BBC News"
+        },
+        {
+          "title": "What we know about the Iranian ship seized by the US",
+          "url": "https://www.bbc.com/news/articles/c75kg0vdxyro?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 20:04:59 GMT",
+          "summary": "The US has intercepted an Iranian ship entering the Gulf as part of its naval blockade, US President Donald Trump has said.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Oil prices rise after Trump says Iranian ship seized",
+          "url": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 20:33:01 GMT",
+          "summary": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
           "source": "BBC News"
         },
         {
@@ -38,24 +69,24 @@
           "source": "BBC News"
         },
         {
-          "title": "Oil prices rise after Trump says Iranian ship seized",
-          "url": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 14:41:33 GMT",
-          "summary": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
+          "title": "More than 200 rescued from IS-linked group in DR Congo",
+          "url": "https://www.bbc.com/news/articles/cy7144jr68lo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 16:25:12 GMT",
+          "summary": "The youngest of those freed from an Allied Democratic Forces camp is a girl aged just 14, Uganda's army says.",
           "source": "BBC News"
         },
         {
-          "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-          "url": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 19 Apr 2026 21:09:06 GMT",
-          "summary": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
+          "title": "Police gunfight with favela gang traps 200 tourists on hilltop",
+          "url": "https://www.bbc.com/news/articles/cjr9vvr904wo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 17:34:10 GMT",
+          "summary": "The access route to Morro Dois Irmãos was blocked during the operation in Vidigal, leaving scores of alarmed sightseers stuck on the hill.",
           "source": "BBC News"
         },
         {
-          "title": "Rumen Radev's party wins Bulgarian election",
-          "url": "https://www.bbc.com/news/articles/cm2kgm1zpgro?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 13:01:19 GMT",
-          "summary": "With 87% of the vote now counted, Progressive Bulgaria has secured a majority in parliament.",
+          "title": "Trailblazing black beauty queen who defied apartheid South Africa dies aged 76",
+          "url": "https://www.bbc.com/news/articles/cy41kklknreo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 17:38:22 GMT",
+          "summary": "At the 1972 Miss World contest, Cynthia Shange was one of two contestants from South Africa - one black and one white.",
           "source": "BBC News"
         },
         {
@@ -66,119 +97,115 @@
           "source": "BBC News"
         },
         {
-          "title": "Elon Musk summoned by French prosecutors amid ongoing X probe",
+          "title": "Days of Our Lives and Starship Troopers actor Patrick Muldoon dies aged 57",
+          "url": "https://www.bbc.com/news/articles/czx9q51rldko?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 15:51:43 GMT",
+          "summary": "The actor and producer also appeared in Melrose Place and Saved By the Bell.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Elon Musk snubs interview summons by French prosecutors amid X probe",
           "url": "https://www.bbc.com/news/articles/crk151nn7j3o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 12:03:16 GMT",
-          "summary": "Whether the tech billionaire will attend the interview requested by Paris prosecutors remains to be seen.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Iranian woman arrested in US for allegedly trafficking arms to Sudan",
-          "url": "https://www.bbc.com/news/articles/ce9m7m1nmdeo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 13:32:58 GMT",
-          "summary": "Shamim Mafi is accused of brokering the sales of arms to Sudan's defence ministry on behalf of Iran.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Rebel Wilson's claims against actress are 'malicious concoctions', Australian court hears",
-          "url": "https://www.bbc.com/news/articles/cn4vn021mg9o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 10:19:50 GMT",
-          "summary": "Wilson has been accused of defaming the star of her film The Deb over an incident involving a bath in Bondi.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
-          "url": "https://www.bbc.com/news/articles/c8ejn778j4do?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 19 Apr 2026 17:48:41 GMT",
-          "summary": "Authorities say the officers have been suspended and an investigation into their actions is under way.",
-          "source": "BBC News"
-        },
-        {
-          "title": "At least 25 killed in firecracker factory blast in India",
-          "url": "https://www.bbc.com/news/articles/cp867zy9j6ro?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 06:16:21 GMT",
-          "summary": "Mostly female workers have been killed in the blast, which occurred in Tamil Nadu state.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Thousands of Parisians evacuated as WW2 bomb detonated",
-          "url": "https://www.bbc.com/news/articles/c4gxv3874vjo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 19 Apr 2026 15:50:48 GMT",
-          "summary": "Residents within a 450m radius of the device were told to leave their homes while it was neutralised.",
+          "published": "Mon, 20 Apr 2026 15:44:44 GMT",
+          "summary": "The Paris prosecutor's office told the BBC it had \"taken note of the absence of the people summoned\".",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Japan is on high alert for a potential second earthquake, while a mass shooting in Louisiana has resulted in the deaths of seven children.",
-        "summary": "Today's news highlights significant global events including Japan's earthquake warning, a tragic mass shooting in Louisiana, rising oil prices due to geopolitical tensions, and severe flooding in New Zealand. Additionally, political developments in Bulgaria and ongoing legal issues involving Elon Musk and an Iranian arms trafficking case are also reported.",
+        "key_takeaway": "Japan is on high alert for a potential second earthquake following a tsunami warning, while global tensions rise due to the US seizure of an Iranian ship.",
+        "summary": "Today's news highlights significant global events, including Japan's earthquake alert, the US's seizure of an Iranian ship, and a tragic mass shooting in Louisiana. Additionally, an Israeli soldier's vandalism in Lebanon has sparked outrage, and New Zealand is facing severe flooding, prompting a state of emergency. The entertainment world mourns the loss of actor Patrick Muldoon, while a trailblazing beauty queen from South Africa has passed away.",
         "key_themes": [
-          "Japan earthquake warning",
-          "Louisiana mass shooting",
-          "oil prices rise",
-          "New Zealand flooding",
-          "Bulgarian election results"
+          "Japan earthquake warning details",
+          "US Iranian ship seizure implications",
+          "Louisiana mass shooting updates",
+          "New Zealand flooding emergency",
+          "Cynthia Shange obituary"
         ],
         "notable_headlines": [
           {
-            "headline": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
-            "why_it_matters": "The warning indicates potential danger for millions, emphasizing the need for preparedness in earthquake-prone regions.",
+            "headline": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
+            "why_it_matters": "The incident has drawn international condemnation and calls for accountability from the Israeli military and US officials.",
             "signal": "Risk"
           },
           {
-            "headline": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
-            "why_it_matters": "This tragic event raises concerns about gun violence and child safety in the United States.",
+            "headline": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
+            "why_it_matters": "The case could have significant legal implications and media attention due to the nature of the allegations against the singer.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
+            "why_it_matters": "The warning indicates potential danger for residents and could lead to emergency responses in the region.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "What we know about the Iranian ship seized by the US",
+            "why_it_matters": "The seizure reflects ongoing tensions in the Gulf and could escalate geopolitical conflicts.",
             "signal": "Risk"
           },
           {
             "headline": "Oil prices rise after Trump says Iranian ship seized",
-            "why_it_matters": "The statement could escalate tensions in the Middle East, impacting global oil markets.",
+            "why_it_matters": "Rising oil prices may impact global markets and economies, particularly in energy-dependent regions.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+            "why_it_matters": "This tragic event raises concerns about gun violence and child safety in the US.",
             "signal": "Risk"
+          },
+          {
+            "headline": "More than 200 rescued from IS-linked group in DR Congo",
+            "why_it_matters": "The rescue operation highlights ongoing security challenges in the region and the plight of those affected by extremist groups.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Police gunfight with favela gang traps 200 tourists on hilltop",
+            "why_it_matters": "The incident underscores the dangers tourists face in areas with high crime rates and gang violence.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trailblazing black beauty queen who defied apartheid South Africa dies aged 76",
+            "why_it_matters": "Cynthia Shange's legacy as a pioneer in beauty pageants during apartheid is significant for cultural history.",
+            "signal": "Unclear"
           },
           {
             "headline": "New Zealand declares state of emergency in Wellington as floods hit",
-            "why_it_matters": "The floods highlight the increasing frequency of extreme weather events and their impact on communities.",
+            "why_it_matters": "The flooding situation poses immediate risks to residents and infrastructure, necessitating government intervention.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Rumen Radev's party wins Bulgarian election",
-            "why_it_matters": "The election results could influence Bulgaria's political landscape and its approach to EU relations.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring Japan for seismic activity following tsunami warning.",
-            "Assessing the aftermath of the Louisiana shooting and potential legislative responses.",
-            "Observing oil market reactions to geopolitical developments."
+            "Monitor developments regarding Japan's earthquake risk and potential aftershocks.",
+            "Watch for updates on the US-Iran tensions following the ship seizure.",
+            "Follow the response to the Louisiana mass shooting and any legislative discussions that may arise."
           ],
           "next_1_4_weeks": [
-            "Tracking recovery efforts in New Zealand post-flooding.",
-            "Following up on the implications of the Bulgarian election results.",
-            "Watching for updates on the Iranian arms trafficking case involving the arrested woman."
+            "Observe the impact of flooding in New Zealand on recovery efforts and infrastructure.",
+            "Keep an eye on the legal proceedings involving the singer D4vd and public reaction.",
+            "Track the geopolitical implications of the US's actions in the Gulf region."
           ],
           "watch_list": [
-            "Japan's earthquake preparedness measures",
-            "Gun control discussions in the US",
-            "Global oil market trends",
-            "New Zealand flood recovery efforts",
-            "Political developments in Bulgaria"
+            "Japan's seismic activity and emergency preparedness measures.",
+            "US domestic policies regarding gun violence and safety.",
+            "The humanitarian situation in DR Congo regarding IS-linked groups.",
+            "Responses to the Israeli soldier's actions in Lebanon."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Japan is fluid and may change rapidly depending on seismic activity.",
-          "Details surrounding the Louisiana shooting are still emerging, and further investigations are ongoing.",
-          "Geopolitical tensions can lead to unpredictable market reactions."
+          "The situation in Japan is fluid and may change rapidly with new seismic activity.",
+          "Geopolitical tensions can escalate quickly, affecting global markets and security.",
+          "Details surrounding the Louisiana shooting may evolve as investigations continue."
         ],
         "related_topics": [
-          "What is the latest on Japan's earthquake warnings?",
-          "Details about the Louisiana mass shooting incident",
-          "How are oil prices affected by geopolitical events?",
-          "Updates on New Zealand's flooding situation",
-          "Results of the Bulgarian elections and their implications"
+          "What are the latest updates on Japan's earthquake situation?",
+          "How is the US handling tensions with Iran?",
+          "What happened in the Louisiana mass shooting?",
+          "What is the current state of flooding in New Zealand?",
+          "Who was Cynthia Shange and why is she significant?"
         ]
       },
-      "tweet_text": "A day of devastation: from quakes and floods to a tragic mass shooting, the world is on edge.\n\nWorld Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iranian #Alert #Allegedly #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Chaos unfolds globally: from a soldier's desecration to a mass shooting tragedy, the world is on edge.\n\nWorld Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iranian #Seized #Ship #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -189,16 +216,30 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.2354,
+        "score": -0.0742,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.392, dampened ×0.6 → -0.2354). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.124, dampened ×0.6 → -0.0742). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "European stock markets fall and oil and gas prices jump 5% as strait of Hormuz ‘chaos’ worries investors – business live",
-          "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
-          "published": "Mon, 20 Apr 2026 14:40:19 GMT",
-          "summary": "<p>Rolling coverage of the latest economic and financial news</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/apr/19/trumps-sends-delegation-to-pakistan-for-possible-new-round-of-iran-war-talks\">Tehran has ‘no plans to participate’ in new talks, state media reports, as it accuses US of violating ceasefire</a></p></li></ul><p>Energy producers are benefitting from the jump in the oil and gas price.</p><p><strong>BP</strong> (+2.7%) and <strong>Shell</strong> (+2.4%) are leading the F",
+          "title": "Tim Cook to step down as Apple chief as John Ternus named replacement",
+          "url": "https://www.theguardian.com/technology/2026/apr/20/tim-cook-apple-ceo-replacement",
+          "published": "Mon, 20 Apr 2026 22:25:47 GMT",
+          "summary": "<p>Cook, who will stay on as executive chair, praises head of hardware engineering, who will take over on 1 September</p><p>Apple announced on Monday that it had named a replacement for Tim Cook as CEO after nearly 15 years, with head of hardware engineering John Ternus succeeding him on 1 September. Cook will stay at the company in the role of executive chair.</p><p>“It has been the greatest privilege of my life to be the CEO of Apple and to have been trusted to lead such an extraordinary compa",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump administration begins refunding more than $166bn in tariffs",
+          "url": "https://www.theguardian.com/us-news/2026/apr/20/trump-tariffs-refund-claims",
+          "published": "Mon, 20 Apr 2026 15:02:27 GMT",
+          "summary": "<p>Claims system launches months after supreme court ruled Trump had no legal authority to impose tariffs</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a></p></li></ul><p>The Tru",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Oil prices rise and markets fall after US seizure of ship hits Iran peace deal hopes",
+          "url": "https://www.theguardian.com/business/2026/apr/20/oil-prices-rise-markets-fall-us-iran-ftse-100-gas-strait-of-hormuz",
+          "published": "Mon, 20 Apr 2026 17:21:48 GMT",
+          "summary": "<p>FTSE 100 slides and UK gas prices up amid fears strait of Hormuz will be closed for extended period</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/apr/20/iran-war-latest-news-updates-live-hormuz-trump-us-iranian-ship-ceasefire-doubt\">Middle East crisis – live updates</a></p></li></ul><p>Oil prices rose sharply and European stock markets fell on Monday after the US seizure of an Iranian vessel dented hopes for a peace deal.</p><p>Brent crude, the international benchmark for",
           "source": "The Guardian"
         },
         {
@@ -244,20 +285,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Air Canada temporarily suspends some flights to New York and other locations",
-          "url": "https://www.theguardian.com/world/2026/apr/17/air-canada-suspending-flights-fuel-prices",
-          "published": "Fri, 17 Apr 2026 20:57:11 GMT",
-          "summary": "<p>Separately, Spirit Airlines reportedly seeks emergency US government funds as Iran war keeps aviation fuel costs high</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a></p></li>",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Netflix co-founder Reed Hastings to leave streaming service",
-          "url": "https://www.theguardian.com/media/2026/apr/16/netflix-chair-reed-hastings",
-          "published": "Fri, 17 Apr 2026 08:29:32 GMT",
-          "summary": "<p>Chair’s decision to not seek re-election ‘not as a result of any disagreement’, company says in filing</p><p>Reed Hastings, the Netflix chair, is leaving the streaming service he co-founded almost 30 years ago as the company regains its footing after losing out on a $72bn (£53bn) deal for Warner Bros Discovery.</p><p>In a 14-page letter to investors released on Thursday, Netflix said Hastings would not stand for re-election at its annual meeting in June and planned to focus on philanthropy an",
-          "source": "The Guardian"
-        },
-        {
           "title": "Falling fertility, debt and AI: is the US headed toward a population crisis?",
           "url": "https://www.theguardian.com/business/2026/apr/19/us-population-fertility-rate",
           "published": "Sun, 19 Apr 2026 11:00:47 GMT",
@@ -280,73 +307,72 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "European stock markets declined while oil prices surged due to geopolitical tensions in the Strait of Hormuz, impacting various sectors including ride-sharing and aviation.",
-        "summary": "Today's business news highlights a mixed sentiment in the market, driven by geopolitical tensions affecting oil prices and the economic implications for various sectors. European stock markets fell as oil and gas prices jumped by 5%, raising concerns among investors. Ride-share drivers for Uber and Lyft are struggling with rising fuel costs, while the Trump administration's energy secretary predicts gas prices may not fall below $3 until 2027. Additionally, central bank leaders are preparing for potential financial crises, and independent bookstores are experiencing a resurgence despite the dominance of large retail chains.",
+        "key_takeaway": "Tim Cook will step down as Apple's CEO, with John Ternus set to replace him on September 1, 2026.",
+        "summary": "Today's business news highlights significant leadership changes at Apple, ongoing economic impacts from rising oil prices, and the effects of tariff refunds initiated by the Trump administration.",
         "key_themes": [
-          "Geopolitical tensions and market impact",
-          "Rising fuel prices and driver challenges",
-          "Central bank crisis preparedness",
-          "Independent bookstores resurgence",
-          "Oil price fluctuations and economic implications"
+          "Apple CEO transition",
+          "impact of oil prices on markets",
+          "tariff refunds by Trump administration"
         ],
         "notable_headlines": [
           {
-            "headline": "European stock markets fall and oil and gas prices jump 5% as strait of Hormuz ‘chaos’ worries investors",
-            "why_it_matters": "The rise in oil prices due to geopolitical tensions is affecting global markets and investor confidence.",
+            "headline": "Tim Cook to step down as Apple chief as John Ternus named replacement",
+            "why_it_matters": "This leadership change marks a significant transition for Apple after nearly 15 years under Cook's tenure.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Trump administration begins refunding more than $166bn in tariffs",
+            "why_it_matters": "This refund process follows a Supreme Court ruling, potentially impacting businesses and consumers affected by previous tariffs.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Oil prices rise and markets fall after US seizure of ship hits Iran peace deal hopes",
+            "why_it_matters": "The seizure has raised concerns about stability in oil markets and the broader geopolitical landscape.",
             "signal": "Risk"
           },
           {
             "headline": "‘I don’t want to waste the gas’: Uber and Lyft drivers reeling as fuel prices soar",
-            "why_it_matters": "Rising fuel costs are straining ride-share drivers' earnings, leading to dissatisfaction with company support.",
+            "why_it_matters": "Rising fuel costs are significantly affecting gig economy workers, highlighting the economic pressures they face.",
             "signal": "Risk"
           },
           {
             "headline": "Trump energy secretary says gas prices might not drop back under $3 a gallon until 2027",
-            "why_it_matters": "Long-term predictions on gas prices can influence consumer behavior and economic planning.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Central bank bosses enlist for war game to gauge threat of Lehman-style bust",
-            "why_it_matters": "This exercise indicates concerns over financial stability and preparedness for potential crises.",
+            "why_it_matters": "This statement indicates prolonged economic challenges related to energy costs for consumers.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Independent bookstores make quiet comeback as big chains dominate retail",
-            "why_it_matters": "The resurgence of independent bookstores suggests a shift in consumer preferences despite retail challenges.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Strait of Hormuz for further market impact.",
-            "Watch for responses from Uber and Lyft regarding driver support amid rising fuel costs.",
-            "Keep an eye on central bank announcements regarding financial stability measures."
+            "Monitor reactions to Tim Cook's announcement and its impact on Apple's stock price.",
+            "Watch for updates on the tariff refund process and its implications for businesses.",
+            "Observe fluctuations in oil prices and market responses to geopolitical developments."
           ],
           "next_1_4_weeks": [
-            "Observe trends in oil prices and their effects on inflation and consumer spending.",
-            "Track the ongoing unionization efforts at Starbucks and their implications for labor relations.",
-            "Evaluate the performance of independent bookstores in the retail landscape."
+            "Evaluate the effects of rising gas prices on consumer behavior and the gig economy.",
+            "Anticipate potential legislative responses to the economic pressures from rising fuel costs.",
+            "Track the performance of independent bookstores as they continue to grow against larger chains."
           ],
           "watch_list": [
-            "Geopolitical developments in the Middle East",
-            "US gas price trends and consumer sentiment",
-            "Central bank strategies for financial crises preparedness",
-            "Unionization movements in major corporations",
-            "Retail performance of independent bookstores"
+            "Apple's stock performance post-Cook's announcement.",
+            "Trends in gas prices and their impact on consumer spending.",
+            "Developments in US-Iran relations and their effect on oil markets.",
+            "Unionization efforts at Starbucks and their implications for labor movements."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Market reactions may change rapidly based on geopolitical developments.",
-          "Consumer sentiment can be unpredictable amid rising costs."
+          "The sentiment score indicates mixed feelings about the overall business climate, suggesting uncertainty in market reactions.",
+          "Geopolitical tensions may lead to rapid changes in oil prices and market stability."
         ],
         "related_topics": [
-          "What are the latest trends in oil prices?",
-          "How are rising fuel costs affecting ride-share drivers?",
-          "What is the outlook for independent bookstores in 2026?"
+          "What is the impact of Tim Cook stepping down as Apple CEO?",
+          "How are rising gas prices affecting Uber and Lyft drivers?",
+          "What are the implications of the Trump administration's tariff refunds?",
+          "Current trends in oil prices and market reactions",
+          "Unionization efforts at Starbucks and their significance"
         ]
       },
-      "tweet_text": "Investors brace for chaos as European markets tumble and oil prices surge—what’s next in this high-stakes game?\n\nBusiness Sentiment: Mixed (-0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prices #Hormuz #Iran #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Apple's future is in new hands as Tim Cook steps down—what's next for the tech giant?\n\nBusiness Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -357,158 +383,151 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1875,
+        "score": 0.1788,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.313, dampened ×0.6 → +0.1875). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.298, dampened ×0.6 → +0.1788). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Tesla launches robotaxis in Dallas and Houston, and oops, it’s already unavailable",
-          "url": "https://www.theverge.com/transportation/914823/tesla-robotaxi-houston-dallas-unavailable",
-          "published": "2026-04-20T11:06:55-04:00",
-          "summary": "Tesla claims to have launched a robotaxi service in Dallas and Houston over the weekend, but so far, online crowdsourcing tools indicate that very few cars are actually available. On Saturday, @TeslaRobotaxi posted a 14-second video of a Model Y vehicle driving without any human safety monitor in the front seats. Elon Musk re-posted the [&#8230;]",
+          "title": "The Lenovo Legion Go S is RAMageddon’s latest victim",
+          "url": "https://www.theverge.com/games/915278/lenovo-legion-go-s-price-hike-discontinued-ramageddon",
+          "published": "2026-04-20T18:49:42-04:00",
+          "summary": "You can still find the Asus Xbox Ally X and the MSI Claw 8 AI Plus for $999 and $1,049 respectively, but Lenovo's Legion Go S has seemingly given up the fight. The best version of Lenovo's 8-inch handheld now costs nearly double what it did at launch - originally $829.99 last summer, the SteamOS [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Canva’s CEO on its big pivot to AI enterprise software",
-          "url": "https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design",
-          "published": "2026-04-20T11:00:00-04:00",
-          "summary": "Today, I’m talking with Melanie Perkins, founder and CEO of Canva, a popular online design tool. I always enjoy talking with Melanie. She was last on the show a couple of years ago, just as the AI revolution was coming to the worlds of art and design. At the time, Canva had escaped a lot [&#8230;]",
+          "title": "John Ternus is taking over from Tim Cook as Apple&#8217;s CEO",
+          "url": "https://www.theverge.com/tech/915272/apple-john-ternus-tim-cook",
+          "published": "2026-04-20T17:44:15-04:00",
+          "summary": "The multitrillion-dollar home of the iPhone, Mac, and so many other tech gadgets is getting a new leader this fall, as Apple has announced that Tim Cook will be replaced as CEO on September 1st by current hardware boss John Ternus. How will we look back on Cook&#8217;s legacy, and what will Apple look like [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Elden Ring movie hits theaters in March 2028",
-          "url": "https://www.theverge.com/entertainment/914818/elden-ring-movie-date-cast",
-          "published": "2026-04-20T09:25:40-04:00",
-          "summary": "It's going to be a little while before The Lands Between is realized in movie form. Bandai Namco just confirmed that the live-action Elden Ring movie, which was announced last year, is expected to hit theaters on March 3rd, 2028, with production kicking off this spring. Based on FromSoftware's open-world fantasy RPG from 2022, Elden [&#8230;]",
+          "title": "Read Tim Cook&#8217;s letter to the Apple world as he departs as CEO",
+          "url": "https://www.theverge.com/tech/915279/tim-cook-ceo-letter-apple-community",
+          "published": "2026-04-20T17:42:36-04:00",
+          "summary": "Apple CEO Tim Cook has written a letter to the community as he prepares to step down from his role in September. \"This is not goodbye. But at this moment of transition, I wanted to take the opportunity to say thank you,\" Cook writes. As part of the shift, John Ternus, Apple's senior vice president [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Vampire Survivors’ new spinoff switches genres but keeps the good vibes",
-          "url": "https://www.theverge.com/games/913410/vampire-survivors-new-spinoff-switches-genres-but-keeps-the-good-vibes",
-          "published": "2026-04-20T09:00:00-04:00",
-          "summary": "When Vampire Survivors first exploded onto the scene, it was pretty much all I could think about. The formula of jumping into runs, taking on thousands of enemies, and becoming absurdly overpowered kept me picking up the game again and again - Steam says I've played it for more than 60 hours. Over time, though, [&#8230;]",
+          "title": "Apple names Johny Srouji as chief hardware officer",
+          "url": "https://www.theverge.com/tech/915240/apple-johny-srouji-ternus-cook",
+          "published": "2026-04-20T17:05:59-04:00",
+          "summary": "Apple has appointed Johny Srouji as its new chief hardware officer, \"effective immediately,\" according to an announcement on Monday. He is stepping into the shoes of current hardware engineering head John Ternus, who will replace Tim Cook as CEO in September, while Cook becomes the chairman of the board. Last December, Srouji reassured his team [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "This pasta sauce wants to record your family",
-          "url": "https://www.theverge.com/tech/913874/prego-connection-keeper-bundle-voice-recorder-storycorps",
-          "published": "2026-04-20T09:00:00-04:00",
-          "summary": "As if there weren't already enough devices listening in on everything being said in your home, Prego, the pasta and pizza sauce brand, is releasing a device designed to record everything said around the dinner table for posterity. The Connection Keeper, which looks like an oversized pasta jar lid, was created in collaboration with StoryCorps, [&#8230;]",
+          "title": "Apple CEO Tim Cook is stepping down",
+          "url": "https://www.theverge.com/tech/915213/tim-cook-apple-ceo-stepping-down-john-ternus",
+          "published": "2026-04-20T16:42:59-04:00",
+          "summary": "Apple CEO Tim Cook is stepping down and will be succeeded by John Ternus, currently Apple's senior vice president of hardware engineering. Ternus will take over as CEO and join Apple's board of directors on September 1st, 2026. Cook, who joined Apple in 1998 and took over as CEO from Steve Jobs in 2011, will [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Huawei beats Samsung and Apple to market with the first wide foldable",
-          "url": "https://www.theverge.com/tech/914807/huawei-pura-x-max-launch-price-specs-availability",
-          "published": "2026-04-20T08:19:19-04:00",
-          "summary": "Huawei has launched its passport-style foldable in China, ahead of similar devices said to be coming from Apple and Samsung. That makes the Pura X Max the first wide foldable phone that's actually available to buy, with today's launch now giving us the full specifications and price after its design was unveiled by Huawei last [&#8230;]",
+          "title": "Here&#8217;s how Amazon&#8217;s price fixing allegedly drove up prices everywhere",
+          "url": "https://www.theverge.com/policy/915209/amazon-price-fixing-california-lawsuit",
+          "published": "2026-04-20T16:39:51-04:00",
+          "summary": "On Monday, California Attorney General Rob Bonta revealed the evidence of alleged price-fixing by Amazon. The state filed a request to the Supreme Court in February for a preliminary injunction to stop Amazon's behavior while the lawsuit it originally filed in 2022 proceeds, and is now making that 16-page document available, \"largely unredacted.\" It lays [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "DJI’s latest power station is proof that good things come in mini packages",
-          "url": "https://www.theverge.com/reviews/913706/dji-mini-power-station-review-comparison",
-          "published": "2026-04-20T08:00:00-04:00",
-          "summary": "As an avid vanlifer, I have to carefully curate everything I carry in order to eke out every square inch of storage I can to support life off the grid for weeks at a time. That's why I jumped at the chance to review DJI's latest power station. The DJI Power 1000 Mini is almost [&#8230;]",
+          "title": "Silicon Valley has forgotten what normal people want",
+          "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
+          "published": "2026-04-20T16:30:00-04:00",
+          "summary": "One of the most mortifying things about knowing a lot of techies is listening to them tell me excitedly about some very important discovery that they believe they have made. Recently, I ran into an acquaintance of mine, who began talking my ear off about an amazing discovery he'd made with LLMs. Knowledge, it turns [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "GoPro’s new Mission cameras are priced beyond most weekend athletes",
-          "url": "https://www.theverge.com/gadgets/914764/gopros-mission-camera-prices",
-          "published": "2026-04-20T05:04:39-04:00",
-          "summary": "GoPro is pricing its new Mission 1 and Mission 1 Pro cameras at $599.99 and $699.99, respectively, each discounted by $100 if you subscribe to its ecosystem - fine for professional filmmakers, but a tough sell for weekend warriors. The Mission 1 and Mission 1 Pro can both be reserved now, and you'll get the [&#8230;]",
+          "title": "WhatsApp tests &#8216;Plus&#8217; subscription that adds stickers and more for a few bucks a month",
+          "url": "https://www.theverge.com/tech/915172/meta-testing-whatsapp-plus-subscription",
+          "published": "2026-04-20T16:12:23-04:00",
+          "summary": "WhatsApp users are getting some new customization features - for a price. According to WABetaInfo, Meta is rolling out a WhatsApp Plus subscription to \"a limited number of users,\" offering several cosmetic and quality of life perks, including exclusive stickers, different app themes, custom app icons, premium ringtones, the ability to pin up to 20 [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Blue Origin successfully reused its New Glenn rocket",
-          "url": "https://www.theverge.com/science/914729/blue-origin-successfully-reused-its-new-glenn-rocket",
-          "published": "2026-04-19T16:28:52-04:00",
-          "summary": "Today's launch of AST SpaceMobile's BlueBird 7 satellite aboard Blue Origin's reusable New Glenn rocket was a partial success. The New Glenn touched down on its landing pad without incident, making it the second launch and landing for the first stage booster, and officially giving Jeff Bezos a reusable launch vehicle. Unfortunately for AST SpaceMobile, [&#8230;]",
+          "title": "Japanese man sentenced to prison for posting spoilers",
+          "url": "https://www.theverge.com/entertainment/914984/godzilla-minus-one-overlord-coda-spoilers-lawsuit-toho-kadokawa-shoten",
+          "published": "2026-04-20T16:02:58-04:00",
+          "summary": "Though it's very common for entertainment writers to describe some narrative elements of the films and shows that they're covering, a Japanese court has determined that the practice can sometimes be tantamount to copyright infringement. Last Thursday, the Tokyo District Court ruled that 39-year-old Wataru Takeuchi was guilty of violating Japanese law that prohibits the [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Cloud development platform Vercel was hacked",
-          "url": "https://www.theverge.com/tech/914723/vercel-hacked",
-          "published": "2026-04-19T15:54:52-04:00",
-          "summary": "Vercel, a major development platform that hosts and deploys web apps, was compromised, and the hackers are attempting to sell stolen data. A person claiming to be a member of ShinyHunters, which was behind the recent hack of Rockstar Games, posted some data online, including employee names, email addresses, and activity time stamps. Vercel confirmed [&#8230;]",
+          "title": "Google Photos adds subtle touch-up tools for faces",
+          "url": "https://www.theverge.com/tech/915129/google-photos-image-editor-touch-up-whiten-teeth-skin-blemishes",
+          "published": "2026-04-20T15:33:17-04:00",
+          "summary": "Google has announced a new collection of touch-up tools for Google Photos' image editor designed to apply subtle enhancements, refinements, or fixes to faces in photos. The tools are gradually being rolled out on the Google Photos app globally starting today, but only on devices running Android 9.0 and up with at least 4GB of [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tesla's robotaxi service launch in Dallas and Houston faces availability issues, while Huawei introduces the first wide foldable phone ahead of competitors.",
-        "summary": "Today's technology news highlights Tesla's challenges with its robotaxi service launch in Dallas and Houston, Canva's strategic pivot to AI enterprise software, and Huawei's release of the first wide foldable phone. Additionally, DJI and GoPro unveil new products, while Vercel suffers a data breach and Blue Origin successfully reuses its New Glenn rocket.",
+        "key_takeaway": "Apple CEO Tim Cook will step down in September, with John Ternus set to take over the leadership role.",
+        "summary": "Today's technology news highlights significant leadership changes at Apple, the discontinuation of Lenovo's Legion Go S, and new features in Google Photos. Additionally, Amazon faces legal scrutiny over alleged price-fixing, and WhatsApp is testing a new subscription service.",
         "key_themes": [
-          "Tesla robotaxi launch issues",
-          "Canva AI enterprise software pivot",
-          "Huawei first wide foldable phone",
-          "DJI power station review",
-          "GoPro new camera pricing",
-          "Vercel data breach news"
+          "Apple leadership transition",
+          "Lenovo Legion Go S discontinued",
+          "Amazon price-fixing lawsuit",
+          "WhatsApp subscription features",
+          "Google Photos updates"
         ],
         "notable_headlines": [
           {
-            "headline": "Tesla launches robotaxis in Dallas and Houston, and oops, it’s already unavailable",
-            "why_it_matters": "The launch highlights ongoing challenges in autonomous vehicle deployment and public acceptance.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Canva’s CEO on its big pivot to AI enterprise software",
-            "why_it_matters": "Canva's shift reflects broader trends in design software adapting to AI advancements.",
+            "headline": "John Ternus is taking over from Tim Cook as Apple's CEO",
+            "why_it_matters": "This marks a significant leadership change for Apple, impacting its future direction and strategy.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Huawei beats Samsung and Apple to market with the first wide foldable",
-            "why_it_matters": "Huawei's early entry into the foldable market could reshape competition among major tech players.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "DJI’s latest power station is proof that good things come in mini packages",
-            "why_it_matters": "The compact design of DJI's power station caters to the growing vanlife and outdoor enthusiast market.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "GoPro’s new Mission cameras are priced beyond most weekend athletes",
-            "why_it_matters": "High pricing may limit GoPro's appeal to casual users, affecting market reach.",
+            "headline": "Apple CEO Tim Cook is stepping down",
+            "why_it_matters": "Cook's departure ends a notable era for Apple, raising questions about the company's future under new leadership.",
             "signal": "Risk"
           },
           {
-            "headline": "Cloud development platform Vercel was hacked",
-            "why_it_matters": "The breach raises concerns about data security in major tech platforms and impacts user trust.",
+            "headline": "Here's how Amazon's price fixing allegedly drove up prices everywhere",
+            "why_it_matters": "The outcome of this lawsuit could have major implications for Amazon's business practices and pricing strategies.",
             "signal": "Risk"
+          },
+          {
+            "headline": "WhatsApp tests ‘Plus’ subscription that adds stickers and more for a few bucks a month",
+            "why_it_matters": "This move could change the monetization strategy for WhatsApp and affect user engagement.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Google Photos adds subtle touch-up tools for faces",
+            "why_it_matters": "These new features enhance user experience and could attract more users to the platform.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring Tesla's robotaxi availability updates",
-            "Following reactions to Canva's AI pivot",
-            "Watching for consumer responses to Huawei's foldable phone"
+            "Monitor reactions to Tim Cook's departure from Apple.",
+            "Watch for updates on Amazon's legal situation regarding price-fixing.",
+            "Expect more details on WhatsApp's subscription service."
           ],
           "next_1_4_weeks": [
-            "Evaluating the impact of Vercel's data breach on user trust",
-            "Tracking sales performance of GoPro's new cameras",
-            "Observing market reactions to DJI's power station"
+            "Observe how Apple's leadership transition affects stock prices and market perception.",
+            "Look for user feedback on Google Photos' new features.",
+            "Follow developments in the Amazon lawsuit."
           ],
           "watch_list": [
-            "Tesla's autonomous vehicle developments",
-            "Canva's AI software features",
-            "Huawei's competitive positioning in foldables",
-            "DJI's product reviews and user feedback",
-            "GoPro's sales strategy"
+            "Apple's new CEO John Ternus and his initial strategies.",
+            "Lenovo's future product offerings after discontinuing the Legion Go S.",
+            "WhatsApp's subscription model success and user adoption rates.",
+            "Google Photos' competitive positioning with new features."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the news, suggesting a balance of positive and negative reactions.",
-          "Availability issues for Tesla's robotaxi may change as the service scales up."
+          "The impact of leadership changes at Apple is uncertain until Ternus takes over.",
+          "Legal outcomes for Amazon may take time to unfold."
         ],
         "related_topics": [
-          "What are the latest developments in Tesla's robotaxi service?",
-          "How is Canva adapting to AI in enterprise software?",
-          "What features does Huawei's new foldable phone offer?",
-          "What are the implications of Vercel's data breach?",
-          "How do GoPro's new cameras compare in pricing?"
+          "What are the implications of Tim Cook stepping down as Apple CEO?",
+          "Latest updates on Amazon's price-fixing lawsuit",
+          "What new features are coming to Google Photos?",
+          "WhatsApp subscription service details and features",
+          "Lenovo Legion Go S discontinuation news"
         ]
       },
-      "tweet_text": "Tesla's robotaxi dreams crash before takeoff, but you won’t believe what Canva's cooking up next!\n\nTechnology Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Good #2028 #Already #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Big changes at Apple: Tim Cook steps down as CEO, handing the reins to John Ternus! What does this mean...\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Cook #8216plus8217 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -519,161 +538,161 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.261,
-        "label": "Positive",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.435, dampened ×0.6 → +0.2610). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0363,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.061, dampened ×0.6 → +0.0363). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Schefter’s NFL draft week intel: Nuggets on top picks, intriguing prospects, QBs and trade candidates",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48507444/2026-nfl-draft-notes-intel-buzz-adam-schefter-first-round-picks-teams-trades",
-          "published": "Mon, 20 Apr 2026 09:43:52 EST",
-          "summary": "How early could Jeremiyah Love be drafted? Will Ty Simpson go in Round 1? Could we still see A.J. Brown traded? Adam Schefter has the latest.",
+          "title": "Wemby captures DPOY as first unanimous winner",
+          "url": "https://www.espn.com/nba/story/_/id/48544568/spurs-victor-wembanyama-captures-first-career-dpoy",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "summary": "Victor Wembanyama, 22, is both the youngest DPOY winner in NBA history and the first to win the award unanimously.",
           "source": "ESPN"
         },
         {
-          "title": "Reid's final NFL mock draft: We projected fits for all 32 teams across seven rounds",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48480079/2026-nfl-mock-draft-seven-rounds-257-picks-predictions-jordan-reid-fits",
-          "published": "Mon, 20 Apr 2026 09:43:52 EST",
-          "summary": "Jordan Reid projected every single pick from the Raiders' selection at No. 1 to Mr. Irrelevant.",
+          "title": "Dodgers closer Diaz on IL, set for elbow surgery",
+          "url": "https://www.espn.com/mlb/story/_/id/48544759/los-angeles-dodgers-put-closer-edwin-diaz-injured-list",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "summary": "Los Angeles Dodgers closer Edwin Diaz is scheduled to undergo surgery Wednesday to remove loose bodies in his right elbow, the team announced Monday, and the expectation is that he could miss around three months, a source told ESPN's Alden Gonzalez.",
           "source": "ESPN"
         },
         {
-          "title": "49ers, Williams settle deal drama with $50M pact",
-          "url": "https://www.espn.com/nfl/story/_/id/48540724/agency-49ers-trent-williams-agree-two-year-50m-extension",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
-          "summary": "The San Francisco 49ers and left tackle Trent Williams agreed to a two-year, $50 million extension, his agency announced Monday.",
+          "title": "UConn's Ball (wrist) to miss all of next season",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48544576/uconn-solo-ball-wrist-surgery-miss-all-next-season",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "summary": "UConn guard Solo Ball will undergo wrist surgery and miss the entire 2026-27 season.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: Bulls get OK to interview multiple execs",
-          "url": "https://www.espn.com/nba/story/_/id/48541368/sources-bulls-get-ok-interview-front-office-vacancies",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
-          "summary": "The Bulls have started the search for their new head of basketball operations, receiving permission to interview multiple NBA executives, sources told ESPN.",
+          "title": "PGA Tour boots both Hawaii events from '27 sked",
+          "url": "https://www.espn.com/golf/story/_/id/48544964/hawaii-sentry-sony-open-pga-tour-schedule-2027",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "summary": "The PGA Tour will not be in Hawaii in 2027 for the first time in 56 years as it moves toward a revamped schedule that no longer will start the season in the middle of the Pacific Ocean.",
           "source": "ESPN"
         },
         {
-          "title": "Wemby tops Duncan with 35 in Spurs playoff debut",
-          "url": "https://www.espn.com/nba/story/_/id/48538210/victor-wembanyama-scores-35-playoff-debut-spurs-win-game-1-vs-trail-blazers",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
-          "summary": "Victor Wembanyama scored 35 points, the most by a Spurs player making his postseason debut, while leading a 111-98 win over the Trail Blazers in Game 1 of their first-round series Sunday night.",
+          "title": "Jefferson blunt on McCarthy with Kyler a Viking",
+          "url": "https://www.espn.com/nfl/story/_/id/48543398/jefferson-blunt-mccarthy-future-murray-viking",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "summary": "Speaking publicly Monday for the first time about the Vikings' new quarterback room, Justin Jefferson said he is looking forward to Kyler Murray's playmaking skills and was blunt about J.J. McCarthy's future.",
           "source": "ESPN"
         },
         {
-          "title": "OK State lands top transfer Crooks from Iowa St.",
-          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48537946/former-iowa-state-star-audi-crooks-commits-oklahoma-state",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
-          "summary": "Former Iowa State center Audi Crooks, No. 1 in ESPN's women's basketball transfer rankings, committed to Oklahoma State, she announced Sunday night.",
+          "title": "Counsell: MLB rule in place for Ohtani 'bizarre'",
+          "url": "https://www.espn.com/mlb/story/_/id/48545156/mlb-rule-place-ohtani-dodgers-bizarre",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "summary": "Chicago Cubs manager Craig Counsell thinks that a Major League Baseball rule that allows the Los Angeles Dodgers to carry 14 pitchers because of Shohei Ohtani is \"bizarre,\" adding that the defending National League MVP is getting \"special consideration.\"",
           "source": "ESPN"
         },
         {
-          "title": "Bengals extend Lawrence after blockbuster trade",
-          "url": "https://www.espn.com/nfl/story/_/id/48532001/bengals-sign-dt-dexter-lawrence-one-year-28m-extension",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
-          "summary": "Defensive tackle Dexter Lawrence II passed his physical with the Bengals and signed a one-year, $28 million extension, the Win Sports Group told ESPN's Adam Schefter.",
+          "title": "PGA Tour will consider paths back for LIV players",
+          "url": "https://www.espn.com/golf/story/_/id/48545079/ceo-pga-tour-consider-paths-bring-back-liv-players",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "summary": "The PGA Tour will consider additional pathways to bring back LIV Golf players who might want to return to the circuit, CEO Brian Rolapp said Monday.",
           "source": "ESPN"
         },
         {
-          "title": "Hug wins ninth Boston Marathon wheelchair title",
-          "url": "https://www.espn.com/olympics/story/_/id/48541360/marcel-hug-wins-boston-marathon-wheelchair-title-9th",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
-          "summary": "Marcel Hug of Switzerland won his ninth Boston Marathon men's wheelchair title on Monday, riding a tailwind to finish in an unofficial time of 1 hour, 16 minutes, 6 seconds. He missed breaking his own course record by 33 seconds.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Indiana DC claps back at Simpson, Alabama fans",
-          "url": "https://www.espn.com/college-football/story/_/id/48534695/indiana-dc-bryant-haines-claps-back-ty-simpson-alabama-fans",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
-          "summary": "Indiana defensive coordinator Bryant Haines heard the comments from former Alabama quarterback Ty Simpson about the teams' matchup last season in the Rose Bowl and responded with his own observations.",
-          "source": "ESPN"
-        },
-        {
-          "title": "'Gonna get loud': Mets head home as skid hits 11",
-          "url": "https://www.espn.com/mlb/story/_/id/48534611/mets-losing-streak-reaches-11-games-longest-2004",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
-          "summary": "Nico Hoerner hit a sacrifice fly off Craig Kimbrel in the 10th inning as the Cubs extended the Mets' losing streak to 11 games by rallying for a 2-1 victory.",
+          "title": "Garoppolo considering retirement, sources say",
+          "url": "https://www.espn.com/nfl/story/_/id/48542726/sources-free-agent-qb-jimmy-garoppolo-considering-retirement",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "summary": "Free agent quarterback Jimmy Garoppolo is considering retirement, sources told NFL Network on Monday.",
           "source": "ESPN"
         },
         {
           "title": "✨ Top 50 players in the 2026 Stanley Cup playoffs",
           "url": "https://www.espn.com/nhl/story/_/id/48523076/2026-nhl-playoffs-stanley-cup-rankings-top-players-mackinnon-mcdavid-crosby-kucherov",
-          "published": "Mon, 20 Apr 2026 11:06:29 EST",
+          "published": "Mon, 20 Apr 2026 19:38:29 EST",
           "summary": "As 16 teams face off for the ultimate prize in pro sports, these players will have the biggest impact.",
           "source": "ESPN"
         },
         {
-          "title": "WrestleMania 42 Saturday (replay)",
-          "url": "https://www.espn.com/watch/player/_/id/84adf0b5-67c2-42b5-afd8-ce69f5823216",
-          "published": "Mon, 20 Apr 2026 08:12:45 EST",
+          "title": "Follow live: Cavaliers host Raptors for Game 2 of the first round",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869369/raptors-cavaliers",
+          "published": "Mon, 20 Apr 2026 19:22:08 EST",
           "summary": "null",
+          "source": "ESPN"
+        },
+        {
+          "title": "LeBron does it again, and one team has a big problem: Windhorst on the first weekend of the playoffs",
+          "url": "https://www.espn.com/nba/story/_/id/48537702/brian-windhorst-lebron-lakers-five-lessons-first-weekend-nba-playoffs",
+          "published": "Mon, 20 Apr 2026 19:27:38 EST",
+          "summary": "A 25-year-old LeBron strategy for the Lakers, a new defense in Cleveland and a message from Oklahoma City: Here's what we learned as the postseason tipped off.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Even in retirement, Chris Paul's legacy is rooted in this season's playoffs",
+          "url": "https://www.espn.com/nba/story/_/id/48506441/nba-playoffs-2026-chris-paul-retirement-player-impact-curry-brunson",
+          "published": "Mon, 20 Apr 2026 19:27:38 EST",
+          "summary": "Dozens of NBA players have been mentored by the future Hall of Famer, and many of them are vying for the title.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Victor Wembanyama shines in his playoff debut, scoring 35 points as the Spurs win Game 1 against the Trail Blazers.",
-        "summary": "Today's sports headlines highlight significant developments in the NFL draft, NBA playoffs, and notable player transactions. Victor Wembanyama's impressive playoff debut for the Spurs and the 49ers' contract extension for Trent Williams are among the key stories.",
+        "key_takeaway": "Victor Wembanyama becomes the youngest and first unanimous winner of the NBA's Defensive Player of the Year award.",
+        "summary": "Today's sports news highlights include Victor Wembanyama's historic DPOY win, Edwin Diaz's upcoming elbow surgery, and UConn's Solo Ball missing the entire season due to wrist surgery. Additionally, the PGA Tour will not host events in Hawaii for the first time in 56 years, and Jimmy Garoppolo is contemplating retirement. The NBA playoffs are underway, with significant performances and strategies being analyzed.",
         "key_themes": [
-          "NFL draft insights",
-          "NBA playoff highlights",
-          "player contract extensions"
+          "NBA playoffs analysis",
+          "Edwin Diaz injury update",
+          "PGA Tour schedule changes"
         ],
         "notable_headlines": [
           {
-            "headline": "Schefter’s NFL draft week intel: Nuggets on top picks, intriguing prospects, QBs and trade candidates",
-            "why_it_matters": "Provides insights into potential top picks and trade candidates ahead of the NFL draft.",
+            "headline": "Wemby captures DPOY as first unanimous winner",
+            "why_it_matters": "Wembanyama's achievement sets a new standard in the NBA for defensive excellence.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Dodgers closer Diaz on IL, set for elbow surgery",
+            "why_it_matters": "Diaz's injury could significantly impact the Dodgers' bullpen for the upcoming months.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "UConn's Ball (wrist) to miss all of next season",
+            "why_it_matters": "Ball's absence will affect UConn's performance in the upcoming season.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "PGA Tour boots both Hawaii events from '27 sked",
+            "why_it_matters": "This marks a significant shift in the PGA Tour's scheduling and location strategy.",
             "signal": "Unclear"
           },
           {
-            "headline": "Reid's final NFL mock draft: We projected fits for all 32 teams across seven rounds",
-            "why_it_matters": "Offers predictions for every pick in the upcoming NFL draft, crucial for teams and fans.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "49ers, Williams settle deal drama with $50M pact",
-            "why_it_matters": "The 49ers secure a key player with a significant contract extension, impacting their roster stability.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Wemby tops Duncan with 35 in Spurs playoff debut",
-            "why_it_matters": "Wembanyama's performance sets a new record for Spurs playoff debuts, signaling his potential impact.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Hug wins ninth Boston Marathon wheelchair title",
-            "why_it_matters": "Highlights a significant achievement in adaptive sports, showcasing competitive excellence.",
-            "signal": "Opportunity"
+            "headline": "Garoppolo considering retirement, sources say",
+            "why_it_matters": "Garoppolo's potential retirement could reshape the quarterback landscape in the NFL.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "More insights expected as NFL draft approaches",
-            "Updates on NBA playoff matchups and player performances",
-            "Further developments in player trades and contracts"
+            "Live coverage of Cavaliers vs. Raptors Game 2",
+            "Updates on Edwin Diaz's surgery and recovery timeline",
+            "Further analysis on NBA playoff performances"
           ],
           "next_1_4_weeks": [
-            "Anticipation builds for the NFL draft results",
-            "Continued coverage of NBA playoffs and potential upsets",
-            "Monitoring player movements in the transfer market"
+            "Monitoring the impact of injuries on MLB and NBA teams",
+            "Evaluating the PGA Tour's new schedule and its implications",
+            "Tracking Jimmy Garoppolo's decision on retirement"
           ],
           "watch_list": [
-            "Upcoming NFL draft predictions",
-            "NBA playoff performance of key players",
-            "Contract negotiations in professional sports leagues.",
-            "Marcel Hug's future races"
+            "Victor Wembanyama's performance in the playoffs",
+            "Edwin Diaz's recovery progress",
+            "PGA Tour's adjustments for LIV players' return opportunities.",
+            "Upcoming NBA playoff matchups"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The NFL draft predictions are speculative and subject to change based on team decisions.",
-          "Player performances in playoffs can vary significantly from game to game."
+          "Injuries can have unpredictable recovery times.",
+          "Player performance can vary significantly during playoffs."
         ],
         "related_topics": [
-          "What are the latest NFL draft predictions?",
-          "NBA playoff highlights and player performances",
-          "Updates on player contracts in professional sports"
+          "What are the latest NBA playoff updates?",
+          "Edwin Diaz injury impact on Dodgers",
+          "PGA Tour schedule changes for 2027"
         ]
       },
-      "tweet_text": "NFL draft buzz is heating up, and Wemby just stole the show—find out what else is shaking in sports today!\n\nSports Sentiment: Positive (+0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Trade #49ers #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Historic night as Wemby makes DPOY history, while the Dodgers and UConn face tough breaks—sports just got serious!\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Tour #Ball #Bizarre #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -775,19 +794,19 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific breakthroughs include the successful lab growth of dolomite, the development of dirt-powered fuel cells, and new insights into antibiotic resistance in bacteria.",
-        "summary": "Today's science headlines highlight significant advancements, including the resolution of the long-standing dolomite problem, the creation of a dirt-powered fuel cell, and the discovery of how bacteria spread antibiotic resistance. Other notable findings involve the impact of caffeine on ant behavior, the communication between artificial neurons and living brain cells, and the measurement of black hole jets. Additionally, researchers have identified a hidden issue affecting the recovery of the ozone layer and explored the effects of a total solar eclipse on seismic activity.",
+        "key_takeaway": "Scientists have made significant breakthroughs in various fields, including geology, energy, and neuroscience, highlighting the ongoing advancements in scientific research.",
+        "summary": "Today's science headlines feature groundbreaking discoveries, including the successful lab growth of dolomite, the development of a dirt-powered fuel cell, and artificial neurons communicating with brain cells. Additionally, studies reveal insights into the Anthropocene era, the impact of caffeine on ants, and the dynamics of black hole jets. Other notable findings include the effects of a total solar eclipse on seismic activity and the challenges facing ozone layer recovery due to industrial chemicals.",
         "key_themes": [
-          "scientific breakthroughs in geology",
-          "innovations in sustainable energy",
-          "antibiotic resistance mechanisms",
-          "effects of caffeine on behavior",
-          "black hole jet measurements"
+          "breakthroughs in geology",
+          "advancements in renewable energy",
+          "neuroscience and artificial neurons",
+          "impact of caffeine on pest control",
+          "black hole jet dynamics"
         ],
         "notable_headlines": [
           {
             "headline": "After 200 years scientists finally crack the “dolomite problem”",
-            "why_it_matters": "This breakthrough could reshape the production of high-tech materials by understanding mineral growth processes.",
+            "why_it_matters": "This breakthrough could reshape how high-tech materials are made by understanding mineral growth.",
             "signal": "Opportunity"
           },
           {
@@ -796,53 +815,53 @@
             "signal": "Opportunity"
           },
           {
-            "headline": "Scientists discover bacteria can “explode” to spread antibiotic resistance",
-            "why_it_matters": "Understanding this mechanism is crucial for addressing the growing issue of antibiotic resistance.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Artificial neurons successfully communicate with living brain cells",
-            "why_it_matters": "This advancement is a significant step towards integrating technology with biological systems.",
+            "why_it_matters": "This advancement represents a significant step towards integrating technology with biological systems.",
             "signal": "Opportunity"
           },
           {
+            "headline": "Total solar eclipse led to seismic quiet for cities within its path",
+            "why_it_matters": "The findings provide insights into human activity's impact on seismic noise levels during natural events.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "MIT scientists just found a hidden problem slowing the ozone comeback",
-            "why_it_matters": "Identifying this issue is vital for accelerating ozone layer recovery and reducing UV exposure.",
+            "why_it_matters": "Identifying and addressing this issue could accelerate the recovery of the ozone layer and reduce UV exposure.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the implications of the dolomite breakthrough is expected.",
-            "More studies on the effectiveness of dirt-powered fuel cells may be released.",
-            "Anticipated discussions on the impact of caffeine on pest control strategies."
+            "Further analysis of the dolomite growth process may be published.",
+            "More studies on the implications of the dirt-powered fuel cell are expected.",
+            "Research on the effects of caffeine on other species may emerge."
           ],
           "next_1_4_weeks": [
-            "Research on the communication between artificial neurons and brain cells will likely continue to evolve.",
-            "Expect updates on the implications of the ozone layer findings for environmental policy.",
-            "New studies on the effects of the total solar eclipse on urban seismic activity may emerge."
+            "Anticipated discussions on the implications of the Anthropocene era in scientific communities.",
+            "Potential developments in artificial neuron technology and its applications.",
+            "Further investigations into the impact of industrial chemicals on ozone recovery."
           ],
           "watch_list": [
-            "Developments in sustainable energy technologies",
-            "Progress in understanding antibiotic resistance",
-            "Future research on the impact of human activity on geological processes.",
-            "Updates on the integration of artificial intelligence with biological systems."
+            "Emerging research on sustainable energy solutions.",
+            "Updates on pest control innovations using caffeine.",
+            "New findings in the field of neuroscience and brain-machine interfaces.",
+            "Continued monitoring of seismic activity related to natural phenomena."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The long-term implications of these scientific advancements are still uncertain.",
-          "Further research is needed to validate the findings related to antibiotic resistance."
+          "The mixed sentiment indicates varying levels of optimism and concern across different studies.",
+          "Some findings may require further validation before practical applications can be realized."
         ],
         "related_topics": [
           "What are the latest breakthroughs in geology?",
-          "How can dirt-powered fuel cells transform energy use?",
-          "What new discoveries have been made about antibiotic resistance?",
-          "How does caffeine affect ant behavior?",
-          "What are the implications of black hole jet measurements?"
+          "How can dirt-powered fuel cells change energy consumption?",
+          "What advancements have been made in neuroscience recently?",
+          "What impact does caffeine have on pest control?",
+          "How are black hole jets studied in astrophysics?"
         ]
       },
-      "tweet_text": "Unlocking 200 years of mystery, scientists reveal secrets that could change everything we know about...\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Antibiotic #Ants #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Scientists are unlocking nature's secrets: from powering our devices with dirt to understanding...\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Antibiotic #Ants #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
