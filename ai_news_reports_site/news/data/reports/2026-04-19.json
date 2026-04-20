@@ -1,11 +1,11 @@
 {
   "date": "2026-04-19",
-  "generated_at_utc": "2026-04-19T23:49:15Z",
+  "generated_at_utc": "2026-04-20T05:34:39Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
-    "game"
+    "prices"
   ],
   "categories": {
     "world": {
@@ -17,23 +17,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.249,
+        "score": -0.2408,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.415, dampened ×0.6 → -0.2490). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.401, dampened ×0.6 → -0.2408). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-          "url": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 19 Apr 2026 21:39:43 GMT",
-          "summary": "Tehran has not commented on the incident, which comes as the US prepares for a second round of talks.",
+          "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+          "url": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 04:10:40 GMT",
+          "summary": "The children, aged from one to 14 years old, were killed in a shooting that police are describing as a \"domestic disturbance\".",
           "source": "BBC News"
         },
         {
-          "title": "Eight children killed in Louisiana shooting, police say",
-          "url": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 19 Apr 2026 22:54:51 GMT",
-          "summary": "The children, aged from one to 14 years old, were killed in a shooting that police are describing as a \"domestic disturbance\".",
+          "title": "Oil prices rise after Trump says Iranian ship seized",
+          "url": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 02:29:04 GMT",
+          "summary": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
           "source": "BBC News"
         },
         {
@@ -67,8 +67,8 @@
         {
           "title": "Rumen Radev looks set to win Bulgarian Parliamentary election",
           "url": "https://www.bbc.com/news/articles/cm2kgm1zpgro?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 19 Apr 2026 22:06:39 GMT",
-          "summary": "Exit polls put his Progressive Bulgaria on 37%, more than double the score of the closest runner-up, but he will likely need to form a coalition to govern.",
+          "published": "Mon, 20 Apr 2026 04:50:15 GMT",
+          "summary": "Early results put his Progressive Bulgaria on 45%, well ahead of the liberal PP-DB coalition, which stood at 15%.",
           "source": "BBC News"
         },
         {
@@ -108,77 +108,90 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "A mixed day in world news includes significant incidents in Iran, a tragic shooting in Louisiana, and political developments in Bulgaria.",
-        "summary": "Today's world news features a range of significant events, including the US seizing an Iranian-flagged ship amid ongoing tensions, a tragic shooting in Louisiana that claimed the lives of eight children, and political developments in Bulgaria where Rumen Radev appears set to win the parliamentary election. Additionally, a WWII bomb was detonated in Paris, prompting evacuations, while a disturbing case in Trinidad involved the discovery of 50 infants' bodies. The Pope clarified that his recent comments about 'tyrants' were not directed at former President Trump, and Zelensky criticized the US for extending a sanctions waiver for Russia.",
+        "key_takeaway": "A mass shooting in Louisiana claimed the lives of seven children, while global tensions rise over oil prices and geopolitical conflicts.",
+        "summary": "Today's news highlights a tragic mass shooting in Louisiana, rising oil prices linked to geopolitical tensions, and significant political developments in Bulgaria and Ukraine. Additionally, safety concerns arise from contaminated baby food in Austria, and historical bomb evacuations in Paris.",
         "key_themes": [
-          "Iran-US relations",
-          "Louisiana shooting",
-          "Bulgarian elections",
-          "WWII bomb evacuation",
-          "Pope's comments on Trump",
-          "Trinidad infant bodies discovery"
+          "mass shooting in Louisiana",
+          "oil prices and geopolitical tensions",
+          "Bulgaria election results",
+          "Ukraine police chief resignation",
+          "baby food safety concerns"
         ],
         "notable_headlines": [
           {
-            "headline": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-            "why_it_matters": "This incident highlights ongoing tensions between the US and Iran as diplomatic talks are set to resume.",
+            "headline": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+            "why_it_matters": "This incident raises serious concerns about gun violence and domestic disturbances in the U.S.",
             "signal": "Risk"
           },
           {
-            "headline": "Eight children killed in Louisiana shooting, police say",
-            "why_it_matters": "The tragic loss of young lives raises concerns about gun violence and domestic disturbances in the US.",
+            "headline": "Oil prices rise after Trump says Iranian ship seized",
+            "why_it_matters": "The seizure of the ship could escalate tensions in the Middle East, impacting global oil markets.",
             "signal": "Risk"
           },
           {
             "headline": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-            "why_it_matters": "Iran's firm stance on the Strait of Hormuz is crucial for global shipping and geopolitical stability.",
+            "why_it_matters": "Control of this strategic shipping route is crucial for global oil supply and regional stability.",
             "signal": "Unclear"
           },
           {
             "headline": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
-            "why_it_matters": "This resignation reflects the ongoing issues of accountability and police conduct in Ukraine.",
+            "why_it_matters": "This resignation highlights issues of accountability and police conduct in crisis situations.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Rat poison found in HiPP baby food jar in Austria, police say",
+            "why_it_matters": "The discovery raises serious health concerns for consumers and the safety of food products.",
             "signal": "Risk"
           },
           {
             "headline": "Rumen Radev looks set to win Bulgarian Parliamentary election",
-            "why_it_matters": "Radev's potential victory could lead to significant political changes in Bulgaria, requiring coalition-building.",
+            "why_it_matters": "A significant political shift in Bulgaria could impact its domestic policies and EU relations.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "Thousands of Parisians evacuated as WW2 bomb detonated",
+            "why_it_matters": "This event underscores ongoing safety concerns related to unexploded ordnance in urban areas.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Pope says 'tyrants' speech was not aimed at Trump",
+            "why_it_matters": "Clarification from the Pope may affect diplomatic relations and public perception.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions from Iran regarding the seized cargo ship.",
-            "Watch for updates on the investigation into the Louisiana shooting.",
-            "Follow developments in the Bulgarian parliamentary coalition negotiations."
+            "Monitoring the aftermath of the Louisiana shooting and its implications for gun control discussions.",
+            "Observing oil market reactions to geopolitical developments in the Middle East.",
+            "Following the political landscape in Bulgaria as election results are finalized."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions about US-Iran relations and potential diplomatic resolutions.",
-            "Anticipate further political developments in Bulgaria as Radev seeks coalition partners.",
-            "Watch for public health responses following the baby food contamination incident in Austria."
+            "Anticipating further developments in the investigation of the Louisiana shooting.",
+            "Watching for potential changes in oil prices due to ongoing tensions in the Strait of Hormuz.",
+            "Evaluating the impact of the Bulgarian election results on EU relations."
           ],
           "watch_list": [
-            "US-Iran diplomatic talks",
-            "Gun violence legislation in the US",
-            "Political landscape in Bulgaria",
-            "Public health safety in food products"
+            "Gun violence legislation proposals in the U.S.",
+            "Updates on the situation in Ukraine regarding police accountability.",
+            "Health and safety regulations for baby food products.",
+            "Geopolitical developments in the Middle East affecting oil prices."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran is fluid and may change rapidly based on diplomatic developments.",
-          "The implications of the Louisiana shooting may evolve as more details emerge.",
-          "Political dynamics in Bulgaria could shift based on coalition negotiations."
+          "The situation in Louisiana is still developing, and further details may emerge.",
+          "Geopolitical tensions can change rapidly, affecting market conditions unpredictably.",
+          "Election results in Bulgaria may not be finalized for several days."
         ],
         "related_topics": [
-          "What are the latest developments in US-Iran relations?",
-          "Details on the Louisiana shooting incident",
-          "Bulgarian parliamentary election results and implications",
-          "WWII bomb evacuation in Paris news",
-          "Pope's recent comments and their context",
-          "Investigation into infant bodies found in Trinidad"
+          "What happened in the Louisiana mass shooting",
+          "Impact of oil prices on global markets",
+          "Bulgarian election results analysis",
+          "Concerns over baby food safety in Europe",
+          "Ukraine police accountability issues"
         ]
       },
-      "tweet_text": "Tragedy strikes as eight children lose their lives in Louisiana shooting—what's being done to prevent this...\n\nWorld Sentiment: Mixed (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Police #Shooting #Allegedly #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tragedy in Louisiana as a father takes the lives of seven children in a shocking mass shooting—details emerging.\n\nWorld Sentiment: Mixed (-0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iranian #Police #Shooting #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -280,14 +293,14 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Uber and Lyft drivers are struggling with rising fuel costs, while central banks prepare for potential financial crises amid geopolitical tensions.",
-        "summary": "Today's business news highlights the impact of soaring fuel prices on ride-share drivers, concerns over future gas prices, and significant financial maneuvers related to the Iran conflict. Central banks are also preparing for potential banking crises, while independent bookstores are experiencing a resurgence despite the dominance of larger retailers.",
+        "key_takeaway": "Uber and Lyft drivers are struggling with soaring fuel prices, while gas prices in the US may not drop below $3 until 2027, according to experts.",
+        "summary": "Today's business news highlights the impact of rising fuel prices on ride-share drivers, predictions of sustained high gas prices, and the ongoing challenges faced by various sectors including aviation and retail. Additionally, independent bookstores are experiencing a resurgence despite the dominance of large chains.",
         "key_themes": [
           "impact of rising fuel prices on ride-share drivers",
-          "future gas price predictions",
-          "central banks preparing for financial crises",
+          "predictions for future gas prices",
+          "unionization efforts at Starbucks",
           "resurgence of independent bookstores",
-          "effects of geopolitical tensions on markets"
+          "challenges in the aviation sector"
         ],
         "notable_headlines": [
           {
@@ -297,55 +310,58 @@
           },
           {
             "headline": "Trump energy secretary says gas prices might not drop back under $3 a gallon until 2027",
-            "why_it_matters": "Predictions of prolonged high gas prices could affect consumer behavior and economic conditions.",
+            "why_it_matters": "This statement indicates a prolonged period of high fuel costs, affecting consumers and businesses alike.",
             "signal": "Risk"
           },
           {
-            "headline": "Traders placed over $1bn in perfectly timed bets on the Iran war. What is going on?",
-            "why_it_matters": "Suspicious trading activities raise ethical concerns and highlight the financial implications of geopolitical events.",
+            "headline": "Central bank bosses enlist for war game to gauge threat of Lehman-style bust",
+            "why_it_matters": "This exercise reflects concerns about financial stability and preparedness for potential banking crises.",
             "signal": "Unclear"
           },
           {
-            "headline": "Central bank bosses enlist for war game to gauge threat of Lehman-style bust",
-            "why_it_matters": "This exercise indicates a proactive approach to potential financial instability in the banking sector.",
+            "headline": "Employees at first ever Starbucks store seek to unionize amid fight for contract",
+            "why_it_matters": "The move highlights ongoing labor movements within major corporations and the challenges of contract negotiations.",
             "signal": "Opportunity"
           },
           {
             "headline": "Independent bookstores make quiet comeback as big chains dominate retail",
-            "why_it_matters": "The growth of independent bookstores suggests a shift in consumer preferences and resilience in the retail sector.",
+            "why_it_matters": "The resurgence of independent bookstores suggests a shift in consumer preferences towards local businesses.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor fuel price trends and their impact on ride-share services.",
-            "Watch for updates on central bank exercises and their implications for financial stability.",
-            "Keep an eye on the Iran conflict and its effects on global markets."
+            "Monitoring gas price trends and their impact on consumer behavior",
+            "Observing developments in the Starbucks unionization efforts",
+            "Tracking the outcomes of the central bank war game"
           ],
           "next_1_4_weeks": [
-            "Assess the ongoing effects of rising gas prices on consumer spending and ride-share operations.",
-            "Observe the developments in the independent bookstore sector and its competition with larger chains.",
-            "Follow the outcomes of central bank simulations and any resulting policy changes."
+            "Anticipating further fluctuations in fuel prices due to geopolitical events",
+            "Watching for legislative responses to rising living costs",
+            "Evaluating the long-term viability of independent bookstores in the retail landscape"
           ],
           "watch_list": [
-            "Gas price fluctuations and their economic impact.",
-            "Trends in the ride-sharing industry amid rising operational costs.",
-            "The performance of independent bookstores against major retailers.",
-            "Central bank responses to potential financial crises."
+            "Gas price forecasts and consumer spending",
+            "Unionization trends in major corporations",
+            "Impact of geopolitical tensions on global markets",
+            "Performance of independent bookstores against large chains"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The geopolitical situation remains fluid, which could rapidly change market conditions.",
-          "Predictions about gas prices are uncertain and depend on various external factors."
+          "The situation regarding gas prices is influenced by ongoing geopolitical events, making predictions uncertain.",
+          "Unionization efforts may face resistance from corporate management, affecting outcomes.",
+          "The resurgence of independent bookstores may not be sustainable in the long term."
         ],
         "related_topics": [
-          "What are the latest trends in ride-sharing and fuel prices?",
-          "How are independent bookstores competing with big chains?",
-          "What are the implications of the Iran conflict on global markets?"
+          "What are the latest trends in gas prices",
+          "How are ride-share drivers affected by fuel costs",
+          "What is the status of unionization efforts at Starbucks",
+          "Are independent bookstores making a comeback",
+          "What are the implications of rising fuel prices on the economy"
         ]
       },
-      "tweet_text": "As gas prices soar and tensions rise, the battle for your wallet is heating up—are you ready for the fallout?\n\nBusiness Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #2027 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Fuel prices are soaring, and drivers are feeling the pinch—will we see $3 gas again before 2027?\n\nBusiness Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #2027 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -433,75 +449,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Blue Origin successfully reused its New Glenn rocket while Vercel faced a significant data breach amid ongoing concerns about RAM shortages in the tech industry.",
-        "summary": "Today's technology news highlights Blue Origin's partial success with its reusable New Glenn rocket, a significant data breach at Vercel, and ongoing RAM shortages affecting the industry. Additionally, there are notable product sales and reviews, including the CMF Headphone Pro and Keychron's Ultra 8K keyboards.",
+        "key_takeaway": "Blue Origin successfully reused its New Glenn rocket, while Vercel faced a significant data breach amid ongoing concerns about a global RAM shortage.",
+        "summary": "Today's technology news highlights Blue Origin's successful reuse of its New Glenn rocket for satellite launch, a data breach at Vercel affecting sensitive information, and ongoing RAM shortages impacting the tech industry.",
         "key_themes": [
           "rocket reuse technology",
-          "cybersecurity incidents",
-          "consumer electronics sales",
-          "RAM supply chain issues",
-          "local news and technology",
-          "impact of tech on politics"
+          "Vercel data breach",
+          "global RAM shortage",
+          "Keychron keyboard review",
+          "affordable tech gadgets"
         ],
         "notable_headlines": [
           {
             "headline": "Blue Origin successfully reused its New Glenn rocket",
-            "why_it_matters": "This marks a significant milestone for Blue Origin in the reusable rocket sector, enhancing its competitive edge in space launches.",
+            "why_it_matters": "This marks a significant milestone in reusable rocket technology, enhancing Blue Origin's capabilities in space launches.",
             "signal": "Opportunity"
           },
           {
             "headline": "Cloud development platform Vercel was hacked",
-            "why_it_matters": "The breach raises serious concerns about data security in major tech platforms, impacting user trust and operational integrity.",
+            "why_it_matters": "The breach raises concerns about data security in cloud services, affecting user trust and company reputation.",
             "signal": "Risk"
           },
           {
             "headline": "The RAM shortage could last years",
-            "why_it_matters": "Prolonged shortages could hinder technological advancements and increase costs across various sectors reliant on memory products.",
+            "why_it_matters": "Prolonged shortages could hinder tech production and innovation across various sectors, impacting prices and availability.",
             "signal": "Risk"
           },
           {
             "headline": "Nothing’s modular CMF Headphone Pro are down to their lowest price to date",
-            "why_it_matters": "This sale could attract budget-conscious consumers looking for quality audio products, boosting sales for Nothing.",
+            "why_it_matters": "This sale highlights the competitive pricing strategies in the audio market, appealing to budget-conscious consumers.",
             "signal": "Opportunity"
           },
           {
             "headline": "Marathon battery life makes Keychron’s Ultra 8K keyboards its best yet",
-            "why_it_matters": "Keychron's latest keyboards may appeal to gamers and professionals seeking high-performance peripherals, enhancing their market position.",
+            "why_it_matters": "The advancements in battery technology enhance user experience, making these keyboards a top choice for consumers.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the impact of Vercel's data breach on its user base and operations.",
-            "Observing consumer reactions to the sales of CMF Headphone Pro and Keychron keyboards.",
-            "Tracking developments in the RAM supply chain and any announcements from major manufacturers."
+            "Monitoring responses to Vercel's data breach and its implications for cloud security.",
+            "Tracking developments in Blue Origin's future launches and reusable technology advancements.",
+            "Observing market reactions to RAM shortage news and its impact on tech pricing."
           ],
           "next_1_4_weeks": [
-            "Anticipating further updates from Blue Origin regarding future launches and reusable technology advancements.",
-            "Expecting responses from Vercel regarding security measures post-breach and potential user compensation.",
-            "Watching for trends in consumer electronics sales as new products are released."
+            "Anticipating further updates on the Vercel hack and potential security measures.",
+            "Expecting new product releases from companies addressing the RAM shortage.",
+            "Watching for consumer feedback on Keychron's Ultra 8K keyboards."
           ],
           "watch_list": [
             "Blue Origin's upcoming launches and technology advancements.",
-            "Vercel's recovery efforts and security improvements post-hack.",
-            "RAM manufacturers' production updates and market forecasts.",
-            "Consumer reactions to new tech product releases and sales."
+            "Vercel's recovery and security enhancements post-breach.",
+            "Trends in affordable tech gadgets and their market performance.",
+            "Keychron's product reception and competition in the keyboard market."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates a balance of positive and negative news in the technology sector today.",
-          "The long-term implications of the RAM shortage remain uncertain and could evolve based on market dynamics."
+          "The impact of the RAM shortage may vary by sector and product type.",
+          "The long-term effects of the Vercel hack on user trust are still unfolding."
         ],
         "related_topics": [
-          "What are the latest developments in reusable rocket technology?",
-          "How did Vercel's recent hack impact its users?",
-          "What is the current state of the RAM supply chain?",
-          "Which tech products are on sale this week?",
-          "What are the best mechanical keyboards available now?"
+          "What are the latest developments in rocket technology?",
+          "How did Vercel's data breach affect cloud security?",
+          "What is the outlook for the global RAM shortage?",
+          "Best budget headphones available now",
+          "Keychron keyboard reviews and comparisons"
         ]
       },
-      "tweet_text": "Rocket reuse triumphs while hacks and price drops shake the tech world—what's next in this wild...\n\nTechnology Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Administration #Against #Amendment #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Blue Origin's rocket soars again, but the tech world is rocked by a hack and price drops—are we...\n\nTechnology Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Administration #Against #Amendment #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -512,180 +527,165 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.2425,
+        "score": 0.0961,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.404, dampened ×0.6 → +0.2425). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.160, dampened ×0.6 → +0.0961). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "WWE WrestleMania 42 LIVE: Match results and analysis from Night 2",
-          "url": "https://www.espn.com/wwe/story/_/id/48494669/wwe-wrestlemania-42-night-2-live-match-results-analysis-cm-punk-vs-roman-reigns",
-          "published": "Sun, 19 Apr 2026 18:03:59 EST",
-          "summary": "ESPN breaks down all the action from Night 2 of WrestleMania 42 in Las Vegas.",
+          "title": "East playoff takeaways: Magic shock Pistons",
+          "url": "https://www.espn.com/nba/story/_/id/48506456/2026-nba-playoffs-eastern-conference-round-one-takeaways",
+          "published": "Mon, 20 Apr 2026 01:03:36 EST",
+          "summary": "Here's what has stood out from the latest playoff games of the Eastern Conference's first round.",
+          "source": "ESPN"
+        },
+        {
+          "title": "WrestleMania 42 Saturday (replay)",
+          "url": "https://www.espn.com/watch/player/_/id/84adf0b5-67c2-42b5-afd8-ce69f5823216",
+          "published": "Mon, 20 Apr 2026 00:11:02 EST",
+          "summary": "null",
+          "source": "ESPN"
+        },
+        {
+          "title": "WrestleMania 42 Night 2 takeaways: Will Reigns make this title run alone?",
+          "url": "https://www.espn.com/wwe/story/_/id/48537161/wwe-wrestlemania-42-night-2-takeaways-roman-reigns-cm-punk-world-heavyweight-championship",
+          "published": "Mon, 20 Apr 2026 00:11:02 EST",
+          "summary": "Roman Reigns is champion once again, but what should fans expect in the latest title reign of the OTC?",
+          "source": "ESPN"
+        },
+        {
+          "title": "'We belong here': Magic stun Pistons in Game 1",
+          "url": "https://www.espn.com/nba/story/_/id/48536482/magic-stun-top-seeded-pistons-upset-game-1",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
+          "summary": "The Magic showed an intensity and fight that had been missing for most of the season as they stunned No. 1 seed Detroit in Game 1 of their series.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sabres surge in 3rd for 1st playoff win in 15 years",
+          "url": "https://www.espn.com/nhl/story/_/id/48536997/sabres-score-four-third-period-goals-beat-bruins-game-1-first-playoff-win-15-years",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
+          "summary": "Buffalo overcame a two-goal deficit in the final eight minutes to beat the Bruins 4-3 on Sunday night in the Sabres' first playoff game in 15 years.",
+          "source": "ESPN"
+        },
+        {
+          "title": "OK State lands top transfer Crooks from ISU",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/48537946/former-iowa-state-star-audi-crooks-commits-oklahoma-state",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
+          "summary": "Former Iowa State center Audi Crooks, No. 1 in ESPN's women's basketball transfer rankings, committed to Oklahoma State, she announced Sunday night.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Wembanyama joins SGA, Jokic as MVP finalist",
+          "url": "https://www.espn.com/nba/story/_/id/48535860/wembanyama-gilgeous-alexander-jokic-named-mvp-finalists",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
+          "summary": "Shai Gilgeous-Alexander, Nikola Jokic and Victor Wembanyama were named finalists for this season's Most Valuable Player award.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Cooper: Penalty 'stupidity' cost Lightning in G1",
+          "url": "https://www.espn.com/nhl/story/_/id/48537196/cooper-penalty-stupidity-cost-lightning-game-1-loss",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
+          "summary": "Lightning coach Jon Cooper was not happy with the penalties his team committed in its Game 1 overtime loss to the Canadiens on Sunday.",
           "source": "ESPN"
         },
         {
           "title": "Bengals extend Lawrence after blockbuster trade",
           "url": "https://www.espn.com/nfl/story/_/id/48532001/bengals-sign-dt-dexter-lawrence-one-year-28m-extension",
-          "published": "Sun, 19 Apr 2026 19:40:47 EST",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
           "summary": "Defensive tackle Dexter Lawrence II passed his physical with the Bengals and signed a one-year, $28 million extension, the Win Sports Group told ESPN's Adam Schefter.",
-          "source": "ESPN"
-        },
-        {
-          "title": "NFL draft prospect Branch arrested in Georgia",
-          "url": "https://www.espn.com/nfl/story/_/id/48532665/nfl-draft-prospect-zachariah-branch-arrested-georgia",
-          "published": "Sun, 19 Apr 2026 19:40:47 EST",
-          "summary": "Wide receiver Zachariah Branch, who is widely expected to be a Day 2 NFL draft pick, was arrested early Sunday morning in Athens, Georgia, on two possible misdemeanor charges.",
           "source": "ESPN"
         },
         {
           "title": "Indiana DC claps back at Simpson, Alabama fans",
           "url": "https://www.espn.com/college-football/story/_/id/48534695/indiana-dc-bryant-haines-claps-back-ty-simpson-alabama-fans",
-          "published": "Sun, 19 Apr 2026 19:40:47 EST",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
           "summary": "Indiana defensive coordinator Bryant Haines heard the comments from former Alabama quarterback Ty Simpson about the teams' matchup last season in the Rose Bowl and responded with his own observations.",
           "source": "ESPN"
         },
         {
-          "title": "Mets' skid hits 11 as Cubs rally in 9th, win in 10th",
+          "title": "'Gonna get loud': Mets head home as skid hits 11",
           "url": "https://www.espn.com/mlb/story/_/id/48534611/mets-losing-streak-reaches-11-games-longest-2004",
-          "published": "Sun, 19 Apr 2026 19:40:47 EST",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
           "summary": "Nico Hoerner hit a sacrifice fly off Craig Kimbrel in the 10th inning as the Cubs extended the Mets' losing streak to 11 games by rallying for a 2-1 victory.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sixers face familiar fate as C's, Tatum dominate",
-          "url": "https://www.espn.com/nba/story/_/id/48534372/76ers-face-familiar-playoff-fate-celtics-dominate-game-1",
-          "published": "Sun, 19 Apr 2026 19:40:46 EST",
-          "summary": "The Celtics are off to a good start in their hopes to hand Philadelphia its seventh straight series loss between the rivals.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Fitzpatrick beats Scheffler in playoff at Heritage",
-          "url": "https://www.espn.com/golf/story/_/id/48535311/fitzpatrick-beats-scheffler-playoff-rbc-heritage",
-          "published": "Sun, 19 Apr 2026 19:40:47 EST",
-          "summary": "Matt Fitzpatrick delivered another playoff win in the RBC Heritage, fending off Scottie Scheffler for his second title at the tournament.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Be like Mike: With Jordan watching, Reddick wins",
-          "url": "https://www.espn.com/racing/story/_/id/48534904/tyler-reddick-tops-kyle-larson-ot-5th-cup-series-win",
-          "published": "Sun, 19 Apr 2026 19:40:47 EST",
-          "summary": "Tyler Reddick became the fourth driver to win five of the first nine NASCAR Cup Series races in a season, and the first since Dale Earnhardt nearly four decades ago, when he passed Kyle Larson on the final lap of overtime at Kansas Speedway on Sunday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Guardians' Hedges gets engaged on field after win",
-          "url": "https://www.espn.com/mlb/story/_/id/48535395/guardians-austin-hedges-gets-engaged-field-win-vs-orioles",
-          "published": "Sun, 19 Apr 2026 19:40:47 EST",
-          "summary": "Austin Hedges scored the first run of the game for the Guardians but had a bigger moment after the final out.",
           "source": "ESPN"
         },
         {
           "title": "🏈 Kiper: Favorites from this year's NFL draft class",
           "url": "https://www.espn.com/nfl/draft2026/story/_/id/48521984/2026-nfl-draft-mel-kiper-favorite-prospects-every-position-class-sleepers",
-          "published": "Sun, 19 Apr 2026 19:40:46 EST",
+          "published": "Mon, 20 Apr 2026 01:02:31 EST",
           "summary": "Mel Kiper Jr.'s annual list of NFL draft favorites includes two speedy receivers, three undersized cornerbacks and some gritty linemen.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Follow live: Pistons host Magic in Game 1",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869193/magic-pistons",
-          "published": "Sun, 19 Apr 2026 19:25:24 EST",
-          "summary": "null",
-          "source": "ESPN"
-        },
-        {
-          "title": "West playoff takeaways: Thunder blow out Suns in Game 1 win",
-          "url": "https://www.espn.com/nba/story/_/id/48506452/2026-nba-playoffs-western-conference-round-one-takeaways",
-          "published": "Sun, 19 Apr 2026 19:23:19 EST",
-          "summary": "Here's what has stood out from the latest playoff games of the Western Conference's first round.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "WWE WrestleMania 42 concluded with Night 2 results, while the Bengals extended Dexter Lawrence and the Mets' losing streak reached 11 games.",
-        "summary": "Today's sports news highlights include the conclusion of WWE WrestleMania 42, the Bengals' contract extension for Dexter Lawrence, and the Mets' ongoing losing streak. Additionally, Zachariah Branch's arrest raises concerns ahead of the NFL draft, while the Celtics dominate the Sixers in the playoffs. Tyler Reddick's NASCAR victory and Austin Hedges' engagement on the field also captured attention.",
+        "key_takeaway": "The Magic and Sabres achieved significant playoff victories, while the Mets extended their losing streak to 11 games, marking their longest since 2004.",
+        "summary": "In today's sports news, the NBA playoffs saw the Orlando Magic upset the Detroit Pistons, while the Buffalo Sabres secured their first playoff win in 15 years against the Bruins. In wrestling, Roman Reigns continues his title reign following WrestleMania 42. Meanwhile, the New York Mets are struggling with an 11-game losing streak, and Dexter Lawrence signed a significant contract extension with the Bengals. Other highlights include MVP finalists being announced and a notable transfer in women's college basketball.",
         "key_themes": [
-          "WWE WrestleMania 42 results",
-          "NFL draft news",
-          "NBA playoff updates",
-          "MLB losing streaks",
-          "NASCAR Cup Series highlights"
+          "NBA playoffs analysis",
+          "WrestleMania 42 highlights",
+          "NHL playoff updates",
+          "MLB losing streak implications",
+          "NFL draft favorites 2026"
         ],
         "notable_headlines": [
           {
-            "headline": "WWE WrestleMania 42 LIVE: Match results and analysis from Night 2",
-            "why_it_matters": "The event showcases major wrestling talent and storylines, drawing significant viewer interest.",
+            "headline": "East playoff takeaways: Magic shock Pistons",
+            "why_it_matters": "The Magic's unexpected victory sets a competitive tone for the Eastern Conference playoffs.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "Sabres surge in 3rd for 1st playoff win in 15 years",
+            "why_it_matters": "This win marks a significant milestone for the Sabres, revitalizing their playoff hopes.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "'Gonna get loud': Mets head home as skid hits 11",
+            "why_it_matters": "The Mets' prolonged losing streak raises concerns about their season performance and team morale.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Wembanyama joins SGA, Jokic as MVP finalist",
+            "why_it_matters": "The recognition of these players highlights the competitive nature of this NBA season.",
+            "signal": "Unclear"
           },
           {
             "headline": "Bengals extend Lawrence after blockbuster trade",
-            "why_it_matters": "This extension solidifies the Bengals' defensive line and reflects their commitment to key players.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "NFL draft prospect Branch arrested in Georgia",
-            "why_it_matters": "This incident could impact Branch's draft stock and raises questions about player conduct.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Mets' skid hits 11 as Cubs rally in 9th, win in 10th",
-            "why_it_matters": "The Mets' prolonged losing streak raises concerns about their performance and season outlook.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Sixers face familiar fate as C's, Tatum dominate",
-            "why_it_matters": "The Celtics' strong playoff performance against the Sixers continues a troubling trend for Philadelphia.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Fitzpatrick beats Scheffler in playoff at Heritage",
-            "why_it_matters": "Fitzpatrick's win adds to his reputation and showcases his skill in high-pressure situations.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Be like Mike: With Jordan watching, Reddick wins",
-            "why_it_matters": "Reddick's achievement ties him to NASCAR history, enhancing his profile in the sport.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Guardians' Hedges gets engaged on field after win",
-            "why_it_matters": "This personal milestone adds a heartwarming story to the sports narrative of the day.",
+            "why_it_matters": "This extension indicates the Bengals' commitment to strengthening their defensive lineup.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Analysis of WrestleMania 42 match outcomes and implications for future storylines",
-            "Updates on the NFL draft prospects following recent arrests",
-            "Continued coverage of NBA playoff matchups and results"
+            "Upcoming NBA playoff games will be crucial for the Magic and Pistons.",
+            "NHL playoff matchups continue, with the Sabres looking to build on their momentum.",
+            "MLB teams will assess strategies to break losing streaks."
           ],
           "next_1_4_weeks": [
-            "Monitoring the performance of the Mets as they seek to end their losing streak",
-            "Tracking the impact of NFL draft decisions on team rosters",
-            "Following the progression of the NBA playoffs and potential upsets"
+            "The NFL draft will feature key prospects as teams prepare for the upcoming season.",
+            "Wrestling fans will anticipate developments following WrestleMania 42.",
+            "The NBA playoffs will intensify as teams vie for advancement."
           ],
           "watch_list": [
-            "Upcoming NFL draft developments",
-            "WWE storylines post-WrestleMania",
-            "MLB team performance trends",
-            "NASCAR race results and standings"
+            "Monitor the performance of the Mets to see if they can end their losing streak.",
+            "Watch for updates on the MVP race as finalists compete for the award.",
+            "Follow the progress of the Sabres in the NHL playoffs.",
+            "Keep an eye on the NFL draft for potential trades and picks."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score reflects a mixed tone across various sports stories, indicating both positive and negative developments.",
-          "The implications of player arrests and performance issues may evolve as more information becomes available."
+          "The sentiment score indicates mixed feelings about the overall sports landscape today.",
+          "Individual game outcomes can be unpredictable and may affect future performance."
         ],
         "related_topics": [
-          "What are the latest results from WWE WrestleMania 42?",
-          "Updates on NFL draft prospects and their status",
-          "How are the NBA playoffs shaping up this year?",
-          "What is the current state of the MLB season?",
-          "NASCAR Cup Series latest news and results"
+          "What are the latest NBA playoff results?",
+          "Highlights from WrestleMania 42",
+          "Updates on MLB losing streaks",
+          "NFL draft prospects to watch",
+          "NHL playoff performance analysis"
         ]
       },
-      "tweet_text": "WrestleMania thrills, NFL drama, and a Mets meltdown—sports just hit a fever pitch!\n\nSports Sentiment: Mixed (+0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#10th #Alabama #Analysis #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Magic's stunning upset and Sabres' long-awaited win—this playoff season just got electrifying!\n\nSports Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Magic #Pistons #Playoff #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -787,30 +787,27 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific advancements include a dirt-powered fuel cell, artificial neurons communicating with brain cells, and new insights into antibiotic resistance and black hole jets.",
-        "summary": "Today's science headlines highlight significant advancements in various fields, including energy production, neuroscience, and astronomy. Researchers have developed a dirt-powered fuel cell that utilizes soil microbes to generate electricity, potentially transforming environmental monitoring and agriculture. In neuroscience, artificial neurons have been created that can communicate with living brain cells, marking a major step towards integrating technology with biological systems. Additionally, studies reveal new insights into antibiotic resistance mechanisms and the powerful jets emitted by black holes, furthering our understanding of these complex phenomena. Other notable findings include the impact of caffeine on ant behavior, the challenges facing ozone layer recovery, and the discovery of a distinct dinosaur species previously thought to be a juvenile T. rex.",
+        "key_takeaway": "Recent scientific advancements include a dirt-powered fuel cell, artificial neurons communicating with brain cells, and insights into antibiotic resistance and black hole jets.",
+        "summary": "Today's science headlines highlight significant developments, including a new dirt-powered fuel cell that could revolutionize sensor technology, artificial neurons that communicate with living brain cells, and discoveries regarding antibiotic resistance and black hole jets. Additionally, studies reveal the impact of caffeine on ant behavior, the effects of a total solar eclipse on urban seismic activity, and new insights into the ozone layer's recovery challenges.",
         "key_themes": [
-          "energy production from microbes",
-          "communication between artificial and living neurons",
-          "antibiotic resistance mechanisms",
-          "black hole jet phenomena",
-          "ozone layer recovery challenges",
-          "dinosaur species classification"
+          "advancements in renewable energy",
+          "communication between artificial and living cells",
+          "impact of caffeine on insect behavior"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists develop dirt-powered fuel cell that could replace batteries",
-            "why_it_matters": "This innovation could lead to sustainable energy solutions for environmental monitoring and agriculture, reducing reliance on traditional power sources.",
+            "why_it_matters": "This innovation could lead to sustainable, low-maintenance power sources for environmental monitoring and agriculture.",
             "signal": "Opportunity"
           },
           {
             "headline": "Artificial neurons successfully communicate with living brain cells",
-            "why_it_matters": "This breakthrough could pave the way for advanced brain-machine interfaces and enhance our understanding of neural functions.",
+            "why_it_matters": "This breakthrough could advance brain-machine interfaces and neuroprosthetics, enhancing our understanding of neural communication.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover bacteria can “explode” to spread antibiotic resistance",
-            "why_it_matters": "Understanding this mechanism is crucial for developing strategies to combat antibiotic resistance, a major public health threat.",
+            "why_it_matters": "Understanding this mechanism is crucial for addressing the growing threat of antibiotic-resistant infections.",
             "signal": "Risk"
           },
           {
@@ -820,42 +817,41 @@
           },
           {
             "headline": "MIT scientists just found a hidden problem slowing the ozone comeback",
-            "why_it_matters": "Identifying and addressing this issue is vital for the recovery of the ozone layer and reducing UV exposure globally.",
+            "why_it_matters": "Identifying and addressing this issue is vital for the successful recovery of the ozone layer and reducing UV exposure.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the implications of the dirt-powered fuel cell technology is expected.",
-            "More studies on the communication between artificial neurons and brain cells may be released.",
-            "Updates on antibiotic resistance research could emerge."
+            "Further analysis of the dirt-powered fuel cell's potential applications is expected.",
+            "More research on the implications of artificial neurons communicating with brain cells will be released.",
+            "Updates on the antibiotic resistance study may provide new strategies for combating infections."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the impact of black hole research on astrophysics.",
-            "Potential policy recommendations regarding ozone layer recovery may be proposed.",
-            "Continued exploration of the ecological implications of caffeine on ant behavior."
+            "Anticipated discussions on the implications of caffeine on pest control strategies in agriculture.",
+            "Further studies on the dynamics of black holes and their jets are expected to be published.",
+            "Continued monitoring of the ozone layer recovery efforts and the impact of industrial chemicals."
           ],
           "watch_list": [
-            "Developments in sustainable energy technologies.",
-            "Research on brain-machine interfaces and their applications.",
-            "Trends in antibiotic resistance and public health strategies.",
-            "New findings in paleontology regarding dinosaur species."
+            "Developments in renewable energy technologies",
+            "Research on brain-machine interfaces",
+            "Updates on antibiotic resistance mechanisms and solutions.",
+            "New findings related to black hole physics",
+            "Ozone layer recovery progress reports."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of these findings are still being explored and may evolve as more research is conducted.",
-          "The mixed sentiment score indicates a range of perspectives on the significance of these advancements."
+          "The implications of the dirt-powered fuel cell are still being evaluated and may vary based on real-world applications.",
+          "The communication between artificial neurons and brain cells is in early research stages and requires further validation."
         ],
         "related_topics": [
-          "What are the latest advancements in sustainable energy technology?",
-          "How are artificial neurons impacting neuroscience?",
-          "What new discoveries have been made about antibiotic resistance?",
-          "What do we know about black hole jets?",
-          "How is the ozone layer recovery progressing?"
+          "What are the latest advancements in renewable energy technology?",
+          "How do artificial neurons interact with living brain cells?",
+          "What is the impact of caffeine on pest control strategies?"
         ]
       },
-      "tweet_text": "A groundbreaking discovery reveals a new force of nature that's changing our planet forever!\n\nScience Sentiment: Mixed (+0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #10000 #Antibiotic #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A groundbreaking study reveals a new force of nature reshaping our planet—are we ready for the...\n\nScience Sentiment: Mixed (+0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #10000 #Antibiotic #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
