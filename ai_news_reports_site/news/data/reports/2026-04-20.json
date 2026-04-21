@@ -1,15 +1,16 @@
 {
   "date": "2026-04-20",
-  "generated_at_utc": "2026-04-20T23:54:38Z",
+  "generated_at_utc": "2026-04-21T05:21:55Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "prices",
-    "apple",
     "trump",
-    "ship",
-    "problem",
-    "cook"
+    "cook",
+    "apple",
+    "chief",
+    "iran",
+    "ship"
   ],
   "categories": {
     "world": {
@@ -21,11 +22,32 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0303,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.051, dampened ×0.6 → -0.0303). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0663,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.111, dampened ×0.6 → -0.0663). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Trump says US will not lift Hormuz blockade until deal made with Iran",
+          "url": "https://www.bbc.com/news/articles/cdxd88r2wjzo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 21:52:12 GMT",
+          "summary": "The US president's comments come amid uncertainty over whether Iran will attend peace talks in Pakistan this week.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Apple names new chief executive to replace Tim Cook",
+          "url": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 22:55:39 GMT",
+          "summary": "John Ternus will take over running the technology giant as Cook steps up to become executive chairman.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Canadian killed in shooting at Mexico's ancient Teotihuacán pyramids",
+          "url": "https://www.bbc.com/news/articles/crm1rg3ydkvo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 21 Apr 2026 03:33:05 GMT",
+          "summary": "Several people were also injured in the incident on Monday at the popular tourist site, say Mexican officials, weeks before the country hosts the Fifa World Cup.",
+          "source": "BBC News"
+        },
         {
           "title": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
           "url": "https://www.bbc.com/news/articles/cpd575n1znzo?at_medium=RSS&at_campaign=rss",
@@ -36,15 +58,15 @@
         {
           "title": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
           "url": "https://www.bbc.com/news/articles/crr1v4gzkvlo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 22:53:24 GMT",
+          "published": "Tue, 21 Apr 2026 01:05:41 GMT",
           "summary": "Prosecutors say the singer, real name David Anthony Burke, could face life in prison due to the nature of the case, if convicted.",
           "source": "BBC News"
         },
         {
-          "title": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
+          "title": "Japan on high alert for 'huge' second quake after lifting tsunami warning",
           "url": "https://www.bbc.com/news/articles/czd7m7d699do?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 14:54:21 GMT",
-          "summary": "Japan's meteorological agency warns another, stronger earthquake may hit in the next week,",
+          "published": "Tue, 21 Apr 2026 01:31:27 GMT",
+          "summary": "Japan's meteorological agency warns another, stronger earthquake may hit in the next week.",
           "source": "BBC News"
         },
         {
@@ -62,10 +84,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
-          "url": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 12:56:03 GMT",
-          "summary": "Three boys and five girls, aged between three to 11, were killed in the shooting on Sunday, officials say.",
+          "title": "Blue Origin rocket grounded after satellite 'mishap'",
+          "url": "https://www.bbc.com/news/articles/cjr9vwz48npo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 19:56:11 GMT",
+          "summary": "The firm founded by Amazon billionaire Jeff Bezos is investigating the failed launch.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Woman and child jumped off roof to escape deadly Louisiana shooting",
+          "url": "https://www.bbc.com/news/articles/cj0v36vell4o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 20 Apr 2026 20:19:57 GMT",
+          "summary": "Authorities say a father fatally shot eight children, including seven of his own, in what appears to be a \"domestic dispute\".",
           "source": "BBC News"
         },
         {
@@ -81,131 +110,78 @@
           "published": "Mon, 20 Apr 2026 17:34:10 GMT",
           "summary": "The access route to Morro Dois Irmãos was blocked during the operation in Vidigal, leaving scores of alarmed sightseers stuck on the hill.",
           "source": "BBC News"
-        },
-        {
-          "title": "Trailblazing black beauty queen who defied apartheid South Africa dies aged 76",
-          "url": "https://www.bbc.com/news/articles/cy41kklknreo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 17:38:22 GMT",
-          "summary": "At the 1972 Miss World contest, Cynthia Shange was one of two contestants from South Africa - one black and one white.",
-          "source": "BBC News"
-        },
-        {
-          "title": "New Zealand declares state of emergency in Wellington as floods hit",
-          "url": "https://www.bbc.com/news/articles/cly75d9zvj3o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 05:48:54 GMT",
-          "summary": "Footage online shows vehicles submerged, trees uprooted and houses hit by landslides.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Days of Our Lives and Starship Troopers actor Patrick Muldoon dies aged 57",
-          "url": "https://www.bbc.com/news/articles/czx9q51rldko?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 15:51:43 GMT",
-          "summary": "The actor and producer also appeared in Melrose Place and Saved By the Bell.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Elon Musk snubs interview summons by French prosecutors amid X probe",
-          "url": "https://www.bbc.com/news/articles/crk151nn7j3o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 20 Apr 2026 15:44:44 GMT",
-          "summary": "The Paris prosecutor's office told the BBC it had \"taken note of the absence of the people summoned\".",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Japan is on high alert for a potential second earthquake following a tsunami warning, while global tensions rise due to the US seizure of an Iranian ship.",
-        "summary": "Today's news highlights significant global events, including Japan's earthquake alert, the US's seizure of an Iranian ship, and a tragic mass shooting in Louisiana. Additionally, an Israeli soldier's vandalism in Lebanon has sparked outrage, and New Zealand is facing severe flooding, prompting a state of emergency. The entertainment world mourns the loss of actor Patrick Muldoon, while a trailblazing beauty queen from South Africa has passed away.",
+        "key_takeaway": "Tensions rise in the Middle East as the US maintains its blockade on Iran, while global incidents prompt security concerns in various regions.",
+        "summary": "Today's news highlights escalating geopolitical tensions, particularly regarding US-Iran relations, alongside significant incidents in Mexico and Japan that raise public safety concerns. The appointment of a new Apple CEO also marks a notable shift in the tech industry.",
         "key_themes": [
-          "Japan earthquake warning details",
-          "US Iranian ship seizure implications",
-          "Louisiana mass shooting updates",
-          "New Zealand flooding emergency",
-          "Cynthia Shange obituary"
+          "US-Iran relations and peace talks",
+          "Apple CEO transition",
+          "security incidents in Mexico",
+          "earthquake risks in Japan",
+          "IS-linked group rescues in DR Congo"
         ],
         "notable_headlines": [
           {
+            "headline": "Trump says US will not lift Hormuz blockade until deal made with Iran",
+            "why_it_matters": "This statement underscores ongoing tensions and the potential impact on regional stability and oil markets.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Canadian killed in shooting at Mexico's ancient Teotihuacán pyramids",
+            "why_it_matters": "The incident raises concerns about safety in tourist areas, especially with the upcoming FIFA World Cup.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Japan on high alert for 'huge' second quake after lifting tsunami warning",
+            "why_it_matters": "The warning indicates potential danger for residents and visitors, highlighting Japan's vulnerability to seismic activity.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
-            "why_it_matters": "The incident has drawn international condemnation and calls for accountability from the Israeli military and US officials.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
-            "why_it_matters": "The case could have significant legal implications and media attention due to the nature of the allegations against the singer.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
-            "why_it_matters": "The warning indicates potential danger for residents and could lead to emergency responses in the region.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "What we know about the Iranian ship seized by the US",
-            "why_it_matters": "The seizure reflects ongoing tensions in the Gulf and could escalate geopolitical conflicts.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Oil prices rise after Trump says Iranian ship seized",
-            "why_it_matters": "Rising oil prices may impact global markets and economies, particularly in energy-dependent regions.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
-            "why_it_matters": "This tragic event raises concerns about gun violence and child safety in the US.",
+            "why_it_matters": "This incident could exacerbate tensions in the region and affect diplomatic relations.",
             "signal": "Risk"
           },
           {
             "headline": "More than 200 rescued from IS-linked group in DR Congo",
-            "why_it_matters": "The rescue operation highlights ongoing security challenges in the region and the plight of those affected by extremist groups.",
+            "why_it_matters": "The rescue operation highlights ongoing security challenges in the region and the plight of affected individuals.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Police gunfight with favela gang traps 200 tourists on hilltop",
-            "why_it_matters": "The incident underscores the dangers tourists face in areas with high crime rates and gang violence.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Trailblazing black beauty queen who defied apartheid South Africa dies aged 76",
-            "why_it_matters": "Cynthia Shange's legacy as a pioneer in beauty pageants during apartheid is significant for cultural history.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "New Zealand declares state of emergency in Wellington as floods hit",
-            "why_it_matters": "The flooding situation poses immediate risks to residents and infrastructure, necessitating government intervention.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments regarding Japan's earthquake risk and potential aftershocks.",
-            "Watch for updates on the US-Iran tensions following the ship seizure.",
-            "Follow the response to the Louisiana mass shooting and any legislative discussions that may arise."
+            "Monitor developments in US-Iran negotiations and potential peace talks in Pakistan.",
+            "Watch for updates on the security situation in Mexico ahead of the FIFA World Cup.",
+            "Stay informed about seismic activity in Japan and any related warnings."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of flooding in New Zealand on recovery efforts and infrastructure.",
-            "Keep an eye on the legal proceedings involving the singer D4vd and public reaction.",
-            "Track the geopolitical implications of the US's actions in the Gulf region."
+            "Observe the impact of the new Apple CEO on the company's strategic direction and market performance.",
+            "Follow the geopolitical implications of US actions in the Middle East and their effects on oil prices.",
+            "Track the aftermath of the shooting incident in Mexico and its effects on tourism."
           ],
           "watch_list": [
-            "Japan's seismic activity and emergency preparedness measures.",
-            "US domestic policies regarding gun violence and safety.",
-            "The humanitarian situation in DR Congo regarding IS-linked groups.",
-            "Responses to the Israeli soldier's actions in Lebanon."
+            "US-Iran relations and peace talks",
+            "Apple's corporate leadership changes",
+            "Security incidents in tourist destinations",
+            "Seismic activity in Japan",
+            "Rescue operations in conflict zones"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Japan is fluid and may change rapidly with new seismic activity.",
-          "Geopolitical tensions can escalate quickly, affecting global markets and security.",
-          "Details surrounding the Louisiana shooting may evolve as investigations continue."
+          "The sentiment score indicates mixed feelings about the news, suggesting both positive and negative developments are present.",
+          "Details on the Iranian ship and its implications remain unclear, warranting further observation."
         ],
         "related_topics": [
-          "What are the latest updates on Japan's earthquake situation?",
-          "How is the US handling tensions with Iran?",
-          "What happened in the Louisiana mass shooting?",
-          "What is the current state of flooding in New Zealand?",
-          "Who was Cynthia Shange and why is she significant?"
+          "What are the latest developments in US-Iran relations?",
+          "How is the new Apple CEO expected to impact the company?",
+          "What security measures are being implemented for the FIFA World Cup?",
+          "What is the current seismic activity in Japan?",
+          "What are the latest updates on IS-linked groups in DR Congo?"
         ]
       },
-      "tweet_text": "Chaos unfolds globally: from a soldier's desecration to a mass shooting tragedy, the world is on edge.\n\nWorld Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iranian #Seized #Ship #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tensions rise as Trump vows to keep the Hormuz blockade, while chaos unfolds from Mexico to Japan—this is a world on edge.\n\nWorld Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iranian #Seized #Ship #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -216,9 +192,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0742,
+        "score": -0.0504,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.124, dampened ×0.6 → -0.0742). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.084, dampened ×0.6 → -0.0504). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -239,7 +215,7 @@
           "title": "Oil prices rise and markets fall after US seizure of ship hits Iran peace deal hopes",
           "url": "https://www.theguardian.com/business/2026/apr/20/oil-prices-rise-markets-fall-us-iran-ftse-100-gas-strait-of-hormuz",
           "published": "Mon, 20 Apr 2026 17:21:48 GMT",
-          "summary": "<p>FTSE 100 slides and UK gas prices up amid fears strait of Hormuz will be closed for extended period</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/apr/20/iran-war-latest-news-updates-live-hormuz-trump-us-iranian-ship-ceasefire-doubt\">Middle East crisis – live updates</a></p></li></ul><p>Oil prices rose sharply and European stock markets fell on Monday after the US seizure of an Iranian vessel dented hopes for a peace deal.</p><p>Brent crude, the international benchmark for",
+          "summary": "<p>FTSE 100 slides and UK gas prices up amid fears strait of Hormuz will be closed for extended period</p><p>Oil prices rose sharply and European stock markets fell on Monday after the US seizure of an Iranian vessel dented hopes for a peace deal.</p><p>Brent crude, the international benchmark for oil prices, rose by 5% to about $95 a barrel.</p> <a href=\"https://www.theguardian.com/business/2026/apr/20/oil-prices-rise-markets-fall-us-iran-ftse-100-gas-strait-of-hormuz\">Continue reading...</a>",
           "source": "The Guardian"
         },
         {
@@ -307,72 +283,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tim Cook will step down as Apple's CEO, with John Ternus set to replace him on September 1, 2026.",
-        "summary": "Today's business news highlights significant leadership changes at Apple, ongoing economic impacts from rising oil prices, and the effects of tariff refunds initiated by the Trump administration.",
+        "key_takeaway": "Tim Cook will step down as Apple CEO, with John Ternus set to take over in September, amid rising oil prices and ongoing economic concerns.",
+        "summary": "Today's business news highlights significant leadership changes at Apple, ongoing tariff refunds from the Trump administration, and the impact of rising oil prices on markets and consumers. Additionally, there are concerns about the economic implications of the US-Iran conflict and a potential population crisis in the US due to declining fertility rates.",
         "key_themes": [
-          "Apple CEO transition",
+          "Apple leadership change",
+          "US tariff refunds",
           "impact of oil prices on markets",
-          "tariff refunds by Trump administration"
+          "Uber and Lyft driver challenges",
+          "US population crisis concerns"
         ],
         "notable_headlines": [
           {
             "headline": "Tim Cook to step down as Apple chief as John Ternus named replacement",
-            "why_it_matters": "This leadership change marks a significant transition for Apple after nearly 15 years under Cook's tenure.",
+            "why_it_matters": "This leadership transition at Apple marks a significant change after nearly 15 years under Cook, potentially impacting the company's strategic direction.",
             "signal": "Opportunity"
           },
           {
             "headline": "Trump administration begins refunding more than $166bn in tariffs",
-            "why_it_matters": "This refund process follows a Supreme Court ruling, potentially impacting businesses and consumers affected by previous tariffs.",
+            "why_it_matters": "This move follows a Supreme Court ruling and could affect trade relations and economic stability in the US.",
             "signal": "Risk"
           },
           {
             "headline": "Oil prices rise and markets fall after US seizure of ship hits Iran peace deal hopes",
-            "why_it_matters": "The seizure has raised concerns about stability in oil markets and the broader geopolitical landscape.",
+            "why_it_matters": "The rise in oil prices and market declines reflect geopolitical tensions that could have broader economic implications.",
             "signal": "Risk"
           },
           {
             "headline": "‘I don’t want to waste the gas’: Uber and Lyft drivers reeling as fuel prices soar",
-            "why_it_matters": "Rising fuel costs are significantly affecting gig economy workers, highlighting the economic pressures they face.",
+            "why_it_matters": "Rising fuel costs are straining gig economy workers, highlighting the financial pressures they face amid increasing operational costs.",
             "signal": "Risk"
           },
           {
-            "headline": "Trump energy secretary says gas prices might not drop back under $3 a gallon until 2027",
-            "why_it_matters": "This statement indicates prolonged economic challenges related to energy costs for consumers.",
-            "signal": "Risk"
+            "headline": "Falling fertility, debt and AI: is the US headed toward a population crisis?",
+            "why_it_matters": "Concerns about declining birth rates and an aging population could have long-term effects on the US economy and social stability.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Tim Cook's announcement and its impact on Apple's stock price.",
-            "Watch for updates on the tariff refund process and its implications for businesses.",
-            "Observe fluctuations in oil prices and market responses to geopolitical developments."
+            "Monitoring reactions to Tim Cook's announcement and its impact on Apple stock prices.",
+            "Observing market responses to ongoing geopolitical tensions in the Middle East.",
+            "Tracking consumer sentiment regarding rising gas prices and its effect on spending."
           ],
           "next_1_4_weeks": [
-            "Evaluate the effects of rising gas prices on consumer behavior and the gig economy.",
-            "Anticipate potential legislative responses to the economic pressures from rising fuel costs.",
-            "Track the performance of independent bookstores as they continue to grow against larger chains."
+            "Evaluating the effectiveness of the Trump administration's tariff refund process and its economic impact.",
+            "Assessing the long-term implications of rising oil prices on inflation and consumer behavior.",
+            "Watching for developments in the US-Iran situation and its effect on global markets."
           ],
           "watch_list": [
             "Apple's stock performance post-Cook's announcement.",
-            "Trends in gas prices and their impact on consumer spending.",
-            "Developments in US-Iran relations and their effect on oil markets.",
-            "Unionization efforts at Starbucks and their implications for labor movements."
+            "Trends in gas prices and consumer spending patterns.",
+            "Updates on the unionization efforts at Starbucks and their implications for labor relations.",
+            "The impact of the US population crisis on economic policies and workforce demographics."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall business climate, suggesting uncertainty in market reactions.",
-          "Geopolitical tensions may lead to rapid changes in oil prices and market stability."
+          "The geopolitical situation remains fluid, which could rapidly change market conditions.",
+          "Consumer sentiment can be unpredictable, especially in response to rising costs.",
+          "The long-term effects of leadership changes at major companies like Apple are often difficult to gauge immediately."
         ],
         "related_topics": [
-          "What is the impact of Tim Cook stepping down as Apple CEO?",
-          "How are rising gas prices affecting Uber and Lyft drivers?",
-          "What are the implications of the Trump administration's tariff refunds?",
-          "Current trends in oil prices and market reactions",
-          "Unionization efforts at Starbucks and their significance"
+          "What are the implications of Tim Cook stepping down at Apple?",
+          "How are rising oil prices affecting the economy?",
+          "What is the status of US tariff refunds?",
+          "What challenges are Uber and Lyft drivers facing with fuel prices?",
+          "Is the US facing a population crisis due to declining fertility rates?"
         ]
       },
-      "tweet_text": "Apple's future is in new hands as Tim Cook steps down—what's next for the tech giant?\n\nBusiness Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Major shakeups in business today: Tim Cook steps down, tariffs refunded, and oil prices soar—what's next for...\n\nBusiness Sentiment: Mixed (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Prices #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -383,11 +362,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1788,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.298, dampened ×0.6 → +0.1788). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.2682,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.447, dampened ×0.6 → +0.2682). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Dyson’s back with a travel-size Supersonic hairdryer",
+          "url": "https://www.theverge.com/gadgets/915165/dyson-supersonic-travel-hairdryer-gadgets-price",
+          "published": "2026-04-21T00:00:00-04:00",
+          "summary": "Ten years ago, Dyson kicked off the hair gadget arms race with its $400 Supersonic hairdryer. Today, it's back with a slightly smaller and cheaper travel-size version. As the name suggests, the $299.99 Supersonic Travel is meant for people on the go - whether that's a business trip or a jaunt to the gym before [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Tim Cook will still be Apple’s Trump whisperer",
+          "url": "https://www.theverge.com/policy/915422/tim-cook-apple-chairman-trump-policy",
+          "published": "2026-04-20T20:14:45-04:00",
+          "summary": "Though Tim Cook is shedding his CEO title for the role of Apple's executive chairman, it appears he'll keep one of his most important duties: that of the company's Trump whisperer. \"As executive chairman, Cook will assist with certain aspects of the company, including engaging with policymakers around the world,\" Apple writes in a press [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "The Lenovo Legion Go S is RAMageddon’s latest victim",
           "url": "https://www.theverge.com/games/915278/lenovo-legion-go-s-price-hike-discontinued-ramageddon",
@@ -443,91 +436,78 @@
           "published": "2026-04-20T16:12:23-04:00",
           "summary": "WhatsApp users are getting some new customization features - for a price. According to WABetaInfo, Meta is rolling out a WhatsApp Plus subscription to \"a limited number of users,\" offering several cosmetic and quality of life perks, including exclusive stickers, different app themes, custom app icons, premium ringtones, the ability to pin up to 20 [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Japanese man sentenced to prison for posting spoilers",
-          "url": "https://www.theverge.com/entertainment/914984/godzilla-minus-one-overlord-coda-spoilers-lawsuit-toho-kadokawa-shoten",
-          "published": "2026-04-20T16:02:58-04:00",
-          "summary": "Though it's very common for entertainment writers to describe some narrative elements of the films and shows that they're covering, a Japanese court has determined that the practice can sometimes be tantamount to copyright infringement. Last Thursday, the Tokyo District Court ruled that 39-year-old Wataru Takeuchi was guilty of violating Japanese law that prohibits the [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Google Photos adds subtle touch-up tools for faces",
-          "url": "https://www.theverge.com/tech/915129/google-photos-image-editor-touch-up-whiten-teeth-skin-blemishes",
-          "published": "2026-04-20T15:33:17-04:00",
-          "summary": "Google has announced a new collection of touch-up tools for Google Photos' image editor designed to apply subtle enhancements, refinements, or fixes to faces in photos. The tools are gradually being rolled out on the Google Photos app globally starting today, but only on devices running Android 9.0 and up with at least 4GB of [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Apple CEO Tim Cook will step down in September, with John Ternus set to take over the leadership role.",
-        "summary": "Today's technology news highlights significant leadership changes at Apple, the discontinuation of Lenovo's Legion Go S, and new features in Google Photos. Additionally, Amazon faces legal scrutiny over alleged price-fixing, and WhatsApp is testing a new subscription service.",
+        "key_takeaway": "Tim Cook is stepping down as Apple CEO, with John Ternus set to take over in September, while Dyson launches a new travel-size hairdryer.",
+        "summary": "Today's technology news highlights significant leadership changes at Apple, including Tim Cook's transition to executive chairman and the appointment of John Ternus as CEO. Additionally, Dyson introduces a travel-size version of its popular hairdryer, and WhatsApp tests a new subscription service. Meanwhile, allegations of price-fixing against Amazon and concerns about Silicon Valley's disconnect from consumer needs are also in focus.",
         "key_themes": [
-          "Apple leadership transition",
-          "Lenovo Legion Go S discontinued",
-          "Amazon price-fixing lawsuit",
-          "WhatsApp subscription features",
-          "Google Photos updates"
+          "Apple leadership changes",
+          "Dyson new product launch",
+          "WhatsApp subscription service",
+          "Amazon price-fixing allegations",
+          "Silicon Valley consumer disconnect"
         ],
         "notable_headlines": [
           {
-            "headline": "John Ternus is taking over from Tim Cook as Apple's CEO",
-            "why_it_matters": "This marks a significant leadership change for Apple, impacting its future direction and strategy.",
-            "signal": "Opportunity"
+            "headline": "Tim Cook will still be Apple’s Trump whisperer",
+            "why_it_matters": "Cook's continued engagement with policymakers indicates his ongoing influence in shaping Apple's strategic direction even after stepping down as CEO.",
+            "signal": "Unclear"
           },
           {
             "headline": "Apple CEO Tim Cook is stepping down",
-            "why_it_matters": "Cook's departure ends a notable era for Apple, raising questions about the company's future under new leadership.",
+            "why_it_matters": "This leadership change marks a significant transition for Apple, potentially impacting its future direction and strategy.",
             "signal": "Risk"
           },
           {
-            "headline": "Here's how Amazon's price fixing allegedly drove up prices everywhere",
-            "why_it_matters": "The outcome of this lawsuit could have major implications for Amazon's business practices and pricing strategies.",
-            "signal": "Risk"
+            "headline": "Dyson’s back with a travel-size Supersonic hairdryer",
+            "why_it_matters": "The launch of a more affordable and portable hairdryer could attract a new segment of consumers, enhancing Dyson's market presence.",
+            "signal": "Opportunity"
           },
           {
             "headline": "WhatsApp tests ‘Plus’ subscription that adds stickers and more for a few bucks a month",
-            "why_it_matters": "This move could change the monetization strategy for WhatsApp and affect user engagement.",
+            "why_it_matters": "Introducing a subscription model could diversify WhatsApp's revenue streams and enhance user engagement through premium features.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Google Photos adds subtle touch-up tools for faces",
-            "why_it_matters": "These new features enhance user experience and could attract more users to the platform.",
-            "signal": "Opportunity"
+            "headline": "Here’s how Amazon’s price fixing allegedly drove up prices everywhere",
+            "why_it_matters": "The ongoing legal issues surrounding Amazon could have broader implications for pricing practices in the tech industry.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Tim Cook's departure from Apple.",
-            "Watch for updates on Amazon's legal situation regarding price-fixing.",
-            "Expect more details on WhatsApp's subscription service."
+            "Further reactions to Tim Cook's resignation from industry analysts and Apple stakeholders.",
+            "Potential announcements from Dyson regarding the travel-size hairdryer.",
+            "Updates on the WhatsApp Plus subscription testing phase."
           ],
           "next_1_4_weeks": [
-            "Observe how Apple's leadership transition affects stock prices and market perception.",
-            "Look for user feedback on Google Photos' new features.",
-            "Follow developments in the Amazon lawsuit."
+            "Anticipation builds for John Ternus's leadership style and strategic vision for Apple post-September.",
+            "Continued developments in the Amazon price-fixing lawsuit and its implications for e-commerce.",
+            "Consumer feedback on Dyson's new hairdryer and WhatsApp's subscription features."
           ],
           "watch_list": [
-            "Apple's new CEO John Ternus and his initial strategies.",
-            "Lenovo's future product offerings after discontinuing the Legion Go S.",
-            "WhatsApp's subscription model success and user adoption rates.",
-            "Google Photos' competitive positioning with new features."
+            "Apple's stock performance following leadership changes.",
+            "Consumer response to Dyson's new product launch.",
+            "Legal developments in Amazon's price-fixing case.",
+            "WhatsApp subscription service uptake and user feedback."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of leadership changes at Apple is uncertain until Ternus takes over.",
-          "Legal outcomes for Amazon may take time to unfold."
+          "The impact of Tim Cook's departure on Apple's future is still uncertain.",
+          "Consumer reactions to new products and services may vary widely.",
+          "Legal outcomes for Amazon's case are unpredictable."
         ],
         "related_topics": [
           "What are the implications of Tim Cook stepping down as Apple CEO?",
-          "Latest updates on Amazon's price-fixing lawsuit",
-          "What new features are coming to Google Photos?",
-          "WhatsApp subscription service details and features",
-          "Lenovo Legion Go S discontinuation news"
+          "Latest updates on Dyson's new travel-size hairdryer launch.",
+          "What features does WhatsApp Plus subscription offer?",
+          "How is Amazon responding to price-fixing allegations?",
+          "What are the current trends in Silicon Valley consumer products?"
         ]
       },
-      "tweet_text": "Big changes at Apple: Tim Cook steps down as CEO, handing the reins to John Ternus! What does this mean...\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Cook #8216plus8217 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Apple's leadership shifts as Tim Cook exits—what's next for the tech titan and its new chief hardware...\n\nTechnology Sentiment: Positive (+0.27)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Cook #Allegedly #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -538,161 +518,165 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.0363,
+        "score": 0.0039,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.061, dampened ×0.6 → +0.0363). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.006, dampened ×0.6 → +0.0039). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Follow live: Nuggets, Timberwolves face off in Game 2",
+          "url": "https://www.espn.com/nba/game/_/gameId/401869395/timberwolves-nuggets",
+          "published": "Tue, 21 Apr 2026 01:09:26 EST",
+          "summary": "null",
+          "source": "ESPN"
+        },
+        {
+          "title": "McCollum plays MSG villain as Hawks tie series",
+          "url": "https://www.espn.com/nba/story/_/id/48546628/cj-mccollum-leads-late-rally-hawks-stun-knicks-tie-series",
+          "published": "Tue, 21 Apr 2026 00:12:30 EST",
+          "summary": "CJ McCollum became the latest to join the list of Madison Square Garden villains as his fourth-quarter heroics helped the Hawks tie their first-round series against the Knicks with a come-from-behind 107-106 win in Game 2.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Martinook lifts Canes in 2OT after goal overturn",
+          "url": "https://www.espn.com/nhl/story/_/id/48547203/martinook-rescues-hurricanes-2ot-overturned-goal",
+          "published": "Tue, 21 Apr 2026 00:12:30 EST",
+          "summary": "Jordan Martinook, who was stopped on a penalty shot in the first overtime session after a potential winning goal was overturned, beat Linus Ullmark at 13:53 of the second overtime to help the Carolina Hurricanes past the Ottawa Senators 3-2 Monday night.",
+          "source": "ESPN"
+        },
+        {
           "title": "Wemby captures DPOY as first unanimous winner",
           "url": "https://www.espn.com/nba/story/_/id/48544568/spurs-victor-wembanyama-captures-first-career-dpoy",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "published": "Tue, 21 Apr 2026 00:12:30 EST",
           "summary": "Victor Wembanyama, 22, is both the youngest DPOY winner in NBA history and the first to win the award unanimously.",
           "source": "ESPN"
         },
         {
-          "title": "Dodgers closer Diaz on IL, set for elbow surgery",
+          "title": "Dodgers' Diaz to have elbow surgery, miss months",
           "url": "https://www.espn.com/mlb/story/_/id/48544759/los-angeles-dodgers-put-closer-edwin-diaz-injured-list",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "published": "Tue, 21 Apr 2026 00:12:30 EST",
           "summary": "Los Angeles Dodgers closer Edwin Diaz is scheduled to undergo surgery Wednesday to remove loose bodies in his right elbow, the team announced Monday, and the expectation is that he could miss around three months, a source told ESPN's Alden Gonzalez.",
           "source": "ESPN"
         },
         {
           "title": "UConn's Ball (wrist) to miss all of next season",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48544576/uconn-solo-ball-wrist-surgery-miss-all-next-season",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "published": "Tue, 21 Apr 2026 00:12:30 EST",
           "summary": "UConn guard Solo Ball will undergo wrist surgery and miss the entire 2026-27 season.",
           "source": "ESPN"
         },
         {
           "title": "PGA Tour boots both Hawaii events from '27 sked",
           "url": "https://www.espn.com/golf/story/_/id/48544964/hawaii-sentry-sony-open-pga-tour-schedule-2027",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "published": "Tue, 21 Apr 2026 00:12:30 EST",
           "summary": "The PGA Tour will not be in Hawaii in 2027 for the first time in 56 years as it moves toward a revamped schedule that no longer will start the season in the middle of the Pacific Ocean.",
           "source": "ESPN"
         },
         {
           "title": "Jefferson blunt on McCarthy with Kyler a Viking",
           "url": "https://www.espn.com/nfl/story/_/id/48543398/jefferson-blunt-mccarthy-future-murray-viking",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "published": "Tue, 21 Apr 2026 00:12:31 EST",
           "summary": "Speaking publicly Monday for the first time about the Vikings' new quarterback room, Justin Jefferson said he is looking forward to Kyler Murray's playmaking skills and was blunt about J.J. McCarthy's future.",
           "source": "ESPN"
         },
         {
           "title": "Counsell: MLB rule in place for Ohtani 'bizarre'",
           "url": "https://www.espn.com/mlb/story/_/id/48545156/mlb-rule-place-ohtani-dodgers-bizarre",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
+          "published": "Tue, 21 Apr 2026 00:12:30 EST",
           "summary": "Chicago Cubs manager Craig Counsell thinks that a Major League Baseball rule that allows the Los Angeles Dodgers to carry 14 pitchers because of Shohei Ohtani is \"bizarre,\" adding that the defending National League MVP is getting \"special consideration.\"",
           "source": "ESPN"
         },
         {
-          "title": "PGA Tour will consider paths back for LIV players",
-          "url": "https://www.espn.com/golf/story/_/id/48545079/ceo-pga-tour-consider-paths-bring-back-liv-players",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
-          "summary": "The PGA Tour will consider additional pathways to bring back LIV Golf players who might want to return to the circuit, CEO Brian Rolapp said Monday.",
+          "title": "🏈 Jordan Reid's seven-round NFL mock draft",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48480079/2026-nfl-mock-draft-seven-rounds-257-picks-predictions-jordan-reid-fits",
+          "published": "Tue, 21 Apr 2026 00:12:31 EST",
+          "summary": "Jordan Reid projected every single pick for this week's NFL draft, from the Raiders' selection at No. 1 to Mr. Irrelevant.",
           "source": "ESPN"
         },
         {
-          "title": "Garoppolo considering retirement, sources say",
-          "url": "https://www.espn.com/nfl/story/_/id/48542726/sources-free-agent-qb-jimmy-garoppolo-considering-retirement",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
-          "summary": "Free agent quarterback Jimmy Garoppolo is considering retirement, sources told NFL Network on Monday.",
+          "title": "East playoff takeaways: MSG finds a new Hawks villain",
+          "url": "https://www.espn.com/nba/story/_/id/48506456/2026-nba-playoffs-eastern-conference-round-one-takeaways",
+          "published": "Mon, 20 Apr 2026 23:56:33 EST",
+          "summary": "Here's what has stood out from the latest playoff games of the Eastern Conference's first round.",
           "source": "ESPN"
         },
         {
-          "title": "✨ Top 50 players in the 2026 Stanley Cup playoffs",
-          "url": "https://www.espn.com/nhl/story/_/id/48523076/2026-nhl-playoffs-stanley-cup-rankings-top-players-mackinnon-mcdavid-crosby-kucherov",
-          "published": "Mon, 20 Apr 2026 19:38:29 EST",
-          "summary": "As 16 teams face off for the ultimate prize in pro sports, these players will have the biggest impact.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Follow live: Cavaliers host Raptors for Game 2 of the first round",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869369/raptors-cavaliers",
-          "published": "Mon, 20 Apr 2026 19:22:08 EST",
-          "summary": "null",
-          "source": "ESPN"
-        },
-        {
-          "title": "LeBron does it again, and one team has a big problem: Windhorst on the first weekend of the playoffs",
-          "url": "https://www.espn.com/nba/story/_/id/48537702/brian-windhorst-lebron-lakers-five-lessons-first-weekend-nba-playoffs",
-          "published": "Mon, 20 Apr 2026 19:27:38 EST",
-          "summary": "A 25-year-old LeBron strategy for the Lakers, a new defense in Cleveland and a message from Oklahoma City: Here's what we learned as the postseason tipped off.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Even in retirement, Chris Paul's legacy is rooted in this season's playoffs",
-          "url": "https://www.espn.com/nba/story/_/id/48506441/nba-playoffs-2026-chris-paul-retirement-player-impact-curry-brunson",
-          "published": "Mon, 20 Apr 2026 19:27:38 EST",
-          "summary": "Dozens of NBA players have been mentored by the future Hall of Famer, and many of them are vying for the title.",
+          "title": "Schefter’s NFL draft week intel: Nuggets on top picks, and trade candidates",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48507444/2026-nfl-draft-notes-intel-buzz-adam-schefter-first-round-picks-teams-trades",
+          "published": "Mon, 20 Apr 2026 16:46:23 EST",
+          "summary": "How early could Jeremiyah Love be drafted? Will Ty Simpson go in Round 1? Adam Schefter has the latest.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Victor Wembanyama becomes the youngest and first unanimous winner of the NBA's Defensive Player of the Year award.",
-        "summary": "Today's sports news highlights include Victor Wembanyama's historic DPOY win, Edwin Diaz's upcoming elbow surgery, and UConn's Solo Ball missing the entire season due to wrist surgery. Additionally, the PGA Tour will not host events in Hawaii for the first time in 56 years, and Jimmy Garoppolo is contemplating retirement. The NBA playoffs are underway, with significant performances and strategies being analyzed.",
+        "key_takeaway": "The NBA playoffs continue with notable performances, while MLB faces injury setbacks and a significant rule controversy.",
+        "summary": "Today's sports headlines highlight the ongoing NBA playoffs, including the Hawks tying their series against the Knicks and Victor Wembanyama winning the DPOY award. In MLB, Dodgers' closer Edwin Diaz is set for elbow surgery, and UConn's Solo Ball will miss the entire season due to wrist surgery. The PGA Tour will not include Hawaii events in its 2027 schedule, marking a significant change. Additionally, NFL draft discussions are heating up with insights on top picks and trade candidates.",
         "key_themes": [
-          "NBA playoffs analysis",
-          "Edwin Diaz injury update",
-          "PGA Tour schedule changes"
+          "NBA playoffs updates",
+          "MLB injury news",
+          "PGA Tour schedule changes",
+          "NFL draft predictions",
+          "Victor Wembanyama DPOY award"
         ],
         "notable_headlines": [
           {
-            "headline": "Wemby captures DPOY as first unanimous winner",
-            "why_it_matters": "Wembanyama's achievement sets a new standard in the NBA for defensive excellence.",
+            "headline": "McCollum plays MSG villain as Hawks tie series",
+            "why_it_matters": "CJ McCollum's performance highlights the competitive nature of the NBA playoffs and the significance of player rivalries.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Dodgers closer Diaz on IL, set for elbow surgery",
-            "why_it_matters": "Diaz's injury could significantly impact the Dodgers' bullpen for the upcoming months.",
-            "signal": "Risk"
+            "headline": "Martinook lifts Canes in 2OT after goal overturn",
+            "why_it_matters": "This game showcases the intensity of playoff hockey and the impact of critical officiating decisions.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "UConn's Ball (wrist) to miss all of next season",
-            "why_it_matters": "Ball's absence will affect UConn's performance in the upcoming season.",
+            "headline": "Wemby captures DPOY as first unanimous winner",
+            "why_it_matters": "Victor Wembanyama's historic achievement underscores his impact on the league and sets a new standard for defensive excellence.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Dodgers' Diaz to have elbow surgery, miss months",
+            "why_it_matters": "This injury could significantly affect the Dodgers' bullpen and their chances in the upcoming season.",
             "signal": "Risk"
           },
           {
             "headline": "PGA Tour boots both Hawaii events from '27 sked",
-            "why_it_matters": "This marks a significant shift in the PGA Tour's scheduling and location strategy.",
+            "why_it_matters": "The removal of Hawaii events marks a major shift in the PGA Tour's scheduling strategy, impacting fans and local economies.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Garoppolo considering retirement, sources say",
-            "why_it_matters": "Garoppolo's potential retirement could reshape the quarterback landscape in the NFL.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Live coverage of Cavaliers vs. Raptors Game 2",
-            "Updates on Edwin Diaz's surgery and recovery timeline",
-            "Further analysis on NBA playoff performances"
+            "Continued coverage of the NBA playoffs as teams compete for advancement.",
+            "Updates on Edwin Diaz's surgery and recovery timeline.",
+            "Further insights into NFL draft preparations and potential trades."
           ],
           "next_1_4_weeks": [
-            "Monitoring the impact of injuries on MLB and NBA teams",
-            "Evaluating the PGA Tour's new schedule and its implications",
-            "Tracking Jimmy Garoppolo's decision on retirement"
+            "Ongoing developments in the NBA playoffs leading to the conference finals.",
+            "Monitoring the recovery of injured MLB players and their impact on team performance.",
+            "Anticipation builds for the NFL draft and its implications for team rosters."
           ],
           "watch_list": [
-            "Victor Wembanyama's performance in the playoffs",
-            "Edwin Diaz's recovery progress",
-            "PGA Tour's adjustments for LIV players' return opportunities.",
-            "Upcoming NBA playoff matchups"
+            "NBA playoff matchups and results",
+            "MLB injury reports and player updates",
+            "NFL draft predictions and analysis.",
+            "PGA Tour schedule announcements"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Injuries can have unpredictable recovery times.",
-          "Player performance can vary significantly during playoffs."
+          "Injuries and player performances can change rapidly, affecting team dynamics and playoff outcomes.",
+          "Draft predictions are speculative and subject to change based on team strategies and player evaluations."
         ],
         "related_topics": [
-          "What are the latest NBA playoff updates?",
-          "Edwin Diaz injury impact on Dodgers",
-          "PGA Tour schedule changes for 2027"
+          "What are the latest NBA playoff results?",
+          "Updates on MLB player injuries and surgeries",
+          "PGA Tour schedule changes for 2027",
+          "NFL draft predictions and insights",
+          "Victor Wembanyama's impact on the NBA"
         ]
       },
-      "tweet_text": "Historic night as Wemby makes DPOY history, while the Dodgers and UConn face tough breaks—sports just got serious!\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Tour #Ball #Bizarre #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Game 2 showdown, a villain at MSG, and heart-stopping OT drama—sports just hit a new level of intensity!\n\nSports Sentiment: Neutral (+0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#Miss #Ball #Blunt #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -703,16 +687,44 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.221,
+        "score": 0.2229,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.368, dampened ×0.6 → +0.2210). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.371, dampened ×0.6 → +0.2229). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "95% success rate: This new trick lures termites straight to their death",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260420233930.htm",
+          "published": "Mon, 20 Apr 2026 23:54:47 EDT",
+          "summary": "Scientists at UC Riverside have found a clever new way to outsmart termites—by turning their own instincts against them. Using a natural pine scent called pinene, which smells like food to termites, researchers can lure the pests straight toward a targeted dose of insecticide hidden in wood. The result is dramatically higher kill rates—jumping from about 70% to over 95%—without the need for widespread toxic fumigation.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "After 200 years scientists finally crack the “dolomite problem”",
           "url": "https://www.sciencedaily.com/releases/2026/04/260420015840.htm",
           "published": "Mon, 20 Apr 2026 02:28:54 EDT",
           "summary": "After two centuries of failed attempts, scientists have finally grown dolomite in the lab, cracking a long-standing geological puzzle. They discovered that the mineral’s growth stalls because of tiny defects—but in nature, those flaws get washed away over time. By mimicking this process with precise simulations and electron beam pulses, the team achieved record-breaking crystal growth. The finding could reshape how high-tech materials are made.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "These California bees are beating a killer that’s wiping out colonies",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260420014740.htm",
+          "published": "Mon, 20 Apr 2026 23:28:53 EDT",
+          "summary": "A unique hybrid honeybee thriving in Southern California may hold a powerful clue to saving struggling bee populations. While U.S. beekeepers are losing massive numbers of colonies—largely due to destructive Varroa mites—a locally adapted mix of feral and diverse bee lineages is showing remarkable resilience. These bees aren’t immune, but they carry far fewer mites and are far less likely to require chemical treatments. Even more surprising, their resistance appears to start early in life, with",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "This common plant could clean microplastics from your drinking water",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260420014735.htm",
+          "published": "Mon, 20 Apr 2026 04:56:22 EDT",
+          "summary": "Scientists have discovered that moringa seeds can help pull microplastics out of water, rivaling standard chemical treatments. The plant-based extract causes plastic particles to clump together, making them easier to filter away. In some conditions, it even outperformed conventional chemicals. This low-cost, natural solution could be a game-changer for cleaner drinking water, especially in smaller communities.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists stunned as bacteria rewire DNA machinery to shape cells",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260420014733.htm",
+          "published": "Mon, 20 Apr 2026 06:18:50 EDT",
+          "summary": "Cyanobacteria—ancient microbes that oxygenated Earth and made complex life possible—are still revealing surprises billions of years later. Scientists have now discovered that a molecular system once used to separate DNA has been repurposed into something entirely different: a structure that shapes the cell itself.",
           "source": "ScienceDaily"
         },
         {
@@ -763,105 +775,77 @@
           "published": "Fri, 17 Apr 2026 07:44:05 EDT",
           "summary": "Scientists have uncovered a surprising twist in how bacteria share genes—including those that spread antibiotic resistance. Tiny virus-like particles called gene transfer agents (GTAs), once ancient viral invaders, have been repurposed by bacteria into delivery systems that shuttle DNA between neighboring cells. The study reveals a key control hub of three genes, dubbed LypABC, that triggers bacterial cells to burst open and release these DNA-packed couriers.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Black hole jets measured for first time and rival the power of 10,000 suns",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260416071949.htm",
-          "published": "Sat, 18 Apr 2026 11:40:07 EDT",
-          "summary": "Scientists have captured stunning new insights into one of the universe’s most powerful phenomena—black hole jets—by using a planet-sized network of radio telescopes. Focusing on Cygnus X-1, one of the first known black holes, they measured jets blasting out with the energy of 10,000 Suns and moving at half the speed of light. By watching these jets get pushed and bent by the fierce stellar winds of a nearby supergiant star, researchers could calculate their true power for the first time.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "MIT scientists just found a hidden problem slowing the ozone comeback",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260416071945.htm",
-          "published": "Thu, 16 Apr 2026 07:53:40 EDT",
-          "summary": "The ozone layer has been on track to recover thanks to the Montreal Protocol—but a loophole may be holding it back. Chemicals still permitted for industrial use are leaking into the atmosphere at higher rates than expected. Scientists now estimate this could delay ozone recovery by up to seven years. Closing this gap could speed up healing and reduce harmful UV exposure worldwide.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "The surprising reason you’re so productive one day and not the next",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260415043626.htm",
-          "published": "Wed, 15 Apr 2026 08:44:11 EDT",
-          "summary": "Feeling mentally “on” isn’t just in your head—it can significantly boost what you accomplish. Researchers found that sharper thinking on a given day leads people to set bigger goals and actually follow through. That edge can equal up to 40 extra minutes of productivity. But push too hard for too long, and the effect reverses.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "This 31-foot “terror croc” ate dinosaurs. Now it’s back",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260415043623.htm",
-          "published": "Wed, 15 Apr 2026 09:23:03 EDT",
-          "summary": "A massive, bus-sized “terror croc” that once preyed on dinosaurs has been brought back to life in stunning detail with the first scientifically accurate full skeleton of Deinosuchus schwimmeri. Stretching over 30 feet long, this ancient apex predator ruled the southeastern U.S. more than 75 million years ago—and now visitors can see it up close at the Tellus Science Museum, the only place in the world with this replica.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Scientists have made significant breakthroughs in various fields, including geology, energy, and neuroscience, highlighting the ongoing advancements in scientific research.",
-        "summary": "Today's science headlines feature groundbreaking discoveries, including the successful lab growth of dolomite, the development of a dirt-powered fuel cell, and artificial neurons communicating with brain cells. Additionally, studies reveal insights into the Anthropocene era, the impact of caffeine on ants, and the dynamics of black hole jets. Other notable findings include the effects of a total solar eclipse on seismic activity and the challenges facing ozone layer recovery due to industrial chemicals.",
+        "key_takeaway": "Recent scientific advancements include a new termite control method, breakthroughs in dolomite growth, and innovative solutions for microplastic removal from water.",
+        "summary": "Today's science headlines highlight significant breakthroughs in pest control, geology, and environmental science, alongside intriguing findings in microbiology and astronomy. Researchers at UC Riverside have developed a method to lure termites to insecticide using a natural scent, achieving a 95% success rate. In geology, scientists have finally grown dolomite in the lab, solving a long-standing problem. Additionally, moringa seeds have shown potential in removing microplastics from drinking water. Other notable studies include the discovery of bacteria's ability to rewire DNA machinery, the development of a dirt-powered fuel cell, and the impact of a total solar eclipse on seismic activity.",
         "key_themes": [
-          "breakthroughs in geology",
-          "advancements in renewable energy",
-          "neuroscience and artificial neurons",
-          "impact of caffeine on pest control",
-          "black hole jet dynamics"
+          "pest control innovations",
+          "geological breakthroughs",
+          "microplastic removal solutions",
+          "bacterial DNA research",
+          "sustainable energy technologies"
         ],
         "notable_headlines": [
           {
+            "headline": "95% success rate: This new trick lures termites straight to their death",
+            "why_it_matters": "This method significantly improves pest control without harmful fumigation.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "After 200 years scientists finally crack the “dolomite problem”",
-            "why_it_matters": "This breakthrough could reshape how high-tech materials are made by understanding mineral growth.",
+            "why_it_matters": "This breakthrough could change how high-tech materials are produced.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "This common plant could clean microplastics from your drinking water",
+            "why_it_matters": "Moringa seeds offer a natural and cost-effective solution for water purification.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists develop dirt-powered fuel cell that could replace batteries",
-            "why_it_matters": "This innovation offers a sustainable alternative for powering sensors in agriculture and environmental monitoring.",
+            "why_it_matters": "This technology could lead to sustainable energy solutions for environmental monitoring.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Artificial neurons successfully communicate with living brain cells",
-            "why_it_matters": "This advancement represents a significant step towards integrating technology with biological systems.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Total solar eclipse led to seismic quiet for cities within its path",
-            "why_it_matters": "The findings provide insights into human activity's impact on seismic noise levels during natural events.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "MIT scientists just found a hidden problem slowing the ozone comeback",
-            "why_it_matters": "Identifying and addressing this issue could accelerate the recovery of the ozone layer and reduce UV exposure.",
+            "headline": "Scientists discover bacteria can “explode” to spread antibiotic resistance",
+            "why_it_matters": "Understanding this mechanism is crucial for combating antibiotic resistance.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the dolomite growth process may be published.",
-            "More studies on the implications of the dirt-powered fuel cell are expected.",
-            "Research on the effects of caffeine on other species may emerge."
+            "Further analysis on the effectiveness of the new termite control method is expected.",
+            "Research on the applications of moringa seeds in water purification will continue.",
+            "Updates on the implications of the dolomite growth breakthrough may emerge."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the implications of the Anthropocene era in scientific communities.",
-            "Potential developments in artificial neuron technology and its applications.",
-            "Further investigations into the impact of industrial chemicals on ozone recovery."
+            "Anticipated discussions on the environmental impacts of the dirt-powered fuel cell technology.",
+            "Further studies on the resilience of hybrid honeybees against Varroa mites are likely.",
+            "New findings on the communication between artificial neurons and brain cells may be published."
           ],
           "watch_list": [
-            "Emerging research on sustainable energy solutions.",
-            "Updates on pest control innovations using caffeine.",
-            "New findings in the field of neuroscience and brain-machine interfaces.",
-            "Continued monitoring of seismic activity related to natural phenomena."
+            "Developments in pest control technologies using natural methods.",
+            "Research on the impact of human activity on geological processes.",
+            "Innovations in sustainable energy solutions from microbial technologies.",
+            "Studies on antibiotic resistance mechanisms in bacteria."
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The mixed sentiment indicates varying levels of optimism and concern across different studies.",
-          "Some findings may require further validation before practical applications can be realized."
+          "Some findings, while promising, require further validation and real-world testing."
         ],
         "related_topics": [
-          "What are the latest breakthroughs in geology?",
-          "How can dirt-powered fuel cells change energy consumption?",
-          "What advancements have been made in neuroscience recently?",
-          "What impact does caffeine have on pest control?",
-          "How are black hole jets studied in astrophysics?"
+          "What are the latest advancements in pest control?",
+          "How can moringa seeds help clean drinking water?",
+          "What breakthroughs have been made in geology recently?",
+          "How do bacteria spread antibiotic resistance?",
+          "What are the implications of dirt-powered fuel cells?"
         ]
       },
-      "tweet_text": "Scientists are unlocking nature's secrets: from powering our devices with dirt to understanding...\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Antibiotic #Ants #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A groundbreaking discovery could change how we fight pollution and save our planet—are you ready for the...\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Ants #Bacteria #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
