@@ -1,10 +1,12 @@
 {
   "date": "2026-04-22",
-  "generated_at_utc": "2026-04-22T23:54:37Z",
+  "generated_at_utc": "2026-04-23T05:24:14Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "trump",
     "finds",
+    "trumps",
     "prices",
     "president",
     "iran"
@@ -19,16 +21,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1171,
+        "score": -0.2202,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.195, dampened ×0.6 → -0.1171). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.367, dampened ×0.6 → -0.2202). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
-          "url": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 22 Apr 2026 16:19:36 GMT",
-          "summary": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
+          "title": "China weathered Trump's tariffs - but the Iran war is taking a toll",
+          "url": "https://www.bbc.com/news/articles/cn0ep28drllo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 22 Apr 2026 21:23:25 GMT",
+          "summary": "The Middle East conflict is putting pressure on factory orders, costs and jobs in China's export-driven economy.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Lebanon accuses Israel of targeting journalist killed in airstrike",
+          "url": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 23 Apr 2026 04:25:30 GMT",
+          "summary": "Lebanon's prime minister accused Israel of war crimes after IDF attacks on Red Cross vehicles also stopped rescuers from reaching the site.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US Navy chief leaving post 'effective immediately', Pentagon says",
+          "url": "https://www.bbc.com/news/articles/ce9ml02g5k7o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 23 Apr 2026 01:56:20 GMT",
+          "summary": "US Navy Secretary John Phelan is the latest high-ranking military leader to leave the administration in recent months.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Officials release cause of death for teen found dead in singer D4vd's car",
+          "url": "https://www.bbc.com/news/articles/cr41yx7pxglo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 23 Apr 2026 00:39:56 GMT",
+          "summary": "The medical examiner said the 14-year-old's cause of death was determined months ago but was blocked from release.",
           "source": "BBC News"
         },
         {
@@ -67,13 +90,6 @@
           "source": "BBC News"
         },
         {
-          "title": "No cartels involved - but Mexico's pyramid attack prompts new concerns",
-          "url": "https://www.bbc.com/news/articles/cre1r5gdq04o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 22 Apr 2026 14:50:52 GMT",
-          "summary": "The deadly shooting at a popular tourist site weeks before the World Cup has rocked Mexico.",
-          "source": "BBC News"
-        },
-        {
           "title": "US charges anti-extremism organisation over payments to informants in hate groups",
           "url": "https://www.bbc.com/news/articles/clyrkd022ejo?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 22 Apr 2026 09:09:50 GMT",
@@ -93,93 +109,77 @@
           "published": "Wed, 22 Apr 2026 06:25:15 GMT",
           "summary": "Taiwan has accused Beijing of putting pressure on African countries to close their airspace to Lai's plane.",
           "source": "BBC News"
-        },
-        {
-          "title": "Los Angeles becomes first major US school district to limit classroom screen time",
-          "url": "https://www.bbc.com/news/articles/c15d888ww39o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 22 Apr 2026 14:22:59 GMT",
-          "summary": "The school district, which serves about half a million students, is looking to reduce its reliance on devices after the pandemic.",
-          "source": "BBC News"
-        },
-        {
-          "title": "UAE-backed Colombian mercenaries provided support to Sudan paramilitary, report says",
-          "url": "https://www.bbc.com/news/articles/cn4vk13wgwwo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 22 Apr 2026 04:01:50 GMT",
-          "summary": "The Conflict Insights Group (CIG) says its research also shows the extent of UAE involvement.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The geopolitical landscape remains tense with significant developments in Ukraine, Iran, and Africa, while economic pressures affect global airlines.",
-        "summary": "Today's headlines highlight ongoing geopolitical tensions, including a standoff between the US and Iran, a significant loan for Ukraine, and the Pope's criticism of prison conditions in Equatorial Guinea. Additionally, economic challenges are evident as Lufthansa cuts flights due to rising fuel prices, and Nigeria faces allegations of a coup plot. In Mexico, a deadly shooting raises security concerns ahead of the World Cup, while Taiwan's president cancels a trip amid pressures from Beijing.",
+        "key_takeaway": "The ongoing Middle East conflict is impacting global economies, particularly China's export-driven market, while geopolitical tensions continue to shape international relations.",
+        "summary": "Today's headlines reflect a mix of geopolitical tensions and economic challenges, with significant developments in the Middle East affecting global markets and diplomatic relations. China's economy faces pressure from the Iran war, while Lebanon accuses Israel of war crimes. The US Navy sees leadership changes, and the EU supports Ukraine amid energy supply issues. Additionally, airline operations are impacted by rising fuel costs, and Taiwan's president faces diplomatic challenges.",
         "key_themes": [
-          "geopolitical tensions in the Middle East",
-          "Ukraine EU loan news",
-          "Pope's Africa tour highlights",
-          "Lufthansa flight cuts due to fuel prices",
-          "Mexico security concerns",
-          "Taiwan's diplomatic challenges"
+          "China's economy and the Iran conflict",
+          "Lebanon-Israel tensions",
+          "US military leadership changes",
+          "EU support for Ukraine",
+          "Airline industry challenges due to fuel prices"
         ],
         "notable_headlines": [
           {
-            "headline": "US and Iran in blockade standoff as Pakistan pushes for talks",
-            "why_it_matters": "The ongoing tensions in the Strait of Hormuz could impact global oil supplies and security.",
+            "headline": "China weathered Trump's tariffs - but the Iran war is taking a toll",
+            "why_it_matters": "The Iran conflict is affecting China's export economy, highlighting vulnerabilities in global supply chains.",
             "signal": "Risk"
           },
           {
-            "headline": "EU approves €90bn loan for Ukraine as pipeline is turned on ending deadlock",
-            "why_it_matters": "This financial support is crucial for Ukraine's recovery and stability amid ongoing conflict.",
-            "signal": "Opportunity"
+            "headline": "Lebanon accuses Israel of targeting journalist killed in airstrike",
+            "why_it_matters": "This accusation escalates tensions in the region and raises concerns over press freedom and civilian safety.",
+            "signal": "Risk"
           },
           {
-            "headline": "Pope Leo criticises Equatorial Guinea prisons as he winds up Africa tour",
-            "why_it_matters": "The Pope's remarks may influence international attention on human rights issues in Equatorial Guinea.",
+            "headline": "US Navy chief leaving post 'effective immediately', Pentagon says",
+            "why_it_matters": "Frequent leadership changes in the military could impact US defense strategies and operations.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "EU approves €90bn loan for Ukraine as pipeline is turned on ending deadlock",
+            "why_it_matters": "This financial support is crucial for Ukraine's recovery and energy security amid ongoing conflict.",
             "signal": "Opportunity"
           },
           {
             "headline": "Lufthansa cuts 20,000 summer flights as fuel prices surge",
-            "why_it_matters": "This reflects broader economic pressures affecting the airline industry due to geopolitical conflicts.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Nigeria's suspected coup plotters deny treason charges",
-            "why_it_matters": "The situation highlights ongoing political instability in Nigeria, raising concerns about governance.",
+            "why_it_matters": "Rising fuel costs are forcing airlines to adjust operations, impacting travel plans and the aviation industry.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the US-Iran standoff and its implications for oil markets.",
-            "Watch for reactions to the EU's financial support for Ukraine and its impact on the conflict.",
-            "Follow up on the Pope's Africa tour and any potential diplomatic repercussions."
+            "Monitor developments in the Middle East and their impact on global markets.",
+            "Watch for responses from international bodies regarding Lebanon's accusations against Israel.",
+            "Observe the implications of the US Navy leadership change on military operations."
           ],
           "next_1_4_weeks": [
-            "Expect further updates on the situation in Nigeria as the coup plot allegations unfold.",
-            "Watch for potential changes in airline operations as fuel prices continue to fluctuate.",
-            "Observe the geopolitical dynamics in the Strait of Hormuz and their impact on global trade."
+            "Evaluate the long-term effects of the EU loan on Ukraine's economy and energy supply.",
+            "Track the airline industry's response to fluctuating fuel prices and operational adjustments.",
+            "Assess the geopolitical ramifications of Taiwan's diplomatic challenges with African nations."
           ],
           "watch_list": [
-            "US-Iran relations and potential negotiations",
-            "Ukraine's economic recovery efforts",
-            "Human rights issues in Equatorial Guinea",
-            "Airline industry responses to rising fuel costs",
-            "Security developments in Mexico ahead of the World Cup"
+            "Middle East conflict updates",
+            "Global economic impacts of rising fuel prices",
+            "US military leadership changes and their implications",
+            "Taiwan's diplomatic relations with Africa"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and could change rapidly.",
-          "Economic forecasts are uncertain due to geopolitical tensions and market volatility. "
+          "The situation in the Middle East is fluid and may change rapidly.",
+          "Economic impacts are interconnected and may evolve based on geopolitical developments."
         ],
         "related_topics": [
-          "What are the latest developments in US-Iran relations?",
-          "How is the EU supporting Ukraine financially?",
-          "What did the Pope say about prisons in Equatorial Guinea?",
-          "What are the implications of Lufthansa's flight cuts?",
-          "What security concerns are arising in Mexico ahead of the World Cup?"
+          "How is the Iran war affecting global economies?",
+          "What are the latest developments in Lebanon-Israel relations?",
+          "What is the impact of rising fuel prices on airlines?",
+          "Updates on US military leadership changes",
+          "Taiwan's diplomatic challenges with African countries"
         ]
       },
-      "tweet_text": "Global tensions rise as standoffs, lawsuits, and crises unfold—what's next in this whirlwind of world events?\n\nWorld Sentiment: Mixed (-0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Charges #20000 #90bn #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Shocking twists in global affairs as tensions rise with Iran, a journalist's tragic fate, and a Navy chief's abrupt exit.\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#90bn #Accuses #Africa #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -281,76 +281,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Amazon faces renewed scrutiny over workplace safety, while the White House nears a $500 million deal to support Spirit Airlines amid rising operational costs.",
-        "summary": "Today's business news highlights ongoing concerns about Amazon's workplace safety practices, a potential financial rescue for Spirit Airlines, and significant leadership changes at Apple. Additionally, the Federal Reserve chair nominee Kevin Warsh faces scrutiny regarding his independence and the implications of recent tariff refunds. Oil prices are rising due to geopolitical tensions, impacting markets and gig economy workers.",
+        "key_takeaway": "Amazon faces renewed scrutiny over workplace safety, while the White House nears a $500 million deal to support Spirit Airlines amid rising costs.",
+        "summary": "Today's business news highlights ongoing concerns about Amazon's workplace safety, a potential federal bailout for Spirit Airlines, and significant leadership changes at Apple. Additionally, the implications of Trump's Federal Reserve chair nominee and rising oil prices affecting markets are notable.",
         "key_themes": [
           "Amazon workplace safety issues",
-          "Spirit Airlines financial support",
+          "Spirit Airlines federal bailout",
           "Apple leadership transition",
-          "Federal Reserve chair nomination",
-          "impact of oil prices on markets"
+          "Trump's Fed chair nominee",
+          "impact of rising oil prices"
         ],
         "notable_headlines": [
           {
             "headline": "‘Get back to work’: Amazon faces fresh scrutiny over workplace safety record",
-            "why_it_matters": "Amazon's ongoing safety issues could affect its reputation and employee morale, raising questions about labor practices in large corporations.",
+            "why_it_matters": "Ongoing safety concerns at Amazon could impact its reputation and employee morale.",
             "signal": "Risk"
           },
           {
             "headline": "White House close to deal of up to $500m to rescue ailing Spirit Airlines",
-            "why_it_matters": "The potential financial support for Spirit Airlines highlights the ongoing challenges in the airline industry amid rising operational costs.",
+            "why_it_matters": "Federal support for Spirit Airlines could stabilize the airline amid rising operational costs.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Tim Cook to step down as Apple chief as John Ternus named replacement",
+            "why_it_matters": "Leadership change at Apple may signal a shift in strategy and innovation focus under new CEO.",
             "signal": "Opportunity"
           },
           {
             "headline": "Trump’s Fed chair pick says he’ll maintain independence – but won’t say president lost 2020 election",
-            "why_it_matters": "Kevin Warsh's confirmation process may impact monetary policy direction and the Federal Reserve's independence from political influence.",
+            "why_it_matters": "The nominee's stance on independence raises questions about potential political influence on monetary policy.",
             "signal": "Unclear"
           },
           {
-            "headline": "Tim Cook to step down as Apple chief as John Ternus named replacement",
-            "why_it_matters": "The leadership change at Apple could signal a shift in strategy, particularly in diversifying product offerings beyond iPhones.",
-            "signal": "Opportunity"
-          },
-          {
             "headline": "Oil prices rise and markets fall after US seizure of ship hits Iran peace deal hopes",
-            "why_it_matters": "Geopolitical tensions affecting oil prices can have widespread implications for global markets and economic stability.",
+            "why_it_matters": "Rising oil prices could lead to increased inflation and affect global markets negatively.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in Amazon's workplace safety investigations",
-            "Awaiting details on the Spirit Airlines financial deal",
-            "Observing reactions to Kevin Warsh's Fed chair nomination"
+            "Monitor developments regarding Amazon's workplace safety investigations.",
+            "Watch for updates on the Spirit Airlines federal deal negotiations.",
+            "Keep an eye on reactions to Apple's leadership change."
           ],
           "next_1_4_weeks": [
-            "Evaluating the impact of leadership changes at Apple on its market performance",
-            "Tracking oil price trends and their effects on global markets",
-            "Assessing the implications of tariff refunds on trade relations"
+            "Evaluate the impact of rising oil prices on consumer markets and inflation.",
+            "Assess the Federal Reserve's policy direction under Kevin Warsh if confirmed.",
+            "Observe the effects of the Spirit Airlines bailout on the airline industry."
           ],
           "watch_list": [
-            "Amazon's response to safety scrutiny",
-            "Spirit Airlines financial recovery efforts",
-            "Federal Reserve's policy direction under Warsh",
-            "Apple's strategic initiatives under new leadership",
-            "Oil market fluctuations and geopolitical developments"
+            "Amazon workplace safety reforms",
+            "Federal Reserve policy changes under new chair",
+            "Apple's strategic direction under John Ternus",
+            "Impact of oil prices on global markets"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation with Amazon's workplace safety is ongoing and may evolve further.",
-          "The financial deal for Spirit Airlines is not finalized and could change.",
-          "Market reactions to geopolitical events can be unpredictable."
+          "The situation with Amazon's safety record is ongoing and may evolve.",
+          "The outcome of the Spirit Airlines deal is not finalized and could change."
         ],
         "related_topics": [
-          "What are the latest developments in Amazon's workplace safety",
-          "How is the White House supporting Spirit Airlines",
-          "What changes are expected with Apple's new CEO",
-          "What are the implications of Kevin Warsh's Fed chair nomination",
-          "How are rising oil prices affecting global markets"
+          "What are the latest updates on Amazon's workplace safety issues?",
+          "How is the White House supporting Spirit Airlines?",
+          "What changes are expected with Apple's new CEO?",
+          "What are the implications of Trump's Fed chair nominee?",
+          "How are rising oil prices affecting the economy?"
         ]
       },
-      "tweet_text": "Amazon under fire for workplace safety as the White House prepares a lifeline for Spirit Airlines—big shifts...\n\nBusiness Sentiment: Mixed (+0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #166bn #2020 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Amazon under fire again, Spirit Airlines on the brink, and a major shakeup at Apple—today's business news is a...\n\nBusiness Sentiment: Mixed (+0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #166bn #2020 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -361,11 +359,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1334,
+        "score": 0.1129,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.222, dampened ×0.6 → +0.1334). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.188, dampened ×0.6 → +0.1129). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "The Iranian women Trump &#8216;saved&#8217; from execution are simultaneously real and AI-manipulated",
+          "url": "https://www.theverge.com/policy/917180/trump-iran-ai-women-bita-hemmati",
+          "published": "2026-04-22T21:53:24-04:00",
+          "summary": "On Wednesday, President Donald Trump claimed to have secured the release of eight Iranian women condemned to execution for protesting the regime. Only the night before, he had posted on Truth Social about the imminent executions of these women, quoting a screenshot that included a collage of eight glamorously backlit, soft-focus portraits. The photos of [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Elon Musk admits that millions of Tesla vehicles won&#8217;t get unsupervised FSD",
           "url": "https://www.theverge.com/transportation/917167/elon-musk-tesla-hw3-fsd",
@@ -428,85 +433,77 @@
           "published": "2026-04-22T13:43:38-04:00",
           "summary": "Humans have been building ping-pong playing robots for decades, such as Omron's FORPHEUS that challenged amateur competitors at CES 2017. What sets Ace apart from the rest is that the robot, which was developed by Sony's AI division, is the first that can hold its own against top-ranked human players and occasionally even beat them [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Anthropic&#8217;s Mythos rollout has missed America’s cybersecurity agency",
-          "url": "https://www.theverge.com/policy/916758/anthropic-mythos-preview-cisa-left-out",
-          "published": "2026-04-22T12:57:36-04:00",
-          "summary": "Several US federal agencies are taking up Anthropic's new cybersecurity model to find vulnerabilities, but one is reportedly not getting in on the action: the nation's central cybersecurity coordinator. On Tuesday, Axios reported that the Cybersecurity and Infrastructure Security Agency (CISA) didn't have access to Mythos Preview, which Anthropic has touted as a powerful tool [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
         "key_takeaway": "Elon Musk announced that millions of Tesla vehicles will not receive unsupervised Full Self-Driving capabilities, while OpenAI introduced custom bots for business tasks.",
-        "summary": "Today's technology news highlights significant developments from Tesla regarding Full Self-Driving capabilities, the introduction of AI-driven timeline curation by X, and OpenAI's new custom bots for business applications. Additionally, concerns about AI's potential impact on the economy were raised by Senator Elizabeth Warren, while Tesla reported increased revenue amid its AI and robotics initiatives. Other notable mentions include a lawsuit against a former MrBeast executive and a new self-heating smart mug deal ahead of Mother's Day.",
+        "summary": "Today's technology news highlights include Elon Musk's admission regarding Tesla's Full Self-Driving capabilities, OpenAI's new custom bots for business, and concerns from Elizabeth Warren about AI-related financial risks.",
         "key_themes": [
           "Tesla Full Self-Driving update",
-          "AI timeline curation by X",
-          "OpenAI custom bots for business",
-          "Elizabeth Warren AI economy warning",
-          "MrBeast harassment lawsuit",
-          "Sony ping-pong robot performance"
+          "OpenAI custom bots",
+          "Elizabeth Warren AI financial crisis warning",
+          "AI in consumer technology",
+          "AI advancements in robotics"
         ],
         "notable_headlines": [
           {
             "headline": "Elon Musk admits that millions of Tesla vehicles won't get unsupervised FSD",
-            "why_it_matters": "This affects a large number of Tesla owners who expected Full Self-Driving capabilities, raising questions about the company's future technology offerings.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "X is going to let Grok curate your timeline",
-            "why_it_matters": "This feature could change how users interact with content on the platform, potentially enhancing user engagement.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Tesla's revenue rises again as it prepares for more AI and robotics",
-            "why_it_matters": "Increased revenue indicates Tesla's strong market position and commitment to expanding its AI and robotics capabilities.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
-            "why_it_matters": "Warren's warning highlights the potential risks associated with the rapid growth of AI technologies and their economic implications.",
+            "why_it_matters": "This admission affects a significant number of Tesla owners who expected Full Self-Driving capabilities.",
             "signal": "Risk"
           },
           {
             "headline": "OpenAI now lets teams make custom bots that can do work on their own",
-            "why_it_matters": "This development could streamline business operations and enhance productivity through automation.",
+            "why_it_matters": "This feature enhances productivity for businesses using AI to automate tasks.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
+            "why_it_matters": "Warren's warning highlights potential economic risks associated with AI technology and investment bubbles.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Tesla's revenue rises again as it prepares for more AI and robotics",
+            "why_it_matters": "Tesla's financial growth indicates strong market confidence in its AI and robotics initiatives.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "X is going to let Grok curate your timeline",
+            "why_it_matters": "This feature could change how users interact with social media, enhancing personalization through AI.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to Tesla's FSD announcement among consumers and investors",
-            "Observing user feedback on X's new timeline curation feature",
-            "Tracking the market response to OpenAI's custom bots introduction"
+            "Monitoring reactions to Musk's FSD announcement from Tesla owners and investors.",
+            "Observing user engagement with OpenAI's new custom bots.",
+            "Tracking discussions around AI financial risks in political circles."
           ],
           "next_1_4_weeks": [
-            "Evaluating the impact of Elizabeth Warren's comments on AI regulation discussions",
-            "Watching for updates on Tesla's AI and robotics initiatives",
-            "Following developments in the lawsuit against MrBeast's production company"
+            "Evaluating the impact of AI features on social media platforms like X.",
+            "Watching for updates on Tesla's AI and robotics initiatives.",
+            "Following developments in AI regulation and oversight."
           ],
           "watch_list": [
-            "Tesla's stock performance post-FSD announcement",
-            "User engagement metrics on X with Grok",
-            "OpenAI's adoption rates for custom bots in businesses",
-            "Potential regulatory responses to AI risks"
+            "Tesla's stock performance post-FSD announcement.",
+            "OpenAI's adoption rates for custom bots.",
+            "Legislative actions regarding AI and financial regulations.",
+            "Consumer reactions to AI-driven features in technology."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall technology landscape today.",
-          "Future developments in AI regulation could significantly alter the current market dynamics."
+          "The sentiment score indicates a mixed overall tone in technology news today.",
+          "Future developments in AI and technology are rapidly evolving and may change quickly."
         ],
         "related_topics": [
           "What are the latest updates on Tesla's Full Self-Driving technology?",
-          "How is X using AI to curate user timelines?",
-          "What new features has OpenAI introduced for business users?",
-          "What are the implications of AI on the economy according to Elizabeth Warren?",
-          "What are the details of the lawsuit against MrBeast's production company?"
+          "How is OpenAI enhancing business productivity with custom bots?",
+          "What are the potential financial risks associated with AI technology?",
+          "Latest advancements in AI and robotics from Tesla and Sony.",
+          "What are the implications of AI on social media user experience?"
         ]
       },
-      "tweet_text": "Elon Musk's FSD dreams hit a wall, while AI's potential to crash the economy has Warren sounding the alarm!\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Admits #Again #Ahead #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "AI or reality? The Iranian women Trump 'saved' are a chilling mix of both, sparking a debate on truth...\n\nTechnology Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#8216saved8217 #Admits #Again #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -608,74 +605,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The NFL draft approaches with significant trade buzz, while the Mets continue their losing streak, now at 12 games.",
-        "summary": "Today's sports headlines highlight the anticipation surrounding the NFL draft, including potential trades and player projections. In the NBA, Victor Wembanyama's injury raises concerns for the Spurs, while the 76ers tie their series against the Celtics. The Mets' struggles persist with a 12-game losing streak, and the Phillies' manager remains secure despite a poor start. Additionally, a freak incident involving shattered glass affected the Kings' coach during a playoff game.",
+        "key_takeaway": "The NFL draft approaches with significant trade speculation, while the Mets face a troubling 12-game losing streak and Wembanyama's injury raises concerns for the Spurs.",
+        "summary": "Today's sports headlines highlight the anticipation surrounding the NFL draft, with potential trades and top picks being discussed. In the NBA, Victor Wembanyama's concussion during a playoff game raises concerns, while VJ Edgecombe's standout performance helps the 76ers tie their series against the Celtics. The Mets continue to struggle with a 12-game losing streak, and the Phillies' manager is assured of his position despite a poor start. Additionally, Kentucky's governor criticizes decision-making at the University of Kentucky, and a light-hearted moment arises with Drake's album rollout.",
         "key_themes": [
-          "NFL draft predictions and trades",
+          "NFL draft predictions",
           "NBA playoff updates",
           "Mets losing streak analysis",
-          "Phillies manager job security",
-          "Kentucky athletics decision-making controversy"
+          "Kentucky athletics controversy",
+          "celebrity sports interactions"
         ],
         "notable_headlines": [
           {
             "headline": "Schrager projects all 32 first-round picks: Four huge trades dominate his final NFL mock draft",
-            "why_it_matters": "This mock draft provides insights into potential trades and player selections that could reshape team rosters.",
+            "why_it_matters": "This mock draft could influence team strategies and fan expectations ahead of the NFL draft.",
             "signal": "Opportunity"
           },
           {
             "headline": "Wemby concussed on hard fall in Spurs' G2 loss",
-            "why_it_matters": "Wembanyama's injury could significantly impact the Spurs' playoff chances and raises questions about player safety.",
+            "why_it_matters": "Wembanyama's health is crucial for the Spurs' playoff success and future.",
             "signal": "Risk"
           },
           {
             "headline": "Williams' collapse in 9th brings Mets' slide to 12",
-            "why_it_matters": "The Mets' ongoing losing streak highlights deeper issues within the team and raises concerns about their season outlook.",
+            "why_it_matters": "The Mets' ongoing losing streak raises questions about team performance and management.",
             "signal": "Risk"
           },
           {
-            "headline": "Kings coach hit by shattered glass as panel breaks",
-            "why_it_matters": "This incident underscores the unpredictable nature of sports environments and the potential for player and coach safety risks.",
+            "headline": "Phillies boss: Thomson not on hot seat amid skid",
+            "why_it_matters": "The Phillies' management stance on their coach may impact team morale and performance.",
             "signal": "Unclear"
           },
           {
-            "headline": "Phillies boss: Thomson not on hot seat amid skid",
-            "why_it_matters": "The statement from the Phillies' president indicates confidence in the manager despite the team's struggles, which could affect team morale.",
+            "headline": "Edgecombe makes history with 30-10 to stun C's",
+            "why_it_matters": "Edgecombe's performance could shift momentum in the playoff series against the Celtics.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Final preparations for the NFL draft will dominate headlines as teams finalize their strategies.",
-            "Updates on Wembanyama's health status are expected as the Spurs assess his concussion.",
-            "The Mets will look to break their losing streak in their next game."
+            "NFL draft discussions will intensify as teams finalize their strategies.",
+            "Updates on Wembanyama's health status are expected following his concussion.",
+            "The Mets will look to end their losing streak in their next game."
           ],
           "next_1_4_weeks": [
-            "The NFL draft will take place, potentially reshaping team dynamics and strategies across the league.",
-            "NBA playoff series will continue, with key matchups determining which teams advance.",
-            "The Mets' performance will be closely monitored as they seek to end their losing streak."
+            "The impact of the NFL draft on team rosters will become clearer as trades and picks are finalized.",
+            "The playoff picture in the NBA will evolve as teams compete for advancement.",
+            "The Mets' performance will be closely monitored as they seek to recover from their slump."
           ],
           "watch_list": [
-            "Monitor NFL draft trades and player selections.",
-            "Keep an eye on Wembanyama's recovery and its impact on the Spurs.",
-            "Follow the Mets' attempts to turn around their season.",
-            "Watch for any developments regarding the Phillies' management situation."
+            "Monitor the outcomes of the NFL draft and any significant trades.",
+            "Keep an eye on Wembanyama's recovery and its implications for the Spurs.",
+            "Follow the Mets' attempts to break their losing streak. ",
+            "Watch for any developments regarding Kentucky athletics and the governor's criticisms."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall tone of sports news today, suggesting both positive and negative developments.",
-          "Injuries and performance issues can change rapidly, affecting team strategies and player availability."
+          "The sentiment around the Mets and Phillies may change rapidly based on upcoming games.",
+          "Injuries in sports can have unpredictable effects on team performance."
         ],
         "related_topics": [
           "What are the latest NFL draft predictions?",
-          "How is Victor Wembanyama's injury affecting the Spurs?",
-          "What is causing the Mets' 12-game losing streak?",
-          "Is Phillies manager Rob Thomson in danger of losing his job?",
-          "What are the implications of the Kings' coach injury?"
+          "How is Wembanyama's injury affecting the Spurs?",
+          "What is causing the Mets' losing streak?",
+          "Updates on the NBA playoffs and key performances",
+          "Kentucky athletics decision-making controversies"
         ]
       },
-      "tweet_text": "NFL mock draft chaos as trades shake up the top picks, while Wemby's injury sends shockwaves through the Spurs!\n\nSports Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Picks #Trades #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "NFL draft chaos is here—trades, buzz, and a star's fall make for a wild ride!\n\nSports Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Picks #Trades #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -686,11 +683,18 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0988,
+        "score": 0.1193,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.165, dampened ×0.6 → +0.0988). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.199, dampened ×0.6 → +0.1193). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "This simple fatty acid could restore failing vision",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260422091043.htm",
+          "published": "Wed, 22 Apr 2026 21:06:41 EDT",
+          "summary": "Scientists at UC Irvine have found a way to potentially reverse age-related vision loss by targeting the ELOVL2 “aging gene” and restoring vital fatty acids in the retina. Their experiments in mice show that supplementing with specific polyunsaturated fatty acids—not just DHA—can restore visual function and even reverse cellular aging signs.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Scientists stunned as JWST finds ice clouds on a giant alien planet",
           "url": "https://www.sciencedaily.com/releases/2026/04/260422044618.htm",
@@ -767,84 +771,77 @@
           "published": "Mon, 20 Apr 2026 23:54:47 EDT",
           "summary": "Scientists at UC Riverside have found a clever new way to outsmart termites—by turning their own instincts against them. Using a natural pine scent called pinene, which smells like food to termites, researchers can lure the pests straight toward a targeted dose of insecticide hidden in wood. The result is dramatically higher kill rates—jumping from about 70% to over 95%—without the need for widespread toxic fumigation.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "After 200 years scientists finally crack the “dolomite problem”",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260420015840.htm",
-          "published": "Mon, 20 Apr 2026 02:28:54 EDT",
-          "summary": "After two centuries of failed attempts, scientists have finally grown dolomite in the lab, cracking a long-standing geological puzzle. They discovered that the mineral’s growth stalls because of tiny defects—but in nature, those flaws get washed away over time. By mimicking this process with precise simulations and electron beam pulses, the team achieved record-breaking crystal growth. The finding could reshape how high-tech materials are made.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include new species of pit vipers, unexpected findings from the James Webb Space Telescope, and breakthroughs in material science and ancient DNA analysis.",
-        "summary": "Today's science headlines highlight significant discoveries, including the detection of ice clouds on an exoplanet by the James Webb Space Telescope, the identification of new pit viper species in China and Myanmar, and advancements in understanding states of matter and ancient populations through DNA analysis. Additionally, researchers have made strides in imaging technology and pest control methods, as well as resolving long-standing geological challenges.",
+        "key_takeaway": "Recent scientific discoveries include potential treatments for vision loss, new species identification, and groundbreaking findings in materials science and ancient DNA.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including vision restoration through fatty acids, the discovery of new species of pit vipers, and groundbreaking insights into materials and ancient populations. Notably, researchers have also captured unprecedented natural phenomena, such as electrical discharges from trees during storms and the behavior of atoms under extreme conditions in distant planets.",
         "key_themes": [
-          "exoplanet discoveries",
-          "new species identification",
-          "advancements in material science",
-          "ancient DNA analysis",
-          "pest control innovations"
+          "advancements in vision restoration",
+          "discovery of new species",
+          "materials science breakthroughs",
+          "ancient DNA findings",
+          "natural phenomena observations"
         ],
         "notable_headlines": [
           {
+            "headline": "This simple fatty acid could restore failing vision",
+            "why_it_matters": "This research could lead to new treatments for age-related vision loss, impacting millions.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Scientists stunned as JWST finds ice clouds on a giant alien planet",
-            "why_it_matters": "This discovery challenges existing atmospheric models and enhances our understanding of giant exoplanets.",
+            "why_it_matters": "This discovery challenges existing atmospheric models and enhances our understanding of exoplanets.",
             "signal": "Unclear"
           },
           {
             "headline": "DNA reveals a hidden pitviper species in China",
-            "why_it_matters": "The identification of a new species underscores the potential for undiscovered biodiversity in well-studied regions.",
+            "why_it_matters": "The identification of new species underscores the biodiversity that remains to be discovered.",
             "signal": "Opportunity"
           },
           {
             "headline": "This donut-shaped discovery just shattered a 150-year math rule",
-            "why_it_matters": "The breakthrough in geometry could change mathematicians' understanding of local versus global properties.",
+            "why_it_matters": "This breakthrough could change mathematical understanding of geometry and its applications.",
             "signal": "Opportunity"
           },
           {
             "headline": "Ancient DNA reveals a lost population near Paris replaced by strangers",
-            "why_it_matters": "This finding provides insights into prehistoric societal changes and population dynamics in Europe.",
+            "why_it_matters": "This finding provides insights into prehistoric human migrations and societal changes.",
             "signal": "Risk"
-          },
-          {
-            "headline": "This new camera captures what happens in a trillionth of a second",
-            "why_it_matters": "The imaging technique could revolutionize our understanding of ultrafast phenomena in physics and materials science.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the JWST findings may be released, providing deeper insights into exoplanet atmospheres.",
-            "More details on the newly discovered pit viper species are expected to emerge, potentially revealing ecological impacts.",
-            "Anticipated discussions on the implications of the new imaging technology in various scientific fields."
+            "Further analysis of the vision restoration study is expected to be released.",
+            "Additional findings from the James Webb Space Telescope may be announced soon.",
+            "New species discoveries could lead to more biodiversity studies."
           ],
           "next_1_4_weeks": [
-            "Research papers detailing the implications of the ancient DNA findings will likely be published, contributing to our understanding of human history.",
-            "Continued exploration of the new state of matter in Uranus and Neptune may yield further insights into planetary science.",
-            "Further studies on pest control methods using natural scents may be initiated, aiming for environmentally friendly solutions."
+            "Anticipated publications on the implications of the new state of matter in Uranus and Neptune.",
+            "Continued exploration of ancient DNA findings may reveal more about prehistoric populations.",
+            "Research on the electrical discharges from trees could lead to environmental studies."
           ],
           "watch_list": [
-            "Developments in exoplanet research and atmospheric studies.",
-            "Updates on biodiversity discoveries in Asia.",
-            "Progress in material science related to quantum states and geological puzzles.",
-            "New findings in ancient human populations and their migrations."
+            "Follow-up studies on the fatty acid vision restoration method.",
+            "Monitor developments in exoplanet atmospheric research.",
+            "Keep an eye on new species discoveries in biodiversity hotspots.",
+            "Watch for implications of the new mathematical findings in geometry."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment signal suggests that while some discoveries are promising, others may raise concerns or uncertainties.",
-          "The implications of new species discoveries can vary widely and may not always lead to immediate conservation actions."
+          "The implications of some discoveries are still being evaluated and may change with further research.",
+          "Some findings are based on preliminary data and require additional validation."
         ],
         "related_topics": [
-          "What are the latest discoveries from the James Webb Space Telescope?",
-          "How are new species of pit vipers being identified?",
-          "What breakthroughs have been made in material science recently?",
-          "What does ancient DNA reveal about human history?",
-          "How can natural scents be used for pest control?"
+          "What are the latest advancements in vision restoration?",
+          "Discoveries of new species in 2026",
+          "Recent breakthroughs in materials science",
+          "Ancient DNA findings and their implications",
+          "Natural phenomena captured by scientists"
         ]
       },
-      "tweet_text": "From ice clouds on alien worlds to hidden pitvipers, today's science news is a wild ride through the...\n\nScience Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Species #150year #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From restoring vision to unraveling alien ice clouds, today's science news is a thrilling ride through...\n\nScience Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Species #Scientists #150year #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
