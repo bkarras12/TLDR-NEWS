@@ -1,12 +1,12 @@
 {
   "date": "2026-04-23",
-  "generated_at_utc": "2026-04-23T15:46:34Z",
+  "generated_at_utc": "2026-04-23T23:55:36Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "four",
     "finds",
-    "president"
+    "reveals",
+    "chief"
   ],
   "categories": {
     "world": {
@@ -18,16 +18,30 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2422,
+        "score": -0.2023,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.404, dampened ×0.6 → -0.2422). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.337, dampened ×0.6 → -0.2023). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
           "url": "https://www.bbc.com/news/articles/cx2wdegnzzjo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 23 Apr 2026 15:34:15 GMT",
+          "published": "Thu, 23 Apr 2026 17:36:11 GMT",
           "summary": "In a phone interview with the BBC's North America editor, the president discussed next week's visit and his relationship with the UK PM.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
+          "url": "https://www.bbc.com/news/articles/cgldw5ekrjpo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 23 Apr 2026 20:45:51 GMT",
+          "summary": "Central Command said it has intercepted 33 vessels since imposing a blockade on ships coming to and from Iran.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Huge chunk of glacier blocks Everest route in peak climbing season",
+          "url": "https://www.bbc.com/news/articles/cy81lrnv5peo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 23 Apr 2026 16:52:44 GMT",
+          "summary": "Sherpas cannot prepare the route to the world's highest peak because a huge block of ice is in the way.",
           "source": "BBC News"
         },
         {
@@ -59,9 +73,9 @@
           "source": "BBC News"
         },
         {
-          "title": "South Africa's president suspends police chief after court charges",
+          "title": "South African police chief suspended over $20m health contract",
           "url": "https://www.bbc.com/news/articles/cvglxkjwr5lo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 23 Apr 2026 15:34:07 GMT",
+          "published": "Thu, 23 Apr 2026 16:05:20 GMT",
           "summary": "Cyril Ramaphosa said the suspension was because of the critical role Fannie Masemola plays in fighting crime.",
           "source": "BBC News"
         },
@@ -75,7 +89,7 @@
         {
           "title": "Warner Bros shareholders approve Paramount's $111bn takeover",
           "url": "https://www.bbc.com/news/articles/cgj09ny0dq6o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 23 Apr 2026 14:55:21 GMT",
+          "published": "Thu, 23 Apr 2026 16:15:45 GMT",
           "summary": "The approval came as Donald Trump is to attend a dinner with billionaire Paramount backers the Ellisons.",
           "source": "BBC News"
         },
@@ -92,98 +106,96 @@
           "published": "Thu, 23 Apr 2026 00:39:56 GMT",
           "summary": "The medical examiner said the 14-year-old's cause of death was determined months ago but was blocked from release.",
           "source": "BBC News"
-        },
-        {
-          "title": "Lebanon accuses Israel of targeting journalist killed in air strike",
-          "url": "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 23 Apr 2026 04:25:30 GMT",
-          "summary": "Lebanon's prime minister accused Israel of war crimes after IDF attacks on Red Cross vehicles also stopped rescuers from reaching the site.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trump administration reclassifies cannabis as less dangerous",
-          "url": "https://www.bbc.com/news/articles/cdxd0xxp0jko?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 23 Apr 2026 13:32:04 GMT",
-          "summary": "Medical marijuana was moved into a lower category of drugs in order to increase research and access.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tensions rise globally as Iran faces economic uncertainty, Tanzania grapples with election violence, and Lebanon accuses Israel of war crimes.",
-        "summary": "Today's headlines reflect a mix of geopolitical tensions and domestic issues, including President Trump's comments on UK relations, economic struggles in Iran, and violence in Tanzania's elections. Additionally, a US journalist was acquitted in Kuwait, and South Africa's police chief was suspended amid legal troubles. A tragic train collision in Denmark resulted in multiple injuries, while Lebanon accused Israel of targeting journalists during air strikes.",
+        "key_takeaway": "Tensions rise globally as the US imposes a blockade on Iranian oil, while domestic issues in Iran and Tanzania escalate.",
+        "summary": "Today's headlines highlight escalating geopolitical tensions, particularly involving the US and Iran, alongside significant domestic challenges in Iran and Tanzania, and a tragic accident in Denmark.",
         "key_themes": [
-          "US-UK relations under Trump",
-          "Iran economic crisis",
+          "US-Iran relations",
           "Tanzania election violence",
+          "Everest climbing season challenges",
           "Kuwait journalist acquitted",
-          "South Africa police chief suspension",
-          "Denmark train collision"
+          "South Africa police chief suspension"
         ],
         "notable_headlines": [
           {
             "headline": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
-            "why_it_matters": "This statement highlights ongoing diplomatic efforts between the US and UK amid changing global dynamics.",
+            "why_it_matters": "The president's comments suggest a potential thaw in US-UK relations amidst ongoing global tensions.",
             "signal": "Opportunity"
           },
           {
+            "headline": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
+            "why_it_matters": "This action indicates a significant escalation in US-Iran tensions, impacting global oil markets.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Huge chunk of glacier blocks Everest route in peak climbing season",
+            "why_it_matters": "This natural event poses risks to climbers and impacts tourism in the region during a critical season.",
+            "signal": "Risk"
+          },
+          {
             "headline": "In Tehran, money is short and a return to war looms over daily life",
-            "why_it_matters": "The economic situation in Iran raises concerns about stability and potential conflict in the region.",
+            "why_it_matters": "The economic struggles and uncertainty in Iran highlight the potential for increased instability in the region.",
             "signal": "Risk"
           },
           {
             "headline": "More than 500 people killed in Tanzania election violence, inquiry finds",
-            "why_it_matters": "The violence underscores the fragility of Tanzania's political landscape and the need for accountability.",
+            "why_it_matters": "The report underscores the severity of political violence in Tanzania, raising concerns about governance and stability.",
             "signal": "Risk"
           },
           {
             "headline": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
-            "why_it_matters": "This case reflects the tensions surrounding freedom of expression in the Middle East.",
+            "why_it_matters": "This case reflects ongoing issues of free speech and political expression in the Middle East.",
             "signal": "Unclear"
           },
           {
-            "headline": "South Africa's president suspends police chief after court charges",
-            "why_it_matters": "The suspension indicates serious governance issues within South Africa's law enforcement agencies.",
+            "headline": "US Navy chief leaving post 'effective immediately', Pentagon says",
+            "why_it_matters": "The sudden departure may indicate internal conflicts within the US military leadership.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "South African police chief suspended over $20m health contract",
+            "why_it_matters": "This suspension raises questions about corruption and accountability in South Africa's public sector.",
             "signal": "Risk"
           },
           {
-            "headline": "Lebanon accuses Israel of targeting journalist killed in air strike",
-            "why_it_matters": "This accusation raises international concerns about press freedom and military conduct in conflict zones.",
+            "headline": "Two trains collide head-on in Denmark, leaving five critically hurt",
+            "why_it_matters": "The accident highlights ongoing safety concerns in transportation infrastructure in Europe.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Trump's comments on UK relations during the King's visit.",
-            "Watch for developments in Iran's economic situation and potential protests.",
-            "Follow updates on the inquiry into Tanzania's election violence."
+            "Monitor developments in US-Iran relations following the blockade of Iranian oil shipments.",
+            "Watch for updates on the situation in Tanzania regarding election-related violence.",
+            "Follow news on the impact of the glacier blockage on Everest climbing expeditions."
           ],
           "next_1_4_weeks": [
-            "Anticipate further diplomatic discussions between the US and UK following the King's visit.",
-            "Observe the impact of the journalist's acquittal in Kuwait on freedom of speech in the region.",
-            "Expect ongoing scrutiny of South Africa's police leadership amid legal challenges."
+            "Expect potential diplomatic responses from the UK regarding Trump's comments on relations.",
+            "Anticipate further developments in Iran's economic situation and its implications for regional stability.",
+            "Watch for investigations into the election violence in Tanzania and potential political repercussions."
           ],
           "watch_list": [
-            "US-Kuwait relations",
-            "Iran's economic policies",
-            "Tanzania's political stability",
-            "South Africa's law enforcement reforms",
-            "Lebanon-Israel tensions"
+            "US military leadership changes",
+            "Iran's economic conditions",
+            "Tanzania's political landscape",
+            "Everest climbing season updates",
+            "Kuwait's free speech issues"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the global situation, suggesting uncertainty in various regions.",
-          "Details on the Tanzania election violence inquiry remain unclear, affecting accountability perceptions."
+          "The situation in Iran remains fluid and could change rapidly based on geopolitical developments.",
+          "The outcomes of investigations into election violence in Tanzania may take time to unfold."
         ],
         "related_topics": [
-          "What are the latest developments in US-UK relations?",
-          "How is Iran's economy impacting daily life?",
-          "What caused the election violence in Tanzania?",
-          "What are the implications of the Kuwait journalist's acquittal?",
-          "What is the current situation regarding Lebanon and Israel?"
+          "What are the latest developments in US-Iran relations?",
+          "How is Tanzania addressing election violence?",
+          "What challenges are climbers facing on Everest this season?"
         ]
       },
-      "tweet_text": "From Trump's hopes for UK ties to Tanzania's tragic election fallout, today's world news is a rollercoaster of highs and...\n\nWorld Sentiment: Mixed (-0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Chief #Leaving #111bn #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From glacier blockades on Everest to election violence in Tanzania, today's headlines reveal a world on edge.\n\nWorld Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Chief #Trump #Absolutely #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -194,11 +206,18 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.034,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.057, dampened ×0.6 → +0.0340). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0937,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.156, dampened ×0.6 → +0.0937). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Lockheed Martin CEO sees Trump’s Pentagon as ‘golden opportunity’ for growth",
+          "url": "https://www.theguardian.com/business/2026/apr/23/lockheed-martin-earnings-call-trump-pentagon-opportunity",
+          "published": "Thu, 23 Apr 2026 16:38:53 GMT",
+          "summary": "<p>Jim Taiclet spoke in earnings call as company expands contracts with the US government amid the Iran war</p><p>Lockheed Martin’s CEO has called the Trump administration a “golden opportunity” for the company as it expands its contracting work for the federal government amid the conflict in the Middle East.</p><p>In an earnings call on Thursday covering the first quarter of 2026, Lockheed Martin CEO Jim Taiclet told investors that the company is well positioned “based on more available resourc",
+          "source": "The Guardian"
+        },
         {
           "title": "What would a permanent ‘Tehran’s tollbooth’ on oil mean for the world?",
           "url": "https://www.theguardian.com/world/2026/apr/23/tehran-tollbooth-what-is-iran-demanding-and-what-would-it-mean-for-oil-prices",
@@ -256,13 +275,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Purdue Pharma expected to forfeit $225m as sentence in criminal opioids case",
-          "url": "https://www.theguardian.com/us-news/2026/apr/21/purdue-pharma-settlement-payments-opioids",
-          "published": "Tue, 21 Apr 2026 12:40:18 GMT",
-          "summary": "<p>Under settlement, Sackler family will pay state, local and Native American tribal governments, individual victims and others</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a></",
-          "source": "The Guardian"
-        },
-        {
           "title": "Why Trump’s pick for Fed chair will not bring home the bank for the president",
           "url": "https://www.theguardian.com/business/2026/apr/22/trump-fed-chair-kevin-warsh-interest-rate-cut",
           "published": "Wed, 22 Apr 2026 09:00:52 GMT",
@@ -285,81 +297,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Iran's proposed toll on oil tankers could significantly impact global oil prices amid ongoing geopolitical tensions.",
-        "summary": "Today's business news highlights significant developments including Iran's controversial oil toll proposal, a major merger in the entertainment industry, and legal challenges facing JetBlue and Amazon.",
+        "key_takeaway": "Lockheed Martin's CEO views the Trump administration as a significant growth opportunity amid ongoing government contracts related to the Iran conflict.",
+        "summary": "Today's business news highlights Lockheed Martin's optimistic outlook under the Trump administration, potential implications of Iran's oil tollbooth plan, a major merger in the entertainment industry, and ongoing scrutiny of corporate practices in data usage and workplace safety.",
         "key_themes": [
-          "Iran oil toll implications",
-          "Warner Bros Paramount merger news",
-          "JetBlue lawsuit over data usage",
-          "EU-US tensions over pipeline contracts",
-          "Amazon workplace safety concerns",
-          "Spirit Airlines potential government deal"
+          "government contracts and defense industry",
+          "impact of Iran conflict on oil prices",
+          "mergers and acquisitions in entertainment",
+          "corporate data privacy issues",
+          "workplace safety concerns in large companies"
         ],
         "notable_headlines": [
           {
-            "headline": "What would a permanent ‘Tehran’s tollbooth’ on oil mean for the world?",
-            "why_it_matters": "Iran's plan could raise oil costs globally, affecting economies reliant on oil imports.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Warner Bros Discovery vote to approve $110bn merger with Paramount Skydance",
-            "why_it_matters": "The merger could reshape the media landscape but faces potential legal hurdles.",
+            "headline": "Lockheed Martin CEO sees Trump’s Pentagon as ‘golden opportunity’ for growth",
+            "why_it_matters": "The defense contractor is expanding its government contracts amid geopolitical tensions, indicating a potential boost in revenue.",
             "signal": "Opportunity"
           },
           {
+            "headline": "Warner Bros Discovery vote to approve $110bn merger with Paramount Skydance",
+            "why_it_matters": "This merger could reshape the media landscape, but faces regulatory hurdles that could delay its completion.",
+            "signal": "Risk"
+          },
+          {
             "headline": "JetBlue sued over claims it uses customers’ personal data to set ticket prices",
-            "why_it_matters": "The lawsuit raises concerns about privacy and pricing strategies in the airline industry.",
+            "why_it_matters": "The lawsuit raises significant questions about privacy and data usage in the airline industry, potentially affecting consumer trust.",
             "signal": "Risk"
           },
           {
             "headline": "EU risks fallout with US over Trump-linked Balkans pipeline plan",
-            "why_it_matters": "The EU's intervention could strain transatlantic relations amid ongoing geopolitical tensions.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "‘Get back to work’: Amazon faces fresh scrutiny over workplace safety record",
-            "why_it_matters": "Ongoing safety concerns could impact Amazon's reputation and employee relations.",
+            "why_it_matters": "The EU's intervention in this contract could lead to diplomatic tensions with the US, impacting international relations and energy policy.",
             "signal": "Risk"
           },
           {
             "headline": "White House close to deal of up to $500m to rescue ailing Spirit Airlines",
-            "why_it_matters": "Government intervention could stabilize the airline amid rising operational costs.",
-            "signal": "Opportunity"
+            "why_it_matters": "This potential financial aid highlights the ongoing struggles within the airline industry exacerbated by rising operational costs.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in the US-Iran negotiations regarding oil tolls.",
-            "Awaiting governmental responses to the Warner Bros and Paramount merger approval.",
-            "Following the JetBlue lawsuit for updates on customer data usage."
+            "Monitoring developments in the Warner Bros and Paramount merger approval process.",
+            "Watching for updates on the JetBlue lawsuit regarding data privacy.",
+            "Observing any new statements from Lockheed Martin regarding government contracts."
           ],
           "next_1_4_weeks": [
-            "Observing the impact of the EU's pipeline contract decision on US relations.",
-            "Tracking Amazon's response to workplace safety criticisms and potential reforms.",
-            "Evaluating the outcome of Spirit Airlines' potential government deal."
+            "Anticipating further details on the EU's stance regarding the Balkans pipeline and its implications for US relations.",
+            "Expecting more information on the impact of rising oil prices due to Iran's tollbooth plan.",
+            "Following the progress of the Spirit Airlines financial rescue deal."
           ],
           "watch_list": [
-            "Iran's oil pricing strategy and its global implications.",
-            "Legal developments in the Warner Bros and Paramount merger.",
-            "JetBlue's customer data lawsuit and its ramifications.",
-            "Amazon's workplace safety initiatives and public perception."
+            "Regulatory responses to the Warner Bros and Paramount merger.",
+            "Trends in defense contracting amid geopolitical tensions.",
+            "Corporate governance issues related to data privacy and workplace safety.",
+            "Potential fallout from the EU's actions regarding the Balkans pipeline."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The geopolitical situation in Iran is fluid and could change rapidly.",
-          "Legal outcomes for mergers and lawsuits are often unpredictable.",
-          "Market reactions to these developments may vary significantly."
+          "The geopolitical situation remains fluid, which could rapidly change the business landscape.",
+          "Regulatory approvals for mergers can be unpredictable and subject to political influence.",
+          "Litigation outcomes can take time and may not reflect immediate business impacts."
         ],
         "related_topics": [
-          "What are the implications of Iran's oil toll proposal?",
-          "Latest updates on Warner Bros and Paramount merger",
-          "JetBlue lawsuit details and customer privacy concerns",
-          "EU's stance on US pipeline contracts",
-          "Amazon's workplace safety issues and responses"
+          "What are the implications of the Iran conflict on global oil prices?",
+          "Latest news on Warner Bros and Paramount merger developments.",
+          "How are companies using customer data for pricing strategies?",
+          "What are the current workplace safety issues at Amazon?",
+          "Updates on Spirit Airlines financial rescue efforts."
         ]
       },
-      "tweet_text": "Is a Tehran tollbooth about to shake the oil market? Major moves in business today you can't afford to miss!\n\nBusiness Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#110bn #2020 #500m #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Lockheed’s CEO eyes Trump’s Pentagon as a jackpot, while Amazon faces backlash—business is heating up!\n\nBusiness Sentiment: Mixed (+0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trumps #110bn #2020 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -370,151 +376,151 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1539,
+        "score": -0.1049,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.257, dampened ×0.6 → +0.1539). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg -0.175, dampened ×0.6 → -0.1049). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "25 years later, is it time for a new iPod?",
-          "url": "https://www.theverge.com/column/917369/sleevenote-new-ipod-streaming-bandcamp-music",
-          "published": "2026-04-23T11:30:00-04:00",
-          "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. This year marks the 25th anniversary of the original iPod. With its monochrome display, mechanical scroll wheel, and 5 GB hard drive, Apple's pioneering music player now looks like the [&#8230;]",
+          "title": "US arrests soldier who allegedly made $400k on Maduro Polymarket bets",
+          "url": "https://www.theverge.com/policy/917910/polymarket-maduro-bets-arrest-van-dyke",
+          "published": "2026-04-23T18:49:11-04:00",
+          "summary": "We knew someone made over $400,000 on suspicious Polymarket bets around the US operation to capture Venezuelan president Nicolas Maduro, but now we have a name: Gannon Ken Van Dyke. The US Attorney for the Southern District of New York announced Thursday that Van Dyke is in custody, on several charges, including using confidential government [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Microsoft offers voluntary retirement to long-serving employees",
-          "url": "https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes",
-          "published": "2026-04-23T11:22:20-04:00",
-          "summary": "Microsoft is changing up its annual rewards and performance programs today, and offering long-serving employees in the US the ability to voluntarily retire. It's the first time in Microsoft's more than 50-year history that the company has offered such a voluntary retirement program. \"Many of these employees have spent years, and in some cases, decades, [&#8230;]",
+          "title": "Leak reveals new Xbox Game Pass ‘Starter Edition’ that’s part of Discord Nitro",
+          "url": "https://www.theverge.com/news/917880/xbox-game-pass-starter-edition-discord-nitro-bundle",
+          "published": "2026-04-23T18:36:39-04:00",
+          "summary": "Microsoft started teasing a mysterious Discord and Xbox Game Pass partnership yesterday, and a new leak appears to have detailed exactly what's coming. Discord Previews has uncovered a new Xbox Game Pass \"Starter Edition\" that is bundled with Discord Nitro. The Starter Edition reportedly includes \"access to over 50 games from the Game Pass library,\" [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "DJI’s new Lito Series beginner drones start at less than $400",
-          "url": "https://www.theverge.com/tech/917426/dji-drone-lito-1-x1-amateur-4k-obstacle-avoidance-pricing-availability",
-          "published": "2026-04-23T10:44:05-04:00",
-          "summary": "Following teasers and leaks, DJI has officially announced its new entry-level Lito 1 and Lito X1 drones that both weigh less than 249 grams so they're not subjected to registration requirements in many countries. Neither drone is currently available in the US, but European pricing starts at &#8364;339 (around $397) for the Lito 1, and [&#8230;]",
+          "title": "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
+          "published": "2026-04-23T18:27:11-04:00",
+          "summary": "Claude users can access more apps with Anthropic's AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber, AllTrails, TripAdvisor, Instacart, TurboTax, and others. Some of these apps, such [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Netflix can’t seem to follow up its biggest shows",
-          "url": "https://www.theverge.com/entertainment/917121/stranger-things-tales-from-85-netflix-spinoffs",
-          "published": "2026-04-23T10:30:00-04:00",
-          "summary": "It hasn't been that long since Stranger Things ended, but even still fans are clearly clamoring for more. The finale was overshadowed by a conspiracy about a secret episode, and an otherwise standard behind-the-scenes documentary became a hotbed for theorizing. Of course, given the scale of Stranger Things, Netflix was never going to let the [&#8230;]",
+          "title": "Brendan Carr’s war on wokeness targets inclusive children&#8217;s television",
+          "url": "https://www.theverge.com/entertainment/917810/brendan-carr-fcc-transgender-nonbinary-childrens-programming",
+          "published": "2026-04-23T17:36:46-04:00",
+          "summary": "Under the guidance of consummate bully / chairman Brendan Carr, the FCC is taking steps towards cracking down on children's entertainment that in any way explores the complexities of gender identity. On Wednesday, the FCC's Media Bureau announced that it is soliciting comments from the public about whether the TV ratings system has made sound [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
-          "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
-          "published": "2026-04-23T10:00:00-04:00",
-          "summary": "Today on Decoder, I want to lay out an idea that&#8217;s been banging around my head for weeks now as we&#8217;ve been reporting on AI and having conversations here on this show. I&#8217;ve been calling it software brain, and it&#8217;s a particular way of seeing the world that fits everything into algorithms, databases and loops [&#8230;]",
+          "title": "Sonos’ big sale on refurbished speakers is about to end",
+          "url": "https://www.theverge.com/gadgets/917611/sonos-refurbished-era-beam-move-speaker-deal-sale",
+          "published": "2026-04-23T15:54:04-04:00",
+          "summary": "Portable audio and home theater upgrades can be very pricey, which is why we make a habit out of telling readers when there are good deals happening. With that in mind, here’s a friendly reminder that a heap of refurbished Sonos gear is steeply discounted, and will be until the company’s sale ends April 24th. [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "You’re about to feel the AI money squeeze",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
-          "published": "2026-04-23T09:45:00-04:00",
-          "summary": "Earlier this month, millions of OpenClaw users woke up to a sweeping mandate: The viral AI agent tool, which this year took the worldwide tech industry by storm, had been severely restricted by Anthropic. Anthropic, like other leading AI labs, was under immense pressure to lessen the strain on its systems and start turning a [&#8230;]",
+          "title": "Meta is laying off 10 percent of its staff",
+          "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
+          "published": "2026-04-23T15:41:07-04:00",
+          "summary": "Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. The cuts follow Meta's significant investments [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Tim Cook’s departure is the start of a new era at Apple",
-          "url": "https://www.theverge.com/tech/916585/tim-cook-apple-new-era",
-          "published": "2026-04-23T08:00:00-04:00",
-          "summary": "Apple is about to become a very different company. This September, Apple CEO Tim Cook is stepping down and will be replaced by John Ternus, the current head of hardware. But the shift is bigger than just a CEO transition - it's the most significant move yet into a world where Apple's executive team isn't [&#8230;]",
+          "title": "‘We Are Xbox’: read the memo defining Microsoft’s gaming future",
+          "url": "https://www.theverge.com/news/917689/microsoft-xbox-gaming-future-memo-asha-sharma-matt-booty",
+          "published": "2026-04-23T14:59:12-04:00",
+          "summary": "Microsoft's new Xbox CEO Asha Sharma has laid out a new strategy for what she describes as a \"return of Xbox.\" In a joint memo with Xbox Chief Content Officer Matt Booty, Sharma and Booty lay out their vision for the future of Xbox that will be judged on daily active players and the priorities [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Govee’s new colorful outdoor lights are its first with solar power",
-          "url": "https://www.theverge.com/tech/916707/govee-outdoor-solar-string-lights-battery-rechargeable-pricing-availability",
-          "published": "2026-04-23T08:00:00-04:00",
-          "summary": "Govee announced its first solar-powered lights today. They include a 6W panel with an integrated 4,800mAh battery that can be recharged with a single full day of sunlight (though if the weather's looking a little overcast, you can still charge it over USB-C). The Govee Outdoor Solar String Lights are available now through the company's [&#8230;]",
+          "title": "Microsoft’s new Xbox chief is ‘reevaluating’ exclusive games",
+          "url": "https://www.theverge.com/tech/917657/microsoft-xbox-exclusive-games-windowing-comments-asha-sharma",
+          "published": "2026-04-23T14:51:14-04:00",
+          "summary": "Xbox CEO Asha Sharma held an all-hands meeting this morning and laid out her strategy for a \"return of Xbox\" with employees. While rebranding Microsoft Gaming back to Xbox was part of the agenda, Sharma also revealed that Xbox is looking into \"reevaluating\" Xbox exclusive games and windowed releases of titles. It's a hot topic [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint",
-          "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
-          "published": "2026-04-23T07:34:18-04:00",
-          "summary": "Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as \"vibe working,\" the Agent Mode is a more powerful version of the Copilot experience in Office that Microsoft has been trying to sell to businesses. \"When we first shipped Copilot, foundation models [&#8230;]",
+          "title": "Democrats want to ban ICE from turning warehouses into detention centers",
+          "url": "https://www.theverge.com/policy/917643/ban-warehouse-detention-act-ice-dhs",
+          "published": "2026-04-23T14:35:00-04:00",
+          "summary": "A bill introduced by Rep. Rashida Tlaib (D-MI) would prohibit the Department of Homeland Security from converting warehouses and similar buildings into immigrant detention centers, an attempt to slow President Donald Trump's mass deportations campaign. The Ban Warehouse Detention Act would also forbid Immigration and Customs Enforcement from developing other \"non-traditional\" detention facilities. \"ICE and [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Honor’s new phones look like iPhones for Android",
-          "url": "https://www.theverge.com/gadgets/917301/honors-new-phones-look-like-iphones-for-android",
-          "published": "2026-04-23T04:00:57-04:00",
-          "summary": "Honor has announced the 600 and 600 Pro, which it calls \"accessible flagships,\" and they look… familiar. Especially in that orange. The Pro makes the iPhone comparison especially obvious thanks to its triple rear camera - it even has the same flash layout - while the 600 is just a hair subtler because it drops [&#8230;]",
+          "title": "Spirit is broken",
+          "url": "https://www.theverge.com/transportation/917629/spirit-airlines-bankrupt-bailout-merger-ultra-low-cost",
+          "published": "2026-04-23T14:27:35-04:00",
+          "summary": "The bright yellow livery of Spirit Airlines may soon disappear from the skies. The country's seventh-largest airline has been in financial trouble for years: It hasn't turned a profit since 2019 and filed for bankruptcy twice in the last two years. Despite all that, its leaders predicted that the airline could exit bankruptcy and return [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Microsoft introduces voluntary retirement for long-serving employees, marking a significant change in its corporate policy.",
-        "summary": "Today's technology news highlights significant developments including Microsoft's voluntary retirement offer, the launch of DJI's beginner drones, and Tim Cook's upcoming departure from Apple.",
+        "key_takeaway": "Meta plans to lay off 10% of its workforce amid significant company restructuring, while Microsoft unveils new strategies for Xbox and game exclusivity.",
+        "summary": "Today's technology news features significant developments including Meta's announcement of layoffs affecting 10% of its staff, a new Xbox Game Pass Starter Edition leak, and Anthropic's Claude AI expanding its app connectivity. Additionally, Microsoft is reevaluating its approach to exclusive games under new leadership, while Sonos is offering discounts on refurbished speakers. The overall sentiment remains mixed, reflecting both opportunities and challenges in the tech sector.",
         "key_themes": [
-          "Microsoft corporate changes",
-          "DJI drone launch",
-          "Apple leadership transition",
-          "AI monetization trends",
-          "Netflix content strategy"
+          "Meta layoffs impact",
+          "Xbox Game Pass Starter Edition details",
+          "Claude AI app connectivity expansion",
+          "Sonos refurbished speaker sale",
+          "Microsoft gaming strategy changes"
         ],
         "notable_headlines": [
           {
-            "headline": "Microsoft offers voluntary retirement to long-serving employees",
-            "why_it_matters": "This is a historic move for Microsoft, potentially reshaping its workforce and corporate culture.",
+            "headline": "US arrests soldier who allegedly made $400k on Maduro Polymarket bets",
+            "why_it_matters": "The arrest highlights potential misuse of insider information in betting markets.",
             "signal": "Risk"
           },
           {
-            "headline": "DJI’s new Lito Series beginner drones start at less than $400",
-            "why_it_matters": "The launch of affordable drones could expand the market for amateur drone enthusiasts.",
+            "headline": "Leak reveals new Xbox Game Pass ‘Starter Edition’ that’s part of Discord Nitro",
+            "why_it_matters": "This could enhance Xbox's market reach through integration with popular platforms like Discord.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Tim Cook’s departure is the start of a new era at Apple",
-            "why_it_matters": "The transition in leadership may signal a shift in Apple's strategic direction and innovation focus.",
+            "headline": "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax",
+            "why_it_matters": "This expansion could significantly increase user engagement and utility of AI services.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Meta is laying off 10 percent of its staff",
+            "why_it_matters": "The layoffs indicate a major shift in Meta's operational strategy amid financial pressures.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Microsoft’s new Xbox chief is ‘reevaluating’ exclusive games",
+            "why_it_matters": "This could reshape the competitive landscape of gaming and influence player engagement.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "You’re about to feel the AI money squeeze",
-            "why_it_matters": "The tightening of AI monetization strategies could impact the broader tech industry and its revenue models.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint",
-            "why_it_matters": "This new feature aims to enhance productivity and collaboration within Microsoft Office applications.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Microsoft's retirement offer from employees and analysts.",
-            "Watch for consumer responses to DJI's new drone pricing and features.",
-            "Keep an eye on Apple's strategic announcements following Tim Cook's departure."
+            "Monitor reactions to Meta's layoffs and their impact on company culture.",
+            "Watch for further details on Microsoft's gaming strategy and potential game announcements.",
+            "Keep an eye on consumer response to the new Xbox Game Pass Starter Edition."
           ],
           "next_1_4_weeks": [
-            "Evaluate the impact of AI monetization changes on tech companies' earnings reports.",
-            "Observe how the market responds to the new features in Microsoft Office.",
-            "Track the performance of DJI's new drones in the consumer market."
+            "Evaluate the long-term effects of Meta's workforce reduction on its projects and market position.",
+            "Assess the success of the Sonos sale and its impact on sales figures.",
+            "Observe how the gaming community reacts to Microsoft's reevaluation of exclusives."
           ],
           "watch_list": [
-            "Tim Cook's successor's first moves at Apple.",
-            "Developments in AI monetization strategies.",
-            "Consumer feedback on DJI's Lito Series drones.",
-            "Updates on Netflix's content strategy post-Stranger Things."
+            "Upcoming announcements from Microsoft regarding Xbox games and services.",
+            "Trends in AI app connectivity and user adoption rates for Claude.",
+            "Further developments in Meta's restructuring plans and their implications.",
+            "Sales performance of Sonos refurbished products."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall technology landscape today.",
+          "The mixed sentiment indicates uncertainty in the technology sector, particularly regarding job cuts and strategic shifts.",
           "Future developments may alter the current outlook significantly."
         ],
         "related_topics": [
-          "What are the latest changes at Microsoft",
-          "New technology trends in drones",
-          "Impact of Tim Cook's departure on Apple",
-          "AI monetization strategies in tech",
-          "Netflix's future content plans"
+          "What are the latest developments in Meta's restructuring?",
+          "How is Microsoft changing its gaming strategy?",
+          "What features are included in the new Xbox Game Pass Starter Edition?",
+          "How is Claude AI expanding its capabilities?",
+          "What discounts are available on Sonos refurbished speakers?"
         ]
       },
-      "tweet_text": "Is nostalgia enough to bring back the iPod, or is tech moving on without us?\n\nTechnology Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Start #Apple #Automation #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From a soldier's risky bets on Maduro to Meta's massive layoffs, tech news has never been more...\n\nTechnology Sentiment: Mixed (-0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Xbox #Microsofts #400k #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -525,166 +531,163 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0797,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.133, dampened ×0.6 → -0.0797). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0492,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.082, dampened ×0.6 → -0.0492). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Schrager projects all 32 first-round picks: Four huge trades dominate his final NFL mock draft",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48550650/2026-nfl-mock-draft-peter-schrager-insider-intel-final-first-round-picks-predictions",
-          "published": "Wed, 22 Apr 2026 09:29:15 EST",
-          "summary": "Could teams jump all around Round 1 and shake things up? Will Jeremiyah Love and Sonny Styles go in the top five? Here's what Peter Schrager is hearing and predicting.",
+          "title": "Our NFL draft-day mock: Yates' final predictions for all 32 picks, plus Kiper's notes",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48543956/2026-nfl-mock-draft-final-intel-predictions-yates-kiper-round-1",
+          "published": "Thu, 23 Apr 2026 18:59:09 EST",
+          "summary": "Field Yates projects the first 32 draft picks one last time -- including a trade -- and Mel Kiper Jr. shares what he's hearing heading into Round 1.",
           "source": "ESPN"
         },
         {
-          "title": "NFL draft eve buzz: Everything we're hearing on the top-10 picks, possible trades in Round 1",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48552000/2026-nfl-draft-news-intel-buzz-top-picks-prospects-sleepers-trades",
-          "published": "Wed, 22 Apr 2026 10:24:24 EST",
-          "summary": "Where are the Jets, Cardinals, Titans and Giants leaning with top-five picks? Will the Rams be a wild card?",
+          "title": "NFL draft cheat sheet: The prospects, team needs and sleepers you need to know",
+          "url": "https://www.espn.com/nfl/story/_/id/48503427/2026-nfl-draft-cheat-sheet-top-prospect-sleepers-fits-picks-rankings-stats-mocks",
+          "published": "Thu, 23 Apr 2026 18:59:09 EST",
+          "summary": "Who are the biggest sleepers and top QBs? Who is set to get picked early? Here's the guide to this year's draft.",
           "source": "ESPN"
         },
         {
-          "title": "Wemby concussed on hard fall in Spurs' G2 loss",
-          "url": "https://www.espn.com/nba/story/_/id/48555708/spurs-wembanyama-concussion-protocol-exits-vs-blazers",
-          "published": "Wed, 22 Apr 2026 09:55:44 EST",
-          "summary": "Victor Wembanyama sustained a concussion on a hard fall during the second quarter of the Spurs' Game 2 playoff loss to the Trail Blazers.",
+          "title": "Vrabel: Confident in Pats during draft absence",
+          "url": "https://www.espn.com/nfl/story/_/id/48574310/mike-vrabel-says-confident-patriots-draft-absence",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "Mike Vrabel said he is confident that the Patriots will have a successful draft during his absence Saturday, when he will start seeking counselling after multiple media outlets posted photos of the coach with former Athletic reporter Dianna Russini.",
           "source": "ESPN"
         },
         {
-          "title": "Edgecombe makes history with 30-10 to stun C's",
-          "url": "https://www.espn.com/nba/story/_/id/48555963/vj-edgecombe-tyrese-maxey-star-76ers-tie-first-round-series-vs-celtics",
-          "published": "Wed, 22 Apr 2026 09:55:44 EST",
-          "summary": "VJ Edgecombe had 30 points and 10 rebounds while playing through pain after taking a hard fall on his back early in the game, Tyrese Maxey scored 29 points, and the 76ers beat the Celtics 111-97 to tie their series at one game apiece.",
+          "title": "Sources: Bucks finalizing deal to hire Jenkins",
+          "url": "https://www.espn.com/nba/story/_/id/48572946/bucks-finalizing-deal-hire-taylor-jenkins",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "The Milwaukee Bucks are finalizing a deal to hire Taylor Jenkins as the franchise's new head coach, sources told ESPN on Thursday.",
           "source": "ESPN"
         },
         {
-          "title": "Splitter on Dundon reports: 'Trying to be a pro'",
-          "url": "https://www.espn.com/nba/story/_/id/48556720/blazers-splitter-dundon-reports-trying-pro",
-          "published": "Wed, 22 Apr 2026 09:55:44 EST",
-          "summary": "In response to questions about reported cost-cutting measures by new Trail Blazers owner Tom Dundon, interim coach Tiago Splitter said he is focusing on basketball.",
+          "title": "Source: Cowboys' Pickens to sign franchise tag",
+          "url": "https://www.espn.com/nfl/story/_/id/48573948/source-cowboys-wr-george-pickens-signing-franchise-tag",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "Cowboys wide receiver George Pickens is signing his franchise tender Thursday, a day after the team said it would not be negotiating a long-term contract with him this year, a source told ESPN's Adam Schefter.",
           "source": "ESPN"
         },
         {
-          "title": "Phillies boss: Thomson not on hot seat amid skid",
-          "url": "https://www.espn.com/mlb/story/_/id/48560128/phillies-president-says-manager-rob-thomson-not-hot-seat",
-          "published": "Wed, 22 Apr 2026 09:55:44 EST",
-          "summary": "Dave Dombrowski is concerned about the Phillies' 8-15 start, but he said manager Rob Thomson is not on the hot seat despite the team's seven-game losing streak.",
+          "title": "Lakers' Reaves upgraded to questionable for G3",
+          "url": "https://www.espn.com/nba/story/_/id/48574069/lakers-reaves-rockets-durant-questionable-play-game-3",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "Lakers guard Austin Reaves, who hasn't been sidelined since straining his left oblique April 2, was upgraded to questionable for Game 3, while Rockets star Kevin Durant was listed as questionable because of a sprained left ankle.",
           "source": "ESPN"
         },
         {
-          "title": "Williams' collapse in 9th brings Mets' slide to 12",
-          "url": "https://www.espn.com/mlb/story/_/id/48555783/mets-lose-12th-straight-williams-ninth-inning-collapse",
-          "published": "Wed, 22 Apr 2026 09:55:44 EST",
-          "summary": "The Mets dropped their 12th straight game, this time blowing an early 3-0 lead and allowing the Twins to score two in the ninth in a 5-3 win at Citi Field.",
+          "title": "Another loss: Mets lose Lindor 'for quite a bit'",
+          "url": "https://www.espn.com/mlb/story/_/id/48572962/mets-francisco-lindor-placed-injured-list-calf-strain",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "After ending their 12-game losing streak, the Mets suffered another loss Thursday, with shortstop Francisco Lindor landing on the 10-day IL with a left calf strain.",
           "source": "ESPN"
         },
         {
-          "title": "Kings coach hit by shattered glass as panel breaks",
-          "url": "https://www.espn.com/nhl/story/_/id/48557129/celebrating-fans-cause-glass-panel-shatter-kings-avs",
-          "published": "Wed, 22 Apr 2026 09:55:44 EST",
-          "summary": "Kings interim coach D.J. Smith had shattered glass fall on him after a pane broke behind the Los Angeles bench during Game 2 against Colorado.",
+          "title": "UK AD to forgo retirement gig after pushback",
+          "url": "https://www.espn.com/college-sports/story/_/id/48572037/kentucky-ad-barnhart-forego-1m-retirement-gig-amid-criticism",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "Kentucky athletic director Mitch Barnhart will forgo a $1 million retirement gig that had been widely criticized.",
           "source": "ESPN"
         },
         {
-          "title": "Smart's defense on KD helps Lakers to 2-0 lead",
-          "url": "https://www.espn.com/nba/story/_/id/48558342/marcus-smart-helps-short-handed-lakers-win-game-2-vs-rockets",
-          "published": "Wed, 22 Apr 2026 09:56:10 EST",
-          "summary": "The Rockets had Kevin Durant back for Game 2, but the Lakers had Marcus Smart guard him in their 101-94 win to take a 2-0 series lead.",
+          "title": "WC final tickets listed on FIFA resale at over $2M",
+          "url": "https://www.espn.com/soccer/story/_/id/48572372/world-cup-final-tickets-listed-fifa-resale-2-million",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "FIFA's resale site has four tickets on sale for the World Cup final for just under $2.3 million each.",
           "source": "ESPN"
         },
         {
-          "title": "Kentucky governor blasts decision-making at UK",
-          "url": "https://www.espn.com/college-sports/story/_/id/48553192/kentucky-governor-blasts-uk-athletics-decision-making",
-          "published": "Wed, 22 Apr 2026 09:55:44 EST",
-          "summary": "Kentucky Gov. Andy Beshear has publicly questioned the decision-making at the University of Kentucky, including the seven-figure gig retiring athletic director Mitch Barnhart was recently given.",
+          "title": "Autographed Jordan card sells for record $4.25M",
+          "url": "https://www.espn.com/nba/story/_/id/48573642/autographed-jordan-jersey-card-sells-record-425-million",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "An on-card autographed 1997-98 Upper Deck Game Jersey Michael Jordan card, with a jersey swatch embedded from the 1992 NBA All-Star Game, has sold privately via Goldin Auctions for $4.25 million.",
           "source": "ESPN"
         },
         {
-          "title": "📸 Drake trolls Bears' QB in rollout of new album",
-          "url": "https://www.espn.com/nfl/story/_/id/48554162/drake-iceman-album-caleb-williams-bears-packers-jacket-troll",
-          "published": "Wed, 22 Apr 2026 09:55:44 EST",
-          "summary": "The Canadian rapper posed in front of blocks of ice while wearing a Green Bay Packers jacket during his \"Iceman\" album rollout.",
+          "title": "🏈 Miller's NFL mock draft -- with Fowler's intel",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48542761/2026-nfl-mock-draft-miller-fowler-first-round-32-picks-final-predictions-buzz-intel",
+          "published": "Thu, 23 Apr 2026 19:39:14 EST",
+          "summary": "Matt Miller predicts every first-round pick for this year's NFL draft, and insider Jeremy Fowler shares everything he's hearing on the top prospects.",
           "source": "ESPN"
         },
         {
-          "title": "12 straight ... and counting? The numbers behind the Mets' stunning losing streak",
-          "url": "https://www.espn.com/mlb/story/_/id/48559432/mlb-2026-new-york-mets-12-game-losing-streak-numbers",
-          "published": "Wed, 22 Apr 2026 10:15:02 EST",
-          "summary": "Here's what has gone wrong for New York -- and whether it's already time to say goodbye to October.",
+          "title": "Tracking every single trade in the 2026 NFL draft",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/page/nfldrafttradetracker48440450/2026-nfl-draft-trade-tracker-picks-current-future-players-deals",
+          "published": "Thu, 23 Apr 2026 19:47:23 EST",
+          "summary": "We're following every trade made during the NFL draft, from Round 1 all the way through the end of Round 7.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The NFL draft approaches with significant trade speculation, while the Mets face a troubling 12-game losing streak and Victor Wembanyama is in concussion protocol after a playoff game.",
-        "summary": "Today's sports headlines highlight the anticipation surrounding the NFL draft, with predictions of trades and top picks, alongside concerning developments in the NBA and MLB. Victor Wembanyama's concussion raises concerns for the Spurs, while the Mets' ongoing losing streak continues to draw attention.",
+        "key_takeaway": "The NFL draft approaches with final predictions and insights, while the Bucks prepare to hire a new head coach and the Mets face injury setbacks.",
+        "summary": "As the NFL draft nears, analysts provide their final predictions and insights on team needs and prospects. The Milwaukee Bucks are finalizing a deal to hire Taylor Jenkins as their new head coach. Meanwhile, the New York Mets face another setback with shortstop Francisco Lindor being placed on the injured list due to a calf strain.",
         "key_themes": [
-          "NFL draft predictions and trades",
-          "Victor Wembanyama injury update",
-          "MLB losing streak analysis",
-          "NBA playoff highlights",
-          "Kentucky athletics decision-making controversy"
+          "NFL draft predictions",
+          "Milwaukee Bucks coaching changes",
+          "New York Mets injury updates"
         ],
         "notable_headlines": [
           {
-            "headline": "Schrager projects all 32 first-round picks: Four huge trades dominate his final NFL mock draft",
-            "why_it_matters": "This mock draft could influence team strategies and fan expectations ahead of the NFL draft.",
+            "headline": "Our NFL draft-day mock: Yates' final predictions for all 32 picks, plus Kiper's notes",
+            "why_it_matters": "This mock draft provides insights into potential trades and player selections, crucial for fans and teams alike.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Wemby concussed on hard fall in Spurs' G2 loss",
-            "why_it_matters": "Wembanyama's health is crucial for the Spurs' playoff chances, raising concerns about his availability.",
-            "signal": "Risk"
+            "headline": "NFL draft cheat sheet: The prospects, team needs and sleepers you need to know",
+            "why_it_matters": "This cheat sheet highlights key players and strategies for teams heading into the draft, aiding in preparation.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Williams' collapse in 9th brings Mets' slide to 12",
-            "why_it_matters": "The Mets' extended losing streak raises questions about team performance and management decisions.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Phillies boss: Thomson not on hot seat amid skid",
-            "why_it_matters": "Despite a poor start, the Phillies' management shows confidence in their manager, which may stabilize the team.",
+            "headline": "Vrabel: Confident in Pats during draft absence",
+            "why_it_matters": "Vrabel's confidence suggests the Patriots are well-prepared for the draft despite his absence, impacting team dynamics.",
             "signal": "Unclear"
           },
           {
-            "headline": "Kings coach hit by shattered glass as panel breaks",
-            "why_it_matters": "This incident highlights safety concerns in sports venues, especially during high-stakes playoff games.",
+            "headline": "Sources: Bucks finalizing deal to hire Jenkins",
+            "why_it_matters": "The hiring of a new head coach can significantly influence the Bucks' performance and future strategies.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Another loss: Mets lose Lindor 'for quite a bit'",
+            "why_it_matters": "Lindor's injury adds to the Mets' challenges, affecting their performance and playoff aspirations.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Expect more NFL draft rumors and predictions as teams finalize their strategies.",
-            "Monitor updates on Wembanyama's health and its impact on the Spurs' playoff performance.",
-            "Watch for reactions to the Mets' ongoing struggles and potential management changes."
+            "Final NFL draft preparations and predictions will dominate sports news.",
+            "Coaching announcements may impact team strategies ahead of the playoffs.",
+            "Injury updates for key players in the NBA and MLB will be closely monitored."
           ],
           "next_1_4_weeks": [
-            "The NFL draft will take place, significantly affecting team rosters and strategies.",
-            "The NBA playoffs will continue, with potential injuries impacting team dynamics.",
-            "MLB teams will look to turn around early-season struggles as the season progresses."
+            "The NFL draft will take place, shaping team rosters for the upcoming season.",
+            "NBA playoff outcomes will influence offseason strategies for teams.",
+            "Injuries will continue to affect team performance in MLB."
           ],
           "watch_list": [
-            "NFL draft trade rumors",
-            "Updates on Victor Wembanyama's concussion status",
-            "Mets' performance and management decisions",
-            "Playoff performances of key NBA players",
-            "Safety measures in sports venues"
+            "Monitor the outcomes of the NFL draft and its impact on team dynamics.",
+            "Watch for updates on the Bucks' new coaching direction.",
+            "Keep an eye on injury reports for key MLB and NBA players.",
+            "Follow the resale market for World Cup final tickets."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about today's sports news, suggesting both positive and negative developments.",
-          "Injuries and team performance can change rapidly, affecting future outlooks."
+          "Injuries can change rapidly, affecting team performance and strategies.",
+          "Draft predictions are speculative and may not reflect actual outcomes."
         ],
         "related_topics": [
           "What are the latest NFL draft predictions?",
-          "Updates on Victor Wembanyama's injury status",
-          "Analysis of the Mets' losing streak",
-          "NBA playoff highlights and key performances",
-          "Kentucky athletics decision-making issues"
+          "Updates on NBA coaching changes",
+          "Injury reports for MLB players",
+          "World Cup final ticket prices",
+          "Recent sports memorabilia auction records"
         ]
       },
-      "tweet_text": "Draft day drama ignites as trades shake up the NFL landscape, while Wemby's fall leaves Spurs fans holding their...\n\nSports Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Picks #Trades #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready for the NFL draft drama—who's making the cut and who's playing it smart?\n\nSports Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Absence #Another #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -786,29 +789,24 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include insights into depression, aging, vision restoration, and new species, highlighting advancements in neuroscience, biology, and physics.",
-        "summary": "Today's science headlines reveal significant breakthroughs in understanding depression at the cellular level, the cognitive abilities of SuperAgers, potential treatments for vision loss, and new insights into Earth's geology and ancient species. Additionally, AI has contributed to discovering new physics, while new species of snakes have been identified in China and Myanmar, showcasing the ongoing exploration of biodiversity.",
+        "key_takeaway": "Recent scientific discoveries include insights into depression, aging, vision restoration, and new species, highlighting ongoing advancements in understanding biology and the universe.",
+        "summary": "Today's science headlines feature groundbreaking research on the biological underpinnings of depression, the cognitive abilities of SuperAgers, and innovative approaches to vision restoration. Additionally, new findings in physics reveal hidden forces within the Earth, while discoveries in paleontology and herpetology uncover ancient species and new snake varieties. The James Webb Space Telescope has also identified unexpected ice clouds on an exoplanet, challenging existing atmospheric models. Furthermore, a significant mathematical breakthrough has overturned a long-standing geometric rule.",
         "key_themes": [
-          "breakthroughs in neuroscience",
+          "biological basis of depression",
           "aging and cognitive function",
-          "vision restoration research",
+          "vision restoration techniques",
           "new species discoveries",
-          "AI in physics research"
+          "physics of the fourth state of matter"
         ],
         "notable_headlines": [
           {
             "headline": "For the first time, scientists pinpoint the brain cells behind depression",
-            "why_it_matters": "Identifying specific brain cells linked to depression could lead to better treatments and understanding of the condition.",
+            "why_it_matters": "Identifying specific brain cells linked to depression could lead to better treatments and understanding of the disorder.",
             "signal": "Opportunity"
           },
           {
             "headline": "These 80-year-olds have the memory of 50-year-olds. Scientists now know why",
-            "why_it_matters": "Understanding the biology of SuperAgers may inform strategies to combat cognitive decline in aging populations.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "This simple fatty acid could restore failing vision",
-            "why_it_matters": "Potentially reversing age-related vision loss could have significant implications for aging populations.",
+            "why_it_matters": "Insights into SuperAgers may inform strategies to preserve cognitive function in aging populations.",
             "signal": "Opportunity"
           },
           {
@@ -818,43 +816,49 @@
           },
           {
             "headline": "Scientists discover hidden forces are warping Earth deep beneath the surface",
-            "why_it_matters": "Mapping Earth's mantle deformation enhances our understanding of geological processes and tectonic activity.",
+            "why_it_matters": "Mapping Earth's mantle deformation enhances our understanding of tectonic processes and geological history.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "DNA reveals a hidden pitviper species in China",
+            "why_it_matters": "The discovery of a new snake species underscores the importance of genetic analysis in biodiversity studies.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the brain cells linked to depression may be released.",
-            "More studies on SuperAgers could provide insights into cognitive preservation.",
-            "Research on vision restoration may lead to clinical trials."
+            "Further analysis of the implications of the depression study may emerge.",
+            "Researchers may publish additional findings on SuperAgers and cognitive health.",
+            "Expect more updates on the implications of AI in physics."
           ],
           "next_1_4_weeks": [
-            "New findings on ancient species may be published, expanding our understanding of evolution.",
-            "Continued exploration of AI's applications in physics may yield additional discoveries.",
-            "Further investigations into the geological findings about Earth's mantle may be conducted."
+            "Anticipate discussions on the potential applications of vision restoration techniques in clinical settings.",
+            "Further exploration of the geological findings related to Earth's mantle may be published.",
+            "New species discoveries may prompt conservation efforts in their respective habitats."
           ],
           "watch_list": [
-            "Developments in depression treatment based on new brain cell research.",
-            "Updates on aging research related to SuperAgers.",
-            "Progress in vision restoration therapies using fatty acids.",
-            "New species discoveries in biodiversity research."
+            "Monitor developments in depression research and treatment options.",
+            "Keep an eye on advancements in aging research and cognitive health strategies.",
+            "Watch for updates on the implications of AI in scientific research.",
+            "confidence",
+            "High"
           ],
           "confidence": "High"
         },
         "caveats": [
-          "The implications of the findings on depression are still being explored and may take time to translate into treatments.",
-          "Research on aging and cognitive function is ongoing and complex, with many factors involved.",
-          "Vision restoration techniques are in early experimental stages and require further validation."
+          "The findings on depression and aging are preliminary and require further validation.",
+          "New species discoveries may lead to ongoing debates about classification and conservation.",
+          "The implications of AI in physics are still being explored and understood."
         ],
         "related_topics": [
-          "What are the latest discoveries in neuroscience?",
+          "What are the latest discoveries in depression research?",
           "How do SuperAgers maintain cognitive function?",
           "What advancements are being made in vision restoration?",
           "What new species have been discovered recently?",
-          "How is AI impacting physics research?"
+          "How is AI impacting scientific research?"
         ]
       },
-      "tweet_text": "Revolutionary discoveries unveil the secrets of the brain, vision, and even ancient...\n\nScience Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #289millionyearold #50yearolds #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlocking the secrets of the brain, vision, and even ancient creatures—today's science...\n\nScience Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #289millionyearold #50yearolds #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
