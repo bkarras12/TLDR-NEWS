@@ -1,6 +1,6 @@
 {
   "date": "2026-04-26",
-  "generated_at_utc": "2026-04-26T14:38:38Z",
+  "generated_at_utc": "2026-04-26T23:51:21Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -16,11 +16,18 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3473,
+        "score": -0.398,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.579, dampened ×0.6 → -0.3473). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.663, dampened ×0.6 → -0.3980). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
+          "url": "https://www.bbc.com/news/articles/c2d8dg57rzdo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 26 Apr 2026 22:43:36 GMT",
+          "summary": "The suspect is expected to be charged with assault of a federal officer and using a firearm during a crime of violence, officials have said.",
+          "source": "BBC News"
+        },
         {
           "title": "I was in the room with Trump and heard the low thudding sound of gunfire",
           "url": "https://www.bbc.com/news/articles/c62j23wzeqeo?at_medium=RSS&at_campaign=rss",
@@ -36,17 +43,17 @@
           "source": "BBC News"
         },
         {
+          "title": "Mali defence minister killed as country hit by wave of rebel attacks",
+          "url": "https://www.bbc.com/news/articles/c5yvy7v66ndo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 26 Apr 2026 20:56:26 GMT",
+          "summary": "A wave of coordinated attacks by jihadist militants and separatists has spread through the country.",
+          "source": "BBC News"
+        },
+        {
           "title": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
           "url": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 26 Apr 2026 00:34:21 GMT",
           "summary": "The Israeli PM's directive comes as six people were killed by strikes in Lebanon despite a ceasefire being extended by three weeks.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Armed groups launch coordinated attacks across Mali",
-          "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 26 Apr 2026 08:56:02 GMT",
-          "summary": "Witnesses report clashes in the centre and north, in what has been described as the largest jihadist attack in years.",
           "source": "BBC News"
         },
         {
@@ -97,84 +104,78 @@
           "published": "Fri, 24 Apr 2026 23:28:09 GMT",
           "summary": "The flood warning system at Imja glacial lake has not been maintained since 2016, fearful locals tell BBC.",
           "source": "BBC News"
-        },
-        {
-          "title": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
-          "url": "https://www.bbc.com/news/articles/c4gjkj7975po?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 25 Apr 2026 01:18:33 GMT",
-          "summary": "The boss of the controversial tech company with UK government contracts published a 22-point plan on the future of the West.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Escalating violence in the Middle East and Africa highlights ongoing geopolitical tensions, while political shifts in Hungary and Venezuela signal significant changes in governance.",
-        "summary": "Today's headlines reflect a series of violent incidents and political developments worldwide, including intensified military actions in Lebanon and Ukraine, political changes in Hungary and Venezuela, and local elections in Palestinian territories. The situation in Mali has escalated with coordinated attacks by armed groups, raising concerns about security in the region. Additionally, the U.S. diplomatic efforts regarding Iran have faced setbacks, and the tragic deaths of U.S. agents in Mexico have sparked controversy over operational permissions.",
+        "key_takeaway": "A series of violent incidents and political upheavals mark today's global news, including a shooting incident involving Trump and escalating conflicts in Mali and Ukraine.",
+        "summary": "Today's headlines reflect a troubling global landscape, with violence impacting political figures and civilians alike. A shooting incident at a press dinner involving former President Trump has raised security concerns, while Mali faces a surge in rebel attacks leading to the death of its defense minister. In the Middle East, tensions escalate as Israeli Prime Minister Netanyahu orders military action against Hezbollah, and a major Russian attack on Ukraine results in civilian casualties. Additionally, political shifts are evident in Hungary with the resignation of Prime Minister Orbán, and Venezuela's prisoner release scheme faces criticism as many remain incarcerated. The situation in Mexico regarding the deaths of US agents adds another layer of complexity to international relations.",
         "key_themes": [
-          "Middle East conflict updates",
-          "political changes in Hungary",
+          "Violence against political figures",
+          "Mali rebel attacks",
+          "Israel-Hezbollah conflict",
           "Venezuela political prisoners",
-          "Mali jihadist attacks",
-          "Palestinian local elections"
+          "Hungary political changes",
+          "US-Mexico relations"
         ],
         "notable_headlines": [
           {
+            "headline": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
+            "why_it_matters": "This incident raises significant concerns about security for public figures and the implications for political discourse.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Mali defence minister killed as country hit by wave of rebel attacks",
+            "why_it_matters": "The assassination of a high-ranking official highlights the deteriorating security situation in Mali and the broader Sahel region.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-            "why_it_matters": "This directive indicates a significant escalation in the Israeli-Lebanese conflict, potentially destabilizing the region further.",
+            "why_it_matters": "This directive indicates a potential escalation in the ongoing conflict between Israel and Hezbollah, impacting regional stability.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Armed groups launch coordinated attacks across Mali",
-            "why_it_matters": "The scale of these attacks marks a concerning trend in jihadist violence, threatening civilian safety and regional stability.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
-            "why_it_matters": "This cancellation reflects the complexities of U.S.-Iran relations and the challenges in diplomatic negotiations.",
-            "signal": "Unclear"
           },
           {
             "headline": "Seven dead in major Russian attack on Ukraine",
-            "why_it_matters": "The ongoing violence in Ukraine continues to claim civilian lives, highlighting the persistent humanitarian crisis.",
+            "why_it_matters": "The attack underscores the ongoing violence in Ukraine and the humanitarian crisis resulting from the conflict.",
             "signal": "Risk"
           },
           {
             "headline": "Orbán steps down from Hungarian parliament after landslide defeat",
-            "why_it_matters": "This political shift could lead to changes in Hungary's domestic and foreign policies, impacting EU relations.",
+            "why_it_matters": "This political shift may alter Hungary's domestic and foreign policy direction, affecting EU relations.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Israeli-Lebanese conflict for potential escalations.",
-            "Watch for responses from the U.S. regarding the canceled diplomatic talks with Pakistan.",
-            "Keep an eye on the situation in Mali as security forces respond to recent attacks."
+            "Monitor developments in the investigation of the shooting incident involving Trump.",
+            "Watch for updates on the situation in Mali as rebel attacks continue.",
+            "Observe Israeli military actions against Hezbollah and potential responses from Lebanon."
           ],
           "next_1_4_weeks": [
             "Expect further political ramifications in Hungary following Orbán's resignation.",
-            "Anticipate international reactions to the ongoing violence in Ukraine and the Middle East.",
-            "Observe the impact of local elections in Palestinian territories on governance and stability."
+            "Anticipate ongoing discussions regarding US-Mexico relations after the incident involving US agents.",
+            "Follow the situation in Ukraine as military actions may escalate."
           ],
           "watch_list": [
-            "Potential ceasefire negotiations in Lebanon and Israel.",
-            "Updates on the humanitarian situation in Ukraine and Mali.",
+            "Security measures for public events involving political figures.",
+            "Humanitarian response to the crisis in Mali and Ukraine.",
             "Political developments in Venezuela regarding prisoner releases.",
-            "Responses from the U.S. government regarding operational protocols in Mexico."
+            "Impact of Netanyahu's military orders on regional stability."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in conflict zones can change rapidly, affecting the accuracy of predictions.",
-          "Political developments may lead to unforeseen consequences that are difficult to anticipate. "
+          "The situation in Mali and Ukraine is fluid and may change rapidly.",
+          "Political outcomes in Hungary and Venezuela are uncertain and depend on various factors."
         ],
         "related_topics": [
-          "What are the latest developments in the Israeli-Lebanese conflict?",
-          "Updates on political changes in Hungary and Venezuela.",
-          "What is happening with armed groups in Mali?",
-          "Palestinian local elections results and implications.",
-          "Recent attacks in Ukraine and their impact on the conflict."
+          "What are the latest developments in the Trump shooting incident?",
+          "How is the conflict in Mali affecting the government?",
+          "What is the current situation between Israel and Hezbollah?",
+          "Updates on the Ukraine-Russia conflict",
+          "Political changes in Hungary and their implications."
         ]
       },
-      "tweet_text": "Gunfire echoes as Trump pulls the plug on Pakistan talks, while chaos erupts across the globe—what's next?\n\nWorld Sentiment: Negative (-0.35)\n\nRead the full breakdown: https://tldrnews.info\n\n#Groups #Trump #Across #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Chaos erupts as Trump faces threats and global tensions rise with deadly attacks and military orders—what's next?\n\nWorld Sentiment: Negative (-0.40)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Killed #Agents #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -277,11 +278,11 @@
       ],
       "ai_report": {
         "key_takeaway": "Lori Chavez-DeRemer resigned as Labor Secretary amid controversies, while Gen Z increasingly turns to entrepreneurship in a challenging job market.",
-        "summary": "Today's business news highlights significant developments including the resignation of Labor Secretary Lori Chavez-DeRemer amid controversies, a rise in Gen Z entrepreneurship due to AI disruptions, and the dropping of a criminal investigation against Jerome Powell, facilitating the confirmation of his successor. Additionally, California faces a jet fuel supply crisis, and gambling addiction is raising alarms as the market expands. Lockheed Martin's CEO sees growth opportunities under the Trump administration, while a major merger in the entertainment industry awaits regulatory approval.",
+        "summary": "Today's business news highlights significant developments including the resignation of Labor Secretary Lori Chavez-DeRemer, the rise of Gen Z entrepreneurship in response to AI and job market challenges, and the dropping of a criminal investigation against Jerome Powell by the US Justice Department. Additionally, California faces a jet fuel supply crisis, and gambling addiction is raising concerns as the betting market expands. Lockheed Martin's CEO sees growth opportunities under the Trump administration, while a merger between Warner Bros Discovery and Paramount Skydance is on the horizon, pending regulatory approval.",
         "key_themes": [
           "Labor Secretary resignation implications",
           "Gen Z entrepreneurship trends",
-          "Federal Reserve leadership changes",
+          "US Justice Department investigation updates",
           "California jet fuel supply issues",
           "Gambling addiction crisis in the US",
           "Lockheed Martin growth opportunities"
@@ -289,67 +290,67 @@
         "notable_headlines": [
           {
             "headline": "Staff decry ‘constant turbulence’ under Trump’s labor secretary, as she blames ‘deep state’ in resignation",
-            "why_it_matters": "Chavez-DeRemer's resignation reflects ongoing turmoil within the Department of Labor, impacting labor policy and governance.",
+            "why_it_matters": "Chavez-DeRemer's resignation reflects ongoing instability within the Department of Labor and raises questions about future leadership.",
             "signal": "Risk"
           },
           {
             "headline": "Facing AI and a tough job market, gen Z turns to entrepreneurship: ‘I have to prove myself’",
-            "why_it_matters": "The shift towards entrepreneurship among Gen Z indicates changing workforce dynamics and the impact of AI on job availability.",
+            "why_it_matters": "The shift towards entrepreneurship among Gen Z highlights changing workforce dynamics and the impact of technology on job availability.",
             "signal": "Opportunity"
           },
           {
             "headline": "US justice department drops criminal investigation against Jerome Powell",
-            "why_it_matters": "This decision clears the path for Kevin Warsh's confirmation as the new Federal Reserve chair, influencing monetary policy direction.",
-            "signal": "Opportunity"
+            "why_it_matters": "This decision clears a path for Kevin Warsh's confirmation as the new Federal Reserve chair, impacting monetary policy direction.",
+            "signal": "Unclear"
           },
           {
             "headline": "California’s jet fuel supply drops to three-year low as Middle East turmoil squeezes global oil market",
-            "why_it_matters": "The decline in jet fuel supply could disrupt travel plans and increase flight costs, affecting the aviation industry.",
+            "why_it_matters": "A significant drop in jet fuel supply could disrupt travel plans and increase operational costs for airlines.",
             "signal": "Risk"
           },
           {
             "headline": "US gambling addiction is ‘out of control’ as betting markets boom, policy expert warns",
-            "why_it_matters": "The warning about gambling addiction highlights the need for regulatory measures in a rapidly expanding market.",
+            "why_it_matters": "The rapid growth of gambling markets raises urgent public health concerns and calls for regulatory action.",
             "signal": "Risk"
           },
           {
             "headline": "Lockheed Martin CEO sees Trump’s Pentagon as ‘golden opportunity’ for growth",
-            "why_it_matters": "Lockheed Martin's expansion under the current administration suggests increased defense spending and opportunities for contractors.",
+            "why_it_matters": "The CEO's comments indicate potential for increased defense spending and contracts amid geopolitical tensions.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Labor Secretary resignation and its impact on labor policies.",
-            "Watch for developments in Gen Z entrepreneurship and related funding opportunities.",
-            "Keep an eye on California's jet fuel supply situation and its effects on travel."
+            "Monitoring the implications of Chavez-DeRemer's resignation on labor policies",
+            "Observing Gen Z entrepreneurship trends and their impact on the job market",
+            "Following developments in the California jet fuel supply situation"
           ],
           "next_1_4_weeks": [
-            "Observe the confirmation process for Kevin Warsh as Federal Reserve chair and its implications for monetary policy.",
-            "Track the regulatory landscape for gambling and its potential reforms.",
-            "Follow the progress of the Warner Bros and Paramount merger and any legal challenges."
+            "Anticipating regulatory responses to the Warner Bros Discovery and Paramount merger",
+            "Watching for potential policy changes in response to gambling addiction concerns",
+            "Evaluating the impact of Jerome Powell's cleared investigation on Federal Reserve operations"
           ],
           "watch_list": [
-            "Potential impacts of the jet fuel supply crisis on airline operations.",
-            "Trends in Gen Z entrepreneurship and startup funding.",
-            "Regulatory changes in the gambling industry.",
-            "Updates on the Federal Reserve's monetary policy direction under new leadership."
+            "Updates on the new Labor Secretary's policies",
+            "Trends in Gen Z entrepreneurship",
+            "California's fuel supply and pricing developments",
+            "Regulatory actions regarding gambling addiction"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation regarding the jet fuel supply is fluid and may change rapidly based on geopolitical developments.",
-          "The impact of the resignation of the Labor Secretary on labor policies is uncertain and may take time to materialize. "
+          "The sentiment score is neutral, indicating mixed feelings about the news.",
+          "Future developments may alter the current outlook significantly."
         ],
         "related_topics": [
           "What are the implications of Lori Chavez-DeRemer's resignation?",
-          "How is Gen Z adapting to the job market?",
+          "How is Gen Z responding to the job market challenges?",
           "What is the current state of California's jet fuel supply?",
           "What are the latest trends in gambling regulation?",
-          "What to expect from the new Federal Reserve chair Kevin Warsh?"
+          "What does Jerome Powell's cleared investigation mean for the Federal Reserve?"
         ]
       },
-      "tweet_text": "Chaos in the workplace, a new wave of young entrepreneurs, and a gambling crisis—today's business...\n\nBusiness Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Drops #Market #Trumps #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From tumultuous leadership shifts to Gen Z entrepreneurs rising—today's business news is a rollercoaster...\n\nBusiness Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Drops #Market #Trumps #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -360,11 +361,32 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.099,
+        "score": 0.1303,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.165, dampened ×0.6 → +0.0990). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.217, dampened ×0.6 → +0.1303). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Google’s new gradient icon design is coming to more apps",
+          "url": "https://www.theverge.com/tech/918852/googles-new-gradient-icon-design-is-coming-to-more-apps",
+          "published": "2026-04-26T14:34:26-04:00",
+          "summary": "In late 2025, Google started rolling out new icons with a gradient design. Now it seems the new look is coming to the rest of Google's apps. 9to5Google got its hands on images of the new icons that ditch the uniform circle design that tries to cram in every color of the Google logo. In [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Trump turns the WHCD shooting into a pitch for the White House ballroom",
+          "url": "https://www.theverge.com/policy/918843/trump-whcd-attack-white-house-ballroom",
+          "published": "2026-04-26T12:18:02-04:00",
+          "summary": "Within hours of an armed gunman's attempt to enter the White House Correspondents Dinner, attended by top administration officials and hundreds of journalists, President Donald Trump did what he does best: use the assassination attempt to defend his ballroom project. During a White House press conference just hours after he and several cabinet members were [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Tomora’s Come Closer is an ecstatic love letter to 90s dance music",
+          "url": "https://www.theverge.com/entertainment/918826/tomora-come-closer-review-90s-dance-music",
+          "published": "2026-04-26T12:00:00-04:00",
+          "summary": "Before Coachella, Tomora wasn't on my radar at all. It's actually only by chance that I stumbled upon them - I opened the wrong stream because my TV was lagging like a MFer. I paused for a few moments, entranced by the two ethereal Nordic women banging on giant drums to a techno beat. I [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Skylight’s 15-inch smart calendar is down to its lowest price to date",
           "url": "https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale",
@@ -413,98 +435,75 @@
           "published": "2026-04-25T11:00:00-04:00",
           "summary": "I’ve been testing compact, magnetic Qi2 power banks that can snap onto your phone for an upcoming buying guide. They make recharging much easier than bringing along a huge battery that weighs down your bag. One of my favorites so far is the Sharge Icemag 3, a 10,000mAh model that can wirelessly output 25W to [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "The Govee smart lamp brightened up my room, and then my life",
-          "url": "https://www.theverge.com/gadgets/913854/govee-uplighter-floor-lamps-caregiving-parkinsons-disease",
-          "published": "2026-04-25T09:30:00-04:00",
-          "summary": "I knew things were not quite right when I had to throw a towel over a broken Ikea lamp to block out its light. How did I get here? I cover fancy and capable tech for a living, and yet, it took me two years to get rid of a pair of old, broken Ikea [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Xbox’s weirdest studio is on a roll",
-          "url": "https://www.theverge.com/games/918200/kiln-review-double-fine-xbox-ps5-steam",
-          "published": "2026-04-25T09:00:00-04:00",
-          "summary": "For a while there, it seemed like Double Fine might be struggling under the Microsoft corporate umbrella. The game studio led by Tim Schafer is beloved for offbeat titles like Br&#252;tal Legend and Broken Age, but after being acquired by Microsoft in 2019, its only new release for years was a long-awaited sequel to Psychonauts. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Sho Miyake answers life’s greatest questions",
-          "url": "https://www.theverge.com/entertainment/918313/director-sho-miyake-interview",
-          "published": "2026-04-25T08:00:00-04:00",
-          "summary": "Acclaimed Japanese director Sho Miyake has arrived in the States. He's brought with him two feature films: Small, Slow But Steady and Two Seasons, Two Strangers, a pair of naturalistic portraits that deal with the uneasy human desire to relate to other people. Seclusion and unease are bedrocks to Miyake's growing filmography. \"I like these [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The technology sector is seeing significant developments, including price drops on smart devices and a shift in consumer preferences towards Linux and electric vehicles.",
-        "summary": "Today's technology news highlights a variety of topics, from price reductions on smart gadgets like the Skylight Calendar and Sharge's MagSafe battery, to a personal account of transitioning from Windows to Linux. Additionally, the electric vehicle market is poised for a price drop due to an influx of used models, while researchers report a decline in verbal communication. Other notable stories include the dismissal of the National Science Board and the success of Xbox's Double Fine studio.",
+        "key_takeaway": "Google is expanding its new gradient icon design to more apps, while the electric vehicle market anticipates a significant drop in prices due to an influx of used vehicles.",
+        "summary": "Today's technology news highlights Google's rollout of a new gradient icon design across its apps, the potential for lower electric vehicle prices due to an increase in used EVs, and personal experiences with Linux as a primary operating system. Additionally, a smart calendar is on sale, and researchers report a decline in verbal communication among people.",
         "key_themes": [
-          "smart device price reductions",
-          "Linux vs Windows user experiences",
-          "electric vehicle market trends",
-          "communication trends post-pandemic",
-          "gaming industry updates"
+          "Google app updates",
+          "Electric vehicle market trends",
+          "Linux user experiences",
+          "Smart home technology deals",
+          "Communication research findings"
         ],
         "notable_headlines": [
           {
-            "headline": "Skylight’s 15-inch smart calendar is down to its lowest price to date",
-            "why_it_matters": "The price drop on the Skylight Calendar 2 makes it more accessible for consumers looking for organizational tools.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "After three months on Linux, I don’t miss Windows at all",
-            "why_it_matters": "This personal account reflects a growing trend of users exploring alternatives to traditional operating systems.",
+            "headline": "Google’s new gradient icon design is coming to more apps",
+            "why_it_matters": "This update reflects Google's ongoing efforts to modernize its app interface and enhance user experience.",
             "signal": "Opportunity"
           },
           {
             "headline": "An influx of used EVs could drive down prices",
-            "why_it_matters": "The anticipated increase in used electric vehicles may make EVs more affordable, impacting consumer adoption rates.",
+            "why_it_matters": "The anticipated increase in used electric vehicles may make EVs more accessible to a broader audience.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Trump fires the entire National Science Board",
-            "why_it_matters": "This dismissal could affect the direction of scientific funding and research in the U.S.",
-            "signal": "Risk"
+            "headline": "After three months on Linux, I don’t miss Windows at all",
+            "why_it_matters": "This personal account may influence others considering a switch to Linux, highlighting its viability as an alternative OS.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Skylight’s 15-inch smart calendar is down to its lowest price to date",
+            "why_it_matters": "The sale on this smart calendar could attract consumers looking for organizational tools as Mother's Day approaches.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Researchers say we’re talking less than ever",
-            "why_it_matters": "The decline in verbal communication may have implications for social interactions and mental health.",
-            "signal": "Unclear"
+            "why_it_matters": "This finding raises concerns about communication trends in society, especially post-pandemic.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor consumer reactions to the price drops on smart devices.",
-            "Watch for updates on the impact of the National Science Board dismissal.",
-            "Observe trends in electric vehicle sales as used models enter the market."
+            "Monitor reactions to Google's icon design changes from users and developers.",
+            "Watch for updates on electric vehicle pricing trends as more used cars enter the market.",
+            "Follow discussions on communication trends and their implications for social interaction."
           ],
           "next_1_4_weeks": [
-            "Expect more reviews and user experiences regarding Linux as an alternative OS.",
-            "Follow developments in the gaming industry, particularly from Double Fine and Xbox.",
-            "Track ongoing research on communication trends post-pandemic."
+            "Expect more announcements from tech companies regarding user interface updates and features.",
+            "Keep an eye on the electric vehicle market for pricing adjustments and consumer responses.",
+            "Look for reviews and discussions around Linux as more users share their experiences."
           ],
           "watch_list": [
-            "Price trends for smart gadgets and EVs.",
-            "User adoption rates of Linux and alternative operating systems.",
-            "Impact of political decisions on scientific research funding.",
-            "New game releases from Double Fine."
+            "Google app updates",
+            "Electric vehicle pricing trends",
+            "Linux adoption stories",
+            "Smart home technology innovations"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings in the technology sector, suggesting caution in interpreting the news.",
-          "Future trends may be influenced by external factors such as economic conditions or policy changes."
+          "The sentiment score is mixed, indicating varied reactions to the news.",
+          "Future predictions are subject to change based on market dynamics and consumer behavior."
         ],
         "related_topics": [
-          "What are the latest smart device deals?",
-          "How is Linux gaining popularity among users?",
-          "What is the future of electric vehicle pricing?",
-          "How has communication changed in recent years?",
-          "Updates on the gaming industry and Xbox studios."
+          "What are the latest updates on Google app designs?",
+          "How will the influx of used EVs affect car prices?",
+          "What are the benefits of switching to Linux from Windows?"
         ]
       },
-      "tweet_text": "Skylight's 15-inch smart calendar hits a record low—perfect time to upgrade your organization game!\n\nTechnology Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Down #Smart #15inch #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Google's redesign is here, but can it outshine the chaos of the White House Correspondents’ Dinner?\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Down #Trump #15inch #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -606,14 +605,14 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The NFL draft concluded with notable performances from teams like the Cowboys and Jets, while Anthony Edwards faces a significant injury setback.",
-        "summary": "Today's sports news highlights the aftermath of the NFL draft, including team evaluations and overreactions, alongside significant player injuries and historic athletic achievements. Noteworthy events include Sabastian Sawe's marathon record and the Red Sox's coaching changes.",
+        "key_takeaway": "The 2026 NFL draft concluded with notable performances from teams like the Cowboys and Jets, while Anthony Edwards faces a significant injury setback.",
+        "summary": "Today's sports news highlights include evaluations of the NFL draft, significant injuries in the NBA, a historic marathon achievement, and coaching changes in MLB. The NFL draft saw teams like the Cowboys and Jets receiving high grades, while the Cardinals and Rams faced scrutiny over their picks. In the NBA, Timberwolves star Anthony Edwards is expected to miss multiple weeks due to a knee injury. Sabastian Sawe made history by running a marathon in under two hours. The Red Sox have fired manager Alex Cora amid a poor start to the season, and Bernd Wiesberger secured his first Euro title since leaving LIV Golf.",
         "key_themes": [
-          "NFL draft analysis and grades",
-          "Anthony Edwards injury update",
+          "NFL draft analysis",
+          "NBA injury updates",
           "historic marathon achievements",
-          "NHL playoff highlights",
-          "MLB coaching changes"
+          "MLB coaching changes",
+          "NHL playoff highlights"
         ],
         "notable_headlines": [
           {
@@ -623,57 +622,57 @@
           },
           {
             "headline": "Sources: Ant avoids ligament tear, to miss time",
-            "why_it_matters": "Anthony Edwards' injury could impact the Timberwolves' playoff performance.",
+            "why_it_matters": "Anthony Edwards' injury could impact the Timberwolves' playoff chances.",
             "signal": "Risk"
           },
           {
             "headline": "Sawe makes history, sets fabled marathon mark",
-            "why_it_matters": "Sawe's achievement marks a significant milestone in marathon running.",
+            "why_it_matters": "Sawe's record-breaking marathon run marks a significant milestone in athletics.",
             "signal": "Opportunity"
           },
           {
             "headline": "Red Sox fire Cora amid coaching staff shake-up",
-            "why_it_matters": "The Red Sox's decision reflects their struggles early in the season and aims for improvement.",
+            "why_it_matters": "The Red Sox's decision reflects their struggle early in the season and aims for improvement.",
             "signal": "Risk"
           },
           {
             "headline": "Crosby, 'our leader,' keeps Pens alive in Game 4",
-            "why_it_matters": "Crosby's performance is crucial for the Penguins' playoff hopes.",
+            "why_it_matters": "Crosby's performance is crucial for the Penguins' playoff survival.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of NFL draft impacts on teams",
+            "Further analysis of NFL draft impacts on team strategies",
             "Updates on Anthony Edwards' recovery timeline",
-            "Reactions to Sawe's marathon record"
+            "Reactions to coaching changes in MLB"
           ],
           "next_1_4_weeks": [
-            "Monitoring the performance of newly drafted NFL players",
-            "Tracking the progress of the Timberwolves in the playoffs",
-            "Evaluating the Red Sox's response to coaching changes"
+            "Monitoring the performance of teams post-NFL draft",
+            "Tracking NBA playoff outcomes and player injuries",
+            "Following the implications of MLB coaching changes"
           ],
           "watch_list": [
-            "NFL draft winners and losers",
-            "NBA playoff updates and player injuries",
-            "Major League Baseball coaching changes and impacts on teams",
-            "Marathon records and athletic achievements"
+            "Upcoming NBA playoff games",
+            "Next major marathon events",
+            "Performance of newly drafted NFL players",
+            "MLB team standings after coaching changes"
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "Injuries can have unpredictable impacts on team performance.",
-          "Draft evaluations are subjective and may change as the season progresses."
+          "Draft evaluations are subjective and may change over time."
         ],
         "related_topics": [
           "What are the NFL draft grades for 2026?",
-          "How will Anthony Edwards' injury affect the Timberwolves?",
-          "What are the latest updates on the NHL playoffs?",
-          "Who won the London Marathon this year?",
-          "What coaching changes are happening in MLB?"
+          "Latest updates on NBA player injuries",
+          "Historic marathon records and achievements",
+          "MLB coaching changes news",
+          "NHL playoff highlights and analysis"
         ]
       },
-      "tweet_text": "From draft day triumphs to coaching shake-ups, today’s sports news is packed with drama—don't miss the latest...\n\nSports Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Picks #Aced #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "NFL draft drama unfolds: Did the Cowboys and Jets hit a home run while the Cardinals and Rams strike out?\n\nSports Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Picks #Aced #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -775,74 +774,78 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific studies reveal complex insights into brain health, human origins, and ancient ecosystems, challenging long-held beliefs and opening new avenues for research.",
-        "summary": "Today's science headlines cover a range of groundbreaking discoveries, from the potential negative effects of fish oil on brain recovery to new insights into human evolution and ancient ecosystems. Notable findings include the discovery of preserved blood vessels in dinosaur bones, the impact of gut bacteria on depression, and the implications of gravitational waves on dark matter creation. Additionally, studies on giant prehistoric insects and octopuses challenge previous assumptions about their biology and evolution.",
+        "key_takeaway": "Recent scientific studies reveal new insights into brain health, human origins, and ancient life forms, challenging long-held beliefs in various fields of research.",
+        "summary": "Today's science headlines cover a range of groundbreaking discoveries, including the potential negative effects of fish oil on brain recovery, the discovery of ancient blood vessels in T. rex bones, and new insights into human evolution from genetic data. Other notable findings include the identification of the mezcal worm's true identity, links between gut bacteria and depression, and theories about dark matter's origins. Additionally, studies on giant prehistoric insects and octopuses provide fresh perspectives on evolutionary history, while research on plant cell growth mechanisms sheds light on cellular processes.",
         "key_themes": [
-          "brain health and nutrition",
-          "human evolution research",
-          "ancient ecosystems and fossils",
-          "impact of gut bacteria on mental health",
-          "dark matter and gravitational waves"
+          "Fish oil effects on brain health",
+          "New findings in human evolution",
+          "Ancient life forms and fossils",
+          "Gut bacteria and mental health",
+          "Dark matter and the universe",
+          "Plant cell growth mechanisms"
         ],
         "notable_headlines": [
           {
             "headline": "Fish oil may be hurting your brain, new study finds",
-            "why_it_matters": "Challenges the perception of fish oil as beneficial for brain recovery, particularly after injuries.",
+            "why_it_matters": "Challenges the long-held belief that fish oil is beneficial for brain health, particularly in individuals with head injuries.",
             "signal": "Risk"
           },
           {
             "headline": "Blood vessels found in T. rex bones are rewriting dinosaur science",
-            "why_it_matters": "Reveals preserved ancient blood vessels, providing new insights into dinosaur biology and evolution.",
+            "why_it_matters": "Reveals preserved ancient blood vessels, providing new insights into dinosaur biology and fossilization processes.",
             "signal": "Opportunity"
           },
           {
             "headline": "DNA research just rewrote the origin of human species",
-            "why_it_matters": "Suggests early humans evolved from multiple intermingling populations rather than a single ancestral group.",
+            "why_it_matters": "Suggests a complex evolutionary history involving multiple intermingling populations rather than a single ancestral group.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Giant prehistoric insects didn’t need high oxygen after all, study finds",
-            "why_it_matters": "Overturns previous theories about the size of ancient insects, prompting new lines of inquiry.",
+            "headline": "Mezcal worm in a bottle DNA test reveals a surprise",
+            "why_it_matters": "Clarifies the identity of mezcal larvae, raising sustainability concerns for agave and wild populations.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Harvard scientists link gut bacteria to depression through hidden inflammation trigger",
+            "why_it_matters": "Highlights the connection between gut health and mental health, opening avenues for new treatment strategies.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Gravitational waves may have created dark matter in the early universe",
+            "why_it_matters": "Proposes a novel theory on the origins of dark matter, potentially reshaping our understanding of cosmic evolution.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Giant octopuses may have ruled the oceans 100 million years ago",
-            "why_it_matters": "Reveals that early octopuses were apex predators, changing our understanding of their evolutionary history.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis on the implications of fish oil on brain health is expected.",
-            "New studies may emerge regarding the sustainability of mezcal production and its impact on ecosystems.",
-            "Anticipation of more findings related to gut bacteria and mental health connections."
+            "Further analysis on the implications of fish oil research is expected.",
+            "More studies on the effects of gut bacteria on mental health may emerge.",
+            "New findings related to ancient fossils could be published."
           ],
           "next_1_4_weeks": [
-            "Continued exploration of ancient ecosystems and their implications for modern biodiversity.",
-            "Potential breakthroughs in understanding the genetic basis of human evolution.",
-            "Research on gravitational waves and their role in dark matter formation may advance."
+            "Anticipated discussions on the sustainability of mezcal production and its ecological impact.",
+            "Ongoing research into the implications of the T. rex blood vessels discovery may yield new insights.",
+            "Further exploration of the evolutionary implications of the human origins study is likely."
           ],
           "watch_list": [
-            "Developments in the study of ancient blood vessels in fossils.",
-            "Updates on the impact of environmental factors on gut bacteria and mental health.",
-            "New findings related to the evolution of species in response to ecological pressures.",
-            "Research on the sustainability of mezcal production and its effects on agave populations."
+            "Developments in gut microbiome research and its relation to mental health.",
+            "Updates on the sustainability of mezcal and agave populations.",
+            "New fossil discoveries that could reshape our understanding of ancient life.",
+            "Research on dark matter and gravitational waves."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of the fish oil study are still being debated and require further research.",
-          "The findings on human evolution are based on genetic data that may evolve with new discoveries."
+          "The studies mentioned are preliminary and further research is needed to confirm findings.",
+          "Some conclusions may be subject to debate within the scientific community."
         ],
         "related_topics": [
-          "What are the latest findings on fish oil and brain health?",
-          "How has DNA research changed our understanding of human origins?",
-          "What new discoveries have been made about ancient ecosystems?",
-          "How do gut bacteria influence mental health?",
-          "What is the significance of gravitational waves in cosmology?"
+          "What are the effects of fish oil on brain health?",
+          "New discoveries in human evolution and genetics.",
+          "How gut bacteria influence mental health and depression?"
         ]
       },
-      "tweet_text": "New research reveals fish oil could be sabotaging your brain—are you making a mistake for your health?\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Matter #Aggressive #Bacteria #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Is your fish oil doing more harm than good? New research sheds shocking light on brain health!\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Matter #Aggressive #Bacteria #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
