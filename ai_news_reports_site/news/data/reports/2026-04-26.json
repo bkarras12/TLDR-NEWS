@@ -1,6 +1,6 @@
 {
   "date": "2026-04-26",
-  "generated_at_utc": "2026-04-26T23:51:21Z",
+  "generated_at_utc": "2026-04-27T05:47:32Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -16,16 +16,16 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.398,
+        "score": -0.3546,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.663, dampened ×0.6 → -0.3980). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.591, dampened ×0.6 → -0.3546). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
+          "title": "Trump says he 'wasn't worried' during Washington press dinner shooting",
           "url": "https://www.bbc.com/news/articles/c2d8dg57rzdo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 26 Apr 2026 22:43:36 GMT",
-          "summary": "The suspect is expected to be charged with assault of a federal officer and using a firearm during a crime of violence, officials have said.",
+          "published": "Mon, 27 Apr 2026 04:24:19 GMT",
+          "summary": "CBS News, the BBC's US partner, reports the suspect wrote a document saying he wanted to target Trump administration officials. He is due in court on Monday.",
           "source": "BBC News"
         },
         {
@@ -107,75 +107,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "A series of violent incidents and political upheavals mark today's global news, including a shooting incident involving Trump and escalating conflicts in Mali and Ukraine.",
-        "summary": "Today's headlines reflect a troubling global landscape, with violence impacting political figures and civilians alike. A shooting incident at a press dinner involving former President Trump has raised security concerns, while Mali faces a surge in rebel attacks leading to the death of its defense minister. In the Middle East, tensions escalate as Israeli Prime Minister Netanyahu orders military action against Hezbollah, and a major Russian attack on Ukraine results in civilian casualties. Additionally, political shifts are evident in Hungary with the resignation of Prime Minister Orbán, and Venezuela's prisoner release scheme faces criticism as many remain incarcerated. The situation in Mexico regarding the deaths of US agents adds another layer of complexity to international relations.",
+        "key_takeaway": "Violence and political instability dominate global headlines, with significant incidents reported in Mali, Israel, and Ukraine, alongside political developments in the U.S. and Hungary.",
+        "summary": "Today's news highlights a series of violent events and political changes around the world, including a shooting incident involving former President Trump, escalating conflict in Mali and Israel, and a major attack in Ukraine. Additionally, political shifts are noted in Hungary and Venezuela, while local elections occur in Palestinian territories.",
         "key_themes": [
-          "Violence against political figures",
-          "Mali rebel attacks",
-          "Israel-Hezbollah conflict",
+          "global political instability",
+          "violence in Mali and Israel",
+          "Trump shooting incident",
           "Venezuela political prisoners",
-          "Hungary political changes",
-          "US-Mexico relations"
+          "Hungary political changes"
         ],
         "notable_headlines": [
           {
-            "headline": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
-            "why_it_matters": "This incident raises significant concerns about security for public figures and the implications for political discourse.",
+            "headline": "Trump says he 'wasn't worried' during Washington press dinner shooting",
+            "why_it_matters": "The incident raises concerns about security and political tensions in the U.S.",
             "signal": "Risk"
           },
           {
             "headline": "Mali defence minister killed as country hit by wave of rebel attacks",
-            "why_it_matters": "The assassination of a high-ranking official highlights the deteriorating security situation in Mali and the broader Sahel region.",
+            "why_it_matters": "The assassination highlights the deteriorating security situation in Mali amid rising violence from militants.",
             "signal": "Risk"
           },
           {
             "headline": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-            "why_it_matters": "This directive indicates a potential escalation in the ongoing conflict between Israel and Hezbollah, impacting regional stability.",
+            "why_it_matters": "This directive escalates tensions in the region despite a recent ceasefire extension.",
             "signal": "Risk"
           },
           {
             "headline": "Seven dead in major Russian attack on Ukraine",
-            "why_it_matters": "The attack underscores the ongoing violence in Ukraine and the humanitarian crisis resulting from the conflict.",
+            "why_it_matters": "The attack underscores the ongoing conflict and humanitarian crisis in Ukraine.",
             "signal": "Risk"
           },
           {
             "headline": "Orbán steps down from Hungarian parliament after landslide defeat",
-            "why_it_matters": "This political shift may alter Hungary's domestic and foreign policy direction, affecting EU relations.",
+            "why_it_matters": "This marks a significant political shift in Hungary, potentially impacting future governance.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the investigation of the shooting incident involving Trump.",
-            "Watch for updates on the situation in Mali as rebel attacks continue.",
-            "Observe Israeli military actions against Hezbollah and potential responses from Lebanon."
+            "Further developments expected in the U.S. regarding the shooting incident involving Trump.",
+            "Increased military actions anticipated in Israel and Lebanon following Netanyahu's orders.",
+            "Potential international responses to the violence in Mali and Ukraine."
           ],
           "next_1_4_weeks": [
-            "Expect further political ramifications in Hungary following Orbán's resignation.",
-            "Anticipate ongoing discussions regarding US-Mexico relations after the incident involving US agents.",
-            "Follow the situation in Ukraine as military actions may escalate."
+            "Monitoring the political landscape in Hungary after Orbán's departure.",
+            "Continued scrutiny of Venezuela's political prisoner situation as releases slow down.",
+            "Possible escalation of conflicts in the Middle East and Ukraine."
           ],
           "watch_list": [
-            "Security measures for public events involving political figures.",
-            "Humanitarian response to the crisis in Mali and Ukraine.",
-            "Political developments in Venezuela regarding prisoner releases.",
-            "Impact of Netanyahu's military orders on regional stability."
+            "U.S. political security measures post-shooting incident.",
+            "Mali's security situation and international intervention prospects.",
+            "Israel-Hezbollah tensions and their implications for regional stability.",
+            "Venezuela's political climate and human rights issues."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Mali and Ukraine is fluid and may change rapidly.",
-          "Political outcomes in Hungary and Venezuela are uncertain and depend on various factors."
+          "The situation in conflict zones is fluid and may change rapidly.",
+          "Political outcomes can be unpredictable and influenced by various factors."
         ],
         "related_topics": [
-          "What are the latest developments in the Trump shooting incident?",
-          "How is the conflict in Mali affecting the government?",
-          "What is the current situation between Israel and Hezbollah?",
-          "Updates on the Ukraine-Russia conflict",
-          "Political changes in Hungary and their implications."
+          "What are the latest developments in Mali's security situation?",
+          "How is the U.S. responding to the Trump shooting incident?",
+          "What are the implications of Netanyahu's orders against Hezbollah?",
+          "Updates on the conflict in Ukraine and Russian attacks.",
+          "Political changes in Hungary after Orbán's defeat."
         ]
       },
-      "tweet_text": "Chaos erupts as Trump faces threats and global tensions rise with deadly attacks and military orders—what's next?\n\nWorld Sentiment: Negative (-0.40)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Killed #Agents #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Amidst gunfire and chaos, Trump brushes it off—while global tensions escalate and lives hang in the balance.\n\nWorld Sentiment: Negative (-0.35)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Killed #Agents #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -277,80 +276,81 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Lori Chavez-DeRemer resigned as Labor Secretary amid controversies, while Gen Z increasingly turns to entrepreneurship in a challenging job market.",
-        "summary": "Today's business news highlights significant developments including the resignation of Labor Secretary Lori Chavez-DeRemer, the rise of Gen Z entrepreneurship in response to AI and job market challenges, and the dropping of a criminal investigation against Jerome Powell by the US Justice Department. Additionally, California faces a jet fuel supply crisis, and gambling addiction is raising concerns as the betting market expands. Lockheed Martin's CEO sees growth opportunities under the Trump administration, while a merger between Warner Bros Discovery and Paramount Skydance is on the horizon, pending regulatory approval.",
+        "key_takeaway": "Lori Chavez-DeRemer's resignation as Labor Secretary highlights ongoing turbulence in U.S. labor policy amid broader economic challenges.",
+        "summary": "Today's business news covers a range of topics including the resignation of Labor Secretary Lori Chavez-DeRemer, the rise of Gen Z entrepreneurship in response to AI and job market challenges, the dropping of a criminal investigation against Jerome Powell, and significant shifts in California's jet fuel supply due to Middle East tensions. Additionally, concerns over gambling addiction in the U.S. are rising as the industry expands, while Lockheed Martin's CEO sees growth opportunities under the Trump administration. Other notable stories include a major merger in the entertainment sector and a lawsuit against JetBlue regarding customer data usage.",
         "key_themes": [
           "Labor Secretary resignation implications",
           "Gen Z entrepreneurship trends",
-          "US Justice Department investigation updates",
+          "Jerome Powell investigation update",
           "California jet fuel supply issues",
-          "Gambling addiction crisis in the US",
+          "U.S. gambling addiction crisis",
           "Lockheed Martin growth opportunities"
         ],
         "notable_headlines": [
           {
             "headline": "Staff decry ‘constant turbulence’ under Trump’s labor secretary, as she blames ‘deep state’ in resignation",
-            "why_it_matters": "Chavez-DeRemer's resignation reflects ongoing instability within the Department of Labor and raises questions about future leadership.",
+            "why_it_matters": "Chavez-DeRemer's resignation reflects instability in U.S. labor policy and ongoing controversies.",
             "signal": "Risk"
           },
           {
             "headline": "Facing AI and a tough job market, gen Z turns to entrepreneurship: ‘I have to prove myself’",
-            "why_it_matters": "The shift towards entrepreneurship among Gen Z highlights changing workforce dynamics and the impact of technology on job availability.",
+            "why_it_matters": "Gen Z's shift towards entrepreneurship highlights changing job market dynamics influenced by AI.",
             "signal": "Opportunity"
           },
           {
             "headline": "US justice department drops criminal investigation against Jerome Powell",
-            "why_it_matters": "This decision clears a path for Kevin Warsh's confirmation as the new Federal Reserve chair, impacting monetary policy direction.",
-            "signal": "Unclear"
+            "why_it_matters": "This decision clears a path for Kevin Warsh's confirmation as the new Federal Reserve chair.",
+            "signal": "Opportunity"
           },
           {
             "headline": "California’s jet fuel supply drops to three-year low as Middle East turmoil squeezes global oil market",
-            "why_it_matters": "A significant drop in jet fuel supply could disrupt travel plans and increase operational costs for airlines.",
+            "why_it_matters": "The decline in jet fuel supply could disrupt travel plans and increase fuel prices.",
             "signal": "Risk"
           },
           {
             "headline": "US gambling addiction is ‘out of control’ as betting markets boom, policy expert warns",
-            "why_it_matters": "The rapid growth of gambling markets raises urgent public health concerns and calls for regulatory action.",
+            "why_it_matters": "The rise in gambling addiction calls for urgent regulatory measures akin to those for alcohol and tobacco.",
             "signal": "Risk"
           },
           {
             "headline": "Lockheed Martin CEO sees Trump’s Pentagon as ‘golden opportunity’ for growth",
-            "why_it_matters": "The CEO's comments indicate potential for increased defense spending and contracts amid geopolitical tensions.",
+            "why_it_matters": "Lockheed Martin's expansion under the Trump administration indicates a significant shift in defense contracting.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the implications of Chavez-DeRemer's resignation on labor policies",
-            "Observing Gen Z entrepreneurship trends and their impact on the job market",
-            "Following developments in the California jet fuel supply situation"
+            "Monitor reactions to Labor Secretary resignation",
+            "Watch for updates on Gen Z entrepreneurship initiatives",
+            "Follow developments in California's jet fuel supply"
           ],
           "next_1_4_weeks": [
-            "Anticipating regulatory responses to the Warner Bros Discovery and Paramount merger",
-            "Watching for potential policy changes in response to gambling addiction concerns",
-            "Evaluating the impact of Jerome Powell's cleared investigation on Federal Reserve operations"
+            "Observe the impact of Jerome Powell's cleared investigation on Federal Reserve policies",
+            "Track the gambling regulation discussions at the upcoming conference",
+            "Evaluate the outcomes of the Warner Bros and Paramount merger approval process"
           ],
           "watch_list": [
-            "Updates on the new Labor Secretary's policies",
+            "Lori Chavez-DeRemer's future career moves",
             "Trends in Gen Z entrepreneurship",
-            "California's fuel supply and pricing developments",
-            "Regulatory actions regarding gambling addiction"
+            "California fuel supply and pricing",
+            "Gambling regulation proposals",
+            "Lockheed Martin's government contracts"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating mixed feelings about the news.",
+          "The sentiment score indicates a neutral tone overall, suggesting mixed reactions to the news.",
           "Future developments may alter the current outlook significantly."
         ],
         "related_topics": [
-          "What are the implications of Lori Chavez-DeRemer's resignation?",
-          "How is Gen Z responding to the job market challenges?",
-          "What is the current state of California's jet fuel supply?",
-          "What are the latest trends in gambling regulation?",
-          "What does Jerome Powell's cleared investigation mean for the Federal Reserve?"
+          "What are the implications of Labor Secretary resignation",
+          "How is Gen Z adapting to job market changes",
+          "What is the current state of California's jet fuel supply",
+          "What are the latest trends in gambling regulation",
+          "How is Lockheed Martin positioned under the Trump administration"
         ]
       },
-      "tweet_text": "From tumultuous leadership shifts to Gen Z entrepreneurs rising—today's business news is a rollercoaster...\n\nBusiness Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Drops #Market #Trumps #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Amidst a turbulent job market and a deepening gambling crisis, America’s workforce is on the brink of a...\n\nBusiness Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Drops #Market #Trumps #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -438,72 +438,72 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Google is expanding its new gradient icon design to more apps, while the electric vehicle market anticipates a significant drop in prices due to an influx of used vehicles.",
-        "summary": "Today's technology news highlights Google's rollout of a new gradient icon design across its apps, the potential for lower electric vehicle prices due to an increase in used EVs, and personal experiences with Linux as a primary operating system. Additionally, a smart calendar is on sale, and researchers report a decline in verbal communication among people.",
+        "key_takeaway": "Google is expanding its new gradient icon design to more apps, while the electric vehicle market anticipates a significant influx of used vehicles that could lower prices.",
+        "summary": "Today's technology news highlights Google's rollout of a new gradient icon design across its apps, the potential for reduced electric vehicle prices due to an influx of used models, and personal experiences with Linux as a primary operating system. Additionally, notable sales on smart devices and power banks were reported, alongside a concerning trend of declining verbal communication among individuals.",
         "key_themes": [
           "Google app updates",
-          "Electric vehicle market trends",
+          "electric vehicle market trends",
           "Linux user experiences",
-          "Smart home technology deals",
-          "Communication research findings"
+          "smart device sales",
+          "communication trends in technology"
         ],
         "notable_headlines": [
           {
             "headline": "Google’s new gradient icon design is coming to more apps",
-            "why_it_matters": "This update reflects Google's ongoing efforts to modernize its app interface and enhance user experience.",
+            "why_it_matters": "This design change reflects Google's ongoing efforts to modernize its app interface and enhance user experience.",
             "signal": "Opportunity"
           },
           {
             "headline": "An influx of used EVs could drive down prices",
-            "why_it_matters": "The anticipated increase in used electric vehicles may make EVs more accessible to a broader audience.",
+            "why_it_matters": "The anticipated increase in used electric vehicles may make EVs more accessible to consumers, potentially boosting adoption rates.",
             "signal": "Opportunity"
           },
           {
             "headline": "After three months on Linux, I don’t miss Windows at all",
-            "why_it_matters": "This personal account may influence others considering a switch to Linux, highlighting its viability as an alternative OS.",
+            "why_it_matters": "This personal account highlights the growing acceptance and usability of Linux as a viable alternative to Windows for everyday users.",
             "signal": "Opportunity"
           },
           {
             "headline": "Skylight’s 15-inch smart calendar is down to its lowest price to date",
-            "why_it_matters": "The sale on this smart calendar could attract consumers looking for organizational tools as Mother's Day approaches.",
+            "why_it_matters": "The price drop on this smart calendar could attract more consumers looking for organizational tools, especially ahead of Mother's Day.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Researchers say we’re talking less than ever",
-            "why_it_matters": "This finding raises concerns about communication trends in society, especially post-pandemic.",
-            "signal": "Risk"
+            "headline": "Sharge’s fast Qi2.2 MagSafe battery is down to $70 with a free USB-C cable",
+            "why_it_matters": "This deal on a portable power bank highlights the increasing demand for convenient charging solutions in the tech market.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Google's icon design changes from users and developers.",
-            "Watch for updates on electric vehicle pricing trends as more used cars enter the market.",
-            "Follow discussions on communication trends and their implications for social interaction."
+            "Further details on Google's app updates may emerge as the rollout continues.",
+            "More sales and promotions on tech gadgets are expected as Mother's Day approaches.",
+            "Updates on electric vehicle market trends as used EVs become more available."
           ],
           "next_1_4_weeks": [
-            "Expect more announcements from tech companies regarding user interface updates and features.",
-            "Keep an eye on the electric vehicle market for pricing adjustments and consumer responses.",
-            "Look for reviews and discussions around Linux as more users share their experiences."
+            "Anticipated reactions to Google's design changes from users and developers alike.",
+            "Monitoring the impact of used EV influx on market prices and consumer behavior.",
+            "Continued exploration of Linux adoption rates and user experiences."
           ],
           "watch_list": [
-            "Google app updates",
+            "Google's app design changes",
             "Electric vehicle pricing trends",
-            "Linux adoption stories",
-            "Smart home technology innovations"
+            "Consumer electronics sales for Mother's Day",
+            "Linux adoption and user feedback"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating varied reactions to the news.",
-          "Future predictions are subject to change based on market dynamics and consumer behavior."
+          "The sentiment score indicates a mixed reception to the news, suggesting varying opinions among consumers and experts.",
+          "The impact of used EVs on pricing is speculative and will depend on market conditions."
         ],
         "related_topics": [
           "What are the latest updates on Google app designs?",
-          "How will the influx of used EVs affect car prices?",
+          "How will the influx of used EVs affect electric vehicle prices?",
           "What are the benefits of switching to Linux from Windows?"
         ]
       },
-      "tweet_text": "Google's redesign is here, but can it outshine the chaos of the White House Correspondents’ Dinner?\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Down #Trump #15inch #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Google's bold new look is shaking up your favorite apps—are you ready for the change?\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Down #Trump #15inch #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -514,165 +514,165 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.0064,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.011, dampened ×0.6 → +0.0064). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1378,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.230, dampened ×0.6 → +0.1378). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "West takeaways: Rockets survive Game 4 to keep season alive",
+          "url": "https://www.espn.com/nba/story/_/id/48506452/2026-nba-playoffs-western-conference-round-one-takeaways",
+          "published": "Mon, 27 Apr 2026 00:55:21 EST",
+          "summary": "Here's what has stood out from the latest playoff games of the Western Conference's first round.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Minus Durant, Rockets stay alive with Game 4 win",
+          "url": "https://www.espn.com/nba/story/_/id/48606624/houston-rockets-stave-elimination-top-los-angeles-lakers",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "Amen Thompson scored 23 points, Tari Eason added 20 and the Rockets, playing without Kevin Durant, avoided elimination with a 115-96 rout of the Lakers in Game 4 of the Western Conference first-round playoff series Sunday night.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Wemby back, unhappy with concussion process",
+          "url": "https://www.espn.com/nba/story/_/id/48604109/spurs-overwhelm-blazers-late-wembanyama-return",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "Victor Wembanyama had 27 points, 12 rebounds and seven blocks in his return from a concussion as the Spurs beat the Blazers for a 3-1 series lead.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Tomlin: Exit partly rooted in recent playoff woes",
+          "url": "https://www.espn.com/nfl/story/_/id/48604669/mike-tomlin-talks-steelers-exit-new-analyst-role-nbc",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "Mike Tomlin told NBC's Maria Taylor that he walked away, in part, because of the recent lack of playoff success and a belief that some of his veterans were \"worthy of the excitement and the optimism associated with new leadership.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Source: Pavia accepts invite to Ravens minicamp",
+          "url": "https://www.espn.com/nfl/story/_/id/48603869/qb-pavia-accepts-invite-baltimore-ravens-minicamp",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "Undrafted Vanderbilt quarterback Diego Pavia, one of the most polarizing figures in college football, accepted an invitation to attend next weekend's rookie minicamp with the Baltimore Ravens, a source told ESPN's Adam Schefter on Sunday afternoon.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Oilers on brink after officials OK Ducks' OT goal",
+          "url": "https://www.espn.com/nhl/story/_/id/48606837/over-goal-warrants-lengthy-review-ducks-game-4-win",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "Ryan Poehling scored 2:29 into overtime -- a goal that required a lengthy review -- and the Anaheim Ducks pushed Connor McDavid and the Edmonton Oilers to the brink of first-round elimination with a 4-3 victory in Game 4 on Sunday night at Honda Center.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Korda goes wire-to-wire for 3rd major, again No. 1",
+          "url": "https://www.espn.com/golf/story/_/id/48603311/nelly-korda-wins-chevron-championship-reclaim-world-no-1",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "Nelly Korda went wire-to-wire in capturing the Chevron Championship -- her third major title -- as she reclaimed the No. 1 spot in women's golf.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Kopitar's 'extremely special' career ends in loss",
+          "url": "https://www.espn.com/nhl/story/_/id/48605558/anze-kopitar-20-year-career-comes-end-kings-loss",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "After announcing his retirement in September, Kings captain Anze Kopitar, the Slovenian center who is the top scorer in franchise history and a two-time Selke Trophy winner, saw his 20-year career close with Los Angeles' 5-1 loss to Colorado on Sunday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Swayman outburst caps 'unacceptable' Bruins loss",
+          "url": "https://www.espn.com/nhl/story/_/id/48604001/embarrassed-bruins-brink-playoff-elimination-blowout-loss-sabres",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "The Bruins' bench couldn't even look Jeremy Swayman in the eye following the goalie's outburst after being pulled in the third period of Game 4 with Boston down 6-0. \"We should all be embarrassed,\" said coach Marco Sturm, his team now facing elimination.",
+          "source": "ESPN"
+        },
+        {
+          "title": "📸 NFL draft caps wild week in Pittsburgh sports",
+          "url": "https://www.espn.com/nfl/story/_/id/48600197/nfl-draft-pittsburgh-pirates-steelers-penguins",
+          "published": "Mon, 27 Apr 2026 01:33:19 EST",
+          "summary": "From the Pirates to the Penguins to the NFL draft, last week was a special one for the city of Pittsburgh.",
+          "source": "ESPN"
+        },
+        {
           "title": "Kiper's grades for all 32 NFL draft classes: Why the Cowboys and Jets aced their picks",
           "url": "https://www.espn.com/nfl/draft2026/story/_/id/48547351/2026-nfl-draft-grades-32-teams-kiper-winners-losers-steals-sleepers-favorite-picks-classes",
-          "published": "Sun, 26 Apr 2026 01:40:31 EST",
+          "published": "Mon, 27 Apr 2026 00:50:25 EST",
           "summary": "Mel Kiper Jr. evaluates the entire 2026 NFL draft, from the good (Cowboys, Jets) to the very questionable (Rams). See all 32 teams' grades.",
           "source": "ESPN"
         },
         {
           "title": "The NFL draft is over ... let's overreact: Will the Cardinals and Rams regret their picks?",
           "url": "https://www.espn.com/nfl/draft2026/story/_/id/48542105/2026-nfl-draft-judging-overreactions-takeaways-lessons-picks-teams",
-          "published": "Sun, 26 Apr 2026 01:40:31 EST",
+          "published": "Mon, 27 Apr 2026 00:50:25 EST",
           "summary": "It's time to weigh in on the biggest overreactions of NFL draft weekend.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sources: Ant avoids ligament tear, to miss time",
-          "url": "https://www.espn.com/nba/story/_/id/48600211/sources-anthony-edwards-avoids-ligament-damage-multiple-weeks",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "Timberwolves star Anthony Edwards has a bone bruise and hyperextension in his left knee and is expected to miss multiple weeks, sources told ESPN.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Sawe makes history, sets fabled marathon mark",
-          "url": "https://www.espn.com/olympics/trackandfield/story/_/id/48598786/sabastian-sawe-wins-london-marathon-record-1st-finish-2-hours",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "Sabastian Sawe became the first person to run a marathon in under 2 hours, smashing the world record by winning the London Marathon in 1:59:30.",
-          "source": "ESPN"
-        },
-        {
-          "title": "McDaniels' late layup irks Jokic in Nuggets loss",
-          "url": "https://www.espn.com/nba/story/_/id/48597565/mcdaniels-jokic-clash-end-timberwolves-game-4-win",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "Jaden McDaniels' late layup in Minnesota's 112-96 Game 4 home victory over Denver incited a skirmish with Nikola Jokic and the Nuggets, a scrum that led to ejections as the Timberwolves secured a 3-1 series lead.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Red Sox fire Cora amid coaching staff shake-up",
-          "url": "https://www.espn.com/mlb/story/_/id/48594637/red-sox-fire-manager-alex-cora-amid-huge-coaching-shakeup",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "The Red Sox have fired manager Alex Cora and several other coaches after a disappointing 10-17 start to the season.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Wiesberger wins first Euro title since leaving LIV",
-          "url": "https://www.espn.com/golf/story/_/id/48600016/bernd-wiesberger-wins-china-open-first-title-leaving-liv",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "Bernd Wiesberger played bogey-free and closed with a 4-under 67 to win the China Open, his first victory since returning two years ago from Saudi-backed LIV Golf.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Crosby, 'our leader,' keeps Pens alive in Game 4",
-          "url": "https://www.espn.com/nhl/story/_/id/48597325/sidney-crosby-pittsburgh-penguins-stay-alive-win-game-4",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "Pittsburgh captain Sidney Crosby opened the scoring with his first goal of the playoffs and set up defenseman Kris Letang's critical third-period goal with a nifty soccer-style kick, as the Penguins beat the Flyers 4-2 in Game 4.",
-          "source": "ESPN"
-        },
-        {
-          "title": "McCoy falls to Raiders at No. 101, says knee fine",
-          "url": "https://www.espn.com/nfl/story/_/id/48591134/jermod-mccoy-falls-raiders-round-4-nfl-draft",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "Jermod McCoy says his knee feels good, adding it's up to the Raiders on whether he undergoes another surgery after missing all of 2025 with a torn ACL.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Broncos make Buffalo LB Murdock 'Mr. Irrelevant'",
-          "url": "https://www.espn.com/nfl/story/_/id/48595808/red-murdock-mr-irrelevant-lb-goes-last-nfl-draft",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "The Broncos made Buffalo linebacker Red Murdock \"Mr. Irrelevant\" as the last pick of this year's NFL draft.",
-          "source": "ESPN"
-        },
-        {
-          "title": "🏈 NFL draft: Winners and losers from Day 2",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48547336/2026-nfl-draft-kiper-rounds-2-3-winners-losers-value-picks-updates-best-available",
-          "published": "Sun, 26 Apr 2026 10:27:49 EST",
-          "summary": "We're through 100 picks of the NFL draft. Mel Kiper Jr. sorts through the steals and reaches of Day 2, including some big-value selections.",
-          "source": "ESPN"
-        },
-        {
-          "title": "West playoff takeaways: Dosunmu's record night boosts Wolves over Nuggets",
-          "url": "https://www.espn.com/nba/story/_/id/48506452/2026-nba-playoffs-western-conference-round-one-takeaways",
-          "published": "Sun, 26 Apr 2026 09:17:00 EST",
-          "summary": "Here's what has stood out from the latest playoff games of the Western Conference's first round.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The 2026 NFL draft concluded with notable performances from teams like the Cowboys and Jets, while Anthony Edwards faces a significant injury setback.",
-        "summary": "Today's sports news highlights include evaluations of the NFL draft, significant injuries in the NBA, a historic marathon achievement, and coaching changes in MLB. The NFL draft saw teams like the Cowboys and Jets receiving high grades, while the Cardinals and Rams faced scrutiny over their picks. In the NBA, Timberwolves star Anthony Edwards is expected to miss multiple weeks due to a knee injury. Sabastian Sawe made history by running a marathon in under two hours. The Red Sox have fired manager Alex Cora amid a poor start to the season, and Bernd Wiesberger secured his first Euro title since leaving LIV Golf.",
+        "key_takeaway": "The Rockets avoided elimination in the NBA playoffs, while Nelly Korda won her third major title in golf, reclaiming the No. 1 ranking.",
+        "summary": "In today's sports news, the Houston Rockets secured a crucial Game 4 victory against the Los Angeles Lakers, keeping their playoff hopes alive. Meanwhile, Nelly Korda triumphed at the Chevron Championship, marking her third major win and regaining the top spot in women's golf. Other highlights include Victor Wembanyama's strong return for the Spurs, Mike Tomlin's departure from the Steelers, and the Anaheim Ducks pushing the Oilers to the brink of elimination in the NHL playoffs.",
         "key_themes": [
-          "NFL draft analysis",
-          "NBA injury updates",
-          "historic marathon achievements",
-          "MLB coaching changes",
-          "NHL playoff highlights"
+          "NBA playoffs updates",
+          "Nelly Korda wins Chevron Championship",
+          "Mike Tomlin's departure from Steelers",
+          "NHL playoff results",
+          "NFL draft analysis"
         ],
         "notable_headlines": [
           {
-            "headline": "Kiper's grades for all 32 NFL draft classes: Why the Cowboys and Jets aced their picks",
-            "why_it_matters": "Evaluates team performances in the NFL draft, highlighting successes and failures.",
+            "headline": "Rockets survive Game 4 to keep season alive",
+            "why_it_matters": "The Rockets' win prevents elimination and keeps their playoff hopes intact.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Sources: Ant avoids ligament tear, to miss time",
-            "why_it_matters": "Anthony Edwards' injury could impact the Timberwolves' playoff chances.",
+            "headline": "Wemby back, unhappy with concussion process",
+            "why_it_matters": "Wembanyama's return is significant for the Spurs as they lead their series.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Korda goes wire-to-wire for 3rd major, again No. 1",
+            "why_it_matters": "Korda's victory reestablishes her dominance in women's golf.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Oilers on brink after officials OK Ducks' OT goal",
+            "why_it_matters": "The Ducks' win puts the Oilers in a precarious position in the playoffs.",
             "signal": "Risk"
           },
           {
-            "headline": "Sawe makes history, sets fabled marathon mark",
-            "why_it_matters": "Sawe's record-breaking marathon run marks a significant milestone in athletics.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Red Sox fire Cora amid coaching staff shake-up",
-            "why_it_matters": "The Red Sox's decision reflects their struggle early in the season and aims for improvement.",
+            "headline": "Swayman outburst caps 'unacceptable' Bruins loss",
+            "why_it_matters": "The Bruins face elimination after a disappointing performance in the playoffs.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Crosby, 'our leader,' keeps Pens alive in Game 4",
-            "why_it_matters": "Crosby's performance is crucial for the Penguins' playoff survival.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of NFL draft impacts on team strategies",
-            "Updates on Anthony Edwards' recovery timeline",
-            "Reactions to coaching changes in MLB"
+            "Upcoming NBA playoff games will determine further eliminations.",
+            "NHL playoff matchups will continue with critical games for several teams.",
+            "Golf tournaments will feature Korda as a key player to watch."
           ],
           "next_1_4_weeks": [
-            "Monitoring the performance of teams post-NFL draft",
-            "Tracking NBA playoff outcomes and player injuries",
-            "Following the implications of MLB coaching changes"
+            "The NFL draft impacts team strategies as offseason training begins.",
+            "NBA playoffs will intensify with potential upsets and key matchups ahead.",
+            "NHL playoffs will continue to unfold, revealing potential champions."
           ],
           "watch_list": [
-            "Upcoming NBA playoff games",
-            "Next major marathon events",
-            "Performance of newly drafted NFL players",
-            "MLB team standings after coaching changes"
+            "Monitor the performance of the Rockets in upcoming playoff games.",
+            "Watch for updates on Wembanyama's health and performance.",
+            "Follow the NHL playoff outcomes, particularly the Oilers and Bruins.",
+            "Keep an eye on NFL teams' preparations post-draft."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Injuries can have unpredictable impacts on team performance.",
-          "Draft evaluations are subjective and may change over time."
+          "The sentiment score indicates mixed feelings about the overall sports landscape today.",
+          "Individual game outcomes may not reflect broader team performance trends."
         ],
         "related_topics": [
-          "What are the NFL draft grades for 2026?",
-          "Latest updates on NBA player injuries",
-          "Historic marathon records and achievements",
-          "MLB coaching changes news",
-          "NHL playoff highlights and analysis"
+          "What are the latest NBA playoff results?",
+          "Nelly Korda's impact on women's golf rankings",
+          "Analysis of the NFL draft outcomes",
+          "Updates on NHL playoff standings",
+          "Mike Tomlin's future in sports commentary"
         ]
       },
-      "tweet_text": "NFL draft drama unfolds: Did the Cowboys and Jets hit a home run while the Cardinals and Rams strike out?\n\nSports Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Picks #Aced #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Rockets defy the odds in a nail-biting Game 4, while Wemby calls out the league over concussion concerns—drama...\n\nSports Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Alive #Game #Rockets #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -774,15 +774,14 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific studies reveal new insights into brain health, human origins, and ancient life forms, challenging long-held beliefs in various fields of research.",
-        "summary": "Today's science headlines cover a range of groundbreaking discoveries, including the potential negative effects of fish oil on brain recovery, the discovery of ancient blood vessels in T. rex bones, and new insights into human evolution from genetic data. Other notable findings include the identification of the mezcal worm's true identity, links between gut bacteria and depression, and theories about dark matter's origins. Additionally, studies on giant prehistoric insects and octopuses provide fresh perspectives on evolutionary history, while research on plant cell growth mechanisms sheds light on cellular processes.",
+        "key_takeaway": "Recent scientific studies reveal complex insights into brain health, human origins, and ancient life forms, challenging long-held beliefs in various fields.",
+        "summary": "Today's science headlines cover a range of groundbreaking discoveries, from the potential negative effects of fish oil on brain recovery to new insights into human evolution and ancient ecosystems. Notable findings include the discovery of preserved blood vessels in T. rex bones, the role of gut bacteria in depression, and the implications of gravitational waves in dark matter formation. Additionally, research on the mezcal worm's DNA and the impact of aggressive lizards on evolution highlight ongoing ecological changes.",
         "key_themes": [
-          "Fish oil effects on brain health",
-          "New findings in human evolution",
-          "Ancient life forms and fossils",
-          "Gut bacteria and mental health",
-          "Dark matter and the universe",
-          "Plant cell growth mechanisms"
+          "impact of fish oil on brain health",
+          "new findings in human evolution",
+          "ancient ecosystems and fossils",
+          "role of gut bacteria in mental health",
+          "dark matter and gravitational waves"
         ],
         "notable_headlines": [
           {
@@ -792,17 +791,17 @@
           },
           {
             "headline": "Blood vessels found in T. rex bones are rewriting dinosaur science",
-            "why_it_matters": "Reveals preserved ancient blood vessels, providing new insights into dinosaur biology and fossilization processes.",
+            "why_it_matters": "Reveals new insights into dinosaur biology and preservation, potentially changing our understanding of their physiology.",
             "signal": "Opportunity"
           },
           {
             "headline": "DNA research just rewrote the origin of human species",
-            "why_it_matters": "Suggests a complex evolutionary history involving multiple intermingling populations rather than a single ancestral group.",
+            "why_it_matters": "Suggests a more complex evolutionary history for humans, indicating multiple ancestral populations rather than a single origin.",
             "signal": "Opportunity"
           },
           {
             "headline": "Mezcal worm in a bottle DNA test reveals a surprise",
-            "why_it_matters": "Clarifies the identity of mezcal larvae, raising sustainability concerns for agave and wild populations.",
+            "why_it_matters": "Clarifies the species of mezcal larvae, raising sustainability concerns amidst growing demand for mezcal.",
             "signal": "Risk"
           },
           {
@@ -812,40 +811,48 @@
           },
           {
             "headline": "Gravitational waves may have created dark matter in the early universe",
-            "why_it_matters": "Proposes a novel theory on the origins of dark matter, potentially reshaping our understanding of cosmic evolution.",
-            "signal": "Unclear"
+            "why_it_matters": "Provides a new perspective on the formation of dark matter, enhancing our understanding of cosmic evolution.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Aggressive “hulk” lizards are wiping out millions of years of evolution",
+            "why_it_matters": "Illustrates the rapid impact of invasive species on native biodiversity and evolutionary processes.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Further analysis on the implications of fish oil research is expected.",
-            "More studies on the effects of gut bacteria on mental health may emerge.",
-            "New findings related to ancient fossils could be published."
+            "More studies on the ecological impact of invasive lizard species may emerge.",
+            "Anticipated discussions on the sustainability of mezcal production."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the sustainability of mezcal production and its ecological impact.",
-            "Ongoing research into the implications of the T. rex blood vessels discovery may yield new insights.",
-            "Further exploration of the evolutionary implications of the human origins study is likely."
+            "Expect ongoing research into the genetic origins of humans and its implications for anthropology.",
+            "Further studies on the relationship between gut bacteria and mental health are likely to be published.",
+            "Research on ancient ecosystems and their modern implications may gain traction."
           ],
           "watch_list": [
-            "Developments in gut microbiome research and its relation to mental health.",
-            "Updates on the sustainability of mezcal and agave populations.",
-            "New fossil discoveries that could reshape our understanding of ancient life.",
-            "Research on dark matter and gravitational waves."
+            "Developments in the study of gravitational waves and dark matter.",
+            "New findings related to the evolution of species and their ecological impacts.",
+            "Updates on the sustainability of agricultural practices involving mezcal.",
+            "Continued exploration of the effects of diet on brain health."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The studies mentioned are preliminary and further research is needed to confirm findings.",
-          "Some conclusions may be subject to debate within the scientific community."
+          "The findings on fish oil and brain health are preliminary and require further investigation.",
+          "The implications of the T. rex blood vessels discovery are still being debated among paleontologists.",
+          "Sustainability concerns regarding mezcal production are complex and multifaceted."
         ],
         "related_topics": [
-          "What are the effects of fish oil on brain health?",
-          "New discoveries in human evolution and genetics.",
-          "How gut bacteria influence mental health and depression?"
+          "What are the latest findings on fish oil and brain health?",
+          "How has DNA research changed our understanding of human origins?",
+          "What new discoveries have been made about ancient ecosystems?",
+          "How do gut bacteria influence mental health?",
+          "What are the implications of gravitational waves for dark matter?"
         ]
       },
-      "tweet_text": "Is your fish oil doing more harm than good? New research sheds shocking light on brain health!\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Matter #Aggressive #Bacteria #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Could fish oil be sabotaging your brain? Discover the shocking truth behind your supplements!\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Matter #Aggressive #Bacteria #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
