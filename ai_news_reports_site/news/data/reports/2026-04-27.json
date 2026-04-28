@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "generated_at_utc": "2026-04-28T00:00:10Z",
+  "generated_at_utc": "2026-04-28T05:52:53Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -18,9 +18,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2399,
+        "score": -0.241,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.400, dampened ×0.6 → -0.2399). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.402, dampened ×0.6 → -0.2410). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -52,10 +52,10 @@
           "source": "BBC News"
         },
         {
-          "title": "At least four killed and dozens injured in Indonesia train crash",
+          "title": "Rescuers race to free survivors trapped inside train after fatal Indonesia crash",
           "url": "https://www.bbc.com/news/articles/ckgegg8r0v1o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 27 Apr 2026 19:06:10 GMT",
-          "summary": "Officials say a commuter train and a long-distance train collided on the outskirts of Jakarta on Monday.",
+          "published": "Tue, 28 Apr 2026 04:18:54 GMT",
+          "summary": "Two trains collided on the outskirts of the Indonesian capital on Monday, killing at least 14 people.",
           "source": "BBC News"
         },
         {
@@ -109,14 +109,14 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "A series of violent incidents and political controversies marked today's global news, including attacks in Pakistan and Nigeria, and a train crash in Indonesia.",
-        "summary": "Today's headlines reflect a mix of political tensions and tragic events worldwide. Melania Trump criticized Jimmy Kimmel for a joke, while Trump reassured security for a visiting king. Pakistan faced accusations of airstrikes on Afghanistan, and a train collision in Indonesia resulted in multiple casualties. Additionally, a Nigerian orphanage was raided, and Colombia offered a significant reward for a rebel leader linked to a deadly bombing. In Mali, Russian fighters withdrew after separatist attacks, and a water dispute in Chad led to numerous fatalities. Meanwhile, Kim Jong Un commemorated North Korean soldiers in Ukraine, and the French coastguard rescued over 100 migrants in the Channel.",
+        "key_takeaway": "Security concerns overshadow King of Jordan's US visit, while violence in Pakistan and Nigeria raises alarm over regional stability.",
+        "summary": "Today's headlines reflect a mix of political controversies, security issues, and humanitarian crises across various regions. Melania Trump calls for action against Jimmy Kimmel's remarks, while Trump reassures safety for King Abdullah II's upcoming visit amid security threats. In Pakistan, airstrikes have resulted in casualties, and Nigeria faces a kidnapping crisis at an orphanage. Colombia offers a substantial reward for a rebel leader linked to a deadly bombing, and violence in Chad has led to significant fatalities over a water dispute. Additionally, Russian forces are withdrawing from Mali, and a tragic train crash in Indonesia has claimed lives. Meanwhile, the French coastguard continues to rescue migrants in the Channel, highlighting ongoing humanitarian challenges.",
         "key_themes": [
           "political controversies",
-          "international violence",
-          "transportation accidents",
-          "migrant crises",
-          "military actions"
+          "security threats",
+          "humanitarian crises",
+          "regional violence",
+          "migrant rescues"
         ],
         "notable_headlines": [
           {
@@ -125,59 +125,62 @@
             "signal": "Risk"
           },
           {
-            "headline": "Pakistan accused of attacking Afghan university",
-            "why_it_matters": "This incident raises concerns about regional stability and humanitarian impacts.",
-            "signal": "Risk"
+            "headline": "Trump says King will be 'very safe' during US visit after security talks",
+            "why_it_matters": "Reassures the public amid rising security concerns following a recent attack.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "At least four killed and dozens injured in Indonesia train crash",
-            "why_it_matters": "Transportation safety remains a critical issue in rapidly urbanizing regions.",
+            "headline": "Pakistan accused of attacking Afghan university",
+            "why_it_matters": "Escalates tensions between Pakistan and Afghanistan, impacting regional stability.",
             "signal": "Risk"
           },
           {
             "headline": "Gunmen raid Nigerian orphanage and kidnap children",
-            "why_it_matters": "This reflects ongoing security challenges in Nigeria, particularly affecting vulnerable populations.",
+            "why_it_matters": "Reflects the ongoing security crisis in Nigeria and the vulnerability of children.",
             "signal": "Risk"
           },
           {
             "headline": "Colombia offers record $1.4m-reward for rebel it blames for deadly bomb attack",
-            "why_it_matters": "This indicates the government's commitment to addressing violence from rebel groups.",
+            "why_it_matters": "Demonstrates the government's commitment to addressing violence from rebel groups.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "At least 42 killed in Chad after water well dispute escalates",
+            "why_it_matters": "Highlights the potential for local disputes to escalate into significant violence.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in Pakistan regarding airstrike accusations.",
-            "Watch for updates on the security situation surrounding the U.S. visit by the king.",
-            "Follow the aftermath of the Indonesian train crash for further casualty reports."
+            "Monitor developments regarding King Abdullah II's visit to the US and any security updates.",
+            "Watch for responses from Pakistan regarding the airstrikes and their implications for Afghan relations.",
+            "Follow the situation in Nigeria for updates on the kidnapped children and security measures."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions about political tensions in the U.S. following Melania Trump's comments.",
-            "Watch for potential escalations in violence in Nigeria and Pakistan.",
-            "Keep an eye on the situation in Mali as ethnic tensions continue."
+            "Observe the political fallout from Melania Trump's comments and any potential media responses.",
+            "Track the impact of the Colombian government's reward on rebel activities and public safety.",
+            "Assess the ongoing humanitarian situation in Chad and Nigeria as violence continues."
           ],
           "watch_list": [
-            "Security measures for international visits amid rising tensions.",
-            "Humanitarian responses to the orphanage kidnapping in Nigeria.",
-            "Investigations into the train crash in Indonesia.",
-            "confidence",
-            "Medium"
+            "King Abdullah II's US visit security arrangements",
+            "Pakistan-Afghanistan relations post-airstrikes",
+            "Nigerian security situation regarding kidnappings",
+            "Colombian rebel activities and government responses",
+            "Chad's internal conflict resolution efforts"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in conflict zones can change rapidly, affecting casualty figures and political dynamics.",
-          "Media reports may vary in accuracy and perspective, especially in politically sensitive regions."
+          "The situation in Pakistan and Nigeria is fluid and may change rapidly.",
+          "Political responses to celebrity controversies can vary widely and may not have immediate effects."
         ],
         "related_topics": [
-          "What are the latest international security concerns?",
-          "Updates on the Nigerian orphanage kidnapping incident",
-          "Recent train accidents in Indonesia",
-          "Political controversies involving celebrities",
-          "Migrant rescue operations in Europe"
+          "What are the latest security concerns in the Middle East?",
+          "Updates on humanitarian crises in Nigeria and Chad",
+          "Political implications of celebrity controversies in the US"
         ]
       },
-      "tweet_text": "From widow jokes to deadly train crashes, today's world news is a stark reminder of the chaos and heartache we face.\n\nWorld Sentiment: Mixed (-0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #14mreward #Accused #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From political outcry to tragic kidnappings, today's headlines are a chilling reminder of the world's chaos—click to...\n\nWorld Sentiment: Mixed (-0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #14mreward #Accused #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -280,19 +283,18 @@
       ],
       "ai_report": {
         "key_takeaway": "Spirit Airlines faces bankruptcy as the White House considers a bailout amid rising fuel prices, while China blocks Meta's acquisition of an AI startup.",
-        "summary": "Today's business news highlights significant developments including Spirit Airlines' bankruptcy situation and potential White House intervention, China's rejection of Meta's acquisition of Manus, and ongoing labor movements in the tech industry. Additionally, California's billionaire tax proposal gains traction, and concerns over gambling addiction are raised as the market expands.",
+        "summary": "Today's business news highlights significant developments including Spirit Airlines' bankruptcy situation and potential White House intervention, China's rejection of Meta's acquisition, and ongoing labor movements in the tech industry. Additionally, California's billionaire tax proposal progresses, and concerns over gambling addiction rise amid a booming market.",
         "key_themes": [
           "Spirit Airlines bankruptcy news",
           "China blocks Meta acquisition",
           "California billionaire tax proposal",
-          "gambling addiction in the US",
-          "unionization efforts in tech",
-          "four-day workweek discussions"
+          "gambling addiction crisis in the US",
+          "unionization efforts in tech industry"
         ],
         "notable_headlines": [
           {
             "headline": "What’s going on with Spirit Airlines and could the White House bail them out?",
-            "why_it_matters": "The potential bailout could impact the airline industry amid rising fuel costs.",
+            "why_it_matters": "The potential bailout could impact the airline industry and government intervention strategies.",
             "signal": "Risk"
           },
           {
@@ -302,13 +304,13 @@
           },
           {
             "headline": "The ‘wizards’ behind the online version of Magic: the Gathering are unionizing",
-            "why_it_matters": "Unionization efforts highlight labor rights issues in the tech and gaming industries.",
+            "why_it_matters": "Unionization efforts highlight labor rights issues in the gaming industry, particularly concerning AI and job security.",
             "signal": "Opportunity"
           },
           {
             "headline": "California billionaire tax proposal garners enough signatures to head to ballot",
-            "why_it_matters": "This proposal could significantly affect wealth distribution and taxation in California.",
-            "signal": "Opportunity"
+            "why_it_matters": "The proposal could significantly affect wealth distribution and taxation in California, facing opposition from influential tech leaders.",
+            "signal": "Risk"
           },
           {
             "headline": "US gambling addiction is ‘out of control’ as betting markets boom, policy expert warns",
@@ -318,38 +320,38 @@
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments regarding Spirit Airlines' bankruptcy proceedings and potential White House actions.",
+            "Monitor developments regarding Spirit Airlines' bankruptcy and potential bailout discussions.",
             "Watch for responses from Meta regarding the blocked acquisition in China.",
             "Follow updates on the California billionaire tax proposal as it heads to the ballot."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of unionization efforts in the gaming industry on labor relations.",
-            "Track the ongoing discussions about gambling regulations as experts gather for a public health response.",
-            "Keep an eye on the adoption of the four-day workweek in various sectors."
+            "Anticipate further labor movements and unionization efforts in the tech industry.",
+            "Expect discussions around gambling regulation to intensify as experts gather for policy advocacy.",
+            "Observe the impact of rising fuel prices on the airline industry and travel plans."
           ],
           "watch_list": [
             "Spirit Airlines financial updates",
-            "Meta's strategic responses to the acquisition block",
-            "California tax proposal developments",
-            "Gambling regulation discussions",
-            "Unionization trends in tech and gaming"
+            "Meta's strategic responses to acquisition block",
+            "California tax proposal outcomes",
+            "Trends in labor unionization in tech",
+            "Gambling addiction regulatory discussions"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation with Spirit Airlines is fluid and may change rapidly based on negotiations and market conditions.",
-          "China's regulatory environment is unpredictable and could affect future foreign investments.",
-          "Unionization efforts may face resistance from employers, impacting their success."
+          "The situation with Spirit Airlines is fluid and may change rapidly depending on government actions.",
+          "China's regulatory environment is unpredictable and could affect future US investments.",
+          "The outcomes of the California tax proposal are uncertain until the ballot results are in."
         ],
         "related_topics": [
           "What is happening with Spirit Airlines bankruptcy",
-          "China's investment regulations on tech companies",
+          "China's investment policies on US companies",
           "California billionaire tax proposal updates",
-          "Gambling addiction and regulation in the US",
-          "Unionization efforts in the gaming industry"
+          "Unionization efforts in the gaming industry",
+          "Gambling addiction and regulation in the US"
         ]
       },
-      "tweet_text": "From airline bailouts to AI takeovers, today's business news is a whirlwind of drama—don't miss the...\n\nBusiness Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Drops #Against #Agent #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From Spirit Airlines' bailout whispers to Swift's battle against AI—today's business news is a...\n\nBusiness Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Drops #Against #Agent #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -360,11 +362,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0092,
+        "score": -0.023,
         "label": "Neutral",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.015, dampened ×0.6 → +0.0092). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg -0.038, dampened ×0.6 → -0.0230). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Jury selection in Musk v. Altman: ‘People don’t like him’",
+          "url": "https://www.theverge.com/tech/919469/elon-musk-dont-like",
+          "published": "2026-04-27T23:39:33-04:00",
+          "summary": "On Monday, the courtroom battle between Elon Musk and Sam Altman over alleged broken promises at OpenAI started, as usual, with jury selection. The only tricky part? A lot of the prospective jurors already have an opinion about Elon Musk, and it's not a good one. The Verge reporter Elizabeth Lopatto, who was there at [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Google is testing AI chatbot search for YouTube",
+          "url": "https://www.theverge.com/streaming/919441/google-ask-youtube-ai-chatbot-search",
+          "published": "2026-04-27T20:01:54-04:00",
+          "summary": "Google is trying out an AI Mode-like search experience for YouTube. The company is now testing \"a new way to search on YouTube that feels more like a conversation,\" with results pulling in things like longform videos, YouTube Shorts, and text about what you're searching for. The \"experiment\" is now available if you're a YouTube [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Canonical lays out a plan for AI in Ubuntu Linux",
           "url": "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features",
@@ -420,36 +436,31 @@
           "published": "2026-04-27T13:00:00-04:00",
           "summary": "Hey hey, it's Jay Peters, senior reporter at The Verge. Today, Valve finally announced that the second version of the Steam Controller - and the first piece of Valve's slate of new gaming hardware set to launch this year - is finally going on sale for $99 on May 4th. My colleague Cameron Faulkner and [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Samsung&#8217;s first smart glasses have leaked",
-          "url": "https://www.theverge.com/gadgets/919189/samsung-galaxy-glasses-leaked-images",
-          "published": "2026-04-27T12:25:51-04:00",
-          "summary": "The upcoming Samsung Galaxy Glasses look nearly identical to Meta's Ray-Ban smart glasses in leaked images from Android Headlines. The glasses, which could be announced at Google I/O next month, are code-named \"Jinju\" and will reportedly cost between $379 and $499, on par with the display-free Ray-Ban Meta Gen 2. They'll reportedly include a Qualcomm [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Microsoft and OpenAI’s famed AGI agreement is dead",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
-          "published": "2026-04-27T12:15:47-04:00",
-          "summary": "OpenAI and Microsoft's partnership-turned-situationship just got even less committed. And a clause about artificial general intelligence, which has for years dictated the future of their deal, has officially been dropped. On Monday morning, Microsoft announced a handful of big changes to its long-standing OpenAI deal. Microsoft will remain OpenAI's \"primary cloud partner, and&#8239;OpenAI&#8239;products&#8239;will ship first [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Canonical plans to integrate AI features into Ubuntu Linux, while Google employees protest military AI use, and Valve prepares to launch its new Steam Controller.",
-        "summary": "Today's technology news highlights Canonical's upcoming AI features for Ubuntu Linux, Google employees' demands against military AI use, and Valve's launch of the new Steam Controller. Additionally, Samsung's smart glasses have leaked, and Microsoft and OpenAI's AGI agreement has been terminated.",
+        "key_takeaway": "Elon Musk's legal battle with Sam Altman begins amid jury selection, while Google and Canonical make strides in AI integration for their platforms.",
+        "summary": "Today's technology news highlights the start of the Musk v. Altman trial, Google's testing of AI chatbot search for YouTube, and Canonical's plans to integrate AI features into Ubuntu Linux. Additionally, over 600 Google employees have urged the company to prevent military use of its AI models, reflecting ongoing ethical concerns in the tech industry.",
         "key_themes": [
-          "AI integration in Linux",
-          "Google employee protests",
-          "Valve Steam Controller launch",
-          "Samsung smart glasses leak",
-          "Microsoft OpenAI partnership changes"
+          "Musk v. Altman trial updates",
+          "Google AI chatbot search for YouTube",
+          "Canonical AI features in Ubuntu",
+          "Google employees protest military AI use"
         ],
         "notable_headlines": [
           {
+            "headline": "Jury selection in Musk v. Altman: ‘People don’t like him’",
+            "why_it_matters": "The trial could have significant implications for OpenAI and its leadership.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Google is testing AI chatbot search for YouTube",
+            "why_it_matters": "This could change how users interact with video content on the platform.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Canonical lays out a plan for AI in Ubuntu Linux",
-            "why_it_matters": "This move could enhance Ubuntu's capabilities and attract more users interested in AI features.",
+            "why_it_matters": "Integrating AI features could enhance user experience and functionality in Linux.",
             "signal": "Opportunity"
           },
           {
@@ -459,53 +470,41 @@
           },
           {
             "headline": "Valve launches the Steam Controller without the Steam Machine",
-            "why_it_matters": "The release of the Steam Controller could reshape gaming experiences, despite the absence of the Steam Machine.",
+            "why_it_matters": "The release of the Steam Controller could impact gaming hardware sales and user experience.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Samsung's first smart glasses have leaked",
-            "why_it_matters": "The potential entry of Samsung into the smart glasses market could intensify competition with existing products.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Microsoft and OpenAI’s famed AGI agreement is dead",
-            "why_it_matters": "The termination of this agreement may impact future developments in AI and the relationship between the two companies.",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Canonical's AI plans for Ubuntu",
-            "Watch for responses from Google regarding employee protests",
-            "Anticipate consumer reactions to Valve's Steam Controller launch"
+            "Watch for updates on the Musk v. Altman trial as jury selection progresses.",
+            "Monitor Google's AI chatbot search testing results on YouTube.",
+            "Expect announcements from Canonical regarding AI feature rollouts for Ubuntu."
           ],
           "next_1_4_weeks": [
-            "Expect announcements regarding Samsung's smart glasses at Google I/O",
-            "Follow developments in the Microsoft and OpenAI partnership",
-            "Observe the impact of AI features on Ubuntu's user base"
+            "Anticipate further developments in the Musk v. Altman case as the trial unfolds.",
+            "Look for feedback on the Steam Controller as it becomes available to consumers.",
+            "Watch for responses from Google regarding employee concerns over military AI use."
           ],
           "watch_list": [
-            "Canonical's AI feature rollout",
-            "Google's stance on military AI",
-            "Valve's Steam Controller performance",
-            "Samsung's smart glasses announcement",
-            "Microsoft's future plans with OpenAI"
+            "Musk v. Altman trial outcomes",
+            "Google's AI developments",
+            "Canonical's AI feature integration",
+            "Consumer reactions to the Steam Controller"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating mixed reactions to the news.",
-          "Details about the Samsung smart glasses are still speculative based on leaks."
+          "The sentiment score indicates a neutral tone, suggesting mixed reactions to the news.",
+          "The implications of the Musk v. Altman trial are still unfolding and may change."
         ],
         "related_topics": [
-          "What are the latest AI features in Ubuntu Linux?",
-          "How are Google employees responding to military AI use?",
-          "What to expect from Valve's new Steam Controller?",
-          "Details on Samsung's upcoming smart glasses",
-          "Changes in Microsoft and OpenAI's partnership"
+          "What are the latest updates on the Musk v. Altman trial?",
+          "How is Google integrating AI into YouTube?",
+          "What AI features are coming to Ubuntu Linux?",
+          "What are Google employees saying about military AI use?"
         ]
       },
-      "tweet_text": "Ubuntu embraces AI while tech giants clash over ethics—what's brewing in the world of innovation and...\n\nTechnology Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Steam #Controller #Isnt #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Chaos brews in tech and politics as Musk faces jury, Google redefines YouTube, and Trump targets...\n\nTechnology Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Controller #Google #Isnt #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -608,73 +607,73 @@
       ],
       "ai_report": {
         "key_takeaway": "The Houston Rockets avoided elimination in the NBA playoffs, while Nelly Korda won her third major title in golf, reclaiming the No. 1 ranking.",
-        "summary": "In today's sports news, the Houston Rockets secured a crucial Game 4 victory against the Los Angeles Lakers, keeping their playoff hopes alive. Meanwhile, Nelly Korda triumphed at the Chevron Championship, marking her third major win and regaining the top spot in women's golf. Other highlights include Victor Wembanyama's return from a concussion, Mike Tomlin's departure from the Steelers, and the ongoing NHL playoffs where the Oilers face elimination after a controversial Ducks' overtime goal.",
+        "summary": "In today's sports news, the Houston Rockets secured a crucial Game 4 victory against the Los Angeles Lakers, keeping their playoff hopes alive despite missing star Kevin Durant. Meanwhile, Nelly Korda triumphed at the Chevron Championship, marking her third major win and reclaiming the top spot in women's golf. In the NHL, the Anaheim Ducks pushed the Edmonton Oilers to the brink of elimination with a controversial overtime goal, while the Boston Bruins faced embarrassment after a heavy playoff loss. Additionally, Mike Tomlin discussed his departure from the Steelers, citing playoff struggles as a factor, and undrafted quarterback Diego Pavia accepted an invitation to the Ravens' minicamp. Anze Kopitar's illustrious career ended with a loss, and the NFL draft generated significant buzz in Pittsburgh sports.",
         "key_themes": [
           "NBA playoffs updates",
-          "NHL playoff highlights",
+          "NHL playoff results",
           "NFL draft analysis",
-          "golf major championship results",
-          "Mike Tomlin's career changes"
+          "golf major championships",
+          "sports career retirements"
         ],
         "notable_headlines": [
           {
             "headline": "Rockets survive Game 4 to keep season alive",
-            "why_it_matters": "This victory prevents the Rockets from being eliminated and keeps their playoff hopes intact.",
+            "why_it_matters": "The Rockets' victory prevents elimination and keeps their playoff hopes intact.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Wemby back, unhappy with concussion process",
-            "why_it_matters": "Wembanyama's performance is crucial for the Spurs as they lead their playoff series.",
-            "signal": "Unclear"
-          },
-          {
             "headline": "Korda goes wire-to-wire for 3rd major, again No. 1",
-            "why_it_matters": "Korda's win solidifies her status as a leading figure in women's golf.",
+            "why_it_matters": "Korda's win solidifies her status as a leading player in women's golf.",
             "signal": "Opportunity"
           },
           {
             "headline": "Oilers on brink after officials OK Ducks' OT goal",
-            "why_it_matters": "The Oilers' potential elimination adds tension to the NHL playoffs.",
+            "why_it_matters": "The controversial goal raises questions about officiating in critical playoff moments.",
             "signal": "Risk"
           },
           {
             "headline": "Swayman outburst caps 'unacceptable' Bruins loss",
-            "why_it_matters": "The Bruins face playoff elimination, raising questions about team morale and performance.",
+            "why_it_matters": "The Bruins' poor performance puts them at risk of playoff elimination, raising concerns about team morale.",
             "signal": "Risk"
+          },
+          {
+            "headline": "Tomlin: Exit partly rooted in recent playoff woes",
+            "why_it_matters": "Tomlin's comments highlight the pressures of coaching in the NFL and the impact of playoff performance.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the NBA playoff implications after Game 4 results.",
-            "Updates on the NHL playoff series as teams face elimination.",
-            "Reactions to the NFL draft and its impact on team strategies."
+            "Upcoming NBA playoff games will determine the fate of several teams.",
+            "NHL playoff matchups continue with potential elimination games.",
+            "Analysis of NFL draft picks will dominate sports discussions."
           ],
           "next_1_4_weeks": [
-            "Monitoring the progression of the NBA playoffs and potential matchups.",
-            "Following the NHL playoffs as teams vie for the Stanley Cup.",
-            "Tracking Nelly Korda's performance in upcoming golf tournaments."
+            "Continued coverage of the NBA playoffs as teams vie for the championship.",
+            "NHL playoffs will intensify with more elimination games approaching.",
+            "Golf tournaments will follow Korda's major win, impacting rankings."
           ],
           "watch_list": [
-            "NBA playoff standings and upcoming games.",
-            "NHL playoff results and team performances.",
-            "NFL draft impact on team rosters and strategies.",
-            "Women's golf rankings and upcoming events."
+            "Monitor the performance of the Rockets in the next playoff game.",
+            "Watch for reactions to officiating in the NHL playoffs.",
+            "Follow the developments of the NFL draft classes and their impact on teams.",
+            "Keep an eye on the Bruins' response to their playoff struggles."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall sports landscape today.",
-          "Playoff outcomes can change rapidly, affecting team dynamics and fan sentiment."
+          "The sentiment score indicates mixed feelings about the overall tone of sports news today, suggesting both positive and negative developments.",
+          "The outcomes of playoff games can change rapidly, affecting team dynamics and fan sentiment."
         ],
         "related_topics": [
           "What are the latest NBA playoff results?",
-          "Updates on the NHL playoff series standings.",
-          "Analysis of the NFL draft outcomes.",
-          "How did Nelly Korda perform in her latest tournament?",
+          "Updates on NHL playoff standings and controversies",
+          "Analysis of the recent NFL draft outcomes",
+          "How did Nelly Korda win her third major?",
           "What are the implications of Mike Tomlin's departure from the Steelers?"
         ]
       },
-      "tweet_text": "Rockets defy the odds to stay alive, while Wemby voices his frustration—playoff drama hits a boiling point!\n\nSports Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Alive #Game #Rockets #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Rockets stage a dramatic Game 4 comeback, while Wemby voices frustration over concussion protocol—sports drama...\n\nSports Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Alive #Game #Rockets #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -776,74 +775,72 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries range from dark matter detection to new insights into human origins and chronic pain mechanisms.",
-        "summary": "Today's science headlines highlight a variety of groundbreaking research, including student-led dark matter detection, the resolution of a deep-sea mystery, and new findings on chronic pain and human evolution.",
+        "key_takeaway": "Recent scientific discoveries include a student-built dark matter detector, the origins of human eyes, and links between gut bacteria and depression.",
+        "summary": "Today's science headlines highlight significant advancements, including a student-led initiative to detect dark matter, the resolution of a deep-sea mystery, and insights into human evolution and health. Researchers are also uncovering the complexities of chronic pain, the effects of pesticides on cancer risk, and the implications of gut bacteria on mental health.",
         "key_themes": [
-          "dark matter detection",
+          "dark matter detection by students",
+          "mystery of golden orb solved",
+          "evolution of human eyes",
           "chronic pain mechanisms",
-          "human evolution",
-          "deep-sea discoveries",
-          "superconductivity research"
+          "pesticide exposure and cancer risk"
         ],
         "notable_headlines": [
           {
             "headline": "Students build a “cosmic radio” to listen for dark matter",
-            "why_it_matters": "This project showcases the innovative capabilities of students in tackling complex scientific questions.",
+            "why_it_matters": "This project showcases innovation in scientific education and the pursuit of understanding dark matter.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists finally solve mystery of strange “golden orb” found 2 miles deep",
-            "why_it_matters": "Understanding the origins of unusual deep-sea findings can enhance our knowledge of marine biology.",
+            "why_it_matters": "Understanding the origins of unusual deep-sea findings can enhance knowledge of marine biology and ecology.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists may have found the brain’s switch for chronic pain",
-            "why_it_matters": "Identifying pain mechanisms could lead to new treatments for chronic pain sufferers.",
+            "why_it_matters": "Identifying pain mechanisms could lead to new treatments for chronic pain conditions.",
             "signal": "Opportunity"
           },
           {
             "headline": "Pesticide exposure linked to 150% higher cancer risk in major study",
-            "why_it_matters": "This research raises concerns about the long-term health effects of pesticide use in agriculture.",
+            "why_it_matters": "This research raises concerns about public health and the safety of pesticide use.",
             "signal": "Risk"
           },
           {
             "headline": "DNA research just rewrote the origin of human species",
-            "why_it_matters": "This finding challenges established theories and could reshape our understanding of human evolution.",
+            "why_it_matters": "This finding challenges existing theories and could reshape our understanding of human evolution.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the chronic pain switch may lead to clinical trials.",
-            "More studies on the implications of pesticide exposure are expected.",
-            "Anticipation builds for additional findings related to human evolution."
+            "Further analysis on the implications of the dark matter detector results is expected.",
+            "More studies on chronic pain mechanisms may be released.",
+            "Additional research on the health impacts of pesticides may emerge."
           ],
           "next_1_4_weeks": [
-            "Expect updates on the impact of the dark matter detector project.",
-            "Research on the implications of deep-sea discoveries will continue to unfold.",
-            "New studies may emerge regarding the effects of gut bacteria on mental health."
+            "Anticipated discussions on the implications of the new findings regarding human evolution.",
+            "Potential follow-up studies on the gut bacteria and depression link.",
+            "Continued exploration of ancient marine biology discoveries."
           ],
           "watch_list": [
             "Developments in chronic pain treatment strategies.",
-            "Research on the environmental impact of pesticide use.",
-            "Follow-up studies on the evolution of human species.",
-            "Updates on superconductivity research findings."
+            "Updates on environmental health studies related to pesticides.",
+            "Further insights into the evolution of vertebrate vision.",
+            "Research on the implications of gut microbiome on mental health."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of some studies may take time to fully understand.",
-          "Further research is needed to confirm initial findings."
+          "The findings on chronic pain and gut bacteria are based on animal studies and may require further validation in humans.",
+          "The implications of pesticide exposure need more extensive research to establish causation."
         ],
         "related_topics": [
           "What are the latest discoveries in dark matter research?",
-          "How does chronic pain affect the brain?",
-          "What new insights have emerged about human evolution?",
-          "What are the health risks associated with pesticide exposure?",
-          "How do gut bacteria influence mental health?"
+          "How do gut bacteria influence mental health?",
+          "What new insights have emerged about human evolution?"
         ]
       },
-      "tweet_text": "Unlocking the universe: students tune into dark matter with a “cosmic radio” while scientists decode...\n\nScience Sentiment: Neutral (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Found #Study #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlocking the universe: students tune in to dark matter, while a tiny survivor reveals how life bounced...\n\nScience Sentiment: Neutral (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Found #Study #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
