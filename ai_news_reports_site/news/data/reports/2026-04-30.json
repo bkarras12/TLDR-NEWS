@@ -1,10 +1,13 @@
 {
   "date": "2026-04-30",
-  "generated_at_utc": "2026-04-30T15:45:15Z",
+  "generated_at_utc": "2026-05-01T00:03:53Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump"
+    "trump",
+    "price",
+    "iran",
+    "house"
   ],
   "categories": {
     "world": {
@@ -16,23 +19,72 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0647,
+        "score": -0.0724,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.108, dampened ×0.6 → -0.0647). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.121, dampened ×0.6 → -0.0724). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Myanmar ex-leader Aung San Suu Kyi moved to house arrest, military says",
+          "url": "https://www.bbc.com/news/articles/cz72j8eex4eo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 30 Apr 2026 16:38:58 GMT",
+          "summary": "The Nobel Peace Prize laureate has been in detention since she was ousted in a military coup in 2021.",
+          "source": "BBC News"
+        },
+        {
           "title": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options",
           "url": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 14:29:13 GMT",
+          "published": "Thu, 30 Apr 2026 18:05:26 GMT",
           "summary": "Axios reported that US Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US House votes to end record shutdown over immigration enforcement",
+          "url": "https://www.bbc.com/news/articles/ce3pw5x3z54o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 30 Apr 2026 20:53:36 GMT",
+          "summary": "The vote provides funding for most Department of Homeland Security agencies, except for two subagencies responsible for immigration enforcement.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
+          "url": "https://www.bbc.com/news/articles/cq5pepj21g8o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 30 Apr 2026 20:14:48 GMT",
+          "summary": "At least nine people - including two children - were killed, according to Lebanon's health ministry.",
           "source": "BBC News"
         },
         {
           "title": "Trump says US studying troop cuts in Germany, as spat with Merz intensifies",
           "url": "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 14:31:49 GMT",
+          "published": "Thu, 30 Apr 2026 20:15:20 GMT",
           "summary": "His remarks come after the German chancellor criticised the US approach to the war in Iran.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Belgium plans to nationalise nuclear power plants",
+          "url": "https://www.bbc.com/news/articles/c4g05jg87wko?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 30 Apr 2026 19:50:29 GMT",
+          "summary": "Prime Minister Bart De Wever said the move would see \"less dependence on fossil fuel imports and more control over our own supply\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Britney Spears charged in California with driving under influence",
+          "url": "https://www.bbc.com/news/articles/clyp6r9dzedo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 30 Apr 2026 21:46:18 GMT",
+          "summary": "The pop star is facing one misdemeanour count of driving under the influence of any alcohol and drug.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Israel intercepts Gaza flotilla near Crete and detains 175 activists",
+          "url": "https://www.bbc.com/news/articles/c4g4lk9m77vo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 30 Apr 2026 20:34:26 GMT",
+          "summary": "Pro-Palestinian activists say 22 boats carrying aid for Gaza were illegally intercepted in international waters near the Greek island.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Man sentenced to death for murder of toddlers at Ugandan nursery",
+          "url": "https://www.bbc.com/news/articles/c3d2vzmgekjo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 30 Apr 2026 15:56:04 GMT",
+          "summary": "Christopher Okello Onyum had pleaded insanity but this was dismissed by the judge.",
           "source": "BBC News"
         },
         {
@@ -43,24 +95,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Police say they believe abducted child was murdered as body found in Outback",
-          "url": "https://www.bbc.com/news/articles/cvgzd1yp2n6o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 06:29:55 GMT",
-          "summary": "The five-year-old girl was last seen on Saturday at an Aboriginal town camp near Alice Springs.",
-          "source": "BBC News"
-        },
-        {
           "title": "US charges Mexican governor and other leaders with aiding drug cartel",
           "url": "https://www.bbc.com/news/articles/cpqpzlrd3wwo?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 30 Apr 2026 03:20:04 GMT",
           "summary": "The governor of Sinaloa, Rubén Rocha Moya, hails from the same party as the president of Mexico.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Israel intercepts Gaza flotilla near Crete and detains 175 activists",
-          "url": "https://www.bbc.com/news/articles/c4g4lk9m77vo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 14:37:33 GMT",
-          "summary": "Pro-Palestinian activists say 22 boats carrying aid for Gaza were illegally intercepted in international waters near the Greek island.",
           "source": "BBC News"
         },
         {
@@ -69,118 +107,78 @@
           "published": "Thu, 30 Apr 2026 05:45:54 GMT",
           "summary": "Drone users will also be required to register their devices and secure permits before flying them.",
           "source": "BBC News"
-        },
-        {
-          "title": "Jewish agency warned of 'high' threat level ahead of Bondi shooting, report finds",
-          "url": "https://www.bbc.com/news/articles/cdjpw0n889yo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 06:16:36 GMT",
-          "summary": "Gun reforms should be prioritised and policing around Jewish events increased, royal commission says.",
-          "source": "BBC News"
-        },
-        {
-          "title": "US singer D4vd bought tools online to dispose of girl's body, prosecutors allege",
-          "url": "https://www.bbc.com/news/articles/cvgzll79529o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 01:43:40 GMT",
-          "summary": "The Tiktok star's attorneys have maintained his innocence and vowed to \"vigorously defend\" him.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Christchurch mass killer loses bid to overturn conviction",
-          "url": "https://www.bbc.com/news/articles/cg5p6zq19npo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 04:10:54 GMT",
-          "summary": "White supremacist Brenton Tarrant's appeal is \"utterly devoid of merit\", a New Zealand court has ruled.",
-          "source": "BBC News"
-        },
-        {
-          "title": "'I did not expect it': Kenya's Sabastian Sawe welcomed home with jubilant celebrations",
-          "url": "https://www.bbc.com/news/articles/cddp4y0rzjdo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 07:43:33 GMT",
-          "summary": "The first man to run a marathon in under two hours in a competitive race received a hero's welcome from supporters and family when he arrived home.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trainee driver crashes bus into River Seine",
-          "url": "https://www.bbc.com/news/articles/cm2pyxpwmdro?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Apr 2026 15:34:09 GMT",
-          "summary": "The driver hit a parked car and veered off the road into the river - about 12 miles south of Paris - early on Thursday.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Oil prices surged to their highest levels since 2022 amid escalating tensions regarding Iran and troop discussions in Germany.",
-        "summary": "Today's headlines reflect a mix of geopolitical tensions, domestic issues, and notable events across various regions. Oil prices have risen significantly following reports of potential military actions against Iran, while discussions about troop reductions in Germany have intensified amid criticism from German leadership. In Mali, a blockade has been tightened following a series of violent attacks. The U.S. has charged a Mexican governor with aiding drug cartels, and Israel has intercepted a flotilla of activists attempting to deliver aid to Gaza. Additionally, China is implementing a ban on drone sales in Beijing due to security concerns, and a report highlights a high threat level for Jewish events in Australia. In lighter news, Kenyan marathon runner Sabastian Sawe received a warm welcome upon his return home after a historic achievement.",
+        "key_takeaway": "Myanmar's Aung San Suu Kyi remains under house arrest as global tensions rise over military actions and geopolitical strategies.",
+        "summary": "Today's headlines reflect a mix of ongoing geopolitical tensions, domestic political developments, and significant legal issues affecting various leaders and celebrities worldwide. Myanmar's Aung San Suu Kyi continues to be detained, while oil prices surge amid reports of U.S. military strategies regarding Iran. The U.S. House has voted to end a government shutdown related to immigration enforcement, and deadly strikes in Lebanon raise concerns despite a ceasefire. Additionally, Belgium plans to nationalize its nuclear power plants, and Israel has intercepted a flotilla aimed at Gaza, detaining activists. Other notable news includes a death sentence in Uganda for a nursery murder case and charges against a Mexican governor for cartel ties.",
         "key_themes": [
-          "geopolitical tensions in the Middle East",
-          "oil price fluctuations",
-          "security concerns in China",
-          "blockade situation in Mali",
-          "drug cartel charges in Mexico"
+          "Myanmar political situation",
+          "US military strategy in Iran",
+          "Lebanon ceasefire violations",
+          "Belgium nuclear energy policy",
+          "Israel Gaza flotilla incident"
         ],
         "notable_headlines": [
           {
+            "headline": "Myanmar ex-leader Aung San Suu Kyi moved to house arrest, military says",
+            "why_it_matters": "Suu Kyi's continued detention highlights ongoing political repression in Myanmar.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options",
-            "why_it_matters": "Rising oil prices indicate increased market volatility linked to geopolitical tensions.",
+            "why_it_matters": "Rising oil prices could impact global markets and economic stability.",
             "signal": "Risk"
           },
           {
-            "headline": "Trump says US studying troop cuts in Germany, as spat with Merz intensifies",
-            "why_it_matters": "Potential troop reductions could affect U.S.-Germany relations and NATO dynamics.",
+            "headline": "US House votes to end record shutdown over immigration enforcement",
+            "why_it_matters": "This vote reflects ongoing political struggles in U.S. immigration policy.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
+            "why_it_matters": "The violence raises concerns about the stability of the region and the effectiveness of ceasefire agreements.",
             "signal": "Risk"
           },
           {
-            "headline": "'How are we going to get back home?' Islamist group tightens blockade on Mali capital",
-            "why_it_matters": "The blockade raises concerns about humanitarian access and security in Mali.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US charges Mexican governor and other leaders with aiding drug cartel",
-            "why_it_matters": "These charges highlight ongoing issues of corruption and drug trafficking in Mexico.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Israel intercepts Gaza flotilla near Crete and detains 175 activists",
-            "why_it_matters": "This incident underscores ongoing tensions between Israel and pro-Palestinian activists.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "China to ban drone sales in Beijing citing security concerns",
-            "why_it_matters": "The ban reflects China's increasing focus on security and regulation of technology.",
-            "signal": "Risk"
+            "headline": "Belgium plans to nationalise nuclear power plants",
+            "why_it_matters": "This move indicates a shift towards energy independence and sustainability in Belgium.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments regarding U.S. military actions in Iran and troop discussions in Germany.",
-            "Watch for updates on the blockade situation in Mali and its humanitarian implications.",
-            "Follow the response from pro-Palestinian groups regarding the Gaza flotilla interception."
+            "Monitor developments in Myanmar regarding Aung San Suu Kyi's situation.",
+            "Watch for reactions to the U.S. military strategy on Iran and its impact on oil prices.",
+            "Observe the aftermath of the U.S. House vote on immigration enforcement."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of rising oil prices on global markets and economies.",
-            "Track the implications of U.S. charges against Mexican officials on drug policy and governance.",
-            "Anticipate further security measures in China related to drone regulations."
+            "Expect further developments in the Israeli-Lebanese conflict and its implications for regional stability.",
+            "Anticipate discussions in Belgium regarding the nationalization of nuclear power plants.",
+            "Follow the legal proceedings related to the Mexican governor charged with cartel ties."
           ],
           "watch_list": [
-            "U.S.-Iran relations and military strategies",
-            "Germany's response to U.S. troop presence",
-            "Humanitarian situation in Mali",
-            "Israel-Palestine tensions",
-            "Corruption in Mexican politics"
+            "Aung San Suu Kyi's legal status and international responses.",
+            "Global oil market fluctuations in response to geopolitical tensions.",
+            "The situation in Lebanon and potential escalations in violence.",
+            "Belgium's energy policy changes and their impact on EU energy dynamics."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The geopolitical landscape is highly fluid, and developments can change rapidly.",
-          "Sentiment around these issues may vary significantly based on new information or events."
+          "The situation in Myanmar remains fluid and could change rapidly.",
+          "Geopolitical tensions, particularly in the Middle East, are unpredictable and may escalate.",
+          "Legal outcomes in high-profile cases can vary significantly based on judicial proceedings."
         ],
         "related_topics": [
-          "What are the latest developments in U.S.-Iran relations?",
-          "How is the blockade affecting Mali's capital?",
-          "What are the implications of rising oil prices?",
-          "What security measures is China implementing for drones?",
-          "Updates on the Gaza flotilla incident and its aftermath."
+          "What is the current situation in Myanmar?",
+          "How are oil prices affected by geopolitical tensions?",
+          "What are the implications of the US House vote on immigration?",
+          "What is happening in Lebanon regarding the ceasefire?",
+          "What are Belgium's plans for nuclear energy?"
         ]
       },
-      "tweet_text": "From rising oil prices to a chilling blockade in Mali, today's world news is a wake-up call we can't ignore.\n\nWorld Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #2022 #Abducted #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Aung San Suu Kyi's fate hangs in the balance as Myanmar's military escalates its grip—what's next for democracy?\n\nWorld Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#House #Trump #2022 #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -191,16 +189,37 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0218,
+        "score": -0.0005,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.036, dampened ×0.6 → -0.0218). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.001, dampened ×0.6 → -0.0005). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Oil price tops $126 a barrel after Trump warns Iran blockade could last ‘months’",
           "url": "https://www.theguardian.com/world/2026/apr/30/oil-price-news-highest-since-2022-us-iran-ceasefire-strait-of-hormuz",
           "published": "Thu, 30 Apr 2026 13:38:54 GMT",
-          "summary": "<p>Markets spooked as US president appears willing to keep up naval blockade and Iran keeps strait of Hormuz all but shut</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/apr/30/bank-of-england-expected-hold-interest-rates-noon-assesses-fallout-iran-war-live-updates\">Business live – latest updates</a></p></li></ul><p>The global oil price has soared above $126 a barrel, its highest level since 2022, after Donald Trump said the US blockade of Iranian ports could last for month",
+          "summary": "<p>Markets spooked as US president appears willing to keep up naval blockade and Iran keeps strait of Hormuz all but shut</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/apr/30/bank-of-england-expected-hold-interest-rates-noon-assesses-fallout-iran-war-live-updates\">Business live – latest updates</a></p></li></ul><p>The global oil price hit $126 a barrel on Thursday, its highest level since 2022, after Donald Trump said the US blockade of Iranian ports could last for months",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump to lift tariffs on scotch whisky after king’s US visit",
+          "url": "https://www.theguardian.com/us-news/2026/apr/30/trump-tariffs-whisky-imports",
+          "published": "Thu, 30 Apr 2026 20:04:53 GMT",
+          "summary": "<p>President says decision made ‘in honor of the king and queen’ as industry officials call deal ‘significant boost’</p><p>In a gesture of diplomatic friendliness after King Charles’s visit to the White House, Donald Trump said the US would be removing all tariffs on whisky imports.</p><p>“In Honor of the King and Queen of the United Kingdom, who have just left the White House, soon headed back to their wonderful Country, I will be removing the Tariffs and Restrictions on Whiskey having to do wi",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Apple soars past Wall Street expectations as CEO Tim Cook prepares to step down",
+          "url": "https://www.theguardian.com/technology/2026/apr/30/apple-extraordinary-earnings-tim-cook-john-ternus",
+          "published": "Thu, 30 Apr 2026 23:21:54 GMT",
+          "summary": "<p>Company reported $111.2bn in revenue in first earnings report after announcement of Cook’s pending departure</p><p><a href=\"https://www.theguardian.com/technology/apple\">Apple</a> blew past Wall Street expectations in its first earnings report since it announced CEO <a href=\"https://www.theguardian.com/technology/tim-cook\">Tim Cook</a> would be stepping down.</p><p>Cook shared his thoughts about the leadership transition on Thursday, saying: “There’s no one on this planet I trust more to lead",
+          "source": "The Guardian"
+        },
+        {
+          "title": "US economic growth rebounds 2% as consumer spending slows amid Iran war",
+          "url": "https://www.theguardian.com/business/2026/apr/30/gdp-consumer-spending-slows-iran-war",
+          "published": "Thu, 30 Apr 2026 13:11:23 GMT",
+          "summary": "<p>First quarter output, driven by AI investment and government spending, rose as oil shock fuels inflation fears</p><p>US <a href=\"https://www.theguardian.com/business/economicgrowth\">gross domestic product (GDP)</a> accelerated to an annual rate of 2% in the first three months of 2026, though consumer spending is slowing as the war with Iran continues to impact energy prices.</p><p>The last GDP reading for the fourth quarter of 2025 showed that US economic growth slowed to an annual pace of 0.",
           "source": "The Guardian"
         },
         {
@@ -239,24 +258,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "FCC orders review of ABC licenses after Jimmy Kimmel’s Melania Trump joke",
-          "url": "https://www.theguardian.com/us-news/2026/apr/28/fcc-abc-jimmy-kimmel",
-          "published": "Tue, 28 Apr 2026 19:07:27 GMT",
-          "summary": "<p>Eight local broadcasting licenses under review after White House launched attack on late-night host over comment</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email to get newsletter alerts in your inbox</a></p></li></ul>",
-          "source": "The Guardian"
-        },
-        {
-          "title": "‘It feels like a betrayal’: anger as Apple to close its first unionized store in the US",
-          "url": "https://www.theguardian.com/us-news/2026/apr/28/apple-closes-first-union-store-maryland",
-          "published": "Tue, 28 Apr 2026 15:00:13 GMT",
-          "summary": "<p>Tech giant accused of ‘cynical attempt to bust the union’ in decision to shutter location in Towson, Maryland</p><p>Workers at the first <a href=\"https://www.theguardian.com/technology/apple\">Apple</a> store to unionize in the US are pushing back against the company’s decision to shut it down by June, alleging that Apple’s decision is rooted in “a cynical attempt to bust the union”.</p><p>On Monday, the union filed an <a href=\"https://www.goiam.org/wp-content/uploads/2026/04/Charge-Apr-27-26.",
-          "source": "The Guardian"
-        },
-        {
-          "title": "US gas prices surge to highest level in four years, averaging $4.18 a gallon",
-          "url": "https://www.theguardian.com/business/2026/apr/28/gas-price-surge-highest-level-in-four-years",
-          "published": "Tue, 28 Apr 2026 16:47:52 GMT",
-          "summary": "<p>Oil prices surged as talks on reopening of strait of Hormuz remain gridlocked, sending prices $1 higher than last year</p><p>US gas prices rose to their highest level in four years on Thursday, reaching an average $4.18 a gallon at the pump as US-Israeli peace talks with Iran remain at a standstill.</p><p>The last time average US gas prices breached $4.15 a gallon was in April 2022, when oil prices soared shortly after Russia invaded Ukraine. Average gas prices are now $1 higher than just a y",
+          "title": "Could the UAE’s shock exit from Opec cause an oil price war?",
+          "url": "https://www.theguardian.com/business/2026/apr/30/uae-saudi-arabia-opec-gulf-oil-price-war",
+          "published": "Thu, 30 Apr 2026 14:00:19 GMT",
+          "summary": "<p>A standoff between Gulf oil giants Saudi Arabia and the UAE could cause greater market volatility for years to come</p><p>The conflict in the Middle East has claimed Opec as the latest casualty of war. The United Arab Emirates’ <a href=\"https://www.theguardian.com/business/2026/apr/28/uae-quit-opec-oil-exporters-cartel-donald-trump\">shock exit</a> from the oil cartel on Tuesday after 60 years is expected to weaken the alliance, which under the leadership of Saudi Arabia has helped to soothe v",
           "source": "The Guardian"
         },
         {
@@ -272,84 +277,78 @@
           "published": "Sun, 26 Apr 2026 14:00:16 GMT",
           "summary": "<p>Some employers are reluctant to cut workers’ hours but pay them the same – but it just might be the future of work</p><p>We keep hearing that the four-day workweek is the future. So why are so few businesses actually adopting it?</p><p>Belgium, Iceland and Lithuania have passed legislation requiring the practice, and <a href=\"https://remote.com/blog/eor-peo/four-day-workweek-countries?\">other countries</a> in Europe are piloting the idea. Hundreds of companies in the UK have <a href=\"https://",
           "source": "The Guardian"
-        },
-        {
-          "title": "How AI’s threat to entry-level jobs is turning gen Z into ‘Generation Entrepreneur’",
-          "url": "https://www.theguardian.com/technology/ng-interactive/2026/apr/25/gen-z-entrepreneurs-business-ai",
-          "published": "Sat, 25 Apr 2026 12:00:45 GMT",
-          "summary": "<p>As AI erases the bottom rungs of the corporate ladder, some gen Z workers skip the entry level to become their own CEOs</p><p>When Ashley Terrell graduated from the University of Hawaii in 2024, she planned to find a job in marketing, maybe for a tech company. She had a bachelor’s degree in business administration and a college résumé that included a student marketing job for Red Bull. But after months of applying, her only offer was to work in the power tools section at Home Depot. “It was q",
-          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Oil prices surged above $126 a barrel amid geopolitical tensions, while US gas prices reached a four-year high of $4.18 per gallon.",
-        "summary": "Today's business news highlights significant developments in the oil market, with prices soaring due to geopolitical tensions involving Iran. The Federal Reserve's decision to maintain interest rates has implications for economic stability, while tech giants report strong earnings, indicating a positive outlook for the stock market. Additionally, CEO compensation in the energy sector has risen sharply, raising concerns amid rising utility costs for consumers. The closure of Apple's first unionized store has sparked controversy, reflecting ongoing labor issues in the tech industry.",
+        "key_takeaway": "Oil prices surged to $126 a barrel amid geopolitical tensions, while Apple exceeded earnings expectations and Trump lifted tariffs on whisky imports.",
+        "summary": "Today's business news highlights significant developments in oil prices, corporate earnings, and trade policy. The oil market reacted sharply to geopolitical tensions involving Iran, with prices reaching their highest since 2022. In corporate news, Apple reported strong earnings, surpassing Wall Street expectations, as CEO Tim Cook prepares to step down. Additionally, President Trump announced the removal of tariffs on whisky imports following a royal visit, signaling a potential shift in trade relations. The US economy showed a rebound in growth, although consumer spending is slowing due to ongoing inflation concerns related to the Iran conflict.",
         "key_themes": [
-          "oil price surge",
-          "US Federal Reserve interest rates",
-          "tech earnings report",
-          "CEO compensation trends",
-          "labor issues in tech"
+          "Oil price fluctuations",
+          "Apple earnings report",
+          "US trade policy changes",
+          "Economic growth trends",
+          "Impact of geopolitical tensions"
         ],
         "notable_headlines": [
           {
             "headline": "Oil price tops $126 a barrel after Trump warns Iran blockade could last ‘months’",
-            "why_it_matters": "The surge in oil prices reflects heightened geopolitical tensions and could impact global markets and consumer costs.",
+            "why_it_matters": "The spike in oil prices reflects heightened geopolitical tensions and could impact global markets and inflation.",
             "signal": "Risk"
           },
           {
-            "headline": "Jerome Powell to stay on Fed board after central bank holds rates steady in defiance of Trump",
-            "why_it_matters": "Powell's continued leadership at the Fed may influence monetary policy stability amid economic uncertainty.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Tech giants’ results show rosy outlook for AI boom and US stock market",
-            "why_it_matters": "Positive earnings from major tech companies suggest resilience in the stock market despite fears of an AI bubble.",
+            "headline": "Trump to lift tariffs on scotch whisky after king’s US visit",
+            "why_it_matters": "Removing tariffs may enhance trade relations with the UK and benefit the whisky industry significantly.",
             "signal": "Opportunity"
           },
           {
-            "headline": "CEOs of US’s top energy firms averaged nearly 16% pay raise to $12.3m, review finds",
-            "why_it_matters": "Rising CEO compensation amidst increasing utility costs raises questions about corporate governance and consumer impact.",
-            "signal": "Risk"
+            "headline": "Apple soars past Wall Street expectations as CEO Tim Cook prepares to step down",
+            "why_it_matters": "Apple's strong earnings indicate robust performance and investor confidence, despite leadership changes.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "‘It feels like a betrayal’: anger as Apple to close its first unionized store in the US",
-            "why_it_matters": "Apple's decision to close a unionized store could have implications for labor relations in the tech industry.",
+            "headline": "US economic growth rebounds 2% as consumer spending slows amid Iran war",
+            "why_it_matters": "The growth rebound suggests resilience in the economy, but slowing consumer spending raises concerns about future performance.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "UAE quits Opec in win for Trump as oil cartel weakened",
+            "why_it_matters": "The UAE's exit from Opec could lead to increased volatility in oil prices and shift power dynamics in the oil market.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor oil price fluctuations and geopolitical developments in the Middle East.",
-            "Watch for reactions from consumers and businesses to rising gas prices.",
-            "Observe the Federal Reserve's communications regarding future interest rate policies."
+            "Monitor oil price trends and geopolitical developments in the Middle East.",
+            "Watch for reactions from the stock market following Apple's earnings report.",
+            "Keep an eye on trade negotiations following the tariff removal on whisky."
           ],
           "next_1_4_weeks": [
-            "Evaluate the impact of tech earnings on stock market trends and investor sentiment.",
-            "Assess the implications of rising CEO pay on corporate governance and public perception.",
-            "Follow developments in labor relations, especially regarding union activities in the tech sector."
+            "Assess the impact of rising oil prices on inflation and consumer spending.",
+            "Evaluate the long-term effects of UAE's exit from Opec on global oil supply and prices.",
+            "Observe how corporate earnings reports from other tech giants influence market sentiment."
           ],
           "watch_list": [
-            "Oil price trends and geopolitical developments in Iran and the Middle East.",
-            "Federal Reserve announcements and economic indicators.",
-            "Tech sector performance and potential impacts of AI on employment.",
-            "Consumer reactions to rising utility costs and gas prices."
+            "Oil price movements and their economic implications.",
+            "Corporate earnings from major companies in the tech sector.",
+            "Updates on US trade policy and international relations.",
+            "Consumer spending trends amid rising inflation."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Geopolitical tensions can change rapidly, impacting oil prices unpredictably.",
-          "Economic indicators may not fully reflect consumer sentiment or market stability."
+          "Geopolitical tensions can change rapidly, affecting market stability.",
+          "Economic forecasts are subject to revision based on new data.",
+          "Corporate earnings may not be indicative of long-term trends."
         ],
         "related_topics": [
-          "What are the latest trends in oil prices?",
-          "How are tech companies performing in the stock market?",
-          "What is the impact of rising CEO pay on consumers?",
-          "What are the implications of labor issues in the tech industry?",
-          "How is the Federal Reserve influencing the economy?"
+          "What are the latest oil price trends?",
+          "How did Apple perform in its latest earnings report?",
+          "What changes are happening in US trade policy?",
+          "What is the impact of the Iran conflict on the economy?",
+          "How are tech companies influencing the stock market?"
         ]
       },
-      "tweet_text": "Oil prices soar, CEOs cash in, and a climate warning echoes—today's business landscape is anything but...\n\nBusiness Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Review #123m #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Oil prices surge as Trump warns of an Iran blockade, while Apple sets the stage for a new era with Tim Cook's...\n\nBusiness Sentiment: Neutral (-0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Iran #123m #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -360,153 +359,152 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0559,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.093, dampened ×0.6 → +0.0559). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.02,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg -0.033, dampened ×0.6 → -0.0200). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Now California&#8217;s cops can give tickets to driverless cars",
-          "url": "https://www.theverge.com/transportation/921290/california-driverless-vehicles-traffic-tickets",
-          "published": "2026-04-30T11:37:53-04:00",
-          "summary": "Autonomous vehicles roving California's roads will no longer be immune to traffic tickets starting on July 1st. New regulations announced by the California DMV this week allow law enforcement to give AV manufacturers a \"notice of AV noncompliance\" when one of their cars commits a traffic violation, like running a red light or failing to [&#8230;]",
+          "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
+          "published": "2026-04-30T18:59:51-04:00",
+          "summary": "Okay, I am not a lawyer so I only understood about half of what just happened. But I am fairly sure, given the context, that Elon Musk's lawyers may have just fucked up big. Jared \"James Brickhouse\" Birchall, Musk's finance guy and all-around fixer, took the stand after Musk today. Most of his testimony was [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "After working on the Vision Pro, this AR veteran is going back to phones",
-          "url": "https://www.theverge.com/column/921101/ar-mobile-pixi",
-          "published": "2026-04-30T11:30:00-04:00",
-          "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. When Mark Drummond was working on the Vision Pro at Apple, he had a bit of an epiphany that didn't really fit Cupertino's preferred narrative. Drummond was managing the Character [&#8230;]",
+          "title": "Roblox’s daily users continue to drop as age checks slow growth",
+          "url": "https://www.theverge.com/games/921694/roblox-q1-2026-132-million-dau",
+          "published": "2026-04-30T17:25:15-04:00",
+          "summary": "Roblox's daily active users continued to slip last quarter due in part to its rollout of age checks on its platform. According to its latest earnings report, Roblox currently has 132 million daily active users globally, down from 144 million at the end of last year, which was a drop from 152 million in Q3 [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "$100 Nintendo gift cards are $20 off at Newegg today",
-          "url": "https://www.theverge.com/gadgets/921157/100-nintendo-gift-cards-are-20-off-at-newegg-today",
-          "published": "2026-04-30T11:15:03-04:00",
-          "summary": "Nintendo eShop gift cards can be used to buy games, apparel, and even hardware or accessories from its online storefront. No matter what you want to get, you can save a fairly substantial amount by purchasing a twin-pack of $50 eShop gift cards from Newegg. Originally $100, you can get them for $80.50, and there’s [&#8230;]",
+          "title": "Congress keeps kicking surveillance reform down the road",
+          "url": "https://www.theverge.com/policy/921652/congress-fisa-section-702-45-day-extension",
+          "published": "2026-04-30T16:59:58-04:00",
+          "summary": "Congress has reauthorized Section 702 of the Foreign Intelligence Surveillance Act - but only for another 45 days. The extension is meant to give legislators more time to negotiate reforms to the controversial wiretapping bill. If the past few weeks are any indication of how future debates will go, however, we're in for a bumpy [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Subnautica 2 launches soon after lengthy legal dispute",
-          "url": "https://www.theverge.com/games/920668/subnautica-2-early-access-release-date-unknown-worlds-krafton",
-          "published": "2026-04-30T11:15:00-04:00",
-          "summary": "After some protracted legal drama, Subnautica 2 is finally about to launch. The game, which is currently Steam's most-wishlisted title and was caught up in a dispute between top executives at developer Unknown Worlds and its owner, Krafton, will be available in early access on PC and Xbox Series X / S starting May 14th. [&#8230;]",
+          "title": "Apple&#8217;s iPhone revenue jumps to $57 billion despite chip shortages",
+          "url": "https://www.theverge.com/tech/921527/apple-iphone-revenue-q2-2026-earnings",
+          "published": "2026-04-30T16:58:22-04:00",
+          "summary": "Apple's iPhone revenue jumped 22 percent to $57 billion over the past few months, despite supply chain issues impacting the device's processor. In an interview with Reuters, Apple CEO Tim Cook said iPhone \"demand was off the charts,\" but there's \"a little less flexibility at the moment for getting more parts.\" Cook added during an [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Anbernic’s new rotating screen handheld will start at less than $100",
-          "url": "https://www.theverge.com/tech/921203/anbernic-rg-rotate-android-handheld-pricing-availability-preorders",
-          "published": "2026-04-30T11:00:08-04:00",
-          "summary": "Following its sliding screen handheld that debuted last June with a design that some reviewers found to be too chunky and thick, Anbernic has shared more details about its new rotating screen handheld that looks more pocketable. The RG Rotate (Anbernic has never been known for its clever device naming) will be available for preorder [&#8230;]",
+          "title": "Rivian’s revenue is up as R2 production kicks into gear",
+          "url": "https://www.theverge.com/transportation/921295/rivian-q1-2026-earnings-revenue-profit-r2",
+          "published": "2026-04-30T16:05:00-04:00",
+          "summary": "Rivian reported its first quarter earnings of 2026, providing us a closer look at the company's financial health as it kicks off production for the crucial R2 electric vehicle. We've already got Rivian's production and delivery statement from the first three months of the year. The company sold 10,365 vehicles in Q1, representing 20 percent [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "All these smart glasses and nothing to do",
-          "url": "https://www.theverge.com/tech/921159/smart-glasses-review-wearable-even-realities-g2-meta-ray-ban-rokid-lucyd-oakley-meta-vanguard",
-          "published": "2026-04-30T11:00:00-04:00",
-          "summary": "I'm currently wearing a pair of smart glasses called the Even Realities G2. Another two pairs, from Rokid, sit on my desk. A few feet away, I've got the Meta Ray-Ban Display charging alongside their Neural Wristband. In my closet are six pairs of $50 smart sunnies that an overzealous Walmart rep sent me. Those [&#8230;]",
+          "title": "Rivian downsizes new EV factory after Trump’s DOE slashes loan agreement",
+          "url": "https://www.theverge.com/transportation/921585/rivian-georgia-factory-capacity-doe-loan",
+          "published": "2026-04-30T16:05:00-04:00",
+          "summary": "Rivian announced some changes today with regard to the factory its building in the state of Georgia. The company was planning to build the facility in two phases, each resulting in 200,000 vehicles of annual production capacity, for a total of 400,000 units. Rivian held a ground breaking ceremony late last year. Now the company [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "How Adam Scott became an accidental horror movie star",
-          "url": "https://www.theverge.com/entertainment/920921/adam-scott-interview-hokum-horror",
-          "published": "2026-04-30T10:30:00-04:00",
-          "summary": "Adam Scott grew up watching horror movies at, as he describes it, \"probably too young\" an age. But he never set out to work specifically in the genre. Even still, horror seemed to follow him around from the very beginning. His first major film role was in Hellraiser IV in 1996. \"It wasn't because I [&#8230;]",
+          "title": "The logic of the racist Supreme Court isn’t adding up",
+          "url": "https://www.theverge.com/policy/921597/callais-louisiana-voting-rights-act",
+          "published": "2026-04-30T15:52:29-04:00",
+          "summary": "Close watchers of the Supreme Court knew that the conservative supermajority was about to murder what was left of the Voting Rights Act. Wednesday's decision in Louisiana v. Callais took down Section 2 of the law, clearing the way for racist gerrymandering, because it is now racist to remedy racism. The decision is an affront [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "How to win — and lose — Decoder",
-          "url": "https://www.theverge.com/podcast/920768/decoder-mailbag-how-to-win-lose-ai-nilay-interview",
-          "published": "2026-04-30T10:00:00-04:00",
-          "summary": "This interview has been lightly edited for length and clarity.&#160; Hello and welcome to Decoder, Nilay&#8217;s show about big ideas and other problems. This is Nick Statt, senior producer, and I&#8217;m joined by host and very occasional guest, Nilay Patel. Nilay, welcome back to your own show. Hello. I hate being the guest. Now, you [&#8230;]",
+          "title": "Microsoft’s Xbox mode is now available for all Windows 11 PCs",
+          "url": "https://www.theverge.com/news/921582/microsoft-xbox-mode-windows-11",
+          "published": "2026-04-30T15:14:23-04:00",
+          "summary": "Microsoft is now rolling out its Xbox mode to all Windows 11 PCs. The new Xbox mode adds a full-screen interface to the Xbox PC app, much like Steam's Big Picture Mode, and originally debuted as the Xbox Full Screen Experience (FSE) with Asus' Xbox Ally devices. \"Some players in select markets will be able [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Samsung says the RAM shortage could get even worse next year",
-          "url": "https://www.theverge.com/tech/921190/samsung-ram-shortage-getting-worse-2027",
-          "published": "2026-04-30T09:48:59-04:00",
-          "summary": "There may be a long wait before the end of the RAM shortage that's driving up prices on everything from phones to gaming handhelds. During an earnings call on Thursday, Samsung predicted that the severe memory shortage, driven by demand from AI data centers, will not only continue next year, but likely get worse, as [&#8230;]",
+          "title": "Meta threatens to pull its apps from New Mexico if forced to make ‘technologically impractical’ changes",
+          "url": "https://www.theverge.com/policy/921557/meta-threatens-leaving-new-mexico",
+          "published": "2026-04-30T15:05:01-04:00",
+          "summary": "Meta says it may be forced to pull Facebook, Instagram, and WhatsApp from New Mexico if the attorney general gets his way. The state is demanding a host of changes that the company says are impossible to achieve. After winning a $375 million jury award against Meta in a trial that argued the company misled [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Commodore 64 and ZX Spectrum have been turned into retrofuturistic handhelds",
-          "url": "https://www.theverge.com/tech/921178/blaze-entertainment-retro-games-commodore-64-zx-spectrum-handhelds",
-          "published": "2026-04-30T09:45:46-04:00",
-          "summary": "Blaze Entertainment, the company behind the cartridge-based Evercade consoles, has announced two new handhelds that reimagine iconic '80s personal computers as portable gaming machines. The Spectrum Handheld and The C64 Handheld eschew the productivity aspects of the Commodore 64 and ZX Spectrum to focus on gaming, with each portable coming with its own collection of [&#8230;]",
+          "title": "With Saros, Housemarque makes a case for doing next-gen games differently",
+          "url": "https://www.theverge.com/games/921391/housemarque-interview-saros-ps5",
+          "published": "2026-04-30T15:00:45-04:00",
+          "summary": "It is generally frowned upon to care too much about appearances. We have a lot of little aphorisms discouraging this - books and their covers, beauty being skin deep, style over substance, that sort of thing. Vanity is a risk. Should one put a disproportionate effort into how a thing looks, then said work may [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "California will allow police to ticket driverless cars starting July 1, marking a significant regulatory shift for autonomous vehicles.",
-        "summary": "Today's technology news highlights California's new regulations allowing police to ticket driverless cars, the upcoming launch of Subnautica 2 after legal disputes, and Samsung's warning about worsening RAM shortages. Additionally, Anbernic's new handheld device is set to launch under $100, while smart glasses continue to face usability challenges.",
+        "key_takeaway": "Apple's iPhone revenue surged to $57 billion despite supply chain challenges, while Roblox's daily users declined due to new age verification measures.",
+        "summary": "Today's technology news highlights significant developments including a surge in Apple's iPhone revenue, a decline in Roblox's daily users, and ongoing surveillance reform discussions in Congress. Additionally, Rivian's production ramp-up and factory downsizing, Microsoft's Xbox mode rollout for Windows 11, and Meta's threats regarding New Mexico regulations were also reported.",
         "key_themes": [
-          "California driverless car regulations",
-          "Subnautica 2 launch news",
-          "Samsung RAM shortage predictions",
-          "Anbernic handheld gaming device",
-          "smart glasses usability issues"
+          "Apple's iPhone revenue growth",
+          "Roblox user decline",
+          "Congress surveillance reform",
+          "Rivian production updates",
+          "Microsoft Xbox mode",
+          "Meta app threats in New Mexico"
         ],
         "notable_headlines": [
           {
-            "headline": "Now California's cops can give tickets to driverless cars",
-            "why_it_matters": "This regulation could impact the development and deployment of autonomous vehicles in California.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Subnautica 2 launches soon after lengthy legal dispute",
-            "why_it_matters": "The game's early access launch is highly anticipated, reflecting ongoing interest in gaming despite legal challenges.",
+            "headline": "Apple's iPhone revenue jumps to $57 billion despite chip shortages",
+            "why_it_matters": "This significant revenue increase indicates strong consumer demand for iPhones, despite ongoing supply chain issues.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Samsung says the RAM shortage could get even worse next year",
-            "why_it_matters": "This could lead to increased prices for consumer electronics, affecting various tech markets.",
+            "headline": "Roblox’s daily users continue to drop as age checks slow growth",
+            "why_it_matters": "The decline in daily active users raises concerns about Roblox's growth strategy and user engagement.",
             "signal": "Risk"
           },
           {
-            "headline": "Anbernic’s new rotating screen handheld will start at less than $100",
-            "why_it_matters": "Affordable gaming devices may attract more consumers and expand the handheld gaming market.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "All these smart glasses and nothing to do",
-            "why_it_matters": "The lack of practical applications for smart glasses raises questions about their future in the consumer market.",
+            "headline": "Congress keeps kicking surveillance reform down the road",
+            "why_it_matters": "The temporary extension of Section 702 highlights ongoing challenges in achieving meaningful surveillance reform.",
             "signal": "Unclear"
+          },
+          {
+            "headline": "Microsoft’s Xbox mode is now available for all Windows 11 PCs",
+            "why_it_matters": "The rollout of Xbox mode enhances gaming experience on Windows 11, potentially attracting more users to the platform.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Meta threatens to pull its apps from New Mexico if forced to make ‘technologically impractical’ changes",
+            "why_it_matters": "Meta's threat underscores the tension between tech companies and state regulations, impacting user access to popular platforms.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to California's driverless car regulations",
-            "Tracking preorders for Anbernic's new handheld device",
-            "Observing consumer interest in Subnautica 2's early access"
+            "Monitoring reactions to Apple's earnings report and its impact on stock prices.",
+            "Observing user feedback on the new Xbox mode in Windows 11.",
+            "Following developments in Congress regarding surveillance reform discussions."
           ],
           "next_1_4_weeks": [
-            "Evaluating the impact of RAM shortages on tech product prices",
-            "Watching for updates on smart glasses usability improvements",
-            "Anticipating consumer feedback on Subnautica 2 post-launch"
+            "Tracking Roblox's user engagement strategies and potential recovery efforts.",
+            "Watching for updates on Rivian's production and factory developments.",
+            "Anticipating Meta's response to New Mexico's regulatory demands."
           ],
           "watch_list": [
-            "California DMV regulations on autonomous vehicles",
-            "Subnautica 2 early access reviews",
-            "Samsung's RAM market predictions",
-            "Anbernic handheld device performance",
-            "Smart glasses market trends"
+            "Apple's supply chain management and future earnings reports.",
+            "Roblox's user growth strategies and market adjustments.",
+            "Legislative progress on surveillance reform in Congress.",
+            "Rivian's production milestones and financial health updates."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of new regulations on driverless cars is still uncertain.",
-          "Consumer response to Subnautica 2 may vary based on its gameplay experience.",
-          "The future of smart glasses remains unpredictable due to market dynamics."
+          "The sentiment score indicates a neutral overall tone, suggesting mixed reactions to the news.",
+          "Future developments in Congress regarding surveillance reform remain uncertain."
         ],
         "related_topics": [
-          "What are the new regulations for driverless cars in California?",
-          "When is Subnautica 2 launching?",
-          "How is the RAM shortage affecting tech prices?",
-          "What features does Anbernic's new handheld device offer?",
-          "Are smart glasses becoming more useful?"
+          "What are the latest updates on Apple's iPhone revenue?",
+          "How is Roblox addressing its user decline?",
+          "What is happening with surveillance reform in Congress?",
+          "What features does Microsoft's Xbox mode offer for Windows 11?",
+          "What are Meta's challenges in New Mexico?"
         ]
       },
-      "tweet_text": "California cops can now ticket driverless cars—who knew the future would come with a speed limit?\n\nTechnology Sentiment: Mixed (+0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Accidental #Adam #Anbernics #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Just when you thought the Musk v. Altman trial couldn't get wilder, the jury stepped out and chaos...\n\nTechnology Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Revenue #Adding #Agreement #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -517,170 +515,174 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0075,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.013, dampened ×0.6 → -0.0075). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1495,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.249, dampened ×0.6 → +0.1495). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Reid's early NFL mock draft for next year: Which 2...",
-          "url": "https://www.espn.com/nfl/draft2027/story/_/id/48611355/2027-nfl-mock-draft-early-first-round-predictions-32-picks-manning-smith",
-          "published": "Thu, 30 Apr 2026 11:39:05 EST",
-          "summary": "We're still a full year out, but let's make way-too-early predictions for every first-round pick of the 2027 NFL draft. Will Arch Manning go No. 1? Jeremiah Smith?",
+          "title": "'Not good enough': Woeful Mets end April 10-21",
+          "url": "https://www.espn.com/mlb/story/_/id/48640825/woeful-mets-lose-again-finish-april-mlb-worst-10-21-record",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
+          "summary": "The Mets fell to the Nationals 5-4 on Thursday at Citi Field to finish April with the worst record in baseball at 10-21.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Source: Vet DE Campbell reuniting with Ravens",
+          "url": "https://www.espn.com/nfl/story/_/id/48638308/source-calais-campbell-reuniting-ravens-19th-season",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
+          "summary": "Veteran defensive end Calais Campbell, who played with the Ravens from 2020 to 2022, is returning to sign a one-year deal with Baltimore, a source told ESPN's Adam Schefter.",
           "source": "ESPN"
         },
         {
           "title": "Wall becomes Howard's prez of basketball ops",
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/48636449/john-wall-becomes-howard-president-basketball-operations",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
           "summary": "Five-time NBA All-Star John Wall has become the president of basketball operations at Howard University, returning to Washington to partner with the top-ranked HBCU in the country, school officials told ESPN.",
           "source": "ESPN"
         },
         {
-          "title": "LIV establishes new board in attempt to survive",
-          "url": "https://www.espn.com/golf/story/_/id/48636527/liv-golf-establishes-new-independent-board-attempt-survive",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
-          "summary": "With Saudi Arabia's Public Investment Fund pulling its funding after the 2026 season, the LIV Golf League has established a new independent board as it attempts to survive as a \"diversified, multi-partner investment model,\" the league announced Thursday.",
+          "title": "Magic rule Wagner out for Game 6 vs. Pistons",
+          "url": "https://www.espn.com/nba/story/_/id/48641292/magic-rule-franz-wagner-friday-game-6-vs-pistons",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
+          "summary": "Franz Wagner will miss his second straight game because of a calf strain, as it appears increasingly unlikely that he will return in this series.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: Giants' Slayton has core-muscle surgery",
-          "url": "https://www.espn.com/nfl/story/_/id/48638006/sources-giants-wr-darius-slayton-core-muscle-surgery",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
-          "summary": "Giants wide receiver Darius Slayton underwent surgery for a core-muscle injury recently and is expected to be sidelined throughout the Giants' offseason program this spring, sources told NFL Network.",
+          "title": "NBA calls for tighter prediction market restrictio...",
+          "url": "https://www.espn.com/nba/story/_/id/48641335/nba-asks-regulator-tighten-restrictions-prediction-markets",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
+          "summary": "The NBA asked the nation's top commodities regulator Thursday to impose tighter restrictions on players, game officials and team staff to ensure prediction markets don't undermine sports integrity and fan confidence.",
           "source": "ESPN"
         },
         {
-          "title": "Source: Amid LIV unrest, players exploring return",
-          "url": "https://www.espn.com/golf/story/_/id/48634126/source-some-liv-players-exploring-potential-pga-tour-return",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
-          "summary": "Amid uncertainty about the Saudi-backed tour's future, multiple representatives for LIV Golf players have started to reach out to the PGA Tour to explore what a path back would look like, a source told ESPN on Wednesday.",
+          "title": "FIFA: Iran's WC status unchanged amid absence",
+          "url": "https://www.espn.com/soccer/story/_/id/48639110/fifa-iran-world-cup-status-unchanged-congress-absence",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
+          "summary": "FIFA president Gianni Infantino reiterated Thursday that Iran will take part in the World Cup and play its originally scheduled matches in the United States.",
           "source": "ESPN"
         },
         {
-          "title": "Rioux, college hoops' tallest player, to UC Irvine...",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48637852/oliver-rioux-college-hoops-tallest-7-9-commits-uc-irvine",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
-          "summary": "Olivier Rioux, who at 7-foot-9 is the tallest player in college basketball history and the tallest player to score in a Division I game, has committed to play for UC Irvine.",
+          "title": "Campbell won't return to Kraken, sources say",
+          "url": "https://www.espn.com/nhl/story/_/id/48638464/jessica-campbell-return-kraken-assistant-sources-say",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
+          "summary": "Jessica Campbell will not return to the Kraken bench next season.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: KD out again for Game 6 due to ankle",
-          "url": "https://www.espn.com/nba/story/_/id/48636781/sources-rockets-kevin-durant-miss-game-6-vs-lakers",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
-          "summary": "Kevin Durant will not play in Game 6 against the Lakers because of the ankle injury that has sidelined the Rockets star for most of Houston's first-round playoff series, sources told ESPN.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Vonn not emotionally ready to decide on future",
-          "url": "https://www.espn.com/olympics/skiing/story/_/id/48636953/lindsey-vonn-not-emotionally-ready-decide-racing-again",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
-          "summary": "Lindsey Vonn is still recovering physically and emotionally from her frightening crash at the Winter Olympics. For now, the tough decisions about the future can wait.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Cavs let Schroder cook in 4th, regain series contr...",
-          "url": "https://www.espn.com/nba/story/_/id/48634828/cavs-let-schroder-cook-4th-take-3-2-series-lead-raptors",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
-          "summary": "Limited in the first four games, Dennis Schroder broke out in Wednesday's Game 5, scoring 11 of his 19 points in the fourth as the Cavs won 125-120 to take a 3-2 series lead.",
+          "title": "Vegas group makes bid to relocate MLS' Whitecaps",
+          "url": "https://www.espn.com/soccer/story/_/id/48640019/las-vegas-group-offer-buy-relocate-mls-vancouver-whitecaps",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
+          "summary": "Grant Gustavson, the son of billionaire Tamara Gustavson, is leading an investor group that has made a formal offer to acquire the Vancouver Whitecaps and relocate the team to Las Vegas, a spokesperson for the group confirmed to ESPN.",
           "source": "ESPN"
         },
         {
           "title": "🏀 Ranking the top 50 WNBA players this season",
           "url": "https://www.espn.com/wnba/story/_/id/48632668/wnba-2026-top-50-player-rankings-wilson-collier-thomas-stewart-clark",
-          "published": "Thu, 30 Apr 2026 11:40:48 EST",
+          "published": "Thu, 30 Apr 2026 18:59:54 EST",
           "summary": "From former MVPs such as A'ja Wilson to expansion cornerstones, these are the best players ahead of the 2026 season.",
           "source": "ESPN"
         },
         {
-          "title": "Takeaways from Lakers-Rockets Game 5",
-          "url": "https://www.espn.com/nba/story/_/id/48506452/2026-nba-playoffs-western-conference-round-one-takeaways",
-          "published": "Thu, 30 Apr 2026 10:49:37 EST",
-          "summary": "Here's what has stood out from the latest playoff games of the Western Conference's first round.",
+          "title": "Follow live: Hughes puts Wild on the board  early ...",
+          "url": "https://www.espn.com/nhl/game/_/gameId/401869787/stars-wild",
+          "published": "Thu, 30 Apr 2026 19:57:18 EST",
+          "summary": "null",
           "source": "ESPN"
         },
         {
           "title": "Is Mike Trout back? Who is the best hitter in base...",
           "url": "https://www.espn.com/mlb/story/_/id/48628571/2026-mlb-passan-takeaways-struggling-teams-automated-balls-strikes-challenge-breakout-stars",
-          "published": "Thu, 30 Apr 2026 10:57:44 EST",
+          "published": "Thu, 30 Apr 2026 12:56:52 EST",
           "summary": "What stands out as the calendar turns to May? Let's break down the biggest early trends.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Copy of MLB Power Rankings: How far have these NL powerhou...",
+          "url": "https://www.espn.com/mlb/story/_/id/48611011/mlb-2026-power-rankings-week-5-dodgers-braves-cubs-phillies-red-sox-mets",
+          "published": "Thu, 30 Apr 2026 12:56:53 EST",
+          "summary": "A number of preseason playoff favorites are still struggling.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "John Wall has been appointed president of basketball operations at Howard University, while LIV Golf faces uncertainty with funding changes and player returns to the PGA Tour.",
-        "summary": "Today's sports headlines feature John Wall's new role at Howard University, early predictions for the 2027 NFL draft, LIV Golf's restructuring amid funding issues, and updates on player injuries and playoff performances.",
+        "key_takeaway": "The Mets finished April with the worst record in baseball, while Calais Campbell returns to the Ravens and John Wall takes on a new role at Howard University.",
+        "summary": "In today's sports news, the New York Mets concluded April with a disappointing 10-21 record, marking the worst in MLB. Veteran defensive end Calais Campbell is rejoining the Baltimore Ravens, and John Wall has been appointed as the president of basketball operations at Howard University. Additionally, the NBA is seeking stricter regulations on prediction markets to maintain integrity, and FIFA confirmed Iran's participation in the upcoming World Cup despite recent controversies. Other notable updates include injury news for the Orlando Magic and a potential relocation of the Vancouver Whitecaps to Las Vegas.",
         "key_themes": [
-          "John Wall basketball operations",
-          "2027 NFL mock draft predictions",
-          "LIV Golf funding changes",
-          "Kevin Durant injury update",
-          "WNBA player rankings 2026"
+          "Mets April performance analysis",
+          "Calais Campbell Ravens reunion",
+          "John Wall Howard University role",
+          "NBA prediction market regulations",
+          "FIFA Iran World Cup status",
+          "Vancouver Whitecaps relocation news"
         ],
         "notable_headlines": [
           {
-            "headline": "Reid's early NFL mock draft for next year: Which 2...",
-            "why_it_matters": "Predicting the top picks for the upcoming NFL draft can influence team strategies and fan expectations.",
-            "signal": "Unclear"
+            "headline": "'Not good enough': Woeful Mets end April 10-21",
+            "why_it_matters": "The Mets' poor performance raises concerns about their season outlook and management decisions.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Source: Vet DE Campbell reuniting with Ravens",
+            "why_it_matters": "Campbell's experience could bolster the Ravens' defense as they prepare for the upcoming season.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Wall becomes Howard's prez of basketball ops",
-            "why_it_matters": "John Wall's leadership at Howard could enhance the program's visibility and recruitment efforts.",
+            "why_it_matters": "Wall's leadership may enhance Howard's basketball program and attract talent to the HBCU.",
             "signal": "Opportunity"
           },
           {
-            "headline": "LIV establishes new board in attempt to survive",
-            "why_it_matters": "The restructuring of LIV Golf is critical for its future viability in the competitive golf landscape.",
+            "headline": "NBA calls for tighter prediction market restrictions",
+            "why_it_matters": "The NBA's push for regulation highlights ongoing concerns about gambling's impact on sports integrity.",
             "signal": "Risk"
           },
           {
-            "headline": "Sources: Giants' Slayton has core-muscle surgery",
-            "why_it_matters": "Injuries to key players can significantly impact team performance during the offseason.",
-            "signal": "Risk"
+            "headline": "FIFA: Iran's WC status unchanged amid absence",
+            "why_it_matters": "Iran's confirmed participation in the World Cup ensures the team can compete despite political issues.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Sources: KD out again for Game 6 due to ankle",
-            "why_it_matters": "Kevin Durant's absence affects the Rockets' chances in the playoffs, raising concerns for fans and analysts.",
+            "headline": "Vegas group makes bid to relocate MLS' Whitecaps",
+            "why_it_matters": "The potential relocation of the Whitecaps could reshape the MLS landscape and fan engagement.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Cavs let Schroder cook in 4th, regain series control",
-            "why_it_matters": "The Cavs' performance in the playoffs is crucial for their championship aspirations this season.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further developments in the NBA playoffs as teams vie for series advancement.",
-            "Updates on player injuries and their impact on upcoming games.",
-            "Potential reactions to John Wall's new role at Howard University."
+            "Monitor the Mets' response to their April performance in upcoming games.",
+            "Watch for updates on Campbell's impact on the Ravens' roster.",
+            "Follow developments regarding the Whitecaps' relocation proposal."
           ],
           "next_1_4_weeks": [
-            "Continued analysis of the NFL draft as predictions evolve leading up to the event.",
-            "Monitoring LIV Golf's restructuring efforts and player movements back to the PGA Tour.",
-            "Expectations for the WNBA season as player rankings are released."
+            "Evaluate the effectiveness of the NBA's proposed prediction market regulations.",
+            "Observe how John Wall's leadership influences Howard's basketball program.",
+            "Track the performance of teams as the MLB season progresses into May."
           ],
           "watch_list": [
-            "John Wall's impact on Howard basketball program.",
-            "Injury updates on key NBA players like Kevin Durant.",
-            "Trends in the NFL draft predictions as the event approaches.",
-            "LIV Golf's future and player responses."
+            "Mets' management decisions and player trades",
+            "Calais Campbell's role in Ravens' defense",
+            "John Wall's initiatives at Howard University",
+            "NBA's regulatory actions on prediction markets",
+            "Iran's World Cup preparations",
+            "Vancouver Whitecaps relocation developments"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating a balanced tone across the headlines. Some developments may evolve rapidly, particularly in player injuries and team strategies.",
-          "The impact of John Wall's appointment is yet to be seen in terms of recruitment and program success."
+          "The sentiment score indicates mixed feelings about the overall sports landscape today. Some developments may evolve rapidly, particularly regarding team performances and player movements.",
+          "Injuries and regulatory changes could significantly impact team strategies and fan engagement."
         ],
         "related_topics": [
-          "What are the latest updates on the NFL draft predictions?",
-          "How is LIV Golf restructuring amid funding issues?",
-          "What are the key player injuries in the NBA playoffs?",
-          "Who are the top players in the WNBA for 2026?",
-          "What are the latest trends in Major League Baseball?"
+          "What is the latest on the Mets' performance?",
+          "Calais Campbell's impact on the Ravens",
+          "John Wall's new role at Howard University",
+          "NBA prediction market regulations explained",
+          "Iran's World Cup status updates",
+          "Vancouver Whitecaps relocation news"
         ]
       },
-      "tweet_text": "Big moves and tough choices in sports today—find out who's on the rise and who's battling injuries!\n\nSports Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #Again #Amid #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Mets stumble into May with a dismal 10-21 record, while NBA tightens rules and a former star finds new life...\n\nSports Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Campbell #1021 #Absence #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -782,74 +784,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries range from breakthroughs in exercise for arthritis to insights into the Milky Way's edge and the behavior of antimatter.",
-        "summary": "Today's science headlines highlight significant advancements, including effective exercise methods for knee arthritis, groundbreaking observations of the Pacific Northwest's geological activity, and new insights into quantum mechanics and the origins of life. Other notable findings include the discovery of ancient Bronze Age mines in Spain and the identification of a massive prehistoric snake in India.",
+        "key_takeaway": "Recent scientific discoveries range from breakthroughs in exercise for arthritis to insights into the Milky Way's structure and ancient life origins.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including health, quantum physics, and astronomy. A major review indicates aerobic exercise is optimal for knee arthritis pain relief. In geology, scientists observed the Juan de Fuca plate splitting beneath the Pacific Northwest, enhancing understanding of earthquake behavior. In quantum research, a photon was teleported across 270 meters, paving the way for secure communication networks. Additionally, a hidden structure in the nose was discovered, revealing how smell is organized, and a chilling hypothesis about the origins of life was proposed. Other notable findings include the first 3D view of T cells attacking cancer, the discovery of ancient Bronze Age mines in Spain, and the identification of the Milky Way's edge.",
         "key_themes": [
-          "exercise for knee arthritis",
-          "Pacific Northwest geological findings",
-          "quantum mechanics breakthroughs",
-          "ancient Bronze Age mines",
-          "origins of life research"
+          "health and exercise",
+          "quantum physics breakthroughs",
+          "ancient life origins",
+          "astronomical discoveries",
+          "geological phenomena"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists reveal the best exercise for knee arthritis pain relief",
-            "why_it_matters": "Identifying effective exercise options can significantly improve quality of life for those suffering from knee osteoarthritis.",
+            "why_it_matters": "This research provides critical insights for managing knee osteoarthritis through effective exercise regimens.",
             "signal": "Opportunity"
           },
           {
             "headline": "Earth is splitting open beneath the Pacific Northwest, scientists say",
-            "why_it_matters": "Understanding the dynamics of subduction zones can enhance earthquake prediction and geological knowledge.",
+            "why_it_matters": "Understanding the dynamics of subduction zones can improve earthquake prediction and safety measures.",
             "signal": "Risk"
           },
           {
             "headline": "A photon was teleported across 270 meters in stunning quantum breakthrough",
-            "why_it_matters": "This achievement is a crucial step toward developing secure quantum communication networks.",
+            "why_it_matters": "This achievement is a significant step towards developing quantum communication technologies.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "A hidden map in your nose could explain how smell works",
+            "why_it_matters": "Revealing the organization of smell receptors enhances our understanding of sensory processing.",
             "signal": "Opportunity"
           },
           {
             "headline": "First-ever 3D view shows how killer T cells destroy cancer",
-            "why_it_matters": "Insights into T cell behavior could lead to more effective cancer therapies.",
+            "why_it_matters": "This discovery could lead to improved cancer therapies by understanding immune responses.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists just found the Milky Way’s edge and it’s closer than expected",
-            "why_it_matters": "This discovery reshapes our understanding of star formation in our galaxy.",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the implications of the Pacific Northwest geological findings is expected.",
-            "More details on the effectiveness of aerobic exercise for knee arthritis will be discussed in upcoming health forums.",
-            "New studies on the behavior of antimatter may be released."
+            "Further analysis of the implications of the Juan de Fuca plate findings is expected.",
+            "More studies on the effectiveness of aerobic exercise for arthritis may emerge.",
+            "New developments in quantum teleportation research are anticipated."
           ],
           "next_1_4_weeks": [
-            "Anticipated publications on the implications of the Milky Way's edge discovery for galactic studies.",
-            "Research on the ancient snake discovery may lead to new insights into prehistoric ecosystems.",
-            "Updates on the quantum teleportation experiment could emerge."
+            "Expect ongoing discussions regarding the implications of the Milky Way's edge discovery.",
+            "Research on ancient life origins may lead to new hypotheses and experiments.",
+            "Further exploration of the implications of the hidden structure in the nose is likely."
           ],
           "watch_list": [
-            "Developments in quantum communication technology.",
-            "Further studies on the relationship between exercise and arthritis pain relief.",
-            "New archaeological findings related to ancient mining practices.",
-            "Research on the implications of freezing and thawing for the origins of life."
+            "Monitor advancements in quantum communication technology.",
+            "Keep an eye on new findings related to arthritis management and exercise.",
+            "Watch for updates on geological studies in the Pacific Northwest.",
+            "Follow developments in cancer research related to T cell behavior."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates that while some findings are promising, others may pose risks or uncertainties.",
-          "Further research is needed to validate the implications of recent discoveries."
+          "The mixed sentiment indicates varying levels of optimism and concern across different studies.",
+          "Some findings may require further validation before being widely accepted."
         ],
         "related_topics": [
           "What are the best exercises for knee arthritis?",
-          "Latest discoveries in quantum mechanics",
-          "How did life begin on Earth?",
-          "What did scientists find at the edge of the Milky Way?",
-          "Recent archaeological findings in Spain"
+          "How does quantum teleportation work?",
+          "What did scientists discover about the Milky Way?",
+          "What is the significance of the Juan de Fuca plate?",
+          "How do T cells destroy cancer cells?"
         ]
       },
-      "tweet_text": "Unlocking the secrets of pain relief and cancer-fighting: today's science news is nothing short of...\n\nScience Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #50foot #Across #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlock the secrets of your body: from knee pain relief to the stunning world of quantum leaps and...\n\nScience Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #50foot #Across #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
