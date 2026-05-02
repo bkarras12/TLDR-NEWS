@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "generated_at_utc": "2026-05-01T23:58:50Z",
+  "generated_at_utc": "2026-05-02T05:31:17Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -18,9 +18,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2132,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.355, dampened ×0.6 → -0.2132). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2531,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.422, dampened ×0.6 → -0.2531). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -33,8 +33,22 @@
         {
           "title": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
           "url": "https://www.bbc.com/news/articles/c4g4xexy4w7o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 01 May 2026 21:05:43 GMT",
+          "published": "Sat, 02 May 2026 00:41:43 GMT",
           "summary": "The president writes that hostilities \"have terminated\" because of the ceasefire, arguing he does not need congressional authorisation.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'If we sleep they bite': Rats and weasels infest camps for displaced Gazans",
+          "url": "https://www.bbc.com/news/articles/c202m54xp0mo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 02 May 2026 05:02:14 GMT",
+          "summary": "In the Gaza Strip, the daily battles are now with rats, weasels, and other pests spreading diseases.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump claims other presidents flouted war powers law. It's a mixed record",
+          "url": "https://www.bbc.com/news/articles/c794zlx5lx8o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 02 May 2026 02:43:48 GMT",
+          "summary": "Both Bushes and Reagan won authorisation for wars, but Obama and Clinton ducked the requirement.",
           "source": "BBC News"
         },
         {
@@ -45,7 +59,7 @@
           "source": "BBC News"
         },
         {
-          "title": "Australia wants to be first nation in the world to eliminate a cancer - can it?",
+          "title": "Australia wants to become the first country to eliminate a cancer - can it?",
           "url": "https://www.bbc.com/news/articles/cd6w15vgp7lo?at_medium=RSS&at_campaign=rss",
           "published": "Fri, 01 May 2026 19:30:36 GMT",
           "summary": "For the first time, Australia has recorded no new cervical cancer diganoses in women under 25.",
@@ -59,16 +73,9 @@
           "source": "BBC News"
         },
         {
-          "title": "French PM fuels row with trip to buy baguettes",
-          "url": "https://www.bbc.com/news/articles/czx2rnk9y9go?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 01 May 2026 17:59:34 GMT",
-          "summary": "Sébastien Lecornu visited a boulangerie on Labour Day, defying unions who say 1 May must remain a mandatory rest day.",
-          "source": "BBC News"
-        },
-        {
           "title": "US court limits mail-order access to abortion pill mifepristone",
           "url": "https://www.bbc.com/news/articles/c2k20z5yj3wo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 01 May 2026 23:29:05 GMT",
+          "published": "Sat, 02 May 2026 02:22:57 GMT",
           "summary": "The court decision curbs access to the drug used in medication abortions, which is currently the most common method for the procedure in the US.",
           "source": "BBC News"
         },
@@ -99,82 +106,78 @@
           "published": "Fri, 01 May 2026 17:03:11 GMT",
           "summary": "The French nun was pushed over and kicked in the apparently unprovoked assault, amid a rise in harassment of Christians in the city by Jewish extremists.",
           "source": "BBC News"
-        },
-        {
-          "title": "Israel releases all but two activists in Greece after intercepting Gaza aid flotilla",
-          "url": "https://www.bbc.com/news/articles/c0m2z0k1gngo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 01 May 2026 10:12:57 GMT",
-          "summary": "The Global Sumud Flotilla denounced the interception as \"piracy\", while Israel's foreign ministry called the flotilla a \"PR stunt\".",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The US plans to reduce troop levels in Germany amid tensions over Iran, while Australia aims to eliminate cervical cancer and Turkey sees mass arrests during May Day rallies.",
-        "summary": "Today's headlines reflect a mix of international tensions, health initiatives, and social unrest. The US is reducing its military presence in Germany amid disagreements over Iran, while Australia celebrates a significant health milestone in cervical cancer prevention. In Turkey, police have arrested over 500 individuals during May Day protests, highlighting ongoing labor tensions. Additionally, incidents of violence and unrest are reported in Israel and related to the ongoing conflict in Iran.",
+        "key_takeaway": "The US is reducing troop levels in Germany amid tensions over Iran, while various global issues, including pest infestations in Gaza and political unrest in Turkey, persist.",
+        "summary": "Today's world news highlights significant geopolitical tensions, including the US troop reduction in Germany and President Trump's stance on war powers regarding Iran. Additionally, humanitarian issues in Gaza and political unrest in Turkey are notable, alongside a focus on health advancements in Australia.",
         "key_themes": [
           "US troop reduction in Germany",
-          "Australia cervical cancer initiative",
+          "Trump Iran war powers",
+          "Gaza humanitarian crisis",
           "Turkey May Day protests",
-          "Iran conflict impact on food supply",
-          "Israel police actions against violence"
+          "Australia cervical cancer elimination"
         ],
         "notable_headlines": [
           {
             "headline": "US to cut troop levels in Germany by 5,000 amid Trump spat with Merz",
-            "why_it_matters": "This troop reduction reflects ongoing tensions between the US and Germany regarding foreign policy, particularly concerning Iran.",
+            "why_it_matters": "This troop reduction reflects ongoing tensions between the US and Germany over foreign policy, particularly regarding Iran.",
             "signal": "Risk"
           },
           {
-            "headline": "Australia wants to be first nation in the world to eliminate a cancer - can it?",
-            "why_it_matters": "Australia's achievement in cervical cancer prevention could set a global precedent for public health initiatives.",
-            "signal": "Opportunity"
+            "headline": "'If we sleep they bite': Rats and weasels infest camps for displaced Gazans",
+            "why_it_matters": "The infestation highlights the dire living conditions for displaced individuals in Gaza, raising concerns about public health.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Billions of meals at risk due to Iran war, says fertiliser boss",
+            "why_it_matters": "The potential impact on global food supply due to fertiliser shortages underscores the broader economic consequences of the Iran conflict.",
+            "signal": "Risk"
           },
           {
             "headline": "Turkish police arrest more than 500 people at May Day rallies",
-            "why_it_matters": "The mass arrests highlight the ongoing tensions between labor movements and government policies in Turkey.",
+            "why_it_matters": "The arrests indicate ongoing tensions between the government and labor movements in Turkey, reflecting broader societal issues.",
             "signal": "Risk"
           },
           {
             "headline": "War criminal Mladic close to death, say lawyers asking judge for jail release",
-            "why_it_matters": "The potential release of Mladic raises ethical and legal questions regarding justice for war crimes.",
+            "why_it_matters": "Mladic's potential release raises ethical and legal questions regarding justice for war crimes committed during the Bosnian war.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Israeli police arrest man after nun attacked in Jerusalem",
-            "why_it_matters": "The attack on a nun underscores rising tensions and violence against religious minorities in Israel.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to US troop reductions in Germany and their implications for NATO relations.",
-            "Watch for updates on the situation in Turkey as May Day protests continue.",
-            "Follow developments regarding the health initiatives in Australia and their potential global impact."
+            "Monitor developments in US troop levels and their implications for NATO relations.",
+            "Watch for updates on the humanitarian situation in Gaza as pest infestations worsen.",
+            "Follow the political climate in Turkey following May Day protests."
           ],
           "next_1_4_weeks": [
-            "Observe the international response to the US's military strategy in Europe amidst ongoing tensions with Iran.",
-            "Track the progress of cervical cancer elimination efforts in Australia and potential lessons for other countries.",
-            "Keep an eye on the political climate in Turkey as labor movements may continue to face government pushback."
+            "Assess the impact of the Iran conflict on global food supply and fertiliser availability.",
+            "Observe any changes in US foreign policy regarding military engagements and congressional approval.",
+            "Track the health advancements in Australia and their implications for cancer treatment globally."
           ],
           "watch_list": [
-            "US-Iran relations and military strategy",
-            "Cervical cancer prevention initiatives globally",
-            "Labor rights movements and government responses in Turkey",
-            "Violence against religious minorities in Israel"
+            "US-Iran relations and their impact on global politics.",
+            "Humanitarian crises in conflict zones like Gaza.",
+            "Political stability in Turkey and its effect on civil liberties.",
+            "Health initiatives in Australia regarding cancer prevention."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran remains fluid and could affect global food supply chains significantly.",
-          "Public health initiatives may face challenges in implementation despite initial successes."
+          "The geopolitical landscape is fluid and subject to rapid changes.",
+          "Public health issues can evolve quickly based on local and international responses.",
+          "Legal proceedings can be unpredictable, especially in high-profile cases."
         ],
         "related_topics": [
-          "What are the implications of US troop reductions in Germany?",
-          "How is Australia addressing cervical cancer prevention?",
-          "What happened during May Day protests in Turkey?"
+          "What are the latest developments in US troop deployments?",
+          "How is the Iran conflict affecting global food supply?",
+          "What is the current situation for displaced people in Gaza?",
+          "What happened during the May Day protests in Turkey?",
+          "What advancements has Australia made in cancer elimination?"
         ]
       },
-      "tweet_text": "Trump's bold moves spark chaos as troop cuts, Iran tensions, and cancer crusades collide in today’s headlines.\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Iran #5000 #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From troop cuts to cancer cures, today's headlines pack a punch—what's the real story behind the chaos?\n\nWorld Sentiment: Negative (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Iran #5000 #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -185,9 +188,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0986,
+        "score": -0.1418,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.164, dampened ×0.6 → -0.0986). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.236, dampened ×0.6 → -0.1418). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -229,7 +232,7 @@
           "title": "Oil price tops $126 a barrel after Trump warns Iran blockade could last ‘months’",
           "url": "https://www.theguardian.com/world/2026/apr/30/oil-price-news-highest-since-2022-us-iran-ceasefire-strait-of-hormuz",
           "published": "Thu, 30 Apr 2026 13:38:54 GMT",
-          "summary": "<p>Markets spooked as US president appears willing to keep up naval blockade and Iran keeps strait of Hormuz all but shut</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/apr/30/bank-of-england-expected-hold-interest-rates-noon-assesses-fallout-iran-war-live-updates\">Business live – latest updates</a></p></li></ul><p>The global oil price hit $126 a barrel on Thursday, its highest level since 2022, after Donald Trump said the US blockade of Iranian ports could last for months",
+          "summary": "<p>Markets spooked as US president appears willing to keep up naval blockade and Iran keeps strait of Hormuz all but shut</p><p>The global oil price hit $126 a barrel on Thursday, its highest level since 2022, after Donald Trump said the US blockade of Iranian ports could last for months and peace talks remained stalled.</p><p>After surging more than 13% in 24 hours, the price of Brent crude futures reached its highest price since the war began on 28 February. Not since Russia’s 2022 invasion of",
           "source": "The Guardian"
         },
         {
@@ -276,75 +279,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Spirit Airlines is preparing to cease operations due to financial struggles and high oil prices, while CEO pay has surged significantly compared to worker wages.",
-        "summary": "Today's business news highlights significant challenges for Spirit Airlines as it faces potential closure amid financial difficulties exacerbated by high oil prices. In contrast, CEO compensation has dramatically outpaced worker wages, raising concerns about income inequality. Additionally, President Trump has made controversial tariff changes affecting EU imports, while major oil companies like Exxon and Chevron report falling earnings despite rising oil prices. The economic landscape remains volatile, influenced by geopolitical tensions and market reactions.",
+        "key_takeaway": "Spirit Airlines is ceasing operations due to financial struggles, while Trump has raised EU import tariffs and CEO pay has surged significantly compared to worker wages.",
+        "summary": "Today's business news highlights significant challenges for Spirit Airlines as it prepares to cease operations amid financial difficulties exacerbated by high oil prices. In a related development, President Trump has announced an increase in tariffs on EU vehicle imports, citing non-compliance from the bloc. Meanwhile, a report reveals that CEO compensation has surged 20 times faster than worker pay, raising concerns about income inequality. Additionally, Exxon and Chevron reported falling quarterly earnings despite rising oil prices, and the US economy showed a rebound in growth, although consumer spending is slowing due to ongoing geopolitical tensions.",
         "key_themes": [
-          "financial struggles of airlines",
-          "CEO pay versus worker wages",
-          "impact of tariffs on trade",
-          "oil price fluctuations",
-          "US economic growth trends"
+          "Spirit Airlines financial struggles",
+          "Trump EU tariff increase",
+          "CEO pay vs worker pay",
+          "Exxon Chevron earnings report",
+          "US economic growth rebound"
         ],
         "notable_headlines": [
           {
             "headline": "Spirit Airlines prepares to cease operations amid financial struggles and high oil prices",
-            "why_it_matters": "The potential closure of Spirit Airlines reflects broader issues in the airline industry, particularly related to rising operational costs.",
+            "why_it_matters": "The airline's closure reflects broader challenges in the aviation industry due to rising fuel costs and insufficient demand post-pandemic.",
             "signal": "Risk"
           },
           {
             "headline": "Trump tears up part of EU tariff deal to raise import duties on cars and lorries",
-            "why_it_matters": "This decision could escalate trade tensions with the EU and impact automotive markets significantly.",
+            "why_it_matters": "This move could escalate trade tensions between the US and EU, impacting various sectors including automotive and trade relations.",
             "signal": "Risk"
           },
           {
             "headline": "CEO pay soared in 2025, 20 times faster than workers’ pay",
-            "why_it_matters": "The widening gap between CEO and worker pay raises concerns about economic inequality and its implications for society.",
+            "why_it_matters": "The widening pay gap raises concerns about economic inequality and its implications for social stability and consumer spending.",
             "signal": "Risk"
           },
           {
             "headline": "Exxon and Chevron quarterly earnings fall despite soaring oil prices",
-            "why_it_matters": "The decline in profits for major oil companies despite high oil prices indicates underlying operational challenges and market volatility.",
+            "why_it_matters": "The drop in profits highlights the impact of geopolitical disruptions on major oil companies, despite favorable market conditions.",
             "signal": "Risk"
           },
           {
             "headline": "US economic growth rebounds 2% as consumer spending slows amid Iran war",
-            "why_it_matters": "The rebound in GDP suggests resilience in the economy, but slowing consumer spending could signal future challenges.",
+            "why_it_matters": "While growth is positive, the slowdown in consumer spending could signal future economic challenges linked to geopolitical tensions.",
             "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring Spirit Airlines' operational decisions and potential government interventions.",
-            "Observing market reactions to Trump's tariff changes and their impact on EU relations.",
-            "Tracking oil price movements in response to geopolitical developments."
+            "Monitoring Spirit Airlines' final operational decisions and potential government interventions.",
+            "Observing market reactions to Trump's tariff announcements and their implications for trade relations.",
+            "Tracking oil price fluctuations in response to geopolitical developments."
           ],
           "next_1_4_weeks": [
-            "Evaluating the long-term effects of rising oil prices on the airline industry and consumer behavior.",
-            "Assessing the implications of CEO pay trends on corporate governance and employee relations.",
-            "Watching for potential legislative responses to income inequality and labor practices."
+            "Evaluating the long-term impacts of rising CEO pay on labor relations and economic inequality.",
+            "Assessing the effects of increased tariffs on US-EU trade dynamics and consumer prices.",
+            "Watching for further developments in the oil market following disruptions in the Middle East."
           ],
           "watch_list": [
-            "Spirit Airlines' financial restructuring efforts.",
-            "Impact of tariffs on US-EU trade relations.",
-            "Quarterly earnings reports from other major corporations in the oil sector.",
-            "Trends in consumer spending amid ongoing geopolitical tensions."
+            "Spirit Airlines bankruptcy proceedings and potential government bailouts.",
+            "Trade negotiations between the US and EU regarding tariffs.",
+            "Quarterly earnings reports from other major corporations in the energy sector.",
+            "Legislative changes regarding workweek structures and their adoption by businesses."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation with Spirit Airlines is fluid and may change rapidly based on external factors.",
-          "Economic indicators can be influenced by unforeseen geopolitical events.",
-          "Tariff changes may provoke retaliatory measures from the EU, complicating trade relations."
+          "The situation with Spirit Airlines is fluid and may change rapidly based on financial negotiations.",
+          "Trump's tariff decisions could provoke retaliatory measures from the EU, affecting various industries.",
+          "Economic indicators may fluctuate due to ongoing geopolitical tensions, particularly in the Middle East."
         ],
         "related_topics": [
-          "What are the latest developments in the airline industry?",
-          "How is CEO pay affecting income inequality?",
-          "What are the implications of Trump's tariff changes?",
-          "How are oil prices impacting major corporations?",
-          "What is the current state of the US economy?"
+          "What are the latest developments with Spirit Airlines?",
+          "How are US tariffs affecting trade with the EU?",
+          "What is the current state of CEO pay compared to workers?",
+          "How are oil prices impacted by geopolitical events?",
+          "What is the outlook for the US economy amid rising tensions?"
         ]
       },
-      "tweet_text": "Is the American dream crumbling? From Spirit Airlines to CEO pay, today's business news is a wake-up...\n\nBusiness Sentiment: Mixed (-0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Financial #Prices #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "As Spirit Airlines prepares to ground its fleet, the corporate world is in turmoil—who's next to feel...\n\nBusiness Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Financial #Prices #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -355,11 +358,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0576,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.096, dampened ×0.6 → +0.0576). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0323,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.054, dampened ×0.6 → +0.0323). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Splatoon Raiders preorders for the Switch 2 are nearly 20 percent off",
+          "url": "https://www.theverge.com/gadgets/920848/splatoon-raiders-physical-edition-preorder-switch-2-walmart-deal-sale",
+          "published": "2026-05-01T18:31:00-04:00",
+          "summary": "Nintendo recently announced a new pricing policy, which knocks $10 off the cost of digital versions of future first-party titles exclusive to the Nintendo Switch 2. Splatoon Raiders, for instance, is available for preorder ahead of its July 23rd release for $49.99 digitally or $59.99 for the physical edition. However, Amazon and Walmart are the exception in [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Microsoft tests redesigned Windows 11 Run menu with dark mode and more",
           "url": "https://www.theverge.com/tech/922531/microsoft-windows-11-run-menu-redesign-test",
@@ -422,86 +432,77 @@
           "published": "2026-05-01T12:55:16-04:00",
           "summary": "Nearly every Linux distribution released since 2017 is currently vulnerable to a security bug called \"Copy Fail\" that allows any user to give themselves administrator privileges. The exploit, publicly disclosed as CVE-2026-31431 on Wednesday, uses a Python script that works across all of the vulnerable Linux distributions, requiring \"no per-distro offsets, no version checks, no [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Dreame’s rocket-powered car can do 0–60 in 0.9 seconds because you can just say things now",
-          "url": "https://www.theverge.com/transportation/921204/dreame-ev-car-rocket-boosted-zero-sixty-reality",
-          "published": "2026-05-01T12:33:46-04:00",
-          "summary": "When I first heard that a vacuum company had released a rocket-powered electric vehicle with physically impossible-sounding performance specs, I immediately thought James Dyson was up to his old tricks again. Fortunately, I was wrong. This time the household appliance company trying its hand at super car design is Dreame (pronounced like \"dreamy\"), a little-known [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Microsoft is testing a redesigned Windows 11 Run menu, while Apple raises the Mac Mini's starting price amid ongoing chip shortages.",
-        "summary": "Today's technology news highlights Microsoft's testing of a refreshed Windows 11 Run menu, Apple's increase in the Mac Mini's starting price due to chip shortages, and ongoing developments in the Musk v. Altman trial. Additionally, Amazon expands its AI price tracking feature, and a significant security flaw in Linux distributions has been uncovered. Dreame, known for its vacuum products, has ventured into smartphones and electric vehicles, showcasing ambitious new products.",
+        "key_takeaway": "Nintendo offers discounts on Switch 2 preorders, while Microsoft tests a redesigned Windows 11 Run menu and a significant Linux security flaw is revealed.",
+        "summary": "Today's technology news highlights include Nintendo's preorder discounts for the Switch 2, Microsoft's testing of a new Windows 11 Run menu, and a critical security flaw in Linux distributions. Apple has raised the starting price of the Mac Mini, and Amazon has expanded its AI price tracking feature. Additionally, Dreame has launched smartphones, and Valve's new Steam Controller accessory is set to release soon.",
         "key_themes": [
+          "Nintendo Switch 2 preorder discounts",
           "Microsoft Windows 11 updates",
-          "Apple Mac Mini price changes",
-          "Musk v. Altman trial updates",
-          "Amazon AI price tracking",
+          "Apple Mac Mini price increase",
           "Linux security vulnerabilities",
-          "Dreame technology expansion"
+          "Amazon AI price tracking feature"
         ],
         "notable_headlines": [
           {
+            "headline": "Splatoon Raiders preorders for the Switch 2 are nearly 20 percent off",
+            "why_it_matters": "This discount reflects Nintendo's new pricing strategy for digital titles, potentially influencing consumer purchasing behavior.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Microsoft tests redesigned Windows 11 Run menu with dark mode and more",
-            "why_it_matters": "This update aims to enhance user experience and modernize the interface of Windows 11.",
+            "why_it_matters": "The redesign aims to enhance user experience and performance, which could impact user satisfaction and adoption rates.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Apple raises the Mac Mini's starting price",
-            "why_it_matters": "The price increase reflects ongoing chip shortages affecting Mac product availability.",
+            "headline": "Apple raises the Mac Mini’s starting price",
+            "why_it_matters": "The price increase may affect sales and consumer perception, especially amid ongoing chip shortages.",
             "signal": "Risk"
-          },
-          {
-            "headline": "All the evidence revealed so far in Musk v. Altman",
-            "why_it_matters": "The trial could have significant implications for the future of AI and corporate governance.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Amazon's built-in AI price history expands to show the entire last year",
-            "why_it_matters": "This feature enhances consumer transparency regarding pricing trends on Amazon.",
-            "signal": "Opportunity"
           },
           {
             "headline": "Severe Linux Copy Fail security flaw uncovered using AI scanning help",
-            "why_it_matters": "The vulnerability poses a serious risk to users of nearly all Linux distributions since 2017.",
+            "why_it_matters": "This vulnerability poses a significant risk to users of nearly all Linux distributions, necessitating immediate attention from developers and users.",
             "signal": "Risk"
+          },
+          {
+            "headline": "Amazon's built-in AI price history expands to show the entire last year",
+            "why_it_matters": "This feature enhances consumer transparency and could influence purchasing decisions on the platform.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "More updates expected from the Musk v. Altman trial as evidence continues to be revealed.",
-            "Potential reactions from users regarding the Windows 11 Run menu redesign.",
-            "Further developments in the Linux security flaw may prompt urgent updates from distribution maintainers."
+            "Monitor consumer reactions to Nintendo's pricing changes for the Switch 2.",
+            "Watch for user feedback on Microsoft's Windows 11 Run menu redesign.",
+            "Keep an eye on responses to the Linux security flaw and patch releases."
           ],
           "next_1_4_weeks": [
-            "Anticipated reactions to Apple's Mac Mini price increase and its impact on sales.",
-            "Monitoring the effectiveness of Amazon's AI price tracking feature as it gains user traction.",
-            "Potential announcements from Microsoft regarding the official rollout of the new Windows 11 features."
+            "Observe sales trends for the Mac Mini following the price increase.",
+            "Track the adoption of Amazon's new price tracking feature among users.",
+            "Follow developments in the Musk v. Altman trial for implications on AI governance."
           ],
           "watch_list": [
-            "Updates on the Musk v. Altman trial and its implications for AI governance.",
-            "Responses from the tech community regarding the Linux security flaw and necessary patches.",
-            "Future product announcements from Dreame as they expand into new technology sectors.",
-            "Consumer feedback on the redesigned Windows 11 Run menu."
+            "Potential updates from Microsoft on Windows 11 features.",
+            "Further announcements from Apple regarding product pricing and availability.",
+            "Responses from Linux communities regarding the security vulnerability.",
+            "New product launches from Dreame and their market impact."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of the chip shortage on Apple's product line remains uncertain.",
-          "The long-term implications of the Musk v. Altman trial are still unclear.",
-          "User adoption of new features like Amazon's price tracking may vary."
+          "The impact of the Linux security flaw is still being assessed and may evolve as more information becomes available.",
+          "Consumer reactions to pricing changes can be unpredictable and may vary widely."
         ],
         "related_topics": [
-          "What are the latest updates on Windows 11 features?",
-          "How is the chip shortage affecting Apple products?",
-          "What evidence has been revealed in the Musk v. Altman trial?",
-          "What security vulnerabilities are affecting Linux distributions?",
-          "What new products is Dreame launching in technology?"
+          "What are the latest Nintendo Switch 2 preorder deals?",
+          "How is Microsoft updating Windows 11?",
+          "What is the impact of the Linux security flaw?",
+          "What are the new features in Amazon's price tracking?",
+          "Why did Apple raise the Mac Mini's price?"
         ]
       },
-      "tweet_text": "Get ready for a tech shake-up: from Windows 11 redesigns to Apple’s price hikes, the future is...\n\nTechnology Sentiment: Mixed (+0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Price #8216unders8217 #Accessory #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Grab your wallet! Splatoon Raiders for Switch 2 is almost 20% off, and tech giants are shaking things up...\n\nTechnology Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Price #Accessory #Almost #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -512,165 +513,170 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0559,
+        "score": 0.0996,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.093, dampened ×0.6 → -0.0559). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.166, dampened ×0.6 → +0.0996). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Follow live: 1-seed Pistons in danger in Orlando",
-          "url": "https://www.espn.com/nba/game/_/gameId/401869417/pistons-magic",
-          "published": "Fri, 1 May 2026 19:55:07 EST",
-          "summary": "null",
+          "title": "East playoff takeaways: Raptors force Game 7 in OT...",
+          "url": "https://www.espn.com/nba/story/_/id/48506456/2026-nba-playoffs-eastern-conference-round-one-takeaways",
+          "published": "Sat, 2 May 2026 01:03:31 EST",
+          "summary": "Here's what has stood out from the latest playoff games of the Eastern Conference's first round.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Lakers blow out Rockets, advance to face Thunder",
+          "url": "https://www.espn.com/nba/story/_/id/48652810/lakers-eliminate-rockets-game-6-rout",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
+          "summary": "The Lakers eliminated Houston with a 98-78 win in Game 6 of their Western Conference first-round playoff series Friday night by holding the Rockets to a season low in points.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Pistons roar back to stun ice-cold Magic, force G7...",
+          "url": "https://www.espn.com/nba/story/_/id/48651456/pistons-stun-ice-cold-magic-furious-2nd-half-rally-force-game-7",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
+          "summary": "The top-seeded Detroit Pistons pulled off an incredible rally, erasing a 24-point deficit and beating the Orlando Magic 93-79 to force a Game 7 in their Eastern Conference first-round series.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Barrett saves Raptors' season with dramatic 3",
+          "url": "https://www.espn.com/nba/story/_/id/48652146/barrett-saves-raptors-forces-game-7-dramatic-3-ot",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
+          "summary": "RJ Barrett got a friendly bounce to hit the winning 3-pointer with 1.2 seconds left in overtime, helping the Raptors force Game 7 with a 112-110 win over the Cavs on Friday night.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sabres win playoff series for 1st time since 2007",
+          "url": "https://www.espn.com/nhl/story/_/id/48651817/sabres-oust-bruins-end-18-season-playoff-series-win-drought",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
+          "summary": "The Sabres defeated the Bruins 4-1 on Friday night in Game 6 to advance to the second round of the NHL playoffs for the first time since 2007.",
+          "source": "ESPN"
+        },
+        {
+          "title": "'A little too far': McAvoy tossed for violent slas...",
+          "url": "https://www.espn.com/nhl/story/_/id/48652643/bruins-charlie-mcavoy-ejected-violent-slash-zach-benson",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
+          "summary": "Bruins defenseman Charlie McAvoy was ejected late in their Game 6 elimination loss to the Sabres for a violent slash on forward Zach Benson.",
+          "source": "ESPN"
+        },
+        {
+          "title": "White Sox rookie Murakami hits MLB-best 13th HR",
+          "url": "https://www.espn.com/mlb/story/_/id/48652862/munetaka-murakami-hits-13th-homer-season-win-padres",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
+          "summary": "Munetaka Murakami hit his majors-leading 13th homer of the season to highlight a six-run second inning, and the White Sox beat the Padres 8-2 on Friday night.",
           "source": "ESPN"
         },
         {
           "title": "Sources: Colts declining Richardson's '27 option",
           "url": "https://www.espn.com/nfl/story/_/id/48649873/colts-declining-richardson-fifth-year-option-27",
-          "published": "Fri, 1 May 2026 18:32:58 EST",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
           "summary": "The Colts are declining to exercise QB Anthony Richardson's fifth-year option for 2027, a source told ESPN, meaning Richardson will hit unrestricted free agency after the 2026 season.",
           "source": "ESPN"
         },
         {
-          "title": "No charges for Steelers' Metcalf over fan incident...",
-          "url": "https://www.espn.com/nfl/story/_/id/48649087/prosecutors-say-no-charges-dk-metcalf-fan-altercation",
-          "published": "Fri, 1 May 2026 18:32:58 EST",
-          "summary": "Steelers wide receiver DK Metcalf will not face criminal charges stemming from his altercation with a fan at Ford Field during the Steelers' December game against the Detroit Lions, the Wayne County Prosecutors Office announced May 1.",
+          "title": "Always a Runner wins the 152nd Kentucky Oaks",
+          "url": "https://www.espn.com/horse-racing/story/_/id/48650983/always-runner-wins-152nd-kentucky-oaks",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
+          "summary": "Always a Runner won the 152nd edition of the Kentucky Oaks on Friday night.",
           "source": "ESPN"
         },
         {
-          "title": "D-backs' Vargas hit streak sets Venezuelan mark",
-          "url": "https://www.espn.com/mlb/story/_/id/48649107/ildemaro-vargas-27-game-hit-streak-sets-mark-venezuelan",
-          "published": "Fri, 1 May 2026 18:32:58 EST",
-          "summary": "Diamondbacks infielder Ildemaro Vargas extended his hitting streak to 27 games Friday, breaking the major league record for a Venezuela native.",
+          "title": "📸 Aaron Judge's cleats feature logo of his dogs",
+          "url": "https://www.espn.com/mlb/story/_/id/48650211/yankees-aaron-judge-cleats-logo-dogs-penny-gus",
+          "published": "Sat, 2 May 2026 00:57:46 EST",
+          "summary": "The Yankees slugger wore custom Nike cleats featuring a logo of his dachshunds, Penny and Gus.",
           "source": "ESPN"
         },
         {
-          "title": "Report: Mets standing by manager Mendoza",
-          "url": "https://www.espn.com/mlb/story/_/id/48648478/mets-standing-carlos-mendoza-10-21-start",
-          "published": "Fri, 1 May 2026 18:32:58 EST",
-          "summary": "The Mets have no immediate plans to fire manager Carlos Mendoza, despite the team owning MLB's worst record at 10-21.",
+          "title": "Solak's NFL Rookie of the Year favorites: Ranking ...",
+          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48638807/2026-nfl-rookie-year-candidates-early-rankings-predictions-draft",
+          "published": "Fri, 1 May 2026 17:50:46 EST",
+          "summary": "Which draft picks are set up to win Offensive and Defensive Rookie of the Year? Let's stack the top names to watch on each side of the ball.",
           "source": "ESPN"
         },
         {
-          "title": "Notre Dame adds Monds to future QB pipeline",
-          "url": "https://www.espn.com/college-football/story/_/id/48648029/notre-dame-adds-wonderful-monds-iv-future-qb-pipeline",
-          "published": "Fri, 1 May 2026 18:33:21 EST",
-          "summary": "Notre Dame secured another addition to its future quarterback pipeline Friday with a commitment from four-star prospect Wonderful Monds IV, ESPN's No. 14 pocket passer in the 2027 class.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Gophers QB Lindsey arrested for fake ID, alcohol",
-          "url": "https://www.espn.com/college-football/story/_/id/48648720/minnesota-qb-lindsey-arrested-underage-alcohol-fake-id",
-          "published": "Fri, 1 May 2026 18:33:21 EST",
-          "summary": "Minnesota starting quarterback Drake Lindsey, 20, was arrested early Friday in Arkansas and accused of underage alcohol possession and possession of a fake ID.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Report: Valkyries top WNBA with $850M valuation",
-          "url": "https://www.espn.com/wnba/story/_/id/48645552/valkyries-wnba-most-valuable-team-2nd-straight-year",
-          "published": "Fri, 1 May 2026 18:32:58 EST",
-          "summary": "For the second straight year, the Golden State Valkyries topped the WNBA with an $850 million valuation, according to Sportico.",
-          "source": "ESPN"
-        },
-        {
-          "title": "F1's Miami schedule in doubt amid storm threat",
-          "url": "https://www.espn.com/f1/story/_/id/48647468/miami-grand-prix-formula-1-schedule-doubt-amid-thunderstorm-threat",
-          "published": "Fri, 1 May 2026 18:32:58 EST",
-          "summary": "Formula 1 might struggle to complete the full Miami Grand Prix if forecasts of heavy thunderstorms come to pass on Sunday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "🏈 Fantasy football mock draft: Year of the RB?",
-          "url": "https://www.espn.com/fantasy/football/story/_/page/FFMockDraft-48610592/2026-fantasy-football-mock-draft-post-nfl-draft",
-          "published": "Fri, 1 May 2026 18:32:58 EST",
-          "summary": "Running backs went early and as 10 ESPN fantasy analysts made their first fantasy draft picks of the year",
-          "source": "ESPN"
-        },
-        {
-          "title": "Who are your club's future stars? Updated top 10 prospect rankings for all 30 MLB teams",
-          "url": "https://www.espn.com/mlb/story/_/id/47684227/2026-top-10-prospect-rankings-all-30-mlb-teams-kiley-mcdaniel",
-          "published": "Fri, 1 May 2026 11:06:27 EST",
-          "summary": "Who is rising in every major league farm system a month into the season? Kiley McDaniel digs in.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Worst team money could buy? The lowest moments of ...",
-          "url": "https://www.espn.com/mlb/story/_/id/48639562/mlb-2026-new-york-mets-april-month-misery-soto-lindor-mendoza-lowest-moments",
-          "published": "Fri, 1 May 2026 17:02:42 EST",
-          "summary": "The team with MLB's second-highest payroll has the worst record in the majors. Here's how New York got here.",
+          "title": "Early 2027 NFL mock draft: Which prospects could g...",
+          "url": "https://www.espn.com/nfl/draft2027/story/_/id/48611355/2027-nfl-mock-draft-early-first-round-predictions-32-picks-manning-smith",
+          "published": "Fri, 1 May 2026 17:50:46 EST",
+          "summary": "Will Arch Manning go No. 1? What about Jeremiah Smith? Let's make some way-too-early predictions.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The Colts will not exercise QB Anthony Richardson's fifth-year option, while the Diamondbacks' Ildemaro Vargas sets a new Venezuelan hit streak record.",
-        "summary": "Today's sports headlines feature significant developments in the NBA, NFL, MLB, and college football, including the Colts' decision on QB Anthony Richardson and Ildemaro Vargas' historic hitting streak.",
+        "key_takeaway": "The NBA playoffs are heating up with multiple Game 7s, while the NHL's Sabres advance for the first time since 2007.",
+        "summary": "In today's sports news, the NBA playoffs are in full swing with several teams forcing decisive Game 7s, including the Raptors and Pistons. The Lakers eliminated the Rockets, and the Sabres celebrated their first playoff series win since 2007. In MLB, rookie Munetaka Murakami leads the league with 13 home runs. The Colts have opted not to exercise QB Anthony Richardson's fifth-year option, and Always a Runner won the Kentucky Oaks.",
         "key_themes": [
-          "NFL player contracts",
-          "MLB hitting records",
-          "WNBA team valuations",
-          "college football recruit commitments",
-          "F1 race weather concerns"
+          "NBA playoffs updates",
+          "NHL playoff results",
+          "MLB rookie highlights",
+          "NFL offseason news",
+          "Kentucky Oaks results"
         ],
         "notable_headlines": [
           {
-            "headline": "Sources: Colts declining Richardson's '27 option",
-            "why_it_matters": "This decision impacts the future of QB Anthony Richardson, who will enter free agency after the 2026 season.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "D-backs' Vargas hit streak sets Venezuelan mark",
-            "why_it_matters": "Ildemaro Vargas' achievement highlights his performance and sets a new record for Venezuelan players in MLB.",
+            "headline": "East playoff takeaways: Raptors force Game 7 in OT",
+            "why_it_matters": "The Raptors' victory sets up a thrilling Game 7 in the Eastern Conference playoffs, highlighting their resilience.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Report: Mets standing by manager Mendoza",
-            "why_it_matters": "Despite a poor start, the Mets are maintaining their support for manager Carlos Mendoza, indicating stability amid struggles.",
-            "signal": "Unclear"
+            "headline": "Lakers blow out Rockets, advance to face Thunder",
+            "why_it_matters": "The Lakers' strong performance secures their place in the next round of the playoffs, showcasing their championship potential.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Gophers QB Lindsey arrested for fake ID, alcohol",
-            "why_it_matters": "This incident raises concerns about discipline and the future of Minnesota's starting quarterback.",
-            "signal": "Risk"
+            "headline": "Pistons roar back to stun ice-cold Magic, force G7",
+            "why_it_matters": "The Pistons' comeback victory adds excitement to the playoffs, demonstrating their fighting spirit.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "F1's Miami schedule in doubt amid storm threat",
-            "why_it_matters": "Severe weather could disrupt the Miami Grand Prix, affecting teams and fans alike.",
+            "headline": "Sabres win playoff series for 1st time since 2007",
+            "why_it_matters": "This marks a significant milestone for the Sabres, ending a long playoff series win drought.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "White Sox rookie Murakami hits MLB-best 13th HR",
+            "why_it_matters": "Murakami's performance highlights his potential as a standout rookie in the MLB this season.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Sources: Colts declining Richardson's '27 option",
+            "why_it_matters": "This decision impacts Richardson's future in the NFL, as he will become a free agent after this season.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor the outcome of the Pistons game against the Magic as they face elimination.",
-            "Watch for updates on the Miami Grand Prix and potential weather impacts.",
-            "Follow developments regarding the Mets' management decisions."
+            "Watch for the outcomes of the NBA Game 7s this weekend.",
+            "Monitor the NHL playoffs as more teams vie for advancement.",
+            "Follow MLB games for updates on rookie performances."
           ],
           "next_1_4_weeks": [
-            "Track the performance of Ildemaro Vargas and the Diamondbacks as they continue their season.",
-            "Observe the implications of Richardson's free agency on the Colts' future roster decisions.",
-            "Keep an eye on the Gophers' quarterback situation following Lindsey's arrest."
+            "Expect increased focus on the NBA playoffs as teams compete for the championship.",
+            "NHL playoff matchups will become clearer as teams advance.",
+            "NFL teams will prepare for the upcoming draft and offseason moves."
           ],
           "watch_list": [
-            "Upcoming NBA playoff games and potential upsets.",
-            "The impact of the NFL draft on team strategies and player contracts.",
-            "MLB team performance trends as the season progresses.",
-            "F1 race schedules and weather forecasts."
+            "NBA playoff results and analysis",
+            "NHL playoff updates and team performances",
+            "MLB rookie statistics and highlights",
+            "NFL offseason developments and draft predictions"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about today's sports news, reflecting both positive achievements and negative incidents.",
-          "Future outcomes remain uncertain due to ongoing developments in various sports."
+          "The mixed sentiment indicates uncertainty in some sports outcomes.",
+          "Future predictions are subject to change based on team performances and injuries."
         ],
         "related_topics": [
-          "What are the latest NFL player contract decisions?",
-          "How is Ildemaro Vargas performing in MLB?",
-          "What are the implications of the Mets' management decisions?",
-          "What is the status of the Miami Grand Prix?",
-          "Who are the top college football recruits for 2027?"
+          "What are the latest updates in the NBA playoffs?",
+          "NHL playoff results and analysis",
+          "Who are the top MLB rookies this season?",
+          "NFL offseason news and player options",
+          "Kentucky Oaks results and highlights"
         ]
       },
-      "tweet_text": "Can the 1-seed Pistons survive the Magic's upset bid? Tune in for the showdown!\n\nSports Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#1seed #850m #Adds #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Drama unfolds as Raptors and Pistons force Game 7s, while the Lakers and Sabres celebrate historic playoff...\n\nSports Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Force #Playoff #Raptors #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -773,73 +779,74 @@
       ],
       "ai_report": {
         "key_takeaway": "Recent scientific discoveries include a 275-million-year-old animal, breakthroughs in quantum physics, and new insights into obesity and exercise for knee arthritis.",
-        "summary": "Today's science headlines highlight significant discoveries, including a prehistoric animal with a unique jaw, a spider that hunts larger prey, advancements in quantum physics, and new findings on obesity and exercise. Additionally, researchers have identified rare compounds in cannabis, revealed geological changes in the Pacific Northwest, and made strides in photon teleportation. These developments underscore the ongoing exploration and understanding of both ancient and modern biological and physical phenomena.",
+        "summary": "Today's science headlines highlight a range of discoveries, from ancient fossils and unique spider species to significant advancements in quantum physics and medical research. Notably, researchers have identified new compounds in cannabis, reshaped understanding of fat metabolism, and revealed effective exercises for knee arthritis. Additionally, groundbreaking work in quantum teleportation and the study of geological formations like the Twelve Apostles showcases the diverse advancements in the field.",
         "key_themes": [
-          "recent discoveries in paleontology",
+          "ancient animal discoveries",
           "quantum physics breakthroughs",
-          "new insights into obesity",
-          "exercise recommendations for arthritis",
-          "cannabis compounds research"
+          "cannabis compounds research",
+          "obesity and metabolism",
+          "exercise for knee arthritis",
+          "geological studies of the Twelve Apostles"
         ],
         "notable_headlines": [
           {
             "headline": "This 275-million-year-old animal had a twisted jaw like nothing alive today",
-            "why_it_matters": "The discovery of Tanyka amnicola provides insights into ancient life and evolutionary history.",
+            "why_it_matters": "The discovery of Tanyka amnicola provides insights into ancient ecosystems and evolutionary biology.",
             "signal": "Opportunity"
           },
           {
             "headline": "Oxford physicists achieve first-ever “quadsqueezing” breakthrough in quantum physics",
-            "why_it_matters": "This breakthrough could open new frontiers in quantum technology and applications.",
+            "why_it_matters": "This breakthrough could lead to advancements in quantum technology and a better understanding of quantum systems.",
             "signal": "Opportunity"
           },
           {
             "headline": "Surprising obesity discovery rewrites decades of fat metabolism science",
-            "why_it_matters": "New understanding of fat metabolism may change approaches to obesity treatment.",
-            "signal": "Opportunity"
+            "why_it_matters": "New insights into fat metabolism could change approaches to obesity treatment and metabolic health.",
+            "signal": "Risk"
           },
           {
             "headline": "Scientists reveal the best exercise for knee arthritis pain relief",
-            "why_it_matters": "Identifying effective exercise options can significantly improve quality of life for arthritis sufferers.",
+            "why_it_matters": "Identifying effective exercise regimens can significantly improve quality of life for those with knee osteoarthritis.",
             "signal": "Opportunity"
           },
           {
             "headline": "Earth is splitting open beneath the Pacific Northwest, scientists say",
-            "why_it_matters": "Understanding geological processes can enhance earthquake prediction and safety measures.",
-            "signal": "Risk"
+            "why_it_matters": "Understanding the dynamics of subduction zones can enhance earthquake prediction and geological knowledge.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the implications of the quantum physics breakthrough is expected.",
-            "More studies on the newly discovered cannabis compounds may emerge.",
-            "Anticipation of additional findings related to the obesity research."
+            "Further analysis of the newly discovered ancient animal may provide more insights into prehistoric life.",
+            "Expect more studies on the implications of the quadsqueezing breakthrough in quantum technology.",
+            "Research on cannabis compounds may lead to new medical applications."
           ],
           "next_1_4_weeks": [
-            "Research on the ecological impact of the newly discovered spider species may be published.",
-            "Further geological studies in the Pacific Northwest could provide more insights.",
-            "Potential developments in quantum networking technology following the photon teleportation."
+            "Anticipate discussions on the impact of the obesity discovery on public health policies.",
+            "Further exploration of effective exercises for knee arthritis may lead to new treatment guidelines.",
+            "Ongoing studies on the geological findings related to the Twelve Apostles could reveal more about Earth's history."
           ],
           "watch_list": [
-            "Monitor ongoing research in quantum physics and its applications.",
-            "Keep an eye on new studies related to obesity and exercise.",
-            "Watch for updates on the ecological role of newly discovered species.",
-            "Follow developments in cannabis research and its medical implications."
+            "Developments in quantum physics and technology advancements.",
+            "Research on the health benefits of newly discovered cannabis compounds.",
+            "Updates on obesity research and its implications for treatment.",
+            "Monitoring studies related to knee arthritis management."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of some discoveries may take time to fully understand.",
-          "Further research is needed to confirm initial findings in various studies."
+          "The implications of the discoveries may take time to fully understand and apply.",
+          "Further research is needed to confirm the long-term effects of the new findings."
         ],
         "related_topics": [
-          "What are the latest discoveries in paleontology?",
-          "How does exercise help with knee arthritis?",
-          "What are the new findings in quantum physics?",
-          "What compounds have been found in cannabis?",
-          "How is obesity being redefined in scientific research?"
+          "What are the latest discoveries in ancient fossils?",
+          "How is quantum physics advancing in 2026?",
+          "What new compounds have been found in cannabis?",
+          "What exercises are best for knee arthritis?",
+          "How do geological formations like the Twelve Apostles form?"
         ]
       },
-      "tweet_text": "Uncover the jaw-dropping secrets of ancient beasts and modern science that could change...\n\nScience Sentiment: Positive (+0.40)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #275millionyearold #Achieve #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Uncover the jaw-dropping secrets of ancient beasts and groundbreaking science that could...\n\nScience Sentiment: Positive (+0.40)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #275millionyearold #Achieve #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
