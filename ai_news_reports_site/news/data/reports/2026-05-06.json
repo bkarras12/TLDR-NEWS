@@ -1,12 +1,15 @@
 {
   "date": "2026-05-06",
-  "generated_at_utc": "2026-05-06T15:58:59Z",
+  "generated_at_utc": "2026-05-06T23:58:56Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "iran",
+    "turner",
     "strait",
     "prices",
-    "fuel"
+    "fuel",
+    "deal"
   ],
   "categories": {
     "world": {
@@ -18,15 +21,43 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2087,
+        "score": -0.1437,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.348, dampened ×0.6 → -0.2087). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.239, dampened ×0.6 → -0.1437). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Iran considering US proposal to end war, official says",
+          "url": "https://www.bbc.com/news/articles/cj0pq2q8221o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 06 May 2026 21:27:59 GMT",
+          "summary": "The White House reportedly believes it could be closing in on a 14-point memorandum of understanding with Iran.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump's hopes for an Iran peace deal come with caveats",
+          "url": "https://www.bbc.com/news/articles/cvgzp74rvj5o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 06 May 2026 17:32:04 GMT",
+          "summary": "There are signs of fresh momentum to end the war, but Trump himself has injected a note of caution.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Israel strikes Beirut for first time since Hezbollah ceasefire",
+          "url": "https://www.bbc.com/news/articles/crmpjjl02l2o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 06 May 2026 19:58:04 GMT",
+          "summary": "Israel says it targeted a senior Hezbollah figure in the capital, the first strike of its kind since mid-April.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Hantavirus-hit cruise ship leaves Cape Verde after three evacuated",
+          "url": "https://www.bbc.com/news/articles/c5y093d5n9ko?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 06 May 2026 22:10:40 GMT",
+          "summary": "A British man is among three evacuees sent to the Netherlands after displaying symptoms while aboard the MV Hondius.",
+          "source": "BBC News"
+        },
+        {
           "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
           "url": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 06 May 2026 14:03:53 GMT",
+          "published": "Wed, 06 May 2026 16:11:44 GMT",
           "summary": "Reports have raised hopes of an agreement between the US and Iran after days of escalation.",
           "source": "BBC News"
         },
@@ -45,20 +76,6 @@
           "source": "BBC News"
         },
         {
-          "title": "German police raid neo-Nazi criminal youth groups",
-          "url": "https://www.bbc.com/news/articles/cgkpmy6l2deo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 06 May 2026 11:34:56 GMT",
-          "summary": "Police search locations in 12 states, mainly in the East and South of the country in what prosecutors say is a targeted raid.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten",
-          "url": "https://www.bbc.com/news/articles/cpdpxdd5n6yo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 06 May 2026 11:53:20 GMT",
-          "summary": "Ukraine's president says Russia has \"spurned the ceasefire\" and Kyiv is deciding on further action to take.",
-          "source": "BBC News"
-        },
-        {
           "title": "Orphaned baby hippo to be hand-reared by keepers at Kenya sanctuary",
           "url": "https://www.bbc.com/news/articles/c1e2zev6754o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 06 May 2026 12:35:15 GMT",
@@ -73,111 +90,95 @@
           "source": "BBC News"
         },
         {
+          "title": "German police raid neo-Nazi criminal youth groups",
+          "url": "https://www.bbc.com/news/articles/cgkpmy6l2deo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 06 May 2026 11:34:56 GMT",
+          "summary": "Police search locations in 12 states, mainly in the East and South of the country in what prosecutors say is a targeted raid.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten",
+          "url": "https://www.bbc.com/news/articles/cpdpxdd5n6yo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 06 May 2026 11:53:20 GMT",
+          "summary": "Ukraine's president says Russia has \"spurned the ceasefire\" and Kyiv is deciding on further action to take.",
+          "source": "BBC News"
+        },
+        {
           "title": "China calls for Strait to be reopened 'as soon as possible' in Iran talks",
           "url": "https://www.bbc.com/news/articles/c0m21mndm71o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 06 May 2026 09:35:39 GMT",
           "summary": "Wang Yi is holding talks with Iran's foreign minister Aragchi who is on his first trip to China since the war began.",
           "source": "BBC News"
-        },
-        {
-          "title": "Vivek Ramaswamy wins Republican nomination for Ohio governor",
-          "url": "https://www.bbc.com/news/articles/c4g0xe4qlzxo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 06 May 2026 11:04:06 GMT",
-          "summary": "The staunch Trump ally emerged victorious in one of a series of closely-watched primary contests held in the US Midwest.",
-          "source": "BBC News"
-        },
-        {
-          "title": "BBC traces how 10 minutes of Israeli bombing brought devastation to Lebanon",
-          "url": "https://www.bbc.com/news/articles/c202652vvnjo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 05 May 2026 21:22:31 GMT",
-          "summary": "The bombs started falling at 14:15 in the afternoon - bringing chaos and destruction across the country.",
-          "source": "BBC News"
-        },
-        {
-          "title": "'I had to stick to the plan': Officer describes retrieving crocodile with human remains inside",
-          "url": "https://www.bbc.com/news/articles/cp8pqz63808o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 05 May 2026 17:35:32 GMT",
-          "summary": "DNA tests are underway to confirm whether remains found inside the crocodile match that of a missing man.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Russian attacks kill more than 20 ahead of rival ceasefires proposed by Kyiv and Moscow",
-          "url": "https://www.bbc.com/news/articles/c1e2zjz22p9o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 05 May 2026 19:23:18 GMT",
-          "summary": "Kyiv said it would begin a truce on 6 May and then \"act symmetrically\" after Moscow declared a pause for its Victory Day parade.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Oil prices fell and stock markets rose amid reports of a potential US-Iran agreement, while violence continues in Ukraine despite proposed ceasefires.",
-        "summary": "Today's news highlights a mix of geopolitical developments, including a potential resolution to the Iran conflict, ongoing violence in Ukraine, and the death of media pioneer Ted Turner. Additionally, environmental concerns are raised with new research on climate change's impact on natural disasters.",
+        "key_takeaway": "Iran is considering a US proposal to end the war, while Israel has conducted airstrikes in Beirut amid ongoing regional tensions.",
+        "summary": "Today's headlines reflect a mix of geopolitical developments, including Iran's potential agreement with the US to end hostilities, Israel's military actions against Hezbollah, and ongoing humanitarian crises in Ukraine and Cape Verde. The death of media mogul Ted Turner also marks a significant cultural moment.",
         "key_themes": [
-          "geopolitical tensions",
-          "climate change impact",
-          "media industry news",
-          "Ukraine conflict updates",
-          "economic market reactions"
+          "Iran-US relations",
+          "Middle East conflict",
+          "Ukraine humanitarian crisis",
+          "Ted Turner legacy",
+          "climate change impacts"
         ],
         "notable_headlines": [
           {
-            "headline": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
-            "why_it_matters": "A potential agreement between the US and Iran could stabilize oil markets and improve economic conditions.",
+            "headline": "Iran considering US proposal to end war, official says",
+            "why_it_matters": "This could signify a pivotal moment in US-Iran relations and regional stability.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Ted Turner, media mogul who revolutionised TV news by launching CNN, dies at 87",
-            "why_it_matters": "Turner's legacy shaped modern news broadcasting and his passing marks the end of an era in media.",
-            "signal": "Unclear"
+            "headline": "Israel strikes Beirut for first time since Hezbollah ceasefire",
+            "why_it_matters": "This escalation could further complicate the fragile ceasefire and regional dynamics.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "To stay or risk the 'Road of Death' - Ukrainian civilians trapped in frontline city",
+            "why_it_matters": "Highlights the dire humanitarian situation faced by civilians in conflict zones.",
+            "signal": "Risk"
           },
           {
             "headline": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten",
-            "why_it_matters": "Continued violence undermines peace efforts and raises concerns about civilian safety in conflict zones.",
+            "why_it_matters": "Demonstrates the ongoing violence and disregard for ceasefire agreements in the region.",
             "signal": "Risk"
           },
           {
-            "headline": "German police raid neo-Nazi criminal youth groups",
-            "why_it_matters": "This action reflects ongoing efforts to combat extremism and hate groups in Germany.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Massive Alaska megatsunami was second largest ever recorded",
-            "why_it_matters": "Research indicates climate change is increasing the frequency of extreme weather events, posing risks to coastal communities.",
-            "signal": "Risk"
+            "headline": "Ted Turner, media mogul who revolutionised TV news by launching CNN, dies at 87",
+            "why_it_matters": "Turner's passing marks the end of an era in media and news broadcasting.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in US-Iran negotiations for potential market impacts.",
-            "Watch for updates on the situation in Ukraine as ceasefire proposals evolve.",
-            "Follow reactions to Ted Turner's death in the media industry."
+            "Monitor developments in Iran's negotiations with the US.",
+            "Watch for responses from Israel and Hezbollah following the airstrike.",
+            "Observe humanitarian efforts in Ukraine and Cape Verde."
           ],
           "next_1_4_weeks": [
-            "Observe how geopolitical tensions affect global oil prices and stock markets.",
-            "Track the response to climate change research and its implications for policy.",
-            "Stay updated on the outcomes of police actions against extremist groups in Germany."
+            "Assess the impact of any potential peace agreement between the US and Iran.",
+            "Evaluate the situation in Ukraine as winter approaches and humanitarian needs grow.",
+            "Follow the implications of Ted Turner's legacy on media and journalism."
           ],
           "watch_list": [
-            "US-Iran negotiations",
-            "Ukraine conflict developments",
-            "Media industry reactions to Ted Turner",
-            "Climate change impacts on natural disasters",
-            "European extremism and security measures"
+            "Iran-US negotiations",
+            "Middle East military actions",
+            "Ukrainian civilian conditions",
+            "Ted Turner's influence on media",
+            "Climate change and natural disasters"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Ukraine remains fluid and unpredictable, making future developments uncertain.",
-          "Market reactions to geopolitical events can be volatile and influenced by multiple factors."
+          "The situation in Iran and the Middle East is fluid and could change rapidly.",
+          "Humanitarian crises may worsen without immediate international intervention."
         ],
         "related_topics": [
-          "What are the latest developments in the Iran conflict?",
-          "How is climate change affecting natural disasters?",
-          "What impact did Ted Turner have on the media industry?",
-          "Updates on the Ukraine conflict and ceasefire efforts",
-          "Recent actions against neo-Nazi groups in Germany"
+          "What is the latest on Iran-US negotiations?",
+          "How is the conflict in Ukraine affecting civilians?",
+          "What are the implications of Israel's airstrikes in Beirut?"
         ]
       },
-      "tweet_text": "From a historic media mogul's passing to a potential end to war, today's headlines are a rollercoaster of emotions.\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Alaska #Attacks #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From peace talks to perilous strikes, today’s headlines reveal a world on the brink—what’s next?\n\nWorld Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Deal #Alaska #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -188,16 +189,44 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.0351,
+        "score": 0.0358,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.059, dampened ×0.6 → +0.0351). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.060, dampened ×0.6 → +0.0358). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – as it happened",
-          "url": "https://www.theguardian.com/business/live/2026/may/06/oil-prices-retreat-global-stocks-hit-record-highs-trump-great-progress-iran-deal-live-updates",
-          "published": "Wed, 06 May 2026 14:13:42 GMT",
-          "summary": "<p>Iran’s Islamic Revolutionary Guard Corps navy has announced the strait of Hormuz could reopen following the end of ‘threats from aggressors’</p><p>Job vacancies in the UK bounced back in March but remained near a five-year low, and openings for graduates slumped more than a third.</p><p>UK job vacancies showed signs of recovery in March, rising 3.74% month-on-month to 752,711 – the second monthly increase after an extended period of decline, according to the job matching platform Adzuna. Yet",
+          "title": "Oil prices fall as Trump says strait of Hormuz ‘open to all’ if Iran accepts deal",
+          "url": "https://www.theguardian.com/business/2026/may/06/oil-prices-ease-and-markets-rally-as-trump-works-towards-deal-with-iran",
+          "published": "Wed, 06 May 2026 16:58:59 GMT",
+          "summary": "<p>US president says war will end if Tehran agrees to deal, but that ‘bombing starts’ again if it does not</p><p></p><p>Oil prices fell and stock markets rose as Donald Trump said the war with Iran would end and the strait of Hormuz would be “open to all” if Tehran struck a deal with Washington.</p><p>The US president posted on social media: “Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the already legendary Epic Fury will be at an end, and the highl",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Ted Turner, CNN founder who reshaped global news, dies aged 87",
+          "url": "https://www.theguardian.com/us-news/2026/may/06/ted-turner-dead",
+          "published": "Wed, 06 May 2026 14:51:32 GMT",
+          "summary": "<p>The death of the media mogul who transformed TV news was confirmed by his family and reported by CNN</p><p>Ted Turner, the media mogul who founded <a href=\"https://www.theguardian.com/media/cnn\">CNN</a>, has died aged 87, <a href=\"https://www.cnn.com/2026/05/06/us/ted-turner-death\">CNN</a> reported on Wednesday, citing a news release from Turner Enterprises.</p><p>In a <a href=\"https://www.cnn.com/2026/05/06/us/ted-turner-death\">statement</a>, Mark Thompson, the chair and CEO of CNN Worldwide",
+          "source": "The Guardian"
+        },
+        {
+          "title": "New York real estate titan likens the phrase ‘tax the rich’ to racial slurs",
+          "url": "https://www.theguardian.com/us-news/2026/may/06/tax-the-rich-racial-slurs-new-york-real-estate",
+          "published": "Wed, 06 May 2026 17:49:57 GMT",
+          "summary": "<p>Steve Roth was responding to the announcement by New York’s mayor of tax on second homes worth more than $5m</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US newsletter email</a><em> </em></p></li></ul><p>The phrase “tax the",
+          "source": "The Guardian"
+        },
+        {
+          "title": "CNN legend Christiane Amanpour expresses concern about Ellison takeover",
+          "url": "https://www.theguardian.com/media/2026/may/06/cnn-christiane-amanpour-david-ellison-paramount",
+          "published": "Wed, 06 May 2026 15:58:22 GMT",
+          "summary": "<p>Ahead of Paramount Skydance merger with Warner Bros Discovery, Amanpour talks ‘ideological realignment of CBS’</p><p>One of CNN’s most recognizable and influential voices, chief international anchor Christiane Amanpour, has voiced concerns about CBS News parent company Paramount Skydance’s acquisition of CNN parent company Warner Bros Discovery and what it might mean for the cable news network.</p><p>Speaking at the Truth Tellers summit honoring the late English journalism pioneer, Sir Harry",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Shivon Zilis, mother of four of Elon Musk’s children, testifies in OpenAI trial",
+          "url": "https://www.theguardian.com/technology/2026/may/06/shivon-zilis-testimony-elon-musk-openai-lawsuit",
+          "published": "Wed, 06 May 2026 22:58:58 GMT",
+          "summary": "<p>Zilis, an executive at Musk’s brain implant startup Neuralink, served on OpenAI’s board from 2020 to 2023</p><p>Shivon Zilis, a Neuralink executive and the mother of four of <a href=\"https://www.theguardian.com/technology/elon-musk\">Elon Musk</a>’s children, took the stand on Wednesday as one of the most highly anticipated witnesses in Musk’s case against OpenAI. The <a href=\"https://www.theguardian.com/technology/chatgpt\">ChatGPT</a> maker has argued that, while Zilis worked with <a href=\"ht",
           "source": "The Guardian"
         },
         {
@@ -215,10 +244,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "US Equal Employment Opportunity Commission sues NYT over bias claim",
+          "title": "Lawsuit claims New York Times didn’t promote white male editor because of race or sex",
           "url": "https://www.theguardian.com/media/2026/may/05/new-york-times-lawsuit-equal-opportunity",
           "published": "Tue, 05 May 2026 20:59:34 GMT",
-          "summary": "<p>White male editor at newspaper claims he was unfairly passed over for promoted role despite qualifications</p><p>In what appears to be a new front in the <a href=\"https://www.theguardian.com/us-news/trump-administration\">Trump administration</a>’s <a href=\"https://www.theguardian.com/us-news/2025/feb/24/trump-free-speech-media-attack\">pressure</a> <a href=\"https://www.theguardian.com/us-news/2025/feb/02/trump-media-pressure\">campaign</a> against the media, the US Equal Employment Opportunity",
+          "summary": "<p>US Equal Employment Opportunity Commission files suit claiming newspaper passed over employee due to ‘diversity aspirations’</p><p>In what appears to be a new front in the <a href=\"https://www.theguardian.com/us-news/trump-administration\">Trump administration</a>’s <a href=\"https://www.theguardian.com/us-news/2025/feb/24/trump-free-speech-media-attack\">pressure</a> <a href=\"https://www.theguardian.com/us-news/2025/feb/02/trump-media-pressure\">campaign</a> against the media, the US Equal Emplo",
           "source": "The Guardian"
         },
         {
@@ -229,31 +258,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "GameStop shares fall 10% after CEO skirts questions over eBay acquisition details",
-          "url": "https://www.theguardian.com/technology/2026/may/04/gamestop-ceo-ebay-acquisition",
-          "published": "Mon, 04 May 2026 21:33:35 GMT",
-          "summary": "<p>Ryan Cohen said he didn’t understand questions about how the video games retailer could afford its $55.5bn bid</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US newsletter email</a></p></li></ul><p><a href=\"https://www.thegua",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Elon Musk settles SEC lawsuit over Twitter purchase and agrees to pay $1.5m fine",
-          "url": "https://www.theguardian.com/technology/2026/may/04/elon-musk-sec-twitter-x-lawsuit-fine",
-          "published": "Mon, 04 May 2026 22:22:45 GMT",
-          "summary": "<p>Musk won’t have to give up any money he allegedly saved from delaying disclosure of initial purchase of Twitter stock</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US newsletter email</a></p></li></ul><p>Elon Musk settled th",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Spirit Airlines says it has nearly finished refunding customers after shuttering",
-          "url": "https://www.theguardian.com/us-news/2026/may/03/spirit-airlines-customer-refunds",
-          "published": "Sun, 03 May 2026 23:49:52 GMT",
-          "summary": "<p>Budget airline left thousands stranded on Saturday after ceasing operations amid financial troubles</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/may/02/spirit-airlines-shutdown-how-to-get-home-refunds\">Spirit Airlines shutdown: how to get home and get refunds</a></p></li><li><p><a href=\"https://www.theguardian.com/business/2026/may/02/spirit-airlines-ceases-operations-blame\">Political blame game begins and passengers left adrift after Spirit ceases operations</a></p></li></",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Trump tears up part of EU tariff deal to raise import duties on cars and lorries",
-          "url": "https://www.theguardian.com/us-news/2026/may/01/trump-tears-up-eu-tariff-deal-raises-import-duties-europe",
-          "published": "Fri, 01 May 2026 19:08:51 GMT",
-          "summary": "<p>US president says tariff on vehicles imported from EU will rise to 25% and accuses bloc of non-compliance</p><p>Donald Trump has said he is tearing up part of the tariff deal he struck with EU leaders at his golf course in Scotland last summer, criticising Brussels for taking so long to ratify the deal.</p><p>Blindsiding Brussels late on Friday, a public holiday in much of Europe, he announced that he would be increasing tariffs on cars and lorries imported into the US from the EU from 15% to",
+          "title": "Ted Turner obituary",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/may/06/ted-turner-obituary",
+          "published": "Wed, 06 May 2026 19:42:32 GMT",
+          "summary": "<p>One of the great innovators of television who founded CNN, the first 24-hour cable news channel, and built a vast media empire</p><p>If Orson Welles’s 1941 film <a href=\"https://www.theguardian.com/film/1941/oct/12/derekmalcolmscenturyoffilm\">Citizen Kane</a> had been made as a TV movie 60 years later, its Kane would have been Ted Turner. Thanks to Welles, the figure of <a href=\"https://www.theguardian.com/film/2016/mar/28/scale-of-hearst-plot-to-discredit-orson-welles-and-citizen-kane-reveal",
           "source": "The Guardian"
         },
         {
@@ -269,84 +277,77 @@
           "published": "Sat, 02 May 2026 11:00:24 GMT",
           "summary": "<p>Apps, AI tools and shaky job prospects are pushing gen Z into markets earlier, blending caution with risk-taking</p><p>Ambrico Ranginui first heard of <a href=\"https://www.theguardian.com/technology/cryptocurrencies\">cryptocurrencies</a> when he was 12 years old. By the time he was 16, he had saved enough from birthday gifts and his allowance to invest.</p><p>“Growing up in a single-mum household, it made me quite a determined person to get ahead,” Ranginui said. “I wanted to find new avenues",
           "source": "The Guardian"
-        },
-        {
-          "title": "Could the UAE’s shock exit from Opec cause an oil price war?",
-          "url": "https://www.theguardian.com/business/2026/apr/30/uae-saudi-arabia-opec-gulf-oil-price-war",
-          "published": "Thu, 30 Apr 2026 14:00:19 GMT",
-          "summary": "<p>A standoff between Gulf oil giants Saudi Arabia and the UAE could cause greater market volatility for years to come</p><p>The conflict in the Middle East has claimed Opec as the latest casualty of war. The United Arab Emirates’ <a href=\"https://www.theguardian.com/business/2026/apr/28/uae-quit-opec-oil-exporters-cartel-donald-trump\">shock exit</a> from the oil cartel on Tuesday after 60 years is expected to weaken the alliance, which under the leadership of Saudi Arabia has helped to soothe v",
-          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Oil and gas prices have fallen sharply due to hopes of reopening the strait of Hormuz, while the private credit industry faces warnings over its role in the AI boom.",
-        "summary": "Today's business news highlights a significant drop in oil and gas prices, driven by optimism regarding the reopening of the strait of Hormuz. Concurrently, the Financial Stability Board has raised concerns about the private credit industry's influence on the AI sector, warning of potential losses. Additionally, the airline industry is facing challenges with two million seats cut due to soaring jet fuel prices, exacerbated by ongoing conflicts in the Middle East. Other notable stories include a lawsuit against the New York Times by the US Equal Employment Opportunity Commission and the impact of rising jet fuel prices on travel plans.",
+        "key_takeaway": "Oil prices fell as Trump announced a potential deal with Iran, while the private credit industry faces scrutiny for its role in the AI boom.",
+        "summary": "Today's business news highlights a drop in oil prices following President Trump's comments on Iran, the passing of CNN founder Ted Turner, and concerns over the private credit industry's impact on the AI sector. Additionally, the airline industry is grappling with rising jet fuel prices, leading to significant flight cancellations.",
         "key_themes": [
-          "Oil prices and market reactions",
-          "Private credit industry's impact on AI",
-          "Airline industry challenges due to fuel prices",
-          "Legal issues in media companies",
-          "Economic implications of Middle East conflicts"
+          "oil prices and Iran deal",
+          "Ted Turner obituary",
+          "private credit industry and AI",
+          "airline industry challenges",
+          "New York real estate tax debate"
         ],
         "notable_headlines": [
           {
-            "headline": "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening",
-            "why_it_matters": "The reopening of the strait could stabilize oil prices and impact global markets.",
+            "headline": "Oil prices fall as Trump says strait of Hormuz ‘open to all’ if Iran accepts deal",
+            "why_it_matters": "Trump's comments could stabilize oil markets if a deal is reached with Iran, impacting global prices.",
             "signal": "Opportunity"
           },
           {
+            "headline": "Ted Turner, CNN founder who reshaped global news, dies aged 87",
+            "why_it_matters": "Turner's legacy in media transformation marks a significant moment in journalism history.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Global finance watchdog warns over private credit industry fuelling AI boom",
-            "why_it_matters": "Potential risks in the private credit sector could lead to significant financial losses.",
+            "why_it_matters": "The warning indicates potential risks in the financial sector related to AI investments.",
             "signal": "Risk"
           },
           {
             "headline": "Two million airline seats cut amid soaring jet fuel prices",
-            "why_it_matters": "The reduction in airline capacity reflects the ongoing challenges faced by the aviation industry.",
+            "why_it_matters": "The reduction in airline capacity could affect travel plans and the broader economy.",
             "signal": "Risk"
           },
           {
-            "headline": "US Equal Employment Opportunity Commission sues NYT over bias claim",
-            "why_it_matters": "The lawsuit highlights ongoing issues of workplace discrimination in major media organizations.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Trump tears up part of EU tariff deal to raise import duties on cars and lorries",
-            "why_it_matters": "Changes in trade policy could have significant implications for US-EU relations and the automotive industry.",
-            "signal": "Risk"
+            "headline": "New York real estate titan likens the phrase ‘tax the rich’ to racial slurs",
+            "why_it_matters": "This statement reflects ongoing debates about taxation and wealth distribution in urban areas.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments regarding the strait of Hormuz and its impact on oil prices.",
-            "Watch for updates on the private credit industry's response to the Financial Stability Board's warnings.",
-            "Keep an eye on airline industry adjustments in response to jet fuel prices."
+            "Monitor oil price fluctuations in response to geopolitical developments.",
+            "Watch for updates on the airline industry's adjustments to fuel prices.",
+            "Follow news on the potential Iran deal and its implications for global markets."
           ],
           "next_1_4_weeks": [
-            "Observe trends in job vacancies in the UK and their implications for the economy.",
-            "Follow the outcomes of the lawsuit against the New York Times and its potential impact on media practices.",
-            "Track the effects of rising tariffs on US-EU trade relations."
+            "Observe the impact of Ted Turner's death on CNN and the media landscape.",
+            "Evaluate the effects of rising jet fuel prices on summer travel plans.",
+            "Track developments in the private credit sector and its influence on AI funding."
           ],
           "watch_list": [
-            "Developments in the Middle East conflict and its impact on global oil supply.",
-            "Responses from the private credit industry to the Financial Stability Board's report.",
-            "Changes in airline operations due to jet fuel price fluctuations.",
-            "Legal outcomes from the NYT lawsuit."
+            "Iran nuclear deal negotiations",
+            "Airline industry responses to fuel costs",
+            "Trends in private credit and AI investments.",
+            "Public reactions to taxation debates in New York."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East remains fluid and could change rapidly, affecting oil prices.",
-          "The private credit industry's future is uncertain and could lead to unforeseen consequences."
+          "The geopolitical situation remains fluid, which could rapidly change market conditions.",
+          "The impact of Ted Turner's death on CNN's future is yet to be fully understood."
         ],
         "related_topics": [
-          "What are the latest trends in oil prices?",
-          "How is the private credit industry affecting the AI sector?",
-          "What challenges is the airline industry facing today?",
-          "What are the implications of the NYT lawsuit?",
-          "How are rising tariffs impacting US-EU trade?"
+          "What are the implications of the Iran deal on oil prices?",
+          "How is the private credit industry affecting AI growth?",
+          "What challenges is the airline industry facing with rising fuel costs?",
+          "What was Ted Turner's impact on the media industry?",
+          "How are New York's tax policies affecting real estate?"
         ]
       },
-      "tweet_text": "Oil prices plummet as hopes rise for the Strait of Hormuz reopening—will your wallet feel the relief?\n\nBusiness Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Fall #Hormuz #Prices #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Oil prices tumble as Trump promises open waters, while a CNN icon passes and the private credit boom...\n\nBusiness Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Global #Prices #York #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -357,151 +358,150 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.3498,
+        "score": 0.3427,
         "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.583, dampened ×0.6 → +0.3498). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.571, dampened ×0.6 → +0.3427). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-          "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-          "published": "2026-05-06T11:37:32-04:00",
-          "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [&#8230;]",
+          "title": "Musk’s biggest loyalist became his biggest liability",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
+          "published": "2026-05-06T19:37:02-04:00",
+          "summary": "I sat down in the Musk v. Altman trial courtroom today, painfully aware that no one was going to ask Shivon Zilis the question on everyone's minds: Girl, what the fuck are you doing? Zilis, who testified under oath that she is the mother of four of Musk's children, was… what's the best way to [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Xbox changes continue with new console boot animation",
-          "url": "https://www.theverge.com/tech/925110/new-xbox-logo-boot-animation",
-          "published": "2026-05-06T11:35:48-04:00",
-          "summary": "It feels like not a day goes by at the moment without some Xbox news, and today is no different. Xbox CEO Asha Sharma just announced that Xbox owners will get a new boot up sound and animation on May 13th. The console boot animation is the new Xbox logo, complete with a slight twist [&#8230;]",
+          "title": "Nintendo announces a new Star Fox for the Switch 2",
+          "url": "https://www.theverge.com/entertainment/925601/star-fox-nintendo-switch-2",
+          "published": "2026-05-06T18:07:46-04:00",
+          "summary": "It turns out Fox McCloud's appearance in the Super Mario Galaxy Movie was a tease of things to come: Nintendo just surprise announced the first new Star Fox game in a decade. The game is called, simply, Star Fox, and it's out very soon, launching on June 25th. Nintendo says that it's \"based\" on the [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Here are the fitness trackers I actually recommend",
-          "url": "https://www.theverge.com/gadgets/924338/best-fitness-trackers-2026",
-          "published": "2026-05-06T11:30:00-04:00",
-          "summary": "Why do you want a fitness tracker? This is the first question I ask any time I’m asked to recommend a device.&#160; The number-one rule of wearable tech is that it has to be something you actually want to wear. So instead of molding yourself to a device, it’s better to pick something that isn’t [&#8230;]",
+          "title": "Google shuts down Project Mariner",
+          "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
+          "published": "2026-05-06T17:21:45-04:00",
+          "summary": "Google has pulled the plug on Project Mariner, an experimental feature designed to perform tasks for you across the web, as reported earlier by Wired's Maxwell Zeff. The Project Mariner landing page now contains a message that says: \"Thank you for using Project Mariner. It was shut down on May 4th, 2026 and its technology [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Litter-Robot 4 bundle is back down to its best price of the year",
-          "url": "https://www.theverge.com/gadgets/924446/litter-robot-4-fujifilm-x-half-digital-camera-deal-sale",
-          "published": "2026-05-06T11:00:00-04:00",
-          "summary": "Scooping cat litter isn’t hard, but scooping after each and every litter box use can get annoying. The Litter-Robot 4 self-cleaning litter box is worth considering, not just because it’s one of the best-performing models, but because its accessory bundle is currently available for $799 ($60 off) at Amazon and Best Buy. The last time [&#8230;]",
+          "title": "How David Sacks crashed and burned in the White House",
+          "url": "https://www.theverge.com/column/925487/david-sacks-trump-administration-ai-model-review",
+          "published": "2026-05-06T16:18:00-04:00",
+          "summary": "Hello and welcome to Regulator, a newsletter exclusively for Verge subscribers about tech, politics, and Washington intrigue. (It's basically House of Cards, but for nerds.) Not a subscriber yet? You really should become one, and to save you a Google search, here is the direct link to do so! And do you think I should [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Blink bumps its budget buzzer to 2K",
-          "url": "https://www.theverge.com/tech/924976/blink-video-doorbell-2k-wired-battery-price-specs-release-date",
-          "published": "2026-05-06T10:00:00-04:00",
-          "summary": "Amazon-owned Blink has two new video doorbells, the Blink Wired Doorbell 2K+ and the Blink Battery Doorbell 2K+. The wired doorbell is listed at $49.99 on Amazon, but a blog post from the company says it starts at $39.99. The Battery option is $69.99 if you already have a sync module, or $79.99 bundled with [&#8230;]",
+          "title": "The latest Tile Pro is down to $25 — its best price of the year",
+          "url": "https://www.theverge.com/gadgets/925294/tile-pro-mothers-day-gift-bluetooth-tracker-deal-sale",
+          "published": "2026-05-06T15:00:00-04:00",
+          "summary": "If you’re struggling to find a Mother’s Day gift under $30, location trackers are a good investment, helping mom keep tabs on keys, bags, luggage, and other valuables. The latest Tile Pro is one of the best on the market, and it’s on sale for $24.99 ($10 off) at Amazon and directly from Tile. While [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Google&#8217;s AI search summaries will now quote Reddit",
-          "url": "https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links",
-          "published": "2026-05-06T09:00:30-04:00",
-          "summary": "Google is updating its AI Search features to make it easier for users to find information from sources they know and trust. One of the more notable changes introduces \"a preview of perspectives\" from firsthand sources like social media, Reddit, and other web forums, effectively linking your search queries with online conversations around similar topics. [&#8230;]",
+          "title": "What we’re hearing about the new homepage",
+          "url": "https://www.theverge.com/verge-product-updates/923754/what-we-are-hearing-about-the-new-homepage",
+          "published": "2026-05-06T14:05:13-04:00",
+          "summary": "We’ve been reading your feedback on the new homepage. All of it. The kind and encouraging comments, the brutal ones, the “actually this rules,” the “please undo this immediately,” the bug reports, the feature ideas, and yes, the eternal request for dark mode. We appreciate it. A lot of you took the time to share [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "It’s time to let my iPhone Mini go",
-          "url": "https://www.theverge.com/tech/924488/apple-iphone-13-mini-battery-liquid-glass",
-          "published": "2026-05-06T09:00:00-04:00",
-          "summary": "It's not the Mini, it's me. Nearly five years after it launched, the 13 Mini is still the best phone ever made. That hasn't changed; it's just that I changed. And as painful as it is to admit this, after using it again for a couple of weeks, I think it's time to put my [&#8230;]",
+          "title": "Mira Murati tells the court that she couldn’t trust Sam Altman’s words",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
+          "published": "2026-05-06T13:55:53-04:00",
+          "summary": "Mira Murati, OpenAI's former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model. In a video deposition shown during the ongoing Musk v. Altman trial on Wednesday, Murati said Altman falsely stated that OpenAI's legal department determined a new AI model did not [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Remarkable Paper Pure is the best digital notepad I&#8217;ve ever used",
-          "url": "https://www.theverge.com/tech/922843/remarkable-paper-pure-e-ink-tablet-digital-notebook-notepad-hands-on",
-          "published": "2026-05-06T08:00:00-04:00",
-          "summary": "Was I writing with pen and paper, or a stylus on a tablet? It’s getting more difficult than ever to tell.&#160; The Remarkable Paper Pure is a follow-up to 2020’s Remarkable 2 and a couple of premium color E Ink tablets. As with Remarkable’s first two digital notepads, the Paper Pure features a black-and-white E [&#8230;]",
+          "title": "The 44 best last-minute Mother’s Day gift ideas for 2026",
+          "url": "https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets",
+          "published": "2026-05-06T13:34:00-04:00",
+          "summary": "Whether it's managing a busy home or looking out for everyone around them, moms spend a lot of time every day caring for others. This Sunday, Mother's Day, is an opportunity to return the favor, so we've rounded up practical gadgets and little luxuries that can lighten her load. This year's picks are designed to [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Remarkable’s next E Ink digital notepad skips the color screen",
-          "url": "https://www.theverge.com/tech/923994/remarkable-e-ink-tablet-paper-pure-black-and-white-pricing-availability",
-          "published": "2026-05-06T08:00:00-04:00",
-          "summary": "Remarkable announced a new paper tablet today - albeit one without the advanced color screen found in its recent Paper Pro and Paper Pro Move tablets. The new Remarkable Paper Pure instead features an upgraded version of the black-and-white E Ink display found in the Remarkable 2 that launched over six years ago, and once [&#8230;]",
+          "title": "Here&#8217;s what Microsoft is offering long-serving employees to voluntarily retire",
+          "url": "https://www.theverge.com/report/925218/microsoft-voluntary-retirement-program-package-details",
+          "published": "2026-05-06T13:22:19-04:00",
+          "summary": "Microsoft revealed last month that it's planning to offer long-serving employees in the US the ability to voluntarily retire. While the terms of the buyout were supposed to be announced to employees tomorrow, sources at Microsoft tell me the company has posted them on its internal HR website a little earlier than expected. US employees [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Energizer’s new coin batteries won’t cause ingestion burns if swallowed",
-          "url": "https://www.theverge.com/tech/924966/energizer-ultimate-child-shield-batteries-ingestion-swallow-burn-prevention",
-          "published": "2026-05-06T08:00:00-04:00",
-          "summary": "Energizer has announced a new line of lithium coin batteries it claims are the world's first to eliminate the risk of ingestion burns if swallowed. Its Ultimate Child Shield line includes three sizes available starting today - 2032, 2025, and 2016 - that are commonly used in devices like remotes, wearables, and trackers such as [&#8230;]",
+          "title": "Native Instruments Komplete 26 adds weird new synths and experimental piano sounds",
+          "url": "https://www.theverge.com/tech/925211/native-instruments-komplete-26-absynth-massive-kontakt",
+          "published": "2026-05-06T12:37:40-04:00",
+          "summary": "The latest version of Native Instruments' Komplete music production bundle is here with 62 new additions, including the wonderfully weird Absynth 6. Komplete 26 comes in several flavors, starting with three $99 Select bundles: Beats, Band, and Electronic. Prices jump pretty steeply from there, with Standard costing $549, Ultimate costing $1,249, and the Collector's Edition [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Elon Musk and Sam Altman's court battle over OpenAI could significantly impact the future of AI development and its ethical considerations.",
-        "summary": "Today's technology news highlights a high-stakes court battle between Elon Musk and Sam Altman regarding OpenAI's mission, alongside updates on Xbox, fitness trackers, and new tech products.",
+        "key_takeaway": "Nintendo announced a new Star Fox game for the Switch 2, while Google shut down its Project Mariner.",
+        "summary": "Today's technology news highlights include Nintendo's surprise announcement of a new Star Fox game for the Switch 2, set to launch on June 25th. In contrast, Google has officially shut down Project Mariner, an experimental web task automation feature. Additionally, the ongoing Musk v. Altman trial continues to reveal tensions within the AI community, with testimonies from key figures like Shivon Zilis and Mira Murati.",
         "key_themes": [
-          "AI ethics and development",
-          "Xbox updates",
-          "fitness tracker recommendations",
-          "E Ink technology",
-          "safety innovations in batteries"
+          "Nintendo's new game announcements",
+          "Google Project Mariner shutdown",
+          "Musk v. Altman trial updates"
         ],
         "notable_headlines": [
           {
-            "headline": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-            "why_it_matters": "The outcome could redefine AI's ethical framework and its alignment with human benefit.",
+            "headline": "Musk’s biggest loyalist became his biggest liability",
+            "why_it_matters": "Shivon Zilis's testimony in the Musk v. Altman trial raises questions about loyalty and trust within the tech industry.",
             "signal": "Risk"
           },
           {
-            "headline": "Xbox changes continue with new console boot animation",
-            "why_it_matters": "The new boot animation reflects ongoing brand evolution and user engagement strategies for Xbox.",
+            "headline": "Nintendo announces a new Star Fox for the Switch 2",
+            "why_it_matters": "The announcement of a new Star Fox game marks a significant return for a beloved franchise, generating excitement among fans.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Google's AI search summaries will now quote Reddit",
-            "why_it_matters": "This update enhances the credibility and relevance of search results by incorporating user-generated content.",
-            "signal": "Opportunity"
+            "headline": "Google shuts down Project Mariner",
+            "why_it_matters": "The shutdown of Project Mariner indicates a shift in Google's strategy regarding web automation technologies.",
+            "signal": "Risk"
           },
           {
-            "headline": "Energizer’s new coin batteries won’t cause ingestion burns if swallowed",
-            "why_it_matters": "This innovation addresses safety concerns for children, potentially reducing health risks associated with battery ingestion.",
-            "signal": "Opportunity"
+            "headline": "Mira Murati tells the court that she couldn’t trust Sam Altman’s words",
+            "why_it_matters": "Murati's testimony highlights internal conflicts and trust issues within OpenAI's leadership.",
+            "signal": "Risk"
           },
           {
-            "headline": "The Remarkable Paper Pure is the best digital notepad I’ve ever used",
-            "why_it_matters": "The device showcases advancements in digital writing technology, appealing to professionals and students alike.",
-            "signal": "Opportunity"
+            "headline": "Microsoft offers voluntary retirement packages to long-serving employees",
+            "why_it_matters": "This move could signal a restructuring phase at Microsoft, impacting employee morale and company culture.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Musk vs. Altman trial for implications on AI governance.",
-            "Watch for reactions from the gaming community regarding the new Xbox boot animation.",
-            "Expect consumer feedback on the new fitness tracker recommendations."
+            "Further developments in the Musk v. Altman trial are expected as testimonies continue.",
+            "Anticipation builds for the upcoming launch of the new Star Fox game.",
+            "More details may emerge regarding Microsoft's retirement packages."
           ],
           "next_1_4_weeks": [
-            "Anticipate further updates on Google's AI search features and their impact on information retrieval.",
-            "Look for market responses to the new E Ink digital notepad and its features.",
-            "Follow the rollout of Energizer's new battery line and its reception in the market."
+            "The gaming community will be watching for previews and reviews of the new Star Fox game.",
+            "Potential reactions to the shutdown of Project Mariner may influence Google's future projects.",
+            "The tech industry will monitor the implications of the Musk v. Altman trial on AI governance."
           ],
           "watch_list": [
-            "Updates on OpenAI's legal situation and its implications for the tech industry.",
-            "Consumer reactions to the new Xbox features and their impact on brand loyalty.",
-            "Sales performance of the Remarkable Paper Pure and its competitors.",
-            "Safety reports on Energizer's new batteries."
+            "Updates on the Musk v. Altman trial and its implications for AI ethics.",
+            "Reactions to Nintendo's new Star Fox game from fans and critics.",
+            "Microsoft's restructuring efforts and their impact on employee dynamics.",
+            "confidence",
+            "Medium"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The ongoing court case may have unpredictable outcomes that could affect the tech landscape.",
-          "Consumer preferences for tech products can shift rapidly, impacting sales and recommendations."
+          "The sentiment score indicates a generally positive tone, but specific headlines reveal underlying risks and uncertainties.",
+          "The impact of the Musk v. Altman trial on the tech industry remains to be fully understood."
         ],
         "related_topics": [
-          "What are the latest developments in the OpenAI lawsuit?",
-          "How is Xbox evolving its brand experience?",
-          "What are the best fitness trackers available now?",
-          "What innovations are being made in digital notepads?",
-          "How are battery safety standards changing?"
+          "What are the latest announcements from Nintendo?",
+          "Updates on Google's Project Mariner shutdown",
+          "Insights from the Musk v. Altman trial",
+          "Microsoft's voluntary retirement program details",
+          "New features in Native Instruments Komplete 26"
         ]
       },
-      "tweet_text": "Elon vs. Sam: the courtroom clash that could redefine AI as we know it!\n\nTechnology Sentiment: Positive (+0.35)\n\nRead the full breakdown: https://tldrnews.info\n\n#Best #Actually #Altmans #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Musk’s biggest ally turns into a major headache—find out how loyalty can backfire in the tech world!\n\nTechnology Sentiment: Positive (+0.34)\n\nRead the full breakdown: https://tldrnews.info\n\n#Best #Biggest #Down #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -512,165 +512,165 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.1193,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.199, dampened ×0.6 → +0.1193). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0165,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.028, dampened ×0.6 → +0.0165). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Four months in, how Matt Campbell is already resha...",
-          "url": "https://www.espn.com/college-football/story/_/id/48678193/how-matt-campbell-remaking-penn-state-nittany-lions",
-          "published": "Wed, 6 May 2026 11:13:07 EST",
-          "summary": "Changes are already evident on the second floor of Penn State's football building, but will it translate into top-10 wins?",
+          "title": "Total recall: PSG backs up best team in world talk...",
+          "url": "https://www.espn.com/soccer/story/_/id/48697127/paris-saint-germain-backs-best-team-world-talk",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "Luis Enrique said there was no better team than his Paris Saint-Germain side after the reigning European champions booked a Champions League final clash against Arsenal with a 6-5 aggregate semifinal win against Bayern Munich.",
           "source": "ESPN"
         },
         {
-          "title": "No. 1 to No. 68: Ranking the offseason for every P...",
-          "url": "https://www.espn.com/college-football/story/_/id/48627615/ranking-offseason-college-football-power-4-teams-2026",
-          "published": "Wed, 6 May 2026 11:13:07 EST",
-          "summary": "Nail the transfer portal? Find a top coordinator? All are part of our offseason evaluations.",
+          "title": "Embiid out for Game 2 due to multiple injuries",
+          "url": "https://www.espn.com/nba/story/_/id/48694635/76ers-star-joel-embiid-game-2-due-multiple-injuries",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "Sixers star Joel Embiid has been ruled out for Game 2 against the Knicks because of ankle and hip injuries.",
           "source": "ESPN"
         },
         {
-          "title": "Ex-Braves owner, media mogul Turner dies at 87",
-          "url": "https://www.espn.com/mlb/story/_/id/48693404/ted-turner-former-braves-owner-media-mogul-dies-87",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "Ted Turner, the former owner of the Braves and Hawks who made his mark as a media mogul and a philanthropist, has died at the age of 87.",
+          "title": "QB Wilson weighing offer from Jets, TV career",
+          "url": "https://www.espn.com/nfl/story/_/id/48695339/russell-wilson-says-weighing-offer-jets-network-tv",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "Russell Wilson said Wednesday that he is weighing a contract offer from the New York Jets and a post-football career in network television.",
           "source": "ESPN"
         },
         {
-          "title": "DeChambeau plans YouTube pivot if LIV dissolves",
-          "url": "https://www.espn.com/golf/story/_/id/48688305/bryson-dechambeau-plans-focus-youtube-liv-golf-ends",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "Two-time major champion Bryson DeChambeau said if LIV Golf dissolves he plans to focus on growing his YouTube channel.",
+          "title": "Tigers' Valdez gets 6-game ban for plunking Story",
+          "url": "https://www.espn.com/mlb/story/_/id/48696576/tigers-framber-valdez-gets-6-game-suspension-hitting-batter",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "Detroit's Framber Valdez was suspended five games by MLB for intentionally throwing at Boston's Trevor Story, while Tigers manager A.J. Hinch got a one-game ban.",
           "source": "ESPN"
         },
         {
-          "title": "Astros' Correa to have ankle surgery, done for '26...",
-          "url": "https://www.espn.com/mlb/story/_/id/48693982/astros-carlos-correa-undergo-season-ending-ankle-surgery",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "Astros shortstop Carlos Correa has a torn tendon in his left ankle, will undergo surgery and will miss the remainder of the season.",
+          "title": "Cubs' Boyd hurt playing with kids, having surgery",
+          "url": "https://www.espn.com/mlb/story/_/id/48697258/cubs-matthew-boyd-injures-meniscus-playing-kids",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "Cubs lefty Matthew Boyd will require surgery after suffering a left meniscus injury while playing with his kids at home. He is expected back this season.",
           "source": "ESPN"
         },
         {
-          "title": "Valdez tossed as Hinch questions LHP's actions",
-          "url": "https://www.espn.com/mlb/story/_/id/48690419/tigers-valdez-ejected-throwing-red-sox-story",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "Tigers manager A.J. Hinch questioned the actions of his own pitcher, Framber Valdez, after the left-hander hit Trevor Story with a pitch following back-to-back Boston Red Sox home runs Tuesday night in Detroit.",
+          "title": "Derby winner Golden Tempo won't run Preakness",
+          "url": "https://www.espn.com/horse-racing/story/_/id/48695744/kentucky-derby-winner-golden-tempo-run-preakness-stakes",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "Reigning Kentucky Derby winner Golden Tempo will not run in the Preakness Stakes, forgoing an opportunity for horse racing's first Triple Crown since 2018.",
           "source": "ESPN"
         },
         {
-          "title": "Leafs win draft lottery after front office shakeup...",
-          "url": "https://www.espn.com/nhl/story/_/id/48688714/after-front-office-changes-maple-leafs-win-draft-lottery",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "The Toronto Maple Leafs, who this week announced sweeping front office changes, won the lottery Tuesday for the first pick in the NHL draft, a victory at a critical time for a franchise that failed to make the postseason for the first time since 2016.",
+          "title": "FIFA prez: WC tickets priced at U.S. market rate",
+          "url": "https://www.espn.com/soccer/story/_/id/48696372/fifa-president-gianni-infantino-2026-world-cup-ticket-prices-usa",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "FIFA president Gianni Infantino has again defended high ticket prices for this summer's World Cup and brushed off tickets being resold for the final at a cost of more than $2 million.",
           "source": "ESPN"
         },
         {
-          "title": "Coaches pitch 4 changes to college football sked",
-          "url": "https://www.espn.com/college-football/story/_/id/48688950/afca-board-proposes-4-changes-college-football-calendar",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "The American Football Coaches Association is recommending changes to the college football calendar that would end the season by the second Monday in January, while also pushing for increased access to the College Football Playoff.",
+          "title": "'Frustrating': Luka still unsure when he'll return...",
+          "url": "https://www.espn.com/nba/story/_/id/48695018/lakers-luka-doncic-unsure-return-injury",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "Lakers star Luka Doncic said he does not know when he will be able to return from the Grade 2 hamstring strain that has sidelined him since early April.",
           "source": "ESPN"
         },
         {
-          "title": "Thunder roll past Lakers in Game 1 of West semis",
-          "url": "https://www.espn.com/nba/story/_/id/48690344/thunder-roll-lakers-game-1-west-semifinals",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "The Thunder cruised past the Lakers to open their Western Conference semifinals series, even though Shai Gilgeous-Alexander scored fewer points and committed more turnovers than he had in any other game this season.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Diggs found not guilty of assault, strangulation",
-          "url": "https://www.espn.com/nfl/story/_/id/48685492/chef-shies-financial-questions-stefon-diggs-assault-trial",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "A jury found former New England Patriots receiver Stefon Diggs not guilty on charges of felony strangulation and misdemeanor assault and battery on Tuesday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "👀 Clippers troll Pacers ahead of draft lottery",
-          "url": "https://www.espn.com/nba/story/_/id/48689173/clippers-poke-fun-pacers-ahead-2026-nba-draft-lottery",
-          "published": "Wed, 6 May 2026 11:48:06 EST",
-          "summary": "If the ping-pong balls bounce to land the Pacers within picks Nos. 5 to 9 on Sunday, the pick will be awarded to the Clippers.",
+          "title": "✍️ Knicks offer Timothée Chalamet contract in jest...",
+          "url": "https://www.espn.com/nba/story/_/id/48694577/new-york-knicks-timothee-chalamet-karl-anthony-towns-anthony-edwards-10-day-contract-joke",
+          "published": "Wed, 6 May 2026 18:54:33 EST",
+          "summary": "The \"Marty Supreme\" star showcased his on-court skills, which caught the eye of the Knicks.",
           "source": "ESPN"
         },
         {
           "title": "Stacking the remaining NBA teams, from 1 to 8: Can...",
           "url": "https://www.espn.com/nba/story/_/id/48687450/nba-playoffs-2026-conference-semifinals-rankings-knicks-76ers-spurs-wolves-thunder-lakers-pistons-cavs",
-          "published": "Wed, 6 May 2026 10:42:44 EST",
+          "published": "Wed, 6 May 2026 19:15:43 EST",
           "summary": "Who is closest to the 2026 title after all four Game 1s? Tim Bontemps and Vincent Goodwill re-rank the full bracket.",
+          "source": "ESPN"
+        },
+        {
+          "title": "NBA playoffs intel file: Execs weigh in on a ridic...",
+          "url": "https://www.espn.com/nba/story/_/id/48676699/nba-playoffs-2026-intel-free-agency-knicks-76ers-lakers-thunder-wolves-spurs-cavs-pistons",
+          "published": "Wed, 6 May 2026 19:15:43 EST",
+          "summary": "Here's what league insiders are talking about as the NBA's conference semifinals begin.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Stanley Cup playoffs daily: Sabres, Canadiens ente...",
+          "url": "https://www.espn.com/nhl/story/_/id/48526483/2026-nhl-playoffs-stanley-cup-preview-stats-schedule-top-players-bracket-matchups",
+          "published": "Wed, 6 May 2026 19:15:56 EST",
+          "summary": "Here are previews for both of Wednesday's games, plus highlights and key plays from Tuesday's contest.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Ted Turner, former Braves owner and media mogul, has passed away at the age of 87, marking a significant loss in the sports and media community.",
-        "summary": "Today's sports news features a mix of significant events, including the passing of Ted Turner, changes in college football, and updates from the NBA playoffs. The Toronto Maple Leafs won the draft lottery following front office changes, while the Thunder defeated the Lakers in Game 1 of the Western Conference semifinals. Additionally, Carlos Correa of the Astros will miss the rest of the season due to ankle surgery, and Stefon Diggs was found not guilty of assault charges.",
+        "key_takeaway": "Paris Saint-Germain advances to the Champions League final, while NBA playoffs see key injuries and player decisions impacting teams.",
+        "summary": "Today's sports news highlights Paris Saint-Germain's victory over Bayern Munich, Joel Embiid's injury absence for the 76ers, and Russell Wilson's contract considerations with the Jets. Additionally, MLB suspensions and player injuries are notable, alongside FIFA's ticket pricing for the World Cup.",
         "key_themes": [
-          "Ted Turner legacy in sports",
-          "NHL draft lottery results",
-          "NBA playoffs updates",
-          "College football offseason changes",
-          "Carlos Correa injury news"
+          "Champions League final preview",
+          "NBA playoffs injury updates",
+          "NFL player contract negotiations",
+          "MLB suspensions and player injuries",
+          "FIFA World Cup ticket pricing"
         ],
         "notable_headlines": [
           {
-            "headline": "Ex-Braves owner, media mogul Turner dies at 87",
-            "why_it_matters": "Turner's influence on sports and media has shaped the landscape significantly, making his passing a notable event.",
+            "headline": "Total recall: PSG backs up best team in world talk...",
+            "why_it_matters": "PSG's victory solidifies their status as a top team in European football, setting up a final against Arsenal.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Embiid out for Game 2 due to multiple injuries",
+            "why_it_matters": "Joel Embiid's absence could significantly impact the 76ers' chances against the Knicks in the playoffs.",
             "signal": "Risk"
           },
           {
-            "headline": "Leafs win draft lottery after front office shakeup",
-            "why_it_matters": "This victory comes at a crucial time for the franchise, which has struggled in recent seasons.",
-            "signal": "Opportunity"
+            "headline": "QB Wilson weighing offer from Jets, TV career",
+            "why_it_matters": "Russell Wilson's decision could affect the Jets' quarterback situation and his future in sports media.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Thunder roll past Lakers in Game 1 of West semis",
-            "why_it_matters": "The Thunder's strong performance sets the tone for their playoff series against the Lakers.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Astros' Correa to have ankle surgery, done for '26 season",
-            "why_it_matters": "Correa's injury is a significant blow to the Astros' chances this season.",
+            "headline": "Tigers' Valdez gets 6-game ban for plunking Story",
+            "why_it_matters": "The suspension highlights ongoing issues of player conduct and discipline in MLB.",
             "signal": "Risk"
           },
           {
-            "headline": "Diggs found not guilty of assault, strangulation",
-            "why_it_matters": "The verdict allows Diggs to move forward in his career without the burden of legal issues.",
-            "signal": "Opportunity"
+            "headline": "Cubs' Boyd hurt playing with kids, having surgery",
+            "why_it_matters": "Injury while off the field raises concerns about player health and availability for the season.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further updates on the NBA playoffs as Game 2s are played.",
-            "Reactions to Ted Turner's passing from the sports community.",
-            "Analysis of the implications of Correa's surgery for the Astros."
+            "Watch for updates on Joel Embiid's recovery and potential return timeline.",
+            "Monitor Russell Wilson's decision regarding his future with the Jets and TV career.",
+            "Expect reactions to PSG's Champions League final matchup against Arsenal."
           ],
           "next_1_4_weeks": [
-            "Monitoring the performance of the Thunder in the playoffs against the Lakers.",
-            "Potential changes in college football scheduling as proposals are discussed.",
-            "Impact of the draft lottery results on the Maple Leafs' future."
+            "Follow the progression of the NBA playoffs and how injuries affect team dynamics.",
+            "Keep an eye on MLB player conduct and disciplinary actions as the season progresses.",
+            "Watch for developments in the FIFA World Cup ticket sales and pricing controversies."
           ],
           "watch_list": [
-            "Upcoming NBA playoff games and key matchups.",
-            "Developments in college football offseason strategies.",
-            "Updates on the health and recovery of Carlos Correa.",
-            "Reactions to the proposed changes in college football scheduling."
+            "Upcoming NBA playoff games and player performances.",
+            "MLB player injury reports and suspensions.",
+            "FIFA World Cup ticket pricing updates.",
+            "PSG's preparation for the Champions League final."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings in the sports community, reflecting both loss and opportunity.",
-          "The impact of injuries and legal outcomes on player careers can vary widely."
+          "Injuries can change rapidly, affecting team strategies and outcomes.",
+          "Player decisions may evolve based on negotiations and performance."
         ],
         "related_topics": [
-          "What is the legacy of Ted Turner in sports?",
-          "Latest updates on the NBA playoffs",
-          "NHL draft lottery results and implications",
-          "Changes proposed for college football scheduling",
-          "Injury updates for MLB players"
+          "What are the latest updates on NBA playoffs injuries?",
+          "How is PSG preparing for the Champions League final?",
+          "What are the implications of Russell Wilson's contract decision?",
+          "What are the MLB's recent player suspensions?",
+          "How are FIFA World Cup ticket prices affecting fans?"
         ]
       },
-      "tweet_text": "Tragedy strikes the sports world as media giant Ted Turner passes away at 87, leaving behind a legacy like no...\n\nSports Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Actions #Already #Ankle #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "PSG’s bold claim for best team in the world faces a new challenge while injuries and controversies shake up the...\n\nSports Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#6game #Backs #Best #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -772,74 +772,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries range from ancient fossils to innovative technologies, highlighting the ongoing exploration of our planet and beyond.",
-        "summary": "Today's science headlines feature remarkable findings, including a 240-million-year-old amphibian fossil, insights into tyrannosaur behavior, and advancements in quantum physics and AI for molecule design. Additionally, studies on oak trees and strawberry genetics reveal fascinating ecological and agricultural adaptations, while researchers explore the potential of turning plastic waste into clean hydrogen fuel.",
+        "key_takeaway": "Recent scientific discoveries range from ancient fossils to breakthroughs in quantum physics and sustainable energy solutions.",
+        "summary": "Today's science headlines highlight significant discoveries, including a 240-million-year-old amphibian fossil, insights into tyrannosaur behavior, and advancements in quantum technology and sustainable energy. Researchers also made strides in understanding plant behavior, Alzheimer's treatment, and the genetic legacy of Leonardo da Vinci.",
         "key_themes": [
           "ancient fossils discoveries",
           "tyrannosaur behavior research",
-          "quantum physics advancements",
-          "AI in chemistry",
-          "sustainable energy solutions"
+          "quantum physics breakthroughs",
+          "sustainable energy innovations",
+          "Alzheimer's disease treatment",
+          "genetic studies of historical figures"
         ],
         "notable_headlines": [
           {
             "headline": "240-million-year-old giant “sand creeper” found hidden in retaining wall",
-            "why_it_matters": "This discovery sheds light on prehistoric life and the evolutionary history of amphibians.",
+            "why_it_matters": "This discovery sheds light on prehistoric life in Australia and the preservation of ancient species.",
             "signal": "Opportunity"
           },
           {
             "headline": "A 75-million-year-old fossil reveals a shocking tyrannosaur secret",
-            "why_it_matters": "Understanding the feeding behavior of tyrannosaurs can change perceptions of their ecological roles.",
-            "signal": "Unclear"
+            "why_it_matters": "Reveals new insights into the opportunistic feeding behavior of tyrannosaurs, altering perceptions of their ecological role.",
+            "signal": "Risk"
           },
           {
             "headline": "Oak trees are delaying spring to starve caterpillars",
-            "why_it_matters": "This adaptive strategy highlights the complex interactions between plants and herbivores.",
+            "why_it_matters": "Demonstrates a unique adaptive strategy in trees that could inform pest management practices.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists just created exotic new forms of matter that shouldn’t exist",
-            "why_it_matters": "This breakthrough could significantly impact the future of quantum computing technologies.",
+            "why_it_matters": "This breakthrough could lead to advancements in quantum computing and materials science.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists boost strawberry flavor and nutrition without changing growth",
-            "why_it_matters": "Enhancing fruit quality without affecting growth can revolutionize agricultural practices.",
+            "why_it_matters": "Enhancements in fruit quality could have significant implications for agriculture and food production.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the ancient amphibian fossil is expected to reveal more about its habitat and behavior.",
-            "Research on the implications of the oak tree's adaptive strategy may lead to new pest management techniques.",
-            "Updates on the AI molecule design system could provide insights into its practical applications in chemistry."
+            "Further analysis of the ancient fossils may provide additional insights into prehistoric ecosystems.",
+            "Research on the new quantum states could lead to practical applications in technology.",
+            "Studies on the impact of oak trees' adaptive strategies on local ecosystems may emerge."
           ],
           "next_1_4_weeks": [
-            "More studies on the effects of arginine on Alzheimer's may emerge, potentially leading to new treatment options.",
-            "Continued exploration of the tiny icy world with an unexpected atmosphere could reshape our understanding of celestial bodies.",
-            "Anticipated results from ongoing research into plastic waste conversion into hydrogen fuel may pave the way for commercial applications."
+            "More findings related to the genetic analysis of Leonardo da Vinci's descendants are expected.",
+            "Continued research on the effects of arginine on Alzheimer's could lead to clinical trials.",
+            "Updates on the development of sustainable energy solutions from plastic waste are anticipated."
           ],
           "watch_list": [
-            "Developments in quantum physics and its applications in technology.",
-            "New findings related to ancient civilizations from decoded tablets.",
-            "Advancements in sustainable agricultural practices and their impact on food production.",
-            "Research on the genetic secrets of historical figures like Leonardo da Vinci."
+            "Emerging research on ancient civilizations and their practices.",
+            "Developments in AI applications for chemistry and materials science.",
+            "Advancements in sustainable agricultural practices and their impacts.",
+            "New studies on the ecological impacts of climate change on plant behaviors."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of some discoveries, particularly in ancient biology and quantum physics, are still being understood and may evolve over time.",
-          "Research findings are preliminary and require further validation before practical applications can be confirmed."
+          "The implications of some discoveries may take time to fully understand and apply.",
+          "Ongoing research may alter current interpretations of findings."
         ],
         "related_topics": [
           "What are the latest discoveries in ancient fossils?",
-          "How are AI technologies changing chemistry?",
-          "What new insights have been gained about tyrannosaurs?",
-          "How can we enhance agricultural practices sustainably?",
-          "What are the advancements in quantum physics today?"
+          "How are scientists using AI in chemistry?",
+          "What breakthroughs are being made in sustainable energy?",
+          "What new treatments are being researched for Alzheimer's disease?",
+          "How do oak trees adapt to caterpillar infestations?"
         ]
       },
-      "tweet_text": "A 240-million-year-old \"sand creeper\" emerges from the shadows—what other ancient secrets lie...\n\nScience Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Reveals #Shouldnt #240millionyearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A 240-million-year-old \"sand creeper\" emerges from the shadows—what else is hiding in plain sight?\n\nScience Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Reveals #Shouldnt #240millionyearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
