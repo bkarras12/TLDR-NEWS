@@ -1,13 +1,13 @@
 {
   "date": "2026-05-08",
-  "generated_at_utc": "2026-05-09T00:03:58Z",
+  "generated_at_utc": "2026-05-09T05:41:49Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
+    "change",
     "deal",
-    "iran",
-    "change"
+    "iran"
   ],
   "categories": {
     "world": {
@@ -19,18 +19,11 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.233,
+        "score": -0.2071,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.388, dampened ×0.6 → -0.2330). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.345, dampened ×0.6 → -0.2071). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
-        {
-          "title": "Iran accuses US of 'reckless military adventure'",
-          "url": "https://www.bbc.com/news/articles/c99lpn9ze8ro?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 08 May 2026 16:11:06 GMT",
-          "summary": "Abbas Araghchi says the US attacks each time there is a diplomatic solution on the table.",
-          "source": "BBC News"
-        },
         {
           "title": "Trump says Russia and Ukraine to observe three-day ceasefire",
           "url": "https://www.bbc.com/news/articles/c202zn5gg0lo?at_medium=RSS&at_campaign=rss",
@@ -39,10 +32,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Worldwide race to trace passengers from hantavirus-hit cruise ship",
-          "url": "https://www.bbc.com/news/articles/clyp1505p84o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 08 May 2026 21:02:52 GMT",
-          "summary": "About 12 countries have so far been linked to the hantavirus outbreak on the MV Hondius, as the UN health agency confirms at least five cases.",
+          "title": "Iran accuses US of 'reckless military adventure'",
+          "url": "https://www.bbc.com/news/articles/c99lpn9ze8ro?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 09 May 2026 03:30:52 GMT",
+          "summary": "Abbas Araghchi says the US attacks each time there is a diplomatic solution on the table.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Anger and resignation in Tenerife as hantavirus ship approaches",
+          "url": "https://www.bbc.com/news/articles/c5y0gkg038yo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 09 May 2026 00:15:58 GMT",
+          "summary": "Some on the Spanish island worry that the imminent arrival of the MV Hondius could pose a health risk.",
           "source": "BBC News"
         },
         {
@@ -60,10 +60,24 @@
           "source": "BBC News"
         },
         {
+          "title": "Hungary's new PM to be sworn in during 'regime change' party",
+          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 09 May 2026 00:46:16 GMT",
+          "summary": "Nearly a month ago Péter Magyar steered his Tisza party to a landslide victory, sweeping away 16 years of rule by Viktor Orbán.",
+          "source": "BBC News"
+        },
+        {
           "title": "International cyber attack disrupts swathe of universities and schools",
           "url": "https://www.bbc.com/news/articles/ce3pq0136eqo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 08 May 2026 16:04:01 GMT",
+          "published": "Sat, 09 May 2026 01:17:55 GMT",
           "summary": "A hacking group breached the academic software Canvas, used by thousands of schools and universities across the globe.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Australian by-election a litmus test for right-wing One Nation Party",
+          "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 08 May 2026 22:39:56 GMT",
+          "summary": "Victory for the populist party in Farrer, New South Wales, would see One Nation's first MP elected to Australia's national parliament.",
           "source": "BBC News"
         },
         {
@@ -93,91 +107,76 @@
           "published": "Fri, 08 May 2026 13:35:56 GMT",
           "summary": "The Constitutional Court says MPs were was wrong to block impeachment proceedings against Cyril Ramaphosa.",
           "source": "BBC News"
-        },
-        {
-          "title": "Third British national has suspected hantavirus infection, UK government says",
-          "url": "https://www.bbc.com/news/articles/c5yr41vq2ero?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 08 May 2026 17:57:28 GMT",
-          "summary": "Five cases of hantavirus have been confirmed in total, including one of the three passengers on the MV Hondius who died.",
-          "source": "BBC News"
-        },
-        {
-          "title": "US jet fuel could be used in Europe to ease possible shortages",
-          "url": "https://www.bbc.com/news/articles/cp8pk2m4nlxo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 08 May 2026 14:42:13 GMT",
-          "summary": "An international air body suggests wider acceptance of US-grade jet fuel could help to head off any supply problems.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Iran accuses the US of military recklessness amid ongoing tensions, while a hantavirus outbreak and a volcanic eruption raise global health and safety concerns.",
-        "summary": "Today's headlines reflect a mix of geopolitical tensions, health crises, and environmental disasters. Iran's accusations against the US highlight ongoing military tensions, while a hantavirus outbreak linked to a cruise ship has prompted international tracing efforts. Additionally, a volcanic eruption in Indonesia has resulted in fatalities, and oil prices have risen following military exchanges in the Hormuz Strait. The situation in South Africa regarding President Ramaphosa's impeachment adds to the political landscape, while a cyber attack disrupts educational institutions globally.",
+        "key_takeaway": "Tensions rise globally as ceasefires are proposed in Ukraine, military accusations between Iran and the US escalate, and a volcanic eruption in Indonesia results in fatalities.",
+        "summary": "Today's headlines reflect a mix of geopolitical tensions, environmental disasters, and significant political changes across various nations. A proposed ceasefire between Russia and Ukraine coincides with accusations of violations, while Iran criticizes US military actions. In Indonesia, a volcanic eruption has led to casualties, and in South Africa, the president faces pressure to resign following a court ruling. Additionally, an international cyber attack has disrupted educational institutions, and Hungary prepares for a new political era with a change in leadership. Oil prices are affected by ongoing tensions in the Hormuz Strait, and a by-election in Australia could signify shifts in political power.",
         "key_themes": [
           "geopolitical tensions",
-          "hantavirus outbreak",
-          "volcanic eruptions",
+          "environmental disasters",
+          "political changes",
           "cybersecurity issues",
-          "political instability in South Africa"
+          "oil market fluctuations"
         ],
         "notable_headlines": [
           {
-            "headline": "Iran accuses US of 'reckless military adventure'",
-            "why_it_matters": "This accusation underscores the fragile diplomatic relations and ongoing military tensions between Iran and the US.",
-            "signal": "Risk"
+            "headline": "Trump says Russia and Ukraine to observe three-day ceasefire",
+            "why_it_matters": "This ceasefire attempt comes amid ongoing accusations of violations, highlighting the fragile state of peace in the region.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Worldwide race to trace passengers from hantavirus-hit cruise ship",
-            "why_it_matters": "The outbreak raises significant public health concerns and highlights the need for international cooperation in health crises.",
+            "headline": "Iran accuses US of 'reckless military adventure'",
+            "why_it_matters": "Iran's accusations against the US suggest escalating tensions that could impact diplomatic relations and regional stability.",
             "signal": "Risk"
           },
           {
             "headline": "Three dead after volcano erupts on Indonesian island",
-            "why_it_matters": "The eruption emphasizes the dangers posed by natural disasters and the importance of safety measures in affected regions.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "South Africa president faces call to resign after court ruling",
-            "why_it_matters": "This political development could lead to significant changes in South Africa's leadership and governance.",
+            "why_it_matters": "The eruption underscores the dangers posed by active volcanoes in the region and the need for safety measures.",
             "signal": "Risk"
           },
           {
             "headline": "International cyber attack disrupts swathe of universities and schools",
-            "why_it_matters": "The breach highlights vulnerabilities in educational institutions and the growing threat of cyber attacks globally.",
+            "why_it_matters": "The breach of academic software raises concerns about cybersecurity in educational institutions worldwide.",
             "signal": "Risk"
+          },
+          {
+            "headline": "South Africa president faces call to resign after court ruling",
+            "why_it_matters": "The court's ruling against the president could lead to significant political upheaval in South Africa.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in US-Iran relations following recent military exchanges.",
-            "Watch for updates on the hantavirus outbreak and tracing efforts.",
-            "Observe the political response in South Africa regarding President Ramaphosa's situation."
+            "Monitoring the ceasefire developments in Ukraine and Russia.",
+            "Observing responses from Iran and the US regarding military tensions.",
+            "Assessing the impact of the volcanic eruption in Indonesia on local communities."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions around international health protocols in response to the hantavirus outbreak.",
-            "Follow the implications of the volcanic eruption on local communities and tourism in Indonesia.",
-            "Anticipate potential political shifts in South Africa as calls for Ramaphosa's resignation gain traction."
+            "Potential shifts in political power following Hungary's new PM swearing-in.",
+            "Continued fallout from the international cyber attack on educational institutions.",
+            "Monitoring oil price fluctuations in response to Middle Eastern tensions."
           ],
           "watch_list": [
-            "US-Iran military tensions",
-            "hantavirus outbreak updates",
-            "volcanic activity in Indonesia",
-            "South Africa political developments",
-            "cybersecurity in educational institutions"
+            "Updates on the ceasefire negotiations in Ukraine.",
+            "Reactions from the US and Iran regarding military actions.",
+            "Political developments in South Africa and Hungary.",
+            "Impact of the volcanic eruption in Indonesia on tourism and safety regulations."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran and the US is fluid and may change rapidly.",
-          "Health data regarding the hantavirus is still emerging and may evolve.",
-          "Political developments in South Africa could lead to unexpected outcomes."
+          "The situation in Ukraine remains fluid and may change rapidly.",
+          "The implications of the cyber attack are still unfolding and may affect more institutions than currently reported.",
+          "Political reactions in South Africa and Hungary may evolve as new developments arise."
         ],
         "related_topics": [
-          "What are the latest updates on the hantavirus outbreak?",
-          "How is the US-Iran relationship evolving?",
-          "What are the implications of the volcanic eruption in Indonesia?"
+          "What is the latest on the Ukraine ceasefire negotiations?",
+          "How are US-Iran relations affecting global oil prices?",
+          "What are the impacts of the recent volcanic eruption in Indonesia?"
         ]
       },
-      "tweet_text": "Tensions rise as Iran slams the US, while a mysterious naval drone and UFO revelations keep the world on edge—what's...\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Accuses #Actors #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World on edge: A three-day ceasefire, UFO revelations, and a new regime in Hungary—what's next in this whirlwind of...\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Party #Accuses #Adventure #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -279,76 +278,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "US job growth surprised economists amid ongoing geopolitical tensions, while various sectors face challenges from climate impacts and regulatory scrutiny.",
-        "summary": "Today's business news highlights a surprising increase in US job growth despite geopolitical tensions, ongoing challenges for farmers due to extreme weather, and scrutiny of media regulations affecting ABC. Additionally, Whirlpool faces a downturn in sales linked to economic uncertainty, and diesel prices are impacting farmers during critical planting season.",
+        "key_takeaway": "US added 115,000 jobs in April, defying expectations amid ongoing economic uncertainty due to the US-Israel war with Iran.",
+        "summary": "Today's business news highlights a surprising job growth in the US, ongoing political tensions affecting media regulations, and challenges faced by farmers and corporations due to climate and geopolitical factors.",
         "key_themes": [
-          "US job market trends",
-          "impact of climate change on agriculture",
-          "media regulation and political influence",
-          "economic effects of geopolitical tensions",
-          "consumer behavior in uncertain times"
+          "US job market update",
+          "impact of Iran war on economy",
+          "challenges for US farmers",
+          "media regulation and politics",
+          "corporate earnings forecasts"
         ],
         "notable_headlines": [
           {
             "headline": "US added 115,000 jobs in April in surprise gain amid Iran war uncertainty",
-            "why_it_matters": "The unexpected job growth indicates resilience in the labor market despite external pressures.",
+            "why_it_matters": "The job growth indicates resilience in the labor market despite geopolitical tensions affecting economic stability.",
             "signal": "Opportunity"
           },
           {
+            "headline": "ABC lawyers accuse Trump’s FCC of punishing network for political reasons",
+            "why_it_matters": "This highlights the intersection of media, politics, and regulatory actions, raising concerns about free speech and media independence.",
+            "signal": "Risk"
+          },
+          {
             "headline": "‘The worst time for wheat’: US farmers face losses to extreme heat and drought",
-            "why_it_matters": "Farmers are struggling with crop losses, which could impact food supply and prices.",
+            "why_it_matters": "Farmers are experiencing significant challenges that could impact food supply and prices, exacerbated by climate change.",
             "signal": "Risk"
           },
           {
             "headline": "Whirlpool warns of ‘recession-level’ slump as Iran war and tariff ruling hit sales",
-            "why_it_matters": "The appliance giant's forecast reflects broader economic concerns affecting consumer spending.",
+            "why_it_matters": "The company's forecast reflects broader economic concerns and consumer behavior changes amid rising costs and geopolitical instability.",
             "signal": "Risk"
           },
           {
             "headline": "Trump walks back threat to rip up part of EU trade deal but tells bloc to ratify by 4 July",
-            "why_it_matters": "The ultimatum on the trade deal could lead to increased tariffs, affecting international trade relations.",
+            "why_it_matters": "This statement could influence international trade relations and economic forecasts for both the US and EU.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Powerful US utilities secretly fund ‘grassroots’ groups to sway cities away from switch to public power",
-            "why_it_matters": "This raises concerns about transparency and the influence of private interests on public policy.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor job market reactions to geopolitical developments",
-            "Watch for updates on the EU trade deal negotiations",
-            "Follow weather forecasts impacting agricultural outputs"
+            "Monitoring job market reactions to geopolitical developments",
+            "Observing consumer behavior shifts in response to rising prices",
+            "Tracking regulatory responses from the FCC regarding media companies"
           ],
           "next_1_4_weeks": [
-            "Assess the impact of rising diesel prices on farming operations",
-            "Evaluate consumer spending trends in response to economic pressures",
-            "Observe regulatory developments affecting media companies"
+            "Evaluating the impact of weather on agricultural outputs and prices",
+            "Anticipating further corporate earnings adjustments due to economic conditions",
+            "Watching for developments in US-EU trade negotiations"
           ],
           "watch_list": [
-            "US job market statistics",
-            "EU trade negotiations",
-            "Agricultural weather conditions",
-            "Whirlpool's sales performance",
-            "Media regulation updates"
+            "US unemployment rate trends",
+            "Impact of climate on agriculture",
+            "Corporate earnings amid geopolitical tensions",
+            "Media regulation changes under the Trump FCC"
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "Economic conditions are highly volatile due to geopolitical tensions.",
-          "Weather patterns can change rapidly, affecting agricultural forecasts.",
-          "Regulatory actions may evolve, impacting media and utility sectors."
+          "Job growth may not be sustainable if economic uncertainty persists."
         ],
         "related_topics": [
-          "What are the latest trends in the US job market?",
-          "How is climate change affecting US agriculture?",
-          "What are the implications of the EU trade deal ultimatum?",
-          "How are media regulations impacting news networks?",
-          "What challenges are US farmers facing this planting season?"
+          "What are the latest job market trends in the US?",
+          "How is the Iran war affecting global trade?",
+          "What challenges are US farmers facing this season?",
+          "Updates on media regulation under the Trump administration",
+          "Corporate earnings outlook amid rising costs and tariffs"
         ]
       },
-      "tweet_text": "Surprising job gains amid turmoil, but farmers face brutal losses—America’s economic landscape is anything...\n\nBusiness Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Network #115000 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Amid war and weather woes, the job market surprises—while Trump's FCC faces backlash and farmers brace for...\n\nBusiness Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iran #Network #115000 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -403,7 +400,7 @@
           "title": "ABC and Disney accuse Trump admin of violating First Amendment rights",
           "url": "https://www.theverge.com/policy/927002/abc-disney-fcc-first-amendment-the-view",
           "published": "2026-05-08T13:52:28-04:00",
-          "summary": "ABC is accusing the Federal Communications Commission (FCC) of violating its First Amendment rights by making \"major shifts in policy and practice\" that the network claims will chill free speech. The network is asking the FCC to \"affirm its long-standing approach to the bona fide news interview exemption\" for daytime talk show The View, and [&#8230;]",
+          "summary": "ABC is accusing the Federal Communications Commission (FCC) of violating its First Amendment rights by making \"major shifts in policy and practice\" that the network claims will chill free speech. The network is asking the FCC to \"affirm its long-standing approach to the bona fide news interview exemption\" for daytime talk show The View and [&#8230;]",
           "source": "The Verge"
         },
         {
@@ -436,19 +433,19 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Asus introduces a new secondary touchscreen display, while Amazon adds a vertical video feed to Prime Video, reflecting ongoing trends in tech innovation.",
-        "summary": "Today's technology news highlights Asus's launch of a secondary touchscreen display aimed at gamers, Amazon's addition of a vertical video feed to Prime Video, and Yarbo's response to security concerns regarding its robot mower. Additionally, Apple is reportedly set to collaborate with Intel on chip production, and Valve has opened a reservation queue for its Steam Controller after high demand. The mixed sentiment in the tech sector suggests both opportunities and challenges ahead.",
+        "key_takeaway": "Asus introduces a new secondary touchscreen display, while Amazon adds a vertical video feed to Prime Video, reflecting ongoing trends in technology innovation.",
+        "summary": "Today's technology news highlights Asus's launch of a secondary touchscreen display aimed at gamers, Amazon's addition of a vertical video feed to Prime Video, and concerns over robot lawn mower security. Additionally, Apple is reportedly returning to Intel for chip production, and Valve has opened a reservation queue for the Steam Controller after high demand. The mixed sentiment reflects both excitement and caution in the tech sector.",
         "key_themes": [
           "Asus new gaming monitor",
           "Amazon Prime Video updates",
-          "Yarbo robot mower security",
-          "Apple Intel chip collaboration",
+          "robot lawn mower security issues",
+          "Apple Intel chip partnership",
           "Steam Controller reservation system"
         ],
         "notable_headlines": [
           {
             "headline": "Asus chases Elgato with its own secondary touchscreen display",
-            "why_it_matters": "Asus's new monitor could enhance gaming setups, indicating a trend towards multi-display configurations.",
+            "why_it_matters": "Asus's new display aims to enhance gaming setups, indicating a trend towards multi-monitor configurations.",
             "signal": "Opportunity"
           },
           {
@@ -458,52 +455,52 @@
           },
           {
             "headline": "Here is Yarbo’s promise to fix the robot mower that ran me over",
-            "why_it_matters": "Yarbo's response to security vulnerabilities highlights the importance of cybersecurity in consumer tech.",
+            "why_it_matters": "Security vulnerabilities in consumer tech raise concerns about safety and privacy, impacting consumer trust.",
             "signal": "Risk"
           },
           {
             "headline": "Apple reportedly has a deal to use Intel-made chips again",
-            "why_it_matters": "This potential partnership marks a significant shift in Apple's hardware strategy, moving back towards Intel after adopting Apple Silicon.",
+            "why_it_matters": "This potential partnership marks a significant shift in Apple's hardware strategy, possibly affecting future product performance.",
             "signal": "Unclear"
           },
           {
             "headline": "The Steam Controller’s reservation queue is open",
-            "why_it_matters": "Valve's new reservation system reflects strong consumer interest and demand for gaming peripherals.",
+            "why_it_matters": "Valve's quick response to demand shows the continued popularity of gaming peripherals, indicating a robust gaming market.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor consumer reactions to Asus's new display and Amazon's video feed.",
-            "Watch for updates on Yarbo's security measures and Apple-Intel collaboration.",
-            "Anticipate Valve's sales performance for the Steam Controller."
+            "Further details on Asus's gaming monitor features may emerge.",
+            "Amazon may release additional information about the vertical video feed.",
+            "Yarbo may provide updates on security improvements for their robot mowers."
           ],
           "next_1_4_weeks": [
-            "Monitor the impact of Amazon's new video features on user engagement and subscriptions.",
-            "Evaluate the market response to Asus's gaming monitor and its competition with Corsair.",
-            "Follow developments in AI data centers and their regulatory implications."
+            "Anticipate reactions from consumers regarding the Apple-Intel partnership.",
+            "Monitor the impact of Amazon's new video feed on user engagement and subscriptions.",
+            "Expect more news on the performance of the Steam Controller post-reservation launch."
           ],
           "watch_list": [
-            "Asus gaming monitor reviews and sales figures.",
-            "Amazon Prime Video user engagement metrics post-update.",
-            "Yarbo's security updates and consumer trust.",
-            "Apple's product announcements regarding Intel chips."
+            "Developments in AI data center expansions and their environmental impact.",
+            "Updates on security measures for consumer robotics.",
+            "Trends in gaming hardware and software releases.",
+            "Consumer reactions to new streaming features from major platforms."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating uncertainty in the technology sector.",
+          "The sentiment score is mixed, indicating varying opinions on the news.",
           "Details on the Apple-Intel deal are preliminary and may change."
         ],
         "related_topics": [
           "What are the latest updates on Asus gaming monitors?",
-          "How is Amazon changing Prime Video with vertical feeds?",
+          "How is Amazon changing its streaming service?",
           "What security issues are associated with robot lawn mowers?",
-          "What is the significance of Apple working with Intel again?",
+          "What is the significance of Apple returning to Intel for chips?",
           "How can I reserve a Steam Controller?"
         ]
       },
-      "tweet_text": "Tech giants clash as Asus takes aim at Elgato, while Amazon flips the script on Prime Video—what's next for...\n\nTechnology Sentiment: Mixed (+0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Video #Accuse #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Tech turmoil today: from robot mowers to vertical videos, and a judge ruling on DOGE's wild AI escapade!\n\nTechnology Sentiment: Mixed (+0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Video #Accuse #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -605,74 +602,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Cleveland Browns linebacker Jeremiah Owusu-Koramoah will miss the entire 2026 season due to injury, while the Lakers face officiating criticism after a playoff loss.",
-        "summary": "Today's sports headlines cover significant player injuries, critical playoff matchups, and notable retirements in the NFL. The Cleveland Browns have placed linebacker Jeremiah Owusu-Koramoah on the reserve list for the entire 2026 season. In the NBA, the Lakers' coach and players expressed frustration over officiating after a playoff loss to the Thunder. Quarterback Taylor Heinicke announced his retirement after a notable NFL career. Additionally, the 76ers are donating playoff tickets to ensure their fans are present during games. A'ja Wilson is favored to win the WNBA MVP award, and the NBA draft lottery is drawing attention for its potential impact on team futures.",
+        "key_takeaway": "Cleveland Browns linebacker Jeremiah Owusu-Koramoah will miss the entire 2026 season due to injury, while the Lakers face criticism over officiating after a playoff loss.",
+        "summary": "Today's sports news highlights significant player injuries, team controversies, and upcoming events in the NBA and NFL. The Browns' Jeremiah Owusu-Koramoah is sidelined for the season, while Lakers' coach JJ Redick criticizes officiating after a playoff loss. Quarterback Taylor Heinicke announces his retirement, and the 76ers donate playoff tickets to maintain home crowd support against Knicks fans. Additionally, A'ja Wilson is favored for the WNBA MVP award, and the NBA draft lottery is set to be a pivotal event for many teams.",
         "key_themes": [
           "NFL player injuries",
-          "NBA playoff officiating",
-          "Taylor Heinicke retirement",
-          "WNBA MVP odds",
-          "NBA draft lottery significance"
+          "NBA playoff controversies",
+          "WNBA MVP predictions",
+          "NBA draft lottery importance",
+          "team ticket donation strategies"
         ],
         "notable_headlines": [
           {
             "headline": "Browns' Owusu-Koramoah (neck) out '26 season",
-            "why_it_matters": "Owusu-Koramoah's absence will impact the Browns' defense significantly as they prepare for the upcoming season.",
+            "why_it_matters": "This injury impacts the Browns' defense significantly as they lose a key player for the entire season.",
             "signal": "Risk"
           },
           {
             "headline": "Lakers' Redick rips refs; Reaves takes issue, too",
-            "why_it_matters": "The Lakers' criticism of officiating could influence future games and the team's morale during the playoffs.",
+            "why_it_matters": "Criticism of officiating could affect the Lakers' morale and performance in the playoffs.",
             "signal": "Risk"
           },
           {
             "headline": "QB Heinicke retires after improbable NFL career",
-            "why_it_matters": "Heinicke's retirement marks the end of a unique journey in the NFL, impacting team dynamics and fan support.",
+            "why_it_matters": "Heinicke's retirement marks the end of a notable chapter for a player who became a fan favorite.",
             "signal": "Unclear"
           },
           {
             "headline": "Sixers donate playoff tix to evade Knicks fans",
-            "why_it_matters": "This strategy aims to maintain home-court advantage and support local community engagement during playoffs.",
+            "why_it_matters": "This strategy aims to bolster home support and minimize rival fan presence during crucial playoff games.",
             "signal": "Opportunity"
           },
           {
             "headline": "Wilson, Clark top MVP odds; public on Bueckers",
-            "why_it_matters": "The MVP race is heating up, showcasing the talent in the WNBA and influencing team strategies moving forward.",
+            "why_it_matters": "The MVP race is heating up, with several players in contention, impacting fan engagement and team dynamics.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further updates on player injuries and team strategies as playoffs continue.",
-            "Analysis of officiating in upcoming NBA games following Lakers' complaints.",
-            "Expect announcements regarding the NBA draft lottery results and implications for teams."
+            "NBA playoff games continue with critical matchups that could shift series outcomes.",
+            "Teams prepare for the upcoming NBA draft lottery, with significant implications for franchises.",
+            "Injuries and player retirements may lead to shifts in team strategies for the next season."
           ],
           "next_1_4_weeks": [
-            "Monitor the performance of teams in the NBA playoffs as they progress toward the finals.",
-            "Watch for potential trades or signings in the NFL as teams prepare for the next season.",
-            "Follow developments in the WNBA as the MVP race unfolds and teams compete for playoff positions."
+            "Expect further developments in the NBA playoffs as teams vie for the championship.",
+            "The impact of the NBA draft lottery results will be analyzed as teams adjust their rosters.",
+            "Injuries may lead to trades or signings as teams look to strengthen their lineups."
           ],
           "watch_list": [
-            "Injury updates for key NFL players ahead of the season.",
-            "NBA playoff results and analysis, especially regarding officiating controversies.",
-            "WNBA MVP race developments and playoff outcomes.",
-            "NBA draft lottery predictions and team strategies."
+            "Monitor the performance of the Lakers in upcoming playoff games.",
+            "Watch for updates on the NBA draft lottery and its implications for team strategies.",
+            "Keep an eye on player movements in the NFL as teams adjust to offseason changes.",
+            "Follow the WNBA MVP race as the season progresses."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the current sports landscape, suggesting both excitement and concern among fans and analysts.",
-          "Injuries and officiating controversies may affect team performance and fan engagement in the playoffs."
+          "The sentiment score is mixed, indicating a balance of positive and negative news in sports today. The implications of injuries and retirements may evolve as the season progresses.",
+          "Public reactions to officiating and team strategies can vary widely, affecting future performance."
         ],
         "related_topics": [
           "What are the latest NFL injury updates?",
-          "How are the Lakers responding to playoff officiating?",
-          "What are the implications of the NBA draft lottery?",
-          "Who are the frontrunners for the WNBA MVP award?",
-          "What are the latest developments in the NBA playoffs?"
+          "NBA playoff controversies and officiating issues",
+          "WNBA MVP race predictions",
+          "Impact of NBA draft lottery on teams",
+          "Strategies for maintaining home crowd support in playoffs"
         ]
       },
-      "tweet_text": "Major shake-ups in the sports world: from injuries to retirements, and fiery ref rants—don't miss today's...\n\nSports Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Agree #Allegations #Amid #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Browns’ season takes a hit, while the Lakers spark drama and a QB bids farewell—sports just got a whole lot...\n\nSports Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Agree #Allegations #Amid #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -683,9 +680,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0739,
+        "score": 0.1194,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.123, dampened ×0.6 → +0.0739). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.199, dampened ×0.6 → +0.1194). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -714,6 +711,13 @@
           "url": "https://www.sciencedaily.com/releases/2026/05/260508022653.htm",
           "published": "Fri, 08 May 2026 03:40:08 EDT",
           "summary": "Scientists may have uncovered a surprising secret behind why life exists at all. A new study suggests that the Universe’s fundamental constants — the deep physical rules that govern everything from atoms to stars — appear to sit within an incredibly narrow “sweet spot” that allows liquids to flow properly inside living cells. Even tiny shifts in these constants could make blood too thick, water too sticky, or cellular motion impossible, potentially wiping out life as we know it.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists found the “holy grail” gene that could one day help humans regrow limbs",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260508003121.htm",
+          "published": "Sat, 09 May 2026 01:04:19 EDT",
+          "summary": "Scientists studying axolotls, zebrafish, and mice have uncovered a shared set of genes that may one day help humans regrow lost limbs. By identifying powerful “SP genes” involved in regeneration, researchers discovered that disabling these genes stopped proper bone regrowth in salamanders and mice. They then used a gene therapy inspired by zebrafish biology to partially restore regeneration in mice, marking a major step toward future treatments that could replace damaged limbs with living tissue",
           "source": "ScienceDaily"
         },
         {
@@ -764,90 +768,77 @@
           "published": "Thu, 07 May 2026 18:22:41 EDT",
           "summary": "Eating eggs might do more than just start your day—it could help protect your brain. Researchers found that people 65 and older who eat eggs regularly have a significantly lower risk of developing Alzheimer’s disease, with daily or near-daily consumption linked to up to a 27% reduction. Even modest egg intake showed benefits, suggesting that small dietary changes could make a meaningful difference over time.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Webb space telescope finds a giant galaxy that doesn’t spin",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260506225135.htm",
-          "published": "Thu, 07 May 2026 17:50:36 EDT",
-          "summary": "Astronomers using the James Webb Space Telescope have spotted something that shouldn’t exist—at least not so early in the universe. A massive galaxy, formed less than 2 billion years after the Big Bang, appears to have no rotation at all, a trait usually seen only in much older, evolved galaxies. This challenges current theories that young galaxies should still be spinning from their formation.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries reveal new insights into obesity, kidney health, gum disease prevention, and the nature of the universe, challenging existing paradigms.",
-        "summary": "Today's science headlines highlight groundbreaking discoveries across various fields, including obesity research, kidney disease treatment, gum health, cosmic phenomena, and the potential of natural compounds against COVID-19. These findings could reshape our understanding of health and the universe.",
+        "key_takeaway": "Recent scientific discoveries reveal new insights into obesity, kidney health, gum disease prevention, and the potential for limb regeneration, among other breakthroughs.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including obesity research, kidney disease treatment, oral health, and the understanding of the universe. Notable findings include a protein in fat cells that may alter obesity treatment, a common constipation drug that shows promise in preserving kidney function, and a new method to prevent gum disease without harming beneficial bacteria. Additionally, researchers have identified genes that could enable limb regeneration and discovered unusual water in an interstellar comet, suggesting new avenues for exploration in both biology and astronomy.",
         "key_themes": [
           "obesity research breakthroughs",
-          "kidney disease treatment advancements",
+          "kidney disease treatment",
           "gum disease prevention methods",
-          "universe fundamental constants",
-          "interstellar comet discoveries",
-          "natural compounds against COVID-19"
+          "limb regeneration genetics",
+          "interstellar comet discoveries"
         ],
         "notable_headlines": [
           {
             "headline": "New obesity discovery rewrites decades of fat science",
-            "why_it_matters": "This discovery could change the understanding of obesity and metabolic diseases, potentially leading to new treatment approaches.",
+            "why_it_matters": "This finding could change the approach to treating obesity and metabolic diseases by revealing new roles for fat cell proteins.",
             "signal": "Opportunity"
           },
           {
             "headline": "A common constipation drug shows surprising power to protect kidneys",
-            "why_it_matters": "This finding suggests a new therapeutic avenue for chronic kidney disease, impacting millions of patients.",
+            "why_it_matters": "This research could lead to new treatments for chronic kidney disease, impacting millions of patients.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover a new way to prevent gum disease without killing good bacteria",
-            "why_it_matters": "This method could revolutionize dental health by promoting beneficial bacteria while reducing harmful ones.",
+            "why_it_matters": "This method could revolutionize dental care by promoting oral health without harming beneficial microbes.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Scientists make stunning discovery that could change our understanding of the Universe",
-            "why_it_matters": "This research challenges existing theories about the conditions necessary for life and the universe's fundamental properties.",
-            "signal": "Unclear"
+            "headline": "Scientists found the “holy grail” gene that could one day help humans regrow limbs",
+            "why_it_matters": "This discovery opens the door to potential regenerative medicine therapies for limb loss.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Interstellar comet 3I/ATLAS contains strange water never seen in our solar system",
-            "why_it_matters": "The discovery of heavy water in this comet could provide insights into the formation of celestial bodies beyond our solar system.",
+            "why_it_matters": "Understanding this comet could provide insights into the formation of our solar system and the conditions for life.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists accidentally discover DNA that breaks the rules of life",
-            "why_it_matters": "This finding could lead to a reevaluation of genetic principles and the flexibility of life forms.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the obesity discovery may lead to new treatment strategies.",
-            "More studies on the kidney drug's efficacy could be released soon.",
-            "Updates on the implications of the gum disease prevention method are expected."
+            "Further analysis of the obesity discovery may be released, detailing implications for treatment.",
+            "More studies on the kidney drug's efficacy and safety are expected to emerge.",
+            "Research on the gum disease prevention method may lead to clinical trials."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the implications of the universe's fundamental constants for life.",
-            "Research on the interstellar comet's composition may yield further findings.",
-            "Continued exploration of the genetic discovery's impact on biological sciences."
+            "Anticipated publications on the limb regeneration gene therapy's effectiveness in larger animal models.",
+            "Continued exploration of the interstellar comet's composition and its implications for astrobiology.",
+            "Potential follow-up studies on the dietary impact of eggs on Alzheimer's risk."
           ],
           "watch_list": [
-            "Follow developments in obesity and metabolic disease research.",
-            "Monitor new findings related to chronic kidney disease treatments.",
-            "Keep an eye on advancements in dental health methodologies.",
-            "Watch for updates on cosmic discoveries and their implications."
+            "Developments in obesity treatment strategies based on new fat cell research.",
+            "Updates on kidney disease management and new drug trials.",
+            "Advancements in regenerative medicine and gene therapy.",
+            "New findings related to interstellar objects and their properties."
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The implications of some discoveries are still unclear and require further validation.",
-          "Long-term effects of dietary changes on Alzheimer's risk need more research."
+          "The implications of these discoveries are still being evaluated and may take time to translate into practical applications.",
+          "Further research is needed to confirm the long-term effects of dietary changes on Alzheimer's risk."
         ],
         "related_topics": [
           "What are the latest discoveries in obesity research?",
           "How can common drugs impact kidney health?",
-          "What new methods are being developed for gum disease prevention?",
-          "What does the latest research say about the universe's fundamental constants?",
-          "How do natural compounds combat COVID-19?"
+          "What new methods are being developed to prevent gum disease?",
+          "What is the potential for limb regeneration in humans?",
+          "What have scientists learned from interstellar comets?"
         ]
       },
-      "tweet_text": "Revolutionary findings in obesity and kidney health could change everything we thought we knew...\n\nScience Sentiment: Mixed (+0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Discover #Discovery #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Uncovering the secrets of the universe, a groundbreaking gene, and a cosmic water mystery—science...\n\nScience Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Discover #Discovery #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
