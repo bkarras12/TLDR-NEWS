@@ -1,11 +1,12 @@
 {
   "date": "2026-05-11",
-  "generated_at_utc": "2026-05-11T16:26:40Z",
+  "generated_at_utc": "2026-05-12T00:05:45Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "scientists",
-    "impact",
+    "trump",
+    "expected",
     "iran"
   ],
   "categories": {
@@ -18,22 +19,50 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2804,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.467, dampened ×0.6 → -0.2804). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.1704,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.284, dampened ×0.6 → -0.1704). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "US and French nationals test positive for hantavirus after leaving ship",
+          "title": "Last passengers leave virus-hit cruise ship as three more test positive",
           "url": "https://www.bbc.com/news/articles/cjep78l5835o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 11 May 2026 13:13:22 GMT",
-          "summary": "The American national has arrived in Nebraska, while a French woman is isolating in Paris.",
+          "published": "Mon, 11 May 2026 20:49:14 GMT",
+          "summary": "An American and a French national who have returned home have tested positive for hantavirus.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US passengers quarantining in Nebraska as officials say public hantavirus risk 'very low'",
+          "url": "https://www.bbc.com/news/articles/cwy2e9e1g0wo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 11 May 2026 23:31:37 GMT",
+          "summary": "Two people are being monitored in Atlanta, 16 in Nebraska and another six passengers in Canada.",
+          "source": "BBC News"
+        },
+        {
+          "title": "South African president says he will not step down after impeachment call",
+          "url": "https://www.bbc.com/news/articles/c9369q3g7w7o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 11 May 2026 21:44:20 GMT",
+          "summary": "President Cyril Ramaphosa said he would not resign on Monday evening after days of speculation.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Watch: Alaska town sees its last sunset until August",
+          "url": "https://www.bbc.com/news/videos/cgjpg20xgy5o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 11 May 2026 21:05:29 GMT",
+          "summary": "Residents of Utqiagvik, the United States' northernmost city, will experience 84 days of midnight sun and uninterrupted daylight.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump says Iran ceasefire is on 'massive life support'",
+          "url": "https://www.bbc.com/news/articles/cvgznxn18zgo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 11 May 2026 18:17:34 GMT",
+          "summary": "The US president criticises an Iranian counteroffer to end the war, and says the month-long ceasefire is \"unbelievably weak\".",
           "source": "BBC News"
         },
         {
           "title": "Portrait looted by Nazis found in home of Dutch SS leader's descendants",
           "url": "https://www.bbc.com/news/articles/cgmpj0p9k08o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 11 May 2026 10:00:31 GMT",
+          "published": "Mon, 11 May 2026 18:27:21 GMT",
           "summary": "The painting is believed to have been plundered by high-ranking Nazi Hermann Goering during World War Two.",
           "source": "BBC News"
         },
@@ -52,17 +81,24 @@
           "source": "BBC News"
         },
         {
-          "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
-          "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 11 May 2026 01:55:13 GMT",
-          "summary": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
+          "title": "Elon Musk and Tim Cook among CEOs expected to accompany Trump on China trip",
+          "url": "https://www.bbc.com/news/articles/c5yx757w048o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 11 May 2026 18:26:20 GMT",
+          "summary": "A total of 17 US executives are set to join the president on his visit, where he will meet his Chinese counterpart Xi Jinping.",
           "source": "BBC News"
         },
         {
           "title": "Dozens of Nigerian fishermen feared dead after Chad air strikes on Boko Haram",
           "url": "https://www.bbc.com/news/articles/cr5p85v446ro?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 11 May 2026 14:04:56 GMT",
+          "published": "Mon, 11 May 2026 16:30:04 GMT",
           "summary": "A fishermen's leader tells the BBC that 40 people are feared dead - either in the strikes or drowning as they tried to flee.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
+          "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 11 May 2026 01:55:13 GMT",
+          "summary": "Iran is reported to want lifting of the US naval blockade, recognition of Iranian sovereignty over the Strait of Hormuz and compensation for war damage.",
           "source": "BBC News"
         },
         {
@@ -71,112 +107,78 @@
           "published": "Mon, 11 May 2026 09:28:53 GMT",
           "summary": "If convicted in a Senate trial, which is uncertain, she will be disqualified from running for president.",
           "source": "BBC News"
-        },
-        {
-          "title": "Bosnia's powerful peace envoy quits, with questions over role's future",
-          "url": "https://www.bbc.com/news/articles/cg5pvj5pg51o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 11 May 2026 13:14:30 GMT",
-          "summary": "Christian Schmidt had been in the role since 2021, and departs after appearing to lose the backing of the United States.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ailing Iranian Nobel laureate given bail and hospital transfer",
-          "url": "https://www.bbc.com/news/articles/c1j257w87neo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 11 May 2026 10:16:50 GMT",
-          "summary": "Iranian authorities granted human rights activist Narges Mohammadi bail amid growing concern over her poor health in prison.",
-          "source": "BBC News"
-        },
-        {
-          "title": "His father had just been buried. Then West Bank settlers forced him to dig up the body",
-          "url": "https://www.bbc.com/news/articles/cjrpnjpl39po?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 10 May 2026 19:56:45 GMT",
-          "summary": "The UN human rights office condemns incident as \"'appalling and emblematic of the dehumanisation of Palestinians\" in the West Bank.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Police find body believed to be of fugitive Australian shooter",
-          "url": "https://www.bbc.com/news/articles/cdjp9vzxlz7o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 11 May 2026 09:44:29 GMT",
-          "summary": "A body found in New South Wales is thought to be that of a man wanted over a triple murder.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Iran activists tell BBC how threat of war intensifies trauma of repression",
-          "url": "https://www.bbc.com/news/articles/c1m2ee3jxvro?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 10 May 2026 21:01:17 GMT",
-          "summary": "A dissident in Tehran says she feels helpless and under immense psychological pressure.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Global tensions rise as multiple incidents highlight humanitarian crises and geopolitical conflicts across various regions.",
-        "summary": "Today's headlines reflect a range of global issues, including health concerns from hantavirus cases, political turmoil in the Philippines, and escalating violence in Nigeria and the Middle East. The humanitarian impact of these events raises significant concerns, particularly regarding the safety of civilians and the environment.",
+        "key_takeaway": "Global tensions rise as the US criticizes Iran's ceasefire response, while South Africa's president faces impeachment calls and a humanitarian crisis unfolds in Nigeria.",
+        "summary": "Today's headlines reflect a mix of global health concerns, political turmoil, and environmental issues. The hantavirus outbreak continues to affect cruise ship passengers, while South African President Cyril Ramaphosa refuses to resign amid impeachment calls. In the Middle East, tensions escalate as the US and Iran clash over ceasefire terms, and a tragic situation unfolds in Nigeria following airstrikes on Boko Haram. Additionally, a looted portrait from WWII has been discovered, and environmental scientists warn of potential harm to whales from diverted shipping routes.",
         "key_themes": [
-          "global health concerns",
-          "political instability in the Philippines",
-          "humanitarian crises in Nigeria",
-          "geopolitical tensions in the Middle East",
+          "global health updates",
+          "political instability in South Africa",
+          "US-Iran relations",
+          "Nigerian humanitarian crisis",
           "environmental impact of shipping routes"
         ],
         "notable_headlines": [
           {
-            "headline": "US and French nationals test positive for hantavirus after leaving ship",
-            "why_it_matters": "The hantavirus cases raise public health concerns and highlight the risks associated with travel and disease transmission.",
+            "headline": "Last passengers leave virus-hit cruise ship as three more test positive",
+            "why_it_matters": "The hantavirus outbreak raises public health concerns and highlights the ongoing risks associated with cruise travel.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "South African president says he will not step down after impeachment call",
+            "why_it_matters": "Ramaphosa's refusal to resign could lead to further political instability in South Africa.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Trump says Iran ceasefire is on 'massive life support'",
+            "why_it_matters": "The US's critical stance on Iran's ceasefire response indicates escalating tensions in the region.",
             "signal": "Risk"
           },
           {
             "headline": "Dozens of Nigerian fishermen feared dead after Chad air strikes on Boko Haram",
-            "why_it_matters": "The incident underscores the tragic consequences of military actions on civilian populations and the ongoing conflict in the region.",
+            "why_it_matters": "The humanitarian impact of military actions in the region raises concerns about civilian safety and security.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Philippine VP Sara Duterte impeached for a second time",
-            "why_it_matters": "This political development could significantly impact governance and stability in the Philippines, especially regarding future elections.",
-            "signal": "Unclear"
           },
           {
             "headline": "Whales could be harmed by diverted ships avoiding Middle East, scientists warn",
-            "why_it_matters": "The rerouting of ships due to geopolitical tensions poses environmental risks, particularly to marine life.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Iran activists tell BBC how threat of war intensifies trauma of repression",
-            "why_it_matters": "The psychological impact of ongoing conflict and repression highlights the broader human rights issues in Iran.",
+            "why_it_matters": "Environmental implications of shipping routes highlight the intersection of global conflict and ecological health.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments regarding the hantavirus cases and any public health responses.",
-            "Watch for updates on the political situation in the Philippines following the impeachment of VP Sara Duterte.",
-            "Keep an eye on the humanitarian situation in Nigeria and the aftermath of the air strikes."
+            "Monitoring of hantavirus cases continues in the US and Canada.",
+            "Political developments in South Africa may unfold as impeachment discussions progress.",
+            "US-Iran negotiations may intensify as both sides respond to recent criticisms."
           ],
           "next_1_4_weeks": [
-            "Expect potential international responses to the humanitarian crises in Nigeria and the Middle East.",
-            "Observe any changes in US foreign policy regarding Iran and its implications for regional stability.",
-            "Follow the implications of the impeachment of Sara Duterte on Philippine politics."
+            "Potential escalation in Middle East tensions as ceasefire discussions continue.",
+            "Further developments in South Africa's political landscape as impeachment trials approach.",
+            "Increased scrutiny on environmental impacts of shipping routes due to ongoing conflicts."
           ],
           "watch_list": [
-            "Humanitarian aid efforts in Nigeria and the Middle East.",
-            "Public health measures related to the hantavirus outbreak.",
-            "Political developments in the Philippines and their impact on governance.",
-            "Environmental assessments of shipping routes around the Cape of Good Hope."
+            "Updates on hantavirus outbreak and public health measures.",
+            "Political stability in South Africa and potential leadership changes.",
+            "US-Iran relations and implications for regional security.",
+            "Humanitarian situation in Nigeria following recent airstrikes."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Nigeria and the Middle East is fluid and may change rapidly.",
-          "Political developments in the Philippines could lead to further instability or changes in governance."
+          "The situation in Nigeria is fluid and may evolve rapidly.",
+          "Political outcomes in South Africa are uncertain and could change.",
+          "Health risks associated with hantavirus are still being assessed."
         ],
         "related_topics": [
-          "What are the latest developments in global health crises?",
-          "How is the political situation evolving in the Philippines?",
-          "What humanitarian issues are arising from conflicts in Nigeria?",
-          "What are the environmental impacts of shipping routes in conflict zones?",
-          "How is the Iranian government responding to internal dissent?"
+          "What is the latest on the hantavirus outbreak?",
+          "Updates on South African political developments",
+          "US-Iran relations and ceasefire negotiations",
+          "Humanitarian crisis in Nigeria after airstrikes",
+          "Environmental concerns related to shipping routes"
         ]
       },
-      "tweet_text": "From shocking hantavirus cases aboard a ship to looted art resurfacing—today's world news reveals a haunting reality.\n\nWorld Sentiment: Negative (-0.28)\n\nRead the full breakdown: https://tldrnews.info\n\n#Avoiding #Boko #Bosnias #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From cruise ship chaos to historic art discoveries, today's world news is a rollercoaster of shocking twists!\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Last #Passengers #African #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -187,9 +189,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.024,
+        "score": 0.0167,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.040, dampened ×0.6 → +0.0240). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.028, dampened ×0.6 → +0.0167). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -204,6 +206,13 @@
           "url": "https://www.theguardian.com/us-news/2026/may/11/trump-plans-24m-acres-federal-lands-cattle-grazing",
           "published": "Mon, 11 May 2026 12:00:54 GMT",
           "summary": "<p>Opponents say administration’s plan prioritizes big agriculture at expense of wildlife and protected species</p><p>New legal action aims to head off a Trump administration plan to open <a href=\"https://u7061146.ct.sendgrid.net/ls/click?upn=u001.gqh-2BaxUzlo7XKIuSly0rCydHCbG70wcdabaaM9rXedBbrZpL-2FnBXALfDOpP7JC4f-2Bun8knnSHm-2F2B2EIyCYxTsudN4ksGc95gkFzFYyAnZvAS5deO1mND4hejlfUxvI5Y-2B9qHQ3Hw-2BdKDgkzwY-2FBZZy4ZnpwnKEjpCFs4FkpaNE-3D2f6t_lHfhL5FQIIAolkXgQycRaoZ8r0GqXkvzkUp2VESycz2E-2FSraiWN1-2Fbv",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Oil prices climb after Trump dismisses Iran’s response to peace plan",
+          "url": "https://www.theguardian.com/business/2026/may/11/oil-prices-climb-trump-dismisses-iran-response-us-peace-plan",
+          "published": "Mon, 11 May 2026 08:49:46 GMT",
+          "summary": "<p>Brent crude rises after US president calls overture from Tehran ‘totally unacceptable’</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates#top-of-blog\">Business live – news updates</a></p></li></ul><p>Oil prices have climbed after Donald Trump condemned Iran’s response to US proposals to end the war as “totally unacceptable”.</p><p>The president’s rejection of Tehran’s overture in a post on h",
           "source": "The Guardian"
         },
         {
@@ -249,13 +258,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "‘The worst time for wheat’: US farmers face losses to extreme heat and drought",
-          "url": "https://www.theguardian.com/environment/2026/may/08/wheat-farmers-face-loss-crops-heat-drought",
-          "published": "Fri, 08 May 2026 10:00:24 GMT",
-          "summary": "<p>Temperature swings have left crops across the Plains in terrible conditions, with some farmers opting not to harvest</p><p>Merrill Nielsen’s wheat crop looked healthy after he planted it in the fall on his 2,500-acre farm in north-central <a href=\"https://www.theguardian.com/us-news/kansas\">Kansas</a>, about 50 miles west of Salina, the plants benefiting from higher-than-normal November rainfall.</p><p>But an abnormally warm and dry winter, followed by extreme temperature variability, stresse",
-          "source": "The Guardian"
-        },
-        {
           "title": "Democrats are playing with fire in trying to reclaim tax cuts from Republicans",
           "url": "https://www.theguardian.com/business/2026/may/11/democrats-tax-cuts-republicans",
           "published": "Mon, 11 May 2026 10:00:51 GMT",
@@ -278,89 +280,70 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The US Senate is poised to confirm Kevin Warsh as the next Federal Reserve chair amid ongoing economic challenges and political controversies.",
-        "summary": "Today's business news highlights significant developments including the expected confirmation of Kevin Warsh as Federal Reserve chair, rising profits for Saudi Aramco, and the impact of soaring fuel prices on American travelers. Additionally, JP Morgan investors are urged to support a resolution to split the roles of chair and CEO, while General Motors faces legal repercussions for selling driver data. The ongoing Iran war continues to create economic uncertainty, affecting job growth and supply chains.",
+        "key_takeaway": "The US Senate is expected to confirm Kevin Warsh as the next Federal Reserve chair amid ongoing economic challenges and rising oil prices.",
+        "summary": "Today's business news highlights significant developments including the anticipated confirmation of Kevin Warsh as Federal Reserve chair, rising oil prices following Trump's dismissal of Iran's peace overture, and concerns over the impact of the Iran war on supply chains. Additionally, JP Morgan investors are urged to vote on splitting the CEO and chair roles, while General Motors faces a settlement over data privacy issues.",
         "key_themes": [
           "Federal Reserve leadership changes",
-          "impact of fuel prices on travel",
-          "JP Morgan governance issues",
-          "Saudi Aramco profit growth",
-          "General Motors data privacy settlement"
+          "Impact of oil prices on economy",
+          "Corporate governance at JP Morgan"
         ],
         "notable_headlines": [
           {
             "headline": "US Senate expected to confirm Kevin Warsh as next Federal Reserve chair",
-            "why_it_matters": "Warsh's confirmation could influence monetary policy amid economic uncertainty.",
+            "why_it_matters": "Warsh's confirmation could influence monetary policy during a time of economic uncertainty.",
             "signal": "Unclear"
           },
           {
-            "headline": "Advocates decry Trump’s plan to open 24m acres of federal lands to cattle grazing",
-            "why_it_matters": "The plan raises concerns about environmental impacts and prioritization of agriculture.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Spiritless summer: Americans feel squeeze of costly fuel amid busy travel season",
-            "why_it_matters": "High fuel prices are affecting travel plans and consumer spending.",
+            "headline": "Oil prices climb after Trump dismisses Iran’s response to peace plan",
+            "why_it_matters": "Rising oil prices could further strain the US economy amid ongoing geopolitical tensions.",
             "signal": "Risk"
           },
           {
             "headline": "Advisers urge JP Morgan investors to vote to split chair and CEO positions",
-            "why_it_matters": "Concerns over corporate governance and concentration of power at JP Morgan.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Saudi Aramco profits jump despite conflict in Middle East",
-            "why_it_matters": "Rising profits indicate resilience in the oil sector despite geopolitical tensions.",
+            "why_it_matters": "Concerns over concentrated power at JP Morgan could lead to significant governance changes.",
             "signal": "Opportunity"
           },
           {
             "headline": "General Motors to pay $12.75m settlement for selling drivers’ location and data",
-            "why_it_matters": "The settlement highlights ongoing issues of data privacy in the automotive industry.",
+            "why_it_matters": "The settlement highlights ongoing issues of data privacy and corporate accountability.",
             "signal": "Risk"
           },
           {
             "headline": "US added 115,000 jobs in April in surprise gain amid Iran war uncertainty",
-            "why_it_matters": "Job growth amid geopolitical tensions suggests resilience in the labor market.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Democrats are playing with fire in trying to reclaim tax cuts from Republicans",
-            "why_it_matters": "This strategy may not resonate with middle-class voters, complicating political dynamics.",
-            "signal": "Risk"
+            "why_it_matters": "Job growth amid geopolitical tensions suggests resilience in the labor market, but uncertainty remains.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Senate confirmation vote for Kevin Warsh as Federal Reserve chair is expected soon.",
-            "Continued discussions on the implications of rising fuel prices for summer travel.",
-            "Monitoring reactions to JP Morgan's governance proposals from investors."
+            "Confirmation of Kevin Warsh as Federal Reserve chair is expected soon.",
+            "Market reactions to rising oil prices may continue to evolve.",
+            "Investors will likely respond to JP Morgan's governance proposals."
           ],
           "next_1_4_weeks": [
-            "Potential shifts in Federal Reserve policy following Warsh's confirmation.",
-            "Impact assessment of fuel price increases on consumer behavior and travel plans.",
-            "Further developments in the legal landscape surrounding data privacy for automakers."
+            "Monitoring the economic impact of rising oil prices on consumer behavior and travel plans.",
+            "Potential shifts in corporate governance practices at major firms like JP Morgan.",
+            "Continued analysis of job market trends amid geopolitical tensions."
           ],
           "watch_list": [
-            "Federal Reserve policy changes under new leadership.",
-            "Trends in oil prices and their effects on global markets.",
-            "Corporate governance changes at major financial institutions.",
-            "Legal implications for companies regarding data privacy."
+            "Federal Reserve policy changes under Kevin Warsh",
+            "Oil price fluctuations and their economic impact",
+            "Corporate governance developments at major banks like JP Morgan.",
+            "Data privacy regulations affecting automakers like GM"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The political landscape may shift rapidly, affecting economic policies.",
-          "Geopolitical tensions could further impact market stability and consumer confidence."
+          "The geopolitical situation remains fluid, impacting economic forecasts.",
+          "Market reactions can be unpredictable based on external factors."
         ],
         "related_topics": [
           "What are the implications of Kevin Warsh's confirmation as Fed chair?",
-          "How are rising fuel prices affecting summer travel plans?",
-          "What are the latest developments in corporate governance at JP Morgan?",
-          "What is the impact of the Iran war on the US economy?",
-          "How is General Motors addressing data privacy issues?"
+          "How are rising oil prices affecting the US economy?",
+          "What is the latest on corporate governance at JP Morgan?"
         ]
       },
-      "tweet_text": "As the Senate gears up for a crucial vote, the future of the Fed hangs in the balance—will Warsh steer us...\n\nBusiness Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amid #Chair #Federal #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Big changes ahead! Will Warsh steer the Fed in a new direction while fuel prices pinch Americans this summer?\n\nBusiness Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amid #Chair #Federal #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -371,11 +354,60 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1551,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.258, dampened ×0.6 → +0.1551). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0141,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.023, dampened ×0.6 → +0.0141). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "OpenAI just released its answer to Claude Mythos",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+          "published": "2026-05-11T19:05:01-04:00",
+          "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Yarbo says it will remove the intentional backdoor from its robot lawn mower",
+          "url": "https://www.theverge.com/tech/928289/yarbo-remove-robot-lawn-mower-backdoor",
+          "published": "2026-05-11T18:40:20-04:00",
+          "summary": "The company behind the robot lawn mower that ran me over has changed its tune. Yarbo now plans to completely remove the remote backdoor access that could have let bad actors reprogram the robot over the internet. Yarbo customers will be able to decide whether that feature even gets installed in the first place, co-founder [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Here&#8217;s what Mira Murati&#8217;s AI company is up to",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+          "published": "2026-05-11T18:19:15-04:00",
+          "summary": "Thinking Machines, the AI company founded by former OpenAI CTO Mira Murati, announced Monday that it's working on something called \"interaction models.\" The idea behind interaction models, according to Thinking Machines, is that they will let people \"collaborate with AI the way we naturally collaborate with each other - they continuously take in audio, video, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Govee’s new portable smart lamp is on sale for the first time",
+          "url": "https://www.theverge.com/gadgets/928249/govee-table-lamp-classic-deal-sale",
+          "published": "2026-05-11T15:56:28-04:00",
+          "summary": "If you’ve always liked the idea of the Philips Hue Go portable lamp but couldn’t justify the $100+ price tag, Govee recently released a much cheaper alternative, the Govee Table Lamp Classic, and it’s already receiving its first discount. Right now, you can pick the rechargeable smart lamp up at Amazon for $63.99 ($16 off), [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Palantir&#8217;s true believers are wearing this jacket",
+          "url": "https://www.theverge.com/report/928026/palantir-chore-coat",
+          "published": "2026-05-11T14:26:04-04:00",
+          "summary": "In late April, Palantir - the software company that, in recent years, has perhaps become best known for its defense industry contracts and work with Immigration and Customs Enforcement - announced that it would be adding new products to its merch store. The latest offering was a cotton chore coat. At $239 and in bright [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple brings encrypted RCS chats to iPhone",
+          "url": "https://www.theverge.com/tech/928141/apple-ios-26-5-rcs-messages-iphone-google-android",
+          "published": "2026-05-11T13:57:56-04:00",
+          "summary": "Apple now lets you have encrypted RCS conversations with Android users through the Messages app on iOS. As part of iOS 26.5, which was released on Monday, Apple added support for end-to-end encrypted RCS messaging in beta, meaning that Apple and Google can't see your messages while they're sent. With iOS 26.5, you'll see a [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Texas sues Netflix for advertising &#8216;bait and switch&#8217; and spying",
+          "url": "https://www.theverge.com/streaming/928071/texas-netflix-lawsuit-privacy",
+          "published": "2026-05-11T13:04:22-04:00",
+          "summary": "Texas Attorney General Ken Paxton has filed a lawsuit against Netflix, accusing the company of turning its back on its promise to remain ad-free and safe for kids. The lawsuit, filed on Monday, claims Netflix has \"opened Texans' data for inspection by the same Big Ad Tech community it once criticized for exploiting users in [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Google stopped a zero-day hack that it says was developed with AI",
           "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
@@ -396,131 +428,77 @@
           "published": "2026-05-11T11:45:32-04:00",
           "summary": "A big part of my job here at The Verge is to find deals on tech that readers will like. But in my personal life, I’m not spending anywhere near as much money on tech as I am on food, litter, and other supplies for our two cats. Sad, but true. If your life is [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-          "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-          "published": "2026-05-11T11:27:12-04:00",
-          "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "GM settles California lawsuit claiming it sold driving habit data to insurance companies",
-          "url": "https://www.theverge.com/transportation/927863/gm-settles-california-lawsuit-claiming-it-sold-driving-habit-data-to-insurance-companies",
-          "published": "2026-05-11T11:11:23-04:00",
-          "summary": "General Motors has agreed to pay $12.75 million to settle a California data privacy lawsuit that accused the automaker of selling driver location and driver data, as reported earlier by Reuters. In a proposed settlement filed on Friday, GM agreed to stop selling customer information to data brokers for five years and must give California [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Matter and OpenADR team up to connect smart homes to the grid",
-          "url": "https://www.theverge.com/tech/927756/matter-openadr-demand-response-smart-home-energy-management",
-          "published": "2026-05-11T10:40:28-04:00",
-          "summary": "Smart energy management just took a step closer to becoming simpler. This week, the organizations behind Matter, the smart-home interoperability standard, and the OpenADR protocol, which sends signals between the grid and the home, announced an agreement to work together. This should make it easier for connected appliances to participate in demand response programs (DR) [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Joanna Stern is not a robot, but she lived with them",
-          "url": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
-          "published": "2026-05-11T10:00:00-04:00",
-          "summary": "My guest today is longtime friend of the show Joanna Stern. You all know Joanna: she is the former senior personal technology columnist for The Wall Street Journal, a former Decoder guest host, one of my cofounders here at The Verge, and also just one of my very closest friends. I mention that because Joanna [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "TikTok is letting UK users pay to remove ads",
-          "url": "https://www.theverge.com/tech/927761/tiktok-ad-free-paid-subscription-uk",
-          "published": "2026-05-11T09:02:20-04:00",
-          "summary": "TikTok is preparing to roll out a paid, ad-free version of its app in the UK. The new subscription announced today will be available to users over 18 \"over the coming months,\" according to TikTok's announcement and will cost &#163;3.99 (about $5.40) per month. In exchange for that, TikTok will remove ads from the user's [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Discord adds a free Xbox Game Pass ‘starter edition’ for Nitro subscribers",
-          "url": "https://www.theverge.com/news/927722/discord-xbox-game-pass-starter-edition-nitro-subscribers",
-          "published": "2026-05-11T09:00:00-04:00",
-          "summary": "Discord is announcing the launch of Nitro Rewards today, a new program for subscribers that bundles benefits from third parties like Microsoft, Logitech, and SteelSeries, into a Nitro subscription. The main addition is that Nitro members will now get a new starter edition of Xbox Game Pass at no extra cost. Xbox Game Pass starter [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Wordle is turning into a primetime TV game show on NBC",
-          "url": "https://www.theverge.com/games/927536/wordle-game-show-nbc-savannah-guthrie-jimmy-fallon-new-york-times",
-          "published": "2026-05-11T08:50:00-04:00",
-          "summary": "Wordle could be the next great game show. NBC has greenlit a game show version of The New York Times' popular puzzle game, and it's set to debut in 2027 with Savannah Guthrie as the host. The show will be produced by Universal Television Alternative Studio \"in partnership with\" Jimmy Fallon's production company and the [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Google has thwarted a zero-day exploit developed with AI, highlighting the evolving cybersecurity landscape.",
-        "summary": "Today's technology news covers significant developments in cybersecurity, data privacy, smart home technology, and entertainment, reflecting a mixed sentiment in the industry.",
+        "key_takeaway": "OpenAI launched Daybreak, an AI initiative for vulnerability detection, while Apple introduced encrypted RCS messaging for iPhone users.",
+        "summary": "Today's technology news highlights significant developments in AI security, consumer electronics, and legal challenges in the streaming industry. OpenAI's new initiative aims to enhance cybersecurity, while Apple expands its messaging capabilities with encrypted RCS support. Additionally, Yarbo addresses security concerns with its robot lawn mower, and Texas sues Netflix over advertising practices. Google reports halting an AI-developed zero-day exploit, raising awareness about cybersecurity threats. Other stories include new product launches and consumer deals.",
         "key_themes": [
-          "cybersecurity advancements",
-          "data privacy issues",
-          "smart home technology",
-          "AI in technology",
-          "entertainment industry news"
+          "AI security initiatives",
+          "encrypted messaging updates",
+          "robot lawn mower security",
+          "streaming service lawsuits",
+          "cybersecurity threats"
         ],
         "notable_headlines": [
           {
+            "headline": "OpenAI just released its answer to Claude Mythos",
+            "why_it_matters": "OpenAI's Daybreak aims to proactively address cybersecurity vulnerabilities, enhancing organizational security.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Yarbo says it will remove the intentional backdoor from its robot lawn mower",
+            "why_it_matters": "Removing the backdoor enhances user security and trust in robotic technology.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Apple brings encrypted RCS chats to iPhone",
+            "why_it_matters": "This update enhances privacy for iPhone users communicating with Android devices.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Texas sues Netflix for advertising 'bait and switch' and spying",
+            "why_it_matters": "The lawsuit highlights ongoing concerns about user privacy and corporate accountability in streaming services.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Google stopped a zero-day hack that it says was developed with AI",
-            "why_it_matters": "This incident underscores the increasing sophistication of cyber threats and the role of AI in both attacks and defenses.",
+            "why_it_matters": "This incident underscores the evolving nature of cyber threats and the role of AI in both attacks and defenses.",
             "signal": "Risk"
-          },
-          {
-            "headline": "A million baby monitors and security cameras were easily viewable by hackers",
-            "why_it_matters": "This breach raises serious concerns about the security of IoT devices and the potential risks to privacy.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "GM settles California lawsuit claiming it sold driving habit data to insurance companies",
-            "why_it_matters": "The settlement highlights ongoing issues around data privacy and the responsibilities of companies in handling consumer data.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Matter and OpenADR team up to connect smart homes to the grid",
-            "why_it_matters": "This collaboration could enhance energy management in smart homes, promoting efficiency and sustainability.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "TikTok is letting UK users pay to remove ads",
-            "why_it_matters": "This move reflects a growing trend towards subscription models in social media, potentially changing user engagement dynamics.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Discord adds a free Xbox Game Pass ‘starter edition’ for Nitro subscribers",
-            "why_it_matters": "This addition enhances the value of Discord's subscription service, appealing to gamers and boosting user retention.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in the Google zero-day exploit case.",
-            "Anticipating user reactions to TikTok's ad-free subscription model.",
-            "Following updates from the GM lawsuit settlement."
+            "Monitor reactions to OpenAI's Daybreak launch and its impact on cybersecurity practices.",
+            "Watch for updates on the Texas lawsuit against Netflix and its implications for the streaming industry.",
+            "Follow developments regarding the removal of the backdoor in Yarbo's robot lawn mower."
           ],
           "next_1_4_weeks": [
-            "Observing the impact of Matter and OpenADR's collaboration on smart home technology.",
-            "Tracking the rollout of TikTok's ad-free subscription in the UK.",
-            "Watching for further developments in the Elon Musk and Sam Altman court case."
+            "Observe the adoption of encrypted RCS messaging among iPhone users and its effects on user privacy.",
+            "Track advancements in AI security measures following Google's recent exploit discovery.",
+            "Keep an eye on consumer responses to new tech products like Govee's smart lamp."
           ],
           "watch_list": [
-            "Cybersecurity incidents related to AI.",
-            "Trends in data privacy legislation and enforcement.",
-            "Innovations in smart home technology and energy management.",
-            "Changes in social media subscription models."
+            "OpenAI's Daybreak effectiveness in real-world applications.",
+            "Legal outcomes from the Texas lawsuit against Netflix.",
+            "Consumer feedback on new AI interaction models from Thinking Machines.",
+            "Security implications of AI-developed cyber threats."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating a balance of positive and negative news in the technology sector.",
-          "Ongoing legal cases may have unpredictable outcomes that could affect market perceptions."
+          "The impact of OpenAI's Daybreak on the cybersecurity landscape remains to be seen.",
+          "The outcome of the Texas lawsuit against Netflix could take time to resolve."
         ],
         "related_topics": [
-          "What are the latest developments in cybersecurity?",
-          "How is AI impacting data privacy?",
-          "What are the trends in smart home technology?",
-          "What subscription models are emerging in social media?",
-          "Updates on the Elon Musk and Sam Altman court case."
+          "What are the latest developments in AI security?",
+          "How does Apple's encrypted RCS messaging work?",
+          "What are the implications of Yarbo's robot lawn mower security changes?",
+          "What is the Texas lawsuit against Netflix about?",
+          "How are AI technologies being used in cybersecurity?"
         ]
       },
-      "tweet_text": "AI-driven hacks, vulnerable baby monitors, and a courtroom showdown—today's tech news is a wild ride you...\n\nTechnology Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Altmans #Amazons #Baby #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "OpenAI drops a bombshell with its Claude Mythos rival, while Apple amps up privacy like never before!\n\nTechnology Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#8216bait #Advertising #Answer #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -531,161 +509,163 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.1248,
+        "score": 0.1049,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.208, dampened ×0.6 → +0.1248). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.175, dampened ×0.6 → +0.1049). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Windhorst: Everything I saw inside the NBA's myste...",
-          "url": "https://www.espn.com/nba/story/_/id/48737761/inside-secret-nba-lottery-room-ahead-2026-draft-picks-rounds-jokes-silence-ping-pong-balls",
-          "published": "Mon, 11 May 2026 10:23:57 EST",
-          "summary": "Before one of the most anticipated drafts in recent memory, here's everything that transpired as the ping-pong balls were selected.",
+          "title": "Everybody wants to complain about the Thunder: 'I ...",
+          "url": "https://www.espn.com/nba/story/_/id/48737208/how-oklahoma-city-thunder-became-nba-newest-villains",
+          "published": "Mon, 11 May 2026 17:55:29 EST",
+          "summary": "The Lakers are the latest team to cry foul over the way Shai Gilgeous-Alexander and the Thunder are officiated.",
           "source": "ESPN"
         },
         {
-          "title": "The Wizards have the No. 1 pick! Updated mock draf...",
-          "url": "https://www.espn.com/nba/story/_/id/48713262/2026-nba-mock-draft-pick-projections-picks-post-lottery-dybantsa-peterson",
-          "published": "Mon, 11 May 2026 10:23:57 EST",
-          "summary": "The Wizards, Jazz and Grizzlies have the top picks in the 2026 NBA draft. Here's Jeremy Woo's updated mock.",
+          "title": "The uncomfortable lesson for the Lakers down 3-0 t...",
+          "url": "https://www.espn.com/nba/story/_/id/48734191/the-uncomfortable-lesson-los-angeles-lakers-3-0-oklahoma-city-thunder-nba-playoffs",
+          "published": "Mon, 11 May 2026 17:55:29 EST",
+          "summary": "For years, the Lakers' strategy has been to get and keep stars. OKC is showing how old that strategy truly is.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Wemby avoids suspension, will play G5",
+          "url": "https://www.espn.com/nba/story/_/id/48742211/no-discipline-wembanyama-reid-elbow-play-game-5",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
+          "summary": "Spurs star Victor Wembanyama will not face any further discipline for elbowing Minnesota's Naz Reid and will play in Game 5 against the Timberwolves in San Antonio, sources told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Kiffin: LSU's 'diversity' recruiting edge vs. Rebe...",
+          "url": "https://www.espn.com/college-football/story/_/id/48744747/kiffin-lsu-diversity-recruitment-advantage-vs-ole-miss",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
+          "summary": "LSU coach Lane Kiffin implied the lack of diversity at Ole Miss hurt his ability to recruit players, saying parents have told him Baton Rouge feels more reflective of the \"real world.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Bills to open new stadium in Week 2 vs. Lions",
+          "url": "https://www.espn.com/nfl/story/_/id/48744949/bills-play-first-regular-season-game-new-stadium-week-2",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
+          "summary": "The Bills will play their first regular-season game at their new home, the new Highmark Stadium, in Week 2 against the Lions, it was announced Monday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Bucks seeking trade offers for Giannis",
+          "url": "https://www.espn.com/nba/story/_/id/48741814/sources-bucks-seeking-trade-offers-giannis-antetokounmpo",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
+          "summary": "The Bucks are open for business on trade calls and offers for Giannis Antetokounmpo, sources told ESPN.",
           "source": "ESPN"
         },
         {
           "title": "Mizzou's Hardy shot at concert, in stable conditio...",
           "url": "https://www.espn.com/college-football/story/_/id/48741126/missouri-running-back-ahmad-hardy-shot-stable-condition",
-          "published": "Mon, 11 May 2026 12:21:04 EST",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
           "summary": "Missouri running back Ahmad Hardy, a first-team All-SEC selection last season, was shot at a concert in Mississippi early Sunday and is in stable condition following surgery.",
           "source": "ESPN"
         },
         {
           "title": "Vikes surprise Peterson with ring of honor news",
           "url": "https://www.espn.com/nfl/story/_/id/48741817/vikings-induct-ex-rb-adrian-peterson-ring-honor",
-          "published": "Mon, 11 May 2026 12:21:04 EST",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
           "summary": "Adrian Peterson will enter the Minnesota Vikings' ring of honor this fall, the team announced Monday.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: Chargers, TE Njoku agree to 1-yr. deal",
-          "url": "https://www.espn.com/nfl/story/_/id/48739754/sources-chargers-te-david-njoku-agree-one-year-deal",
-          "published": "Mon, 11 May 2026 12:21:04 EST",
-          "summary": "After nine years with the Browns, David Njoku has agreed to terms with the Chargers on a one-year deal worth up to $8 million, sources told NFL Network's Ian Rapoport.",
+          "title": "Spieth: 'Whack-a-mole' start offers hope at PGA",
+          "url": "https://www.espn.com/golf/story/_/id/48744124/jordan-spieth-looks-get-game-together-pga-championship",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
+          "summary": "After a season when each part of his game has excelled at different times, Jordan Spieth is hoping he can put it all together for this week's PGA Championship and complete the career Grand Slam.",
           "source": "ESPN"
         },
         {
-          "title": "Wemby ejected in career first after elbowing Reid",
-          "url": "https://www.espn.com/nba/story/_/id/48736940/spurs-victor-wembanyama-ejected-game-4-career-first-elbowing-timberwolves-naz-reid",
-          "published": "Mon, 11 May 2026 12:21:04 EST",
-          "summary": "Spurs star Victor Wembanyama experienced his first career ejection Sunday in Game 4 of the Western Conference semifinals after throwing an elbow at the jaw of Timberwolves forward Naz Reid early in the second quarter.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Harbaugh-led Giants to host Cowboys in Week 1",
-          "url": "https://www.espn.com/nfl/story/_/id/48740437/john-harbaugh-giants-host-cowboys-week-1-sunday-night-football",
-          "published": "Mon, 11 May 2026 12:21:04 EST",
-          "summary": "The Giants will host the Cowboys on Sept. 13 in the first \"Sunday Night Football\" game of the 2026 season.",
-          "source": "ESPN"
-        },
-        {
-          "title": "6-time gold medalist Lochte joins Missouri St. sta...",
-          "url": "https://www.espn.com/college-sports/story/_/id/48741974/ryan-lochte-joins-missouri-state-swimming-assistant-coach",
-          "published": "Mon, 11 May 2026 12:21:04 EST",
-          "summary": "Six-time Olympic gold medalist Ryan Lochte has joined the staff at Missouri State as an assistant coach for the men's and women's swimming programs.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Bills boost pass-rush depth with ex-Chief Danna",
-          "url": "https://www.espn.com/nfl/story/_/id/48741642/bills-sign-ex-chiefs-pass-rusher-mike-danna-1-year-deal",
-          "published": "Mon, 11 May 2026 12:21:04 EST",
-          "summary": "The Bills added a familiar former opponent to the roster, signing outside linebacker Mike Danna to a one-year deal Monday.",
-          "source": "ESPN"
-        },
-        {
-          "title": "Pritchard on Pacers losing pick: 'Sorry to our fan...",
-          "url": "https://www.espn.com/nba/story/_/id/48734927/pritchard-pacers-losing-no-5-pick-sorry-our-fans",
-          "published": "Mon, 11 May 2026 12:21:04 EST",
-          "summary": "Pacers president Kevin Pritchard apologized to fans and said he owns losing this year's No. 5 pick after trading it with protections to the Clippers for Ivica Zubac.",
+          "title": "PWHL postpones G5 of series for illness concern",
+          "url": "https://www.espn.com/espn/story/_/id/48743980/pwhl-postpones-minnesota-montreal-game-5-illness-concern",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
+          "summary": "The fifth and deciding game of the PWHL's first-round playoff series between Minnesota and Montreal scheduled for Monday night has been postponed.",
           "source": "ESPN"
         },
         {
           "title": "⚾ MLB free agency: Skubal status, top hitter, more...",
           "url": "https://www.espn.com/mlb/story/_/id/48733848/mlb-2026-27-free-agency-offseason-questions-market-skubal-lockout-top-free-agent",
-          "published": "Mon, 11 May 2026 12:21:05 EST",
+          "published": "Mon, 11 May 2026 19:56:34 EST",
           "summary": "We polled those around the industry about the most intriguing topics surrounding this upcoming offseason.",
           "source": "ESPN"
         },
         {
-          "title": "The non-Round 1 impact rookies: Yates lists 20 sle...",
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48702987/2026-nfl-draft-rookie-year-impact-middle-late-rounders",
-          "published": "Mon, 11 May 2026 11:49:22 EST",
-          "summary": "We picked out Day 2 and Day 3 NFL draft picks who could contribute right away, including R Mason Thomas and Antonio Williams.",
+          "title": "Windhorst: Everything I saw inside the NBA's myste...",
+          "url": "https://www.espn.com/nba/story/_/id/48737761/inside-secret-nba-lottery-room-ahead-2026-draft-picks-rounds-jokes-silence-ping-pong-balls",
+          "published": "Mon, 11 May 2026 18:02:08 EST",
+          "summary": "Before one of the most anticipated drafts in recent memory, here's everything that transpired as the ping-pong balls were selected.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The NBA draft approaches with the Wizards securing the No. 1 pick, while mixed sentiments surround player incidents and team updates across various leagues.",
-        "summary": "Today's sports headlines highlight significant developments in the NBA draft, including the Wizards' top pick, as well as player incidents and team announcements in the NFL and college sports. Notably, Missouri running back Ahmad Hardy is recovering after being shot, and Adrian Peterson will be inducted into the Vikings' ring of honor. Additionally, NFL teams are making roster changes ahead of the upcoming season, and Ryan Lochte joins Missouri State as an assistant coach.",
+        "key_takeaway": "The NBA playoffs are heating up with the Thunder's controversial officiating, while the Bills prepare to debut their new stadium in Week 2.",
+        "summary": "Today's sports headlines highlight significant developments in the NBA playoffs, including the Oklahoma City Thunder's controversial officiating and the Los Angeles Lakers' struggles. Additionally, the Buffalo Bills are set to open their new stadium in Week 2, and there are updates on player trades and injuries across various leagues.",
         "key_themes": [
-          "NBA draft updates",
-          "NFL team news",
-          "college sports incidents"
+          "NBA playoffs updates",
+          "Buffalo Bills new stadium",
+          "LSU recruiting strategies",
+          "Giannis Antetokounmpo trade rumors",
+          "PGA Championship preparations"
         ],
         "notable_headlines": [
           {
-            "headline": "The Wizards have the No. 1 pick! Updated mock draft",
-            "why_it_matters": "The Wizards' top pick in the NBA draft could significantly impact their future and the league's landscape.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Mizzou's Hardy shot at concert, in stable condition",
-            "why_it_matters": "The incident raises concerns about player safety and the impact of violence on athletes.",
+            "headline": "Everybody wants to complain about the Thunder: 'I ...",
+            "why_it_matters": "The Lakers' complaints about officiating reflect broader tensions in the NBA playoffs and the perception of the Thunder as a new villain.",
             "signal": "Risk"
           },
           {
-            "headline": "Vikes surprise Peterson with ring of honor news",
-            "why_it_matters": "Adrian Peterson's induction celebrates his legacy and contributions to the Vikings franchise.",
+            "headline": "The uncomfortable lesson for the Lakers down 3-0 t...",
+            "why_it_matters": "The Lakers' traditional strategy of star accumulation is being challenged by the Thunder's success, indicating a shift in competitive dynamics.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Sources: Wemby avoids suspension, will play G5",
+            "why_it_matters": "Victor Wembanyama's availability for Game 5 is crucial for the Spurs as they face elimination against the Timberwolves.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Wemby ejected in career first after elbowing Reid",
-            "why_it_matters": "Victor Wembanyama's ejection highlights the challenges young players face in high-pressure situations.",
+            "headline": "Bills to open new stadium in Week 2 vs. Lions",
+            "why_it_matters": "The Bills' new stadium marks a significant milestone for the franchise and its fans, enhancing the game day experience.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Sources: Bucks seeking trade offers for Giannis",
+            "why_it_matters": "The potential trade of Giannis Antetokounmpo could reshape the NBA landscape and impact multiple teams' futures.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Sources: Chargers, TE Njoku agree to 1-yr. deal",
-            "why_it_matters": "David Njoku's move to the Chargers could enhance their offensive capabilities this season.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further developments in the NBA draft as teams finalize their strategies.",
-            "Updates on Ahmad Hardy's recovery and any implications for Missouri's football season.",
-            "More NFL roster moves as teams prepare for training camps."
+            "NBA playoff games continue with critical matchups",
+            "Updates on player injuries and trades expected",
+            "PGA Championship begins with top golfers competing"
           ],
           "next_1_4_weeks": [
-            "Anticipation builds for the NBA draft and subsequent trades.",
-            "Increased focus on NFL preseason preparations and player performances.",
-            "Monitoring the impact of recent player signings across the NFL."
+            "Anticipation builds for the NFL season opener in the new Bills stadium",
+            "Potential trades in the NBA as teams assess their rosters",
+            "Continued coverage of the PGA Championship and its implications for players"
           ],
           "watch_list": [
-            "NBA draft predictions and analysis",
-            "Updates on player health and safety incidents",
-            "NFL preseason schedule and key matchups.",
-            "College sports coaching changes and impacts."
+            "NBA playoff results and implications",
+            "Updates on Giannis Antetokounmpo's trade status",
+            "Performance of top golfers at the PGA Championship",
+            "Injury reports for key NFL players"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score reflects a mixed tone, indicating both positive and negative developments in sports today.",
-          "Player incidents may affect team dynamics and public perception."
+          "The sentiment around the Thunder and Lakers may evolve as the playoffs progress.",
+          "Trade rumors are speculative and subject to change based on team decisions."
         ],
         "related_topics": [
-          "What are the latest NBA draft predictions?",
-          "Updates on NFL player signings and trades",
-          "What happened to Mizzou's Ahmad Hardy?"
+          "What are the latest NBA playoff updates?",
+          "How is the Buffalo Bills' new stadium impacting fans?",
+          "What are the implications of Giannis Antetokounmpo's potential trade?"
         ]
       },
-      "tweet_text": "Drama unfolds in the NBA as Wemby faces his first ejection while the Wizards snag the No. 1 pick—big moves ahead!\n\nSports Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#6time #Agree #Career #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Can the Lakers mount an epic comeback, or is it game over?\n\nSports Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #Avoids #Bills #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -787,75 +767,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific studies reveal advancements in health, space exploration, and environmental challenges, highlighting both innovative solutions and pressing concerns.",
-        "summary": "Today's science headlines cover a range of topics including health benefits of ancient exercises, NASA's Mars missions, groundbreaking materials, and significant environmental findings related to climate change.",
+        "key_takeaway": "Recent scientific studies reveal advancements in health, space exploration, and environmental concerns, highlighting both promising discoveries and alarming trends.",
+        "summary": "Today's science headlines cover a range of topics, including the health benefits of ancient exercises, NASA's Mars missions, groundbreaking materials, and significant environmental findings. Notable studies reveal the potential of gene transfers to extend lifespan, the discovery of a brain mechanism related to itching, and alarming insights into Antarctic ice melt.",
         "key_themes": [
           "health benefits of ancient exercises",
-          "NASA Mars missions",
+          "NASA Mars missions updates",
           "new materials in science",
-          "environmental challenges",
-          "longevity research",
-          "AI and misinformation"
+          "gene transfer and lifespan extension",
+          "environmental concerns about Antarctica"
         ],
         "notable_headlines": [
           {
             "headline": "This 800-year-old Chinese exercise helps lower blood pressure naturally",
-            "why_it_matters": "Ancient exercise routines like baduanjin show potential as effective, low-cost alternatives for managing hypertension.",
+            "why_it_matters": "The study shows that traditional exercises can be effective for managing hypertension without modern interventions.",
             "signal": "Opportunity"
           },
           {
             "headline": "NASA’s Psyche probe is about to slingshot around Mars at 12,000 mph",
-            "why_it_matters": "The flyby will enhance our understanding of Mars and aid in the mission to study the metal-rich asteroid Psyche.",
+            "why_it_matters": "This maneuver will enhance the mission's efficiency and provide valuable data about Mars and the asteroid Psyche.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists say Dante’s Inferno described an asteroid impact 500 years before modern science",
-            "why_it_matters": "This interpretation could reshape our understanding of historical literature and its connections to scientific events.",
+            "why_it_matters": "This interpretation connects literature with scientific phenomena, suggesting historical awareness of cosmic events.",
             "signal": "Unclear"
           },
           {
             "headline": "Scientists successfully transfer longevity gene and extend lifespan",
-            "why_it_matters": "The transfer of a longevity gene from naked mole rats to mice could lead to breakthroughs in aging research.",
+            "why_it_matters": "This breakthrough could lead to significant advancements in aging research and healthspan extension.",
             "signal": "Opportunity"
           },
           {
             "headline": "Antarctica is melting from below and scientists say it’s worse than expected",
-            "why_it_matters": "New findings about Antarctic ice melting could have significant implications for global sea level rise.",
+            "why_it_matters": "The findings indicate a potentially accelerated rate of sea level rise, challenging existing climate models.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring results from NASA's Psyche flyby of Mars",
-            "Further analysis of the longevity gene experiment results",
-            "Continued research on Antarctic ice melting dynamics"
+            "Monitoring the results of NASA's Psyche flyby and its implications for future space missions.",
+            "Following up on health studies related to ancient exercises and their integration into modern wellness programs.",
+            "Observing reactions to the Antarctic ice melt findings and potential policy implications."
           ],
           "next_1_4_weeks": [
-            "Anticipated publication of studies on the new ultra stainless steel",
-            "Updates on the implications of AI chatbots in society",
-            "Further developments in termite control chemical efficacy"
+            "Anticipating further research on the longevity gene transfer and its applications in human health.",
+            "Expecting discussions on the implications of AI chatbots in mental health and misinformation.",
+            "Continued exploration of the environmental impacts of Antarctic changes on global climate models."
           ],
           "watch_list": [
-            "Long-term effects of baduanjin on hypertension",
-            "Impact of new materials on green hydrogen production",
-            "Research on gut microbiome and aging",
-            "AI's role in shaping beliefs and misinformation"
+            "Developments in gene editing technologies and their ethical implications.",
+            "Updates on NASA's ongoing missions and findings from Mars exploration.",
+            "Research on new materials for sustainable energy solutions.",
+            "The impact of climate change on global sea levels and environmental policies."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates a balance of positive and negative developments in science today.",
-          "Some findings, particularly regarding historical interpretations, may require further validation."
+          "The mixed sentiment indicates that while there are positive advancements, there are also significant concerns that need to be addressed.",
+          "Some findings, particularly regarding environmental issues, may require further validation and peer review."
         ],
         "related_topics": [
-          "What are the health benefits of baduanjin exercise?",
-          "Latest updates on NASA's Psyche mission",
-          "How does AI influence human beliefs?",
-          "Recent advancements in longevity research",
-          "What are the implications of Antarctic ice melting?"
+          "What are the health benefits of ancient Chinese exercises?",
+          "Updates on NASA's Mars missions and discoveries.",
+          "How does gene transfer affect lifespan and health?",
+          "What are the implications of Antarctic ice melt?",
+          "New materials in science and their applications."
         ]
       },
-      "tweet_text": "Unlock the secrets of longevity and ancient wisdom as science reveals new pathways to a healthier future!\n\nScience Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Mars #Nasas #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlock the secrets of longevity, ancient wisdom, and cosmic wonders—science just got a whole lot more...\n\nScience Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Mars #Nasas #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
