@@ -1,12 +1,13 @@
 {
   "date": "2026-05-13",
-  "generated_at_utc": "2026-05-13T16:16:04Z",
+  "generated_at_utc": "2026-05-14T00:12:12Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
+    "senate",
+    "iran",
     "giant",
-    "court",
     "china"
   ],
   "categories": {
@@ -19,16 +20,16 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3318,
+        "score": -0.2923,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.553, dampened ×0.6 → -0.3318). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.487, dampened ×0.6 → -0.2923). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Trump arrives in China for high-stakes meeting with Xi Jinping",
+          "title": "Trade, Iran and Taiwan on the agenda as Trump arrives in China for high-stakes talks with Xi",
           "url": "https://www.bbc.com/news/articles/c1w28qw1e0xo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 13 May 2026 16:11:07 GMT",
-          "summary": "The leaders of the global superpowers are expected to discuss the war in Iran, tariffs, AI and Taiwan during the two-day visit.",
+          "published": "Wed, 13 May 2026 17:00:12 GMT",
+          "summary": "The US president says his first request to Xi would be to \"open up\" China, while Beijing is expected to press Trump on the status of Taiwan.",
           "source": "BBC News"
         },
         {
@@ -60,17 +61,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Philippine Senate in lockdown after gunshots fired",
+          "title": "Lockdown in Philippine Senate after gunshots fired",
           "url": "https://www.bbc.com/news/articles/cnvp730yd52o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 13 May 2026 15:35:15 GMT",
           "summary": "Police commandos entered the building where a senator wanted by the International Criminal Court had sought refuge.",
           "source": "BBC News"
         },
         {
-          "title": "Israeli strikes on cars in southern Lebanon kill 12, health ministry says",
+          "title": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
           "url": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 13 May 2026 13:52:11 GMT",
-          "summary": "Two children are among those reported dead after seven cars were struck in separate attacks south of Beirut.",
+          "published": "Wed, 13 May 2026 21:14:45 GMT",
+          "summary": "Eight children are among those reported dead after a series of air strikes hit the south of Beirut.",
           "source": "BBC News"
         },
         {
@@ -81,10 +82,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Russian drone attacks kill 13 in Ukraine after ceasefire expires",
+          "title": "Deadly Russian drone attacks on Ukraine resume after ceasefire expires",
           "url": "https://www.bbc.com/news/articles/ce3pj85depzo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 13 May 2026 14:51:30 GMT",
-          "summary": "Attacks are continuing after Ukraine's president warned of \"more waves\" of Russian strikes throughout Wednesday.",
+          "published": "Wed, 13 May 2026 16:39:28 GMT",
+          "summary": "Six people have been killed after Zelensky warned of \"more waves\" of Russian strikes through Wednesday.",
           "source": "BBC News"
         },
         {
@@ -95,10 +96,10 @@
           "source": "BBC News"
         },
         {
-          "title": "More than 1,000 passengers held on cruise after gastrointestinal illness outbreak",
+          "title": "Passengers allowed to leave norovirus-hit cruise ship",
           "url": "https://www.bbc.com/news/articles/cn5pe4yel1ko?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 13 May 2026 15:58:53 GMT",
-          "summary": "The ship, which set sail from Belfast on Friday, is at port in Bordeaux after 49 people fell ill from gastrointestinal illness.",
+          "published": "Wed, 13 May 2026 20:46:05 GMT",
+          "summary": "Passengers on the ship showing no symptoms are allowed to leave, authorities say, after 49 people fell ill from gastrointestinal sickness.",
           "source": "BBC News"
         },
         {
@@ -110,72 +111,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Trump's visit to China coincides with escalating global tensions, including violence in Lebanon and Ukraine.",
-        "summary": "Today's headlines highlight significant global events, including Trump's high-stakes meeting with Xi Jinping, violence in Lebanon, and ongoing conflict in Ukraine. The atmosphere is tense, with various crises unfolding worldwide.",
+        "key_takeaway": "High-stakes discussions between Trump and Xi in China coincide with escalating violence in Lebanon and Ukraine, highlighting global tensions.",
+        "summary": "Today's headlines reflect significant global events, including President Trump's visit to China for talks with Xi Jinping, a new trial ordered for Alex Murdaugh, and escalating violence in Lebanon and Ukraine. Additionally, a BBC investigation led to the rescue of dogs in Uganda, while a woman in the South Pacific is isolating after potential hantavirus exposure. The Philippine Senate experienced a lockdown due to gunfire, and a German court ruled against a chocolate manufacturer for deceptive practices.",
         "key_themes": [
-          "Trump Xi meeting implications",
-          "Lebanon violence updates",
-          "Ukraine conflict developments"
+          "Trump Xi talks significance",
+          "Murdaugh trial news",
+          "Lebanon air strikes impact",
+          "Ukraine drone attacks update",
+          "Uganda dog rescue investigation"
         ],
         "notable_headlines": [
           {
-            "headline": "Trump arrives in China for high-stakes meeting with Xi Jinping",
-            "why_it_matters": "This meeting could influence global trade and geopolitical stability amid rising tensions.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Israeli strikes on cars in southern Lebanon kill 12, health ministry says",
-            "why_it_matters": "The escalation in violence raises concerns about regional stability and humanitarian impacts.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Russian drone attacks kill 13 in Ukraine after ceasefire expires",
-            "why_it_matters": "Continued violence in Ukraine highlights the fragility of peace efforts and the ongoing humanitarian crisis.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Philippine Senate in lockdown after gunshots fired",
-            "why_it_matters": "This incident raises questions about political stability and security in the Philippines.",
+            "headline": "Trade, Iran and Taiwan on the agenda as Trump arrives in China for high-stakes talks with Xi",
+            "why_it_matters": "This meeting could influence US-China relations and global trade dynamics.",
             "signal": "Unclear"
           },
           {
+            "headline": "Court overturns Alex Murdaugh's murder convictions and orders new trial",
+            "why_it_matters": "This development may impact public perception and legal precedents in high-profile murder cases.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
+            "why_it_matters": "The violence raises concerns about regional stability and humanitarian crises.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Deadly Russian drone attacks on Ukraine resume after ceasefire expires",
+            "why_it_matters": "This escalation could lead to further international tensions and humanitarian issues.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Dozens of dogs rescued and suspect arrested in Uganda after BBC investigation",
-            "why_it_matters": "This highlights issues of animal welfare and the impact of investigative journalism.",
+            "why_it_matters": "This highlights the issue of animal welfare and fraud in charitable donations.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments from Trump's meeting with Xi Jinping for potential trade announcements.",
+            "Monitor outcomes of Trump-Xi discussions for implications on trade and diplomacy.",
             "Watch for updates on the situation in Lebanon and Ukraine as violence escalates.",
-            "Follow the Philippine Senate situation for security updates."
+            "Follow developments in the Murdaugh trial as it progresses."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions regarding US-China relations and their global implications.",
-            "Anticipate further developments in the Ukraine conflict as military actions continue.",
-            "Watch for potential legal and political ramifications from the Murdaugh case."
+            "Expect ongoing analysis of the geopolitical implications of Trump's visit to China.",
+            "Anticipate further reports on the humanitarian impact of violence in Lebanon and Ukraine.",
+            "Watch for legal developments in the Murdaugh case and its potential ramifications."
           ],
           "watch_list": [
-            "Trump's diplomatic strategies in China",
-            "Violence trends in the Middle East",
-            "Humanitarian responses to the Ukraine crisis.",
-            "Investigative journalism impacts on animal welfare."
+            "Trump's diplomatic strategy in China",
+            "Violence trends in Lebanon and Ukraine",
+            "Legal implications of the Murdaugh case",
+            "Animal welfare issues in Uganda",
+            "Public health updates on hantavirus exposure"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Ukraine and Lebanon is rapidly evolving and may change.",
-          "The implications of Trump's meeting with Xi are uncertain and depend on outcomes."
+          "The situation in Lebanon and Ukraine is fluid and may change rapidly.",
+          "The outcomes of Trump's discussions in China are uncertain and could have varying impacts."
         ],
         "related_topics": [
           "What are the implications of Trump's visit to China?",
-          "Latest updates on violence in Lebanon",
-          "Current status of the Ukraine conflict",
-          "Philippine political security concerns",
-          "Impact of investigative journalism on animal welfare"
+          "Updates on the Murdaugh trial and legal proceedings",
+          "What is happening with violence in Lebanon?",
+          "Latest news on Ukraine drone attacks",
+          "How did the BBC investigation lead to dog rescues in Uganda?"
         ]
       },
-      "tweet_text": "Tensions rise as Trump meets Xi in China amid chaos at home and abroad—what's at stake?\n\nWorld Sentiment: Negative (-0.33)\n\nRead the full breakdown: https://tldrnews.info\n\n#China #Trump #Abused #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "High-stakes diplomacy, shocking courtroom twists, and a rescue mission—today's world news is anything but ordinary!\n\nWorld Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#China #Trump #Abused #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -186,11 +190,18 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.0404,
+        "score": 0.0251,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.067, dampened ×0.6 → +0.0404). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.042, dampened ×0.6 → +0.0251). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "US Senate confirms Kevin Warsh as Federal Reserve chair, replacing Jerome Powell",
+          "url": "https://www.theguardian.com/business/2026/may/13/kevin-warsh-federal-reserve-chair",
+          "published": "Wed, 13 May 2026 20:10:15 GMT",
+          "summary": "<p>Warsh will serve four-year term as chair, taking over amid rising inflation and pressure from Trump to lower rates</p><p>The <a href=\"https://www.theguardian.com/us-news/us-senate\">US Senate</a> confirmed Kevin Warsh as chair of the <a href=\"https://www.theguardian.com/business/federal-reserve\">Federal Reserve</a>, one of the most powerful roles in the federal government that holds enormous sway over the economy.</p><p>The 54-45 Senate vote on Wednesday was split along party lines, with the e",
+          "source": "The Guardian"
+        },
         {
           "title": "‘I don’t think about Americans’ financial situation,’ says Trump amid Iran talks",
           "url": "https://www.theguardian.com/us-news/2026/may/13/trump-iran-war-americans-finances",
@@ -209,7 +220,7 @@
           "title": "Trump mega-donors pause Wisconsin development project, citing economic uncertainty",
           "url": "https://www.theguardian.com/us-news/2026/may/13/uline-trump-donors-pause-wisconsin-development-project",
           "published": "Wed, 13 May 2026 14:47:51 GMT",
-          "summary": "<p>Uline, owned by billionaire Republicans Richard and Liz Uihlein, halts construction of a new facility in Kenosha</p><p>Uline, a business and shipping supplies company owned by billionaire Trump supporters Richard and Elizabeth Uihlein, is pausing the construction of a new distribution facility in Kenosha, Wisconsin, citing economic uncertainty.</p><p>The construction pause comes in a key battleground state, where Trump won in 2016 and <a href=\"https://www.wpr.org/news/donald-trump-wins-wiscon",
+          "summary": "<p>Uline, owned by billionaire Republicans Richard and Liz Uihlein, halts construction of a new facility in Kenosha</p><p>Uline, a business and shipping supplies company owned by billionaire Trump supporters Richard and Elizabeth Uihlein, is pausing the construction of a new distribution facility in Kenosha, <a href=\"https://www.theguardian.com/world/wisconsin\">Wisconsin</a>, citing economic uncertainty.</p><p>The construction pause comes in a key battleground state, where Trump won in 2016 and",
           "source": "The Guardian"
         },
         {
@@ -248,10 +259,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "Advocates decry Trump’s plan to open 24m acres of federal lands to cattle grazing",
-          "url": "https://www.theguardian.com/us-news/2026/may/11/trump-plans-24m-acres-federal-lands-cattle-grazing",
-          "published": "Mon, 11 May 2026 12:00:54 GMT",
-          "summary": "<p>Opponents say administration’s plan prioritizes big agriculture at expense of wildlife and protected species</p><p>New legal action aims to head off a Trump administration plan to open <a href=\"https://u7061146.ct.sendgrid.net/ls/click?upn=u001.gqh-2BaxUzlo7XKIuSly0rCydHCbG70wcdabaaM9rXedBbrZpL-2FnBXALfDOpP7JC4f-2Bun8knnSHm-2F2B2EIyCYxTsudN4ksGc95gkFzFYyAnZvAS5deO1mND4hejlfUxvI5Y-2B9qHQ3Hw-2BdKDgkzwY-2FBZZy4ZnpwnKEjpCFs4FkpaNE-3D2f6t_lHfhL5FQIIAolkXgQycRaoZ8r0GqXkvzkUp2VESycz2E-2FSraiWN1-2Fbv",
+          "title": "Spiritless summer: Americans feel squeeze of costly fuel amid busy travel season",
+          "url": "https://www.theguardian.com/us-news/2026/may/09/travelers-feel-squeeze-summer-travel-iran-war-fuel",
+          "published": "Sat, 09 May 2026 12:00:56 GMT",
+          "summary": "<p>Soaring oil prices have left many Americans with higher costs and fewer options for travel amid the Iran war</p><ul><li><p><a href=\"https://www.theguardian.com/travel/2026/apr/21/tell-us-have-your-holiday-plans-changed-in-light-of-recent-world-events?CMP=Share_iOSApp_Other\">Tell us: have your holiday plans changed in light of recent world events?</a></p></li></ul><p>Chelsea Blackmore saves up every year for an annual vacation with her 58-year-old mother. This year, after landing an especially",
           "source": "The Guardian"
         },
         {
@@ -267,89 +278,77 @@
           "published": "Sun, 10 May 2026 14:00:27 GMT",
           "summary": "<p>The economic warnings are bleak, but full extent of shortages are still not felt for many European countries</p><p>The <a href=\"https://www.theguardian.com/world/2026/mar/23/iran-war-energy-crisis-1970s-oil-shocks-fatih-birol-iea\">biggest energy shock</a> in modern history, jet fuel shortages <a href=\"https://www.theguardian.com/business/2026/apr/16/europe-supply-jet-fuel-iran-war-flight-cancellations-iea\">“within weeks”</a>, a <a href=\"https://www.theguardian.com/business/2026/apr/14/iran-wa",
           "source": "The Guardian"
-        },
-        {
-          "title": "Trump tariff refunds are happening – and businesses should pay attention",
-          "url": "https://www.theguardian.com/us-news/2026/may/10/trump-tariff-refunds-small-business",
-          "published": "Sun, 10 May 2026 14:00:27 GMT",
-          "summary": "<p>Business owners may have to wade through paperwork, but the US government is now actually processing refunds</p><p>When the <a href=\"https://www.theguardian.com/us-news/us-supreme-court\">supreme court</a> struck down <a href=\"https://www.theguardian.com/us-news/trump-tariffs\">Donald Trump’s tariffs</a>, many small importers assumed any refunds would be tied up in bureaucracy for years. Surprisingly, that’s not what’s happening.</p><p>It’s estimated that roughly <a href=\"https://thehill.com/bu",
-          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "US inflation reached 3.8% in April, while economic uncertainty affects major business projects and union-backed AI policies gain worker support.",
-        "summary": "Today's business news highlights rising US inflation at 3.8%, economic uncertainty impacting major development projects, and strong support for union-backed AI policies among workers. Additionally, notable figures like Jensen Huang join Trump on a trip to China, while GameStop's bid for eBay is rejected. The political landscape also sees Trump donors pausing projects and Jho Low seeking a pardon from Trump amid ongoing economic challenges.",
+        "key_takeaway": "The US Senate confirmed Kevin Warsh as Federal Reserve chair amid rising inflation and economic uncertainty, while Trump faces criticism for his focus on foreign policy over domestic financial issues.",
+        "summary": "Today's business news highlights significant developments including the confirmation of Kevin Warsh as Federal Reserve chair, rising inflation rates, and economic uncertainty affecting major projects and corporate strategies. The Senate's split vote reflects ongoing political tensions, while Trump's comments on economic issues amid international conflicts raise concerns about his administration's priorities. Additionally, corporate responses to economic conditions, such as GameStop's rejected bid for eBay and Uline's paused construction project, underscore the impact of inflation and market uncertainties on business decisions.",
         "key_themes": [
+          "Federal Reserve leadership changes",
           "US inflation trends",
-          "impact of economic uncertainty on business",
-          "union support for AI policies",
-          "GameStop's bid for eBay",
-          "Trump's influence on business decisions"
+          "Trump's economic policies",
+          "Corporate responses to economic uncertainty",
+          "Union support for AI policies"
         ],
         "notable_headlines": [
           {
+            "headline": "US Senate confirms Kevin Warsh as Federal Reserve chair, replacing Jerome Powell",
+            "why_it_matters": "Warsh's confirmation comes at a crucial time as inflation rises and economic pressures mount, influencing monetary policy decisions.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "‘I don’t think about Americans’ financial situation,’ says Trump amid Iran talks",
-            "why_it_matters": "Trump's comments reflect a disconnect with economic realities as inflation rises.",
-            "signal": "Unclear"
+            "why_it_matters": "Trump's comments highlight a potential disconnect between foreign policy focus and domestic economic challenges, raising questions about his administration's priorities.",
+            "signal": "Risk"
           },
           {
             "headline": "Nvidia’s Jensen Huang joins other US bosses on Trump trip to China",
-            "why_it_matters": "The trip underscores the importance of US tech leaders in international relations.",
+            "why_it_matters": "Huang's participation underscores the importance of tech leaders in shaping US-China relations and the future of AI and technology.",
             "signal": "Opportunity"
           },
           {
             "headline": "Trump mega-donors pause Wisconsin development project, citing economic uncertainty",
-            "why_it_matters": "This pause indicates how economic conditions are influencing major investments.",
+            "why_it_matters": "The pause in construction reflects broader concerns about economic stability and investment decisions in key battleground states.",
             "signal": "Risk"
           },
           {
             "headline": "US inflation jumped to 3.8% in April as war with Iran continues to drive up prices",
-            "why_it_matters": "Rising inflation affects consumer purchasing power and economic stability.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US workers overwhelmingly support union-backed policies on AI, poll says",
-            "why_it_matters": "Strong worker support for union policies could shape future labor negotiations.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "GameStop’s $55.5bn bid for eBay rejected as ‘neither credible nor attractive’",
-            "why_it_matters": "The rejection highlights challenges in the retail and e-commerce sectors.",
+            "why_it_matters": "The rise in inflation impacts consumer spending and economic growth, influencing policy decisions at the Federal Reserve.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to rising inflation data from businesses and consumers.",
-            "Watch for further developments in Trump's China trip and its implications for US tech companies.",
-            "Expect updates on the status of paused development projects in Wisconsin."
+            "Monitoring reactions to Warsh's confirmation as Fed chair and its implications for monetary policy.",
+            "Observing market responses to inflation data and corporate earnings reports.",
+            "Tracking developments in US-China relations following Trump's delegation."
           ],
           "next_1_4_weeks": [
-            "Observe how inflation trends influence Federal Reserve policy decisions and interest rates.",
-            "Track the impact of union-backed AI policies on labor negotiations and workplace dynamics.",
-            "Follow developments in the ongoing Iran conflict and its economic repercussions."
+            "Evaluating the impact of inflation on consumer behavior and business investments.",
+            "Anticipating further political developments as the economy remains a key issue in upcoming elections.",
+            "Watching for potential changes in Federal Reserve policy under Warsh's leadership."
           ],
           "watch_list": [
-            "Inflation reports and economic indicators from the Bureau of Labor Statistics.",
-            "Statements from major companies regarding investment decisions amid economic uncertainty.",
-            "Updates on union negotiations and worker policies related to AI.",
-            "GameStop's strategic moves following the eBay bid rejection."
+            "Inflation trends and consumer price index updates.",
+            "Corporate earnings reports from major companies affected by economic conditions.",
+            "Political developments regarding Trump's administration and its economic policies.",
+            "Union activities related to AI policies and worker protections."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Economic conditions are fluid and can change rapidly, affecting forecasts.",
-          "Political developments may influence business decisions unpredictably."
+          "The political landscape remains highly dynamic, which could affect economic policies and business decisions.",
+          "Inflation data may fluctuate, impacting market sentiment and corporate strategies."
         ],
         "related_topics": [
-          "What are the latest US inflation rates?",
-          "How is economic uncertainty affecting business investments?",
-          "What do workers think about AI and union policies?",
-          "Why did GameStop's bid for eBay fail?",
-          "What is the impact of Trump's policies on businesses?"
+          "What are the implications of Kevin Warsh's confirmation as Fed chair?",
+          "How is inflation affecting US businesses?",
+          "What are Trump's economic priorities amid international conflicts?",
+          "What are the latest developments in US-China tech relations?",
+          "How are unions influencing AI policy in the US?"
         ]
       },
-      "tweet_text": "Amid rising inflation and economic uncertainty, Trump's latest moves raise more questions than answers for...\n\nBusiness Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Iran #1mdb #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Major shakeup at the Fed as Kevin Warsh steps in, but is Trump’s indifference to America’s finances the real...\n\nBusiness Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Iran #1mdb #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -360,161 +359,153 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2249,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.375, dampened ×0.6 → +0.2249). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0318,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.053, dampened ×0.6 → +0.0318). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Microsoft doesn’t want any of this",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
-          "published": "2026-05-13T11:30:37-04:00",
-          "summary": "Maybe I'm just punch drunk in my third week attending Musk v. Altman, but I have become very, very fond of Microsoft during the course of this trial. They don't want to be here any more than I do. Their opening statement was honestly one of the most Microsoft things I've ever seen. More than [&#8230;]",
+          "title": "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs",
+          "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+          "published": "2026-05-13T18:04:28-04:00",
+          "summary": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more. In its [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Sony ups its new A7R VI to 66.8 megapixels and jumps the price to $4,500",
-          "url": "https://www.theverge.com/gadgets/929667/sony-alpha-a7rvi-mirrorless-camera-price-specs",
-          "published": "2026-05-13T11:30:14-04:00",
-          "summary": "Sony announced its new flagship high-resolution camera, the A7R VI. The standout feature is its fully stacked full-frame sensor with 66.8 megapixels of resolution and up to 16 stops of dynamic range. That's only an increase of about six megapixels for the VI model, but its stacked architecture means a much faster readout speed for [&#8230;]",
+          "title": "Trump administration defends right to ban content moderation experts from US",
+          "url": "https://www.theverge.com/policy/930178/citr-rubio-visa-deportation-misinformation-research",
+          "published": "2026-05-13T17:58:44-04:00",
+          "summary": "The Trump administration is fighting for the right to keep some social media moderation advocates out of the US. On Wednesday, US District Court Judge James Boasberg heard arguments in a lawsuit between the nonprofit Coalition for Independent Technology Research (CITR) and Secretary of State Marco Rubio and other Trump administration officials. The suit concerns [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-          "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-          "published": "2026-05-13T11:28:21-04:00",
-          "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [&#8230;]",
+          "title": "YouTube is courting creators — and sponsors — with streaming shows",
+          "url": "https://www.theverge.com/news/930092/youtube-creators-shows-sponsors-netflix-upfront",
+          "published": "2026-05-13T17:30:00-04:00",
+          "summary": "In the ongoing fight for content and talent, YouTube is pitching itself as the connector between the creators and advertisers - and marketing its creators not just as the future of social media, but also of advertising, TV, streaming, and entertainment more broadly. At the company's annual advertiser event in New York on Wednesday, YouTube [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Garmin’s mini satellite communicators are on sale for up to 40 percent off",
-          "url": "https://www.theverge.com/gadgets/928854/garmin-inreach-mini-2-3-blink-outdoor-4-floodlight-security-camera-deal-sale",
-          "published": "2026-05-13T11:00:35-04:00",
-          "summary": "REI’s annual Anniversary Sale doesn’t&#160;start until March 15th, but that hasn’t stopped Garmin from rolling out discounts on a range of devices — including its InReach Mini satellite communicators. Right now, for instance, you can grab the Mini 2 at Amazon, REI, and Garmin for $249.99 ($150 off) or the Mini 3 for $399.99 ($50 [&#8230;]",
+          "title": "AMD&#8217;s best CPU tech for gamers is coming to workstations too",
+          "url": "https://www.theverge.com/tech/930132/amd-ryzen-pro-9000-series-3d-v-cache",
+          "published": "2026-05-13T16:38:16-04:00",
+          "summary": "For the first time, AMD is including its 3D V-Cache tech in its commercial workstation processors with a refreshed line of Ryzen PRO 9000 series chips. Up until now, AMD's 3D V-Cache chips have mainly been geared toward gamers, but they've also gotten better at creative tasks over recent years. In our review of the [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Audemars Piguet and Swatch made a $400 &#8216;pop&#8217; pocket watch",
-          "url": "https://www.theverge.com/tech/929625/swatch-audemars-piguet-x-swatch-royal-pop-pocket-watch",
-          "published": "2026-05-13T10:40:21-04:00",
-          "summary": "Following a series of cryptic newspaper ads and Instagram teasers that had watch fans speculating about its next collaboration, Swatch announced a new timepiece collection created with luxury watchmaker Audemars Piguet. Inspired by Swatch's iconic Pop watches from the '80s and Audemars Piguet's Royal Oak timepieces that first debuted in 1972, the new Audemars Piguet [&#8230;]",
+          "title": "The crypto Clarity Act returns to the Senate this week. The banks are already trying to kill it.",
+          "url": "https://www.theverge.com/column/929752/the-crypto-clarity-act-returns-to-the-senate-this-week-the-banks-are-already-trying-to-kill-it",
+          "published": "2026-05-13T15:19:00-04:00",
+          "summary": "Hello and welcome to Regulator, the newsletter for Verge subscribers that goes into tech shenanigans that take place in the backrooms of Washington. Really, it sometimes does feel like the online series The Backrooms: a parallel universe with no internal logic, evil corporations lurking in the background, and mind-rending eldritch horrors around every corner. (Not [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Why does the Googlebook exist?",
-          "url": "https://www.theverge.com/report/929374/google-googlebook-laptops-aluminium-os-questions-concerns-ai-gemini",
-          "published": "2026-05-13T10:00:00-04:00",
-          "summary": "Google announced its new Googlebook laptop platform yesterday, and so far I've been left asking, \"Why?\" Why is Google blowing up its Chromebook and ChromeOS platform for this? I've been excited by the prospect of Android and ChromeOS unifying under the long-rumored Aluminium OS. The theory was that Aluminium might unite Android and ChromeOS under [&#8230;]",
+          "title": "Fighting Trump will make or break Disney’s new CEO",
+          "url": "https://www.theverge.com/streaming/930009/johh-damaro-disney-trump-fcc-the-view-equal-time-doctrine",
+          "published": "2026-05-13T15:15:21-04:00",
+          "summary": "A week ago, newly appointed Disney CEO Josh D'Amaro was busy regaling investors with plans to turn Disney Plus into the company's \"digital centerpiece.\" By last Friday, though, his attention had presumably shifted to a fight with the Trump administration over free speech. Disney-owned ABC has now accused the administration of violating its First Amendment [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The border is everywhere",
-          "url": "https://www.theverge.com/report/928726/border-security-expo-cbp-ice-dhs-surveillance",
-          "published": "2026-05-13T09:45:00-04:00",
-          "summary": "No one paid attention to the gunshots that echoed through the convention center. They were real enough, and so were the screams that accompanied them, in the sense that they were recordings of real people who, like guest stars on Law and Order, reenacted scenarios that had clearly been plucked from the headlines: a kidnapping, [&#8230;]",
+          "title": "Netflix’s ad ambitions just keep growing",
+          "url": "https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
+          "published": "2026-05-13T14:45:32-04:00",
+          "summary": "For the second year in a row, Netflix's ad-supported tier more than doubled its monthly viewerbase. During its 2026 upfront presentation, Netflix revealed that its $8.99-per-month plan reaches more than 250 million people around the globe, a significant leap from 94 million users reported last year. The streaming service reported earning $1.5 billion from ads [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Nintendo says it has more Switch 2 games in store for 2026",
-          "url": "https://www.theverge.com/games/929527/nintendo-switch-2-release-schedule-2026",
-          "published": "2026-05-13T09:25:02-04:00",
-          "summary": "With the Switch 2 getting a price hike in September, this holiday season will be pivotal for Nintendo. That increased cost means that the company will rely heavily on new games to sell its current console - but as of right now the lineup for the second half of the year is sparse. However, without [&#8230;]",
+          "title": "Everything at The Criterion Collection is 30 percent off right now",
+          "url": "https://www.theverge.com/gadgets/929760/the-criterion-collection-spring-sale-anora-wes-anderson-deal-sale",
+          "published": "2026-05-13T14:41:49-04:00",
+          "summary": "If you’ve been meaning to grow your physical movie collection, now’s a good time to do it. Through May 25th, The Criterion Collection is taking 30 percent off every disc on its site, including standard Blu-rays, 4K releases, box sets, and even films that are currently only available to preorder. The sale spans every category [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Canon’s latest EOS R6 camera goes V for video",
-          "url": "https://www.theverge.com/gadgets/929377/canon-eos-r6-v-mirrorless-video-camera-price-specs",
-          "published": "2026-05-13T09:00:00-04:00",
-          "summary": "Canon has announced a new EOS R6 V mirrorless camera, a 32.5-megapixel camera with 7K video. It's the first full-frame EOS camera to carry the V moniker, signifying that it's designed primarily for video capture. The R6 V is based on the EOS R6 Mark III, but it eschews features like a viewfinder and a [&#8230;]",
+          "title": "Instagram hits the copy button again with new disappearing Instants photos",
+          "url": "https://www.theverge.com/tech/929958/instagram-instants-photos-disappearing-app",
+          "published": "2026-05-13T13:57:41-04:00",
+          "summary": "Instagram is once again cribbing from competitors like Snapchat and BeReal with a new photo-sharing format it calls \"Instants,\" which are ephemeral photos that you can't edit and that you can only share with your close friends or followers that follow you back. Instants are available globally beginning on Wednesday as a feature in the [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Alexa is moving into Amazon․com",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
-          "published": "2026-05-13T09:00:00-04:00",
-          "summary": "Amazon is bringing Alexa Plus to Amazon.com, integrating its LLM-powered AI assistant directly into the company's shopping experience. Beginning today, when you type a query into Amazon, you'll be talking to Alexa for Shopping, the company's new shopping assistant, powered by Alexa Plus. So, while a search for \"toilet paper\" will still return the expected [&#8230;]",
+          "title": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
+          "url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
+          "published": "2026-05-13T12:45:43-04:00",
+          "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Microsoft's involvement in the Musk v. Altman trial highlights the complexities of AI governance, while Sony and Canon unveil high-resolution cameras amid competitive tech advancements.",
-        "summary": "Today's technology news features significant developments including Microsoft's reluctant participation in a high-profile trial involving AI governance, Sony's launch of a high-resolution camera, and Canon's new video-centric EOS R6 model. Additionally, Amazon integrates Alexa into its shopping platform, enhancing user experience with AI assistance.",
+        "key_takeaway": "Microsoft Edge introduces AI features to enhance user experience, while YouTube and Netflix expand their content strategies to attract creators and advertisers.",
+        "summary": "Today's technology news highlights significant updates from Microsoft, YouTube, and Netflix, alongside developments in content moderation and AI privacy features from Meta. Microsoft Edge's new Copilot AI feature aims to streamline information retrieval from open tabs, while YouTube and Netflix are actively courting creators and advertisers to strengthen their platforms. Additionally, Meta's announcement of a private AI chat feature reflects ongoing trends in user privacy and data management.",
         "key_themes": [
-          "AI governance and legal battles",
-          "Sony A7R VI camera features",
-          "Canon EOS R6 V for video",
-          "Amazon Alexa integration in shopping",
-          "Nintendo Switch 2 game lineup"
+          "Microsoft Edge AI features",
+          "YouTube creator strategies",
+          "Netflix ad-supported growth",
+          "Meta AI privacy features",
+          "AMD workstation processors"
         ],
         "notable_headlines": [
           {
-            "headline": "Microsoft doesn’t want any of this",
-            "why_it_matters": "Microsoft's reluctance in the Musk v. Altman trial underscores the challenges tech companies face in AI regulation and public perception.",
+            "headline": "Microsoft's Edge Copilot update uses AI to pull information from across your tabs",
+            "why_it_matters": "This feature enhances user productivity by allowing seamless interaction with multiple tabs through AI.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "YouTube is courting creators — and sponsors — with streaming shows",
+            "why_it_matters": "YouTube's strategy to connect creators with advertisers may reshape the future of content monetization.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Netflix’s ad ambitions just keep growing",
+            "why_it_matters": "Netflix's significant growth in its ad-supported tier indicates a successful pivot in its business model.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Mark Zuckerberg announces ‘completely private’ encrypted Meta AI chat",
+            "why_it_matters": "This move towards privacy in AI communications could set new standards for user data protection.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Instagram hits the copy button again with new disappearing Instants photos",
+            "why_it_matters": "Instagram's new feature reflects ongoing competition in the social media landscape for ephemeral content.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Sony ups its new A7R VI to 66.8 megapixels and jumps the price to $4,500",
-            "why_it_matters": "The new A7R VI camera's high resolution and features position Sony competitively in the premium camera market.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-            "why_it_matters": "The outcome of this trial could significantly impact the direction of AI development and corporate responsibility in the tech industry.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Garmin’s mini satellite communicators are on sale for up to 40 percent off",
-            "why_it_matters": "Discounts on Garmin's devices may attract outdoor enthusiasts, reflecting consumer trends in tech gadgets.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Nintendo says it has more Switch 2 games in store for 2026",
-            "why_it_matters": "Nintendo's strategy for the Switch 2 will be crucial for maintaining market interest amid rising prices.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Canon’s latest EOS R6 camera goes V for video",
-            "why_it_matters": "Canon's focus on video capabilities in its new EOS R6 model highlights the growing demand for video content creation tools.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Alexa is moving into Amazon.com",
-            "why_it_matters": "Integrating Alexa into the shopping experience represents a significant step in enhancing e-commerce through AI.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Continued coverage of the Musk v. Altman trial may reveal more about AI governance issues.",
-            "Consumer reactions to Sony and Canon's new camera releases will be monitored.",
-            "Amazon's Alexa integration may lead to increased sales and user engagement."
+            "Monitor user feedback on Microsoft Edge's new AI features.",
+            "Watch for reactions from creators regarding YouTube's new initiatives.",
+            "Anticipate further developments in Netflix's ad strategy."
           ],
           "next_1_4_weeks": [
-            "The impact of the Musk v. Altman trial on AI policy discussions will be assessed.",
-            "Sales performance of new camera models from Sony and Canon will be evaluated.",
-            "Nintendo's game announcements for the Switch 2 will be closely watched."
+            "Evaluate the impact of Meta's private AI chat on user engagement.",
+            "Observe trends in the adoption of Instagram's new photo-sharing feature.",
+            "Follow legislative developments regarding content moderation and tech regulations."
           ],
           "watch_list": [
-            "Developments in AI regulation and corporate responsibility",
-            "Consumer electronics sales trends",
-            "Upcoming game releases for Nintendo Switch 2.",
-            "Market response to Amazon's Alexa integration."
+            "Microsoft Edge AI updates",
+            "YouTube creator partnerships",
+            "Netflix ad-supported growth",
+            "Meta AI privacy initiatives",
+            "Instagram's new features"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall technology landscape today.",
-          "The outcomes of ongoing trials and product launches remain uncertain."
+          "The impact of new features may vary based on user adoption rates.",
+          "Regulatory changes could affect tech companies' strategies.",
+          "Market competition may influence the success of new initiatives."
         ],
         "related_topics": [
-          "What are the latest developments in AI governance?",
-          "Sony A7R VI camera features and reviews",
-          "Canon EOS R6 V video capabilities",
-          "How is Amazon integrating Alexa into shopping?",
-          "Nintendo Switch 2 game release schedule"
+          "What are the latest features in Microsoft Edge?",
+          "How is YouTube attracting creators and advertisers?",
+          "What are Netflix's recent ad-supported growth strategies?",
+          "What privacy measures is Meta implementing in AI chat?",
+          "How is Instagram evolving its photo-sharing features?"
         ]
       },
-      "tweet_text": "From epic court battles to mind-blowing tech upgrades, today’s headlines are a wild ride through the future...\n\nTechnology Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#2026 #4500 #8216pop8217 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Microsoft's Edge Copilot update is about to change how you multitask forever—get ready for a browsing...\n\nTechnology Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Right #Trump #Across #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -525,191 +516,165 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": -0.0462,
+        "score": -0.0317,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.077, dampened ×0.6 → -0.0462). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.053, dampened ×0.6 → -0.0317). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Wait, why didn't my NFL team ____? Reasonable answ...",
-          "url": "https://www.espn.com/nfl/story/_/id/48742512/2026-nfl-offseason-10-teams-questions-explaining-missed-moves",
-          "published": "Tue, 12 May 2026 09:55:04 EST",
-          "summary": "Let's make sense of the Cowboys not extending George Pickens, the Steelers bypassing QB upgrades, the Dolphins not trading De'Von Achane and more.",
+          "title": "Everything you need to know for Pistons-Cavs Game ...",
+          "url": "https://www.espn.com/nba/story/_/id/48752802/2026-nba-playoffs-watch-game-5-cavaliers-pistons",
+          "published": "Wed, 13 May 2026 20:00:09 EST",
+          "summary": "The Cavaliers and Pistons are headed back to Detroit tied 2-2. We broke down the key factors ahead of Game 5.",
           "source": "ESPN"
         },
         {
-          "title": "Three questions facing Lamar Jackson and the Raven...",
-          "url": "https://www.espn.com/nfl/story/_/id/48741815/questions-facing-lamar-jackson-baltimore-ravens-ravens-center-tyler-linderbaum-nnamdi-madubuike",
-          "published": "Tue, 12 May 2026 09:55:05 EST",
-          "summary": "Heading into next week's organized team activities, the Ravens have some major questions to address.",
+          "title": "Trump admin waves visa bonds for World Cup fans",
+          "url": "https://www.espn.com/soccer/story/_/id/48760094/2026-world-cup-visa-bonds-tickets-fans-trump-administration",
+          "published": "Wed, 13 May 2026 19:59:41 EST",
+          "summary": "The Trump administration is suspending a requirement that foreign visitors from certain countries pay as much as $15,000 in bonds as long as they are confirmed World Cup ticket holders.",
           "source": "ESPN"
         },
         {
-          "title": "Prosecutors given access to Tiger's drug records",
-          "url": "https://www.espn.com/golf/story/_/id/48750712/prosecutors-granted-access-tiger-woods-prescription-drug-records",
-          "published": "Tue, 12 May 2026 12:09:22 EST",
-          "summary": "A Florida state judge granted prosecutors' request to subpoena Tiger Woods' prescription drug records during a hearing following his March arrest on suspicion of DUI.",
+          "title": "NFL nixed minority offensive asst. mandate in '25",
+          "url": "https://www.espn.com/nfl/story/_/id/48762073/nfl-ended-minority-offensive-assistant-mandate-25-season",
+          "published": "Wed, 13 May 2026 19:59:41 EST",
+          "summary": "The NFL ended a mandate that all 32 teams hire a minority coach as an offensive assistant ahead of the 2025 season and not because of recent pressure from Florida Attorney General James Uthmeier.",
           "source": "ESPN"
         },
         {
-          "title": "LeBron: 'I don't know what the future holds'",
-          "url": "https://www.espn.com/nba/story/_/id/48747842/lakers-lebron-james-know-future-holds-me",
-          "published": "Tue, 12 May 2026 12:09:22 EST",
-          "summary": "LeBron James, whose record-setting 23rd season ended with an unceremonious 115-110 loss to the Thunder in Game 4 of a second-round sweep of the Lakers, was noncommittal about whether he will continue playing in L.A. -- or elsewhere.",
+          "title": "Vegas' McNabb banned 1 game for hit on Poehling",
+          "url": "https://www.espn.com/nhl/story/_/id/48763210/vegas-mcnabb-gets-1-game-suspension-late-hit-poehling",
+          "published": "Wed, 13 May 2026 19:59:41 EST",
+          "summary": "Golden Knights defenseman Brayden McNabb will serve a one-game suspension in Thursday's Game 6 following an interference infraction that injured Ducks forward Ryan Poehling.",
           "source": "ESPN"
         },
         {
-          "title": "Bickerstaff calls FT disparity in loss 'unacceptab...",
-          "url": "https://www.espn.com/nba/story/_/id/48747058/bickerstaff-calls-ft-disparity-game-4-loss-unacceptable",
-          "published": "Tue, 12 May 2026 12:09:22 EST",
-          "summary": "Pistons coach J.B. Bickerstaff called the gulf in attempted free throws between his team and the Cavaliers in Monday's Game 4 loss \"unacceptable.\"",
+          "title": "NBA lands on '3-2-1 lottery' proposal, per Silver",
+          "url": "https://www.espn.com/nba/story/_/id/48763248/adam-silver-says-nba-present-3-2-1-lottery-proposal-curb-tanking",
+          "published": "Wed, 13 May 2026 19:59:41 EST",
+          "summary": "NBA commissioner Adam Silver confirmed on Stephen A. Smith's radio show Wednesday that the NBA has landed on a proposal to present to the league's board of governors later this month to revamp the league's draft lottery in an attempt to curb tanking.",
           "source": "ESPN"
         },
         {
-          "title": "Rory amid LIV crisis: 'Glad I was wrong' on deal",
-          "url": "https://www.espn.com/golf/story/_/id/48750170/rory-mcilroy-amid-liv-crisis-glad-was-wrong-pga-tour-pif-deal",
-          "published": "Tue, 12 May 2026 12:09:22 EST",
-          "summary": "Rory McIlroy has admitted he was wrong last year when he urged the PGA Tour to unite with the Saudi-backed PIF.",
+          "title": "Pep: Man City 'there just in case' Arsenal slip up...",
+          "url": "https://www.espn.com/soccer/story/_/id/48762699/pep-guardiola-manchester-city-there-just-case-premier-league-title-race",
+          "published": "Wed, 13 May 2026 19:59:42 EST",
+          "summary": "Pep Guardiola said Manchester City will make sure they are \"there just in case\" Arsenal slip-up in the title race, despite admitting that player fatigue forced him to rest his star forwards in Wednesday's 3-0 win against Crystal Palace.",
           "source": "ESPN"
         },
         {
-          "title": "Judge upholds charges in Gaudreaus' deaths",
-          "url": "https://www.espn.com/nhl/story/_/id/48749847/motion-dismiss-charges-denied-gaudreau-brothers-deaths",
-          "published": "Tue, 12 May 2026 12:09:22 EST",
-          "summary": "Attorneys for the accused driver in the deaths of Johnny and Matthew Gaudreau argued that charges should be dismissed over a discrepancy in blood alcohol level reporting.",
+          "title": "Sources: Optimism Knicks' Anunoby back for ECF",
+          "url": "https://www.espn.com/nba/story/_/id/48762428/sources-optimism-knicks-og-anunoby-returns-start-ecf",
+          "published": "Wed, 13 May 2026 19:59:42 EST",
+          "summary": "There is growing optimism that Knicks forward OG Anunoby will return from his hamstring injury by the start of the Eastern Conference Finals, sources tell ESPN's Shams Charania.",
           "source": "ESPN"
         },
         {
-          "title": "Rivals Broncos, Chiefs to meet in first MNF game",
-          "url": "https://www.espn.com/nfl/story/_/id/48749308/broncos-chiefs-meet-first-monday-night-football-game-2026",
-          "published": "Tue, 12 May 2026 12:09:22 EST",
-          "summary": "The defending AFC West champion Broncos and Kansas City Chiefs will square off Sept. 14 in the first \"Monday Night Football\" game of the coming season.",
+          "title": "Pats rookie Hutchins faces dom. assault charge",
+          "url": "https://www.espn.com/nfl/story/_/id/48759924/patriots-hutchins-pleads-not-guilty-domestic-assault-charge",
+          "published": "Wed, 13 May 2026 19:59:42 EST",
+          "summary": "Patriots rookie defender Quintayvious Hutchins, a seventh-round draft choice from Boston College, was arraigned Wednesday on a charge of assault and battery against a family/household member.",
           "source": "ESPN"
         },
         {
-          "title": "Wild's McCarron labels Avs' Manson 'a dirty player...",
-          "url": "https://www.espn.com/nhl/story/_/id/48747287/wild-michael-mccarron-calls-avalanche-josh-manson-dirty-player-butt-ending-face",
-          "published": "Tue, 12 May 2026 12:09:22 EST",
-          "summary": "Avalanche defenseman Josh Manson returned from a five-game absence Monday night in Game 4 and took a double minor penalty for hitting Wild center Michael McCarron with the blunt end of his stick during a scrum midway through the first period.",
+          "title": "Packers-Rams set as 1st Thanksgiving Eve game",
+          "url": "https://www.espn.com/nfl/story/_/id/48761249/packers-rams-set-nfl-first-thanksgiving-eve-game",
+          "published": "Wed, 13 May 2026 19:59:41 EST",
+          "summary": "The Packers will visit the Rams in the NFL's first Thanksgiving Eve game.",
           "source": "ESPN"
         },
         {
-          "title": "'Ted Lasso' star signs pro contract with USL team",
-          "url": "https://www.espn.com/soccer/story/_/id/48750339/cristo-fernandez-signs-usl-team",
-          "published": "Tue, 12 May 2026 12:09:34 EST",
-          "summary": "Ted Lasso star Cristo Fernández has become a professional football player after signing for the USL Championship side El Paso Locomotive, the club announced on Tuesday.",
+          "title": "🏀 How OKC built a drama-free potential dynasty",
+          "url": "https://www.espn.com/nba/story/_/id/48751531/oklahoma-city-thunder-roll-western-conference-finals-nba-playoffs-2026",
+          "published": "Wed, 13 May 2026 19:59:42 EST",
+          "summary": "OKC optimizes for happy players. Like it or not, those happy players are favored to win another NBA title.",
           "source": "ESPN"
         },
         {
-          "title": "⚾ MLB free agency: Skubal status, top hitter, more...",
-          "url": "https://www.espn.com/mlb/story/_/id/48733848/mlb-2026-27-free-agency-offseason-questions-market-skubal-lockout-top-free-agent",
-          "published": "Tue, 12 May 2026 12:09:22 EST",
-          "summary": "We polled those around the industry about the most intriguing topics surrounding this upcoming offseason.",
+          "title": "'Intensity and physicality': How the Avalanche bec...",
+          "url": "https://www.espn.com/nhl/story/_/id/48752426/2026-nhl-playoffs-stanley-cup-colorado-avalanche-hits-physicality-violence-minnesota-wild",
+          "published": "Wed, 13 May 2026 19:05:12 EST",
+          "summary": "The Avs have doubled their hits per game rate from the regular season. Fellow Stanley Cup contenders should be very concerned.",
           "source": "ESPN"
         },
         {
-          "title": "Winners of tankathon 2026: Inside a wild weekend w...",
-          "url": "https://www.espn.com/nba/story/_/id/48742366/washington-wizards-nba-lottery-draft-2026-first-overall-pick-aj-dybantsa",
-          "published": "Tue, 12 May 2026 12:04:00 EST",
-          "summary": "ESPN was granted behind-the-scenes access to Washington on the day the franchise secured the No. 1 pick of the 2026 NBA draft.",
+          "title": "Stanley Cup playoffs daily: Can the Wild force a G...",
+          "url": "https://www.espn.com/nhl/story/_/id/48526483/2026-nhl-playoffs-stanley-cup-preview-stats-schedule-top-players-bracket-matchups",
+          "published": "Wed, 13 May 2026 19:05:12 EST",
+          "summary": "It's now or never for Minnesota. Plus, highlights from Tuesday's doubleheader and updated stat leaders.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Major sports headlines include questions for NFL teams, legal issues for Tiger Woods, and LeBron James' uncertain future after the Lakers' playoff exit.",
-        "summary": "Today's sports news covers a range of topics including NFL offseason decisions, the Baltimore Ravens' challenges, legal developments involving Tiger Woods, and LeBron James' future with the Lakers. Additionally, Rory McIlroy reflects on his previous stance regarding the PGA Tour, and Cristo Fernández from 'Ted Lasso' signs a professional soccer contract.",
+        "key_takeaway": "The NBA is considering a new draft lottery proposal to reduce tanking, while the NFL has ended a minority coaching mandate ahead of the 2025 season.",
+        "summary": "Today's sports headlines highlight key developments in the NBA and NFL, including a potential change to the draft lottery system aimed at curbing tanking, and the NFL's decision to end a minority coaching mandate. Additionally, the Cavaliers and Pistons are set for a pivotal Game 5 in the NBA playoffs, while the Trump administration has waived visa bonds for World Cup fans. Other notable news includes a one-game suspension for a Golden Knights player and optimism surrounding Knicks forward OG Anunoby's return for the Eastern Conference Finals.",
         "key_themes": [
-          "NFL offseason analysis",
-          "Lamar Jackson's challenges",
-          "Tiger Woods legal issues",
-          "LeBron James future",
-          "Rory McIlroy PGA Tour comments",
-          "Cristo Fernández pro soccer contract"
+          "NBA draft lottery changes",
+          "NFL minority coaching mandate",
+          "World Cup visa requirements",
+          "Pistons-Cavs playoff preview",
+          "NHL playoff suspensions"
         ],
         "notable_headlines": [
           {
-            "headline": "Wait, why didn't my NFL team ____? Reasonable answers",
-            "why_it_matters": "Explains offseason decisions by various NFL teams, providing insights into their strategies and missed opportunities.",
+            "headline": "Everything you need to know for Pistons-Cavs Game ...",
+            "why_it_matters": "This game is crucial as both teams are tied in the playoffs, impacting their championship aspirations.",
             "signal": "Unclear"
           },
           {
-            "headline": "Three questions facing Lamar Jackson and the Ravens",
-            "why_it_matters": "Highlights key uncertainties for the Ravens as they prepare for organized team activities.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Prosecutors given access to Tiger's drug records",
-            "why_it_matters": "Legal developments in Tiger Woods' DUI case raise questions about his future and public image.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "LeBron: 'I don't know what the future holds'",
-            "why_it_matters": "LeBron James' uncertainty about his career trajectory adds intrigue to the NBA offseason.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Bickerstaff calls FT disparity in loss 'unacceptable'",
-            "why_it_matters": "Coaching comments on officiating highlight ongoing discussions about fairness in the NBA.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Rory amid LIV crisis: 'Glad I was wrong' on deal",
-            "why_it_matters": "Rory McIlroy's change of heart regarding the PGA Tour's partnership with LIV Golf reflects shifting dynamics in professional golf.",
+            "headline": "Trump admin waves visa bonds for World Cup fans",
+            "why_it_matters": "This decision could increase attendance and participation from international fans at the World Cup.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Judge upholds charges in Gaudreaus' deaths",
-            "why_it_matters": "Legal proceedings related to a tragic incident continue to unfold, impacting the involved parties.",
+            "headline": "NFL nixed minority offensive asst. mandate in '25",
+            "why_it_matters": "The removal of this mandate may affect diversity initiatives within the league.",
             "signal": "Risk"
           },
           {
-            "headline": "Rivals Broncos, Chiefs to meet in first MNF game",
-            "why_it_matters": "The matchup between two rival teams sets the stage for an exciting start to the NFL season.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Wild's McCarron labels Avs' Manson 'a dirty player'",
-            "why_it_matters": "Player comments on conduct during games can influence perceptions and rivalries in the NHL.",
+            "headline": "Vegas' McNabb banned 1 game for hit on Poehling",
+            "why_it_matters": "The suspension highlights the NHL's stance on player safety and discipline during playoffs.",
             "signal": "Risk"
           },
           {
-            "headline": "'Ted Lasso' star signs pro contract with USL team",
-            "why_it_matters": "The crossover of entertainment and sports continues as a popular actor transitions to professional athletics.",
+            "headline": "NBA lands on '3-2-1 lottery' proposal, per Silver",
+            "why_it_matters": "This proposal aims to address concerns about teams intentionally losing games to secure better draft positions.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Expect further developments in the NFL offseason as teams finalize their rosters.",
-            "Legal updates regarding Tiger Woods' case may emerge soon.",
-            "LeBron James' decision about his future could be announced shortly."
+            "Game 5 of the Pistons-Cavs series will take place, impacting playoff standings.",
+            "The NHL playoffs continue with potential implications for team strategies and player health.",
+            "Updates on the Knicks' injury status for the Eastern Conference Finals are expected."
           ],
           "next_1_4_weeks": [
-            "The NBA playoffs will continue, with potential implications for player movements and team strategies.",
-            "NFL teams will finalize their offseason plans ahead of training camps.",
-            "Expect more commentary on officiating in the NBA as playoffs progress."
+            "The NBA's board of governors will review the draft lottery proposal, with potential implications for future seasons.",
+            "The NFL will continue to address diversity and inclusion in coaching roles following the mandate's repeal.",
+            "The World Cup preparations will ramp up as fan attendance policies are finalized."
           ],
           "watch_list": [
-            "Monitor Tiger Woods' legal situation and its impact on his career.",
-            "Watch for updates on Lamar Jackson's contract negotiations with the Ravens.",
-            "Keep an eye on LeBron James' statements regarding his future plans.",
-            "Follow the developments in the rivalry between the Broncos and Chiefs."
+            "Monitor the outcomes of the Pistons-Cavs playoff series for future matchups.",
+            "Keep an eye on the NHL's disciplinary actions and their effects on playoff teams.",
+            "Watch for updates on the Knicks' roster as the Eastern Conference Finals approach.",
+            "Follow the developments of the World Cup fan policies and their impact on ticket sales."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating mixed feelings in the sports community regarding recent events.",
-          "Future outcomes in sports are inherently uncertain and can change rapidly."
+          "The sentiment score is neutral, indicating mixed feelings about the overall tone of the headlines. Some developments may evolve rapidly, especially in playoff scenarios.",
+          "The implications of the NFL's decision on minority coaching may take time to fully assess."
         ],
         "related_topics": [
-          "What are the latest NFL offseason moves?",
-          "What challenges are facing Lamar Jackson and the Ravens?",
-          "What is the latest on Tiger Woods' legal issues?",
-          "What does LeBron James' future look like?",
-          "How is Rory McIlroy responding to the LIV Golf situation?"
+          "What are the latest updates on the NBA draft lottery proposal?",
+          "How is the NFL addressing diversity in coaching?",
+          "What changes are being made for World Cup fan attendance?",
+          "What to expect in the Pistons-Cavs playoff series?",
+          "What are the implications of NHL suspensions during playoffs?"
         ]
       },
-      "tweet_text": "NFL fans are left wondering: What went wrong with their team this week?\n\nSports Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Access #Amid #Answ #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Game day drama, visa bonanza, and a shocking NFL shake-up—today’s sports news is a must-read!\n\nSports Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Game #Admin #Anunoby #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -811,79 +776,80 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific breakthroughs include advancements in quantum technology, cancer-fighting compounds, and new insights into evolution and ancient human migration.",
-        "summary": "Today's science headlines highlight significant advancements in various fields, including quantum technology that could enhance communication and computing, discoveries related to cancer-fighting plant compounds, and insights into rapid evolution in cacti. Additionally, researchers have made strides in understanding early dementia risk through speech patterns, and new findings suggest humans returned to Britain earlier than previously thought. Other notable discoveries include a giant dinosaur that may reshape our understanding of Jurassic species, and a unique planet-forming disk observed by Hubble.",
+        "key_takeaway": "Recent scientific breakthroughs include advancements in quantum technology, cancer research, and insights into evolution and potential alien life detection.",
+        "summary": "Today's science headlines highlight significant discoveries, including a quantum breakthrough that could enhance teleportation and computing, the decoding of a rare cancer-fighting plant compound, and new insights into cactus evolution. Additionally, researchers have made strides in understanding speech patterns related to cognitive health, identified a shared weak spot in viruses, and achieved anti-aging effects in blood stem cells. Other notable findings include the potential of algae to remove microplastics from water, evidence of early human migration to Britain, and the discovery of a giant dinosaur that may reshape our understanding of Jurassic species. NASA's Hubble telescope has also revealed a unique planet-forming disk, while scientists have discovered a chemical signature that could indicate alien life.",
         "key_themes": [
           "quantum technology advancements",
-          "cancer-fighting plant compounds",
+          "cancer research breakthroughs",
           "evolution of cacti",
-          "early dementia risk indicators",
-          "human migration to Britain",
-          "new dinosaur discoveries"
+          "speech patterns and dementia",
+          "microplastics removal",
+          "early human migration evidence"
         ],
         "notable_headlines": [
           {
             "headline": "Quantum breakthrough could revolutionize teleportation and computing",
-            "why_it_matters": "This advancement could significantly enhance quantum communication and computing capabilities.",
+            "why_it_matters": "This discovery could significantly enhance quantum communication and computing capabilities.",
             "signal": "Opportunity"
           },
           {
             "headline": "A rare cancer-fighting plant compound has been decoded",
-            "why_it_matters": "Understanding mitraphylline's production could lead to sustainable methods for cancer treatment.",
+            "why_it_matters": "Understanding mitraphylline's production could lead to sustainable methods for its use in cancer treatment.",
             "signal": "Opportunity"
           },
           {
             "headline": "Cacti are evolving shockingly fast and scientists just learned why",
-            "why_it_matters": "This finding challenges previous notions of evolution in desert ecosystems, highlighting their dynamism.",
+            "why_it_matters": "This finding challenges previous notions about evolution in desert ecosystems, highlighting rapid species development.",
             "signal": "Opportunity"
           },
           {
             "headline": "Your “um” and pauses could reveal early dementia risk",
-            "why_it_matters": "This research could lead to innovative speech-based tools for early cognitive assessment.",
+            "why_it_matters": "This research opens avenues for speech-based tools to predict cognitive decline.",
             "signal": "Opportunity"
           },
           {
             "headline": "Humans returned to Britain 500 years earlier than scientists thought after the last ice age",
-            "why_it_matters": "This discovery alters the timeline of human migration and adaptation in post-ice age Britain.",
+            "why_it_matters": "This new evidence reshapes our understanding of human migration patterns post-ice age.",
             "signal": "Unclear"
           },
           {
             "headline": "Scientists discover hidden chemical signature that could reveal alien life",
-            "why_it_matters": "This method may enhance the search for extraterrestrial life by identifying unique chemical patterns.",
+            "why_it_matters": "This discovery could enhance methods for detecting life beyond Earth by focusing on chemical patterns.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the implications of the quantum breakthrough is expected.",
-            "More studies on the potential applications of the cancer-fighting compound will be released.",
-            "Updates on the evolution of cacti and its ecological significance may emerge."
+            "Further analysis on the implications of the quantum breakthrough is expected.",
+            "More studies on the anti-cancer properties of mitraphylline may be published.",
+            "Research on the evolution of cacti may lead to new ecological insights."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the implications of early human migration findings in Britain.",
-            "Continued exploration of the potential for speech patterns in dementia diagnosis.",
-            "Research on the giant dinosaur's evolutionary significance will likely be published."
+            "Anticipated discussions on the implications of early human migration findings in archaeological circles.",
+            "Potential developments in speech analysis technology for cognitive health monitoring.",
+            "Further exploration of the chemical signatures related to alien life detection."
           ],
           "watch_list": [
-            "Developments in quantum computing technology",
-            "Research on sustainable production of mitraphylline",
-            "Studies on the ecological dynamics of cacti",
-            "Advancements in early dementia detection methods",
-            "Further discoveries related to alien life signatures"
+            "Follow-up studies on the quantum technology advancements.",
+            "Updates on the sustainable production of mitraphylline.",
+            "New findings related to the giant dinosaur discovery.",
+            "Research developments in microplastic removal technologies."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of some findings are still being evaluated and may change with further research.",
-          "Some studies are preliminary and require additional validation before drawing firm conclusions."
+          "The implications of some discoveries may take time to fully understand or apply.",
+          "Further research is needed to confirm the findings related to early human migration."
         ],
         "related_topics": [
           "What are the latest advancements in quantum technology?",
-          "How can plant compounds help in cancer treatment?",
-          "What new discoveries have been made about human migration?"
+          "How are scientists decoding cancer-fighting plant compounds?",
+          "What new insights have been discovered about cactus evolution?",
+          "How can speech patterns indicate early dementia risk?",
+          "What are the implications of finding a chemical signature for alien life?"
         ]
       },
-      "tweet_text": "Quantum leaps in teleportation, a cancer-fighting plant decoded, and shocking cactus...\n\nScience Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Breakthrough #Again #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A quantum leap in teleportation, a cancer-fighting plant decoded, and more—today’s science news...\n\nScience Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Breakthrough #Again #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
