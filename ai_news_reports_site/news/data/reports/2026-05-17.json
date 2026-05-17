@@ -1,0 +1,863 @@
+{
+  "date": "2026-05-17",
+  "generated_at_utc": "2026-05-17T06:15:33Z",
+  "timezone": "America/Denver",
+  "model": "gpt-4o-mini",
+  "trending_topics": [
+    "scientists",
+    "massive",
+    "trump"
+  ],
+  "categories": {
+    "world": {
+      "key": "world",
+      "title": "World",
+      "source": {
+        "site_name": "BBC News",
+        "site_url": "https://www.bbc.com/news",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+      },
+      "sentiment": {
+        "score": -0.2913,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.486, dampened ×0.6 → -0.2913). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "WHO declares Ebola outbreak in DR Congo a global health emergency",
+          "url": "https://www.bbc.com/news/articles/c2l2p0wwzzdo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 17 May 2026 02:55:08 GMT",
+          "summary": "The agency added that the outbreak, with around 246 cases and 80 deaths, does not meet the criteria of pandemic emergency.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Hezbollah drone strike videos show evolving tactics against Israel",
+          "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 23:10:19 GMT",
+          "summary": "BBC Verify has examined dozens of videos of fibre-optic drone attacks carried out by the Lebanese armed group.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Taiwan insists it is independent after Trump warning",
+          "url": "https://www.bbc.com/news/articles/cx2132w81jqo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 17:01:53 GMT",
+          "summary": "Fresh from his summit in Beijing, the US president warned against a formal declaration of independence by the island.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Man drives car into pedestrians in Italy, injuring eight",
+          "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 20:36:17 GMT",
+          "summary": "Eight people were injured, four seriously, before passers-by gave chase and stopped the man.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Senior IS leader killed in joint operation, US and Nigeria say",
+          "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 11:44:54 GMT",
+          "summary": "President Donald Trump said the operation eliminated \"the most active terrorist in the world\", Abu-Bilal al-Minuki.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves",
+          "url": "https://www.bbc.com/news/articles/c1w2gv1gdnjo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 15:01:40 GMT",
+          "summary": "Staff Sgt Mohamed Mahdhee died while diving in the search-and-rescue operation, the Maldives government tells the BBC.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Whale found dead near Danish island after German rescue operation",
+          "url": "https://www.bbc.com/news/articles/c1l28lql137o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 17:01:28 GMT",
+          "summary": "Wildlife experts had previous criticised the operation, saying it would only cause the animal more distress.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US planning to charge ex-Cuban leader Raúl Castro",
+          "url": "https://www.bbc.com/news/articles/c1w2gnd9xp2o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 01:37:27 GMT",
+          "summary": "Charges could come as soon as next week in a case reportedly focused on Cuba's downing of two planes in 1996.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Toddlers among more than 50 schoolchildren kidnapped in Nigeria",
+          "url": "https://www.bbc.com/news/articles/c202vrxlwqgo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 15:50:09 GMT",
+          "summary": "No group has yet claimed responsibility for the attacks, which have devastated Mussa town in Borno state.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Canadian from hantavirus-hit cruise ship tests positive",
+          "url": "https://www.bbc.com/news/articles/c2k2p057ezno?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 20:36:53 GMT",
+          "summary": "The individual is one of four former passengers on the MV Hondius isolating on Vancouver Island, British Columbia.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Switzerland to open secret files on Auschwitz 'Angel of Death' Mengele",
+          "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 15 May 2026 23:04:33 GMT",
+          "summary": "Mengele fled Europe after the war but for years there were rumours he spent time in Switzerland.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
+          "url": "https://www.bbc.com/news/articles/cqlpzzl0d67o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 16 May 2026 22:27:44 GMT",
+          "summary": "President Trump announced the truce last month, but Israel and Hezbollah have continued to exchange fire since then.",
+          "source": "BBC News"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "The WHO has declared an Ebola outbreak in DR Congo a global health emergency amid ongoing geopolitical tensions and violence in various regions.",
+        "summary": "Today's headlines highlight significant global events, including the WHO's declaration of a health emergency due to an Ebola outbreak in DR Congo, escalating military actions involving Hezbollah and Israel, and the kidnapping of schoolchildren in Nigeria. Additionally, a tragic incident in Italy resulted in multiple injuries, and a rescue diver died in the Maldives while searching for drowned individuals. The U.S. is also planning charges against former Cuban leader Raúl Castro, and a Canadian from a hantavirus-affected cruise ship has tested positive for the virus.",
+        "key_themes": [
+          "Global health emergencies",
+          "Middle East conflict",
+          "International relations",
+          "Kidnapping incidents",
+          "Environmental concerns",
+          "Historical investigations"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "WHO declares Ebola outbreak in DR Congo a global health emergency",
+            "why_it_matters": "This declaration underscores the seriousness of the outbreak and the need for international attention and resources.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Hezbollah drone strike videos show evolving tactics against Israel",
+            "why_it_matters": "The use of advanced drone tactics indicates a shift in military strategy that could escalate regional tensions.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Toddlers among more than 50 schoolchildren kidnapped in Nigeria",
+            "why_it_matters": "The kidnapping highlights ongoing security challenges in Nigeria and the vulnerability of children in conflict zones.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Rescue diver dies during search for bodies of Italians who drowned in Maldives caves",
+            "why_it_matters": "The incident raises concerns about the safety of rescue operations in challenging environments.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US planning to charge ex-Cuban leader Raúl Castro",
+            "why_it_matters": "Potential charges against Castro could impact U.S.-Cuba relations and provoke political discussions.",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Monitoring the Ebola outbreak response efforts in DR Congo.",
+            "Observing developments in the Israel-Hezbollah conflict and any potential ceasefire negotiations.",
+            "Following updates on the kidnapping situation in Nigeria."
+          ],
+          "next_1_4_weeks": [
+            "Anticipating further international responses to the Ebola outbreak.",
+            "Watching for the outcome of potential charges against Raúl Castro.",
+            "Tracking the implications of Hezbollah's evolving military tactics."
+          ],
+          "watch_list": [
+            "Ebola outbreak developments in DR Congo",
+            "Middle East conflict updates",
+            "Kidnapping incidents in Nigeria",
+            "U.S.-Cuba relations",
+            "Environmental rescue operations"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The situation in DR Congo may evolve rapidly, impacting the health emergency status.",
+          "Geopolitical tensions in the Middle East are fluid and may change quickly.",
+          "Kidnapping incidents in Nigeria often involve complex local dynamics that can be unpredictable."
+        ],
+        "related_topics": [
+          "What is the current status of the Ebola outbreak in DR Congo?",
+          "How are Hezbollah's tactics changing in the Israel conflict?",
+          "What are the latest developments in Nigeria's kidnapping crisis?"
+        ]
+      },
+      "tweet_text": "Global health at stake as WHO declares Ebola a crisis, while chaos unfolds in Israel and Italy. Click to uncover...\n\nWorld Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Leader #Operation #Rescue #WorldNews #BreakingNews #News #Headlines #Trending"
+    },
+    "business": {
+      "key": "business",
+      "title": "Business",
+      "source": {
+        "site_name": "The Guardian",
+        "site_url": "https://www.theguardian.com/business",
+        "feed_url": "https://www.theguardian.com/business/rss"
+      },
+      "sentiment": {
+        "score": -0.0828,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.138, dampened ×0.6 → -0.0828). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "CBS News insiders fear Bari Weiss will soon enact ‘massive changes’ to 60 Minutes",
+          "url": "https://www.theguardian.com/media/2026/may/16/cbs-bari-weiss-60-minutes",
+          "published": "Sat, 16 May 2026 11:00:08 GMT",
+          "summary": "<p>With layoffs widely expected and editorial tensions deepening, correspondents await a post-season shakeup</p><p>At a time when viewers are fleeing traditional television shows, the <a href=\"https://www.theguardian.com/media/cbs\">CBS</a> Sunday newsmagazine 60 Minutes remains in a class of its own. The 12 April episode, which featured Pope Leo and a story on great white sharks, drew an astounding 10.1 million total viewers. The show is trending as the most-watched news program for the current",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Fake lawyers, scientists, chefs and punters: meet the ‘white monkeys’ paid to make Chinese businesses look global",
+          "url": "https://www.theguardian.com/lifeandstyle/2026/may/16/fake-lawyers-scientists-chefs-punters-white-monkeys-chinese-businesses-global",
+          "published": "Sat, 16 May 2026 11:00:09 GMT",
+          "summary": "<p>A foreign face is often thought to add prestige to a product or business – what’s behind this unregulated economy?</p><p></p><p>Piers had been in China for all of two days in 2009 when he was used as a “white monkey” for the first time. He had travelled to a village in Suzhou, Jiangsu province, to attend a friend’s wedding and had stopped in the village to try a special crab dish at a small restaurant. Weeks later, a Chinese guest who had been at the wedding told him the restaurant had had an",
+          "source": "The Guardian"
+        },
+        {
+          "title": "High-stakes courtroom drama of Musk v OpenAI hears closing arguments",
+          "url": "https://www.theguardian.com/technology/2026/may/14/sam-altman-elon-musk-openai-lawsuit",
+          "published": "Thu, 14 May 2026 23:08:06 GMT",
+          "summary": "<p>Nine-person jury to consider whether AI firm bilked world’s richest person and unjustly enriched themselves</p><p>Closing arguments began on Thursday in <a href=\"https://www.theguardian.com/technology/elon-musk\">Elon Musk</a>’s lawsuit against <a href=\"https://www.theguardian.com/technology/sam-altman\">Sam Altman</a> and <a href=\"https://www.theguardian.com/technology/openai\">OpenAI</a>, bringing the weeks-long courtroom battle between the two tech moguls nearer to a decision. A nine-person j",
+          "source": "The Guardian"
+        },
+        {
+          "title": "UAE to complete second oil pipeline bypassing strait of Hormuz by 2027",
+          "url": "https://www.theguardian.com/business/2026/may/15/uae-oil-pipeline-strait-of-hormuz-by-2027",
+          "published": "Fri, 15 May 2026 11:28:08 GMT",
+          "summary": "<p>State oil company fast-tracks previously undisclosed project, which is expected to double export capacity</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/may/15/rich-list-sunday-times-billionaires-reform-donor-christopher-harborne-hinduja-radcliffe-dyson-beckham-live-updates\">Business live – latest updates</a></p></li></ul><p>The United Arab Emirates has announced it will complete a new oil pipeline bypassing the strait of Hormuz by next year to secure its future crude e",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘I didn’t want to be the guinea pig’: inside tech’s AI-fueled manager purge",
+          "url": "https://www.theguardian.com/technology/2026/may/15/ai-manager-purge-tech",
+          "published": "Fri, 15 May 2026 11:34:24 GMT",
+          "summary": "<p>Tech workers say AI-driven restructurings are eroding mentorship, support and paths to promotion across Silicon Valley</p><p>As tech companies pour <a href=\"https://www.theguardian.com/technology/2026/mar/31/openai-raises-122-billion-ai-boom\">billions into artificial intelligence bets</a> and <a href=\"https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work\">slash their workforces</a>, middle managers are squarely in the crosshairs.</p><p>A trend is emerging: when tech CEOs ann",
+          "source": "The Guardian"
+        },
+        {
+          "title": "US reportedly dropped fraud charges against Indian billionaire after he hired Trump’s lawyer",
+          "url": "https://www.theguardian.com/us-news/2026/may/14/gautam-adani-billionaire-trump",
+          "published": "Thu, 14 May 2026 18:35:58 GMT",
+          "summary": "<p>Gautam Adani, richest man in Asia, was accused of conspiring to pay $250m in bribes to Indian government officials</p><p>The US Department of Justice is dropping its fraud charges against the Indian billionaire Gautam Adani, the richest man in Asia, after he hired a new legal team led by Donald Trump’s personal lawyer, according to new reports.</p><p>In an undisclosed April meeting at the justice department, Trump’s personal lawyer, Robert J Giuffra Jr, said that Adani would invest $10bn in t",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Israel says it will sue New York Times over article on sexual abuse of Palestinian prisoners",
+          "url": "https://www.theguardian.com/world/2026/may/14/israel-sue-new-york-times-sexual-abuse-palestinian-prisoners",
+          "published": "Thu, 14 May 2026 22:16:02 GMT",
+          "summary": "<p>Media law experts cast doubt on viability of a defamation lawsuit promised by Netanyahu over Nicholas Kristof essay</p><p><a href=\"https://www.theguardian.com/world/israel\">Israel</a>’s prime minister, <a href=\"https://www.theguardian.com/world/benjamin-netanyahu\">Benjamin Netanyahu</a>, and foreign minister, Gideon Sa’ar, have threatened to sue the New York Times for defamation over the publication of an essay by Nicholas Kristof detailing allegations that Palestinian women, men and children",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘I don’t think about Americans’ financial situation,’ says Trump amid Iran talks",
+          "url": "https://www.theguardian.com/us-news/2026/may/13/trump-iran-war-americans-finances",
+          "published": "Wed, 13 May 2026 14:03:24 GMT",
+          "summary": "<p>With US inflation at a three-year high, US president insisted he’s not focused on economic hardship sparked by the conflict</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US newsletter email</a></p></li></ul><p><a href=\"https",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Nvidia’s Jensen Huang joins other US bosses on Trump trip to China",
+          "url": "https://www.theguardian.com/technology/2026/may/13/nvidia-jensen-huang-joins-trump-as-tech-dominates-china-trip",
+          "published": "Wed, 13 May 2026 07:41:26 GMT",
+          "summary": "<p>Invitation to be part of group including Elon Musk and Tim Cook highlights American AI and tech ambitions</p><p>The billionaire chief executive of the chipmaker Nvidia, Jensen Huang, has joined Donald Trump’s China delegation after a reported last-minute invitation, highlighting the US’s AI and tech ambitions.</p><p>Huang will join a roster of US bosses including the Tesla chief executive and X owner, Elon Musk, the Apple chief executive, Tim Cook, and Goldman Sachs’s David Solomon at Trump’s",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The Federal Reserve’s independence is hanging by a thread in the age of Trump",
+          "url": "https://www.theguardian.com/business/2026/may/15/federal-reserve-independence-trump",
+          "published": "Fri, 15 May 2026 11:00:38 GMT",
+          "summary": "<p>The president’s ultimate goal is to push the Fed – among other independent US institutions – to bend to his will</p><p><a href=\"https://www.theguardian.com/business/jerome-powell\">Jerome Powell,</a> who stepped down this week as chair of the <a href=\"https://www.theguardian.com/business/federal-reserve\">Federal Reserve</a>, had his hits and misses. The Fed was late to react as prices started rising when the Covid pandemic abated, but they eventually acted forcefully and achieved the most rare",
+          "source": "The Guardian"
+        },
+        {
+          "title": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
+          "url": "https://www.theguardian.com/business/ng-interactive/2026/may/14/us-stock-market-war-inflation-tariffs-trump",
+          "published": "Thu, 14 May 2026 10:00:24 GMT",
+          "summary": "<p>Wall Street has proved incredibly resilient to instability, and while consumer confidence has dipped, shares have soared</p><p>It was a dark Friday for Wall Street on 27 March. Oil prices were climbing and the war with Iran raged on. Markets responded accordingly, with the Dow and Nasdaq entering correction territory, falling more than 10% below their peak, after a month of selloffs.</p><p>Fast forward seven weeks later to 13 May, and the situation in Iran only looked marginally better. Oil p",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Spiritless summer: Americans feel squeeze of costly fuel amid busy travel season",
+          "url": "https://www.theguardian.com/us-news/2026/may/09/travelers-feel-squeeze-summer-travel-iran-war-fuel",
+          "published": "Sat, 09 May 2026 12:00:56 GMT",
+          "summary": "<p>Soaring oil prices have left many Americans with higher costs and fewer options for travel amid the Iran war</p><ul><li><p><a href=\"https://www.theguardian.com/travel/2026/apr/21/tell-us-have-your-holiday-plans-changed-in-light-of-recent-world-events?CMP=Share_iOSApp_Other\">Tell us: have your holiday plans changed in light of recent world events?</a></p></li></ul><p>Chelsea Blackmore saves up every year for an annual vacation with her 58-year-old mother. This year, after landing an especially",
+          "source": "The Guardian"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "The business landscape is marked by significant changes in media, legal battles in tech, and geopolitical developments affecting oil exports and market resilience.",
+        "summary": "Today's business news highlights potential changes at CBS's 60 Minutes, the use of foreign faces in Chinese businesses, the Musk v OpenAI lawsuit, UAE's oil pipeline project, AI-driven layoffs in tech, and legal developments involving Indian billionaire Gautam Adani. Additionally, the Federal Reserve's independence is questioned amid Trump's influence, while the stock market shows resilience despite economic challenges.",
+        "key_themes": [
+          "media industry changes",
+          "Chinese business practices",
+          "Musk OpenAI lawsuit",
+          "UAE oil pipeline developments",
+          "AI impact on tech jobs",
+          "Federal Reserve independence"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "CBS News insiders fear Bari Weiss will soon enact ‘massive changes’ to 60 Minutes",
+            "why_it_matters": "Anticipated layoffs and editorial shifts could reshape a leading news program amid declining traditional viewership.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Fake lawyers, scientists, chefs and punters: meet the ‘white monkeys’ paid to make Chinese businesses look global",
+            "why_it_matters": "The unregulated practice raises questions about authenticity and marketing strategies in global business.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "High-stakes courtroom drama of Musk v OpenAI hears closing arguments",
+            "why_it_matters": "The outcome could have significant implications for the AI industry and its financial dealings.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "UAE to complete second oil pipeline bypassing strait of Hormuz by 2027",
+            "why_it_matters": "This project aims to enhance oil export capacity and reduce reliance on a critical shipping route.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "US reportedly dropped fraud charges against Indian billionaire after he hired Trump’s lawyer",
+            "why_it_matters": "The dismissal of charges raises concerns about legal influence and accountability in high-profile cases.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "The Federal Reserve’s independence is hanging by a thread in the age of Trump",
+            "why_it_matters": "Political pressures on the Fed could undermine its ability to manage economic stability effectively.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
+            "why_it_matters": "Despite economic turmoil, the stock market's resilience suggests underlying investor confidence or speculative behavior.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Spiritless summer: Americans feel squeeze of costly fuel amid busy travel season",
+            "why_it_matters": "Rising fuel costs are impacting consumer behavior and travel plans during peak season.",
+            "signal": "Risk"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Monitor developments in the Musk v OpenAI lawsuit for potential industry implications.",
+            "Watch for CBS's announcements regarding changes to 60 Minutes and its impact on viewership.",
+            "Keep an eye on oil prices as the UAE pipeline project progresses."
+          ],
+          "next_1_4_weeks": [
+            "Observe the impact of rising fuel costs on consumer travel behavior as summer approaches.",
+            "Follow the Federal Reserve's actions and statements for indications of its independence and economic strategy.",
+            "Track the outcomes of ongoing legal battles involving high-profile business figures."
+          ],
+          "watch_list": [
+            "Potential shifts in media programming at CBS.",
+            "Updates on the UAE oil pipeline and its effects on global oil markets.",
+            "The implications of the Musk v OpenAI lawsuit on the tech industry.",
+            "Trends in consumer spending amid rising inflation and fuel costs."
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The sentiment score is mixed, indicating uncertainty in the overall business climate.",
+          "Legal outcomes can be unpredictable and may change rapidly."
+        ],
+        "related_topics": [
+          "What are the latest changes in CBS News programming?",
+          "How are Chinese businesses using foreign faces for marketing?",
+          "What are the implications of the Musk v OpenAI lawsuit?",
+          "What is the status of the UAE oil pipeline project?",
+          "How is AI affecting job structures in tech companies?"
+        ]
+      },
+      "tweet_text": "Change is brewing at 60 Minutes, while Musk faces a courtroom showdown—business as usual or a seismic shift?\n\nBusiness Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#2027 #Abuse #Against #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "technology": {
+      "key": "technology",
+      "title": "Technology",
+      "source": {
+        "site_name": "The Verge",
+        "site_url": "https://www.theverge.com",
+        "feed_url": "https://www.theverge.com/rss/index.xml"
+      },
+      "sentiment": {
+        "score": 0.2282,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.380, dampened ×0.6 → +0.2282). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Snap, YouTube, and TikTok settle suit over harm to students",
+          "url": "https://www.theverge.com/tech/932153/snap-youtube-tiktok-lawsuit-social-media-addiction-schools",
+          "published": "2026-05-16T14:34:23-04:00",
+          "summary": "Snap, YouTube, and TikTok have settled the first lawsuit of its kind, alleging that social media addiction has cost public schools massive amounts of money, according to Bloomberg. The suit, filed by the Breathitt County School District in Kentucky, claims that social media has disrupted learning and created a mental health crisis, straining budgets. The [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+          "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+          "published": "2026-05-16T11:37:05-04:00",
+          "summary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it will give you four options [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "NPR’s Manoush Zomorodi talks about living with too much tech",
+          "url": "https://www.theverge.com/report/930171/manoush-zomorodi-body-electric-npr-questionnaire",
+          "published": "2026-05-16T11:00:00-04:00",
+          "summary": "Manoush Zamorodi is an accomplished reporter, podcast host, and author. Her new book, Body Electric, takes a comprehensive look at how technology is impacting our physical health. It's a collaboration between NPR and Columbia University Medical Center that picks up where her first title, Bored and Brilliant, left off. That book looked at how technology [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Turtle Beach made a good SteelSeries headset clone that’s $50 less",
+          "url": "https://www.theverge.com/gadgets/930828/turtle-beach-stealth-pro-2-steelseries-arctis-nova-pro-omni-gaming-headset-hands-on",
+          "published": "2026-05-16T10:00:00-04:00",
+          "summary": "I really liked the SteelSeries Arctis Nova Pro Wireless, so the company didn't have to say much to get me excited about its successor. The $399 Nova Pro Omni that came out on May 5th has a similar design to the 2022 model, but with some new and improved features - support for wireless hi-res [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Here are 40 of our favorite deals from REI’s massive Anniversary Sale",
+          "url": "https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026",
+          "published": "2026-05-16T09:00:00-04:00",
+          "summary": "REI’s annual Anniversary Sale — the retailer’s biggest of the year — has arrived, bringing with it discounts on all kinds of outdoor essentials. If you’ve got a camping trip coming up, now is a good time to stock up on the basics, whether it be a tent, sleeping pad, or stove. If your summer [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Mixtape is a musical portrait of teenage life",
+          "url": "https://www.theverge.com/games/925580/mixtape-review-ps5-xbox-series-x-s-nintendo-switch-2-pc",
+          "published": "2026-05-16T08:00:00-04:00",
+          "summary": "Playing Mixtape is like playing a video game version of a high school movie. Kids banter about the meaning of life and the theme songs that would play when they walk in a room. They're worried about looking cool at a big party. They're obsessed with finding booze. But under all of those tropes is [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The app you need to clean up your computer",
+          "url": "https://www.theverge.com/tech/931586/mole-bartender-mac-utilities-installer",
+          "published": "2026-05-16T08:00:00-04:00",
+          "summary": "Hi, friends! Welcome to Installer No. 128, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, sorry this one's so Mac-heavy, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about David Attenborough and screenwriters-turned-AI-trainers and the Subway Takes [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "These are the laptops I recommend for pretty much anyone",
+          "url": "https://www.theverge.com/gadgets/931638/best-laptops-macbooks-windows-gaming-2026",
+          "published": "2026-05-16T08:00:00-04:00",
+          "summary": "Need a new laptop? It’s a tough decision. If you’re like most people, a laptop is one of the most expensive tech purchases you’ll make, and it’s something you’ll use and live with nearly every day for years to come. So there’s a lot riding on this pricey expense. I’ve tested all kinds of laptops, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Xbox is now XBOX",
+          "url": "https://www.theverge.com/news/931918/microsoft-xbox-rebrand-caps",
+          "published": "2026-05-15T19:10:13-04:00",
+          "summary": "Xbox just allcapsmaxxed: Meet XBOX. This isn't a joke; Microsoft appears to be actually rebranding Xbox to XBOX. Asha Sharma, Xbox CEO, ran a poll on X earlier this week, asking fans whether Microsoft should use Xbox or XBOX. The results were in favor of XBOX, and the company has now renamed its X account. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
+          "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+          "published": "2026-05-15T18:25:00-04:00",
+          "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there is a match, YouTube alerts [&#8230;]",
+          "source": "The Verge"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Snap, YouTube, and TikTok have settled a lawsuit over social media addiction's impact on schools, while YouTube expands its AI deepfake detection tool for adult users.",
+        "summary": "Today's technology news highlights significant developments including the settlement of a lawsuit involving Snap, YouTube, and TikTok regarding social media addiction's effects on education, Sony's clarification on its AI Camera Assistant, and YouTube's expansion of its AI deepfake detection tool to all adult users. Additionally, Turtle Beach has released a competitive gaming headset, and NPR's Manoush Zomorodi discusses the impact of technology on health in her new book.",
+        "key_themes": [
+          "social media addiction lawsuit",
+          "Sony AI Camera Assistant",
+          "YouTube AI deepfake detection",
+          "Turtle Beach gaming headset",
+          "impact of technology on health"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Snap, YouTube, and TikTok settle suit over harm to students",
+            "why_it_matters": "This lawsuit marks a significant legal precedent regarding the responsibility of social media platforms in educational settings.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+            "why_it_matters": "Clarifying the functionality of AI features is crucial for consumer trust and product adoption.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "YouTube is expanding its AI deepfake detection tool to all adult users",
+            "why_it_matters": "This expansion aims to enhance user safety and trust on the platform by combating misinformation.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Xbox is now XBOX",
+            "why_it_matters": "The rebranding reflects a shift in marketing strategy and brand identity for Microsoft's gaming division.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "These are the laptops I recommend for pretty much anyone",
+            "why_it_matters": "Providing guidance on laptop purchases helps consumers make informed decisions in a crowded market.",
+            "signal": "Opportunity"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Monitor reactions to the Snap, YouTube, and TikTok lawsuit settlement for potential implications on future legal actions against tech companies.",
+            "Watch for updates on Sony's AI Camera Assistant and user feedback on its functionality.",
+            "Observe consumer response to the new Turtle Beach headset compared to competitors."
+          ],
+          "next_1_4_weeks": [
+            "Expect discussions around the effectiveness of YouTube's AI deepfake detection tool as it rolls out to more users.",
+            "Anticipate further developments in the gaming industry following Xbox's rebranding.",
+            "Look for insights from Manoush Zomorodi's book on technology's impact on health."
+          ],
+          "watch_list": [
+            "Social media regulation and its effects on education.",
+            "Advancements in AI technology in consumer products.",
+            "Trends in gaming headset technology and market competition.",
+            "Consumer electronics sales trends during the summer season."
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The sentiment score indicates mixed feelings about the technology sector's current developments.",
+          "The impact of the lawsuit settlement may take time to fully assess."
+        ],
+        "related_topics": [
+          "What are the implications of the Snap, YouTube, and TikTok lawsuit settlement?",
+          "How does Sony's AI Camera Assistant work?",
+          "What are the best laptops to buy in 2026?",
+          "What is YouTube's AI deepfake detection tool?",
+          "How is technology affecting our health?"
+        ]
+      },
+      "tweet_text": "Tech giants settle up, but the real question is: what does this mean for our kids?\n\nTechnology Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Much #Anniversary #Anyone #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "sports": {
+      "key": "sports",
+      "title": "Sports",
+      "source": {
+        "site_name": "ESPN",
+        "site_url": "https://www.espn.com",
+        "feed_url": "https://www.espn.com/espn/rss/news"
+      },
+      "sentiment": {
+        "score": 0.0309,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.051, dampened ×0.6 → +0.0309). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Sights, sounds and more second-round moments",
+          "url": "https://www.espn.com/golf/story/_/id/48771964/pga-championship-2026-second-round-sights-sounds-best-shots",
+          "published": "Fri, 15 May 2026 11:55:53 EST",
+          "summary": "Here is the best of the action from Friday at Aronimink Golf Club.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Turner: No fines from Rivers; Giannis always late",
+          "url": "https://www.espn.com/nba/story/_/id/48777174/myles-turner-addresses-lack-discipline-doc-rivers",
+          "published": "Fri, 15 May 2026 10:27:38 EST",
+          "summary": "Bucks center Myles Turner said on his podcast that former coach Doc Rivers \"didn't fine anybody ever\" and that Giannis Antetokounmpo would \"show up whenever he wants.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Rahm apologizes for 'inexcusable' incident at PGA",
+          "url": "https://www.espn.com/golf/story/_/id/48772653/jon-rahm-apologizes-divot-anger-hits-volunteer-pga",
+          "published": "Fri, 15 May 2026 10:27:37 EST",
+          "summary": "Jon Rahm apologized for hitting a volunteer in the face and shoulder with a divot after he took a swing in frustration during the first round of the PGA Championship on Thursday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Deion: Shedeur endured 'hell' in draft, rookie yea...",
+          "url": "https://www.espn.com/nfl/story/_/id/48774097/deion-shedeur-endured-hell-predraft-rookie-browns",
+          "published": "Fri, 15 May 2026 10:27:37 EST",
+          "summary": "Deion Sanders said that his son Shedeur \"matured spiritually\" after enduring criticism and what he called untruthful reporting during his predraft process and rookie season with the Browns.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Man Utd to offer coaching job to Carrick",
+          "url": "https://www.espn.com/soccer/story/_/id/48777558/man-united-offer-michael-carrick-two-year-coaching-deal",
+          "published": "Fri, 15 May 2026 10:27:53 EST",
+          "summary": "Manchester United are progressing with talks with Michael Carrick about taking the head coach's job permanently, sources have told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Warriors' top two assistants won't return...",
+          "url": "https://www.espn.com/nba/story/_/id/48774052/sources-warriors-assistants-stotts-stackhouse-return",
+          "published": "Fri, 15 May 2026 10:27:38 EST",
+          "summary": "Warriors assistants Terry Stotts and Jerry Stackhouse are departing the franchise, league sources told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Scheffler among largest throng atop PGA since '69",
+          "url": "https://www.espn.com/golf/story/_/id/48773466/scottie-scheffler-part-7-way-tie-lead-pga-championship",
+          "published": "Fri, 15 May 2026 10:27:37 EST",
+          "summary": "Scottie Scheffler carded a 67 and is tied with six other players -- the biggest logjam in 57 years after the first round of a major -- at the PGA Championship.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Knights finish off Ducks in 6 to make West finals",
+          "url": "https://www.espn.com/nhl/story/_/id/48775104/golden-knights-finish-ducks-6-make-conference-finals",
+          "published": "Fri, 15 May 2026 10:27:37 EST",
+          "summary": "Mitch Marner set the tone for the Golden Knights with a highlight-reel between-the-legs goal in the first period, and Vegas went on to beat the Ducks 5-1 to advance to the Western Conference finals.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sabres' goaltending issues resurface in G5 loss",
+          "url": "https://www.espn.com/nhl/story/_/id/48774619/sabres-goaltending-issues-resurface-game-5-loss-canadiens",
+          "published": "Fri, 15 May 2026 10:27:37 EST",
+          "summary": "The Sabres face a 3-2 series deficit and goaltending questions in their second-round Eastern Conference playoff series against Montreal following an ugly 6-3 loss in Game 5 on Thursday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "🎥 2026 schedule reveals for all 32 NFL teams",
+          "url": "https://www.espn.com/nfl/story/_/id/48764468/nfl-2026-schedule-release-social-media-posts-reactions",
+          "published": "Fri, 15 May 2026 10:27:38 EST",
+          "summary": "From memes to mini movies, all 32 teams brought their A-games with clever schedule reveal posts.",
+          "source": "ESPN"
+        },
+        {
+          "title": "What's next for LeBron, Giannis and Kawhi? We aske...",
+          "url": "https://www.espn.com/nba/story/_/id/48773488/nba-playoffs-offseason-intel-lebron-giannis-pistons-76ers-clippers-summer",
+          "published": "Fri, 15 May 2026 11:06:01 EST",
+          "summary": "Tim Bontemps and Brian Windhorst canvass the league on five teams with league-altering decisions this summer.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Giannis trade watch reset: 10 teams to monitor bet...",
+          "url": "https://www.espn.com/nba/story/_/id/48762977/nba-draft-2026-10-giannis-bucks-trade-contenders-warriors-heat-rockets-celtics",
+          "published": "Fri, 15 May 2026 11:06:01 EST",
+          "summary": "Bobby Marks examines potential suitors and their pathways to a trade.",
+          "source": "ESPN"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "The PGA Championship features a historic tie at the top, while NBA teams face offseason decisions and coaching changes loom for Manchester United.",
+        "summary": "Today's sports headlines highlight significant moments from the PGA Championship, including a historic tie at the top of the leaderboard, while NBA teams are preparing for offseason changes and Manchester United is in talks to hire Michael Carrick as head coach. Additionally, notable incidents involving players like Jon Rahm and Myles Turner have drawn attention, and the Golden Knights advance in the NHL playoffs.",
+        "key_themes": [
+          "PGA Championship highlights",
+          "NBA offseason decisions",
+          "Manchester United coaching news",
+          "NHL playoff updates",
+          "Giannis trade speculation"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Sights, sounds and more second-round moments",
+            "why_it_matters": "Highlights the best moments from the PGA Championship, showcasing the excitement of the tournament.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Rahm apologizes for 'inexcusable' incident at PGA",
+            "why_it_matters": "Jon Rahm's apology for hitting a volunteer raises questions about player conduct during tournaments.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Sources: Man Utd to offer coaching job to Carrick",
+            "why_it_matters": "Manchester United's potential hiring of Michael Carrick could signal a new direction for the club.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Knights finish off Ducks in 6 to make West finals",
+            "why_it_matters": "The Golden Knights' victory advances them to the Western Conference finals, showcasing their strong performance.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Giannis trade watch reset: 10 teams to monitor",
+            "why_it_matters": "Speculation around Giannis Antetokounmpo's future could impact multiple NBA franchises this offseason.",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Continued coverage of the PGA Championship as the tournament progresses.",
+            "Updates on NBA teams' offseason strategies and potential trades.",
+            "Further developments in the NHL playoffs as teams compete for the finals."
+          ],
+          "next_1_4_weeks": [
+            "Analysis of the NBA draft and trades as teams reshape their rosters.",
+            "Monitoring Manchester United's coaching situation and potential changes in management.",
+            "Expectations for the upcoming NFL season as teams finalize their schedules."
+          ],
+          "watch_list": [
+            "PGA Championship leaderboard updates",
+            "NBA offseason trade rumors",
+            "Manchester United coaching developments",
+            "NHL playoff results",
+            "Giannis Antetokounmpo trade news"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The sentiment score is neutral, indicating mixed feelings about the overall tone of the news.",
+          "Some headlines involve speculation about future events, which may not materialize."
+        ],
+        "related_topics": [
+          "What are the latest updates from the PGA Championship?",
+          "NBA offseason trade rumors and predictions",
+          "Manchester United coaching news and developments",
+          "NHL playoff results and analysis",
+          "Giannis Antetokounmpo trade possibilities"
+        ]
+      },
+      "tweet_text": "Drama and apologies collide as sports legends navigate second-round chaos and coaching shake-ups!\n\nSports Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #Always #Among #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "science": {
+      "key": "science",
+      "title": "Science",
+      "source": {
+        "site_name": "ScienceDaily",
+        "site_url": "https://www.sciencedaily.com",
+        "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
+      },
+      "sentiment": {
+        "score": 0.0821,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.137, dampened ×0.6 → +0.0821). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "First-ever direct image of the cosmic web reveals the Universe’s hidden highways",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260516034136.htm",
+          "published": "Sat, 16 May 2026 09:15:10 EDT",
+          "summary": "Astronomers have revealed the sharpest image ever captured of a filament in the cosmic web — the enormous hidden structure connecting galaxies across the Universe. The glowing strand stretches 3 million light-years and links two galaxies from nearly 12 billion years ago. By observing this faint intergalactic gas directly for the first time in such detail, scientists gained new insight into how galaxies are fueled and formed.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists find hidden brain nutrient deficit that may fuel anxiety",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260515234759.htm",
+          "published": "Sat, 16 May 2026 08:41:30 EDT",
+          "summary": "A major analysis of brain scans found that people with anxiety disorders have noticeably lower levels of choline, a nutrient crucial for healthy brain function. The strongest evidence appeared in the prefrontal cortex, the region tied to emotional control and decision-making. Researchers say the discovery is the first clear chemical brain pattern linked to anxiety and could eventually lead to new nutrition-based treatments.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Stunning fossil discovery in Ethiopia rewrites human origins",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260515234644.htm",
+          "published": "Sat, 16 May 2026 07:20:39 EDT",
+          "summary": "A stunning fossil discovery in Ethiopia shows that early Homo and a previously unknown Australopithecus species lived together around 2.6 to 2.8 million years ago. The find overturns the classic “ape-to-human” progression and paints human evolution as a crowded, branching tree with multiple species coexisting. Scientists dated the fossils using volcanic ash deposits and are now investigating what these ancient relatives ate and whether they competed for resources.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover hidden “brakes” that stop massive earthquakes",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260515233325.htm",
+          "published": "Sat, 16 May 2026 02:12:11 EDT",
+          "summary": "A mysterious underwater fault near Ecuador has been producing nearly identical magnitude 6 earthquakes every five to six years, baffling scientists for decades. Researchers now believe the fault contains hidden “brake zones” where seawater and unusual rock structures work together to stop quakes from becoming even larger. The discovery came from ultra-detailed seafloor recordings that captured how the fault behaves before and after major earthquakes.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "The brain’s “feel good” chemical may be secretly fueling tinnitus",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260515002155.htm",
+          "published": "Fri, 15 May 2026 07:11:38 EDT",
+          "summary": "Scientists have uncovered evidence that serotonin — the same brain chemical boosted by many antidepressants — may actually worsen tinnitus. Using advanced light-based brain stimulation in mice, researchers identified a serotonin-driven circuit linked directly to tinnitus-like behavior. The findings may explain why some people experience louder ringing in their ears while taking SSRIs.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Mars may have once had an ocean and this chaotic valley is a big clue",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260515002137.htm",
+          "published": "Fri, 15 May 2026 04:03:45 EDT",
+          "summary": "A colossal valley near Mars’s equator is revealing dramatic clues about the Red Planet’s watery and volcanic past. Stretching roughly 1,300 kilometers, Shalbatana Vallis was carved billions of years ago when enormous floods of groundwater burst onto the surface, gouging deep winding channels across the landscape. Today, the region is a striking mix of ancient flood scars, collapsed “chaotic terrain,” lava-smoothed plains, volcanic ash, and battered impact craters — all hinting at a Mars that may",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA’s Roman Space Telescope could reveal millions of invisible neutron stars",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260515002130.htm",
+          "published": "Fri, 15 May 2026 03:33:51 EDT",
+          "summary": "NASA’s Roman Space Telescope could expose a vast hidden population of neutron stars lurking unseen across the Milky Way. By detecting subtle shifts in starlight caused by gravity, the mission may identify and even weigh isolated neutron stars that are otherwise impossible to see. Scientists hope the discoveries will reveal how these extreme objects are born and why they are blasted through space at incredible speeds.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover giant “last titan” dinosaur, Southeast Asia’s largest ever",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260515002121.htm",
+          "published": "Fri, 15 May 2026 08:36:33 EDT",
+          "summary": "A massive new dinosaur discovered in Thailand is rewriting Southeast Asia’s prehistoric history. The newly named Nagatitan chaiyaphumensis was a colossal long-necked sauropod that weighed around 27 tonnes and lived more than 100 million years ago. Scientists believe it may be the last giant sauropod ever to roam the region before rising seas transformed the landscape.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "A grad student’s wild idea sparks a major aging breakthrough",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260515001733.htm",
+          "published": "Fri, 15 May 2026 00:50:11 EDT",
+          "summary": "A casual conversation between graduate students helped spark a breakthrough in aging research at Mayo Clinic. Researchers discovered that tiny synthetic DNA molecules called aptamers can selectively attach to senescent “zombie cells,” which are linked to aging, cancer, and neurodegenerative disease. The method could eventually help scientists identify and target these cells in living tissue with far greater precision.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Paleontology rocked by discovery of organic molecules in 66-million-year-old dinosaur bones",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260514084421.htm",
+          "published": "Thu, 14 May 2026 09:02:12 EDT",
+          "summary": "Scientists have uncovered compelling evidence that dinosaur fossils may still contain traces of their original proteins, overturning a long-standing belief that fossilization destroys all organic material. In a remarkably well-preserved Edmontosaurus fossil from South Dakota, researchers detected remnants of collagen — the main protein found in bone — using advanced techniques including mass spectrometry and protein sequencing.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Who are the Japanese? Huge DNA discovery rewrites history",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260514003314.htm",
+          "published": "Thu, 14 May 2026 01:00:37 EDT",
+          "summary": "Scientists analyzing the genomes of thousands of people across Japan discovered evidence for a previously overlooked third ancestral group, challenging the long-accepted “dual origins” theory. The newly identified ancestry appears linked to the ancient Emishi people of northeastern Japan. Researchers also uncovered inherited Neanderthal and Denisovan DNA connected to conditions like diabetes, heart disease, and cancer.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists “bottle the sun” with a liquid battery that stores solar energy",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
+          "published": "Thu, 14 May 2026 21:29:03 EDT",
+          "summary": "Scientists at UC Santa Barbara have created a remarkable new material that works like a “rechargeable solar battery,” storing sunlight inside tiny molecules and releasing it later as heat — even long after the sun goes down. Inspired by reversible changes found in DNA and photochromic sunglasses, the system captures solar energy without relying on bulky batteries or the electrical grid. The molecule can hold energy for years and packs more energy per kilogram than lithium-ion batteries.",
+          "source": "ScienceDaily"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Recent scientific discoveries include a direct image of the cosmic web, insights into anxiety-related brain nutrients, and significant fossil finds that reshape human origins.",
+        "summary": "Today's headlines highlight groundbreaking scientific advancements, including the first direct image of the cosmic web, a link between brain nutrients and anxiety, and a fossil discovery that alters our understanding of human evolution. Other notable findings include the identification of earthquake 'brakes,' the potential for Mars to have once harbored an ocean, and the discovery of a new giant dinosaur species in Southeast Asia.",
+        "key_themes": [
+          "cosmic web imaging",
+          "anxiety brain nutrients",
+          "human evolution discoveries",
+          "earthquake research",
+          "Mars geological history",
+          "dinosaur fossil findings"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "First-ever direct image of the cosmic web reveals the Universe’s hidden highways",
+            "why_it_matters": "This image provides unprecedented insight into the structure of the Universe and galaxy formation.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists find hidden brain nutrient deficit that may fuel anxiety",
+            "why_it_matters": "Identifying a nutrient link to anxiety could lead to new treatment approaches.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Stunning fossil discovery in Ethiopia rewrites human origins",
+            "why_it_matters": "This find challenges existing theories of human evolution and suggests a more complex ancestry.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Scientists discover hidden “brakes” that stop massive earthquakes",
+            "why_it_matters": "Understanding these mechanisms could improve earthquake prediction and safety measures.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Mars may have once had an ocean and this chaotic valley is a big clue",
+            "why_it_matters": "Revealing Mars' watery past could reshape our understanding of its geological history.",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Further analysis of the cosmic web image may yield new insights into galaxy formation.",
+            "Research on the nutrient deficit linked to anxiety could lead to clinical trials for new treatments.",
+            "More details on the fossil discovery in Ethiopia may emerge as studies continue."
+          ],
+          "next_1_4_weeks": [
+            "Expect updates on the implications of the earthquake 'brakes' discovery for seismic safety.",
+            "Further exploration of Mars' geological features may provide additional evidence of its past.",
+            "Research on the giant dinosaur discovery may lead to more findings about Southeast Asia's prehistoric life."
+          ],
+          "watch_list": [
+            "Developments in anxiety treatment based on nutrient findings.",
+            "New fossil discoveries that could further clarify human evolution.",
+            "Research on Mars' past water presence and its implications for potential life.",
+            "Advancements in earthquake prediction technology."
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The implications of the discoveries are still being assessed and may evolve with further research.",
+          "Some findings, like the nutrient deficit, require more extensive studies before clinical applications can be confirmed."
+        ],
+        "related_topics": [
+          "What are the latest discoveries in human evolution?",
+          "How does brain chemistry relate to anxiety disorders?",
+          "What new insights have been gained about Mars' geological history?",
+          "What recent advancements have been made in earthquake research?",
+          "What does the cosmic web reveal about the universe?"
+        ]
+      },
+      "tweet_text": "Unlocking the universe's secrets: from cosmic highways to ancient human origins, today's science news...\n\nScience Sentiment: Mixed (+0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hidden #Scientists #Discover #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+    }
+  }
+}
