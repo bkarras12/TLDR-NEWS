@@ -1,12 +1,12 @@
 {
   "date": "2026-05-17",
-  "generated_at_utc": "2026-05-17T14:50:31Z",
+  "generated_at_utc": "2026-05-18T00:03:51Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "trump",
     "scientists",
-    "massive",
-    "trump"
+    "iran"
   ],
   "categories": {
     "world": {
@@ -18,23 +18,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2969,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.495, dampened ×0.6 → -0.2969). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2127,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.355, dampened ×0.6 → -0.2127). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Trump warns 'clock is ticking' for Iran as peace progress stalls",
+          "url": "https://www.bbc.com/news/articles/cd0p4y9y48xo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 17 May 2026 19:23:20 GMT",
+          "summary": "Iranian media reports the US has not made concrete concessions in response to Tehran's latest proposals.",
+          "source": "BBC News"
+        },
+        {
           "title": "WHO declares Ebola outbreak in DR Congo an international emergency",
           "url": "https://www.bbc.com/news/articles/c2l2p0wwzzdo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 17 May 2026 13:00:26 GMT",
+          "published": "Sun, 17 May 2026 21:14:27 GMT",
           "summary": "The agency added that the outbreak, with around 246 cases and 80 deaths, does not meet the criteria of pandemic emergency.",
           "source": "BBC News"
         },
         {
           "title": "How worrying is the Ebola outbreak in DR Congo?",
           "url": "https://www.bbc.com/news/articles/c9q311nj5r3o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 17 May 2026 13:31:00 GMT",
+          "published": "Sun, 17 May 2026 18:06:31 GMT",
           "summary": "An outbreak in DR Congo has been declared a health emergency, with almost 250 suspected cases reported.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'This may be the last time you hear my voice': Political executions surge in Iran since start of war",
+          "url": "https://www.bbc.com/news/articles/cn8p392nl7yo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 17 May 2026 23:02:56 GMT",
+          "summary": "Since the US and Israel attacked Iran on 28 February, the UN says it’s verified the execution of at least 32 political prisoners.",
           "source": "BBC News"
         },
         {
@@ -42,6 +56,13 @@
           "url": "https://www.bbc.com/news/articles/c5ye480kxpmo?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 17 May 2026 14:18:23 GMT",
           "summary": "Ukraine's president says the strikes are a \"justified\" response to deadly Russian attacks on Ukrainian cities.",
+          "source": "BBC News"
+        },
+        {
+          "title": "UAE reports strike near Abu Dhabi nuclear power plant",
+          "url": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 17 May 2026 20:53:45 GMT",
+          "summary": "The country is investigating the source of the strike, which it calls a \"dangerous escalation\".",
           "source": "BBC News"
         },
         {
@@ -66,16 +87,9 @@
           "source": "BBC News"
         },
         {
-          "title": "Whale found dead near Danish island after German rescue operation",
-          "url": "https://www.bbc.com/news/articles/c1l28lql137o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 16 May 2026 17:01:28 GMT",
-          "summary": "Wildlife experts had previous criticised the operation, saying it would only cause the animal more distress.",
-          "source": "BBC News"
-        },
-        {
           "title": "Trump-backed challenger defeats Republican senator who voted to convict president",
           "url": "https://www.bbc.com/news/articles/cx21d4pxq23o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 17 May 2026 14:16:00 GMT",
+          "published": "Sun, 17 May 2026 16:25:28 GMT",
           "summary": "Trump threw his full support behind Julia Letlow in Louisiana's high-stakes contest, branding the incumbent \"disloyal\".",
           "source": "BBC News"
         },
@@ -92,89 +106,79 @@
           "published": "Sat, 16 May 2026 15:01:40 GMT",
           "summary": "Staff Sgt Mohamed Mahdhee died while diving in the search-and-rescue operation, the Maldives government tells the BBC.",
           "source": "BBC News"
-        },
-        {
-          "title": "Toddlers among more than 50 schoolchildren kidnapped in Nigeria",
-          "url": "https://www.bbc.com/news/articles/c202vrxlwqgo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 16 May 2026 15:50:09 GMT",
-          "summary": "No group has yet claimed responsibility for the attacks, which have devastated Mussa town in Borno state.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Senior IS leader killed in joint operation, US and Nigeria say",
-          "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 16 May 2026 11:44:54 GMT",
-          "summary": "President Donald Trump said the operation eliminated \"the most active terrorist in the world\", Abu-Bilal al-Minuki.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The WHO has declared an Ebola outbreak in DR Congo an international emergency amid rising cases, while geopolitical tensions escalate with drone attacks in Ukraine and a warning from Trump regarding Taiwan.",
-        "summary": "Today's news highlights significant global events, including the WHO's declaration of an Ebola outbreak in DR Congo as an international emergency, a large-scale drone attack in Moscow attributed to Ukraine, and ongoing geopolitical tensions involving Taiwan and the US. Additionally, incidents of violence in Italy and Nigeria, as well as a tragic rescue operation in the Maldives, underscore the challenges faced in various regions.",
+        "key_takeaway": "The WHO has declared an Ebola outbreak in DR Congo an international emergency amid rising political tensions and violence in Iran and Ukraine.",
+        "summary": "Today's news highlights significant global events, including the WHO's declaration of an Ebola outbreak in DR Congo as an international emergency, escalating violence in Iran, and a large-scale drone attack in Moscow. Political unrest continues to rise, with reports of political executions in Iran and tensions surrounding Taiwan's independence. Additionally, a tragic incident in Italy resulted in injuries to pedestrians, and a Canadian passenger from a hantavirus-hit cruise ship has tested positive.",
         "key_themes": [
           "Ebola outbreak in DR Congo",
-          "Ukraine drone attacks",
+          "Iran political executions",
+          "Ukrainian drone attacks",
           "Taiwan independence",
-          "violence in Italy",
-          "kidnapping in Nigeria"
+          "Italy pedestrian incident"
         ],
         "notable_headlines": [
           {
             "headline": "WHO declares Ebola outbreak in DR Congo an international emergency",
-            "why_it_matters": "The declaration indicates a serious health crisis that could have international implications.",
+            "why_it_matters": "The declaration indicates the severity of the health crisis, although it does not meet pandemic criteria.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trump warns 'clock is ticking' for Iran as peace progress stalls",
+            "why_it_matters": "The warning reflects ongoing tensions and the potential for further conflict in the region.",
             "signal": "Risk"
           },
           {
             "headline": "Large-scale Ukrainian drone attack kills three in Moscow region, says Russia",
-            "why_it_matters": "This escalation in conflict raises concerns about further military actions and regional stability.",
+            "why_it_matters": "This incident underscores the ongoing conflict between Ukraine and Russia, with significant implications for regional stability.",
             "signal": "Risk"
           },
           {
-            "headline": "Toddlers among more than 50 schoolchildren kidnapped in Nigeria",
-            "why_it_matters": "The kidnapping highlights ongoing security issues in Nigeria and the impact on vulnerable populations.",
+            "headline": "Political executions surge in Iran since start of war",
+            "why_it_matters": "The rise in executions highlights the deteriorating human rights situation in Iran amid ongoing conflict.",
             "signal": "Risk"
           },
           {
             "headline": "Man drives car into pedestrians in Italy, injuring eight",
-            "why_it_matters": "This incident raises concerns about public safety and potential motives behind such attacks.",
+            "why_it_matters": "This incident raises concerns about public safety and potential motives behind the attack.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Taiwan insists it is independent after Trump warning",
-            "why_it_matters": "Taiwan's response to US political pressure reflects ongoing tensions in US-China relations.",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the Ebola situation in DR Congo for updates on case numbers and international response.",
-            "Observing developments in Ukraine-Russia conflict following the drone attack.",
-            "Watching for reactions from Taiwan and China regarding the US's stance on independence."
+            "Monitoring developments in the Ebola outbreak and WHO responses.",
+            "Observing international reactions to the political situation in Iran and Ukraine.",
+            "Tracking any further incidents related to public safety in Italy."
           ],
           "next_1_4_weeks": [
-            "Expect increased international health measures in response to the Ebola outbreak.",
-            "Potential escalation in military actions between Ukraine and Russia as tensions rise.",
-            "Continued scrutiny of security situations in Nigeria and Italy."
+            "Anticipating updates on the Ebola situation and potential international aid responses.",
+            "Watching for developments in US-Iran relations and the impact on regional stability.",
+            "Following the political landscape in Taiwan amid US-China tensions."
           ],
           "watch_list": [
-            "WHO updates on Ebola outbreak",
-            "Ukraine-Russia conflict developments",
-            "Taiwan's political status and international relations",
-            "Security incidents in Nigeria and Italy"
+            "Ebola outbreak updates from WHO",
+            "Iran political situation",
+            "Ukrainian conflict developments",
+            "Taiwan independence discussions",
+            "Public safety incidents in Europe"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in DR Congo is evolving, and further developments may change the current assessment.",
-          "Geopolitical tensions can escalate rapidly, making predictions uncertain."
+          "The situation in Iran and Ukraine is fluid and may change rapidly.",
+          "Health data regarding the Ebola outbreak is still being assessed and may evolve.",
+          "Public safety incidents can be unpredictable and require ongoing monitoring."
         ],
         "related_topics": [
           "What is the current status of the Ebola outbreak in DR Congo?",
-          "How are drone attacks affecting the Ukraine-Russia conflict?",
-          "What are the implications of Taiwan's independence stance?"
+          "How is the political situation evolving in Iran?",
+          "What are the implications of the Ukrainian drone attacks?",
+          "What is Taiwan's response to US warnings?",
+          "What happened in Italy's pedestrian incident?"
         ]
       },
-      "tweet_text": "Global alarm as WHO declares Ebola an emergency while chaos unfolds in Ukraine and Italy—are we on the brink of a...\n\nWorld Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Congo #Drone #Ebola #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tensions rise as Trump warns Iran's clock is ticking, while the world braces for the fallout of an alarming Ebola outbreak.\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Congo #Drone #Ebola #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -276,19 +280,19 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The business landscape is marked by significant developments including a new oil pipeline in the UAE, ongoing legal battles in tech, and economic pressures in the US.",
-        "summary": "Today's business news highlights a mix of developments, including CBS's anticipated changes to 60 Minutes, the UAE's oil pipeline project, and the ongoing Musk v OpenAI lawsuit. Additionally, the US stock market's resilience amid economic challenges and rising oil prices affecting travel costs are notable themes.",
+        "key_takeaway": "The UAE is set to complete a new oil pipeline bypassing the Strait of Hormuz by 2027, aiming to double its export capacity amid ongoing geopolitical tensions.",
+        "summary": "Today's business news highlights significant developments including CBS's potential changes to 60 Minutes, the UAE's oil pipeline project, and ongoing legal battles involving major tech figures. Additionally, the resilience of the US stock market amidst inflation and geopolitical tensions is examined, alongside the impact of rising fuel costs on American travel plans.",
         "key_themes": [
           "media industry changes",
-          "oil pipeline developments",
-          "tech industry legal battles",
-          "US economic pressures",
-          "stock market resilience"
+          "oil export strategies",
+          "US stock market resilience",
+          "impact of inflation on travel",
+          "legal battles in tech"
         ],
         "notable_headlines": [
           {
             "headline": "CBS News insiders fear Bari Weiss will soon enact ‘massive changes’ to 60 Minutes",
-            "why_it_matters": "Anticipated layoffs and editorial shifts could impact the long-standing news program's format and viewer engagement.",
+            "why_it_matters": "Potential layoffs and editorial changes could impact the future of a leading news program.",
             "signal": "Risk"
           },
           {
@@ -298,53 +302,52 @@
           },
           {
             "headline": "High-stakes courtroom drama of Musk v OpenAI hears closing arguments",
-            "why_it_matters": "The outcome of this lawsuit could have significant implications for the future of AI companies and their governance.",
+            "why_it_matters": "The outcome could have significant implications for the future of AI and its regulation.",
             "signal": "Unclear"
           },
           {
-            "headline": "US reportedly dropped fraud charges against Indian billionaire after he hired Trump’s lawyer",
-            "why_it_matters": "The dismissal of charges raises questions about legal influence and the intersection of business and politics.",
+            "headline": "The Federal Reserve’s independence is hanging by a thread in the age of Trump",
+            "why_it_matters": "Political pressures on the Fed could affect its ability to manage economic policy effectively.",
             "signal": "Risk"
           },
           {
             "headline": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
-            "why_it_matters": "Despite economic instability, the stock market's resilience suggests underlying strength or investor confidence.",
+            "why_it_matters": "Despite economic challenges, the stock market's resilience raises questions about investor confidence and market dynamics.",
             "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Musk v OpenAI lawsuit as a verdict approaches.",
-            "Watch for reactions to CBS's changes in 60 Minutes and its impact on viewership.",
-            "Keep an eye on oil prices and their effect on travel costs as summer approaches."
+            "Monitor reactions to CBS's potential changes to 60 Minutes.",
+            "Watch for updates on the Musk v OpenAI trial verdict.",
+            "Observe market responses to the UAE's oil pipeline announcement."
           ],
           "next_1_4_weeks": [
-            "Expect further updates on the UAE's oil pipeline project and its implications for global oil markets.",
-            "Watch for potential fallout from the Musk v OpenAI case and its impact on the tech industry.",
-            "Observe how rising fuel costs influence consumer behavior and travel plans."
+            "Expect further developments in the tech industry regarding AI management changes.",
+            "Follow the implications of the Federal Reserve's actions on economic policy.",
+            "Assess the impact of rising fuel prices on summer travel plans."
           ],
           "watch_list": [
             "UAE oil export strategies",
-            "Impact of AI on tech workforce",
-            "Trends in US stock market amid economic uncertainty",
-            "Legal implications of Musk v OpenAI case",
-            "Changes in media landscape due to leadership shifts at CBS"
+            "US stock market trends",
+            "Legal outcomes in tech disputes",
+            "Inflation effects on consumer behavior"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the current business climate, suggesting caution in interpreting the news.",
-          "Developments in legal cases can be unpredictable and may evolve rapidly."
+          "The sentiment score indicates mixed feelings about the current business climate.",
+          "Geopolitical tensions may affect market stability and oil prices. "
         ],
         "related_topics": [
-          "What are the latest changes in CBS News",
-          "How is the UAE enhancing its oil export capacity",
-          "What is the outcome of Musk v OpenAI lawsuit",
-          "How are rising fuel prices affecting American travel",
-          "Why is the US stock market resilient despite economic challenges"
+          "What are the latest changes in CBS News programming?",
+          "How is the UAE expanding its oil export capacity?",
+          "What are the implications of the Musk v OpenAI trial?",
+          "How is inflation impacting American travel this summer?",
+          "Why is the US stock market performing well despite economic challenges?"
         ]
       },
-      "tweet_text": "Change is brewing at CBS, while Musk's showdown with OpenAI keeps us on the edge of our seats—what's next...\n\nBusiness Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#2027 #Abuse #Against #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Change is brewing at CBS, while Musk battles OpenAI in a courtroom showdown—business news you can't afford...\n\nBusiness Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#2027 #Abuse #Against #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -355,11 +358,32 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1132,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.189, dampened ×0.6 → +0.1132). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.03,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg -0.050, dampened ×0.6 → -0.0300). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Microsoft is retiring Teams’ Together Mode",
+          "url": "https://www.theverge.com/tech/932215/microsoft-teams-together-mode",
+          "published": "2026-05-17T17:15:28-04:00",
+          "summary": "Microsoft launched Teams' Together Mode during the pandemic to give the illusion of a bunch of people sitting in a conference room together, even if they were really sitting at home without pants on. But times have changed, and it's now being retired in favor of a more simplified Teams experience. The feature used AI [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Revamped Siri will reportedly offer auto-deleting chats",
+          "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+          "published": "2026-05-17T14:40:28-04:00",
+          "summary": "Apple is hoping that its record on privacy can be the differentiator on the AI front, and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat histories. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+          "published": "2026-05-17T13:22:23-04:00",
+          "summary": "Former Google CEO Eric Schmidt delivered the commencement address at the University of Arizona on Friday. And, as his speech veered into talk of AI, he was repeatedly drowned out by boos. AI is already a contentious topic, and it's not surprising that those about to enter a ravaged job market feel particularly negative about [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Oddity is masterfully tense horror from the director of Hokum",
           "url": "https://www.theverge.com/entertainment/932179/oddity-damian-mccarthy-horror-movie-hokum",
@@ -408,98 +432,77 @@
           "published": "2026-05-16T11:00:00-04:00",
           "summary": "Manoush Zamorodi is an accomplished reporter, podcast host, and author. Her new book, Body Electric, takes a comprehensive look at how technology is impacting our physical health. It's a collaboration between NPR and Columbia University Medical Center that picks up where her first title, Bored and Brilliant, left off. That book looked at how technology [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Turtle Beach made a good SteelSeries headset clone that’s $50 less",
-          "url": "https://www.theverge.com/gadgets/930828/turtle-beach-stealth-pro-2-steelseries-arctis-nova-pro-omni-gaming-headset-hands-on",
-          "published": "2026-05-16T10:00:00-04:00",
-          "summary": "I really liked the SteelSeries Arctis Nova Pro Wireless, so the company didn't have to say much to get me excited about its successor. The $399 Nova Pro Omni that came out on May 5th has a similar design to the 2022 model, but with some new and improved features - support for wireless hi-res [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Here are 40 of our favorite deals from REI’s massive Anniversary Sale",
-          "url": "https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026",
-          "published": "2026-05-16T09:00:00-04:00",
-          "summary": "REI’s annual Anniversary Sale — the retailer’s biggest of the year — has arrived, bringing with it discounts on all kinds of outdoor essentials. If you’ve got a camping trip coming up, now is a good time to stock up on the basics, whether it be a tent, sleeping pad, or stove. If your summer [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Mixtape is a musical portrait of teenage life",
-          "url": "https://www.theverge.com/games/925580/mixtape-review-ps5-xbox-series-x-s-nintendo-switch-2-pc",
-          "published": "2026-05-16T08:00:00-04:00",
-          "summary": "Playing Mixtape is like playing a video game version of a high school movie. Kids banter about the meaning of life and the theme songs that would play when they walk in a room. They're worried about looking cool at a big party. They're obsessed with finding booze. But under all of those tropes is [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Fujifilm's X Half camera sees significant price cuts, while Snap, YouTube, and TikTok settle a lawsuit over social media's impact on schools.",
-        "summary": "Today's technology news highlights a mix of product updates and legal developments. Fujifilm has reduced the price of its X Half camera, making it more accessible. Meanwhile, Snap, YouTube, and TikTok have settled a lawsuit regarding the negative effects of social media on students, marking a significant moment in the ongoing discussion about digital addiction and its consequences. Additionally, the introduction of AI chatbots in drive-thrus signals a growing trend in automation, while Sony attempts to clarify the functionality of its AI Camera Assistant after facing criticism.",
+        "key_takeaway": "Microsoft is retiring Teams' Together Mode, while Apple plans to enhance Siri with auto-deleting chat features amid ongoing discussions about AI's impact.",
+        "summary": "Today's technology news highlights significant changes in major tech platforms, including Microsoft's retirement of Teams' Together Mode, Apple's upcoming Siri updates focused on privacy, and reactions to AI discussions at a university commencement. Additionally, social media companies have settled a lawsuit regarding their impact on students, and Sony is clarifying its AI Camera Assistant's functionality.",
         "key_themes": [
-          "AI in daily life",
-          "impact of social media on education",
-          "affordable camera technology",
-          "automation in fast food",
-          "health effects of technology"
+          "Microsoft Teams updates",
+          "Apple Siri enhancements",
+          "AI in education",
+          "social media lawsuits",
+          "Sony AI technology"
         ],
         "notable_headlines": [
           {
-            "headline": "Fujifilm’s X Half is even more whimsical with a $300 price cut",
-            "why_it_matters": "The price reduction makes the camera more appealing to consumers, potentially boosting sales.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Snap, YouTube, and TikTok settle suit over harm to students",
-            "why_it_matters": "This settlement highlights the growing concern over social media's impact on mental health and education.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Chatbots at the drive-thru are just the beginning",
-            "why_it_matters": "The use of AI in fast food indicates a shift towards greater automation in service industries.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
-            "why_it_matters": "Sony's clarification is crucial for consumer trust in AI features in their products.",
+            "headline": "Microsoft is retiring Teams’ Together Mode",
+            "why_it_matters": "This change reflects a shift in user needs as remote work evolves post-pandemic.",
             "signal": "Unclear"
           },
           {
-            "headline": "ElliQ is a surprisingly helpful companion robot for older adults",
-            "why_it_matters": "The robot's potential to assist older adults could reshape caregiving and companionship.",
+            "headline": "Revamped Siri will reportedly offer auto-deleting chats",
+            "why_it_matters": "This feature aims to enhance user privacy and differentiate Siri in the competitive AI market.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
+            "why_it_matters": "The negative reception highlights growing concerns about AI's role in the job market among graduates.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Snap, YouTube, and TikTok settle suit over harm to students",
+            "why_it_matters": "The settlement underscores the accountability of social media platforms regarding their impact on mental health and education.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+            "why_it_matters": "Clarifying the AI feature's purpose is crucial for maintaining consumer trust in Sony's technology.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor consumer reactions to Fujifilm's price cut on the X Half camera.",
-            "Watch for further developments in AI applications in service industries.",
-            "Expect discussions around the implications of the social media lawsuit settlement."
+            "Monitor reactions to Microsoft's Teams changes among users and businesses.",
+            "Watch for further details on Apple's Siri updates and their reception.",
+            "Observe public sentiment regarding AI discussions in educational settings."
           ],
           "next_1_4_weeks": [
-            "Follow up on the impact of the Snap, YouTube, and TikTok settlement on social media policies.",
-            "Observe trends in AI technology adoption in various sectors, especially in customer service.",
-            "Keep an eye on the reception of the ElliQ robot among older adults and caregivers."
+            "Anticipate more announcements from tech companies regarding AI features and privacy measures.",
+            "Expect ongoing discussions about the implications of social media on education and mental health.",
+            "Look for consumer feedback on Sony's AI Camera Assistant after clarifications."
           ],
           "watch_list": [
-            "Fujifilm's sales performance post-price cut.",
-            "Further legal actions related to social media and education.",
-            "Innovations in AI technology and their applications.",
-            "Consumer feedback on Sony's AI Camera Assistant."
+            "Microsoft Teams user feedback post-update.",
+            "Apple's Siri launch and its reception.",
+            "Further developments in social media lawsuits.",
+            "Trends in AI technology adoption in education."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall technology landscape today.",
-          "Future developments in AI and social media regulation remain uncertain."
+          "The sentiment around AI remains mixed, with both excitement and concern evident in public discourse.",
+          "Changes in technology can lead to unforeseen user reactions and market shifts."
         ],
         "related_topics": [
-          "What are the latest developments in AI technology?",
-          "How is social media affecting education and mental health?",
-          "What are the best affordable cameras on the market?",
-          "Trends in automation in the fast food industry.",
-          "How are companion robots helping older adults?"
+          "What are the latest updates on Microsoft Teams?",
+          "How is Apple improving Siri's privacy features?",
+          "What are the implications of AI in education?",
+          "Details on the social media lawsuit settlements.",
+          "How does Sony's AI Camera Assistant work?"
         ]
       },
-      "tweet_text": "Prepare for a chilling cinematic experience with Oddity, and discover how tech is reshaping companionship...\n\nTechnology Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Adults #Assistant #Beach #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Microsoft says goodbye to Together Mode, while Siri gets a makeover that might change your chats forever!\n\nTechnology Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Students #Adults #Arizona #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -510,163 +513,171 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.0309,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.051, dampened ×0.6 → +0.0309). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1556,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.259, dampened ×0.6 → +0.1556). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Sights, sounds and more second-round moments",
-          "url": "https://www.espn.com/golf/story/_/id/48771964/pga-championship-2026-second-round-sights-sounds-best-shots",
-          "published": "Fri, 15 May 2026 11:55:53 EST",
-          "summary": "Here is the best of the action from Friday at Aronimink Golf Club.",
+          "title": "Rai rises to the top, eclipses stars for PGA title",
+          "url": "https://www.espn.com/golf/story/_/id/48800504/englishman-aaron-rai-pulls-away-win-pga-championship",
+          "published": "Sun, 17 May 2026 19:57:37 EST",
+          "summary": "Aaron Rai shot a 5-under 65 to pull away from some of the game's biggest stars, becoming the first English-born golfer to win the PGA Championship since 1919.",
           "source": "ESPN"
         },
         {
-          "title": "Turner: No fines from Rivers; Giannis always late",
-          "url": "https://www.espn.com/nba/story/_/id/48777174/myles-turner-addresses-lack-discipline-doc-rivers",
-          "published": "Fri, 15 May 2026 10:27:38 EST",
-          "summary": "Bucks center Myles Turner said on his podcast that former coach Doc Rivers \"didn't fine anybody ever\" and that Giannis Antetokounmpo would \"show up whenever he wants.\"",
+          "title": "Sources: SGA wins MVP for second straight year",
+          "url": "https://www.espn.com/nba/story/_/id/48795765/sources-thunder-shai-gilgeous-alexander-repeats-nba-mvp",
+          "published": "Sun, 17 May 2026 20:00:15 EST",
+          "summary": "Thunder star Shai Gilgeous-Alexander has won his second consecutive NBA Most Valuable Player award, becoming the 14th player in league history to win back-to-back MVPs.",
           "source": "ESPN"
         },
         {
-          "title": "Rahm apologizes for 'inexcusable' incident at PGA",
-          "url": "https://www.espn.com/golf/story/_/id/48772653/jon-rahm-apologizes-divot-anger-hits-volunteer-pga",
-          "published": "Fri, 15 May 2026 10:27:37 EST",
-          "summary": "Jon Rahm apologized for hitting a volunteer in the face and shoulder with a divot after he took a swing in frustration during the first round of the PGA Championship on Thursday.",
+          "title": "14-4 under Mattingly, Phils surge over .500 mark",
+          "url": "https://www.espn.com/mlb/story/_/id/48799973/phillies-complete-sweep-improve-14-4-don-mattingly",
+          "published": "Sun, 17 May 2026 20:00:15 EST",
+          "summary": "The resurgent Phillies improved to 14-4 under interim manager Don Mattingly on Sunday and snuck over the .500 mark, at 24-23, for the first time since April 7 as Philadelphia blanked the Pittsburgh Pirates 6-0, completing a three-game sweep.",
           "source": "ESPN"
         },
         {
-          "title": "Deion: Shedeur endured 'hell' in draft, rookie yea...",
-          "url": "https://www.espn.com/nfl/story/_/id/48774097/deion-shedeur-endured-hell-predraft-rookie-browns",
-          "published": "Fri, 15 May 2026 10:27:37 EST",
-          "summary": "Deion Sanders said that his son Shedeur \"matured spiritually\" after enduring criticism and what he called untruthful reporting during his predraft process and rookie season with the Browns.",
+          "title": "Mariners call up top prospect Emerson for debut",
+          "url": "https://www.espn.com/mlb/story/_/id/48799982/mariners-call-top-prospect-colt-emerson-mlb-debut",
+          "published": "Sun, 17 May 2026 20:00:15 EST",
+          "summary": "The Mariners are calling up star prospect Colt Emerson, adding the No. 6-ranked prospect to the lineup for his major league debut.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: Man Utd to offer coaching job to Carrick",
-          "url": "https://www.espn.com/soccer/story/_/id/48777558/man-united-offer-michael-carrick-two-year-coaching-deal",
-          "published": "Fri, 15 May 2026 10:27:53 EST",
-          "summary": "Manchester United are progressing with talks with Michael Carrick about taking the head coach's job permanently, sources have told ESPN.",
+          "title": "Mets swipe Subway Series after 'awesome' rally",
+          "url": "https://www.espn.com/mlb/story/_/id/48800685/tyrone-taylor-homer-fuels-rally-mets-take-subway-series",
+          "published": "Sun, 17 May 2026 20:00:15 EST",
+          "summary": "Still in last place in the National League East, the Mets may have turned a corner this weekend, authoring two wins to close out the Subway Series with the Yankees, the last of which was fueled by Tyrone Taylor's ninth-inning, three-run home run Sunday.",
           "source": "ESPN"
         },
         {
-          "title": "Sources: Warriors' top two assistants won't return...",
-          "url": "https://www.espn.com/nba/story/_/id/48774052/sources-warriors-assistants-stotts-stackhouse-return",
-          "published": "Fri, 15 May 2026 10:27:38 EST",
-          "summary": "Warriors assistants Terry Stotts and Jerry Stackhouse are departing the franchise, league sources told ESPN.",
+          "title": "Ailing Astros lose Altuve to IL with oblique strai...",
+          "url": "https://www.espn.com/mlb/story/_/id/48799602/astros-jose-altuve-heading-il-oblique-strain",
+          "published": "Sun, 17 May 2026 20:00:15 EST",
+          "summary": "Astros second baseman Jose Altuve has a left oblique strain and will be placed on the injured list, manager Joe Espada said.",
           "source": "ESPN"
         },
         {
-          "title": "Scheffler among largest throng atop PGA since '69",
-          "url": "https://www.espn.com/golf/story/_/id/48773466/scottie-scheffler-part-7-way-tie-lead-pga-championship",
-          "published": "Fri, 15 May 2026 10:27:37 EST",
-          "summary": "Scottie Scheffler carded a 67 and is tied with six other players -- the biggest logjam in 57 years after the first round of a major -- at the PGA Championship.",
+          "title": "Hamlin outduels Briscoe for 2nd All-Star Race win",
+          "url": "https://www.espn.com/racing/nascar/story/_/id/48799746/denny-hamlin-outduels-chase-briscoe-win-nascar-all-star-race",
+          "published": "Sun, 17 May 2026 20:00:15 EST",
+          "summary": "Denny Hamlin edged teammate Chase Briscoe on Sunday to win NASCAR's All-Star Race, which saw several crashes during the first two segments collect more than half the 36-car field.",
           "source": "ESPN"
         },
         {
-          "title": "Knights finish off Ducks in 6 to make West finals",
-          "url": "https://www.espn.com/nhl/story/_/id/48775104/golden-knights-finish-ducks-6-make-conference-finals",
-          "published": "Fri, 15 May 2026 10:27:37 EST",
-          "summary": "Mitch Marner set the tone for the Golden Knights with a highlight-reel between-the-legs goal in the first period, and Vegas went on to beat the Ducks 5-1 to advance to the Western Conference finals.",
+          "title": "Fever's Boston (leg) to miss first game in WNBA",
+          "url": "https://www.espn.com/wnba/story/_/id/48800207/fever-aliyah-boston-leg-miss-first-game-pro",
+          "published": "Sun, 17 May 2026 20:00:15 EST",
+          "summary": "Indiana Fever center Aliyah Boston missed a WNBA game for the first time after being ruled out of Sunday's matchup against the Seattle Storm with a lower leg injury.",
           "source": "ESPN"
         },
         {
-          "title": "Sabres' goaltending issues resurface in G5 loss",
-          "url": "https://www.espn.com/nhl/story/_/id/48774619/sabres-goaltending-issues-resurface-game-5-loss-canadiens",
-          "published": "Fri, 15 May 2026 10:27:37 EST",
-          "summary": "The Sabres face a 3-2 series deficit and goaltending questions in their second-round Eastern Conference playoff series against Montreal following an ugly 6-3 loss in Game 5 on Thursday.",
+          "title": "🏈 Solak: Why did the Steelers re-sign Rodgers?",
+          "url": "https://www.espn.com/nfl/story/_/id/48791209/steelers-sign-aaron-rodgers-quarterback-2026-offense-mike-mccarthy",
+          "published": "Sun, 17 May 2026 20:00:15 EST",
+          "summary": "Does Rodgers have anything left? Will the Steelers' offense look the same as it did in 2025? And can running it back actually work for Pittsburgh?",
           "source": "ESPN"
         },
         {
-          "title": "🎥 2026 schedule reveals for all 32 NFL teams",
-          "url": "https://www.espn.com/nfl/story/_/id/48764468/nfl-2026-schedule-release-social-media-posts-reactions",
-          "published": "Fri, 15 May 2026 10:27:38 EST",
-          "summary": "From memes to mini movies, all 32 teams brought their A-games with clever schedule reveal posts.",
+          "title": "Why the fallout from this Cavs-Pistons Game 7 coul...",
+          "url": "https://www.espn.com/nba/story/_/id/48791313/why-fallout-cleveland-cavaliers-detroit-pistons-game-7-massive-nba-offseason",
+          "published": "Sun, 17 May 2026 20:01:28 EST",
+          "summary": "A third straight second-round loss for the Cavaliers would invite enormous questions about their superstars -- and rival teams are watching.",
           "source": "ESPN"
         },
         {
-          "title": "What's next for LeBron, Giannis and Kawhi? We aske...",
-          "url": "https://www.espn.com/nba/story/_/id/48773488/nba-playoffs-offseason-intel-lebron-giannis-pistons-76ers-clippers-summer",
-          "published": "Fri, 15 May 2026 11:06:01 EST",
-          "summary": "Tim Bontemps and Brian Windhorst canvass the league on five teams with league-altering decisions this summer.",
+          "title": "Man United ratings: Bruno Fernandes gets 9/10 afte...",
+          "url": "https://www.espn.com/soccer/story/_/id/48794957/man-united-ratings-bruno-fernandes-gets-9-10-tying-assist-record",
+          "published": "Sun, 17 May 2026 18:50:03 EST",
+          "summary": "Manchester United beat Nottingham Forest 3-2 as Bruno Fernandes tied the Premier League assist record with Kevin De Bruyne and Thierry Henry.",
           "source": "ESPN"
         },
         {
-          "title": "Giannis trade watch reset: 10 teams to monitor bet...",
-          "url": "https://www.espn.com/nba/story/_/id/48762977/nba-draft-2026-10-giannis-bucks-trade-contenders-warriors-heat-rockets-celtics",
-          "published": "Fri, 15 May 2026 11:06:01 EST",
-          "summary": "Bobby Marks examines potential suitors and their pathways to a trade.",
+          "title": "With Aaron Rodgers' return, Steelers now have a QB...",
+          "url": "https://www.espn.com/nfl/story/_/id/48732178/aaron-rodgers-return-resign-deal-pittsburgh-steelers-2026-quarterback-conundrum",
+          "published": "Sun, 17 May 2026 16:20:24 EST",
+          "summary": "Mike McCarthy typically carries three QBs into Week 1, so who's the odd man out in this four-person QB room?",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Jon Rahm apologized for an incident at the PGA Championship, while the Golden Knights advanced to the Western Conference finals after defeating the Ducks.",
-        "summary": "Today's sports highlights include Jon Rahm's apology for an incident at the PGA Championship, the Golden Knights advancing to the Western Conference finals, and discussions surrounding coaching changes in the NBA and soccer. Additionally, the PGA Championship features a significant tie at the top of the leaderboard, and the Sabres face goaltending challenges in their playoff series.",
+        "key_takeaway": "Aaron Rai wins the PGA Championship, Shai Gilgeous-Alexander secures back-to-back NBA MVPs, and the Phillies surge over .500 under interim manager Don Mattingly.",
+        "summary": "In today's sports news, Aaron Rai made history by winning the PGA Championship, Shai Gilgeous-Alexander was named NBA MVP for the second consecutive year, and the Philadelphia Phillies improved their record under interim manager Don Mattingly. Additionally, the Seattle Mariners called up top prospect Colt Emerson for his major league debut, while the New York Mets rallied to win the Subway Series against the Yankees. The Houston Astros faced a setback with Jose Altuve's injury, and Denny Hamlin won the NASCAR All-Star Race. In WNBA news, Aliyah Boston missed her first game due to injury, and discussions continue around the Pittsburgh Steelers' quarterback situation with Aaron Rodgers' return.",
         "key_themes": [
           "PGA Championship highlights",
-          "NBA coaching changes",
-          "NHL playoff updates"
+          "NBA MVP award news",
+          "MLB team performance updates",
+          "NASCAR All-Star Race results",
+          "WNBA injury reports",
+          "NFL quarterback controversies"
         ],
         "notable_headlines": [
           {
-            "headline": "Rahm apologizes for 'inexcusable' incident at PGA",
-            "why_it_matters": "Jon Rahm's apology reflects the importance of sportsmanship and player conduct during high-stakes tournaments.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Knights finish off Ducks in 6 to make West finals",
-            "why_it_matters": "The Golden Knights' victory highlights their strong performance in the playoffs, advancing them to the next round.",
+            "headline": "Rai rises to the top, eclipses stars for PGA title",
+            "why_it_matters": "Aaron Rai's victory marks a significant achievement for English golf, being the first Englishman to win since 1919.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Sources: Man Utd to offer coaching job to Carrick",
-            "why_it_matters": "Manchester United's potential hiring of Michael Carrick could signal a new direction for the club.",
+            "headline": "Sources: SGA wins MVP for second straight year",
+            "why_it_matters": "Shai Gilgeous-Alexander's back-to-back MVP wins highlight his impact on the NBA and the Thunder's success.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Sources: Warriors' top two assistants won't return",
-            "why_it_matters": "The departure of key coaching staff may impact the Warriors' strategy and performance in the upcoming season.",
-            "signal": "Risk"
+            "headline": "14-4 under Mattingly, Phils surge over .500 mark",
+            "why_it_matters": "The Phillies' resurgence under Mattingly could signal a turnaround for the team this season.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Giannis trade watch reset: 10 teams to monitor",
-            "why_it_matters": "The potential for Giannis Antetokounmpo's trade could significantly alter the landscape of the NBA.",
-            "signal": "Unclear"
+            "headline": "Mariners call up top prospect Emerson for debut",
+            "why_it_matters": "Colt Emerson's debut adds excitement to the Mariners' season and showcases their commitment to youth.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Mets swipe Subway Series after 'awesome' rally",
+            "why_it_matters": "The Mets' performance against the Yankees could indicate a turning point in their season.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Ailing Astros lose Altuve to IL with oblique strain",
+            "why_it_matters": "Altuve's injury is a significant blow to the Astros' lineup and could impact their season.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Continued coverage of the PGA Championship as it progresses into the weekend.",
-            "Updates on NBA coaching changes and player movements as the offseason approaches.",
-            "NHL playoff results and implications for the remaining teams."
+            "Analysis of the PGA Championship impact on golf rankings",
+            "Reactions to Shai Gilgeous-Alexander's MVP win",
+            "Updates on Jose Altuve's recovery timeline"
           ],
           "next_1_4_weeks": [
-            "Anticipation builds for the NBA draft and potential trades involving star players.",
-            "Further developments in the NHL playoffs as teams vie for the Stanley Cup.",
-            "Analysis of the impact of coaching changes in the NBA and soccer."
+            "Monitoring the Phillies' performance under Mattingly",
+            "Tracking Colt Emerson's progress in the MLB",
+            "Evaluating the Steelers' quarterback situation as the season approaches"
           ],
           "watch_list": [
-            "PGA Championship leaderboard updates",
-            "NBA offseason moves and trades",
-            "NHL playoff results and team performances.",
-            "Manchester United coaching developments"
+            "Upcoming MLB matchups",
+            "NBA playoff developments",
+            "WNBA injury updates and player performances",
+            "NASCAR season highlights"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating no strong positive or negative feelings in today's headlines.",
-          "Future outcomes in sports can be unpredictable and subject to change."
+          "The mixed sentiment score indicates a balance of positive and negative news in sports today.",
+          "Injuries and team performance can change rapidly, affecting future outlooks."
         ],
         "related_topics": [
-          "What are the latest updates from the PGA Championship?",
-          "NBA coaching changes and their implications",
-          "NHL playoff results and analysis",
-          "Giannis Antetokounmpo trade rumors",
-          "Jon Rahm's incident at the PGA Championship"
+          "What are the latest PGA Championship results?",
+          "NBA MVP award winners history",
+          "Updates on MLB team performances this week",
+          "NASCAR All-Star Race highlights",
+          "WNBA injury reports and player updates"
         ]
       },
-      "tweet_text": "Drama unfolds as Giannis keeps fans waiting and a PGA star faces backlash—sports just got a whole lot juicier!\n\nSports Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #Always #Among #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Rai's stunning PGA victory steals the spotlight, while MVP SGA and the Phils surge—it's a thrilling day in...\n\nSports Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ailing #Allstar #Altuve #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -768,19 +779,19 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific breakthroughs include reversing Alzheimer's in mice, revealing the cosmic web, and discovering new insights into human evolution and brain function.",
-        "summary": "Today's science headlines highlight significant advancements in various fields, including neuroscience, astronomy, paleontology, and nutrition. Researchers have made strides in understanding Alzheimer's disease, the structure of the universe, and human origins, while also uncovering new insights into brain function and exercise. These discoveries could lead to innovative treatments and a deeper understanding of both our planet and the cosmos.",
+        "key_takeaway": "Recent scientific breakthroughs include reversing Alzheimer’s in mice, revealing the cosmic web, and discovering new insights into human evolution and brain function.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including Alzheimer's research, astronomy, neurobiology, and paleontology. Notable discoveries include a nanotechnology treatment that reversed Alzheimer's symptoms in mice, the first direct image of the cosmic web, and a fossil find in Ethiopia that challenges previous notions of human evolution. Additionally, researchers have identified a nutrient deficit linked to anxiety and explored the role of mitochondria in cognitive decline. These findings may lead to new treatments and a deeper understanding of both human health and the universe.",
         "key_themes": [
-          "Alzheimer's disease research breakthroughs",
-          "new discoveries in human evolution",
-          "insights into brain function and exercise",
-          "advancements in astronomy and cosmic structures",
-          "nutritional impacts on mental health"
+          "Alzheimer's research breakthroughs",
+          "cosmic web imaging",
+          "human evolution discoveries",
+          "brain function and anxiety",
+          "mitochondrial role in cognition"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists reverse Alzheimer’s in mice with breakthrough nanotechnology",
-            "why_it_matters": "This breakthrough could pave the way for new treatments for Alzheimer's disease in humans.",
+            "why_it_matters": "This treatment could pave the way for new therapies in human Alzheimer's disease.",
             "signal": "Opportunity"
           },
           {
@@ -789,54 +800,53 @@
             "signal": "Opportunity"
           },
           {
-            "headline": "Stunning fossil discovery in Ethiopia rewrites human origins",
-            "why_it_matters": "The find challenges previous notions of human evolution and suggests a more complex ancestry.",
+            "headline": "Scientists reversed memory loss by recharging the brain’s tiny engines",
+            "why_it_matters": "This research could lead to new approaches for treating neurodegenerative diseases.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "Stunning fossil discovery in Ethiopia rewrites human origins",
+            "why_it_matters": "This find challenges existing theories about human evolution and species coexistence.",
+            "signal": "Risk"
           },
           {
             "headline": "Scientists find hidden brain nutrient deficit that may fuel anxiety",
-            "why_it_matters": "Identifying this nutrient link could lead to new dietary treatments for anxiety disorders.",
+            "why_it_matters": "Identifying this deficit could lead to new nutritional treatments for anxiety disorders.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "The brain’s “feel good” chemical may be secretly fueling tinnitus",
-            "why_it_matters": "This finding could change the approach to treating tinnitus in patients taking SSRIs.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the Alzheimer's nanotechnology treatment is expected to be published.",
-            "More details on the cosmic web imaging technique may emerge.",
-            "Researchers will likely continue to investigate the implications of the Ethiopian fossil find."
+            "Further analysis of the Alzheimer’s nanotechnology treatment is expected to be published.",
+            "More details on the cosmic web imaging may emerge from ongoing studies.",
+            "Researchers will likely explore the implications of the mitochondrial findings for dementia treatments."
           ],
           "next_1_4_weeks": [
-            "Anticipated studies on the nutritional aspects of anxiety may be released.",
-            "New research on the implications of mitochondrial function in cognitive decline is expected.",
-            "Follow-up studies on the effects of serotonin on tinnitus may be published."
+            "Anticipated studies on the implications of the Ethiopian fossil discovery for human evolution.",
+            "Potential announcements regarding new clinical trials based on the nutrient deficit linked to anxiety.",
+            "Continued exploration of the cosmic web's role in galaxy formation."
           ],
           "watch_list": [
-            "Developments in Alzheimer's treatment research",
-            "Updates on cosmic web studies",
-            "New findings in human evolutionary biology",
-            "Research on brain health and nutrition"
+            "Developments in Alzheimer's treatment research.",
+            "Updates on the implications of the cosmic web findings.",
+            "New studies on the relationship between nutrition and mental health.",
+            "Further fossil discoveries in Ethiopia."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The findings in mice may not directly translate to humans.",
-          "Further research is needed to confirm the implications of the Ethiopian fossil discovery.",
-          "The relationship between brain chemicals and conditions like tinnitus is complex and not fully understood."
+          "The long-term effects of the nanotechnology treatment in humans remain unknown.",
+          "The implications of the cosmic web findings are still being interpreted and debated."
         ],
         "related_topics": [
           "What are the latest breakthroughs in Alzheimer's research?",
-          "How does the cosmic web influence galaxy formation?",
-          "What new discoveries have been made about human evolution?",
-          "How does nutrition affect mental health?",
-          "What are the implications of serotonin in tinnitus treatment?"
+          "How has the cosmic web been imaged for the first time?",
+          "What new discoveries have been made in human evolution?",
+          "How does mitochondrial function affect brain health?",
+          "What is the link between nutrition and anxiety disorders?"
         ]
       },
-      "tweet_text": "Breakthroughs in science today could change how we understand memory, anxiety, and even human...\n\nScience Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Hidden #Rewrites #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Breakthroughs in science are rewriting our understanding of the universe and our own minds—don’t miss...\n\nScience Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Hidden #Rewrites #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
