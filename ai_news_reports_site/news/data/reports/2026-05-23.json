@@ -1,10 +1,9 @@
 {
   "date": "2026-05-23",
-  "generated_at_utc": "2026-05-23T06:08:57Z",
+  "generated_at_utc": "2026-05-23T14:55:50Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump",
     "market"
   ],
   "categories": {
@@ -17,23 +16,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1656,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.276, dampened ×0.6 → -0.1656). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2804,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.467, dampened ×0.6 → -0.2804). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "At least 82 dead in Chinese coal mine explosion, state media reports",
+          "title": "At least 90 killed in Chinese coal mine explosion, state media reports",
           "url": "https://www.bbc.com/news/articles/c5y0ve18qlko?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 23 May 2026 05:53:40 GMT",
-          "summary": "The explosion took place at 19:29 local time on Friday at a coal mine in northern China.",
+          "published": "Sat, 23 May 2026 13:40:31 GMT",
+          "summary": "The blast in Shanxi province constitutes the country's worst mining disaster in 16 years.",
           "source": "BBC News"
         },
         {
           "title": "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
           "url": "https://www.bbc.com/news/articles/c5y74lwx395o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 23 May 2026 04:05:03 GMT",
-          "summary": "Ukraine says it hit Russia's elite Rubicon drone military unit in a Moscow-occupied region.",
+          "published": "Sat, 23 May 2026 14:06:12 GMT",
+          "summary": "Ukraine says it struck Russia's elite Rubicon drone military unit in a Moscow-occupied region.",
+          "source": "BBC News"
+        },
+        {
+          "title": "French mum and partner held until trial after sons abandoned by road in Portugal",
+          "url": "https://www.bbc.com/news/articles/cq5p75l7n17o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 23 May 2026 14:24:48 GMT",
+          "summary": "The couple, who allegedly left the woman's sons on a roadside in southern Portugal, will remain in custody.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Rubio meets Modi during India visit with energy high on agenda",
+          "url": "https://www.bbc.com/news/articles/c87qrwyyrn2o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 23 May 2026 11:55:39 GMT",
+          "summary": "The secretary of state wants to sell US energy to Delhi to make up for shortfalls caused by the Iran war.",
           "source": "BBC News"
         },
         {
@@ -44,24 +57,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Rubio tries to reassure Nato allies over US troop deployments",
-          "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 22 May 2026 15:18:30 GMT",
-          "summary": "President Donald Trump says he wants to send more troops to Poland, a week after his officials cancelled a similar deployment.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ebola risk raised to 'very high' in DR Congo",
-          "url": "https://www.bbc.com/news/articles/cr7p30m1dn1o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 22 May 2026 16:23:08 GMT",
-          "summary": "The head of the UN health agency says the risk in the wider region is \"high\", but it remains \"low\" at the global level.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Race for French presidency sees ex-PM Philippe as early favourite to beat populists",
-          "url": "https://www.bbc.com/news/articles/c4g0410gnv5o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 22 May 2026 23:07:55 GMT",
-          "summary": "Latest polls suggest the centre-right figure is the only candidate who can defeat Marine Le Pen or Jean-Luc Mélenchon.",
+          "title": "Senegal's president sacks PM and former ally after months-long feud",
+          "url": "https://www.bbc.com/news/articles/c202jwpd24go?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 23 May 2026 11:36:09 GMT",
+          "summary": "Bassirou Diomaye Faye also dissolved the government, creating uncertainty amid a debt crisis in the country.",
           "source": "BBC News"
         },
         {
@@ -72,17 +71,24 @@
           "source": "BBC News"
         },
         {
+          "title": "Ebola risk raised to 'very high' in DR Congo",
+          "url": "https://www.bbc.com/news/articles/cr7p30m1dn1o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 22 May 2026 16:23:08 GMT",
+          "summary": "The head of the UN health agency says the risk in the wider region is \"high\", but it remains \"low\" at the global level.",
+          "source": "BBC News"
+        },
+        {
           "title": "Gaza flotilla activists allege abuse by Israeli forces while detained",
           "url": "https://www.bbc.com/news/articles/cglp5z63k9no?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 22 May 2026 20:52:35 GMT",
+          "published": "Sat, 23 May 2026 08:10:51 GMT",
           "summary": "The detainees say they were slapped, hit, humiliated and even subjected to sexual violence, but Israel's prison service says the allegations are false.",
           "source": "BBC News"
         },
         {
-          "title": "Rubio visits India to sell energy as Iran oil shock persists",
-          "url": "https://www.bbc.com/news/articles/c87qrwyyrn2o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 23 May 2026 03:55:55 GMT",
-          "summary": "The top US diplomat has made statements offering to support India’s energy needs - but should Delhi give in?",
+          "title": "Race for French presidency sees ex-PM Philippe as early favourite to beat populists",
+          "url": "https://www.bbc.com/news/articles/c4g0410gnv5o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 22 May 2026 23:07:55 GMT",
+          "summary": "Latest polls suggest the centre-right figure is the only candidate who can defeat Marine Le Pen or Jean-Luc Mélenchon.",
           "source": "BBC News"
         },
         {
@@ -93,89 +99,79 @@
           "source": "BBC News"
         },
         {
-          "title": "Bodies of Italian divers did not have optimal equipment, says rescuer",
-          "url": "https://www.bbc.com/news/articles/c0l2j723nrxo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 22 May 2026 17:54:11 GMT",
-          "summary": "Images from a cave where the four Italians were found reveal the difficulty that rescuers had in recovering their bodies.",
-          "source": "BBC News"
-        },
-        {
-          "title": "More than 40,000 Californians evacuated due to chemical tank leak",
-          "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 23 May 2026 01:59:08 GMT",
-          "summary": "Officials have warned that the tank contains a \"highly volatile\" substance that could lead to an explosion.",
+          "title": "One dead and dozens of firefighters injured in Staten Island shipyard explosion",
+          "url": "https://www.bbc.com/news/articles/c8r814xj8pro?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 23 May 2026 00:35:16 GMT",
+          "summary": "More than 30 people, including firefighters, were hurt in the incident, which was described as \"a complex, fast-developing emergency situation\".",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "At least 82 people died in a coal mine explosion in China, while geopolitical tensions rise with Putin's threats against Ukraine and the Ebola risk escalates in DR Congo.",
-        "summary": "Today's headlines highlight a tragic coal mine explosion in China resulting in numerous fatalities, escalating tensions between Russia and Ukraine, and a significant rise in Ebola risk in the Democratic Republic of Congo. Additionally, SpaceX successfully launched its Starship V3 rocket, and US diplomatic efforts in India focus on energy amidst ongoing geopolitical challenges.",
+        "key_takeaway": "At least 90 people died in a coal mine explosion in China, marking the country's worst mining disaster in 16 years.",
+        "summary": "Today's headlines highlight significant global events, including a deadly coal mine explosion in China, escalating tensions between Russia and Ukraine, and political upheaval in Senegal. The tone of the news is predominantly negative, reflecting serious incidents and crises.",
         "key_themes": [
-          "coal mine explosion in China",
-          "Putin Ukraine conflict",
-          "Ebola risk in DR Congo",
-          "SpaceX Starship launch",
-          "US energy diplomacy with India"
+          "China coal mine explosion news",
+          "Russia Ukraine conflict update",
+          "Senegal political crisis analysis"
         ],
         "notable_headlines": [
           {
-            "headline": "At least 82 dead in Chinese coal mine explosion, state media reports",
-            "why_it_matters": "This incident underscores ongoing safety issues in China's mining industry and the human cost of such disasters.",
+            "headline": "At least 90 killed in Chinese coal mine explosion, state media reports",
+            "why_it_matters": "This incident represents the worst mining disaster in China in over a decade, raising concerns about safety regulations.",
             "signal": "Risk"
           },
           {
             "headline": "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
-            "why_it_matters": "This escalation in rhetoric could lead to increased military tensions in the region.",
+            "why_it_matters": "The accusation escalates tensions in the ongoing conflict, potentially leading to further military actions.",
             "signal": "Risk"
           },
           {
-            "headline": "SpaceX launches massive Starship V3 rocket on test flight",
-            "why_it_matters": "This successful launch marks a significant milestone in space exploration and commercial spaceflight.",
-            "signal": "Opportunity"
+            "headline": "Senegal's president sacks PM and former ally after months-long feud",
+            "why_it_matters": "This political shake-up amid a debt crisis creates uncertainty in governance and economic stability in Senegal.",
+            "signal": "Unclear"
           },
           {
             "headline": "Ebola risk raised to 'very high' in DR Congo",
-            "why_it_matters": "The heightened risk could have serious implications for public health in the region and beyond.",
+            "why_it_matters": "The increase in risk levels indicates a potential health crisis that could affect the wider region.",
             "signal": "Risk"
           },
           {
-            "headline": "Rubio visits India to sell energy as Iran oil shock persists",
-            "why_it_matters": "This visit reflects the US's strategic efforts to strengthen ties with India amid global energy challenges.",
-            "signal": "Opportunity"
+            "headline": "Gaza flotilla activists allege abuse by Israeli forces while detained",
+            "why_it_matters": "These allegations could impact international perceptions of Israel's treatment of detainees and human rights issues.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the aftermath of the coal mine explosion in China for updates on rescue efforts and safety investigations.",
-            "Observing responses from Russia and Ukraine following Putin's threats.",
-            "Following developments in the Ebola situation in DR Congo."
+            "Monitoring responses from Russia regarding Ukraine's actions.",
+            "Observing developments in the aftermath of the Chinese coal mine disaster.",
+            "Tracking the political implications of Senegal's government reshuffle."
           ],
           "next_1_4_weeks": [
-            "Tracking the geopolitical implications of US troop deployments in Europe and energy negotiations with India.",
-            "Watching for further developments in the SpaceX program and its impact on the aerospace industry.",
-            "Monitoring the political landscape in France as the presidential race heats up."
+            "Anticipating further military escalations in the Russia-Ukraine conflict.",
+            "Watching for updates on the Ebola situation in DR Congo.",
+            "Evaluating the political landscape in Senegal post-government dissolution."
           ],
           "watch_list": [
-            "Potential international responses to the coal mine disaster in China.",
-            "Updates on the Ebola outbreak and health measures in the region.",
-            "Further developments in US-Russia relations regarding Ukraine.",
-            "The impact of SpaceX's launch on the commercial space sector."
+            "China's mining safety regulations",
+            "Russia-Ukraine conflict developments",
+            "Senegal's economic stability post-political changes",
+            "Ebola outbreak management in DR Congo"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Ukraine remains fluid and could change rapidly based on military actions.",
-          "The Ebola risk assessment may evolve as new data emerges from health agencies."
+          "The situation in Ukraine remains fluid and could change rapidly.",
+          "The impact of the coal mine disaster on China's mining policies is yet to be seen.",
+          "Political stability in Senegal is uncertain following the recent government changes."
         ],
         "related_topics": [
-          "What are the latest updates on the coal mine explosion in China?",
-          "How is the conflict between Russia and Ukraine developing?",
-          "What is the current Ebola risk in the Democratic Republic of Congo?",
-          "What are the implications of SpaceX's recent rocket launch?",
-          "How is the US addressing energy needs in India?"
+          "What are the latest updates on the China coal mine explosion?",
+          "How is the Russia-Ukraine conflict evolving?",
+          "What political changes are happening in Senegal?"
         ]
       },
-      "tweet_text": "Tragedy strikes in China as a coal mine explosion claims 82 lives, while global tensions rise from Ukraine to the...\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abuse #Accusing #Activists #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tragedy strikes in China, tensions escalate in Ukraine, and a shocking parental abandonment case unfolds in...\n\nWorld Sentiment: Negative (-0.28)\n\nRead the full breakdown: https://tldrnews.info\n\n#High #Abandoned #Accusing #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -277,30 +273,30 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "SpaceX plans a $1.75 trillion IPO, while James Murdoch acquires half of Vox Media for $300 million amid mixed market sentiments.",
-        "summary": "Today's business news highlights significant developments including SpaceX's upcoming IPO valued at $1.75 trillion, James Murdoch's acquisition of Vox Media, and Nvidia's strong revenue growth driven by the AI boom. Additionally, a report reveals US employers spend over $1.5 billion annually to combat labor unions, and Starbucks faces scrutiny over its recycling claims. Oil prices dropped following comments from Donald Trump regarding Iran negotiations, and the EU has agreed to implement a US trade deal after prolonged discussions.",
+        "key_takeaway": "SpaceX plans a $1.75 trillion stock market debut, while James Murdoch acquires half of Vox Media for $300 million amid mixed market sentiments.",
+        "summary": "Today's business news highlights significant developments including SpaceX's upcoming IPO, James Murdoch's acquisition of Vox Media, Nvidia's strong revenue growth, and concerns over labor union opposition spending. Additionally, oil prices fell following comments from Donald Trump regarding Iran negotiations, and the EU has agreed to implement a US trade deal.",
         "key_themes": [
           "SpaceX IPO details",
           "James Murdoch Vox Media acquisition",
           "Nvidia revenue growth",
           "US employers union spending",
-          "Starbucks recycling practices",
+          "oil prices and Iran negotiations",
           "EU US trade deal implementation"
         ],
         "notable_headlines": [
           {
             "headline": "SpaceX reveals plan for $1.75tn stock market debut that could make Musk a trillionaire",
-            "why_it_matters": "This IPO could significantly impact the tech and space industries, marking a major milestone for SpaceX and Elon Musk.",
+            "why_it_matters": "This IPO could significantly impact the tech and space industries, marking a major milestone for Musk and SpaceX.",
             "signal": "Opportunity"
           },
           {
             "headline": "James Murdoch to acquire half of Vox Media in deal reportedly worth $300m",
-            "why_it_matters": "This acquisition reflects ongoing consolidation in the media industry and Murdoch's strategic investments post-family disputes.",
+            "why_it_matters": "This acquisition reflects ongoing consolidation in the media industry and Murdoch's strategic positioning post-family disputes.",
             "signal": "Opportunity"
           },
           {
             "headline": "Nvidia’s revenue blows past Wall Street expectations as AI boom accelerates",
-            "why_it_matters": "Nvidia's performance is seen as a barometer for the AI sector's growth, influencing investor confidence in tech stocks.",
+            "why_it_matters": "Nvidia's performance is seen as a bellwether for the AI sector, indicating strong market demand and growth potential.",
             "signal": "Opportunity"
           },
           {
@@ -310,48 +306,47 @@
           },
           {
             "headline": "Oil prices fall after Trump says Iran negotiations in final stages",
-            "why_it_matters": "Fluctuations in oil prices can have widespread economic implications, affecting markets and consumer costs.",
+            "why_it_matters": "Falling oil prices could impact global markets and economic stability, particularly in energy-dependent sectors.",
             "signal": "Risk"
           },
           {
             "headline": "EU agrees to implement US trade deal struck last summer",
-            "why_it_matters": "This agreement could stabilize transatlantic trade relations and impact tariffs, benefiting various sectors.",
+            "why_it_matters": "This agreement may ease trade tensions and foster better economic relations between the US and EU.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Monitor reactions to SpaceX's IPO announcement and its implications for the tech market.",
-            "Watch for updates on the EU's trade deal implementation and its effects on US-EU relations.",
-            "Keep an eye on oil price movements following Trump's statements on Iran negotiations."
+            "Watch for further developments in the Iran negotiations and their impact on oil prices.",
+            "Keep an eye on Nvidia's performance and its influence on the AI sector."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of Nvidia's earnings on tech stock performance and investor sentiment.",
-            "Track developments in labor union activities and corporate responses in the US.",
-            "Follow the integration of Vox Media under James Murdoch's leadership and its strategic direction."
+            "Evaluate the impact of James Murdoch's acquisition on Vox Media's future direction and market position.",
+            "Assess the long-term effects of US employers' spending on labor relations and unionization efforts.",
+            "Observe the EU's implementation of the US trade deal and its effects on transatlantic trade."
           ],
           "watch_list": [
-            "SpaceX IPO details and market reception",
-            "Nvidia's future earnings projections",
-            "Impact of US union spending on labor relations",
-            "Starbucks recycling practices and corporate responsibility",
-            "Oil price trends amid geopolitical developments"
+            "SpaceX IPO performance and investor interest.",
+            "Nvidia's future earnings reports and AI market trends.",
+            "Labor union activities and corporate responses in the US.",
+            "Oil price fluctuations in relation to geopolitical developments."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Market reactions to geopolitical events can be unpredictable.",
-          "The long-term effects of corporate acquisitions may take time to materialize. "
+          "Market sentiment remains mixed, indicating potential volatility ahead.",
+          "The outcomes of ongoing negotiations and acquisitions are uncertain and may evolve."
         ],
         "related_topics": [
           "What are the implications of SpaceX's IPO?",
-          "How is the AI boom affecting tech companies?",
-          "What are the latest trends in media acquisitions?",
+          "How is James Murdoch reshaping Vox Media?",
+          "What are the latest trends in AI revenue growth?",
           "How much do US companies spend on union opposition?",
-          "What is the status of US-EU trade relations?"
+          "What is the current state of oil prices and Iran negotiations?"
         ]
       },
-      "tweet_text": "Musk’s trillion-dollar dream, Murdoch’s media takeover, and shocking truths about Starbucks—today’s business...\n\nBusiness Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #15bn #175tn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Musk's trillion-dollar dream, Murdoch's media power play, and a shocking Starbucks revelation—today's business...\n\nBusiness Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #15bn #175tn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -362,11 +357,39 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1978,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.330, dampened ×0.6 → +0.1978). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.3341,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.557, dampened ×0.6 → +0.3341). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Here are 38 Memorial Day deals we recommend for $50 or less",
+          "url": "https://www.theverge.com/gadgets/935751/memorial-day-2026-best-cheap-tech-deals-under-50",
+          "published": "2026-05-23T10:00:00-04:00",
+          "summary": "Massive OLED TVs and Sonos speakers might be stealing the Memorial Day spotlight, but there are also plenty of great deals that won't set you back nearly as much. In fact, some of the best discounts we're seeing are on gadgets that retail for $50 or less, from portable chargers and 4K streaming devices to [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Hanging out in my favorite virtual coffee shop in Tokyo",
+          "url": "https://www.theverge.com/entertainment/936278/coffee-talk-tokyo-review-switch-xbox-ps5-steam",
+          "published": "2026-05-23T09:00:00-04:00",
+          "summary": "Finding a cafe that fits you can be a revelatory experience. For me at least, there are few places outside of my house that I can truly feel comfortable in. I'm lucky enough to have two options in walking distance: a coffee shop that's bright, airy, and full of art, and another that doubles as [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "I have a new go-to browser",
+          "url": "https://www.theverge.com/tech/936395/vivaldi-8-review-mandalorian-installer",
+          "published": "2026-05-23T08:00:00-04:00",
+          "summary": "Hi, friends! Welcome to Installer No. 129, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, come on you Gunners, and also you can read all the old editions at the Installer homepage.) This week, I've mostly been sick, which has meant nearly a full rewatch of Parks [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Google’s new anything-to-anything AI model is wild",
+          "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+          "published": "2026-05-23T07:00:00-04:00",
+          "summary": "Last year I deepfaked my kid's stuffed animal to make it look like his plush deer was on vacation. It was an experiment to see if I could re-create the events depicted in a Gemini ad Google was running, and I never showed the videos of Buddy the deer on his adventures to my four-year-old. [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Google&#8217;s AI search is so broken it can &#8216;disregard&#8217; what you&#8217;re looking for",
           "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
@@ -408,106 +431,76 @@
           "published": "2026-05-22T12:30:00-04:00",
           "summary": "They say that Memorial Day marks the unofficial start of summer. I have my doubts given the less-than-balmy weather in many parts of the US this weekend, though that doesn’t mean it’s not an appropriate time to pick up some summer essentials — including a portable speaker / smart lamp like Govee’s Table Lamp 2 [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Google appeals search monopoly ruling, says it won business &#8216;fair and square’",
-          "url": "https://www.theverge.com/policy/936175/google-search-monopoly-ruling-appeal",
-          "published": "2026-05-22T12:28:56-04:00",
-          "summary": "Google officially filed its appeal of the federal ruling deeming it an illegal search monopolist, arguing the decision \"crashed\" through legal guardrails. \"Google just prevailed in the marketplace fair and square,\" it writes in its legal filing. Google had already said it would appeal the ruling, which includes both the August 2024 decision about its [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Waymo suspends freeway driving amid safety concerns",
-          "url": "https://www.theverge.com/transportation/936129/waymo-freeway-suspend-atlanta-san-antonio-flood-pause",
-          "published": "2026-05-22T12:17:54-04:00",
-          "summary": "On Thursday, Waymo customers opened up the app and noticed something unusual: no more freeway service. Trips that would normally take a few minutes on the freeway were suddenly projected to last much longer via local roads. The company later confirmed that it had suspended freeway driving across all of its US markets over concerns [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "LG’s 77-inch B5 OLED TV is down to $1,500 and comes with a $200 gift card",
-          "url": "https://www.theverge.com/gadgets/936122/lg-b5-oled-77-best-buy-gift-card-memorial-day-deal-sale",
-          "published": "2026-05-22T10:48:00-04:00",
-          "summary": "Best Buy’s Memorial Day sale includes a good deal on a massive OLED TV. The 77-inch LG B5 is down to $1,499.99 (originally $2,999.99), and the purchase includes a $200 Best Buy gift card. I’m a 55-inch TV kind of person, but if you’ve got the budget — and the wall space — this is [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Trump phone is not here",
-          "url": "https://www.theverge.com/gadgets/936018/trump-mobile-t1-phone-still-hasnt-shipped",
-          "published": "2026-05-22T10:46:20-04:00",
-          "summary": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. It's now been more than a week since Trump Mobile announced that phones would \"start shipping this week.\" Last week Trump Mobile announced that the T1 Phone was ready to [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Google's AI search faces criticism for inaccuracies, while companies like Waymo and Meta are navigating challenges and opportunities in the tech landscape.",
-        "summary": "Today's technology news highlights significant developments including Google's AI search issues, Waymo's suspension of freeway driving, and the launch of Meta's new Forum app. Additionally, various Memorial Day sales are attracting consumer interest in tech gadgets.",
+        "key_takeaway": "Memorial Day sales are featuring significant discounts on tech gadgets, while new AI developments from Google and Meta are drawing attention.",
+        "summary": "Today's technology news highlights Memorial Day sales on various gadgets, including deals under $50, while also covering new AI models from Google and Meta's Forum app. Additionally, there are concerns about the effectiveness of Google's AI search and Elon Musk's Grok chatbot.",
         "key_themes": [
-          "AI search technology issues",
-          "Waymo safety concerns",
-          "Meta's new app launch",
-          "Memorial Day tech sales",
-          "Elon Musk's AI chatbot performance"
+          "Memorial Day tech deals",
+          "Google AI developments",
+          "Meta Forum app launch",
+          "Grok chatbot performance issues"
         ],
         "notable_headlines": [
           {
-            "headline": "Google's AI search is so broken it can 'disregard' what you're looking for",
-            "why_it_matters": "This highlights ongoing challenges in AI search accuracy, impacting user experience and trust in technology.",
-            "signal": "Risk"
+            "headline": "Here are 38 Memorial Day deals we recommend for $50 or less",
+            "why_it_matters": "This article highlights affordable tech gadgets available during Memorial Day sales, appealing to budget-conscious consumers.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Waymo suspends freeway driving amid safety concerns",
-            "why_it_matters": "Safety issues could hinder the deployment and acceptance of autonomous vehicles in urban settings.",
-            "signal": "Risk"
+            "headline": "Google’s new anything-to-anything AI model is wild",
+            "why_it_matters": "Google's latest AI model showcases innovative capabilities, potentially transforming user interactions with technology.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Meta’s Forum is part Reddit, part Facebook, and part Google AI Overview",
-            "why_it_matters": "Meta's new app could reshape social media interactions by integrating AI, but its success remains uncertain.",
+            "why_it_matters": "Meta's new app aims to enhance community engagement through AI, reflecting trends in social media integration.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Google appeals search monopoly ruling, says it won business 'fair and square'",
-            "why_it_matters": "This appeal could have significant implications for antitrust regulations and the tech industry at large.",
-            "signal": "Unclear"
+            "headline": "Google's AI search is so broken it can 'disregard' what you're looking for",
+            "why_it_matters": "Concerns about Google's AI search functionality could impact user trust and engagement with the platform.",
+            "signal": "Risk"
           },
           {
-            "headline": "Twelve South’s AirFly Pro 2 has hit one of its best prices ahead of summer travel",
-            "why_it_matters": "Consumer interest in travel gadgets is rising, indicating a potential boost in sales for tech accessories this season.",
-            "signal": "Opportunity"
+            "headline": "Elon, stop trying to make Grok happen",
+            "why_it_matters": "The underperformance of Musk's Grok chatbot raises questions about its viability in the competitive AI landscape.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor responses to Google's AI search issues as user feedback may prompt changes.",
-            "Watch for updates on Waymo's safety protocols and their impact on service availability.",
-            "Expect more announcements regarding Memorial Day sales as retailers capitalize on the holiday."
+            "Monitor ongoing Memorial Day sales for additional tech deals",
+            "Watch for user feedback on Google's new AI model",
+            "Observe reactions to Meta's Forum app launch"
           ],
           "next_1_4_weeks": [
-            "Observe how Meta's Forum app performs in the market and its reception among users.",
-            "Follow the developments in Google's appeal against the monopoly ruling and its implications for the tech industry.",
-            "Keep an eye on Waymo's operational adjustments and any new safety measures they implement."
+            "Evaluate the performance of Google's AI search improvements",
+            "Track user adoption rates of Meta's Forum app",
+            "Assess the impact of Grok's performance on xAI's reputation"
           ],
           "watch_list": [
-            "Google's AI search updates",
-            "Waymo's safety protocols",
-            "Meta's Forum app performance",
-            "Memorial Day sales trends",
-            "Elon Musk's AI initiatives"
+            "Upcoming tech product launches",
+            "AI advancements from major tech companies",
+            "Consumer electronics sales trends post-Memorial Day sales season",
+            "User reviews of new AI tools"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating a balance of positive and negative news in the technology sector.",
-          "Some developments, like Google's appeal, may take time to unfold and show clear outcomes."
+          "Sales data may vary by retailer and region",
+          "AI developments are subject to rapid changes and updates"
         ],
         "related_topics": [
-          "What are the latest issues with Google's AI search?",
-          "How is Waymo addressing safety concerns?",
-          "What new features does Meta's Forum app offer?",
-          "What are the best tech deals for Memorial Day?",
-          "How is Elon Musk's Grok performing in the market?"
+          "What are the best Memorial Day tech deals",
+          "Latest developments in Google AI",
+          "Meta's new Forum app features",
+          "Performance issues with AI chatbots",
+          "Trends in consumer electronics sales"
         ]
       },
-      "tweet_text": "Google's AI is missing the mark, and summer deals are heating up—don't miss out on the best prices!\n\nTechnology Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Best #Part #Google #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unlock the best tech deals and mind-blowing AI breakthroughs that could change how you search...\n\nTechnology Sentiment: Positive (+0.33)\n\nRead the full breakdown: https://tldrnews.info\n\n#Part #8216disregard8217 #Ahead #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -610,73 +603,74 @@
       ],
       "ai_report": {
         "key_takeaway": "Kyle Busch, a two-time NASCAR Cup Series champion, has died at the age of 41, marking a significant loss for the motorsports community.",
-        "summary": "Today's sports news includes the tragic death of NASCAR champion Kyle Busch, updates on NBA free agency, and significant player injuries in the NFL. Additionally, Pep Guardiola will step down as Manchester City manager, and the Chicago Bears are exploring new stadium options outside the city.",
+        "summary": "Today's sports news highlights the passing of NASCAR champion Kyle Busch, the NBA free agent rankings, and significant player injuries in the NFL and WNBA. Additionally, Manchester City manager Pep Guardiola will step down, and the Chicago Bears are exploring stadium options outside of Chicago.",
         "key_themes": [
-          "Kyle Busch death impact",
+          "Kyle Busch death impact on NASCAR",
           "NBA free agency updates",
           "NFL player injuries",
           "Manchester City managerial changes",
-          "Chicago Bears stadium plans"
+          "Chicago Bears stadium situation"
         ],
         "notable_headlines": [
           {
             "headline": "NASCAR icon Kyle Busch dies at the age of 41",
-            "why_it_matters": "Busch was a prominent figure in NASCAR, known for his record wins and contributions to the sport.",
+            "why_it_matters": "Busch's death is a major loss for NASCAR, where he was a celebrated figure and record-holder.",
             "signal": "Risk"
           },
           {
             "headline": "Guardiola to step down as Man City boss",
-            "why_it_matters": "Guardiola's departure signals a major change for Manchester City, impacting their future strategy and performance.",
+            "why_it_matters": "Guardiola's departure could lead to significant changes at Manchester City, impacting their future performance.",
             "signal": "Unclear"
           },
           {
             "headline": "Giants DL Robertson-Harris tears Achilles",
-            "why_it_matters": "This injury could significantly affect the Giants' defensive lineup for the upcoming season.",
+            "why_it_matters": "This injury could severely affect the Giants' defensive lineup for the upcoming season.",
             "signal": "Risk"
           },
           {
             "headline": "Bears say Chicago stadium options 'exhausted'",
-            "why_it_matters": "The Bears' potential move could reshape the sports landscape in Chicago and surrounding areas.",
+            "why_it_matters": "The Bears' potential move could reshape the NFL landscape in Chicago and surrounding areas.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Sources: Stafford gets 1-year, $55M extension",
-            "why_it_matters": "Stafford's extension solidifies his role with the Rams, impacting their future roster decisions.",
-            "signal": "Opportunity"
+            "headline": "Fever warned over Clark injury report omission",
+            "why_it_matters": "This incident raises questions about transparency and compliance in the WNBA regarding player injuries.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further reactions to Kyle Busch's death from the motorsports community",
-            "Updates on the NBA playoff series as they progress",
-            "Injury updates on Giants DL Robertson-Harris"
+            "Further details on Kyle Busch's memorial services are expected.",
+            "Updates on the NBA playoffs as teams compete for the championship.",
+            "Injury updates on Giants' Robertson-Harris and WNBA's Caitlin Clark."
           ],
           "next_1_4_weeks": [
-            "Potential candidates for Manchester City manager",
-            "Implications of Stafford's contract extension on Rams' salary cap",
-            "Continued developments in Bears' stadium negotiations"
+            "The impact of Guardiola's departure on Manchester City will unfold as they search for a new manager.",
+            "The NFL offseason will continue with player signings and trades as teams prepare for the upcoming season.",
+            "The NBA playoffs will progress, with potential shifts in team dynamics based on current series outcomes."
           ],
           "watch_list": [
-            "Kyle Busch tributes and memorials",
-            "NBA playoff outcomes and implications",
-            "NFL injury reports and player updates",
-            "Future of Manchester City under new management"
+            "Monitor the situation regarding Congo's World Cup entry amid Ebola concerns.",
+            "Follow developments in the NBA free agency landscape as contracts are finalized.",
+            "Watch for updates on the Chicago Bears' stadium negotiations.",
+            "confidence",
+            "High"
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating mixed feelings in the sports community regarding today's news.",
-          "Details surrounding the circumstances of Kyle Busch's death are still emerging."
+          "The sentiment score is neutral, indicating a balanced tone in today's sports news.",
+          "Details regarding player injuries and team decisions may evolve rapidly."
         ],
         "related_topics": [
-          "What are the latest updates on Kyle Busch's death",
-          "NBA free agency news and rankings",
+          "What are the latest updates on Kyle Busch's legacy?",
+          "NBA free agency news and player rankings",
+          "Impact of Guardiola stepping down at Manchester City",
           "NFL injury reports and player updates",
-          "Manchester City managerial changes",
-          "Chicago Bears stadium relocation plans"
+          "Chicago Bears stadium relocation news"
         ]
       },
-      "tweet_text": "Tragedy strikes the sports world as NASCAR legend Kyle Busch passes away at just 41, leaving fans in shock...\n\nSports Sentiment: Neutral (-0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#1year #Achilles #Agent #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Tragedy strikes the sports world as NASCAR legend Kyle Busch passes away at just 41—his legacy will forever...\n\nSports Sentiment: Neutral (-0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#1year #Achilles #Agent #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -687,9 +681,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0615,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.103, dampened ×0.6 → +0.0615). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0157,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.026, dampened ×0.6 → +0.0157). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -707,10 +701,45 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "New AI body map reveals obesity’s hidden attack on facial nerves",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260522023308.htm",
+          "published": "Sat, 23 May 2026 08:34:45 EDT",
+          "summary": "Scientists have created an AI-powered system that can scan and map an entire mouse body in extraordinary detail — and it just uncovered a surprising new effect of obesity. Beyond disrupting metabolism, obesity appears to damage facial sensory nerves linked to touch and sensation, while also triggering widespread inflammation across the body.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover the perfect temperature to keep mangoes fresh much longer",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260522023136.htm",
+          "published": "Sat, 23 May 2026 10:09:11 EDT",
+          "summary": "Scientists found that storing mangoes at 54°F dramatically slows ripening and keeps the fruit fresh far longer than typical tropical temperatures. The cooler conditions helped mangoes stay firm, retain moisture, and preserve important antioxidants while reducing cellular damage. Researchers also uncovered the internal defense systems that switch on during cold storage, protecting the fruit from stress and decay.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Einstein’s “wormhole” may actually reveal a hidden mirror of time",
           "url": "https://www.sciencedaily.com/releases/2026/05/260522023129.htm",
           "published": "Fri, 22 May 2026 09:09:27 EDT",
           "summary": "What if wormholes were never cosmic tunnels at all? New research suggests Einstein and Rosen’s famous “bridge” may actually reveal something even stranger: time itself could flow in two directions at once. Instead of connecting distant places in space, these bridges may connect mirror versions of time deep inside quantum physics, potentially solving the long-standing black hole information paradox and hinting that our universe existed before the Big Bang.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA’s Psyche spacecraft captures stunning Mars images during high-speed flyby",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260522023123.htm",
+          "published": "Sat, 23 May 2026 08:18:29 EDT",
+          "summary": "NASA’s Psyche spacecraft skimmed past Mars in a precision flyby that helped catapult it deeper into space toward its ultimate target: the bizarre metal-rich asteroid Psyche. During the encounter, it snapped detailed images of heavily cratered Martian terrain, including the striking double-ring Huygens crater. The flyby gave the spacecraft a critical gravity boost without using extra fuel.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA stunned as strange solar radio burst lasts 19 days",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260522023120.htm",
+          "published": "Sat, 23 May 2026 08:06:50 EDT",
+          "summary": "NASA scientists were stunned when a strange radio signal from the Sun refused to fade away. Instead of lasting a few hours or days like normal solar radio bursts, this one persisted for an astonishing 19 days — shattering the previous record. Using a fleet of spacecraft spread across the solar system, researchers tracked the mysterious signal to a massive magnetic structure on the Sun called a helmet streamer.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover giant sea predator Tylosaurus rex that terrorized ancient oceans",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260522023111.htm",
+          "published": "Sat, 23 May 2026 06:50:05 EDT",
+          "summary": "A colossal new sea predator named Tylosaurus rex has been identified from fossils found in Texas, revealing a brutal 43-foot-long hunter that ruled ancient oceans 80 million years ago. The discovery not only introduces one of the biggest mosasaurs ever known, but also shakes up long-standing ideas about how these marine reptiles evolved.",
           "source": "ScienceDaily"
         },
         {
@@ -740,112 +769,80 @@
           "published": "Thu, 21 May 2026 22:41:53 EDT",
           "summary": "Astronomers using NASA’s James Webb Space Telescope have uncovered a rare world unlike anything in our solar system — a giant planet about the size of Saturn with surprisingly Earth-like temperatures and an atmosphere packed with methane. The planet, TOI-199b, sits more than 330 light-years away and is one of the first known “temperate” gas giants ever studied in detail.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists discover a strange hidden state in “sandwich” molecules",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260521072352.htm",
-          "published": "Fri, 22 May 2026 09:38:12 EDT",
-          "summary": "Scientists have uncovered a strange hidden structure formed during the creation of metallocenes, a class of sandwich-like molecules used in everything from catalysis to medicine. The newly characterized intermediate features a rare “double ring-slip,” where both carbon rings partially detach from the metal atom. By finally observing this fleeting state, researchers gained fresh insight into how these molecules assemble and transform.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "MIT scientists discover amino acid that helps the gut heal itself",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260520233223.htm",
-          "published": "Thu, 21 May 2026 00:40:33 EDT",
-          "summary": "MIT scientists have identified cysteine — an amino acid found in foods like meat, dairy, beans, and nuts — as a potent trigger for intestinal repair. In mice, a cysteine-rich diet activated immune cells that released healing signals, helping stem cells rebuild damaged intestinal tissue after radiation exposure. Researchers say the discovery could eventually lead to new dietary therapies for cancer patients suffering from treatment-related gut damage.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists discover the nutrient that can supercharge cellular energy",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260520233221.htm",
-          "published": "Thu, 21 May 2026 01:34:34 EDT",
-          "summary": "Researchers discovered that leucine, a nutrient found in protein-rich foods, can supercharge mitochondria by protecting crucial energy-producing proteins inside cells. The breakthrough uncovers a powerful new link between diet and cellular energy — with possible implications for cancer and metabolic disease treatments.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Common pesticide linked to hidden brain damage, scientists warn",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260520233218.htm",
-          "published": "Thu, 21 May 2026 08:27:22 EDT",
-          "summary": "Scientists have uncovered alarming new evidence that a common insecticide may leave lasting marks on the developing brain before a child is even born. Researchers studying New York City children found that prenatal exposure to chlorpyrifos — a pesticide once widely used indoors and still used in agriculture — was linked to widespread brain abnormalities and weaker motor skills years later.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Childhood junk food may rewire the brain for life",
-          "url": "https://www.sciencedaily.com/releases/2026/05/260520093807.htm",
-          "published": "Thu, 21 May 2026 09:31:48 EDT",
-          "summary": "Eating too much junk food early in life may rewire the brain in ways that last into adulthood, even after switching to a healthier diet. Scientists found that high-fat, high-sugar diets changed feeding behavior and disrupted appetite-control regions in the brain. Excitingly, certain gut-friendly bacteria and prebiotic fibers appeared to help undo some of the damage.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific studies reveal significant health risks associated with vitamin B12 levels, cancer-causing chemicals in food, and the impact of diet on brain development.",
-        "summary": "Today's science headlines highlight critical findings regarding vitamin B12's role in brain health, the discovery of cancer-causing chemicals in common foods, and intriguing insights into the nature of time and space. Other notable research includes the potential benefits of certain amino acids for gut health, the implications of dietary choices on brain wiring, and the identification of harmful pesticides affecting brain development in children.",
+        "key_takeaway": "Recent scientific discoveries highlight potential health risks from diet, new insights into obesity, and groundbreaking astronomical findings.",
+        "summary": "Today's science headlines cover a range of topics including health risks associated with vitamin B12, cancer-causing chemicals in food, and significant discoveries in astronomy and biology. Researchers warn that current vitamin B12 guidelines may not adequately protect brain health in older adults, while new findings reveal cancer-causing chemicals in everyday foods. An AI body map has uncovered obesity's effects on facial nerves, and scientists have identified optimal storage temperatures for mangoes to prolong freshness. Additionally, intriguing research suggests that Einstein's concept of wormholes may relate to time itself, and NASA's Psyche spacecraft has captured remarkable images of Mars during a flyby. Other notable discoveries include a record-breaking solar radio burst, the identification of a giant sea predator, and insights into the role of ancient asteroid craters in the evolution of oxygen-producing life.",
         "key_themes": [
-          "Vitamin B12 and brain health",
-          "Cancer-causing chemicals in food",
-          "Dietary impacts on brain development",
-          "Quantum physics and time",
-          "Gut health and amino acids"
+          "health risks of vitamin B12",
+          "cancer-causing chemicals in food",
+          "AI and obesity research",
+          "NASA Mars flyby images",
+          "Einstein wormhole theory",
+          "ancient asteroid craters and oxygen life"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists warn that current vitamin B12 guidelines may be putting your brain at risk",
-            "why_it_matters": "This research suggests that existing vitamin B12 recommendations may be insufficient for protecting cognitive function in older adults.",
+            "why_it_matters": "This research could lead to revised health guidelines for older adults regarding vitamin B12 intake.",
             "signal": "Risk"
           },
           {
             "headline": "Scientists uncover cancer-causing chemicals hidden in everyday foods",
-            "why_it_matters": "Identifying these chemicals raises concerns about long-term health risks associated with common cooking methods.",
+            "why_it_matters": "Identifying these chemicals may prompt changes in food safety regulations and consumer awareness.",
             "signal": "Risk"
           },
           {
-            "headline": "Einstein’s “wormhole” may actually reveal a hidden mirror of time",
-            "why_it_matters": "This theory could reshape our understanding of time and black holes, potentially solving longstanding scientific puzzles.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "“Zombie cells” aren’t always bad and that could transform anti-aging medicine",
-            "why_it_matters": "Understanding the dual role of aging cells may lead to more effective anti-aging therapies.",
+            "headline": "New AI body map reveals obesity’s hidden attack on facial nerves",
+            "why_it_matters": "This discovery could influence future obesity treatments and understanding of its broader health impacts.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Common pesticide linked to hidden brain damage, scientists warn",
-            "why_it_matters": "This finding highlights the potential long-term effects of pesticide exposure on child development.",
-            "signal": "Risk"
+            "headline": "NASA’s Psyche spacecraft captures stunning Mars images during high-speed flyby",
+            "why_it_matters": "The images provide valuable data for future space missions and enhance our understanding of Mars.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Einstein’s “wormhole” may actually reveal a hidden mirror of time",
+            "why_it_matters": "This theory could reshape our understanding of physics and the nature of the universe.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis on the implications of vitamin B12 levels on cognitive health is expected.",
+            "Further analysis of the implications of vitamin B12 research is expected.",
             "More studies may emerge regarding the health risks of cooking methods and food safety.",
-            "Anticipated discussions on the impact of dietary choices on brain health in upcoming conferences."
+            "Anticipation builds for additional findings from NASA's Psyche mission."
           ],
           "next_1_4_weeks": [
-            "Research on the effects of amino acids on gut health may lead to new dietary recommendations.",
-            "Expect more findings on the relationship between diet and brain development in children.",
-            "Potential policy discussions regarding pesticide regulations based on recent findings."
+            "Expect discussions on the implications of obesity research on public health policies.",
+            "New studies may be published regarding the effects of ancient craters on early life.",
+            "Further exploration of the implications of Einstein's theories in modern physics."
           ],
           "watch_list": [
-            "Developments in anti-aging therapies targeting harmful cells.",
-            "New research on the safety of common cooking methods and food chemicals.",
-            "Updates on the implications of quantum physics research on time and space.",
-            "Ongoing studies on the effects of childhood diet on long-term brain health."
+            "Developments in dietary guidelines related to vitamin B12.",
+            "Research on the impact of cooking methods on food safety.",
+            "Updates from NASA regarding the Psyche mission and Mars exploration.",
+            "confidence",
+            "Medium"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The findings on vitamin B12 and brain health are preliminary and require further validation.",
-          "The implications of the cancer-causing chemicals in food are still being studied and debated."
+          "The findings regarding vitamin B12 and brain health are preliminary and require further validation.",
+          "The identification of cancer-causing chemicals in food is based on current research and may evolve with new studies.",
+          "The implications of Einstein's theories are still theoretical and subject to debate."
         ],
         "related_topics": [
-          "What are the latest findings on vitamin B12 and brain health?",
+          "What are the health risks of vitamin B12 deficiency?",
           "How do cooking methods affect food safety?",
-          "What is the impact of childhood diet on brain development?",
-          "What new discoveries have been made in quantum physics?",
-          "How can amino acids improve gut health?"
+          "What new discoveries has NASA made about Mars?",
+          "What is the significance of ancient asteroid impacts on life?",
+          "How does obesity affect the nervous system?"
         ]
       },
-      "tweet_text": "Are your vitamins endangering your brain? New research reveals shocking truths about B12 guidelines!\n\nScience Sentiment: Mixed (+0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Hidden #Discover #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Is your morning vitamin routine secretly risking your brain health?\n\nScience Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Hidden #Discover #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
