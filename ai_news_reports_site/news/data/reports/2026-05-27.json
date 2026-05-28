@@ -1,16 +1,12 @@
 {
   "date": "2026-05-27",
-  "generated_at_utc": "2026-05-27T16:58:46Z",
+  "generated_at_utc": "2026-05-28T00:07:13Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "using",
-    "trade",
-    "toward",
-    "steps",
-    "court",
-    "behind",
-    "actually"
+    "trump",
+    "prices",
+    "iran"
   ],
   "categories": {
     "world": {
@@ -22,23 +18,44 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2631,
+        "score": -0.341,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.438, dampened ×0.6 → -0.2631). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.568, dampened ×0.6 → -0.3410). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Israel issues evacuation order for swathes of southern Lebanon",
+          "url": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 27 May 2026 20:26:03 GMT",
+          "summary": "The military says areas south of the Zahrani River are now \"combat zones\" as it threatens Hezbollah with fresh strikes.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump says US 'not satisfied' with Iran deal yet",
+          "url": "https://www.bbc.com/news/articles/c74dy9jw1q9o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 27 May 2026 17:37:33 GMT",
+          "summary": "The US president says he believes Iran wants to reach a deal but there is still no agreement on its terms.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Jill Biden says she thought husband was 'having a stroke' during 2024 debate",
+          "url": "https://www.bbc.com/news/articles/c99l270vy3no?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 27 May 2026 21:06:19 GMT",
+          "summary": "The former US first lady told CBS News that she was frightened by Joe Biden's performance against Donald Trump.",
+          "source": "BBC News"
+        },
+        {
           "title": "Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns",
           "url": "https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 27 May 2026 10:40:29 GMT",
+          "published": "Wed, 27 May 2026 18:50:50 GMT",
           "summary": "Tedros Adhanom Ghebreyesus said fighting in DR Congo was hampering efforts to stop spread",
           "source": "BBC News"
         },
         {
-          "title": "Israel orders evacuation of Lebanese city as conflict with Hezbollah escalates",
-          "url": "https://www.bbc.com/news/articles/cj3pgrpmlklo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 27 May 2026 15:16:13 GMT",
-          "summary": "Israel's military tells residents of Tyre it will \"act forcefully\" against the armed group, after another wave of strikes in south and east Lebanon.",
+          "title": "Matthew Perry's assistant jailed for 41 months over actor's ketamine death",
+          "url": "https://www.bbc.com/news/articles/cjepvx151gqo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 27 May 2026 20:09:33 GMT",
+          "summary": "Kenneth Iwamasa, who pleaded guilty last year to one count of conspiracy to distribute ketamine causing death, said he \"will forever regret\" his actions.",
           "source": "BBC News"
         },
         {
@@ -89,99 +106,74 @@
           "published": "Wed, 27 May 2026 11:53:06 GMT",
           "summary": "Ken Paxton's victory sets up what will be a closely watched contest in November's midterm elections.",
           "source": "BBC News"
-        },
-        {
-          "title": "South Korea detains dissident who fled China in rubber boat",
-          "url": "https://www.bbc.com/news/articles/c87q2pdwpw3o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 27 May 2026 11:12:33 GMT",
-          "summary": "Dong Guangping, an activist and former police officer, spent hours at sea before reaching Korean waters.",
-          "source": "BBC News"
-        },
-        {
-          "title": "YouTuber arrested for allegedly using AI to defame Korean actor",
-          "url": "https://www.bbc.com/news/articles/c759y6pvezgo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 27 May 2026 02:54:19 GMT",
-          "summary": "The YouTuber allegedly made false claims that fuelled a career-ending scandal for Kim Soo-hyun.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Nasa unveils next steps to build permanent Moon base",
-          "url": "https://www.bbc.com/news/articles/c39228nxyr4o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 26 May 2026 20:25:50 GMT",
-          "summary": "Nasa plans to send hopping drones and roving vehicles to the Moon as part of plans for a permanent Moon base.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The WHO warns of a catastrophic situation in DR Congo due to Ebola and ongoing conflict, while tensions escalate between Israel and Hezbollah.",
-        "summary": "Today's headlines highlight significant global issues, including the WHO's warning about the Ebola crisis in DR Congo amid conflict, escalating tensions in Israel and Lebanon, and a successful rescue operation in Laos. Additionally, Ghana welcomes a papal apology regarding the Catholic Church's role in slavery, and South Korea detains a Chinese dissident.",
+        "key_takeaway": "Israel escalates military actions in Lebanon and Gaza amid ongoing tensions, while the WHO warns of a health crisis in DR Congo.",
+        "summary": "Today's headlines reflect escalating military tensions in the Middle East, particularly involving Israel and Hezbollah, and a critical health situation in the Democratic Republic of Congo due to Ebola and conflict. Additionally, political developments in the US and a significant apology from the Pope regarding slavery were noted.",
         "key_themes": [
-          "Ebola outbreak in DR Congo",
-          "Israel Hezbollah conflict",
-          "rescue operations in Laos",
-          "papal apology in Ghana",
-          "South Korea dissident detention"
+          "Middle East military tensions",
+          "Ebola crisis in DR Congo",
+          "US political developments",
+          "Pope's apology on slavery"
         ],
         "notable_headlines": [
           {
+            "headline": "Israel issues evacuation order for swathes of southern Lebanon",
+            "why_it_matters": "The military's declaration of combat zones highlights the increasing conflict with Hezbollah.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Ebola-hit DR Congo faces 'catastrophic collision' of disease and conflict, WHO warns",
-            "why_it_matters": "The WHO's warning underscores the dual crises of disease and violence affecting humanitarian efforts in DR Congo.",
+            "why_it_matters": "The WHO's warning underscores the severe impact of ongoing violence on public health efforts.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Israel orders evacuation of Lebanese city as conflict with Hezbollah escalates",
-            "why_it_matters": "The evacuation order indicates a significant escalation in military tensions in the region.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Five people found alive after week trapped in flooded Laos cave",
-            "why_it_matters": "The successful rescue operation brings hope amid a challenging situation in Laos.",
-            "signal": "Opportunity"
           },
           {
             "headline": "Israeli strike in Gaza City kills new head of Hamas's military wing",
-            "why_it_matters": "This strike could further escalate the ongoing conflict between Israel and Hamas.",
+            "why_it_matters": "The targeted killing of a key Hamas leader may escalate the ongoing conflict further.",
             "signal": "Risk"
           },
           {
             "headline": "Ghana welcomes Pope's apology over Catholic Church's role in slavery",
-            "why_it_matters": "The apology marks a significant moment in addressing historical injustices related to slavery.",
+            "why_it_matters": "This acknowledgment may influence historical reconciliation efforts and discussions on reparations.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "Trump says US 'not satisfied' with Iran deal yet",
+            "why_it_matters": "Continued negotiations with Iran could impact international relations and regional stability.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in DR Congo regarding Ebola and conflict resolution efforts.",
-            "Watch for updates on the Israel-Hezbollah conflict and potential military actions.",
-            "Follow the search efforts in Laos for the remaining missing villagers."
+            "Monitor developments in Israel and Lebanon for potential escalations in conflict.",
+            "Watch for updates on the Ebola situation in DR Congo as health efforts are challenged by violence.",
+            "Follow reactions to the Pope's apology in Ghana and its implications for the Catholic Church."
           ],
           "next_1_4_weeks": [
-            "Expect further international responses to the humanitarian crisis in DR Congo.",
-            "Anticipate reactions from the international community regarding the Israeli military actions.",
-            "Observe the impact of the Pope's apology on Ghana's societal discourse."
+            "Expect ongoing discussions regarding the Iran nuclear deal as the US seeks to negotiate terms.",
+            "Anticipate further developments in the US political landscape as midterm elections approach.",
+            "Keep an eye on the humanitarian situation in DR Congo as the conflict continues."
           ],
           "watch_list": [
-            "Ebola outbreak status in DR Congo",
-            "Israel-Hezbollah military developments",
-            "Rescue operations in Laos",
-            "Responses to the Pope's apology in Ghana",
-            "Political implications of the Texas primary results"
+            "Israeli military actions in Lebanon and Gaza",
+            "WHO updates on Ebola in DR Congo",
+            "US political dynamics leading to midterm elections",
+            "Reactions to the Pope's apology in Ghana"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in DR Congo is fluid and may change rapidly due to ongoing conflict.",
-          "Military actions in Israel and Lebanon could escalate further, impacting regional stability."
+          "The situation in the Middle East is fluid and may change rapidly.",
+          "The impact of the Pope's apology on historical grievances is yet to be fully assessed."
         ],
         "related_topics": [
-          "What is the current situation in DR Congo regarding Ebola?",
-          "How is the conflict between Israel and Hezbollah evolving?",
-          "What are the latest updates on the Laos cave rescue?",
-          "What was the significance of the Pope's apology in Ghana?",
-          "What are the implications of the Texas primary results?"
+          "What are the latest developments in the Middle East conflict?",
+          "How is the Ebola crisis affecting DR Congo?",
+          "What are the implications of the US-Iran negotiations?"
         ]
       },
-      "tweet_text": "From a flooded cave rescue to escalating conflicts, today's headlines tell a gripping tale of survival and strife.\n\nWorld Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#City #Conflict #Acted #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From a terrifying cave rescue to a shocking debate moment, today's world news is packed with drama and urgency.\n\nWorld Sentiment: Negative (-0.34)\n\nRead the full breakdown: https://tldrnews.info\n\n#Jailed #2024 #Actors #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -192,23 +184,23 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0041,
+        "score": -0.0393,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.007, dampened ×0.6 → -0.0041). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.066, dampened ×0.6 → -0.0393). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Fired BP chair disputes oil company’s claims of poor conduct",
           "url": "https://www.theguardian.com/business/2026/may/27/fired-bp-chair-albert-manifold-disputes-oil-companys-claims-of-poor-conduct",
           "published": "Wed, 27 May 2026 10:41:01 GMT",
-          "summary": "<p>Albert Manifold says he was removed without warning and ‘will not allow a false narrative to go unchallenged’</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/may/27/energy-bills-increase-ofgem-price-cap-business-live-news\">Business live – latest updates</a></p></li></ul><p>The ousted chair of BP, Albert Manifold, has accused the oil company of firing him without warning and disputed reports about his conduct, amid the latest boardroom turmoil to rock the company.</p><p>I",
+          "summary": "<p>Albert Manifold says he was removed without warning and ‘will not allow a false narrative to go unchallenged’</p><p>The ousted chair of BP, Albert Manifold, has accused the oil company of firing him without warning and disputed reports about his conduct, amid the latest boardroom turmoil to rock the company.</p><p>In an emailed statement, Manifold said he was “removed without warning and without explanation” by the FTSE 100 company.</p> <a href=\"https://www.theguardian.com/business/2026/may/2",
           "source": "The Guardian"
         },
         {
-          "title": "Oil price drops as Iran state media releases detail of draft peace deal with US - as it happened",
-          "url": "https://www.theguardian.com/business/live/2026/may/27/energy-bills-increase-ofgem-price-cap-business-live-news",
-          "published": "Wed, 27 May 2026 14:17:50 GMT",
-          "summary": "<p>Rolling coverage of the latest economic and financial news</p><p>Shares in oil company <strong>BP </strong>are still falling today, down 0.9%, after the company told investors yesterday that it had removed its chair <strong>Albert Manifold</strong> over “serious” governance and conduct concerns.</p><p>Manifold told <strong><a href=\"https://www.bloomberg.com/news/articles/2026-05-26/bp-s-ousted-chairman-manifold-disputes-accusations-of-wrongdoing\">Bloomberg News</a> </strong>last night that he",
+          "title": "60 Minutes journalist accuses CBS News of penalizing her after contract not renewed",
+          "url": "https://www.theguardian.com/media/2026/may/27/60-minutes-sharyn-alfonsi",
+          "published": "Wed, 27 May 2026 16:49:41 GMT",
+          "summary": "<p>Sharyn Alfonsi confirms contract expiration after decrying network over ‘the spread of corporate meddling’ last month</p><p>The Veteran 60 Minutes correspondent Sharyn Alfonsi has accused CBS News of penalizing her for “refusing to sanitize factually accurate reporting” and sending a “chilling message” to the newsroom by declining to renew her contract for the show.</p><p>Alfonsi was at the center of a national firestorm after the CBS News editor-in-chief, Bari Weiss, shelved a segment she ha",
           "source": "The Guardian"
         },
         {
@@ -283,73 +275,70 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "BP's ousted chair disputes claims of misconduct amid falling oil prices and ongoing geopolitical tensions.",
-        "summary": "The business landscape today is marked by turmoil at BP, where former chair Albert Manifold disputes his firing over alleged misconduct. Oil prices are fluctuating due to geopolitical developments, particularly regarding Iran. Meanwhile, President Trump has criticized state regulations on prediction markets, emphasizing the need for federal oversight. The economic outlook remains uncertain as concerns about a potential financial crisis loom.",
+        "key_takeaway": "Oil prices have fluctuated significantly, rising above $100 a barrel amid geopolitical tensions, while corporate governance issues continue to surface in major companies.",
+        "summary": "Today's business news highlights significant fluctuations in oil prices due to geopolitical tensions, ongoing corporate governance disputes, and the impact of media dynamics on journalism. Albert Manifold, the ousted BP chair, disputes claims regarding his conduct, while CBS News faces accusations of penalizing a journalist for her reporting. Additionally, President Trump criticizes state regulations on prediction markets, and the energy market is reacting to ongoing conflicts in the Middle East.",
         "key_themes": [
-          "BP chair Albert Manifold controversy",
           "oil price fluctuations",
-          "Trump prediction markets regulation",
-          "geopolitical tensions affecting oil prices",
-          "financial crisis concerns"
+          "corporate governance issues",
+          "media industry challenges"
         ],
         "notable_headlines": [
           {
             "headline": "Fired BP chair disputes oil company’s claims of poor conduct",
-            "why_it_matters": "The dispute highlights governance issues within BP and could impact investor confidence.",
+            "why_it_matters": "Albert Manifold's accusations against BP highlight ongoing governance issues within major corporations.",
             "signal": "Risk"
           },
           {
-            "headline": "Oil price drops as Iran state media releases detail of draft peace deal with US",
-            "why_it_matters": "Oil prices are sensitive to geopolitical developments, affecting global markets and economies.",
+            "headline": "60 Minutes journalist accuses CBS News of penalizing her after contract not renewed",
+            "why_it_matters": "Sharyn Alfonsi's claims raise concerns about journalistic integrity and corporate influence in media.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Oil price rises back above $100 a barrel as energy market may be past ‘point of no return’",
+            "why_it_matters": "Rising oil prices indicate potential instability in the energy market amid geopolitical tensions.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
+            "why_it_matters": "Fluctuating oil prices reflect the uncertainty in the geopolitical landscape and its impact on global markets.",
             "signal": "Unclear"
           },
           {
-            "headline": "‘Scum’: Trump attacks US states’ efforts to regulate prediction markets",
-            "why_it_matters": "Trump's comments could influence regulatory approaches to emerging financial markets.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Oil prices rise back above $100 a barrel as energy market may be past ‘point of no return’",
-            "why_it_matters": "Rising oil prices can have widespread economic implications, affecting inflation and consumer spending.",
-            "signal": "Risk"
-          },
-          {
             "headline": "The world is heading toward a financial crisis – the state of US politics has left us ill-prepared",
-            "why_it_matters": "Concerns about financial stability could affect investment and economic growth.",
+            "why_it_matters": "Concerns about the US political landscape's impact on economic stability are growing as a potential crisis looms.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor BP's stock performance following the chair's dispute.",
-            "Watch for updates on the US-Iran peace negotiations and their impact on oil prices.",
-            "Observe any regulatory changes regarding prediction markets."
+            "Monitor oil price trends as geopolitical events unfold.",
+            "Watch for further developments in corporate governance disputes at BP and CBS News.",
+            "Keep an eye on media responses to allegations of corporate influence."
           ],
           "next_1_4_weeks": [
-            "Evaluate the long-term effects of the BP leadership change on the company's strategy.",
-            "Assess the implications of ongoing geopolitical tensions on global oil supply and prices.",
-            "Follow developments in US financial regulations and their potential impact on markets."
+            "Assess the impact of oil price fluctuations on global markets and consumer behavior.",
+            "Evaluate the long-term effects of corporate governance issues on investor confidence.",
+            "Observe the media landscape for changes in reporting practices following recent controversies."
           ],
           "watch_list": [
-            "BP's governance and leadership changes",
-            "Oil price trends and geopolitical developments",
-            "US prediction market regulations",
-            "Potential financial crisis indicators"
+            "Oil market developments amid Middle East tensions.",
+            "Corporate governance changes at major companies like BP and CBS.",
+            "Media industry reactions to allegations of censorship and corporate influence.",
+            "Potential economic indicators signaling a financial crisis."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation with BP is evolving and may change rapidly.",
-          "Geopolitical developments are unpredictable and can significantly impact oil prices.",
-          "Economic forecasts are subject to change based on new data and events."
+          "The situation in the oil market is highly volatile and subject to rapid changes due to geopolitical events.",
+          "Corporate governance issues can evolve quickly and may lead to further developments in the coming days."
         ],
         "related_topics": [
-          "What is happening with BP's leadership changes?",
-          "How are oil prices affected by geopolitical tensions?",
-          "What are the implications of Trump's comments on prediction markets?"
+          "What are the latest trends in oil prices?",
+          "How is corporate governance affecting major companies?",
+          "What challenges are journalists facing in the media industry?"
         ]
       },
-      "tweet_text": "Turmoil in the oil market: Is peace with Iran a game-changer or just a mirage?\n\nBusiness Sentiment: Neutral (-0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#Barrel #Deal #Down #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From oil price surges to shocking accusations at CBS, today's business news is heating up—don't miss the...\n\nBusiness Sentiment: Neutral (-0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Barrel #Down #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -360,11 +349,67 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1601,
+        "score": 0.0828,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.267, dampened ×0.6 → +0.1601). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.138, dampened ×0.6 → +0.0828). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "A Google employee allegedly used inside information to win $1.2 million on Polymarket",
+          "url": "https://www.theverge.com/tech/938635/google-polymarket-insider-trading-prediction-market-bets",
+          "published": "2026-05-27T18:30:02-04:00",
+          "summary": "Federal prosecutors charged a Google employee with fraud after he allegedly made $1.2 million on Polymarket bets related to Search-related trends in 2025, as reported earlier by ABC News. In their now-unsealed complaint, prosecutors allege that Michele Spagnuolo \"knew the outcome of these wagers before the trading public did because he had accessed Google's confidential, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple’s newest iPad Air is up to $100 off for the first time",
+          "url": "https://www.theverge.com/gadgets/938519/apple-ipad-air-m4-deal-sale",
+          "published": "2026-05-27T17:08:41-04:00",
+          "summary": "If you want an iPad that’s more powerful than the entry-level model but less expensive than the iPad Pro, the latest iPad Air is the one to buy, and it’s down to one its best prices to date. The 11-inch Air with 128GB of storage and Wi-Fi connectivity is available at Amazon starting at $519.99 [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "All the news about Ferrari&#8217;s polarizing Luce EV",
+          "url": "https://www.theverge.com/transportation/938513/ferrari-luce-ev",
+          "published": "2026-05-27T16:22:57-04:00",
+          "summary": "Ferrari fans don’t like the design of the new Luce EV, an electric four-door sedan that just doesn’t look like the Ferraris of old. It was designed with help from Jony Ive’s LoveFrom, but what worked for Ive at Apple isn’t working for Ferrari. The Luce’s launch immediately preceded a stock drop that even an [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The new Halide camera app launches with film looks and an upgraded photo editor",
+          "url": "https://www.theverge.com/tech/938339/lux-optics-halide-mark-iii-ios-iphone-camera-app-looks-editor-raw-files-now-available",
+          "published": "2026-05-27T16:06:12-04:00",
+          "summary": "After first being announced in December 2024, Lux Optics has finally released the latest version of its Halide camera app for the iPhone and iPad. The Halide Mark III app's most compelling feature is a new film simulation engine and a collection of five new Looks that can be applied to photos as they're taken. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Facebook launches a ‘Plus’ subscription that gives you extra features",
+          "url": "https://www.theverge.com/tech/938500/facebook-whatsapp-instagram-meta-ai-subscriptions",
+          "published": "2026-05-27T16:03:42-04:00",
+          "summary": "After announcing tests of premium subscriptions for Facebook, Instagram, WhatsApp earlier this year, TechCrunch and Bloomberg report that Meta is launching a global rollout over the next few weeks and is also starting to test subscriptions for Meta AI. With the new offerings, Meta joins many other tech companies in changing up its subscription plans [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Roids were all the rage at the Enhanced Games",
+          "url": "https://www.theverge.com/features/937620/enhanced-games-performance-enhancing-drugs-science-health-sports",
+          "published": "2026-05-27T15:08:31-04:00",
+          "summary": "In Las Vegas, the blazing sun beats down on a makeshift Olympic-length pool. Cody Miller stands on the starting block of lane one. His arms are raised in victory. MC Hammer's \"U Can't Touch This\" thumps over the loudspeakers as he rips off his swimming cap, throwing it to the ground. Miller lets out a [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Valve raises Steam Deck prices by more than $200",
+          "url": "https://www.theverge.com/games/938340/valve-steam-deck-price-increase",
+          "published": "2026-05-27T13:32:48-04:00",
+          "summary": "Valve has significantly increased the price of the Steam Deck - but now, it's also in stock. The 512GB Steam Deck OLED now costs $789, up from $549, while the 1TB model costs $949, up from $649. As I write this, both models are available to buy on Steam with an estimated delivery date of [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Verge’s 2026 college graduation gift guide",
+          "url": "https://www.theverge.com/gadgets/927121/best-college-graduation-gift-ideas",
+          "published": "2026-05-27T13:00:00-04:00",
+          "summary": "Graduating from college is exciting, but it can also feel slightly terrifying. Along with celebrating a huge accomplishment, many grads jump right into looking for a job. Some might be getting their first apartment, too, which brings on a whole new set of responsibilities. That's why getting the right graduation gift is so important: They [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "You can print, slice, and engrave using this desktop crafting machine",
           "url": "https://www.theverge.com/tech/938031/xtool-m2-craft-machine-cmyk-inkjet-printing-laser-diode-cutter",
@@ -378,134 +423,78 @@
           "published": "2026-05-27T12:42:46-04:00",
           "summary": "Motorola says that recently discovered behavior, which saw some of its phones sending users to an affiliate tracking website before opening the Amazon app, was \"unintended\" and has been \"promptly corrected.\" The company didn't explain how the error was introduced in the first place. \"Recently, Motorola acted quickly to resolve an issue that was identified, [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Sony is offering up to 50 percent off some of our favorite PS5 games",
-          "url": "https://www.theverge.com/gadgets/937711/cheap-ps5-games-sony-state-of-play-2026-sale-govee-lightwall-deal",
-          "published": "2026-05-27T12:41:48-04:00",
-          "summary": "Even without E3, the transition from spring to summer is a busy time for the gaming industry. Summer Game Fest is right around the corner, and Sony is kicking things off with a State of Play on June 2nd with an extended look at Insomniac’s upcoming Wolverine game. To mark the occasion, Sony is also hosting [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Sony’s first RGB TV is a statement piece",
-          "url": "https://www.theverge.com/tech/937879/sony-bravia-7-ii-review",
-          "published": "2026-05-27T12:00:00-04:00",
-          "summary": "The first wave of RGB LED TVs are fighting for their spot in the TV hierarchy. They need to outperform OLED TVs in brightness and color (because they'll never match OLED's contrast), and they need to outperform regular LED TVs in everything (because their price is so much higher). It's now time for Sony to [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "AI tried to bury this politician — now people have actually heard of him",
-          "url": "https://www.theverge.com/policy/937650/ai-alex-bores-openai-anthropic-ny12",
-          "published": "2026-05-27T11:40:00-04:00",
-          "summary": "By the time that the Democratic primary for New York's 12th congressional district wraps up in June, Anthropic and OpenAI will have spent millions on their battle over the political future of AI: who gets to regulate it, or who will be punished for trying to regulate it. But the real winner of their feud [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Here&#8217;s how Google is responding to Fitbit users who don&#8217;t like the new Health app",
-          "url": "https://www.theverge.com/tech/938179/google-health-fitbit-roadmap",
-          "published": "2026-05-27T11:28:43-04:00",
-          "summary": "After a flood of complaints about the Google Health app that just replaced Fitbit, Google has responded with a list of changes that will roll out starting this week. Google is addressing some of the biggest complaints users had, like the Today dashboard that can only show users' chosen health metrics in the top half [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Sony’s DualSense controllers are almost 30 percent off",
-          "url": "https://www.theverge.com/gadgets/938029/sony-dualsense-wireless-edge-controller-ps5-pc-deal-sale",
-          "published": "2026-05-27T10:38:05-04:00",
-          "summary": "Sony has a tradition of marking down its PlayStation 5 hardware a couple of times a year, and one of those opportunities to save is here through June 10th. Its latest Days of Play sale is happening at multiple retailers, including Amazon, Best Buy, GameStop, Walmart, and at Sony’s site as well. It loops in [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Robinhood will let your AI agent trade stocks and make (or lose) lots of money",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
-          "published": "2026-05-27T10:36:10-04:00",
-          "summary": "Robinhood is opening its trading platform to AI agents. In an announcement on Wednesday, Robinhood says traders can now create a separate account for an AI agent and add a specific amount of money, allowing the agent to buy and sell stocks across the market. The company pitches the feature as a way for traders [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "This smart bird feeder captures more of my backyard drama",
-          "url": "https://www.theverge.com/tech/937628/coolfly-aura-smart-bird-feeder-review",
-          "published": "2026-05-27T10:00:00-04:00",
-          "summary": "Since moving to South Carolina's Lowcountry, I've been spellbound by the myriad of beautiful birds that share the coast with us - ospreys raising their babies in towering nests beside the road to my daughter's school, roseate spoonbills wading in the marsh on my morning walks, eagles circling over my son's tennis matches, and a [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "This Ferrari should have been a Volkswagen",
-          "url": "https://www.theverge.com/transportation/938016/this-ferrari-should-have-been-a-volkswagen",
-          "published": "2026-05-27T09:55:37-04:00",
-          "summary": "It may be the NBA playoffs but right now Ferrari is getting dunked on more than anyone. Whether they own a Ferrari or just have a poster of a Testarossa on their wall, fans in the Ferrari-verse are frothy about the Luce, the company's first all-electric vehicle. According to one highly rated Verge commenter: \"looks [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Motorola addresses an unintended affiliate hijacking issue, while Robinhood introduces AI trading accounts and Sony announces discounts on PS5 games and accessories.",
-        "summary": "Today's technology news highlights include Motorola's resolution of an unintended affiliate hijacking issue with its devices, Robinhood's new feature allowing AI agents to trade stocks, and Sony's significant discounts on PS5 games and accessories ahead of its upcoming State of Play event. Additionally, xTool unveils a versatile crafting machine, Google responds to Fitbit user complaints about its Health app, and Sony launches its first RGB TV. The mixed sentiment reflects both excitement over new products and concerns over tech-related issues.",
+        "key_takeaway": "A Google employee faces fraud charges for insider trading, while Apple and Meta introduce new products and subscription services amid mixed market sentiment.",
+        "summary": "Today's technology news highlights a range of developments, including legal issues for a Google employee accused of insider trading, significant discounts on Apple's iPad Air, and the launch of Meta's new subscription service. Additionally, Ferrari's new EV design has sparked controversy, Valve has raised prices for the Steam Deck, and Motorola has addressed an unintended issue with its Amazon app. The Halide camera app has also been updated with new features, and a new crafting machine has been introduced for DIY enthusiasts.",
         "key_themes": [
-          "AI in stock trading",
-          "Motorola affiliate issue",
-          "Sony PS5 game discounts",
-          "Google Health app updates",
-          "xTool crafting machine launch",
-          "Sony RGB TV review"
+          "insider trading in tech",
+          "Apple iPad Air discount",
+          "Meta subscription services",
+          "Ferrari Luce EV controversy",
+          "Valve Steam Deck price increase",
+          "new crafting technology"
         ],
         "notable_headlines": [
           {
-            "headline": "Motorola says affiliate hijacking of Amazon app was ‘unintended’",
-            "why_it_matters": "This incident raises questions about device security and user trust in Motorola's products.",
+            "headline": "A Google employee allegedly used inside information to win $1.2 million on Polymarket",
+            "why_it_matters": "This case raises concerns about insider trading practices within tech companies and their implications for market integrity.",
             "signal": "Risk"
           },
           {
-            "headline": "Robinhood will let your AI agent trade stocks and make (or lose) lots of money",
-            "why_it_matters": "This feature could change how individuals engage with stock trading, introducing AI into personal finance.",
+            "headline": "Apple’s newest iPad Air is up to $100 off for the first time",
+            "why_it_matters": "The discount could drive sales and attract customers looking for a powerful yet affordable tablet option.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Sony is offering up to 50 percent off some of our favorite PS5 games",
-            "why_it_matters": "The discounts could boost sales and engagement ahead of major gaming events like Summer Game Fest.",
+            "headline": "Facebook launches a ‘Plus’ subscription that gives you extra features",
+            "why_it_matters": "Meta's subscription model reflects a broader trend in the tech industry towards monetizing services.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Here’s how Google is responding to Fitbit users who don’t like the new Health app",
-            "why_it_matters": "User feedback is crucial for app development, and Google's response may improve user satisfaction.",
-            "signal": "Opportunity"
+            "headline": "Valve raises Steam Deck prices by more than $200",
+            "why_it_matters": "The price increase may affect consumer demand and perceptions of value for the gaming device.",
+            "signal": "Risk"
           },
           {
-            "headline": "xTool has announced a new multi-purpose crafting machine",
-            "why_it_matters": "This affordable crafting machine could empower small business owners and hobbyists in the DIY market.",
-            "signal": "Opportunity"
+            "headline": "Motorola says affiliate hijacking of Amazon app was ‘unintended’",
+            "why_it_matters": "This incident highlights potential vulnerabilities in app design and the importance of user trust.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor user reactions to Robinhood's AI trading feature",
-            "Watch for updates from Google on the Health app changes",
-            "Keep an eye on Sony's State of Play event for new game announcements"
+            "Monitor developments in the Google insider trading case for potential market impacts.",
+            "Watch for consumer reactions to the iPad Air discount and Meta's subscription rollout.",
+            "Keep an eye on Ferrari's stock performance following the Luce EV launch."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of Sony's discounts on PS5 sales",
-            "Track Motorola's reputation recovery following the affiliate issue",
-            "Evaluate user adoption of AI trading on Robinhood"
+            "Evaluate the long-term effects of Valve's price increase on Steam Deck sales.",
+            "Observe trends in subscription services across tech companies, including Meta and others.",
+            "Anticipate consumer feedback on the new Halide camera app features."
           ],
           "watch_list": [
-            "Sony's upcoming game releases",
-            "Google's ongoing updates to the Health app",
-            "Market response to AI trading features in finance apps",
-            "Trends in crafting technology and DIY markets"
+            "Google's legal proceedings and their implications for the tech industry.",
+            "Apple's product sales performance post-discount.",
+            "Meta's success with its new subscription model. ",
+            "Ferrari's market response to the Luce EV design."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates varying public perception of the news.",
-          "Uncertainty remains regarding the long-term impact of AI in trading."
+          "The sentiment score is mixed, indicating uncertainty in market reactions to these developments. ",
+          "Legal outcomes in the Google case may take time to unfold, affecting investor sentiment. "
         ],
         "related_topics": [
-          "What are the latest updates on Motorola's affiliate issue?",
-          "How is AI changing stock trading platforms?",
-          "What discounts are available for PS5 games this week?",
-          "What changes is Google making to the Fitbit Health app?",
-          "What features does the new xTool crafting machine offer?"
+          "What are the latest developments in insider trading cases?",
+          "How is Apple positioning its iPad Air in the market?",
+          "What features are included in Meta's new subscription service?",
+          "What are the consumer reactions to Ferrari's Luce EV?",
+          "How are gaming device prices affecting consumer choices?"
         ]
       },
-      "tweet_text": "Craft like a pro with the ultimate desktop machine, while Sony slashes PS5 prices and AI shines...\n\nTechnology Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Percent #Sonys #8216unintended8217 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A Google insider scores big while Apple slashes prices—who's winning in the tech game this week?\n\nTechnology Sentiment: Mixed (+0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Launches #2026 #Allegedly #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -608,73 +597,73 @@
       ],
       "ai_report": {
         "key_takeaway": "The NBA playoffs continue to heat up with the Spurs evening their series against the Thunder, while Daniel Suarez wins the emotional Coca-Cola 600.",
-        "summary": "Today's sports news highlights include the Spurs tying the Western Conference finals against the Thunder, significant offseason moves in the NBA, and an emotional NASCAR victory for Daniel Suarez. The French Open is also underway amid a heat wave, affecting court conditions. Additionally, Spain's World Cup squad lacks Real Madrid players, and Stan Wawrinka bids farewell at the French Open.",
+        "summary": "Today's sports headlines highlight significant developments in the NBA playoffs, including the Spurs' victory over the Thunder, as well as Daniel Suarez's win at the Coca-Cola 600. The Lakers have made a notable offseason move by hiring a new assistant GM, and the French Open is experiencing unusual weather conditions affecting play. Additionally, Spain's World Cup squad has been announced without any Real Madrid players, and Stan Wawrinka bids farewell to the French Open after his first-round match.",
         "key_themes": [
           "NBA playoffs updates",
-          "NASCAR Coca-Cola 600 results",
-          "French Open conditions",
-          "Spain World Cup squad analysis",
-          "Stan Wawrinka retirement news"
+          "Coca-Cola 600 results",
+          "Lakers offseason moves",
+          "French Open weather impact",
+          "Spain World Cup squad analysis"
         ],
         "notable_headlines": [
           {
             "headline": "Spurs shut down OKC in Game 4 to even series",
-            "why_it_matters": "The Spurs' victory ties the series, increasing the stakes for the upcoming games in the Western Conference finals.",
+            "why_it_matters": "This victory ties the Western Conference finals, intensifying the playoff competition.",
             "signal": "Opportunity"
           },
           {
             "headline": "Daniel Suarez wins emotional 600",
-            "why_it_matters": "Suarez's victory honors the late Kyle Busch, resonating deeply within the NASCAR community.",
+            "why_it_matters": "Suarez's win honors the late Kyle Busch, resonating deeply within the NASCAR community.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Roster-building lessons from the NBA's final four",
-            "why_it_matters": "Insights from the final four teams could influence future strategies for other franchises in the league.",
+            "headline": "Lakers hire 'rocket scientist' as assistant GM",
+            "why_it_matters": "This hiring marks a strategic move for the Lakers as they prepare for the offseason.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "French Open heat wave making for faster court",
-            "why_it_matters": "The extreme temperatures could impact player performance and match outcomes during the tournament.",
-            "signal": "Risk"
           },
           {
             "headline": "Spain WC squad has no players from Real Madrid",
-            "why_it_matters": "The absence of Real Madrid players in the World Cup squad raises questions about the team's selection strategy.",
-            "signal": "Unclear"
+            "why_it_matters": "The absence of Real Madrid players in the World Cup squad raises questions about team selection and strategy.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Wawrinka waves goodbye in final French Open",
+            "why_it_matters": "Wawrinka's departure marks the end of an era in tennis, impacting fans and the sport.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Upcoming NBA playoff games will determine the series outcomes.",
-            "Further developments in the French Open as players adapt to heat conditions.",
-            "NASCAR's next race will continue to honor Kyle Busch's legacy."
+            "Further developments in the NBA playoffs as teams vie for the finals.",
+            "Updates on the French Open as players adapt to the heat wave conditions.",
+            "Potential reactions to the Spain World Cup squad announcement."
           ],
           "next_1_4_weeks": [
-            "NBA playoffs will progress towards the finals, with potential trade discussions heating up.",
-            "The French Open will unfold with more matches and player eliminations.",
-            "The World Cup preparations will intensify as teams finalize their rosters."
+            "Continued analysis of NBA playoff performances and potential trades.",
+            "Monitoring the impact of weather on the French Open matches.",
+            "Expectations for the upcoming World Cup and Spain's performance."
           ],
           "watch_list": [
-            "Monitor the performance of the Spurs and Thunder in the playoffs.",
-            "Watch for updates on player injuries and trades in the NBA.",
-            "Follow the progress of the French Open and any upsets.",
-            "Keep an eye on the World Cup squad announcements and player performances."
+            "NBA playoff results and analysis",
+            "NASCAR updates and emotional tributes",
+            "French Open match outcomes and player performances",
+            "World Cup squad reactions and implications"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall sports news today, suggesting both positive and negative developments.",
-          "The impact of weather on the French Open is still unfolding, making predictions uncertain."
+          "The sentiment score indicates mixed feelings about the overall sports news today, suggesting a balance of positive and negative developments.",
+          "The impact of weather on the French Open is still unfolding, and its long-term effects are uncertain."
         ],
         "related_topics": [
           "What are the latest NBA playoff updates?",
-          "How did Daniel Suarez win the Coca-Cola 600?",
-          "What are the implications of Spain's World Cup squad selection?",
-          "What to expect at the French Open this week?",
-          "Stan Wawrinka's career highlights and retirement news."
+          "Coca-Cola 600 race results and highlights",
+          "Analysis of Spain's World Cup squad",
+          "Impact of weather on the French Open",
+          "Lakers offseason strategies and moves"
         ]
       },
-      "tweet_text": "From Morant trade talks to an emotional Suarez win, today's sports headlines are packed with drama...\n\nSports Sentiment: Mixed (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Analytically #Assistant #Atkinson #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From Morant's trade rumors to Suarez's emotional win, today’s sports headlines are packed with...\n\nSports Sentiment: Mixed (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Analytically #Assistant #Atkinson #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -776,74 +765,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include a planet with unique weather patterns, advancements in brain healing, and insights into ancient species and cosmic phenomena.",
-        "summary": "Today's science headlines highlight significant discoveries, including NASA's findings on supernovae and planetary atmospheres, breakthroughs in brain health, and new species identification. These advancements could reshape our understanding of both the universe and biological processes.",
+        "key_takeaway": "Recent scientific discoveries include a planet with unique weather patterns, advancements in brain healing, and new insights into ancient species and cosmic phenomena.",
+        "summary": "Today's science headlines highlight groundbreaking discoveries, including NASA's Webb telescope revealing a planet with rock clouds, advancements in brain healing through vitamin K, and the detection of new species and cosmic phenomena.",
         "key_themes": [
-          "NASA discoveries",
-          "brain health advancements",
-          "new species identification",
-          "cosmic phenomena",
-          "ancient life forms"
+          "NASA's discoveries in space",
+          "Advancements in brain health",
+          "New species identification",
+          "Cosmic phenomena and physics",
+          "Evolutionary biology insights"
         ],
         "notable_headlines": [
           {
             "headline": "NASA’s Webb telescope discovers a planet where rock clouds vanish every night",
-            "why_it_matters": "This discovery provides insights into the atmospheric conditions of distant exoplanets, enhancing our understanding of planetary science.",
+            "why_it_matters": "This discovery provides insights into planetary atmospheres and challenges previous assumptions about exoplanets.",
             "signal": "Opportunity"
           },
           {
             "headline": "NASA’s Fermi telescope reveals the power source behind monster supernovae",
-            "why_it_matters": "Identifying the source of superluminous supernovae could lead to breakthroughs in astrophysics and our understanding of stellar explosions.",
+            "why_it_matters": "Understanding supernovae can enhance knowledge of cosmic events and the life cycle of stars.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists create supercharged vitamin K that helps the brain heal itself",
-            "why_it_matters": "This innovation may lead to new treatments for neurodegenerative diseases, potentially improving brain health and recovery.",
+            "why_it_matters": "This breakthrough could lead to new treatments for neurodegenerative diseases.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists say they’ve reversed brain aging with a simple nasal spray",
-            "why_it_matters": "This research could pave the way for new therapies targeting cognitive decline and age-related brain conditions.",
+            "why_it_matters": "This could revolutionize approaches to treating cognitive decline and dementia.",
             "signal": "Opportunity"
           },
           {
             "headline": "Large Hadron Collider detects strange particle behavior that could rewrite physics",
-            "why_it_matters": "Findings may challenge existing theories in particle physics, opening avenues for new research and understanding of fundamental forces.",
-            "signal": "Risk"
+            "why_it_matters": "Findings may lead to new theories in particle physics and a deeper understanding of the universe.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the Webb telescope's findings is expected to be released.",
-            "Additional studies on the effects of the new vitamin K compounds may be published.",
-            "More details on the implications of the LHC findings could emerge."
+            "Further analysis of the planet WASP-94A b's atmosphere is expected.",
+            "More research on the implications of the supernova findings will be released.",
+            "Updates on the brain healing compounds may emerge from ongoing studies."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the potential applications of the brain healing nasal spray in clinical settings.",
-            "Ongoing research into the implications of the new species of sea slug and its ecological role.",
-            "Further exploration of the ancient fish's evolutionary significance may be presented."
+            "Anticipated publications on the implications of the Large Hadron Collider findings.",
+            "Potential announcements regarding further studies on the newly discovered sea slug species.",
+            "Continued exploration of the effects of the nasal spray on brain aging."
           ],
           "watch_list": [
-            "Upcoming NASA missions and their findings.",
-            "Research developments in neurodegenerative disease treatments.",
-            "New discoveries in particle physics and their implications.",
-            "Updates on biodiversity and species classification."
+            "Follow-up studies on the brain healing vitamin K compounds.",
+            "Developments in understanding the implications of the supernova findings.",
+            "Research updates on the evolution of blood cells.",
+            "New discoveries related to the Himalayan pit viper species."
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The implications of some discoveries are still under investigation and may change with further research.",
-          "Some findings may require peer review before being widely accepted."
+          "The implications of some discoveries may take time to fully understand.",
+          "Further research is needed to confirm initial findings in various studies."
         ],
         "related_topics": [
-          "What are the latest discoveries in planetary science?",
-          "How is brain health being improved through new research?",
-          "What new species have been identified recently?",
+          "What are the latest discoveries from NASA's telescopes?",
+          "How is vitamin K being used in brain health research?",
+          "What new species have been discovered recently?",
           "What are the implications of recent findings in particle physics?",
-          "How do ancient species inform our understanding of evolution?"
+          "How does brain aging reversal work with nasal sprays?"
         ]
       },
-      "tweet_text": "From rock clouds disappearing nightly to reversing brain aging with a spray, today's science news is...\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Nasas #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From vanishing rock clouds to reversing brain aging, today's science headlines are rewriting the rules of...\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Nasas #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
