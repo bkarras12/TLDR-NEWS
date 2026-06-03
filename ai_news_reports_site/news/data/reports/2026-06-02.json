@@ -1,10 +1,11 @@
 {
   "date": "2026-06-02",
-  "generated_at_utc": "2026-06-02T18:01:26Z",
+  "generated_at_utc": "2026-06-03T01:44:58Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump"
+    "trump",
+    "launches"
   ],
   "categories": {
     "world": {
@@ -16,23 +17,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0818,
+        "score": -0.1678,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.136, dampened ×0.6 → -0.0818). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.280, dampened ×0.6 → -0.1678). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Ukraine rescuers pull dead from rubble after Russian strikes kill 22 people",
-          "url": "https://www.bbc.com/news/articles/c5y8nq8ljqwo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 15:10:23 GMT",
-          "summary": "An eight-year-old boy killed in a strike on an apartment block are among the dead, officials say.",
+          "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
+          "url": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 02 Jun 2026 21:51:20 GMT",
+          "summary": "Israel continues its campaign in the south, though has not struck Beirut after a deal announced by the US.",
           "source": "BBC News"
         },
         {
-          "title": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
-          "url": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 16:11:05 GMT",
-          "summary": "Israel continues its campaign in the south, though has not struck Beirut after a deal announced by the US.",
+          "title": "US launches 'self-defense' strikes on Iranian island and targets commercial oil tanker",
+          "url": "https://www.bbc.com/news/articles/c5yx135yg53o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 03 Jun 2026 01:18:19 GMT",
+          "summary": "The US military said strikes on Qeshm Island, in the Strait of Hormuz, were \"in response to attempted attacks by Iran across the Middle East\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Putin remains uncompromising on Ukraine, but is public discourse on war changing in Russia?",
+          "url": "https://www.bbc.com/news/articles/cy82339793go?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 02 Jun 2026 23:33:34 GMT",
+          "summary": "Russia is intensifying attacks in Ukraine but more than four years of war are causing concern even among Putin loyalists.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'They'll fix the building, but not our souls': Sleepy Kyiv neighbourhood hit in Russian strike",
+          "url": "https://www.bbc.com/news/articles/c5y9nyvg9z2o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 02 Jun 2026 19:13:21 GMT",
+          "summary": "Scenes of devastation greet residents emerging from underground shelters after a major Russian attack.",
           "source": "BBC News"
         },
         {
@@ -43,31 +58,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Two people shot dead amid Kenya protests against US Ebola quarantine centre plan",
-          "url": "https://www.bbc.com/news/articles/cvgz7zny3pzo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 15:58:23 GMT",
-          "summary": "The US plan has sparked public anger and led to demonstrations near the site of the proposed treatment facility.",
+          "title": "Microsoft says new quantum chip 1,000 times more reliable than predecessor",
+          "url": "https://www.bbc.com/news/articles/cj4p7gyvp52o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 02 Jun 2026 19:24:31 GMT",
+          "summary": "The tech giant predicts it will have a quantum computer that can solve commercially useful problems by the end of the decade.",
           "source": "BBC News"
         },
         {
-          "title": "Canada formally requests renewal of North American free trade pact",
-          "url": "https://www.bbc.com/news/articles/cn9prr3w9nlo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 15:20:59 GMT",
-          "summary": "In a letter to his North American counterparts, US-Canada Trade Minister Dominic LeBlanc said the three countries should renew the USMCA trade deal.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Maga influencer admits London Tube station assault",
-          "url": "https://www.bbc.com/news/articles/c3v2qyp5pzro?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 14:35:27 GMT",
-          "summary": "Melissa Rein Lively accepted a caution, while an assault by beating charge against her was withdrawn.",
-          "source": "BBC News"
-        },
-        {
-          "title": "South Africa police investigate killing of two Mozambican men",
-          "url": "https://www.bbc.com/news/articles/clyp4e87dq6o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 14:51:55 GMT",
-          "summary": "The deaths come after a day of violent protests against illegal migration in the town of Mossel Bay.",
+          "title": "Mayor cancels DR Congo friendly with Chile in Spain over Ebola concern",
+          "url": "https://www.bbc.com/sport/football/articles/cm2pd28jnyxo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 02 Jun 2026 19:28:55 GMT",
+          "summary": "DR Congo's international friendly against Chile in Spain next week is cancelled after authorities raise health concerns over the Ebola outbreak in the African nation.",
           "source": "BBC News"
         },
         {
@@ -78,103 +79,105 @@
           "source": "BBC News"
         },
         {
-          "title": "AI giant Anthropic plans to sell shares in US as valuation nears $1tn",
-          "url": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 07:00:21 GMT",
-          "summary": "The AI company behind Claude is set to offer the public the chance to buy and sell shares in the firm later this year.",
+          "title": "Watch: Man attacked by bear at steel works in Japan",
+          "url": "https://www.bbc.co.uk/programmes/p0npr053?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 03 Jun 2026 00:58:09 GMT",
+          "summary": "Watch: Man attacked by bear at steel works in Japan",
           "source": "BBC News"
         },
         {
-          "title": "Ghana's anti-LGBTQ+ bill to be scrutinised before approval, president says",
-          "url": "https://www.bbc.com/news/articles/cp8pgrd50xko?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 11:59:30 GMT",
-          "summary": "Passed by MPs, the bill proposes prison sentences for people identifying as part of the LGBTQ+ community.",
+          "title": "Maga influencer admits London Tube station assault",
+          "url": "https://www.bbc.com/news/articles/c3v2qyp5pzro?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 02 Jun 2026 14:35:27 GMT",
+          "summary": "Melissa Rein Lively accepted a caution, while an assault by beating charge against her was withdrawn.",
           "source": "BBC News"
         },
         {
-          "title": "Denmark's Mette Frederiksen to form government after months of negotiations",
-          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 01:19:15 GMT",
-          "summary": "The leader of Denmark's Social Democratic Party is forming a centre-left coalition minority government, giving her a third term as prime minister.",
+          "title": "Canada formally requests 16-year renewal of North American free trade pact",
+          "url": "https://www.bbc.com/news/articles/cn9prr3w9nlo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 03 Jun 2026 01:40:44 GMT",
+          "summary": "In a letter to his North American counterparts, US-Canada Trade Minister Dominic LeBlanc said the three countries should renew the USMCA trade deal.",
           "source": "BBC News"
         },
         {
-          "title": "Instagram AI chatbot tricked by hackers to give access to others' accounts",
-          "url": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 02 Jun 2026 11:40:02 GMT",
-          "summary": "Some reports have linked the incident to recent cases of high-profile Instagram accounts being hijacked.",
+          "title": "Two arrested after four migrant farm workers killed in Italy minivan fire",
+          "url": "https://www.bbc.com/news/articles/cvgzr2zxedno?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 02 Jun 2026 18:58:10 GMT",
+          "summary": "CCTV images showed two people blocking the van's doors from the outside and throwing liquid inside to start a fire.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Ukraine suffers casualties from Russian strikes, while Israel continues military actions in Lebanon amid a fragile truce with Hezbollah.",
-        "summary": "Today's headlines reflect ongoing global tensions, including tragic losses in Ukraine due to Russian strikes, military actions in Lebanon, and protests in Kenya against a US Ebola quarantine plan. Additionally, Canada is seeking to renew its trade pact, and Denmark's prime minister is forming a new government after lengthy negotiations.",
+        "key_takeaway": "Israel continues military actions in Lebanon while the US conducts strikes in Iran amid ongoing tensions in Ukraine and health concerns in the DR Congo.",
+        "summary": "Today's headlines reflect ongoing geopolitical tensions, including Israel's military actions in Lebanon, US strikes in Iran, and the situation in Ukraine. Additionally, health concerns over Ebola have led to the cancellation of a football match, while a tragic incident in Italy has resulted in arrests following the deaths of migrant workers.",
         "key_themes": [
-          "Ukraine conflict updates",
-          "Israel Lebanon military actions",
-          "Kenya protests against US quarantine",
-          "Canada trade negotiations",
-          "Denmark government formation"
+          "Middle East conflict updates",
+          "US military actions in Iran",
+          "Ukraine war developments",
+          "Ebola outbreak impact",
+          "migrant worker safety issues"
         ],
         "notable_headlines": [
           {
-            "headline": "Ukraine rescuers pull dead from rubble after Russian strikes kill 22 people",
-            "why_it_matters": "The ongoing conflict in Ukraine continues to result in significant civilian casualties, highlighting the humanitarian crisis.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
-            "why_it_matters": "The situation in Lebanon remains volatile, with military actions complicating the fragile peace efforts.",
+            "why_it_matters": "The ongoing military actions highlight the fragile situation in the region despite a partial truce.",
             "signal": "Risk"
           },
           {
-            "headline": "Two people shot dead amid Kenya protests against US Ebola quarantine centre plan",
-            "why_it_matters": "Public unrest in Kenya reflects deep-seated concerns over health policies and foreign intervention.",
+            "headline": "US launches 'self-defense' strikes on Iranian island and targets commercial oil tanker",
+            "why_it_matters": "These strikes indicate escalating tensions between the US and Iran, impacting regional stability.",
             "signal": "Risk"
           },
           {
-            "headline": "Canada formally requests renewal of North American free trade pact",
-            "why_it_matters": "The renewal of the USMCA could impact trade relations and economic stability in North America.",
-            "signal": "Opportunity"
+            "headline": "Putin remains uncompromising on Ukraine, but is public discourse on war changing in Russia?",
+            "why_it_matters": "Shifts in public sentiment could influence future Russian policies regarding the Ukraine conflict.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Denmark's Mette Frederiksen to form government after months of negotiations",
-            "why_it_matters": "The formation of a new government in Denmark may influence domestic policies and international relations.",
-            "signal": "Opportunity"
+            "headline": "'They'll fix the building, but not our souls': Sleepy Kyiv neighbourhood hit in Russian strike",
+            "why_it_matters": "The human impact of the ongoing conflict is evident as civilians face devastation.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Mayor cancels DR Congo friendly with Chile in Spain over Ebola concern",
+            "why_it_matters": "Health concerns are affecting international events, highlighting the ongoing Ebola outbreak's impact.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in Ukraine and potential international responses to the strikes.",
-            "Observing the situation in Lebanon for any escalation of military actions or diplomatic efforts.",
-            "Following the protests in Kenya for further developments and government responses."
+            "Monitor developments in Israel and Lebanon for potential escalation of conflict.",
+            "Watch for updates on US military actions in the Strait of Hormuz.",
+            "Follow public sentiment in Russia regarding the Ukraine war."
           ],
           "next_1_4_weeks": [
-            "Anticipating reactions to Canada's trade pact renewal and its implications for North American economies.",
-            "Watching for the impact of Denmark's new government on European policies and alliances.",
-            "Tracking the progress of the anti-LGBTQ+ bill in Ghana and its potential international ramifications."
+            "Expect further discussions on the implications of the US strikes on Iran.",
+            "Anticipate more information on the Ebola outbreak and its effects on international events.",
+            "Observe the political landscape in Ukraine as public discourse evolves."
           ],
           "watch_list": [
-            "Ukraine conflict",
-            "Israel-Lebanon relations",
-            "Kenya protests",
-            "Canada-US trade negotiations",
-            "Denmark political developments"
+            "Israel-Hezbollah conflict",
+            "US-Iran relations",
+            "Ukraine war public sentiment",
+            "Ebola outbreak developments",
+            "Migrant worker safety in Europe"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Ukraine and Lebanon is fluid and may change rapidly.",
-          "Public sentiment in Kenya regarding the Ebola quarantine plan could lead to further unrest.",
-          "Political negotiations in Denmark may still face challenges despite the formation of a government."
+          "The situation in the Middle East remains fluid and could change rapidly.",
+          "Public sentiment in Russia is difficult to gauge accurately due to state-controlled media.",
+          "Health concerns regarding Ebola may evolve, impacting international travel and events."
         ],
         "related_topics": [
-          "What are the latest updates on the Ukraine conflict?",
-          "How is Israel's military action affecting Lebanon?",
-          "What sparked the protests in Kenya against the US quarantine plan?"
+          "What are the latest developments in the Israel-Hezbollah conflict?",
+          "How is the US responding to tensions with Iran?",
+          "What is the current situation in Ukraine?",
+          "What are the implications of the Ebola outbreak in Africa?",
+          "What happened in the migrant worker incident in Italy?"
         ]
       },
-      "tweet_text": "Tragedy and turmoil unfold as Ukraine mourns, Israel strikes, and protests erupt—today's world is anything but quiet.\n\nWorld Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Dead #Strikes #Admits #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "As conflict escalates and tech breakthroughs emerge, the world holds its breath—what's next in this unpredictable global...\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Strikes #1000 #Appeal #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -185,9 +188,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.0518,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.086, dampened ×0.6 → +0.0518). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0138,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.023, dampened ×0.6 → +0.0138). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -201,7 +204,14 @@
           "title": "Google owner Alphabet to sell $80bn in stock to fund AI spending spree",
           "url": "https://www.theguardian.com/technology/2026/jun/02/google-alphabet-sell-stock-ai-share-sale-berkshire-hathaway",
           "published": "Tue, 02 Jun 2026 12:33:23 GMT",
-          "summary": "<p>Markets take note as world’s biggest equity fundraiser bids to garner more money than three biggest-ever IPOs combined</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates\">Business live – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/business/2026/jun/02/will-the-ai-economy-create-a-permanent-underclass\">Kenneth Rogoff: will",
+          "summary": "<p>Markets take note as world’s biggest equity fundraiser bids to garner more money than three biggest-ever IPOs combined</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/jun/02/will-the-ai-economy-create-a-permanent-underclass\">Kenneth Rogoff: will AI create a permanent underclass?</a></p></li></ul><p>Google’s parent company, Alphabet, has said it plans to raise up to $80bn (£59bn) in equity to fund its vast artificial intelligence infrastructure investments, raising further que",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Short seller Andrew Left convicted of securities fraud in California",
+          "url": "https://www.theguardian.com/business/2026/jun/02/short-seller-andrew-left-convicted-securities-fraud",
+          "published": "Tue, 02 Jun 2026 16:33:54 GMT",
+          "summary": "<p>Federal jury convicts the securities analyst and trader, who could face a maximum penalty of 25 years in prison</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US newsletter email</a></p></li></ul><p>A federal jury in Californ",
           "source": "The Guardian"
         },
         {
@@ -247,13 +257,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Why $1bn in Balkans energy contracts are going to an obscure company connected to Donald Trump",
-          "url": "https://www.theguardian.com/world/2026/may/30/why-1bn-in-balkans-energy-contracts-are-going-to-an-obscure-company-connected-to-donald-trump",
-          "published": "Sat, 30 May 2026 12:00:19 GMT",
-          "summary": "<p>Guardian investigation shows how US presidency blurs line between policy and enrichment of American ruling family and those around it</p><p>On a graffitied Sarajevo backstreet, a path leads past an overgrown patch of garden to a white door. Beyond is the registered office of a company that is on the brink of winning contracts worth more than $1bn.</p><p>AAFS Infrastructure and Energy is close to securing a concession <a href=\"https://www.theguardian.com/us-news/2026/jan/16/rump-linked-figures",
-          "source": "The Guardian"
-        },
-        {
           "title": "‘Where are the jobs?’: as US autoworkers face offshoring, Democrats vie to win votes",
           "url": "https://www.theguardian.com/us-news/2026/jun/01/us-midwest-autoworkers-offshore-democrats",
           "published": "Mon, 01 Jun 2026 11:00:15 GMT",
@@ -276,15 +279,14 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Democrats oppose a proposal to include cryptocurrency in 401(k) plans, while Alphabet plans to raise $80 billion for AI investments through stock sales.",
-        "summary": "Today's business news highlights significant developments including Democratic opposition to cryptocurrency in retirement plans, Alphabet's massive stock sale for AI funding, and ongoing tensions in the media and political sectors.",
+        "key_takeaway": "Democrats oppose a proposal to include cryptocurrency in 401(k) plans, while Alphabet plans to raise $80bn for AI investments amid significant market movements.",
+        "summary": "Today's business news highlights significant political opposition to including cryptocurrency in retirement plans, Alphabet's massive stock sale to fund AI, and a conviction in a high-profile securities fraud case. Additionally, media mogul Barry Diller's bid for MGM Resorts and the ongoing AI race with new IPOs are notable developments.",
         "key_themes": [
           "cryptocurrency in retirement plans",
           "Alphabet stock sale for AI",
-          "political interference in the Federal Reserve",
-          "MGM Resorts acquisition proposal",
-          "AI industry IPOs",
-          "impact of inflation on elections"
+          "Andrew Left securities fraud conviction",
+          "Barry Diller MGM Resorts acquisition",
+          "AI industry IPOs"
         ],
         "notable_headlines": [
           {
@@ -294,57 +296,57 @@
           },
           {
             "headline": "Google owner Alphabet to sell $80bn in stock to fund AI spending spree",
-            "why_it_matters": "This stock sale aims to support Alphabet's aggressive investment in AI technology, potentially reshaping the tech landscape.",
+            "why_it_matters": "This unprecedented stock sale indicates a significant commitment to AI development and could reshape the tech landscape.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Short seller Andrew Left convicted of securities fraud in California",
+            "why_it_matters": "The conviction of a prominent figure in the finance world raises questions about market integrity and regulatory enforcement.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Media mogul Barry Diller’s People offers to buy MGM Resorts for over $18bn",
+            "why_it_matters": "This acquisition proposal marks a strategic shift for Diller's company and could impact the entertainment and gaming sectors.",
             "signal": "Opportunity"
           },
           {
             "headline": "Anthropic confidentially files for initial public offering on US stock market",
-            "why_it_matters": "The IPO filing indicates growing financial stakes in the AI sector as multiple companies prepare to go public.",
+            "why_it_matters": "The filing signals growing investor interest in AI companies and the competitive landscape among tech firms.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Media mogul Barry Diller’s People offers to buy MGM Resorts for over $18bn",
-            "why_it_matters": "This acquisition proposal marks a strategic shift for Diller's company, highlighting the volatility in the media and entertainment markets.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Ex-Federal Reserve chair Jerome Powell sounds alarm over political interference",
-            "why_it_matters": "Powell's comments underscore concerns about the independence of the Federal Reserve amid political pressures.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Alphabet's stock sale in the market",
-            "Watch for responses from Democrats regarding the crypto proposal",
-            "Anticipate further developments in the AI IPO landscape"
+            "Monitoring reactions to Alphabet's stock sale announcement and its impact on tech stocks.",
+            "Observing any further developments in the political response to cryptocurrency in retirement plans.",
+            "Tracking market responses to the conviction of Andrew Left and its implications for short selling."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of political statements on Federal Reserve policies",
-            "Track the progress of MGM Resorts acquisition negotiations",
-            "Evaluate market responses to ongoing inflation concerns"
+            "Anticipating potential regulatory changes regarding cryptocurrency investments in retirement accounts.",
+            "Watching for updates on the MGM Resorts acquisition bid and its reception in the market.",
+            "Following the IPO developments of Anthropic and other AI firms."
           ],
           "watch_list": [
-            "Alphabet's AI investments",
-            "Democratic strategies in upcoming elections",
-            "Trends in AI company IPOs",
-            "Market reactions to political developments"
+            "Alphabet's stock performance post-announcement",
+            "Legislative developments regarding retirement investment policies",
+            "Market reactions to the AI sector's IPO activity.",
+            "Andrew Left's sentencing and its implications for the finance industry."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Market reactions to Alphabet's stock sale may vary based on investor sentiment.",
-          "Political developments can rapidly change the landscape for business regulations."
+          "The political landscape may shift rapidly, affecting the outcomes of proposed changes to retirement investment policies.",
+          "Market reactions to major announcements can be unpredictable, especially in volatile sectors like tech and finance."
         ],
         "related_topics": [
           "What are the implications of cryptocurrency in retirement plans?",
           "How is Alphabet funding its AI initiatives?",
-          "What is the future of AI IPOs?",
-          "What are the latest trends in media acquisitions?",
-          "How is inflation affecting the political landscape?"
+          "What are the latest developments in securities fraud cases?",
+          "What does Barry Diller's MGM Resorts bid mean for the industry?",
+          "What are the upcoming AI IPOs to watch?"
         ]
       },
-      "tweet_text": "Big money moves and fierce battles in business today: from crypto controversies to an $80 billion AI stock sale!\n\nBusiness Sentiment: Mixed (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Stock #18bn #401k #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Crypto in 401(k)s? Democrats say no, while Google bets big on AI—what does it mean for your portfolio?\n\nBusiness Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Stock #18bn #401k #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -355,152 +357,147 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.3357,
-        "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.559, dampened ×0.6 → +0.3357). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1268,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.211, dampened ×0.6 → +0.1268). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "I tested a bunch of Switch 2 screen protectors, and these are the best",
-          "url": "https://www.theverge.com/reviews/694948/best-switch-2-glass-screen-protector-glossy-matte",
-          "published": "2026-06-02T13:48:33-04:00",
-          "summary": "A glass screen protector is one of a few essential accessories that I strongly recommend to every Switch 2 owner. In fact, it should be a priority to stick one onto the console’s screen as soon as possible to avoid accidental scratches.&#160; To test the candidates below, I installed and removed Switch 2 screen protectors [&#8230;]",
+          "title": "God of War Laufey is coming to the PS5",
+          "url": "https://www.theverge.com/entertainment/941516/god-of-war-laufey-ps5-trailer",
+          "published": "2026-06-02T18:16:08-04:00",
+          "summary": "Sony ended its big State of Play showcase with a major reveal: the next God of War. The new title is called God of War Laufey, and is once again developed by Sony's Santa Monica Studio. Currently, the game doesn't have a date, but it's coming to the PS5 whenever it does launch. This time, [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
-          "url": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
-          "published": "2026-06-02T13:31:02-04:00",
-          "summary": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge [&#8230;]",
+          "title": "Remedy’s Control sequel launches in September",
+          "url": "https://www.theverge.com/games/942113/remedy-control-resonant-release-date-trailer",
+          "published": "2026-06-02T17:55:32-04:00",
+          "summary": "Control Resonant, the upcoming sequel to Remedy Entertainment's Control, will be released on September 24th, 2026, according to a trailer that premiered during Tuesday's PlayStation State of Play show. The trailer also gave a preview of the game's story, which stars Dylan Faden, who was imprisoned for much of the first game. He will be [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t",
-          "url": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
-          "published": "2026-06-02T12:30:00-04:00",
-          "summary": "Microsoft only just announced a new Surface Laptop Ultra at the weekend, and it's now revealing a miniature Surface PC aimed at developers. The new Surface RTX Spark Dev Box is powered by Nvidia's new Arm-based RTX Spark chips, just like the Surface Laptop Ultra, and is optimized for sustained workloads and local AI tasks. [&#8230;]",
+          "title": "Here&#8217;s seven bloody minutes of Wolverine on the PS5",
+          "url": "https://www.theverge.com/games/939378/marvels-wolverine-playstation-trailer-state-of-play-june-2026",
+          "published": "2026-06-02T17:11:46-04:00",
+          "summary": "At its big State of Play show on Tuesday, Sony shared new look Marvel's Wolverine, the next big title from Insomniac Games that's launching exclusively on PS5 on September 15th. Dressed in the iconic yellow Wolverine outfit, Logan slunk around and stabbed his way through a bunch of enemies, using his blades to take them [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Microsoft’s new developer-optimized Windows embraces Linux even more",
-          "url": "https://www.theverge.com/news/941314/microsoft-windows-11-developer-optimized-experience-linux",
-          "published": "2026-06-02T12:30:00-04:00",
-          "summary": "Microsoft is kicking off its Build developer conference today with a promise of making Windows a trusted platform for development. As the company continues to focus on performance and reliability fixes for Windows 11, it's also creating a developer-optimized experience that bundles a lot of useful tools and apps and embraces Linux even further. \"We [&#8230;]",
+          "title": "PlayStation State of Play June 2026: All the news and trailers",
+          "url": "https://www.theverge.com/entertainment/940913/playstation-state-of-play-june-2026-news-trailers",
+          "published": "2026-06-02T16:40:00-04:00",
+          "summary": "While the majority of Summer Game Fest takes place over the weekend, Sony is getting a jump on things with its next State of Play showcase, which airs on June 2nd at 5PM ET. It&#8217;s coming at a pivotal time for the PlayStation brand: The PS5 keeps getting more expensive and Sony&#8217;s big bet on [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Trump goes after green cards",
-          "url": "https://www.theverge.com/policy/941734/trump-green-cards-adjustment-of-status-uscis",
-          "published": "2026-06-02T12:30:00-04:00",
-          "summary": "On the Friday before Memorial Day, on the eve of a long weekend, the Trump administration announced that it was further gutting legal immigration. The Department of Homeland Security didn't use this language. \"This policy allows our immigration system to function as the law intended instead of incentivizing loopholes,\" the agency said on X. \"The [&#8230;]",
+          "title": "I held the next-gen handheld",
+          "url": "https://www.theverge.com/games/941360/intel-arc-g3-extreme-msi-claw-next-gen-handheld-preview",
+          "published": "2026-06-02T15:56:02-04:00",
+          "summary": "Intel couldn't catch a break. Layoffs. Shakedowns. Crashing CPUs torpedoing its reputation, sending desktop gamers fleeing to AMD. Apple and Qualcomm pushing Intel out of multiple flagship laptops. A gaming graphics card going MIA. But its Panther Lake laptop chip, the first on its all-important 18A process, turned out excellent - and a handheld version [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Cricut&#8217;s Joy 2 helps you personalize Father&#8217;s Day gifts, and it&#8217;s at its lowest price yet",
-          "url": "https://www.theverge.com/gadgets/941696/cricut-joy-2-rainbow-essential-bundle-deal-sale",
-          "published": "2026-06-02T12:11:07-04:00",
-          "summary": "If you&#8217;re looking for a way to add a personal touch to Father&#8217;s Day or graduation gifts, the Cricut Joy 2 can help you customize everything from water bottles and bookmarks to greeting cards and gift cards. The Cricut Joy 2 Rainbow Essential Bundle includes enough vinyl, cardstock, iron-on materials, and other supplies to create [&#8230;]",
+          "title": "Microsoft Build 2026: The 7 biggest announcements",
+          "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+          "published": "2026-06-02T15:23:52-04:00",
+          "summary": "Microsoft just kicked off Build 2026 with a keynote from CEO Satya Nadella and other company leaders. As expected, it was filled with announcements, ranging from new Surface hardware to an always-on personal assistant and updates across Microsoft's in-house AI models. If you didn't watch the event live, you can catch up on all the [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
-          "url": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
-          "published": "2026-06-02T11:59:58-04:00",
-          "summary": "Microsoft’s annual developer conference is kicking off on June 2nd in San Francisco with the keynote presentation streaming live at 12:30PM ET / 9:30AM PT, and we will be following along here with everything as it’s announced.&#160; The Verge’s Tom Warren reports that we can expect to hear about new AI models and agentic OpenClaw-like [&#8230;]",
+          "title": "Trump signs executive order to review AI models before they’re released",
+          "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+          "published": "2026-06-02T14:33:42-04:00",
+          "summary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Ableton is letting musicians build browser-style extensions for Live",
-          "url": "https://www.theverge.com/tech/941674/ableton-live-extensions-sdk-music-daw",
-          "published": "2026-06-02T11:48:20-04:00",
-          "summary": "Ableton already has Max for Live, which allows users to build MIDI effects, synths, and samplers for its digital audio workstation (DAW). But now with its Extensions SDK, features can be added to Ableton Live with common JavaScript. Where Max is largely limited to MIDI and audio processing, Extensions can touch almost any part of [&#8230;]",
+          "title": "Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing",
+          "url": "https://www.theverge.com/news/940874/microsoft-majorana-2-quantum-chip-build",
+          "published": "2026-06-02T14:15:00-04:00",
+          "summary": "Microsoft claimed last year that it had made a key breakthrough in quantum computing with Majorana 1, the company's first quantum processor. While physicists were immediately skeptical of Microsoft's claims, the software giant is announcing Majorana 2 today, the next generation of its topological quantum chip. Majorana 2 contains qubits, a unit of information in [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The screenless Camp Snap 2 is slimmer and comes with more filters",
-          "url": "https://www.theverge.com/tech/941427/camp-snap-2-digital-screenless-camera-filters-kid-lock",
-          "published": "2026-06-02T11:00:00-04:00",
-          "summary": "After expanding its offerings to video with the CS-8 inspired by Kodak and Canon's retro Super 8mm film cameras, Camp Snap is returning to its roots. The Camp Snap 2 is a sequel to the company's first screenless digital point-and-shoot camera that updates the original with a slimmer design, faster performance, filters available right out [&#8230;]",
+          "title": "Microsoft’s first advanced reasoning AI is here",
+          "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+          "published": "2026-06-02T14:12:44-04:00",
+          "summary": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Lego’s Smart Play Pokémon can train and battle, but don’t do the one thing I wish they could",
-          "url": "https://www.theverge.com/gadgets/941484/lego-pokemon-smart-play-brick-sets",
-          "published": "2026-06-02T09:28:27-04:00",
-          "summary": "When Lego announced its tech-packed Smart Bricks at CES, we were impressed by the potential - enough to give it our best-in-show award. But when the first Star Wars sets actually launched in March, we were less enamored. All that promise of clever interaction and creative play ultimately boiled down to a few voice barks [&#8230;]",
+          "title": "The durable, floatable UE Wonderboom 4 speaker is cheaper than ever",
+          "url": "https://www.theverge.com/gadgets/941763/ultimate-ears-wonderboom-fractal-design-scape-deal-sale",
+          "published": "2026-06-02T14:05:35-04:00",
+          "summary": "I like the UE Wonderboom 4 Bluetooth speaker so much that I bought two of them, though I wish I could have paid less for them. Fortunately, you can stock up on the cheap, so long as you like the color blue. The Wonderboom 4 is available in blue at Amazon for $51.49, and at [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Microsoft unveiled several new technologies at Build 2026, including Project Solara for AI gadgets and a developer-optimized Windows experience.",
-        "summary": "Today's technology news highlights Microsoft's Build 2026 conference, showcasing innovations like Project Solara, a new OS for AI devices, and a developer-focused Windows experience. Additionally, new hardware such as the Surface RTX Spark Dev Box was announced, alongside updates to music production tools from Ableton and personal gift customization options from Cricut.",
+        "key_takeaway": "Sony unveiled major game titles during its State of Play showcase, while Microsoft made significant announcements at Build 2026, including advancements in AI and quantum computing.",
+        "summary": "Today's technology news highlights Sony's State of Play showcase, featuring new titles like God of War Laufey and Marvel's Wolverine, alongside Microsoft's Build 2026 announcements, which include advancements in AI and quantum computing. Additionally, President Trump signed an executive order regarding AI model reviews, and Intel showcased a next-gen handheld device.",
         "key_themes": [
+          "Sony State of Play announcements",
           "Microsoft Build 2026 highlights",
-          "new AI technologies",
-          "developer tools and experiences",
-          "Cricut Joy 2 for personalization",
-          "Ableton Live extensions"
+          "AI executive order by Trump"
         ],
         "notable_headlines": [
           {
-            "headline": "Microsoft's Project Solara is an OS for AI agent gadgets",
-            "why_it_matters": "This new OS aims to enhance the functionality of gadgets powered by AI agents, marking a significant step in Microsoft's AI strategy.",
+            "headline": "God of War Laufey is coming to the PS5",
+            "why_it_matters": "The reveal of a new God of War title indicates continued strong interest in PlayStation exclusives.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Microsoft created the mini Surface dev box that Qualcomm couldn't",
-            "why_it_matters": "The Surface RTX Spark Dev Box targets developers with its powerful hardware optimized for AI tasks, indicating a shift towards more specialized computing solutions.",
+            "headline": "Remedy’s Control sequel launches in September",
+            "why_it_matters": "The sequel's release date adds to the excitement for fans of the original game and showcases Remedy's ongoing development.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Microsoft’s new developer-optimized Windows embraces Linux even more",
-            "why_it_matters": "This move reflects Microsoft's commitment to improving the developer experience on Windows, potentially attracting more developers to the platform.",
+            "headline": "Microsoft’s next-gen quantum chip cuts timeline to useful quantum computing",
+            "why_it_matters": "Advancements in quantum computing could significantly impact technology and industry applications.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Ableton is letting musicians build browser-style extensions for Live",
-            "why_it_matters": "This new feature expands the creative possibilities for musicians using Ableton Live, fostering innovation in music production.",
-            "signal": "Opportunity"
+            "headline": "Trump signs executive order to review AI models before they’re released",
+            "why_it_matters": "This order could shape the future of AI development and regulatory practices in the U.S.",
+            "signal": "Risk"
           },
           {
-            "headline": "Cricut’s Joy 2 helps you personalize Father’s Day gifts, and it’s at its lowest price yet",
-            "why_it_matters": "The Cricut Joy 2 offers a cost-effective solution for personalized gifting, appealing to consumers looking for unique gift options.",
+            "headline": "Microsoft’s first advanced reasoning AI is here",
+            "why_it_matters": "The introduction of MAI-Thinking-1 marks a significant step in Microsoft's AI capabilities and independence.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Follow-up announcements from Microsoft Build 2026 as new features and products are revealed.",
-            "Monitor reactions from developers regarding the new Windows experience and Project Solara.",
-            "Watch for consumer feedback on the new hardware announced at Build."
+            "Anticipation builds for more details on upcoming game releases from Sony and Remedy.",
+            "Watch for reactions to Microsoft's announcements from industry experts.",
+            "Expect discussions around the implications of Trump's AI executive order."
           ],
           "next_1_4_weeks": [
-            "Evaluate the market response to the Surface RTX Spark Dev Box and its adoption by developers.",
-            "Observe trends in AI gadget development following the introduction of Project Solara.",
-            "Track sales performance of the Cricut Joy 2 as Father's Day approaches."
+            "Further trailers and gameplay previews for newly announced games are likely to be released.",
+            "Microsoft may provide updates on its AI models and quantum computing advancements.",
+            "Industry responses to the AI regulatory framework will emerge."
           ],
           "watch_list": [
-            "Upcoming features from Microsoft Build 2026 as they roll out.",
-            "Developments in AI technology and its integration into consumer gadgets.",
-            "New music production tools and their impact on the industry. ",
-            "Consumer electronics sales trends during the Father's Day season."
+            "Upcoming game release dates and trailers",
+            "Microsoft's AI developments and their market impact",
+            "Reactions to the AI executive order from tech companies and experts.",
+            "Trends in quantum computing advancements and their applications."
           ],
-          "confidence": "High"
+          "confidence": "Medium"
         },
         "caveats": [
-          "The impact of new technologies may take time to assess fully.",
-          "Consumer adoption rates for new products can vary significantly.",
-          "Market reactions can be influenced by external factors beyond product announcements."
+          "The sentiment score indicates mixed feelings about the overall news tone, suggesting a balance of positive and negative reactions.",
+          "Details on game release dates and features may change as more information becomes available."
         ],
         "related_topics": [
-          "What are the latest announcements from Microsoft Build 2026?",
-          "How is Microsoft enhancing its developer tools?",
-          "What new features are available in Windows for developers?",
-          "What are the benefits of using Cricut Joy 2 for personalization?",
-          "How can musicians utilize Ableton's new Extensions SDK?"
+          "What are the latest announcements from Sony's State of Play?",
+          "What were the key highlights from Microsoft Build 2026?",
+          "How is the AI executive order expected to impact tech companies?"
         ]
       },
-      "tweet_text": "From game consoles to AI revolution, today's tech news is a must-read!\n\nTechnology Sentiment: Positive (+0.34)\n\nRead the full breakdown: https://tldrnews.info\n\n#Build #Microsoft #Windows #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready to level up: epic reveals from PlayStation and Microsoft that will redefine gaming as we know it!\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#2026 #Nextgen #Quantum #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -602,75 +599,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Shai Gilgeous-Alexander deemed his MVP season a failure after the Thunder's playoff exit, while the Yankees made history with a 13-run inning.",
-        "summary": "In today's sports news, Shai Gilgeous-Alexander expressed disappointment over his MVP season following the Thunder's elimination from the playoffs. Bryce Harper raised concerns about potential ramifications of a lockout on MLB. The Yankees achieved a historic feat with a 13-run inning against the Athletics. Christian Pulisic scored for the U.S. men's national team in a win over Senegal, and Becky Hammon secured her 150th victory as a WNBA coach. Additionally, Texas eliminated Nebraska from the Women's College World Series, and two teenagers reached the quarterfinals at the French Open.",
+        "key_takeaway": "Shai Gilgeous-Alexander labeled his MVP season a failure after the Thunder's playoff exit, while the Yankees achieved a historic 13-run inning against the Athletics.",
+        "summary": "Today's sports headlines highlight Shai Gilgeous-Alexander's disappointment despite winning MVP, Bryce Harper's concerns over potential MLB lockout impacts, and the Yankees' historic offensive performance. Additionally, the U.S. men's soccer team secured a win against Senegal, and Becky Hammon celebrated her 150th coaching victory in the WNBA. In tennis, two teenagers reached the French Open quarterfinals, while the Texas softball team eliminated Nebraska from the Women's College World Series.",
         "key_themes": [
           "NBA playoffs analysis",
           "MLB labor negotiations",
-          "historic MLB performances",
+          "Yankees historic inning",
           "USMNT World Cup preparation",
           "WNBA coaching milestones",
-          "French Open updates"
+          "French Open quarterfinals updates"
         ],
         "notable_headlines": [
           {
             "headline": "SGA calls MVP year a 'failure' after OKC falls short",
-            "why_it_matters": "Gilgeous-Alexander's disappointment highlights the pressure of individual accolades in team sports.",
+            "why_it_matters": "Gilgeous-Alexander's comments reflect the high expectations placed on MVP winners and the pressure to succeed in the playoffs.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Harper on labor talks: 'Can't lose that momentum'",
+            "why_it_matters": "Harper's concerns highlight the ongoing uncertainty in MLB and its potential impact on the upcoming season.",
             "signal": "Risk"
           },
           {
             "headline": "Yanks overwhelm A's with historic 13-run inning",
-            "why_it_matters": "This performance marks a significant achievement in MLB history, showcasing the Yankees' offensive power.",
+            "why_it_matters": "This performance marks a significant offensive achievement for the Yankees, showcasing their batting strength.",
             "signal": "Opportunity"
           },
           {
             "headline": "U.S. beats Senegal as Pulisic nets 1st goal of '26",
-            "why_it_matters": "Pulisic's goal is a positive sign for the U.S. team as they prepare for the World Cup.",
+            "why_it_matters": "Pulisic's goal is crucial for building momentum ahead of the World Cup, indicating his return to form.",
             "signal": "Opportunity"
           },
           {
             "headline": "Hammon nets 150th win as Aces defeat Valkyries",
-            "why_it_matters": "Hammon's milestone reflects her successful coaching career in the WNBA.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Texas breaks up no-no, ousts Huskers from WCWS",
-            "why_it_matters": "This victory demonstrates Texas's resilience in the Women's College World Series.",
+            "why_it_matters": "Hammon's milestone underscores her successful coaching career in the WNBA and the Aces' strong performance.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "NBA Finals Game 1 preview between Knicks and Spurs",
-            "Further developments in MLB labor negotiations",
-            "Upcoming matches in the Women's College World Series"
+            "Analysis of the Knicks-Spurs NBA Finals matchup begins as Game 1 approaches.",
+            "Further updates on MLB labor negotiations are expected as the season approaches.",
+            "Injury updates on players like Jesus Sánchez will be monitored."
           ],
           "next_1_4_weeks": [
-            "Continued coverage of the NBA Finals",
-            "World Cup preparations for the USMNT",
-            "Updates on the French Open as it progresses"
+            "The NBA Finals will unfold, with key matchups and player performances to watch.",
+            "The Women's College World Series will continue, showcasing top college softball teams.",
+            "The French Open progresses, with more matches determining semifinalists."
           ],
           "watch_list": [
-            "Shai Gilgeous-Alexander's future with the Thunder",
-            "Bryce Harper's comments on MLB negotiations",
-            "Becky Hammon's coaching achievements in the WNBA",
-            "Performance of the USMNT in upcoming friendlies"
+            "Monitor the impact of MLB negotiations on the upcoming season.",
+            "Watch for updates on the USMNT as they prepare for the World Cup.",
+            "Keep an eye on the performance of young players in the French Open.",
+            "Follow the WNBA playoffs and Hammon's coaching milestones."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates a neutral tone overall, suggesting mixed feelings in sports news today.",
-          "Future outcomes in playoffs and tournaments remain uncertain."
+          "The sentiment score indicates a neutral tone in sports news today, suggesting mixed feelings among fans and analysts.",
+          "Injuries and player performances can significantly affect upcoming games and tournaments."
         ],
         "related_topics": [
           "What are the latest NBA playoff updates?",
           "How is MLB addressing labor negotiations?",
-          "What were the highlights of the Women's College World Series?",
-          "USMNT World Cup preparation news",
-          "Updates from the French Open quarterfinals"
+          "What to expect in the Women's College World Series?",
+          "Who are the rising stars in the French Open?",
+          "What are the USMNT's chances in the World Cup?"
         ]
       },
-      "tweet_text": "SGA calls his MVP year a 'failure' as the Thunder's hopes come crashing down—what does this mean for OKC's future?\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Nets #13run #150th #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "SGA calls his MVP year a \"failure\"—but the drama doesn't end there! Dive into today's wild sports highlights!\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Nets #13run #150th #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -772,74 +769,84 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries highlight breakthroughs in cancer therapy, cosmic phenomena, and environmental health, while revealing complex biological interactions and social behaviors in animals.",
-        "summary": "Today's science headlines cover a range of topics including advancements in cancer treatment, the unique adaptations of parasites, the origins of cosmic signals, and the implications of microbial life on ocean health. Notable findings also include the social structures of great apes, the potential of NASA's Roman telescope, and innovative approaches to desalination that avoid environmental harm.",
+        "key_takeaway": "Recent scientific discoveries highlight advancements in cancer therapy, environmental health, and cosmic phenomena, while revealing unexpected biological insights.",
+        "summary": "Today's science headlines cover a range of topics, including breakthroughs in cancer therapy, the ecological impact of kitchen sponges, and new findings about cosmic signals and animal behavior. Researchers have identified a protein that hinders CAR T-cell therapy, discovered that kitchen sponges release microplastics, and traced mysterious cosmic signals to a unique stellar system. Additionally, studies on social behavior in zebrafish and the social structures of great apes provide insights into animal behavior, while advancements in solar desalination technology promise a more sustainable approach to fresh water production.",
         "key_themes": [
           "advancements in cancer therapy",
-          "cosmic signal origins",
-          "microplastics in household items",
-          "social behavior in animals",
-          "environmental health and desalination"
+          "microplastics from kitchen sponges",
+          "cosmic signal discoveries",
+          "animal social behavior studies",
+          "solar desalination technology"
         ],
         "notable_headlines": [
           {
             "headline": "A single protein may be holding back CAR T cancer therapy",
-            "why_it_matters": "Identifying NFIL3 as a barrier in CAR T therapy could lead to more effective cancer treatments.",
+            "why_it_matters": "Identifying the NFIL3 protein could lead to improved efficacy of CAR T-cell therapies in cancer treatment.",
             "signal": "Opportunity"
           },
           {
             "headline": "This blood-feeding fly sacrifices its sight after finding a host",
-            "why_it_matters": "Understanding the adaptations of parasites can provide insights into evolutionary biology.",
+            "why_it_matters": "Understanding the adaptations of deer keds can provide insights into evolutionary trade-offs in parasitic species.",
             "signal": "Unclear"
           },
           {
             "headline": "A stellar “Rosetta stone” reveals the source of mysterious cosmic signals",
-            "why_it_matters": "This discovery enhances our understanding of cosmic phenomena and stellar interactions.",
+            "why_it_matters": "This discovery enhances our understanding of cosmic phenomena and the behavior of stellar systems.",
             "signal": "Opportunity"
           },
           {
             "headline": "Your kitchen sponge is releasing microplastics every time you wash dishes",
-            "why_it_matters": "Highlighting the environmental impact of everyday items raises awareness about microplastic pollution.",
+            "why_it_matters": "The findings raise concerns about household contributions to microplastic pollution and its environmental impact.",
             "signal": "Risk"
           },
           {
+            "headline": "The forgotten organ that could predict how long you live",
+            "why_it_matters": "Insights into the thymus could reshape our understanding of aging and health outcomes.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "NASA’s Roman telescope could reveal 100,000 hidden worlds",
-            "why_it_matters": "The potential discovery of numerous exoplanets could reshape our understanding of the universe.",
+            "why_it_matters": "The mission could significantly advance our knowledge of exoplanets and planetary systems.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Chimpanzees and bonobos have human-like friend circles, study finds",
+            "why_it_matters": "The study sheds light on social structures in great apes, enhancing our understanding of primate behavior.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further research on NFIL3's role in CAR T therapy may be published.",
-            "More studies on the ecological impact of microplastics could emerge.",
-            "Updates on NASA's Roman telescope mission may be released."
+            "Further analysis on the implications of NFIL3 in cancer therapies is expected.",
+            "More studies on the environmental impact of microplastics from household items may emerge.",
+            "Updates on NASA's Roman telescope mission preparations are anticipated."
           ],
           "next_1_4_weeks": [
-            "Anticipated findings from ongoing studies on the social behaviors of great apes.",
-            "Potential breakthroughs in solar desalination technology may be reported.",
-            "New insights into the role of microbes in ocean health could be shared."
+            "Research on the social behaviors of other species may be published, expanding on recent findings.",
+            "Continued exploration of the implications of epigenetics in inheritance patterns is likely.",
+            "Further developments in solar desalination technology could be reported."
           ],
           "watch_list": [
-            "Developments in CAR T therapy advancements.",
-            "Research on the ecological effects of microplastics.",
-            "Updates from NASA's Roman Space Telescope.",
-            "Studies on the social structures of chimpanzees and bonobos."
+            "Monitor advancements in CAR T-cell therapy research.",
+            "Watch for new studies on microplastics and their environmental effects.",
+            "Keep an eye on discoveries related to cosmic phenomena and exoplanets.",
+            "Follow updates on animal behavior research, particularly in primates."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score suggests varying levels of optimism and concern across different headlines.",
-          "Some findings may require further validation through additional research."
+          "The mixed sentiment score indicates varying levels of optimism and concern across different studies.",
+          "Some findings may require further validation before being widely accepted."
         ],
         "related_topics": [
           "What are the latest advancements in cancer therapy?",
-          "How do cosmic signals originate?",
-          "What impact do kitchen sponges have on the environment?",
-          "What social behaviors do chimpanzees and bonobos exhibit?",
-          "What innovations are being made in desalination technology?"
+          "How do kitchen sponges contribute to microplastic pollution?",
+          "What discoveries have been made about cosmic signals recently?",
+          "What insights have been gained from animal social behavior studies?",
+          "How does solar desalination technology work?"
         ]
       },
-      "tweet_text": "Is your kitchen sponge secretly poisoning your dishes? Find out what it’s releasing every time you wash up!\n\nScience Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #100000 #Before #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A hidden organ may hold the secret to extending your life—are you ready to uncover the truth?\n\nScience Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #100000 #Before #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
