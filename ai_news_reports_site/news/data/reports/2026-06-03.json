@@ -1,10 +1,11 @@
 {
   "date": "2026-06-03",
-  "generated_at_utc": "2026-06-03T18:20:11Z",
+  "generated_at_utc": "2026-06-04T01:47:38Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "california"
+    "trump",
+    "iran"
   ],
   "categories": {
     "world": {
@@ -16,23 +17,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3136,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.523, dampened ×0.6 → -0.3136). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.21,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.350, dampened ×0.6 → -0.2100). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Israeli strikes kill nine in Lebanon as Hezbollah fires rockets over border",
+          "title": "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
           "url": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 03 Jun 2026 18:02:52 GMT",
-          "summary": "The incidents strain a partial ceasefire agreed by Israel and the Lebanese armed group on Monday.",
+          "published": "Thu, 04 Jun 2026 00:16:44 GMT",
+          "summary": "In a statement, the US State Department said both countries reject \"any attempt, by any state or non-state actor, to hold Lebanon's future hostage.\"",
           "source": "BBC News"
         },
         {
-          "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
-          "url": "https://www.bbc.com/news/articles/c5yx135yg53o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 03 Jun 2026 14:02:25 GMT",
-          "summary": "Iran says the attack on Kuwait was in retaliation for earlier US strikes on an Iranian oil tanker and island.",
+          "title": "US House votes to halt Iran war, in rebuke to Trump",
+          "url": "https://www.bbc.com/news/articles/cj6pldg39deo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 04 Jun 2026 00:22:35 GMT",
+          "summary": "In the 215-208 vote, four Republicans joined Democrats to pass the measure, which had failed in three previous attempts.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Crazy' phone call between Trump and Netanyahu complicates Iran talks",
+          "url": "https://www.bbc.com/news/articles/cvgz21pq3g6o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 03 Jun 2026 20:28:01 GMT",
+          "summary": "Israel's PM laughed off reports of friction, but he has tested the patience of other US presidents.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Grab what you can while you can: The new reality in the South China Sea",
+          "url": "https://www.bbc.com/news/articles/cy823n3ln29o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 03 Jun 2026 22:00:21 GMT",
+          "summary": "After years of watching China create land to back its expansive claims, others are doing the same.",
           "source": "BBC News"
         },
         {
@@ -43,17 +58,31 @@
           "source": "BBC News"
         },
         {
+          "title": "Germany blames Russia for 'bitter defeat' in UN Security Council bid",
+          "url": "https://www.bbc.com/news/articles/cgmp3pg71edo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 04 Jun 2026 01:02:24 GMT",
+          "summary": "Johann Wadephul said it was \"no secret\" Russia had stirred up sentiment against Germany over its support for Ukraine.",
+          "source": "BBC News"
+        },
+        {
+          "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+          "url": "https://www.bbc.com/news/articles/c5yx135yg53o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 03 Jun 2026 20:05:58 GMT",
+          "summary": "Iran says the attack on Kuwait was in retaliation for earlier US strikes on an Iranian oil tanker and island.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Senate Republicans axe $1bn for Trump's new White House ballroom",
+          "url": "https://www.bbc.com/news/articles/c0r2kxrvlgpo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 04 Jun 2026 01:18:09 GMT",
+          "summary": "The bill to fund immigration agencies has been delayed by opposition to Trump's 'anti-weaponisation fund'.",
+          "source": "BBC News"
+        },
+        {
           "title": "Foreign nationals among at least 21 killed in Delhi fire",
           "url": "https://www.bbc.com/news/articles/czd29327qzvo?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 03 Jun 2026 11:54:25 GMT",
           "summary": "Many victims were South Asians who had travelled to India for treatment or to accompany relatives.",
-          "source": "BBC News"
-        },
-        {
-          "title": "US announces new tariffs over forced labour concerns",
-          "url": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 03 Jun 2026 15:12:28 GMT",
-          "summary": "It comes after the US Supreme Court struck down many of US President Donald Trump's previous duties in February.",
           "source": "BBC News"
         },
         {
@@ -71,111 +100,82 @@
           "source": "BBC News"
         },
         {
-          "title": "Shell pumped oil through Nigeria pipeline for years despite pollution evidence, documents show",
-          "url": "https://www.bbc.com/news/articles/cdrp8v7407ro?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 03 Jun 2026 05:13:02 GMT",
-          "summary": "The oil giant says the documents ignore the critical context of the complex operating environment at the time.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Norwegian teen was in UK to 'undertake a hit', court hears",
-          "url": "https://www.bbc.com/news/articles/cm2pjk8ggrdo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 03 Jun 2026 12:55:45 GMT",
-          "summary": "Johannes Natland was due to carry out a shooting on behalf of a Swedish criminal group, trial hears.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Four sentenced to death for killing worshippers at Catholic church in Nigeria",
-          "url": "https://www.bbc.com/news/articles/cj0p57q1m36o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 03 Jun 2026 16:12:05 GMT",
-          "summary": "A fifth man was discharged and acquitted by the court due to insufficient evidence against him.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Eight killed after drone hits bus in Russian-occupied part of Ukraine",
-          "url": "https://www.bbc.com/news/articles/cp3peyykxd5o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 03 Jun 2026 15:18:28 GMT",
-          "summary": "The bus was hit in the eastern Donetsk region, an official says.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Man shot dead by FBI after taking hostages at California bank",
-          "url": "https://www.bbc.com/news/articles/cn0pdrgy623o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 03 Jun 2026 16:04:05 GMT",
-          "summary": "Two hostages were released on Tuesday, and the remaining hostages released on Wednesday were unharmed, police said.",
+          "title": "US announces new tariffs over forced labour concerns",
+          "url": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 03 Jun 2026 15:12:28 GMT",
+          "summary": "It comes after the US Supreme Court struck down many of US President Donald Trump's previous duties in February.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Escalating violence in the Middle East and Ukraine highlights ongoing geopolitical tensions and humanitarian crises.",
-        "summary": "Today's headlines reflect a series of violent incidents and geopolitical tensions, including Israeli strikes in Lebanon, Iranian drone attacks in Kuwait, and drone strikes in St Petersburg. Additionally, a tragic fire in Delhi resulted in multiple casualties, and new US tariffs were announced over forced labor concerns. The situation in Nigeria remains dire with multiple deaths from church attacks and a drone strike on a bus in occupied Ukraine.",
+        "key_takeaway": "Israel and Lebanon have agreed to a ceasefire contingent on Hezbollah ceasing attacks, while tensions in the South China Sea and Ukraine continue to escalate.",
+        "summary": "Today's news highlights significant geopolitical developments, including a potential ceasefire between Israel and Lebanon, a US House vote against military action in Iran, and escalating tensions in the South China Sea and Ukraine. The situation remains complex with various international actors involved, and the sentiment surrounding these events is mixed.",
         "key_themes": [
-          "Middle East conflict updates",
-          "Ukraine war developments",
-          "US foreign policy changes",
-          "global humanitarian crises",
-          "international terrorism incidents"
+          "Middle East ceasefire agreements",
+          "US military policy on Iran",
+          "tensions in the South China Sea",
+          "Ukrainian drone strikes",
+          "international relations and conflicts"
         ],
         "notable_headlines": [
           {
-            "headline": "Israeli strikes kill nine in Lebanon as Hezbollah fires rockets over border",
-            "why_it_matters": "This incident threatens the fragile ceasefire and escalates regional tensions.",
-            "signal": "Risk"
+            "headline": "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
+            "why_it_matters": "This agreement could reduce hostilities in the region, impacting broader Middle Eastern stability.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
-            "why_it_matters": "The attack is a significant escalation in retaliation for US actions, impacting regional stability.",
+            "headline": "US House votes to halt Iran war, in rebuke to Trump",
+            "why_it_matters": "This vote signifies a shift in US legislative stance towards military engagement in Iran, reflecting domestic political dynamics.",
             "signal": "Risk"
           },
           {
             "headline": "Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens",
-            "why_it_matters": "This attack coincides with a major political event, highlighting ongoing conflict in Ukraine.",
+            "why_it_matters": "This attack underscores ongoing military tensions and could affect Russia's international standing during a key event.",
             "signal": "Risk"
           },
           {
-            "headline": "Foreign nationals among at least 21 killed in Delhi fire",
-            "why_it_matters": "The tragedy underscores the risks faced by vulnerable populations seeking medical treatment abroad.",
+            "headline": "Germany blames Russia for 'bitter defeat' in UN Security Council bid",
+            "why_it_matters": "Germany's comments highlight the geopolitical rift between Western nations and Russia, particularly over Ukraine.",
             "signal": "Risk"
           },
           {
-            "headline": "Four sentenced to death for killing worshippers at Catholic church in Nigeria",
-            "why_it_matters": "This sentencing reflects ongoing violence against religious groups in Nigeria, raising concerns about security.",
+            "headline": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+            "why_it_matters": "This incident raises concerns about regional security and the potential for further escalation in the Gulf.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Israeli-Lebanese conflict for potential escalation.",
-            "Watch for responses from Iran regarding the drone strike on Kuwait.",
-            "Observe the impact of the Ukrainian drone strikes on Russia's military strategy."
+            "Monitoring developments in the Israel-Lebanon ceasefire agreement implementation.",
+            "Observing reactions from Iran regarding the US House vote on military action.",
+            "Tracking the aftermath of the Ukrainian drone strikes in Russia."
           ],
           "next_1_4_weeks": [
-            "Expect further international reactions to the US tariffs on forced labor.",
-            "Anticipate updates on the humanitarian situation in Delhi and Nigeria.",
-            "Follow the outcomes of ongoing trials related to terrorism in Europe."
+            "Anticipating further diplomatic efforts in the Middle East following the ceasefire agreement.",
+            "Expecting increased tensions in the South China Sea as nations respond to China's actions.",
+            "Watching for potential retaliatory actions from Iran after the drone strikes."
           ],
           "watch_list": [
-            "Tensions in the Middle East and their implications for global security.",
-            "The humanitarian crisis in Ukraine and its effects on civilians.",
-            "US foreign policy shifts regarding tariffs and labor practices.",
-            "Developments in Nigeria's security situation and religious violence."
+            "Ceasefire effectiveness between Israel and Lebanon.",
+            "US legislative actions regarding military engagement in the Middle East.",
+            "Geopolitical developments in the South China Sea.",
+            "Impact of Ukrainian drone strikes on Russia's military strategy."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East and Ukraine is fluid and may change rapidly.",
-          "Casualty figures are subject to revision as more information becomes available.",
-          "Geopolitical tensions can escalate unexpectedly, impacting global markets."
+          "The situation in the Middle East remains fluid and subject to rapid change.",
+          "Sentiment scores indicate mixed reactions, suggesting uncertainty in public and political responses."
         ],
         "related_topics": [
-          "What are the latest developments in the Middle East conflict?",
-          "How is the Ukraine war affecting global politics?",
-          "What are the implications of US tariffs on international trade?",
-          "What is the current humanitarian situation in Nigeria?",
-          "Updates on international terrorism incidents and responses."
+          "What is the latest on the Israel-Lebanon ceasefire?",
+          "How is the US Congress addressing military action in Iran?",
+          "What are the implications of Ukrainian drone strikes on Russia?",
+          "Current tensions in the South China Sea explained.",
+          "Germany's position in the UN Security Council and its impact."
         ]
       },
-      "tweet_text": "Chaos erupts across the globe as conflict escalates and tragedy strikes—what's the world coming to?\n\nWorld Sentiment: Negative (-0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Killed #Strikes #1975 #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tensions rise as world leaders scramble for peace amidst chaos: ceasefires, power plays, and drone strikes redefine global...\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#House #Iran #Trump #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -186,18 +186,11 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.2038,
+        "score": -0.1499,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.340, dampened ×0.6 → -0.2038). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.250, dampened ×0.6 → -0.1499). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
-        {
-          "title": "Trump threatens tariffs on 60 trading partners including UK and Canada over ‘forced labour’",
-          "url": "https://www.theguardian.com/business/2026/jun/03/trump-threatens-tariffs-60-countries-forced-labour",
-          "published": "Wed, 03 Jun 2026 10:41:03 GMT",
-          "summary": "<p>Proposal for 10-12.5% levies, to also include EU, Taiwan and Australia, would allow US president to skirt court-imposed limits</p><p>Donald Trump has threatened tariffs of between 10% and 12.5% on 60 trading partners including the UK, the EU and Australia over alleged forced labour failures, in the latest attempt to revive his signature trade policy.</p><p>The EU immediately hit back, saying it expected the US to respect the tariff deal it entered into last July and arguing that stealth tarif",
-          "source": "The Guardian"
-        },
         {
           "title": "Fired 60 Minutes correspondent Scott Pelley says CBS told him to inject ‘falsehoods’ into reporting",
           "url": "https://www.theguardian.com/media/2026/jun/03/60-minutes-scott-pelley-cbs-accusations",
@@ -206,10 +199,17 @@
           "source": "The Guardian"
         },
         {
-          "title": "Federal workers experiencing ‘PTSD-like symptoms’ after unlawful firings by Trump administration",
-          "url": "https://www.theguardian.com/business/2026/jun/03/federal-workers-ptsd-like-symptoms-trump-firings",
-          "published": "Wed, 03 Jun 2026 10:00:19 GMT",
-          "summary": "<p>In survey of more than 300 fired probationary employees, 95% reported continuing mental health effects</p><p>US federal workers laid off by the Trump administration say they are experiencing mental health effects, including PTSD-like symptoms, from losing their jobs, according to a new <a href=\"https://www.27unihted.org/probationaryhome\">survey</a>.</p><p>More than 300 fired probationary employees were surveyed, with 95% reporting ongoing mental health effects, according to 27UNIHTED, a netwo",
+          "title": "Trump signs order to make it easier to fire 8,000 highly paid federal workers",
+          "url": "https://www.theguardian.com/us-news/2026/jun/03/trump-order-federal-workers",
+          "published": "Wed, 03 Jun 2026 20:35:08 GMT",
+          "summary": "<p>Order strips job protections from workers earning up to about $200,000 a year and deemed to be ‘influencing’ policy</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has signed an executive order making it easier to fire thousands of the best-paid workers in the US government aspart of a broader drive by his administration to overhaul the federal workforce.</p><p>The order, released by the White House and the office of personnel management (OPM) on Wednesday, st",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump threatens tariffs on 60 trading partners including UK and Canada over ‘forced labour’",
+          "url": "https://www.theguardian.com/business/2026/jun/03/trump-threatens-tariffs-60-countries-forced-labour",
+          "published": "Wed, 03 Jun 2026 10:41:03 GMT",
+          "summary": "<p>Proposal for 10-12.5% levies, to also include EU, Taiwan and Australia, would allow US president to skirt court-imposed limits</p><p>Donald Trump has threatened tariffs of between 10% and 12.5% on 60 trading partners including the UK, the EU and Australia over alleged forced labour failures, in the latest attempt to revive his signature trade policy.</p><p>The EU immediately hit back, saying it expected the US to respect the tariff deal it entered into last July and arguing that stealth tarif",
           "source": "The Guardian"
         },
         {
@@ -277,74 +277,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Trump threatens tariffs on 60 trading partners, including the UK and Canada, over forced labor allegations, while the OECD warns of potential global recessions due to ongoing conflicts.",
-        "summary": "Today's business news highlights Trump's tariff threats against numerous countries, including the UK and Canada, over forced labor issues, and the OECD's warning of global recessions if the Iran conflict persists. Additionally, Democrats oppose a proposal to include cryptocurrency in 401(k) plans, and Alphabet plans to raise $80 billion for AI investments, indicating significant shifts in both policy and corporate strategy.",
+        "key_takeaway": "Trump's administration is pushing significant changes in federal employment and trade policies, while global economic forecasts remain bleak amid geopolitical tensions.",
+        "summary": "Today's business news highlights significant actions by the Trump administration, including an executive order to facilitate the firing of high-paid federal workers and threats of tariffs against numerous trading partners. Additionally, the OECD warns of potential global recessions if the Iran conflict continues, while Alphabet plans a massive stock sale to fund AI investments. Meanwhile, Democrats oppose a proposal to include cryptocurrency in 401(k) plans, and a short seller faces securities fraud charges.",
         "key_themes": [
-          "Trump tariffs on trading partners",
-          "OECD recession predictions",
-          "Democrats oppose crypto in 401(k) plans",
-          "Alphabet AI funding strategy",
-          "mental health effects of firings"
+          "Trump administration federal workforce changes",
+          "global recession predictions",
+          "Alphabet stock sale for AI funding",
+          "Democrats oppose crypto in retirement plans",
+          "securities fraud conviction news"
         ],
         "notable_headlines": [
           {
+            "headline": "Trump signs order to make it easier to fire 8,000 highly paid federal workers",
+            "why_it_matters": "This order could significantly alter job security for high-earning federal employees and reshape the federal workforce.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Trump threatens tariffs on 60 trading partners including UK and Canada over ‘forced labour’",
-            "why_it_matters": "This move could escalate trade tensions and impact global markets, especially for affected countries.",
+            "why_it_matters": "These tariffs could escalate trade tensions and impact global markets, particularly with key allies.",
             "signal": "Risk"
           },
           {
             "headline": "OECD predicts spate of recessions globally if Iran conflict drags into 2027",
-            "why_it_matters": "The prediction highlights potential economic instability and energy shortages affecting global growth.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Democrats oppose Trump officials’ effort to include crypto in 401(k) plans",
-            "why_it_matters": "This opposition reflects concerns over financial risks for workers, potentially impacting retirement savings.",
+            "why_it_matters": "The forecast indicates serious implications for global economic growth and stability, affecting multiple economies.",
             "signal": "Risk"
           },
           {
             "headline": "Google owner Alphabet to sell $80bn in stock to fund AI spending spree",
-            "why_it_matters": "This significant fundraising effort underscores the growing importance of AI investments in corporate strategies.",
+            "why_it_matters": "This massive fundraising effort highlights the tech sector's aggressive investment in AI, influencing market dynamics.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Federal workers experiencing ‘PTSD-like symptoms’ after unlawful firings by Trump administration",
-            "why_it_matters": "The mental health impact of these firings raises concerns about workforce stability and morale.",
-            "signal": "Unclear"
+            "headline": "Democrats oppose Trump officials’ effort to include crypto in 401(k) plans",
+            "why_it_matters": "This opposition reflects concerns over financial risks for workers, potentially impacting retirement savings strategies.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions from trading partners regarding Trump's tariff threats.",
-            "Watch for updates on the OECD's economic forecasts and their implications for global markets.",
-            "Follow developments in the cryptocurrency investment debate in 401(k) plans."
+            "Monitor reactions to Trump's executive order on federal workers.",
+            "Watch for market responses to Alphabet's stock sale announcement.",
+            "Follow developments regarding proposed tariffs on trading partners."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of Alphabet's stock sale on market dynamics and AI sector investments.",
-            "Track the political ramifications of Trump's tariff proposals on upcoming elections.",
-            "Evaluate the ongoing effects of federal worker mental health issues on labor relations."
+            "Observe the impact of potential tariffs on international trade relations.",
+            "Track the OECD's economic forecasts and their implications for global markets.",
+            "Evaluate the political ramifications of Democrats' opposition to crypto in retirement plans."
           ],
           "watch_list": [
-            "Potential responses from the EU and other affected countries regarding tariffs.",
-            "Updates on the Iran conflict and its economic implications.",
-            "Legislative developments concerning cryptocurrency in retirement plans.",
-            "Trends in AI investment and corporate funding strategies."
+            "Federal workforce changes under Trump administration.",
+            "Global economic indicators related to the Iran conflict.",
+            "Tech sector investments in AI and their market effects.",
+            "Legislative developments regarding cryptocurrency in retirement accounts."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates uncertainty in market reactions to these developments. ",
-          "The long-term effects of Trump's tariff threats remain to be seen, especially in relation to upcoming elections."
+          "The sentiment score indicates mixed reactions to the news, suggesting uncertainty in market responses.",
+          "Geopolitical tensions may rapidly change the economic outlook."
         ],
         "related_topics": [
-          "What are the implications of Trump's tariff threats?",
-          "How could the Iran conflict affect global economies?",
-          "What are the risks of including cryptocurrency in 401(k) plans?",
-          "Latest trends in AI investments and corporate funding.",
-          "Impact of federal worker firings on mental health and labor relations."
+          "What are the implications of Trump's federal workforce changes?",
+          "How could tariffs affect global trade relations?",
+          "What is the OECD's latest economic forecast?",
+          "What are the risks of including crypto in 401(k) plans?",
+          "How is Alphabet funding its AI investments?"
         ]
       },
-      "tweet_text": "Trump's tariff threat looms large as global tensions rise—who will feel the pinch next?\n\nBusiness Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #2027 #401k #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "CBS whistleblower exposes shocking pressure to twist the truth, while Trump’s bold moves threaten the jobs of...\n\nBusiness Sentiment: Mixed (-0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #2027 #401k #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -355,11 +355,46 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2836,
+        "score": 0.3062,
         "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.473, dampened ×0.6 → +0.2836). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.510, dampened ×0.6 → +0.3062). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Nintendo confirms it will sell a new Switch 2 with replaceable battery in the EU",
+          "url": "https://www.theverge.com/games/942808/nintendo-switch-2-replaceable-battery-eu",
+          "published": "2026-06-03T20:04:04-04:00",
+          "summary": "Nintendo is planning to launch versions of Switch 2 hardware in the EU that will let users easily replace the battery. To meet its obligations from a new EU regulation that's set to go into effect on February 18th, 2027, Nintendo says on its website that it is \"implementing measures to comply with these requirements [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple is bringing age verification to Texas this week",
+          "url": "https://www.theverge.com/tech/942761/apple-texas-age-verification-app-store",
+          "published": "2026-06-03T17:49:51-04:00",
+          "summary": "Apple will introduce age verification in the App Store for users in Texas starting on Thursday, June 4th. The move, as spotted by MacRumors, comes just days after a federal appeals court allowed Texas' App Store Accountability Act to go into effect while a lawsuit against it proceeds. People in Texas who are creating a [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "WiiM expands its whole-home ecosystem with a new soundbar",
+          "url": "https://www.theverge.com/tech/942748/wiim-releases-first-soundbar",
+          "published": "2026-06-03T17:12:51-04:00",
+          "summary": "WiiM, the audio company that's challenged the idea that audiophile-level performance requires a small loan, is expanding its whole-home ecosystem with the WiiM Bar, which releases in July. Much like its other speakers and audio components, the WiiM Bar supports a bunch of streaming options and expandability at an affordable price - in this case, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Nvidia is already planning N2X and N3X chips — the goal is the Star Trek computer",
+          "url": "https://www.theverge.com/tech/942588/nvidia-rtx-spark-n2x-n3x-r2-d2-star-trek-star-wars-plan",
+          "published": "2026-06-03T16:03:50-04:00",
+          "summary": "Just in case you were wondering, Nvidia's RTX Spark isn't supposed to be a one-off. The company is not just flirting with becoming the fifth high-profile vendor of consumer laptop chips to see if people bite. At Computex 2026 in Taipei, Nvidia CEO Jensen Huang confirmed at least two additional generations of RTX Spark are [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The best Bluetooth trackers for Apple and Android phones",
+          "url": "https://www.theverge.com/23769840/best-bluetooth-trackers",
+          "published": "2026-06-03T15:00:00-04:00",
+          "summary": "Some people rarely lose things. Wallets are always exactly where they’re supposed to be, keys never go missing, and remotes never slip between the couch cushions. And then there’s the rest of us — the folks who can’t ever seem to find the thing that was right there a few seconds ago. For us, Bluetooth [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "The best Qi2 batteries for iPhone and Pixel",
           "url": "https://www.theverge.com/gadgets/939362/best-magsafe-qi2-2-batteries-power-banks",
@@ -394,132 +429,79 @@
           "published": "2026-06-03T11:00:00-04:00",
           "summary": "A few months ago, Meta effectively handed Supernatural, a popular VR fitness game on the Meta Quest, a death sentence. As part of overarching VR layoffs, the company announced the game would no longer get any new content, enraging its tightly knit, devoted community. Now it looks like Supernatural is getting a second chance. Today, [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Dreame&#8217;s L20 Ultra robovac is an unbeatable deal for $280",
-          "url": "https://www.theverge.com/gadgets/942184/dreame-l20-ultra-audible-bose-soundlink-flex-deal-sale",
-          "published": "2026-06-03T10:53:10-04:00",
-          "summary": "The Dreame L20 Ultra isn’t the company&#8217;s newest model, but it&#8217;s still a great robovac / mop hybrid that offers strong performance while requiring very little day-to-day maintenance thanks to its included trash bin and AI obstacle avoidance. Verge readers can get for its best-ever price right now. Originally $1,400 when it launched in 2023, [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Microsoft and OpenAI broke up — now they’re ready to fight",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
-          "published": "2026-06-03T10:04:00-04:00",
-          "summary": "At Microsoft's annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it's [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "A first look at Microsoft’s Surface Laptop Ultra and Surface Dev Box",
-          "url": "https://www.theverge.com/tech/941600/microsoft-surface-laptop-ultra-dev-box-hands-on",
-          "published": "2026-06-03T09:22:17-04:00",
-          "summary": "Microsoft has two new Surface devices arriving later this year, both powered by Nvidia's RTX Spark chips. I got a chance to take a closer look at both the Surface Laptop Ultra and Surface RTX Spark Dev Box at Microsoft's Build conference this week, and while both have the same chip inside, they're utilizing Nvidia's [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "SwitchBot’s acquisition of Nanoleaf is about more than lighting",
-          "url": "https://www.theverge.com/tech/942328/nanoleaf-switchbot-onerobotics-sale-ai-robotics",
-          "published": "2026-06-03T08:00:20-04:00",
-          "summary": "Smart lighting company Nanoleaf has been acquired by OneRobotics, the parent company of SwitchBot. In an exclusive interview with The Verge, Nanoleaf CEO Gimmy Chu says the company will remain independent and that he and his cofounder and COO, Christian Yan, will continue to run it. \"Nothing is changing operationally,\" says Chu, adding that there [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Trans teens have something to say",
-          "url": "https://www.theverge.com/features/940977/trans-teens-pediatric-care-closing",
-          "published": "2026-06-03T07:00:00-04:00",
-          "summary": "By the time the Children's Hospital closed its doors to trans patients, Sage had already stopped taking testosterone. A nonbinary high school student, they originally received treatment for the rapid onset of puberty. The changes their body experienced felt frightening and sudden. They developed PMOS, a relatively common hormonal disorder that can lead to hair [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Amazon's search bar will now feature AI-generated product images, enhancing user experience in product discovery.",
-        "summary": "Today's technology news highlights advancements in AI, gaming, and consumer electronics, including Amazon's new AI features, PlayStation's focus shift, and the introduction of new Microsoft devices.",
+        "key_takeaway": "Nintendo plans to launch a new Switch 2 with a replaceable battery in the EU to comply with upcoming regulations.",
+        "summary": "Today's technology news highlights significant developments from major companies like Nintendo, Apple, and Nvidia, showcasing new products and regulatory responses. Nintendo's upcoming Switch 2 will feature a replaceable battery to meet EU regulations, while Apple introduces age verification in Texas. Nvidia is advancing its chip technology, and WiiM expands its audio ecosystem with a new soundbar. Additionally, Amazon's search bar will now display AI-generated product images, and PlayStation refocuses on narrative-driven games after previous setbacks.",
         "key_themes": [
-          "AI advancements in consumer tech",
-          "PlayStation gaming strategy",
-          "Amazon AI product search",
-          "Microsoft Surface devices launch",
-          "VR fitness game updates"
+          "Nintendo Switch 2 battery replacement",
+          "Apple age verification Texas",
+          "Nvidia chip advancements",
+          "WiiM soundbar release",
+          "Amazon AI-generated products",
+          "PlayStation narrative games focus"
         ],
         "notable_headlines": [
           {
-            "headline": "The best Qi2 batteries for iPhone and Pixel",
-            "why_it_matters": "Compact power banks are now faster, enhancing convenience for users of iPhone and Pixel devices.",
+            "headline": "Nintendo confirms it will sell a new Switch 2 with replaceable battery in the EU",
+            "why_it_matters": "This move aligns with new EU regulations aimed at improving product sustainability and consumer rights.",
             "signal": "Opportunity"
           },
           {
-            "headline": "As AI gets better, it reveals an empty promise",
-            "why_it_matters": "The effectiveness of Google's Gemini AI raises questions about the true capabilities and implications of AI technology.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Amazon's search bar will invent AI-generated products you can't buy",
-            "why_it_matters": "This feature could revolutionize how consumers discover products, although the AI-generated items are not purchasable.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "PlayStation is getting back to what it’s good at",
-            "why_it_matters": "PlayStation's renewed focus on premium, narrative-driven games may restore its competitive edge in the gaming market.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Supernatural isn’t dead after all",
-            "why_it_matters": "The revival of the VR fitness game Supernatural indicates a potential resurgence in the VR fitness market.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Dreame's L20 Ultra robovac is an unbeatable deal for $280",
-            "why_it_matters": "The price drop on a high-performing robovac could attract budget-conscious consumers looking for smart home solutions.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Microsoft and OpenAI broke up — now they’re ready to fight",
-            "why_it_matters": "Microsoft's new AI initiatives signal its intent to dominate the AI landscape following its split with OpenAI.",
+            "headline": "Apple is bringing age verification to Texas this week",
+            "why_it_matters": "This implementation follows legal changes in Texas, impacting how apps manage user access based on age.",
             "signal": "Risk"
           },
           {
-            "headline": "A first look at Microsoft’s Surface Laptop Ultra and Surface Dev Box",
-            "why_it_matters": "The introduction of new Surface devices with advanced Nvidia chips could enhance productivity for users.",
+            "headline": "Nvidia is already planning N2X and N3X chips — the goal is the Star Trek computer",
+            "why_it_matters": "Nvidia's ambitious plans for future chips indicate a strong commitment to advancing AI and computing technology.",
             "signal": "Opportunity"
           },
           {
-            "headline": "SwitchBot’s acquisition of Nanoleaf is about more than lighting",
-            "why_it_matters": "This acquisition could lead to innovative integrations in smart home technology beyond just lighting.",
+            "headline": "Amazon's search bar will invent AI-generated products you can't buy",
+            "why_it_matters": "This feature represents a novel use of AI in e-commerce, potentially changing how consumers discover products.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "PlayStation is getting back to what it’s good at",
+            "why_it_matters": "Focusing on premium single-player games may help PlayStation recover from previous missteps in the gaming market.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Amazon's AI product search feature",
-            "Watch for consumer feedback on PlayStation's gaming strategy",
-            "Follow developments in Microsoft's AI initiatives"
+            "Launch of Nintendo's Switch 2 details",
+            "Apple's age verification rollout in Texas",
+            "WiiM Bar release announcement"
           ],
           "next_1_4_weeks": [
-            "Anticipate more details on upcoming Microsoft Surface devices",
-            "Expect announcements regarding new VR content for Supernatural",
-            "Watch for updates on AI capabilities in consumer products"
+            "Nvidia's Computex announcements",
+            "Amazon's AI product features expansion",
+            "PlayStation's upcoming game releases"
           ],
           "watch_list": [
-            "Amazon's AI features",
-            "PlayStation game releases",
-            "Microsoft's AI developments",
-            "VR fitness market trends"
+            "Nintendo's compliance with EU regulations",
+            "Apple's App Store changes",
+            "Nvidia's chip development progress",
+            "WiiM's market reception",
+            "PlayStation's game lineup"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The effectiveness of AI-generated products in Amazon's search is yet to be fully evaluated.",
-          "The long-term impact of Microsoft's AI initiatives remains uncertain."
+          "The impact of regulatory changes on product design is still unfolding.",
+          "Consumer reactions to new features like AI-generated products are unpredictable."
         ],
         "related_topics": [
-          "What are the latest advancements in AI technology?",
-          "How is PlayStation changing its gaming strategy?",
-          "What new features are coming to Amazon's search bar?",
-          "What to expect from Microsoft's new Surface devices?",
-          "Updates on VR fitness games and their market presence."
+          "What are the new features of Nintendo Switch 2?",
+          "How is Apple implementing age verification in Texas?",
+          "What advancements is Nvidia making in chip technology?",
+          "What are the best new audio products from WiiM?",
+          "How is PlayStation refocusing its game development strategy?"
         ]
       },
-      "tweet_text": "Unlock the future of tech: from unbeatable robovacs to Amazon's wild AI dreams, today's headlines...\n\nTechnology Sentiment: Positive (+0.28)\n\nRead the full breakdown: https://tldrnews.info\n\n#Surface #Ultra #Aigenerated #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready for a tech revolution: Nintendo’s new Switch 2 is here, and it's just the tip of the...\n\nTechnology Sentiment: Positive (+0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Best #Aigenerated #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -622,70 +604,72 @@
       ],
       "ai_report": {
         "key_takeaway": "The Golden Knights won Game 1 of the Stanley Cup Final, while the NBA Finals between the Knicks and Spurs is set to begin tonight.",
-        "summary": "In sports news, the Golden Knights triumphed over the Hurricanes in a thrilling Game 1 of the Stanley Cup Final, with Tomas Hertl scoring the decisive goal. Meanwhile, the NBA Finals featuring the Knicks and Spurs is about to commence, with experts weighing in on predictions and uniform choices. Other notable stories include a significant contract extension for Falcons WR Drake London and a joint opposition from the SEC and Big Ten to a college sports regulation bill.",
+        "summary": "In today's sports news, the Golden Knights triumphed over the Hurricanes in a thrilling Game 1 of the Stanley Cup Final, with Tomas Hertl scoring the decisive goal. Meanwhile, the NBA Finals between the Knicks and Spurs is anticipated to start tonight, with experts weighing in on potential outcomes. Additionally, the Falcons secured a major contract extension for wide receiver Drake London, while the SEC and Big Ten expressed opposition to a new college sports bill.",
         "key_themes": [
           "NHL Stanley Cup Final recap",
           "NBA Finals preview",
-          "NFL player contract news",
-          "college sports regulation updates"
+          "NFL contract extensions",
+          "college sports legislation updates"
         ],
         "notable_headlines": [
           {
             "headline": "Golden Knights win Game 1 thriller: Grades and big...",
-            "why_it_matters": "Highlights the intensity and significance of the Stanley Cup Final opener.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Hertl caps rally in third as Knights swipe Game 1",
-            "why_it_matters": "Showcases the Golden Knights' resilience and performance under pressure.",
+            "why_it_matters": "Highlights the excitement and implications of the Stanley Cup Final opener.",
             "signal": "Opportunity"
           },
           {
             "headline": "Eagles LT after Brown trade: 'Thank God it's over'...",
-            "why_it_matters": "Reflects the mixed emotions within the Eagles organization following a key player's departure.",
+            "why_it_matters": "Reflects the mixed emotions within the Eagles organization following a significant player trade.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "SEC, Big Ten jointly oppose college sports bill",
+            "why_it_matters": "Indicates potential challenges for new regulations in college sports amid changing dynamics.",
             "signal": "Risk"
           },
           {
             "headline": "Falcons, star WR London reach $141M extension",
-            "why_it_matters": "Indicates the financial commitment and expectations for the Falcons' star player.",
+            "why_it_matters": "Signifies the financial commitment to key players in the NFL, impacting team strategies.",
             "signal": "Opportunity"
           },
           {
-            "headline": "SEC, Big Ten jointly oppose college sports bill",
-            "why_it_matters": "Demonstrates the ongoing challenges in regulating college sports amid changing dynamics.",
-            "signal": "Risk"
+            "headline": "Sources: Curry's deal with Li-Ning worth $400M",
+            "why_it_matters": "Demonstrates the lucrative nature of athlete endorsements in the global market.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "NBA Finals Game 1 between Knicks and Spurs tonight",
-            "Further analysis on Golden Knights' performance in Game 1",
-            "Updates on NFL offseason activities"
+            "Analysis of Golden Knights' performance in Game 1",
+            "Updates on player trades and contract negotiations"
           ],
           "next_1_4_weeks": [
             "Progress of the Stanley Cup Final series",
-            "Developments in NBA Finals",
-            "Potential impacts of SEC and Big Ten's opposition to college sports bill"
+            "Impact of contract extensions on NFL teams",
+            "Developments in college sports legislation"
           ],
           "watch_list": [
-            "Golden Knights vs. Hurricanes series",
-            "Knicks vs. Spurs Finals predictions",
-            "NFL offseason trades and signings",
-            "College sports regulation news"
+            "Knicks vs Spurs Game 1",
+            "Golden Knights playoff performance",
+            "NFL offseason moves and trades",
+            "College sports regulatory changes"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Mixed sentiment indicates varying reactions to the news.",
-          "The outcomes of ongoing series and games remain uncertain."
+          "Mixed sentiment indicates uncertainty in some areas, particularly regarding player trades and college sports legislation.",
+          "The outcome of the NBA Finals is still uncertain, with various factors influencing team performance."
         ],
         "related_topics": [
-          "What happened in the NHL playoffs today",
+          "What happened in the NHL Stanley Cup Final",
           "NBA Finals preview and predictions",
-          "Latest NFL player contract news"
+          "Latest NFL contract extensions news",
+          "Updates on college sports legislation",
+          "Stephen Curry's endorsement deal details"
         ]
       },
-      "tweet_text": "Golden Knights steal Game 1 in a heart-stopping thriller, while the Falcons lock down London for $141M—sports...\n\nSports Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Game #Knights #141m #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Heart-stopping moments as the Golden Knights snag Game 1—did Hertl just write his own fairytale ending?\n\nSports Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Game #Knights #141m #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -787,15 +771,14 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries range from ancient mining sites to new diabetes treatments and insights into autism subtypes, highlighting diverse advancements in research.",
-        "summary": "Today's science headlines cover a wide array of topics, including the discovery of a 5,500-year-old mining camp in the Pyrenees, a rare astronomical event involving Venus, and groundbreaking research on diabetes treatments and autism subtypes. Notable findings also include insights into nuclear fireballs, the effects of french fries on diabetes risk, and a new understanding of turbulence and earthquake phenomena.",
+        "key_takeaway": "Recent scientific discoveries range from ancient mining camps to new diabetes treatments and insights into autism subtypes, highlighting diverse advancements in various fields.",
+        "summary": "Today's science headlines cover a wide array of topics, including archaeological findings in the Pyrenees, astronomical events involving Venus, and significant medical breakthroughs in diabetes and mental health. Researchers have also made strides in understanding turbulence, earthquake phenomena, and the complexities of autism, while new insights into cosmic signals have emerged from advanced telescopes.",
         "key_themes": [
-          "ancient mining discoveries",
-          "astronomical events in June",
+          "archaeological discoveries in the Pyrenees",
+          "upcoming astronomical events",
           "new diabetes treatments",
-          "autism research advancements",
-          "turbulence theory",
-          "deep earthquake phenomena"
+          "understanding autism subtypes",
+          "turbulence theory advancements"
         ],
         "notable_headlines": [
           {
@@ -810,62 +793,77 @@
           },
           {
             "headline": "Scientists simulated a nuclear fireball and found a surprise in the fallout",
-            "why_it_matters": "Understanding fallout formation can improve safety measures and nuclear disaster preparedness.",
+            "why_it_matters": "Understanding radioactive fallout formation is crucial for safety and environmental assessments.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "This new diabetes pill burns fat without the downsides of Ozempic",
+            "why_it_matters": "A novel approach to diabetes treatment could improve patient outcomes without significant side effects.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists reverse anxiety by fixing a tiny brain circuit",
-            "why_it_matters": "This research could lead to new treatments for anxiety disorders.",
+            "why_it_matters": "This research could lead to new treatments for anxiety disorders by targeting specific brain circuits.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discovered something surprising about french fries and diabetes",
-            "why_it_matters": "The findings could influence dietary recommendations and public health strategies.",
+            "why_it_matters": "The findings challenge common perceptions about potato consumption and diabetes risk.",
             "signal": "Risk"
           },
           {
             "headline": "New discovery upends an 80-year-old theory of turbulence",
-            "why_it_matters": "Challenging established theories can lead to advancements in various scientific fields.",
+            "why_it_matters": "This breakthrough could enhance our understanding of fluid dynamics and its applications.",
             "signal": "Opportunity"
           },
           {
+            "headline": "A single protein may be holding back CAR T cancer therapy",
+            "why_it_matters": "Identifying obstacles in cancer therapy can lead to more effective treatments for patients.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Scientists confirm a deep earthquake that shouldn't exist",
+            "why_it_matters": "This discovery expands our understanding of seismic activity and geological processes.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Brain scans reveal two distinct types of autism",
-            "why_it_matters": "Identifying subtypes of autism can enhance diagnosis and treatment approaches.",
+            "why_it_matters": "Identifying subtypes of autism can lead to more personalized and effective interventions.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Expect further analysis on the implications of the ancient mining discovery.",
-            "Watch for updates on the upcoming astronomical events involving Venus and Jupiter.",
-            "Anticipate more research findings related to diabetes treatments and their clinical trials."
+            "Monitoring reactions to the astronomical event involving Venus and the Moon.",
+            "Following up on public interest in the diabetes pill and its clinical trials.",
+            "Observing further developments in autism research and its implications."
           ],
           "next_1_4_weeks": [
-            "Further studies may emerge regarding the implications of the new turbulence discovery.",
-            "Expect ongoing discussions on the impact of dietary choices on diabetes risk.",
-            "Research on autism subtypes may lead to new diagnostic tools and therapies."
+            "Anticipating more findings from ongoing archaeological excavations in the Pyrenees.",
+            "Expecting updates on the impact of the new diabetes treatment in clinical settings.",
+            "Watching for advancements in turbulence research and its applications."
           ],
           "watch_list": [
             "Upcoming astronomical events in June.",
-            "New clinical trials for diabetes medications.",
-            "Research developments in mental health treatments.",
-            "Further studies on ancient human activities and their implications."
+            "Further studies on the relationship between diet and diabetes risk.",
+            "Progress in CAR T-cell therapy research and its challenges.",
+            "New insights into the brain circuits involved in anxiety."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates varying public perception of the news.",
-          "Some findings are preliminary and require further validation."
+          "The mixed sentiment signal indicates varying levels of optimism and concern across different stories.",
+          "Some findings, particularly in medical research, are still in early stages and require further validation."
         ],
         "related_topics": [
-          "What are the latest discoveries in ancient mining techniques?",
-          "What astronomical events should I watch for in June?",
-          "How do new diabetes treatments compare to existing options?",
-          "What are the latest findings in autism research?",
-          "What recent advancements have been made in understanding turbulence?"
+          "What are the latest discoveries in archaeology?",
+          "Upcoming astronomical events in June 2026",
+          "How do new diabetes treatments work?",
+          "What are the different types of autism?",
+          "Recent advancements in turbulence research"
         ]
       },
-      "tweet_text": "A child's tooth and strange stones unravel a 5,500-year-old enigma—what secrets are buried in our...\n\nScience Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Diabetes #5500yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A child's tooth and strange stones unlock a 5,500-year-old mystery—what secrets lie beneath our feet?\n\nScience Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Diabetes #5500yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
