@@ -1,11 +1,11 @@
 {
   "date": "2026-06-05",
-  "generated_at_utc": "2026-06-05T16:28:00Z",
+  "generated_at_utc": "2026-06-06T00:16:14Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump",
-    "jobs"
+    "biggest",
+    "minutes"
   ],
   "categories": {
     "world": {
@@ -17,16 +17,16 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1625,
+        "score": -0.1854,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.271, dampened ×0.6 → -0.1625). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.309, dampened ×0.6 → -0.1854). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Nasa tells ISS astronauts to shelter during air leak repair attempt",
-          "url": "https://www.bbc.com/news/articles/c5y7yryg01mo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 05 Jun 2026 16:14:36 GMT",
-          "summary": "Russian attempt to repair tunnel area sparks safe-haven procedure for five other astronauts onboard.",
+          "title": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
+          "url": "https://www.bbc.com/news/articles/cpqpqx5qe40o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 05 Jun 2026 18:16:15 GMT",
+          "summary": "The Russian president's refusal comes after his Ukrainian counterpart wrote an open letter calling for face-to-face talks.",
           "source": "BBC News"
         },
         {
@@ -37,10 +37,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Zelensky proposes face-to-face talks in open letter to Putin",
-          "url": "https://www.bbc.com/news/articles/cwy2ypyp4x4o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 05 Jun 2026 08:03:23 GMT",
-          "summary": "Ukraine's president tells the Russian leader that only \"direct engagement\" between the two countries could end the war, with the US focused on Iran.",
+          "title": "Astronauts return to ISS after sheltering during air leak repair attempt",
+          "url": "https://www.bbc.com/news/articles/c5y7yryg01mo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 05 Jun 2026 21:35:55 GMT",
+          "summary": "Russian attempt to repair tunnel area sparks safe-haven procedure for five other astronauts onboard.",
           "source": "BBC News"
         },
         {
@@ -72,9 +72,16 @@
           "source": "BBC News"
         },
         {
+          "title": "Norway's crown princess on lung transplant waiting list, palace says",
+          "url": "https://www.bbc.com/news/articles/c9wewqxpq2eo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 05 Jun 2026 17:11:01 GMT",
+          "summary": "Mette-Marit's condition, which stiffens the lungs, making it hard to breathe, has deteriorated, the royal household says.",
+          "source": "BBC News"
+        },
+        {
           "title": "Everest guide survived six-day ordeal by eating chocolate and 'chewing ice'",
           "url": "https://www.bbc.com/news/articles/cn9p91295q8o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 05 Jun 2026 15:59:58 GMT",
+          "published": "Fri, 05 Jun 2026 19:53:51 GMT",
           "summary": "Dawa Sherpa was spotted alive by a cleaning crew as he slid slowly down the world's tallest mountain and spoke to the BBC from hospital.",
           "source": "BBC News"
         },
@@ -98,90 +105,76 @@
           "published": "Fri, 05 Jun 2026 05:17:13 GMT",
           "summary": "It is taking place weeks after Xi met the leaders of the US and Russia - two countries that loom large over North Korea's foreign policy.",
           "source": "BBC News"
-        },
-        {
-          "title": "Hospitality jobs boom as US prepares for World Cup",
-          "url": "https://www.bbc.com/news/articles/cdxpx4gel1yo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 05 Jun 2026 16:02:17 GMT",
-          "summary": "It is the third month in a row US jobs figures have beaten expectations.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Ukraine escalates military actions in the Sea of Azov while President Zelensky calls for direct talks with Putin to resolve the ongoing conflict.",
-        "summary": "Today's headlines cover a range of global issues, from Ukraine's military actions against Russian interests to a tragic incident in the Sahara desert. Tensions continue in international relations, particularly between Ukraine and Russia, as President Zelensky proposes direct talks with Putin. Meanwhile, a tragic event in the Sahara highlights ongoing humanitarian crises, and notable developments include a high-profile murder case in France and Xi Jinping's upcoming meeting with Kim Jong Un.",
+        "key_takeaway": "Tensions remain high in Ukraine as Putin dismisses peace talks, while global incidents raise concerns over safety and governance.",
+        "summary": "Today's headlines reflect ongoing geopolitical tensions, particularly in Ukraine, as well as significant incidents affecting public safety and health across various regions. Putin's refusal to meet with Zelensky highlights the stagnation in peace efforts, while Ukraine's military actions escalate the conflict. In other news, a tragic incident in the Sahara desert underscores the dangers faced by migrants, and the health of Norway's crown princess raises concerns. Additionally, a US journalist's guilty plea for espionage adds to the complexities of international relations.",
         "key_themes": [
-          "Ukraine-Russia conflict updates",
-          "humanitarian crises in the Sahara",
-          "Xi Jinping North Korea visit significance",
-          "international relations and diplomacy",
-          "latest crime news in France"
+          "Ukraine conflict updates",
+          "Putin and Zelensky peace talks",
+          "Sahara desert tragedy",
+          "Norway royal health news",
+          "US journalist espionage case"
         ],
         "notable_headlines": [
           {
-            "headline": "Nasa tells ISS astronauts to shelter during air leak repair attempt",
-            "why_it_matters": "This incident underscores the ongoing challenges and risks associated with maintaining the International Space Station.",
+            "headline": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
+            "why_it_matters": "This statement indicates a continued stalemate in diplomatic efforts to resolve the Ukraine conflict.",
             "signal": "Risk"
           },
           {
             "headline": "Ukraine strikes cargo ships and admits Romania drone blast",
-            "why_it_matters": "This escalation in military actions could further complicate the already tense situation in the region.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Zelensky proposes face-to-face talks in open letter to Putin",
-            "why_it_matters": "Direct engagement could be a pivotal step towards de-escalating the ongoing conflict between Ukraine and Russia.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Fury in France after child murder suspect's criminal record released",
-            "why_it_matters": "Public outrage highlights the societal issues surrounding crime and justice in France.",
+            "why_it_matters": "These military actions could escalate tensions further in the region and impact international relations.",
             "signal": "Risk"
           },
           {
             "headline": "Nearly 50 people die of thirst in Sahara desert after lorry breaks down",
-            "why_it_matters": "This tragedy emphasizes the severe humanitarian challenges faced in desert regions.",
+            "why_it_matters": "This tragedy highlights the perilous conditions faced by migrants and the need for humanitarian responses.",
             "signal": "Risk"
           },
           {
             "headline": "Xi Jinping to meet Kim Jong Un in rare visit to North Korea",
-            "why_it_matters": "This meeting could have significant implications for regional security and international relations.",
+            "why_it_matters": "This meeting could signal shifts in North Korea's foreign policy amid rising tensions with the US and Russia.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "US journalist pleads guilty to working as China's agent",
+            "why_it_matters": "This case raises concerns about espionage and the implications for US-China relations.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor developments in the Ukraine-Russia conflict following Zelensky's proposal for talks.",
-            "Watch for updates on the humanitarian situation in the Sahara desert.",
-            "Expect reactions to Xi Jinping's visit to North Korea."
+            "Monitor reactions to Putin's refusal for peace talks with Zelensky.",
+            "Watch for developments following Ukraine's military actions in the Sea of Azov.",
+            "Follow updates on the Sahara desert tragedy and any humanitarian efforts."
           ],
           "next_1_4_weeks": [
-            "Observe the outcomes of any potential negotiations between Ukraine and Russia.",
-            "Follow the implications of Xi Jinping's diplomatic engagements in the region.",
-            "Keep an eye on public sentiment in France regarding crime and safety."
+            "Observe the outcomes of Xi Jinping's meeting with Kim Jong Un and its impact on regional stability.",
+            "Track the health updates regarding Norway's crown princess and public response.",
+            "Anticipate further developments in the US journalist's espionage case and its implications."
           ],
           "watch_list": [
-            "Ukraine military actions and responses from Russia.",
-            "Humanitarian efforts in the Sahara desert.",
-            "International diplomatic relations involving China and North Korea.",
-            "Public safety and crime issues in France."
+            "Potential diplomatic responses from Ukraine and Russia regarding military actions.",
+            "International reactions to the Sahara desert tragedy and migrant safety measures.",
+            "Health updates on Norway's crown princess and implications for the royal family.",
+            "Outcomes of Xi Jinping's North Korea visit and its effects on US relations."
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The situation in Ukraine remains fluid and could change rapidly.",
-          "Public sentiment can shift quickly in response to ongoing events.",
-          "International relations are often influenced by unforeseen developments."
+          "Public sentiment regarding the Sahara tragedy may lead to increased scrutiny of migration policies.",
+          "Health conditions of public figures can be unpredictable and subject to change."
         ],
         "related_topics": [
-          "What are the latest updates on the Ukraine-Russia conflict?",
-          "How is the Sahara desert humanitarian crisis evolving?",
-          "What are the implications of Xi Jinping's visit to North Korea?",
-          "What is the public reaction to crime in France?",
-          "What are the latest developments in international diplomacy?"
+          "What are the latest developments in the Ukraine conflict?",
+          "Updates on Xi Jinping's meeting with Kim Jong Un",
+          "What happened in the Sahara desert tragedy?"
         ]
       },
-      "tweet_text": "From the ISS to the Sahara, today's world news is a gripping tapestry of crisis and chaos—don't miss the full story.\n\nWorld Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Actor #Admits #Ancient #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Chaos reigns as world events spiral: from war talks collapsing to tragedy in the Sahara and a shocking murder in Hollywood.\n\nWorld Sentiment: Mixed (-0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ukraine #Actor #Admits #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -192,9 +185,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1521,
+        "score": -0.1528,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.254, dampened ×0.6 → -0.1521). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.255, dampened ×0.6 → -0.1528). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -205,10 +198,17 @@
           "source": "The Guardian"
         },
         {
+          "title": "Lesley Stahl, Bill Whitaker and Jon Wertheim say they’ll ‘stay and fight’ at 60 Minutes",
+          "url": "https://www.theguardian.com/global/2026/jun/05/cbs-60-minutes-lesley-stahl-bill-whitaker-jon-wertheim",
+          "published": "Fri, 05 Jun 2026 17:45:38 GMT",
+          "summary": "<p>Stahl and Whitaker had been wild cards after new CBS News management fired multiple people in recent weeks</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US newsletter email</a></p></li></ul><p>Lesley Stahl, Bill Whitaker and",
+          "source": "The Guardian"
+        },
+        {
           "title": "US added 172,000 jobs in May as labor market shows signs of resilience",
           "url": "https://www.theguardian.com/business/2026/jun/05/us-jobs-market-unemployment",
-          "published": "Fri, 05 Jun 2026 12:38:08 GMT",
-          "summary": "<p>Government figures show unemployment rate at 4.3% amid rising inflation and economic uncertainty from Iran war</p><p>US employers added 172,000 jobs in May while the country’s unemployment rate held steady at 4.3%, a sign of a resilient labor market despite rising inflation and economic uncertainty brought on by continued conflict in the Middle East.</p><p>Economists initially predicted there would be about 80,000 new jobs and a steady unemployment rate of 4.3%. Job figures for March and Apri",
+          "published": "Fri, 05 Jun 2026 20:10:11 GMT",
+          "summary": "<p>Government figures show unemployment rate at 4.3% amid rising inflation and economic uncertainty from Iran war</p><p>US employers added 172,000 jobs in May while the country’s unemployment rate held steady at 4.3%, a sign of a resilient labor market despite rising inflation and economic uncertainty brought on by continued conflict in the Middle East.</p><p>Despite the positive update on the labor market, US stocks fell sharply by Friday afternoon after a big sell-off of AI chip stocks. The te",
           "source": "The Guardian"
         },
         {
@@ -254,13 +254,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "George Santos reportedly investigated by DoJ over suspicious Kalshi bets",
-          "url": "https://www.theguardian.com/us-news/2026/jun/03/george-santos-investigation-prediction-market-kalshi-report",
-          "published": "Wed, 03 Jun 2026 05:28:51 GMT",
-          "summary": "<p>Disgraced former congressman said to have put bet on whether he would be at Trump’s State of the Union speech</p><p>Federal authorities are investigating whether <a href=\"https://www.theguardian.com/us-news/george-santos\">George Santos</a>, the disgraced former Republican congressman from New York, engaged in insider trading by betting on a prediction market on his own attendance to the State of the Union address, multiple news outlets reported on Tuesday.</p><p>Santos allegedly placed a bet",
-          "source": "The Guardian"
-        },
-        {
           "title": "CBS News insiders worry how 60 Minutes will endure after firings: ‘What are they going to put on the air?’",
           "url": "https://www.theguardian.com/media/2026/jun/04/cbs-news-firings-60-minutes-future",
           "published": "Thu, 04 Jun 2026 11:00:05 GMT",
@@ -283,74 +276,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The US labor market shows resilience with 172,000 jobs added in May, while Disney faces a $4.2 billion deficit at its Paris parks.",
-        "summary": "Today's business news highlights a mixed sentiment in the market, with significant developments including the US labor market's resilience, a new consumer protection initiative in NYC, and Disney's ongoing financial struggles in Paris. Additionally, Trump is making headlines with new tariffs and changes to federal employment policies, while SpaceX prepares for a record IPO.",
+        "key_takeaway": "The US labor market shows resilience with 172,000 jobs added in May, while Disney faces significant financial challenges at its Paris parks.",
+        "summary": "Today's business news highlights a mixed sentiment in the market, with the US labor market demonstrating resilience as 172,000 jobs were added in May, maintaining an unemployment rate of 4.3%. However, Disney reported a $4.2 billion deficit at its Paris parks, raising concerns about its long-term profitability. Additionally, political developments include Trump's executive order aimed at making it easier to fire high-paid federal workers and his threats of tariffs against numerous trading partners over forced labor issues. CBS News is also facing internal turmoil following recent firings, raising questions about the future of its flagship program, 60 Minutes.",
         "key_themes": [
           "US labor market resilience",
           "Disney financial challenges",
-          "Trump administration policies",
-          "SpaceX IPO news",
+          "Trump's tariff threats",
+          "CBS News internal issues",
           "consumer protection initiatives"
         ],
         "notable_headlines": [
           {
             "headline": "Mamdani’s consumer watchdog takes on ‘epidemic of corporate lawbreaking’",
-            "why_it_matters": "New York City's consumer protection efforts aim to address deceptive practices and junk fees, impacting consumers directly.",
+            "why_it_matters": "This initiative aims to combat deceptive practices and junk fees affecting consumers in New York City.",
             "signal": "Opportunity"
           },
           {
             "headline": "US added 172,000 jobs in May as labor market shows signs of resilience",
-            "why_it_matters": "The job growth indicates a stable labor market despite inflation and geopolitical tensions, which is crucial for economic health.",
+            "why_it_matters": "The addition of jobs indicates a stable labor market amidst economic uncertainty, which can influence consumer confidence.",
             "signal": "Opportunity"
           },
           {
             "headline": "Disney racks up $4.2bn deficit on Paris parks",
-            "why_it_matters": "Despite high visitor numbers, Disney's inability to recoup its investment raises concerns about the long-term viability of its Paris operations.",
+            "why_it_matters": "Despite high visitor numbers, Disney's inability to recoup its investment raises concerns about its financial strategy.",
             "signal": "Risk"
           },
           {
             "headline": "Trump signs order to make it easier to fire 8,000 highly paid federal workers",
-            "why_it_matters": "This executive order could significantly alter the federal workforce landscape, impacting job security for high earners.",
+            "why_it_matters": "This move could significantly alter the federal workforce landscape and impact employee job security.",
             "signal": "Risk"
           },
           {
-            "headline": "SpaceX targets biggest ever stock market debut, putting Musk on course to be trillionaire",
-            "why_it_matters": "The potential IPO could reshape the market and elevate Musk's wealth, marking a significant moment in tech finance.",
-            "signal": "Opportunity"
+            "headline": "Trump threatens tariffs on 60 trading partners including UK and Canada over ‘forced labour’",
+            "why_it_matters": "Potential tariffs could escalate trade tensions and impact international relations and markets.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to the new consumer protection initiatives in NYC.",
-            "Observing market responses to the US jobs report.",
-            "Tracking developments in Disney's financial strategy."
+            "Monitoring the stock market's response to the latest job figures and economic indicators.",
+            "Observing consumer reactions to Mamdani's new initiatives against corporate lawbreaking.",
+            "Tracking developments in CBS News following recent firings."
           ],
           "next_1_4_weeks": [
-            "Anticipating the impact of SpaceX's IPO on the stock market.",
-            "Evaluating the effects of Trump's new federal employment policies.",
-            "Following the ongoing labor market trends amid inflation concerns."
+            "Evaluating the impact of Trump's tariff threats on international trade relations and markets.",
+            "Assessing Disney's financial strategies in light of its Paris park deficit.",
+            "Watching for further job market reports to gauge economic stability."
           ],
           "watch_list": [
-            "SpaceX IPO date and market performance.",
-            "Disney's financial recovery strategies.",
-            "Updates on US job market statistics.",
-            "Consumer protection outcomes in NYC."
+            "US labor market trends",
+            "Disney's financial performance",
+            "Trump's trade policies",
+            "CBS News programming changes"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings in the market, suggesting caution in interpreting the news.",
-          "Economic conditions remain volatile due to geopolitical tensions, particularly in the Middle East."
+          "The mixed sentiment score indicates uncertainty in market reactions to these developments.",
+          "Political actions may lead to unpredictable economic consequences."
         ],
         "related_topics": [
           "What are the latest trends in the US labor market?",
-          "How is Disney managing its financial challenges?",
-          "What are the implications of Trump's new federal worker policies?",
-          "What to expect from SpaceX's upcoming IPO?",
-          "How is consumer protection evolving in New York City?"
+          "How is Disney performing financially?",
+          "What are Trump's recent trade policy changes?",
+          "What challenges is CBS News facing?",
+          "What consumer protection measures are being implemented?"
         ]
       },
-      "tweet_text": "Corporate lawbreaking epidemic exposed, while the job market shows resilience amidst Disney's staggering...\n\nBusiness Sentiment: Mixed (-0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Market #Signs #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Corporate lawbreaking hits a crisis point as watchdogs rise, while job growth and scandals shake the media...\n\nBusiness Sentiment: Mixed (-0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Market #Minutes #Signs #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -361,147 +354,166 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.162,
+        "score": 0.0549,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.270, dampened ×0.6 → +0.1620). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.091, dampened ×0.6 → +0.0549). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "More than a decade later, the team behind N++ is back with a multiplayer sequel",
+          "url": "https://www.theverge.com/entertainment/943194/metanet-n-plus-plus-multiplayer-sequel",
+          "published": "2026-06-05T19:25:34-04:00",
+          "summary": "Back in 2015, the two-person studio Metanet released N++, a brutally hard 2D platformer that was a decade in the making, building off of previous releases dating back to the freeware Flash title N. At the time, cofounder Raigan Burns issued some famous last words: \"We hope it's not another 10 years before we come [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Grand Theft Auto VI is warping the video game release calendar",
+          "url": "https://www.theverge.com/entertainment/944229/grand-theft-auto-6-release-calendar-summer-game-fest",
+          "published": "2026-06-05T19:05:27-04:00",
+          "summary": "Who's afraid of the next GTA? Based on the last few days of Summer Game Fest, just about everyone. Grand Theft Auto VI hasn't been present at any of the keynote events, but its presence was felt every time a release date was announced. The month of November, when GTA VI launches, is virtually empty. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Final Fantasy VII&#8217;s remake trilogy will conclude with Revelation",
+          "url": "https://www.theverge.com/games/939396/final-fantasy-vii-revelation-remake-trilogy-third-game-announcement",
+          "published": "2026-06-05T18:52:06-04:00",
+          "summary": "Square Enix has officially announced the third and final game in its Final Fantasy VII remake trilogy: Final Fantasy VII Revelation. It will release on multiple platforms simultaneously - PC, PS5, Xbox Series X / S, and Nintendo Switch 2 - in spring 2027. In footage shown onstage at Summer Game Fest Live, there was [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Control Resonant is a sequel — and also a starting point",
+          "url": "https://www.theverge.com/games/944151/control-resonant-hands-on",
+          "published": "2026-06-05T17:45:44-04:00",
+          "summary": "Chronologically, Control Resonant is a sequel to 2019's Control. But in most other ways, the games aren't directly connected. To developer Remedy, they're more like two sides of the same coin. When Resonant was first revealed last year, creative director Mikael Kasurinen said you can play the games in any order. The world of Control [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Congress still can’t decide what to do about warrantless surveillance",
+          "url": "https://www.theverge.com/policy/944615/section-702-senate-vote-fails-pulte",
+          "published": "2026-06-05T17:15:48-04:00",
+          "summary": "The deadline to reauthorize Section 702 of the Foreign Intelligence Surveillance Act is coming up a week from now on June 12th, and legislators seem no closer to reaching a deal. If this sounds like deja vu, it's because we've been here before. Congress reauthorized Section 702 in late April - but only for 45 [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Summer Game Fest Live 2026: The biggest news, trailers, and announcements",
+          "url": "https://www.theverge.com/games/939484/summer-game-fest-live-2026-biggest-news-trailers-announcements",
+          "published": "2026-06-05T16:40:00-04:00",
+          "summary": "Geoff Keighley&#8217;s annual June celebration of games is here. Summer Game Fest Live, the big live show that will feature a whole bunch of gaming news and announcements, begins at 5PM ET and is set to run for two hours. The event itself will take place in person at the Dolby Theatre in Los Angeles, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Gone in 60 minutes",
+          "url": "https://www.theverge.com/entertainment/944337/gone-in-60-minutes",
+          "published": "2026-06-05T14:44:20-04:00",
+          "summary": "It should have been the final straw. The new power couple of editorial failure - Bari Weiss and Nick Bilton - had fired legendary 60 Minutes journalist Scott Pelley. Why? Because he dared to question the fact that CBS had installed sycophants in its top ranks. Instead of standing in solidarity, correspondents Lesley Stahl, Bill [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Sonos Era 100 speaker is down to its lowest price in months",
+          "url": "https://www.theverge.com/gadgets/944095/sonos-era-100-google-nest-doorbell-deal-sale",
+          "published": "2026-06-05T13:00:47-04:00",
+          "summary": "Whether you’re considering starting a Sonos speaker setup, or adding to an existing group, the Sonos Era 100 is worth picking up. The compact, capable smart speaker is currently marked down to $189 ($30 off) at a variety of retailers, including Amazon, Best Buy, and directly from Sonos. If you want an even lower price, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "This is your laptop… on AI",
+          "url": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
+          "published": "2026-06-05T12:39:07-04:00",
+          "summary": "We're now deep into developer conference season, and one of the themes so far is the relentless conviction from Big Tech companies that AI is going to change everything about how we do everything. Nvidia's Jensen Huang made that clearer than anyone this week, when he described a completely new way of using our laptops [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "What happens when your phone is confiscated at the airport",
           "url": "https://www.theverge.com/report/944076/cbp-airport-phone-searches-seizure-minneapolis-activists",
           "published": "2026-06-05T12:15:00-04:00",
           "summary": "Even if you've done nothing wrong, it's never a good idea to hand your phone to the cops. But international travelers at American airports often have no choice - even if they're US citizens. When Minnesota labor organizer Janette Zahia Corcelius returned home from a three-week trip to Europe in late April, she was detained [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "New York lawmakers pass one-year ban on new data centers",
-          "url": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
-          "published": "2026-06-05T11:25:10-04:00",
-          "summary": "The New York State legislature passed a one-year moratorium on new large data centers, the first statewide ban of its kind if Democratic Governor Kathy Hochul signs it into law. Lawmakers behind the bill say it's meant to give policymakers time to understand the impact of large data centers on the environment and energy prices. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "MAHA wants to make cotton the new beef tallow",
-          "url": "https://www.theverge.com/report/943944/maha-rfk-jr-cotton-natural-fiber-clothing-microplastics",
-          "published": "2026-06-05T10:13:21-04:00",
-          "summary": "In between beef tallow fries, raw milk, and vaccine denialism, Make America Healthy Again figureheads have set their sights on another slice of life: our clothing. \"The MAHA movement doesn't stop with what we EAT - It's also about what we WEAR,\" Secretary of Agriculture Brooke Rollins said in a post on X in late [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "What do you mean my new smart scale is ‘built for GLP-1 users’?",
-          "url": "https://www.theverge.com/column/943639/optimizer-glp-1-tech-withings-oura-health",
-          "published": "2026-06-05T10:00:00-04:00",
-          "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. A few days ago, I walked into the basement of a midtown gym. Smoothies and healthy snacks were passed out. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "This AI startup says it can tell if a script will make a hit film",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
-          "published": "2026-06-05T09:57:31-04:00",
-          "summary": "When Quilty hit the industry trades earlier this year, the AI startup promised that its tool could accurately predict a film's success just by reading the script. When people actually got a chance to experiment with Quilty's product, though, they were left skeptical. Even with all the available data in the world, it predicted the [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Why isn’t the Trump phone made in the USA?",
-          "url": "https://www.theverge.com/tech/943852/trump-phone-made-in-the-usa-ftc-assembled-china",
-          "published": "2026-06-05T09:33:12-04:00",
-          "summary": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. This week, I'm investigating where it might have been built - and why it definitely wasn't the US. Almost a year after its announcement, the Trump phone has \"launched.\" A [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "This chunky little tablet got my kid to clean up his toys",
-          "url": "https://www.theverge.com/tech/943219/skylight-buddy-kids-calendar-chore-tracker-review",
-          "published": "2026-06-05T09:00:00-04:00",
-          "summary": "Never underestimate the power that a cheap tablet holds over a kid under six. The Skylight Buddy is a device with one job: to be a cute little guy that helps your kid track routines and chores. It's $139.99, plus an optional subscription. And to my surprise, even though it offers a pretty limited set [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "I customized a MacBook Neo with colorful spare parts",
-          "url": "https://www.theverge.com/tech/942839/macbook-neo-customization-color-mods-official-parts-frankenlaptop",
-          "published": "2026-06-05T08:00:00-04:00",
-          "summary": "The MacBook Neo is Apple's cheapest laptop, its most colorful, and its easiest to repair in years. That means owners can buy replacement parts in all four of its available colors and swap them in on their own. So that got us thinking: What if we bought a Neo just to see how funky we [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Porsche’s Cayenne Coupe Turbo will even make 911 owners nervous",
-          "url": "https://www.theverge.com/transportation/943004/porsche-cayenne-coupe-turbo-review-specs-price",
-          "published": "2026-06-05T07:00:00-04:00",
-          "summary": "Back in 2002, Porsche fans sputtered with rage as the Cayenne made its debut at the Paris Motor. More than 20 years later, Porsche now sells more SUVs than anything else in its lineup. Last year, the Macan and Cayenne accounted for 62 percent of all Porsche sales. Now, these SUVs are trolling traditionalists in [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Valve says it&#8217;s ready to launch the Steam Machine this summer",
-          "url": "https://www.theverge.com/games/943657/valve-steam-machine-frame-summer-launch-verified",
-          "published": "2026-06-04T18:48:53-04:00",
-          "summary": "Valve now says that the delayed Steam Machine PC and Steam Frame VR headset are set to launch sometime this summer. In a Thursday blog post detailing its Verified programs for both pieces of hardware, Valve concludes by saying that \"We're excited for players to try your titles on the new Steam hardware once they [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "New York lawmakers have passed a one-year moratorium on new data centers to assess their environmental impact, while AI tools for predicting film success face skepticism.",
-        "summary": "Today's technology news highlights a range of topics, including a significant legislative move in New York regarding data centers, the skepticism surrounding an AI startup's film prediction tool, and various product reviews from smart scales to customizable laptops. The overall sentiment is mixed, reflecting both opportunities and uncertainties in the tech landscape.",
+        "key_takeaway": "The gaming industry is buzzing with major announcements, including the conclusion of the Final Fantasy VII remake trilogy and the impact of Grand Theft Auto VI on release schedules.",
+        "summary": "Today's technology headlines highlight significant developments in the gaming sector, including new sequels and major announcements from the Summer Game Fest, alongside ongoing legislative discussions about surveillance policies.",
         "key_themes": [
-          "data center moratorium in New York",
-          "AI film prediction technology",
-          "customizable laptops and tech reviews"
+          "gaming industry announcements",
+          "Final Fantasy VII remake trilogy",
+          "Grand Theft Auto VI release impact",
+          "warrantless surveillance legislation",
+          "AI in technology"
         ],
         "notable_headlines": [
           {
-            "headline": "New York lawmakers pass one-year ban on new data centers",
-            "why_it_matters": "This moratorium aims to evaluate the environmental and economic impacts of large data centers, marking a significant regulatory step.",
+            "headline": "More than a decade later, the team behind N++ is back with a multiplayer sequel",
+            "why_it_matters": "The return of Metanet with a new multiplayer game could attract both old fans and new players.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Grand Theft Auto VI is warping the video game release calendar",
+            "why_it_matters": "GTA VI's November release is affecting other game launches, creating a unique market landscape.",
             "signal": "Risk"
           },
           {
-            "headline": "This AI startup says it can tell if a script will make a hit film",
-            "why_it_matters": "The skepticism surrounding this AI tool raises questions about the reliability of technology in creative industries.",
+            "headline": "Final Fantasy VII’s remake trilogy will conclude with Revelation",
+            "why_it_matters": "The announcement of the final installment in a beloved series is likely to generate significant interest and sales.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Congress still can’t decide what to do about warrantless surveillance",
+            "why_it_matters": "The ongoing indecision in Congress regarding surveillance laws could have implications for privacy and security.",
             "signal": "Unclear"
           },
           {
-            "headline": "I customized a MacBook Neo with colorful spare parts",
-            "why_it_matters": "The ability to customize and repair laptops could enhance user engagement and sustainability in tech products.",
+            "headline": "Summer Game Fest Live 2026: The biggest news, trailers, and announcements",
+            "why_it_matters": "This event showcases the latest trends and releases in gaming, influencing consumer interest and industry direction.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The Sonos Era 100 speaker is down to its lowest price in months",
+            "why_it_matters": "Discounts on popular tech products like the Sonos Era 100 can drive consumer purchases and market competition.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "This is your laptop… on AI",
+            "why_it_matters": "The integration of AI into everyday technology is a significant trend that could reshape user experiences.",
             "signal": "Opportunity"
           },
           {
             "headline": "What happens when your phone is confiscated at the airport",
-            "why_it_matters": "This article sheds light on the privacy concerns and legal implications of phone searches at airports, relevant for travelers.",
+            "why_it_matters": "Understanding the implications of phone searches at airports is crucial for privacy rights and traveler awareness.",
             "signal": "Risk"
-          },
-          {
-            "headline": "This chunky little tablet got my kid to clean up his toys",
-            "why_it_matters": "The effectiveness of tech in encouraging children to engage in chores highlights the intersection of parenting and technology.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to New York's data center moratorium",
-            "Updates on the AI film prediction tool's reception",
-            "Anticipating consumer feedback on customizable tech products"
+            "Anticipate more announcements from Summer Game Fest as it continues to unfold.",
+            "Watch for reactions to the Final Fantasy VII Revelation announcement from fans and critics.",
+            "Monitor discussions in Congress regarding surveillance legislation as the deadline approaches."
           ],
           "next_1_4_weeks": [
-            "Potential developments in data center regulations",
-            "Further insights into AI applications in entertainment",
-            "Trends in consumer electronics customization"
+            "Expect further details on upcoming game releases and industry trends following Summer Game Fest.",
+            "Watch for consumer response to the Sonos Era 100's price drop and its impact on sales.",
+            "Legislative developments regarding warrantless surveillance may emerge as the June 12 deadline approaches."
           ],
           "watch_list": [
-            "Legislative updates on tech regulations",
-            "AI advancements in creative fields",
-            "Consumer electronics market trends and reviews",
-            "Impact of tech on parenting"
+            "Upcoming game releases from major franchises like GTA and Final Fantasy.",
+            "Legislative updates on surveillance laws and their implications for privacy rights.",
+            "Trends in AI integration across consumer technology.",
+            "Sales performance of discounted tech products like the Sonos Era 100."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates uncertainty in the tech sector's current state.",
-          "Legislative impacts may take time to fully materialize."
+          "The sentiment score is mixed, indicating a balance of positive and negative reactions across the headlines.",
+          "Legislative outcomes regarding surveillance are uncertain and may change rapidly."
         ],
         "related_topics": [
-          "What are the implications of New York's data center ban?",
-          "How reliable are AI tools for predicting film success?",
-          "What are the latest trends in customizable tech products?"
+          "What are the latest gaming announcements from Summer Game Fest?",
+          "How is Grand Theft Auto VI affecting the gaming release calendar?",
+          "What is the future of AI in consumer technology?",
+          "What are the implications of warrantless surveillance legislation?",
+          "What to know about phone searches at airports?"
         ]
       },
-      "tweet_text": "Ever wondered what really happens when your phone gets taken at the airport?\n\nTechnology Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Make #Phone #Airport #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready to level up: beloved games return, while Congress struggles to catch up with tech’s lightning pace!\n\nTechnology Sentiment: Mixed (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Game #Sequel #2026 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -512,165 +524,161 @@
         "feed_url": "https://www.espn.com/espn/rss/news"
       },
       "sentiment": {
-        "score": 0.0435,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.073, dampened ×0.6 → +0.0435). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1833,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.306, dampened ×0.6 → +0.1833). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Copy of Worst-to-first rankings: Which NFL teams are most ...",
-          "url": "https://www.espn.com/nfl/story/_/id/48951382/2026-nfl-season-worst-first-afc-nfc-division-odds-predictions-turnarounds",
-          "published": "Fri, 5 Jun 2026 09:49:10 EST",
-          "summary": "We stacked last season's last-place finishers in each division by their chances to jump all the way to first. Will the Lions get back on top in the NFC North?",
+          "title": "How the Spurs reached the Finals ahead of schedule...",
+          "url": "https://www.espn.com/nba/story/_/id/48969081/nba-finals-2026-san-antonio-spurs-ahead-schedule-victor-wembanyama",
+          "published": "Fri, 5 Jun 2026 20:02:00 EST",
+          "summary": "The Spurs let a late lead slip in Game 1, but believe the past two seasons have forged the resilience needed to respond.",
           "source": "ESPN"
         },
         {
-          "title": "10 players who could get traded before the season'...",
-          "url": "https://www.espn.com/nfl/story/_/id/48947413/2026-nfl-trade-deadline-early-look-players-candidates-buzz-crosby-aiyuk-kamara",
-          "published": "Fri, 5 Jun 2026 09:49:10 EST",
-          "summary": "The NFL trade deadline isn't until November, but we're making early predictions on 10 players.",
+          "title": "Meet the Jackals: The Spurs fan club built for the...",
+          "url": "https://www.espn.com/nba/story/_/id/48968815/nba-finals-2026-spurs-knicks-game-2-wembanyama-jackals-fan-club",
+          "published": "Fri, 5 Jun 2026 20:02:00 EST",
+          "summary": "Handpicked by Wemby, the Spurs' 83-member fan club turns Section 114 into a roaring, choreographed spectacle.",
           "source": "ESPN"
         },
         {
-          "title": "FIFA cancels WC tickets mistakenly given for free",
-          "url": "https://www.espn.com/soccer/story/_/id/48974024/fifa-cancels-world-cup-tickets-60-fans-got-free-error",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
-          "summary": "FIFA has canceled World Cup tickets issued to about 60 fans who mistakenly got them for free because of a website error.",
+          "title": "Sources: NBA interviews Kawhi in Aspiration case",
+          "url": "https://www.espn.com/nba/story/_/id/48977481/sources-nba-interviews-leonard-adviser-aspiration-case",
+          "published": "Fri, 5 Jun 2026 19:58:09 EST",
+          "summary": "LA Clippers star Kawhi Leonard and his business adviser have been interviewed by NBA investigators amid the league's probe into allegations the team circumvented the salary cap to compensate Leonard, sources said.",
           "source": "ESPN"
         },
         {
-          "title": "Vegas' McNabb to hospital after puck to face",
-          "url": "https://www.espn.com/nhl/story/_/id/48970696/golden-knights-brayden-mcnabb-hospital-puck-face",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
-          "summary": "Golden Knights defenseman Brayden McNabb left Thursday's Stanley Cup Final game against the Hurricanes after a puck traveling 87 mph hit him around the visor.",
+          "title": "Sankey scoffs at notion of SEC-B1G super league",
+          "url": "https://www.espn.com/college-sports/story/_/id/48978492/sec-sankey-idea-super-league-not-consistent-truth",
+          "published": "Fri, 5 Jun 2026 19:58:08 EST",
+          "summary": "SEC commissioner Greg Sankey called the notion that the conference wants to form a super league with the Big Ten \"not consistent with the truth.\"",
           "source": "ESPN"
         },
         {
-          "title": "Zverev uses clear path to reach French Open final",
-          "url": "https://www.espn.com/tennis/story/_/id/48975883/zverev-beats-mensik-french-open-nears-elusive-slam-title",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
-          "summary": "The pressure has been on Alexander Zverev to finally win an elusive Grand Slam title, and now the second-seeded German is only one victory away from raising the French Open trophy.",
+          "title": "Judge says rib originally fractured on dive in Apr...",
+          "url": "https://www.espn.com/mlb/story/_/id/48977766/aaron-judge-says-right-rib-initially-fractured-dive-late-april",
+          "published": "Fri, 5 Jun 2026 19:58:08 EST",
+          "summary": "Yankees outfielder Aaron Judge said the stress fracture in his right rib stems from him diving for a ball in late April.",
           "source": "ESPN"
         },
         {
-          "title": "Yankees star Judge out with stress fracture in rib...",
-          "url": "https://www.espn.com/mlb/story/_/id/48970865/aaron-judge-stress-fracture-rib-right-side",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
-          "summary": "Yankees outfielder Aaron Judge has been diagnosed with a stress fracture of the first rib on his right side, the team announced Thursday night.",
+          "title": "UFC's White: Pereira the GOAT if he beats Gane",
+          "url": "https://www.espn.com/mma/story/_/id/48978261/ufc-white-pereira-surpasses-jones-goat-win-vs-gane",
+          "published": "Fri, 5 Jun 2026 19:58:08 EST",
+          "summary": "UFC president Dana White believes two-weight UFC champion Alex Pereira will surpass Jon Jones as the greatest MMA fighter of all time if he beats Ciryl Gane on June 14 at the White House.",
           "source": "ESPN"
         },
         {
-          "title": "Clark plays on after vomiting, nets 17 in Fever wi...",
-          "url": "https://www.espn.com/wnba/story/_/id/48971591/fever-clark-vomits-half-recovers-score-17-vs-dream",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
-          "summary": "Despite feeling ill and vomiting at halftime, Caitlin Clark played on and finished with 17 points and eight assists to help the Fever top the Dream 83-71 in Indiana's Commissioner's Cup opener.",
+          "title": "FIFA reverses WC water bottle ban after backlash",
+          "url": "https://www.espn.com/soccer/story/_/id/48978502/fifa-reverses-world-cup-water-bottle-ban-backlash",
+          "published": "Fri, 5 Jun 2026 19:58:08 EST",
+          "summary": "FIFA has reversed its decision to bar World Cup fans from bringing refillable water bottles into the tournament's 16 stadiums across North America, following fierce backlash.",
           "source": "ESPN"
         },
         {
-          "title": "Vegas undaunted but objects to disallowed goal",
-          "url": "https://www.espn.com/nhl/story/_/id/48972230/golden-knights-object-disallowed-goal-vow-bounce-back",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
-          "summary": "The Golden Knights said they remain confident despite the Hurricanes' stunning rally to win Game 2 of the Stanley Cup Final, which was fueled by a critical failed coach's challenge in the third period.",
+          "title": "Iran players receive U.S. visas for World Cup",
+          "url": "https://www.espn.com/soccer/story/_/id/48977850/iran-players-receive-us-visas-2026-world-cup",
+          "published": "Fri, 5 Jun 2026 19:58:08 EST",
+          "summary": "A U.S. official confirmed to ABC News on Friday that the players on Iran's World Cup team have received visas that will allow them to enter and compete in the United States.",
           "source": "ESPN"
         },
         {
-          "title": "Muncy, Vargas injured on violent collision at firs...",
-          "url": "https://www.espn.com/mlb/story/_/id/48971156/d-backs-vargas-dodgers-muncy-injured-violent-collision-first-base",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
-          "summary": "Arizona Diamondbacks first baseman Ildemaro Vargas and Los Angeles Dodgers third baseman Max Muncy both left Thursday's game following a violent collision at first base.",
+          "title": "'Annoyed' Poch: Richards out of last USMNT tuneup",
+          "url": "https://www.espn.com/soccer/story/_/id/48976577/usa-world-cup-chris-richards-injury-mauricio-pochettino-germany",
+          "published": "Fri, 5 Jun 2026 19:58:08 EST",
+          "summary": "United States coach Mauricio Pochettino expressed his frustration after revealing that first-choice center back Chris Richards would miss the team's final friendly before the World Cup with an ankle injury.",
           "source": "ESPN"
         },
         {
-          "title": "Texas claims second straight WCWS title over TTU",
-          "url": "https://www.espn.com/college-sports/story/_/id/48971064/texas-claims-second-straight-wcws-title-texas-tech",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
-          "summary": "Kayden Henry homered to lead Texas to a 4-1 victory over Texas Tech on Thursday night at the Women's College World Series for a second straight national championship.",
+          "title": "NASCAR Hall of Famer Ned Jarrett dies at 93",
+          "url": "https://www.espn.com/racing/nascar/story/_/id/48976519/nascar-hall-fame-driver-announcer-ned-jarrett-dies-93",
+          "published": "Fri, 5 Jun 2026 19:58:08 EST",
+          "summary": "NASCAR Hall of Famer Ned Jarrett, a two-time Cup champion and longtime broadcaster, died peacefully Thursday of natural causes at his home in Newton, North Carolina, his family announced. He was 93.",
           "source": "ESPN"
         },
         {
           "title": "🏈 Caleb Williams' Madden cover inspired by MJ",
           "url": "https://www.espn.com/nfl/story/_/id/48970798/caleb-williams-madden-cover-tribute-chicago-jumpman-michael-jordan",
-          "published": "Fri, 5 Jun 2026 12:06:41 EST",
+          "published": "Fri, 5 Jun 2026 19:58:08 EST",
           "summary": "The Bears quarterback said the pose, skyline and overall concept were designed as a tribute to Chicago's most famous athlete.",
           "source": "ESPN"
         },
         {
-          "title": "How the Spurs reached the Finals ahead of schedule...",
-          "url": "https://www.espn.com/nba/story/_/id/48969081/nba-finals-2026-san-antonio-spurs-ahead-schedule-victor-wembanyama",
-          "published": "Fri, 5 Jun 2026 11:42:53 EST",
-          "summary": "The Spurs let a late lead slip in Game 1, but believe the past two seasons have forged the resilience needed to respond.",
+          "title": "Predicting how all 48 teams will do in the World C...",
+          "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
+          "published": "Fri, 5 Jun 2026 13:44:23 EST",
+          "summary": "Who will win the FIFA World Cup? Instead of predicting a final winner, we've picked every single result to show HOW our predicted winner will do it.",
           "source": "ESPN"
         }
       ],
       "ai_report": {
-        "key_takeaway": "FIFA cancels World Cup tickets mistakenly issued for free, while NFL teams prepare for potential trades ahead of the season.",
-        "summary": "Today's sports news highlights include FIFA's cancellation of free World Cup tickets due to an error, NFL trade predictions, and updates on player injuries across various leagues.",
+        "key_takeaway": "The Spurs advance to the NBA Finals while FIFA reverses its water bottle ban for the World Cup amid various sports developments.",
+        "summary": "Today's sports news highlights the San Antonio Spurs' unexpected journey to the NBA Finals, the reversal of FIFA's water bottle ban for the World Cup, and the passing of NASCAR Hall of Famer Ned Jarrett. Additionally, Kawhi Leonard is under investigation, and the U.S. men's national team faces injury challenges ahead of the World Cup.",
         "key_themes": [
-          "NFL trade predictions",
-          "FIFA World Cup ticket issues",
-          "player injuries in sports",
-          "Zverev's French Open journey",
-          "Golden Knights Stanley Cup updates"
+          "NBA Finals 2026 updates",
+          "FIFA World Cup news",
+          "NASCAR Hall of Fame tributes"
         ],
         "notable_headlines": [
           {
-            "headline": "FIFA cancels WC tickets mistakenly given for free",
-            "why_it_matters": "This incident raises questions about ticket distribution processes and fan trust in FIFA's management.",
+            "headline": "How the Spurs reached the Finals ahead of schedule",
+            "why_it_matters": "The Spurs' resilience is highlighted as they face the Knicks in the NBA Finals, showcasing their growth over the past two seasons.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "FIFA reverses WC water bottle ban after backlash",
+            "why_it_matters": "FIFA's decision to allow refillable water bottles reflects responsiveness to fan concerns and enhances the World Cup experience.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "NASCAR Hall of Famer Ned Jarrett dies at 93",
+            "why_it_matters": "Jarrett's passing marks the loss of a significant figure in NASCAR history, impacting fans and the racing community.",
             "signal": "Risk"
           },
           {
-            "headline": "10 players who could get traded before the season",
-            "why_it_matters": "Identifying potential trade candidates can impact team strategies and fan expectations as the season approaches.",
-            "signal": "Opportunity"
+            "headline": "Iran players receive U.S. visas for World Cup",
+            "why_it_matters": "The issuance of visas allows Iran's team to participate in the World Cup, highlighting international relations in sports.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Yankees star Judge out with stress fracture in rib",
-            "why_it_matters": "Judge's injury could significantly affect the Yankees' performance and playoff aspirations this season.",
+            "headline": "'Annoyed' Poch: Richards out of last USMNT tuneup",
+            "why_it_matters": "Injury to a key player raises concerns for the U.S. men's national team ahead of the World Cup, affecting team dynamics.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Zverev uses clear path to reach French Open final",
-            "why_it_matters": "Zverev's performance is crucial as he seeks his first Grand Slam title, impacting his career trajectory.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Texas claims second straight WCWS title over TTU",
-            "why_it_matters": "Texas's victory solidifies their dominance in women's college softball, influencing recruitment and future competitions.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Updates on player injuries and recovery timelines",
-            "Further developments on NFL trade discussions",
-            "Reactions to FIFA's ticket cancellation"
+            "NBA Finals Game 2 preview",
+            "Updates on Kawhi Leonard's investigation",
+            "Reactions to FIFA's water bottle policy change"
           ],
           "next_1_4_weeks": [
-            "Anticipation for the start of the NFL season and trade deadline",
-            "Progress of Zverev in the French Open final",
-            "Monitoring the health status of key MLB players"
+            "World Cup preparations and team updates",
+            "NASCAR tributes to Ned Jarrett",
+            "UFC fight predictions and analysis"
           ],
           "watch_list": [
-            "Upcoming NFL preseason games",
-            "FIFA's handling of ticketing issues",
-            "Performance of teams in the Stanley Cup Final",
-            "Women's College World Series results"
+            "Spurs performance in the Finals",
+            "FIFA World Cup fan experiences",
+            "USMNT injury updates before the tournament",
+            "Upcoming UFC fights and implications"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Injuries can change team dynamics quickly.",
-          "Trade predictions are speculative and may not materialize."
+          "The sentiment score indicates mixed feelings about the overall sports news today.",
+          "Details on the Kawhi Leonard investigation are still developing."
         ],
         "related_topics": [
-          "What are the latest NFL trade rumors?",
-          "FIFA World Cup ticket cancellation news",
-          "Updates on player injuries in MLB",
-          "Zverev's chances in the French Open final",
-          "Texas Women's College World Series victory details"
+          "What are the latest updates on the NBA Finals?",
+          "How did FIFA change its World Cup policies?",
+          "Who was Ned Jarrett and why is he significant in NASCAR?"
         ]
       },
-      "tweet_text": "From worst to first? NFL shake-ups, shocking trades, and a World Cup ticket blunder—today's sports news has...\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Vegas #Before #Cancels #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "The Spurs defy expectations and soar to the Finals—discover the magic behind their meteoric rise!\n\nSports Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Spurs #Ahead #Aspiration #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -772,74 +780,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific advancements include a new AI-designed coronavirus vaccine, discoveries in black hole research, and breakthroughs in cancer treatment and quantum materials.",
-        "summary": "Today's science headlines highlight significant breakthroughs, including the potential of fire tornadoes for oil spill cleanup, a new AI-designed coronavirus vaccine that has passed human trials, and insights into the consciousness of bees and AI. Additionally, researchers have made strides in understanding binary star formation, collagen's effects on health, and the complexities of cobalt's quantum properties. The findings also include the discovery of a master genetic clock in biological development and the successful shrinking of powerful lasers onto chips.",
+        "key_takeaway": "Recent scientific advancements include a new AI-designed coronavirus vaccine, discoveries about octopus intelligence, and breakthroughs in pancreatic cancer treatment.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including environmental science, astrophysics, biology, and medical research. Notable studies reveal innovative methods for oil spill cleanup, the potential for a universal coronavirus vaccine, and insights into consciousness in bees and AI. Additionally, researchers have made strides in understanding binary star formation, collagen's effects on health, and the complexities of cobalt's quantum properties.",
         "key_themes": [
           "AI in vaccine development",
-          "black hole research",
+          "octopus intelligence",
           "collagen health benefits",
-          "quantum materials discovery",
-          "consciousness studies in animals and AI"
+          "quantum properties of cobalt",
+          "consciousness in animals and AI"
         ],
         "notable_headlines": [
           {
             "headline": "Giant fire tornadoes could clean up oil spills faster with less pollution",
-            "why_it_matters": "This method could revolutionize oil spill response by reducing environmental impact while increasing efficiency.",
+            "why_it_matters": "This method could revolutionize oil spill response, minimizing environmental damage.",
             "signal": "Opportunity"
           },
           {
             "headline": "AI-designed universal coronavirus vaccine passes first human trial",
-            "why_it_matters": "This vaccine could provide broad protection against multiple coronaviruses, addressing pandemic threats.",
+            "why_it_matters": "This vaccine could provide broad protection against various coronaviruses, addressing pandemic threats.",
             "signal": "Opportunity"
           },
           {
             "headline": "Octopuses use mirrors to find food they cannot see",
-            "why_it_matters": "This behavior suggests advanced cognitive abilities in octopuses, challenging our understanding of intelligence in non-vertebrates.",
+            "why_it_matters": "This finding challenges our understanding of animal intelligence and tool use.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover a hidden quantum world inside cobalt",
-            "why_it_matters": "The discovery could lead to advancements in next-generation computing technologies.",
+            "why_it_matters": "The discovery could lead to advancements in computing and materials science.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists finally crack an “undruggable” pancreatic cancer target and nearly double survival",
-            "why_it_matters": "This breakthrough offers new hope for treating one of the deadliest cancers, significantly improving patient outcomes.",
+            "why_it_matters": "This breakthrough offers new hope for treating one of the deadliest cancers.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the AI-designed coronavirus vaccine's efficacy is expected.",
-            "More details on the implications of the quantum states discovered in cobalt may emerge.",
-            "Research on the cognitive abilities of octopuses could lead to new studies."
+            "Further analysis of the AI-designed vaccine's efficacy is expected.",
+            "More studies on octopus behavior may be released.",
+            "Updates on the environmental impact of fire tornadoes could emerge."
           ],
           "next_1_4_weeks": [
-            "Anticipated discussions on the environmental impact of fire tornadoes in oil spill cleanup.",
-            "Updates on the clinical trials for the pancreatic cancer treatment may be released.",
-            "Further exploration into the consciousness of non-human entities may be published."
+            "Anticipated results from ongoing trials of the pancreatic cancer drug may be published.",
+            "Research on consciousness in animals and AI will likely continue to evolve.",
+            "New findings related to cobalt's quantum properties may be announced."
           ],
           "watch_list": [
             "Developments in AI vaccine technology",
-            "Research on black hole pairs and their detection methods",
-            "Studies on the implications of quantum discoveries in materials science.",
-            "Updates on cancer treatment breakthroughs and their clinical applications."
+            "Research on animal intelligence",
+            "Updates on cancer treatment breakthroughs.",
+            "Environmental science innovations"
           ],
           "confidence": "High"
         },
         "caveats": [
           "The long-term effects of the AI-designed vaccine are still unknown.",
-          "The implications of consciousness studies are still debated and not universally accepted."
+          "Further research is needed to confirm the implications of octopus intelligence.",
+          "The environmental impact of fire tornadoes requires more extensive studies."
         ],
         "related_topics": [
           "What are the latest advancements in AI vaccine technology?",
-          "How do fire tornadoes help in oil spill cleanup?",
-          "What recent discoveries have been made in black hole research?",
-          "What are the health benefits of collagen supplements?",
-          "Are octopuses conscious beings?"
+          "How do octopuses demonstrate intelligence?",
+          "What breakthroughs have been made in pancreatic cancer treatment?",
+          "What is the significance of cobalt's quantum properties?",
+          "How do scientists study consciousness in animals and AI?"
         ]
       },
-      "tweet_text": "From fire tornadoes to hidden black holes, today's science reveals the universe's most mind-blowing...\n\nScience Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hidden #Scientists #Actually #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From fire tornadoes to AI vaccines, today's science news is a wild ride—discover the breakthroughs...\n\nScience Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hidden #Scientists #Actually #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
