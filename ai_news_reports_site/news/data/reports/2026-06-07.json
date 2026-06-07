@@ -1,11 +1,14 @@
 {
   "date": "2026-06-07",
-  "generated_at_utc": "2026-06-07T07:00:55Z",
+  "generated_at_utc": "2026-06-07T15:19:55Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "votes",
     "news",
-    "game"
+    "game",
+    "fire",
+    "backlash"
   ],
   "categories": {
     "world": {
@@ -17,30 +20,51 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.21,
+        "score": -0.1897,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.350, dampened ×0.6 → -0.2100). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.316, dampened ×0.6 → -0.1897). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Zelensky criticises 'vile' Chornobyl drone strike ahead of London talks",
+          "url": "https://www.bbc.com/news/articles/cr7xr1g3nvvo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 07 Jun 2026 12:09:57 GMT",
+          "summary": "Ukrainian officials say a Russian drone hit a storage facility for spent nuclear fuel near the Chornobyl nuclear plant.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
+          "url": "https://www.bbc.com/news/articles/c9q2gp52rgro?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 07 Jun 2026 07:11:18 GMT",
+          "summary": "The BBC's Russia editor saw Putin's flagship economic event overshadowed by Ukrainian drones attacks.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Armenia votes as Russia piles pressure on pro-West government",
+          "url": "https://www.bbc.com/news/articles/c3626n1epd5o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 07 Jun 2026 04:45:51 GMT",
+          "summary": "Incumbent Prime Minister Nikol Pashinyan is seeking a third term despite falling domestic support.",
+          "source": "BBC News"
+        },
+        {
           "title": "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
           "url": "https://www.bbc.com/news/articles/c802e7jk458o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 07 Jun 2026 05:47:28 GMT",
+          "published": "Sun, 07 Jun 2026 10:35:25 GMT",
           "summary": "The US defence secretary was speaking in Normandy, 82 years after allied forces launched their operation to liberate Nazi-occupied north-western Europe.",
           "source": "BBC News"
         },
         {
-          "title": "Ukrainian drones target St Petersburg in attack Russia calls 'unprecedented'",
-          "url": "https://www.bbc.com/news/articles/cg7498kz808o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 06 Jun 2026 20:50:40 GMT",
-          "summary": "Residents of Russia's second-largest city were urged to stay indoors for the first time since the war started.",
+          "title": "Huge crowds throng Madrid streets for Pope's open-air Mass",
+          "url": "https://www.bbc.com/news/articles/c4gyejvzx9eo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 07 Jun 2026 10:27:15 GMT",
+          "summary": "The pontiff waved at those gathered from his popemobile as he arrived at the Plaza de Cibeles.",
           "source": "BBC News"
         },
         {
-          "title": "Iran says staff blocked from entering US after players given World Cup visas",
-          "url": "https://www.bbc.com/news/articles/cy8286nqz87o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 06 Jun 2026 22:38:36 GMT",
-          "summary": "Iranian officials say technical staff have been denied visas, hours after the US said players could enter the country.",
+          "title": "'It was either killed or be killed' - ongoing nightmares of an ex-child soldier in Somalia",
+          "url": "https://www.bbc.com/news/articles/c98r7zxdxe7o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 06 Jun 2026 23:25:20 GMT",
+          "summary": "Yusuf Ali, now 34, struggles with his memories living in Mogadishu surrounded by dark reminders of his past.",
           "source": "BBC News"
         },
         {
@@ -51,31 +75,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Funeral held for baby shot dead by Israeli troops in occupied West Bank",
-          "url": "https://www.bbc.com/news/articles/cly8lgn0x30o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 06 Jun 2026 19:57:42 GMT",
-          "summary": "The seven-month-old boy's shrouded body was wrapped in a Palestinian flag and carried by his father to the graveyard.",
+          "title": "Iran's World Cup team lands in Mexico amid US visa row",
+          "url": "https://www.bbc.com/news/articles/c5yz3zdp3jqo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 07 Jun 2026 13:24:50 GMT",
+          "summary": "All of Iran's group games are in the US, but players and support staff will have to fly in and out of the country on match day.",
           "source": "BBC News"
         },
         {
-          "title": "Ragas and symphonies: Indian maestro Ilaiyaraaja is still reshaping music 50 years on",
-          "url": "https://www.bbc.com/news/articles/cm2pldw8x9zo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 06 Jun 2026 22:27:05 GMT",
-          "summary": "Fifty years after his debut, Ilaiyaraaja remains one of the most celebrated composers in Indian cinema.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Pope begins Spain visit with praise for country's opposition to war and support for migrants",
-          "url": "https://www.bbc.com/news/articles/c8d2pgjy4qgo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 06 Jun 2026 18:34:26 GMT",
-          "summary": "On the first day of his official seven-day tour of Spain, the Pope praises the country's \"active commitment to peace and solidarity among peoples\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "'It was either killed or be killed' - ongoing nightmares of an ex-child soldier in Somalia",
-          "url": "https://www.bbc.com/news/articles/c98r7zxdxe7o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 06 Jun 2026 23:25:20 GMT",
-          "summary": "Yusuf Ali, now 34, struggles with his memories living in Mogadishu surrounded by dark reminders of his past.",
+          "title": "Hundreds of captives freed from Boko Haram mountain hideout",
+          "url": "https://www.bbc.com/news/articles/ce8j0jn4xjgo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 07 Jun 2026 14:00:16 GMT",
+          "summary": "The group includes many women and children who were abducted in March from an area close to Cameroon.",
           "source": "BBC News"
         },
         {
@@ -98,85 +108,77 @@
           "published": "Sat, 06 Jun 2026 23:25:36 GMT",
           "summary": "Sean Reifel's joined the cast of the popular reality series less than a year after he joined his hometown's police force.",
           "source": "BBC News"
-        },
-        {
-          "title": "Canada bans Texas cattle over flesh-eating screwworm outbreak in US",
-          "url": "https://www.bbc.com/news/articles/cevpv3r7jmpo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 06 Jun 2026 04:22:25 GMT",
-          "summary": "The ban came as a second infected calf was identified in Texas, and the US state declaring a state of disaster over the outbreak.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tensions escalate globally with significant events in Ukraine, Iran, and Israel, while political instability affects Peru's presidential race.",
-        "summary": "Today's world news highlights escalating tensions in Ukraine with drone attacks on St Petersburg, diplomatic strains between the US and Iran over visa issues, and ongoing violence in Israel and Palestine. Additionally, Peru faces a tight presidential race driven by insecurity, while the Pope praises Spain's humanitarian efforts during his visit.",
+        "key_takeaway": "Ukrainian drone strikes and geopolitical tensions dominate headlines, with significant events in Armenia, Iran, and ongoing conflicts in the Middle East and Africa.",
+        "summary": "Today's news highlights escalating tensions in Ukraine with drone strikes affecting Chornobyl, while Russia's economic forum is overshadowed by attacks. Armenia faces political pressure, and Iran's World Cup team navigates visa issues amid US-Iran tensions. Additionally, significant developments include the release of captives from Boko Haram and ongoing violence in the Middle East.",
         "key_themes": [
-          "global tensions in Ukraine",
-          "Iran US diplomatic relations",
-          "Peru presidential race",
-          "Israeli-Palestinian conflict",
-          "Pope's visit to Spain"
+          "Ukraine drone strikes impact",
+          "Russia economic forum news",
+          "Armenia political situation",
+          "Iran World Cup team challenges",
+          "Boko Haram captives released"
         ],
         "notable_headlines": [
           {
-            "headline": "Ukrainian drones target St Petersburg in attack Russia calls 'unprecedented'",
-            "why_it_matters": "This marks a significant escalation in the conflict, affecting civilian safety and international perceptions of the war.",
+            "headline": "Zelensky criticises 'vile' Chornobyl drone strike ahead of London talks",
+            "why_it_matters": "The drone strike raises concerns about nuclear safety and escalates tensions between Ukraine and Russia.",
             "signal": "Risk"
           },
           {
-            "headline": "Iran says staff blocked from entering US after players given World Cup visas",
-            "why_it_matters": "This incident highlights ongoing diplomatic tensions and the complexities surrounding international sports events.",
+            "headline": "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
+            "why_it_matters": "The attacks highlight the ongoing conflict's impact on Russia's economic stability and international perception.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Armenia votes as Russia piles pressure on pro-West government",
+            "why_it_matters": "The election outcome could significantly affect Armenia's foreign relations and internal stability amid Russian influence.",
             "signal": "Unclear"
           },
           {
-            "headline": "Insecurity and instability drive voters in Peru's tight presidential race",
-            "why_it_matters": "Voter concerns over crime and inequality could lead to significant political changes in Peru.",
+            "headline": "Iran's World Cup team lands in Mexico amid US visa row",
+            "why_it_matters": "The visa issues could affect the team's participation and highlight ongoing tensions between Iran and the US.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Hundreds of captives freed from Boko Haram mountain hideout",
+            "why_it_matters": "The release of captives underscores ongoing humanitarian issues and the fight against terrorism in the region.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Funeral held for baby shot dead by Israeli troops in occupied West Bank",
-            "why_it_matters": "This tragic event underscores the ongoing violence and humanitarian issues in the region.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US and Iran exchange strikes in Gulf in latest test of ceasefire",
-            "why_it_matters": "The exchange of strikes raises concerns about the stability of the ceasefire and potential escalation of conflict.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring responses from Russia regarding the drone attacks on St Petersburg.",
-            "Observing developments in US-Iran relations following the visa incident.",
-            "Tracking voter sentiment in Peru as the presidential race heats up."
+            "Monitor developments from the London talks involving Ukraine and potential responses from Russia.",
+            "Watch for updates on the Armenian election results and their implications for regional stability.",
+            "Expect further news on the US-Iran tensions as the World Cup approaches."
           ],
           "next_1_4_weeks": [
-            "Potential escalation in the Israel-Palestine conflict following recent violence.",
-            "Continued scrutiny of US-Iran military engagements in the Gulf.",
-            "Impact of the Pope's visit on Spain's political landscape."
+            "Observe the impact of the Armenian elections on its government and foreign policy.",
+            "Follow the situation in Ukraine as drone strikes continue to escalate tensions with Russia.",
+            "Keep an eye on the humanitarian situation in Nigeria following the Boko Haram captives' release."
           ],
           "watch_list": [
-            "International reactions to the drone attacks in Russia.",
-            "Updates on the US-Iran diplomatic situation.",
-            "Poll results from Peru's presidential race.",
-            "Humanitarian responses to the Israeli-Palestinian conflict."
+            "Potential responses from Russia to Ukraine's drone strikes.",
+            "The outcome of Armenia's elections and its geopolitical implications.",
+            "Iran's participation in the World Cup amidst ongoing visa issues.",
+            "Developments in US-Iran military engagements in the Gulf."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Ukraine remains fluid and unpredictable.",
-          "Diplomatic relations can change rapidly, affecting future developments.",
-          "Political dynamics in Peru may shift as the election approaches."
+          "The situation in Ukraine remains fluid and unpredictable, making it difficult to assess long-term implications.",
+          "Political dynamics in Armenia could shift rapidly depending on election outcomes and public sentiment."
         ],
         "related_topics": [
-          "What are the latest developments in Ukraine?",
-          "How is the US handling relations with Iran?",
-          "What is the current political situation in Peru?",
-          "Updates on the Israeli-Palestinian conflict",
-          "Pope's visit to Spain news"
+          "What are the latest developments in Ukraine's conflict with Russia?",
+          "How is Armenia's political landscape changing?",
+          "What challenges does Iran face regarding the World Cup?",
+          "What is the current situation with Boko Haram in Nigeria?",
+          "How are US-Iran relations affecting military actions in the Gulf?"
         ]
       },
-      "tweet_text": "From a beach \"D-Day\" to Ukrainian drone strikes, today's headlines reveal a world on edge.\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Killed #Attack #Attacks #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From chilling drone strikes to a historic Mass, today's world is a battleground of hope and despair.\n\nWorld Sentiment: Mixed (-0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Attacks #Drone #Killed #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -278,74 +280,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "US labor market shows resilience with 172,000 jobs added in May, despite rising inflation and economic uncertainty.",
-        "summary": "Today's business news highlights a mixed sentiment surrounding US-China trade relations, significant labor developments in Canada, and the resilience of the US job market amid economic challenges.",
+        "key_takeaway": "US labor market shows resilience with 172,000 jobs added in May, despite ongoing economic uncertainty and rising inflation.",
+        "summary": "Today's business news highlights a mixed sentiment surrounding various economic developments, including a looming trade war with China, significant labor movements in Canada, and the resilience of the US job market amid inflationary pressures.",
         "key_themes": [
           "US-China trade relations",
-          "labor market updates",
-          "unionization efforts in Canada",
           "consumer protection initiatives",
+          "unionization in Canada",
+          "US job market resilience",
           "impact of inflation on politics"
         ],
         "notable_headlines": [
           {
             "headline": "On China, Trump picked the right battle but the wrong strategy",
-            "why_it_matters": "The ongoing trade war with China raises concerns about US trade policy and its global implications.",
+            "why_it_matters": "The article discusses the implications of Trump's trade policies and their chaotic nature, which may lead to prolonged trade conflicts.",
             "signal": "Risk"
           },
           {
             "headline": "Mamdani’s consumer watchdog takes on ‘epidemic of corporate lawbreaking’",
-            "why_it_matters": "New York City's consumer protection efforts could reshape corporate accountability and consumer rights.",
+            "why_it_matters": "New York City's consumer protection efforts aim to combat deceptive practices and junk fees, impacting consumers significantly.",
             "signal": "Opportunity"
           },
           {
             "headline": "‘Historic’: Canadian warehouse workers sign first-ever union deal with Walmart",
-            "why_it_matters": "This landmark agreement could inspire further unionization efforts across Canada and influence labor relations.",
+            "why_it_matters": "This marks a significant milestone in labor rights, potentially influencing unionization efforts across Canada.",
             "signal": "Opportunity"
           },
           {
             "headline": "US added 172,000 jobs in May as labor market shows signs of resilience",
-            "why_it_matters": "Despite economic uncertainty, job growth indicates a stable labor market, which may influence economic policies.",
-            "signal": "Unclear"
+            "why_it_matters": "Despite inflation and economic uncertainty, job growth indicates a stable labor market, which is crucial for economic health.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Disney racks up $4.2bn deficit on Paris parks",
-            "why_it_matters": "Disney's financial struggles in Paris highlight challenges in the theme park industry despite high visitor numbers.",
+            "why_it_matters": "Disney's ongoing financial struggles with its Paris parks raise questions about the viability of its international investments.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in US-China trade negotiations",
-            "Updates on consumer protection initiatives in New York City",
-            "Analysis of job market trends following May's employment report"
+            "Monitor reactions to the US job market report and its impact on stock markets.",
+            "Watch for developments in US-China trade relations as tensions escalate.",
+            "Follow updates on consumer protection initiatives in New York City."
           ],
           "next_1_4_weeks": [
-            "Potential impacts of rising inflation on consumer spending",
-            "Further developments in unionization efforts across North America",
-            "Responses from corporations to new consumer protection regulations"
+            "Observe the effects of rising inflation on consumer spending and political dynamics ahead of midterms.",
+            "Track the progress of unionization efforts in Canada and their potential ripple effects in the US.",
+            "Evaluate the long-term implications of Trump's trade policies on global trade relationships."
           ],
           "watch_list": [
-            "US job market performance",
-            "Corporate responses to unionization",
-            "Consumer protection trends in major cities",
-            "Impact of inflation on economic policies"
+            "US job market trends and unemployment rates",
+            "Consumer protection legislation outcomes in New York",
+            "Unionization movements in North America",
+            "Impact of inflation on upcoming elections",
+            "Disney's financial recovery strategies"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the current business climate.",
-          "Economic conditions may change rapidly due to geopolitical factors."
+          "The sentiment score reflects mixed feelings about the current economic climate, indicating uncertainty in various sectors.",
+          "The long-term effects of recent labor movements and trade policies remain to be fully assessed."
         ],
         "related_topics": [
           "What are the latest developments in US-China trade relations?",
-          "How is the US labor market performing amid inflation?",
-          "What are the implications of the new consumer protection laws in NYC?",
-          "What does the first union deal with Walmart mean for labor in Canada?",
-          "How is inflation affecting political dynamics in the US?"
+          "How is the US job market performing amid inflation?",
+          "What consumer protection measures are being implemented in New York?",
+          "What does the unionization of Canadian workers mean for labor rights?",
+          "How is Disney addressing its financial challenges in Paris?"
         ]
       },
-      "tweet_text": "Historic wins collide with corporate chaos as Disney faces billions in losses while workers unite for change.\n\nBusiness Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Minutes #172000 #42bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From union breakthroughs at Walmart to Disney's staggering losses, today's business news is a rollercoaster...\n\nBusiness Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Minutes #172000 #42bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -356,11 +359,46 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.207,
+        "score": 0.143,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.345, dampened ×0.6 → +0.2070). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.238, dampened ×0.6 → +0.1430). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Japanese Gothic is a gorgeously grotesque ghost story",
+          "url": "https://www.theverge.com/entertainment/943230/japanese-gothic-kylie-lee-baker-horror-novel",
+          "published": "2026-06-07T11:00:00-04:00",
+          "summary": "I'll give the usual caveat: The horror novel Japanese Gothic is best experienced going in with as little information as possible. Content warnings for graphic gore, scenes of domestic violence, self-harm, and mental illness. If you're okay with that, then consider pausing here. While I will try to keep this relatively spoiler-free, there will be [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Virtual OS Museum lets you relive over 600 operating systems right on your desktop",
+          "url": "https://www.theverge.com/tech/945246/virtual-os-museum-dos-windows-mac-os",
+          "published": "2026-06-07T10:17:00-04:00",
+          "summary": "The Virtual OS Museum isn't a physical place, it's a collection of over 1,700 distinct installations of over 600 operating systems for over 250 platforms that you can download and run via emulation right on your computer. It's largely the work of one man, Andrew Warkentin, a developer and OS historian who has been slowly [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Dell&#8217;s new XPS 14 is better in almost every way",
+          "url": "https://www.theverge.com/tech/944360/dell-xps-14-2026-review",
+          "published": "2026-06-07T10:00:00-04:00",
+          "summary": "The 2026 XPS 14 is the best premium laptop we've seen from Dell in a while, with incredible build quality in a thin machine and good performance thanks to Intel's Core Ultra Series 3 \"Panther Lake\" chips. A bonus: Dell killed its lame \"Premium Plus\" naming scheme. XPS is so back! I can't believe how [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Kill some time with these much needed distractions",
+          "url": "https://www.theverge.com/entertainment/945205/weekend-time-waster-internet-browser-game-rabibit-hole",
+          "published": "2026-06-07T09:00:00-04:00",
+          "summary": "Constantly being plugged into the news grind is mentally exhausting. Sometimes we just need to take a break, unwind, and do something fun. That’s why we&#8217;ve built up a collection of distracting time-wasters for when we need a break from being obsessively online. We figured you might enjoy these harmless rabbit holes, mildly addictive browser [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "AI ‘content creators’ are getting harder to spot",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+          "published": "2026-06-07T08:00:00-04:00",
+          "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI confusion, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started At first, AI influencers were relatively easy to identify - and to [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "JMGO’s N3 Ultimate projector is the new portable 4K champ",
           "url": "https://www.theverge.com/reviews/943732/best-portable-4k-projector-review",
@@ -395,113 +433,77 @@
           "published": "2026-06-06T12:14:23-04:00",
           "summary": "Get ready for some gaming news. It&#8217;s officially June, which means splashy new events from PlayStation, Xbox, gaming hype man Geoff Keighley, and more. PlayStation kicked things off with a big event that was mostly about premium single-player games like the new God of War Laufey — a statement from PlayStation that it’s getting back [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "4K Blu-rays are three for $33 ahead of Father’s Day",
-          "url": "https://www.theverge.com/gadgets/944347/4k-bluray-gruv-fathers-day-deal-sale",
-          "published": "2026-06-06T12:00:00-04:00",
-          "summary": "If you know a dad with a predilection for physical media, he might really dig what you buy for him with this deal at Gruv. Ahead of Father’s Day on June 21st, the online seller (operated by Universal Pictures, in case you didn’t know) is letting you check out with three movies from a large [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
-          "published": "2026-06-06T11:05:00-04:00",
-          "summary": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over town, but [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Benn Jordan longs for the days of tech that didn’t spy on you",
-          "url": "https://www.theverge.com/report/942609/benn-jordan-music-gear-cybersecurity-surveillance-questionnaire",
-          "published": "2026-06-06T11:00:00-04:00",
-          "summary": "Benn Jordan may have initially gained notoriety for his music as Flashbulb and later, reviewing synths and effects pedals on YouTube under Benn and Gear. But about five years ago, Benn decided to take his YouTube channel in a different direction. He didn't stop covering music gear overnight, but as time progressed, his channel became [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "82-0 is the best basketball game, to hell with NBA 2K",
-          "url": "https://www.theverge.com/games/944975/82-0-perfect-basketball-stats-game",
-          "published": "2026-06-06T10:30:00-04:00",
-          "summary": "82-0 marries the stat nerd fun of fantasy basketball with instant gratification and a bit of dumb luck. The goal is to draft a team of players that could (theoretically) have a perfect 82-0 season. Obviously, if you just had free rein to pick whoever you wanted from throughout history, there would be little challenge. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Meta made its own AI-generated clickbait news feed",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
-          "published": "2026-06-06T10:00:00-04:00",
-          "summary": "Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI. The standalone Meta AI app now has a \"For You\" section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated - and as questionable [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "JMGO's N3 Ultimate projector is recognized as a top portable 4K option, while gaming showcases highlight narrative-driven titles and controversies arise over data center opposition in Indiana.",
-        "summary": "Today's technology news features JMGO's N3 Ultimate projector gaining acclaim as a leading portable 4K device, alongside gaming showcases that spotlight narrative-driven indie games. Additionally, GOG faced backlash for a controversial email, and a proposed data center in Indiana has sparked political tensions. Meta has also launched an AI-generated clickbait news feed, raising questions about content authenticity.",
+        "key_takeaway": "Dell's new XPS 14 laptop showcases significant improvements, while the Virtual OS Museum offers a nostalgic experience with over 600 operating systems.",
+        "summary": "Today's technology news highlights include Dell's impressive new XPS 14 laptop, the launch of the Virtual OS Museum featuring over 600 operating systems, and the growing challenge of identifying AI-generated content. Additionally, JMGO's N3 Ultimate projector has emerged as a top portable 4K option, and GOG faced backlash for a controversial email incident. The gaming sector also saw notable showcases, including the Story-Rich event and Wholesome Direct.",
         "key_themes": [
-          "portable 4K projectors",
-          "narrative-driven indie games",
-          "GOG controversy",
-          "data center opposition",
-          "AI-generated content",
+          "Dell XPS 14 review",
+          "Virtual OS Museum launch",
+          "AI content creators",
+          "JMGO N3 Ultimate projector",
           "Summer Game Fest highlights"
         ],
         "notable_headlines": [
           {
-            "headline": "JMGO’s N3 Ultimate projector is the new portable 4K champ",
-            "why_it_matters": "The N3 Ultimate projector is praised for its adaptability and performance, potentially setting a new standard in portable 4K projection.",
+            "headline": "Dell's new XPS 14 is better in almost every way",
+            "why_it_matters": "The XPS 14 represents a significant advancement in Dell's laptop offerings, emphasizing quality and performance.",
             "signal": "Opportunity"
           },
           {
-            "headline": "The first Story-Rich showcase was packed with narrative-driven games",
-            "why_it_matters": "This showcase highlights the growing interest in narrative-driven games, indicating a shift in gaming trends towards storytelling.",
+            "headline": "The Virtual OS Museum lets you relive over 600 operating systems right on your desktop",
+            "why_it_matters": "This project provides a unique way for users to explore and experience historical operating systems.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "AI ‘content creators’ are getting harder to spot",
+            "why_it_matters": "The increasing sophistication of AI-generated content raises concerns about authenticity and trust in digital media.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "JMGO’s N3 Ultimate projector is the new portable 4K champ",
+            "why_it_matters": "This projector sets a new standard for portable 4K devices, appealing to both casual users and home theater enthusiasts.",
             "signal": "Opportunity"
           },
           {
             "headline": "GOG apologizes for emailing people Nazi symbols",
-            "why_it_matters": "The incident raises concerns about content management and communication practices within gaming companies.",
+            "why_it_matters": "The incident highlights the importance of quality control in communications and the potential for public relations fallout.",
             "signal": "Risk"
-          },
-          {
-            "headline": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
-            "why_it_matters": "The mayor's comments reflect the contentious nature of local politics surrounding technology infrastructure projects.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Meta made its own AI-generated clickbait news feed",
-            "why_it_matters": "This development raises ethical questions about AI-generated content and its impact on media consumption.",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further reactions to GOG's apology may emerge as the gaming community responds.",
-            "Expect more announcements from Summer Game Fest as major gaming companies unveil new titles.",
-            "Monitor public sentiment regarding the proposed data center in Shelbyville."
+            "Further reviews of the Dell XPS 14 are expected to emerge.",
+            "More details on the Virtual OS Museum's features may be released.",
+            "Anticipate reactions to GOG's apology and any potential consequences."
           ],
           "next_1_4_weeks": [
-            "Watch for reviews and user feedback on JMGO's N3 Ultimate projector as it hits the market.",
-            "Anticipate more narrative-driven game releases following the recent showcase.",
-            "Follow developments in AI-generated content and its reception among users."
+            "Expect updates on AI content detection technologies as the issue gains attention.",
+            "New product announcements may follow from competitors in the portable projector market.",
+            "The gaming industry will continue to showcase new titles and innovations post-Summer Game Fest."
           ],
           "watch_list": [
-            "Upcoming gaming events and showcases for new announcements.",
-            "Public discussions and protests regarding the Shelbyville data center.",
-            "Trends in portable projector technology and consumer preferences.",
-            "Meta's AI content strategy and its implications for digital media."
+            "Monitor developments in AI content creation and detection.",
+            "Keep an eye on Dell's market performance following the XPS 14 launch.",
+            "Watch for responses from GOG and similar companies regarding quality control measures.",
+            "Track upcoming gaming showcases and announcements."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall news tone, suggesting varying public reactions to the topics covered.",
-          "The implications of AI-generated content are still unfolding and may evolve rapidly."
+          "The sentiment score is mixed, indicating varying opinions on the topics covered.",
+          "The impact of the GOG incident on its reputation remains to be seen."
         ],
         "related_topics": [
-          "What are the best portable projectors available now?",
-          "Latest trends in narrative-driven video games",
-          "What controversies are surrounding GOG and its communications?",
-          "How is AI impacting content creation in media?",
-          "Updates from Summer Game Fest 2026"
+          "What are the latest updates on Dell laptops?",
+          "How does the Virtual OS Museum work?",
+          "What challenges do AI content creators face?",
+          "What are the best portable projectors in 2026?",
+          "Highlights from Summer Game Fest 2026."
         ]
       },
-      "tweet_text": "Get ready for jaw-dropping visuals and heartwarming stories—tech and gaming just leveled up!\n\nTechnology Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#2026 #Games #Showcase #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Dive into a world where ghosts haunt your screen and tech takes center stage—discover the latest...\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Almost #Apologizes #Better #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -603,74 +605,73 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The Knicks lead the NBA Finals 2-0 after a close Game 2 against the Spurs, while NCAA denies Texas Tech's appeal for quarterback eligibility.",
-        "summary": "In today's sports news, the New York Knicks have taken a commanding 2-0 lead in the NBA Finals against the San Antonio Spurs, highlighted by a strong performance from Karl-Anthony Towns. Meanwhile, teenager Mirra Andreeva has won the French Open women's singles title. The NCAA has rejected Texas Tech's appeal regarding quarterback Brendan Sorsby's eligibility. Additionally, FIFA has reversed its ban on refillable water bottles for World Cup fans following backlash. Other notable stories include Kawhi Leonard's interview in an NBA investigation and predictions for the upcoming FIFA World Cup.",
+        "key_takeaway": "The Knicks take a commanding 2-0 lead in the NBA Finals, while FIFA reverses its controversial water bottle ban for the World Cup.",
+        "summary": "Today's sports headlines highlight the Knicks' strong performance in the NBA Finals, with a 2-0 lead over the Spurs, and significant developments in tennis, college football, and FIFA's World Cup policies.",
         "key_themes": [
           "NBA Finals Game 2 recap",
-          "Mirra Andreeva French Open victory",
-          "NCAA eligibility appeal news",
-          "FIFA World Cup updates",
-          "Kawhi Leonard investigation"
+          "Teenager Mirra Andreeva wins French Open",
+          "NCAA eligibility ruling",
+          "FIFA World Cup policy changes"
         ],
         "notable_headlines": [
           {
             "headline": "Knicks survive Spurs rush for 2-0 NBA Finals lead",
-            "why_it_matters": "The Knicks' victory puts them in a strong position in the Finals, showcasing their resilience and strategy.",
+            "why_it_matters": "The Knicks' victory positions them strongly in the Finals, showcasing their resilience and strategy against the Spurs.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Teenager Mirra Andreeva wins French Open women's singles title",
-            "why_it_matters": "Andreeva's win marks a significant achievement in her young career, highlighting her potential in tennis.",
+            "headline": "Teenager Mirra Andreeva wins French Open women's singles",
+            "why_it_matters": "Andreeva's win marks a significant achievement in her young career, highlighting her potential in women's tennis.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Reports: NCAA rejects TTU's appeal for QB Sorsby",
-            "why_it_matters": "The NCAA's decision impacts Texas Tech's football season and their quarterback situation.",
-            "signal": "Risk"
           },
           {
             "headline": "FIFA reverses WC water bottle ban after backlash",
-            "why_it_matters": "The reversal reflects FIFA's responsiveness to fan concerns and could influence future policies.",
+            "why_it_matters": "The reversal reflects FIFA's responsiveness to fan concerns and could impact World Cup attendance and experience.",
             "signal": "Opportunity"
           },
           {
             "headline": "Wemby rues costly turnover: 'This game was ours'",
-            "why_it_matters": "Wembanyama's reflection on the game indicates the competitive pressure and stakes of the Finals.",
-            "signal": "Unclear"
+            "why_it_matters": "Wembanyama's reflection on the loss indicates the pressure on young stars in high-stakes games.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Reports: NCAA rejects TTU's appeal for QB Sorsby",
+            "why_it_matters": "The NCAA's decision affects Texas Tech's season and raises questions about player eligibility rules.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Game 3 of the NBA Finals between the Knicks and Spurs",
-            "Further updates on NCAA eligibility appeals",
-            "Reactions to Andreeva's French Open victory"
+            "Further developments in NCAA eligibility cases",
+            "Updates on the French Open finals"
           ],
           "next_1_4_weeks": [
             "Continuation of the NBA Finals",
             "Upcoming matches in the FIFA World Cup",
-            "Potential developments in the Kawhi Leonard investigation"
+            "More news on NCAA football eligibility rulings"
           ],
           "watch_list": [
-            "NBA Finals performance analysis",
-            "Updates on NCAA football eligibility",
-            "FIFA World Cup fan policies",
-            "Mirra Andreeva's future tournaments"
+            "Performance of the Knicks in Game 3",
+            "Mirra Andreeva's progress in tennis",
+            "FIFA World Cup fan experiences",
+            "NCAA's handling of eligibility appeals"
           ],
           "confidence": "Medium"
         },
         "caveats": [
           "The sentiment score is mixed, indicating varied reactions to the headlines.",
-          "Some summaries lack detailed information, particularly regarding Andreeva's victory."
+          "Some summaries lack detailed information, which may affect understanding."
         ],
         "related_topics": [
-          "What are the latest NBA Finals updates?",
-          "How did Mirra Andreeva win the French Open?",
-          "What is the NCAA's decision on quarterback eligibility?",
-          "FIFA World Cup fan policies explained",
-          "Kawhi Leonard investigation news"
+          "What happened in the NBA Finals today",
+          "Latest updates on the French Open",
+          "NCAA eligibility news",
+          "FIFA World Cup fan policies",
+          "Caleb Williams Madden cover details"
         ]
       },
-      "tweet_text": "Can the Spurs bounce back, or is the Knicks' momentum unstoppable in the NBA Finals?\n\nSports Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Knicks #Spurs #Andreeva #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Is the Spurs dynasty fading as the Knicks seize a commanding 2-0 lead in the Finals?\n\nSports Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Knicks #Spurs #Andreeva #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -681,9 +682,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.2142,
+        "score": 0.2078,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.357, dampened ×0.6 → +0.2142). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.346, dampened ×0.6 → +0.2078). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -698,6 +699,13 @@
           "url": "https://www.sciencedaily.com/releases/2026/06/260606075508.htm",
           "published": "Sat, 06 Jun 2026 09:24:27 EDT",
           "summary": "A lightweight new X-ray telescope could finally give scientists something they’ve never had before: a complete chemical map of the Moon. Researchers used detailed mission simulations to show that a compact telescope orbiting the Moon could identify key elements across the entire lunar surface, helping reveal how the Moon formed and evolved.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists finally complete Schrödinger’s 100-year-old color theory",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260606015140.htm",
+          "published": "Sun, 07 Jun 2026 03:55:21 EDT",
+          "summary": "Researchers have finally resolved a key problem in a 100-year-old theory of color, showing that the qualities we perceive in colors are intrinsic to the mathematics of color space itself. The discovery sharpens our understanding of human vision and could lead to more precise color technologies and visualizations.",
           "source": "ScienceDaily"
         },
         {
@@ -762,85 +770,77 @@
           "published": "Fri, 05 Jun 2026 05:07:05 EDT",
           "summary": "Scientists have uncovered unexpected quantum complexity inside cobalt, a metal long thought to be fully understood. Advanced measurements revealed a dense network of topological electronic states that remain robust at room temperature. These states enable extremely fast electron behavior and can be switched or controlled using magnetism. The discovery could open new paths toward next-generation computing and spin-based devices.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Goethe never knew this 40-million-year-old ant was hidden in his collection",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260604044252.htm",
-          "published": "Thu, 04 Jun 2026 08:30:55 EDT",
-          "summary": "Scientists examining amber from Goethe’s personal collection discovered three hidden fossil insects, including an extinct ant preserved in extraordinary detail. Advanced 3D imaging allowed researchers to see not only the ant’s outer features but also structures inside its body. The findings offer new clues about the species’ biology and suggest it likely built large nests in trees.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific advancements include a new quantum state creation method, a lightweight X-ray telescope for lunar chemistry, and AI-designed vaccines showing promise against coronaviruses.",
-        "summary": "Today's science headlines highlight significant breakthroughs, including a simple method for creating quantum states, a new X-ray telescope aimed at mapping the Moon's chemistry, and the potential of AI-designed vaccines against coronaviruses. Other notable findings include the use of giant fire tornadoes for oil spill cleanup, octopuses using mirrors to locate food, and insights into supermassive black holes and binary star formation. Additionally, a major study on collagen supplements reveals their benefits for skin and osteoarthritis, while discussions on consciousness in bees and AI continue to evolve.",
+        "key_takeaway": "Recent scientific advancements include breakthroughs in quantum states, lunar chemistry mapping, and AI-designed vaccines, highlighting significant progress across various fields.",
+        "summary": "Today's science headlines feature a range of exciting discoveries, from new methods for creating quantum states and mapping the Moon's chemistry to advancements in understanding color theory and the potential of AI-designed vaccines. Researchers are also exploring the cognitive abilities of octopuses and the implications of magnetic fields in star formation. Additionally, studies on weight-loss drugs suggest a link to reduced breast cancer risk, while a major collagen study offers insights into its health benefits.",
         "key_themes": [
           "quantum state creation",
-          "lunar chemistry exploration",
+          "lunar chemistry mapping",
           "AI-designed vaccines",
-          "oil spill cleanup methods",
           "octopus intelligence",
-          "collagen supplement benefits"
+          "collagen health benefits"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists found a surprisingly simple way to create powerful quantum states",
-            "why_it_matters": "This discovery could simplify the production of quantum states, enhancing quantum computing technologies.",
+            "why_it_matters": "This discovery could simplify the production of entangled quantum states, crucial for quantum computing.",
             "signal": "Opportunity"
           },
           {
             "headline": "Tiny X-ray telescope could unlock the Moon's hidden chemistry",
-            "why_it_matters": "A complete chemical map of the Moon could provide insights into its formation and evolution.",
+            "why_it_matters": "A complete chemical map of the Moon could enhance our understanding of its formation and evolution.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists finally complete Schrödinger’s 100-year-old color theory",
+            "why_it_matters": "Resolving this theory could lead to advancements in color technologies and visualizations.",
             "signal": "Opportunity"
           },
           {
             "headline": "Giant fire tornadoes could clean up oil spills faster with less pollution",
-            "why_it_matters": "This method could revolutionize oil spill response, reducing environmental impact significantly.",
+            "why_it_matters": "This method could revolutionize oil spill cleanup, reducing environmental impact significantly.",
             "signal": "Opportunity"
           },
           {
             "headline": "AI-designed universal coronavirus vaccine passes first human trial",
-            "why_it_matters": "This vaccine could offer broad protection against multiple coronaviruses, addressing pandemic risks.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Octopuses use mirrors to find food they cannot see",
-            "why_it_matters": "This behavior indicates advanced cognitive abilities in octopuses, challenging perceptions of animal intelligence.",
+            "why_it_matters": "This vaccine could provide broad protection against multiple coronaviruses, addressing pandemic threats.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the quantum state creation method is expected to be published.",
-            "Initial results from the lunar X-ray telescope simulations will be discussed at an upcoming conference.",
-            "Research on oil spill cleanup methods will be presented at environmental science forums."
+            "Further analysis of the implications of the quantum state discovery is expected.",
+            "More details on the lunar telescope's design and mission plans may be released.",
+            "Updates on the AI-designed vaccine's next trial phases are anticipated."
           ],
           "next_1_4_weeks": [
-            "Clinical trials for the AI-designed coronavirus vaccine will begin, with updates anticipated.",
-            "New studies on octopus intelligence and behavior are expected to be released.",
-            "Further investigations into the implications of the collagen study will be conducted."
+            "Research on the effectiveness of weight-loss drugs in cancer prevention will continue.",
+            "Further studies on octopus intelligence and behavior may be published.",
+            "The impact of the new color theory on technology could be explored in upcoming papers."
           ],
           "watch_list": [
             "Developments in quantum computing technologies.",
-            "Updates on lunar exploration missions.",
-            "Research on animal cognition and consciousness.",
-            "Progress in AI vaccine development."
+            "Results from ongoing clinical trials of the universal coronavirus vaccine.",
+            "Research on the environmental impact of new oil spill cleanup methods.",
+            "Insights from the giant collagen study on health benefits."
           ],
-          "confidence": "High"
+          "confidence": "Medium"
         },
         "caveats": [
-          "The findings on quantum states and lunar chemistry are still in early research stages and require further validation.",
-          "The implications of the AI-designed vaccine need to be confirmed through larger clinical trials."
+          "The findings on weight-loss drugs and breast cancer risk are preliminary and require further validation.",
+          "The implications of the quantum discoveries are still being explored and may take time to materialize."
         ],
         "related_topics": [
           "What are the latest advancements in quantum physics?",
           "How can X-ray telescopes improve our understanding of the Moon?",
-          "What are the benefits of collagen supplements for health?",
-          "How do octopuses demonstrate intelligence?",
-          "What is the potential of AI in vaccine development?"
+          "What are the benefits of AI-designed vaccines?",
+          "What does the new collagen study reveal about skin health?",
+          "How do octopuses demonstrate intelligence?"
         ]
       },
-      "tweet_text": "Breakthroughs in science today: from quantum leaps to protecting our oceans, the future is brighter than...\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hidden #Aidesigned #Behind #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Revolutionary discoveries in science today: from octopuses mastering mirrors to cosmic secrets...\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Finally #Hidden #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
