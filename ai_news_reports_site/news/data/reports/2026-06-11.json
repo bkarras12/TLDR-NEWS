@@ -1,11 +1,11 @@
 {
   "date": "2026-06-11",
-  "generated_at_utc": "2026-06-11T17:33:23Z",
+  "generated_at_utc": "2026-06-12T00:23:42Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "iran",
     "scientists",
+    "iran",
     "worlds",
     "fuel",
     "faster"
@@ -20,9 +20,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1942,
+        "score": -0.1774,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.324, dampened ×0.6 → -0.1942). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.296, dampened ×0.6 → -0.1774). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -40,10 +40,10 @@
           "source": "BBC News"
         },
         {
-          "title": "US and Iran exchange strikes across Middle East for second day in a row",
-          "url": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 11 Jun 2026 12:09:44 GMT",
-          "summary": "Iran says it responded to US strikes by targeting American assets in Kuwait, Jordan and Bahrain, which reported damage to its capital city overnight.",
+          "title": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
+          "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 11 Jun 2026 23:41:14 GMT",
+          "summary": "There was a star-studded opening ceremony, and some sporadic clashes between police and protesters around the Azteca stadium.",
           "source": "BBC News"
         },
         {
@@ -68,7 +68,7 @@
           "source": "BBC News"
         },
         {
-          "title": "Artan to referee Uefa Super Cup after losing World Cup spot",
+          "title": "Artan to referee Uefa Super Cup after losing World Cup role",
           "url": "https://www.bbc.com/sport/football/articles/c2kyx0l0499o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 11 Jun 2026 14:24:58 GMT",
           "summary": "Somali referee Omar Artan is appointed to take charge of the Uefa Super Cup match between Paris St-Germain and Aston Villa later this summer after being denied a spot at the World Cup.",
@@ -111,79 +111,77 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "An El Niño event has begun, raising concerns over extreme weather, while geopolitical tensions escalate in Sudan and the Middle East.",
-        "summary": "Today's headlines highlight significant global events, including the onset of El Niño, escalating violence in Sudan and the Middle East, and Nigeria's evacuation of citizens from South Africa amid rising xenophobia. Additionally, the Pope emphasizes the plight of migrants, while a study reveals the impact of extreme weather on orangutan populations.",
+        "key_takeaway": "An El Niño event has begun, raising concerns over extreme weather, while global tensions rise with conflicts in Sudan and Nigeria.",
+        "summary": "Today's news highlights significant global events including the onset of El Niño, a deadly drone strike in Sudan, and Nigeria's evacuation of citizens from South Africa amid rising anti-migrant sentiment. The World Cup has commenced in Mexico, featuring protests alongside festivities, while the Pope advocates for migrant rights in the Canary Islands. Additionally, a study reveals climate change's impact on orangutan populations, and a Thai court has sentenced two men to death for a past bombing incident.",
         "key_themes": [
-          "climate change and El Niño effects",
-          "geopolitical tensions in the Middle East",
-          "xenophobia and migrant issues",
-          "impact of extreme weather on wildlife",
-          "international responses to violence in Sudan"
+          "climate change and El Niño",
+          "Sudan drone strike news",
+          "World Cup opening ceremony",
+          "Nigeria anti-migrant sentiment",
+          "Pope's message on migration",
+          "Bangkok shrine bombing sentencing"
         ],
         "notable_headlines": [
           {
             "headline": "El Niño under way and threatens weather extremes, scientists say",
-            "why_it_matters": "The onset of El Niño could lead to severe weather conditions globally, impacting agriculture and economies.",
+            "why_it_matters": "The start of El Niño could lead to severe weather patterns globally, affecting agriculture and disaster preparedness.",
             "signal": "Risk"
           },
           {
             "headline": "Deadly Sudan drone strike targets funeral procession",
-            "why_it_matters": "The attack highlights the ongoing violence in Sudan's civil war and raises concerns about civilian safety.",
+            "why_it_matters": "The incident highlights ongoing violence and human rights concerns in Sudan amid civil conflict.",
             "signal": "Risk"
           },
           {
-            "headline": "US and Iran exchange strikes across Middle East for second day in a row",
-            "why_it_matters": "Continued military exchanges between the US and Iran could escalate tensions in the region further.",
-            "signal": "Risk"
+            "headline": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
+            "why_it_matters": "The event showcases cultural celebration but also reflects social tensions through protests.",
+            "signal": "Unclear"
           },
           {
             "headline": "Nigeria evacuates citizens from South Africa as anti-migrant sentiment rises",
-            "why_it_matters": "This move reflects growing xenophobia in South Africa and the need for protective measures for foreign nationals.",
+            "why_it_matters": "This action underscores the growing xenophobic climate in South Africa and its impact on foreign nationals.",
             "signal": "Risk"
           },
           {
-            "headline": "Pope Leo visits Canary Islands to highlight perilous journeys of migrants",
-            "why_it_matters": "The Pope's visit aims to draw attention to the humanitarian crisis faced by migrants globally.",
-            "signal": "Opportunity"
-          },
-          {
             "headline": "Four days of extreme rain killed 7% of world's rarest orangutans, study says",
-            "why_it_matters": "The study underscores the urgent need to address climate change and its impact on endangered species.",
+            "why_it_matters": "The findings emphasize the urgent need to address climate change and its effects on biodiversity.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring developments in Sudan and the Middle East for potential escalations.",
-            "Observing weather patterns related to the El Niño phenomenon.",
-            "Tracking responses to the Pope's appeal for migrant support."
+            "Monitoring developments in Sudan following the drone strike and potential international responses.",
+            "Observing the impact of El Niño on weather patterns globally.",
+            "Tracking the ongoing World Cup events and associated protests."
           ],
           "next_1_4_weeks": [
-            "Expect further analysis on the implications of El Niño on global weather patterns.",
-            "Watch for updates on the geopolitical situation in Sudan and the Middle East.",
-            "Anticipate discussions on climate change impacts on wildlife and conservation efforts."
+            "Expect further analysis on the implications of El Niño for global agriculture and weather.",
+            "Continued coverage of the humanitarian situation in Sudan and Nigeria's response to xenophobia.",
+            "Updates on the Pope's initiatives regarding migration and humanitarian efforts."
           ],
           "watch_list": [
-            "El Niño weather forecasts",
-            "Middle East conflict developments",
-            "Xenophobia and migrant policy changes in South Africa",
-            "Climate change studies on endangered species"
+            "El Niño weather forecasts and climate impact studies.",
+            "Human rights developments in Sudan and Nigeria.",
+            "World Cup events and related social issues.",
+            "Conservation efforts for endangered species like orangutans."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Sudan and the Middle East remains fluid and could change rapidly.",
-          "El Niño's effects are complex and may take time to fully manifest."
+          "The situation in Sudan remains fluid and may evolve rapidly.",
+          "El Niño's effects are complex and may vary by region.",
+          "Protests during the World Cup may escalate or diminish depending on political climate."
         ],
         "related_topics": [
           "What are the implications of El Niño this year?",
-          "How is the Middle East conflict evolving?",
-          "What is the current situation for migrants in South Africa?",
-          "What are the effects of climate change on wildlife?",
-          "Updates on Sudan's civil war and international responses."
+          "Latest news on Sudan civil conflict and drone strikes",
+          "World Cup 2026 opening ceremony highlights",
+          "Nigeria's response to anti-migrant violence",
+          "Pope's advocacy for migrant rights in Europe",
+          "Impact of climate change on orangutan populations"
         ]
       },
-      "tweet_text": "World on edge: El Niño threatens chaos, Sudan mourns drone strike victims, and US-Iran tensions escalate. What’s next?\n\nWorld Sentiment: Mixed (-0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Across #Africa #Antimigrant #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From deadly drone strikes to World Cup celebrations overshadowed by protests, today's news is a whirlwind of chaos...\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#World #Africa #Antimigrant #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -194,16 +192,16 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0429,
+        "score": 0.018,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.072, dampened ×0.6 → -0.0429). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.030, dampened ×0.6 → +0.0180). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Trump threatens to strike Iran ‘very hard, tonight’ and to take Kharg Island",
+          "title": "Trump claims US and Iran on verge of signing peace agreement",
           "url": "https://www.theguardian.com/world/2026/jun/11/trump-seize-control-iran-oil-gas-ceasefire",
-          "published": "Thu, 11 Jun 2026 15:48:40 GMT",
-          "summary": "<p>US president warns of further military action as both sides accuse each other of breaching temporary ceasefire</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/jun/11/iran-war-news-us-strikes-donald-trump-stalled-peace-talks-middle-east-crisis\">Middle East crisis – live updates</a></p></li><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/jun/11/democrats-republicans-midterms-tech-laws-scotus-latest-news-updates\">US politics live – latest updates</a></p></li></ul",
+          "published": "Thu, 11 Jun 2026 21:26:19 GMT",
+          "summary": "<p>Iranian leadership has not confirmed claim, but US president says planned strikes on Iran cancelled </p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/jun/11/iran-war-news-us-strikes-donald-trump-stalled-peace-talks-middle-east-crisis\">Middle East crisis – live updates</a></p></li></ul><p>Donald Trump claimed on Thursday that the US and Iran are on the verge of signing a peace agreement and announced that he will cancel fresh missile strikes.</p><p>His comments came in a new",
           "source": "The Guardian"
         },
         {
@@ -285,73 +283,73 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "SpaceX is set for a record $1.78 trillion IPO amid concerns of overvaluation, while the AI boom is driving up home prices in San Francisco.",
-        "summary": "Today's business news highlights significant developments including SpaceX's impending IPO, rising inflation linked to geopolitical tensions, and the impact of AI wealth on housing markets. Additionally, labor disputes are brewing among workers in the hospitality sector as the World Cup approaches, and the UK is scrutinizing a major media merger.",
+        "key_takeaway": "Trump claims a potential peace agreement with Iran while SpaceX prepares for a record IPO amid concerns of overvaluation.",
+        "summary": "Today's business news highlights significant developments including Trump's assertion of a US-Iran peace deal, SpaceX's impending IPO, and the impact of AI wealth on housing prices in San Francisco.",
         "key_themes": [
-          "SpaceX IPO analysis",
-          "impact of AI on housing market",
-          "US inflation trends",
-          "labor disputes during World Cup",
-          "UK media merger scrutiny"
+          "US-Iran peace negotiations",
+          "SpaceX IPO valuation concerns",
+          "AI impact on housing market"
         ],
         "notable_headlines": [
           {
+            "headline": "Trump claims US and Iran on verge of signing peace agreement",
+            "why_it_matters": "This claim could influence geopolitical stability and energy markets.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "SpaceX heads for record $1.78tn float amid fears it is overvalued",
-            "why_it_matters": "The IPO could make Elon Musk the world's first trillionaire, but analysts warn of a major disconnect in valuation.",
+            "why_it_matters": "The IPO could reshape the investment landscape and raise questions about tech valuations.",
             "signal": "Risk"
           },
           {
             "headline": "AI wealth boom sending San Francisco home prices surging: ‘It’s ridiculous’",
-            "why_it_matters": "The influx of wealth from AI companies is exacerbating housing affordability issues in an already expensive market.",
+            "why_it_matters": "The surge in home prices reflects the broader economic impact of the AI sector.",
             "signal": "Opportunity"
           },
           {
             "headline": "Trump says ‘I love the inflation’ as rate rises to 4.2% amid Iran war pressure",
-            "why_it_matters": "Rising inflation rates are affecting consumer sentiment and economic stability amidst ongoing geopolitical tensions.",
+            "why_it_matters": "Inflation trends are critical for economic policy and consumer sentiment.",
             "signal": "Risk"
           },
           {
             "headline": "China’s BYD aims to be world’s biggest car firm within five years",
-            "why_it_matters": "BYD's ambitious plans could reshape the global automotive market, particularly in the electric vehicle sector.",
+            "why_it_matters": "BYD's ambitions highlight the competitive landscape in the EV market.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "US stadium and hotel workers threaten strikes ‘to make things fair’ during World Cup",
-            "why_it_matters": "Labor unrest could impact service quality and operations during a major international event, affecting both workers and consumers.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the launch of SpaceX's IPO and market reactions.",
-            "Observing inflation trends as new data is released amid geopolitical tensions.",
-            "Tracking developments in labor disputes as the World Cup begins."
+            "Monitoring reactions to Trump's peace claims and their impact on oil prices.",
+            "Observing investor sentiment leading up to SpaceX's IPO.",
+            "Tracking housing market trends in San Francisco amid AI wealth."
           ],
           "next_1_4_weeks": [
-            "Evaluating the long-term effects of the AI wealth boom on housing markets.",
-            "Watching for regulatory responses to the Paramount-Warner Bros merger.",
-            "Assessing the impact of rising inflation on consumer spending."
+            "Evaluating the implications of rising inflation on consumer spending and economic policy.",
+            "Assessing the competitive dynamics in the automotive industry with BYD's ambitions.",
+            "Watching for developments in US-Iran relations and their economic consequences."
           ],
           "watch_list": [
-            "SpaceX IPO performance and market valuation debates.",
+            "SpaceX IPO performance and market reaction.",
             "Trends in housing prices in tech hubs like San Francisco.",
-            "Labor actions in hospitality sectors during major events.",
-            "Inflation data and its implications for the economy."
+            "Updates on US inflation rates and economic forecasts.",
+            "BYD's progress in the automotive market."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The geopolitical situation remains fluid, which could affect economic forecasts.",
-          "Market reactions to IPOs can be unpredictable and influenced by external factors.",
-          "Labor disputes may or may not escalate, depending on negotiations."
+          "The accuracy of Trump's claims regarding Iran remains unverified.",
+          "SpaceX's valuation concerns are based on market speculation and analyst opinions.",
+          "The housing market's response to AI wealth is still developing."
         ],
         "related_topics": [
-          "What is the impact of AI on housing prices?",
-          "Latest updates on SpaceX IPO and valuation concerns",
-          "How is inflation affecting the US economy?"
+          "What is the latest on US-Iran relations?",
+          "How is SpaceX's IPO affecting the stock market?",
+          "What are the trends in San Francisco housing prices?",
+          "What is the impact of AI on the economy?",
+          "How is inflation affecting consumer behavior?"
         ]
       },
-      "tweet_text": "Trump's war threats, SpaceX's soaring valuation, and a fossil fuel funding frenzy—business news just hit a...\n\nBusiness Sentiment: Neutral (-0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amid #Iran #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Trump claims peace with Iran is within reach while inflation soars, and SpaceX aims to defy gravity with a...\n\nBusiness Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amid #Iran #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -362,11 +360,39 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1862,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.310, dampened ×0.6 → +0.1862). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.3454,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.576, dampened ×0.6 → +0.3454). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Amazon&#8217;s Echo Hub gets a customizable new look and Ring&#8217;s AI features",
+          "url": "https://www.theverge.com/tech/948814/amazon-echo-hub-homescreen-redesign",
+          "published": "2026-06-11T18:06:32-04:00",
+          "summary": "Amazon's rolling out a free software update for Echo Hub devices that gives the home screen a much-needed update to the interface it launched with in 2024. It had already added Alex Plus AI support, but the new interface has a cleaner, fully customizable layout that fits more smart home info and controls on the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Logitech’s awesome MX Master 3S mouse drops to under $100",
+          "url": "https://www.theverge.com/gadgets/948204/logitech-mx-master-3s-mouse-sale-deal",
+          "published": "2026-06-11T16:00:00-04:00",
+          "summary": "The platform-agnostic Logitech MX Master 3S wireless mouse is discounted to $89.99 at Amazon ($30 off), matching the best price we’ve seen so far this year. While it may look like a somewhat ordinary mouse, it has a unique second scroll wheel near the left thumb that’s surprisingly useful for horizontal scrolling in spreadsheets. You [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Blink’s six-piece outdoor camera kit is a great deal under $200",
+          "url": "https://www.theverge.com/gadgets/948459/blink-camera-bundle-aeropress-deal-sale",
+          "published": "2026-06-11T14:04:43-04:00",
+          "summary": "You can save on a big set of outdoor security cameras ahead of Prime Day. Amazon has a five-pack of Blink cameras with a video doorbell included that’s marked down to $166.99. The bundle includes a Blink Battery Doorbell 2K+, five Blink Outdoor 2K+ cameras, and a Blink Sync Module Core. The doorbell is typically [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Roborock&#8217;s Q10 S5 Plus robovac is over half off, matching its best price to date",
+          "url": "https://www.theverge.com/gadgets/948529/roborock-q10-s5-plus-robot-vacuum-mop-deal-sale",
+          "published": "2026-06-11T13:42:29-04:00",
+          "summary": "Even at full price, the Roborock Q10 S5 Plus offers impressive value, boasting features typically reserved for pricier robovac models at a fraction of the price. That&#8217;s especially true today. It’s down to just $269.99 ($280 off) at Wellbots when you apply promo code NEW10, which matches its all-time low and is the best price [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Amazon&#8217;s data centers used 2.5 billion gallons of water last year",
           "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
@@ -408,106 +434,83 @@
           "published": "2026-06-11T12:00:00-04:00",
           "summary": "I have tested more portable MIDI controllers than I can keep track of, and I will tell you right now: 37 keys is the ideal size. While Arturia's 25-key MiniLab MK3 is a solid controller that easily fits in a backpack, it feels a bit claustrophobic. The new $149 MiniLab 37 adds another octave, giving [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Elon Musk is encouraging race riots on the eve of SpaceX’s IPO",
-          "url": "https://www.theverge.com/policy/948426/elon-musk-belfast-riots-anti-immigration",
-          "published": "2026-06-11T11:51:27-04:00",
-          "summary": "Elon Musk, on the verge of becoming the world's first trillionaire, is whipping up anti-immigration tensions amid ongoing riots in Belfast, Northern Ireland. Following a knife attack in the city on Monday, Musk declared support for Restore Britain, a hard-right populist political party that advocates for large-scale migrant deportation in the UK. He reposted statements [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Is Apple TV the new HBO?",
-          "url": "https://www.theverge.com/column/948295/apple-tv-new-hbo",
-          "published": "2026-06-11T11:30:00-04:00",
-          "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Severance. Pachinko. Silo. Ted Lasso. Over the past couple of years, a number of Apple TV shows have become hits with audiences and critics alike. And yet, compared to the [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Nintendo Switch 2 is $15 off at Woot",
-          "url": "https://www.theverge.com/gadgets/948292/nintendo-switch-2-deal-sale-woot",
-          "published": "2026-06-11T11:03:49-04:00",
-          "summary": "Woot is hosting a small, but welcome deal on the Nintendo Switch 2 through June 19th. New customers can save $15 on the $449.99 console with the code NEW15 used at checkout. Sure, these are microscopic savings, but come September, the Switch 2 will rise in price to $499.99, so any deal is worth telling [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Weather Channel app now predicts bad allergy days",
-          "url": "https://www.theverge.com/tech/948363/weather-channel-mobile-app-ios-android-pollen-forecast",
-          "published": "2026-06-11T11:02:33-04:00",
-          "summary": "The Weather Company announced an \"enhanced allergy experience\" now available through its The Weather Channel app designed to help allergy sufferers better understand when their symptoms might flare up and what's causing them. While the app already provides static pollen counts, its \"Health &#38; Wellness\" section is being expanded to take into account other factors [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Amazon disclosed its data centers used 2.5 billion gallons of water last year amid growing scrutiny over resource consumption in tech.",
-        "summary": "Today's technology news highlights Amazon's significant water usage in its data centers, a new bipartisan bill allowing citizens to sue government officials over social media censorship, and Waymo's introduction of a premium service for faster robotaxi pickups. Other stories include Best Buy's price-matching policies, the expiration of a warrantless wiretap law, and updates on the Weather Channel app's new allergy prediction feature.",
+        "key_takeaway": "Amazon updates Echo Hub interface while new tech products see significant discounts ahead of Prime Day.",
+        "summary": "Today's Technology report highlights several notable updates and deals in the tech industry. Amazon has introduced a customizable interface for its Echo Hub devices, enhancing user experience with improved smart home controls. Additionally, the Logitech MX Master 3S mouse is now available for under $100, while Blink offers a discounted outdoor camera kit for security needs. In other news, Waymo has launched a premium subscription tier for its robotaxi service, and concerns about water usage in Amazon's data centers have come to light amid ongoing debates about sustainability.",
         "key_themes": [
-          "Amazon water usage in data centers",
-          "bipartisan bill on social media censorship",
-          "Waymo premium service for riders",
-          "Best Buy price-matching policies",
-          "expiration of warrantless wiretap law",
-          "Weather Channel app allergy predictions"
+          "Amazon Echo Hub update",
+          "Logitech MX Master 3S discount",
+          "Blink outdoor camera sale",
+          "Waymo premium membership launch",
+          "Amazon data center water usage",
+          "FISA surveillance law expiration"
         ],
         "notable_headlines": [
           {
-            "headline": "Amazon's data centers used 2.5 billion gallons of water last year",
-            "why_it_matters": "This disclosure raises concerns about environmental impact and resource management in tech operations.",
-            "signal": "Risk"
+            "headline": "Amazon's Echo Hub gets a customizable new look and Ring's AI features",
+            "why_it_matters": "The update enhances user experience and integrates AI features, reflecting Amazon's commitment to smart home technology.",
+            "signal": "Opportunity"
           },
           {
-            "headline": "The bill that would let Jimmy Kimmel sue Brendan Carr is here",
-            "why_it_matters": "The JAWBONE Act could significantly impact how government officials interact with social media platforms.",
+            "headline": "Logitech’s awesome MX Master 3S mouse drops to under $100",
+            "why_it_matters": "This discount makes a highly regarded productivity tool more accessible to consumers, potentially boosting sales.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Blink’s six-piece outdoor camera kit is a great deal under $200",
+            "why_it_matters": "The bundle offers significant savings, appealing to consumers looking for affordable home security solutions.",
             "signal": "Opportunity"
           },
           {
             "headline": "Waymo introduces $30-a-month premium tier for riders who want faster pickups",
-            "why_it_matters": "This new service could enhance user experience and loyalty for Waymo's autonomous ride-hailing service.",
+            "why_it_matters": "This new membership tier could enhance customer loyalty and increase revenue for Waymo's autonomous ride service.",
             "signal": "Opportunity"
           },
           {
-            "headline": "A warrantless wiretap law is about to expire — but surveillance networks aren’t actually ‘going dark’",
-            "why_it_matters": "The lapse of this law raises questions about privacy and government surveillance practices.",
+            "headline": "Amazon's data centers used 2.5 billion gallons of water last year",
+            "why_it_matters": "The disclosure raises awareness about environmental impacts of tech infrastructure, especially amid ongoing sustainability discussions.",
             "signal": "Risk"
           },
           {
-            "headline": "The Weather Channel app now predicts bad allergy days",
-            "why_it_matters": "This feature could provide valuable health insights for allergy sufferers, enhancing user engagement with the app.",
-            "signal": "Opportunity"
+            "headline": "A warrantless wiretap law is about to expire — but surveillance networks aren’t actually ‘going dark’",
+            "why_it_matters": "The expiration of this law could impact surveillance practices and privacy rights, highlighting ongoing debates in tech policy.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to Amazon's water usage disclosure",
-            "Observing developments in the JAWBONE Act's legislative progress",
-            "Tracking user feedback on Waymo's new premium service"
+            "Monitor reactions to Amazon's Echo Hub update and its impact on user engagement.",
+            "Watch for further discounts on tech products as Prime Day approaches.",
+            "Observe any developments regarding the FISA surveillance law and its implications."
           ],
           "next_1_4_weeks": [
-            "Potential impacts of the expired wiretap law on surveillance practices",
-            "Anticipating further developments in tech-related legislation",
-            "Evaluating the effectiveness of the Weather Channel app's new features"
+            "Anticipate consumer feedback on Waymo's new premium membership and its effect on ridership.",
+            "Expect discussions around environmental impacts of tech companies to intensify following Amazon's water usage report.",
+            "Keep an eye on new product launches and discounts as retailers prepare for summer sales."
           ],
           "watch_list": [
-            "Amazon's environmental policies",
-            "Legislative updates on social media censorship",
-            "Waymo's market performance with new service",
-            "Consumer reactions to Best Buy's price-matching policies"
+            "Amazon's ongoing updates to smart home devices.",
+            "Trends in consumer electronics pricing ahead of major sales events.",
+            "Legislative developments regarding surveillance laws and privacy rights.",
+            "Innovations in autonomous vehicle services and their market reception."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating varied public perception of the news.",
-          "Future developments may alter the current implications of the expired wiretap law."
+          "The sentiment score is a general indicator and may not reflect specific consumer opinions.",
+          "Discounts and product availability may vary based on location and retailer policies."
         ],
         "related_topics": [
-          "What is Amazon's water usage impact",
-          "Latest on social media censorship legislation",
-          "Waymo's new premium service details",
-          "Best Buy price-matching policies explained",
-          "How does the Weather Channel app predict allergies"
+          "What are the latest updates on Amazon Echo Hub?",
+          "How much does the Logitech MX Master 3S cost now?",
+          "What discounts are available for Blink security cameras?",
+          "What is Waymo's new premium membership about?",
+          "What are the environmental impacts of Amazon's data centers?"
         ]
       },
-      "tweet_text": "Amazon's data centers guzzled 2.5 billion gallons of water last year—are we sacrificing our resources for...\n\nTechnology Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Here #30amonth #Actually #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Amazon's Echo Hub gets a makeover, but is it enough to drown out Kimmel's courtroom drama?\n\nTechnology Sentiment: Positive (+0.35)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amazon8217s #Best #Here #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -609,74 +612,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "ESPN experts share bold predictions for the World Cup while LeBron James asserts his position in the GOAT debate and the USWNT secures a narrow victory over Brazil.",
-        "summary": "Today's sports headlines feature expert predictions for the World Cup, LeBron James discussing the GOAT debate, and notable performances in MLB and soccer, including a scrappy win for the USWNT against Brazil.",
+        "key_takeaway": "ESPN experts share bold predictions for the World Cup, while LeBron James asserts his dominance in the GOAT debate amid mixed sentiments in sports news.",
+        "summary": "Today's sports headlines feature bold World Cup predictions from ESPN experts, LeBron James discussing the GOAT debate, and notable performances in soccer and baseball, including a scrappy win for the USWNT and a walk-off home run by Braden Montgomery in his MLB debut.",
         "key_themes": [
-          "World Cup predictions",
+          "World Cup 2026 predictions",
           "LeBron James GOAT debate",
-          "USWNT victory over Brazil",
-          "MLB player performances",
-          "NHL coaching inquiries"
+          "USWNT match report",
+          "MLB debut highlights",
+          "NHLPA investigation news"
         ],
         "notable_headlines": [
           {
             "headline": "World Cup predictions: 19 ESPN experts make their ...",
-            "why_it_matters": "Expert insights can shape fan expectations and betting odds ahead of the tournament.",
+            "why_it_matters": "Experts' predictions can influence fan expectations and betting markets ahead of the tournament.",
             "signal": "Opportunity"
           },
           {
             "headline": "LeBron on GOAT debate: Taking nobody over me",
-            "why_it_matters": "LeBron's confidence in his legacy continues to fuel discussions about the greatest basketball player of all time.",
+            "why_it_matters": "LeBron's comments reignite discussions about his legacy in basketball.",
             "signal": "Unclear"
           },
           {
             "headline": "USWNT gets scrappy win as Brazil sees 8 red cards",
-            "why_it_matters": "The match highlights the intense competition and disciplinary issues in women's soccer.",
+            "why_it_matters": "The match highlights the competitive nature of women's soccer and the impact of officiating.",
             "signal": "Risk"
           },
           {
             "headline": "'Surreal': Montgomery hits walk-off HR in debut",
-            "why_it_matters": "Montgomery's debut adds excitement to the MLB season and showcases young talent.",
+            "why_it_matters": "Montgomery's performance may signal a promising career ahead in MLB.",
             "signal": "Opportunity"
           },
           {
             "headline": "Iran players: U.S. visa denials create 'tension'",
-            "why_it_matters": "Political issues affecting sports can impact team dynamics and international relations.",
+            "why_it_matters": "Political issues affecting sports can impact international relations and team morale.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "World Cup matches begin, impacting predictions and fan engagement.",
-            "LeBron James may continue to address the GOAT debate in upcoming interviews.",
-            "MLB games will feature more rookie performances as teams finalize their rosters."
+            "More World Cup coverage as the tournament progresses",
+            "Analysis of LeBron's comments and their impact on the NBA",
+            "Updates on the USWNT's next matches"
           ],
           "next_1_4_weeks": [
-            "World Cup outcomes will shape narratives around team performances and player legacies.",
-            "LeBron's ongoing season may influence discussions about his career achievements.",
-            "The MLB season progresses, with potential trades and player developments."
+            "Continued coverage of the World Cup and emerging stars",
+            "LeBron's performance in the NBA playoffs",
+            "MLB season developments and player performances"
           ],
           "watch_list": [
-            "Upcoming World Cup matches and expert analyses.",
-            "LeBron James' performance and statements regarding his legacy.",
-            "MLB rookie performances and team standings.",
-            "NHL coaching changes and their implications for teams."
+            "World Cup match results and highlights",
+            "LeBron James playoff performance",
+            "NHLPA developments regarding Mike Babcock's inquiry",
+            "USWNT upcoming fixtures"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score reflects mixed feelings about the sports news landscape today.",
-          "Predictions and opinions may vary widely among experts and fans."
+          "Mixed sentiment indicates varying opinions on key topics.",
+          "Predictions are speculative and subject to change based on game outcomes."
         ],
         "related_topics": [
           "What are the latest World Cup predictions?",
-          "LeBron James comments on the GOAT debate",
-          "USWNT match report against Brazil",
-          "MLB rookie performances and highlights",
-          "NHL coaching inquiries and implications"
+          "LeBron James GOAT debate updates",
+          "USWNT match results and analysis",
+          "MLB debut highlights and player performances",
+          "NHLPA investigation news on Mike Babcock"
         ]
       },
-      "tweet_text": "Get ready to rumble: World Cup predictions, LeBron's bold claim, and a wild USWNT showdown—today's sports news...\n\nSports Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#World #Avoids #Babcock #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From World Cup predictions to LeBron's bold claims, today's sports news is packed with drama and surprises!\n\nSports Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#World #Avoids #Babcock #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -779,74 +782,73 @@
       ],
       "ai_report": {
         "key_takeaway": "Recent scientific advancements include a new smart material from rice, NASA's Artemis III crew announcement, and a battery-free device for solar fuel production.",
-        "summary": "Today's science headlines highlight significant discoveries and advancements, including a novel smart material derived from rice, the announcement of NASA's Artemis III crew for a complex lunar mission, and the development of a self-regulating device that converts sunlight into fuel. Other notable findings include insights into the atmospheric conditions of an exoplanet, the potential risks of glucosamine on Alzheimer's progression, and a new theory on the origins of life on Earth.",
+        "summary": "Today's science headlines highlight significant discoveries and innovations, including a smart material derived from rice, NASA's Artemis III crew selection for lunar exploration, and a breakthrough in artificial photosynthesis. Additionally, researchers have mapped neural connections in fruit flies, proposed new theories on the origins of life, and linked glucosamine to Alzheimer's progression. The ongoing exploration of cosmic phenomena continues with new insights into the Amaterasu particle and challenges to the Planet Nine theory.",
         "key_themes": [
-          "innovations in materials science",
           "NASA Artemis III mission details",
-          "artificial photosynthesis advancements",
-          "exoplanet atmospheric studies",
-          "Alzheimer's disease research",
-          "theories on the origin of life"
+          "new theories on life's origins",
+          "impact of glucosamine on Alzheimer's",
+          "smart materials from rice",
+          "artificial photosynthesis advancements"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists discover a strange property in rice and turn it into a smart material",
-            "why_it_matters": "This discovery could lead to safer robotics and protective gear that adapt to different types of impacts.",
+            "why_it_matters": "This innovation could lead to safer soft robots and protective equipment that adapts to impacts.",
             "signal": "Opportunity"
           },
           {
             "headline": "NASA reveals Artemis III crew for one of the most complex space missions ever",
-            "why_it_matters": "The mission aims to advance lunar exploration and prepare for future crewed missions to Mars.",
+            "why_it_matters": "The mission aims to advance lunar exploration and set the stage for future Mars missions.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists built a battery-free device that turns sunlight into fuel",
-            "why_it_matters": "This innovation could significantly reduce costs and complexity in solar fuel production.",
+            "why_it_matters": "This development could significantly reduce costs and complexity in solar fuel production.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "AI could uncover new physics faster but there’s a surprising catch",
+            "why_it_matters": "While AI can expedite discoveries, it may overlook novel evidence if it relies too heavily on existing patterns.",
+            "signal": "Risk"
           },
           {
             "headline": "Popular joint supplement glucosamine linked to faster Alzheimer’s progression",
             "why_it_matters": "This finding raises concerns about the safety of glucosamine for cognitive health.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Scientists propose a radical new theory for how life began on Earth",
-            "why_it_matters": "This theory could reshape our understanding of the origins of life and the role of minerals.",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis on the implications of the new smart material from rice is expected.",
-            "More details on the Artemis III mission preparations may be released.",
-            "Additional research on the effects of glucosamine on cognitive health could emerge."
+            "Further analysis of NASA's Artemis III mission preparations is expected.",
+            "More research on the implications of the new smart material from rice may emerge.",
+            "Updates on the artificial photosynthesis device's performance could be released."
           ],
           "next_1_4_weeks": [
-            "Anticipated updates on NASA's Artemis III mission as it approaches launch.",
-            "Continued exploration of the implications of the new theory on the origins of life.",
-            "Further studies on the connection between glucosamine and Alzheimer's progression."
+            "Anticipated discussions on the implications of glucosamine findings for public health.",
+            "Continued exploration of the implications of the new theories on the origins of life.",
+            "Potential announcements regarding the next steps in the Artemis III mission planning."
           ],
           "watch_list": [
-            "Developments in artificial photosynthesis technology.",
-            "Updates on the search for Planet Nine and its implications for astronomy.",
-            "Research findings related to the Amaterasu particle and cosmic rays.",
-            "New insights into exoplanet atmospheres from ongoing JWST observations."
+            "Developments in smart materials and their applications.",
+            "Research on the relationship between glucosamine and cognitive health.",
+            "Updates on the search for Planet Nine and cosmic phenomena.",
+            "Progress in artificial photosynthesis technology."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates a range of reactions to the news, suggesting some findings may be controversial or require further validation.",
-          "The implications of new theories and discoveries may take time to fully understand and accept."
+          "The mixed sentiment indicates varying levels of optimism and concern across different studies.",
+          "Further peer-reviewed research is needed to validate the findings related to glucosamine and Alzheimer's."
         ],
         "related_topics": [
-          "What are the latest advancements in materials science?",
-          "Details about NASA's Artemis III mission crew and objectives.",
+          "What are the latest advancements in smart materials?",
+          "Details about NASA's Artemis III mission crew.",
           "How does artificial photosynthesis work?",
-          "What are the health implications of glucosamine?",
-          "New theories on the origin of life on Earth."
+          "What is the connection between glucosamine and Alzheimer's disease?",
+          "New theories on the origins of life on Earth."
         ]
       },
-      "tweet_text": "From alien sunsets to smart rice, today’s science news is a whirlwind of wonder and discovery!\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Reveals #1100yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From rice to rockets, today’s science news is a treasure trove of shocking discoveries and cosmic...\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Reveals #1100yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
