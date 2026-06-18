@@ -1,10 +1,11 @@
 {
   "date": "2026-06-18",
-  "generated_at_utc": "2026-06-18T07:29:27Z",
+  "generated_at_utc": "2026-06-18T16:52:17Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump"
+    "data",
+    "amazon"
   ],
   "categories": {
     "world": {
@@ -16,23 +17,86 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1172,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.195, dampened ×0.6 → -0.1172). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.3509,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.585, dampened ×0.6 → -0.3509). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "What's in the US-Iran agreement?",
-          "url": "https://www.bbc.com/news/articles/cvgmqzr6p9mo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 18 Jun 2026 01:28:02 GMT",
-          "summary": "The 14-paragraph memo includes an end to fighting, an agreement that Iran will never have a nuclear weapon, and a $300bn redevelopment package for Iran.",
+          "title": "Bowen: US-Iran deal raises inescapable question of what the war was for",
+          "url": "https://www.bbc.com/news/articles/clyegr2mp8jo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 15:53:55 GMT",
+          "summary": "While the human cost is clear, the Iranian regime has not just survived the war, it has been empowered.",
           "source": "BBC News"
         },
         {
-          "title": "Iran sends tankers loaded with oil past US military blockade",
-          "url": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 13:27:47 GMT",
-          "summary": "Three Iranian tankers loaded with crude oil have passed the US blockade line in the Gulf of Oman, ship-tracking data shows.",
+          "title": "Why Iran believes deal with US leaves it stronger than before",
+          "url": "https://www.bbc.com/news/articles/c932yqz8lggo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 15:38:18 GMT",
+          "summary": "Iran has come out of the war's first chapter stronger than many expected, but its next challenge may be harder, the BBC Persian Service's Amir Azimi writes.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Moscow residents complain of black rain after largest Ukrainian attack hits oil refinery",
+          "url": "https://www.bbc.com/news/articles/c98291g5rr1o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 15:46:36 GMT",
+          "summary": "A refinery and a shopping centre burned after almost 200 Ukrainian drones struck an area to the south-east of the Russian capital.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Gunmen attack Niger's biggest airport for second time in months",
+          "url": "https://www.bbc.com/news/articles/cdx7krkdqeno?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 16:01:07 GMT",
+          "summary": "Niger has been fighting a militant Islamist insurgency for a decade and in January suspected jihadists attacked the same airport.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Hegseth renews Nato criticism and says US will review presence in Europe",
+          "url": "https://www.bbc.com/news/articles/c3vy5l62622o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 13:31:01 GMT",
+          "summary": "The US defence secretary's move follows a US decision to scale back its commitments to a high readiness force within the alliance.",
+          "source": "BBC News"
+        },
+        {
+          "title": "British man dies in paragliding accident in Spain",
+          "url": "https://www.bbc.com/news/articles/c1dye3e9gnwo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 11:54:23 GMT",
+          "summary": "Authorities in Catalonia confirmed that the 63-year-old died in the Palau de Noguera area on Wednesday.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Weapons, money and ships: How is this Iran deal different from others?",
+          "url": "https://www.bbc.com/news/articles/c74ynmnrwmeo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 14:16:42 GMT",
+          "summary": "BBC Verify examines how the new deal between the US and Iran affects three key areas.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Suspected gang leader shot dead in flower bouquet ambush at airport",
+          "url": "https://www.bbc.com/news/articles/c4gy2l30dd0o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 09:26:16 GMT",
+          "summary": "The gunmen concealed their weapons behind flowers and stuffed toys while waiting for the victim outside Guayaquil airport.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Jury fails to reach verdict in Norwegian 'hitman' trial",
+          "url": "https://www.bbc.com/news/articles/cz6v1qw7d0no?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 14:36:33 GMT",
+          "summary": "Johannes Natland, 19, was remanded in custody and will now face a retrial.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Bird flu kills more than 75% of baby seals on remote Australian island, study finds",
+          "url": "https://www.bbc.com/news/articles/cr5jdy92gyeo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 03:20:52 GMT",
+          "summary": "Scientists say 13,000 southern elephant seal pups on Heard Island have died of the H5N1 strain.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Lawyer in high-profile Ugandan treason case charged with related offence",
+          "url": "https://www.bbc.com/news/articles/cj9g3j4pe2no?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 18 Jun 2026 09:35:29 GMT",
+          "summary": "Uganda's military chief had boasted of \"the hurt and pain\" he would inflict on Erias Lukwago, who was arrested earlier this week.",
           "source": "BBC News"
         },
         {
@@ -41,142 +105,78 @@
           "published": "Wed, 17 Jun 2026 22:36:13 GMT",
           "summary": "Japan needs to revisit the pacifist posture that has defined it since World War Two, Shinjiro Koizumi says.",
           "source": "BBC News"
-        },
-        {
-          "title": "Status quo at Jerusalem's holiest site under threat as Israeli nationalists flout rules",
-          "url": "https://www.bbc.com/news/articles/cwy0nlv90jno?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 09:13:34 GMT",
-          "summary": "Israeli nationalists are increasingly flouting a convention on how faiths share the al-Aqsa mosque compound.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Search for six-year-old Ebola patient after armed men storm DR Congo hospital",
-          "url": "https://www.bbc.com/news/articles/cvgep4l397eo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 16:50:42 GMT",
-          "summary": "Health facilities have come under attack during the current outbreak as a result of misinformation and fear.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Serial killer who murdered eight women in Long Island town imprisoned for life",
-          "url": "https://www.bbc.com/news/articles/clyw29kvlydo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 17:45:54 GMT",
-          "summary": "In fiery exchange, judge sentenced him to three life sentences plus 25 years to life on four other charges, all running consecutively.",
-          "source": "BBC News"
-        },
-        {
-          "title": "The Ring and Lilo & Stitch actress Daveigh Chase dies aged 35",
-          "url": "https://www.bbc.com/news/articles/cd0m2mg949yo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 22:55:46 GMT",
-          "summary": "Chase died from sepsis following a bout with meningitis in a Los Angeles hospital, her longtime manager told the BBC.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trump says he will visit India as frosty relationship with Modi thaws",
-          "url": "https://www.bbc.com/news/articles/c621glv9vnqo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 16:43:18 GMT",
-          "summary": "Trump made the announcement during chat where he also vowed to protect India.",
-          "source": "BBC News"
-        },
-        {
-          "title": "UN experts demand Iranians free Foremans",
-          "url": "https://www.bbc.com/news/articles/c9w28e2vn57o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 19:21:36 GMT",
-          "summary": "They said proceedings against Lindsay and Craig Foreman had been marked by grave irregularities.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Norway's crown princess undergoes successful lung transplant, palace says",
-          "url": "https://www.bbc.com/news/articles/c1eyg37qyqjo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 10:15:08 GMT",
-          "summary": "Crown Princess Mette-Marit, who suffered from pulmonary fibrosis, will now spend several weeks recovering in hospital.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
-          "url": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 10:01:42 GMT",
-          "summary": "Speaking on Tuesday, Trump said Israel's PM Benjamin Netanyahu needed \"to be more responsible with respect to Lebanon\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "Bystanders smash windows of private jet to rescue passengers after crash",
-          "url": "https://www.bbc.com/news/articles/cd7wv4144yvo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 17 Jun 2026 12:53:27 GMT",
-          "summary": "One of the six people on board died in the crash, a local official said. The five survivors were taken to hospital and are in a stable condition.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The US-Iran agreement includes a halt to fighting and a significant redevelopment package, while tensions in the region continue with Iranian oil shipments and Israeli strikes.",
-        "summary": "Today's headlines highlight significant geopolitical developments, including a new US-Iran agreement aimed at peace and economic support for Iran, alongside ongoing tensions in the Middle East with Iranian oil shipments and Israeli military actions. Japan's defense posture is also under scrutiny as it considers a shift from its pacifist stance. Additionally, health crises in the DR Congo and the tragic death of actress Daveigh Chase are noted.",
+        "key_takeaway": "The geopolitical landscape remains tense with significant developments in US-Iran relations, ongoing conflicts in Ukraine and Niger, and environmental concerns in Australia.",
+        "summary": "Today's headlines highlight a range of global issues, including the implications of a new US-Iran deal, escalating violence in Ukraine and Niger, and environmental crises affecting wildlife in Australia. The sentiment surrounding these events is predominantly negative, reflecting concerns over security, environmental impacts, and geopolitical stability.",
         "key_themes": [
-          "US-Iran relations",
-          "Middle East tensions",
-          "Japan defense policy",
-          "Ebola outbreak in DR Congo",
-          "celebrity news"
+          "US-Iran relations analysis",
+          "Ukraine conflict updates",
+          "Niger airport attack details",
+          "Japan's defense strategy",
+          "environmental impact of bird flu"
         ],
         "notable_headlines": [
           {
-            "headline": "What's in the US-Iran agreement?",
-            "why_it_matters": "The agreement aims to end hostilities and includes a substantial financial package for Iran, impacting regional stability.",
+            "headline": "Bowen: US-Iran deal raises inescapable question of what the war was for",
+            "why_it_matters": "This commentary questions the outcomes of the US-Iran conflict, suggesting the Iranian regime has emerged stronger.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Moscow residents complain of black rain after largest Ukrainian attack hits oil refinery",
+            "why_it_matters": "The attack highlights the ongoing conflict's impact on civilian life and infrastructure in Russia.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Gunmen attack Niger's biggest airport for second time in months",
+            "why_it_matters": "This incident underscores the persistent threat of militant violence in Niger, affecting security and travel.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Bird flu kills more than 75% of baby seals on remote Australian island, study finds",
+            "why_it_matters": "The significant loss of wildlife raises alarms about the broader ecological impacts of bird flu.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Japan ramping up defence is 'critical' to prevent war, Defence Minister Koizumi tells BBC",
+            "why_it_matters": "Japan's shift in defense policy could alter regional security dynamics in East Asia.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Iran sends tankers loaded with oil past US military blockade",
-            "why_it_matters": "This action raises tensions in the Gulf region and challenges US sanctions.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Japan ramping up defence is 'critical' to prevent war",
-            "why_it_matters": "Japan's potential shift from pacifism could alter its role in regional security dynamics.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Status quo at Jerusalem's holiest site under threat as Israeli nationalists flout rules",
-            "why_it_matters": "Increased tensions at religious sites could lead to broader conflict.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Search for six-year-old Ebola patient after armed men storm DR Congo hospital",
-            "why_it_matters": "The attack highlights the challenges of managing health crises in conflict zones.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the implementation of the US-Iran agreement and its impact on regional tensions.",
-            "Observing reactions from the international community regarding Iranian oil shipments.",
-            "Following developments in Japan's defense policy discussions."
+            "Monitor reactions to the US-Iran deal and its implications for regional stability.",
+            "Watch for updates on the aftermath of the Ukrainian drone attacks in Moscow.",
+            "Follow developments regarding security measures in Niger after the recent airport attack."
           ],
           "next_1_4_weeks": [
-            "Evaluating the long-term effects of the US-Iran agreement on Middle Eastern geopolitics.",
-            "Tracking the situation in the DR Congo as health officials respond to the Ebola outbreak.",
-            "Watching for potential escalations in Israeli-Palestinian tensions."
+            "Observe how the US-Iran deal influences Iran's regional posture and relations with other countries.",
+            "Track the environmental impact of bird flu on wildlife and potential responses from authorities.",
+            "Assess Japan's defense policy changes and their implications for regional security alliances."
           ],
           "watch_list": [
-            "US-Iran relations",
-            "Middle East oil trade",
-            "Japan's defense strategy",
-            "Ebola outbreak management",
-            "Israeli military actions"
+            "US-Iran relations and potential fallout",
+            "Ukrainian conflict developments",
+            "Niger security situation",
+            "Japan's defense strategy changes",
+            "Environmental impacts of bird flu"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Middle East is fluid and can change rapidly.",
-          "The effectiveness of the US-Iran agreement remains to be seen.",
-          "Japan's defense policy shift may face domestic opposition."
+          "The sentiment score indicates a generally negative tone, but specific events may vary in their individual impacts.",
+          "The geopolitical situation is fluid, and developments can change rapidly."
         ],
         "related_topics": [
-          "What are the details of the US-Iran agreement?",
-          "How is Japan changing its defense policy?",
-          "What is the current situation in the Middle East?",
-          "Latest updates on the Ebola outbreak in DR Congo",
-          "What happened to actress Daveigh Chase?"
+          "What are the implications of the US-Iran deal?",
+          "Latest updates on the Ukraine conflict",
+          "Security concerns in Niger",
+          "Japan's defense policy changes",
+          "Impact of bird flu on wildlife"
         ]
       },
-      "tweet_text": "Tensions rise as Iran defies the US, Japan gears up for war, and a six-year-old's life hangs in the balance—today's...\n\nWorld Sentiment: Mixed (-0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Defence #Actress #Aged #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Is the US-Iran deal a beacon of hope or a betrayal of the sacrifices made in war?\n\nWorld Sentiment: Negative (-0.35)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #Airport #Attack #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -187,11 +187,25 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0452,
+        "score": 0.0269,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.075, dampened ×0.6 → -0.0452). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.045, dampened ×0.6 → +0.0269). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Fed governor Lisa Cook faced $1.3m in legal and security fees after Trump’s bid to fire her",
+          "url": "https://www.theguardian.com/business/2026/jun/18/lisa-cook-legal-security-fees-trump-fed",
+          "published": "Thu, 18 Jun 2026 15:43:40 GMT",
+          "summary": "<p>Cook is at the center of a supreme court case focused on whether Trump’s firing of her from the Fed board was legal</p><p>The Federal Reserve governor Lisa Cook faced more than $1.3m in legal and security fees after coming under attack from the Trump administration, according to ethics disclosures that were filed on Wednesday.</p><p>The White House targeted Cook last summer as Donald Trump ramped up his unprecedented campaign to push the Fed to cut interest rates.</p> <a href=\"https://www.the",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Not so empty nesters: record-high number of US adults under 35 live at home, new data says",
+          "url": "https://www.theguardian.com/society/2026/jun/18/us-adults-under-35-living-at-home",
+          "published": "Thu, 18 Jun 2026 15:33:53 GMT",
+          "summary": "<p>Data shows that the increase in at-home living stems from high housing costs rather than labor market conditions</p><p>A record number of the US’s young adults were living with their parents last year, <a href=\"https://www.realtor.com/news/trends/young-adults-living-with-parents-employed-housing-costs/\">according to new data from Realtor.com</a>, as high housing costs pushed the milestone of independent living out of reach.</p><p>A third of young adults between the ages of 25 and 35 – 25.2 mi",
+          "source": "The Guardian"
+        },
         {
           "title": "Federal Reserve holds rates steady but signals possible hike before year’s end",
           "url": "https://www.theguardian.com/business/2026/jun/17/federal-reserve-interest-rates",
@@ -242,17 +256,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "Bank of Japan raises interest rates to 31-year high … of 1%",
-          "url": "https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england",
-          "published": "Tue, 16 Jun 2026 10:41:08 GMT",
-          "summary": "<p>Country acts amid Iran war inflation pressures, but US Fed and Bank of England expected to hold rates</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/jun/16/japan-hikes-interest-rates-inflation-iran-war-thames-water-rescue-nationalisation-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>The Bank of Japan (BoJ) has raised interest rates to a 31-year high as it tries to dampen inflationary pressures created by the Iran war.</p><p>Policymakers in Toky",
-          "source": "The Guardian"
-        },
-        {
-          "title": "‘Dreamers’ are losing their jobs waiting for renewals under Trump: ‘It feels like a personal attack’",
-          "url": "https://www.theguardian.com/us-news/2026/jun/15/dreamers-losing-jobs-daca-renewals-trump",
-          "published": "Mon, 15 Jun 2026 10:00:24 GMT",
-          "summary": "<p>The process to renew Daca immigration status used to take a few weeks – now it drags on for months</p><p>It’s been six months since Claudia first applied to renew her <a href=\"https://www.theguardian.com/us-news/usimmigration\">US immigration</a> status – a process that, for the last 14 years, would only take a few weeks.</p><p>But now, the prolonged delay has put her life on hold. Claudia, who moved to the US when she was four, has maintained legal status as a “Dreamer” with the Deferred Acti",
+          "title": "Gig workers are endlessly exploited. AI could make more of us share their fate",
+          "url": "https://www.theguardian.com/technology/2026/jun/18/ai-threatens-gig-work-rise",
+          "published": "Thu, 18 Jun 2026 08:00:00 GMT",
+          "summary": "<p>As companies integrate AI and hire fewer employees, a shift toward a ‘gig economy’ will commence</p><p>In 2024, the buy-now-pay-later company Klarna announced that it would cut hundreds of customer service roles and begin using an artificial intelligence chatbot instead. The move was expected to save the company millions. But a year later, after <a href=\"https://www.bloomberg.com/news/articles/2025-05-08/klarna-turns-from-ai-to-real-person-customer-service\">customers complained</a> about the",
           "source": "The Guardian"
         },
         {
@@ -268,84 +275,82 @@
           "published": "Sun, 14 Jun 2026 05:00:34 GMT",
           "summary": "<p>Forecasters were wrong about an immediate recession but right that we would be worse off outside the EU</p><p>As the 10th anniversary of the Brexit vote approaches, the verdict on Britain’s economic performance is clear: voting to leave has resulted in severe costs for households and businesses.</p><p>The immediate recession predicted in the Treasury forecasts ordered by George Osborne – dubbed “<a href=\"https://www.theguardian.com/global/video/2016/jun/27/project-fear-over-says-boris-johnson",
           "source": "The Guardian"
-        },
-        {
-          "title": "After SpaceX’s huge IPO, Americans’ financial future will be bound to AI",
-          "url": "https://www.theguardian.com/business/2026/jun/12/ai-ipos-stock-market",
-          "published": "Fri, 12 Jun 2026 09:00:41 GMT",
-          "summary": "<p>They’re about to get more AI rammed down their throats, stuck into their pension plans and investment portfolios</p><ul><li><p><a href=\"https://www.theguardian.com/science/2026/jun/12/spacex-stock-market-debut\">Share your views on SpaceX’s stock market debut</a></p></li></ul><p>Americans are growing worried about what artificial intelligence portends for their futures. Eight in 10 <a href=\"https://poll.qu.edu/poll-release?releaseid=3955\">Americans report</a> concern over AI, compared with a t",
-          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The Federal Reserve held interest rates steady while signaling a potential hike, and SpaceX surpassed Amazon in market valuation following its IPO.",
-        "summary": "Today's business news highlights the Federal Reserve's decision to maintain interest rates, the ongoing political tensions surrounding unemployment fraud claims, and significant corporate developments including SpaceX's rise in market value and changes to the US student debt repayment system.",
+        "key_takeaway": "Federal Reserve holds interest rates steady while signaling a potential hike, as young adults increasingly live at home due to high housing costs.",
+        "summary": "Today's business news highlights significant developments including the Federal Reserve's decision to maintain interest rates, the rising number of young adults living with parents due to housing costs, and ongoing legal challenges faced by Fed governor Lisa Cook. Additionally, SpaceX has surpassed Amazon in market valuation, and the student debt repayment system is set for major changes. Yum! Brands is selling Pizza Hut amid struggles, and the gig economy faces challenges from AI integration.",
         "key_themes": [
-          "Federal Reserve interest rates decision",
+          "Federal Reserve interest rate decisions",
+          "US housing market trends",
           "SpaceX market valuation",
-          "US student debt repayment changes",
-          "Trump administration unemployment fraud claims",
-          "Pizza Hut sale news"
+          "student debt repayment changes",
+          "gig economy and AI impact"
         ],
         "notable_headlines": [
           {
-            "headline": "Federal Reserve holds rates steady but signals possible hike before year’s end",
-            "why_it_matters": "The Fed's decision impacts economic growth and market stability, with potential implications for future rate hikes.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Trump’s Department of Labor claims without data that states defrauded government",
-            "why_it_matters": "This could lead to significant funding cuts for states and impact unemployment benefits administration.",
+            "headline": "Fed governor Lisa Cook faced $1.3m in legal and security fees after Trump’s bid to fire her",
+            "why_it_matters": "Cook's legal battles highlight the political tensions surrounding the Federal Reserve and its governance.",
             "signal": "Risk"
           },
           {
+            "headline": "Not so empty nesters: record-high number of US adults under 35 live at home, new data says",
+            "why_it_matters": "The trend reflects economic pressures on young adults, impacting housing markets and consumer behavior.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Federal Reserve holds rates steady but signals possible hike before year’s end",
+            "why_it_matters": "The Fed's decision could influence market dynamics and economic growth in the coming months.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "SpaceX overtakes Amazon to become world’s fifth most valuable company",
-            "why_it_matters": "This reflects the growing influence of tech companies in the market and SpaceX's strategic acquisitions.",
+            "why_it_matters": "This milestone underscores the rapid growth of tech companies and shifts in market leadership.",
             "signal": "Opportunity"
           },
           {
             "headline": "US student debt repayment system is being overhauled – here’s what to know",
-            "why_it_matters": "Changes to repayment timelines will affect millions of borrowers, altering the landscape of student debt management.",
+            "why_it_matters": "Changes to the repayment system will affect millions of borrowers, impacting consumer spending and financial stability.",
             "signal": "Risk"
           },
           {
             "headline": "Struggling Pizza Hut restaurant chain to be sold in two deals worth $2.7bn",
-            "why_it_matters": "The sale indicates challenges within the fast-food sector and Yum! Brands' strategic shifts in response to competition.",
+            "why_it_matters": "The sale indicates challenges within the fast-food sector and Yum! Brands' strategic shifts.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Market reactions to the Fed's interest rate signals will be closely monitored.",
-            "Further developments in the SpaceX and AI sectors may emerge as investors adjust portfolios.",
-            "Responses from states regarding the Department of Labor's fraud claims could unfold."
+            "Monitor reactions to the Federal Reserve's interest rate decision in financial markets.",
+            "Watch for further developments in the legal case involving Lisa Cook.",
+            "Observe trends in housing markets as more young adults live at home."
           ],
           "next_1_4_weeks": [
-            "The impact of the Fed's potential rate hike on consumer spending and investment will be assessed.",
-            "Changes in the student debt repayment system will begin to take effect, affecting borrowers' financial planning.",
-            "The sale of Pizza Hut may lead to restructuring and strategic changes within the brand."
+            "Expect discussions around potential Federal Reserve rate hikes to intensify as economic conditions evolve.",
+            "Anticipate public response to changes in the student debt repayment system.",
+            "Follow the impact of SpaceX's market valuation on investor sentiment."
           ],
           "watch_list": [
-            "Monitor Federal Reserve announcements for indications of future rate changes.",
-            "Watch for updates on the student debt repayment overhaul and its effects on borrowers.",
-            "Keep an eye on SpaceX's performance post-IPO and its market strategies.",
-            "Follow developments in the unemployment fraud claims and state responses."
+            "Federal Reserve meetings and statements",
+            "Trends in young adult living situations",
+            "Developments in the student debt repayment overhaul.",
+            "Performance of fast-food chains amid economic pressures"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates a neutral tone, suggesting mixed reactions to the news.",
-          "Market reactions can be unpredictable and influenced by external factors."
+          "The political landscape surrounding the Federal Reserve may continue to evolve, impacting its decisions.",
+          "Economic indicators may shift rapidly, affecting forecasts and market reactions."
         ],
         "related_topics": [
-          "What are the implications of the Federal Reserve's interest rate decisions?",
-          "How is SpaceX impacting the tech industry?",
+          "What are the latest Federal Reserve interest rate updates?",
+          "How is the housing market affecting young adults in the US?",
           "What changes are coming to the US student debt repayment system?",
-          "What are the latest developments in unemployment fraud claims?",
-          "What does the sale of Pizza Hut mean for the fast-food industry?"
+          "How is SpaceX performing in the market compared to Amazon?",
+          "What challenges does the gig economy face with AI integration?"
         ]
       },
-      "tweet_text": "The Fed's rate pause hints at a possible hike, while SpaceX soars past Amazon—buckle up for a wild economic...\n\nBusiness Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Rates #States #27bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From legal battles to living at home, today's business news is a wild ride!\n\nBusiness Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Data #States #Trumps #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -356,151 +361,152 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1675,
+        "score": 0.1704,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.279, dampened ×0.6 → +0.1675). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.284, dampened ×0.6 → +0.1704). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Midjourney goes from generating cat images to full-body ultrasound scans",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
-          "published": "2026-06-17T23:12:31-04:00",
-          "summary": "Midjourney CEO David Holz just showed off the company's first hardware product and plans to build a San Francisco spa, which he admitted is a bit different from the \"cat pictures\" produced by its AI image generator. Dubbed The Midjourney Scanner, it's an ultrasound-based full-body scanner that uses a ring of sensors to capture vertical [&#8230;]",
+          "title": "Amazon employees say they’re facing termination for backing data center limits",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action",
+          "published": "2026-06-18T12:00:00-04:00",
+          "summary": "When three Amazon software engineers testified earlier this month at Seattle City Council hearings about data centers, they started their testimony by citing a city law barring employment discrimination over political speech. Now, they're accusing their employer of breaking that law by retaliating against them. On June 10th - one week after the hearing, and [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Tim Cook says RAM expenses are &#8216;unsustainable&#8217; and Apple is going to raise prices",
-          "url": "https://www.theverge.com/tech/951948/apple-tim-cook-price-increases-ram",
-          "published": "2026-06-17T17:42:21-04:00",
-          "summary": "Apple is planning to raise prices in response to the ongoing memory shortage. In an interview with The Wall Street Journal, Apple CEO Tim Cook says \"price increases are unavoidable:\" We're doing our best to mitigate the huge increases that are being passed to us, and we've been trying to shield our customers from the [&#8230;]",
+          "title": "No more lightbulbs, much more sports: Five predictions for Roku’s future",
+          "url": "https://www.theverge.com/column/951850/fox-roku-predictions",
+          "published": "2026-06-18T11:30:00-04:00",
+          "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. When Fox announced its acquisition of Roku earlier this week, executives of both companies were quick to promise that not much would change in the near future. Sure, getting its [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "VSCO launches Studio Pro mobile photo editing app and plans $500 per year subscription",
-          "url": "https://www.theverge.com/tech/951863/vsco-studio-pro-vsco-one-subscription",
-          "published": "2026-06-17T16:43:28-04:00",
-          "summary": "VSCO is taking on Adobe with a new Studio Pro editing app rolling out today on iOS and coming to macOS later this year, as Bloomberg reports. At launch, the app offers tools for batch editing, style matching from a reference image, and sharing images through VSCO Galleries. VSCO says more features are coming later, [&#8230;]",
+          "title": "Google Calendar finally has more color options for events",
+          "url": "https://www.theverge.com/tech/952123/google-calendar-event-color-options-expansion",
+          "published": "2026-06-18T10:32:16-04:00",
+          "summary": "Running out of color options for events in Google Calendar shouldn't be an issue going forward. The previous limit of 11 predefined colors has now been expanded to give users access to up to 200 custom colors for individual events across the native Calendar web and mobile apps, and the Calendar API. This started rolling [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Epic wants to let you bring your Fortnite skins to other games",
-          "url": "https://www.theverge.com/games/951785/epic-games-fortnite-unreal-fest-2026-unreal-engine-6-ai-metaverse",
-          "published": "2026-06-17T15:09:00-04:00",
-          "summary": "Epic Games has been touting the potential of an interoperable metaverse for years, though that vision hasn't yet become a reality. But with Unreal Engine 6, the next major version of its game development engine, Epic plans to take a big step toward that theoretical future: it will let developers make games that can use [&#8230;]",
+          "title": "The midterms are going to be a data security nightmare",
+          "url": "https://www.theverge.com/policy/952167/voter-rolls-privacy-election-save-program",
+          "published": "2026-06-18T10:21:37-04:00",
+          "summary": "One messy database is threatening to disenfranchise thousands or even millions of registered voters, while leaving even more at risk of intimidation or data breaches, in the name of solving a problem that barely exists. As the 2026 midterm elections approach, election and privacy experts are sounding alarms about the Department of Homeland Security's Systematic [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Anthropic got hit by export rules nobody understands",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
-          "published": "2026-06-17T14:28:50-04:00",
-          "summary": "Anthropic has spent much of this week fighting to get its newest AI models back online after the Trump administration abruptly ordered the company to cut access for all foreign nationals, including users inside the US and its own employees, forcing Anthropic to block access to Fable 5 and Mythos 5 for everyone. \"To my [&#8230;]",
+          "title": "The Verge’s guide to Amazon Prime Day 2026",
+          "url": "https://www.theverge.com/gadgets/951437/amazon-prime-day-tech-deals-guide-2026",
+          "published": "2026-06-18T10:17:09-04:00",
+          "summary": "Amazon Prime Day 2026 lifts off on June 23rd and will hopefully deliver the best deals of the summer. We’ve been covering the most notable pre-Prime Day discounts happening, and come next week, we’ll be bringing you many more deals — ones we can’t tell you about just yet. As usual, expect to see price [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Two-thirds of Americans think AI is advancing too quickly",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
-          "published": "2026-06-17T13:20:24-04:00",
-          "summary": "According to the latest Pew Research poll, 49 percent of Americans report using chatbots at least occasionally, but 63 percent think the tech is advancing too quickly. Overall, use of AI chatbots has increased dramatically since 2024, when only 33 percent reported using them. Specifically, ChatGPT's usage has doubled since 2023, with 44 percent of [&#8230;]",
+          "title": "The best robot vacuum deals available ahead of Prime Day",
+          "url": "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026",
+          "published": "2026-06-18T10:00:00-04:00",
+          "summary": "If you&#8217;ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. Prime Day is next week, but many retailers are offering early deals on several models we&#8217;ve tested from brands like Roborock, [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Echo Dot Max is cheaper than ever in an early Prime Day sale",
-          "url": "https://www.theverge.com/gadgets/951602/amazon-echo-dot-max-early-prime-day-deal-sale",
-          "published": "2026-06-17T12:47:43-04:00",
-          "summary": "We’re seeing good early Prime Day deals ahead of the event next week, and unsurprisingly, some of the best deals are on Amazon&#8217;s own devices. Several Echo speakers have dropped to new low prices, including the Echo Dot Max, which is on sale for $64.99 ($35 off) at Amazon. Our smart home reviewer Jennifer Pattison [&#8230;]",
+          "title": "Who decides when AI is too dangerous?",
+          "url": "https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump",
+          "published": "2026-06-18T10:00:00-04:00",
+          "summary": "On today’s episode of Decoder, my guest is Hayden Field, senior AI reporter for The Verge. Often when Hayden comes on the show, it’s because something has gone wrong in the world of AI. Last weekend, that something was a pretty intense mix of Anthropic, the Trump administration, and Anthropic’s new AI model, Fable 5.&#160; [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Vibe-decoding the White House-Anthropic fight over Fable",
-          "url": "https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house",
-          "published": "2026-06-17T12:27:00-04:00",
-          "summary": "Hello and welcome to Regulator, an email for Verge subscribers about technology, politics, and what happens when science crashes headlong into self-interest. Not a subscriber? Sign up here today! Got the scoop on a petty feud that's going to somehow fundamentally reshape the entire field of frontier AI development? Send 'em over to tina.nguyen+tips@theverge.com. Back [&#8230;]",
+          "title": "Amazon’s Kindle Colorsoft bundle is almost half off for Prime Day",
+          "url": "https://www.theverge.com/gadgets/951234/amazon-kindle-colorsoft-bundle-prime-day-deal-sale",
+          "published": "2026-06-18T09:09:09-04:00",
+          "summary": "Amazon’s Kindle Colorsoft Essentials Bundle is on sale for $182.97 (originally $334.97) as an early Prime Day deal, the lowest price we’ve seen for the combo. Unlike other Kindles, the Colorsoft’s color E Ink screen is great for comic books and graphics novels, illustrated books, or just perusing book covers while deciding what to read [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Can anyone look cool wearing Snap’s $2,000 glasses?",
-          "url": "https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion",
-          "published": "2026-06-17T12:13:34-04:00",
-          "summary": "Yesterday, Snap debuted its new $2,195 Specs glasses. In an interview with CNBC, Snap CEO Evan Spiegel described the Specs as something the company had been working on for more than 12 years, an attempt to \"bring computing into the world\" and \"make it more human.\" He positioned them as a device to help people [&#8230;]",
+          "title": "Photoshop and Premiere now have AI assistants",
+          "url": "https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch",
+          "published": "2026-06-18T09:00:00-04:00",
+          "summary": "Adobe's plan to stick AI assistants into all of its Creative Cloud suite is now fully underway, with new chatbots now rolling out to its biggest editing and design apps. As part of a public beta launching today, Photoshop, Premiere, Illustrator, InDesign, and Frame.io now each have a bespoke AI Assistant that can be used [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "We got free GTA V upgrades before GTA VI",
-          "url": "https://www.theverge.com/games/951533/gta-v-ps5-xbox-series-x-upgrade",
-          "published": "2026-06-17T11:45:36-04:00",
-          "summary": "Rockstar Games will allow players to upgrade older versions of Grand Theft Auto V for PlayStation 5 and Xbox Series X / S for free just months before the launch of GTA VI. Starting June 18th, players with any version of GTA V on PS4 or the digital version on Xbox One can get the [&#8230;]",
+          "title": "Adobe’s redesigned AI studio remembers what your creations look like",
+          "url": "https://www.theverge.com/tech/952104/adobe-firefly-ai-agent-elements-projects-update",
+          "published": "2026-06-18T09:00:00-04:00",
+          "summary": "Adobe is introducing some new capabilities for its Firefly AI assistant, alongside a \"reimagined\" AI studio that lets you edit and generate new designs from a single interface. The new Firefly experience launching today in private beta is designed to give you \"persistent context, reusable assets, and organized workflows\" across your projects, according to Adobe, [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Midjourney introduces a full-body ultrasound scanner, while Apple plans price increases due to RAM shortages and Epic Games aims for interoperability in gaming.",
-        "summary": "Today's technology news highlights significant developments including Midjourney's expansion into medical imaging with a new ultrasound scanner, Apple's announcement of price hikes due to RAM shortages, and Epic Games' plans for interoperable gaming experiences. Additionally, VSCO launches a new mobile photo editing app, and a Pew Research poll reveals that a majority of Americans feel AI is advancing too quickly. The ongoing regulatory challenges faced by Anthropic and the introduction of Snap's new smart glasses also feature prominently in today's headlines.",
+        "key_takeaway": "Amazon employees allege retaliation for political speech, while Adobe expands AI capabilities in its Creative Cloud suite.",
+        "summary": "Today's technology news highlights Amazon employees facing potential termination for their political stance on data center limits, predictions for Roku's future post-acquisition by Fox, and Adobe's rollout of AI assistants in its Creative Cloud applications. Additionally, Google Calendar expands its color options for events, and concerns arise over data security ahead of the midterm elections. Early Prime Day deals are also featured, including significant discounts on robot vacuums and Kindle bundles.",
         "key_themes": [
-          "AI advancements in healthcare",
-          "Apple price increase due to RAM",
-          "VSCO mobile photo editing app",
-          "Epic Games interoperability plans",
-          "Americans' views on AI progress"
+          "Amazon employee retaliation",
+          "Roku acquisition predictions",
+          "Google Calendar updates",
+          "data security in elections",
+          "Adobe AI assistants",
+          "Prime Day deals"
         ],
         "notable_headlines": [
           {
-            "headline": "Midjourney goes from generating cat images to full-body ultrasound scans",
-            "why_it_matters": "This marks a significant shift for Midjourney, showcasing the potential of AI in medical applications.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Tim Cook says RAM expenses are ‘unsustainable’ and Apple is going to raise prices",
-            "why_it_matters": "Apple's price increase reflects broader supply chain issues affecting the tech industry.",
+            "headline": "Amazon employees say they’re facing termination for backing data center limits",
+            "why_it_matters": "This case raises important questions about workplace rights and political speech protections.",
             "signal": "Risk"
           },
           {
-            "headline": "VSCO launches Studio Pro mobile photo editing app and plans $500 per year subscription",
-            "why_it_matters": "VSCO's new app positions it as a competitor to established editing software like Adobe.",
+            "headline": "No more lightbulbs, much more sports: Five predictions for Roku’s future",
+            "why_it_matters": "Roku's direction under Fox could significantly impact the streaming landscape.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Epic wants to let you bring your Fortnite skins to other games",
-            "why_it_matters": "This initiative could redefine user engagement and monetization in gaming.",
+            "headline": "Google Calendar finally has more color options for events",
+            "why_it_matters": "Enhanced customization in Google Calendar may improve user experience and engagement.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Two-thirds of Americans think AI is advancing too quickly",
-            "why_it_matters": "Public sentiment on AI development could influence future regulations and tech adoption.",
-            "signal": "Unclear"
+            "headline": "The midterms are going to be a data security nightmare",
+            "why_it_matters": "Concerns about voter data security could affect public trust in the electoral process.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Photoshop and Premiere now have AI assistants",
+            "why_it_matters": "The integration of AI in creative tools could revolutionize content creation workflows.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Apple's price increases among consumers and competitors.",
-            "Watch for user feedback on Midjourney's new ultrasound scanner.",
-            "Observe early sales data for VSCO's Studio Pro app."
+            "Monitor reactions to Amazon's employee allegations and potential legal implications.",
+            "Watch for updates on Roku's strategic plans following the acquisition by Fox.",
+            "Expect more details on Adobe's AI assistant capabilities as they roll out."
           ],
           "next_1_4_weeks": [
-            "Anticipate further developments in AI regulation following Anthropic's recent challenges.",
-            "Expect updates from Epic Games regarding interoperability features in Unreal Engine 6.",
-            "Watch for trends in consumer sentiment towards AI as more polls are conducted."
+            "Observe the impact of new features in Google Calendar on user engagement.",
+            "Track developments in data security measures ahead of the midterm elections.",
+            "Follow Amazon Prime Day sales trends and consumer responses."
           ],
           "watch_list": [
-            "Midjourney's product launch impact on the healthcare sector.",
-            "Apple's pricing strategy and its effects on market competition.",
-            "VSCO's market performance against established photo editing software.",
-            "Epic Games' developments in the metaverse and gaming interoperability."
+            "Amazon's handling of employee disputes and potential legal challenges.",
+            "Roku's performance and strategic decisions post-acquisition.",
+            "Adobe's advancements in AI technology and user adoption.",
+            "Data security developments related to the upcoming elections."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates varying public and expert opinions on these developments.",
-          "Regulatory changes can rapidly alter the landscape for AI companies like Anthropic."
+          "The sentiment score is mixed, indicating varying opinions on the news.",
+          "Future developments may change the current outlook significantly."
         ],
         "related_topics": [
-          "What are the latest developments in AI technology?",
-          "How is Apple addressing RAM shortages?",
-          "What features does VSCO's new editing app offer?",
-          "What are the implications of Epic Games' interoperability plans?",
-          "How do Americans feel about the pace of AI advancements?"
+          "What are the latest updates on Amazon employee rights?",
+          "How is Roku changing under Fox's ownership?",
+          "What new features are available in Google Calendar?",
+          "What are the implications of data security for the midterms?",
+          "How is Adobe integrating AI into its software?"
         ]
       },
-      "tweet_text": "Tech upheaval: from ultrasound scans to AI fears, the future is arriving fast—and it...\n\nTechnology Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#8216unsustainable8217 #Advancing #Americans #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Amazon's employees are risking it all as they stand up against data center limits—will their voices be heard or...\n\nTechnology Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prime #Amazon #Data #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -602,99 +608,97 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Lionel Messi tied the World Cup goal record with a hat trick, while Kylian Mbappé broke France's scoring record in a significant tournament day.",
-        "summary": "Today's sports headlines highlight Lionel Messi's historic performance in the World Cup, tying Miroslav Klose's record for most goals, while Kylian Mbappé also made headlines by becoming France's all-time leading scorer. The NBA Finals Game 5 saw record viewership, and there are notable developments in coaching changes and legal issues involving athletes.",
+        "key_takeaway": "Lionel Messi and Kylian Mbappé both achieved historic milestones during the World Cup, while the Knicks' NBA Finals Game 5 drew significant viewership.",
+        "summary": "Today's sports headlines highlight remarkable performances in the World Cup, with Lionel Messi tying the record for most goals and Kylian Mbappé breaking France's scoring record. Additionally, the Knicks' recent NBA Finals victory garnered the highest viewership for a Game 5 since 1998. Other notable news includes John Tortorella's departure from the Golden Knights, Floyd Mayweather facing felony charges, and the Broncos excusing Jonathon Cooper from minicamp following arrests.",
         "key_themes": [
           "World Cup highlights",
           "NBA Finals viewership",
-          "coaching changes in NHL",
-          "legal issues in sports",
-          "athlete performances"
+          "Messi and Mbappé records",
+          "NHL coaching changes",
+          "Mayweather legal issues"
         ],
         "notable_headlines": [
           {
             "headline": "On the World Cup's day of stars, Messi towers over Haaland and Mbappe",
-            "why_it_matters": "Messi's performance reinforces his status among football greats during a competitive World Cup.",
+            "why_it_matters": "Messi's performance reinforces his legendary status in soccer amidst rising stars like Haaland and Mbappé.",
             "signal": "Opportunity"
           },
           {
             "headline": "Messi ties Klose record with 16th World Cup goal",
-            "why_it_matters": "Messi's hat trick not only ties a record but also showcases his enduring talent on the world stage.",
+            "why_it_matters": "Messi's hat trick ties him with Klose for the most goals in World Cup history, marking a significant achievement.",
             "signal": "Opportunity"
           },
           {
             "headline": "Mbappé nets stunner, breaks France record in win",
-            "why_it_matters": "Mbappé's achievement highlights his rapid rise in football history and adds to the excitement of the tournament.",
+            "why_it_matters": "Mbappé's two goals not only secure a win for France but also establish him as the country's all-time leading scorer.",
             "signal": "Opportunity"
           },
           {
             "headline": "Game 5 most-watched since 1998; peaked at 33M",
-            "why_it_matters": "Record viewership indicates a strong interest in the NBA Finals and the significance of the Knicks' victory.",
+            "why_it_matters": "The Knicks' victory in the NBA Finals draws the largest audience for a Game 5 in decades, highlighting the event's popularity.",
             "signal": "Opportunity"
           },
           {
             "headline": "Tortorella not returning as Golden Knights' coach",
-            "why_it_matters": "This coaching change could impact the team's future strategies and performance in the NHL.",
+            "why_it_matters": "The Golden Knights will seek a new direction after Tortorella's brief tenure, impacting team strategy moving forward.",
             "signal": "Risk"
           },
           {
             "headline": "Mayweather facing charges for passing bad check",
-            "why_it_matters": "Legal troubles for Mayweather could affect his public image and future business ventures.",
+            "why_it_matters": "Mayweather's legal troubles could affect his public image and future business ventures.",
             "signal": "Risk"
           },
           {
             "headline": "Broncos excuse Cooper from camp after arrests",
-            "why_it_matters": "Cooper's situation raises concerns about player conduct and team dynamics in the NFL.",
+            "why_it_matters": "Cooper's legal issues raise concerns about player conduct and team management in the NFL.",
             "signal": "Risk"
           },
           {
             "headline": "Pereira accuses Gane of illegal blows to head",
-            "why_it_matters": "Accusations of illegal blows can lead to scrutiny of officiating and fighter safety in MMA.",
+            "why_it_matters": "Allegations of illegal blows could impact the integrity of the fight and future match officiating.",
             "signal": "Unclear"
           },
           {
             "headline": "FBI stopped 'planned attacks' at WH UFC event",
-            "why_it_matters": "The prevention of a potential attack highlights security concerns at major sporting events.",
-            "signal": "Unclear"
+            "why_it_matters": "The prevention of a potential attack underscores security concerns surrounding high-profile sporting events.",
+            "signal": "Risk"
           },
           {
             "headline": "🤣 Jaguars to auction Trevor Lawrence's viral wig",
-            "why_it_matters": "The auction reflects the intersection of sports culture and fan engagement through social media.",
+            "why_it_matters": "The auction of a viral item highlights the intersection of sports and pop culture, engaging fans in unique ways.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Continued coverage of the World Cup as teams progress through the tournament.",
-            "Updates on the NBA Finals as the series approaches its conclusion.",
-            "Potential developments in legal cases involving athletes."
+            "Continued coverage of the World Cup as teams advance in the tournament.",
+            "Updates on the Knicks' celebration following their NBA title win.",
+            "Reactions to Tortorella's departure from the Golden Knights."
           ],
           "next_1_4_weeks": [
-            "Ongoing analysis of World Cup performances and implications for future matches.",
-            "Coaching changes in NHL teams as they prepare for the next season.",
-            "Monitoring the impact of legal issues on athletes' careers."
+            "Analysis of World Cup performances as the tournament progresses.",
+            "Speculation on potential coaching candidates for the Golden Knights.",
+            "Updates on Mayweather's legal situation and its implications."
           ],
           "watch_list": [
-            "Lionel Messi's performance in upcoming World Cup matches.",
-            "Kylian Mbappé's contributions to France's campaign in the tournament.",
-            "Viewership trends for the NBA Finals.",
-            "Coaching strategies of NHL teams post-Tortorella."
+            "World Cup match results and highlights.",
+            "NBA Finals post-game analysis and player interviews.",
+            "NHL coaching changes and team strategies.",
+            "Legal developments regarding Mayweather."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates a neutral tone, suggesting mixed reactions to the events reported.",
-          "Future developments in ongoing legal issues may change the current landscape."
+          "The sentiment score indicates a neutral tone across the headlines, suggesting no strong positive or negative trends in sports news today.",
+          "The implications of legal issues and coaching changes may evolve as more information becomes available."
         ],
         "related_topics": [
           "What are the latest World Cup highlights?",
-          "NBA Finals viewership trends and statistics",
-          "Updates on coaching changes in the NHL",
-          "Legal issues facing athletes today",
-          "Key performances in the World Cup 2026"
+          "NBA Finals viewership statistics and analysis",
+          "Updates on Messi and Mbappé's World Cup performances"
         ]
       },
-      "tweet_text": "Messi shines brightest on World Cup day as records fall and drama unfolds—don't miss a second of this sports...\n\nSports Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Messi #Record #World #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Messi shines brightest on World Cup day, tying a legendary record while Mbappé and Haaland battle for glory!\n\nSports Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Messi #Record #World #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -705,11 +709,25 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.1589,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.265, dampened ×0.6 → +0.1589). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0154,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.026, dampened ×0.6 → +0.0154). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Major errors found in Al Gore-founded Climate TRACE database",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260618041519.htm",
+          "published": "Thu, 18 Jun 2026 04:15:19 EDT",
+          "summary": "A new study from Northern Arizona University is raising red flags about a widely used global emissions database from Climate TRACE, a consortium co-founded by Al Gore. Researchers found that the database may be dramatically undercounting carbon dioxide emissions from cars and trucks in cities—by an average of 70% across 260 U.S. cities, with some cities showing gaps of more than 90%.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Ancient DNA reveals plague was already killing humans 5,500 years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260618041450.htm",
+          "published": "Thu, 18 Jun 2026 08:16:46 EDT",
+          "summary": "Plague was already a deadly killer 5,500 years ago, long before cities, farming, or the rat-infested conditions usually linked to historic outbreaks. By analyzing ancient DNA from hunter-gatherer cemeteries in Siberia, researchers discovered early plague strains in nearly 40% of the individuals studied and found evidence of rapid family-based outbreaks that wiped out many children and young teenagers.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Humans may have hidden regenerative powers",
           "url": "https://www.sciencedaily.com/releases/2026/06/260617032207.htm",
@@ -722,6 +740,20 @@
           "url": "https://www.sciencedaily.com/releases/2026/06/260617032201.htm",
           "published": "Wed, 17 Jun 2026 08:19:43 EDT",
           "summary": "Scientists have discovered a new Amazonian spider with an astonishing disguise: it looks like a parasitic fungus. The species, Taczanowskia waska, mimics both the appearance and behavior of the fungus, helping it stay hidden from predators and potentially catch prey more easily.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover an earthquake gate as California faults reach their highest stress levels in 1,000 years",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260617032155.htm",
+          "published": "Thu, 18 Jun 2026 12:19:47 EDT",
+          "summary": "A new study suggests Southern California's major fault system is more stressed than at any point in the last 1,000 years. Researchers found that the Cajon Pass, where the San Andreas and San Jacinto faults meet, could act as an “earthquake gate” that determines whether a future rupture spreads across both faults. Current conditions resemble those that preceded some of the region’s largest historical earthquakes.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Could cosmic memory explain dark matter, dark energy, and black holes?",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260616103131.htm",
+          "published": "Thu, 18 Jun 2026 06:31:23 EDT",
+          "summary": "A new theory suggests the universe is constantly recording its own history in the fabric of spacetime. If correct, this cosmic memory could help solve some of the biggest puzzles in physics, from black holes to dark matter and the universe’s ultimate fate.",
           "source": "ScienceDaily"
         },
         {
@@ -765,105 +797,83 @@
           "published": "Tue, 16 Jun 2026 10:06:24 EDT",
           "summary": "A new study found that chronic wasting disease can sometimes spread silently, with infectious prions present even in animals that show no symptoms. While there is no confirmed human risk, researchers say the disease’s ability to evolve and spread across species warrants close attention.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists say most of what’s in your food is still a mystery",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260614012011.htm",
-          "published": "Wed, 17 Jun 2026 00:31:52 EDT",
-          "summary": "Scientists are beginning to explore a hidden world of thousands of food chemicals that go far beyond the nutrients listed on nutrition labels. This “nutritional dark matter” may hold the key to understanding disease risk, healthy aging, and why different diets affect people in dramatically different ways.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Honey bees have their own personal flight paths and fly them with stunning precision",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260614011857.htm",
-          "published": "Sun, 14 Jun 2026 17:25:28 EDT",
-          "summary": "Researchers tracked honey bees in the wild using a drone-based system and found that each bee follows its own highly consistent flight path. Some repeated their routes so precisely that they flew only centimeters from where they had flown before. Landmarks like trees helped keep them on track, while uniform areas such as cornfields led to more variation.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists turned red lettuce green and something surprising happened",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260614011854.htm",
-          "published": "Mon, 15 Jun 2026 04:57:07 EDT",
-          "summary": "Researchers used genome editing to block the production of red pigments in lettuce, causing other beneficial plant compounds to build up instead. The lettuce continued to grow normally, pointing toward a new way to create crops with customized nutritional profiles.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Oxford physicists just made Schrödinger’s cat even stranger",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260614011848.htm",
-          "published": "Mon, 15 Jun 2026 03:29:46 EDT",
-          "summary": "Oxford physicists have created an entirely new type of Schrödinger’s cat-like quantum state using components that are themselves highly quantum in nature. The advance could open new possibilities for more resilient quantum computers and deeper insights into the strange rules that govern the quantum universe.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries highlight advancements in regenerative medicine, species adaptation, and environmental conservation efforts.",
-        "summary": "Today's science headlines feature breakthroughs in regenerative capabilities in mammals, the discovery of a spider mimicking fungus, and digital preservation efforts for endangered species. Other notable findings include new insights into alien signals, the behavior of unique materials, and the complexities of chronic wasting disease. Additionally, researchers are uncovering the mysteries of food chemistry and the precision of honey bee flight paths, while advancements in quantum physics continue to challenge our understanding of the universe.",
+        "key_takeaway": "Recent studies highlight significant findings in climate data accuracy, ancient diseases, regenerative biology, and potential breakthroughs in material science and conservation efforts.",
+        "summary": "Today's science headlines cover a range of topics, including concerns over the accuracy of a climate emissions database, the historical presence of plague, advancements in regenerative medicine, and discoveries in material science and conservation. Notably, researchers have identified major errors in the Climate TRACE database, revealing underreported carbon emissions. Additionally, ancient DNA analysis shows that plague existed 5,500 years ago, while scientists are exploring human regenerative capabilities. Other highlights include the discovery of a spider that mimics fungus, insights into earthquake risks in California, and new theories regarding cosmic memory and dark matter.",
         "key_themes": [
-          "regenerative medicine breakthroughs",
-          "species adaptation discoveries",
-          "environmental conservation technology",
-          "food chemistry research",
-          "quantum physics advancements"
+          "climate change data accuracy",
+          "ancient diseases and plague",
+          "human regenerative abilities",
+          "material science breakthroughs",
+          "conservation of endangered species"
         ],
         "notable_headlines": [
           {
+            "headline": "Major errors found in Al Gore-founded Climate TRACE database",
+            "why_it_matters": "The findings raise concerns about the reliability of emissions data used for climate policy and action.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Ancient DNA reveals plague was already killing humans 5,500 years ago",
+            "why_it_matters": "This discovery alters our understanding of the history of infectious diseases and their impact on early human populations.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Humans may have hidden regenerative powers",
-            "why_it_matters": "This research could lead to significant advancements in medical treatments for injuries and amputations.",
+            "why_it_matters": "Unlocking regenerative capabilities could revolutionize medicine and treatment for injuries.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover spider that disguises itself as a parasitic fungus",
-            "why_it_matters": "Understanding this adaptation can provide insights into evolutionary biology and predator-prey dynamics.",
+            "why_it_matters": "This discovery adds to our understanding of evolutionary adaptations and predator-prey interactions.",
             "signal": "Opportunity"
           },
           {
-            "headline": "On the brink of extinction, the vaquita gets a digital lifeline",
-            "why_it_matters": "Digital preservation may aid in conservation efforts for critically endangered species.",
-            "signal": "Opportunity"
+            "headline": "Scientists discover an earthquake gate as California faults reach their highest stress levels in 1,000 years",
+            "why_it_matters": "Understanding fault stress levels is crucial for earthquake preparedness and risk assessment.",
+            "signal": "Risk"
           },
           {
-            "headline": "Alien messages may have reached Earth without us realizing it",
-            "why_it_matters": "This study could reshape our understanding of extraterrestrial communication and signal detection.",
+            "headline": "Could cosmic memory explain dark matter, dark energy, and black holes?",
+            "why_it_matters": "This theory could provide new insights into fundamental questions in physics and cosmology.",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Scientists found a way to explain bird flocks that 'defy' Newton’s third law",
-            "why_it_matters": "This could enhance our understanding of complex systems in nature and improve modeling techniques.",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of regenerative medicine techniques is expected to be published.",
-            "More details on the implications of the spider's disguise may emerge.",
-            "Updates on the vaquita conservation efforts are anticipated."
+            "Further analysis of the Climate TRACE database may be released.",
+            "More studies on ancient diseases could emerge as researchers continue their investigations.",
+            "Updates on regenerative medicine research may be forthcoming."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions about the implications of chronic wasting disease findings.",
-            "New research on food chemistry may be released, shedding light on nutritional dark matter.",
-            "Further studies on quantum physics advancements could be forthcoming."
+            "Anticipated discussions on climate policy may arise in light of the database findings.",
+            "Further research on earthquake risks in California may lead to new safety recommendations.",
+            "New theories on cosmic memory may be explored in upcoming physics conferences."
           ],
           "watch_list": [
-            "Monitor developments in regenerative medicine research.",
-            "Keep an eye on conservation efforts for the vaquita and other endangered species.",
-            "Watch for new insights into food chemistry and its health implications.",
-            "Follow updates on the search for extraterrestrial signals."
+            "Monitoring developments in regenerative medicine research.",
+            "Following updates on the vaquita conservation efforts.",
+            "Keeping an eye on new findings related to chronic wasting disease.",
+            "Observing advancements in material science and their applications."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates varying levels of optimism and concern across different studies.",
-          "Some findings may require further validation before practical applications can be realized."
+          "The accuracy of the Climate TRACE database findings is still under investigation.",
+          "The implications of ancient diseases on modern health are not fully understood.",
+          "The potential for human regenerative abilities is still in early research stages."
         ],
         "related_topics": [
-          "What are the latest advancements in regenerative medicine?",
-          "How do species adapt to their environments?",
-          "What is the significance of digital preservation in conservation?",
-          "What new discoveries have been made in food chemistry?",
-          "How does quantum physics challenge our understanding of reality?"
+          "What are the latest findings on climate change data accuracy?",
+          "How did ancient diseases like plague affect early humans?",
+          "What advancements are being made in regenerative medicine?",
+          "What new discoveries have been made in material science?",
+          "How can we better conserve endangered species like the vaquita?"
         ]
       },
-      "tweet_text": "Unlock the secrets of regeneration, decode alien whispers, and discover a spider's clever...\n\nScience Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Found #Hidden #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A shocking twist in climate data, ancient plagues, and a spider in disguise—science just got weirder!\n\nScience Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Dark #Discover #Humans #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
