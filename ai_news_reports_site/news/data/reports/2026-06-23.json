@@ -1,9 +1,10 @@
 {
   "date": "2026-06-23",
-  "generated_at_utc": "2026-06-23T16:23:30Z",
+  "generated_at_utc": "2026-06-24T00:06:11Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "price",
     "deal"
   ],
   "categories": {
@@ -16,16 +17,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2284,
+        "score": -0.2095,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.381, dampened ×0.6 → -0.2284). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.349, dampened ×0.6 → -0.2095). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Drowning deaths soar in France as Europe buckles in peak of heatwave",
           "url": "https://www.bbc.co.uk/news/articles/c79yvw3j114o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 23 Jun 2026 14:37:11 GMT",
+          "published": "Tue, 23 Jun 2026 16:27:17 GMT",
           "summary": "Forty people have drowned in heatwave-related deaths in France since last Thursday, Prime Minister Sébastien Lecornu says.",
+          "source": "BBC News"
+        },
+        {
+          "title": "UN says it will evacuate sailors stranded in Strait of Hormuz, as Rubio warns against tolls",
+          "url": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 23 Jun 2026 21:04:11 GMT",
+          "summary": "US Secretary of State Marco Rubio warned Iran that no country can charge fees for ships to travel through the strait.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Israeli troops kill two in south Lebanon after lull in fighting, authorities say",
+          "url": "https://www.bbc.co.uk/news/articles/c36ykpw0yego?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 23 Jun 2026 16:47:45 GMT",
+          "summary": "Israel's military says the two men were Hezbollah operatives, but the Iran-backed group accuses it of a ceasefire violation.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Germany rail network briefly halted nationwide due to IT malfunction",
+          "url": "https://www.bbc.co.uk/news/articles/crm0ek4z7ggo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 23 Jun 2026 23:46:01 GMT",
+          "summary": "Rail company Deutsche Bahn had to pause train services across the country for more than two-and-a-half hours.",
           "source": "BBC News"
         },
         {
@@ -33,13 +55,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cx23rnzdgl8o?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 23 Jun 2026 14:55:31 GMT",
           "summary": "Traffic in the waterway has risen since the US and Iran signed a deal aimed at ending the war, including 42 ships on Saturday alone.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Iran says no new commitments on nuclear sites after Vance says inspectors to be invited back",
-          "url": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 23 Jun 2026 12:14:58 GMT",
-          "summary": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland.",
           "source": "BBC News"
         },
         {
@@ -52,8 +67,15 @@
         {
           "title": "Zambia ex-president's family wins latest legal battle over what should happen to his body",
           "url": "https://www.bbc.co.uk/news/articles/c8r2yryr5mvo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 23 Jun 2026 12:02:29 GMT",
-          "summary": "Edgar Lungu's family and the Zambian government remain in dispute 12 months after he died.",
+          "published": "Tue, 23 Jun 2026 17:30:44 GMT",
+          "summary": "Edgar Lungu's family and the Zambian government remained in dispute 12 months after he died.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Chinese e-commerce giant Alibaba sues US government over defence blacklist",
+          "url": "https://www.bbc.co.uk/news/articles/ckg0258vpvqo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 23 Jun 2026 23:25:07 GMT",
+          "summary": "It is suing the US defence department after it was added to a list of firms with ties to the Chinese military.",
           "source": "BBC News"
         },
         {
@@ -67,7 +89,7 @@
           "title": "US top court says Rastafarian man cannot sue prison guards who cut his dreadlocks",
           "url": "https://www.bbc.co.uk/news/articles/cx247v39r1no?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 23 Jun 2026 15:57:29 GMT",
-          "summary": "The Rastafarian man argued his religious rights were violated after prison officials focibly shaved off his hair.",
+          "summary": "The former Louisiana inmate argued his Rastafarian faith was violated after prison officials focibly shaved off his hair.",
           "source": "BBC News"
         },
         {
@@ -83,98 +105,80 @@
           "published": "Tue, 23 Jun 2026 10:27:04 GMT",
           "summary": "Abelardo de la Espriella, who preliminary results suggest is Colombia's next president, had Trump's endorsement.",
           "source": "BBC News"
-        },
-        {
-          "title": "Montreal shooting leaves officer, civilian and suspect dead",
-          "url": "https://www.bbc.co.uk/news/articles/c5yz3lv015qo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 23 Jun 2026 08:36:38 GMT",
-          "summary": "It was the first time in 24 years that a Montreal police officer was killed in the line of duty, the city's police chief said.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ransom note claims Nancy Guthrie died after abduction",
-          "url": "https://www.bbc.co.uk/news/articles/cvgm0mgzl33o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 23 Jun 2026 13:27:12 GMT",
-          "summary": "The note from the possible kidnappers reportedly stated that they did not mean for her to die and included an apology to the family.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Dettol apologises after ad to clean up 'toxic men' backfires in China",
-          "url": "https://www.bbc.co.uk/news/articles/ced4vq6zylpo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 23 Jun 2026 08:05:07 GMT",
-          "summary": "The ad sparked accusations of sexism in China, after featuring a man looking for a partner who is \"not tainted by other men\".",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Drowning deaths in France rise amid a severe heatwave, while geopolitical tensions persist with Iran and Israel facing scrutiny over their actions.",
-        "summary": "Today's headlines highlight a tragic increase in drowning deaths in France due to a heatwave, ongoing geopolitical tensions involving Iran and Israel, and various legal and social issues across the globe. The situation in Gaza has drawn serious allegations from a UN commission, while a legal dispute in Zambia continues over the late ex-president's remains. In the US, a Supreme Court ruling affects a Rastafarian man's rights, and a Montreal shooting results in multiple fatalities, marking a significant event for local law enforcement. Additionally, the Irish government is investing in cross-border rail services, and Trump expresses optimism about future relations with Colombia under its new leadership.",
+        "key_takeaway": "Drowning deaths in France rise sharply amid a heatwave, while tensions continue in the Middle East and legal disputes unfold in Zambia and the US.",
+        "summary": "Today's news highlights a significant increase in drowning deaths in France due to a heatwave, ongoing tensions in the Middle East with military actions and diplomatic warnings, and various legal and political developments in Zambia and the US.",
         "key_themes": [
-          "Heatwave impact on public safety",
-          "Geopolitical tensions in the Middle East",
-          "Legal disputes in Zambia",
-          "US Supreme Court rulings on religious rights",
-          "Investments in cross-border infrastructure"
+          "heatwave impact in Europe",
+          "Middle East military tensions",
+          "Zambia legal disputes",
+          "US-China relations",
+          "Irish government funding for rail services"
         ],
         "notable_headlines": [
           {
             "headline": "Drowning deaths soar in France as Europe buckles in peak of heatwave",
-            "why_it_matters": "The rise in drowning deaths highlights the severe impact of extreme weather conditions on public safety.",
+            "why_it_matters": "The rising number of drownings underscores the severe impact of extreme weather conditions in Europe.",
             "signal": "Risk"
           },
           {
-            "headline": "Dozens of ships head through Strait of Hormuz after US-Iran deal",
-            "why_it_matters": "Increased maritime traffic indicates a potential easing of tensions in the region following diplomatic efforts.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "UN commission of inquiry says Israel committing genocide in Gaza by deliberately targeting children",
-            "why_it_matters": "The report raises significant international legal and humanitarian concerns regarding the conflict in Gaza.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Zambia ex-president's family wins latest legal battle over what should happen to his body",
-            "why_it_matters": "The ongoing dispute reflects deeper political and social issues within Zambia following the former president's death.",
+            "headline": "UN says it will evacuate sailors stranded in Strait of Hormuz, as Rubio warns against tolls",
+            "why_it_matters": "This situation highlights ongoing geopolitical tensions in a critical maritime route.",
             "signal": "Unclear"
           },
           {
-            "headline": "Montreal shooting leaves officer, civilian and suspect dead",
-            "why_it_matters": "This incident marks a tragic milestone for Montreal's police force, raising concerns about public safety.",
+            "headline": "Israeli troops kill two in south Lebanon after lull in fighting, authorities say",
+            "why_it_matters": "This incident raises concerns about the stability of the ceasefire and ongoing violence in the region.",
             "signal": "Risk"
+          },
+          {
+            "headline": "Germany rail network briefly halted nationwide due to IT malfunction",
+            "why_it_matters": "The disruption reflects vulnerabilities in infrastructure and technology management.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "UN commission of inquiry says Israel committing genocide in Gaza by deliberately targeting children",
+            "why_it_matters": "The report adds to the international scrutiny of Israel's actions in Gaza, complicating diplomatic relations.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Chinese e-commerce giant Alibaba sues US government over defence blacklist",
+            "why_it_matters": "This legal action could have implications for US-China trade relations and corporate governance.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the impact of the heatwave in Europe and potential government responses.",
-            "Observing developments in US-Iran relations following the recent maritime activity.",
-            "Following the legal proceedings related to the UN report on Gaza."
+            "Monitoring the response to the rising drowning deaths in France and potential government actions.",
+            "Observing developments in the Strait of Hormuz following US-Iran agreements.",
+            "Tracking the situation in Lebanon for further military escalations."
           ],
           "next_1_4_weeks": [
-            "Anticipating further discussions on international responses to the situation in Gaza and Israel.",
-            "Watching for updates on the political landscape in Zambia and its implications for governance.",
-            "Evaluating the implications of the US Supreme Court ruling on religious rights for future cases."
+            "Expect ongoing discussions regarding the UN's findings on Israel and Gaza.",
+            "Watch for potential legal outcomes from Alibaba's lawsuit against the US government.",
+            "Anticipate further developments in Zambia's political and legal disputes."
           ],
           "watch_list": [
-            "The effectiveness of the US-Iran deal on regional stability.",
-            "Public health responses to the heatwave in Europe.",
-            "The legal ramifications of the UN report on Israel.",
-            "Political developments in Colombia under new leadership."
+            "Heatwave effects on public safety in Europe.",
+            "Middle East military engagements and ceasefire negotiations.",
+            "Legal implications of US-China relations on businesses.",
+            "Zambia's political landscape following the ex-president's legal battles."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Gaza remains fluid and may evolve rapidly.",
-          "The implications of the US-Iran deal are still uncertain and may take time to materialize. "
+          "The situation in the Middle East remains fluid and could change rapidly.",
+          "Legal disputes may take time to resolve and could have varying outcomes."
         ],
         "related_topics": [
-          "What are the latest developments in the Gaza conflict?",
-          "How is the heatwave affecting Europe?",
-          "What legal issues are arising in Zambia?",
-          "What is the status of US-Iran relations?",
-          "What happened in the Montreal shooting incident?"
+          "What is causing the rise in drowning deaths in France?",
+          "Latest updates on the Middle East tensions and ceasefire agreements.",
+          "What are the implications of Alibaba's lawsuit against the US government?"
         ]
       },
-      "tweet_text": "As Europe swelters, tragic drowning deaths soar in France—heatwave horror strikes hard.\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#197m #Australia #Battle #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "As Europe swelters, tragedy strikes in France while tensions escalate in the Middle East—world on the brink.\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hormuz #Strait #Against #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -194,7 +198,7 @@
           "title": "US AI stock sell-off shakes markets from Wall Street to Asia",
           "url": "https://www.theguardian.com/business/2026/jun/23/ai-stocks-sell-off-us-markets",
           "published": "Tue, 23 Jun 2026 14:16:24 GMT",
-          "summary": "<p>Losses spread globally as investors questioned soaring valuations and spending on AI infrastructure</p><p>A tech sell-off shook global markets on Tuesday as attention turned away from developments in the US war with Iran and toward the future of <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> companies and chipmakers that have driven stock markets to record highs.</p><p>The tech-heavy Nasdaq index opened 2% lower on Tuesday. The Dow and S&amp;P 500 were also d",
+          "summary": "<p>Losses spread globally as investors questioned soaring valuations and spending on AI infrastructure</p><p>A tech sell-off shook global markets on Tuesday as attention turned away from developments in the US war with Iran and toward the future of <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> companies and chipmakers that have driven stock markets to record highs.</p><p>The tech-heavy Nasdaq index closed 2.2% lower on Tuesday. The S&amp;P 500 was also down by",
           "source": "The Guardian"
         },
         {
@@ -276,75 +280,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "A global sell-off in AI stocks has raised concerns about market valuations and economic uncertainty, impacting investor confidence across multiple sectors.",
-        "summary": "Today's business news highlights a significant sell-off in AI stocks that has affected global markets, particularly in the US. This downturn has led to a questioning of the high valuations associated with AI companies and their infrastructure investments. Additionally, California's proposed billionaire tax faces uncertainty despite sufficient signatures for a ballot. Other notable stories include a lawsuit against gas stations for alleged price manipulation using AI, the death of former Federal Reserve chair Alan Greenspan, and a decline in small-business optimism amid rising costs.",
+        "key_takeaway": "Global markets experienced a sell-off in AI stocks, raising concerns about valuations and economic uncertainty, while California faces legal challenges over gas prices and a proposed billionaire tax.",
+        "summary": "Today's business news highlights a significant sell-off in AI stocks that affected global markets, particularly in the US and Asia. Investors are increasingly questioning the sustainability of high valuations in the tech sector. In California, a proposed billionaire tax is facing uncertainty despite sufficient signatures for a ballot. Additionally, gas station operators are being sued for allegedly using AI to inflate prices, reflecting broader concerns about inflation and market practices. The death of former Federal Reserve Chair Alan Greenspan at age 100 has also drawn attention, alongside rising job scams and declining small-business optimism amid economic pressures.",
         "key_themes": [
           "AI stock market trends",
           "California billionaire tax proposal",
-          "impact of inflation on small businesses",
-          "lawsuit against gas stations for price manipulation",
-          "Alan Greenspan's legacy in economics"
+          "gas price inflation lawsuit",
+          "impact of Alan Greenspan's death",
+          "small business optimism decline"
         ],
         "notable_headlines": [
           {
             "headline": "US AI stock sell-off shakes markets from Wall Street to Asia",
-            "why_it_matters": "The sell-off reflects investor concerns over AI valuations and market stability, impacting global financial confidence.",
+            "why_it_matters": "The sell-off indicates growing investor skepticism about AI valuations and could signal broader economic concerns.",
             "signal": "Risk"
           },
           {
             "headline": "Will California’s billionaire tax proposal make it to ballots?",
-            "why_it_matters": "The outcome could influence tax policy and economic equity discussions in California.",
+            "why_it_matters": "The outcome could significantly impact tax policy and wealth distribution in California.",
             "signal": "Unclear"
           },
           {
             "headline": "California drivers sue gas stations for allegedly using AI to inflate prices",
-            "why_it_matters": "This lawsuit could set a precedent for how AI is regulated in pricing strategies across industries.",
+            "why_it_matters": "This lawsuit could set a precedent for how AI is regulated in pricing practices.",
             "signal": "Risk"
           },
           {
             "headline": "Alan Greenspan, longtime head of the US federal reserve, dies aged 100",
-            "why_it_matters": "Greenspan's death marks the end of an era in US monetary policy, impacting economic discourse.",
+            "why_it_matters": "Greenspan's legacy continues to influence economic policy and discussions on monetary policy.",
             "signal": "Unclear"
           },
           {
             "headline": "US small-business optimism plummets",
-            "why_it_matters": "Declining optimism among small businesses indicates broader economic challenges and potential impacts on employment.",
+            "why_it_matters": "Declining optimism among small businesses may indicate broader economic challenges ahead.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor market reactions to AI stock performance and investor sentiment.",
-            "Watch for updates on the California billionaire tax proposal's ballot status.",
-            "Keep an eye on developments regarding the lawsuit against gas stations."
+            "Market reactions to AI stock performance will be closely monitored.",
+            "Updates on the California billionaire tax proposal are expected as discussions continue.",
+            "Further developments in the gas price lawsuit may emerge."
           ],
           "next_1_4_weeks": [
-            "Assess the long-term impacts of Alan Greenspan's death on economic policy discussions.",
-            "Evaluate the effects of inflation on small business operations and employment rates.",
-            "Observe trends in AI stock valuations and their influence on market stability."
+            "Continued volatility in tech stocks is likely as investors reassess valuations.",
+            "Potential legislative actions regarding the billionaire tax in California may unfold.",
+            "Economic indicators may provide insights into small business sentiment."
           ],
           "watch_list": [
-            "California billionaire tax proposal outcomes",
             "AI stock market trends",
-            "Impact of inflation on small businesses",
-            "Legal implications of AI in pricing strategies",
-            "Public response to job scams and employment fraud"
+            "California tax policy developments",
+            "gas price inflation lawsuits",
+            "impact of Greenspan's legacy on current economic policy",
+            "small business economic indicators"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Market reactions can be volatile and influenced by external factors such as geopolitical events.",
-          "The outcome of the billionaire tax proposal remains uncertain and could change based on political developments."
+          "Market reactions can be unpredictable and influenced by external factors.",
+          "Legal outcomes regarding the billionaire tax and gas price lawsuits are uncertain. "
         ],
         "related_topics": [
           "What are the latest trends in AI stock markets?",
-          "How is inflation affecting small businesses in the US?",
-          "What is the status of California's billionaire tax proposal?",
-          "What are the legal implications of AI in pricing strategies?",
-          "How did Alan Greenspan influence US monetary policy?"
+          "Updates on California's billionaire tax proposal",
+          "How are gas prices being affected by AI?",
+          "Impact of Alan Greenspan's death on economic policy",
+          "Current state of small business optimism in the US"
         ]
       },
-      "tweet_text": "Wall Street trembles as AI stocks tumble, while a billionaire tax showdown looms over California's ballot!\n\nBusiness Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Markets #Advocates #Aged #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Markets tremble as AI stocks plummet—are we witnessing the dawn of a new economic crisis?\n\nBusiness Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Markets #Advocates #Aged #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -355,163 +359,151 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.3057,
+        "score": 0.3124,
         "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.509, dampened ×0.6 → +0.3057). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.521, dampened ×0.6 → +0.3124). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Here are the best Prime Day deal on the Verge staff’s favorite stuff",
-          "url": "https://www.theverge.com/gadgets/952503/best-prime-day-deals-verge-favorites-2026",
-          "published": "2026-06-23T12:00:00-04:00",
-          "summary": "While there are several thousand products discounted for Prime Day 2026, most of them aren’t what we’d call winners. We’ve already gathered the best Prime Day deals in our main roundup, but we’re dedicating this page to discounts on Verge-favorite items to help you find useful gear, whether it’s tech-adjacent or not. We’re covering Prime [&#8230;]",
+          "title": "The Nex Playground is down to its pre-RAMageddon price during Prime Day",
+          "url": "https://www.theverge.com/gadgets/950871/nex-playground-prime-day-deal-sale",
+          "published": "2026-06-23T19:00:00-04:00",
+          "summary": "The Nex Playground is the family-centric, Kinect-like game console that made one Verge editor’s kids laugh, cry, and ask for more playtime, even when they were sick. The motion-based game play isn’t perfect, but it has won over plenty of parents — and it’s on sale for $239 at Amazon, down from its current MSRP [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Netflix’s next TV gaming experiment will scare the hell out of you",
-          "url": "https://www.theverge.com/entertainment/953933/unhinged-netflix-horror-tv-game",
-          "published": "2026-06-23T12:00:00-04:00",
-          "summary": "As part of the latest evolution of its gaming initiative, Netflix has made a big push into cloud-based games you can play on your TV, much in the same way you'd watch a movie or show on the service. So far, these games have been pretty tame. Things like trivia, party games, and a weirdly [&#8230;]",
+          "title": "Google Home will soon get better at recognizing you",
+          "url": "https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing",
+          "published": "2026-06-23T18:28:19-04:00",
+          "summary": "A new update for Google Home could make it less likely your smart home cameras mistake you for someone else, just because you're facing away from the camera. Starting June 23rd, Google's expanding its facial recognition feature so that people you've tagged in your Familiar Faces library can continue to be identified when their faces [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Something&#8217;s off with Midjourney’s pivot to body scanners",
-          "url": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
-          "published": "2026-06-23T11:56:35-04:00",
-          "summary": "Last week, Midjourney, an AI startup best known for its image generator, made an unusual pivot: medical imaging. The company announced a futuristic ultrasound scanner that would dunk users into a vat of water and, hopefully, produce \"something as powerful as MRI\" yet \"as casual as a trip to the spa.\" Midjourney says the goal [&#8230;]",
+          "title": "Hollywood is bending the knee to OpenAI",
+          "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
+          "published": "2026-06-23T18:03:18-04:00",
+          "summary": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi are still said to be interested in the film, this situation makes it seem [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Meta’s smart glasses now have a dedicated charging stand",
-          "url": "https://www.theverge.com/tech/954900/meta-glasses-charging-stand-price-launch",
-          "published": "2026-06-23T11:39:38-04:00",
-          "summary": "Meta launched a stand accessory that lets you display the company's smart glasses on your desk or nightstand while they're being recharged. The new Charging Stand is listed at $59 on Meta's website - $30 less than the charging case for Meta's non-Ray-Ban glasses - and resembles a metal tube with a groove you can [&#8230;]",
+          "title": "Prime Day takes $240 off Roborock’s Saros 20, one of our favorite robovacs",
+          "url": "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale",
+          "published": "2026-06-23T17:00:00-04:00",
+          "summary": "The best robot vacuums are the ones you barely have to think about, and the Roborock Saros 20 fits that description well. It&#8217;s why it&#8217;s one of our favorite robovac / mop hybrids, and thanks to Prime Day, you can get it on sale at Amazon and Roborock for $1,359.99 ($240 off), a new low [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "How much would the Steam Machine cost to build?",
-          "url": "https://www.theverge.com/games/953989/valve-steam-machine-pc-build-alternative",
-          "published": "2026-06-23T11:30:00-04:00",
-          "summary": "The Steam Machine is here, with a base price of $1,049. Yes, that's nearly twice the price of a PS5, but what you're buying here isn't a console but a full-on PC - and a tiny one at that. Valve says it's selling the Steam Machine basically at cost. So we asked ourselves: What would [&#8230;]",
+          "title": "The Meta Quest 3S is on sale for $297 — which is basically its old price",
+          "url": "https://www.theverge.com/gadgets/954049/meta-quest-3s-vr-headset-prime-day-deal-sale",
+          "published": "2026-06-23T17:00:00-04:00",
+          "summary": "The Meta Quest 3S VR headset with 128GB of storage is $296.79 (about $53 off) at Amazon. This is Meta&#8217;s entry-level VR headset, which launched back in 2024 for $299.99 before getting a price increase this year to $349.99. So it&#8217;s not exactly the most exciting deal, but it&#8217;s about as good as you’re likely [&#8230;]",
           "source": "The Verge"
         },
         {
           "title": "The best Prime Day deals we found on our favorite gear",
           "url": "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale",
-          "published": "2026-06-23T11:12:52-04:00",
+          "published": "2026-06-23T16:59:34-04:00",
           "summary": "Amazon’s Prime Day is on, and it’s happening for the next four days. Prime members can jump into the deals now until the sale officially ends at 3:01AM ET / 12:01AM PT June 27th. Many discounts will remain the same throughout the duration. We’ve been covering Prime Day in-depth since the shopping event debuted over [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Fitbit Air takes a smarter approach to the AI health dumpster fire",
-          "url": "https://www.theverge.com/tech/954768/google-fitbit-air-review-fitness-tracker-wearable-ai-health-coach",
-          "published": "2026-06-23T11:00:00-04:00",
-          "summary": "Google Health Coach seems to think I'm on the verge of physical collapse. My sleep is not where it needs to be, hence my unimpressive readiness score. My heart rate variability, a measure of how recovered I am, is below baseline. I'm spending too much time in a hot, humid environment, it says, reminding me [&#8230;]",
+          "title": "Xteink’s tiny e-readers are 20 percent off for Prime Day",
+          "url": "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale",
+          "published": "2026-06-23T16:11:24-04:00",
+          "summary": "The Xteink X4 and smaller X3 e-readers are discounted to $55.20 (regularly $69) and $63.20 (normally $79), respectively, as part of Amazon’s Prime Day promotions this week. Both e-readers are significantly smaller and more pocketable than any of the Kindle and Kobo models currently available, and feature magnetic mounts so they can be stuck to [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Hoto’s 25-bit electric screwdriver is 40 percent off during Prime Day",
-          "url": "https://www.theverge.com/gadgets/953038/hoto-electric-screwdriver-kit-pro-amazon-deal-sale",
-          "published": "2026-06-23T10:00:00-04:00",
-          "summary": "You knew there’d be a Hoto deal, right? Whether you&#8217;re moving into a new apartment or tackling a growing list of small repairs around the house, a good electric screwdriver can save you time and effort. Hoto’s 3.6V Electric Screwdriver Kit Pro is one we love to recommend, especially because it&#8217;s on sale for $28.49 [&#8230;]",
+          "title": "Prime Day has some solid deals on Switch 2, PS5, and Xbox games",
+          "url": "https://www.theverge.com/gadgets/951901/prime-day-video-games-switch-playstation-xbox-pc-deal-sale",
+          "published": "2026-06-23T16:00:00-04:00",
+          "summary": "There are some some sizable discounts on new and recent hits from the last few years for the Nintendo Switch 2, PlayStation 5, and the Xbox Series X / S for Prime Day. Most Amazon game deals are physical copies, but every so often there’s a better or equivalent price on digital versions, as well [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Oura Ring 4 is as low as $226 for Prime Day",
-          "url": "https://www.theverge.com/gadgets/953517/oura-ring-4-prime-day-smart-ring-deal-sale",
-          "published": "2026-06-23T09:30:00-04:00",
-          "summary": "Yes, the Oura Ring 5 just launched. But if you’re looking for a bargain and don’t mind a slightly thicker smart ring, then copping the last-gen Oura Ring 4 is still a smart and savvy move. Especially since the price is as low as $226 in most sizes and color schemes at Amazon for Prime [&#8230;]",
+          "title": "Prime Day has served up several great deals on 4K TVs",
+          "url": "https://www.theverge.com/gadgets/952282/best-4k-tv-deals-amazon-prime-day-sale",
+          "published": "2026-06-23T15:30:00-04:00",
+          "summary": "There are three times of year that are best for buying a new TV: leading up to the Super Bowl, Black Friday, and of course now, during Amazon Prime Day. Many of the new 2026 models have been released, and while some will be seeing discounts, the majority of the best deals are going to [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Sony’s AI Camera Assistant is exactly as bad as it looks",
-          "url": "https://www.theverge.com/tech/954676/sony-xperia-1-viii-ai-camera-assistant",
-          "published": "2026-06-23T09:25:42-04:00",
-          "summary": "When Sony announced the Xperia 1 VIII last month, it promoted the phone by sharing some of the worst photos taken on a Sony camera in years. These weren't just any photos, though: they were taken with Sony's new AI Camera Assistant. After a week with the Xperia 1 VIII, I'm here to tell you [&#8230;]",
+          "title": "Tesla claims driver &#8216;manually overrode self-driving&#8217; in deadly Texas crash",
+          "url": "https://www.theverge.com/transportation/955153/tesla-full-self-driving-texas-crash",
+          "published": "2026-06-23T15:11:04-04:00",
+          "summary": "Tesla is pushing back on claims that its Full Self-Driving (FSD) system caused a fatal Texas crash, where a speeding Model 3 barreled into a home, killing a 76-year-old woman inside. In a reply on X, Tesla AI head Ashok Elluswamy says the driver \"manually overrode self-driving by pressing the accelerator all the way to [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Amazon's Prime Day features significant discounts on tech products, while Netflix explores cloud gaming with a horror twist and Midjourney pivots to medical imaging.",
-        "summary": "Today's technology news highlights Amazon's Prime Day with various deals on gadgets, Netflix's new horror-themed gaming initiative, and Midjourney's controversial shift to medical imaging technology. Additionally, Meta introduces a charging stand for its smart glasses, and the Oura Ring 4 sees a price drop. Meanwhile, concerns arise over the performance of Sony's AI Camera Assistant.",
+        "key_takeaway": "Amazon's Prime Day features significant discounts on various tech products, while Google Home enhances its facial recognition capabilities.",
+        "summary": "Today's technology news highlights Amazon's Prime Day with notable discounts on gadgets, including the Nex Playground and Roborock's Saros 20. Google Home is set to improve its facial recognition features, and Tesla responds to claims regarding a fatal crash involving its self-driving technology. Additionally, Hollywood's interest in AI-related projects appears to be waning, as major studios pass on a film about OpenAI's co-founder.",
         "key_themes": [
-          "Amazon Prime Day tech deals",
-          "Netflix cloud gaming",
-          "Midjourney medical imaging",
-          "Meta smart glasses charging stand",
-          "Oura Ring 4 discount",
-          "Sony AI Camera Assistant review"
+          "Amazon Prime Day discounts",
+          "Google Home updates",
+          "Tesla self-driving controversy",
+          "Hollywood and AI",
+          "Robotic vacuum sales"
         ],
         "notable_headlines": [
           {
-            "headline": "Here are the best Prime Day deal on the Verge staff’s favorite stuff",
-            "why_it_matters": "Highlights the best tech deals available during Amazon's Prime Day, helping consumers make informed purchasing decisions.",
+            "headline": "The Nex Playground is down to its pre-RAMageddon price during Prime Day",
+            "why_it_matters": "The Nex Playground's price drop during Prime Day makes it more accessible for families looking for interactive gaming options.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Netflix’s next TV gaming experiment will scare the hell out of you",
-            "why_it_matters": "Shows Netflix's innovative approach to gaming by integrating horror elements into its cloud gaming service.",
+            "headline": "Google Home will soon get better at recognizing you",
+            "why_it_matters": "The update to Google Home's facial recognition could enhance user experience and security in smart homes.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Something’s off with Midjourney’s pivot to body scanners",
-            "why_it_matters": "Raises questions about the viability and evidence behind Midjourney's new medical imaging technology.",
+            "headline": "Hollywood is bending the knee to OpenAI",
+            "why_it_matters": "The decision by major studios to pass on an AI-related film indicates a cautious approach towards AI in the entertainment industry.",
             "signal": "Risk"
           },
           {
-            "headline": "Meta’s smart glasses now have a dedicated charging stand",
-            "why_it_matters": "Introduces a new accessory that enhances the usability of Meta's smart glasses, potentially increasing consumer interest.",
+            "headline": "Prime Day takes $240 off Roborock’s Saros 20, one of our favorite robovacs",
+            "why_it_matters": "Significant discounts on popular robotic vacuums during Prime Day could drive sales and consumer interest.",
             "signal": "Opportunity"
           },
           {
-            "headline": "The best Prime Day deals we found on our favorite gear",
-            "why_it_matters": "Provides a curated list of valuable discounts, aiding consumers in navigating the vast Prime Day offerings.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The Fitbit Air takes a smarter approach to the AI health dumpster fire",
-            "why_it_matters": "Examines the effectiveness of Google's health tracking technology amidst concerns about AI in health applications.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Sony’s AI Camera Assistant is exactly as bad as it looks",
-            "why_it_matters": "Critiques the performance of Sony's AI Camera Assistant, impacting consumer perception of the Xperia 1 VIII.",
+            "headline": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash",
+            "why_it_matters": "Tesla's defense in the crash incident raises questions about the reliability and safety of self-driving technology.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor ongoing Prime Day deals for additional tech discounts",
-            "Watch for consumer reactions to Netflix's horror gaming initiative",
-            "Follow developments in Midjourney's medical imaging technology"
+            "Monitor ongoing Prime Day deals for additional discounts on tech products.",
+            "Watch for updates on Google Home's facial recognition rollout.",
+            "Keep an eye on Tesla's response to the crash investigation."
           ],
           "next_1_4_weeks": [
-            "Evaluate the sales performance of new tech products launched during Prime Day",
-            "Assess user feedback on Netflix's gaming experiments",
-            "Observe market response to Meta's smart glasses and accessories"
+            "Observe trends in consumer electronics sales post-Prime Day.",
+            "Evaluate the impact of Hollywood's stance on AI-related projects on future productions.",
+            "Follow developments in self-driving technology regulations and safety discussions."
           ],
           "watch_list": [
-            "Prime Day tech deals",
-            "Netflix gaming updates",
-            "Midjourney medical imaging news",
-            "Meta smart glasses",
-            "Sony Xperia 1 VIII reviews"
+            "Upcoming tech product launches and announcements.",
+            "Consumer feedback on new Google Home features.",
+            "Sales performance of discounted products during Prime Day.",
+            "Legal outcomes related to Tesla's self-driving claims."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The effectiveness of Midjourney's medical imaging technology remains uncertain and requires further validation.",
-          "Consumer reactions to new tech products may vary widely, impacting sales and market trends."
+          "The sentiment score indicates a generally positive tone, but individual headlines may vary in significance.",
+          "Discounts during Prime Day may not reflect long-term price changes."
         ],
         "related_topics": [
-          "What are the best Prime Day tech deals",
-          "How is Netflix innovating in gaming",
-          "What is Midjourney's new medical imaging technology",
-          "Meta smart glasses features and accessories",
-          "Sony Xperia 1 VIII camera performance review"
+          "What are the best Prime Day tech deals?",
+          "How is Google Home improving its features?",
+          "What is the latest on Tesla's self-driving technology?",
+          "Hollywood's response to AI in film projects",
+          "Discounts on robotic vacuums during Prime Day"
         ]
       },
-      "tweet_text": "Uncover the wildest Prime Day steals and tech twists that will leave you questioning reality!\n\nTechnology Sentiment: Positive (+0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prime #Best #Favorite #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Prime Day steals you can't afford to miss—your tech shopping spree starts now!\n\nTechnology Sentiment: Positive (+0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prime #Deals #Favorite #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -613,62 +605,62 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Giannis Antetokounmpo has been traded to the Miami Heat in a blockbuster deal, while Oklahoma wins its first Men's College World Series title since 1994.",
-        "summary": "Today's sports headlines highlight significant trades in the NBA, including Giannis Antetokounmpo moving to the Miami Heat and Julius Randle heading to the Nets. Additionally, Oklahoma clinched the Men's College World Series title, and France secured a World Cup victory against Iraq despite weather delays.",
+        "key_takeaway": "Giannis Antetokounmpo has been traded to the Miami Heat in a blockbuster deal, while Oklahoma clinched its first college baseball title since 1994.",
+        "summary": "Today's sports headlines focus on significant NBA trades, including Giannis Antetokounmpo moving to the Miami Heat and Julius Randle heading to the Nets. Additionally, Oklahoma won the Men's College World Series, marking its first title since 1994. In soccer, France and Norway secured victories in their World Cup matches, while MLB Commissioner Rob Manfred addressed communication issues regarding the Giants' Pride Night.",
         "key_themes": [
           "NBA trade analysis",
           "Men's College World Series recap",
-          "World Cup updates"
+          "World Cup match highlights"
         ],
         "notable_headlines": [
           {
             "headline": "Grades for both sides of the Giannis trade: Winner...",
-            "why_it_matters": "Analyzes the implications of Giannis Antetokounmpo's trade to Miami for both teams involved.",
+            "why_it_matters": "Analyzes the implications of Giannis Antetokounmpo's trade to the Heat for both teams involved.",
             "signal": "Unclear"
           },
           {
-            "headline": "Giannis traded to Heat: Everything we know about the move",
-            "why_it_matters": "Explores how Miami plans to utilize Giannis alongside Bam Adebayo and the impact on Milwaukee's future.",
-            "signal": "Opportunity"
-          },
-          {
             "headline": "OU caps improbable run with first title since '94",
-            "why_it_matters": "Highlights Oklahoma's victory in the Men's College World Series, marking a significant achievement for the program.",
+            "why_it_matters": "Highlights Oklahoma's victory in the Men's College World Series, showcasing their strong performance.",
             "signal": "Opportunity"
           },
           {
             "headline": "Mbappé makes it rain as storms delay France win",
-            "why_it_matters": "Details France's World Cup win against Iraq, showcasing Mbappé's performance amid weather interruptions.",
+            "why_it_matters": "Details France's World Cup victory over Iraq, emphasizing Mbappé's standout performance.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Haaland, Norway join 'viral' Viking Row after win",
+            "why_it_matters": "Celebrates Norway's progression in the World Cup following their win against Senegal.",
             "signal": "Opportunity"
           },
           {
             "headline": "Retired Poirier arrested; allegedly drunk in public",
-            "why_it_matters": "Reports on the arrest of retired MMA fighter Dustin Poirier, raising concerns about athlete conduct.",
+            "why_it_matters": "Reports on the arrest of retired MMA fighter Dustin Poirier, raising concerns about athlete behavior.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis on the Giannis trade's impact on the NBA landscape.",
+            "Further analysis on NBA trades and their impacts on team dynamics.",
             "Updates on the ongoing World Cup matches and player performances.",
-            "Reactions from fans and analysts regarding the trades and championship outcomes."
+            "Reactions to Oklahoma's championship win and its implications for college baseball."
           ],
           "next_1_4_weeks": [
-            "Anticipation for the NBA draft and potential trades leading up to it.",
-            "Continued coverage of the World Cup as teams progress to knockout stages.",
-            "In-depth features on the implications of Oklahoma's championship win."
+            "Anticipation builds for the NBA draft and potential trades leading up to it.",
+            "Monitoring the performance of teams in the World Cup knockout stages.",
+            "Expect discussions on the implications of Poirier's arrest for athlete conduct."
           ],
           "watch_list": [
-            "NBA draft predictions and trade rumors.",
-            "World Cup match schedules and results.",
-            "Updates on player conduct and legal issues in sports.",
-            "Analysis of team strategies post-Giannis trade."
+            "Upcoming NBA draft predictions and player evaluations.",
+            "World Cup match schedules and key player performances to watch.",
+            "Analysis of MLB's handling of player conduct and communication issues.",
+            "Oklahoma's future in college baseball following their championship win."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score reflects mixed feelings across the headlines, indicating a balance of positive and negative news.",
-          "Trade outcomes may take time to fully assess as teams adjust to new rosters."
+          "The sentiment around trades may shift as teams adjust their strategies post-deal.",
+          "Public perception of athletes can change rapidly based on off-field behavior."
         ],
         "related_topics": [
           "What are the implications of the Giannis trade?",
@@ -676,7 +668,7 @@
           "How did France perform in the World Cup today?"
         ]
       },
-      "tweet_text": "Giannis is heading to Miami in a blockbuster trade—who’s the real winner in this game-changing move?\n\nSports Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Giannis #Sources #Deal #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Giannis is heading to the Heat in a blockbuster trade—who really won this deal?\n\nSports Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Giannis #Sources #Deal #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -778,19 +770,20 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include a million-year-old time capsule in New Zealand and advancements in quantum research aboard the International Space Station.",
-        "summary": "Today's science headlines highlight significant discoveries, including ancient ecosystems, advancements in quantum physics, and the impact of environmental changes on wildlife. Notable findings include a million-year-old time capsule in New Zealand, NASA's Cold Atom Lab creating ultra-cold matter, and the discovery of a new bird species in Japan. Additionally, researchers are investigating the effects of herbicides on antibiotic resistance and the implications of changing lake ecosystems on fish populations.",
+        "key_takeaway": "Recent scientific discoveries include a million-year-old ecosystem in New Zealand, advancements in quantum research by NASA, and the identification of a new bird species in Japan.",
+        "summary": "Today's science headlines highlight significant discoveries, including ancient ecosystems, advancements in quantum matter research, and the impact of environmental changes on fish populations. Additionally, new insights into the longevity of butterflies and the implications of herbicides on antibiotic resistance were reported.",
         "key_themes": [
-          "ancient ecosystems and fossils",
-          "quantum research in space",
-          "impact of climate change on wildlife",
-          "new species discoveries",
-          "antibiotic resistance and herbicides"
+          "ancient ecosystems",
+          "quantum research advancements",
+          "butterfly longevity studies",
+          "fish population changes",
+          "new bird species discovery",
+          "herbicide resistance and superbugs"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists open a million-year-old time capsule hidden beneath New Zealand",
-            "why_it_matters": "This discovery provides insights into ancient ecosystems and the impact of climate change on wildlife before human arrival.",
+            "why_it_matters": "This discovery provides insights into ancient ecosystems and the impact of climate change on wildlife.",
             "signal": "Opportunity"
           },
           {
@@ -800,52 +793,52 @@
           },
           {
             "headline": "Butterfly that barely ages could help unlock longevity secrets",
-            "why_it_matters": "Understanding the longevity of these butterflies may provide insights into aging and health.",
+            "why_it_matters": "Understanding the longevity of these butterflies may reveal new insights into aging and health.",
             "signal": "Opportunity"
           },
           {
             "headline": "Future astronauts could walk across rocks from deep inside the Moon",
-            "why_it_matters": "This research enhances our understanding of the Moon's geology and future exploration missions.",
+            "why_it_matters": "This research enhances our understanding of the Moon's geology and future exploration possibilities.",
             "signal": "Opportunity"
           },
           {
             "headline": "One of the world’s most popular weedkillers may be fueling deadly superbugs",
-            "why_it_matters": "This finding raises concerns about the role of agricultural practices in antibiotic resistance.",
+            "why_it_matters": "The link between glyphosate and antibiotic resistance raises concerns about agricultural practices.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the million-year-old fossils is expected to yield more insights.",
-            "NASA will continue experiments with ultra-cold matter, potentially leading to new findings.",
-            "Research on the butterfly's longevity may lead to new studies on aging."
+            "Further analysis of the million-year-old fossils may provide more insights into ancient ecosystems.",
+            "NASA's Cold Atom Lab will continue its experiments, potentially leading to new findings in quantum physics.",
+            "Research on butterfly longevity may lead to new studies on aging in other species."
           ],
           "next_1_4_weeks": [
-            "Expect more results from ongoing studies on the ecological impacts of changing lake conditions.",
-            "Further investigations into the implications of glyphosate on antibiotic resistance are anticipated.",
-            "New findings regarding the Moon's geology may emerge as research progresses."
+            "Expect more detailed reports on the ecological impacts of changing fish populations in North American lakes.",
+            "Further studies on the implications of herbicide resistance in bacteria may emerge.",
+            "Additional discoveries related to the Moon's geology may be announced as lunar exploration continues."
           ],
           "watch_list": [
             "Developments in quantum research from NASA's Cold Atom Lab.",
-            "Updates on the ecological impacts of lake browning on fish populations.",
-            "Further discoveries related to antibiotic resistance and agricultural practices.",
-            "New species discoveries in biodiversity research."
+            "Updates on the ecological impacts of browning lakes on fish populations.",
+            "Research findings related to antibiotic resistance and agricultural practices.",
+            "New species discoveries in Japan and their implications for biodiversity."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates a balance of positive and negative implications in the findings.",
-          "Some discoveries may require further validation before drawing definitive conclusions."
+          "The mixed sentiment signal indicates a balance of positive and negative news in the science category today.",
+          "Some findings may require further validation and peer review before being widely accepted."
         ],
         "related_topics": [
           "What are the latest discoveries in ancient ecosystems?",
           "How is NASA advancing quantum research in space?",
-          "What are the implications of climate change on fish populations?",
+          "What are the implications of herbicides on antibiotic resistance?",
           "What new species have been discovered in Japan?",
-          "How do herbicides contribute to antibiotic resistance?"
+          "How do environmental changes affect fish populations?"
         ]
       },
-      "tweet_text": "A million-year-old time capsule unearthed in New Zealand could rewrite our understanding of Earth's history!\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Across #Ages #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A million-year-old time capsule and a butterfly that defies aging—science is unlocking the secrets of time...\n\nScience Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Across #Ages #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
