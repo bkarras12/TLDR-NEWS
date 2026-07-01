@@ -1,12 +1,11 @@
 {
   "date": "2026-06-30",
-  "generated_at_utc": "2026-06-30T16:18:07Z",
+  "generated_at_utc": "2026-07-01T00:17:35Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "supreme",
     "court",
-    "sources",
     "trump",
     "germany"
   ],
@@ -20,16 +19,79 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0745,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.124, dampened ×0.6 → -0.0745). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0161,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.027, dampened ×0.6 → -0.0161). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Supreme Court's birthright ruling is major blow to Trump",
-          "url": "https://www.bbc.co.uk/news/videos/c9w2nprzq5ro?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 14:37:54 GMT",
-          "summary": "The BBC’s Gary O’Donoghue explains what the court's landmark ruling means for the US president.",
+          "title": "US Supreme Court upholds birthright citizenship in blow to Trump",
+          "url": "https://www.bbc.co.uk/news/articles/cgmepnx1wzzo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 18:28:41 GMT",
+          "summary": "The ruling is a major setback for Donald Trump's immigration agenda, and has been welcomed by civil rights groups.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US Supreme Court has dealt heavy defeats to Trump, while expanding his power",
+          "url": "https://www.bbc.co.uk/news/articles/c4gyqeqe8xyo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 22:29:47 GMT",
+          "summary": "The birthright ruling brings to an end a Supreme Court term that has delivered the president some key victories.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Three-year-old rescued and taken to hospital six days after Venezuela quake",
+          "url": "https://www.bbc.co.uk/news/articles/c1jykwk8n18o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 21:30:52 GMT",
+          "summary": "Video footage shows rescuers cheering as the child is pulled from rubble in La Guaira state.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Roof collapse kills 14 children at Pakistan tuition centre",
+          "url": "https://www.bbc.co.uk/news/articles/cr7x38lle1jo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 19:36:48 GMT",
+          "summary": "Two people are taken into custody after the incident in the Kahna suburb of Lahore.",
+          "source": "BBC News"
+        },
+        {
+          "title": "What are US and Japanese soldiers doing in the middle of the Australian bush?",
+          "url": "https://www.bbc.co.uk/news/videos/cyv09p2vy87o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 18:37:59 GMT",
+          "summary": "The BBC's Katy Watson explains why troops are training in remote Australia, thousands of kilometres from any major conflicts.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Absolute madness': Row over plan to demolish Nazi bunker under Berlin",
+          "url": "https://www.bbc.co.uk/news/articles/cwy09753nq3o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 19:19:42 GMT",
+          "summary": "City officials want to build flats on the city centre site but others say it should be preserved as part of Germany's history.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Firefighters struggle to contain deadly Greek wildfire",
+          "url": "https://www.bbc.co.uk/news/articles/c0qy3nkex0qo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 20:25:53 GMT",
+          "summary": "More than 100 firefighters are fighting a fire near Thessaloniki which has claimed at least two lives.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Thousands of anti-migrant protesters march in South Africa amid heavy police presence",
+          "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 19:39:29 GMT",
+          "summary": "Foreigners have already left South Africa ahead of the deadline set by anti-migrant groups.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Australia sues Amazon for making allegedly unfair contracts with subscribers",
+          "url": "https://www.bbc.co.uk/news/articles/c20yz9rzwy0o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 18:59:19 GMT",
+          "summary": "The Australian Competition and Consumer Commission (ACCC) says Amazon has broken consumer protection law",
+          "source": "BBC News"
+        },
+        {
+          "title": "US Supreme Court upholds bans on transgender athletes in female school and college sports",
+          "url": "https://www.bbc.co.uk/news/articles/cj40x888d9go?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 30 Jun 2026 21:24:15 GMT",
+          "summary": "President Trump called the ruling a \"big win\", while an LGBT group said it was \"heartbreaking\".",
           "source": "BBC News"
         },
         {
@@ -40,145 +102,84 @@
           "source": "BBC News"
         },
         {
-          "title": "US Supreme Court upholds bans on transgender women in female school and college sports",
-          "url": "https://www.bbc.co.uk/news/articles/cj40x888d9go?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 16:14:43 GMT",
-          "summary": "It rules that states can ban transgender athletes from competing in women's and girls' sports.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Angry Venezuelans accuse government of negligence over earthquake response",
-          "url": "https://www.bbc.co.uk/news/articles/c5yzd18dxzxo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 03:53:48 GMT",
-          "summary": "People in areas devastated by twin earthquakes say they need more support from the government.",
-          "source": "BBC News"
-        },
-        {
           "title": "Manhunt after bomb injures Ukrainian oligarch in Monaco",
           "url": "https://www.bbc.co.uk/news/articles/cpv37wx03v7o?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 30 Jun 2026 13:22:15 GMT",
           "summary": "The blast was caused by an explosive device which appeared to contain bolts and pellets, the head of Monaco's government said.",
           "source": "BBC News"
-        },
-        {
-          "title": "US envoys in Doha to meet mediators but not Iranians, Qatar says",
-          "url": "https://www.bbc.co.uk/news/articles/cpd38x1dy4no?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 15:40:50 GMT",
-          "summary": "Qatar's foreign ministry spokesman says no high-level meetings or direct talks between the US and Iran are scheduled.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Senegalese MPs move to clip presidential powers as tensions mount",
-          "url": "https://www.bbc.co.uk/news/articles/cgl352xjgngo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 14:35:03 GMT",
-          "summary": "The proposed changes agreed by a majority of MPs sparked protests outside parliament.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Founder of Asian super-app Gojek sentenced to years in jail for corruption",
-          "url": "https://www.bbc.co.uk/news/articles/c79yvw23yr9o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 11:16:20 GMT",
-          "summary": "The case against Gojek founder Nadiem Makarim relates to a laptop deal made during his term as Indonesia's education minister.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Thousands of anti-migrant protesters march in South Africa amid heavy police presence",
-          "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 15:09:46 GMT",
-          "summary": "Foreigners have already left South Africa ahead of the deadline set by anti-migrant groups.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Flooding hits Ghana's capital killing 13 people - with another storm forecast",
-          "url": "https://www.bbc.co.uk/news/articles/cn4r8zlv8edo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 11:20:44 GMT",
-          "summary": "People have been urged to relocate to high ground or stay indoors as more rain is expected to come.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Chinese tycoon sentenced to 30 years in US jail",
-          "url": "https://www.bbc.co.uk/news/articles/cjeg15vw3z9o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 30 Jun 2026 02:08:21 GMT",
-          "summary": "Guo Wengui branded himself as a China critic, gaining followers who backed his fraudulent schemes.",
-          "source": "BBC News"
-        },
-        {
-          "title": "One big win and three defeats for Trump in dramatic day at Supreme Court",
-          "url": "https://www.bbc.co.uk/news/articles/ceqdzd7zx24o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 29 Jun 2026 20:34:52 GMT",
-          "summary": "While Trump celebrated a ruling expanding presidential power to remove and replace regulators, other decisions were major setbacks.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The US Supreme Court's recent rulings have significant implications for Trump, while global tensions rise over far-right extremism and government responses to crises.",
-        "summary": "Today's headlines highlight a mix of significant legal rulings in the US, rising far-right extremism in Germany, and various international crises including Venezuela's earthquake response and protests in South Africa. The Supreme Court's decisions on birthright citizenship and transgender athletes have sparked considerable debate, while incidents of violence and government negligence are reported in multiple countries.",
+        "key_takeaway": "The US Supreme Court upheld birthright citizenship while also ruling on transgender athlete bans, amidst global incidents including a deadly wildfire in Greece and a tragic roof collapse in Pakistan.",
+        "summary": "Today's headlines reflect significant legal rulings in the US, including the upholding of birthright citizenship and bans on transgender athletes, alongside international news of a deadly wildfire in Greece and a tragic roof collapse in Pakistan that killed 14 children. Additionally, anti-migrant protests occurred in South Africa, and a manhunt was launched after a bomb injured a Ukrainian oligarch in Monaco.",
         "key_themes": [
-          "US Supreme Court rulings impact",
-          "far-right extremism in Germany",
-          "Venezuela earthquake response",
-          "anti-migrant protests in South Africa",
-          "corruption sentencing in Indonesia"
+          "US Supreme Court rulings",
+          "Venezuela earthquake rescue",
+          "Greece wildfire updates",
+          "Pakistan tuition centre tragedy",
+          "South Africa anti-migrant protests",
+          "Germany far-right extremism"
         ],
         "notable_headlines": [
           {
-            "headline": "Supreme Court's birthright ruling is major blow to Trump",
-            "why_it_matters": "This ruling could affect Trump's political future and immigration policies.",
+            "headline": "US Supreme Court upholds birthright citizenship in blow to Trump",
+            "why_it_matters": "This ruling is a significant setback for Trump's immigration agenda and has been welcomed by civil rights groups.",
             "signal": "Risk"
           },
           {
-            "headline": "Almost 60,000 far-right extremists in Germany, intelligence agency says",
-            "why_it_matters": "The rise in extremism poses a threat to public safety and social cohesion in Germany.",
+            "headline": "Roof collapse kills 14 children at Pakistan tuition centre",
+            "why_it_matters": "The incident highlights ongoing safety concerns in educational facilities in Pakistan.",
             "signal": "Risk"
           },
           {
-            "headline": "US Supreme Court upholds bans on transgender women in female school and college sports",
-            "why_it_matters": "This ruling impacts the rights of transgender athletes and state policies across the US.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Angry Venezuelans accuse government of negligence over earthquake response",
-            "why_it_matters": "Public dissatisfaction could lead to increased unrest and challenges for the Venezuelan government.",
+            "headline": "Firefighters struggle to contain deadly Greek wildfire",
+            "why_it_matters": "The wildfire has resulted in fatalities and underscores the increasing frequency of climate-related disasters.",
             "signal": "Risk"
           },
           {
             "headline": "Thousands of anti-migrant protesters march in South Africa amid heavy police presence",
-            "why_it_matters": "The protests reflect growing tensions over immigration and could lead to further violence.",
+            "why_it_matters": "The protests reflect rising tensions and challenges regarding immigration policies in South Africa.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Manhunt after bomb injures Ukrainian oligarch in Monaco",
+            "why_it_matters": "The incident raises concerns about security and violence involving high-profile individuals in Europe.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to the US Supreme Court rulings and their implications for Trump.",
-            "Observing developments in Venezuela regarding government response to the earthquake.",
-            "Tracking protests and police responses in South Africa."
+            "Monitoring developments in the US Supreme Court rulings and their implications for immigration and sports policies.",
+            "Updates on the wildfire situation in Greece and rescue efforts in Venezuela.",
+            "Following the aftermath of the tragic roof collapse in Pakistan."
           ],
           "next_1_4_weeks": [
-            "Potential for increased political unrest in Venezuela and South Africa due to ongoing crises.",
-            "Continued scrutiny of far-right movements in Germany and their impact on national security.",
-            "Implications of US Supreme Court rulings on upcoming elections and state policies."
+            "Potential legal challenges following the US Supreme Court rulings on transgender athletes and immigration.",
+            "Continued coverage of anti-migrant sentiments and protests in South Africa.",
+            "Monitoring the political climate in Germany regarding far-right extremism."
           ],
           "watch_list": [
-            "US Supreme Court decisions and their political ramifications",
-            "Far-right extremism trends in Europe",
-            "Government responses to natural disasters in vulnerable regions",
-            "Public sentiment towards immigration policies in South Africa"
+            "US Supreme Court decisions impact",
+            "Venezuela earthquake recovery efforts",
+            "Greece wildfire containment updates",
+            "South Africa immigration protests",
+            "Germany far-right extremism statistics"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating a balance of positive and negative news.",
-          "The situation in various countries is fluid and may evolve rapidly."
+          "The situation in Greece and Pakistan is still developing and may change rapidly.",
+          "Legal implications of the US Supreme Court rulings may take time to fully unfold."
         ],
         "related_topics": [
-          "What are the implications of the US Supreme Court rulings",
-          "How is Germany addressing far-right extremism",
-          "What is the current situation in Venezuela after the earthquakes",
-          "Latest developments in South Africa's anti-migrant protests",
-          "Corruption cases in Indonesia and their impact on politics"
+          "What are the latest US Supreme Court rulings",
+          "Updates on the Greece wildfire situation",
+          "Details on the Pakistan roof collapse incident",
+          "South Africa anti-migrant protests news",
+          "Far-right extremism in Germany statistics"
         ]
       },
-      "tweet_text": "Today's headlines expose a world on edge: from Supreme Court blows to extreme threats in Germany, the stakes have never...\n\nWorld Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Supreme #60000 #Accuse #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Supreme Court showdown, a miraculous rescue, and tragedy strikes—today's headlines are a rollercoaster of emotions.\n\nWorld Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Court #Heavy #Supreme #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -189,16 +190,23 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0965,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.161, dampened ×0.6 → -0.0965). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0232,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.039, dampened ×0.6 → -0.0232). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "US treasury secretary warns oil and gas companies to lower prices: ‘we’re watching’",
+          "title": "US treasury secretary warns oil and gas companies to lower prices: ‘We’re watching’",
           "url": "https://www.theguardian.com/business/2026/jun/30/scott-bessent-oil-gas-companies-prices-warning",
           "published": "Tue, 30 Jun 2026 15:25:40 GMT",
           "summary": "<p>Scott Bessent says he ‘encourages them to be good actors’ after Trump ranted about prices not dropping fast enough</p><p>Scott Bessent, the US treasury secretary, issued a veiled warning to <a href=\"https://www.theguardian.com/business/oilandgascompanies\">oil and gas</a> companies to lower their prices on Tuesday, a day after <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> berated those retailers on social media for not dropping their prices fast enough and demanded",
+          "source": "The Guardian"
+        },
+        {
+          "title": "NPR retracts ‘inaccurate’ story saying supreme court justice Samuel Alito retiring",
+          "url": "https://www.theguardian.com/media/2026/jun/30/npr-samuel-alito-supreme-court-story",
+          "published": "Tue, 30 Jun 2026 21:18:34 GMT",
+          "summary": "<p>Story from Nina Totenberg removed and replaced with editor’s note after journalist misheard announcement made by chief justice</p><p>The US public broadcasting organization National Public Radio (NPR) on Tuesday took the unusual step of formally retracting a major news story, after it published what seemed like a bombshell scoop that the supreme court justice Samuel Alito was retiring.</p><p>The story was written by Nina Totenberg, 82, one of the most prominent chroniclers of the supreme cour",
           "source": "The Guardian"
         },
         {
@@ -251,13 +259,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Reporter urges US supreme court to halt ruling forcing her to reveal sources or pay $800-a-day fine",
-          "url": "https://www.theguardian.com/media/2026/jun/26/us-reporter-supreme-court-sources-fine",
-          "published": "Fri, 26 Jun 2026 22:43:22 GMT",
-          "summary": "<p>Catherine Herridge makes final bid to stave off penalty related to series of stories she wrote in 2017 for Fox News</p><p>More than two years ago, a US district court judge took the extraordinary step of holding the veteran investigative journalist Catherine Herridge in civil contempt, <a href=\"https://www.washingtonpost.com/style/media/2024/02/29/catherine-herridge-held-contempt-cbs-fox-journalist/\">ordering her to pay a steep daily fine</a> of $800 per day unless she reveals her sources for",
-          "source": "The Guardian"
-        },
-        {
           "title": "Outcry over supreme court decision to grant Trump power to fire agency chiefs",
           "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-agency-firings-slaughter-ftc",
           "published": "Mon, 29 Jun 2026 17:13:56 GMT",
@@ -280,81 +281,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "US Treasury Secretary warns oil and gas companies to lower prices amid rising tensions over inflation and market dynamics.",
-        "summary": "Today's business news highlights a mix of regulatory actions, corporate restructuring, and significant legal rulings affecting various sectors. US Treasury Secretary Scott Bessent has urged oil and gas companies to reduce prices, following public criticism from former President Trump. In the automotive industry, Ford has reversed its reliance on AI, opting to rehire experienced engineers due to AI's shortcomings. The US Supreme Court has made pivotal rulings regarding presidential powers over independent agencies, which may have far-reaching implications. Additionally, the EU has initiated talks with China to address a significant trade deficit, while Comcast plans to spin off its media operations, raising questions about the future of its subsidiaries. British American Tobacco is set to cut jobs as it shifts towards technology integration.",
+        "key_takeaway": "US Treasury Secretary warns oil and gas companies to lower prices amid rising public scrutiny and recent Supreme Court rulings affecting presidential powers.",
+        "summary": "Today's business news highlights a warning from the US Treasury Secretary to oil and gas companies regarding pricing, a significant retraction by NPR about a Supreme Court justice's retirement, and various corporate developments including job cuts and media spin-offs.",
         "key_themes": [
-          "US Treasury oil price warning",
-          "Ford rehires engineers",
-          "Supreme Court rulings on presidential powers",
+          "US Treasury Secretary oil prices warning",
+          "NPR retracts Supreme Court story",
+          "Ford rehiring after AI issues",
           "EU-China trade talks",
           "Comcast media spin-off",
           "British American Tobacco job cuts"
         ],
         "notable_headlines": [
           {
-            "headline": "US treasury secretary warns oil and gas companies to lower prices: ‘we’re watching’",
-            "why_it_matters": "This warning reflects ongoing concerns about inflation and market manipulation in the energy sector.",
+            "headline": "US treasury secretary warns oil and gas companies to lower prices: ‘We’re watching’",
+            "why_it_matters": "The warning reflects increasing government scrutiny on energy prices amid public concern.",
             "signal": "Risk"
           },
           {
             "headline": "Return of the ‘greybeards’: AI backfired – so Ford had to rehire humans",
-            "why_it_matters": "Ford's decision highlights the limitations of AI in complex manufacturing processes and the value of human expertise.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US supreme court rules Trump’s firing of Lisa Cook from Fed was unconstitutional",
-            "why_it_matters": "This ruling sets a precedent regarding the limits of presidential power over independent agencies, impacting future governance.",
+            "why_it_matters": "Ford's experience highlights potential pitfalls of over-relying on AI in manufacturing processes.",
             "signal": "Risk"
           },
           {
             "headline": "EU sets up three months of talks with China over €360bn trade deficit",
-            "why_it_matters": "These talks aim to stabilize trade relations and avoid potential trade conflicts between the EU and China.",
+            "why_it_matters": "These talks aim to address significant trade imbalances and avoid escalating tensions.",
             "signal": "Opportunity"
           },
           {
             "headline": "Comcast to spin off NBCUniversal and Sky into separate media business",
-            "why_it_matters": "This strategic move could reshape the media landscape and affect competition in the industry.",
+            "why_it_matters": "This move could reshape the media landscape and impact various stakeholders in the industry.",
             "signal": "Opportunity"
           },
           {
             "headline": "British American Tobacco to slash 9,000 jobs as it turns to AI",
-            "why_it_matters": "The job cuts reflect a broader trend of automation in traditional industries, raising concerns about employment.",
+            "why_it_matters": "The job cuts signal a shift towards automation and cost reduction strategies in the tobacco industry.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor oil and gas price trends following the Treasury Secretary's warning.",
-            "Watch for responses from Ford regarding its workforce changes and AI strategy.",
-            "Keep an eye on developments from the EU-China trade talks."
+            "Monitoring responses from oil and gas companies to the Treasury Secretary's warning.",
+            "Anticipating reactions from the public and legal experts regarding the Supreme Court rulings.",
+            "Following developments in the EU-China trade discussions."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of the Supreme Court's rulings on agency leadership and governance.",
-            "Track Comcast's spin-off progress and its implications for the media sector.",
-            "Follow British American Tobacco's restructuring and its effects on the workforce."
+            "Evaluating the impact of job cuts at British American Tobacco on the workforce and industry.",
+            "Observing the outcomes of Comcast's spin-off on its market position and operations.",
+            "Tracking the effectiveness of Ford's decision to rehire human workers."
           ],
           "watch_list": [
-            "Oil and gas price fluctuations",
-            "Ford's AI strategy and workforce decisions",
-            "EU-China trade negotiations outcomes",
-            "Comcast's media spin-off developments",
-            "British American Tobacco's job cuts and technology integration"
+            "Potential changes in oil and gas pricing strategies.",
+            "Further developments in US-China trade relations.",
+            "Impact of Supreme Court decisions on future presidential powers.",
+            "Trends in automation and AI adoption in various industries."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall business climate.",
-          "Legal rulings may lead to further appeals or legislative changes that could alter their impact. "
+          "The sentiment score indicates a neutral tone overall, suggesting mixed reactions to the news.",
+          "Future developments may alter the current outlook significantly."
         ],
         "related_topics": [
           "What is the latest on US oil and gas prices?",
-          "How is Ford adapting its workforce strategy?",
-          "What are the implications of recent Supreme Court rulings?",
-          "What are the current EU-China trade relations?",
-          "What does Comcast's spin-off mean for the media industry?"
+          "NPR retraction news and its implications",
+          "How is AI affecting job markets in major companies?",
+          "EU-China trade negotiations updates",
+          "Comcast's media spin-off details and impact"
         ]
       },
-      "tweet_text": "Big moves in business: From price checks on oil giants to Comcast’s media shake-up, the landscape is...\n\nBusiness Sentiment: Mixed (-0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Court #Rules #Supreme #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From oil price pressures to Supreme Court shake-ups, today’s business news is a rollercoaster you won’t...\n\nBusiness Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Court #Supreme #Rules #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -365,151 +360,161 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1227,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.204, dampened ×0.6 → +0.1227). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0355,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.059, dampened ×0.6 → +0.0355). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "The Supreme Court stops Trump&#8217;s attempt to end birthright citizenship",
-          "url": "https://www.theverge.com/news/959487/supreme-court-birthright-citizenship-trump",
-          "published": "2026-06-30T10:44:42-04:00",
-          "summary": "The Supreme Court upheld birthright citizenship, ruling 6-3 against President Donald Trump's effort to end the longstanding constitutional right via executive order. Birthright citizenship dates back to Reconstruction. Under the 14th Amendment, which was ratified in 1868 to guarantee citizenship and equal protection to the children of formerly enslaved people, anyone born in the United [&#8230;]",
+          "title": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+          "published": "2026-06-30T20:03:55-04:00",
+          "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access tomorrow. Anthropic: We've received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "iPhone 18 Pro ‘drop test’ leaks get yanked from X",
-          "url": "https://www.theverge.com/tech/959474/iphone-18-pro-leaked-videos-pulled",
-          "published": "2026-06-30T09:57:41-04:00",
-          "summary": "Videos purporting to show the iPhone 18 Pro undergoing a drop test were removed from X shortly after they surfaced, as spotted earlier by MacRumors. An account imitating leaker EvLeaks was suspended from X after sharing the clips, while the post was removed as well, with X saying it \"violated\" the platform's rules. Another leaker, [&#8230;]",
+          "title": "Dish files for bankruptcy, but not shutting down",
+          "url": "https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy",
+          "published": "2026-06-30T18:46:52-04:00",
+          "summary": "Dish, the company that operates Dish TV and Sling TV, has filed for Chapter 11 bankruptcy,\" as reported earlier by Reuters. The plan will allow the EchoStar-owned company to continue to wind down its wireless operations after \"unforeseen delays\" held back its sale of $23 billion worth of 5G spectrum to AT&#38;T. Dish TV, Sling [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Meet the lawyer who beat Elon Musk — twice",
-          "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
-          "published": "2026-06-30T08:00:00-04:00",
-          "summary": "Watching Elon Musk fulminate at Bill Savitt during Musk v. Altman - the case in which Musk sued Sam Altman and OpenAI instead of seeing a therapist about his AI failures - was a bit like watching a toddler have a temper tantrum at his nursery school teacher. Savitt's questions were \"designed to trick me,\" [&#8230;]",
+          "title": "Amazon fined $2.25 million for failing to help identity theft victims",
+          "url": "https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine",
+          "published": "2026-06-30T17:20:01-04:00",
+          "summary": "The Federal Trade Commission fined Amazon $2.25 million to settle claims that the company failed to help customers who fell victim to identity theft, as reported earlier by Bloomberg. In its complaint, the FTC accuses Amazon of refusing to provide customers with information about purchases made with fraudulent accounts, in violation of the Fair Credit [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "This motor could be the future of e-bikes",
-          "url": "https://www.theverge.com/news/959382/avinox-mg-concept-gobao-mgu-ecvt",
-          "published": "2026-06-30T06:30:04-04:00",
-          "summary": "Imagine an e-bike motor that lets you select your preferred pedaling cadence and then automatically adjusts the gears to keep your legs spinning at that exact speed, no matter how steep the hill gets - all without a fragile derailleur or heavy multi-speed cassette to maintain. Prefer manual control? No problem, you can have as [&#8230;]",
+          "title": "Acer&#8217;s Swift Go 16 is a lot of laptop for $900",
+          "url": "https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale",
+          "published": "2026-06-30T16:00:00-04:00",
+          "summary": "As high memory and storage prices have driven up the cost of everything from consoles to computers, finding a competent laptop for under $1,000 has become a challenge. Thankfully, the Acer Swift Go 16 AI is on sale for $899.99 at Best Buy, a steep discount from its usual list price of $1,549.99. The well-equipped [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Our best look yet at Samsung’s new wide foldable",
-          "url": "https://www.theverge.com/tech/959372/samsung-galaxy-z-fold-wide-image-leaks",
-          "published": "2026-06-30T05:54:44-04:00",
-          "summary": "Samsung is expected to unveil its next generation of foldables at a Galaxy Unpacked event next month, but now we know what they might look like, courtesy of some leaked images published by Android Headlines. Images shared by the publication include case designs for two new Galaxy Z Fold 8 models and the Galaxy Z [&#8230;]",
+          "title": "Google’s NotebookLM can sum up your research in a TikTok-style clip",
+          "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+          "published": "2026-06-30T15:24:51-04:00",
+          "summary": "Google's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sources you upload to the app. The example shared by Google details Australia's unsuccessful war [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "T-Mobile is booting customers from its oldest plans",
-          "url": "https://www.theverge.com/tech/959144/t-mobile-legacy-plan-retire-sprint",
-          "published": "2026-06-29T17:06:14-04:00",
-          "summary": "Earlier today, T-Mobile started notifying customers that it will be retiring many legacy plans and moving subscribers onto one of its current rate plans. This move includes plans that date back to the 3G era, and it's going about as well as you'd expect. Affected customers began sharing screenshots of the text on reddit and [&#8230;]",
+          "title": "LG’s 27-inch Tandem OLED gaming monitor is cheaper than ever",
+          "url": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
+          "published": "2026-06-30T14:42:00-04:00",
+          "summary": "The price of LG’s UltraGear 27GX700A-B 1440p gaming monitor that came out last August has dropped to nearly its best price yet. You can grab it at Amazon for $484.99 or at LG for $499.99 (originally $599.99). That’s a great deal considering this is one of LG’s Primary RGB Tandem panels built with fourth-generation WOLED [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "After a great start, DC’s new cinematic universe is already slowing down",
-          "url": "https://www.theverge.com/entertainment/958953/supergirl-dcu-warner-bros-discovery-box-office-flop",
-          "published": "2026-06-29T17:00:00-04:00",
-          "summary": "While Kara Zor-El's appearance at the end of James Gunn's Superman was a very pleasant surprise, Warner Bros. Discovery's plan to fast-track a standalone Supergirl feature always felt a little dubious. It seemed odd that, after Superman, the studio wanted to flesh out its new cinematic universe with films about another Kryptonian and one of [&#8230;]",
+          "title": "007 First Light&#8217;s developer lays off staff but claims its next franchise will continue",
+          "url": "https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs",
+          "published": "2026-06-30T14:14:05-04:00",
+          "summary": "IO Interactive, the studio behind the Hitman series and 007 First Light, announced that it is laying off staff after a relationship with an \"external partner\" on its next big franchise, Project Fantasy, \"has come to an end.\" IO has described Project Fantasy as an \"online fantasy RPG\", and Kotaku and Bloomberg report that Microsoft, [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Leaked iPhone 18 Pro photos reportedly wound up on the dark web",
-          "url": "https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web",
-          "published": "2026-06-29T16:18:26-04:00",
-          "summary": "Leaked iPhone 18 Pro photos and parts lists appeared on the dark web following a data breach affecting one of Apple's key suppliers, according to a report from Reuters. The leaked images show a drop test of what a source tells Reuters is the iPhone 18 Pro, equipped with a three-camera layout and Apple logo. [&#8230;]",
+          "title": "Moto&#8217;s Tag 2 tracker is $20 for a limited time",
+          "url": "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale",
+          "published": "2026-06-30T13:38:23-04:00",
+          "summary": "Announced at CES 2026, the Moto Tag 2 has finally arrived in the US. The Bluetooth tracker with improved battery life over its predecessor, plus UWB sensing for more accurate tracking, is available through Motorola&#8217;s site at a special $19.99 launch price (originally $29.99). There are plenty of trackers for Android owners to consider, but [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
-          "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-          "published": "2026-06-29T15:47:35-04:00",
-          "summary": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today those tracks will no longer be monetizable. \"Tidal's [&#8230;]",
+          "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
+          "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+          "published": "2026-06-30T13:19:15-04:00",
+          "summary": "A new teaser trailer confirmed that Wonka's The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios. While the sets seen in the trailer are real and not some Glasgow-style AI fakes, the voiceover is AI-generated. Deadline [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Sony&#8217;s next-gen PlayStation will go ‘beyond the living room’",
-          "url": "https://www.theverge.com/games/959191/sony-next-generation-playstation-ps6-beyond-the-living-room",
-          "published": "2026-06-29T15:12:15-04:00",
-          "summary": "Sony hinted in a recent Q&#38;A with investors that the next generation PlayStation will offer some kind of experience that lets you play games outside of your living room. Here's the relevant portion from the transcript, emphasis mine: Q: How can you bring back to the PlayStation platform users who migrated to gaming PCs during [&#8230;]",
+          "title": "Rockstar workers push to unionize ahead of GTA VI’s launch",
+          "url": "https://www.theverge.com/games/959668/rockstar-games-workers-union-gta-vi",
+          "published": "2026-06-30T13:04:14-04:00",
+          "summary": "Workers at Grand Theft Auto VI developer Rockstar Games have submitted a request for their union, the IWGB Game Workers Union, to be voluntarily recognized, according to a press release. The request follows Rockstar firing more than 30 staffers last year in a move accused of being \"union busting.\" According to the release, IWGB members [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "T-Mobile is retiring legacy plans, while leaked iPhone 18 Pro details surface amid ongoing legal disputes involving Elon Musk.",
-        "summary": "Today's technology news highlights significant developments including T-Mobile's decision to phase out older plans, the emergence of leaked iPhone 18 Pro details, and ongoing legal challenges faced by Elon Musk. Additionally, advancements in e-bike technology and updates on AI-generated music policies from Tidal were reported.",
+        "key_takeaway": "Anthropic's Claude Fable 5 is set to return after export controls were lifted, while Dish files for Chapter 11 bankruptcy amid operational challenges.",
+        "summary": "Today's technology news highlights significant developments including Anthropic's Claude Fable 5 returning online after negotiations with the Trump administration, Dish filing for Chapter 11 bankruptcy while continuing operations, and Amazon facing a $2.25 million fine from the FTC for failing to assist identity theft victims. Additionally, Acer's Swift Go 16 laptop is on sale, Google introduces TikTok-style AI video summaries in NotebookLM, and LG's gaming monitor sees a price drop. In gaming, IO Interactive lays off staff while planning future projects, and Rockstar Games workers push for union recognition ahead of GTA VI's launch.",
         "key_themes": [
-          "T-Mobile legacy plan changes",
-          "iPhone 18 Pro leaks",
-          "Elon Musk legal issues",
-          "e-bike technology advancements",
-          "AI-generated music policies"
+          "AI technology updates",
+          "bankruptcy news in tech",
+          "consumer electronics sales",
+          "gaming industry labor issues"
         ],
         "notable_headlines": [
           {
-            "headline": "T-Mobile is booting customers from its oldest plans",
-            "why_it_matters": "This move affects many long-time customers and reflects a shift in T-Mobile's service strategy.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Leaked iPhone 18 Pro photos reportedly wound up on the dark web",
-            "why_it_matters": "The leak raises concerns about data security and the implications for Apple's product launches.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
-            "why_it_matters": "This policy highlights the evolving landscape of music rights in the age of AI.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "This motor could be the future of e-bikes",
-            "why_it_matters": "Innovations in e-bike technology could transform urban transportation and cycling experiences.",
+            "headline": "Anthropic's long-sidelined Fable 5 is greenlit to return",
+            "why_it_matters": "The return of Claude Fable 5 signifies a shift in regulatory stance towards AI technologies.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Sony's next-gen PlayStation will go ‘beyond the living room’",
-            "why_it_matters": "Sony's plans suggest a new direction for gaming experiences, potentially expanding market reach.",
+            "headline": "Dish files for bankruptcy, but not shutting down",
+            "why_it_matters": "Dish's bankruptcy filing highlights challenges in the telecommunications sector amid operational restructuring.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Amazon fined $2.25 million for failing to help identity theft victims",
+            "why_it_matters": "The FTC's fine against Amazon underscores the importance of consumer protection in the digital marketplace.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Acer's Swift Go 16 is a lot of laptop for $900",
+            "why_it_matters": "Acer's competitive pricing on laptops reflects ongoing challenges in the tech market due to rising component costs.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Google’s NotebookLM can sum up your research in a TikTok-style clip",
+            "why_it_matters": "Google's innovative approach to summarizing research could enhance user engagement with educational content.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
+            "why_it_matters": "The use of AI-generated voices in entertainment raises ethical questions about authenticity and copyright.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Rockstar workers push to unionize ahead of GTA VI’s launch",
+            "why_it_matters": "The push for unionization at Rockstar Games reflects broader labor movements within the gaming industry.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor customer reactions to T-Mobile's plan changes.",
-            "Watch for further leaks regarding the iPhone 18 Pro.",
-            "Follow developments in the legal case involving Elon Musk."
+            "Anthropic will begin restoring access to Claude Fable 5.",
+            "Dish will outline its restructuring plan post-bankruptcy filing.",
+            "Amazon may respond to the FTC fine with changes in policy."
           ],
           "next_1_4_weeks": [
-            "Anticipate announcements from T-Mobile regarding new plans.",
-            "Expect updates on the upcoming Galaxy Unpacked event from Samsung.",
-            "Watch for reactions to Tidal's new AI music policy."
+            "Acer's Swift Go 16 sales may increase due to its promotional pricing.",
+            "Google will likely expand features in NotebookLM based on user feedback.",
+            "Rockstar Games may face increased scrutiny regarding labor practices."
           ],
           "watch_list": [
-            "T-Mobile customer feedback on plan changes.",
-            "iPhone 18 Pro leaks and rumors.",
-            "Legal outcomes from Musk's ongoing cases.",
-            "Innovations in e-bike technology."
+            "Monitor developments in AI regulatory changes.",
+            "Watch for updates on Dish's restructuring process.",
+            "Keep an eye on consumer electronics sales trends.",
+            "Follow the unionization efforts at Rockstar Games."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the news.",
-          "Details about the iPhone 18 Pro remain speculative until official announcements."
+          "The impact of regulatory changes on AI technologies remains uncertain.",
+          "Dish's bankruptcy may affect its service offerings and customer base.",
+          "The effectiveness of Amazon's response to the FTC fine is yet to be seen."
         ],
         "related_topics": [
-          "What are the latest updates on T-Mobile plans?",
-          "How is AI impacting music royalties?",
-          "What are the features of the upcoming iPhone 18 Pro?",
-          "What innovations are emerging in e-bike technology?",
-          "What can we expect from Sony's next PlayStation?"
+          "What are the latest updates on AI technologies?",
+          "How is Dish managing its bankruptcy process?",
+          "What are the implications of Amazon's FTC fine?",
+          "What deals are available on laptops this week?",
+          "What labor movements are happening in the gaming industry?"
         ]
       },
-      "tweet_text": "Trump's birthright citizenship bid blocked by the Supreme Court—what's next for immigration in America?\n\nTechnology Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Iphone #Already #Attempt #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Tech shakeup: From Fable's comeback to Amazon's costly blunder, today's headlines are a must-read!\n\nTechnology Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#27inch #Acer8217s #Amazon #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -612,96 +617,71 @@
       ],
       "ai_report": {
         "key_takeaway": "Paraguay eliminated Germany in a dramatic penalty shootout, while NBA trades and player movements dominate the headlines.",
-        "summary": "Today's sports news highlights Paraguay's advancement in the World Cup after defeating Germany in penalties, alongside significant NBA trades including Ja Morant's move to the Blazers and Kristaps Porzingis re-signing with the Warriors. Additionally, the Lions released Terrion Arnold following felony charges, and former NBA players face federal gambling charges.",
+        "summary": "Today's sports news highlights Paraguay's advancement in the World Cup after defeating Germany in penalties, alongside significant NBA trades involving Ja Morant and Kristaps Porzingis. Additionally, the Lions released a player following legal issues, and various player options were declined or accepted across the league.",
         "key_themes": [
-          "World Cup 2026 highlights",
+          "World Cup 2026 updates",
           "NBA trade news",
-          "NFL player arrests",
+          "NFL player releases",
           "Wimbledon celebrity sightings"
         ],
         "notable_headlines": [
           {
-            "headline": "Paraguay win it in penalty kicks, advance to round...",
-            "why_it_matters": "This victory marks a significant upset in the World Cup, showcasing Paraguay's resilience.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "VAR review: Why Germany were wrongly denied extra-...",
-            "why_it_matters": "Understanding VAR's role in controversial decisions is crucial for fans and players alike.",
-            "signal": "Unclear"
-          },
-          {
             "headline": "Paraguay stun Germany on pens after VAR drama",
-            "why_it_matters": "Germany's elimination raises questions about their performance and VAR's impact on the game.",
+            "why_it_matters": "This match highlights the impact of VAR decisions and the unpredictability of knockout stage tournaments.",
             "signal": "Risk"
           },
           {
             "headline": "Sources: Grizzlies trading star Morant to Blazers",
-            "why_it_matters": "This trade could reshape the dynamics of the NBA, affecting both teams' futures.",
+            "why_it_matters": "This trade could significantly alter the landscape of the NBA, impacting both teams' futures.",
             "signal": "Opportunity"
           },
           {
             "headline": "Lions release Arnold after CB's bond set at $1M",
-            "why_it_matters": "The release of Arnold highlights ongoing issues of player conduct and legal troubles in the NFL.",
+            "why_it_matters": "The release of Arnold reflects the team's stance on off-field conduct and legal issues.",
             "signal": "Risk"
           },
           {
             "headline": "Porzingis back with Dubs on 2-year, $40M deal",
-            "why_it_matters": "Porzingis' return could strengthen the Warriors' roster as they aim for another championship run.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Beasley, Davis charged in federal gambling case",
-            "why_it_matters": "The indictment of former players raises concerns about gambling's influence in sports.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Sources: Warriors eyeing LeBron, AD reunion",
-            "why_it_matters": "A potential reunion of these stars could significantly impact the NBA landscape.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Sources: Champagnie to ink new deal with Spurs",
-            "why_it_matters": "Champagnie's new contract reflects the Spurs' strategy in building their roster for the future.",
+            "why_it_matters": "Porzingis' return could bolster the Warriors' chances in the upcoming season.",
             "signal": "Opportunity"
           },
           {
             "headline": "Sources: Hawks decline Kuminga's $24.3M option",
-            "why_it_matters": "This decision opens up free agency options for Kuminga, impacting his career trajectory.",
-            "signal": "Risk"
+            "why_it_matters": "This decision opens up free agency possibilities for Kuminga and impacts the Hawks' roster strategy.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Further analysis on Paraguay's World Cup performance is expected.",
-            "Updates on NBA trades and player signings will continue to emerge.",
-            "Legal developments regarding Terrion Arnold and the gambling case may unfold."
+            "More details on the implications of the Morant trade will emerge.",
+            "Updates on player signings and trades in the NBA will continue."
           ],
           "next_1_4_weeks": [
-            "The World Cup will progress, with more matches and potential upsets.",
-            "NBA teams will finalize their rosters as free agency continues.",
-            "Expect more celebrity sightings and events at Wimbledon."
+            "The World Cup will progress with more knockout matches.",
+            "NBA teams will finalize their rosters ahead of the new season.",
+            "Legal developments regarding the Lions' released player may unfold."
           ],
           "watch_list": [
-            "Monitor Paraguay's next World Cup match.",
-            "Keep an eye on the NBA offseason developments.",
-            "Watch for updates on the legal cases involving NFL and NBA players.",
-            "Follow Wimbledon for celebrity appearances and match results."
+            "Upcoming World Cup matches and potential upsets.",
+            "NBA free agency news and player movements.",
+            "NFL player conduct and team responses.",
+            "confidence",
+            "High"
           ],
-          "confidence": "Medium"
+          "confidence": "High"
         },
         "caveats": [
-          "The outcomes of ongoing legal cases are uncertain and may evolve over time.",
-          "Player performance and team dynamics can change rapidly in sports."
+          "The sentiment score is neutral, indicating a balanced tone in today's sports news.",
+          "Details on some stories are still developing and may change."
         ],
         "related_topics": [
-          "What were the key moments in the World Cup today?",
+          "What happened in the World Cup today?",
           "Latest NBA trade news and analysis",
-          "Updates on NFL player legal issues",
-          "Wimbledon celebrity sightings and events"
+          "NFL player conduct issues and team responses"
         ]
       },
-      "tweet_text": "Paraguay shocks the world, knocking out Germany in a nail-biting penalty shootout after VAR chaos!\n\nSports Sentiment: Neutral (-0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#Germany #Paraguay #Sources #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Paraguay shocks Germany in a nail-biting penalty shootout after VAR drama—this tournament just got a...\n\nSports Sentiment: Neutral (-0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#Germany #Paraguay #Sources #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -803,8 +783,8 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include potential breakthroughs in Alzheimer's research, depression treatment, and insights into ancient civilizations and cosmic events.",
-        "summary": "Today's science headlines highlight significant advancements in understanding Alzheimer's disease, the potential of creatine in treating depression, and the discovery of ancient civilizations and cosmic phenomena. Researchers are exploring how soil microbes can aid agriculture in salty conditions, while astronomers have identified rare planets and cosmic events. Additionally, innovative recycling methods in Hawaii and studies on consciousness under anesthesia are reshaping our understanding of various fields.",
+        "key_takeaway": "Recent scientific discoveries include potential breakthroughs in Alzheimer's research, depression treatment, and insights into ancient civilizations and cosmic phenomena.",
+        "summary": "Today's science headlines highlight significant advancements in understanding Alzheimer's disease, the potential of creatine in treating depression, and discoveries related to ancient civilizations and cosmic events. Researchers are exploring how soil microbes can help crops in salty conditions, while astronomers have identified rare super-puff planets and a black hole event. Additionally, Hawaii is innovating by recycling ocean plastic into roads, and studies suggest Earth may have seeded Venus with life.",
         "key_themes": [
           "Alzheimer's disease research",
           "creatine and depression",
@@ -821,7 +801,7 @@
           },
           {
             "headline": "Scientists say creatine may help fight depression",
-            "why_it_matters": "Exploring alternative treatments for depression could improve patient outcomes.",
+            "why_it_matters": "Exploring alternative treatments for depression could benefit many patients.",
             "signal": "Unclear"
           },
           {
@@ -836,12 +816,12 @@
           },
           {
             "headline": "Einstein Probe may have caught a black hole tearing apart a white dwarf for the first time",
-            "why_it_matters": "Observing such cosmic events enhances our understanding of black holes and stellar life cycles.",
+            "why_it_matters": "Observing such rare cosmic events enhances our understanding of black holes and stellar evolution.",
             "signal": "Opportunity"
           },
           {
             "headline": "Hawaii is turning ocean plastic and fishing nets into roads",
-            "why_it_matters": "This initiative could address both environmental pollution and infrastructure needs.",
+            "why_it_matters": "This initiative could address both pollution and infrastructure challenges.",
             "signal": "Opportunity"
           },
           {
@@ -851,52 +831,52 @@
           },
           {
             "headline": "Earth may have been seeding Venus with life for billions of years",
-            "why_it_matters": "This theory could change our understanding of life's origins in the solar system.",
+            "why_it_matters": "This theory could reshape our understanding of life's origins in the solar system.",
             "signal": "Unclear"
           },
           {
             "headline": "Scientists discover what triggers belly fat as we age",
-            "why_it_matters": "Identifying biological drivers of obesity can lead to targeted treatments.",
+            "why_it_matters": "Identifying biological drivers of weight gain may lead to effective obesity treatments.",
             "signal": "Opportunity"
           },
           {
             "headline": "Brain activity under anesthesia challenges what we know about consciousness",
-            "why_it_matters": "New insights into consciousness could influence future neuroscience research.",
+            "why_it_matters": "New insights into consciousness could influence future brain-computer interface technologies.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further studies on Alzheimer's spread may be released.",
-            "Results from ongoing trials on creatine and depression could emerge.",
-            "Updates on agricultural applications of soil microbes may be published."
+            "Further analysis on the implications of the Alzheimer's discovery is expected.",
+            "More studies on the effectiveness of creatine for depression may be released.",
+            "Research on the impact of soil microbes on agriculture will continue."
           ],
           "next_1_4_weeks": [
-            "Anticipated findings on the durability of recycled roads in Hawaii.",
-            "New research on the implications of consciousness studies may be shared.",
-            "Continued exploration of ancient civilizations and their significance."
+            "Anticipated results from ongoing trials on creatine and depression treatment.",
+            "Further exploration of the implications of the black hole observation will be discussed.",
+            "Studies on the environmental impact of recycled roads will be published."
           ],
           "watch_list": [
             "Developments in Alzheimer's treatment strategies.",
-            "New insights from NASA's Lucy mission.",
-            "Updates on the effects of creatine on mental health.",
-            "Research on the relationship between aging and obesity."
+            "Updates on the effectiveness of creatine for mental health.",
+            "Research on ancient civilizations and their significance.",
+            "New findings related to cosmic phenomena and planetary science."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates uncertainty in some findings, particularly regarding creatine and depression.",
-          "Further research is needed to confirm the implications of recent discoveries. "
+          "The findings on creatine and depression are mixed and require further validation.",
+          "The implications of the discoveries related to Venus and Earth's life seeding are still speculative."
         ],
         "related_topics": [
-          "What are the latest findings on Alzheimer's disease?",
-          "How can creatine impact mental health?",
-          "What role do soil microbes play in agriculture?",
-          "What are super puff planets?",
-          "How is Hawaii recycling ocean plastic?"
+          "What are the latest findings in Alzheimer's research?",
+          "Can creatine help with depression treatment?",
+          "How do soil microbes affect crop resilience?",
+          "What are super puff planets and why are they important?",
+          "What recent discoveries have been made about black holes?"
         ]
       },
-      "tweet_text": "Breakthroughs in science: from unraveling Alzheimer’s to turning ocean waste into roads—discover the...\n\nScience Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Found #Scientists #Alzheimers #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Breakthroughs in science: from battling Alzheimer's to turning ocean waste into roads—innovation is...\n\nScience Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Found #Scientists #Alzheimers #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
