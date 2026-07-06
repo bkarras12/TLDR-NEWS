@@ -1,10 +1,12 @@
 {
   "date": "2026-07-06",
-  "generated_at_utc": "2026-07-06T07:05:02Z",
+  "generated_at_utc": "2026-07-06T16:48:29Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "market"
+    "trump",
+    "france",
+    "fight"
   ],
   "categories": {
     "world": {
@@ -16,16 +18,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0779,
+        "score": -0.2286,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.130, dampened ×0.6 → -0.0779). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.381, dampened ×0.6 → -0.2286). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "At least 10 killed in second Russian strikes on Kyiv in a week",
+          "title": "Trump confirms he asked Fifa to review Balogun ban",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 06 Jul 2026 15:27:59 GMT",
+          "summary": "President Donald Trump confirms he asked Fifa to review United States striker Folarin Balogun's one-match suspension at the World Cup.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Ukraine warns of interceptor missile shortage as 23 killed in Kyiv region",
           "url": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 06 Jul 2026 06:00:27 GMT",
-          "summary": "The capital's top military administrator said 46 people have been injured in the attack, including five children.",
+          "published": "Mon, 06 Jul 2026 15:09:57 GMT",
+          "summary": "President Zelensky says Sunday's \"massive Russian attack\" on Kyiv consisted of 68 missiles and 351 strike drones.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Huge crowds fill Tehran streets for Khamenei's funeral procession",
+          "url": "https://www.bbc.co.uk/news/articles/cdejj44kl70o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 06 Jul 2026 12:07:44 GMT",
+          "summary": "Many people were waving Iranian flags and red banners symbolising vengeance for the former supreme leader's war death.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Wildfire in southern France forces evacuation of 10,000 people",
+          "url": "https://www.bbc.co.uk/news/articles/crlwweye9glo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 06 Jul 2026 13:08:23 GMT",
+          "summary": "Tour de France organisers ban spectators from stage three as a wildfire hits the Pyrénées-Orientales region.",
           "source": "BBC News"
         },
         {
@@ -36,10 +59,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Australian PM apologises for 'inappropriate' comments about Kylie Minogue",
-          "url": "https://www.bbc.co.uk/news/articles/cr477en6w3go?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 06 Jul 2026 01:46:29 GMT",
-          "summary": "Albanese has apologised 'unequivocally' after his remarks prompted a backlash.",
+          "title": "Sri Lanka prison riots leave 26 dead and more than 100 injured",
+          "url": "https://www.bbc.co.uk/news/articles/cvg77klne3yo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 06 Jul 2026 14:19:26 GMT",
+          "summary": "The two days of violence at Negombo Prison are the worst prison riots in the country in years.",
           "source": "BBC News"
         },
         {
@@ -50,17 +73,17 @@
           "source": "BBC News"
         },
         {
-          "title": "A global hub for fake luxury goods, Vietnam cracks down on its black market",
-          "url": "https://www.bbc.co.uk/news/articles/cdx7zzywz7wo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 05 Jul 2026 22:01:43 GMT",
-          "summary": "The Trump administration wants Vietnam to stamp out its booming counterfeit industry. Locals are divided.",
+          "title": "Australian PM apologises for 'inappropriate' comments about Kylie Minogue",
+          "url": "https://www.bbc.co.uk/news/articles/cr477en6w3go?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 06 Jul 2026 01:46:29 GMT",
+          "summary": "Albanese has apologised 'unequivocally' after his remarks prompted a backlash.",
           "source": "BBC News"
         },
         {
-          "title": "Super Typhoon Bavi makes landfall on US Pacific islands with huge wind gusts",
+          "title": "Super Typhoon Bavi strikes US Pacific islands with pummeling winds",
           "url": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 06 Jul 2026 00:20:20 GMT",
-          "summary": "The storm, with winds of nearly 290km/h (180mph) and gusts of 350km/h, is lashing the island of Rota.",
+          "published": "Mon, 06 Jul 2026 16:44:54 GMT",
+          "summary": "The storm lashed the Mariana Islands, hitting Rota and prompting emergency warnings on Guam.",
           "source": "BBC News"
         },
         {
@@ -71,17 +94,10 @@
           "source": "BBC News"
         },
         {
-          "title": "'Definitely felt a big bang': Delta plane hit by firework while landing in Chicago",
-          "url": "https://www.bbc.co.uk/news/articles/cj4gg89r9gdo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 05 Jul 2026 18:18:40 GMT",
-          "summary": "The plane had 52 passengers and six crew onboard. No injuries were reported.",
-          "source": "BBC News"
-        },
-        {
-          "title": "The African fishermen who blame Chinese trawlers for their woes",
-          "url": "https://www.bbc.co.uk/news/articles/cj4gy9qy7vyo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 05 Jul 2026 23:30:40 GMT",
-          "summary": "Fishing crews in Sierra Leone say large Chinese ships are illegally hoovering up stocks.",
+          "title": "Thousands of forgotten WW1 soldiers recognised for first time",
+          "url": "https://www.bbc.co.uk/news/articles/cgqjpqjgxzgo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 06 Jul 2026 05:04:06 GMT",
+          "summary": "Nearly 10,000 soldiers' names are being added to the official database of war dead, a cherished step for many of their descendants.",
           "source": "BBC News"
         },
         {
@@ -90,97 +106,80 @@
           "published": "Mon, 06 Jul 2026 00:02:29 GMT",
           "summary": "Relations between Dhaka and Delhi, that turned frosty under the interim government, are on the mend.",
           "source": "BBC News"
-        },
-        {
-          "title": "Thousands welcome home Cape Verde footballers after stunning World Cup run",
-          "url": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 05 Jul 2026 14:59:10 GMT",
-          "summary": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks",
-          "url": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 05 Jul 2026 17:30:45 GMT",
-          "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "At least 10 people were killed in Russian strikes on Kyiv, while a Venezuelan girl survived 32 hours trapped under earthquake rubble.",
-        "summary": "Today's headlines highlight significant global events, including deadly Russian strikes in Ukraine, a Venezuelan girl's survival story, and various political and environmental issues across different countries.",
+        "key_takeaway": "Ukraine faces a severe missile shortage amid ongoing attacks, while global events include a massive wildfire in France and the aftermath of a devastating earthquake in Venezuela.",
+        "summary": "Today's news highlights significant global events, including Ukraine's warning of a missile shortage following a deadly attack, the funeral of Iran's former leader, and severe weather impacts from Super Typhoon Bavi. Additionally, a wildfire in France has led to mass evacuations, and a tragic earthquake in Venezuela has left a girl trapped for over 30 hours. In political news, Marine Le Pen's appeal verdict could impact France's upcoming presidential election, while Australia addresses a public backlash over inappropriate comments from its Prime Minister.",
         "key_themes": [
-          "Russian strikes on Kyiv",
-          "Venezuelan earthquake survivor",
-          "Marine Le Pen's political future",
-          "Vietnam's counterfeit goods crackdown",
+          "Ukraine missile shortage",
+          "Iran funeral procession",
+          "wildfire evacuation in France",
+          "Venezuela earthquake survival story",
+          "Marine Le Pen appeal verdict",
           "Super Typhoon Bavi impact"
         ],
         "notable_headlines": [
           {
-            "headline": "At least 10 killed in second Russian strikes on Kyiv in a week",
-            "why_it_matters": "This attack underscores the ongoing conflict and humanitarian crisis in Ukraine.",
+            "headline": "Ukraine warns of interceptor missile shortage as 23 killed in Kyiv region",
+            "why_it_matters": "The ongoing conflict in Ukraine is intensifying, highlighting the urgent need for military resources.",
             "signal": "Risk"
           },
           {
-            "headline": "'I ate ketchup and cheese,' says Venezuelan girl trapped under quake rubble for 32 hours",
-            "why_it_matters": "Her survival story highlights the human impact of natural disasters in Venezuela.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Australian PM apologises for 'inappropriate' comments about Kylie Minogue",
-            "why_it_matters": "This incident reflects the sensitivity of political discourse in Australia.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Marine Le Pen appeal verdict: Why this moment matters for France",
-            "why_it_matters": "The outcome could significantly influence the political landscape ahead of the 2027 presidential election.",
+            "headline": "Huge crowds fill Tehran streets for Khamenei's funeral procession",
+            "why_it_matters": "The funeral of a significant political figure can impact Iran's political landscape and public sentiment.",
             "signal": "Unclear"
           },
           {
-            "headline": "A global hub for fake luxury goods, Vietnam cracks down on its black market",
-            "why_it_matters": "The crackdown may affect international trade relations and local economies.",
+            "headline": "Wildfire in southern France forces evacuation of 10,000 people",
+            "why_it_matters": "Natural disasters can disrupt local economies and pose risks to public safety.",
             "signal": "Risk"
           },
           {
-            "headline": "Super Typhoon Bavi makes landfall on US Pacific islands with huge wind gusts",
-            "why_it_matters": "The storm poses immediate threats to life and property in affected areas.",
+            "headline": "Sri Lanka prison riots leave 26 dead and more than 100 injured",
+            "why_it_matters": "The violence in prisons raises concerns about human rights and governance in Sri Lanka.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Super Typhoon Bavi strikes US Pacific islands with pummeling winds",
+            "why_it_matters": "Severe weather events can lead to humanitarian crises and require international aid responses.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the aftermath of Russian strikes in Kyiv and potential international responses.",
-            "Updates on the situation in Venezuela following the earthquakes.",
-            "Assessing the impact of Super Typhoon Bavi on the Pacific islands."
+            "Monitoring the situation in Ukraine as missile shortages could affect military operations.",
+            "Assessing the aftermath of the wildfire in France and its impact on local communities.",
+            "Evaluating the response to Super Typhoon Bavi and potential recovery efforts in affected areas."
           ],
           "next_1_4_weeks": [
-            "Potential political ramifications of Marine Le Pen's appeal verdict in France.",
-            "Continued developments in Vietnam's crackdown on counterfeit goods.",
-            "Ongoing analysis of anti-migrant sentiments and incidents in South Africa."
+            "Observing political developments in Iran following the funeral of Khamenei.",
+            "Tracking the implications of the Sri Lanka prison riots on national policy and reform.",
+            "Following the recovery efforts in Venezuela after the earthquake."
           ],
           "watch_list": [
-            "The humanitarian situation in Ukraine post-strikes.",
-            "Venezuelan recovery efforts after the earthquakes.",
-            "Political developments in France ahead of the presidential election.",
-            "Impact of Typhoon Bavi on local economies."
+            "Potential escalation in Ukraine due to missile shortages.",
+            "Political ramifications of Marine Le Pen's appeal verdict in France.",
+            "Impact of climate change on natural disasters like wildfires and typhoons.",
+            "Humanitarian response to the earthquake in Venezuela."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Ukraine remains fluid and may change rapidly.",
-          "The long-term effects of the earthquake in Venezuela are still unfolding.",
-          "Political outcomes in France are uncertain and could shift."
+          "The situation in Ukraine is fluid and may change rapidly.",
+          "Natural disasters often have unpredictable long-term effects.",
+          "Political outcomes can be influenced by various external factors."
         ],
         "related_topics": [
-          "What are the latest developments in Ukraine conflict?",
-          "Survival stories from natural disasters in Venezuela",
-          "Political implications of Marine Le Pen's appeal",
-          "Vietnam's efforts against counterfeit goods",
-          "Impact of Typhoon Bavi on Pacific islands"
+          "What is the latest on Ukraine's missile situation?",
+          "Impact of wildfires in France on local communities",
+          "Updates on Super Typhoon Bavi's effects",
+          "Political implications of Khamenei's funeral in Iran",
+          "Venezuela earthquake survival stories",
+          "Sri Lanka prison riots and their aftermath"
         ]
       },
-      "tweet_text": "Chaos in Kyiv, a girl's survival against the odds, and a super typhoon's fury—today's headlines reveal a world on edge.\n\nWorld Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Space #Agency #Apologises #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "From sports diplomacy to devastating disasters, today’s world news reveals a chilling blend of hope and heartbreak.\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#France #10000 #Apologises #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -191,11 +190,39 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.027,
+        "score": 0.0467,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.045, dampened ×0.6 → -0.0270). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.078, dampened ×0.6 → +0.0467). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "‘Why take those jobs away?’: the unionized workers decrying Trump’s war on wind",
+          "url": "https://www.theguardian.com/environment/2026/jul/06/workers-unions-trump-wind-energy",
+          "published": "Mon, 06 Jul 2026 11:00:01 GMT",
+          "summary": "<p>Workers proud of their efforts to grow renewable energy say US president pursuing ‘personal vendetta’ at their expense</p><p>Donald Trump has blamed everything – from <a href=\"https://www.reuters.com/business/energy/trump-administration-cites-national-security-halt-us-wind-farm-projects-ft-2026-05-03/\">“national security”</a> issues, the deaths of <a href=\"https://www.youtube.com/watch?v=t0R5_kWVuX0\">birds</a> and <a href=\"https://www.bbc.com/news/world-us-canada-66928305\">whales</a>, and can",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Conservative fight against license renewals for ABC stations heats up",
+          "url": "https://www.theguardian.com/media/2026/jul/06/abc-license-renewals-fcc",
+          "published": "Mon, 06 Jul 2026 11:00:02 GMT",
+          "summary": "<p>Prominent organizations accuse network of political, racial and sexual bias and supporting Chinese communist party</p><p>A group of prominent conservative organizations has petitioned the Federal Communications Commission (FCC) to deny license renewal requests from the eight local television stations owned and operated by ABC, accusing the network of political, racial and sexual bias and supporting the Chinese communist party.</p><p>The petitions come after the commission, led by Trump appoin",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Sky owner strikes £1.6bn ITV deal; easyJet shares hit four-year high after it agrees £5.5bn takeover ‘in principle’ - as it happened",
+          "url": "https://www.theguardian.com/business/live/2026/jul/06/sky-takeover-itv-broadcasting-media-deal-business-live-news",
+          "published": "Mon, 06 Jul 2026 14:10:15 GMT",
+          "summary": "<p>Rolling coverage of the latest economic and financial news</p><p>England’s victory against Mexico in the World Cup last night was a win for the UK’s high streets too – footfall was up 143.6% year-on-year between midnight and 6am, according to figures from the monitoring company <strong>MRI Software </strong>(although it worth noting that there was no World Cup match at that time last year).</p><p>Footfall in market towns was up 175.5%, and in historic towns it was up 159.9%, it found. <em><br",
+          "source": "The Guardian"
+        },
+        {
+          "title": "EasyJet suggests it will agree to £5.5bn takeover by US investment firm",
+          "url": "https://www.theguardian.com/business/2026/jul/05/easyjet-agrees-to-5bn-takeover-by-us-investment-firm",
+          "published": "Sun, 05 Jul 2026 18:26:14 GMT",
+          "summary": "<p>Agreement in principle with Castlelake follows several rejected offers and means UK’s biggest low-cost carrier will be taken private </p><p>The airline easyJet has said it intends to accept a £5.5bn takeover offer by the US investment firm Castlelake that would take Britain’s biggest low-cost carrier private.</p><p>The companies announced an agreement in principle on Sunday evening in a statement, and requested an extension to a deadline to complete the deal formally. The agreement came after",
+          "source": "The Guardian"
+        },
         {
           "title": "As auto costs rise, will the US miss the golden age of electric vehicles?",
           "url": "https://www.theguardian.com/us-news/2026/jul/04/electric-cars-vehicles-united-states",
@@ -232,34 +259,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Crypto and stock stakes: key takeaways from Trump’s financial disclosures",
-          "url": "https://www.theguardian.com/us-news/2026/jul/01/crypto-ventures-stock-key-takeaways-trump-financial-disclosures",
-          "published": "Wed, 01 Jul 2026 13:30:20 GMT",
-          "summary": "<p>US president raked in more than $1bn from crypto – an industry he has sought to deregulate – and a total of $2.2bn last year, files reveal</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/jun/30/trump-1bn-crypto-businesses-2025\">Alarm bells over conflict of interest as filing shows Trump raked in $2bn in 2025</a></p></li></ul><p>Donald Trump’s money-making ventures enriched him by more than $2bn<a href=\"https://www.theguardian.com/us-news/2026/jun/30/trump-1bn-crypto-businesses",
-          "source": "The Guardian"
-        },
-        {
-          "title": "US labor board more likely to dismiss worker and union charges under Trump, analysis finds",
-          "url": "https://www.theguardian.com/us-news/2026/jul/01/trump-labor-board-dismissals",
-          "published": "Wed, 01 Jul 2026 11:00:33 GMT",
-          "summary": "<p>Report points to staffing shortages, procedural changes and lack of a board quorum as contributing factors</p><p>Dismissals of unfair labor practice charges have surged at the National Labor Relations Board under <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>, according to a <a href=\"https://www.americanprogress.org/article/the-nlrb-is-throwing-out-charges-alleging-employers-engaged-in-unfair-labor-practices/\">new analysis</a>.</p><p>From January 2025 to 29 April 2",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Rapid spread of AI may worsen global inequality, UN warns",
-          "url": "https://www.theguardian.com/technology/2026/jul/01/un-report-ai-inequality",
-          "published": "Wed, 01 Jul 2026 19:17:11 GMT",
-          "summary": "<p>Panel proses shared framework for responsible AI development as adoption grows unevenly across world</p><p>A new <a href=\"https://www.theguardian.com/world/unitednations\">United Nations</a> report warns that the development of <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">artificial intelligence</a> may exacerbate global inequality and proposes a shared framework for how to responsibly develop AI, as adoption and investment into the technology accelerates unevenly",
-          "source": "The Guardian"
-        },
-        {
-          "title": "US cooking oil market shrinking due to Ice pressures on Latino households, Mazola owner says",
-          "url": "https://www.theguardian.com/business/2026/jul/01/us-cooking-oil-market-shrinking-ice-pressures-latino-households-mazola-owner",
-          "published": "Wed, 01 Jul 2026 12:52:57 GMT",
-          "summary": "<p>Economic squeeze and anti-immigration raids have hit Hispanic communities, prompting people to shop online and reuse oil</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/jul/01/uk-house-prices-flat-june-nationwide-higher-energy-bills-cap-inflation-bank-england-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>The US cooking oil market is shrinking and unlikely to improve soon because of economic and immigration enforcement pressures on Latino househo",
-          "source": "The Guardian"
-        },
-        {
           "title": "Trump’s affordability crisis hits his supporters hardest as he calls housing bill of ‘minor importance’",
           "url": "https://www.theguardian.com/business/2026/jul/01/trump-voters-housing-affordability-bill",
           "published": "Wed, 01 Jul 2026 11:00:34 GMT",
@@ -282,76 +281,70 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "US job growth slowed in June with only 57,000 new jobs added, while electric vehicle costs and competition raise concerns for the industry.",
-        "summary": "Today's business news highlights a slowdown in US job growth, concerns over the electric vehicle market, and political tensions surrounding data centers and trade agreements. Tesla's sales exceeded expectations, indicating a rebound in the auto sector, while Trump's refusal to renew the USMCA raises questions about future trade relations. Additionally, economic pressures are impacting the cooking oil market and housing affordability crisis, particularly affecting Latino households.",
+        "key_takeaway": "EasyJet is set to accept a £5.5bn takeover offer from US investment firm Castlelake, while US job growth remains sluggish with only 57,000 new jobs added in June.",
+        "summary": "Today's business news highlights EasyJet's impending £5.5bn takeover by Castlelake, ongoing challenges in the US job market with slow growth, and political tensions affecting various sectors including renewable energy and media licensing.",
         "key_themes": [
-          "US job growth analysis",
-          "electric vehicle market trends",
-          "impact of trade agreements on economy",
-          "housing affordability crisis in the US",
-          "effects of immigration policies on markets"
+          "EasyJet takeover news",
+          "US job market analysis",
+          "Trump's impact on renewable energy"
         ],
         "notable_headlines": [
           {
-            "headline": "As auto costs rise, will the US miss the golden age of electric vehicles?",
-            "why_it_matters": "The electric vehicle industry faces challenges from rising costs and competition, potentially hindering its growth in the US market.",
+            "headline": "‘Why take those jobs away?’: the unionized workers decrying Trump’s war on wind",
+            "why_it_matters": "Workers in renewable energy express frustration over Trump's policies, which they believe threaten their jobs and the industry's growth.",
             "signal": "Risk"
           },
           {
-            "headline": "US residents angry at datacenters ‘being shoved down our throats’ are recalling officials",
-            "why_it_matters": "Public backlash against data centers is leading to political consequences for officials who support such projects, indicating a shift in community priorities.",
+            "headline": "Conservative fight against license renewals for ABC stations heats up",
+            "why_it_matters": "Political pressure mounts on ABC as conservative groups challenge its license renewals, raising concerns about media bias and regulation.",
             "signal": "Risk"
           },
           {
-            "headline": "US employers added just 57,000 new jobs in June, lower than expected",
-            "why_it_matters": "The lower-than-expected job growth signals potential economic slowdown and raises concerns about the labor market's recovery.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Tesla sales surpass expectations for second quarter as Musk backlash seems to cool",
-            "why_it_matters": "Tesla's strong sales figures suggest a recovery in demand, which could bolster its market position and investor confidence.",
+            "headline": "Sky owner strikes £1.6bn ITV deal; easyJet shares hit four-year high after it agrees £5.5bn takeover ‘in principle’",
+            "why_it_matters": "Major media deals indicate shifting dynamics in the broadcasting industry, with EasyJet's takeover marking a significant change for the airline sector.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Trump refuses to renew US-Canada-Mexico trade pact he once championed",
-            "why_it_matters": "Trump's decision not to renew the trade pact raises concerns about future trade relations and economic stability in North America.",
+            "headline": "US employers added just 57,000 new jobs in June, lower than expected",
+            "why_it_matters": "The disappointing job growth signals potential economic challenges ahead, affecting consumer confidence and spending.",
             "signal": "Risk"
+          },
+          {
+            "headline": "As auto costs rise, will the US miss the golden age of electric vehicles?",
+            "why_it_matters": "Rising costs and competition from foreign markets could hinder the US electric vehicle industry's growth potential.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to the US job growth report and its implications for economic policy.",
-            "Observing market responses to Tesla's sales figures and their impact on the auto industry.",
-            "Tracking developments in the public response to data center projects across the US."
+            "Monitoring developments on EasyJet's takeover agreement with Castlelake.",
+            "Observing reactions to the job growth figures and their implications for the economy.",
+            "Tracking any new political developments regarding media license renewals."
           ],
           "next_1_4_weeks": [
-            "Evaluating the impact of Trump's trade decisions on US-Canada-Mexico relations and the broader economy.",
-            "Assessing the ongoing effects of economic pressures on Latino households and the cooking oil market.",
-            "Analyzing job market trends and potential policy responses to the slowdown in job growth."
+            "Evaluating the impact of the EasyJet takeover on the airline industry and market competition.",
+            "Anticipating further analysis on the job market and economic forecasts based on recent data.",
+            "Watching for responses from the renewable energy sector to Trump's policies."
           ],
           "watch_list": [
-            "US job growth statistics and labor market trends",
-            "Electric vehicle market developments and competition",
-            "Public sentiment towards data centers and local governance",
-            "Trade policy changes under the Trump administration",
-            "Housing market trends and affordability issues"
+            "EasyJet's finalization of the takeover deal.",
+            "Job market trends and upcoming employment reports.",
+            "Political developments regarding media regulation and licensing.",
+            "Impact of Trump's policies on renewable energy jobs."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The job growth figures may be revised in future reports, affecting the overall economic outlook.",
-          "Market reactions to Tesla's sales may vary based on broader economic conditions and consumer sentiment. ",
-          "Political developments regarding trade agreements can change rapidly, impacting forecasts. "
+          "The job growth figures may be revised in future reports, affecting economic outlook.",
+          "Political tensions could lead to unpredictable changes in media regulations."
         ],
         "related_topics": [
-          "What are the latest trends in the electric vehicle market?",
-          "How is the US job market performing this month?",
-          "What are the implications of Trump's trade decisions?",
-          "How are data centers affecting local communities?",
-          "What is the current state of housing affordability in the US?"
+          "What is the latest on EasyJet's takeover deal?",
+          "How is the US job market performing?",
+          "What are the implications of Trump's policies on renewable energy?"
         ]
       },
-      "tweet_text": "Is the golden age of electric vehicles slipping away as costs soar and jobs dwindle?\n\nBusiness Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #57000 #Added #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Unions clash with Trump as wind jobs face the chopping block—are we sacrificing our future for short-term...\n\nBusiness Sentiment: Neutral (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#55bn #Easyjet #Jobs #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -362,11 +355,67 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1364,
+        "score": 0.1759,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.227, dampened ×0.6 → +0.1364). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.293, dampened ×0.6 → +0.1759). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Former Xbox studios Double Fine and Compulsion will keep games after going indie",
+          "url": "https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie",
+          "published": "2026-07-06T12:22:34-04:00",
+          "summary": "Microsoft is spinning off four of its Xbox game studios - Compulsion Games, Double Fine Productions, Ninja Theory, and Undead Labs - as part of the restructuring announced today. However, two that are going independent, Double Fine and Compulsion, will get to keep their franchises and games catalog, according to Xbox CEO Asha Sharma. \"Compulsion [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "I spy",
+          "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+          "published": "2026-07-06T12:00:00-04:00",
+          "summary": "I've long argued that Hollywood has simultaneously set and ruined our expectations for smart glasses. But after binge-watching two seasons of Netflix's A Man on the Inside, this is perhaps the first time I've seen Hollywood, perhaps inadvertently, illustrate the biggest cultural problem with smart glasses as they stand today. In a nutshell, Ted Danson [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The DJI Osmo Pocket 3 lookalike is down to $329",
+          "url": "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale",
+          "published": "2026-07-06T11:09:18-04:00",
+          "summary": "Initially, I was going to tell you about a good deal happening on the DJI Osmo Pocket 3, which is down from the $500 it’s sold at most of the year to $378 at multiple retailers. But there’s a better deal happening on a nearly identical portable camera, the Xtra Muse, which is $329 (roughly [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Inside the big business of the creator economy, with the agents making it happen",
+          "url": "https://www.theverge.com/podcast/961603/raina-penchansky-ali-berman-dba-uta-influencer-cliff-marketing",
+          "published": "2026-07-06T10:30:00-04:00",
+          "summary": "We’ve got another special episode of Decoder today, recorded at the Cannes Lions advertising festival in the South of France. I’m talking with Ali Berman and Raina Penchansky, who run the Creators division at United Talent Agency. UTA is an enormous talent agency. Half the people you’ve ever heard speak or perform or who show [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Nintendo will stop selling the original Switch in Europe next year",
+          "url": "https://www.theverge.com/games/961632/nintendo-switch-europe-discontinued",
+          "published": "2026-07-06T10:15:48-04:00",
+          "summary": "Nintendo is making a new version of the Switch 2 with a replaceable battery in Europe - but its predecessor has a very different future. As part of an updated FAQ about revisions to Nintendo hardware in Europe, the company confirmed that it will stop selling all iterations of the original Switch on the continent [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Can Partiful keep the party going?",
+          "url": "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir",
+          "published": "2026-07-06T10:00:00-04:00",
+          "summary": "One hundred dollars will buy you 8 pounds of glitter; 10 Domino's pizzas; 406 miniature disco balls from Temu; or 100 cans of Coors Light. For a friend's birthday party one year, Ayla D'Silva spent $100 on sour candy and made a \"sour candy salad.\" Even sweeter was that she didn't have to foot the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Microsoft is selling off four Xbox studios as part of significant gaming cuts",
+          "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026",
+          "published": "2026-07-06T09:31:24-04:00",
+          "summary": "Microsoft is laying off 4,800 employees today, and more than 30 percent of the job losses are in the company's Xbox division. The significant gaming cuts will affect nearly every part of Xbox and also involve four game studios being spun off to be run independently from Microsoft. Today's layoffs, which are being described as [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Microsoft is laying off 4,800 employees",
+          "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
+          "published": "2026-07-06T09:30:00-04:00",
+          "summary": "A year after cutting around 9,100 employees, Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's commercial sales business or the company's Xbox division. [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Some of the nation’s rich are letting AI teach their kids",
           "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
@@ -375,139 +424,83 @@
           "source": "The Verge"
         },
         {
-          "title": "Mr. Lif’s Emergency Rations EP is post-9/11 hip hop at its most daring",
+          "title": "Mr. Lif’s Emergency Rations EP is post-9/11 hip-hop at its most daring",
           "url": "https://www.theverge.com/entertainment/961484/mr-lif-emergency-rations-ep-post-9-11-review",
           "published": "2026-07-05T14:30:00-04:00",
-          "summary": "There was a period in the early aughts when Definitive Jux (nee: Def Jux) seemed like it was going to be the future of hip hop. While the label featured plenty of experimental, boundary-pushing, and politically minded acts, Lif stood out as the most \"conscious rapper\" in the traditional sense. It was clear though, that [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Where to preorder Grand Theft Auto VI",
-          "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy",
-          "published": "2026-07-05T12:00:00-04:00",
-          "summary": "Rockstar's long-awaited Grand Theft Auto VI is launching November 19th, 2026 for PlayStation 5 and Xbox Series S/X consoles. The game will be available digitally at launch, with physical cases containing codes, not discs, so your options for preordering are straightforward. The preloading phase for the game begins on November 12th, which should give you [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
-          "published": "2026-07-05T10:23:11-04:00",
-          "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Ben Franklin texts Thomas Jefferson to [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Sourdough Sidekick automates the boring bit of baking",
-          "url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
-          "published": "2026-07-05T10:00:00-04:00",
-          "summary": "Baking sourdough bread is inherently old-fashioned, relying on natural fermentation and wild yeast instead of the simple, predictable commercial stuff. So it might sound anathema to bring a gadget into the mix. The trick to the Sourdough Sidekick - backed and branded by King Arthur flour - is that it promises to automate the boring [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "How Keurig saved — and ruined — your coffee",
-          "url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
-          "published": "2026-07-05T09:51:56-04:00",
-          "summary": "Before Keurig, the coffee in your office was almost certainly terrible. Old, burned, made by someone who would rather poorly eyeball than properly measure. Just altogether gross. After Keurig? You could make your own coffee, a cup at a time, exactly when you needed it. The single-cup brewer was an elegant solution to an extremely [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Vizio accidentally made the best dumb TV on the market",
-          "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review",
-          "published": "2026-07-05T09:00:00-04:00",
-          "summary": "When I first started testing Vizio's 65-inch Mini LED Quantum TV, I thought the big story was that Vizio was back and that it had a quantum-dot TV for under $398 - the cheapest on the market. Vizio's been pretty quiet since it was acquired by Walmart in 2024, so putting out a TV with [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Xbox is a disaster",
-          "url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
-          "published": "2026-07-05T08:00:00-04:00",
-          "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the bleak state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Microsoft closed out Summer [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
-          "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
-          "published": "2026-07-04T15:06:27-04:00",
-          "summary": "The Swift Observatory was launched in 2004, but recent solar storms have pushed its orbit lower, and it's in danger of burning up in Earth's atmosphere as soon as this year. To try and stave off its demise, NASA has enlisted Katalyst Space Technologies. The company's Link spacecraft launched Friday with the goal of intercepting [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "White House deletes thousands of web pages about energy conservation as heatwave slams US",
-          "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
-          "published": "2026-07-04T12:19:06-04:00",
-          "summary": "The US Department of Energy reportedly deleted about 6,000 pages related to energy conservation as a historic heatwave tears across the country. The deletion was suspiciously timed, following Republican outrage over Mayor Zohran Mamdani asking New Yorkers to help reduce strain on the grid by setting their AC to 78 degrees. Republicans like Ted Cruz [&#8230;]",
+          "summary": "There was a period in the early aughts when Definitive Jux (nee: Def Jux) seemed like it was going to be the future of hip-hop. While the label featured plenty of experimental, boundary-pushing, and politically minded acts, Lif stood out as the most \"conscious rapper\" in the traditional sense. It was clear though, that label [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Wealthy families are increasingly turning to AI for education, while the gaming industry anticipates the release of Grand Theft Auto VI this November.",
-        "summary": "Today's technology news highlights a growing trend among affluent families opting for AI-based education, the upcoming release of Grand Theft Auto VI, and mixed reactions to a controversial Google commercial. Additionally, NASA is taking emergency measures to save the Swift Observatory, and Vizio has launched an affordable Mini LED Quantum TV. The overall sentiment remains mixed as the tech landscape evolves.",
+        "key_takeaway": "Microsoft announced significant layoffs affecting its Xbox division and is spinning off four studios, while some wealthy families are opting for AI education for their children.",
+        "summary": "Today's technology news highlights Microsoft's restructuring, including layoffs and the spin-off of Xbox studios, alongside cultural discussions on AI in education and the evolving gaming market.",
         "key_themes": [
-          "AI in education",
-          "Grand Theft Auto VI release",
-          "NASA emergency missions",
-          "Vizio TV review",
-          "Google commercial controversy"
+          "Microsoft layoffs impact",
+          "Xbox studio spin-offs",
+          "AI in education trends",
+          "Nintendo Switch sales changes",
+          "creator economy insights"
         ],
         "notable_headlines": [
           {
+            "headline": "Microsoft is laying off 4,800 employees",
+            "why_it_matters": "This marks a significant reduction in workforce, particularly affecting the Xbox division, indicating a major shift in Microsoft's gaming strategy.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Microsoft is selling off four Xbox studios as part of significant gaming cuts",
+            "why_it_matters": "The spin-off of these studios could reshape the gaming landscape and impact future game development.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Nintendo will stop selling the original Switch in Europe next year",
+            "why_it_matters": "This decision signals a transition to new hardware, potentially affecting sales and consumer choices in the gaming market.",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Some of the nation’s rich are letting AI teach their kids",
-            "why_it_matters": "This trend reflects a significant shift in educational preferences among affluent families, raising questions about trust in AI.",
+            "why_it_matters": "This trend raises questions about the future of education and the role of AI in learning environments.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Where to preorder Grand Theft Auto VI",
-            "why_it_matters": "The anticipation for this game indicates strong consumer interest and potential sales impact for the gaming industry.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Infuriating Google commercial imagines the founding fathers embracing AI",
-            "why_it_matters": "The commercial has sparked debate over the appropriateness and effectiveness of using historical figures in modern marketing.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
-            "why_it_matters": "This mission underscores the importance of preserving scientific instruments and the challenges posed by space debris.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Vizio accidentally made the best dumb TV on the market",
-            "why_it_matters": "Vizio's new product offers an affordable option in a competitive market, appealing to budget-conscious consumers.",
+            "headline": "Inside the big business of the creator economy, with the agents making it happen",
+            "why_it_matters": "Insights into the creator economy highlight the growing influence of digital creators and their management.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to the Google commercial and its impact on brand perception.",
-            "Watch for updates on the Swift Observatory mission and its success.",
-            "Keep an eye on preorders for Grand Theft Auto VI as the launch date approaches."
+            "Monitoring reactions to Microsoft's layoffs and studio sales",
+            "Anticipating consumer responses to Nintendo's Switch discontinuation in Europe",
+            "Observing trends in AI education among affluent families"
           ],
           "next_1_4_weeks": [
-            "Evaluate the performance of Vizio's new TV in the market and consumer reviews.",
-            "Observe trends in AI education as more families adopt these technologies.",
-            "Follow developments in the gaming industry as Grand Theft Auto VI's release nears."
+            "Evaluating the impact of Microsoft's restructuring on Xbox game releases",
+            "Tracking developments in the creator economy and influencer marketing",
+            "Watching for updates on new Nintendo hardware releases"
           ],
           "watch_list": [
-            "AI education trends among affluent families",
-            "Consumer response to Grand Theft Auto VI",
-            "Impact of NASA's mission on space technology",
-            "Vizio's market performance",
-            "Public sentiment regarding AI in marketing"
+            "Microsoft's future gaming strategy",
+            "Trends in AI education and public perception",
+            "New product announcements from Nintendo and Xbox",
+            "Developments in the creator economy"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates varied public opinion on technology-related topics.",
-          "The impact of the Google commercial may evolve as more viewers react to it."
+          "The impact of layoffs on employee morale and company culture is yet to be seen.",
+          "Consumer reactions to hardware changes can be unpredictable.",
+          "The effectiveness of AI in education is still a debated topic."
         ],
         "related_topics": [
-          "What are the latest trends in AI education?",
-          "How to preorder Grand Theft Auto VI?",
-          "What is NASA's mission to save the Swift Observatory?",
-          "Vizio Mini LED Quantum TV reviews",
-          "What are the implications of AI in marketing?"
+          "What are the implications of Microsoft's layoffs",
+          "How is AI being used in education today",
+          "What changes are coming to the Nintendo Switch",
+          "Insights into the creator economy and influencers",
+          "What does the future hold for Xbox studios"
         ]
       },
-      "tweet_text": "The rich are handing over their parenting to AI – is this the future of education or a recipe for...\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Accidentally #Auto #Automates #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Big moves in gaming and tech: indie dreams, creator empires, and a classic console's farewell—don’t miss the...\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Going #Keep #Microsoft #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -610,36 +603,38 @@
       ],
       "ai_report": {
         "key_takeaway": "France advances to the World Cup quarterfinals after a challenging match against Paraguay, while MLB All-Star selections highlight notable player performances.",
-        "summary": "Today's sports news features France's narrow victory over Paraguay in the World Cup, Kylian Mbappé's comments on tactics, and MLB All-Star Game updates including player selections and performances. Additionally, Patrick Ewing joins the Wizards as an assistant coach, and Yordan Alvarez shines with a walk-off home run for the Astros.",
+        "summary": "Today's sports headlines feature France's narrow victory over Paraguay in the World Cup, Kylian Mbappé's comments on tactics, MLB All-Star selections, and Patrick Ewing's new role with the Wizards. Additionally, Yordan Alvarez's impressive performance for the Astros and the wedding of Travis Kelce and Taylor Swift garnered attention.",
         "key_themes": [
           "World Cup updates",
           "MLB All-Star Game news",
-          "Patrick Ewing coaching news"
+          "Patrick Ewing coaching news",
+          "Yordan Alvarez performance",
+          "Travis Kelce wedding highlights"
         ],
         "notable_headlines": [
           {
             "headline": "France pass toughest World Cup test yet in beating...",
-            "why_it_matters": "France's resilience in a tough match showcases their readiness for the challenges ahead in the tournament.",
+            "why_it_matters": "France's ability to handle pressure in the World Cup showcases their resilience as they move forward in the tournament.",
             "signal": "Opportunity"
           },
           {
             "headline": "France's Mbappé calls Paraguay tactics 'ugly'",
-            "why_it_matters": "Mbappé's remarks highlight the psychological aspects of competition and set the tone for future matches.",
+            "why_it_matters": "Mbappé's remarks indicate a readiness for tougher competition, potentially influencing future matches.",
             "signal": "Risk"
           },
           {
             "headline": "Ohtani, Freeman lead Dodgers' 4 All-Star starters",
-            "why_it_matters": "The selection of multiple Dodgers players emphasizes their strong season and potential impact in the All-Star Game.",
+            "why_it_matters": "The Dodgers' strong representation in the All-Star Game highlights their successful season thus far.",
             "signal": "Opportunity"
           },
           {
             "headline": "All-Star Alvarez walks off Rays in multi-HR night",
-            "why_it_matters": "Alvarez's performance reinforces his status as a key player in the league and adds excitement to the upcoming All-Star Game.",
+            "why_it_matters": "Alvarez's performance solidifies his status as a key player in the league and boosts the Astros' momentum.",
             "signal": "Opportunity"
           },
           {
             "headline": "Sources: Ewing joining Wizards as assistant coach",
-            "why_it_matters": "Ewing's experience could significantly influence the Wizards' development and strategy moving forward.",
+            "why_it_matters": "Ewing's experience could significantly impact the Wizards' coaching strategy and player development.",
             "signal": "Opportunity"
           }
         ],
@@ -647,32 +642,32 @@
           "next_24_72_hours": [
             "Analysis of France's next World Cup match",
             "Reactions to MLB All-Star Game selections",
-            "Updates on Patrick Ewing's coaching role"
+            "Updates on Patrick Ewing's coaching strategies"
           ],
           "next_1_4_weeks": [
-            "Continued coverage of the World Cup quarterfinals",
-            "MLB All-Star Game events and performances",
-            "Tracking player impacts from Ewing's coaching"
+            "Progress of teams in the World Cup quarterfinals",
+            "MLB All-Star Game results and player performances",
+            "Impact of Ewing's coaching on the Wizards' season"
           ],
           "watch_list": [
             "Upcoming World Cup matches",
-            "MLB All-Star Game highlights",
-            "Ewing's influence on Wizards' performance in upcoming season",
-            "Yordan Alvarez's performance trends"
+            "MLB All-Star Game festivities",
+            "Player performances in Summer League",
+            "Travis Kelce and Taylor Swift's public appearances"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "Mixed sentiment indicates varying public reactions to the news.",
-          "Player performances may fluctuate leading up to the All-Star Game."
+          "Mixed sentiment indicates varying public reactions to the events reported.",
+          "Future outcomes in sports are inherently unpredictable."
         ],
         "related_topics": [
-          "What are the latest updates from the World Cup",
-          "MLB All-Star Game player selections and analysis",
-          "Patrick Ewing's impact as Wizards assistant coach"
+          "What are the latest updates from the World Cup?",
+          "Who are the MLB All-Star Game selections?",
+          "What is Patrick Ewing's new role with the Wizards?"
         ]
       },
-      "tweet_text": "France faces fury as Mbappé slams Paraguay's 'ugly' tactics after a nail-biting World Cup showdown!\n\nSports Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Allstar #Sources #5star #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "France survives the ultimate World Cup showdown while Mbappé slams Paraguay’s tactics—drama on and off the field!\n\nSports Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Allstar #Sources #5star #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -683,9 +678,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.2002,
+        "score": 0.1231,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.334, dampened ×0.6 → +0.2002). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.205, dampened ×0.6 → +0.1231). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -752,6 +747,13 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Streetlights are trapping thousands of pill bugs in giant “death spirals”",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260626125707.htm",
+          "published": "Mon, 06 Jul 2026 04:42:44 EDT",
+          "summary": "Researchers discovered that artificial streetlights can trap thousands of woodlice in mesmerizing circular \"death spirals\" never before seen in the wild. The surprising finding suggests that light pollution may be unintentionally altering the behavior of even the smallest ground-dwelling animals.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "A strange LIGO signal could reveal the missing link behind dark matter",
           "url": "https://www.sciencedaily.com/releases/2026/06/260626125703.htm",
           "published": "Thu, 02 Jul 2026 23:56:36 EDT",
@@ -764,25 +766,15 @@
           "published": "Wed, 01 Jul 2026 23:05:16 EDT",
           "summary": "A decades-old puzzle about water has finally been unraveled. Researchers found that water trapped in tiny nanoscale spaces is not inherently more reactive. Instead, the intense pressures created inside these microscopic gaps explain most of the effect, while the surrounding material can further enhance water's chemistry if it interacts with the reaction products.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Great ape laughter reveals a hidden origin of human speech",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260626124704.htm",
-          "published": "Wed, 01 Jul 2026 20:36:29 EDT",
-          "summary": "The rhythm of human laughter appears to have deep evolutionary roots shared with chimpanzees, bonobos, gorillas, and orangutans. That ancient pattern may offer one of the clearest clues yet to how the vocal control needed for human speech gradually evolved.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "NASA celebrates the United States' 250th anniversary with stunning astronomical images while new research highlights environmental impacts of fireworks and advances in understanding Alzheimer's disease.",
-        "summary": "NASA's Hubble Space Telescope has released several captivating images of star clusters and stellar nurseries to commemorate the U.S. 250th anniversary. Concurrently, research has revealed the hidden pollution caused by fireworks and significant findings regarding Alzheimer's disease, including how it spreads and potential resilience in some brains. Additionally, a strange gravitational wave signal may provide insights into dark matter, while studies on water behavior and the evolutionary roots of human laughter have also emerged.",
+        "key_takeaway": "NASA celebrates the U.S. 250th anniversary with stunning astronomical images while new research highlights environmental impacts of fireworks and advances in understanding Alzheimer's disease.",
+        "summary": "NASA has released a series of breathtaking images from the Hubble Space Telescope to commemorate the 250th anniversary of the United States, showcasing various celestial phenomena. In addition, recent studies have revealed the environmental pollution caused by fireworks and significant findings related to Alzheimer's disease, including potential new treatments and insights into the disease's spread.",
         "key_themes": [
-          "NASA's Hubble discoveries",
+          "NASA Hubble images for 250th anniversary",
           "fireworks pollution research",
-          "Alzheimer's disease advancements",
-          "dark matter gravitational waves",
-          "water behavior in nanoscale spaces",
-          "evolution of human speech"
+          "advancements in Alzheimer's understanding"
         ],
         "notable_headlines": [
           {
@@ -791,58 +783,56 @@
             "signal": "Opportunity"
           },
           {
+            "headline": "NASA's Hubble captures a crimson stellar nursery sparkling with blue and white stars",
+            "why_it_matters": "Provides insights into the ongoing process of star formation and the lifecycle of stars.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "New research reveals the hidden pollution left behind by fireworks",
-            "why_it_matters": "Sheds light on environmental impacts of celebrations, emphasizing the need for awareness and potential regulation.",
+            "why_it_matters": "Sheds light on the environmental impact of fireworks, affecting air and water quality.",
             "signal": "Risk"
           },
           {
             "headline": "Scientists discover a completely different way to fight viruses",
-            "why_it_matters": "Challenges existing notions of immune systems and opens new avenues for antiviral research.",
+            "why_it_matters": "Challenges existing notions of antiviral defenses and opens new avenues for research.",
             "signal": "Opportunity"
           },
           {
             "headline": "Scientists may have finally found how Alzheimer's spreads through the brain",
-            "why_it_matters": "Could lead to new therapeutic strategies to slow the progression of Alzheimer's disease.",
+            "why_it_matters": "Identifies a potential target for slowing the progression of Alzheimer's disease.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "A strange LIGO signal could reveal the missing link behind dark matter",
-            "why_it_matters": "Potentially groundbreaking discovery that could explain dark matter's nature and origins.",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Further analysis of Hubble's recent findings may be released.",
-            "Expect discussions on the environmental impacts of fireworks during holiday celebrations.",
-            "New studies on Alzheimer's may emerge as researchers explore therapeutic options."
+            "Expect discussions on the environmental impact of fireworks during celebrations.",
+            "New studies on Alzheimer's treatment options may emerge."
           ],
           "next_1_4_weeks": [
-            "Anticipate more research on the implications of the LIGO signal for dark matter.",
-            "Further investigations into the effects of fireworks pollution may be published.",
-            "Continued exploration of antiviral mechanisms in various species could be reported."
+            "Anticipate more research on the implications of light pollution on wildlife behavior.",
+            "Watch for updates on the potential applications of the newly discovered antiviral mechanisms.",
+            "Expect ongoing coverage of Alzheimer's research breakthroughs."
           ],
           "watch_list": [
-            "Monitor developments in Alzheimer's research and potential treatments.",
-            "Keep an eye on environmental studies related to holiday celebrations.",
-            "Watch for updates on Hubble's discoveries and their implications for astrophysics.",
-            "Follow new findings on the evolutionary aspects of human speech."
+            "Developments in the study of dark matter and primordial black holes.",
+            "Research on the effects of light pollution on ecosystems.",
+            "Updates on the efficacy of creatine in treating depression.",
+            "New findings related to the environmental impacts of celebrations."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment indicates a balance of positive and negative news in the science sector today. Some findings may require further validation before being widely accepted.",
-          "The implications of recent discoveries, particularly regarding Alzheimer's and dark matter, are still unfolding and may change as more research is conducted."
+          "The mixed sentiment score indicates varying public reactions to the findings.",
+          "Further research is needed to confirm the implications of recent studies."
         ],
         "related_topics": [
-          "What are the latest discoveries from NASA's Hubble",
-          "How do fireworks impact the environment",
-          "What new research is being done on Alzheimer's disease",
-          "What does the LIGO signal mean for dark matter",
-          "How does water behave in nanoscale environments"
+          "What are the latest discoveries from NASA's Hubble Space Telescope?",
+          "How do fireworks impact the environment?",
+          "What new treatments are being researched for Alzheimer's disease?"
         ]
       },
-      "tweet_text": "NASA’s Hubble lights up the cosmos for America’s birthday—discover a dazzling stellar sparkler that’s out...\n\nScience Sentiment: Mixed (+0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hubble #Nasas #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "NASA's Hubble just unveiled a cosmic fireworks show—get ready to be starstruck this Fourth of July!\n\nScience Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hubble #Nasas #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
