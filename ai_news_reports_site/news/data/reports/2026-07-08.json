@@ -1,10 +1,11 @@
 {
   "date": "2026-07-08",
-  "generated_at_utc": "2026-07-08T16:00:52Z",
+  "generated_at_utc": "2026-07-09T00:19:10Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "hits",
+    "americas",
     "trump",
     "strikes",
     "fight"
@@ -19,16 +20,16 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2845,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.474, dampened ×0.6 → -0.2845). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.1525,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.254, dampened ×0.6 → -0.1525). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Trump says ceasefire is 'over' after US and Iran trade strikes",
-          "url": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 08 Jul 2026 11:18:28 GMT",
-          "summary": "Speaking ahead of a Nato summit, the president says US negotiators can keep talking with the Iranians \"if they want\".",
+          "title": "US launches more strikes on Iran with blasts reported in south of country",
+          "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 09 Jul 2026 00:06:36 GMT",
+          "summary": "Trump says the attacks are \"retribution for yesterday's bombing of ships by Iran\". Iran earlier promised strong retaliation.",
           "source": "BBC News"
         },
         {
@@ -39,6 +40,13 @@
           "source": "BBC News"
         },
         {
+          "title": "Ukraine to get licence to produce Patriot missiles, Trump says",
+          "url": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 08 Jul 2026 17:18:14 GMT",
+          "summary": "Although the Patriots are highly effective against Russia's ballistic missiles, they also have lengthy production times.",
+          "source": "BBC News"
+        },
+        {
           "title": "German doctor jailed for murder of 15 patients and suspected of more",
           "url": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 08 Jul 2026 14:25:25 GMT",
@@ -46,17 +54,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Will Le Pen rise again? French nationalist leader defiant after court's ruling",
-          "url": "https://www.bbc.co.uk/news/articles/cvgdlprp1r3o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 08 Jul 2026 03:22:46 GMT",
-          "summary": "Within hours of a court of appeal confirming a guilty verdict, Marine Le Pen had already launched her presidential campaign.",
-          "source": "BBC News"
-        },
-        {
           "title": "Teenager arrested after two girls, 13, seriously injured in German school attack",
           "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 08 Jul 2026 15:09:08 GMT",
           "summary": "Police said a major operation was under way in the area of Welfen-Gymnasium secondary school in Schongau, Bavaria.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Arizona toddler found alive in hospital morgue after declared dead from drowning",
+          "url": "https://www.bbc.co.uk/news/articles/cvg5x0vvrmro?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 08 Jul 2026 20:18:13 GMT",
+          "summary": "After he was discovered to still be alive, the 18-month-old was flown to another hospital and survived.",
           "source": "BBC News"
         },
         {
@@ -76,7 +84,7 @@
         {
           "title": "Nigeria's president demands to know how fake agency was allegedly set up in his office",
           "url": "https://www.bbc.co.uk/news/articles/c621xrrp6jeo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 08 Jul 2026 13:05:14 GMT",
+          "published": "Wed, 08 Jul 2026 17:31:47 GMT",
           "summary": "Adeniyi Adeyemi allegedly forged a letter of appointment and secured funding for an agency the presidency knew nothing about.",
           "source": "BBC News"
         },
@@ -100,86 +108,79 @@
           "published": "Wed, 08 Jul 2026 10:56:55 GMT",
           "summary": "While Cuban officials said that power had been mostly restored, those still left in the dark vented their anger.",
           "source": "BBC News"
-        },
-        {
-          "title": "Utah boarding school where Paris Hilton alleged abuse as a teen loses its licence",
-          "url": "https://www.bbc.co.uk/news/articles/cjdg4r3k3emo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 08 Jul 2026 01:51:09 GMT",
-          "summary": "Hilton said the facility \"failed the children\", as regulators cited neglect and use of unnecessary restraints.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tensions escalate as the US and Iran engage in military strikes, while various global incidents highlight ongoing social and political challenges.",
-        "summary": "Today's news covers escalating military tensions between the US and Iran, a tragic landslide in Bangladesh, and political developments in Germany and France, among other global issues.",
+        "key_takeaway": "The US has intensified military actions against Iran amid escalating tensions, while various global incidents highlight ongoing humanitarian and political challenges.",
+        "summary": "Today's news features escalating military actions by the US against Iran in response to attacks on oil tankers, alongside significant incidents in Germany, Bangladesh, Nigeria, and Cuba. The geopolitical landscape remains tense with military developments and humanitarian crises.",
         "key_themes": [
-          "US-Iran military tensions",
-          "German doctor murder case",
-          "Marine Le Pen presidential campaign",
-          "Bangladesh landslide tragedy",
-          "Nigeria's fake agency scandal"
+          "US military actions against Iran",
+          "Ukraine's missile production capabilities",
+          "German criminal justice news",
+          "Bangladesh landslide impact",
+          "Nigerian political corruption issues",
+          "Cuban protests over power outages"
         ],
         "notable_headlines": [
           {
-            "headline": "Trump says ceasefire is 'over' after US and Iran trade strikes",
-            "why_it_matters": "This statement indicates a significant escalation in US-Iran relations, potentially impacting regional stability.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US strikes target Iranian military boats",
-            "why_it_matters": "The strikes are a direct response to threats against maritime security, raising concerns about further conflict in the region.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "German doctor jailed for murder of 15 patients and suspected of more",
-            "why_it_matters": "This case raises serious ethical questions about medical practices and patient care in Germany.",
+            "headline": "US launches more strikes on Iran with blasts reported in south of country",
+            "why_it_matters": "This escalation could lead to further regional instability and retaliation from Iran.",
             "signal": "Risk"
           },
           {
             "headline": "Teenager arrested after two girls, 13, seriously injured in German school attack",
-            "why_it_matters": "The incident highlights ongoing concerns about school safety and youth violence in Germany.",
+            "why_it_matters": "The incident raises concerns about school safety and youth violence in Germany.",
             "signal": "Risk"
           },
           {
             "headline": "Eight killed after landslide hits girls' school in Bangladesh",
-            "why_it_matters": "This tragedy underscores the dangers posed by natural disasters in vulnerable regions during monsoon season.",
+            "why_it_matters": "This tragedy underscores the dangers posed by monsoon season in vulnerable regions.",
             "signal": "Risk"
+          },
+          {
+            "headline": "Cubans protest after third nationwide power cut this year",
+            "why_it_matters": "Frequent power outages are fueling public discontent and protests against the government.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Nato allies announce £37bn for new missile project",
+            "why_it_matters": "This investment reflects ongoing military preparedness amid global tensions, particularly with Russia.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor US-Iran diplomatic responses following military actions.",
-            "Watch for updates on the aftermath of the Bangladesh landslide and rescue efforts.",
-            "Follow developments in the political landscape in France and Germany."
+            "Monitor US-Iran relations for potential further military actions.",
+            "Watch for updates on the investigation into the German school attack.",
+            "Observe the humanitarian response to the landslide in Bangladesh."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions regarding NATO's new missile project and its implications for European security.",
-            "Watch for potential political ramifications for Marine Le Pen's campaign in France.",
-            "Anticipate further investigations into the Nigerian fake agency scandal."
+            "Expect ongoing protests in Cuba regarding power issues and government accountability.",
+            "Follow developments in Ukraine's military capabilities with the new missile production license.",
+            "Anticipate further geopolitical ramifications from US military actions in the Middle East."
           ],
           "watch_list": [
-            "US-Iran relations and military actions",
-            "Political developments in Europe",
-            "Natural disaster responses in Bangladesh",
-            "School safety incidents in Germany",
-            "Cuban protests over power cuts"
+            "US-Iran conflict developments",
+            "Impact of German school violence on policy",
+            "Humanitarian aid efforts in Bangladesh",
+            "Cuban government response to protests",
+            "Nato's military spending trends"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in Iran and the US is fluid and may change rapidly.",
-          "Details surrounding the German doctor's case may evolve as appeals are made.",
-          "The impact of the landslide in Bangladesh may not be fully assessed yet."
+          "The situation in Iran is fluid and could change rapidly with ongoing military actions.",
+          "Details regarding the German school attack are still emerging, and motivations are unclear."
         ],
         "related_topics": [
           "What are the latest developments in US-Iran relations?",
-          "Updates on the German doctor murder case",
-          "How is Marine Le Pen's campaign progressing?",
-          "What happened in the Bangladesh landslide incident?",
-          "Why are Cubans protesting power cuts?"
+          "How is Ukraine enhancing its missile production capabilities?",
+          "What happened in the German school attack?",
+          "What are the impacts of the Bangladesh landslide?",
+          "Why are Cubans protesting over power outages?"
         ]
       },
-      "tweet_text": "Tensions escalate as Trump declares ceasefire 'over' amid US-Iran clashes, while Europe grapples with violence and...\n\nWorld Sentiment: Negative (-0.28)\n\nRead the full breakdown: https://tldrnews.info\n\n#German #Girls #School #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Chaos erupts as the US intensifies strikes in Iran, while a tragic school attack shakes Germany and a miracle unfolds in...\n\nWorld Sentiment: Mixed (-0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#German #Girls #School #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -281,75 +282,70 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Trump's policies are increasingly alienating his supporters, while rising oil prices and economic concerns dominate the business landscape.",
-        "summary": "Today's business news highlights the growing discontent among Trump's supporters regarding economic policies, a significant spike in oil prices following geopolitical tensions, and developments in media and corporate acquisitions.",
+        "key_takeaway": "Trump's policies are increasingly criticized by his supporters, while oil prices surge amid geopolitical tensions and EasyJet moves towards a significant takeover.",
+        "summary": "Today's business news highlights growing discontent among Trump's supporters regarding his economic policies, a spike in oil prices following renewed US-Iran tensions, and EasyJet's potential £5.5 billion takeover by a US investment firm. The political landscape is shifting as economic challenges mount, impacting various sectors including energy and aviation.",
         "key_themes": [
-          "Trump's economic impact on supporters",
-          "Oil price fluctuations and market reactions",
-          "Media subscription trends",
-          "Corporate acquisitions in the airline industry",
-          "Challenges in the electric vehicle market"
+          "Trump's economic policies and voter sentiment",
+          "Oil price fluctuations and geopolitical events",
+          "EasyJet takeover news and implications"
         ],
         "notable_headlines": [
           {
             "headline": "Trump’s policy mayhem is making even the Maga faithful consider walking away",
-            "why_it_matters": "Discontent among Trump's core supporters could have significant political implications as they face economic hardships.",
+            "why_it_matters": "Discontent among Trump's base could signal political repercussions for his administration.",
             "signal": "Risk"
           },
           {
             "headline": "Oil prices jump over 5% after Trump suggests ceasefire with Iran has ended following fresh US strikes",
-            "why_it_matters": "Rising oil prices could impact inflation and economic stability, affecting consumers and markets.",
+            "why_it_matters": "Rising oil prices could impact inflation and economic stability amid geopolitical tensions.",
             "signal": "Risk"
           },
           {
             "headline": "EasyJet suggests it will agree to £5.5bn takeover by US investment firm",
-            "why_it_matters": "The potential acquisition of EasyJet marks a significant shift in the airline industry, indicating investor confidence.",
+            "why_it_matters": "The potential takeover marks a significant shift in the UK aviation market, taking a major airline private.",
             "signal": "Opportunity"
           },
           {
-            "headline": "The Hill is capitalizing on reader interest in the second Trump administration",
-            "why_it_matters": "The launch of a new subscription product reflects changing media consumption patterns and political engagement.",
-            "signal": "Opportunity"
+            "headline": "‘Why take those jobs away?’: the unionized workers decrying Trump’s war on wind",
+            "why_it_matters": "The backlash from unionized workers highlights the conflict between political decisions and job security in renewable energy.",
+            "signal": "Risk"
           },
           {
-            "headline": "As auto costs rise, will the US miss the golden age of electric vehicles?",
-            "why_it_matters": "Rising costs and competition from foreign markets pose challenges for the US electric vehicle industry.",
+            "headline": "US employers added just 57,000 new jobs in June, lower than expected",
+            "why_it_matters": "Slower job growth raises concerns about the overall health of the US economy.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to rising oil prices and their impact on inflation and consumer behavior.",
-            "Watch for further developments in Trump's policies and their effects on his support base.",
-            "Keep an eye on EasyJet's acquisition process and its implications for the airline industry."
+            "Monitor oil price trends and their impact on inflation and markets.",
+            "Watch for further developments in US-Iran relations and their economic implications.",
+            "Keep an eye on EasyJet's takeover process and its effects on the aviation industry."
           ],
           "next_1_4_weeks": [
-            "Expect ongoing discussions about the implications of Trump's policies on economic conditions and voter sentiment.",
-            "Watch for potential regulatory changes affecting media companies and their operations.",
-            "Follow developments in the electric vehicle market as costs and competition evolve."
+            "Observe the political fallout from Trump's policies on his voter base and upcoming elections.",
+            "Track job growth statistics and economic indicators for signs of recovery or decline.",
+            "Evaluate the impact of rising oil prices on consumer behavior and spending."
           ],
           "watch_list": [
-            "Geopolitical developments in the Middle East and their impact on oil prices.",
-            "Trends in media subscriptions and consumer engagement with political news.",
-            "Corporate mergers and acquisitions in the airline sector.",
-            "Legislative changes affecting the electric vehicle industry."
+            "US job market trends and economic indicators",
+            "Geopolitical developments in the Middle East",
+            "Corporate mergers and acquisitions in the aviation sector.",
+            "Public sentiment towards Trump's policies and their electoral implications."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The political landscape is highly fluid and subject to rapid changes.",
-          "Economic indicators may fluctuate based on external factors like geopolitical events.",
-          "Consumer sentiment can shift quickly in response to economic news."
+          "The sentiment around Trump's policies is mixed and could change rapidly based on new developments.",
+          "Oil prices are highly volatile and influenced by global events that can shift quickly."
         ],
         "related_topics": [
-          "What are the latest trends in oil prices?",
-          "How is Trump's policy affecting his supporters?",
-          "What are the implications of EasyJet's takeover?",
-          "What challenges does the US electric vehicle market face?",
-          "How is media consumption changing in the political landscape?"
+          "What are the latest developments in US oil prices?",
+          "How are Trump's policies affecting his supporters?",
+          "What is the impact of EasyJet's takeover on the aviation industry?"
         ]
       },
-      "tweet_text": "Trump's chaotic policies are shaking even his staunchest supporters as oil prices soar and unions fight back!\n\nBusiness Sentiment: Mixed (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Away #Suggests #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Trump's chaos has even his loyalists questioning their allegiance as oil prices soar and unions rally...\n\nBusiness Sentiment: Mixed (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Away #Suggests #Trump #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -360,16 +356,72 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0912,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.152, dampened ×0.6 → +0.0912). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.273,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.455, dampened ×0.6 → +0.2730). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Meta is reportedly working on smart glasses that would be recording all the time",
+          "url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
+          "published": "2026-07-08T18:37:25-04:00",
+          "summary": "Meta might be the next company to make an always-on AI wearable. The company is working on prototype \"super sensing\" always-aware smart glasses that could continuously record audio and snap photos \"every few seconds,\" according to the Financial Times. The wearer could then ask Meta AI about the captured audio and images. However, the images [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+          "url": "https://www.theverge.com/gadgets/962999/samsung-unpacked-z-fold-flip-wide-reserve-credit-preorder",
+          "published": "2026-07-08T16:00:00-04:00",
+          "summary": "Even though they haven’t been officially announced yet, Samsung is giving you a chance to save some cash when you preorder what we’re expecting to be the brand’s updated Galaxy Z Fold phones. The next Galaxy Unpacked event will take place on July 22nd, 2026, and features the tagline “A new shape unfolds.” In addition [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+          "url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
+          "published": "2026-07-08T14:50:27-04:00",
+          "summary": "As part of Microsoft's big Xbox \"reset,\" which includes layoffs affecting 3,200 staffers, jettisoning studios, and shifting investments to focus on \"higher priority projects,\" Obsidian Entertainment is changing its plans. The studio, behind games like Grounded and The Outer Worlds, is starting work on a new Fallout title and has canceled \"multiple projects,\" including a [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+          "url": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty",
+          "published": "2026-07-08T13:57:53-04:00",
+          "summary": "When searching for an affordable electric vehicle these days, there are always tradeoffs. How much range are you willing to sacrifice, how much leg room and storage space, how many features, in the pursuit of that magic sticker price that won't break the bank? The Fiat Topolino is basically the ultimate embodiment of those tradeoffs. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable",
+          "url": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review",
+          "published": "2026-07-08T13:30:00-04:00",
+          "summary": "A little robotic switch-flipper has become my sidekick in combating cockroaches. Before I got the SwitchBot Bot Rechargeable, I'd tiptoe through the dark every morning, hoping I wouldn't step on one of those terrible bugs scurrying around as I made my way to the light switch across the room. Now I'm ready for battle before [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "If Microsoft sold off Xbox, who would even buy it?",
+          "url": "https://www.theverge.com/games/962837/microsoft-xbox-spin-off-sell-divest-layoffs-asha-sharma",
+          "published": "2026-07-08T13:10:05-04:00",
+          "summary": "This week, Microsoft took a huge ax to its Xbox business. The company announced that it would be laying off 1,600 workers now, 1,600 more over the next fiscal year, and that it would be shedding four studios. Xbox CEO Asha Sharma hasn't been shy about why she's making such dramatic cuts, saying in a [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Twelve South’s AirFly Pro is a great travel companion, and it&#8217;s on sale for $40",
+          "url": "https://www.theverge.com/gadgets/962910/twelve-south-airfly-pro-summer-travel-gadgets-deal-sale",
+          "published": "2026-07-08T13:09:28-04:00",
+          "summary": "If you&#8217;ve got a summer trip coming up, the last-gen Twelve South AirFly Pro is one of those gadgets that can make a long flight feel a little shorter. It lets you use your wireless headphones with in-flight entertainment systems, and right now it’s on sale for $39.99 ($15 off) at Amazon. That&#8217;s the best [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "ChatGPT’s upgraded voice mode is better at shutting up",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+          "published": "2026-07-08T13:00:00-04:00",
+          "summary": "OpenAI is overhauling ChatGPT's voice mode with a new model that it says is more like \"talking to another person.\" The new GPT-Live-1 is designed to interrupt you less and will also wait for you to continue speaking if you pause mid-conversation. During a press briefing, OpenAI research lead Kundan Kumar called GPT-Live-1 the company's [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "This jumping $800 robot camera dog filled me with joy",
           "url": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview",
           "published": "2026-07-08T11:00:00-04:00",
-          "summary": "What if you had a drone that wasn't a buzzy, annoying fly people wanted to swat - but rather a cute dog that runs and jumps? What if it could do tricks on command, and film your tricks as well? What if it could get right back up after a nasty-looking crash, dozens of times [&#8230;]",
+          "summary": "What if you had a drone that wasn't a buzzy, annoying fly people wanted to swat - but rather a cute dog that runs and jumps? What if it could do tricks on command and film your tricks as well? What if it could get right back up after a nasty-looking crash, dozens of times [&#8230;]",
           "source": "The Verge"
         },
         {
@@ -378,138 +430,78 @@
           "published": "2026-07-08T10:43:13-04:00",
           "summary": "Google's upcoming Pixel lineup might cost more than last year's. A report from Dealabs spotted by 9to5Google suggests that Google could raise the starting price of its 41mm Pixel Watch 5 to $399, while adding LTE could bump the price to $499. That's a $50 jump from the base Pixel Watch 4, which starts at [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Gaming laptops are too expensive right now, but this one’s a good value",
-          "url": "https://www.theverge.com/gadgets/962754/msi-gaming-laptop-ethernet-switch-pc-steam-game-deal-sale",
-          "published": "2026-07-08T10:43:00-04:00",
-          "summary": "It’s not a great time to shop for a gaming laptop. The unprecedented rise in cost for RAM (and storage to a slightly lesser extent) has made laptops with low-to-midrange specs cost much more than they should. Recent deals on gaming laptops worth your attention have been uninspiring, but one recently caught my eye: MSI’s [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
-          "url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
-          "published": "2026-07-08T09:00:00-04:00",
-          "summary": "Fi Ultra is the first Starlink-enabled pet tracker you can buy. It expands on GPS and LTE trackers, adding automatic failover to T-Mobile's T-Satellite-branded direct-to-cell service when venturing into cellular dead zones. That lets owners tap into SpaceX's constellation of low Earth orbit Starlink satellites to track their pets anywhere in the US. But it [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Steam Machine fits my TV, my desk, and my life",
-          "url": "https://www.theverge.com/games/962561/valve-steam-machine-tv-desk-life",
-          "published": "2026-07-08T08:00:00-04:00",
-          "summary": "For the last couple weeks, I've been in an extremely lucky position: I've been spending a lot of time playing games on Valve's Steam Machine. We gave the Steam Machine a 6, and I don't disagree with my colleague Sean Hollister's review. But even though I already own a PS5 and an Xbox Series X, [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The robotaxi law that could ban Tesla",
-          "url": "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla",
-          "published": "2026-07-08T07:00:00-04:00",
-          "summary": "For more than a decade, one question has loomed over the race to build autonomous vehicles: Are cameras alone enough to safely replace human drivers, or do truly driverless cars need additional, overlapping sensors like lidar and radar to navigate the world reliably? Tesla has bet billions of dollars that artificial intelligence and cameras are [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Samsung will launch its new wide foldable on July 22nd",
-          "url": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july",
-          "published": "2026-07-08T04:13:52-04:00",
-          "summary": "Samsung has announced that its next Galaxy Unpacked launch event will be held on July 22nd, with the tagline: \"A new shape unfolds.\" It's long been rumored that Samsung is about to expand its foldable phone line to a third format, with a shorter and wider version of its big book-style foldables, to match Huawei's [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
-          "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update",
-          "published": "2026-07-07T19:55:19-04:00",
-          "summary": "Amid public backlash over its smart glasses, Meta announced that it will be updating its glasses with a new feature that will disable the camera when it detects that someone has tampered with or destroyed the glasses' privacy LED light. The update is meant to address modders who have taken actions such as physically drilling [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Of course viewers are giving up on Netflix shows",
-          "url": "https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok",
-          "published": "2026-07-07T17:58:39-04:00",
-          "summary": "Even though Netflix is the world's most popular paid streaming service, the company has been struggling to keep viewers watching its series after their first seasons. Beef - the streamer's anthology about people locked in feuds - lost 70 percent of its viewership when it returned earlier this year. There seems to be some confusion [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
-          "url": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming",
-          "published": "2026-07-07T17:37:19-04:00",
-          "summary": "Starting on August 3rd, Netflix's streaming library will include video content from dozens of digital media brands including BuzzFeed, Cond&#233; Nast, Hearst Magazines, People Inc, and Tastemade. As reported earlier by TechCrunch, the deal includes a mix of licensed past videos and new ongoing series that would have typically been published on YouTube or other [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Google's Pixel lineup may see price increases, while Samsung prepares to launch a new foldable device on July 22nd.",
-        "summary": "Today's technology news highlights potential price hikes for Google's Pixel devices, the launch of Samsung's new foldable phone, and innovations in pet tracking and smart glasses. The overall sentiment is mixed, reflecting both excitement and concern in the tech landscape.",
+        "key_takeaway": "Meta is developing always-on smart glasses, while Samsung offers preorder credits for upcoming Galaxy phones amid significant changes at Microsoft’s Xbox division.",
+        "summary": "Today's technology news highlights Meta's plans for always-on smart glasses, Samsung's preorder incentives for new Galaxy phones, and Microsoft's restructuring of its Xbox division. Additionally, innovations in electric vehicles and AI voice technology are featured.",
         "key_themes": [
-          "Google Pixel price increase",
-          "Samsung foldable phone launch",
-          "innovations in pet tracking technology",
-          "Meta smart glasses privacy features",
-          "Netflix content expansion"
+          "Meta smart glasses development",
+          "Samsung Galaxy phone preorder credits",
+          "Microsoft Xbox restructuring",
+          "affordable electric vehicles",
+          "AI voice technology updates"
         ],
         "notable_headlines": [
           {
-            "headline": "This jumping $800 robot camera dog filled me with joy",
-            "why_it_matters": "The introduction of a playful robot dog could enhance consumer interest in robotics and drone technology.",
+            "headline": "Meta is reportedly working on smart glasses that would be recording all the time",
+            "why_it_matters": "This development could change the landscape of wearable technology and privacy concerns.",
             "signal": "Opportunity"
           },
           {
-            "headline": "The whole Pixel line could get more expensive this year",
-            "why_it_matters": "Increased prices for Google's Pixel devices may affect consumer purchasing decisions and market competition.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Gaming laptops are too expensive right now, but this one’s a good value",
-            "why_it_matters": "The rising costs of gaming laptops highlight market trends and consumer challenges in tech purchases.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Fi’s Starlink-enabled pet tracker found my dog when LTE couldn’t",
-            "why_it_matters": "Innovative pet tracking technology utilizing Starlink could set new standards in pet safety and tracking.",
+            "headline": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+            "why_it_matters": "Samsung's preorder strategy may boost early sales for its new devices.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Samsung will launch its new wide foldable on July 22nd",
-            "why_it_matters": "Samsung's expansion into new foldable formats could reshape the smartphone market and consumer preferences.",
+            "headline": "Microsoft's Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+            "why_it_matters": "This shift indicates a major strategic change within Microsoft's gaming division.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+            "why_it_matters": "The Fiat Topolino represents a new trend in micro-mobility and affordable EV options.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
-            "why_it_matters": "Meta's response to privacy concerns may influence consumer trust and adoption of smart glasses.",
-            "signal": "Risk"
+            "headline": "ChatGPT’s upgraded voice mode is better at shutting up",
+            "why_it_matters": "Improvements in AI communication could enhance user experience significantly.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Anticipation builds for Samsung's Galaxy Unpacked event on July 22nd.",
-            "Consumers may react to potential price changes in Google's Pixel lineup.",
-            "Tech enthusiasts will monitor reactions to the new robot dog."
+            "Further details on Meta's smart glasses may emerge as prototypes develop.",
+            "Samsung's Galaxy Unpacked event is approaching, likely revealing more about the new phones.",
+            "Microsoft may announce additional changes to its gaming strategy."
           ],
           "next_1_4_weeks": [
-            "The impact of Netflix's new content partnerships will be assessed after the August 3rd launch.",
-            "Market reactions to Samsung's new foldable device will be closely watched.",
-            "Trends in gaming laptop pricing will continue to evolve."
+            "Consumer reactions to the new Galaxy phones will be monitored after the launch.",
+            "The impact of Microsoft's layoffs on Xbox's future projects will be assessed.",
+            "Trends in affordable EVs may gain traction as more models are introduced."
           ],
           "watch_list": [
-            "Monitor developments in autonomous vehicle legislation affecting Tesla.",
-            "Keep an eye on consumer feedback regarding Meta's smart glasses updates.",
-            "Watch for further announcements from Google regarding Pixel pricing.",
-            "Observe the performance of Netflix's new video content from digital media brands."
+            "Monitor developments in AI voice technology and its applications.",
+            "Watch for updates on the Fiat Topolino's market reception.",
+            "Keep an eye on the evolving landscape of wearable technology.",
+            "Follow news on Microsoft's gaming division and potential new titles."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates uncertainty in consumer reactions to new products and price changes.",
-          "Price increases may not be confirmed until official announcements are made."
+          "The impact of Meta's smart glasses on privacy remains unclear.",
+          "Samsung's preorder strategy may not guarantee high sales if the products underperform.",
+          "Microsoft's restructuring could lead to further layoffs or project cancellations."
         ],
         "related_topics": [
-          "What are the latest updates on Google Pixel pricing?",
-          "When is Samsung's next foldable phone launch?",
-          "How is technology evolving in pet tracking?",
-          "What privacy features are being added to smart glasses?",
-          "What new content is Netflix adding from digital media brands?"
+          "What are the latest developments in wearable technology?",
+          "How is Microsoft restructuring its Xbox division?",
+          "What new features can we expect from Samsung's Galaxy phones?",
+          "What is the future of affordable electric vehicles?",
+          "How is AI voice technology evolving?"
         ]
       },
-      "tweet_text": "An $800 robot dog made my day, but will rising Pixel prices rain on our tech parade?\n\nTechnology Sentiment: Mixed (+0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Camera #Expensive #22nd #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Smart glasses that never stop recording? The future of privacy just got a whole lot scarier.\n\nTechnology Sentiment: Positive (+0.27)\n\nRead the full breakdown: https://tldrnews.info\n\n#Xbox #19mph #Airfly #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -611,74 +603,100 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The USMNT's World Cup failure highlights systemic issues in youth soccer, while MLB records are being challenged and NBA free agency continues to evolve.",
-        "summary": "Today's sports headlines cover a range of topics, including the USMNT's disappointing World Cup performance attributed to player issues, the Yankees' historic strikeout record, and Tyler Tolbert tying an MLB hitting record. Additionally, Conor McGregor aims to solidify his legacy in the UFC, while NBA free agency developments unfold, including significant player movements and front office changes.",
+        "key_takeaway": "The USMNT's World Cup failure highlights systemic issues in youth soccer, while MLB records are being set and NBA free agency continues to evolve.",
+        "summary": "Today's sports headlines cover a range of topics including the USMNT's disappointing World Cup performance attributed to player issues, the Yankees' historic strikeout record, and significant moves in the NBA and MLB. Conor McGregor claims the title of greatest featherweight in UFC history is within reach, while over 9,000 players compete for a $10 million prize at the World Series of Poker.",
         "key_themes": [
           "USMNT World Cup performance analysis",
-          "Yankees historic strikeout record",
-          "Tyler Tolbert MLB hitting streak",
-          "Conor McGregor UFC legacy",
-          "NBA free agency updates"
+          "Yankees strikeout record",
+          "NBA free agency updates",
+          "Conor McGregor UFC claims",
+          "World Series of Poker prize chase"
         ],
         "notable_headlines": [
           {
-            "headline": "Blame Pochettino if you want, but these USMNT players failed",
-            "why_it_matters": "Highlights the ongoing issues within the USMNT and the youth soccer system in America.",
+            "headline": "Blame Pochettino if you want, but these USMNT play...",
+            "why_it_matters": "The USMNT's failure at the World Cup raises questions about player development and coaching effectiveness.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Pay-to-play youth soccer explains America's World ...",
+            "why_it_matters": "The focus on financial capability over talent development in youth soccer could hinder future success.",
             "signal": "Risk"
           },
           {
             "headline": "Yankees make history, strike out 17 times again",
-            "why_it_matters": "Marks a significant low point in Yankees' performance, raising concerns about their batting lineup.",
+            "why_it_matters": "The Yankees' consecutive strikeout record highlights ongoing struggles in their batting lineup.",
             "signal": "Risk"
           },
           {
+            "headline": "Sources: Grizz land Post after Dubs don't match",
+            "why_it_matters": "The Grizzlies' acquisition of Quinten Post reflects strategic moves in the NBA's free agency landscape.",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Royals' Tolbert (12 ABs, 12 hits) ties MLB record",
-            "why_it_matters": "Showcases an impressive individual achievement in MLB, drawing attention to player performance.",
+            "why_it_matters": "Tolbert's achievement showcases individual excellence in MLB amidst team struggles.",
             "signal": "Opportunity"
           },
           {
             "headline": "McGregor says he's the UFC's featherweight GOAT",
-            "why_it_matters": "Potentially shifts the narrative around McGregor's legacy in the UFC with an upcoming fight.",
-            "signal": "Opportunity"
+            "why_it_matters": "McGregor's assertion could reignite debates about legacy and greatness in UFC history.",
+            "signal": "Unclear"
           },
           {
             "headline": "Ex-ESPN writer Bontemps joins Hawks front office",
-            "why_it_matters": "Indicates a shift in NBA team dynamics and the influence of media professionals in sports management.",
-            "signal": "Unclear"
+            "why_it_matters": "Bontemps' transition from journalism to management may influence the Hawks' future strategies.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Over 9K players in WSOP chasing $10M top prize",
+            "why_it_matters": "The high participation in the WSOP indicates growing interest in competitive poker.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "ACC officiating supervisor Riveron steps down",
+            "why_it_matters": "Riveron's resignation may impact officiating standards and practices in college football.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Wiz reunite with Mavs' Middleton in sign-and-trade...",
+            "why_it_matters": "Middleton's return to the Wizards could reshape their competitive dynamics in the NBA.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis on USMNT's World Cup performance is expected.",
-            "Updates on the Yankees' next games and potential roster changes will be monitored.",
-            "Expect more developments in NBA free agency as teams finalize their rosters."
+            "Analysis of USMNT's World Cup strategy and future plans",
+            "Updates on NBA free agency signings and trades",
+            "Continued coverage of MLB records and player performances"
           ],
           "next_1_4_weeks": [
-            "The impact of McGregor's upcoming fight on his legacy will be closely watched.",
-            "Continued scrutiny on the US youth soccer system and its implications for future talent.",
-            "MLB records may continue to be challenged as the season progresses."
+            "Monitoring the impact of new NBA signings on team performance",
+            "Tracking the progress of the Royals and Yankees in MLB",
+            "Following Conor McGregor's upcoming fight and its implications"
           ],
           "watch_list": [
-            "USMNT's future coaching decisions and player selections.",
-            "Yankees' performance trends and batting strategies.",
-            "NBA free agency signings and trades.",
-            "Conor McGregor's fight results and legacy discussions."
+            "USMNT coaching changes",
+            "Yankees batting performance",
+            "NBA free agency developments",
+            "UFC fight outcomes",
+            "World Series of Poker results"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating varied reactions to the headlines.",
-          "Some developments may evolve rapidly, particularly in free agency and player performance."
+          "The sentiment score indicates mixed feelings about the overall sports landscape today.",
+          "The analysis of the USMNT's performance is based on current discussions and may evolve as more information becomes available."
         ],
         "related_topics": [
-          "What are the USMNT's challenges in youth soccer?",
-          "Latest MLB records and player achievements",
-          "Updates on NBA free agency and trades",
-          "Conor McGregor's fight history and legacy",
-          "Yankees performance analysis and future outlook"
+          "What are the implications of USMNT's World Cup failure?",
+          "How are the Yankees performing this season?",
+          "What are the latest updates in NBA free agency?",
+          "What records are being set in MLB this season?",
+          "What is the current state of the World Series of Poker?"
         ]
       },
-      "tweet_text": "Yankees strike out 17 times again, while Tolbert ties MLB record—what’s going on in the world of sports?\n\nSports Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Again #Americas #Blame #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "From historic strikeouts to a record-tying hitting spree, today's sports headlines are a wild ride you can't miss!\n\nSports Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Again #Americas #Blame #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -780,75 +798,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries include ancient DNA revealing migration patterns in Europe, advancements in programmable materials, and new insights into quantum entanglement and Alzheimer's disease.",
-        "related_topics": [
-          "What does ancient DNA reveal about European history?",
-          "How can new materials control heat?",
-          "What are the latest findings in quantum entanglement?",
-          "How does Alzheimer's spread in the brain?",
-          "Can creatine help treat depression?"
+        "key_takeaway": "Recent scientific discoveries include ancient DNA revealing migration patterns, new programmable materials, and advancements in understanding quantum entanglement and Alzheimer's disease.",
+        "summary": "Today's science headlines highlight significant findings in ancient DNA, innovative materials that can control heat, and exciting astronomical observations from NASA's Hubble Space Telescope. Additionally, advancements in quantum physics and potential new treatments for diseases like Alzheimer's and depression were reported.",
+        "key_themes": [
+          "ancient DNA and migration",
+          "programmable materials",
+          "NASA Hubble discoveries",
+          "quantum entanglement",
+          "Alzheimer's disease research",
+          "creatine and depression treatment"
         ],
-        "summary": "Today's Science report highlights several significant findings. A study on ancient DNA reveals that Europe's megalith builders experienced a population collapse followed by a major migration, coinciding with new social traditions. In materials science, researchers have developed a new material capable of controlling and programming heat, which could enhance energy technologies. NASA celebrates the U.S. 250th anniversary with stunning images from the Hubble Space Telescope, showcasing various celestial phenomena, while new research uncovers the environmental impact of fireworks. Additionally, scientists are making strides in the search for room-temperature superconductors using AI, and a discovery in sea anemones offers insights into antiviral defenses that differ from human systems.",
-        "future_outlook": {
-          "next_24_72_hours": [
-            "Monitor reactions to the findings on ancient DNA and its implications for understanding historical population dynamics in Europe.",
-            "Watch for discussions on the environmental impact of fireworks as new pollution data emerges, particularly around celebrations like the Fourth of July."
-          ],
-          "next_1_4_weeks": [
-            "Anticipate further research and developments in the field of superconductors as AI-driven discoveries gain traction.",
-            "Expect ongoing studies and public discourse regarding the potential health impacts of fireworks pollution, especially during summer celebrations."
-          ],
-          "watch_list": [
-            "The implications of ancient DNA research on migration patterns and cultural shifts in Europe.",
-            "The environmental consequences of fireworks, particularly in urban areas during holiday celebrations.",
-            "Advancements in room-temperature superconductors and their potential applications in technology."
-          ],
-          "confidence": "Medium"
-        },
         "notable_headlines": [
           {
             "headline": "Ancient DNA reveals the mysterious collapse of Europe's megalith builders",
-            "why_it_matters": "DNA from a 5,000-year-old French megalithic tomb reveals that the people buried before and after a population collapse were genetically unrelated, pointing to a major migration after a devastating crisis. The shift coinc…",
+            "why_it_matters": "This study provides insights into historical population dynamics and migrations in Europe, reshaping our understanding of ancient societies.",
             "signal": "Opportunity"
           },
           {
             "headline": "Incredible new material makes heat programmable",
-            "why_it_matters": "A newly developed material can control and \"program\" heat, allowing it to direct thermal radiation, switch modes, and remember its settings without continuous power. The innovation could lead to smarter infrared sensors,…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
-            "why_it_matters": "NASA's Hubble Space Telescope has captured a spectacular red, white, and blue view of one of the Milky Way's oldest star clusters to celebrate the nation's 250th anniversary. Hidden within the ancient cluster are clues t…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "NASA's Hubble captures a crimson stellar nursery sparkling with blue and white stars",
-            "why_it_matters": "Hubble has captured a spectacular view of LH 95, where about 2,500 young stars are still on their journey to becoming full-fledged stars. Scientists discovered these growing stars can keep pulling in gas and dust for mil…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "NASA's Hubble captures a star-spangled sea of 500,000 stars",
-            "why_it_matters": "Celebrating the United States' 250th anniversary, NASA released a stunning Hubble portrait of Messier 3, an ancient globular cluster with more than 500,000 stars. The remarkable cluster is helping scientists unravel the …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "NASA celebrates America's 250th birthday with incredible views of space",
-            "why_it_matters": "NASA is marking the United States' 250th birthday with four striking red, white, and blue images of deep space from the Chandra X-ray Observatory. The collection features an exploded star, a stellar nursery, a galaxy whe…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "New research reveals the hidden pollution left behind by fireworks",
-            "why_it_matters": "Scientists have uncovered new evidence that fireworks can pollute both the air and water in ways that extend beyond the visible smoke. The findings show that leftover debris, fine particles, and airborne chemicals may af…",
+            "why_it_matters": "This innovation could revolutionize energy technologies and thermal management systems, leading to more efficient devices.",
             "signal": "Opportunity"
           },
           {
             "headline": "AI just supercharged the race to find room temperature superconductors",
-            "why_it_matters": "Scientists have combined machine learning with quantum physics to discover two new superconductors and create a much faster way to search for many more. The technique could bring researchers significantly closer to the l…",
+            "why_it_matters": "The integration of AI in material science could accelerate breakthroughs in superconductivity, impacting various technological applications.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists discover a completely different way to fight viruses",
+            "why_it_matters": "This discovery challenges existing paradigms in immunology and could lead to novel antiviral therapies.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists may have finally found how Alzheimer's spreads through the brain",
+            "why_it_matters": "Understanding the spread of Alzheimer's could lead to new therapeutic strategies to combat the disease.",
             "signal": "Opportunity"
           }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Further analysis of the ancient DNA findings may be released.",
+            "More details on the programmable material's applications could emerge.",
+            "Updates on the implications of AI in superconductivity research may be shared."
+          ],
+          "next_1_4_weeks": [
+            "Anticipated studies on the effectiveness of creatine in treating depression may be published.",
+            "New research on quantum entanglement applications could be announced.",
+            "Follow-up studies on the antiviral defense system in sea anemones may be forthcoming."
+          ],
+          "watch_list": [
+            "Developments in programmable materials and their commercial applications.",
+            "Progress in Alzheimer's research and potential treatments.",
+            "Further exploration of ancient DNA studies and their implications.",
+            "Updates on AI's role in material science and superconductors."
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "The mixed sentiment score indicates varied public reception of these scientific findings.",
+          "Further peer-reviewed studies are needed to confirm the implications of recent discoveries."
+        ],
+        "related_topics": [
+          "What are the latest discoveries in ancient DNA research?",
+          "How can programmable materials impact technology?",
+          "What advancements has NASA made with the Hubble Space Telescope?",
+          "What is the significance of quantum entanglement in science?",
+          "How does creatine affect mental health and depression treatment?"
         ]
       },
-      "tweet_text": "Unlock the secrets of ancient builders, marvel at cosmic celebrations, and discover a groundbreaking...\n\nScience Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hubble #Nasas #Captures #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Uncover the cosmic wonders as Hubble dazzles us with a starry spectacle just in time for America's big...\n\nScience Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hubble #Nasas #Captures #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
