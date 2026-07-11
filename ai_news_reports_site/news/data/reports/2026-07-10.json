@@ -1,10 +1,12 @@
 {
   "date": "2026-07-10",
-  "generated_at_utc": "2026-07-10T16:16:52Z",
+  "generated_at_utc": "2026-07-11T00:06:08Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump"
+    "latest",
+    "trade",
+    "debut"
   ],
   "categories": {
     "world": {
@@ -16,11 +18,25 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1449,
+        "score": -0.1984,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.241, dampened ×0.6 → -0.1449). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.331, dampened ×0.6 → -0.1984). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Wildfire in southern Spain leaves at least 12 dead and 23 missing",
+          "url": "https://www.bbc.co.uk/news/articles/c8e2382jk7jo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Jul 2026 14:08:26 GMT",
+          "summary": "A local official said four of the victims may be British after a fire broke out near Los Gallardos, Almería.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Meet the crypto billionaires building a world where money buys you a vote",
+          "url": "https://www.bbc.co.uk/news/articles/cly8eqyj8e2o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Jul 2026 23:03:11 GMT",
+          "summary": "They think democracy has run its course - so they're setting up their own nations instead.",
+          "source": "BBC News"
+        },
         {
           "title": "East Asia braces for destructive typhoon as landslides kill 15 in Philippines",
           "url": "https://www.bbc.co.uk/news/articles/c04y6wr03gxo?at_medium=RSS&at_campaign=rss",
@@ -29,24 +45,45 @@
           "source": "BBC News"
         },
         {
+          "title": "Forced to wait his turn, Marine Le Pen's deputy Bardella returns to the shadows",
+          "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Jul 2026 23:02:59 GMT",
+          "summary": "Thirty-year-old Jordan Bardella had been groomed for success as France's next hard-right leader. He will now have to wait longer.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Zulu king expresses regret after video captures tirade against his wife",
+          "url": "https://www.bbc.co.uk/news/articles/cy8dl9n1v3vo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Jul 2026 16:42:11 GMT",
+          "summary": "In the footage widely shared in South Africa, King Misuzulu threatens to physically assault his wife and accuses her of cheating.",
+          "source": "BBC News"
+        },
+        {
           "title": "Man fatally shot by ICE in Houston was not intended target, DHS says",
           "url": "https://www.bbc.co.uk/news/articles/cm2rm66xd17o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 10 Jul 2026 12:51:46 GMT",
+          "published": "Fri, 10 Jul 2026 22:38:03 GMT",
           "summary": "Immigration agents were looking for a different person when they shot Lorenzo Salgado Araujo during a traffic stop, officials say.",
           "source": "BBC News"
         },
         {
           "title": "Man nearly sucked out of window mid-air on Ryanair plane, passengers say",
           "url": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 10 Jul 2026 12:31:08 GMT",
-          "summary": "Ryanair confirm a passenger was given medical treatment after an incident on a Malta Air flight, which is owned by Ryanair.",
+          "published": "Fri, 10 Jul 2026 16:42:24 GMT",
+          "summary": "The man's wife held onto his legs for around five minutes to stop him from being sucked out, officials say.",
           "source": "BBC News"
         },
         {
-          "title": "US declassifies even more UFO videos",
-          "url": "https://www.bbc.co.uk/news/videos/c8x2zez8qwzo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 10 Jul 2026 15:28:17 GMT",
-          "summary": "The US government published a fourth instalment of unresolved cases, promising to release more files on a rolling basis.",
+          "title": "New dinosaur species with neck as long as cricket pitch discovered in Thailand",
+          "url": "https://www.bbc.co.uk/news/articles/crely7g8xepo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Jul 2026 21:30:57 GMT",
+          "summary": "The plant-eating dinosaur, named Uragasaurus kalasinensis, is thought to have lived about 150 million years ago.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+          "url": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Jul 2026 22:54:16 GMT",
+          "summary": "Apple said in a Friday lawsuit that OpenAI’s nascent hardware business is “rotten to its core.”",
           "source": "BBC News"
         },
         {
@@ -57,13 +94,6 @@
           "source": "BBC News"
         },
         {
-          "title": "Chip giant SK Hynix raises $26.5bn in mega US share sale",
-          "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 10 Jul 2026 12:38:38 GMT",
-          "summary": "The shares are set to start trading on the Nasdaq on Friday in what will be the largest ever debut by a foreign firm.",
-          "source": "BBC News"
-        },
-        {
           "title": "Nolan Wells' family demands answers about US teen's death after boating trip",
           "url": "https://www.bbc.co.uk/news/articles/cx238gzzy74o?at_medium=RSS&at_campaign=rss",
           "published": "Fri, 10 Jul 2026 15:50:49 GMT",
@@ -71,113 +101,78 @@
           "source": "BBC News"
         },
         {
-          "title": "Ukraine strikes Russian ships near Crimea, escalating attacks on fuel supplies",
-          "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Jul 2026 15:21:17 GMT",
-          "summary": "The attacks appear to be the latest phase of Ukraine's bid to choke off supplies and routes into and out of occupied Crimea.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Democrat Graham Platner suspends campaign for key US Senate race after assault allegation",
-          "url": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Jul 2026 14:37:19 GMT",
-          "summary": "The decision came days after a woman accused him of sexual assault, an accusation he says is \"categorically false\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "Greek F-16 fighter jet crash-lands at busy Zakynthos airport",
-          "url": "https://www.bbc.co.uk/news/articles/czrxz18720eo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Jul 2026 16:15:10 GMT",
-          "summary": "The runway is closed after the jet reportedly landed without deploying its landing gear before bursting into flames.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Huge crowds in Mashhad as Iran's late supreme leader is buried",
-          "url": "https://www.bbc.co.uk/news/articles/c5yzm8m4peeo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Jul 2026 23:18:18 GMT",
-          "summary": "Ali Khamenei was buried at the Imam Reza shrine, Iran's holiest Shia Muslim site, ending six days of public mourning ceremonies.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ukrainian agent accused of murdering Monaco bomb suspect changes story",
-          "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 09 Jul 2026 20:47:41 GMT",
-          "summary": "Two men with links to Ukraine's security services are accused of killing Anastasiia Berezovska and dumping her body in woods.",
+          "title": "Superb Sinner ends Djokovic's latest bid for history",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c04y0pyqk6zo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 10 Jul 2026 18:36:13 GMT",
+          "summary": "Jannik Sinner produces a devastating display to end Novak Djokovic's latest bid for history and set up a Wimbledon final against Alexander Zverev.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "East Asia prepares for a powerful typhoon while the US government continues to release UFO footage and Ukraine escalates military actions against Russian ships.",
-        "summary": "Today's headlines highlight significant global events, including the impending typhoon Bavi threatening East Asia, a tragic shooting incident involving ICE in Houston, and escalating military actions by Ukraine against Russian ships. Additionally, notable developments include the US government's ongoing declassification of UFO videos and China's successful landing of a reusable rocket. The tragic death of a US teen and the crash-landing of a Greek fighter jet also draw attention, alongside political developments in the US and Iran.",
+        "key_takeaway": "Wildfires in Spain and a powerful typhoon in East Asia highlight ongoing global climate challenges and their devastating impacts.",
+        "summary": "Today's news covers severe weather events, political developments, and social issues across the globe, including tragic wildfires in Spain and a destructive typhoon approaching East Asia.",
         "key_themes": [
-          "natural disasters in East Asia",
-          "US immigration enforcement incidents",
-          "UFO declassification by US government",
-          "Ukraine-Russia conflict updates",
-          "China's space achievements",
-          "political controversies in the US"
+          "climate change impact",
+          "political developments in Europe",
+          "natural disasters in Asia"
         ],
         "notable_headlines": [
           {
+            "headline": "Wildfire in southern Spain leaves at least 12 dead and 23 missing",
+            "why_it_matters": "The wildfire's toll underscores the increasing severity of climate-related disasters in Europe.",
+            "signal": "Risk"
+          },
+          {
             "headline": "East Asia braces for destructive typhoon as landslides kill 15 in Philippines",
-            "why_it_matters": "The typhoon Bavi poses a significant threat to Taiwan and southeastern China, highlighting the region's vulnerability to natural disasters.",
+            "why_it_matters": "The approaching typhoon poses significant threats to life and infrastructure in the region.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Zulu king expresses regret after video captures tirade against his wife",
+            "why_it_matters": "The incident raises concerns about domestic violence and leadership accountability in South Africa.",
             "signal": "Risk"
           },
           {
             "headline": "Man fatally shot by ICE in Houston was not intended target, DHS says",
-            "why_it_matters": "This incident raises questions about immigration enforcement practices and accountability within US agencies.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Ukraine strikes Russian ships near Crimea, escalating attacks on fuel supplies",
-            "why_it_matters": "These military actions indicate a strategic shift in Ukraine's approach to disrupting Russian supply lines.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "China lands reusable rocket for first time, state media says",
-            "why_it_matters": "This achievement marks a significant milestone in China's space program, potentially enhancing its competitive edge in aerospace.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Huge crowds in Mashhad as Iran's late supreme leader is buried",
-            "why_it_matters": "The burial of Ali Khamenei at a significant religious site reflects the ongoing influence of leadership in Iran's political landscape.",
+            "why_it_matters": "This incident highlights ongoing issues surrounding immigration enforcement and public safety.",
             "signal": "Unclear"
+          },
+          {
+            "headline": "Meet the crypto billionaires building a world where money buys you a vote",
+            "why_it_matters": "This reflects a growing trend of wealth influencing democratic processes and governance.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the impact of Typhoon Bavi as it approaches East Asia.",
-            "Following developments in the investigation of the ICE shooting incident in Houston.",
-            "Observing the aftermath of Ukraine's military actions in Crimea."
+            "Monitoring the impact of the typhoon as it approaches Taiwan and southeastern China.",
+            "Updates on the wildfire situation in Spain and rescue efforts for the missing.",
+            "Further developments in the political landscape following the Zulu king's comments."
           ],
           "next_1_4_weeks": [
-            "Tracking the recovery efforts in the Philippines post-typhoon.",
-            "Watching for further releases of UFO footage by the US government.",
-            "Analyzing the implications of China's advancements in space technology."
+            "Potential legislative responses to immigration enforcement incidents in the US.",
+            "Continued coverage of climate-related disasters and their implications for policy.",
+            "Watch for developments in the crypto governance movement and its societal impact."
           ],
           "watch_list": [
-            "Potential humanitarian crises following the typhoon in East Asia.",
-            "Political ramifications of the ICE shooting incident in the US.",
-            "Continued military developments in the Ukraine-Russia conflict.",
-            "Public response to the burial of Iran's supreme leader."
+            "Typhoon Bavi's path and impact on East Asia.",
+            "Ongoing investigations into the wildfire in Spain.",
+            "Political repercussions from the Zulu king's remarks.",
+            "Trends in cryptocurrency governance and its implications for democracy."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation with Typhoon Bavi is still developing and may change rapidly.",
-          "Details surrounding the ICE shooting incident may evolve as investigations continue.",
-          "The geopolitical landscape in Ukraine remains fluid and unpredictable."
+          "The situation with the wildfire and typhoon is still developing, and further updates are expected.",
+          "Political reactions to the Zulu king's comments may evolve rapidly."
         ],
         "related_topics": [
-          "What is the latest on Typhoon Bavi in East Asia?",
-          "Updates on the US government's UFO video releases",
-          "How is Ukraine responding to Russian military actions?",
-          "What are the implications of China's reusable rocket landing?",
-          "Details on the ICE shooting incident in Houston",
-          "Political developments following the burial of Iran's supreme leader."
+          "What are the latest updates on wildfires in Spain?",
+          "How is Typhoon Bavi affecting East Asia?",
+          "What are the implications of wealth on democracy?"
         ]
       },
-      "tweet_text": "From deadly landslides to UFO revelations, today’s headlines are nothing short of jaw-dropping!\n\nWorld Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#265bn #Answers #Asia #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tragedy strikes as wildfires rage in Spain and a typhoon devastates East Asia—how much more can the world take?\n\nWorld Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Against #Asia #Bardella #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -188,16 +183,30 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1281,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.213, dampened ×0.6 → -0.1281). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0236,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.039, dampened ×0.6 → -0.0236). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "New York City to become first in US to ban deceptive subscription practices",
+          "title": "Delta says higher airfares expected to last despite drop in oil prices",
+          "url": "https://www.theguardian.com/business/2026/jul/10/delta-airfare-prices-quarterly-results",
+          "published": "Fri, 10 Jul 2026 16:15:22 GMT",
+          "summary": "<p>Company reports $1.4bn profit despite its highest quarterly fuel expense in history</p><p>Delta Airlines saidelevated airfares are likely to last despite a recent drop in oil prices, reporting strong appetite for travel and record-high revenue in its quarterly results Friday.</p><p>Though the company had its highest quarterly fuel expense in its history, demand has been high enough to pass along 60% of its extra fuel costs to consumers, Delta’s CEO, Ed Bastian, told <a href=\"https://www.cnbc.",
+          "source": "The Guardian"
+        },
+        {
+          "title": "New York City becomes first in the US to ban deceptive subscription practices",
           "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
-          "published": "Fri, 10 Jul 2026 11:00:19 GMT",
-          "summary": "<p>Rule from Mamdani administration bans companies from trapping customers into paying recurring charges and also targets ‘junk fees’</p><p>New York City has adopted a new rule that bans companies from using deceptive subscriptions to trap customers into paying for gym memberships, streaming services and other recurring charges, the city’s consumer protection office said.</p><p>The new rule, which will start on 1 October, promises hefty fines and aggressive enforcement for violators. Companies t",
+          "published": "Fri, 10 Jul 2026 20:15:57 GMT",
+          "summary": "<p>Rule from Mamdani administration bans companies from trapping customers into paying recurring charges and ‘junk fees’</p><p>New York City has adopted a new rule that bans companies from using deceptive subscriptions to trap customers into paying for gym memberships, streaming services and other recurring charges, the city’s consumer protection office said.</p><p>The new rule, which will start on 1 October, promises hefty fines and aggressive enforcement for violators. Companies that do not pr",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Democratic Texas AG candidate claims $110m in grants for Elon Musk’s Starlink ‘sure looks’ like corruption",
+          "url": "https://www.theguardian.com/us-news/2026/jul/10/democrat-texas-ag-candidate-spacex-starlink-investigation",
+          "published": "Fri, 10 Jul 2026 18:51:44 GMT",
+          "summary": "<p>Nathan Johnson says if elected he’ll investigate state’s deal with Elon Musk’s SpaceX to provide rural internet</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/jul/10/donald-trump-election-commission-republicans-midterms-graham-platner-iran-us-politics-latest-news-updates\">US politics live – latest updates</a></p></li></ul><p>A Texas Democrat running to become the state’s attorney general has said he will investigate <a href=\"https://www.theguardian.com/technology/elon-mu",
           "source": "The Guardian"
         },
         {
@@ -205,13 +214,6 @@
           "url": "https://www.theguardian.com/us-news/2026/jul/10/guaranteed-income-black-single-moms-mississippi",
           "published": "Fri, 10 Jul 2026 12:00:20 GMT",
           "summary": "<p>The Magnolia Mother’s Trust is the first to target low-income families led by Black mothers in Jackson, Mississippi</p><p>Three months after giving birth to her son, Amaya Jones moved into a new apartment complex. She knew no one else in the building, but it was a fresh start for her and her two children. One day, someone put up a flyer on her unit’s door, notifying her about a program called the Magnolia Mother’s Trust (MMT).</p><p>Launched in 2018, the MMT is the longest-running guaranteed",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Apollo gatecrashes easyJet sale with surprise £5.7bn takeover offer – as it happened",
-          "url": "https://www.theguardian.com/business/live/2026/jul/10/apollo-easyjet-takeover-offer-business-ftse-markets-latest-news-updates",
-          "published": "Fri, 10 Jul 2026 14:07:51 GMT",
-          "summary": "<p>Rolling coverage of the latest economic and financial news</p><p>Oil prices have slipped today, but are still set to end the week 6% higher as investors grow uneasy about the situation in the Middle East.</p><p><strong>Kathleen Brooks</strong>, of the broker <strong>XTB</strong>, says:</p><p>The oil price is falling due to two factors, firstly, news that the US will continue its technical talks with Iran, and confirmation that the US remains committed to finding a diplomatic solution to this",
           "source": "The Guardian"
         },
         {
@@ -250,13 +252,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Half of Americans struggle to afford groceries and gas, exclusive poll finds",
-          "url": "https://www.theguardian.com/business/2026/jul/07/cost-of-living-poll-groceries-gas",
-          "published": "Tue, 07 Jul 2026 11:00:06 GMT",
-          "summary": "<p>About 57% of polled Americans also believe economy is worsening in grim portrait of cost of living crisis, according to Harris survey for the Guardian</p><p>Ninety-five per cent of Americans believe the US is suffering an affordability crisis, as many report trouble with the rising cost of groceries and gas, according to an exclusive new poll conducted for the Guardian.</p><p>The survey, conducted by Harris Poll, paints a bleak picture of how people feel about the <a href=\"https://www.theguar",
-          "source": "The Guardian"
-        },
-        {
           "title": "Trump’s policy mayhem is making even the Maga faithful consider walking away",
           "url": "https://www.theguardian.com/business/2026/jul/08/trump-maga-faithful-economy",
           "published": "Wed, 08 Jul 2026 10:00:26 GMT",
@@ -279,75 +274,73 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "New York City will implement a ban on deceptive subscription practices starting October 1, 2026, aiming to protect consumers from recurring charges and junk fees.",
-        "summary": "Today's business news highlights significant developments including New York City's upcoming ban on deceptive subscription practices, a guaranteed income program for Black single mothers, and a surprise takeover bid for easyJet by Apollo. Additionally, concerns over rising chemical accidents in the U.S. and a lawsuit against Costco for selling tainted protein powder were reported. The economic sentiment remains mixed as many Americans struggle with rising living costs.",
+        "key_takeaway": "Delta Airlines anticipates sustained high airfares despite falling oil prices, reflecting strong travel demand and record revenues.",
+        "summary": "Today's business news highlights Delta Airlines' expectation of higher airfares amid strong travel demand, New York City's ban on deceptive subscription practices, and various legal and regulatory challenges facing companies.",
         "key_themes": [
-          "consumer protection regulations",
+          "Delta Airlines airfare trends",
+          "New York City subscription law",
+          "Texas AG candidate investigation",
           "guaranteed income programs",
-          "corporate takeover news",
-          "cost of living crisis",
-          "lawsuits against major retailers"
+          "consumer protection enforcement"
         ],
         "notable_headlines": [
           {
-            "headline": "New York City to become first in US to ban deceptive subscription practices",
-            "why_it_matters": "This rule aims to protect consumers from hidden fees and recurring charges, setting a precedent for other cities.",
+            "headline": "Delta says higher airfares expected to last despite drop in oil prices",
+            "why_it_matters": "Delta's strong profit amid high fuel costs indicates robust travel demand, impacting future airfare pricing.",
             "signal": "Opportunity"
           },
           {
-            "headline": "This program gives Black single moms $1,000 a month for a year. The results are undeniable",
-            "why_it_matters": "The Magnolia Mother’s Trust program demonstrates the potential impact of guaranteed income on low-income families.",
+            "headline": "New York City becomes first in the US to ban deceptive subscription practices",
+            "why_it_matters": "This landmark rule aims to protect consumers from hidden fees and recurring charges, setting a precedent for other cities.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Apollo gatecrashes easyJet sale with surprise £5.7bn takeover offer – as it happened",
-            "why_it_matters": "This unexpected bid could reshape the competitive landscape of the airline industry in Europe.",
-            "signal": "Opportunity"
+            "headline": "Democratic Texas AG candidate claims $110m in grants for Elon Musk’s Starlink ‘sure looks’ like corruption",
+            "why_it_matters": "The candidate's promise to investigate could affect future state contracts and public trust in government dealings.",
+            "signal": "Risk"
           },
           {
             "headline": "Costco accused in lawsuit of selling protein powder ‘tainted’ with toxic heavy metals",
-            "why_it_matters": "The lawsuit raises serious concerns about consumer safety and corporate accountability in food products.",
+            "why_it_matters": "The lawsuit raises significant concerns about consumer safety and corporate accountability in the food industry.",
             "signal": "Risk"
           },
           {
             "headline": "US chemical accidents rising as Trump rolls back protections, report finds",
-            "why_it_matters": "The increase in chemical accidents highlights the risks associated with reduced regulatory oversight.",
+            "why_it_matters": "Increased chemical accidents highlight the potential dangers of deregulation in the industry, prompting calls for stronger safety measures.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring the implementation of New York City's subscription ban and its potential impact on businesses.",
-            "Following developments in the easyJet takeover bid by Apollo.",
-            "Observing reactions to the Costco lawsuit and its implications for consumer trust."
+            "Monitor Delta's stock performance following its quarterly results announcement.",
+            "Watch for reactions to New York City's new subscription law from businesses and consumers.",
+            "Follow developments in the Texas AG candidate's investigation claims."
           ],
           "next_1_4_weeks": [
-            "Evaluating the effectiveness of the Magnolia Mother’s Trust program as more data becomes available.",
-            "Tracking the ongoing economic sentiment as inflation and living costs continue to affect consumers.",
-            "Watching for further regulatory changes in consumer protection and corporate accountability."
+            "Observe the implementation of New York City's subscription law and its impact on businesses.",
+            "Track ongoing legal proceedings against Costco and implications for consumer safety regulations.",
+            "Evaluate the effects of rising chemical accidents on public policy and industry regulations."
           ],
           "watch_list": [
+            "Delta Airlines financial performance",
             "New York City's consumer protection initiatives",
-            "Impact of guaranteed income programs on poverty",
-            "Corporate mergers and acquisitions in the airline industry",
-            "Consumer safety lawsuits against major retailers",
+            "Texas AG election developments",
+            "Costco lawsuit outcomes",
             "Trends in chemical safety regulations"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall economic environment, suggesting caution in interpreting the news as entirely positive or negative.",
+          "The sentiment score indicates a neutral tone overall, suggesting mixed reactions to the news.",
           "Future developments may alter the current outlook significantly."
         ],
         "related_topics": [
-          "What are the latest consumer protection laws in the US?",
-          "How does guaranteed income impact low-income families?",
-          "What is the status of the easyJet takeover bid?",
-          "What are the implications of rising chemical accidents in the US?",
-          "What are the recent lawsuits against major retailers?"
+          "What are the latest trends in airline pricing?",
+          "How is New York City regulating subscription services?",
+          "What legal challenges are companies facing today?"
         ]
       },
-      "tweet_text": "New York City takes a stand against deceptive subscriptions—could this be the turning point for consumer...\n\nBusiness Sentiment: Mixed (-0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#1000 #57bn #Accidents #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Delta's soaring fares are here to stay—what does this mean for your travel plans?\n\nBusiness Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Texas #1000 #110m #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -358,11 +351,67 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1386,
+        "score": 0.1016,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.231, dampened ×0.6 → +0.1386). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.169, dampened ×0.6 → +0.1016). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Meta turns off the Instagram feature that users make AI deepfakes of public accounts",
+          "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+          "published": "2026-07-10T19:49:50-04:00",
+          "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The FCC is cracking down on DJI tech that dodged the foreign drone ban",
+          "url": "https://www.theverge.com/policy/964342/fcc-crack-down-dji-front-companies-xtra-skyrover-sgs-lab",
+          "published": "2026-07-10T18:35:18-04:00",
+          "summary": "Last year, we told you about Xtra, the company that lets DJI sneak its popular cameras into the US, and Skyrover, a brand seemingly selling DJI drones in disguise. They're just two of the many firms DJI is suspected of starting to skirt the United States' foreign drone ban. But it appears the FCC is [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
+          "url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+          "published": "2026-07-10T17:36:51-04:00",
+          "summary": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "A decade later, Pokémon Go finally made good on its original promise",
+          "url": "https://www.theverge.com/games/964022/pokemon-go-10th-anniversary-mewtwo-nyc-go-fest-2026",
+          "published": "2026-07-10T15:51:10-04:00",
+          "summary": "When Niantic dropped the first Pok&#233;mon Go trailer in 2015, it was hard to grasp how a bunch of players could work together to catch a pok&#233;mon like Mewtwo. But this week at the game's 10th anniversary event in New York City, Pok&#233;mon Go showed the world how it's done. Almost 2,000 players (many of [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "ICE is threatening to deport witnesses of its latest shooting",
+          "url": "https://www.theverge.com/policy/964294/ice-shooting-houston-lorenzo-salgado-araujo",
+          "published": "2026-07-10T15:20:00-04:00",
+          "summary": "Advocates are demanding that the Department of Homeland Security release bodycam footage of the fatal shooting of Lorenzo Salgado Araujo, a Mexican immigrant who was killed by ICE officers in Houston during a traffic stop earlier this week. But DHS claims the agents involved in the shooting weren't wearing body cameras because of the lengthy [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Nvidia&#8217;s biggest RAM supplier just had a trillion-dollar debut on Wall Street",
+          "url": "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
+          "published": "2026-07-10T13:31:35-04:00",
+          "summary": "As the AI boom boosts demand for RAM, SK Hynix - one of the world's biggest suppliers of memory chips - launched on Wall Street Friday. The South Korean chipmaker opened at $170 per share and raised $26.5 billion, surpassing Alibaba's record as the largest debut of a foreign company, according to reports from The [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Spotify will let you fine-tune your weekly Release Radar playlist",
+          "url": "https://www.theverge.com/entertainment/964021/spotify-release-radar-algorithm-controls",
+          "published": "2026-07-10T13:02:13-04:00",
+          "summary": "Spotify is giving listeners control to fine-tune what gets surfaced for them in Release Radar - one of its most popular weekly playlists. The new options allow you to narrow the playlist to a specific genre, focus on artists that are new to you, and more. Listeners can choose from up to five options like [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Netflix is turning into YouTube",
+          "url": "https://www.theverge.com/podcast/964082/netflix-youtube-smart-glasses-vergecast",
+          "published": "2026-07-10T12:29:50-04:00",
+          "summary": "Netflix has shows and movies. And video games. And live sports. And podcasts. And also, apparently, YouTube videos? For a company that used to seem like the next big thing in TV, it all feels a little frenetic, and maybe a tad desperate. For a company that sees sleep as its primary competitor, it might [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Disney Plus is reportedly looking into a free streaming tier",
           "url": "https://www.theverge.com/streaming/964056/disney-plus-free-tier-report",
@@ -376,136 +425,77 @@
           "published": "2026-07-10T11:11:08-04:00",
           "summary": "If you&#8217;re looking to declutter your nightstand and quickly charge up to three of your most-used gadgets, Anker’s Prime Wireless Charging Station is an easy way to do both. The station has spots for your MagSafe-ready iPhone, Apple Watch, and AirPods, and right now it&#8217;s down to a new all-time low of $134.99 ($95 off) [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "I spent a week using the Trump phone — it sucks",
-          "url": "https://www.theverge.com/tech/963382/trump-mobile-t1-phone-review",
-          "published": "2026-07-10T10:19:59-04:00",
-          "summary": "The Trump phone was never a serious phone. Not when it was announced last June, in dodgy renders and with an incoherent spec sheet. Nor when Trump Mobile admitted - just two weeks later - that it wouldn't be made in the US. Not even when the company revealed the final phone, first to me [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "I’m filling in at The Verge for 6 weeks. Ask me anything!",
-          "url": "https://www.theverge.com/column/963495/im-filling-in-at-the-verge-for-6-weeks-ask-me-anything",
-          "published": "2026-07-10T10:00:00-04:00",
-          "summary": "Hello my friends! My protocol pals! My computational compadres! I'm David, a technology reporter and cohost of the Waveform Podcast. I'll be hosting a subscriber-only \"AMA\" today at 11AM PT / 2PM ET. For the next six weeks, I'm filling in for senior reviewer Allison Johnson, who you are all likely very familiar with. That [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Empathy for the optimizers",
-          "url": "https://www.theverge.com/column/963917/optimizer-bryan-johnson-biohacking-health",
-          "published": "2026-07-10T10:00:00-04:00",
-          "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Bryan Johnson, best known as the man who wants to live forever, has an incurable autoimmune disease. The internet's most [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Instagram’s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;",
-          "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
-          "published": "2026-07-10T09:45:02-04:00",
-          "summary": "Though Instagram head Adam Mosseri doesn't want to filter out AI content on the platform, he argues that you \"shouldn't have it in your feed\" if you don't like it. \"I don't think we should filter out AI content,\" Mosseri said during an interview on Lenny Rachitsky's podcast. \"I think we should let you know [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Would you host part of an AI data center in your home?",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
-          "published": "2026-07-10T09:20:25-04:00",
-          "summary": "A solar and home energy storage company is expanding into AI data centers, but not by building one - instead, it's offering to pay its customers to put its compute units in their homes. Sunrun is launching a pilot program for a new \"distributed AI compute\" program that will \"place numerous compute nodes in homes [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Xreal&#8217;s new AR glasses are way cheaper and almost just right",
-          "url": "https://www.theverge.com/tech/963465/xreal-a01-plus-xbx-ar-glasses-hands-on",
-          "published": "2026-07-10T09:00:00-04:00",
-          "summary": "I love it when a company challenges itself to make a cheaper version of a beloved product. Xreal's $299 A01 Plus is a stripped-down version of its $449 1S that's light on features but with just enough of the 1S' best qualities. These AR glasses are comfortable, they look good, and the screens are surprisingly [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Doom&#8217;s new expansion shows just what makes id Software special",
-          "url": "https://www.theverge.com/games/963515/doom-the-dark-ages-revelations-review",
-          "published": "2026-07-10T08:00:00-04:00",
-          "summary": "This week should have been a celebration for Doom developer id Software. The studio just launched Revelations, a meaty expansion for Doom: The Dark Ages that adds a powerful new weapon and more demonic levels to blast through. Even though I hadn't picked up The Dark Ages for more than a year, it only took [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Polestar owners left ‘holding the bag’ after EV brand pulls out of the US",
-          "url": "https://www.theverge.com/transportation/963399/polestar-owners-ban-dealers-service-warranty-lease",
-          "published": "2026-07-10T07:00:00-04:00",
-          "summary": "Last month, Polestar shocked the auto industry when it announced that it was pulling out of the US. The EV company's decision came after the federal government denied its authorization to continue selling its cars despite a rule banning vehicles with Chinese-made connected vehicle software. Polestar, which is headquartered in Sweden but majority owned by [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Disney Plus is exploring a free streaming tier, while Anker offers significant discounts on its charging station and Polestar exits the US market.",
-        "summary": "Today's technology news features Disney Plus considering a free streaming tier, Anker's major discount on a charging station, and Polestar's withdrawal from the US market, impacting EV owners. Instagram's Adam Mosseri discusses AI content in feeds, while Xreal launches affordable AR glasses. Additionally, a new pilot program invites homeowners to host AI data centers, and a review highlights the latest Doom expansion.",
+        "key_takeaway": "Meta disables a controversial Instagram AI feature amid backlash, while Apple sues OpenAI over alleged trade secret theft.",
+        "summary": "Today's technology news highlights significant developments including Meta's decision to disable an AI feature on Instagram, the FCC's crackdown on DJI's foreign drone ban circumvention, and Apple's lawsuit against OpenAI for alleged theft of trade secrets. Additionally, SK Hynix made a record debut on Wall Street, and Spotify introduced new features for its Release Radar playlist.",
         "key_themes": [
-          "Disney Plus free streaming tier news",
-          "Anker charging station discount",
-          "Polestar exit from US market",
-          "Instagram AI content policy",
-          "Xreal AR glasses review",
-          "AI data center in homes pilot program"
+          "Meta disables Instagram AI feature",
+          "FCC action against DJI",
+          "Apple lawsuit against OpenAI",
+          "SK Hynix stock market debut",
+          "Spotify Release Radar updates"
         ],
         "notable_headlines": [
           {
-            "headline": "Disney Plus is reportedly looking into a free streaming tier",
-            "why_it_matters": "This move could significantly alter Disney Plus's competitive landscape in streaming services.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Anker's 3-in-1 Qi2.2 charging station is $95 off",
-            "why_it_matters": "The discount makes this charging station more accessible to consumers looking for multi-device solutions.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Polestar owners left ‘holding the bag’ after EV brand pulls out of the US",
-            "why_it_matters": "Polestar's exit raises concerns for current owners regarding service and warranty support.",
+            "headline": "Meta turns off the Instagram feature that users make AI deepfakes of public accounts",
+            "why_it_matters": "This decision reflects Meta's response to user backlash regarding privacy and consent issues.",
             "signal": "Risk"
           },
           {
-            "headline": "Instagram’s Adam Mosseri: If you don’t like AI, ‘then you shouldn’t have it in your feed’",
-            "why_it_matters": "This statement reflects ongoing debates about AI content moderation on social media platforms.",
-            "signal": "Unclear"
+            "headline": "The FCC is cracking down on DJI tech that dodged the foreign drone ban",
+            "why_it_matters": "The FCC's actions could impact DJI's operations in the U.S. and raise questions about foreign technology compliance.",
+            "signal": "Risk"
           },
           {
-            "headline": "Xreal’s new AR glasses are way cheaper and almost just right",
-            "why_it_matters": "The affordability of these glasses could broaden the market for augmented reality technology.",
+            "headline": "Apple sues OpenAI for allegedly stealing hardware secrets",
+            "why_it_matters": "This lawsuit could have significant implications for the competitive landscape in AI and hardware development.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Nvidia's biggest RAM supplier just had a trillion-dollar debut on Wall Street",
+            "why_it_matters": "The record debut indicates strong investor confidence in the AI sector and its demand for memory chips.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Spotify will let you fine-tune your weekly Release Radar playlist",
+            "why_it_matters": "This feature enhances user experience and engagement by allowing more personalized content curation.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to Disney Plus's potential free tier announcement.",
-            "Watch for consumer responses to Anker's discount on charging stations.",
-            "Follow developments regarding Polestar's service options for US customers."
+            "Monitor reactions to Meta's decision on Instagram AI features",
+            "Watch for further developments in Apple's lawsuit against OpenAI",
+            "Observe FCC's next steps regarding DJI"
           ],
           "next_1_4_weeks": [
-            "Observe the impact of Instagram's AI content policy on user engagement.",
-            "Track sales performance of Xreal's new AR glasses in the market.",
-            "Evaluate the success of the pilot program for home AI data centers."
+            "Expect potential regulatory changes affecting foreign tech companies",
+            "Watch for updates on Spotify's new features and user engagement metrics",
+            "Follow developments in the AI hardware market post-SK Hynix debut"
           ],
           "watch_list": [
-            "Disney Plus streaming strategy updates.",
-            "Anker product sales trends.",
-            "Polestar's future plans in the EV market.",
-            "Instagram's AI content management developments.",
-            "Xreal's market reception for AR glasses."
+            "Meta's handling of user privacy concerns",
+            "Impact of FCC regulations on drone technology",
+            "Outcomes of Apple's legal actions against OpenAI",
+            "Trends in AI-related stock market activity"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating varied public perception of the news.",
-          "Details on Disney Plus's free tier remain unclear, including content specifics.",
-          "Polestar's exit raises questions about future EV market dynamics."
+          "The situation with Meta and OpenAI is still developing, and outcomes are uncertain.",
+          "Market reactions to new tech regulations can be unpredictable."
         ],
         "related_topics": [
-          "What are the latest developments in streaming services?",
-          "How are discounts affecting tech gadget sales?",
-          "What is the impact of Polestar's exit on EV owners?",
-          "What are Instagram's policies on AI content?",
-          "How affordable are new AR glasses on the market?"
+          "What are the latest developments in AI technology?",
+          "How is the FCC regulating foreign drone technology?",
+          "What is the impact of Apple's lawsuit against OpenAI?",
+          "What trends are emerging in the tech stock market?",
+          "How is Spotify enhancing user experience with new features?"
         ]
       },
-      "tweet_text": "Disney Plus might be going FREE—are we ready for the streaming shake-up?\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #3in1 #8216then #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Tech chaos unfolds: Meta pulls the plug on AI deepfakes, Apple takes on OpenAI, and Nvidia hits a...\n\nTechnology Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Accounts #Allegedly #Apple #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -607,74 +597,71 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Kylian Mbappé reassured fans about his health after France's World Cup win, while AJ Dybantsa shone in his NBA summer league debut.",
-        "summary": "Today's sports headlines highlight significant moments in basketball and soccer, including Kylian Mbappé's injury reassurance and AJ Dybantsa's impressive debut performance. Additionally, trade developments in the NBA and MLB are noteworthy, alongside a federal indictment related to a thwarted UFC event.",
+        "key_takeaway": "Kylian Mbappé reassured fans about his health following France's World Cup victory, while AJ Dybantsa impressed in his NBA summer league debut.",
+        "summary": "Today's sports headlines highlight Kylian Mbappé's recovery from an ankle knock during the World Cup, AJ Dybantsa's standout performance in the NBA summer league, and ongoing trade discussions in the NBA. Additionally, a thwarted attack on a UFC event led to indictments, while Charles Barkley remains the underdog in a celebrity golf tournament.",
         "key_themes": [
           "NBA summer league highlights",
           "Kylian Mbappé injury update",
-          "UFC event security concerns",
-          "MLB debut performances",
-          "NBA trade rumors"
+          "UFC event security concerns"
         ],
         "notable_headlines": [
           {
-            "headline": "Dybantsa outduels Peterson in Las Vegas debut",
-            "why_it_matters": "AJ Dybantsa's strong performance sets a positive tone for his rookie season with the Wizards.",
+            "headline": "Mbappé allays WC injury concern: 'I'm all good'",
+            "why_it_matters": "Mbappé's reassurance is crucial for France as they advance in the World Cup, alleviating concerns about his fitness.",
             "signal": "Opportunity"
           },
           {
-            "headline": "Mbappé allays WC injury concern: 'I'm all good'",
-            "why_it_matters": "Mbappé's health is crucial for France's chances in the World Cup semifinals.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Clips-Raptors trade for Kawhi on hold amid probe",
-            "why_it_matters": "The outcome of the investigation could significantly impact the Clippers' roster and salary cap strategy.",
-            "signal": "Risk"
+            "headline": "Dybantsa outduels Peterson in Las Vegas debut",
+            "why_it_matters": "Dybantsa's performance sets a positive tone for the Wizards' season and showcases the talent from the recent draft.",
+            "signal": "Opportunity"
           },
           {
             "headline": "8 indicted in thwarted attack on UFC's WH event",
-            "why_it_matters": "The indictment raises serious security concerns for future high-profile sporting events.",
+            "why_it_matters": "The indictment highlights serious security threats in sports, raising awareness about safety measures at major events.",
             "signal": "Risk"
           },
           {
-            "headline": "Valencia honors Venezuela after HR in MLB debut",
-            "why_it_matters": "Valencia's emotional tribute highlights the personal stories behind athletes' performances.",
+            "headline": "Clips-Raptors trade for Kawhi on hold amid probe",
+            "why_it_matters": "The delay in the trade could impact team strategies and player movements in the NBA.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Steph acknowledges 'allure' of playing with LeBron...",
+            "why_it_matters": "Curry's comments may influence future team dynamics and free agency decisions in the NBA.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Expect updates on the Clippers-Raptors trade investigation.",
-            "Monitor Kylian Mbappé's performance in the upcoming World Cup semifinal.",
-            "Watch for reactions to AJ Dybantsa's debut from NBA analysts."
+            "Monitoring Kylian Mbappé's performance in upcoming World Cup matches.",
+            "Following developments in the Clippers-Raptors trade situation.",
+            "Watching for updates on the indicted individuals related to the UFC event."
           ],
           "next_1_4_weeks": [
-            "The NBA free agency landscape will continue to evolve as teams court LeBron James.",
-            "Expect further developments in the MLB trade deadline discussions.",
-            "Follow the implications of the UFC event security breach on future events."
+            "Anticipating further NBA summer league performances and player evaluations.",
+            "Expecting more news on LeBron James' free agency decisions.",
+            "Looking for updates on the MLB trade deadline and potential moves."
           ],
           "watch_list": [
-            "Kylian Mbappé's health leading up to the semifinals.",
-            "AJ Dybantsa's performance in upcoming summer league games.",
-            "Potential trades and signings in the NBA and MLB.",
-            "Security measures for upcoming UFC events."
+            "Kylian Mbappé's health and performance in the World Cup.",
+            "AJ Dybantsa's progress in the NBA summer league.",
+            "Security measures at major sporting events.",
+            "LeBron James' free agency decisions."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is based on a coarse average and may not reflect the full context of each headline.",
-          "Future events are subject to change based on ongoing developments."
+          "The situation regarding the Clippers-Raptors trade is still developing and may change rapidly.",
+          "Injuries in sports can be unpredictable and may affect player performance.",
+          "The outcomes of ongoing investigations may lead to further developments."
         ],
         "related_topics": [
           "What are the latest updates on Kylian Mbappé's injury?",
           "Highlights from the NBA summer league 2026.",
-          "What are the implications of the Clippers-Raptors trade investigation?",
-          "Recent MLB debut performances and their significance.",
-          "Security measures for UFC events after recent threats."
+          "What security measures are in place for major sporting events?"
         ]
       },
-      "tweet_text": "Dybantsa shines in Vegas while LeBron's future hangs in the balance—sports drama at its finest!\n\nSports Sentiment: Positive (+0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Debut #Dybantsa #Lebron #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Dybantsa shines in Las Vegas while Mbappé reassures fans—sports drama unfolds as LeBron's future hangs in...\n\nSports Sentiment: Positive (+0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Debut #Dybantsa #Lebron #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -777,14 +764,13 @@
       ],
       "ai_report": {
         "key_takeaway": "Recent scientific discoveries range from potential alien megastructures to breakthroughs in cancer vaccines and insights into tree carbon absorption.",
-        "summary": "Today's science headlines highlight a variety of groundbreaking research findings, including the possibility of alien megastructures, the unique conditions of a tidally locked exoplanet, and new insights into volcanic formation. Additionally, studies reveal significant implications for bumblebee populations due to pesticides, advancements in DNA writing technology, and the discovery of a hidden immune response that could enhance mRNA cancer vaccines. Other notable findings include the behavior of oak trees in carbon absorption and the filming of a rare goblin shark in its natural habitat.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including astronomy, biology, and physics. Researchers are exploring the possibility of alien megastructures, the potential for life on tidally locked planets, and the unique origins of volcanoes. Additionally, studies reveal new insights into vision development, mRNA cancer vaccines, and the carbon absorption capabilities of trees. The discovery of a silicon chip capable of writing DNA and the filming of a rare goblin shark also mark important milestones in their respective areas.",
         "key_themes": [
           "alien megastructures research",
-          "tidally locked exoplanets",
-          "impact of pesticides on bumblebees",
-          "advancements in cancer vaccines",
-          "tree carbon absorption insights",
-          "DNA writing technology breakthroughs"
+          "life on exoplanets",
+          "volcano formation theories",
+          "mRNA cancer vaccine advancements",
+          "carbon absorption in trees"
         ],
         "notable_headlines": [
           {
@@ -809,12 +795,12 @@
           },
           {
             "headline": "This common pesticide may be quietly wiping out future bumblebees",
-            "why_it_matters": "The impact on pollinators raises concerns for global food production.",
+            "why_it_matters": "The impact on bee populations could have significant implications for global food production.",
             "signal": "Risk"
           },
           {
             "headline": "A vitamin A discovery is changing what scientists know about vision",
-            "why_it_matters": "This could lead to advancements in therapies for vision restoration.",
+            "why_it_matters": "This could lead to advancements in treatments for vision-related diseases.",
             "signal": "Opportunity"
           },
           {
@@ -824,52 +810,52 @@
           },
           {
             "headline": "Trees keep absorbing carbon long after they stop growing",
-            "why_it_matters": "This finding could alter predictions about carbon storage in forests.",
+            "why_it_matters": "This finding could alter predictions about forest carbon storage in climate models.",
             "signal": "Unclear"
           },
           {
             "headline": "Rare goblin shark filmed alive for the first time in the deep sea",
-            "why_it_matters": "This expands knowledge of deep-sea biodiversity and species behavior.",
+            "why_it_matters": "This expands our understanding of deep-sea biodiversity and species behavior.",
             "signal": "Opportunity"
           },
           {
             "headline": "Harvard scientists turn a silicon chip into a DNA writing machine",
-            "why_it_matters": "This innovation could transform DNA manufacturing and data storage.",
+            "why_it_matters": "This innovation could lead to more efficient DNA synthesis and storage solutions.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Further analysis of the implications of the alien megastructure study is expected.",
-            "Research on the ecological impacts of pesticides on bumblebees will continue to develop.",
-            "New studies may emerge regarding the volcanic activity of Mount Etna."
+            "More research on the effects of pesticides on pollinators may be released.",
+            "Updates on the volcanic activity of Mount Etna could emerge."
           ],
           "next_1_4_weeks": [
-            "Anticipated publications on the effects of climate change on tree carbon absorption.",
-            "Updates on the development of mRNA cancer vaccines incorporating new immune responses.",
-            "Potential announcements regarding the commercialization of DNA writing technology."
+            "Anticipated publications on the applications of the silicon DNA writing chip.",
+            "Continued exploration of the ecological impacts of the pesticide on bumblebees.",
+            "Further studies on the habitability of tidally locked planets may be published."
           ],
           "watch_list": [
-            "Follow-up studies on the habitability of tidally locked exoplanets.",
-            "Monitoring of bumblebee populations in relation to pesticide exposure.",
-            "Research developments in quantum mechanics and time perception.",
-            "Continued exploration of deep-sea species and their behaviors."
+            "Developments in quantum physics related to time emergence.",
+            "New findings on the relationship between trees and carbon absorption.",
+            "Advancements in cancer vaccine research and their clinical applications.",
+            "Research on the ecological impacts of pesticides on pollinators."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The implications of some findings, such as the volcanic origins, remain uncertain and require further validation.",
-          "The long-term effects of new pesticides on bee populations are still being studied. "
+          "The implications of some findings, such as the origins of Mount Etna, remain uncertain and require further validation.",
+          "The long-term effects of new pesticides on bee populations are still being studied."
         ],
         "related_topics": [
-          "What are the latest discoveries in exoplanet research?",
-          "How do pesticides affect bee populations?",
-          "What advancements are being made in cancer vaccine technology?",
-          "What is the significance of the goblin shark discovery?",
-          "How do trees contribute to carbon absorption?"
+          "What are the latest discoveries in alien megastructures?",
+          "How do tidally locked planets support life?",
+          "What is the impact of pesticides on bumblebee populations?",
+          "Recent advancements in mRNA cancer vaccines",
+          "How do trees absorb carbon over time?"
         ]
       },
-      "tweet_text": "Are we living among alien megastructures? The cosmos just got a lot weirder!\n\nScience Sentiment: Positive (+0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Alien #Active #Actually #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Could alien megastructures be hiding in the coldest corners of our galaxy? Discover the mind-bending truth!\n\nScience Sentiment: Positive (+0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Alien #Active #Actually #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
