@@ -1,10 +1,11 @@
 {
   "date": "2026-07-11",
-  "generated_at_utc": "2026-07-12T00:03:12Z",
+  "generated_at_utc": "2026-07-12T05:49:08Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump"
+    "trump",
+    "scientists"
   ],
   "categories": {
     "world": {
@@ -16,30 +17,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1114,
+        "score": -0.113,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.186, dampened ×0.6 → -0.1114). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.188, dampened ×0.6 → -0.1130). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
+          "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 12 Jul 2026 04:39:18 GMT",
+          "summary": "The strikes follow an attack on a Cyrpus-flagged vessel travelling through the critical waterway.",
+          "source": "BBC News"
+        },
+        {
           "title": "China's second typhoon in a week makes landfall",
           "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Jul 2026 17:41:56 GMT",
+          "published": "Sun, 12 Jul 2026 01:22:22 GMT",
           "summary": "Nearly two million people are evacuated from eastern Zhejiang province, with the city of Wenzhou close to the path of the storm.",
           "source": "BBC News"
         },
         {
-          "title": "Iran says Strait of Hormuz closed 'until further notice'",
-          "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Jul 2026 23:14:18 GMT",
-          "summary": "The IRGC says it fired a warning shot at a vessel in the strait and is warning the US not to respond with \"aggression\".",
+          "title": "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
+          "url": "https://www.bbc.co.uk/news/articles/c4gykgyn1r4o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 11 Jul 2026 23:58:40 GMT",
+          "summary": "A 67 million-year-old Tyrannosaurus rex will go on sale in New York with a pre-sale value of $30m.",
           "source": "BBC News"
         },
         {
-          "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
-          "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Jul 2026 15:03:45 GMT",
-          "summary": "At least four Britons are believed to be among the victims of the blaze, which left another 23 people missing.",
+          "title": "At least two killed in Toronto street festival shooting",
+          "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 12 Jul 2026 03:56:02 GMT",
+          "summary": "Police say there was an exchange of gunfire between two individuals at the festival, and two firearms had been recovered from the scene.",
           "source": "BBC News"
         },
         {
@@ -47,6 +55,13 @@
           "url": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 11 Jul 2026 16:11:33 GMT",
           "summary": "The reporters received the legal summons after they reported on alleged security issues with the president's new plane, which was gifted by Qatar.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
+          "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 11 Jul 2026 15:03:45 GMT",
+          "summary": "At least four Britons are believed to be among the victims of the blaze, which left another 23 people missing.",
           "source": "BBC News"
         },
         {
@@ -61,6 +76,13 @@
           "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 11 Jul 2026 18:00:09 GMT",
           "summary": "Khanna, 49, was visiting the occupied West Bank when he was held for 90 minutes, he says.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
+          "url": "https://www.bbc.co.uk/news/articles/cd6e9zq87xvo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 12 Jul 2026 00:49:24 GMT",
+          "summary": "Tabassum Khan has been facing online abuse after convicting 14 Hindu men in a lynching case.",
           "source": "BBC News"
         },
         {
@@ -83,99 +105,77 @@
           "published": "Sat, 11 Jul 2026 13:44:03 GMT",
           "summary": "Local media say 21 people were saved after the boat overturned in rough seas near an island in south Vietnam.",
           "source": "BBC News"
-        },
-        {
-          "title": "US pays out $3m to victims of mystery Havana Syndrome condition reported by spies",
-          "url": "https://www.bbc.co.uk/news/articles/cr7xyl78vnko?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Jul 2026 13:11:52 GMT",
-          "summary": "US officials and diplomats and their families began reporting a mysterious illness a decade ago.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Landmark US housing bill becomes law despite Trump protest",
-          "url": "https://www.bbc.co.uk/news/articles/cn8qwj611qxo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Jul 2026 13:35:09 GMT",
-          "summary": "The president had wanted voter ID legislation passed before the housing law, which aims to reduce costs and increase supply.",
-          "source": "BBC News"
-        },
-        {
-          "title": "New dinosaur species as long as cricket pitch discovered in Thailand",
-          "url": "https://www.bbc.co.uk/news/articles/crely7g8xepo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 11 Jul 2026 08:23:45 GMT",
-          "summary": "The plant-eating dinosaur, named Uragasaurus kalasinensis, is thought to have lived about 150 million years ago.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "China faces severe weather with a second typhoon making landfall, while Iran closes the Strait of Hormuz amid rising tensions.",
-        "summary": "Today's headlines highlight significant global events, including severe weather in China, geopolitical tensions in the Strait of Hormuz, and tragic incidents in Spain and Vietnam. The report also covers a range of other news, from a landmark US housing bill to the discovery of a new dinosaur species in Thailand.",
+        "key_takeaway": "The world faces escalating tensions with US-Iran conflicts, severe weather in China, and ongoing violence in various regions.",
+        "summary": "Today's headlines highlight significant global events, including US military actions in response to threats in the Strait of Hormuz, severe weather conditions in China leading to mass evacuations, and violent incidents in Canada and India. Additionally, the ongoing effects of historical grievances in Poland and the tragic loss of life in Nigeria and Vietnam are reported, alongside the death of a young South African footballer.",
         "key_themes": [
-          "natural disasters in China",
-          "Iran Strait of Hormuz tensions",
-          "Spain wildfire fatalities",
-          "US housing legislation updates",
-          "dinosaur discovery in Thailand"
+          "US-Iran military tensions",
+          "China typhoon impact",
+          "Toronto street festival violence",
+          "Poland Ukraine historical issues",
+          "India judicial threats",
+          "Nigerian army rescue operation"
         ],
         "notable_headlines": [
           {
-            "headline": "China's second typhoon in a week makes landfall",
-            "why_it_matters": "The typhoon has led to the evacuation of nearly two million people, indicating the severity of the weather conditions.",
+            "headline": "US launches fresh strikes as Iran closes Strait of Hormuz",
+            "why_it_matters": "This escalation could further destabilize the region and impact global oil supply.",
             "signal": "Risk"
           },
           {
-            "headline": "Iran says Strait of Hormuz closed 'until further notice'",
-            "why_it_matters": "This closure raises concerns about global oil supply and escalates tensions in the region.",
+            "headline": "China's second typhoon in a week makes landfall",
+            "why_it_matters": "The evacuation of nearly two million people underscores the severe impact of climate-related disasters.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "At least two killed in Toronto street festival shooting",
+            "why_it_matters": "This incident raises concerns about public safety at community events.",
             "signal": "Risk"
           },
           {
             "headline": "Spain battles to contain one of its deadliest wildfires as at least 12 killed",
-            "why_it_matters": "The wildfire's impact on human life and the environment underscores the increasing frequency of such disasters.",
+            "why_it_matters": "The wildfire crisis highlights the growing threat of climate change on human safety.",
             "signal": "Risk"
           },
           {
             "headline": "More than 40 kidnapped children and teachers freed after Nigerian army operation",
-            "why_it_matters": "This operation highlights ongoing security challenges in Nigeria and the efforts to combat kidnapping.",
+            "why_it_matters": "This successful operation brings hope amid ongoing security challenges in Nigeria.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
-            "why_it_matters": "The incident raises concerns about tourist safety in the region, particularly in adverse weather conditions.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor the impact of the typhoon in China and potential aftereffects.",
-            "Watch for developments regarding the closure of the Strait of Hormuz and its implications for global shipping.",
-            "Follow updates on the wildfire situation in Spain and rescue efforts."
+            "Monitor developments in the Strait of Hormuz for potential military escalations.",
+            "Watch for updates on the typhoon's impact in China and recovery efforts.",
+            "Follow news on the aftermath of the Toronto shooting and community responses."
           ],
           "next_1_4_weeks": [
-            "Observe the political ramifications of Iran's actions in the Strait of Hormuz.",
-            "Track recovery efforts and safety measures in Vietnam following the speedboat tragedy.",
-            "Keep an eye on legislative developments in the US housing market."
+            "Observe the political ramifications of US-Iran tensions on international relations.",
+            "Track recovery efforts in China and Spain following natural disasters.",
+            "Watch for further developments in the historical reconciliation efforts between Poland and Ukraine."
           ],
           "watch_list": [
-            "Typhoon recovery efforts in China",
-            "Geopolitical developments in the Middle East",
-            "Wildfire management strategies in Spain",
-            "Safety regulations for tourist activities in Vietnam"
+            "US-Iran relations and military actions",
+            "Impact of climate change on global weather patterns",
+            "Violence at public events and community safety measures",
+            "Judicial independence and threats in India",
+            "Rescue operations and security in Nigeria"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The situation in the Strait of Hormuz is fluid and may change rapidly.",
-          "Casualty figures from the wildfire and speedboat incidents may be updated as more information becomes available."
+          "The situation in Iran and the Strait of Hormuz is fluid and may change rapidly.",
+          "The impact of natural disasters can evolve as recovery efforts progress."
         ],
         "related_topics": [
-          "What is the impact of typhoons in China",
-          "Latest updates on the Strait of Hormuz",
-          "How is Spain managing wildfires",
-          "What happened in the recent speedboat accident in Vietnam",
-          "US housing legislation news",
-          "Discovery of new dinosaur species in Thailand"
+          "What are the latest developments in US-Iran relations?",
+          "How is China responding to recent typhoons?",
+          "What safety measures are being implemented after the Toronto shooting?"
         ]
       },
-      "tweet_text": "Chaos reigns globally: from typhoons and wildfires to political strife—today's headlines are a wake-up call we...\n\nWorld Sentiment: Mixed (-0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Adams #Administration #Africa #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Chaos reigns: from deadly fires in Spain to fresh US strikes, today’s headlines will leave you breathless.\n\nWorld Sentiment: Mixed (-0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Killed #Least #Administration #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -277,12 +277,14 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Delta Airlines expects elevated airfares to persist despite falling oil prices, reflecting strong travel demand and record revenue.",
-        "summary": "Today's business news highlights Delta Airlines' strong quarterly performance amid high fuel costs, New York City's new consumer protection regulations against deceptive subscriptions, and various legal challenges facing companies like Costco and SpaceX.",
+        "key_takeaway": "Delta Airlines anticipates sustained high airfares despite falling oil prices, reflecting strong travel demand and record revenue.",
+        "summary": "Today's business news highlights Delta Airlines' strong quarterly performance amid high fuel costs, New York City's new consumer protection regulations, and various legal challenges facing companies like Costco and SpaceX.",
         "key_themes": [
           "Delta Airlines quarterly results",
-          "New York City consumer protection laws",
-          "SpaceX investigation by Texas candidate"
+          "New York City subscription practices ban",
+          "SpaceX corruption allegations",
+          "Costco protein powder lawsuit",
+          "Trump administration consumer protection issues"
         ],
         "notable_headlines": [
           {
@@ -292,55 +294,57 @@
           },
           {
             "headline": "New York City moves to adopt ban of deceptive subscription practices",
-            "why_it_matters": "The new rule aims to protect consumers from hidden fees and recurring charges, potentially reshaping subscription-based business models.",
+            "why_it_matters": "This new regulation aims to protect consumers from misleading subscription models, potentially reshaping business practices in various sectors.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Costco accused in lawsuit of selling protein powder ‘tainted’ with toxic heavy metals",
-            "why_it_matters": "The lawsuit against Costco raises significant concerns about consumer safety and corporate accountability in the food industry.",
-            "signal": "Risk"
           },
           {
             "headline": "Texas Democratic political candidate says SpaceX grants ‘sure looks like’ corruption",
-            "why_it_matters": "The potential investigation into SpaceX's dealings could impact public perception and regulatory scrutiny of private companies receiving government funds.",
+            "why_it_matters": "The candidate's commitment to investigate SpaceX could impact public perception and regulatory scrutiny of the company.",
             "signal": "Risk"
           },
           {
-            "headline": "Flight of fancy: San Francisco moves to build private luxury airport terminal",
-            "why_it_matters": "The initiative to create a luxury terminal reflects changing consumer preferences in travel and could influence airport infrastructure development.",
-            "signal": "Opportunity"
+            "headline": "Costco accused in lawsuit of selling protein powder ‘tainted’ with toxic heavy metals",
+            "why_it_matters": "The lawsuit against Costco raises significant concerns about consumer safety and corporate responsibility in product quality.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US chemical accidents rising as Trump rolls back protections, report finds",
+            "why_it_matters": "The increase in chemical accidents highlights the potential dangers of reduced regulatory oversight in the chemical industry.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring Delta Airlines' stock performance following its quarterly results.",
-            "Awaiting public response to New York City's new consumer protection regulations.",
-            "Tracking developments in the Costco lawsuit and its implications for consumer safety."
+            "Monitor Delta's stock performance following its earnings report",
+            "Watch for reactions to New York City's subscription ban from businesses",
+            "Follow developments in the SpaceX investigation"
           ],
           "next_1_4_weeks": [
-            "Observing the impact of New York City's subscription ban on local businesses.",
-            "Following the Texas political candidate's campaign and its implications for SpaceX.",
-            "Evaluating consumer interest in San Francisco's luxury airport terminal proposal."
+            "Observe the implementation of New York City's new consumer protection rules",
+            "Track the progress of the Costco lawsuit and its implications for the retail sector",
+            "Evaluate the impact of rising chemical accidents on regulatory policies"
           ],
           "watch_list": [
-            "Delta Airlines stock performance",
-            "New York City consumer protection enforcement actions",
-            "Costco lawsuit developments",
-            "SpaceX government contracts scrutiny"
+            "Delta Airlines financial performance",
+            "Consumer protection regulations in other cities",
+            "Legal outcomes for Costco and SpaceX cases",
+            "Trends in airline pricing strategies"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is neutral, indicating mixed reactions to the news.",
-          "Future developments may alter the current outlook significantly."
+          "The impact of Delta's pricing strategy may vary based on broader economic conditions.",
+          "Legal challenges may take time to resolve, affecting company reputations and operations."
         ],
         "related_topics": [
-          "What are the latest trends in airline pricing?",
-          "How is New York City regulating subscription services?",
-          "What legal challenges are companies like Costco facing?"
+          "What are Delta Airlines' latest financial results?",
+          "New York City consumer protection regulations explained",
+          "SpaceX corruption allegations updates",
+          "Costco lawsuit details and implications",
+          "Trends in consumer protection under the Trump administration"
         ]
       },
-      "tweet_text": "Sky-high airfares are here to stay, while NYC tackles subscription scams—business as usual or a turning...\n\nBusiness Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Texas #1000 #Accidents #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Airfares are soaring high, NYC tackles subscription scams, and Texas politics heats up—today's business...\n\nBusiness Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Texas #1000 #Accidents #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -428,10 +432,10 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The Nopia synth nears market readiness while Oregon's AG drops merger delay efforts, reflecting ongoing developments in technology and entertainment sectors.",
-        "summary": "Today's technology news highlights the nearing launch of the Nopia synth, the withdrawal of Oregon's AG's merger delay request for Paramount and Warner Bros., and various updates in music and gaming technology.",
+        "key_takeaway": "The Nopia synth nears market release while Oregon's AG drops efforts to delay the Paramount-Warner Bros. merger, reflecting ongoing developments in technology and media.",
+        "summary": "Today's technology news highlights the nearing market release of the Nopia synth, the withdrawal of Oregon's AG's efforts to delay the Paramount-Warner Bros. merger, and various updates in music and gaming technology.",
         "key_themes": [
-          "Nopia synth launch news",
+          "Nopia synth release news",
           "Oregon AG Paramount Warner Bros merger",
           "FL Studio CEO Reddit feedback",
           "Nintendo Talking Flower price cut",
@@ -440,22 +444,22 @@
         "notable_headlines": [
           {
             "headline": "After years of teasing, the viral Nopia synth is ‘basically finished’",
-            "why_it_matters": "The Nopia synth, highly anticipated in the music gear community, is set to launch soon, potentially impacting the market for music production tools.",
+            "why_it_matters": "The Nopia synth's completion marks a significant moment for music technology enthusiasts eagerly awaiting its market debut.",
             "signal": "Opportunity"
           },
           {
             "headline": "Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
-            "why_it_matters": "The withdrawal of the merger delay could expedite the consolidation of major entertainment companies, affecting industry dynamics.",
+            "why_it_matters": "The withdrawal of the AG's request may expedite the merger process, impacting the media landscape.",
             "signal": "Risk"
           },
           {
             "headline": "FL Studio head Constantin Koehncke turns to Reddit for feedback and fun",
-            "why_it_matters": "Engaging with users on Reddit may enhance FL Studio's development and community relations, impacting its user base.",
+            "why_it_matters": "Engaging with users on Reddit could enhance FL Studio's development and community relations.",
             "signal": "Opportunity"
           },
           {
             "headline": "Nintendo’s Talking Flower got a small price cut",
-            "why_it_matters": "The price cut on a quirky Nintendo product may attract more consumers, reflecting trends in gaming merchandise.",
+            "why_it_matters": "The price cut may increase consumer interest in this quirky gadget, reflecting trends in gaming merchandise.",
             "signal": "Opportunity"
           },
           {
@@ -466,36 +470,36 @@
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Anticipation builds for the Nopia synth launch details and pricing announcement.",
-            "Potential reactions to the Oregon AG's decision on the merger may emerge from industry stakeholders.",
-            "Feedback from the FL Studio community on Reddit could influence future updates."
+            "Anticipation builds for the Nopia synth's official launch details.",
+            "Monitoring reactions to the Paramount-Warner Bros. merger news.",
+            "Expect discussions around the implications of the UAP Council's formation."
           ],
           "next_1_4_weeks": [
-            "The impact of the Paramount and Warner Bros. merger on the entertainment landscape will be closely monitored.",
-            "Consumer response to the Nintendo Talking Flower's price cut may inform future marketing strategies.",
-            "Developments from the UAP Science Advisory Council could lead to new insights on unidentified aerial phenomena."
+            "Potential announcements regarding the Nopia synth's pricing and availability.",
+            "Further developments in the media merger landscape as it progresses.",
+            "Community feedback on FL Studio's new features may emerge."
           ],
           "watch_list": [
-            "Monitor the launch date and reception of the Nopia synth.",
-            "Watch for any new developments regarding the Paramount and Warner Bros. merger.",
-            "Keep an eye on community feedback for FL Studio and its future updates.",
-            "Follow the UAP Council's activities for potential scientific breakthroughs."
+            "Nopia synth launch updates",
+            "Paramount-Warner Bros. merger developments",
+            "FL Studio user engagement results",
+            "UAP Council's initial findings"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating varied public perception of the news.",
-          "Details on the Nopia synth launch are still pending, leaving some uncertainty."
+          "The sentiment score indicates mixed feelings about the overall technology landscape today.",
+          "Details on the Nopia synth's features and pricing are still pending."
         ],
         "related_topics": [
           "What is the latest on the Nopia synth release?",
-          "Updates on the Paramount and Warner Bros. merger",
+          "Updates on the Paramount Warner Bros. merger",
           "How is FL Studio engaging with its community?",
           "What are the implications of the UAP Science Advisory Council?",
-          "Nintendo product price changes and consumer reactions"
+          "Nintendo Talking Flower price changes and reviews"
         ]
       },
-      "tweet_text": "Get ready to groove: the viral Nopia synth is finally almost here, and it's about to change the game!\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Aliens #Armed #Attorney #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Get ready for synth magic as the Nopia is finally nearing its grand debut!\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Aliens #Armed #Attorney #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -597,77 +601,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The MLB draft is underway with the White Sox holding the first overall pick, while notable NBA events include a physical altercation and significant contract extensions.",
-        "summary": "Today's sports news highlights the commencement of the MLB draft, featuring predictions and live updates, alongside significant NBA developments including a physical altercation between players and major contract extensions. Additionally, the tragic passing of South African midfielder Jayden Adams is noted, as well as record attendance at a WNBA game.",
+        "key_takeaway": "The MLB draft is underway with the White Sox holding the No. 1 pick, while notable NBA developments include a physical altercation and significant contract extensions.",
+        "summary": "Today's sports news highlights the commencement of the MLB draft, where the White Sox have the first overall pick. In the NBA, a physical altercation between former teammates Bam Adebayo and Tyler Herro has emerged, alongside a strong summer league debut from Bulls rookie Caleb Wilson. Additionally, Victor Wembanyama has secured a substantial contract extension with the Spurs, and the NBPA is advocating for changes to league policies affecting players.",
         "key_themes": [
           "MLB draft predictions",
           "NBA player altercations",
-          "WNBA record attendance",
           "Victor Wembanyama contract extension",
-          "LeBron James free agency news"
+          "WNBA record crowd",
+          "LeBron James free agency updates"
         ],
         "notable_headlines": [
           {
             "headline": "The MLB draft is here! Kiley McDaniel predicts the...",
-            "why_it_matters": "The draft's first pick is crucial for team strategies and future success.",
+            "why_it_matters": "The draft's top pick is highly anticipated, impacting team strategies and future player development.",
             "signal": "Opportunity"
           },
           {
             "headline": "Sources: Bam struck Herro in Vegas altercation",
-            "why_it_matters": "This incident raises concerns about player conduct and team dynamics.",
+            "why_it_matters": "This incident raises concerns about player conduct and team dynamics during the offseason.",
             "signal": "Risk"
           },
           {
             "headline": "Strong debut caps 'emotional' day for Bulls' Wilson...",
-            "why_it_matters": "A standout performance can significantly impact a rookie's career trajectory.",
+            "why_it_matters": "Wilson's performance could signal a bright future for the Bulls and excitement for fans.",
             "signal": "Opportunity"
           },
           {
-            "headline": "South Africa's Adams, who played at WC, dies at 25...",
-            "why_it_matters": "The loss of a young player highlights the fragility of life and the impact on the sports community.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Sources: Spurs' Wemby inks $252M max extension",
-            "why_it_matters": "This contract reflects the high expectations for Wembanyama and the Spurs' investment in their future.",
+            "why_it_matters": "This contract highlights Wembanyama's value and the Spurs' commitment to building around him.",
             "signal": "Opportunity"
           },
           {
             "headline": "Record crowd in Montreal watches Wings, Tempo",
-            "why_it_matters": "Record attendance signifies growing interest and support for women's sports.",
+            "why_it_matters": "The attendance record reflects growing interest in women's sports and the WNBA's expanding fanbase.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
             "Continued coverage of the MLB draft results and analysis.",
-            "Updates on the fallout from the altercation between Adebayo and Herro.",
-            "Further developments in LeBron James' free agency decisions."
+            "Updates on the fallout from the Adebayo-Herro altercation.",
+            "Further developments in LeBron James' free agency situation."
           ],
           "next_1_4_weeks": [
-            "Monitoring the impact of the MLB draft on team strategies and player performances.",
-            "Tracking the implications of the NBA's second apron on team decisions and player contracts.",
-            "Observing the WNBA's growing popularity and attendance trends."
+            "Ongoing analysis of player performances in summer leagues and drafts.",
+            "Monitoring the impact of Wembanyama's contract on the Spurs' roster decisions.",
+            "Expect updates on the NBPA's efforts to address league policies."
           ],
           "watch_list": [
-            "MLB draft outcomes and player performances.",
-            "NBA player conduct and team chemistry issues.",
-            "LeBron James' free agency decisions and potential signings.",
-            "WNBA attendance records and fan engagement."
+            "MLB draft results and player signings.",
+            "NBA free agency developments, particularly regarding LeBron James.",
+            "WNBA attendance and performance metrics.",
+            "Player health and conduct updates in the NBA."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the overall tone of today's sports news.",
-          "Details regarding the altercation and its implications are still emerging."
+          "The sentiment score indicates mixed feelings about the overall sports news today.",
+          "Details on player altercations may evolve as more information becomes available."
         ],
         "related_topics": [
-          "What are the latest updates from the MLB draft?",
-          "NBA player altercations and their impact on teams.",
-          "WNBA attendance records and fan engagement trends."
+          "What are the latest MLB draft predictions?",
+          "Updates on NBA player altercations and their implications.",
+          "What is the significance of Wembanyama's contract extension?",
+          "How did the WNBA set a new attendance record?",
+          "What are the latest developments in LeBron James' free agency?"
         ]
       },
-      "tweet_text": "From MLB dreams to heartbreaking losses, today’s sports news hits every emotion—don’t miss out on the latest!\n\nSports Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Sources #252m #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "The MLB draft ignites dreams tonight while tragedy strikes with the loss of South Africa's rising star at just 25.\n\nSports Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Draft #Sources #252m #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -678,9 +679,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.2439,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.406, dampened ×0.6 → +0.2439). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.2645,
+        "label": "Positive",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.441, dampened ×0.6 → +0.2645). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -695,6 +696,13 @@
           "url": "https://www.sciencedaily.com/releases/2026/07/260710003524.htm",
           "published": "Fri, 10 Jul 2026 02:04:44 EDT",
           "summary": "Scientists have identified new clues that could help astronomers spot one of the most famous hypothetical alien megastructures: a Dyson sphere. The study finds that red dwarfs and white dwarfs are the most promising stars to examine, since advanced civilizations could potentially build energy-harvesting swarms around them more easily. These objects would stand out by glowing in infrared light instead of visible light, lacking the dusty signatures of ordinary stars, and possibly flickering in unu",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Why gold never tarnishes has finally been explained",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260710003511.htm",
+          "published": "Sat, 11 Jul 2026 22:36:05 EDT",
+          "summary": "Gold may have a secret self-defense system that helps it resist tarnishing. Researchers discovered that atoms on gold surfaces reorganize themselves into patterns that block oxygen from reacting with the metal, suppressing oxidation by up to a trillion-fold. Beyond explaining why gold jewelry stays bright for generations, the finding could help scientists create more powerful gold-based catalysts for manufacturing and clean energy.",
           "source": "ScienceDaily"
         },
         {
@@ -759,83 +767,79 @@
           "published": "Thu, 09 Jul 2026 16:05:08 EDT",
           "summary": "Researchers found that mRNA cancer vaccines can recruit an unexpected immune cell to launch powerful tumor-fighting responses, overturning a long-held assumption about how the vaccines work. The discovery could lead to more effective cancer vaccines and help scientists tailor treatments for better patient outcomes.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Trees keep absorbing carbon long after they stop growing",
-          "url": "https://www.sciencedaily.com/releases/2026/07/260708022210.htm",
-          "published": "Thu, 09 Jul 2026 02:28:44 EDT",
-          "summary": "Oak trees keep absorbing carbon dioxide long after their annual growth has ended, revealing that photosynthesis and wood production are not as closely linked as scientists once believed. The finding could reshape forecasts of how much carbon forests will be able to store in a warmer future.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Invasive Asian mantises threaten European wildlife, while discoveries in astrophysics and biology reshape understanding of life and evolution.",
-        "summary": "Today's science headlines highlight the ecological threat posed by invasive Asian mantises in Europe, intriguing findings about potential alien megastructures, and new insights into evolutionary biology and human health. Researchers also explore the implications of a unique tidally locked exoplanet for life, the origins of Mount Etna, and the impact of pesticides on bumblebee reproduction. Additionally, studies reveal surprising connections in the animal kingdom and advancements in cancer vaccine technology, alongside new understandings of carbon absorption in trees and human vision development.",
+        "key_takeaway": "Recent scientific discoveries highlight the impact of invasive species, the potential for alien megastructures, and advancements in understanding vision and cancer vaccines.",
+        "summary": "Today's science headlines cover a range of topics, including the threat of invasive Asian mantises to European wildlife, new insights into potential alien megastructures, and the mechanisms behind gold's tarnish resistance. Other notable findings include the evolutionary history of New Zealand's giant birds, the design flaws in the human body, and the implications of a new pesticide on bumblebee populations. Additionally, researchers have made significant strides in understanding vision development and enhancing mRNA cancer vaccines.",
         "key_themes": [
           "invasive species impact",
           "alien megastructures research",
-          "evolutionary biology discoveries",
-          "pesticide effects on pollinators",
-          "cancer vaccine advancements"
+          "gold tarnish resistance",
+          "evolution of New Zealand birds",
+          "human body design flaws",
+          "pesticide effects on bumblebees"
         ],
         "notable_headlines": [
           {
             "headline": "Scientists warn invasive Asian mantises are threatening Europe's wildlife",
-            "why_it_matters": "The spread of invasive mantises could disrupt local ecosystems and threaten native species.",
+            "why_it_matters": "The spread of invasive mantises poses risks to native species and ecosystems in Europe.",
             "signal": "Risk"
           },
           {
             "headline": "The galaxy’s coldest “stars” may actually be alien megastructures",
-            "why_it_matters": "This research could change how we search for extraterrestrial life and advanced civilizations.",
+            "why_it_matters": "Identifying potential alien megastructures could reshape our understanding of extraterrestrial life.",
             "signal": "Opportunity"
           },
           {
-            "headline": "This alien planet never has sunrise or sunset. It may support life",
-            "why_it_matters": "Findings suggest that extreme environments may still harbor life, expanding our understanding of habitability.",
-            "signal": "Unclear"
+            "headline": "Why gold never tarnishes has finally been explained",
+            "why_it_matters": "Understanding gold's resistance to tarnishing could lead to advancements in materials science.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Why the human body has so many design flaws",
-            "why_it_matters": "Understanding evolutionary compromises can inform medical approaches and health treatments.",
-            "signal": "Opportunity"
+            "why_it_matters": "Insights into human evolution can inform medical and health-related fields.",
+            "signal": "Unclear"
           },
           {
-            "headline": "A hidden immune backup system could supercharge mRNA cancer vaccines",
-            "why_it_matters": "This discovery may lead to more effective cancer treatments and improved patient outcomes.",
-            "signal": "Opportunity"
+            "headline": "This common pesticide may be quietly wiping out future bumblebees",
+            "why_it_matters": "The impact of pesticides on pollinators is critical for food production and ecosystem health.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring reactions to the invasive mantis situation in Europe.",
-            "Further studies on the implications of the Dyson sphere hypothesis.",
-            "Continued research on the effects of pesticides on pollinators."
+            "Further studies on invasive species impacts are expected to be released.",
+            "New research on alien megastructures may be published soon.",
+            "Updates on the effects of pesticides on pollinators will be monitored."
           ],
           "next_1_4_weeks": [
-            "Anticipating new findings related to the origins of Mount Etna.",
-            "Updates on the impact of the vitamin A discovery on vision science.",
-            "Potential announcements regarding advancements in cancer vaccine trials."
+            "Anticipated discussions on the implications of the gold tarnishing discovery in materials science.",
+            "Ongoing research into the evolutionary history of New Zealand's birds may yield new findings.",
+            "Continued exploration of the human body's design flaws could lead to health innovations."
           ],
           "watch_list": [
-            "Invasive species management strategies in Europe.",
-            "Developments in exoplanet research and habitability studies.",
-            "Research on the ecological impacts of pesticides.",
-            "Updates on evolutionary biology and fossil discoveries."
+            "Developments in mRNA cancer vaccine research.",
+            "New findings related to the effects of pesticides on bee populations.",
+            "Further investigations into the ecological impact of invasive species.",
+            "Research on the potential for life on tidally locked exoplanets."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The ecological impact of invasive species can be complex and multifaceted.",
-          "Research on alien megastructures remains speculative and requires further validation.",
-          "The long-term effects of pesticides on bee populations are still being studied."
+          "The long-term effects of invasive species are still being studied.",
+          "The implications of alien megastructures remain speculative.",
+          "Research on pesticides and their effects on bees is ongoing and may evolve."
         ],
         "related_topics": [
           "What are the impacts of invasive species on ecosystems?",
-          "Latest discoveries in exoplanet research and habitability.",
-          "How do pesticides affect pollinator health?"
+          "How do scientists search for alien megastructures?",
+          "What recent discoveries explain why gold does not tarnish?",
+          "What are the evolutionary histories of New Zealand's birds?",
+          "How do design flaws in the human body affect health?"
         ]
       },
-      "tweet_text": "Invasive mantises are on the attack—could they spell disaster for Europe's delicate wildlife?\n\nScience Sentiment: Mixed (+0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Alien #Europes #Active #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Is the galaxy hiding alien megastructures among its coldest \"stars\"? The truth might be stranger than we...\n\nScience Sentiment: Positive (+0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Alien #Europes #Never #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
