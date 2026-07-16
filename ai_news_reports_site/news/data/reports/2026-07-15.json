@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "generated_at_utc": "2026-07-16T00:06:46Z",
+  "generated_at_utc": "2026-07-16T05:33:00Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -16,30 +16,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0852,
+        "score": -0.0711,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.142, dampened ×0.6 → -0.0852). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.119, dampened ×0.6 → -0.0711). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "French MPs approve assisted dying law with strict rules after years of argument",
-          "url": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 15 Jul 2026 17:29:26 GMT",
-          "summary": "The bill would allow assisted dying for terminally ill adults who meet strict criteria.",
-          "source": "BBC News"
-        },
-        {
           "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
           "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 15 Jul 2026 21:55:04 GMT",
+          "published": "Thu, 16 Jul 2026 04:06:11 GMT",
           "summary": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran.",
           "source": "BBC News"
         },
         {
-          "title": "Argentina face fine for Falklands banner in semi-final win",
+          "title": "Argentina face action after waving Falklands banner",
           "url": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 15 Jul 2026 22:49:47 GMT",
-          "summary": "Argentina face the prospect of a Fifa fine after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands.",
+          "summary": "Argentina face the prospect of disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands.",
           "source": "BBC News"
         },
         {
@@ -57,17 +50,24 @@
           "source": "BBC News"
         },
         {
-          "title": "US military to start testosterone  testing, Hegseth says",
+          "title": "US military to start screening for testosterone deficiency, Hegseth says",
           "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 15 Jul 2026 22:46:02 GMT",
-          "summary": "\"We owe our warriors the absolute best medical care in the world, and this program delivers on that obligation,\" Hegseth said in a video.",
+          "published": "Thu, 16 Jul 2026 02:33:40 GMT",
+          "summary": "Hegseth says he is authorising hormone screening to ensure US troops \"operate at your absolute best\".",
           "source": "BBC News"
         },
         {
-          "title": "New monkey species with orange lips found 'hiding' in DRC forest",
+          "title": "New monkey species with orange lips found 'hiding' in DR Congo forest",
           "url": "https://www.bbc.co.uk/news/articles/c15y5wgj4x8o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 15 Jul 2026 23:02:49 GMT",
           "summary": "Scientists describe \"amazing feeling\" to look into the face of an animal that so few people knew existed.",
+          "source": "BBC News"
+        },
+        {
+          "title": "French MPs approve assisted dying law with strict rules after years of argument",
+          "url": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 15 Jul 2026 17:29:26 GMT",
+          "summary": "The bill would allow assisted dying for terminally ill adults who meet strict criteria.",
           "source": "BBC News"
         },
         {
@@ -92,90 +92,97 @@
           "source": "BBC News"
         },
         {
+          "title": "Blanche apologises on Capitol Hill for Epstein files 'mistakes'",
+          "url": "https://www.bbc.co.uk/news/articles/c62q3g32204o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 15 Jul 2026 23:45:12 GMT",
+          "summary": "Blanche faces a bipartisan grilling as he seeks to assume the role of US attorney general permanently.",
+          "source": "BBC News"
+        },
+        {
           "title": "Italy's Meloni suffers surprise setback in close vote on electoral reform",
           "url": "https://www.bbc.co.uk/news/articles/c1kykx3vnyyo?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 15 Jul 2026 11:44:28 GMT",
           "summary": "The defeat triggered opposition calls for Meloni to resign ahead of next year's general election.",
           "source": "BBC News"
-        },
-        {
-          "title": "Rastafarians in Kenya fail in bid to get cannabis legalised for religious purposes",
-          "url": "https://www.bbc.co.uk/news/articles/c0lyl5ryyr4o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 15 Jul 2026 10:50:09 GMT",
-          "summary": "The court acknowledged the need for a broader national debate on cannabis policy in Kenya.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "French MPs approved an assisted dying law, while US-Iran tensions escalate amid military actions and public sentiment shifts towards China over the US.",
-        "summary": "Today's headlines cover significant global events including France's approval of assisted dying legislation, escalating US-Iran tensions, and a shift in public sentiment favoring China over the US. Additionally, Argentina faces potential fines for political expressions during sports, and a new monkey species has been discovered in the DRC. The ongoing conflict in Ukraine continues to result in civilian casualties, while South Africa investigates the murder of an anti-migrant leader. In Italy, Prime Minister Meloni faces political challenges, and Rastafarians in Kenya were denied cannabis legalization for religious use.",
+        "key_takeaway": "US military escalates tensions with Iran amid mixed global sentiments, while Argentina faces FIFA scrutiny and France advances assisted dying legislation.",
+        "summary": "Today's headlines reflect a mix of geopolitical tensions, social issues, and scientific discoveries. The US has launched new strikes on Iran, with President Trump warning Tehran to behave. Argentina is facing potential FIFA disciplinary action after players celebrated a World Cup win with a politically charged banner. Families of victims from the Genoa bridge disaster await a verdict, while a Pew study indicates a growing preference for China over the US. In other news, the US military plans to screen for testosterone deficiency, a new monkey species has been discovered in the DR Congo, and French MPs have approved an assisted dying law. Meanwhile, Russian attacks in Ukraine continue to result in civilian casualties, and a special police team is investigating the killing of an anti-migrant leader in South Africa. In Hong Kong, police have arrested individuals for selling seditious books, and US Attorney General nominee Blanche has apologized for mistakes related to Epstein files. Italy's Prime Minister Meloni faces a setback in electoral reform votes, raising questions about her leadership ahead of upcoming elections.",
         "key_themes": [
-          "assisted dying legislation in France",
-          "US military actions against Iran",
-          "Argentina football controversy",
+          "US-Iran relations",
+          "Argentina FIFA disciplinary action",
           "Genoa bridge disaster verdict",
-          "China's rising global influence",
-          "political challenges for Italy's Meloni"
+          "China US relations",
+          "assisted dying legislation in France",
+          "Ukraine Russia conflict updates"
         ],
         "notable_headlines": [
           {
-            "headline": "French MPs approve assisted dying law with strict rules after years of argument",
-            "why_it_matters": "This law marks a significant shift in France's approach to end-of-life care, reflecting changing societal attitudes towards assisted dying.",
-            "signal": "Opportunity"
-          },
-          {
             "headline": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-            "why_it_matters": "The renewed military actions indicate escalating tensions between the US and Iran, with potential implications for regional stability.",
+            "why_it_matters": "This escalation could heighten tensions in the Middle East and impact global oil markets.",
             "signal": "Risk"
           },
           {
-            "headline": "Argentina face fine for Falklands banner in semi-final win",
-            "why_it_matters": "This incident highlights the intersection of sports and national identity, potentially affecting Argentina's international relations.",
+            "headline": "Argentina face action after waving Falklands banner",
+            "why_it_matters": "FIFA's response could influence international football relations and Argentina's political climate.",
             "signal": "Risk"
           },
           {
             "headline": "Families of 43 victims await verdict in Genoa bridge disaster",
-            "why_it_matters": "The outcome of this case could have significant implications for infrastructure safety regulations in Italy and beyond.",
+            "why_it_matters": "The verdict will have implications for accountability in infrastructure safety and public trust in government.",
             "signal": "Unclear"
           },
           {
             "headline": "More people around the world now favour China over the US, Pew study suggests",
-            "why_it_matters": "This shift in public opinion may influence global diplomatic relations and economic partnerships moving forward.",
+            "why_it_matters": "This shift in global sentiment could affect international relations and economic partnerships.",
             "signal": "Opportunity"
+          },
+          {
+            "headline": "French MPs approve assisted dying law with strict rules after years of argument",
+            "why_it_matters": "This legislation marks a significant change in France's approach to end-of-life care and could influence other countries.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+            "why_it_matters": "Continued violence in the region raises concerns about humanitarian impacts and international responses.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor reactions to the new assisted dying law in France.",
-            "Watch for developments in US-Iran military engagements.",
-            "Follow Argentina's response to potential FIFA fines."
+            "Monitor reactions to US strikes on Iran and potential diplomatic fallout.",
+            "Watch for FIFA's decision regarding Argentina's disciplinary action.",
+            "Follow updates on the Genoa bridge disaster verdict."
           ],
           "next_1_4_weeks": [
-            "Observe the political fallout from Italy's electoral reform vote.",
-            "Track the investigation into the anti-migrant leader's murder in South Africa.",
-            "Await the verdict in the Genoa bridge disaster case."
+            "Observe the impact of the Pew study on US-China relations and global perceptions.",
+            "Track developments in the Ukraine conflict and international military responses.",
+            "Keep an eye on the implementation of France's assisted dying law and its societal effects."
           ],
           "watch_list": [
-            "US-Iran relations and military actions",
-            "Public sentiment towards China",
-            "Political stability in Italy under Meloni's leadership.",
-            "Developments in assisted dying legislation in Europe"
+            "US-Iran military tensions",
+            "Argentina's FIFA disciplinary actions",
+            "Genoa bridge disaster verdict",
+            "China's global influence",
+            "assisted dying legislation in Europe",
+            "Ukraine-Russia conflict developments"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates mixed feelings about the news, suggesting a complex global landscape.",
-          "Political developments may rapidly change the context of these stories."
+          "The geopolitical landscape is fluid and subject to rapid changes.",
+          "Public sentiment can shift quickly based on new developments or crises."
         ],
         "related_topics": [
-          "What are the implications of France's assisted dying law?",
-          "How are US-Iran tensions evolving?",
-          "What is the significance of Argentina's Falklands banner?",
-          "What is the latest on the Genoa bridge disaster verdict?",
-          "How is public sentiment shifting towards China?"
+          "What are the latest developments in US-Iran relations?",
+          "Argentina's FIFA disciplinary actions explained",
+          "Updates on the Genoa bridge disaster verdict",
+          "How is global sentiment shifting towards China?",
+          "What does France's assisted dying law entail?"
         ]
       },
-      "tweet_text": "As the world shifts, nations clash: France embraces assisted dying, while the US escalates tensions with Iran....\n\nWorld Sentiment: Mixed (-0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Approve #Argentina #Argument #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "Tensions rise as the US strikes Iran, while a new monkey species with orange lips steals the spotlight—what a day...\n\nWorld Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Action #Approve #Argentina #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -277,74 +284,75 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tripling US union membership could shift $1.2 trillion to workers annually, while IBM's shares plummeted over 25% following disappointing earnings.",
-        "summary": "Today's business news highlights a report suggesting that increasing US union membership could significantly benefit workers financially, while IBM faces a major stock decline due to poor earnings. Additionally, inflation rates have cooled, and the US government is refunding tariffs deemed illegal by the Supreme Court.",
+        "key_takeaway": "Tripling US union membership could transfer $1.2 trillion to workers annually, while IBM's stock plummeted over 25% following disappointing earnings.",
+        "summary": "Today's business news highlights a report suggesting that increasing US union membership could significantly benefit workers financially, alongside IBM's substantial stock decline due to weak earnings. Additionally, inflation rates have cooled, and legal challenges are emerging against major corporate mergers.",
         "key_themes": [
           "US union membership impact on workers",
           "IBM stock decline analysis",
-          "inflation trends and economic implications",
+          "current inflation trends in the US",
           "legal challenges to corporate mergers",
           "Trump administration's economic policies"
         ],
         "notable_headlines": [
           {
             "headline": "Tripling US union membership would shift $1.2tn to workers annually – report",
-            "why_it_matters": "This report indicates significant potential economic benefits for workers if union membership increases, addressing wage disparities.",
+            "why_it_matters": "The report indicates significant financial benefits for workers and a potential reduction in wage inequality.",
             "signal": "Opportunity"
           },
           {
             "headline": "IBM loses quarter of its value as tech giant’s shares plunge and profits falter",
-            "why_it_matters": "IBM's sharp stock decline raises concerns about the company's future and the broader tech sector's health.",
+            "why_it_matters": "IBM's stock drop reflects broader concerns in the tech sector and investor confidence.",
             "signal": "Risk"
           },
           {
             "headline": "Inflation cools to 3.5% in June in relief brought by brief US-Iran peace deal",
-            "why_it_matters": "The cooling inflation rate may provide temporary relief to consumers, but ongoing geopolitical tensions could reverse this trend.",
+            "why_it_matters": "The cooling inflation rate may impact consumer spending and economic policy decisions moving forward.",
             "signal": "Unclear"
           },
           {
             "headline": "US refunds $81bn in Trump tariffs after supreme court ruled them illegal",
-            "why_it_matters": "The refund of tariffs reflects significant legal and economic shifts stemming from past administration policies.",
+            "why_it_matters": "The refund of tariffs could influence trade relations and economic conditions for affected businesses.",
             "signal": "Risk"
           },
           {
             "headline": "US state attorneys general file lawsuit in effort to block Paramount merger",
-            "why_it_matters": "This lawsuit could have major implications for competition in the media industry and the future of corporate mergers.",
+            "why_it_matters": "The lawsuit highlights ongoing concerns about competition and job losses in the media industry.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitoring IBM's stock performance for further declines or recovery signs.",
-            "Observing reactions from labor unions regarding the report on membership increases.",
-            "Tracking inflation trends following the recent peace deal."
+            "Monitor reactions to IBM's earnings report and stock performance.",
+            "Watch for further developments regarding the Paramount merger lawsuit.",
+            "Observe any changes in inflation rates following recent economic data."
           ],
           "next_1_4_weeks": [
-            "Evaluating the impact of the Paramount merger lawsuit on the media landscape.",
-            "Assessing the long-term effects of the union membership report on labor policies.",
-            "Watching for further developments in the DOJ investigation into UAW leadership."
+            "Expect discussions on union membership impacts to gain traction in policy circles.",
+            "Watch for potential regulatory changes in response to the Supreme Court's tariff ruling.",
+            "Monitor the tech sector for further fallout from IBM's performance."
           ],
           "watch_list": [
-            "IBM's quarterly earnings report for more insights on its financial health.",
-            "Updates on inflation rates and their impact on consumer spending.",
-            "Legal developments regarding the Paramount merger lawsuit.",
-            "Reactions from labor unions and workers to the union membership report."
+            "IBM stock performance and investor sentiment.",
+            "Union membership advocacy movements and legislative proposals.",
+            "Ongoing inflation trends and energy price fluctuations.",
+            "Legal developments regarding corporate mergers and antitrust actions."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The impact of geopolitical events on inflation remains uncertain.",
-          "IBM's future performance is contingent on market conditions and company strategy."
+          "The impact of union membership on wage inequality is complex and may vary by industry.",
+          "IBM's stock performance could be influenced by broader market trends beyond its earnings report.",
+          "Inflation rates can be volatile and influenced by external geopolitical factors."
         ],
         "related_topics": [
-          "What are the implications of increased US union membership?",
-          "How is IBM responding to its stock decline?",
-          "What are the latest inflation trends in the US?",
-          "What legal challenges are facing the Paramount merger?",
-          "How are Trump-era tariffs affecting US businesses?"
+          "What is the impact of union membership on workers' wages?",
+          "Latest news on IBM's financial performance",
+          "How is inflation affecting the US economy?",
+          "Legal challenges to corporate mergers in the US",
+          "Updates on Trump's economic policies and their effects"
         ]
       },
-      "tweet_text": "A seismic shift in union power could put $1.2 trillion back in workers' pockets—are we witnessing a labor...\n\nBusiness Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Court #Supreme #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A seismic shift in union power could put $1.2 trillion back in workers’ pockets—are we witnessing the...\n\nBusiness Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Court #Supreme #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -432,80 +440,84 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Skullcandy introduces new Crusher headphones with Bose ANC, while AppleCare Plus prices are set to increase for new subscribers.",
-        "summary": "Today's technology news highlights include Skullcandy's launch of its updated Crusher headphones featuring Bose's noise-canceling technology, a solid back-to-school deal on HP's OLED 2-in-1 laptop, and an upcoming price increase for AppleCare Plus subscriptions. Additionally, Valve will continue to allow iFixit to sell Steam Deck batteries, while xAI is suing a user for generating illegal content with its AI. Roblox is shutting down its video chat service, and a teaser for Google's Pixel 11 hints at a new camera feature.",
+        "key_takeaway": "Skullcandy introduces new Crusher headphones with Bose ANC, while AppleCare Plus prices for Macs and iPads are set to increase.",
+        "summary": "Today's technology news highlights include Skullcandy's launch of Crusher headphones featuring Bose's noise cancellation, a solid back-to-school deal on HP's OLED laptop, and an upcoming price increase for AppleCare Plus. Valve will continue selling Steam Deck batteries through iFixit, while xAI is suing a man for generating CSAM using its Grok AI. Roblox is shutting down its video chat service, and a teaser for Google's Pixel 11 reveals an intriguing camera design.",
         "key_themes": [
-          "audio technology advancements",
-          "laptop deals for students",
-          "AppleCare Plus price changes",
-          "Valve customer support policies",
+          "new technology releases",
+          "consumer electronics deals",
           "AI legal issues",
-          "Roblox service updates"
+          "video game service changes",
+          "smartphone innovations"
         ],
         "notable_headlines": [
           {
             "headline": "Skullcandy’s bass-boosting Crusher headphones now come with Bose’s ANC",
-            "why_it_matters": "This collaboration enhances audio quality and positions Skullcandy competitively in the headphone market.",
+            "why_it_matters": "This new headphone model enhances audio experience with advanced noise cancellation technology, appealing to audiophiles and casual listeners alike.",
             "signal": "Opportunity"
           },
           {
             "headline": "HP's OLED-equipped 2-in-1 laptop is a solid back-to-school deal",
-            "why_it_matters": "The significant price drop makes it an attractive option for students and budget-conscious consumers.",
+            "why_it_matters": "The significant discount on a high-quality laptop makes it an attractive option for students and professionals.",
             "signal": "Opportunity"
           },
           {
             "headline": "Apple’s reportedly raising the price for AppleCare Plus on Macs and iPads",
-            "why_it_matters": "This change could affect consumer decisions regarding Apple products and services.",
+            "why_it_matters": "The price increase could affect consumer decisions regarding device protection plans, impacting Apple's service revenue.",
             "signal": "Risk"
           },
           {
             "headline": "Valve says iFixit will keep selling Steam Deck batteries after all",
-            "why_it_matters": "This decision supports consumer repairability and Valve's commitment to customer service.",
+            "why_it_matters": "This decision supports consumer repairability and sustainability in gaming hardware, enhancing Valve's reputation among gamers.",
             "signal": "Opportunity"
           },
           {
             "headline": "xAI sues a man for using Grok to generate CSAM ‘deepfakes’",
-            "why_it_matters": "This lawsuit raises important questions about AI usage and legal accountability.",
+            "why_it_matters": "The lawsuit highlights ongoing legal and ethical challenges surrounding AI technology and its misuse.",
             "signal": "Risk"
           },
           {
             "headline": "Roblox is shutting down its video chat service",
-            "why_it_matters": "The shutdown reflects challenges in maintaining user engagement and safety in online platforms.",
+            "why_it_matters": "The closure of this feature may impact user engagement and the platform's social interaction capabilities.",
             "signal": "Risk"
+          },
+          {
+            "headline": "Something’s glowing on the Pixel 11’s camera bar",
+            "why_it_matters": "The teaser suggests innovative features in Google's upcoming smartphone, potentially attracting consumer interest.",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Monitor consumer reactions to Skullcandy's new headphones and HP's laptop deal.",
-            "Watch for updates on the AppleCare Plus pricing changes.",
-            "Follow developments in the xAI lawsuit and its implications for AI regulations."
+            "Further details on the upcoming FCC vote regarding broadcast ownership caps are expected.",
+            "More information on the features of the Pixel 11 may be released as the launch date approaches.",
+            "Consumer reactions to the price increase for AppleCare Plus will be monitored."
           ],
           "next_1_4_weeks": [
-            "Observe the impact of the Roblox video chat shutdown on user engagement and platform usage.",
-            "Keep an eye on the FCC's upcoming vote regarding broadcast ownership rules.",
-            "Anticipate more details about the Google Pixel 11 and its features."
+            "The impact of the price increase on AppleCare Plus subscriptions will be analyzed as new sign-ups begin.",
+            "The performance of Skullcandy's new headphones in the market will be evaluated after their release.",
+            "Roblox's user engagement metrics will be assessed following the shutdown of its video chat service."
           ],
           "watch_list": [
-            "Skullcandy product reviews and market reception.",
-            "HP laptop sales performance during back-to-school season.",
-            "Legal outcomes of the xAI lawsuit and its broader implications.",
-            "Future announcements from Valve regarding Steam Deck support."
+            "Monitor consumer feedback on the new Skullcandy headphones and HP laptop deal.",
+            "Keep an eye on legal developments regarding xAI's lawsuit and its implications for AI technology.",
+            "Watch for updates on the Pixel 11's features and market reception.",
+            "Follow the FCC's decision on broadcast ownership rules and its potential impact on media consolidation."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score is mixed, indicating a balance of positive and negative reactions across the headlines.",
-          "Details on the xAI lawsuit are still emerging, and the outcome is uncertain."
+          "The sentiment score indicates mixed feelings about the technology news today, suggesting a balance of positive and negative reactions.",
+          "Details regarding the impact of the AppleCare Plus price increase are still emerging and may change."
         ],
         "related_topics": [
           "What are the latest updates on Skullcandy headphones?",
-          "How is HP's laptop deal impacting back-to-school shopping?",
-          "What changes are coming to AppleCare Plus pricing?",
-          "What are the implications of xAI's lawsuit?",
-          "Why is Roblox shutting down its video chat service?"
+          "How is HP's new laptop performing in the market?",
+          "What legal issues are arising from AI technology?",
+          "Why is Roblox shutting down its video chat service?",
+          "What features can we expect from Google's Pixel 11?"
         ]
       },
-      "tweet_text": "Skullcandy's new Crusher headphones are turning heads with Bose's ANC—are you ready to feel the...\n\nTechnology Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#2in1 #8216deepfakes8217 #Airwaves #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Skullcandy teams up with Bose for the ultimate bass experience—get ready to redefine your sound!\n\nTechnology Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#2in1 #8216deepfakes8217 #Airwaves #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -607,80 +619,74 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "The American League secured a shutout victory over the National League in the All-Star Game, while France faced criticism after their World Cup semifinal loss to Spain.",
-        "summary": "In today's sports news, the American League triumphed over the National League in the All-Star Game, highlighted by a dominant pitching performance. Meanwhile, France's national soccer team faced backlash after their World Cup semifinal defeat to Spain, with Kylian Mbappé questioning the team's tactics. Other notable stories include the investigation into Kawhi Leonard, a record signing bonus for MLB's No. 1 draft pick, and ongoing discussions among NBA stars regarding team dynamics.",
+        "key_takeaway": "The American League dominated the All-Star Game with a 4-0 shutout, while France faced criticism after their World Cup semifinal loss to Spain.",
+        "summary": "In sports news, the American League triumphed over the National League in the All-Star Game, highlighted by a strong pitching performance. Meanwhile, France's national soccer team faced scrutiny after their defeat to Spain in the World Cup semifinals. Other notable stories include the investigation into Kawhi Leonard, a record signing bonus for MLB's No. 1 draft pick, and ongoing discussions among NBA stars.",
         "key_themes": [
-          "MLB All-Star Game recap",
+          "All-Star Game results",
           "Kawhi Leonard investigation update",
           "France World Cup semifinal analysis",
-          "record signing bonuses in MLB",
-          "NBA player communications",
-          "WNBA fan incident response"
+          "record MLB signing bonuses",
+          "NBA player communications"
         ],
         "notable_headlines": [
           {
             "headline": "The AL shuts out the NL to win the All-Star Game!",
-            "why_it_matters": "This victory showcases the strength of the American League's pitching staff and highlights the competitive nature of the All-Star Game.",
+            "why_it_matters": "The American League's victory showcases the strength of its players and sets a tone for the upcoming season.",
             "signal": "Opportunity"
           },
           {
             "headline": "Cease, 10 AL relievers silence NL in 15-K shutout",
-            "why_it_matters": "Dylan Cease's performance and the bullpen's dominance reflect the depth of talent in the American League.",
+            "why_it_matters": "This performance highlights the depth and talent of the American League's pitching staff.",
             "signal": "Opportunity"
           },
           {
             "headline": "Silver: Kawhi probe must end before season starts",
-            "why_it_matters": "The conclusion of the investigation into Kawhi Leonard is crucial for the NBA's upcoming season and team strategies.",
+            "why_it_matters": "The resolution of this investigation is crucial for the NBA and its teams moving forward.",
             "signal": "Unclear"
           },
           {
             "headline": "Mbappé critical of tactics in loss by 'sloppy' France",
-            "why_it_matters": "Mbappé's comments may indicate internal issues within the French team following their disappointing World Cup exit.",
+            "why_it_matters": "This criticism reflects internal team dynamics and could impact future strategies.",
             "signal": "Risk"
           },
           {
-            "headline": "Sources: Maxey-led 76ers trio has talked to LeBron...",
-            "why_it_matters": "This communication could signal potential shifts in team dynamics and player movements in the NBA.",
+            "headline": "Sources: No. 1 pick Cholowsky gets record bonus",
+            "why_it_matters": "The record bonus signifies the high expectations placed on young talent in MLB.",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Fan fired for alleged racist message to Aces' Gray...",
-            "why_it_matters": "This incident highlights ongoing issues of racism in sports and the importance of accountability.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Expect further analysis on the All-Star Game performances and implications for the MLB season.",
-            "Monitor updates on the Kawhi Leonard investigation as the NBA season approaches.",
-            "Watch for reactions from the French national team regarding their World Cup performance."
+            "Analysis of the All-Star Game performances will continue.",
+            "Expect updates on Kawhi Leonard's investigation status.",
+            "Further reactions from France's soccer team regarding their World Cup exit."
           ],
           "next_1_4_weeks": [
-            "Anticipate discussions on player trades and team strategies as NBA teams prepare for the upcoming season.",
-            "Expect coverage on the impact of the All-Star Game results on player morale and team dynamics.",
-            "Follow the developments in the WNBA regarding fan behavior and league responses."
+            "The MLB season will resume with teams adjusting strategies post-All-Star break.",
+            "NBA teams will prepare for the upcoming season amid ongoing investigations.",
+            "The impact of the World Cup results on national teams will be analyzed."
           ],
           "watch_list": [
-            "Kawhi Leonard investigation outcomes",
-            "MLB season performance trends",
-            "NBA offseason player movements",
-            "WNBA fan conduct policies"
+            "Upcoming MLB games and player performances post-All-Star break.",
+            "Kawhi Leonard's situation as the NBA season approaches.",
+            "Reactions from the soccer community regarding France's World Cup exit.",
+            "Future trades and signings in the NBA."
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The sentiment score indicates a neutral tone, suggesting mixed reactions to the events reported.",
-          "The outcomes of ongoing investigations and team dynamics are subject to change and may evolve rapidly."
+          "The sentiment score indicates a neutral tone across the headlines, suggesting mixed reactions to the events.",
+          "Ongoing investigations may lead to developments that could change current narratives."
         ],
         "related_topics": [
           "What were the highlights of the MLB All-Star Game?",
-          "How did France perform in the World Cup semifinal?",
-          "What is the latest on the Kawhi Leonard investigation?",
-          "What are the implications of the record signing bonus in MLB?",
-          "How are NBA players communicating during the offseason?"
+          "Analysis of France's World Cup semifinal loss to Spain",
+          "Updates on Kawhi Leonard's investigation status",
+          "Record bonuses in MLB draft history",
+          "NBA offseason player movements and communications"
         ]
       },
-      "tweet_text": "AL dominates NL in a 15-K shutout at the All-Star Game—how did the relievers pull off this epic win?\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #76ers #Aces #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "AL dominance reigns as they shut out the NL in a 15-K All-Star Game thriller!\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #76ers #Aces #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -691,11 +697,18 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.1923,
+        "score": 0.2494,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.321, dampened ×0.6 → +0.1923). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.416, dampened ×0.6 → +0.2494). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Quantum breakthrough links light and magnetism in atomically thin materials",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260715083523.htm",
+          "published": "Thu, 16 Jul 2026 00:16:48 EDT",
+          "summary": "A new review highlights exciting progress in atomically thin quantum materials where light and magnetism work together in ways never before possible. In these materials, light-generated excitons can interact directly with magnetic behavior, creating opportunities to control magnetic states using light alone. Scientists believe this could pave the way for advanced optical memory, quantum devices, and ultra-efficient photonic technologies.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Are humans really the ultimate super-predator?",
           "url": "https://www.sciencedaily.com/releases/2026/07/260714225540.htm",
@@ -772,110 +785,77 @@
           "published": "Mon, 13 Jul 2026 03:22:08 EDT",
           "summary": "Physicists from Heinrich Heine University Düsseldorf (HHU) have examined a fundamental property of quantum mechanics in collaboration with the German Aerospace Center (DLR). In the scientific journal Physical Review Letters, they show that this theory does not necessarily need to be formulated with imaginary numbers – real numbers can in fact also be used. The American Physical Society has also dedicated a “Highlight” to these findings in its Physics Magazine.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Yale scientists found a hidden network inside the eye",
-          "url": "https://www.sciencedaily.com/releases/2026/07/260713000804.htm",
-          "published": "Mon, 13 Jul 2026 21:15:50 EDT",
-          "summary": "Researchers have discovered that the retina uses an unexpected communication network that lets separate visual pathways cooperate instead of working alone. A newly identified \"commander\" cell appears to coordinate this system, helping the eye detect faint details that might otherwise be missed.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Recent scientific discoveries range from the potential of weight-loss drugs to influence aging to the unveiling of ancient texts in mummies.",
-        "summary": "Today's science headlines highlight significant discoveries, including the role of humans as predators, the identification of hidden white dwarf stars, and advancements in cancer research using geckos. Additionally, NASA's lunar missions and the implications of weight-loss drugs on aging are noteworthy. The findings from various studies provide insights into biology, astronomy, and archaeology, showcasing the diverse fields of scientific inquiry.",
+        "key_takeaway": "Recent scientific discoveries include breakthroughs in quantum materials, the identification of hidden white dwarf stars, and new insights into cancer and aging.",
+        "summary": "Today's science headlines highlight significant advancements in various fields, including quantum materials, astronomy, cancer research, and the implications of weight-loss drugs on biological aging. Notable findings include the discovery of hidden white dwarf stars near Earth, a gecko model for cancer studies, and the potential of popular weight-loss medications to slow aging. Additionally, NASA's lunar missions and archaeological discoveries add to the breadth of scientific exploration and understanding.",
         "key_themes": [
-          "human impact on wildlife",
-          "discovery of white dwarf stars",
-          "cancer research using geckos",
+          "quantum materials advancements",
+          "cancer research breakthroughs",
           "NASA lunar missions",
-          "ancient texts in archaeology",
-          "effects of weight-loss drugs on aging"
+          "aging and weight-loss drugs",
+          "archaeological discoveries in Egypt"
         ],
         "notable_headlines": [
           {
-            "headline": "Are humans really the ultimate super-predator?",
-            "why_it_matters": "This research challenges the perception of humans as uniform threats to wildlife, revealing nuanced animal responses.",
-            "signal": "Unclear"
+            "headline": "Quantum breakthrough links light and magnetism in atomically thin materials",
+            "why_it_matters": "This discovery could lead to advanced optical memory and quantum devices, enhancing technology.",
+            "signal": "Opportunity"
           },
           {
             "headline": "Astronomers just found four hidden white dwarf stars near Earth",
-            "why_it_matters": "The discovery enhances our understanding of stellar evolution and the composition of our galaxy.",
+            "why_it_matters": "The findings suggest our galaxy may contain many more undiscovered stellar remnants, expanding our understanding of stellar evolution.",
             "signal": "Opportunity"
           },
           {
             "headline": "This pet gecko could help scientists unlock the secrets of cancer",
-            "why_it_matters": "The gecko's tumors may provide new insights into cancer development and treatment.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists finally solved why some frogs survive a deadly fungus",
-            "why_it_matters": "Understanding frog immunity could lead to new antimicrobial treatments.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Archaeologists found Homer's Iliad inside a 1,600-year-old Egyptian mummy",
-            "why_it_matters": "This find connects ancient literature with mummification practices, enriching our understanding of history.",
+            "why_it_matters": "The gecko's tumor development parallels human cancers, providing a new model for studying cancer progression.",
             "signal": "Opportunity"
           },
           {
             "headline": "Popular weight-loss drugs Ozempic and Wegovy may slow biological aging",
-            "why_it_matters": "This research could have significant implications for aging and health management.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "NASA's Perseverance just completed a marathon on Mars",
-            "why_it_matters": "The rover's achievement highlights advancements in space exploration and technology.",
+            "why_it_matters": "This research offers the first clinical evidence that these medications could influence human aging processes.",
             "signal": "Opportunity"
           },
           {
             "headline": "NASA selects four new Moon missions to build a permanent lunar base",
-            "why_it_matters": "These missions are crucial for establishing a sustainable human presence on the Moon.",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Why have humans collected crystals for 780,000 years? Chimpanzees may hold the answer",
-            "why_it_matters": "This study provides insights into human behavior and its evolutionary roots.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "This dinosaur fossil captures the final moments of a T. rex attack",
-            "why_it_matters": "The fossil offers rare evidence of predator-prey interactions in prehistoric times.",
+            "why_it_matters": "These missions are crucial for establishing a sustainable human presence on the Moon, advancing space exploration.",
             "signal": "Opportunity"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Further analysis of the implications of the gecko cancer study is expected.",
-            "More details on NASA's lunar missions may be released.",
-            "Expect discussions on the impact of weight-loss drugs on aging in scientific circles."
+            "Further analysis of the implications of quantum materials on technology is expected.",
+            "Additional studies on the effects of weight-loss drugs on aging may be released.",
+            "New findings from NASA's lunar missions could be announced."
           ],
           "next_1_4_weeks": [
-            "Anticipate additional findings related to the immune responses of frogs against fungi.",
-            "Further exploration of the implications of the white dwarf star discovery is likely.",
-            "Research on the effects of semaglutide on aging will continue to develop."
+            "Anticipated results from larger studies on weight-loss drugs and aging.",
+            "Continued exploration of the implications of the gecko model for cancer research.",
+            "Potential discoveries related to the hidden white dwarf stars may emerge."
           ],
           "watch_list": [
-            "Monitor developments in the ongoing studies of cancer research using animal models.",
-            "Keep an eye on NASA's progress towards its lunar missions and technology advancements.",
-            "Watch for new archaeological findings related to ancient texts and practices.",
-            "Follow up on the implications of the human-wildlife interaction studies."
+            "Developments in quantum materials research",
+            "Updates on NASA's lunar mission plans",
+            "New insights from cancer research using the gecko model",
+            "Further studies on the impact of weight-loss drugs on aging"
           ],
           "confidence": "Medium"
         },
         "caveats": [
-          "The mixed sentiment score indicates a range of perspectives on the significance of these findings.",
-          "Some studies, particularly in drug efficacy, require further validation before drawing definitive conclusions."
+          "The long-term effects of weight-loss drugs on aging are still uncertain and require more research.",
+          "The implications of the quantum breakthrough are still in early stages and need further validation."
         ],
         "related_topics": [
-          "What are the latest discoveries in cancer research?",
+          "What are the latest advancements in quantum materials?",
           "How do weight-loss drugs affect biological aging?",
-          "What new findings have emerged from NASA's Mars missions?",
-          "What archaeological discoveries have been made recently?",
-          "How do humans impact wildlife behavior?"
+          "What new discoveries have been made in cancer research?",
+          "What are NASA's plans for lunar exploration?",
+          "What archaeological findings have been made recently?"
         ]
       },
-      "tweet_text": "Are humans really the ultimate super-predator, or are we just fooling ourselves? Discover the truth in...\n\nScience Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Found #Four #Scientists #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "A quantum leap reveals the hidden dance of light and magnetism in ultra-thin materials—science just...\n\nScience Sentiment: Mixed (+0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Found #Scientists #1600yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
