@@ -1,11 +1,11 @@
 {
   "date": "2026-07-17",
-  "generated_at_utc": "2026-07-17T15:07:39Z",
+  "generated_at_utc": "2026-07-17T23:58:44Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
-    "media",
+    "deadly",
     "china"
   ],
   "categories": {
@@ -18,16 +18,79 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1613,
+        "score": -0.246,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.269, dampened ×0.6 → -0.1613). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.410, dampened ×0.6 → -0.2460). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Iran accuses US of hitting civilian infrastructure",
+          "title": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
+          "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 23:15:10 GMT",
+          "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
           "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 14:32:07 GMT",
+          "published": "Fri, 17 Jul 2026 18:33:12 GMT",
           "summary": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 19:04:09 GMT",
+          "summary": "Protests erupted in Ukraine on Thursday after Mykhailo Fedorov's removal - and now soldiers are also criticising the move.",
+          "source": "BBC News"
+        },
+        {
+          "title": "White House defends Argentina team over Falklands banner",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rmjk0740o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 22:12:54 GMT",
+          "summary": "The comments could further fuel the row over the incident, which has seen Downing Street back calls for Fifa to investigate.",
+          "source": "BBC News"
+        },
+        {
+          "title": "One anti-war critic fined, another held as Russia clamps down on opponents",
+          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 20:00:54 GMT",
+          "summary": "While Boris Nadezhdin is barred from running for parliament, blogger Ilya Remeslo is remanded in custody.",
+          "source": "BBC News"
+        },
+        {
+          "title": "EU proposes slowing down cuts to carbon emissions for businesses",
+          "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 18:34:04 GMT",
+          "summary": "Under the proposals, the EU plans to relax its emissions trading system to give companies more time to reduce their carbon output.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
+          "url": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 18:12:54 GMT",
+          "summary": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Air conditioner sparked deadly blaze at children's orphanage - police",
+          "url": "https://www.bbc.co.uk/news/articles/c9d8ylw60e9o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 16:20:45 GMT",
+          "summary": "Eleven people, including children, died in the fire that also injured 19 others.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Second tanker in three months hijacked off Yemen by suspected Somali pirates",
+          "url": "https://www.bbc.co.uk/news/articles/c7vg6dml34vo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 17:01:16 GMT",
+          "summary": "There have also been several unsuccessful attacks in a region where piracy appears to be making a comeback.",
+          "source": "BBC News"
+        },
+        {
+          "title": "China hits out at British Steel nationalisation",
+          "url": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 17 Jul 2026 16:44:22 GMT",
+          "summary": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\".",
           "source": "BBC News"
         },
         {
@@ -38,125 +101,62 @@
           "source": "BBC News"
         },
         {
-          "title": "More than 500 Rohingya vanished at sea - what happened?",
-          "url": "https://www.bbc.co.uk/news/articles/cr59n096mrmo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 03:07:11 GMT",
-          "summary": "Two boats carrying an estimated 530 Rohingyas have disappeared since leaving Myanmar on 29 June.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Japan relaxes royal succession rules - but ban on female emperors remains",
-          "url": "https://www.bbc.co.uk/news/articles/cy07rz79zg9o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 05:16:34 GMT",
-          "summary": "The law now allows the adoption of male distant relatives aged over 15 back into the imperial family.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Philippines condemns monkey video on Chinese media as racist",
-          "url": "https://www.bbc.co.uk/news/articles/cj632307934o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 02:37:45 GMT",
-          "summary": "The AI video on China Daily showed a monkey in Philippine garments singing its claims to the South China Sea.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trump Media to sell instant access to 'market-moving' social posts",
-          "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 07:25:31 GMT",
-          "summary": "Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.",
-          "source": "BBC News"
-        },
-        {
           "title": "Uganda suspends school trips after 20 pupils die in bus crash",
           "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
           "published": "Fri, 17 Jul 2026 13:45:02 GMT",
           "summary": "Thousands are killed on Uganda's roads each year but this is one of its deadliest accidents involving children.",
           "source": "BBC News"
-        },
-        {
-          "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 02:15:23 GMT",
-          "summary": "Smoke from more than 800 blazes has filled major cities from Toronto and New York, to parts of the US Midwest and Great Lakes.",
-          "source": "BBC News"
-        },
-        {
-          "title": "China hits out at British Steel nationalisation",
-          "url": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 11:07:45 GMT",
-          "summary": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "Olympic cyclist admits to driving despite ban after crash that killed wife",
-          "url": "https://www.bbc.co.uk/news/articles/c62q3ywep1ro?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 05:09:14 GMT",
-          "summary": "Rohan Dennis pleaded guilty to driving while disqualified after police pulled him over last month.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Australia 'deeply frustrated' over Laos methanol poisoning charges",
-          "url": "https://www.bbc.co.uk/news/articles/cy5d4z343wlo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 17 Jul 2026 02:56:45 GMT",
-          "summary": "Media reports say Laos will press charges of up to one year in jail against those allegedly responsible.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Pele's 1958 World Cup final shirt sells for $4.9m",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cn8n7dejqy2o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 16 Jul 2026 20:42:30 GMT",
-          "summary": "A shirt worn by Pele during the 1958 World Cup final has sold for $4.9m (£3.6m) at a Sotheby's auction in New York.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Iran accuses US of hitting civilian infrastructure.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.161). Top story: Iran accuses US of hitting civilian infrastructure.",
+        "key_takeaway": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.246). Top story: Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities.",
         "key_themes": [
-          "Iran accuses US of hitting civilian infrastructure",
-          "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
-          "More than 500 Rohingya vanished at sea - what happened?",
-          "Japan relaxes royal succession rules - but ban on female emperors remains",
-          "Philippines condemns monkey video on Chinese media as racist"
+          "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
+          "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+          "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
+          "White House defends Argentina team over Falklands banner",
+          "One anti-war critic fined, another held as Russia clamps down on opponents"
         ],
         "notable_headlines": [
           {
-            "headline": "Iran accuses US of hitting civilian infrastructure",
+            "headline": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
+            "why_it_matters": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
             "why_it_matters": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\".",
             "signal": "Risk"
           },
           {
-            "headline": "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
-            "why_it_matters": "China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections.",
+            "headline": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
+            "why_it_matters": "Protests erupted in Ukraine on Thursday after Mykhailo Fedorov's removal - and now soldiers are also criticising the move.",
             "signal": "Risk"
           },
           {
-            "headline": "More than 500 Rohingya vanished at sea - what happened?",
-            "why_it_matters": "Two boats carrying an estimated 530 Rohingyas have disappeared since leaving Myanmar on 29 June.",
+            "headline": "White House defends Argentina team over Falklands banner",
+            "why_it_matters": "The comments could further fuel the row over the incident, which has seen Downing Street back calls for Fifa to investigate.",
             "signal": "Risk"
           },
           {
-            "headline": "Japan relaxes royal succession rules - but ban on female emperors remains",
-            "why_it_matters": "The law now allows the adoption of male distant relatives aged over 15 back into the imperial family.",
+            "headline": "One anti-war critic fined, another held as Russia clamps down on opponents",
+            "why_it_matters": "While Boris Nadezhdin is barred from running for parliament, blogger Ilya Remeslo is remanded in custody.",
             "signal": "Risk"
           },
           {
-            "headline": "Philippines condemns monkey video on Chinese media as racist",
-            "why_it_matters": "The AI video on China Daily showed a monkey in Philippine garments singing its claims to the South China Sea.",
+            "headline": "EU proposes slowing down cuts to carbon emissions for businesses",
+            "why_it_matters": "Under the proposals, the EU plans to relax its emissions trading system to give companies more time to reduce their carbon output.",
             "signal": "Risk"
           },
           {
-            "headline": "Trump Media to sell instant access to 'market-moving' social posts",
-            "why_it_matters": "Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.",
+            "headline": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
+            "why_it_matters": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
             "signal": "Risk"
           },
           {
-            "headline": "Uganda suspends school trips after 20 pupils die in bus crash",
-            "why_it_matters": "Thousands are killed on Uganda's roads each year but this is one of its deadliest accidents involving children.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-            "why_it_matters": "Smoke from more than 800 blazes has filled major cities from Toronto and New York, to parts of the US Midwest and Great Lakes.",
+            "headline": "Air conditioner sparked deadly blaze at children's orphanage - police",
+            "why_it_matters": "Eleven people, including children, died in the fire that also injured 19 others.",
             "signal": "Risk"
           }
         ],
@@ -172,10 +172,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Iran accuses US of hitting civilian infrastructure",
-            "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
-            "More than 500 Rohingya vanished at sea - what happened?",
-            "Japan relaxes royal succession rules - but ban on female emperors remains"
+            "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
+            "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+            "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
+            "White House defends Argentina team over Falklands banner"
           ],
           "confidence": "Medium"
         },
@@ -186,11 +186,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary iran",
+          "latest news summary trump",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Iran accuses US of hitting civilian infrastructure\n\nWorld Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Media #Trump #2020 #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities\n\nWorld Sentiment: Mixed (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Down #Strikes #Another #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -384,131 +384,131 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1002,
+        "score": 0.1077,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.167, dampened ×0.6 → +0.1002). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.180, dampened ×0.6 → +0.1077). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
-          "url": "https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall",
-          "published": "2026-07-17T10:05:29-04:00",
-          "summary": "Greenworks Tools has issued a recall for around 554,780 Kobalt-branded power tools designed for yard work because of a battery issue \"posing a risk of serious injury from fire hazard.\" There have been 34 reports of the tool's batteries \"producing smoke, sparking or catching fire while the batteries are inserted in the tool and charging [&#8230;]",
+          "title": "Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak",
+          "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce",
+          "published": "2026-07-17T18:09:47-04:00",
+          "summary": "Food producer Taylor Farms released a statement on the Cyclospora outbreak Friday, confirming that it's \"voluntarily removing all iceberg lettuce sourced from central Mexico from the US market.\" Reuters reports that, according to a source, Taylor Farms told customers like Yum Brands owner Taco Bell and the food distributor Sysco on Thursday to pull shredded [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Bethesda teases Fallout 5 soon after Xbox’s mass layoffs",
-          "url": "https://www.theverge.com/entertainment/966724/fallout-5-bethesda",
-          "published": "2026-07-17T10:00:37-04:00",
-          "summary": "Xbox is currently in a \"reset\" period that includes laying off around 3,200 employees over the next year, involving deep cuts at beloved studios like id Software and Obsidian Entertainment. Now, in an attempt to show that things are still running fine, the company has announced a slate of upcoming projects at Bethesda Game Studios [&#8230;]",
+          "title": "Shark&#8217;s versatile ChillPill cooling system is back to its best price",
+          "url": "https://www.theverge.com/gadgets/967512/shark-chillpill-personal-fan-and-cooling-system-deal-sale",
+          "published": "2026-07-17T16:15:54-04:00",
+          "summary": "Portable fans are one of the easiest ways to stay cool during the summer, and you don&#8217;t have to spend much to find a decent one. If you&#8217;re looking for something more versatile, though, Shark&#8217;s ChillPill Personal Fan and Cooling System combines a rechargeable fan with a dry-touch evaporative mister in a design that can [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The manosphere&#8217;s testosterone fever is coming for the troops",
-          "url": "https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops",
-          "published": "2026-07-17T10:00:00-04:00",
-          "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. I was in the middle of writing a different Optimizer column this week when I learned that Pete Hegseth is [&#8230;]",
+          "title": "TikTok is testing an AI likeness detection tool",
+          "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+          "published": "2026-07-17T15:34:30-04:00",
+          "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been working on a similar tool [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM",
-          "url": "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review",
-          "published": "2026-07-17T09:30:00-04:00",
-          "summary": "Last year, Microsoft's 13-inch Surface Laptop quickly became one of my favorite thin-and-light Windows notebooks. At $900, it was easy to recommend to anyone wanting MacBook Air-like build quality and battery life on Windows - I even convinced my sister to buy one on sale. But that was last year. This year, thanks to RAMageddon, [&#8230;]",
+          "title": "Pebble founder Eric Migicovsky says his 30-day warranty is all about trust",
+          "url": "https://www.theverge.com/gadgets/967471/pebble-smartwatch-warranty-repairs-migicovsky-interview",
+          "published": "2026-07-17T15:14:42-04:00",
+          "summary": "Pebble founder Eric Migicovsky says buyers of its new e-paper smartwatches should know what they're signing up for and trust Pebble to make things right if they run into issues, despite the short warranty. \"I think the most important thing is trust,\" Migicovsky told me in an interview this week. \"Do people trust the product [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Trump is selling high-speed access to his market-moving Truth Social posts",
-          "url": "https://www.theverge.com/policy/967020/trump-truth-social-api-wall-street-traders",
-          "published": "2026-07-17T08:49:57-04:00",
-          "summary": "Trump Media, the company behind Truth Social, is selling Wall Street faster access to the \"most market-moving\" posts on the US President's social media platform. On Thursday, Trump Media announced plans to launch \"Truth API,\" a licensed real time data feed for businesses that provides \"the fastest access to Truth Social's most influential accounts.\" It [&#8230;]",
+          "title": "Apple Music is getting a price hike",
+          "url": "https://www.theverge.com/tech/967379/apple-music-price-increase",
+          "published": "2026-07-17T14:14:26-04:00",
+          "summary": "Apple Music is more expensive now. In the US, an individual plan now costs $11.99 per month, a $1 bump up from the previous $10.99 price. A family plan now costs $19.99 per month, up from $16.99, and a student plan costs $6.99 per month, up from $5.99. Apple, in a statement to Music Business [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The war on ‘woke science’ comes for space research",
-          "url": "https://www.theverge.com/science/966711/omb-grant-science-space-nasa-planetary-society",
-          "published": "2026-07-17T07:00:00-04:00",
-          "summary": "The Trump administration is waging a culture war on science, and the latest salvo is in the form of a dry, bureaucratic proposal from the Office of Management and Budget (OMB) that could threaten the future of US science as we know it. The proposal would give political appointees unprecedented control over grant funding, the [&#8230;]",
+          "title": "Apple’s plot to crush OpenAI",
+          "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+          "published": "2026-07-17T13:41:32-04:00",
+          "summary": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "God Of War TV series is recasting Kratos",
-          "url": "https://www.theverge.com/entertainment/966995/god-of-war-amazon-prime-video-kratos-ryan-hurst-recast",
-          "published": "2026-07-17T06:14:04-04:00",
-          "summary": "Amazon's upcoming God Of War show has hit a major snag - it's now on the hunt for a new Kratos, after an on-set injury put its current lead actor out of commission. Sons of Anarchy star Ryan Hurst was originally cast for the role in January, with Deadline reporting that four episodes of the [&#8230;]",
+          "title": "Asus’ top-end 4K QD-OLED gaming monitor is $400 off",
+          "url": "https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale",
+          "published": "2026-07-17T12:47:13-04:00",
+          "summary": "The Asus ROG Swift 32-inch 4K QD-OLED gaming monitor has almost everything I want in a high-end gaming monitor, most notably a QD-OLED panel for inky black levels and vivid colors that go beyond what’s possible on an LCD screen. Amazon, Best Buy, and B&#38;H Photo have this model on sale for $899.99 (usually $1,299.99). [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
-          "url": "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
-          "published": "2026-07-16T17:30:35-04:00",
-          "summary": "Get ready for more AI characters in Fortnite. Developer Epic Games is going to let Fortnite creators publish experiences featuring characters with AI-powered voices starting on July 30th, and ahead of that launch, it's created 36 characters with \"consistent voices and personas\" that creators can use as NPCs. The characters include Fortnite staples like Agent [&#8230;]",
+          "title": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked",
+          "url": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
+          "published": "2026-07-17T11:52:50-04:00",
+          "summary": "Leaker Evan Blass shared images of Samsung's redesigned Galaxy Z Fold 8 just days before the July 22nd launch event where Samsung is expected to officially announce the phone. The leaked images show a shorter, wider foldable matching earlier leaks of the Z Fold 8. They also reveal some of its specs, including a Qualcomm [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
-          "url": "https://www.theverge.com/gadgets/966613/samsung-the-frame-art-tv-deal-sale",
-          "published": "2026-07-16T16:47:30-04:00",
-          "summary": "Samsung’s Frame is different from your average 4K TV. Its biggest selling point involves what it does when you aren’t actively using it. It can display art, turning your living room into a gallery. The Frame has bezels that make it look like — you guessed it — framed art, and its matte finish can [&#8230;]",
+          "title": "Is America ready for this quirky Jeep-looking EV that can park itself?",
+          "url": "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price",
+          "published": "2026-07-17T11:48:39-04:00",
+          "summary": "Are we living through a small car renaissance? There's the Slate Truck, Amble's dune buggy, and the Fiat Topolino, as well as a whole galaxy of kei cars and trucks from Japan that have their own built-in fan base. While microcar sales in the US are still as tiny as the vehicles themselves, there are [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Netflix says around 300 titles used generative AI",
-          "url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
-          "published": "2026-07-16T16:29:27-04:00",
-          "summary": "Netflix says roughly 300 titles on its platform used generative AI, most of which occurred in post-production. The streaming service revealed the news in its second-quarter earnings report released on Thursday, saying it's \"increasingly leveraging these tools to deliver higher quality output more quickly and at a lower cost.\" It also provided some examples of [&#8230;]",
+          "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
+          "url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
+          "published": "2026-07-17T11:34:35-04:00",
+          "summary": "Federal authorities have arrested a Florida man suspected of stealing at least $220,000 in crypto through malware-infected Steam games, as reported earlier by local news outlet Local10. In the complaint, officials accuse 21-year-old Zyaire Wilkins and co-conspirators of launching eight malware-embedded games from around May 2024 to February 2026, allowing them to infect about 8,000 [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.100). Top story: Over half a million power tool batteries have been recalled due to a USB-C charging fire risk.",
+        "key_takeaway": "Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.108). Top story: Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak.",
         "key_themes": [
-          "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
-          "Bethesda teases Fallout 5 soon after Xbox’s mass layoffs",
-          "The manosphere&#8217;s testosterone fever is coming for the troops",
-          "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM",
-          "Trump is selling high-speed access to his market-moving Truth Social posts"
+          "Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak",
+          "Shark&#8217;s versatile ChillPill cooling system is back to its best price",
+          "TikTok is testing an AI likeness detection tool",
+          "Pebble founder Eric Migicovsky says his 30-day warranty is all about trust",
+          "Apple Music is getting a price hike"
         ],
         "notable_headlines": [
           {
-            "headline": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
-            "why_it_matters": "Greenworks Tools has issued a recall for around 554,780 Kobalt-branded power tools designed for yard work because of a battery issue \"posing a risk of serious injury from fire hazard.\" There have been 34 reports of the t…",
+            "headline": "Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak",
+            "why_it_matters": "Food producer Taylor Farms released a statement on the Cyclospora outbreak Friday, confirming that it's \"voluntarily removing all iceberg lettuce sourced from central Mexico from the US market.\" Reuters reports that, acc…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Bethesda teases Fallout 5 soon after Xbox’s mass layoffs",
-            "why_it_matters": "Xbox is currently in a \"reset\" period that includes laying off around 3,200 employees over the next year, involving deep cuts at beloved studios like id Software and Obsidian Entertainment. Now, in an attempt to show tha…",
+            "headline": "Shark&#8217;s versatile ChillPill cooling system is back to its best price",
+            "why_it_matters": "Portable fans are one of the easiest ways to stay cool during the summer, and you don&#8217;t have to spend much to find a decent one. If you&#8217;re looking for something more versatile, though, Shark&#8217;s ChillPill…",
             "signal": "Opportunity"
           },
           {
-            "headline": "The manosphere&#8217;s testosterone fever is coming for the troops",
-            "why_it_matters": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. I wa…",
+            "headline": "TikTok is testing an AI likeness detection tool",
+            "why_it_matters": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US c…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM",
-            "why_it_matters": "Last year, Microsoft's 13-inch Surface Laptop quickly became one of my favorite thin-and-light Windows notebooks. At $900, it was easy to recommend to anyone wanting MacBook Air-like build quality and battery life on Win…",
+            "headline": "Pebble founder Eric Migicovsky says his 30-day warranty is all about trust",
+            "why_it_matters": "Pebble founder Eric Migicovsky says buyers of its new e-paper smartwatches should know what they're signing up for and trust Pebble to make things right if they run into issues, despite the short warranty. \"I think the m…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Trump is selling high-speed access to his market-moving Truth Social posts",
-            "why_it_matters": "Trump Media, the company behind Truth Social, is selling Wall Street faster access to the \"most market-moving\" posts on the US President's social media platform. On Thursday, Trump Media announced plans to launch \"Truth …",
+            "headline": "Apple Music is getting a price hike",
+            "why_it_matters": "Apple Music is more expensive now. In the US, an individual plan now costs $11.99 per month, a $1 bump up from the previous $10.99 price. A family plan now costs $19.99 per month, up from $16.99, and a student plan costs…",
             "signal": "Opportunity"
           },
           {
-            "headline": "The war on ‘woke science’ comes for space research",
-            "why_it_matters": "The Trump administration is waging a culture war on science, and the latest salvo is in the form of a dry, bureaucratic proposal from the Office of Management and Budget (OMB) that could threaten the future of US science…",
+            "headline": "Apple’s plot to crush OpenAI",
+            "why_it_matters": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, a…",
             "signal": "Opportunity"
           },
           {
-            "headline": "God Of War TV series is recasting Kratos",
-            "why_it_matters": "Amazon's upcoming God Of War show has hit a major snag - it's now on the hunt for a new Kratos, after an on-set injury put its current lead actor out of commission. Sons of Anarchy star Ryan Hurst was originally cast for…",
+            "headline": "Asus’ top-end 4K QD-OLED gaming monitor is $400 off",
+            "why_it_matters": "The Asus ROG Swift 32-inch 4K QD-OLED gaming monitor has almost everything I want in a high-end gaming monitor, most notably a QD-OLED panel for inky black levels and vivid colors that go beyond what’s possible on an LCD…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Fortnite is getting a bunch of AI-powered ‘personas’",
-            "why_it_matters": "Get ready for more AI characters in Fortnite. Developer Epic Games is going to let Fortnite creators publish experiences featuring characters with AI-powered voices starting on July 30th, and ahead of that launch, it's c…",
+            "headline": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked",
+            "why_it_matters": "Leaker Evan Blass shared images of Samsung's redesigned Galaxy Z Fold 8 just days before the July 22nd launch event where Samsung is expected to officially announce the phone. The leaked images show a shorter, wider fold…",
             "signal": "Opportunity"
           }
         ],
@@ -524,10 +524,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
-            "Bethesda teases Fallout 5 soon after Xbox’s mass layoffs",
-            "The manosphere&#8217;s testosterone fever is coming for the troops",
-            "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM"
+            "Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak",
+            "Shark&#8217;s versatile ChillPill cooling system is back to its best price",
+            "TikTok is testing an AI likeness detection tool",
+            "Pebble founder Eric Migicovsky says his 30-day warranty is all about trust"
           ],
           "confidence": "Medium"
         },
@@ -538,11 +538,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary over",
+          "latest news summary taylor",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Over half a million power tool batteries have been recalled due to a USB-C charging fire risk\n\nTechnology Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Access #Aipowered #Batteries #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak\n\nTechnology Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Price #30day #Apple #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
