@@ -1,10 +1,9 @@
 {
   "date": "2026-07-22",
-  "generated_at_utc": "2026-07-23T00:09:33Z",
+  "generated_at_utc": "2026-07-23T05:46:28Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump",
     "apple"
   ],
   "categories": {
@@ -17,23 +16,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2337,
+        "score": -0.2183,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.389, dampened ×0.6 → -0.2337). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.364, dampened ×0.6 → -0.2183). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "US signs landmark nuclear deal with Saudi Arabia",
           "url": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 23 Jul 2026 00:05:12 GMT",
+          "published": "Thu, 23 Jul 2026 00:21:53 GMT",
           "summary": "The US Department of Energy says the \"peaceful\" co-operation agreement will give US firms \"great access\" to the Saudi nuclear energy programme.",
           "source": "BBC News"
         },
         {
-          "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-          "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 22 Jul 2026 22:17:54 GMT",
-          "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
+          "title": "Houthis claim attack on oil tankers as US launches more strikes on Iran",
+          "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 23 Jul 2026 03:48:27 GMT",
+          "summary": "The Houthi attacks would be the first in the Red Sea since the Iran-backed group announced a \"maritime embargo\" against Saudi Arabia.",
           "source": "BBC News"
         },
         {
@@ -65,6 +64,20 @@
           "source": "BBC News"
         },
         {
+          "title": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
+          "url": "https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 23 Jul 2026 00:15:12 GMT",
+          "summary": "Canada's dairy supply management system is in the spotlight after the US president singled it out as one of three main irritants used to justify new tariffs.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Google burning through cash with spiralling AI costs",
+          "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 22 Jul 2026 23:02:32 GMT",
+          "summary": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
+          "source": "BBC News"
+        },
+        {
           "title": "Wreckage of Pan Am plane that shaped aviation safety found 74 years on",
           "url": "https://www.bbc.co.uk/news/articles/cdrvyllxj71o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 22 Jul 2026 15:50:17 GMT",
@@ -91,28 +104,14 @@
           "published": "Wed, 22 Jul 2026 19:03:08 GMT",
           "summary": "Karen Carter was found with stab wounds in the Dordogne village she had lived in for over a decade.",
           "source": "BBC News"
-        },
-        {
-          "title": "Modelling scout linked to Epstein found dead in Paris",
-          "url": "https://www.bbc.co.uk/news/articles/cp8en38vpd3o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 22 Jul 2026 18:21:55 GMT",
-          "summary": "Daniel Siad, whose name appears in the Epstein files thousands of times, denied knowledge of the threat Jeffrey Epstein posed.",
-          "source": "BBC News"
-        },
-        {
-          "title": "India's Modi government under growing pressure as 'cockroach' protests intensify",
-          "url": "https://www.bbc.co.uk/news/articles/c9d8p88lyjdo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 22 Jul 2026 08:02:04 GMT",
-          "summary": "The CJP got a boost on Tuesday when the opposition Congress party demonstrated outside the PM's house.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
         "key_takeaway": "US signs landmark nuclear deal with Saudi Arabia.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.234). Top story: US signs landmark nuclear deal with Saudi Arabia.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.218). Top story: US signs landmark nuclear deal with Saudi Arabia.",
         "key_themes": [
           "US signs landmark nuclear deal with Saudi Arabia",
-          "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+          "Houthis claim attack on oil tankers as US launches more strikes on Iran",
           "Tankers make sharp U-turns after Houthi shipping threat",
           "Russia's businesses under strain from Ukraine's attacks on Wildberries",
           "Fire kills 10 members of same family in Peru, police say"
@@ -124,8 +123,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-            "why_it_matters": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
+            "headline": "Houthis claim attack on oil tankers as US launches more strikes on Iran",
+            "why_it_matters": "The Houthi attacks would be the first in the Red Sea since the Iran-backed group announced a \"maritime embargo\" against Saudi Arabia.",
             "signal": "Risk"
           },
           {
@@ -149,13 +148,13 @@
             "signal": "Risk"
           },
           {
-            "headline": "Wreckage of Pan Am plane that shaped aviation safety found 74 years on",
-            "why_it_matters": "The deaths of 52 people on the Clipper Endeavor led to the introduction of mandatory pre-flight safety briefings.",
+            "headline": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
+            "why_it_matters": "Canada's dairy supply management system is in the spotlight after the US president singled it out as one of three main irritants used to justify new tariffs.",
             "signal": "Risk"
           },
           {
-            "headline": "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
-            "why_it_matters": "The New York City mayor instead called on US authorities to act on International Criminal Court's arrest warrant against the Israeli prime minister.",
+            "headline": "Google burning through cash with spiralling AI costs",
+            "why_it_matters": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
             "signal": "Risk"
           }
         ],
@@ -172,7 +171,7 @@
           ],
           "watch_list": [
             "US signs landmark nuclear deal with Saudi Arabia",
-            "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
+            "Houthis claim attack on oil tankers as US launches more strikes on Iran",
             "Tankers make sharp U-turns after Houthi shipping threat",
             "Russia's businesses under strain from Ukraine's attacks on Wildberries"
           ],
@@ -189,7 +188,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: US signs landmark nuclear deal with Saudi Arabia\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Attacks #Accusing #Arabia #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: US signs landmark nuclear deal with Saudi Arabia\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Tankers #Accusing #Arabia #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -383,11 +382,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1056,
+        "score": 0.1268,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.176, dampened ×0.6 → +0.1056). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.211, dampened ×0.6 → +0.1268). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
+          "url": "https://www.theverge.com/gadgets/969668/lego-donkey-kong-arcade-machine",
+          "published": "2026-07-22T20:30:00-04:00",
+          "summary": "Carl Merriam has designed some of my favorite nostalgia-inducing Lego sets, including the Lego Nintendo Game Boy and Piranha Plant. He's assisted on the incredible Lion Knights' Castle, Galaxy Explorer, and Pirates of Barracuda Bay. Now, he's helped the company create a $200 Donkey Kong arcade machine set that managed to win even Mario creator [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Meta won’t have to face the next planned social media addiction trial",
           "url": "https://www.theverge.com/policy/969644/meta-social-media-addiction-trial-dropped",
@@ -450,26 +456,24 @@
           "published": "2026-07-22T11:09:44-04:00",
           "summary": "The latest addition to Philips' Sonicare line of smart electric toothbrushes could take the guesswork out of your brushing routine. The Next-Generation DiamondClean 9900 Prestige uses a third-generation AI model to provide real-time feedback on how you're brushing through a glowing ring on its base, while a touchscreen highlights areas of your mouth that may [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Microsoft is bringing original Xbox games to PC",
-          "url": "https://www.theverge.com/news/969117/microsoft-xbox-games-pc-backward-compatibility",
-          "published": "2026-07-22T11:00:00-04:00",
-          "summary": "Microsoft is expanding its Xbox backward compatibility efforts today by bringing original Xbox games to PC. An early preview release will see four classic Xbox games available on PC today, as part of a bigger effort to bring more Xbox console games to PC in the future. The first four games are Blinx: The Time [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Meta won’t have to face the next planned social media addiction trial.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.106). Top story: Meta won’t have to face the next planned social media addiction trial.",
+        "key_takeaway": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.127). Top story: Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy.",
         "key_themes": [
+          "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
           "Meta won’t have to face the next planned social media addiction trial",
           "Tesla’s revenues are bouncing back, but profits are still weak",
           "Price-hiked iPads are a little cheaper right now",
-          "iOS code could reportedly let Apple cut off apps when users miss iPhone payments",
-          "Apple is reportedly testing a MacBook Neo with more RAM"
+          "iOS code could reportedly let Apple cut off apps when users miss iPhone payments"
         ],
         "notable_headlines": [
+          {
+            "headline": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
+            "why_it_matters": "Carl Merriam has designed some of my favorite nostalgia-inducing Lego sets, including the Lego Nintendo Game Boy and Piranha Plant. He's assisted on the incredible Lion Knights' Castle, Galaxy Explorer, and Pirates of Ba…",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Meta won’t have to face the next planned social media addiction trial",
             "why_it_matters": "Less than a week before Meta's lawyers were set to return to a Los Angeles courtroom, the plaintiff accusing the platform of inflicting harm dropped the case. Brought by 15-year-old Florida plaintiff going by initials R.…",
@@ -504,11 +508,6 @@
             "headline": "How the Galaxy Z Fold 8 and Z Flip 8 phones compare",
             "why_it_matters": "Samsung's latest round of folding Galaxy Z phones and updated smartwatches were announced at its July 2026 Unpacked event and are set to launch on August 7th. The Galaxy Z Flip 8, Fold 8, and Fold 8 Ultra don't seem gear…",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Preorders for Samsung’s new Z Fold and Flip 8 come with up to $350 in gift cards",
-            "why_it_matters": "Samsung's newest foldables are here. At Galaxy Unpacked, the company announced the Galaxy Z Flip 8, Galaxy Z Fold 8, and Galaxy Z Fold 8 Ultra. All three devices will be available on August 7th, but you can preorder them…",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -523,10 +522,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
             "Meta won’t have to face the next planned social media addiction trial",
             "Tesla’s revenues are bouncing back, but profits are still weak",
-            "Price-hiked iPads are a little cheaper right now",
-            "iOS code could reportedly let Apple cut off apps when users miss iPhone payments"
+            "Price-hiked iPads are a little cheaper right now"
           ],
           "confidence": "Medium"
         },
@@ -537,11 +536,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary meta",
+          "latest news summary lego’s",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Meta won’t have to face the next planned social media addiction trial\n\nTechnology Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Flip #Fold #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly...\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Reportedly #Apple #Actually #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
