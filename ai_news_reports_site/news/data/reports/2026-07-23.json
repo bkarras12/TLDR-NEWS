@@ -1,10 +1,11 @@
 {
   "date": "2026-07-23",
-  "generated_at_utc": "2026-07-24T00:07:12Z",
+  "generated_at_utc": "2026-07-24T05:42:30Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump"
+    "trump",
+    "trade"
   ],
   "categories": {
     "world": {
@@ -16,16 +17,30 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2649,
+        "score": -0.2509,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.441, dampened ×0.6 → -0.2649). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.418, dampened ×0.6 → -0.2509). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "US imposes tariffs on dozens of trade partners, citing forced labour concerns",
+          "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 24 Jul 2026 04:27:15 GMT",
+          "summary": "The tariffs target 60 trading partners over claims they failed to properly stop forced labour.",
+          "source": "BBC News"
+        },
         {
           "title": "Oil prices hit $100 for the first time since May",
           "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 23 Jul 2026 15:31:00 GMT",
           "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Indonesian babies were trafficked to Singapore. What happens to them now?",
+          "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 23 Jul 2026 23:19:58 GMT",
+          "summary": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.",
           "source": "BBC News"
         },
         {
@@ -54,13 +69,6 @@
           "url": "https://www.bbc.co.uk/news/articles/ce97nm53pgxo?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 23 Jul 2026 17:37:59 GMT",
           "summary": "Mykhailo Fedorov refuses President Zelensky's offer to accept an alternative post, as the battle of wills continues.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
-          "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 23 Jul 2026 16:50:59 GMT",
-          "summary": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
           "source": "BBC News"
         },
         {
@@ -97,29 +105,32 @@
           "published": "Thu, 23 Jul 2026 05:46:09 GMT",
           "summary": "The killing of a dog and her puppies in Guangdong has sparked outrage inside and outside the country.",
           "source": "BBC News"
-        },
-        {
-          "title": "South Korea woman acquitted of murdering newborn after hospital delivery",
-          "url": "https://www.bbc.co.uk/news/articles/cwyrj7ww1gko?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 23 Jul 2026 10:04:56 GMT",
-          "summary": "The woman, who had wanted to end her pregnancy at 36 weeks, gave birth to a baby who doctors later killed.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Oil prices hit $100 for the first time since May.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.265). Top story: Oil prices hit $100 for the first time since May.",
+        "key_takeaway": "US imposes tariffs on dozens of trade partners, citing forced labour concerns.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.251). Top story: US imposes tariffs on dozens of trade partners, citing forced labour concerns.",
         "key_themes": [
+          "US imposes tariffs on dozens of trade partners, citing forced labour concerns",
           "Oil prices hit $100 for the first time since May",
+          "Indonesian babies were trafficked to Singapore. What happens to them now?",
           "Saudis must recognise Israel for nuclear deal, says Trump",
-          "France evacuates 20,000 as wildfires spread in south-west",
-          "India activist ends hunger strike after 26 days",
-          "Ukraine's ousted defence minister insists on being reinstated"
+          "France evacuates 20,000 as wildfires spread in south-west"
         ],
         "notable_headlines": [
           {
+            "headline": "US imposes tariffs on dozens of trade partners, citing forced labour concerns",
+            "why_it_matters": "The tariffs target 60 trading partners over claims they failed to properly stop forced labour.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Oil prices hit $100 for the first time since May",
             "why_it_matters": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Indonesian babies were trafficked to Singapore. What happens to them now?",
+            "why_it_matters": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.",
             "signal": "Risk"
           },
           {
@@ -143,18 +154,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
-            "why_it_matters": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Teen jailed for exam cheating in Guinea dies after sickle cell complications, father says",
             "why_it_matters": "Mamadou Djouma Bah, 17, was arrested and sentenced to prison for exam fraud earlier this month.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "'Let's enjoy the ride' says Elon Musk, as AI fears mount",
-            "why_it_matters": "Talking to The Economist, Musk said he doesn't care if people hate him and said he was not a racist.",
             "signal": "Risk"
           }
         ],
@@ -170,10 +171,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "US imposes tariffs on dozens of trade partners, citing forced labour concerns",
             "Oil prices hit $100 for the first time since May",
-            "Saudis must recognise Israel for nuclear deal, says Trump",
-            "France evacuates 20,000 as wildfires spread in south-west",
-            "India activist ends hunger strike after 26 days"
+            "Indonesian babies were trafficked to Singapore. What happens to them now?",
+            "Saudis must recognise Israel for nuclear deal, says Trump"
           ],
           "confidence": "Medium"
         },
@@ -184,11 +185,11 @@
         ],
         "related_topics": [
           "today's negative news headlines",
-          "latest news summary oil",
+          "latest news summary us",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Oil prices hit $100 for the first time since May\n\nWorld Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#20000 #Activist #Attack #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: US imposes tariffs on dozens of trade partners, citing forced labour concerns\n\nWorld Sentiment: Negative (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#20000 #Activist #Babies #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
