@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "generated_at_utc": "2026-07-26T14:57:39Z",
+  "generated_at_utc": "2026-07-27T00:08:09Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -17,29 +17,43 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2603,
+        "score": -0.2983,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.434, dampened ×0.6 → -0.2603). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.497, dampened ×0.6 → -0.2983). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Berlin Pride attack suspect shot and killed during police operation",
+          "url": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 26 Jul 2026 19:21:26 GMT",
+          "summary": "Police say Abdul Ballout was shot and killed after he rushed at officers with a knife in a western borough of Berlin.",
+          "source": "BBC News"
+        },
+        {
           "title": "What we know so far about the Berlin Pride ramming attack",
           "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 26 Jul 2026 13:40:29 GMT",
-          "summary": "A police manhunt is under way after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.",
+          "published": "Sun, 26 Jul 2026 20:34:23 GMT",
+          "summary": "German Chancellor Friedrich Merz condemns the attack as \"heinous\" after a suspect drove a car into a crowd near the Tiergarten park.",
           "source": "BBC News"
         },
         {
           "title": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
           "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 26 Jul 2026 10:26:05 GMT",
-          "summary": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead.",
+          "published": "Sun, 26 Jul 2026 21:23:53 GMT",
+          "summary": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tal, which left four Palestinians and two Israelis dead.",
+          "source": "BBC News"
+        },
+        {
+          "title": "PM pledges continued support for Ukraine ahead of Zelensky visit",
+          "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 26 Jul 2026 21:30:20 GMT",
+          "summary": "The Ukrainian president will be Andy Burnham's first international visitor since taking office.",
           "source": "BBC News"
         },
         {
           "title": "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
           "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 26 Jul 2026 11:29:07 GMT",
+          "published": "Sun, 26 Jul 2026 18:40:08 GMT",
           "summary": "More than 330,000 people have now been evacuated from wildfires across France and Spain.",
           "source": "BBC News"
         },
@@ -91,41 +105,37 @@
           "published": "Fri, 24 Jul 2026 21:02:30 GMT",
           "summary": "Karim Khan denies allegations of engaging in an improper sexual relationship with a junior ICC staff member and seeking to stop her pursuing her complaint.",
           "source": "BBC News"
-        },
-        {
-          "title": "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
-          "url": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 25 Jul 2026 02:14:50 GMT",
-          "summary": "Prosecutors allege D4vd started abusing the girl when she was 13 and she had threatened to expose him.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trump vows to investigate EU over fining of US tech companies",
-          "url": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 24 Jul 2026 20:23:58 GMT",
-          "summary": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "What we know so far about the Berlin Pride ramming attack.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.260). Top story: What we know so far about the Berlin Pride ramming attack.",
+        "key_takeaway": "Berlin Pride attack suspect shot and killed during police operation.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.298). Top story: Berlin Pride attack suspect shot and killed during police operation.",
         "key_themes": [
+          "Berlin Pride attack suspect shot and killed during police operation",
           "What we know so far about the Berlin Pride ramming attack",
           "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
-          "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
-          "Trump takes swipes at press during White House Correspondents' Dinner",
-          "India's 'cockroach' protest called off after education minister quits"
+          "PM pledges continued support for Ukraine ahead of Zelensky visit",
+          "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux"
         ],
         "notable_headlines": [
           {
+            "headline": "Berlin Pride attack suspect shot and killed during police operation",
+            "why_it_matters": "Police say Abdul Ballout was shot and killed after he rushed at officers with a knife in a western borough of Berlin.",
+            "signal": "Risk"
+          },
+          {
             "headline": "What we know so far about the Berlin Pride ramming attack",
-            "why_it_matters": "A police manhunt is under way after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.",
+            "why_it_matters": "German Chancellor Friedrich Merz condemns the attack as \"heinous\" after a suspect drove a car into a crowd near the Tiergarten park.",
             "signal": "Risk"
           },
           {
             "headline": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
-            "why_it_matters": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead.",
+            "why_it_matters": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tal, which left four Palestinians and two Israelis dead.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "PM pledges continued support for Ukraine ahead of Zelensky visit",
+            "why_it_matters": "The Ukrainian president will be Andy Burnham's first international visitor since taking office.",
             "signal": "Risk"
           },
           {
@@ -147,16 +157,6 @@
             "headline": "Ten killed in Russian attack on drone exhibition near Kyiv",
             "why_it_matters": "The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day.",
             "signal": "Risk"
-          },
-          {
-            "headline": "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
-            "why_it_matters": "Protests have continued over Zelensky's decision to dismiss Mykhailo Fedorov, and some commentators believe he has been damaged politically.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-            "why_it_matters": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -171,10 +171,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Berlin Pride attack suspect shot and killed during police operation",
             "What we know so far about the Berlin Pride ramming attack",
             "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
-            "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
-            "Trump takes swipes at press during White House Correspondents' Dinner"
+            "PM pledges continued support for Ukraine ahead of Zelensky visit"
           ],
           "confidence": "Medium"
         },
@@ -185,11 +185,11 @@
         ],
         "related_topics": [
           "today's negative news headlines",
-          "latest news summary what",
+          "latest news summary berlin",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: What we know so far about the Berlin Pride ramming attack\n\nWorld Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Attack #Minister #Near #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Berlin Pride attack suspect shot and killed during police operation\n\nWorld Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Attack #Berlin #During #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -383,11 +383,46 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1925,
+        "score": 0.2273,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.321, dampened ×0.6 → +0.1925). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.379, dampened ×0.6 → +0.2273). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
+          "url": "https://www.theverge.com/column/971103/champagne-and-bullets-bad-movies-review",
+          "published": "2026-07-26T17:24:07-04:00",
+          "summary": "There's something about a movie like The Room, Troll 2, or Fateful Findings that I find irresistible. These sorts of \"so bad they're good\" films are marvelous curiosities where ambition far outstrips resources, ability, and self-awareness to become something much greater than the sum of their parts. Champagne and Bullets (also released as GetEven and [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple is banking on privacy to set its smart glasses apart",
+          "url": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
+          "published": "2026-07-26T15:36:38-04:00",
+          "summary": "According to Mark Gurman, Apple is planning to reveal its first smart glasses at WWDC next June, with an expectation that they'll launch by the end of 2027. Part of the hold-up may be around the company's efforts to get its privacy features and messaging in order. Smart glasses in general, and Meta's in particular, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The US is charging an American citizen for wiping his phone at the border",
+          "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
+          "published": "2026-07-26T14:45:50-04:00",
+          "summary": "The government is prosecuting US citizen Sam Tunick for allegedly providing authorities with a \"duress password\" that wiped his phone when they tried to seize it at Atlanta's Hartsfield-Jackson airport on January 24th, 2025. Federal agents detained Tunick at the airport, allegedly questioning him about child exploitation images. However, a motion filed by Tunick's lawyers [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Carrie is just trying to make a friend in the new trailer",
+          "url": "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con",
+          "published": "2026-07-26T11:33:27-04:00",
+          "summary": "Mike Flanagan's latest Stephen King adaptation, Carrie (this will be his fourth), is slated to make its debut on Amazon Prime on October 7th. The new trailer dropped at Comic-Con 2026 and doesn't contain many surprises. If you're familiar with Carrie at all, it hits all the expected notes. Though it's clearly been updated for [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "You can get three months of Xbox Game Pass Ultimate for almost half off",
+          "url": "https://www.theverge.com/gadgets/970775/xbox-game-pass-ultimate-deal-sale",
+          "published": "2026-07-26T11:00:00-04:00",
+          "summary": "Subscribing to Xbox Game Pass Ultimate on a recurring basis has been tough to justify recently, even after Microsoft reduced the monthly cost from $29.99 to $22.99. But you can get a better deal on a three-month subscription (valued at $69) by grabbing a digital code at Eneba that costs $39.01 at the time of [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
           "url": "https://www.theverge.com/entertainment/971071/marvel-ryan-gosling-ghost-rider-black-panther-comic-con",
@@ -422,54 +457,44 @@
           "published": "2026-07-25T11:00:00-04:00",
           "summary": "With elements from synthesizers, loopers, and effects pedals, Teenage Engineering’s devices lie somewhere between musical instrument and modern art. These grooveboxes, as they’re often called, are capable of helping you produce songs in real time from a single unit, with an eye-catching design language. A wide swath of the brand’s offerings are 30 percent off [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Warner Bros. is suing Amazon for poaching employees",
-          "url": "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees",
-          "published": "2026-07-25T10:05:12-04:00",
-          "summary": "Warner Bros. Discovery has filed suit against Amazon, accusing it of illegally poaching employees, including Pia Barlow, former senior VP for originals marketing. In the complaint, Warner says that \"Amazon has chosen to ride on the coattails of other well-established Hollywood mainstays,\" and that it engaged in a \"lawless employee shopping spree.\" Deadline reports that [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Is this e-reader case a gun?",
-          "url": "https://www.theverge.com/tech/970343/e-reader-case-3d-printed-gun",
-          "published": "2026-07-25T09:00:00-04:00",
-          "summary": "Is an e-reader case as dangerous as a Glock 19? Last month, Louisville, Kentucky-based creator Luke The Maker showed off a bizarre, 3D-printed, pistol-shaped case design for the popular minimalist Xteink X4 e-reader. The X4 lies vertically atop the plastic gun's slide, with a cutout on the side to access its buttons. Though the frame [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "What Surrounds Us will make you think a lot about circles",
-          "url": "https://www.theverge.com/games/961183/what-surrounds-us-review-pc-steam",
-          "published": "2026-07-25T08:00:00-04:00",
-          "summary": "What Surrounds Us takes its title literally. You play as a circle surrounding a hole in its middle - it looks like a donut with frosting. You work together with other sentient moving circles, sometimes helping them joyfully meet with others. And you traverse a large map that's composed entirely of, you guessed it, a [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Folding and flipping phones are getting seriously good",
-          "url": "https://www.theverge.com/tech/971004/z-fold8-xteink-x4-light-flip-installer",
-          "published": "2026-07-25T08:00:00-04:00",
-          "summary": "Hi, friends! Welcome to Installer No. 137, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, happy phone season, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Google Zero and armored cars for rich people, watching a [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Forget expensive sleepbuds. Buy this pillow instead",
-          "url": "https://www.theverge.com/tech/970473/forget-expensive-sleepbuds-buy-this-pillow-instead",
-          "published": "2026-07-25T03:00:00-04:00",
-          "summary": "Tech companies love to sell us expensive gadgets to solve all of life's little problems. Sleepbuds sold by the likes of Anker and Ozlo are a good example. These miniature marvels of engineering sit flush in the ear, and allow side-sleepers to doze off listening to podcasts, audiobooks, music, or white noise without annoying their [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.193). Top story: Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more.",
+        "key_takeaway": "Champagne and Bullets belongs on the Mount Rushmore of bad movies.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.227). Top story: Champagne and Bullets belongs on the Mount Rushmore of bad movies.",
         "key_themes": [
-          "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
-          "The vertical video takeover is here",
-          "Google basically confirms the Pixel 11 is getting a price hike",
-          "Synth historian Oli Freke will spend big on a good bicycle",
-          "Teenage Engineering’s unique music machines are 30 percent off"
+          "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
+          "Apple is banking on privacy to set its smart glasses apart",
+          "The US is charging an American citizen for wiping his phone at the border",
+          "Carrie is just trying to make a friend in the new trailer",
+          "You can get three months of Xbox Game Pass Ultimate for almost half off"
         ],
         "notable_headlines": [
+          {
+            "headline": "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
+            "why_it_matters": "There's something about a movie like The Room, Troll 2, or Fateful Findings that I find irresistible. These sorts of \"so bad they're good\" films are marvelous curiosities where ambition far outstrips resources, ability, …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Apple is banking on privacy to set its smart glasses apart",
+            "why_it_matters": "According to Mark Gurman, Apple is planning to reveal its first smart glasses at WWDC next June, with an expectation that they'll launch by the end of 2027. Part of the hold-up may be around the company's efforts to get …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The US is charging an American citizen for wiping his phone at the border",
+            "why_it_matters": "The government is prosecuting US citizen Sam Tunick for allegedly providing authorities with a \"duress password\" that wiped his phone when they tried to seize it at Atlanta's Hartsfield-Jackson airport on January 24th, 2…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Carrie is just trying to make a friend in the new trailer",
+            "why_it_matters": "Mike Flanagan's latest Stephen King adaptation, Carrie (this will be his fourth), is slated to make its debut on Amazon Prime on October 7th. The new trailer dropped at Comic-Con 2026 and doesn't contain many surprises. …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "You can get three months of Xbox Game Pass Ultimate for almost half off",
+            "why_it_matters": "Subscribing to Xbox Game Pass Ultimate on a recurring basis has been tough to justify recently, even after Microsoft reduced the monthly cost from $29.99 to $22.99. But you can get a better deal on a three-month subscrip…",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
             "why_it_matters": "While perhaps less dramatic than in years past, Marvel nonetheless had some big reveals lined up for Comic-Con. The highest profile was certainly the announcement that Ryan Gosling would be joining the MCU as Ghost Rider…",
@@ -483,31 +508,6 @@
           {
             "headline": "Google basically confirms the Pixel 11 is getting a price hike",
             "why_it_matters": "Google's Vice President of Devices and Services, Shakil Barkat, all but confirmed in an interview with 9to5 Google that its next Pixel phone would cost more than the Pixel 10. Considering the ongoing RAM supply issues du…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Synth historian Oli Freke will spend big on a good bicycle",
-            "why_it_matters": "Oli Freke is a musician and journalist whose works have appeared in Sound on Sound, The Quietus, and Mixmag. This has included using math to explore the melodic potential of the Western 12-tone scale and deep dives on ef…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Teenage Engineering’s unique music machines are 30 percent off",
-            "why_it_matters": "With elements from synthesizers, loopers, and effects pedals, Teenage Engineering’s devices lie somewhere between musical instrument and modern art. These grooveboxes, as they’re often called, are capable of helping you …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Warner Bros. is suing Amazon for poaching employees",
-            "why_it_matters": "Warner Bros. Discovery has filed suit against Amazon, accusing it of illegally poaching employees, including Pia Barlow, former senior VP for originals marketing. In the complaint, Warner says that \"Amazon has chosen to …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Is this e-reader case a gun?",
-            "why_it_matters": "Is an e-reader case as dangerous as a Glock 19? Last month, Louisville, Kentucky-based creator Luke The Maker showed off a bizarre, 3D-printed, pistol-shaped case design for the popular minimalist Xteink X4 e-reader. The…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "What Surrounds Us will make you think a lot about circles",
-            "why_it_matters": "What Surrounds Us takes its title literally. You play as a circle surrounding a hole in its middle - it looks like a donut with frosting. You work together with other sentient moving circles, sometimes helping them joyfu…",
             "signal": "Opportunity"
           }
         ],
@@ -523,10 +523,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
-            "The vertical video takeover is here",
-            "Google basically confirms the Pixel 11 is getting a price hike",
-            "Synth historian Oli Freke will spend big on a good bicycle"
+            "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
+            "Apple is banking on privacy to set its smart glasses apart",
+            "The US is charging an American citizen for wiping his phone at the border",
+            "Carrie is just trying to make a friend in the new trailer"
           ],
           "confidence": "Medium"
         },
@@ -537,11 +537,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary marvel",
+          "latest news summary champagne",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more\n\nTechnology Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Amazon #Announces #Basically #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Champagne and Bullets belongs on the Mount Rushmore of bad movies\n\nTechnology Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Almost #American #Announces #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
