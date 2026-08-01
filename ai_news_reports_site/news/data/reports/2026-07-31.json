@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at_utc": "2026-08-01T00:07:59Z",
+  "generated_at_utc": "2026-08-01T05:47:30Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -16,11 +16,25 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2582,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.430, dampened ×0.6 → -0.2582). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2312,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.385, dampened ×0.6 → -0.2312). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
+          "url": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 01 Aug 2026 05:01:56 GMT",
+          "summary": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Fifa scraps controversial World Cup investment plan",
+          "url": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 01 Aug 2026 05:42:31 GMT",
+          "summary": "Football's world governing body Fifa abandons plans to sell off stakes in its major competitions after widespread opposition to president Gianni Infantino's proposal.",
+          "source": "BBC News"
+        },
         {
           "title": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
           "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
@@ -43,9 +57,9 @@
           "source": "BBC News"
         },
         {
-          "title": "Peru's ex-president has 15-year jail sentence for corruption charges overturned",
+          "title": "Peru's ex-president leaves jail after 15-year jail term for corruption overturned",
           "url": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 31 Jul 2026 10:32:17 GMT",
+          "published": "Sat, 01 Aug 2026 02:21:29 GMT",
           "summary": "Ollanta Humala had been convicted of money laundering offences alongside his wife in 2025.",
           "source": "BBC News"
         },
@@ -57,24 +71,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Fifa says 'nobody selling football' as plan continues",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c79glnx1y55o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 31 Jul 2026 08:21:37 GMT",
-          "summary": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
-          "source": "BBC News"
-        },
-        {
           "title": "UK rapper Yung Filly found not guilty of raping woman after Australian show",
           "url": "https://www.bbc.co.uk/news/articles/crrv7vk0knro?at_medium=RSS&at_campaign=rss",
           "published": "Fri, 31 Jul 2026 05:21:18 GMT",
           "summary": "The YouTuber has been found guilty for two counts of assault over the 2024 incident in Perth.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-          "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 31 Jul 2026 08:09:17 GMT",
-          "summary": "At least 18 people drown as migrants try to swim to Spanish territory amid scenes of chaos at the border.",
           "source": "BBC News"
         },
         {
@@ -92,31 +92,41 @@
           "source": "BBC News"
         },
         {
-          "title": "Uefa to boycott World Cups if Fifa plans approved",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 30 Jul 2026 16:47:40 GMT",
-          "summary": "Uefa says \"the World Cup is not for sale\" after its 55 member associations vote to boycott future tournaments if Fifa and its president, Gianni Infantino, do not back down on their investment proposals.",
-          "source": "BBC News"
-        },
-        {
           "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
           "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 30 Jul 2026 17:55:24 GMT",
           "summary": "Romania, Bulgaria and Serbia are also grappling with the effects of a series of prolonged heatwaves and low rainfall.",
           "source": "BBC News"
+        },
+        {
+          "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
+          "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 30 Jul 2026 15:35:50 GMT",
+          "summary": "The missile left a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine.",
+          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.258). Top story: Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco.",
+        "key_takeaway": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.231). Top story: Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge.",
         "key_themes": [
+          "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
+          "Fifa scraps controversial World Cup investment plan",
           "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
           "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
-          "Body of US climber the latest recovered after Pakistan avalanche",
-          "Peru's ex-president has 15-year jail sentence for corruption charges overturned",
-          "Hundreds escape Greek wildfire by sea as blazes continue across Europe"
+          "Body of US climber the latest recovered after Pakistan avalanche"
         ],
         "notable_headlines": [
+          {
+            "headline": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
+            "why_it_matters": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Fifa scraps controversial World Cup investment plan",
+            "why_it_matters": "Football's world governing body Fifa abandons plans to sell off stakes in its major competitions after widespread opposition to president Gianni Infantino's proposal.",
+            "signal": "Risk"
+          },
           {
             "headline": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
             "why_it_matters": "Spain said most had returned to Morocco by Friday evening, as Italy suspended its Schengen agreement on free movement with Madrid.",
@@ -133,7 +143,7 @@
             "signal": "Risk"
           },
           {
-            "headline": "Peru's ex-president has 15-year jail sentence for corruption charges overturned",
+            "headline": "Peru's ex-president leaves jail after 15-year jail term for corruption overturned",
             "why_it_matters": "Ollanta Humala had been convicted of money laundering offences alongside his wife in 2025.",
             "signal": "Risk"
           },
@@ -143,18 +153,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Fifa says 'nobody selling football' as plan continues",
-            "why_it_matters": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
-            "signal": "Risk"
-          },
-          {
             "headline": "UK rapper Yung Filly found not guilty of raping woman after Australian show",
             "why_it_matters": "The YouTuber has been found guilty for two counts of assault over the 2024 incident in Perth.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-            "why_it_matters": "At least 18 people drown as migrants try to swim to Spanish territory amid scenes of chaos at the border.",
             "signal": "Risk"
           }
         ],
@@ -170,10 +170,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
+            "Fifa scraps controversial World Cup investment plan",
             "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
-            "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
-            "Body of US climber the latest recovered after Pakistan avalanche",
-            "Peru's ex-president has 15-year jail sentence for corruption charges overturned"
+            "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza"
           ],
           "confidence": "Medium"
         },
@@ -183,12 +183,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's negative news headlines",
-          "latest news summary spain's",
+          "today's mixed news headlines",
+          "latest news summary israeli",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco\n\nWorld Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceuta #Morocco #Plan #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Jail #Plan #15year #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
