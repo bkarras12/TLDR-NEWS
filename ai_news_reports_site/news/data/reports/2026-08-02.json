@@ -1,11 +1,14 @@
 {
   "date": "2026-08-02",
-  "generated_at_utc": "2026-08-02T14:55:12Z",
+  "generated_at_utc": "2026-08-03T00:05:52Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
-    "iran"
+    "nearly",
+    "isnt",
+    "iran",
+    "battle"
   ],
   "categories": {
     "world": {
@@ -17,11 +20,18 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2249,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.375, dampened ×0.6 → -0.2249). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2865,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.478, dampened ×0.6 → -0.2865). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
+          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 02 Aug 2026 20:36:37 GMT",
+          "summary": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+          "source": "BBC News"
+        },
         {
           "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
           "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
@@ -30,9 +40,9 @@
           "source": "BBC News"
         },
         {
-          "title": "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+          "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
           "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 02 Aug 2026 14:46:16 GMT",
+          "published": "Sun, 02 Aug 2026 15:50:59 GMT",
           "summary": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
           "source": "BBC News"
         },
@@ -44,7 +54,14 @@
           "source": "BBC News"
         },
         {
-          "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
+          "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 02 Aug 2026 15:48:00 GMT",
+          "summary": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Five dead and 41 missing after Indonesia ferry catches fire",
           "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 02 Aug 2026 11:49:40 GMT",
           "summary": "The vessel with at least 250 people on board caught fire off Madura island.",
@@ -58,10 +75,10 @@
           "source": "BBC News"
         },
         {
-          "title": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 01 Aug 2026 22:23:20 GMT",
-          "summary": "Pressure is building on Gianni Infantino. Can he survive as Fifa president after the implosion of the controversial World Cup investment plan?",
+          "title": "Uganda unveils statue of Israel PM's brother who died in Entebbe rescue mission",
+          "url": "https://www.bbc.co.uk/news/articles/c9v471x89m3o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 02 Aug 2026 16:37:02 GMT",
+          "summary": "Yonatan Netanyahu was the only Israeli soldier to die as he led a mission to free more than 100 hostages.",
           "source": "BBC News"
         },
         {
@@ -79,14 +96,7 @@
           "source": "BBC News"
         },
         {
-          "title": "The Sopranos star Vincent Pastore dies aged 80",
-          "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 01 Aug 2026 22:57:55 GMT",
-          "summary": "Pastore, who played Salvatore \"Big Pussy\" Bonpensiero in the hit US show, was found at his home in New York City, US media report.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Why Uganda seems to be winning the battle against Ebola as virus spreads in DR Congo",
+          "title": "Why Uganda is winning the battle against Ebola as virus spreads in DR Congo",
           "url": "https://www.bbc.co.uk/news/articles/clyemjn44qqo?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 01 Aug 2026 23:03:15 GMT",
           "summary": "Uganda discharged its last Ebola patient from hospital roughly two weeks ago.",
@@ -98,33 +108,31 @@
           "published": "Sun, 02 Aug 2026 10:54:44 GMT",
           "summary": "Security officials said a woman tried to enter the restaurant with explosives but was stopped by a security guard.",
           "source": "BBC News"
-        },
-        {
-          "title": "Body of mountaineer Nirmal Purja recovered after Pakistan avalanche",
-          "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 02 Aug 2026 10:11:26 GMT",
-          "summary": "The renowned climber was known for scaling the world's 14 highest peaks in just over six months in 2019.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Trump cancels Iran strikes subject to deal being made 'rapidly'.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.225). Top story: Trump cancels Iran strikes subject to deal being made 'rapidly'.",
+        "key_takeaway": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.286). Top story: Two crew killed after firefighting helicopters collide in Greece, as British pilot survives.",
         "key_themes": [
+          "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
           "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-          "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+          "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
           "How Spain's migrant crisis created a political storm - whipped up by social media",
-          "Five dead, 41 missing, after Indonesia ferry catches fire",
-          "Young guns for hire - the teenage hitmen recruited to kill across Europe"
+          "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths"
         ],
         "notable_headlines": [
+          {
+            "headline": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
+            "why_it_matters": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+            "signal": "Risk"
+          },
           {
             "headline": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
             "why_it_matters": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed.",
             "signal": "Risk"
           },
           {
-            "headline": "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+            "headline": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
             "why_it_matters": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
             "signal": "Risk"
           },
@@ -134,7 +142,12 @@
             "signal": "Risk"
           },
           {
-            "headline": "Five dead, 41 missing, after Indonesia ferry catches fire",
+            "headline": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+            "why_it_matters": "Russia's military says it attacked Ukraine's ports and vessels in the Black Sea overnight.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Five dead and 41 missing after Indonesia ferry catches fire",
             "why_it_matters": "The vessel with at least 250 people on board caught fire off Madura island.",
             "signal": "Risk"
           },
@@ -144,18 +157,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
-            "why_it_matters": "Pressure is building on Gianni Infantino. Can he survive as Fifa president after the implosion of the controversial World Cup investment plan?",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Tourist plane crashes in Peru, killing 13",
-            "why_it_matters": "The small plane was flying over the Nazca Lines ​archaeological site when it crashed, according to local reports.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Italy putting nearly all major cities on highest heat alert",
-            "why_it_matters": "Some 19 major Italian cities - including Rome, Milan and Naples - are already on red alert, and by Monday all but two will be.",
+            "headline": "Uganda unveils statue of Israel PM's brother who died in Entebbe rescue mission",
+            "why_it_matters": "Yonatan Netanyahu was the only Israeli soldier to die as he led a mission to free more than 100 hostages.",
             "signal": "Risk"
           }
         ],
@@ -171,10 +174,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
             "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-            "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
-            "How Spain's migrant crisis created a political storm - whipped up by social media",
-            "Five dead, 41 missing, after Indonesia ferry catches fire"
+            "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+            "How Spain's migrant crisis created a political storm - whipped up by social media"
           ],
           "confidence": "Medium"
         },
@@ -184,12 +187,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary trump",
+          "today's negative news headlines",
+          "latest news summary two",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Trump cancels Iran strikes subject to deal being made 'rapidly'\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #Strikes #Across #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Two crew killed after firefighting helicopters collide in Greece, as British pilot survives\n\nWorld Sentiment: Negative (-0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deal #Killed #Strikes #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -383,11 +386,39 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.21,
+        "score": 0.1534,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.350, dampened ×0.6 → +0.2100). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.256, dampened ×0.6 → +0.1534). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
+          "url": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review",
+          "published": "2026-08-02T17:53:15-04:00",
+          "summary": "Two minutes and thirty seconds into the title track of Rachika Nayar's Heaven Come Crashing, an absolutely massive drum and bass beat drops. As a fan of Nayar's debut record Our Hands Against The Dusk, it caught me off guard. That album has no percussion on it at all. Heaven Comes Crashing is almost entirely [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+          "published": "2026-08-02T15:36:08-04:00",
+          "summary": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company pissing off [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Xbox prices are increasing by up to €200 or £170",
+          "url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
+          "published": "2026-08-02T12:14:20-04:00",
+          "summary": "When Microsoft announced its latest round of Xbox price bumps in June, it only gave US pricing. Now we know the pricing increases for the EU and UK, and they're dramatic. Depending on the model, Xbox prices are increasing by up to &#8364;200 or &#163;170. The 1TB Xbox Series X with a disc drive is [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Skylight&#8217;s smart calendars are up to $90 off during its back-to-school sale",
+          "url": "https://www.theverge.com/gadgets/973789/skylight-calendar-2-max-back-to-school-deal-sale",
+          "published": "2026-08-02T11:00:00-04:00",
+          "summary": "The start of a new school year can feel hectic, as parents juggle their kids’ classes, extracurriculars and sports on top of work, appointments, and other responsibilities. It&#8217;s easy for things to slip through the cracks, but Skylight&#8217;s shared smart calendars can help keep everyone on track, and from August 2nd through August 9th they&#8217;re [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was",
           "url": "https://www.theverge.com/tech/974155/hp-hyperx-omen-15-gaming-laptop-rtx-5050-review",
@@ -429,47 +460,39 @@
           "published": "2026-08-01T14:20:00-04:00",
           "summary": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immediately, though, questions were raised about the song's origins, with many speculating that it was largely, [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Spider-Man: Brand New Day leak racks up millions of views",
-          "url": "https://www.theverge.com/entertainment/974199/spider-man-brand-new-day-leak-box-office-records",
-          "published": "2026-08-01T13:00:12-04:00",
-          "summary": "A bootleg of Spider-Man: Brand New Day was up on X for over seven hours before eventually being pulled. During that time, it reached over 5.9 million accounts and accumulated over 143,000 likes. Other accounts have reposted the leaked film, but none have lasted particularly long, as Disney now seems to be on top of [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Trump blames Tim Walz for water hacks even though it’s probably Iran",
-          "url": "https://www.theverge.com/policy/974197/trump-tim-walz-minnesota-water-hacks-iran",
-          "published": "2026-08-01T11:23:35-04:00",
-          "summary": "The FBI, the EPA, and the Cybersecurity and Infrastructure Security Agency (CISA) have stopped short of officially blaming Iran for a spate of cyberattacks on Minnesota's water systems, but consensus is that Iran is likely behind them. That, of course, hasn't stopped Donald Trump from sharing his own theory - that Governor Tim Walz is [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Verge’s 2026 back-to-school shopping guide",
-          "url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts",
-          "published": "2026-08-01T10:00:00-04:00",
-          "summary": "Knowing exactly what your student needs for the school year ahead is next to impossible. Sure, you'll probably nail the essentials, but there will likely be a few items you forgot to buy, or didn't think they'd need to have. We're pulling our weight during the back-to-school season with a new shopping guide that's a [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "You could be taking way better photos on your phone",
-          "url": "https://www.theverge.com/tech/973055/how-to-take-better-smartphone-photos",
-          "published": "2026-08-01T09:30:00-04:00",
-          "summary": "Your smartphone photos can look way better. If you're willing to put in a little extra work, use third party apps and spend a bit of time editing, it's possible to take photos that - under the right circumstances - can rival dedicated digital cameras. I post a lot of smartphone photos online, and \"How [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.210). Top story: HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was.",
+        "key_takeaway": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.153). Top story: Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing.",
         "key_themes": [
-          "HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was",
-          "Is paying artists enough to convince them to embrace AI?",
-          "Foldables are sort of boring now — and that’s great news for Apple",
-          "Pixel 11 specs and price leak with no surprises",
-          "Angela Nissel faces down grief with a laugh"
+          "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
+          "Fender’s CEO seems to think your bandmates are just analog AI",
+          "Xbox prices are increasing by up to €200 or £170",
+          "Skylight&#8217;s smart calendars are up to $90 off during its back-to-school sale",
+          "HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was"
         ],
         "notable_headlines": [
+          {
+            "headline": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
+            "why_it_matters": "Two minutes and thirty seconds into the title track of Rachika Nayar's Heaven Come Crashing, an absolutely massive drum and bass beat drops. As a fan of Nayar's debut record Our Hands Against The Dusk, it caught me off g…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Fender’s CEO seems to think your bandmates are just analog AI",
+            "why_it_matters": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recen…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Xbox prices are increasing by up to €200 or £170",
+            "why_it_matters": "When Microsoft announced its latest round of Xbox price bumps in June, it only gave US pricing. Now we know the pricing increases for the EU and UK, and they're dramatic. Depending on the model, Xbox prices are increasin…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Skylight&#8217;s smart calendars are up to $90 off during its back-to-school sale",
+            "why_it_matters": "The start of a new school year can feel hectic, as parents juggle their kids’ classes, extracurriculars and sports on top of work, appointments, and other responsibilities. It&#8217;s easy for things to slip through the …",
+            "signal": "Opportunity"
+          },
           {
             "headline": "HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was",
             "why_it_matters": "The HP HyperX Omen 15, which I first saw at CES, replaces the HP Victus 15, a longtime bestselling budget gaming laptop. The Victus cost just $800, or less when on sale, and was a good entry point to decent laptop gaming…",
@@ -489,26 +512,6 @@
             "headline": "Pixel 11 specs and price leak with no surprises",
             "why_it_matters": "Android Headlines claims to have the specs and price for the entire Pixel 11 lineup. What the site shared basically lines up with everything else that we've heard in the lead-up to the August 12th event. The Pixel 11 is …",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Angela Nissel faces down grief with a laugh",
-            "why_it_matters": "Angela Nissel's latest book, Good Grief, Pass the Bread, Mom Is Dead, is my kind of memoir. Sure, it's a deeply emotional tale about caring for a terminally ill parent. But it's delivered with the sort of gallows humor t…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Is this Billboard Hot 100 hit AI slop?",
-            "why_it_matters": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immedi…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Spider-Man: Brand New Day leak racks up millions of views",
-            "why_it_matters": "A bootleg of Spider-Man: Brand New Day was up on X for over seven hours before eventually being pulled. During that time, it reached over 5.9 million accounts and accumulated over 143,000 likes. Other accounts have repos…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Trump blames Tim Walz for water hacks even though it’s probably Iran",
-            "why_it_matters": "The FBI, the EPA, and the Cybersecurity and Infrastructure Security Agency (CISA) have stopped short of officially blaming Iran for a spate of cyberattacks on Minnesota's water systems, but consensus is that Iran is like…",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -523,10 +526,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was",
-            "Is paying artists enough to convince them to embrace AI?",
-            "Foldables are sort of boring now — and that’s great news for Apple",
-            "Pixel 11 specs and price leak with no surprises"
+            "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
+            "Fender’s CEO seems to think your bandmates are just analog AI",
+            "Xbox prices are increasing by up to €200 or £170",
+            "Skylight&#8217;s smart calendars are up to $90 off during its back-to-school sale"
           ],
           "confidence": "Medium"
         },
@@ -537,11 +540,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary hp’s",
+          "latest news summary rachika",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: HP’s HyperX Omen 15 isn’t quite the budget-friendly gaming laptop its predecessor was\n\nTechnology Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Leak #Angela #Apple #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing\n\nTechnology Sentiment: Mixed (+0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Analog #Apple #Artists #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
