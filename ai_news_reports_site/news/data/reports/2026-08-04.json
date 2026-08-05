@@ -1,10 +1,11 @@
 {
   "date": "2026-08-04",
-  "generated_at_utc": "2026-08-05T00:11:52Z",
+  "generated_at_utc": "2026-08-05T05:38:20Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
+    "hits",
     "company"
   ],
   "categories": {
@@ -17,23 +18,30 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1597,
+        "score": -0.2488,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.266, dampened ×0.6 → -0.1597). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.415, dampened ×0.6 → -0.2488). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
           "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 04 Aug 2026 17:26:06 GMT",
-          "summary": "Ukraine said the video - showing a terrified civilian being hounded by a remotely-controlled drone - amounted to a war crime.",
+          "summary": "Ukraine said the video - showing a terrified civilian being hounded by a remotely controlled drone - amounted to a war crime.",
           "source": "BBC News"
         },
         {
-          "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+          "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
           "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 04 Aug 2026 19:00:43 GMT",
+          "published": "Wed, 05 Aug 2026 03:44:30 GMT",
           "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Russian ballistic missile strike on Kyiv kills 14 and injures 22, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 05 Aug 2026 05:08:43 GMT",
+          "summary": "The head of Kyiv's military administration says Russia is \"once again massively attacking\" the region around the city.",
           "source": "BBC News"
         },
         {
@@ -46,7 +54,7 @@
         {
           "title": "Armed man arrested near Trump's golf course ahead of president's visit",
           "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 05 Aug 2026 00:09:18 GMT",
+          "published": "Wed, 05 Aug 2026 00:19:04 GMT",
           "summary": "The arrest happened shortly before President Trump was due to host a fundraising dinner at the coastal golf course in California.",
           "source": "BBC News"
         },
@@ -62,13 +70,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cn0n9wpvlwpo?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 04 Aug 2026 19:25:00 GMT",
           "summary": "Egyptian authorities say the alleged scam involved fabricated scenes in court as part of a plot to defraud people.",
-          "source": "BBC News"
-        },
-        {
-          "title": "More than 170 migrants rescued after boat catches fire in Channel",
-          "url": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 04 Aug 2026 19:45:58 GMT",
-          "summary": "The government says all of the migrants, who were attempting to cross to the UK, will be returned to France.",
           "source": "BBC News"
         },
         {
@@ -100,32 +101,37 @@
           "source": "BBC News"
         },
         {
-          "title": "Why Trump Media's sale of fast access to market-moving social posts is controversial",
-          "url": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 04 Aug 2026 13:53:41 GMT",
-          "summary": "Trump Media & Technology Group (TMTG) has set up a paid service to give Wall Street firms access to Truth Social's most influential accounts.",
+          "title": "More than 170 migrants rescued after boat catches fire in Channel",
+          "url": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 04 Aug 2026 19:45:58 GMT",
+          "summary": "The government says all of the migrants, who were attempting to cross to the UK, will be returned to France.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
         "key_takeaway": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.160). Top story: Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.249). Top story: Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack.",
         "key_themes": [
           "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
-          "Oil prices fall on hopes Strait of Hormuz could reopen",
+          "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+          "Russian ballistic missile strike on Kyiv kills 14 and injures 22, officials say",
           "EU commends Spain's 'swift response' to Ceuta migrant crisis",
-          "Armed man arrested near Trump's golf course ahead of president's visit",
-          "Ukraine hits more Wildberries sites as strike kills five in Moscow region"
+          "Armed man arrested near Trump's golf course ahead of president's visit"
         ],
         "notable_headlines": [
           {
             "headline": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
-            "why_it_matters": "Ukraine said the video - showing a terrified civilian being hounded by a remotely-controlled drone - amounted to a war crime.",
+            "why_it_matters": "Ukraine said the video - showing a terrified civilian being hounded by a remotely controlled drone - amounted to a war crime.",
             "signal": "Risk"
           },
           {
-            "headline": "Oil prices fall on hopes Strait of Hormuz could reopen",
+            "headline": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
             "why_it_matters": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Russian ballistic missile strike on Kyiv kills 14 and injures 22, officials say",
+            "why_it_matters": "The head of Kyiv's military administration says Russia is \"once again massively attacking\" the region around the city.",
             "signal": "Risk"
           },
           {
@@ -149,11 +155,6 @@
             "signal": "Risk"
           },
           {
-            "headline": "More than 170 migrants rescued after boat catches fire in Channel",
-            "why_it_matters": "The government says all of the migrants, who were attempting to cross to the UK, will be returned to France.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Mass funeral in Gaza for 112 Palestinians killed in 2023 Israeli strike",
             "why_it_matters": "The bodies - belonging to members of two extended families - have only recently been recovered from under rubble in Gaza City.",
             "signal": "Risk"
@@ -172,9 +173,9 @@
           ],
           "watch_list": [
             "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
-            "Oil prices fall on hopes Strait of Hormuz could reopen",
-            "EU commends Spain's 'swift response' to Ceuta migrant crisis",
-            "Armed man arrested near Trump's golf course ahead of president's visit"
+            "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+            "Russian ballistic missile strike on Kyiv kills 14 and injures 22, officials say",
+            "EU commends Spain's 'swift response' to Ceuta migrant crisis"
           ],
           "confidence": "Medium"
         },
@@ -189,7 +190,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack\n\nWorld Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Strike #2023 #Ahead #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack\n\nWorld Sentiment: Mixed (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Strike #Kills #Russian #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -200,30 +201,23 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0132,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.022, dampened ×0.6 → -0.0132). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0667,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.111, dampened ×0.6 → +0.0667). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Trump Fed chair’s inflation strategy: leave it to the market | Eduardo Porter",
-          "url": "https://www.theguardian.com/business/2026/aug/04/trump-fed-kevin-warsh",
-          "published": "Tue, 04 Aug 2026 11:00:48 GMT",
-          "summary": "<p>Kevin Warsh would rather stay out of the fray – and thus devalue the Fed’s credibility as an economic steward</p><p>It must feel strange to argue that government action is inevitably counter-productive – illegitimate even – when the government is you.</p><p>For the last half century, the Republican party has been comfortable with the contradiction. It’s framed in that clever quote from <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>’s 1981 inaugural speech: “Gove",
+          "title": "US stock market hits record highs as AI profits pile and oil prices ease",
+          "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease",
+          "published": "Tue, 04 Aug 2026 20:56:59 GMT",
+          "summary": "<p>S&amp;P 500 shot up 1.8% and the main measure of Wall Street’s health topped its prior all-time high set a few months ago</p><p>The US stock market rallied to records on Tuesday as profits kept piling up for companies and as oil prices eased.</p><p>The S&amp;P 500 shot up 1.8%, and the main measure of Wall Street’s health topped its prior all-time high set a couple months ago. The Dow Jones industrial average added 907 points, or 1.7%, to its own record set the day before, while the Nasdaq co",
           "source": "The Guardian"
         },
         {
-          "title": "Price of olive oil expected to rise again as European crops feel the heat",
-          "url": "https://www.theguardian.com/business/2026/aug/04/price-olive-oil-expected-rise-again-european-crops-heat-drought-wildfires",
-          "published": "Tue, 04 Aug 2026 04:00:13 GMT",
-          "summary": "<p>Farmers warn impact of high temperatures, drought and wildfires on range of foodstuffs means costs will increase</p><p></p><p>Farmers across Europe are warning of a slump in food production and rising prices as crops from maize to salads suffer as a result of extreme heat, drought and wildfires.</p><p>Olive groves have also been hit as the climate crisis drives temperatures across the continent <a href=\"https://www.theguardian.com/environment/2026/jul/09/western-europe-records-hottest-ever-ju",
-          "source": "The Guardian"
-        },
-        {
-          "title": "BP boss urges Burnham to prioritise UK oil and gas even as firm exits North Sea",
-          "url": "https://www.theguardian.com/business/2026/aug/04/bp-profits-iran-war-oil-prices-shell",
-          "published": "Tue, 04 Aug 2026 17:55:09 GMT",
-          "summary": "<p>Meg O’Neill says ‘where we generate jobs, we generate tax revenue’, as company’s profits more than double</p><ul><li><p><a href=\"https://www.theguardian.com/business/ng-interactive/2026/aug/04/revealed-major-oil-firms-make-93bn-profits-amid-war-and-climate-crisis\">Revealed: major oil firms make $93bn profits amid war and climate crisis</a></p></li><li><p><a href=\"https://www.theguardian.com/business/nils-pratley-on-finance/2026/aug/04/bp-boss-unsentimental-pruning-portfolio-north-sea-advice-b",
+          "title": "David Ellison claims opposition to his mega-merger stems from potential CNN control",
+          "url": "https://www.theguardian.com/business/2026/aug/04/cnn-mega-merger-david-ellison",
+          "published": "Tue, 04 Aug 2026 15:05:47 GMT",
+          "summary": "<p>With $111bn deal to acquire cable network’s parent company stalled in courts, Ellison courts public</p><p>Speaking out on the lawsuit against the big merger between Paramount Skydance and <a href=\"https://www.theguardian.com/film/warner-bros\">Warner Bros</a> Discovery (WBD), <a href=\"https://www.theguardian.com/tv-and-radio/paramount-plus\">Paramount</a>’s CEO, David Ellison, said that the legal backlash against the deal is “not really about market share” but rather stems from political motiva",
           "source": "The Guardian"
         },
         {
@@ -269,6 +263,20 @@
           "source": "The Guardian"
         },
         {
+          "title": "BTS are back: return of K-pop superstars sparks US economic boom",
+          "url": "https://www.theguardian.com/music/2026/jul/31/bts-k-pop-economic-boom",
+          "published": "Fri, 31 Jul 2026 12:00:12 GMT",
+          "summary": "<p>Cities in North America hosting 14 concerts in August and September – and economic impact is set to be significant</p><p>BTS’s “Army” fanbase is descending on New York this weekend as the K-pop supergroup continues their first world tour after a four-year hiatus, sparking an economic boom wherever they land.</p><p>After shows in South Korea and Europe, the group are back in North America, with 14 shows in six US cities in August and September.</p> <a href=\"https://www.theguardian.com/music/20",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump Fed chair’s inflation strategy: leave it to the market | Eduardo Porter",
+          "url": "https://www.theguardian.com/business/2026/aug/04/trump-fed-kevin-warsh",
+          "published": "Tue, 04 Aug 2026 11:00:48 GMT",
+          "summary": "<p>Kevin Warsh would rather stay out of the fray – and thus devalue the Fed’s credibility as an economic steward</p><p>It must feel strange to argue that government action is inevitably counter-productive – illegitimate even – when the government is you.</p><p>For the last half century, the Republican party has been comfortable with the contradiction. It’s framed in that clever quote from <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>’s 1981 inaugural speech: “Gove",
+          "source": "The Guardian"
+        },
+        {
           "title": "‘A reminder of why we have unions’: Matewan writer and director on the film’s lessons for the labor movement",
           "url": "https://www.theguardian.com/us-news/2026/aug/03/john-sayles-matewan-unions",
           "published": "Mon, 03 Aug 2026 12:00:19 GMT",
@@ -281,39 +289,27 @@
           "published": "Sun, 02 Aug 2026 12:00:22 GMT",
           "summary": "<p>The president’s minions have trawled the statutes to restore roadblocks to trade. The invocation of Smoot-Hawley looks especially dangerous</p><p>Donald Trump may have found the killer weapon to punish countries at will: by imposing tariffs on their exports to the United States.</p><p>The president has been looking for a new tool since February, when the supreme court <a href=\"https://www.theguardian.com/us-news/2026/feb/20/supreme-court-tariffs-ruling-world-trade-trump\">struck down tariffs</",
           "source": "The Guardian"
-        },
-        {
-          "title": "‘It ain’t the same’: inside the bitter battle to free Ben & Jerry’s",
-          "url": "https://www.theguardian.com/business/2026/jul/31/ben-jerrys-ice-cream-magnum-boycott",
-          "published": "Fri, 31 Jul 2026 18:48:22 GMT",
-          "summary": "<p>Ben Cohen says his ice-cream company has been silenced by corporate ownership – and a boycott of Magnum brands could force a sale</p><p>Ben &amp; Jerry’s ice-cream in the tub is still great, but the brand’s newest chocolate-covered ice-cream bar on a stick?</p><p>“It ain’t the same,” Ben Cohen, the company co-founder, told the Guardian. Sure, the chocolate coating is still thick enough, but the ice cream itself is “kinda fluffy”, Cohen said – an insult in the ice-cream world that suggests ext",
-          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Trump Fed chair’s inflation strategy: leave it to the market | Eduardo Porter.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.013). Top story: Trump Fed chair’s inflation strategy: leave it to the market | Eduardo Porter.",
+        "key_takeaway": "US stock market hits record highs as AI profits pile and oil prices ease.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.067). Top story: US stock market hits record highs as AI profits pile and oil prices ease.",
         "key_themes": [
-          "Trump Fed chair’s inflation strategy: leave it to the market | Eduardo Porter",
-          "Price of olive oil expected to rise again as European crops feel the heat",
-          "BP boss urges Burnham to prioritise UK oil and gas even as firm exits North Sea",
+          "US stock market hits record highs as AI profits pile and oil prices ease",
+          "David Ellison claims opposition to his mega-merger stems from potential CNN control",
           "US states sue Trump administration over new tariffs on 60 trading partners",
-          "Yen hits three-month high after Trump helps prop up currency"
+          "Yen hits three-month high after Trump helps prop up currency",
+          "Why has Trump stepped in to prop up Japan’s currency?"
         ],
         "notable_headlines": [
           {
-            "headline": "Trump Fed chair’s inflation strategy: leave it to the market | Eduardo Porter",
-            "why_it_matters": "<p>Kevin Warsh would rather stay out of the fray – and thus devalue the Fed’s credibility as an economic steward</p><p>It must feel strange to argue that government action is inevitably counter-productive – illegitimate …",
+            "headline": "US stock market hits record highs as AI profits pile and oil prices ease",
+            "why_it_matters": "<p>S&amp;P 500 shot up 1.8% and the main measure of Wall Street’s health topped its prior all-time high set a few months ago</p><p>The US stock market rallied to records on Tuesday as profits kept piling up for companies…",
             "signal": "Unclear"
           },
           {
-            "headline": "Price of olive oil expected to rise again as European crops feel the heat",
-            "why_it_matters": "<p>Farmers warn impact of high temperatures, drought and wildfires on range of foodstuffs means costs will increase</p><p></p><p>Farmers across Europe are warning of a slump in food production and rising prices as crops …",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "BP boss urges Burnham to prioritise UK oil and gas even as firm exits North Sea",
-            "why_it_matters": "<p>Meg O’Neill says ‘where we generate jobs, we generate tax revenue’, as company’s profits more than double</p><ul><li><p><a href=\"https://www.theguardian.com/business/ng-interactive/2026/aug/04/revealed-major-oil-firms…",
+            "headline": "David Ellison claims opposition to his mega-merger stems from potential CNN control",
+            "why_it_matters": "<p>With $111bn deal to acquire cable network’s parent company stalled in courts, Ellison courts public</p><p>Speaking out on the lawsuit against the big merger between Paramount Skydance and <a href=\"https://www.theguard…",
             "signal": "Unclear"
           },
           {
@@ -340,6 +336,11 @@
             "headline": "California announces minimum wage increase as governor taunts Trump",
             "why_it_matters": "<p>Gavin Newsom says new pay floor of $17.40, set to become highest of any US state, will go into effect on 1 January</p><p>Governor <a href=\"https://www.theguardian.com/us-news/gavin-newsom\">Gavin Newsom</a> of Californ…",
             "signal": "Unclear"
+          },
+          {
+            "headline": "Washington Post’s opinion editor resigns after just one year in role",
+            "why_it_matters": "<p>Adam O’Neal did not give reason for his departure at end of August in another major shakeup at US publication</p><p>The Washington Post had realized a state of relative calm in the five months since the paper was turn…",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -354,10 +355,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Trump Fed chair’s inflation strategy: leave it to the market | Eduardo Porter",
-            "Price of olive oil expected to rise again as European crops feel the heat",
-            "BP boss urges Burnham to prioritise UK oil and gas even as firm exits North Sea",
-            "US states sue Trump administration over new tariffs on 60 trading partners"
+            "US stock market hits record highs as AI profits pile and oil prices ease",
+            "David Ellison claims opposition to his mega-merger stems from potential CNN control",
+            "US states sue Trump administration over new tariffs on 60 trading partners",
+            "Yen hits three-month high after Trump helps prop up currency"
           ],
           "confidence": "Medium"
         },
@@ -367,12 +368,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
-          "latest news summary trump",
+          "today's mixed news headlines",
+          "latest news summary us",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Trump Fed chair’s inflation strategy: leave it to the market | Eduardo Porter\n\nBusiness Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Currency #Prop #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: US stock market hits record highs as AI profits pile and oil prices ease\n\nBusiness Sentiment: Mixed (+0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Currency #Hits #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
