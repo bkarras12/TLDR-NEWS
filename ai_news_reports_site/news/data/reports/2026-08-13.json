@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at_utc": "2026-08-13T23:52:02Z",
+  "generated_at_utc": "2026-08-14T04:43:20Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -16,9 +16,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1795,
+        "score": -0.1266,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.299, dampened ×0.6 → -0.1795). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.211, dampened ×0.6 → -0.1266). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -29,17 +29,17 @@
           "source": "BBC News"
         },
         {
+          "title": "US says dozens of countries helped China dodge Trump's tariffs",
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 14 Aug 2026 03:09:48 GMT",
+          "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
+          "source": "BBC News"
+        },
+        {
           "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
           "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 13 Aug 2026 19:46:27 GMT",
           "summary": "The Cernavodă plant, which produces 20% of Romania's electricity, is not expected to be restarted within the next 10 days.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 13 Aug 2026 04:55:58 GMT",
-          "summary": "In an exclusive interview with the BBC’s Steve Rosenberg, Dmitry Muratov says the Kremlin leader can only \"destroy Ukraine, not conquer it\", with the war now in its fifth year.",
           "source": "BBC News"
         },
         {
@@ -50,13 +50,6 @@
           "source": "BBC News"
         },
         {
-          "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
-          "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 13 Aug 2026 23:06:23 GMT",
-          "summary": "Thousands of sailors on the USS Abraham Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
-          "source": "BBC News"
-        },
-        {
           "title": "Person fined after using foghorn to wake sleeping polar bear",
           "url": "https://www.bbc.co.uk/news/articles/cx2k1r97vx7o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 13 Aug 2026 15:30:57 GMT",
@@ -64,10 +57,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Mangione lawyers to meet federal prosecutors amid reports of plea deal",
-          "url": "https://www.bbc.co.uk/news/articles/c5yw71q9y00o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 13 Aug 2026 18:45:51 GMT",
-          "summary": "Mangione faces two federal charges of stalking resulting in death, each carrying a maximum sentence of life in prison.",
+          "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
+          "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 13 Aug 2026 23:06:23 GMT",
+          "summary": "Thousands of sailors on the USS Abraham Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
           "source": "BBC News"
         },
         {
@@ -104,17 +97,24 @@
           "published": "Thu, 13 Aug 2026 15:50:49 GMT",
           "summary": "France is yet to comment on Yann Vezilier's pardon and previously called the accusations \"unfounded\".",
           "source": "BBC News"
+        },
+        {
+          "title": "Travis Kelce shares first details from his wedding to Taylor Swift: 'Best night of my life'",
+          "url": "https://www.bbc.co.uk/news/articles/cx2r179e232o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 13 Aug 2026 01:19:23 GMT",
+          "summary": "In the comments, Kelce called Swift his \"wife\" for first time and said it was a \"childhood dream\" to wed at Madison Square Garden.",
+          "source": "BBC News"
         }
       ],
       "ai_report": {
         "key_takeaway": "Palestinians told to leave homes in village where Israeli settlers besieged houses.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.179). Top story: Palestinians told to leave homes in village where Israeli settlers besieged houses.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.127). Top story: Palestinians told to leave homes in village where Israeli settlers besieged houses.",
         "key_themes": [
           "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+          "US says dozens of countries helped China dodge Trump's tariffs",
           "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
-          "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
           "Engine parts smashed Ryanair window that man's head was sucked out of, report says",
-          "Conditions on US aircraft carrier at sea for more than 250 days raise alarms"
+          "Person fined after using foghorn to wake sleeping polar bear"
         ],
         "notable_headlines": [
           {
@@ -123,13 +123,13 @@
             "signal": "Risk"
           },
           {
-            "headline": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
-            "why_it_matters": "The Cernavodă plant, which produces 20% of Romania's electricity, is not expected to be restarted within the next 10 days.",
+            "headline": "US says dozens of countries helped China dodge Trump's tariffs",
+            "why_it_matters": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
             "signal": "Risk"
           },
           {
-            "headline": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-            "why_it_matters": "In an exclusive interview with the BBC’s Steve Rosenberg, Dmitry Muratov says the Kremlin leader can only \"destroy Ukraine, not conquer it\", with the war now in its fifth year.",
+            "headline": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
+            "why_it_matters": "The Cernavodă plant, which produces 20% of Romania's electricity, is not expected to be restarted within the next 10 days.",
             "signal": "Risk"
           },
           {
@@ -138,23 +138,23 @@
             "signal": "Risk"
           },
           {
-            "headline": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
-            "why_it_matters": "Thousands of sailors on the USS Abraham Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Person fined after using foghorn to wake sleeping polar bear",
             "why_it_matters": "Under local regulations in the region, \"it is forbidden to needlessly disturb, attract or pursue a polar bear\".",
             "signal": "Risk"
           },
           {
-            "headline": "Mangione lawyers to meet federal prosecutors amid reports of plea deal",
-            "why_it_matters": "Mangione faces two federal charges of stalking resulting in death, each carrying a maximum sentence of life in prison.",
+            "headline": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
+            "why_it_matters": "Thousands of sailors on the USS Abraham Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
             "signal": "Risk"
           },
           {
             "headline": "Family of Irish plane crash victim awarded $29m in damages",
             "why_it_matters": "A jury in Chicago in the US awarded the sum to Michael Ryan's family after his widow Naoise Connolly Ryan brought a civil suit against Boeing.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Air India to test all pilots for banned substances",
+            "why_it_matters": "It comes after one of its planes suddenly lost altitude last week, with a number of passengers injured.",
             "signal": "Risk"
           }
         ],
@@ -171,8 +171,8 @@
           ],
           "watch_list": [
             "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+            "US says dozens of countries helped China dodge Trump's tariffs",
             "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
-            "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
             "Engine parts smashed Ryanair window that man's head was sucked out of, report says"
           ],
           "confidence": "Medium"
@@ -188,7 +188,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Palestinians told to leave homes in village where Israeli settlers besieged houses\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Aircraft #Alarms #Amid #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Palestinians told to leave homes in village where Israeli settlers besieged houses\n\nWorld Sentiment: Mixed (-0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Aircraft #Alarms #Awarded #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -382,11 +382,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0329,
-        "label": "Neutral",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.055, dampened ×0.6 → +0.0329). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.107,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.178, dampened ×0.6 → +0.1070). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+          "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+          "published": "2026-08-13T21:06:15-04:00",
+          "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
           "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
@@ -449,65 +456,58 @@
           "published": "2026-08-13T14:30:00-04:00",
           "summary": "Robot lawnmowers are finally good enough to take a lot of work out of maintaining a yard, but they’re still not set-it-and-forget-it machines. If you don’t want these autonomous cutting machines to tear up your lawn or go roaming in your neighbors’ yard, you’re still going to need to keep an eye on them. But [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "You can now just point at a mess and this robot vacuum will suck it up",
-          "url": "https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review",
-          "published": "2026-08-13T14:00:00-04:00",
-          "summary": "Matic, my current favorite robot vacuum, just got a big upgrade. The company has launched Matic Cues, which brings voice and gesture control to the robot. Now, you can talk directly to your vacuum to tell it what you want it to do, or just point at a mess to have it spot-clean. The feature [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is neutral (0.033). Top story: Apple and Epic argue over how much Apple should get from purchases made outside the App Store.",
+        "key_takeaway": "Trump declares 100 percent tariffs on many drones and all aircraft parts.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.107). Top story: Trump declares 100 percent tariffs on many drones and all aircraft parts.",
         "key_themes": [
+          "Trump declares 100 percent tariffs on many drones and all aircraft parts",
           "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
           "‘That is not acceptable’: Judge orders Google to make rival app store installs easier",
           "The fight over Flock and other ALPRs",
-          "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
-          "Netflix is closing two game studios"
+          "Microsoft’s Clippy-like Mico character is no longer the face of Copilot"
         ],
         "notable_headlines": [
           {
+            "headline": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+            "why_it_matters": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing…",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
             "why_it_matters": "In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don't use the company's in-app purch…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "‘That is not acceptable’: Judge orders Google to make rival app store installs easier",
             "why_it_matters": "One month after Epic Games and Google seemingly stopped fighting over the future of Android app distribution, they were back in a San Francisco courtroom today - where Judge James Donato just ordered Google to make it ea…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "The fight over Flock and other ALPRs",
             "why_it_matters": "There are over 120,000 of Flock’s automatic license plate reader (ALPR) cameras installed all over the US. Flock’s cameras, and others like them, use AI to identify and track vehicles based on their license plate number,…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
             "why_it_matters": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "Netflix is closing two game studios",
             "why_it_matters": "Netflix plans to shut down two of its gaming studios, as reported by Game File and Variety, as it makes a bigger shift toward party games and titles streamed to TVs. One of the studios being shut down is Night School Stu…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "This school-friendly laptop from HP is $300 off",
             "why_it_matters": "With memory prices still high and showing no signs of dropping, we’re always happy to find a good deal on a budget-friendly system with an adequate amount of RAM. Best Buy has the HP OmniBook X Flip discounted by $300, b…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "OpenAI is losing its second executive this week",
             "why_it_matters": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she …",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "The Trump admin will start letting private firms launch international cyberattacks",
-            "why_it_matters": "The Trump administration is launching a new program that will allow private firms to perform cyberattacks against foreign criminals, as reported earlier by Bloomberg. The private firms would operate \"under the control an…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -522,10 +522,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Trump declares 100 percent tariffs on many drones and all aircraft parts",
             "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
             "‘That is not acceptable’: Judge orders Google to make rival app store installs easier",
-            "The fight over Flock and other ALPRs",
-            "Microsoft’s Clippy-like Mico character is no longer the face of Copilot"
+            "The fight over Flock and other ALPRs"
           ],
           "confidence": "Medium"
         },
@@ -535,12 +535,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
-          "latest news summary apple",
+          "today's mixed news headlines",
+          "latest news summary trump",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Apple and Epic argue over how much Apple should get from purchases made outside the App Store\n\nTechnology Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Store #Acceptable #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Trump declares 100 percent tariffs on many drones and all aircraft parts\n\nTechnology Sentiment: Mixed (+0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Store #Acceptable #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
