@@ -1,11 +1,12 @@
 {
   "date": "2026-08-18",
-  "generated_at_utc": "2026-08-18T14:25:01Z",
+  "generated_at_utc": "2026-08-18T23:30:03Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump",
-    "threats"
+    "trumps",
+    "media",
+    "court"
   ],
   "categories": {
     "world": {
@@ -17,11 +18,18 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3452,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.575, dampened ×0.6 → -0.3452). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.1757,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.293, dampened ×0.6 → -0.1757). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Meta hooked children on Facebook and Instagram, court hears",
+          "url": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 22:11:07 GMT",
+          "summary": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states got under way.",
+          "source": "BBC News"
+        },
         {
           "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
           "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
@@ -30,45 +38,24 @@
           "source": "BBC News"
         },
         {
-          "title": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
-          "url": "https://www.bbc.co.uk/news/articles/c75gv9xnr3po?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 08:07:37 GMT",
-          "summary": "Multiple children are feared to have been conceived using sperm and egg donors which were not the ones selected by the parents.",
+          "title": "Earthquake rocks Spain's historic Granada, injuring three",
+          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 17:15:39 GMT",
+          "summary": "A number of buildings and cars are damaged in the historic city, and the world famous Alhambra palace has temporarily closed.",
           "source": "BBC News"
         },
         {
-          "title": "Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says",
-          "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 05:24:15 GMT",
-          "summary": "After he was shot multiple times, Tupac Shakur refused to cooperate with police and told an officer \"we'll take care of it\", an officer testified.",
+          "title": "Brazil's President Lula hails oil discovery near Amazon river",
+          "url": "https://www.bbc.co.uk/news/articles/c4gd7xd8e8lo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 13:13:54 GMT",
+          "summary": "Environmentalists have heavily criticised the exploratory drilling in the sea off the mouth of the Amazon.",
           "source": "BBC News"
         },
         {
-          "title": "Inside secret police warehouse as Germany targets small boats gangs",
-          "url": "https://www.bbc.co.uk/news/articles/cpq809zrvqdo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 05:02:58 GMT",
-          "summary": "German authorities seize dinghies and life jackets during their first raids under a new law that cracks down on smuggling.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Hayden Panettiere's ex Wladimir Klitschko says family in 'profound shock and grief'",
-          "url": "https://www.bbc.co.uk/news/articles/c5ywe951z80o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 08:44:10 GMT",
-          "summary": "The former heavyweight boxing champion shares a child with the Heroes actress, who died on Sunday.",
-          "source": "BBC News"
-        },
-        {
-          "title": "China censors public mourning as it holds former premier's funeral",
-          "url": "https://www.bbc.co.uk/news/articles/c8dn3rqlyrgo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 07:17:07 GMT",
-          "summary": "While hailing Zhu’s legacy, authorities are wary that the nostalgia could lead to criticisms of Xi’s rule.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Student killed in Philippines Catholic school shooting",
-          "url": "https://www.bbc.co.uk/news/articles/c1e154qjw96o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 03:43:53 GMT",
-          "summary": "The alleged shooter, also a student, later took his own life.",
+          "title": "Lindsay Clancy begged for help before her children's killings, mother-in-law testifies",
+          "url": "https://www.bbc.co.uk/news/articles/c62emm4yp8go?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 17:54:46 GMT",
+          "summary": "Lindsay Clancy has admitted killing her daughter and two sons but has pleaded not guilty to murder, saying she was experiencing postpartum psychosis.",
           "source": "BBC News"
         },
         {
@@ -79,83 +66,97 @@
           "source": "BBC News"
         },
         {
-          "title": "Indian student leader ends hunger strike after 16 days",
-          "url": "https://www.bbc.co.uk/news/articles/cly8m31nvmgo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 07:27:32 GMT",
-          "summary": "Devendra Nath Mahto was part of a larger protest which began weeks ago, demanding exam reforms in Jharkhand state.",
+          "title": "Pakistan top court orders ex-PM Imran Khan be moved to hospital from jail",
+          "url": "https://www.bbc.co.uk/news/articles/cy4kzzlydrro?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 16:00:30 GMT",
+          "summary": "Imran Khan has been imprisoned since 2023 on corruption charges which he says were politically motivated.",
           "source": "BBC News"
         },
         {
-          "title": "Doctors remove 3.1kg stone from man's bladder and claim record",
-          "url": "https://www.bbc.co.uk/news/articles/cg5l9n7d803o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 06:53:11 GMT",
-          "summary": "The bladder stone, which weighs as much as a full-term baby, is believed to be the largest on record.",
+          "title": "Judge swapped in Trump's defamation case against BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgvyz8e27zo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 19:52:32 GMT",
+          "summary": "A judge who was recently nominated by the US president to serve in Florida's federal court will now preside over his $10bn defamation case against the BBC.",
           "source": "BBC News"
         },
         {
-          "title": "Zambia's Hichilema re-elected president as main rival in hiding over alleged threats",
-          "url": "https://www.bbc.co.uk/news/articles/c5y6j4jl03xo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 18 Aug 2026 10:59:22 GMT",
-          "summary": "Hakainde Hichilema says he was “truly humbled” by the victory and promised to work for all Zambians.",
+          "title": "Hayden Panettiere's ex Wladimir Klitschko says family in 'profound shock and grief'",
+          "url": "https://www.bbc.co.uk/news/articles/c5ywe951z80o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 08:44:10 GMT",
+          "summary": "The former heavyweight boxing champion shares a child with the Heroes actress, who died on Sunday.",
           "source": "BBC News"
         },
         {
-          "title": "Norway's king admitted to hospital and put on sick leave",
-          "url": "https://www.bbc.co.uk/news/articles/c4g3qdj1z77o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 17 Aug 2026 21:34:26 GMT",
-          "summary": "The 89-year-old - one of Europe's longest-serving monarchs - is suffering from a rare blood condition.",
+          "title": "Nigeria influencer arrested after seizure of cocaine worth $28m destined for the UK",
+          "url": "https://www.bbc.co.uk/news/articles/c1e155428qyo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 16:26:22 GMT",
+          "summary": "Afolabi Kazeem Micheal has not commented on allegations he is linked to a global drug trafficking network.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Disney and ABC sue Trump's media regulator to stop early licence renewal",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 20:39:36 GMT",
+          "summary": "The network accuses the administration of retaliating against ABC because it \"disapproves of what ABC broadcasts\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Man in Chucky-style mask terrorises Philadelphia residents",
+          "url": "https://www.bbc.co.uk/news/articles/c39em89z4vmo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 18 Aug 2026 20:27:44 GMT",
+          "summary": "\"It was just weird, like some twisted game\": At least half a dozen people were threatened near City Hall last week.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.345). Top story: UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning.",
+        "key_takeaway": "Meta hooked children on Facebook and Instagram, court hears.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.176). Top story: Meta hooked children on Facebook and Instagram, court hears.",
         "key_themes": [
+          "Meta hooked children on Facebook and Instagram, court hears",
           "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-          "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
-          "Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says",
-          "Inside secret police warehouse as Germany targets small boats gangs",
-          "Hayden Panettiere's ex Wladimir Klitschko says family in 'profound shock and grief'"
+          "Earthquake rocks Spain's historic Granada, injuring three",
+          "Brazil's President Lula hails oil discovery near Amazon river",
+          "Lindsay Clancy begged for help before her children's killings, mother-in-law testifies"
         ],
         "notable_headlines": [
+          {
+            "headline": "Meta hooked children on Facebook and Instagram, court hears",
+            "why_it_matters": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states got under way.",
+            "signal": "Risk"
+          },
           {
             "headline": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
             "why_it_matters": "Russia accuses the UK of escalating the Ukraine war by supplying British-made drones as the prime minister vows to support Kyiv in its \"hour of need\".",
             "signal": "Risk"
           },
           {
-            "headline": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
-            "why_it_matters": "Multiple children are feared to have been conceived using sperm and egg donors which were not the ones selected by the parents.",
+            "headline": "Earthquake rocks Spain's historic Granada, injuring three",
+            "why_it_matters": "A number of buildings and cars are damaged in the historic city, and the world famous Alhambra palace has temporarily closed.",
             "signal": "Risk"
           },
           {
-            "headline": "Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says",
-            "why_it_matters": "After he was shot multiple times, Tupac Shakur refused to cooperate with police and told an officer \"we'll take care of it\", an officer testified.",
+            "headline": "Brazil's President Lula hails oil discovery near Amazon river",
+            "why_it_matters": "Environmentalists have heavily criticised the exploratory drilling in the sea off the mouth of the Amazon.",
             "signal": "Risk"
           },
           {
-            "headline": "Inside secret police warehouse as Germany targets small boats gangs",
-            "why_it_matters": "German authorities seize dinghies and life jackets during their first raids under a new law that cracks down on smuggling.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Hayden Panettiere's ex Wladimir Klitschko says family in 'profound shock and grief'",
-            "why_it_matters": "The former heavyweight boxing champion shares a child with the Heroes actress, who died on Sunday.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "China censors public mourning as it holds former premier's funeral",
-            "why_it_matters": "While hailing Zhu’s legacy, authorities are wary that the nostalgia could lead to criticisms of Xi’s rule.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Student killed in Philippines Catholic school shooting",
-            "why_it_matters": "The alleged shooter, also a student, later took his own life.",
+            "headline": "Lindsay Clancy begged for help before her children's killings, mother-in-law testifies",
+            "why_it_matters": "Lindsay Clancy has admitted killing her daughter and two sons but has pleaded not guilty to murder, saying she was experiencing postpartum psychosis.",
             "signal": "Risk"
           },
           {
             "headline": "Kariba ferry death toll rises to 93, making it Zimbabwe's deadliest transport disaster",
             "why_it_matters": "Recovery efforts continue in what is the country's deadliest transport disaster.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Pakistan top court orders ex-PM Imran Khan be moved to hospital from jail",
+            "why_it_matters": "Imran Khan has been imprisoned since 2023 on corruption charges which he says were politically motivated.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Judge swapped in Trump's defamation case against BBC",
+            "why_it_matters": "A judge who was recently nominated by the US president to serve in Florida's federal court will now preside over his $10bn defamation case against the BBC.",
             "signal": "Risk"
           }
         ],
@@ -171,10 +172,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Meta hooked children on Facebook and Instagram, court hears",
             "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-            "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
-            "Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says",
-            "Inside secret police warehouse as Germany targets small boats gangs"
+            "Earthquake rocks Spain's historic Granada, injuring three",
+            "Brazil's President Lula hails oil discovery near Amazon river"
           ],
           "confidence": "Medium"
         },
@@ -184,12 +185,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's negative news headlines",
-          "latest news summary uk",
+          "today's mixed news headlines",
+          "latest news summary meta",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning\n\nWorld Sentiment: Negative (-0.35)\n\nRead the full breakdown: https://tldrnews.info\n\n#Shooting #Accused #Boats #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Meta hooked children on Facebook and Instagram, court hears\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Court #Against #Amazon #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -209,14 +210,7 @@
           "title": "ABC sues Trump’s media regulator over demand for TV license renewals",
           "url": "https://www.theguardian.com/us-news/2026/aug/18/abc-sues-trump-federal-communications-commission",
           "published": "Tue, 18 Aug 2026 13:38:23 GMT",
-          "summary": "<p>Network alleges FCC is trying to send ‘chilling message’ in retaliation for content the administration disapproves of</p><p>ABC has sued the Federal Communications Commission (FCC), arguing that it is being retaliated against for content-based reasons in a move it warns threatens the independence of the press.</p><p>The network filed the lawsuit on Tuesday after being forced to apply early to renew its license to broadcast on the eight local television stations it owns. It is waiting to hear",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Governments’ borrowing costs hit further multi-decade highs as US-Iran peace hopes fade",
-          "url": "https://www.theguardian.com/business/2026/aug/18/governments-borrowing-costs-us-iran-bond-yields-trump",
-          "published": "Tue, 18 Aug 2026 10:54:43 GMT",
-          "summary": "<p>Bond yields in US, UK, Germany France and Japan rise after ceasefire ends and Trump threatens to bomb Oman</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/aug/18/oil-prices-rise-us-iran-ceasefire-ends-uk-wage-growth-slows-cost-of-living-squeeze-live-updates\">Business live – latest updates</a></p></li></ul><p>Government borrowing costs in several advanced economies continued to rise to levels not seen in decades on Tuesday, as hopes of an end to the US-Iran war faded.</p>",
+          "summary": "<p>Network alleges FCC is trying to send ‘chilling message’ in retaliation for content the administration disapproves of</p><p><a href=\"https://www.theguardian.com/media/abc\">ABC</a> has sued the Federal Communications Commission (FCC), arguing that it is being retaliated against for content-based reasons in a move it warns threatens the independence of the press.</p><p>The network filed the lawsuit on Tuesday after being forced to apply early to renew its license to broadcast on the eight local",
           "source": "The Guardian"
         },
         {
@@ -224,6 +218,13 @@
           "url": "https://www.theguardian.com/business/2026/aug/18/oil-prices-rise-us-iran-brent-crude-donald-trump",
           "published": "Tue, 18 Aug 2026 11:50:40 GMT",
           "summary": "<p>Brent crude rises above $90 a barrel for the first time since 30 July after US president tells Tehran to surrender</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/aug/18/oil-prices-rise-us-iran-ceasefire-ends-uk-wage-growth-slows-cost-of-living-squeeze-live-updates\">Business live – latest updates</a></p></li></ul><p>Oil prices have risen again after the two-month window to negotiate a peace deal in the <a href=\"https://www.theguardian.com/world/us-israel-war-on-iran\">US-",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Governments’ borrowing costs hit further multi-decade highs as US-Iran peace hopes fade",
+          "url": "https://www.theguardian.com/business/2026/aug/18/governments-borrowing-costs-us-iran-bond-yields-trump",
+          "published": "Tue, 18 Aug 2026 10:54:43 GMT",
+          "summary": "<p>Bond yields in US, UK, Germany France and Japan rise after ceasefire ends and Trump threatens to bomb Oman</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/aug/18/oil-prices-rise-us-iran-ceasefire-ends-uk-wage-growth-slows-cost-of-living-squeeze-live-updates\">Business live – latest updates</a></p></li></ul><p>Government borrowing costs in several advanced economies continued to rise to levels not seen in decades on Tuesday, as hopes of an end to the US-Iran war faded.</p>",
           "source": "The Guardian"
         },
         {
@@ -295,25 +296,25 @@
         "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.015). Top story: ABC sues Trump’s media regulator over demand for TV license renewals.",
         "key_themes": [
           "ABC sues Trump’s media regulator over demand for TV license renewals",
-          "Governments’ borrowing costs hit further multi-decade highs as US-Iran peace hopes fade",
           "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
+          "Governments’ borrowing costs hit further multi-decade highs as US-Iran peace hopes fade",
           "European farmers face ‘unprecedented crisis’ after successive heatwaves",
           "China’s economy showing signs that slowdown may be extending"
         ],
         "notable_headlines": [
           {
             "headline": "ABC sues Trump’s media regulator over demand for TV license renewals",
-            "why_it_matters": "<p>Network alleges FCC is trying to send ‘chilling message’ in retaliation for content the administration disapproves of</p><p>ABC has sued the Federal Communications Commission (FCC), arguing that it is being retaliated…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Governments’ borrowing costs hit further multi-decade highs as US-Iran peace hopes fade",
-            "why_it_matters": "<p>Bond yields in US, UK, Germany France and Japan rise after ceasefire ends and Trump threatens to bomb Oman</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/aug/18/oil-prices-rise-us-iran-ceasefire…",
+            "why_it_matters": "<p>Network alleges FCC is trying to send ‘chilling message’ in retaliation for content the administration disapproves of</p><p><a href=\"https://www.theguardian.com/media/abc\">ABC</a> has sued the Federal Communications C…",
             "signal": "Unclear"
           },
           {
             "headline": "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
             "why_it_matters": "<p>Brent crude rises above $90 a barrel for the first time since 30 July after US president tells Tehran to surrender</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/aug/18/oil-prices-rise-us-iran-c…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Governments’ borrowing costs hit further multi-decade highs as US-Iran peace hopes fade",
+            "why_it_matters": "<p>Bond yields in US, UK, Germany France and Japan rise after ceasefire ends and Trump threatens to bomb Oman</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/aug/18/oil-prices-rise-us-iran-ceasefire…",
             "signal": "Unclear"
           },
           {
@@ -355,8 +356,8 @@
           ],
           "watch_list": [
             "ABC sues Trump’s media regulator over demand for TV license renewals",
-            "Governments’ borrowing costs hit further multi-decade highs as US-Iran peace hopes fade",
             "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
+            "Governments’ borrowing costs hit further multi-decade highs as US-Iran peace hopes fade",
             "European farmers face ‘unprecedented crisis’ after successive heatwaves"
           ],
           "confidence": "Medium"
@@ -383,11 +384,60 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1736,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.289, dampened ×0.6 → +0.1736). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0453,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.076, dampened ×0.6 → +0.0453). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "SteelSeries’ comfy wireless gaming headset is nearly half off",
+          "url": "https://www.theverge.com/gadgets/981611/steelseries-arctis-nova-3p-deal-sale",
+          "published": "2026-08-18T16:01:01-04:00",
+          "summary": "While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is available at Woot. The SteelSeries Arctis Nova 3P in cyan is on sale for $59.99, a 45 percent discount from their usual $109.99 price. This [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+          "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+          "published": "2026-08-18T15:48:26-04:00",
+          "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+          "published": "2026-08-18T15:28:30-04:00",
+          "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Samsung’s Galaxy Buds 3 Pro are almost half off today",
+          "url": "https://www.theverge.com/gadgets/981525/galaxy-buds-3-pro-dji-pocket-deal-sale",
+          "published": "2026-08-18T13:47:04-04:00",
+          "summary": "If you’re looking for a feature-packed pair of earbuds that won’t break your wallet, Best Buy has the Samsung Galaxy Buds 3 Pro on sale for $139.99. That’s $40 lower than the current Amazon price, and a big discount from their original retail price of $249.99. These well-equipped earbuds feature excellent sound quality, crisp transparency [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "PlayStation&#8217;s wireless gaming speakers launch in November",
+          "url": "https://www.theverge.com/tech/981562/sony-playstation-pulse-elevate-wireless-gaming-speakers-launch-date-preorder",
+          "published": "2026-08-18T13:18:57-04:00",
+          "summary": "Sony's Pulse Elevate wireless gaming speakers are launching on November 12th and will cost $219.99, the company announced on Tuesday. Announced nearly a year ago, the speakers are compatible with a PS5, PlayStation Portal, PC, and Mac, and they include \"studio-inspired planar magnetic drivers\" that offer \"lifelike sound across the entire audible spectrum,\" Sony says. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple squashes EU beef with new App Store rules",
+          "url": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
+          "published": "2026-08-18T12:48:26-04:00",
+          "summary": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagreements with the Commission over business terms and alternative distribution.\" As part of the changes, every developer that distributes apps will be moved to a single set of business terms, and digital transactions for apps distributed [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
+          "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
+          "published": "2026-08-18T12:26:29-04:00",
+          "summary": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing it's public launch. Whether or not the no-steering wheel and no-pedal vehicle is actually ready for public roads, let alone customers, remains very much in doubt. According to The Information, Tesla is planning a public launch of the Cybercab in [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Peacock is raising prices by up to $3",
           "url": "https://www.theverge.com/streaming/981418/peacock-price-increase-august-2026",
@@ -408,107 +458,58 @@
           "published": "2026-08-18T09:30:00-04:00",
           "summary": "Comcast is bringing Wi-Fi motion sensing to millions of routers that are already in customers' homes, turning the devices into activity monitors. A new update to the Xfinity Internet app, arriving today, August 18th, enables the feature on compatible Xfinity routers at no extra cost. Announced as part of its new Xfinity Shield service, WiFi [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "ABC sues the FCC over Trump and Carr&#8217;s campaign of threats",
-          "url": "https://www.theverge.com/streaming/981392/abc-fcc-broadcast-license-lawsuit",
-          "published": "2026-08-18T09:27:43-04:00",
-          "summary": "ABC is suing the Federal Communications Commission over claims the agency \"waged a retaliatory campaign\" against its networks over the content they broadcast. In a lawsuit filed in federal court on Tuesday, ABC and its parent company Disney accuse the FCC of \"punishing ABC for its speech\" by threatening its broadcast licenses. It's the latest [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Polaroid’s new Pokémon collection captures memories, not Pikachus",
-          "url": "https://www.theverge.com/tech/981141/polaroid-pokemon-pikachu-now-go-generation-3-instant-camera-film",
-          "published": "2026-08-18T09:00:00-04:00",
-          "summary": "Polaroid announced a new collection of cameras, instant film, and accessories all featuring limited-edition designs to help celebrate the 30th anniversary of Pok&#233;mon. The new collection goes a little harder than Fujifilm's Pok&#233;mon collaboration from five years ago with the introduction of Polaroid film printed with various characters around the frames, including Pikachu and Snorlax. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Firefox&#8217;s Smart Window promises a better AI browser",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
-          "published": "2026-08-18T09:00:00-04:00",
-          "summary": "Starting today, AI chats in Firefox's Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa. Smart Window can also now automatically suggest tab groups and show visual previews of pages you previously visited when you search your browsing history using natural [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Google&#8217;s Pet Memory forgot who my cats are",
-          "url": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
-          "published": "2026-08-18T08:01:29-04:00",
-          "summary": "One of the best things my smart home does is help me care for my pets, and security cameras are particularly useful for keeping track of my many critters. But the barrage of notifications they send often means I miss important ones. So, when Google announced its new Pet Memory feature for Gemini for Home, [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The Verge Guide to Pets",
-          "url": "https://www.theverge.com/tech/975556/pets-tech-autofeeder-litter-robot-scale",
-          "published": "2026-08-18T08:01:28-04:00",
-          "summary": "Ah, the relationship between animals and the technology they can’t quite understand.&#160; Today, it seems like there’s a high-tech solution to every element of pet ownership, with devices on the market designed to keep pets fed, cleaned, watched over, and entertained. And if you have a pet you know: nothing is too good — or [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "My parrot ate my keyboard",
-          "url": "https://www.theverge.com/tech/978402/parrot-ate-keyboard-protect",
-          "published": "2026-08-18T08:00:00-04:00",
-          "summary": "One of the great joys in life is having pets. The unconditional love, the snuggles, the excitement they show when you get home - these things add an emotional fulfillment to daily existence that can't be achieved in another way. I think everyone's life would be better with a pet (or two) in their lives. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Oops! My cat is an iPad kid",
-          "url": "https://www.theverge.com/tech/980226/cat-ipad-kid-pet-tech-games-youtube",
-          "published": "2026-08-18T07:30:00-04:00",
-          "summary": "Pets, like children, come with the responsibility to keep them happy, healthy, and mentally stimulated - obligations I readily committed to before getting my cat, Trevor. I work from home, so he's never lonely, and play with him using a mountain of toys at every opportunity outside of my working hours. But younger cats can [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Peacock is raising prices by up to $3.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.174). Top story: Peacock is raising prices by up to $3.",
+        "key_takeaway": "SteelSeries’ comfy wireless gaming headset is nearly half off.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is neutral (0.045). Top story: SteelSeries’ comfy wireless gaming headset is nearly half off.",
         "key_themes": [
-          "Peacock is raising prices by up to $3",
-          "Coyote vs. Acme is even funnier because Warner Bros. Discovery tried to kill it",
-          "Comcast is turning millions of its routers into motion detectors",
-          "ABC sues the FCC over Trump and Carr&#8217;s campaign of threats",
-          "Polaroid’s new Pokémon collection captures memories, not Pikachus"
+          "SteelSeries’ comfy wireless gaming headset is nearly half off",
+          "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+          "OpenAI lays out new security changes after its AI hacked Hugging Face",
+          "Samsung’s Galaxy Buds 3 Pro are almost half off today",
+          "PlayStation&#8217;s wireless gaming speakers launch in November"
         ],
         "notable_headlines": [
           {
+            "headline": "SteelSeries’ comfy wireless gaming headset is nearly half off",
+            "why_it_matters": "While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is available at Woot. The St…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+            "why_it_matters": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Willi…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+            "why_it_matters": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and al…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Samsung’s Galaxy Buds 3 Pro are almost half off today",
+            "why_it_matters": "If you’re looking for a feature-packed pair of earbuds that won’t break your wallet, Best Buy has the Samsung Galaxy Buds 3 Pro on sale for $139.99. That’s $40 lower than the current Amazon price, and a big discount from…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "PlayStation&#8217;s wireless gaming speakers launch in November",
+            "why_it_matters": "Sony's Pulse Elevate wireless gaming speakers are launching on November 12th and will cost $219.99, the company announced on Tuesday. Announced nearly a year ago, the speakers are compatible with a PS5, PlayStation Porta…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Apple squashes EU beef with new App Store rules",
+            "why_it_matters": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagreements with the Commission over business terms and alternative distribution.\" As part of the changes,…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
+            "why_it_matters": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing it's public launch. Whether or not the no-steering wheel and no-pedal vehicle is actually ready for public …",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Peacock is raising prices by up to $3",
             "why_it_matters": "Peacock is raising prices across its streaming plans once again, with the company's cheapest ad-supported Select tier going from $7.99 to $8.99 / month, as reported earlier by Variety. The Premium plan with ads is increa…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Coyote vs. Acme is even funnier because Warner Bros. Discovery tried to kill it",
-            "why_it_matters": "There's an argument to be made that people wouldn't be all that interested in Coyote vs. Acme if it weren't for the way David Zaslav tried to kill it. By trying to shelve the project, Warner Bros. Discovery only drew att…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Comcast is turning millions of its routers into motion detectors",
-            "why_it_matters": "Comcast is bringing Wi-Fi motion sensing to millions of routers that are already in customers' homes, turning the devices into activity monitors. A new update to the Xfinity Internet app, arriving today, August 18th, ena…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "ABC sues the FCC over Trump and Carr&#8217;s campaign of threats",
-            "why_it_matters": "ABC is suing the Federal Communications Commission over claims the agency \"waged a retaliatory campaign\" against its networks over the content they broadcast. In a lawsuit filed in federal court on Tuesday, ABC and its p…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Polaroid’s new Pokémon collection captures memories, not Pikachus",
-            "why_it_matters": "Polaroid announced a new collection of cameras, instant film, and accessories all featuring limited-edition designs to help celebrate the 30th anniversary of Pok&#233;mon. The new collection goes a little harder than Fuj…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Firefox&#8217;s Smart Window promises a better AI browser",
-            "why_it_matters": "Starting today, AI chats in Firefox's Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa. Smart Window can also now automatically suggest t…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Google&#8217;s Pet Memory forgot who my cats are",
-            "why_it_matters": "One of the best things my smart home does is help me care for my pets, and security cameras are particularly useful for keeping track of my many critters. But the barrage of notifications they send often means I miss imp…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The Verge Guide to Pets",
-            "why_it_matters": "Ah, the relationship between animals and the technology they can’t quite understand.&#160; Today, it seems like there’s a high-tech solution to every element of pet ownership, with devices on the market designed to keep …",
-            "signal": "Opportunity"
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -523,10 +524,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Peacock is raising prices by up to $3",
-            "Coyote vs. Acme is even funnier because Warner Bros. Discovery tried to kill it",
-            "Comcast is turning millions of its routers into motion detectors",
-            "ABC sues the FCC over Trump and Carr&#8217;s campaign of threats"
+            "SteelSeries’ comfy wireless gaming headset is nearly half off",
+            "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+            "OpenAI lays out new security changes after its AI hacked Hugging Face",
+            "Samsung’s Galaxy Buds 3 Pro are almost half off today"
           ],
           "confidence": "Medium"
         },
@@ -536,12 +537,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary peacock",
+          "today's neutral news headlines",
+          "latest news summary steelseries’",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Peacock is raising prices by up to $3\n\nTechnology Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Acme #Because #Better #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: SteelSeries’ comfy wireless gaming headset is nearly half off\n\nTechnology Sentiment: Neutral (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Gaming #Half #Wireless #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
