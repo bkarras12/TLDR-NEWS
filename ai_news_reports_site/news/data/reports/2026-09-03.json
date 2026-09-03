@@ -1,10 +1,11 @@
 {
   "date": "2026-09-03",
-  "generated_at_utc": "2026-09-03T07:33:45Z",
+  "generated_at_utc": "2026-09-03T17:24:48Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trade"
+    "trade",
+    "bank"
   ],
   "categories": {
     "world": {
@@ -16,9 +17,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3884,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.647, dampened ×0.6 → -0.3884). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0088,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.015, dampened ×0.6 → +0.0088). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -29,6 +30,20 @@
           "source": "BBC News"
         },
         {
+          "title": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
+          "url": "https://www.bbc.co.uk/news/articles/clyqw44w142o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 11:35:52 GMT",
+          "summary": "Millions of people have been exposed to the smog, with more than 12,000 children suffering respiratory issues.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Feminist activist and journalist Gloria Steinem dies, aged 92",
+          "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 13:52:18 GMT",
+          "summary": "Her foundation said she \"passed away peacefully\" at her home in New York City, \"surrounded by many who loved her\".",
+          "source": "BBC News"
+        },
+        {
           "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
           "url": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 03 Sep 2026 05:00:04 GMT",
@@ -36,126 +51,112 @@
           "source": "BBC News"
         },
         {
-          "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 02 Sep 2026 17:33:45 GMT",
-          "summary": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
+          "title": "Palestinian teens killed during settler attack on West Bank village, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cj6482r6yl4o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 15:05:57 GMT",
+          "summary": "Al-Mughayyir's council says they were trying to stop settlers stealing sheep, but the Israeli military says they threw stones at its troops.",
           "source": "BBC News"
         },
         {
-          "title": "Could Lindsay Clancy trial end in a mistrial? Here are the jury's options",
-          "url": "https://www.bbc.co.uk/news/articles/c93vgv4kr49o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 02 Sep 2026 23:56:29 GMT",
-          "summary": "Jurors have five options before them as they decide the fate of the former nurse charged with murdering her three children.",
+          "title": "Anthony Joshua's driver attempted overtake before fatal crash, trial hears",
+          "url": "https://www.bbc.co.uk/news/articles/cd68jv9d21zo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 13:54:49 GMT",
+          "summary": "Adeniyi Mobolaji Kayode is charged in Nigeria with offences including causing death by dangerous driving.",
           "source": "BBC News"
         },
         {
           "title": "Trump $1 coin makes him first living president on US currency in a century",
           "url": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 03 Sep 2026 03:39:53 GMT",
+          "published": "Thu, 03 Sep 2026 15:35:47 GMT",
           "summary": "The US Mint special edition is stamped with a portrait of Trump alongside the words \"LIBERTY\" and \"IN GOD WE TRUST\"",
           "source": "BBC News"
         },
         {
-          "title": "Maltese tycoon acquitted of orchestrating murder of renowned journalist",
-          "url": "https://www.bbc.co.uk/news/articles/c5ye295pxgxo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 02 Sep 2026 19:05:31 GMT",
-          "summary": "Daphne Caruana Galizia exposed corruption and money laundering schemes in Malta before she was killed by a car bomb in 2017.",
+          "title": "More than 80 migrants feared dead after boat rescued off Canary Islands",
+          "url": "https://www.bbc.co.uk/news/articles/c33kzv7kly4o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 10:37:06 GMT",
+          "summary": "Rescuers found 44 survivors on board the vessel but bad weather meant they had to leave five bodies behind.",
           "source": "BBC News"
         },
         {
-          "title": "'Below the dignity of the office': Canadian officials condemn Pete Hegseth cadet post",
-          "url": "https://www.bbc.co.uk/news/articles/clyk32nr1emo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 02 Sep 2026 19:20:50 GMT",
-          "summary": "The US Defence Secretary is facing criticism for his apparent online mocking of members of Canada's cadet programme.",
+          "title": "Vance's Antichrist comments are a 'common belief', his friend tells BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn4kwzr8gd9o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 13:07:02 GMT",
+          "summary": "The US vice-president recently mused with a Christian podcast host on whether the end of the world was nigh.",
           "source": "BBC News"
         },
         {
-          "title": "Protests in Spain against government's handling of Ceuta migrant crisis",
-          "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 02 Sep 2026 21:34:27 GMT",
-          "summary": "Spanish opposition parties accuse Prime Minister Pedro Sánchez of abandoning the residents of Ceuta.",
+          "title": "Liechtenstein MPs vote to legalise abortion despite threat of veto",
+          "url": "https://www.bbc.co.uk/news/articles/c9dwedep38po?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 11:30:38 GMT",
+          "summary": "Organisers of the citizens' initiative say they have popular support, even though the all-powerful monarch has said he will veto the legislation.",
           "source": "BBC News"
         },
         {
-          "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
-          "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 03 Sep 2026 03:21:24 GMT",
-          "summary": "Russia is accused of growing increasingly reckless after Berlin blamed Russia for a failed drone attack on Leipzig airport.",
+          "title": "Kenyan president orders crackdown on foreigners operating small businesses",
+          "url": "https://www.bbc.co.uk/news/articles/c9861x5pzgxo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 10:59:14 GMT",
+          "summary": "It comes amid concerns over the growing number of traders from neighbouring countries.",
           "source": "BBC News"
         },
         {
-          "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
-          "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 02 Sep 2026 15:33:19 GMT",
-          "summary": "Iranian media reports two children were among those killed when shrapnel hit a home. Iran then launched missiles and drones at US targets in the Middle East.",
-          "source": "BBC News"
-        },
-        {
-          "title": "LA Clippers fined $30m over Leonard pay scandal",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/czjze2jj8dro?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 03 Sep 2026 06:17:37 GMT",
-          "summary": "The LA Clippers are fined $30m by the NBA for violating salary rules in order to funnel millions of dollars to star player Kawhi Leonard.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Why Nepal floods should worry India",
-          "url": "https://www.bbc.co.uk/news/articles/cn8e940gz10o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 03 Sep 2026 00:58:44 GMT",
-          "summary": "The disaster comes as a warning as climate change raises shared Himalayan risks.",
+          "title": "'Beautiful, vibrant' Disney star Carla Jeffery dies aged 33",
+          "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 03 Sep 2026 09:37:34 GMT",
+          "summary": "Jeffery was known for playing cheerleader Bree in 2018 Disney Channel movie Zombies and two sequels.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
         "key_takeaway": "UN warns of 'supersized' El Niño as countries prepare for impact.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.388). Top story: UN warns of 'supersized' El Niño as countries prepare for impact.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.009). Top story: UN warns of 'supersized' El Niño as countries prepare for impact.",
         "key_themes": [
           "UN warns of 'supersized' El Niño as countries prepare for impact",
+          "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
+          "Feminist activist and journalist Gloria Steinem dies, aged 92",
           "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-          "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-          "Could Lindsay Clancy trial end in a mistrial? Here are the jury's options",
-          "Trump $1 coin makes him first living president on US currency in a century"
+          "Palestinian teens killed during settler attack on West Bank village, officials say"
         ],
         "notable_headlines": [
           {
             "headline": "UN warns of 'supersized' El Niño as countries prepare for impact",
             "why_it_matters": "The WMO has warned that the natural weather phenomenon could bring disruption to global economies.",
-            "signal": "Risk"
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
+            "why_it_matters": "Millions of people have been exposed to the smog, with more than 12,000 children suffering respiratory issues.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Feminist activist and journalist Gloria Steinem dies, aged 92",
+            "why_it_matters": "Her foundation said she \"passed away peacefully\" at her home in New York City, \"surrounded by many who loved her\".",
+            "signal": "Unclear"
           },
           {
             "headline": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
             "why_it_matters": "Once-rival criminal groups are being forced to work together because of a shortage of small boats, a BBC investigation has found.",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
-            "headline": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-            "why_it_matters": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
-            "signal": "Risk"
+            "headline": "Palestinian teens killed during settler attack on West Bank village, officials say",
+            "why_it_matters": "Al-Mughayyir's council says they were trying to stop settlers stealing sheep, but the Israeli military says they threw stones at its troops.",
+            "signal": "Unclear"
           },
           {
-            "headline": "Could Lindsay Clancy trial end in a mistrial? Here are the jury's options",
-            "why_it_matters": "Jurors have five options before them as they decide the fate of the former nurse charged with murdering her three children.",
-            "signal": "Risk"
+            "headline": "Anthony Joshua's driver attempted overtake before fatal crash, trial hears",
+            "why_it_matters": "Adeniyi Mobolaji Kayode is charged in Nigeria with offences including causing death by dangerous driving.",
+            "signal": "Unclear"
           },
           {
             "headline": "Trump $1 coin makes him first living president on US currency in a century",
             "why_it_matters": "The US Mint special edition is stamped with a portrait of Trump alongside the words \"LIBERTY\" and \"IN GOD WE TRUST\"",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
-            "headline": "Maltese tycoon acquitted of orchestrating murder of renowned journalist",
-            "why_it_matters": "Daphne Caruana Galizia exposed corruption and money laundering schemes in Malta before she was killed by a car bomb in 2017.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "'Below the dignity of the office': Canadian officials condemn Pete Hegseth cadet post",
-            "why_it_matters": "The US Defence Secretary is facing criticism for his apparent online mocking of members of Canada's cadet programme.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Protests in Spain against government's handling of Ceuta migrant crisis",
-            "why_it_matters": "Spanish opposition parties accuse Prime Minister Pedro Sánchez of abandoning the residents of Ceuta.",
-            "signal": "Risk"
+            "headline": "More than 80 migrants feared dead after boat rescued off Canary Islands",
+            "why_it_matters": "Rescuers found 44 survivors on board the vessel but bad weather meant they had to leave five bodies behind.",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -171,9 +172,9 @@
           ],
           "watch_list": [
             "UN warns of 'supersized' El Niño as countries prepare for impact",
-            "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-            "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-            "Could Lindsay Clancy trial end in a mistrial? Here are the jury's options"
+            "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
+            "Feminist activist and journalist Gloria Steinem dies, aged 92",
+            "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply"
           ],
           "confidence": "Medium"
         },
@@ -183,12 +184,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's negative news headlines",
+          "today's neutral news headlines",
           "latest news summary un",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: UN warns of 'supersized' El Niño as countries prepare for impact\n\nWorld Sentiment: Negative (-0.39)\n\nRead the full breakdown: https://tldrnews.info\n\n#Saudi #Acquitted #Against #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: UN warns of 'supersized' El Niño as countries prepare for impact\n\nWorld Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Boat #Across #Activist #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -199,11 +200,32 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.1222,
+        "score": 0.1853,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.204, dampened ×0.6 → +0.1222). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.309, dampened ×0.6 → +0.1853). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise – as it happened",
+          "url": "https://www.theguardian.com/business/live/2026/sep/03/uk-mortgage-rates-set-to-rise-bond-sell-off-borrowing-costs-latest-news-updates",
+          "published": "Thu, 03 Sep 2026 16:21:16 GMT",
+          "summary": "<p>Rolling coverage of the latet economic and financial news</p><p><strong>Other European government borrowing costs are dipping this morning too.</strong></p><p>The yield on 10-year German bunds is down 1.5bps to 3.36%, while French 10-year bond yields are 1.5bps lower at 4.23%.</p> <a href=\"https://www.theguardian.com/business/live/2026/sep/03/uk-mortgage-rates-set-to-rise-bond-sell-off-borrowing-costs-latest-news-updates\">Continue reading...</a>",
+          "source": "The Guardian"
+        },
+        {
+          "title": "CBS brings back Norah O’Donnell to co-anchor morning show amid ratings challenges",
+          "url": "https://www.theguardian.com/media/2026/sep/03/cbs-norah-odonnell-morning-show",
+          "published": "Thu, 03 Sep 2026 14:57:09 GMT",
+          "summary": "<p>O’Donnell, who co-hosted show from 2012 to 2019, was recently named correspondent for revamped 60 Minutes</p><p>CBS is bringing back journalist Norah O’Donnell to co-anchor the channel’s morning show, a role she previously held from 2012 to 2019. The move comes amid ratings struggles and <a href=\"https://www.theguardian.com/us-news/2026/aug/07/bari-weiss-cbs-news-60-minutes\">broader challenges at the network</a>.</p><p>O’Donnell, who was also recently promoted from contributor to full-time co",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Dutch central bank moves 86 tonnes of gold to UK from US and Canada, citing ‘geopolitical unrest’",
+          "url": "https://www.theguardian.com/world/2026/sep/03/netherlands-gold-dutch-central-bank-uk-us-and-canada-geopolitical-unrest",
+          "published": "Wed, 02 Sep 2026 23:47:15 GMT",
+          "summary": "<p>Bank says gold reserves held in London could be traded more easily and the move will allow it to respond more rapidly in a ‘crisis situation’</p><p>The Dutch central bank says it has moved 86 tonnes of its gold reserves out of the US and Canada to London, citing “increasing geopolitical unrest”.</p><p>De Nederlandsche Bank (DNB) said gold reserves held in London could be traded more easily than those held in New York and Ottawa.</p> <a href=\"https://www.theguardian.com/world/2026/sep/03/nethe",
+          "source": "The Guardian"
+        },
         {
           "title": "Teamsters union leaders support Republicans despite members endorsing Democrats",
           "url": "https://www.theguardian.com/us-news/2026/sep/02/teamsters-union-republican-endorsement",
@@ -247,27 +269,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "‘Revenge of the Rust belt’: Starbucks film-maker on Baristas vs Billionaires",
-          "url": "https://www.theguardian.com/business/2026/aug/31/starbucks-documentary-baristas-billionaires",
-          "published": "Mon, 31 Aug 2026 11:00:24 GMT",
-          "summary": "<p>Director Mark Mori followed coffee chain workers’ struggle to unionize: ‘These young kids are so inspirational’</p><p>As the food service industry was pushed on to the frontlines of the Covid-19 pandemic in 2021, workers at Starbucks stores in the Buffalo region of New York went public to announce their union-organizing campaign.</p><p>Their efforts, and Starbucks’ responses, have culminated in one of the most expansive union-organizing campaigns – and one of the most aggressive union-<em>bus",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
-          "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude",
-          "published": "Mon, 31 Aug 2026 12:42:05 GMT",
-          "summary": "<p>AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models</p><p>All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot.</p><p>Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted",
-          "source": "The Guardian"
-        },
-        {
-          "title": "AI could cause global economic downturn, Bank of England governor tells G20",
-          "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
-          "published": "Mon, 31 Aug 2026 09:00:47 GMT",
-          "summary": "<p>Andrew Bailey, in role as financial stability watchdog chief, warns advanced models risk destabilising system</p><p>The Bank of England’s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most advanced artificial intelligence technology.</p><p>In a two-page letter sent to international finance ministers and central bank governors as part of his role as chair of the international Financial Stability Board (FSB), Bailey said “frontier” AI mode",
-          "source": "The Guardian"
-        },
-        {
           "title": "Summer box office 2026: what can we learn from the hits and misses?",
           "url": "https://www.theguardian.com/film/2026/sep/01/summer-movie-hits-misses",
           "published": "Tue, 01 Sep 2026 09:00:04 GMT",
@@ -290,16 +291,31 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Teamsters union leaders support Republicans despite members endorsing Democrats.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.122). Top story: Teamsters union leaders support Republicans despite members endorsing Democrats.",
+        "key_takeaway": "Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise – as it happened.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.185). Top story: Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise – as it happened.",
         "key_themes": [
+          "Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise – as it happened",
+          "CBS brings back Norah O’Donnell to co-anchor morning show amid ratings challenges",
+          "Dutch central bank moves 86 tonnes of gold to UK from US and Canada, citing ‘geopolitical unrest’",
           "Teamsters union leaders support Republicans despite members endorsing Democrats",
-          "Tim Cook handed $47m package for new role as executive chair of Apple",
-          "Global bond sell-off intensifies as US-Iran tensions stoke inflation fears",
-          "Pentagon official overseeing military AI sold millions worth of stock in AI firm",
-          "US trade regulator and 22 states accuse Amazon of taking $20bn with secret surcharges"
+          "Tim Cook handed $47m package for new role as executive chair of Apple"
         ],
         "notable_headlines": [
+          {
+            "headline": "Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise – as it happened",
+            "why_it_matters": "<p>Rolling coverage of the latet economic and financial news</p><p><strong>Other European government borrowing costs are dipping this morning too.</strong></p><p>The yield on 10-year German bunds is down 1.5bps to 3.36%,…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "CBS brings back Norah O’Donnell to co-anchor morning show amid ratings challenges",
+            "why_it_matters": "<p>O’Donnell, who co-hosted show from 2012 to 2019, was recently named correspondent for revamped 60 Minutes</p><p>CBS is bringing back journalist Norah O’Donnell to co-anchor the channel’s morning show, a role she previ…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Dutch central bank moves 86 tonnes of gold to UK from US and Canada, citing ‘geopolitical unrest’",
+            "why_it_matters": "<p>Bank says gold reserves held in London could be traded more easily and the move will allow it to respond more rapidly in a ‘crisis situation’</p><p>The Dutch central bank says it has moved 86 tonnes of its gold reserv…",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Teamsters union leaders support Republicans despite members endorsing Democrats",
             "why_it_matters": "<p>Sean O’Brien, president of 1.3 million-strong union, was also first to speak at the Republican national convention in 2024</p><p>The powerful Teamsters union is backing Republican candidates in the 2026 election cycle…",
@@ -324,21 +340,6 @@
             "headline": "US trade regulator and 22 states accuse Amazon of taking $20bn with secret surcharges",
             "why_it_matters": "<p>FTC alleges in lawsuit that online retailer ‘secretly and systematically overcharged’ advertisers for years</p><p>The US’s main trade regulator and 22 states sued <a href=\"https://www.theguardian.com/technology/amazon…",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "As US-Canada tensions flare, who’s calling the shots in Trump’s trade team?",
-            "why_it_matters": "<p>US trade representative Jamieson Greer has a level-headed reputation but commerce secretary Howard Lutnick and White House adviser Peter Navarro also have key roles</p><p>Having reportedly <a href=\"https://www.nytimes…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "‘Revenge of the Rust belt’: Starbucks film-maker on Baristas vs Billionaires",
-            "why_it_matters": "<p>Director Mark Mori followed coffee chain workers’ struggle to unionize: ‘These young kids are so inspirational’</p><p>As the food service industry was pushed on to the frontlines of the Covid-19 pandemic in 2021, work…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
-            "why_it_matters": "<p>AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models</p><p>All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillio…",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -353,10 +354,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Teamsters union leaders support Republicans despite members endorsing Democrats",
-            "Tim Cook handed $47m package for new role as executive chair of Apple",
-            "Global bond sell-off intensifies as US-Iran tensions stoke inflation fears",
-            "Pentagon official overseeing military AI sold millions worth of stock in AI firm"
+            "Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise – as it happened",
+            "CBS brings back Norah O’Donnell to co-anchor morning show amid ratings challenges",
+            "Dutch central bank moves 86 tonnes of gold to UK from US and Canada, citing ‘geopolitical unrest’",
+            "Teamsters union leaders support Republicans despite members endorsing Democrats"
           ],
           "confidence": "Medium"
         },
@@ -367,11 +368,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary teamsters",
+          "latest news summary bond",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Teamsters union leaders support Republicans despite members endorsing Democrats\n\nBusiness Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Tensions #Trade #20bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Bond market turmoil eases, as Bank of England chief economist argues for interest rate rise – as it...\n\nBusiness Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Bank #Bond #20bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -382,131 +383,131 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.4201,
-        "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.700, dampened ×0.6 → +0.4201). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.2278,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.380, dampened ×0.6 → +0.2278). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Anker’s Sleep Speaker uses radar and flower power to help you relax",
-          "url": "https://www.theverge.com/tech/985689/anker-put-radar-and-flower-power-into-a-sleep-speaker",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "Anker's aptly named Sleep Speaker promises to track and enhance sleep without a wearable. It uses millimeter-wave radar (60GHz) blasting from your nightstand to track micro-movements in your chest and body to continuously monitor your heart rate and breathing to enhance whatever sleep stage you're in. It also embeds lots of hippie shit. If I'm [&#8230;]",
+          "title": "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers",
+          "url": "https://www.theverge.com/news/989166/microsoft-xbox-cloud-gaming-hourly-limits-changes",
+          "published": "2026-09-03T13:00:00-04:00",
+          "summary": "Microsoft is announcing some major changes to Xbox Cloud Gaming today, less than a year after opening up cloud gaming to its Xbox Game Pass Premium and Essential tiers. While all Game Pass plans have included unlimited cloud gaming over the past year, from November this will be limited to just 15 hours on Ultimate, [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Anker’s Soundcore is bringing its incredible call quality to more headphones",
-          "url": "https://www.theverge.com/tech/986330/soundcore-headphones-earbuds-announcement-ifa-2026",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "After introducing the Thus processing chip in April and releasing it with the Liberty 5 Pro series earbuds, Soundcore is bringing it to more audio products. The Thus chip is behind the best call quality I've ever heard from a pair of earbuds or headphones, virtually eliminating ambient sounds from the speaker's environment. At IFA [&#8230;]",
+          "title": "Microsoft opens up Xbox Cloud Gaming with new pay-as-you-go option",
+          "url": "https://www.theverge.com/news/989211/microsoft-xbox-cloud-gaming-pay-as-you-go-option",
+          "published": "2026-09-03T13:00:00-04:00",
+          "summary": "Microsoft says it will let anyone access Xbox Cloud Gaming in November, without the need to subscribe to Xbox Game Pass. The change to a pay-as-you-go model is part of some sweeping changes to Xbox Cloud Gaming today, and is designed for people who don't use cloud access enough to warrant a monthly subscription. \"Players [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Anker announces its first over-the-counter hearing aids",
-          "url": "https://www.theverge.com/tech/986377/ankers-first-otc-hearing-aids-ifa-2026",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "In what could be fortuitous timing for hearing aid users, Anker announced its first over-the-counter (OTC) hearing aids at IFA 2026. It was only a couple months ago when LXE Hearing, the parent company for Eargo and Lexie Hearing - two major OTC manufacturers in the US - decided to end US operations and exit [&#8230;]",
+          "title": "I held the first truly bezel-free phone",
+          "url": "https://www.theverge.com/tech/985009/tecno-bezelless-concept-phone-ifa",
+          "published": "2026-09-03T12:00:00-04:00",
+          "summary": "Cast your mind back a decade or so, and smartphone makers were obsessed with shrinking the bezel on phones. Screens got bigger, the black bars around them got smaller, and for a while it looked like truly edge-to-edge displays were imminent. Then, progress just stopped. The bezel shrunk down until it was a millimeter or [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Anker’s new printer works directly on fabrics",
-          "url": "https://www.theverge.com/tech/986948/anker-eufymake-personal-fabric-printer-dtg-dtf-ifa",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "After introducing a consumer-friendly UV printer last year capable of printing designs directly on materials like wood, metal, glass, and acrylic, Anker's eufyMake brand is introducing a new machine that can print directly on fabrics. With an expected launch sometime in the spring of 2027, Anker hasn't yet revealed an official name for the new [&#8230;]",
+          "title": "Circular’s new smart rings add contactless payments and vibrating alerts",
+          "url": "https://www.theverge.com/tech/988517/circular-ring-3-pro-slim-nfc-contactless-payment-vibrating-alerts",
+          "published": "2026-09-03T12:00:00-04:00",
+          "summary": "Circular announced its new Ring 3 Series today as a follow-up to the Ring 2 that debuted at CES 2025 with upgraded sensors and FDA-cleared atrial fibrillation detection. The new Ring 3 collection consists of both a Pro model that carries forward those same health-tracking features, and a smaller Slim option that offers more limited [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Anker’s new MindBase is an AI-powered brain for your smart home",
-          "url": "https://www.theverge.com/tech/987936/anker-eufy-mindbase-ai-security-camera-system-matter",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "Anker is launching the Eufy MindBase, a local AI hub for its security cameras that runs an on-device, Anker-developed LLM, which the company says can process your footage without it ever leaving your home. It's also announcing a handful of other smart home security products at the IFA tech show in Berlin this week, including [&#8230;]",
+          "title": "The Moto Watch Ultra is a return to Wear OS",
+          "url": "https://www.theverge.com/gadgets/988734/moto-watch-ultra-release-date-price-specs-wear-os-ifa",
+          "published": "2026-09-03T12:00:00-04:00",
+          "summary": "Just a few months after getting back into the smartwatch game, Motorola is targeting the premium end of the market with the first Moto Watch Ultra. It comes with some upgrades from the recent Moto Watch - most obviously the jump to Wear OS - but lacks the outdoorsy features that would make it a [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Philips Hue adds Nanoleaf&#8217;s light panels to its ecosystem with a $40 module",
-          "url": "https://www.theverge.com/tech/988144/philips-hue-nanoleaf-smart-wall-panels-integration-module",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "Philips Hue is finally adding wall panels into its smart lighting portfolio. But instead of developing its own, it's partnered with longtime rival Nanoleaf, the company that invented the smart modular wall panel category. Starting today, September 3rd, if you own Nanoleaf Hexagon, Triangle, or Mini Triangle wall panels, you can integrate them into your [&#8230;]",
+          "title": "Lenovo’s new MacBook Neo competitor comes in two sizes and seven colors",
+          "url": "https://www.theverge.com/tech/988765/lenovo-ideapad-vibe-laptop-macbook-neo-competitor-ifa-colors-price-specs",
+          "published": "2026-09-03T12:00:00-04:00",
+          "summary": "Lenovo is announcing the IdeaPad Vibe, a productivity laptop aimed at taking on the MacBook Neo with a similar starting price and a wider range of colors. The Vibe comes in 14- and 15-inch sizes, with AMD and Qualcomm chip options due out in October and November, respectively. Intel versions (likely Wildcat Lake) are set [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Anker put a display on the case of its new sleepbuds",
-          "url": "https://www.theverge.com/tech/988265/anker-sleep-earbuds-4-pro-price-date-specs",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "Anker just announced its new Soundcore Sleep Earbuds 4 and 4 Pro for side-sleepers. They include the same audio masking tech found on last year's A30 sleepbuds (that can really silent a snoring partner) only now with longer battery life and improved ANC to help silent other noises in the environment. Both sets of buds [&#8230;]",
+          "title": "This ultra-thin Lenovo laptop concept uses solid-state cooling",
+          "url": "https://www.theverge.com/tech/988882/lenovo-project-aeroblade-concept-frore-airjet-silent-cooling",
+          "published": "2026-09-03T12:00:00-04:00",
+          "summary": "Lenovo is announcing a new concept laptop for IFA 2026 that uses solid-state cooling instead of traditional fans, making it incredibly thin and super light. The 14-inch Project AeroBlade concept laptop is less than 10mm thick and weighs under 1.8 pounds / 830g. For reference, recent ThinkPad X1 Carbons are around 14mm at their thickest [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Philips Hue adds more affordable options for syncing smart lights with your TV",
-          "url": "https://www.theverge.com/tech/988363/philips-hue-play-screen-sync-entertainment-lighting",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "Philips Hue is slashing the steep entry price of its entertainment sync offerings. The new stripped-down Sync Box 4K starts at $150, compared to $385 for the 8K model. The brand also launched its first camera-based solution, the Play Screen Sync, for $119.99. Both were on display this week at the IFA tech show in [&#8230;]",
+          "title": "Nvidia’s new RTX Spark laptops launch in October with two different configs",
+          "url": "https://www.theverge.com/news/989133/nvidia-rtx-spark-laptops-n1x-specifications",
+          "published": "2026-09-03T12:00:00-04:00",
+          "summary": "All the rumors leading up to Nvidia's announcement of its Arm-based RTX Spark chips over the summer mentioned two specific chips: the N1X and N1. While the N1 won't be arriving this year, Nvidia says its N1X chip is arriving in RTX Spark laptops in two different configurations in October. You'll be able to buy [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Now you can tell the Hue app how you want your smart lights to work",
-          "url": "https://www.theverge.com/tech/988953/philips-hue-smart-lighting-custom-ai-behaviors-sonos-integration",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "Philips Hue's AI assistant can now build automations based on natural language, letting you describe what you want your lights to do. The feature, called Custom AI Behaviors, goes beyond simply changing colors or creating a scene and lets users orchestrate complex automations that weren't previously achievable in the Hue app. Announced at a press [&#8230;]",
+          "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+          "published": "2026-09-03T12:00:00-04:00",
+          "summary": "Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio. Let's get the obvious thing out of the way, despite what its name might imply: PAIR is not a hardware router. It's open-source software [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "I want to wrap myself in Hue’s new Liane rope lights",
-          "url": "https://www.theverge.com/tech/989014/philips-hue-liane-360-rope-lights-smart-lighting-interior-design",
-          "published": "2026-09-03T03:30:00-04:00",
-          "summary": "I love smart lighting, but I don't love many of the form factors it comes in. With a few exceptions, most smart, color-changing lamps and fixtures fit better in my teenage son's dorm room than my living room. So, I was pleasantly surprised to see Philips Hue's new line of architecturally focused smart lights, launched [&#8230;]",
+          "title": "This 14-inch laptop has a screen that unrolls to 17 inches",
+          "url": "https://www.theverge.com/tech/989477/lenovo-thinkbook-project-swan-concept-laptop-14-17-rollable-ifa-announcement",
+          "published": "2026-09-03T12:00:00-04:00",
+          "summary": "Lenovo's latest rollable concept, announced at IFA 2026, is the ThinkBook Project Swan: a business laptop with a screen that expands horizontally from 14 to 17 inches. Rollable screens are nothing new for Lenovo. The company has shown off several concepts and even launched a real one last year (and it was pretty great). But [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Anker’s Sleep Speaker uses radar and flower power to help you relax.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.420). Top story: Anker’s Sleep Speaker uses radar and flower power to help you relax.",
+        "key_takeaway": "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.228). Top story: Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers.",
         "key_themes": [
-          "Anker’s Sleep Speaker uses radar and flower power to help you relax",
-          "Anker’s Soundcore is bringing its incredible call quality to more headphones",
-          "Anker announces its first over-the-counter hearing aids",
-          "Anker’s new printer works directly on fabrics",
-          "Anker’s new MindBase is an AI-powered brain for your smart home"
+          "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers",
+          "Microsoft opens up Xbox Cloud Gaming with new pay-as-you-go option",
+          "I held the first truly bezel-free phone",
+          "Circular’s new smart rings add contactless payments and vibrating alerts",
+          "The Moto Watch Ultra is a return to Wear OS"
         ],
         "notable_headlines": [
           {
-            "headline": "Anker’s Sleep Speaker uses radar and flower power to help you relax",
-            "why_it_matters": "Anker's aptly named Sleep Speaker promises to track and enhance sleep without a wearable. It uses millimeter-wave radar (60GHz) blasting from your nightstand to track micro-movements in your chest and body to continuousl…",
+            "headline": "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers",
+            "why_it_matters": "Microsoft is announcing some major changes to Xbox Cloud Gaming today, less than a year after opening up cloud gaming to its Xbox Game Pass Premium and Essential tiers. While all Game Pass plans have included unlimited c…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Anker’s Soundcore is bringing its incredible call quality to more headphones",
-            "why_it_matters": "After introducing the Thus processing chip in April and releasing it with the Liberty 5 Pro series earbuds, Soundcore is bringing it to more audio products. The Thus chip is behind the best call quality I've ever heard f…",
+            "headline": "Microsoft opens up Xbox Cloud Gaming with new pay-as-you-go option",
+            "why_it_matters": "Microsoft says it will let anyone access Xbox Cloud Gaming in November, without the need to subscribe to Xbox Game Pass. The change to a pay-as-you-go model is part of some sweeping changes to Xbox Cloud Gaming today, an…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Anker announces its first over-the-counter hearing aids",
-            "why_it_matters": "In what could be fortuitous timing for hearing aid users, Anker announced its first over-the-counter (OTC) hearing aids at IFA 2026. It was only a couple months ago when LXE Hearing, the parent company for Eargo and Lexi…",
+            "headline": "I held the first truly bezel-free phone",
+            "why_it_matters": "Cast your mind back a decade or so, and smartphone makers were obsessed with shrinking the bezel on phones. Screens got bigger, the black bars around them got smaller, and for a while it looked like truly edge-to-edge di…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Anker’s new printer works directly on fabrics",
-            "why_it_matters": "After introducing a consumer-friendly UV printer last year capable of printing designs directly on materials like wood, metal, glass, and acrylic, Anker's eufyMake brand is introducing a new machine that can print direct…",
+            "headline": "Circular’s new smart rings add contactless payments and vibrating alerts",
+            "why_it_matters": "Circular announced its new Ring 3 Series today as a follow-up to the Ring 2 that debuted at CES 2025 with upgraded sensors and FDA-cleared atrial fibrillation detection. The new Ring 3 collection consists of both a Pro m…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Anker’s new MindBase is an AI-powered brain for your smart home",
-            "why_it_matters": "Anker is launching the Eufy MindBase, a local AI hub for its security cameras that runs an on-device, Anker-developed LLM, which the company says can process your footage without it ever leaving your home. It's also anno…",
+            "headline": "The Moto Watch Ultra is a return to Wear OS",
+            "why_it_matters": "Just a few months after getting back into the smartwatch game, Motorola is targeting the premium end of the market with the first Moto Watch Ultra. It comes with some upgrades from the recent Moto Watch - most obviously …",
             "signal": "Opportunity"
           },
           {
-            "headline": "Philips Hue adds Nanoleaf&#8217;s light panels to its ecosystem with a $40 module",
-            "why_it_matters": "Philips Hue is finally adding wall panels into its smart lighting portfolio. But instead of developing its own, it's partnered with longtime rival Nanoleaf, the company that invented the smart modular wall panel category…",
+            "headline": "Lenovo’s new MacBook Neo competitor comes in two sizes and seven colors",
+            "why_it_matters": "Lenovo is announcing the IdeaPad Vibe, a productivity laptop aimed at taking on the MacBook Neo with a similar starting price and a wider range of colors. The Vibe comes in 14- and 15-inch sizes, with AMD and Qualcomm ch…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Anker put a display on the case of its new sleepbuds",
-            "why_it_matters": "Anker just announced its new Soundcore Sleep Earbuds 4 and 4 Pro for side-sleepers. They include the same audio masking tech found on last year's A30 sleepbuds (that can really silent a snoring partner) only now with lon…",
+            "headline": "This ultra-thin Lenovo laptop concept uses solid-state cooling",
+            "why_it_matters": "Lenovo is announcing a new concept laptop for IFA 2026 that uses solid-state cooling instead of traditional fans, making it incredibly thin and super light. The 14-inch Project AeroBlade concept laptop is less than 10mm …",
             "signal": "Opportunity"
           },
           {
-            "headline": "Philips Hue adds more affordable options for syncing smart lights with your TV",
-            "why_it_matters": "Philips Hue is slashing the steep entry price of its entertainment sync offerings. The new stripped-down Sync Box 4K starts at $150, compared to $385 for the 8K model. The brand also launched its first camera-based solut…",
+            "headline": "Nvidia’s new RTX Spark laptops launch in October with two different configs",
+            "why_it_matters": "All the rumors leading up to Nvidia's announcement of its Arm-based RTX Spark chips over the summer mentioned two specific chips: the N1X and N1. While the N1 won't be arriving this year, Nvidia says its N1X chip is arri…",
             "signal": "Opportunity"
           }
         ],
@@ -522,10 +523,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Anker’s Sleep Speaker uses radar and flower power to help you relax",
-            "Anker’s Soundcore is bringing its incredible call quality to more headphones",
-            "Anker announces its first over-the-counter hearing aids",
-            "Anker’s new printer works directly on fabrics"
+            "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers",
+            "Microsoft opens up Xbox Cloud Gaming with new pay-as-you-go option",
+            "I held the first truly bezel-free phone",
+            "Circular’s new smart rings add contactless payments and vibrating alerts"
           ],
           "confidence": "Medium"
         },
@@ -535,12 +536,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's positive news headlines",
-          "latest news summary anker’s",
+          "today's mixed news headlines",
+          "latest news summary microsoft",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Anker’s Sleep Speaker uses radar and flower power to help you relax\n\nTechnology Sentiment: Positive (+0.42)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ankers #Adds #Anker #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers\n\nTechnology Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Cloud #Gaming #Microsoft #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -734,11 +735,39 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": -0.0076,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.013, dampened ×0.6 → -0.0076). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1432,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.239, dampened ×0.6 → +0.1432). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "NASA scientists discover a giant 10-sided pattern on Saturn",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+          "published": "Thu, 03 Sep 2026 08:41:39 EDT",
+          "summary": "A huge 10-sided atmospheric pattern has appeared around Saturn’s south pole, giving the planet a surprising counterpart to its famous northern hexagon. Hubble data suggest the strange decagon only began emerging in the past few years and is still growing stronger. Researchers hope continued observations will reveal why it suddenly formed and whether it could persist for decades.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Ancient “living fossils” may reveal how complex life began",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260902234514.htm",
+          "published": "Thu, 03 Sep 2026 09:11:28 EDT",
+          "summary": "A newly discovered microbe living inside ancient stromatolite communities may offer a rare look at how complex life first emerged. Researchers captured the first direct images of an Asgard archaeon physically connected to a bacterium, with the two microbes appearing to exchange nutrients and other compounds. Scientists think similar partnerships billions of years ago may have helped produce the first complex cells.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "September brings a dazzling Venus and a glowing Harvest Moon",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260902234500.htm",
+          "published": "Thu, 03 Sep 2026 02:25:49 EDT",
+          "summary": "September’s sky features brilliant Venus, the Milky Way’s hazy center, and the seasonal turning point of the equinox. The month ends with a glowing Harvest Moon rising near Saturn and faint Neptune.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "The universe has plenty of hydrogen. So why is star formation collapsing?",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
+          "published": "Thu, 03 Sep 2026 03:48:14 EDT",
+          "summary": "Star formation across the universe has fallen dramatically over the past 4.5 billion years, but astronomers have uncovered a surprising twist: the supply of neutral hydrogen, a key ingredient for making stars, has barely declined. Using China’s FAST radio telescope and data from roughly 2.5 million galaxies observed by DESI, researchers found that star formation was about 2.5 times higher 4.5 billion years ago, while neutral hydrogen levels were only about 1.4 times higher.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Too much coffee may weaken bones, study finds",
           "url": "https://www.sciencedaily.com/releases/2026/09/260901070550.htm",
@@ -768,6 +797,20 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "One immune switch may help drive aging across the body",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260901010717.htm",
+          "published": "Thu, 03 Sep 2026 06:29:04 EDT",
+          "summary": "Aging may be partly fueled by immune cells losing their ability to clear away damaged, inflammation-promoting cells. Blocking a single receptor restored that cleanup process in mice, reducing inflammation and helping their organs, muscles, and memory remain remarkably youthful.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Bats carry dangerous viruses without getting sick. This may be why",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260901010713.htm",
+          "published": "Thu, 03 Sep 2026 07:56:01 EDT",
+          "summary": "Scientists discovered that more than 500 species of vesper bats possess two separate sets of antibody genes, an immune arrangement never before found in mammals. The surprising system could help explain how bats tolerate so many viruses without becoming seriously ill.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
           "url": "https://www.sciencedaily.com/releases/2026/09/260901010705.htm",
           "published": "Tue, 01 Sep 2026 01:33:37 EDT",
@@ -780,100 +823,58 @@
           "published": "Tue, 01 Sep 2026 01:43:54 EDT",
           "summary": "NASA has brought two of Swift’s telescopes back online after technical problems derailed a commercial mission intended to rescue the aging observatory by raising its orbit. With atmospheric drag pulling the spacecraft downward faster than expected, scientists may have only another month or two before Swift falls below a critical operating altitude.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "NASA’s Roman Space Telescope launches to reveal the Universe’s darkest secrets",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260831035213.htm",
-          "published": "Mon, 31 Aug 2026 05:23:21 EDT",
-          "summary": "NASA’s Roman Space Telescope has launched on a million mile journey to L2, where it will scan huge portions of the cosmos for clues about dark matter, dark energy, and distant worlds. With survey speeds roughly 1,000 times faster than Hubble and a torrent of 1.4 terabytes of data per day, Roman could uncover cosmic surprises astronomers have never seen before.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A massive plume deep beneath Africa is pulling the continent apart",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260831015210.htm",
-          "published": "Tue, 01 Sep 2026 06:41:10 EDT",
-          "summary": "A vast plume rising from deep inside Earth may be responsible for mysterious movements along the East African Rift. The discovery reveals how forces deep in the mantle are working alongside shallower geological forces as the continent slowly pulls apart.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A coffee-table-size scorpion roamed Earth before forests existed",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260831015200.htm",
-          "published": "Wed, 02 Sep 2026 09:23:16 EDT",
-          "summary": "A meter-long scorpion with massive pincers stalked ancient Britain 415 million years ago, long before forests and the better-known age of giant insects. Its surprising size and possible semi-aquatic lifestyle could reshape ideas about how early arthropods became giants.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Interstellar solar sails hit a strange problem at 75% of light speed",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260831015157.htm",
-          "published": "Wed, 02 Sep 2026 10:51:21 EDT",
-          "summary": "Solar sails pushed by powerful lasers could reach incredible speeds, but relativity may eventually make the light itself work against them. At around 75% of the speed of light, scattered photons can begin creating drag, adding a surprising obstacle to interstellar travel.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Money problems may age your brain faster",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260831015154.htm",
-          "published": "Wed, 02 Sep 2026 10:32:26 EDT",
-          "summary": "Persistent financial hardship in early and middle adulthood was linked to poorer thinking skills by the 50s and more signs of brain aging later in life. Researchers say years of chronic stress and financial worry may gradually take a toll on the brain.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A search for one exotic particle uncovered two strange new structures",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260831015147.htm",
-          "published": "Wed, 02 Sep 2026 01:28:30 EDT",
-          "summary": "A search for one mysterious particle unexpectedly revealed evidence for two different structures that may belong to the bizarre family of exotic subatomic particles known as XYZ states. The findings could help physicists uncover new ways that quarks and gluons combine to create matter.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Too much coffee may weaken bones, study finds.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.008). Top story: Too much coffee may weaken bones, study finds.",
+        "key_takeaway": "NASA scientists discover a giant 10-sided pattern on Saturn.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.143). Top story: NASA scientists discover a giant 10-sided pattern on Saturn.",
         "key_themes": [
-          "Too much coffee may weaken bones, study finds",
-          "Earth may have lost the Sun’s protective shield millions of years ago",
-          "Scientists discover why snake embryos twist into spirals",
-          "Mindfulness may lower blood pressure in just 8 weeks",
-          "NASA delays Crew-13 launch after leak found on SpaceX Dragon"
+          "NASA scientists discover a giant 10-sided pattern on Saturn",
+          "Ancient “living fossils” may reveal how complex life began",
+          "September brings a dazzling Venus and a glowing Harvest Moon",
+          "The universe has plenty of hydrogen. So why is star formation collapsing?",
+          "Too much coffee may weaken bones, study finds"
         ],
         "notable_headlines": [
           {
+            "headline": "NASA scientists discover a giant 10-sided pattern on Saturn",
+            "why_it_matters": "A huge 10-sided atmospheric pattern has appeared around Saturn’s south pole, giving the planet a surprising counterpart to its famous northern hexagon. Hubble data suggest the strange decagon only began emerging in the p…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Ancient “living fossils” may reveal how complex life began",
+            "why_it_matters": "A newly discovered microbe living inside ancient stromatolite communities may offer a rare look at how complex life first emerged. Researchers captured the first direct images of an Asgard archaeon physically connected t…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "September brings a dazzling Venus and a glowing Harvest Moon",
+            "why_it_matters": "September’s sky features brilliant Venus, the Milky Way’s hazy center, and the seasonal turning point of the equinox. The month ends with a glowing Harvest Moon rising near Saturn and faint Neptune.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The universe has plenty of hydrogen. So why is star formation collapsing?",
+            "why_it_matters": "Star formation across the universe has fallen dramatically over the past 4.5 billion years, but astronomers have uncovered a surprising twist: the supply of neutral hydrogen, a key ingredient for making stars, has barely…",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Too much coffee may weaken bones, study finds",
             "why_it_matters": "Following nearly 10,000 older women for 10 years, researchers found that tea drinking was associated with slightly higher hip bone density. Moderate coffee consumption did not appear harmful, but drinking more than five …",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "Earth may have lost the Sun’s protective shield millions of years ago",
             "why_it_matters": "NASA-funded studies suggest Earth’s climate has been influenced by both the Sun’s travels through dense regions of the Milky Way and the violent superflares of its youth. Those events may help explain ancient ice ages as…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "Scientists discover why snake embryos twist into spirals",
             "why_it_matters": "Snake embryos begin life curled into a distinctive right-handed spiral, and scientists may finally know why. Their bodies grow faster than their guts, creating a tether that forces the lengthening embryo to buckle and tw…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "Mindfulness may lower blood pressure in just 8 weeks",
             "why_it_matters": "Mindfulness, gratitude, and optimism training may improve blood pressure, inflammation, and other heart-health measures within just eight to 12 weeks. The strongest programs paired daily practice with regular reinforceme…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
-            "why_it_matters": "NASA and SpaceX have delayed Crew-13 after finding an oxidizer leak in the Dragon spacecraft’s propulsion system during prelaunch preparations. Engineers are investigating the problem before the four-person crew can begi…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "NASA’s Swift telescope is back, but time is running out",
-            "why_it_matters": "NASA has brought two of Swift’s telescopes back online after technical problems derailed a commercial mission intended to rescue the aging observatory by raising its orbit. With atmospheric drag pulling the spacecraft do…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "NASA’s Roman Space Telescope launches to reveal the Universe’s darkest secrets",
-            "why_it_matters": "NASA’s Roman Space Telescope has launched on a million mile journey to L2, where it will scan huge portions of the cosmos for clues about dark matter, dark energy, and distant worlds. With survey speeds roughly 1,000 tim…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "A massive plume deep beneath Africa is pulling the continent apart",
-            "why_it_matters": "A vast plume rising from deep inside Earth may be responsible for mysterious movements along the East African Rift. The discovery reveals how forces deep in the mantle are working alongside shallower geological forces as…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -888,10 +889,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Too much coffee may weaken bones, study finds",
-            "Earth may have lost the Sun’s protective shield millions of years ago",
-            "Scientists discover why snake embryos twist into spirals",
-            "Mindfulness may lower blood pressure in just 8 weeks"
+            "NASA scientists discover a giant 10-sided pattern on Saturn",
+            "Ancient “living fossils” may reveal how complex life began",
+            "September brings a dazzling Venus and a glowing Harvest Moon",
+            "The universe has plenty of hydrogen. So why is star formation collapsing?"
           ],
           "confidence": "Medium"
         },
@@ -901,12 +902,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
-          "latest news summary too",
+          "today's mixed news headlines",
+          "latest news summary nasa",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: Too much coffee may weaken bones, study finds\n\nScience Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Nasas #Telescope #Africa #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: NASA scientists discover a giant 10-sided pattern on Saturn\n\nScience Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Discover #Scientists #10sided #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
