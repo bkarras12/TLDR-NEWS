@@ -1,10 +1,17 @@
 {
   "date": "2026-09-07",
-  "generated_at_utc": "2026-09-07T18:31:29Z",
+  "generated_at_utc": "2026-09-08T01:07:37Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "work"
+    "workers",
+    "work",
+    "trump",
+    "record",
+    "plane",
+    "fired",
+    "cargo",
+    "amazon"
   ],
   "categories": {
     "world": {
@@ -16,16 +23,44 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2326,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.388, dampened ×0.6 → -0.2326). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2978,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.496, dampened ×0.6 → -0.2978). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Flight recorders recovered from 'devastating' Amazon cargo plane crash",
+          "url": "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 07 Sep 2026 22:23:03 GMT",
+          "summary": "Five people were killed and five others seriously injured when the Boeing 767-300 overshot the runway at Miami International Airport.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Palestinian parents fear for children's lives at school as settler attacks grow",
+          "url": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 07 Sep 2026 21:12:37 GMT",
+          "summary": "A headteacher in the occupied West Bank has installed new barbed wire fencing after three pupils were killed this year.",
+          "source": "BBC News"
+        },
         {
           "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
           "url": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
           "published": "Mon, 07 Sep 2026 14:04:01 GMT",
           "summary": "The far-right party is trying to form a government in the state after falling three seats short of a majority.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Eiffel Tower shut by staff protest after female workers moved for religious visit",
+          "url": "https://www.bbc.co.uk/news/articles/clyenxp540vo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 07 Sep 2026 23:46:44 GMT",
+          "summary": "The mayor of Paris said an investigation would be launched into the incident, which left female employees \"humiliated\", according to a union representative.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
+          "url": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 08 Sep 2026 00:48:43 GMT",
+          "summary": "The threat against one of Canada's largest companies comes amid an escalating trade war between the two neighbours.",
           "source": "BBC News"
         },
         {
@@ -43,13 +78,6 @@
           "source": "BBC News"
         },
         {
-          "title": "Investigators begin work on why cargo plane overran Miami runway",
-          "url": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 07 Sep 2026 17:46:25 GMT",
-          "summary": "Five people died and five others were injured as the Amazon plane overshot the runway after landing at Miami International Airport.",
-          "source": "BBC News"
-        },
-        {
           "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
           "url": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss",
           "published": "Mon, 07 Sep 2026 15:27:50 GMT",
@@ -61,13 +89,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c2kw1qek7gdo?at_medium=RSS&at_campaign=rss",
           "published": "Mon, 07 Sep 2026 09:31:26 GMT",
           "summary": "Flags flew at half mast on the 13th day since the disaster, the last day of the Hindu mourning period.",
-          "source": "BBC News"
-        },
-        {
-          "title": "New videos of man in 9/11 lawsuit reveal extremist links",
-          "url": "https://www.bbc.co.uk/news/articles/cr4vn1e207go?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 07 Sep 2026 05:31:06 GMT",
-          "summary": "The footage and other evidence the FBI failed to share undermine Omar al-Bayoumi's 25 years of denials.",
           "source": "BBC News"
         },
         {
@@ -90,36 +111,42 @@
           "published": "Mon, 07 Sep 2026 14:57:16 GMT",
           "summary": "Kenya is due to start enforcing measures to restrict foreign nationals from operating small-scale businesses.",
           "source": "BBC News"
-        },
-        {
-          "title": "Indonesia volcano eruption leaves 340,000 stranded as airports extend closure",
-          "url": "https://www.bbc.co.uk/news/articles/czezydp4l97o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 07 Sep 2026 15:40:47 GMT",
-          "summary": "Anak Krakatau, which lies about 150km from capital Jakarta, began spewing lava and volvanic ash late on Friday.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Tanzanian President Samia's husband dies in hospital",
-          "url": "https://www.bbc.co.uk/news/articles/cgqd774wzpdo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 07 Sep 2026 16:23:02 GMT",
-          "summary": "Hafidh Ameir Hassan kept a low profile and was rarely seen in public with the president.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.233). Top story: Germany's far-right AfD says 'democracy demands' parties work with them after state election win.",
+        "key_takeaway": "Flight recorders recovered from 'devastating' Amazon cargo plane crash.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.298). Top story: Flight recorders recovered from 'devastating' Amazon cargo plane crash.",
         "key_themes": [
+          "Flight recorders recovered from 'devastating' Amazon cargo plane crash",
+          "Palestinian parents fear for children's lives at school as settler attacks grow",
           "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
-          "Thousands turn out in Serbia for funeral of  'Butcher of Bosnia' Ratko Mladić",
-          "Israeli strikes in southern Lebanese village kill 12",
-          "Investigators begin work on why cargo plane overran Miami runway",
-          "Grindr to pay £26m to settle claims it allegedly shared users' HIV status"
+          "Eiffel Tower shut by staff protest after female workers moved for religious visit",
+          "Trump threatens to stop sale of Canadian Bombardier jets in US"
         ],
         "notable_headlines": [
           {
+            "headline": "Flight recorders recovered from 'devastating' Amazon cargo plane crash",
+            "why_it_matters": "Five people were killed and five others seriously injured when the Boeing 767-300 overshot the runway at Miami International Airport.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Palestinian parents fear for children's lives at school as settler attacks grow",
+            "why_it_matters": "A headteacher in the occupied West Bank has installed new barbed wire fencing after three pupils were killed this year.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
             "why_it_matters": "The far-right party is trying to form a government in the state after falling three seats short of a majority.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Eiffel Tower shut by staff protest after female workers moved for religious visit",
+            "why_it_matters": "The mayor of Paris said an investigation would be launched into the incident, which left female employees \"humiliated\", according to a union representative.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trump threatens to stop sale of Canadian Bombardier jets in US",
+            "why_it_matters": "The threat against one of Canada's largest companies comes amid an escalating trade war between the two neighbours.",
             "signal": "Risk"
           },
           {
@@ -133,28 +160,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Investigators begin work on why cargo plane overran Miami runway",
-            "why_it_matters": "Five people died and five others were injured as the Amazon plane overshot the runway after landing at Miami International Airport.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
             "why_it_matters": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Nepal observes national day of mourning for victims of flash flood disaster",
-            "why_it_matters": "Flags flew at half mast on the 13th day since the disaster, the last day of the Hindu mourning period.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "New videos of man in 9/11 lawsuit reveal extremist links",
-            "why_it_matters": "The footage and other evidence the FBI failed to share undermine Omar al-Bayoumi's 25 years of denials.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
-            "why_it_matters": "Schools, businesses and public transport are all struggling with the surge in Russian air attacks.",
             "signal": "Risk"
           }
         ],
@@ -170,10 +177,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Flight recorders recovered from 'devastating' Amazon cargo plane crash",
+            "Palestinian parents fear for children's lives at school as settler attacks grow",
             "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
-            "Thousands turn out in Serbia for funeral of  'Butcher of Bosnia' Ratko Mladić",
-            "Israeli strikes in southern Lebanese village kill 12",
-            "Investigators begin work on why cargo plane overran Miami runway"
+            "Eiffel Tower shut by staff protest after female workers moved for religious visit"
           ],
           "confidence": "Medium"
         },
@@ -183,12 +190,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary germany's",
+          "today's negative news headlines",
+          "latest news summary flight",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Germany's far-right AfD says 'democracy demands' parties work with them after state election win\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Strikes #Work #Alerts #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Flight recorders recovered from 'devastating' Amazon cargo plane crash\n\nWorld Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Allegedly #Amazon #Attacks #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -382,11 +389,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0542,
+        "score": 0.0778,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.090, dampened ×0.6 → +0.0542). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.130, dampened ×0.6 → +0.0778). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
+          "url": "https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price",
+          "published": "2026-09-07T16:03:41-04:00",
+          "summary": "When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here's a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Six years later, Sony revisits its legendary XM4 headphones",
           "url": "https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones",
@@ -449,26 +463,24 @@
           "published": "2026-09-06T12:28:58-04:00",
           "summary": "Boox teased the Picco, its take on the buzzy Xteink X4 e-reader, back in July, but provided almost no details. Now, thanks to some reporting out of IFA, we've got a bit more info, though sadly still no price. Unlike the Xteink devices, the Picco will not have magnets on the back for attaching to [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "The Fairphone 6 Plus is the midrange phone we desperately needed",
-          "url": "https://www.theverge.com/tech/990436/fairphone-6-plus-review",
-          "published": "2026-09-06T09:00:00-04:00",
-          "summary": "The Fairphone 6 Plus feels like an extremely average midrange Android phone and I couldn't be more thrilled. The mission has always been admirable. Fairphone seeks out ethically sourced materials and offers a high degree of repairability for its devices. But the phones themselves required a lot of sacrifices, like putting up with underpowered processors [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Six years later, Sony revisits its legendary XM4 headphones.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.054). Top story: Six years later, Sony revisits its legendary XM4 headphones.",
+        "key_takeaway": "Audi’s new A2 E-tron is its most affordable and efficient EV yet.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.078). Top story: Audi’s new A2 E-tron is its most affordable and efficient EV yet.",
         "key_themes": [
+          "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
           "Six years later, Sony revisits its legendary XM4 headphones",
           "EcoFlow makes the miniature power station even smaller",
           "The real reason your phone is getting more expensive",
-          "Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds",
-          "Huawei copies Samsung’s privacy display in its latest trifold"
+          "Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds"
         ],
         "notable_headlines": [
+          {
+            "headline": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
+            "why_it_matters": "When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? G…",
+            "signal": "Unclear"
+          },
           {
             "headline": "Six years later, Sony revisits its legendary XM4 headphones",
             "why_it_matters": "Six years ago Sony and Bose were in the middle of a noise-canceling battle, with each new model of headphones better than the last. In the fall of 2020, Sony released the WH-1000XM4 headphones to wide acclaim. They sat a…",
@@ -503,11 +515,6 @@
             "headline": "An Amazon cargo plane crashed at Miami International Airport",
             "why_it_matters": "A plane bearing an Amazon logo overran the runway at Miami International Airport on Sunday during landing, crashing into vehicles and resulting in multiple injuries. The extent of the damage or the seriousness of the inj…",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Europe has its first commercial orbital rocket",
-            "why_it_matters": "German company Isar Aerospace has successfully launched Europe's first entirely commercial orbital rocket. It attempted to achieve the feat last March, but that lasted all of 30 seconds before the vehicle crashed into th…",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -522,10 +529,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
             "Six years later, Sony revisits its legendary XM4 headphones",
             "EcoFlow makes the miniature power station even smaller",
-            "The real reason your phone is getting more expensive",
-            "Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds"
+            "The real reason your phone is getting more expensive"
           ],
           "confidence": "Medium"
         },
@@ -536,11 +543,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary six",
+          "latest news summary audi’s",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Six years later, Sony revisits its legendary XM4 headphones\n\nTechnology Sentiment: Mixed (+0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Airport #Amazon #Authenticity #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Audi’s new A2 E-tron is its most affordable and efficient EV yet\n\nTechnology Sentiment: Mixed (+0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#Affordable #Airport #Amazon #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
