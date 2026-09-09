@@ -1,19 +1,10 @@
 {
   "date": "2026-09-09",
-  "generated_at_utc": "2026-09-09T07:43:10Z",
+  "generated_at_utc": "2026-09-09T17:27:33Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trade",
-    "thought",
-    "targets",
-    "rules",
-    "record",
-    "meta",
-    "mathematical",
-    "kyiv",
-    "iphone",
-    "canadian"
+    "since"
   ],
   "categories": {
     "world": {
@@ -25,329 +16,146 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2954,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.492, dampened ×0.6 → -0.2954). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
-      },
-      "items": [
-        {
-          "title": "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
-          "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 04:26:38 GMT",
-          "summary": "Oil prices edged closer to $100 a barrel after an escalation in the tit-for-tat strikes between the US and Iran.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Paul Adams: British-Israeli relations at lowest ebb in decades",
-          "url": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 08 Sep 2026 21:46:31 GMT",
-          "summary": "Israel's response to London's trade ban with Israeli settlements in the occupied West Bank shows how important this moment is.",
-          "source": "BBC News"
-        },
-        {
-          "title": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
-          "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 06:28:57 GMT",
-          "summary": "It is the latest strike in a long trade war, and comes as Canadian counter-tariffs on US goods come into force.",
-          "source": "BBC News"
-        },
-        {
-          "title": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
-          "url": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 08 Sep 2026 23:11:32 GMT",
-          "summary": "As the 25th anniversary approaches, the wait for the alleged mastermind of the attack to be put on trial goes on.",
-          "source": "BBC News"
-        },
-        {
-          "title": "South Park creators rename show 'South America' in apparent dig at Trump",
-          "url": "https://www.bbc.co.uk/news/articles/cp9340rg7k8o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 05:39:16 GMT",
-          "summary": "Since beginning his second term, the US president has said he wanted to use the word 'America' to rename a lake, a gulf and even a US state.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Meta continues to run ads promoting child sexual abuse material in India - report",
-          "url": "https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 08 Sep 2026 23:27:23 GMT",
-          "summary": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Renoir paintings worth millions stolen in French museum heist",
-          "url": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 08 Sep 2026 13:35:28 GMT",
-          "summary": "It is the latest in a string of high-profile art thefts in Europe that has again put the security of museums and galleries in the spotlight.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
-          "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 08 Sep 2026 17:10:54 GMT",
-          "summary": "President Zelensky describes the daytime drone attack in Ukraine's capital as a \"new page in Russian degradation\"",
-          "source": "BBC News"
-        },
-        {
-          "title": "Hong Kong's first leader after British handover dies",
-          "url": "https://www.bbc.co.uk/news/articles/cn457lq938jo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 04:24:30 GMT",
-          "summary": "The tenure of Tung Chee-hwa, Hong Kong's first leader after Britain handed over the city to China, was marked by crises and protests.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Argentina to file criminal case against oil company operating in Falklands",
-          "url": "https://www.bbc.co.uk/news/articles/c8jd14glvneo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 08 Sep 2026 11:09:54 GMT",
-          "summary": "The move comes days after President Javier Milei stepped up Argentina's claims of sovereignty over the Falklands.",
-          "source": "BBC News"
-        },
-        {
-          "title": "British widow faces deportation from Sweden after 22 years",
-          "url": "https://www.bbc.co.uk/news/articles/c62k0d4px6ro?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 08 Sep 2026 18:02:42 GMT",
-          "summary": "A 78-year-old British woman is facing deportation for failing to fill out a Brexit residence application on time.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
-          "url": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 08 Sep 2026 13:58:32 GMT",
-          "summary": "The Iran-backed Yemeni group's attacks have injured 73 people and caused fires at oil facilities, Saudi authorities say.",
-          "source": "BBC News"
-        }
-      ],
-      "ai_report": {
-        "key_takeaway": "US strikes Iranian oil tankers as Tehran targets American base in Jordan.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.295). Top story: US strikes Iranian oil tankers as Tehran targets American base in Jordan.",
-        "key_themes": [
-          "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
-          "Paul Adams: British-Israeli relations at lowest ebb in decades",
-          "US slaps import ban on Canadian alcohol, motorbikes and other goods",
-          "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
-          "South Park creators rename show 'South America' in apparent dig at Trump"
-        ],
-        "notable_headlines": [
-          {
-            "headline": "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
-            "why_it_matters": "Oil prices edged closer to $100 a barrel after an escalation in the tit-for-tat strikes between the US and Iran.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Paul Adams: British-Israeli relations at lowest ebb in decades",
-            "why_it_matters": "Israel's response to London's trade ban with Israeli settlements in the occupied West Bank shows how important this moment is.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
-            "why_it_matters": "It is the latest strike in a long trade war, and comes as Canadian counter-tariffs on US goods come into force.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
-            "why_it_matters": "As the 25th anniversary approaches, the wait for the alleged mastermind of the attack to be put on trial goes on.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "South Park creators rename show 'South America' in apparent dig at Trump",
-            "why_it_matters": "Since beginning his second term, the US president has said he wanted to use the word 'America' to rename a lake, a gulf and even a US state.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Meta continues to run ads promoting child sexual abuse material in India - report",
-            "why_it_matters": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Renoir paintings worth millions stolen in French museum heist",
-            "why_it_matters": "It is the latest in a string of high-profile art thefts in Europe that has again put the security of museums and galleries in the spotlight.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
-            "why_it_matters": "President Zelensky describes the daytime drone attack in Ukraine's capital as a \"new page in Russian degradation\"",
-            "signal": "Risk"
-          }
-        ],
-        "future_outlook": {
-          "next_24_72_hours": [
-            "Track updates to the leading stories listed above.",
-            "Watch for clarifications or official responses in follow-up coverage.",
-            "Expect sentiment to move as new details emerge."
-          ],
-          "next_1_4_weeks": [
-            "Some stories may transition from breaking news to policy or market impact.",
-            "Recurring themes in the feed will indicate sustained momentum.",
-            "Cross-category spillover effects may become clearer with additional reporting."
-          ],
-          "watch_list": [
-            "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
-            "Paul Adams: British-Israeli relations at lowest ebb in decades",
-            "US slaps import ban on Canadian alcohol, motorbikes and other goods",
-            "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on"
-          ],
-          "confidence": "Medium"
-        },
-        "caveats": [
-          "This fallback report is generated from RSS headlines and summaries only.",
-          "Verify key details by opening the source links in the headlines list.",
-          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
-        ],
-        "related_topics": [
-          "today's negative news headlines",
-          "latest news summary us",
-          "daily news briefing and analysis"
-        ]
-      },
-      "tweet_text": "World: US strikes Iranian oil tankers as Tehran targets American base in Jordan\n\nWorld Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#South #Abuse #Adams #WorldNews #BreakingNews #News #Headlines #Trending"
-    },
-    "business": {
-      "key": "business",
-      "title": "Business",
-      "source": {
-        "site_name": "The Guardian",
-        "site_url": "https://www.theguardian.com/business",
-        "feed_url": "https://www.theguardian.com/business/rss"
-      },
-      "sentiment": {
-        "score": 0.1368,
+        "score": -0.1763,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.228, dampened ×0.6 → +0.1368). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.294, dampened ×0.6 → -0.1763). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Air traffic control boss rules out cyber-attack and apologises to passengers as UK flight chaos enters second day – business live",
-          "url": "https://www.theguardian.com/business/live/2026/sep/09/nats-boss-to-meet-uk-transport-secretary-as-second-day-of-flight-chaos-takes-cancelllations-past-1300-business-live",
-          "published": "Wed, 09 Sep 2026 07:20:32 GMT",
-          "summary": "<p>Technical issue at air traffic control provider Nats leads to over 1,300 flight cancellations to and from UK airports; oil prices rise towards $100 a barrel for first time since July</p><p><strong>The boss of National Air Traffic Services, which is half-owned by the government, has insisted that the organisation has invested enough in its systems.</strong></p><p><strong>Martin Rolfe</strong> told BBC Radio 4’s Today programme:</p><p>Nats was actually a partial privatisation, 25 years ago, and",
-          "source": "The Guardian"
+          "title": "Germany's Merz attacks AfD in stormy debate after far-right election win",
+          "url": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 13:29:33 GMT",
+          "summary": "Germany's chancellor clashes with AfD leader Alice Weidel, saying her migration policy amounts to \"ethnic cleansing\" for skilled workers.",
+          "source": "BBC News"
         },
         {
-          "title": "Burnham urged to tackle inequality with policies including wealth tax",
-          "url": "https://www.theguardian.com/politics/2026/sep/09/burnham-inequality-policies-wealth-tax-compass-report",
-          "published": "Wed, 09 Sep 2026 05:00:01 GMT",
-          "summary": "<p>Key thinkers suggest other radical measures in Compass report such as free personal social care and abolishing Lords</p><p>Andy Burnham should tackle inequality in the UK by introducing a wealth tax, universal free personal social care and bringing gas and electricity networks under public ownership, according to a report from more than a dozen influential thinkers.</p><p>In the lead-up to the first budget of the chancellor, John Healey, this autumn, the Compass thinktank has collated 70 poli",
-          "source": "The Guardian"
+          "title": "Google picks Finland for its largest single investment in Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c8r6y4me2g6o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 17:06:48 GMT",
+          "summary": "The US tech giant says the €13bn data centre project will create tens of thousands of jobs.",
+          "source": "BBC News"
         },
         {
-          "title": "US bans Canadian dairy, alcohol and motorcycles as trade war with longtime ally escalates",
-          "url": "https://www.theguardian.com/us-news/2026/sep/08/trump-canada-trade-war-dairy-alcohol",
-          "published": "Tue, 08 Sep 2026 23:59:37 GMT",
-          "summary": "<p>The measure comes as Canada imposes $20bn in retaliatory tariffs and Canadian prime minister Mark Carney vows to reduce his country’s economic dependence on the US</p><p>The US is banning dairy products, most alcoholic beverages and motorcycles from Canada, the White House said Tuesday, as the trade war between the two neighbors and longtime allies escalates.</p><p>The ban will take effect in three weeks and comes after Canada imposed retaliatory tariffs on $20bn in US imports earlier Tuesday",
-          "source": "The Guardian"
+          "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+          "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 16:46:53 GMT",
+          "summary": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
+          "source": "BBC News"
         },
         {
-          "title": "UK datacentres will create just 25% of jobs predicted by tech sector, analysis finds",
-          "url": "https://www.theguardian.com/uk-news/2026/sep/09/uk-datacentres-will-create-just-25-of-jobs-predicted-by-tech-sector-analysis-finds",
-          "published": "Wed, 09 Sep 2026 06:00:00 GMT",
-          "summary": "<p>Facilities likely to employ 10,400 workers, compared with 40,000 in industry estimates, thinktank says</p><p>Datacentres in the UK will create just a quarter of the jobs predicted by the tech sector, while consuming vast amounts of energy, according to new research.</p><p>Environmental thinktank Verdant predicts that all the datacentres currently planned are likely to directly employ 10,400 workers – compared with the more than 40,000 cited in projections by the industry lobby group TechUK.</",
-          "source": "The Guardian"
+          "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
+          "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 10:20:40 GMT",
+          "summary": "It is the latest strike in a long trade war, and comes after Canadian counter-tariffs on US goods come into force.",
+          "source": "BBC News"
         },
         {
-          "title": "Apple expected to unveil folding iPhone as new CEO takes center stage",
-          "url": "https://www.theguardian.com/technology/2026/sep/08/apple-new-folding-iphone",
-          "published": "Wed, 09 Sep 2026 06:00:02 GMT",
-          "summary": "<p>The new model will serve as the first big test for John Ternus, who took the role last week</p><p>All eyes are on Apple’s annual fall announcement of new products this afternoon, where the company is expected to unveil the most significant change to the iPhone since the smartphone’s introduction in 2007.</p><p>Unlike previous iterations, the new iPhone is expected to fold, opening and closing like a passport to double its screen size.</p> <a href=\"https://www.theguardian.com/technology/2026/s",
-          "source": "The Guardian"
+          "title": "Europe's royalty pay respects to King Harald V in Norway",
+          "url": "https://www.bbc.co.uk/news/articles/cd94jgy7e94o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 16:30:28 GMT",
+          "summary": "The Prince of Wales and three Nordic kings were among those who attended proceedings on Wednesday.",
+          "source": "BBC News"
         },
         {
-          "title": "United Utilities fined nearly £1m after discharging raw sewage along Lancashire coast",
-          "url": "https://www.theguardian.com/uk-news/2026/sep/08/united-utilities-fined-1m-discharging-raw-sewage-lancashire-coast",
-          "published": "Tue, 08 Sep 2026 18:04:11 GMT",
-          "summary": "<p>Seaside communities and businesses were affected significantly by the contamination in June 2023</p><p>United Utilities has been fined nearly £1m after illegally discharging raw sewage along the Lancashire coastline and polluting seaside holiday locations including Blackpool.</p><p>The water company pleaded guilty to five environmental permit offences relating to a pollution incident along the Fylde coast in June 2023, and was ordered by Preston magistrates court on Tuesday to pay £964,225 in",
-          "source": "The Guardian"
+          "title": "N Korea has built two-storey uranium enrichment facility, says watchdog",
+          "url": "https://www.bbc.co.uk/news/articles/cy0zqk2w92lo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 11:29:59 GMT",
+          "summary": "The International Atomic Energy Agency's says the facility is cause for \"serious concern\".",
+          "source": "BBC News"
         },
         {
-          "title": "‘Miserable and impossible’: food scarce in Kyiv as Russia targets supply chains",
-          "url": "https://www.theguardian.com/world/2026/sep/09/miserable-and-impossible-food-scarce-in-kyiv-ukraine-as-russia-targets-supply-chains",
-          "published": "Wed, 09 Sep 2026 04:00:59 GMT",
-          "summary": "<p>Supermarket shelves half-filled in Ukrainian capital as Moscow bombs warehouses supporting civilian life</p><p>Stocking up on cured sausages from the half-empty shelves in her local supermarket, Valentyna Sveshnikova is worried about money. The 68-year-old grandmother lives off her small pension and has already noticed the cost of several goods increase, including sausages. Russia wants “to make our life miserable and impossible. And they’re actually succeeding in it,” she says.</p><p>Russian",
-          "source": "The Guardian"
+          "title": "Uganda pulling out of Prince Harry's Invictus Games, says military chief",
+          "url": "https://www.bbc.co.uk/news/articles/c3d7pzyjzllo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 15:01:58 GMT",
+          "summary": "The decision, announced by the chief of defence, comes just two months after Uganda said it would participate.",
+          "source": "BBC News"
         },
         {
-          "title": "Ikea wins right to launch legal action against Belgian far-right party",
-          "url": "https://www.theguardian.com/business/2026/sep/08/ikea-wins-right-to-launch-legal-action-vlaams-belang-eu",
-          "published": "Tue, 08 Sep 2026 18:45:49 GMT",
-          "summary": "<p>EU’s highest court allows Swedish furniture firm to begin proceedings after Vlaams Belang used its trademarks in immigration campaign</p><p>Ikea has won the right to take legal action against a Belgian far-right political party that parodied the Swedish flatpack furniture firm’s branding in its anti-immigration campaign.</p><p>In a ruling on Tuesday, Europe’s highest court said that Ikea had the right to oppose the use of its trademarks and distinctive graphics by Vlaams Belang, a rightwing E",
-          "source": "The Guardian"
+          "title": "Two die at Moldovan border as Russia-Ukraine drone war rages",
+          "url": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 16:01:54 GMT",
+          "summary": "Three deaths are reported in Ukraine and four in Russia as both sides launch new drone strikes.",
+          "source": "BBC News"
         },
         {
-          "title": "Eiffel Tower management under fire after decision to hide female staff",
-          "url": "https://www.theguardian.com/world/2026/sep/08/eiffel-tower-management-under-fire-after-decision-to-hide-female-staff",
-          "published": "Tue, 08 Sep 2026 14:29:26 GMT",
-          "summary": "<p>One-day strike called after Paris landmark agreed to keep women out of sight for visit by Hindu group</p><p>The Eiffel Tower has reopened after a one-day strike was called in response to the landmark’s management ordering female staff to keep out of sight at the request of a visiting religious group.</p><p>City Hall, which operates the Paris landmark, has apologised for breaching France’s republican principle of equality and ordered a full inquiry.</p> <a href=\"https://www.theguardian.com/wor",
-          "source": "The Guardian"
+          "title": "Family of killed teen call for death penalty in D4vd trial",
+          "url": "https://www.bbc.co.uk/news/articles/c62mn90ppnro?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 09:58:48 GMT",
+          "summary": "The parents of Celeste Rivas Hernandez say execution \"would be perfect\" if D4vd is found guilty.",
+          "source": "BBC News"
         },
         {
-          "title": "Yes, cut red tape. But shareholder votes on boardroom pay are not ‘pointless admin’",
-          "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/sep/08/modernising-corporate-reporting-transparency-shareholder-votes",
-          "published": "Tue, 08 Sep 2026 17:57:42 GMT",
-          "summary": "<p>Nothing good can come of ditching annual investor votes on remuneration reports or encouraging online-only shareholder meetings</p><p>The government, like every other one in living memory, is on a mission to reduce red tape for business. The former chancellor Rachel Reeves promised <a href=\"https://www.gov.uk/government/news/chancellor-cuts-pointless-admin-in-nearly-6-billion-business-blitz\">“a blitz on bureaucracy” and “pointless admin”</a> and here comes the business department with <a href",
-          "source": "The Guardian"
+          "title": "Colombia's new president loosens gun control rules",
+          "url": "https://www.bbc.co.uk/news/articles/cqlwekrl3dqo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 11:01:41 GMT",
+          "summary": "President Abelardo de la Espriella has lifted a decade-long suspension on permits to carry legal firearms.",
+          "source": "BBC News"
         },
         {
-          "title": "UK airport disruption: what are your rights if you have been affected?",
-          "url": "https://www.theguardian.com/business/2026/sep/08/uk-airport-disruption-rights-if-affected-london-gatwick-heathrow-manchester-birmingham",
-          "published": "Tue, 08 Sep 2026 17:13:55 GMT",
-          "summary": "<p>Air traffic control issue affecting airports across UK on Tuesday has been resolved but disruption could continue into Wednesday</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/sep/08/air-traffic-control-issue-flights-delays-disruption-uk\">Flight disruption continues after air traffic control technical issue</a></p></li></ul><p>Airports across the UK including Manchester, Birmingham and all those in London were hit by <a href=\"https://www.theguardian.com/business/2026/sep/08/",
-          "source": "The Guardian"
+          "title": "Mother demands answers, weeks after black woman found hanging from Mississippi tree",
+          "url": "https://www.bbc.co.uk/news/articles/ckgwydke178o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 16:33:49 GMT",
+          "summary": "Her demands for information about what happened to Tasia Fortune have been echoed by shocked locals.",
+          "source": "BBC News"
         },
         {
-          "title": "Here in Liverpool, buses are back under public control – and that’s great for the only people who really matter | Steve Rotheram",
-          "url": "https://www.theguardian.com/commentisfree/2026/sep/08/liverpool-buses-public-control-privatisation-services-passengers",
-          "published": "Tue, 08 Sep 2026 12:48:35 GMT",
-          "summary": "<p>For decades we were told that privatisation would deliver better services. The experience of millions of passengers tells a different story</p><ul><li><p>Steve Rotheram is mayor of the Liverpool city region</p></li></ul><p>One of the best-known scenes from the TV series The Inbetweeners is the four angst-ridden teenage characters <a href=\"https://www.youtube.com/watch?v=kL1-UbnJTgs\">shouting abuse</a> at people queueing at a bus stop. Only losers take the bus, is the point – except they use a",
-          "source": "The Guardian"
+          "title": "White House pulls Tetris-style 'Build The Wall' game after copyright concern",
+          "url": "https://www.bbc.co.uk/news/articles/c9v9djj4m3do?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 12:06:40 GMT",
+          "summary": "The Tetris Company says it takes \"copyright infringement very seriously\" and is not involved with the game.",
+          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Air traffic control boss rules out cyber-attack and apologises to passengers as UK flight chaos enters second day – business live.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.137). Top story: Air traffic control boss rules out cyber-attack and apologises to passengers as UK flight chaos enters second day – business live.",
+        "key_takeaway": "Germany's Merz attacks AfD in stormy debate after far-right election win.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.176). Top story: Germany's Merz attacks AfD in stormy debate after far-right election win.",
         "key_themes": [
-          "Air traffic control boss rules out cyber-attack and apologises to passengers as UK flight chaos enters second day – business live",
-          "Burnham urged to tackle inequality with policies including wealth tax",
-          "US bans Canadian dairy, alcohol and motorcycles as trade war with longtime ally escalates",
-          "UK datacentres will create just 25% of jobs predicted by tech sector, analysis finds",
-          "Apple expected to unveil folding iPhone as new CEO takes center stage"
+          "Germany's Merz attacks AfD in stormy debate after far-right election win",
+          "Google picks Finland for its largest single investment in Europe",
+          "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+          "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
+          "Europe's royalty pay respects to King Harald V in Norway"
         ],
         "notable_headlines": [
           {
-            "headline": "Air traffic control boss rules out cyber-attack and apologises to passengers as UK flight chaos enters second day – business live",
-            "why_it_matters": "<p>Technical issue at air traffic control provider Nats leads to over 1,300 flight cancellations to and from UK airports; oil prices rise towards $100 a barrel for first time since July</p><p><strong>The boss of National…",
-            "signal": "Opportunity"
+            "headline": "Germany's Merz attacks AfD in stormy debate after far-right election win",
+            "why_it_matters": "Germany's chancellor clashes with AfD leader Alice Weidel, saying her migration policy amounts to \"ethnic cleansing\" for skilled workers.",
+            "signal": "Risk"
           },
           {
-            "headline": "Burnham urged to tackle inequality with policies including wealth tax",
-            "why_it_matters": "<p>Key thinkers suggest other radical measures in Compass report such as free personal social care and abolishing Lords</p><p>Andy Burnham should tackle inequality in the UK by introducing a wealth tax, universal free pe…",
-            "signal": "Opportunity"
+            "headline": "Google picks Finland for its largest single investment in Europe",
+            "why_it_matters": "The US tech giant says the €13bn data centre project will create tens of thousands of jobs.",
+            "signal": "Risk"
           },
           {
-            "headline": "US bans Canadian dairy, alcohol and motorcycles as trade war with longtime ally escalates",
-            "why_it_matters": "<p>The measure comes as Canada imposes $20bn in retaliatory tariffs and Canadian prime minister Mark Carney vows to reduce his country’s economic dependence on the US</p><p>The US is banning dairy products, most alcoholi…",
-            "signal": "Opportunity"
+            "headline": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+            "why_it_matters": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
+            "signal": "Risk"
           },
           {
-            "headline": "UK datacentres will create just 25% of jobs predicted by tech sector, analysis finds",
-            "why_it_matters": "<p>Facilities likely to employ 10,400 workers, compared with 40,000 in industry estimates, thinktank says</p><p>Datacentres in the UK will create just a quarter of the jobs predicted by the tech sector, while consuming v…",
-            "signal": "Opportunity"
+            "headline": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
+            "why_it_matters": "It is the latest strike in a long trade war, and comes after Canadian counter-tariffs on US goods come into force.",
+            "signal": "Risk"
           },
           {
-            "headline": "Apple expected to unveil folding iPhone as new CEO takes center stage",
-            "why_it_matters": "<p>The new model will serve as the first big test for John Ternus, who took the role last week</p><p>All eyes are on Apple’s annual fall announcement of new products this afternoon, where the company is expected to unvei…",
-            "signal": "Opportunity"
+            "headline": "Europe's royalty pay respects to King Harald V in Norway",
+            "why_it_matters": "The Prince of Wales and three Nordic kings were among those who attended proceedings on Wednesday.",
+            "signal": "Risk"
           },
           {
-            "headline": "United Utilities fined nearly £1m after discharging raw sewage along Lancashire coast",
-            "why_it_matters": "<p>Seaside communities and businesses were affected significantly by the contamination in June 2023</p><p>United Utilities has been fined nearly £1m after illegally discharging raw sewage along the Lancashire coastline a…",
-            "signal": "Opportunity"
+            "headline": "N Korea has built two-storey uranium enrichment facility, says watchdog",
+            "why_it_matters": "The International Atomic Energy Agency's says the facility is cause for \"serious concern\".",
+            "signal": "Risk"
           },
           {
-            "headline": "‘Miserable and impossible’: food scarce in Kyiv as Russia targets supply chains",
-            "why_it_matters": "<p>Supermarket shelves half-filled in Ukrainian capital as Moscow bombs warehouses supporting civilian life</p><p>Stocking up on cured sausages from the half-empty shelves in her local supermarket, Valentyna Sveshnikova …",
-            "signal": "Opportunity"
+            "headline": "Uganda pulling out of Prince Harry's Invictus Games, says military chief",
+            "why_it_matters": "The decision, announced by the chief of defence, comes just two months after Uganda said it would participate.",
+            "signal": "Risk"
           },
           {
-            "headline": "Ikea wins right to launch legal action against Belgian far-right party",
-            "why_it_matters": "<p>EU’s highest court allows Swedish furniture firm to begin proceedings after Vlaams Belang used its trademarks in immigration campaign</p><p>Ikea has won the right to take legal action against a Belgian far-right polit…",
-            "signal": "Opportunity"
+            "headline": "Two die at Moldovan border as Russia-Ukraine drone war rages",
+            "why_it_matters": "Three deaths are reported in Ukraine and four in Russia as both sides launch new drone strikes.",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -362,10 +170,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Air traffic control boss rules out cyber-attack and apologises to passengers as UK flight chaos enters second day – business live",
-            "Burnham urged to tackle inequality with policies including wealth tax",
-            "US bans Canadian dairy, alcohol and motorcycles as trade war with longtime ally escalates",
-            "UK datacentres will create just 25% of jobs predicted by tech sector, analysis finds"
+            "Germany's Merz attacks AfD in stormy debate after far-right election win",
+            "Google picks Finland for its largest single investment in Europe",
+            "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+            "US to ban imports of some Canadian alcohol, dairy goods and motorbikes"
           ],
           "confidence": "Medium"
         },
@@ -376,147 +184,161 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary air",
+          "latest news summary germany's",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Air traffic control boss rules out cyber-attack and apologises to passengers as UK flight...\n\nBusiness Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Action #Against #Alcohol #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "World: Germany's Merz attacks AfD in stormy debate after far-right election win\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Alcohol #Attacks #Barrel #WorldNews #BreakingNews #News #Headlines #Trending"
     },
-    "technology": {
-      "key": "technology",
-      "title": "Technology",
+    "business": {
+      "key": "business",
+      "title": "Business",
       "source": {
-        "site_name": "The Verge",
-        "site_url": "https://www.theverge.com",
-        "feed_url": "https://www.theverge.com/rss/index.xml"
+        "site_name": "The Guardian",
+        "site_url": "https://www.theguardian.com/business",
+        "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.0276,
-        "label": "Neutral",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.046, dampened ×0.6 → +0.0276). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.1422,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.237, dampened ×0.6 → -0.1422). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000",
-          "url": "https://www.theverge.com/tech/991884/apple-iphone-duo-rumor-foldable",
-          "published": "2026-09-09T01:26:53-04:00",
-          "summary": "With only a few hours left until the first iPhone launch event since John Ternus took over as the CEO of Apple, Bloomberg reporter Mark Gurman says the name of the company's long-rumored folding phone is the iPhone Duo. The midnight report suggests it will have a price starting at $2,000 for a model with [&#8230;]",
-          "source": "The Verge"
+          "title": "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
+          "url": "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates",
+          "published": "Wed, 09 Sep 2026 14:30:56 GMT",
+          "summary": "<p>Brent crude up by more than 3% after latest fire between US and Iran in Gulf and Houthi attacks on Saudi cities</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/sep/09/nats-boss-to-meet-uk-transport-secretary-as-second-day-of-flight-chaos-takes-cancelllations-past-1300-business-live\">Business live – latest updates</a></p></li></ul><p>The price of oil has risen above $100 a barrel for the first time since July as the escalating conflict in the Middle East threatens further",
+          "source": "The Guardian"
         },
         {
-          "title": "Sony isn’t phasing out discs quite as quickly as we thought",
-          "url": "https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent",
-          "published": "2026-09-08T17:52:13-04:00",
-          "summary": "Sony isn't backing away from its decision to kill the video game disc in January 2028. But Sony isn't shutting down production as quickly as we thought, either. Two months after reports that Sony's last discmaking plant was already being repurposed, the company's discmaking division now says that one widely reported detail was wrong. Originally, [&#8230;]",
-          "source": "The Verge"
+          "title": "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns",
+          "url": "https://www.theguardian.com/us-news/2026/sep/09/electronic-shelf-labels-grocery",
+          "published": "Wed, 09 Sep 2026 11:00:07 GMT",
+          "summary": "<p>AFL-CIO calls for ban on such labels to protect consumers and workers from surveillance pricing and job cuts</p><p>The universal adoption of electronic shelf labels in grocery stores across the US could cost tens of thousands of jobs and billions of dollars in lost wages while further driving up grocery costs, according to a report released on Tuesday.</p><p>An analysis by the AFL-CIO Tech Institute of the label manufacturers’ own marketing materials found the universal adoption of electronic",
+          "source": "The Guardian"
         },
         {
-          "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
-          "published": "2026-09-08T16:53:52-04:00",
-          "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and [&#8230;]",
-          "source": "The Verge"
+          "title": "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/trump-canada-trade-war-dairy-alcohol",
+          "published": "Tue, 08 Sep 2026 23:59:37 GMT",
+          "summary": "<p>Trump responds after Canada imposes $20bn in retaliatory tariffs and Canadian PM vows to diversify trade abroad</p><p>The US is banning dairy products, most alcoholic beverages and motorcycles from Canada, the White House said on Tuesday, as the trade war between the two neighbors and longtime allies escalates.</p><p>The ban will take effect in three weeks and comes after Canada imposed retaliatory tariffs on $20bn in US imports earlier on Tuesday.</p> <a href=\"https://www.theguardian.com/us-",
+          "source": "The Guardian"
         },
         {
-          "title": "Rivian spinout Also apologizes for delays in shipping futuristic e-bikes",
-          "url": "https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology",
-          "published": "2026-09-08T16:46:56-04:00",
-          "summary": "Rivian's futuristic e-bike is delayed, and customers are not happy. Last year, Rivian's micromobility spinoff Also unveiled a new, software-controlled electric bike called the TM-B that immediately set the e-bike world ablaze. With USB-C chargeable battery, removable seat post, and software-controlled pedal-by-wire system, the TM-B set itself apart with a totally unique approach to electric [&#8230;]",
-          "source": "The Verge"
+          "title": "US labor unions saw membership gains in 2025, mostly in states with bargaining protections",
+          "url": "https://www.theguardian.com/us-news/2026/sep/07/labor-unions-membership-increase",
+          "published": "Mon, 07 Sep 2026 11:00:48 GMT",
+          "summary": "<p>Uptick in US union membership coincides with high public approval ratings of unions</p><p>After years of decline, union membership in the US increased by 411,000 members in 2025, the largest increase since 2008, according to a <a href=\"https://www.illinoisepi.org/reports/\">new report</a>.</p><p>The report makes clear the impact that “right to work” laws can have on union membership: most gains were concentrated in states that protect collective bargaining.</p> <a href=\"https://www.theguardian",
+          "source": "The Guardian"
         },
         {
-          "title": "Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off",
-          "url": "https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale",
-          "published": "2026-09-08T16:39:49-04:00",
-          "summary": "It’s rare to find high-end features like active noise cancellation in a gaming headset under $200, so we’re thrilled that the Razer BlackShark V3 Pro on sale at Woot for $164.99. There are specific models marketed to Xbox and PlayStation, but the Xbox version is the best choice because it also supports PlayStation, PC, Nintendo [&#8230;]",
-          "source": "The Verge"
+          "title": "‘There’s no plan’: as instability in global bond markets rises, what are the knock-on effects?",
+          "url": "https://www.theguardian.com/business/2026/sep/04/instability-in-global-bond-markets-rising-knock-on-effects",
+          "published": "Fri, 04 Sep 2026 16:49:28 GMT",
+          "summary": "<p>From mortgages to inflation, concerns about the public finances of major economies have wide-reaching consequences</p><p>When Donald Trump was asked recently about the threat of rising interest rates on US government debt, he told baffled reporters: “The ultimate intervention is our military. And if we have to use that, we will.”</p><p>Perhaps not surprisingly, his bellicose words did not soothe fractious bond markets, and his resumption of the bombing campaign against Iran only made matters",
+          "source": "The Guardian"
         },
         {
-          "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
-          "published": "2026-09-08T16:16:09-04:00",
-          "summary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image [&#8230;]",
-          "source": "The Verge"
+          "title": "Maria Bartiromo’s lawyer denies she was fired from Fox News anchor role",
+          "url": "https://www.theguardian.com/media/2026/sep/04/maria-bartiromo-lawyer-denies-fox-news-firing",
+          "published": "Fri, 04 Sep 2026 17:56:11 GMT",
+          "summary": "<p>Fox announced host’s departure Thursday but gave no explanation, only saying it was effective immediately</p><p>Maria Bartiromo’s lawyer sharply denied that she was fired from her job at Fox News on Friday, after reports that she was dismissed after divulging the network’s editorial guidance to the White House.</p><p>Fox announced <a href=\"https://www.theguardian.com/media/2026/sep/03/maria-bartiromo-fox-news-departure\">Bartiromo’s departure</a> on Thursday but provided no explanation, saying",
+          "source": "The Guardian"
         },
         {
-          "title": "Meta bets on AI agent Muse to catch up in AI race",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-          "published": "2026-09-08T15:00:00-04:00",
-          "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch up [&#8230;]",
-          "source": "The Verge"
+          "title": "US added 162,000 jobs in August, with unemployment rate holding steady",
+          "url": "https://www.theguardian.com/business/2026/sep/04/august-economy-jobs-report",
+          "published": "Fri, 04 Sep 2026 12:40:44 GMT",
+          "summary": "<p>Number of new jobs being added has been fluctuating, with private companies adding 38,000 jobs in August</p><p>The US economy added 162,000 jobs in August, an uptick after a sluggish summer for the labor market.</p><p>The unemployment rate held steady at 4.1%, still down from its most recent peak of 4.5% last November, according to new data from the Bureau of Labor Statistics (BLS). Despite the relative stability of the unemployment rate, the number of new jobs added to the economy has been f",
+          "source": "The Guardian"
         },
         {
-          "title": "AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
-          "published": "2026-09-08T13:27:31-04:00",
-          "summary": "Anthropic says power users are key to its business - it's prioritized them even when it means cutting off other popular applications, like OpenClaw. But some of these same customers say Anthropic misled them into believing they'd get more out of a top-tier pricing subscription than they did. In an expanded class action lawsuit filed [&#8230;]",
-          "source": "The Verge"
+          "title": "Nvidia to buy developer platform Hugging Face in $12.9bn deal",
+          "url": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
+          "published": "Thu, 03 Sep 2026 16:59:56 GMT",
+          "summary": "<p>Semi-conductor giant bets that support for open AI models could offset potential slowdown in demand for chips</p><p><a href=\"https://www.theguardian.com/technology/nvidia\">Nvidia</a> will buy the popular developer platform Hugging Face for nearly $13bn, betting that support for ⁠open AI models could offset a potential slowdown in demand for the semiconductor giant’s chips.</p><p>Shares ⁠in Nvidia were ⁠slightly lower ​after the $12.93bn (£9.57bn) deal – which ranks among its biggest ever – wa",
+          "source": "The Guardian"
         },
         {
-          "title": "Nintendo isn’t scared of GTA VI",
-          "url": "https://www.theverge.com/games/991484/zelda-ocarina-of-time-gta-6",
-          "published": "2026-09-08T13:13:51-04:00",
-          "summary": "There's never really been a game like Grand Theft Auto VI before, one that has completely altered the lineup of games around it. Everyone, it seems, is scared of going up against Grand Theft Auto VI. Everyone, that is, except for Nintendo. The company held a 30-minute showcase this morning focused entirely on its Legend [&#8230;]",
-          "source": "The Verge"
+          "title": "Dutch central bank moves 86 tonnes of gold to UK from US and Canada, citing ‘geopolitical unrest’",
+          "url": "https://www.theguardian.com/world/2026/sep/03/netherlands-gold-dutch-central-bank-uk-us-and-canada-geopolitical-unrest",
+          "published": "Wed, 02 Sep 2026 23:47:15 GMT",
+          "summary": "<p>Bank says gold reserves held in London could be traded more easily and the move will allow it to respond more rapidly in a ‘crisis situation’</p><p>The Dutch central bank says it has moved 86 tonnes of its gold reserves out of the US and Canada to London, citing “increasing geopolitical unrest”.</p><p>De Nederlandsche Bank (DNB) said gold reserves held in London could be traded more easily than those held in New York and Ottawa.</p> <a href=\"https://www.theguardian.com/world/2026/sep/03/nethe",
+          "source": "The Guardian"
         },
         {
-          "title": "Tesla Cybercab doesn’t have any manual controls — but it does have a virtual joystick",
-          "url": "https://www.theverge.com/transportation/991400/tesla-cybercab-virtual-joystick-manual-control",
-          "published": "2026-09-08T12:06:56-04:00",
-          "summary": "The Tesla Cybercab is notable for what it lacks, namely a steering wheel and pedal. By design, there is no way for this vehicle to be manually controlled - or so we thought. Less than a week after the Cybercab was officially launched in Austin, Texas, some riders have discovered the Cybercab's secret manual controls [&#8230;]",
-          "source": "The Verge"
+          "title": "‘The most anti-union president’: how Trump turned his back on US workers",
+          "url": "https://www.theguardian.com/us-news/2026/sep/07/trump-workers-labor-union",
+          "published": "Mon, 07 Sep 2026 11:00:49 GMT",
+          "summary": "<p>Labor experts stunned at how anti-worker Trump has been with actions since last Labor Day that have hurt unions</p><p>Donald Trump has repeatedly vowed to champion US workers. Shortly before Labor Day last year, he said: “Every policy of the Trump administration <a href=\"https://www.npr.org/2025/09/01/g-s1-86336/labor-day-trump-administration-policies\">is designed to lift up the American worker</a> and “promote great-paying blue-collar jobs”. But in the year since last Labor Day, Trump has ta",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Air conditioners are our best bet in the fight against extreme heat – whether we like it or not",
+          "url": "https://www.theguardian.com/environment/2026/sep/06/climate-crisis-air-conditioning-access",
+          "published": "Sun, 06 Sep 2026 11:00:03 GMT",
+          "summary": "<p>Global AC demand will inevitably accelerate as the world continues to warm amid the climate crisis</p><p>The greenest campaigners against climate change have long suffered from a crippling shortcoming: they too often frame the challenge as a problem of excess consumption. This motivates calls to <a href=\"https://degrowth.info/international-degrowth-network\">“degrow”</a> the economy and to <a href=\"https://www.biologicaldiversity.org/programs/population_and_sustainability/population/\">curb the",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Private equity faces existential crisis in US as unsold companies pile up",
+          "url": "https://www.theguardian.com/us-news/2026/sep/04/private-equity-boom-hospital-job-layoff",
+          "published": "Fri, 04 Sep 2026 10:00:04 GMT",
+          "summary": "<p>Private equity firms and the companies they own employ over 13 million, from startups to rural hospitals and large retailers, but experts’ concerns of collapse are growing</p><p>Retail stalwarts Saks and Eddie Bauer filed for bankruptcy. Kmart and JoAnn Fabrics are gone for good, a trail of layoffs and <a href=\"https://www.theguardian.com/us-news/2026/aug/10/consumed-consumer-goods-quality\">disappointed customers</a> in their wake. Hospital giant Steward Health Care collapsed, <a href=\"https:",
+          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is neutral (0.028). Top story: Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000.",
+        "key_takeaway": "Oil prices rise above $100 a barrel for first time since July as Iran war escalates.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.142). Top story: Oil prices rise above $100 a barrel for first time since July as Iran war escalates.",
         "key_themes": [
-          "Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000",
-          "Sony isn’t phasing out discs quite as quickly as we thought",
-          "Drama swirls around OpenAI’s legendary mathematical milestone",
-          "Rivian spinout Also apologizes for delays in shipping futuristic e-bikes",
-          "Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off"
+          "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
+          "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns",
+          "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
+          "US labor unions saw membership gains in 2025, mostly in states with bargaining protections",
+          "‘There’s no plan’: as instability in global bond markets rises, what are the knock-on effects?"
         ],
         "notable_headlines": [
           {
-            "headline": "Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000",
-            "why_it_matters": "With only a few hours left until the first iPhone launch event since John Ternus took over as the CEO of Apple, Bloomberg reporter Mark Gurman says the name of the company's long-rumored folding phone is the iPhone Duo. …",
-            "signal": "Unclear"
+            "headline": "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
+            "why_it_matters": "<p>Brent crude up by more than 3% after latest fire between US and Iran in Gulf and Houthi attacks on Saudi cities</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/sep/09/nats-boss-to-meet-uk-transpo…",
+            "signal": "Risk"
           },
           {
-            "headline": "Sony isn’t phasing out discs quite as quickly as we thought",
-            "why_it_matters": "Sony isn't backing away from its decision to kill the video game disc in January 2028. But Sony isn't shutting down production as quickly as we thought, either. Two months after reports that Sony's last discmaking plant …",
-            "signal": "Unclear"
+            "headline": "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns",
+            "why_it_matters": "<p>AFL-CIO calls for ban on such labels to protect consumers and workers from surveillance pricing and job cuts</p><p>The universal adoption of electronic shelf labels in grocery stores across the US could cost tens of t…",
+            "signal": "Risk"
           },
           {
-            "headline": "Drama swirls around OpenAI’s legendary mathematical milestone",
-            "why_it_matters": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered …",
-            "signal": "Unclear"
+            "headline": "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
+            "why_it_matters": "<p>Trump responds after Canada imposes $20bn in retaliatory tariffs and Canadian PM vows to diversify trade abroad</p><p>The US is banning dairy products, most alcoholic beverages and motorcycles from Canada, the White H…",
+            "signal": "Risk"
           },
           {
-            "headline": "Rivian spinout Also apologizes for delays in shipping futuristic e-bikes",
-            "why_it_matters": "Rivian's futuristic e-bike is delayed, and customers are not happy. Last year, Rivian's micromobility spinoff Also unveiled a new, software-controlled electric bike called the TM-B that immediately set the e-bike world a…",
-            "signal": "Unclear"
+            "headline": "US labor unions saw membership gains in 2025, mostly in states with bargaining protections",
+            "why_it_matters": "<p>Uptick in US union membership coincides with high public approval ratings of unions</p><p>After years of decline, union membership in the US increased by 411,000 members in 2025, the largest increase since 2008, accor…",
+            "signal": "Risk"
           },
           {
-            "headline": "Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off",
-            "why_it_matters": "It’s rare to find high-end features like active noise cancellation in a gaming headset under $200, so we’re thrilled that the Razer BlackShark V3 Pro on sale at Woot for $164.99. There are specific models marketed to Xbo…",
-            "signal": "Unclear"
+            "headline": "‘There’s no plan’: as instability in global bond markets rises, what are the knock-on effects?",
+            "why_it_matters": "<p>From mortgages to inflation, concerns about the public finances of major economies have wide-reaching consequences</p><p>When Donald Trump was asked recently about the threat of rising interest rates on US government …",
+            "signal": "Risk"
           },
           {
-            "headline": "ChatGPT Sketch turns your bad drawings into detailed AI images",
-            "why_it_matters": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside…",
-            "signal": "Unclear"
+            "headline": "Maria Bartiromo’s lawyer denies she was fired from Fox News anchor role",
+            "why_it_matters": "<p>Fox announced host’s departure Thursday but gave no explanation, only saying it was effective immediately</p><p>Maria Bartiromo’s lawyer sharply denied that she was fired from her job at Fox News on Friday, after repo…",
+            "signal": "Risk"
           },
           {
-            "headline": "Meta bets on AI agent Muse to catch up in AI race",
-            "why_it_matters": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar str…",
-            "signal": "Unclear"
+            "headline": "US added 162,000 jobs in August, with unemployment rate holding steady",
+            "why_it_matters": "<p>Number of new jobs being added has been fluctuating, with private companies adding 38,000 jobs in August</p><p>The US economy added 162,000 jobs in August, an uptick after a sluggish summer for the labor market.</p><p…",
+            "signal": "Risk"
           },
           {
-            "headline": "AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court",
-            "why_it_matters": "Anthropic says power users are key to its business - it's prioritized them even when it means cutting off other popular applications, like OpenClaw. But some of these same customers say Anthropic misled them into believi…",
-            "signal": "Unclear"
+            "headline": "Nvidia to buy developer platform Hugging Face in $12.9bn deal",
+            "why_it_matters": "<p>Semi-conductor giant bets that support for open AI models could offset potential slowdown in demand for chips</p><p><a href=\"https://www.theguardian.com/technology/nvidia\">Nvidia</a> will buy the popular developer pla…",
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -531,10 +353,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000",
-            "Sony isn’t phasing out discs quite as quickly as we thought",
-            "Drama swirls around OpenAI’s legendary mathematical milestone",
-            "Rivian spinout Also apologizes for delays in shipping futuristic e-bikes"
+            "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
+            "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns",
+            "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
+            "US labor unions saw membership gains in 2025, mostly in states with bargaining protections"
           ],
           "confidence": "Medium"
         },
@@ -544,12 +366,181 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
-          "latest news summary apple’s",
+          "today's mixed news headlines",
+          "latest news summary oil",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000\n\nTechnology Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#2000 #Agent #Almost #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Oil prices rise above $100 a barrel for first time since July as Iran war escalates\n\nBusiness Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Escalates #Jobs #Prices #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "technology": {
+      "key": "technology",
+      "title": "Technology",
+      "source": {
+        "site_name": "The Verge",
+        "site_url": "https://www.theverge.com",
+        "feed_url": "https://www.theverge.com/rss/index.xml"
+      },
+      "sentiment": {
+        "score": 0.1237,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.206, dampened ×0.6 → +0.1237). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Apple announces the iPhone 18 Pro and 18 Pro Max",
+          "url": "https://www.theverge.com/tech/986331/apple-iphone-18-pro-max-september-2026-event",
+          "published": "2026-09-09T13:08:34-04:00",
+          "summary": "Apple announced the iPhone 18 Pro and iPhone 18 Pro Max at its event on Wednesday. The 18 Pro and Pro Max come in deep black, silver, \"glacier,\" and burgundy, with color-matched back glass. They also have a new A20 Pro chip and purportedly the longest battery in an iPhone. During Wednesday's presentation, Apple highlighted [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Microsoft has new AI privacy rules for schools",
+          "url": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
+          "published": "2026-09-09T13:07:48-04:00",
+          "summary": "Microsoft agreed to a set of safety and privacy principles for AI in schools a week after two major school systems announced a ban on student-facing AI. In a new agreement with the American Federation of Teachers (AFT), the second-largest teachers union in the US, and its New York City affiliate the United Federation of [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple’s John Ternus era begins: ‘It is great to be here’",
+          "url": "https://www.theverge.com/tech/991273/john-ternus-first-apple-product-launch-as-ceo",
+          "published": "2026-09-09T13:02:31-04:00",
+          "summary": "Apple's latest product event began with something the company hasn't seen in more than a decade: a new CEO at the helm. And he got a standing ovation. \"First of all, thank you, it is great to be here,\" John Ternus said as he opened Wednesday's event excited about Apple's future in what is his [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Ocarina of Time remake physical preorders are $10 off at Walmart",
+          "url": "https://www.theverge.com/gadgets/992221/ocarina-of-time-remaster-corsair-scimitar-deal-sale",
+          "published": "2026-09-09T12:43:54-04:00",
+          "summary": "Nintendo announced a variety of new titles at its September livestream, but among the most talked-about is the remastered The Legend of Zelda: Ocarina of Time for Switch 2. Walmart has the physical copy of the upcoming game available for preorder for just $59.88, which is $10 lower than the physical price elsewhere, and the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Some of Dyson’s $500 toothbrushes are breaking",
+          "url": "https://www.theverge.com/gadgets/992113/some-of-dysons-500-toothbrushes-are-breaking",
+          "published": "2026-09-09T12:39:31-04:00",
+          "summary": "Early users of Dyson's CameraJet are reporting that water is getting into the battery compartment of the newly launched $499.99 electric toothbrush. One user posted on the r/Dyson subreddit that their model \"broke within 30 seconds.\" The problem appears to stem from the device getting wet, which is a big issue for a toothbrush. In [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Xbox is bringing back startup animations from its console history",
+          "url": "https://www.theverge.com/news/992269/xbox-custom-boot-animation-local-search-voice-clarity-features",
+          "published": "2026-09-09T12:25:30-04:00",
+          "summary": "Microsoft is starting to test some new Xbox console features with Insiders. Testers will be able to try out custom Xbox boot animations from the past, more personalization options for badges, a new local search feature, improved Remote Play quality, the ability to download while you play on cloud, and clearer voice chat. Xbox testers [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "All the news from Apple’s ‘Surprise and shine’ event",
+          "url": "https://www.theverge.com/tech/991697/apple-surprise-and-shine-event-news",
+          "published": "2026-09-09T12:20:00-04:00",
+          "summary": "Apple’s hosting its “Surprise and shine” launch event on September 9th at 1PM ET / 10AM PT, where it’s expected to announce the first phones in its iPhone 18 lineup — including Apple’s first foldable, the rumored “iPhone Duo.” This event will also be John Ternus’ first as Apple’s CEO after taking over for Tim [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "iPhone 18 live blog: On the ground at Apple’s biggest event",
+          "url": "https://www.theverge.com/tech/989658/iphone-18-duo-pro-fold-apple-watch-airpods-keynote-live",
+          "published": "2026-09-09T12:15:00-04:00",
+          "summary": "It's not just time for any old Apple event, but one that's expected to usher in a new era for the company. This is the first iPhone keynote to be led by Apple's newly anointed CEO John Ternus, and all signs and rumors have been pointing to it being the one that also debuts a [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Google search embraces live NFL football",
+          "url": "https://www.theverge.com/entertainment/991893/google-search-gets-better-at-live-nfl-football",
+          "published": "2026-09-09T12:00:00-04:00",
+          "summary": "Google is introducing a new Live Game Feed to keep you updated on NFL games as the regular season kicks off tonight. Look for the red \"Live\" icon and you'll see a recap of the ongoing game, play-by-play updates, top commentary on social, video highlights, and \"AI-powered insights.\" It's available now on mobile in English, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Framework is giving some customers a RAM refund",
+          "url": "https://www.theverge.com/gadgets/992218/framework-lowers-ram-prices-refunds",
+          "published": "2026-09-09T11:36:37-04:00",
+          "summary": "In a \"rare, positive update\" amid the ongoing component shortage, Framework is lowering its RAM prices for some buyers of the Laptop 13 Pro - at least, for now. After increasing the laptop's memory pricing in July, Framework says it \"secured a limited quantity of Micron 32GB and 64GB LPCAMM2 memory modules at lower cost,\" [&#8230;]",
+          "source": "The Verge"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Apple announces the iPhone 18 Pro and 18 Pro Max.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.124). Top story: Apple announces the iPhone 18 Pro and 18 Pro Max.",
+        "key_themes": [
+          "Apple announces the iPhone 18 Pro and 18 Pro Max",
+          "Microsoft has new AI privacy rules for schools",
+          "Apple’s John Ternus era begins: ‘It is great to be here’",
+          "Ocarina of Time remake physical preorders are $10 off at Walmart",
+          "Some of Dyson’s $500 toothbrushes are breaking"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Apple announces the iPhone 18 Pro and 18 Pro Max",
+            "why_it_matters": "Apple announced the iPhone 18 Pro and iPhone 18 Pro Max at its event on Wednesday. The 18 Pro and Pro Max come in deep black, silver, \"glacier,\" and burgundy, with color-matched back glass. They also have a new A20 Pro c…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Microsoft has new AI privacy rules for schools",
+            "why_it_matters": "Microsoft agreed to a set of safety and privacy principles for AI in schools a week after two major school systems announced a ban on student-facing AI. In a new agreement with the American Federation of Teachers (AFT), …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Apple’s John Ternus era begins: ‘It is great to be here’",
+            "why_it_matters": "Apple's latest product event began with something the company hasn't seen in more than a decade: a new CEO at the helm. And he got a standing ovation. \"First of all, thank you, it is great to be here,\" John Ternus said a…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Ocarina of Time remake physical preorders are $10 off at Walmart",
+            "why_it_matters": "Nintendo announced a variety of new titles at its September livestream, but among the most talked-about is the remastered The Legend of Zelda: Ocarina of Time for Switch 2. Walmart has the physical copy of the upcoming g…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Some of Dyson’s $500 toothbrushes are breaking",
+            "why_it_matters": "Early users of Dyson's CameraJet are reporting that water is getting into the battery compartment of the newly launched $499.99 electric toothbrush. One user posted on the r/Dyson subreddit that their model \"broke within…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Xbox is bringing back startup animations from its console history",
+            "why_it_matters": "Microsoft is starting to test some new Xbox console features with Insiders. Testers will be able to try out custom Xbox boot animations from the past, more personalization options for badges, a new local search feature, …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "All the news from Apple’s ‘Surprise and shine’ event",
+            "why_it_matters": "Apple’s hosting its “Surprise and shine” launch event on September 9th at 1PM ET / 10AM PT, where it’s expected to announce the first phones in its iPhone 18 lineup — including Apple’s first foldable, the rumored “iPhone…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "iPhone 18 live blog: On the ground at Apple’s biggest event",
+            "why_it_matters": "It's not just time for any old Apple event, but one that's expected to usher in a new era for the company. This is the first iPhone keynote to be led by Apple's newly anointed CEO John Ternus, and all signs and rumors ha…",
+            "signal": "Opportunity"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "Apple announces the iPhone 18 Pro and 18 Pro Max",
+            "Microsoft has new AI privacy rules for schools",
+            "Apple’s John Ternus era begins: ‘It is great to be here’",
+            "Ocarina of Time remake physical preorders are $10 off at Walmart"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary apple",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Technology: Apple announces the iPhone 18 Pro and 18 Pro Max\n\nTechnology Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apples #Event #Iphone #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -743,11 +734,74 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.1947,
+        "score": 0.0738,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.325, dampened ×0.6 → +0.1947). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.123, dampened ×0.6 → +0.0738). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Scientists find a bone-building switch that could fight osteoporosis",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
+          "published": "Wed, 09 Sep 2026 09:52:53 EDT",
+          "summary": "An experimental compound called AP503 significantly strengthened bones in mice by activating GPR133, a receptor that boosts bone formation while slowing bone loss. Because the same treatment has also been linked to stronger muscles, researchers see intriguing potential for combating age-related decline and osteoporosis.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Interstellar comet 3I/ATLAS is bursting with methanol",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005217.htm",
+          "published": "Wed, 09 Sep 2026 04:47:39 EDT",
+          "summary": "Interstellar comet 3I/ATLAS contains exceptionally high levels of methanol, suggesting it formed under conditions very different from those that shaped most comets in our solar system. ALMA also revealed that tiny icy grains around the comet are releasing methanol like miniature comets, giving astronomers an unusually detailed look at an object from another star system.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Have we found alien life? Hundreds of scientists weigh in",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005212.htm",
+          "published": "Wed, 09 Sep 2026 07:13:30 EDT",
+          "summary": "Two major alien-life announcements in 2025 generated enormous excitement, but most astrobiologists remained unconvinced. Only 6.6% of surveyed experts thought possible biological molecules on K2-18b probably represented extraterrestrial life, while 15.1% said the same about intriguing mineral patterns in a Martian rock.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Ozempic and Wegovy linked to nearly 40% fewer asthma attacks",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005155.htm",
+          "published": "Wed, 09 Sep 2026 09:06:53 EDT",
+          "summary": "Semaglutide, the drug found in Ozempic and Wegovy, was linked to nearly 40% fewer asthma attacks in a large real-world study. It was also associated with about 20% fewer COPD flare-ups. Researchers say GLP-1 drugs may offer respiratory benefits in addition to their effects on diabetes and obesity, but clinical trials are needed to confirm the findings.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Devil’s Arrows: Ancient builders hauled 55,000-pound stones 11 miles for Britain’s tallest stone row",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005152.htm",
+          "published": "Wed, 09 Sep 2026 03:41:21 EDT",
+          "summary": "Britain’s towering Devil’s Arrows were built from 25-tonne stones hauled at least 18 kilometers from Brimham Rocks around 4,000 years ago. The discovery reveals an astonishing feat of prehistoric engineering and suggests the stones’ distant source may have been chosen for cultural or spiritual reasons.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Chinese scientists find a hidden atomic structure that unlocks methane",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005148.htm",
+          "published": "Wed, 09 Sep 2026 01:33:42 EDT",
+          "summary": "Scientists found that a tiny atomic structure that forms on nickel oxide during methane conversion is more effective than the metallic nickel long believed to drive the reaction. The discovery allowed a low-nickel catalyst to rival one containing 10 times more metal, potentially opening the door to cheaper and more efficient industrial catalysts.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "“Parachute science” is failing the tropics, home to more than 80% of insect species",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005145.htm",
+          "published": "Wed, 09 Sep 2026 02:30:55 EDT",
+          "summary": "Insects quietly hold much of the natural world together, yet conservation efforts are overlooking the tropical regions where more than 80 percent of insect species live. Monash University researchers have developed a global framework to close this gap by combining scientific studies with museum collections, local expertise, citizen science, social media records, and new technologies.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Caffeine may flip an ancient cellular switch linked to slower aging",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260907201609.htm",
+          "published": "Tue, 08 Sep 2026 20:28:13 EDT",
+          "summary": "Scientists found that caffeine activates an ancient cellular energy system involved in stress resistance, DNA repair, and growth. The discovery could help explain caffeine’s links to healthier aging and may point toward new ways to target the same pathway.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Geologists reveal the Americas collided millions of years earlier than thought",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260907201608.htm",
+          "published": "Wed, 09 Sep 2026 00:35:01 EDT",
+          "summary": "Volcanic rocks in Colombia are rewriting the timeline of the collision between Central and South America. Their magnetic signatures show that major tectonic deformation had already weakened by the late Miocene, suggesting the most intense collision occurred earlier than previously believed.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
           "url": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm",
@@ -768,121 +822,58 @@
           "published": "Tue, 08 Sep 2026 08:59:00 EDT",
           "summary": "Semaglutide, the drug behind Ozempic and Wegovy, may have benefits that extend well beyond weight loss and diabetes. In a large Swedish study of nearly 15,000 people with bipolar disorder, its use was linked to a 21% lower risk of psychiatric hospitalization. Researchers think effects on inflammation and brain-related biological pathways could help stabilize mood, though other GLP-1 drugs did not show the same association.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "The American “cheetah” wasn’t a cheetah at all",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260907201558.htm",
-          "published": "Tue, 08 Sep 2026 07:58:27 EDT",
-          "summary": "The extinct “American cheetah” was not really a cheetah at all, but a puma relative with an unexpectedly flexible lifestyle. Fossils from the Yukon suggest northern populations survived partly by eating fish, possibly including salmon, while southern cats hunted on land.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Your personality may be more genetic than scientists realized",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260907201554.htm",
-          "published": "Tue, 08 Sep 2026 09:40:34 EDT",
-          "summary": "More than 1,200 genetic variants have been linked to the Big Five personality traits, and many of the same variants are also associated with health, longevity, careers, income, and everyday habits. The findings reveal a surprisingly wide genetic connection between personality and life outcomes while showing that environment still plays a powerful role.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists observe Einstein’s gravity in the quantum world for the first time",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260907201552.htm",
-          "published": "Tue, 08 Sep 2026 08:09:21 EDT",
-          "summary": "Physicists have directly observed a long-predicted quantum effect of gravity, putting one of Einstein’s foundational ideas to a striking new test. Using ultracold atoms, researchers split an atom’s quantum wave so that one part was held in place while the other fell freely under gravity, then reunited the two to measure the tiny difference that emerged.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Doctors saved this rare monkey from amputation. Months later, she gave birth",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260906170145.htm",
-          "published": "Mon, 07 Sep 2026 22:09:10 EDT",
-          "summary": "A critically endangered roloway monkey has given birth just months after surgeons performed an unusual operation that saved her foot from amputation. Her new daughter, Lagertha, is an important addition to a species believed to number fewer than 2,000 in the wild.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists say love follows hidden mathematical rules",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260906170140.htm",
-          "published": "Mon, 07 Sep 2026 04:58:31 EDT",
-          "summary": "Could math help explain why some relationships survive life’s inevitable stresses while others slowly fall apart? Researchers have spent decades developing mathematical models that treat romantic feelings as changing systems, revealing patterns in attraction, emotional reactions, conflict, and recovery.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A War of 1812 soldier buried his own arm. His real story is even stranger",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260906170138.htm",
-          "published": "Mon, 07 Sep 2026 04:26:02 EDT",
-          "summary": "A rediscovered memoir reveals that celebrated War of 1812 veteran Shadrack Byfield was far more rebellious and troubled than history has portrayed, battling chronic pain, poverty, authorities, and even rivals at his local chapel. The soldier who buried his own amputated arm and invented a custom prosthesis spent decades fiercely fighting for the pension and independence he believed he had earned.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Your gut microbiome may be more contagious than scientists thought",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260906170129.htm",
-          "published": "Mon, 07 Sep 2026 02:34:24 EDT",
-          "summary": "Scientists have found evidence that some gut bacterial populations can spread rapidly between people and across continents, suggesting the microbiome may be more transmissible than previously thought. The research also revealed hidden bacterial groups associated with aging, colorectal cancer, inflammatory bowel disease, and type 2 diabetes.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Antarctica gained a record 695 billion tons of ice. Scientists found the surprising reason",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260906170128.htm",
-          "published": "Sun, 06 Sep 2026 18:54:05 EDT",
-          "summary": "East Antarctica gained an astonishing 695 billion tons of ice between 2021 and 2023, temporarily slowing Antarctica’s long-term decline. Researchers found that warming thousands of miles away in the tropical ocean altered atmospheric circulation and funneled moisture toward the continent, triggering exceptionally heavy snowfall.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Popular brain supplement linked to shorter lifespan in men",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260904000330.htm",
-          "published": "Sun, 06 Sep 2026 17:21:25 EDT",
-          "summary": "A large study involving more than 270,000 people has linked higher blood levels of the amino acid tyrosine to a shorter lifespan in men. Using both observational data and genetic analysis, researchers found that elevated tyrosine could potentially reduce male life expectancy by nearly a year, while no significant effect appeared in women. Tyrosine is found naturally in protein-rich foods and is also sold as a supplement for boosting focus and mental performance, making the finding especially int",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Scientists discover a powerful new antivenom hidden in rattlesnake blood.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.195). Top story: Scientists discover a powerful new antivenom hidden in rattlesnake blood.",
+        "key_takeaway": "Scientists find a bone-building switch that could fight osteoporosis.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.074). Top story: Scientists find a bone-building switch that could fight osteoporosis.",
         "key_themes": [
-          "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
-          "Giant new dinosaur discovered beneath construction site in Brazil",
-          "Ozempic and Wegovy may have an unexpected mental health benefit",
-          "The American “cheetah” wasn’t a cheetah at all",
-          "Your personality may be more genetic than scientists realized"
+          "Scientists find a bone-building switch that could fight osteoporosis",
+          "Interstellar comet 3I/ATLAS is bursting with methanol",
+          "Have we found alien life? Hundreds of scientists weigh in",
+          "Ozempic and Wegovy linked to nearly 40% fewer asthma attacks",
+          "Devil’s Arrows: Ancient builders hauled 55,000-pound stones 11 miles for Britain’s tallest stone row"
         ],
         "notable_headlines": [
           {
-            "headline": "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
-            "why_it_matters": "Researchers discovered that combinations of toxin-blocking proteins naturally found in rattlesnake blood can powerfully neutralize venom from several dangerous snake species. In lab tests, the mixtures were about 10 time…",
-            "signal": "Opportunity"
+            "headline": "Scientists find a bone-building switch that could fight osteoporosis",
+            "why_it_matters": "An experimental compound called AP503 significantly strengthened bones in mice by activating GPR133, a receptor that boosts bone formation while slowing bone loss. Because the same treatment has also been linked to stron…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Giant new dinosaur discovered beneath construction site in Brazil",
-            "why_it_matters": "Scientists have identified a giant new dinosaur from Brazil that reached about 20 meters long and lived 120 million years ago. Its surprising evolutionary ties to a Spanish dinosaur suggest its ancestors crossed ancient …",
-            "signal": "Opportunity"
+            "headline": "Interstellar comet 3I/ATLAS is bursting with methanol",
+            "why_it_matters": "Interstellar comet 3I/ATLAS contains exceptionally high levels of methanol, suggesting it formed under conditions very different from those that shaped most comets in our solar system. ALMA also revealed that tiny icy gr…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Ozempic and Wegovy may have an unexpected mental health benefit",
-            "why_it_matters": "Semaglutide, the drug behind Ozempic and Wegovy, may have benefits that extend well beyond weight loss and diabetes. In a large Swedish study of nearly 15,000 people with bipolar disorder, its use was linked to a 21% low…",
-            "signal": "Opportunity"
+            "headline": "Have we found alien life? Hundreds of scientists weigh in",
+            "why_it_matters": "Two major alien-life announcements in 2025 generated enormous excitement, but most astrobiologists remained unconvinced. Only 6.6% of surveyed experts thought possible biological molecules on K2-18b probably represented …",
+            "signal": "Unclear"
           },
           {
-            "headline": "The American “cheetah” wasn’t a cheetah at all",
-            "why_it_matters": "The extinct “American cheetah” was not really a cheetah at all, but a puma relative with an unexpectedly flexible lifestyle. Fossils from the Yukon suggest northern populations survived partly by eating fish, possibly in…",
-            "signal": "Opportunity"
+            "headline": "Ozempic and Wegovy linked to nearly 40% fewer asthma attacks",
+            "why_it_matters": "Semaglutide, the drug found in Ozempic and Wegovy, was linked to nearly 40% fewer asthma attacks in a large real-world study. It was also associated with about 20% fewer COPD flare-ups. Researchers say GLP-1 drugs may of…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Your personality may be more genetic than scientists realized",
-            "why_it_matters": "More than 1,200 genetic variants have been linked to the Big Five personality traits, and many of the same variants are also associated with health, longevity, careers, income, and everyday habits. The findings reveal a …",
-            "signal": "Opportunity"
+            "headline": "Devil’s Arrows: Ancient builders hauled 55,000-pound stones 11 miles for Britain’s tallest stone row",
+            "why_it_matters": "Britain’s towering Devil’s Arrows were built from 25-tonne stones hauled at least 18 kilometers from Brimham Rocks around 4,000 years ago. The discovery reveals an astonishing feat of prehistoric engineering and suggests…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Scientists observe Einstein’s gravity in the quantum world for the first time",
-            "why_it_matters": "Physicists have directly observed a long-predicted quantum effect of gravity, putting one of Einstein’s foundational ideas to a striking new test. Using ultracold atoms, researchers split an atom’s quantum wave so that o…",
-            "signal": "Opportunity"
+            "headline": "Chinese scientists find a hidden atomic structure that unlocks methane",
+            "why_it_matters": "Scientists found that a tiny atomic structure that forms on nickel oxide during methane conversion is more effective than the metallic nickel long believed to drive the reaction. The discovery allowed a low-nickel cataly…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Doctors saved this rare monkey from amputation. Months later, she gave birth",
-            "why_it_matters": "A critically endangered roloway monkey has given birth just months after surgeons performed an unusual operation that saved her foot from amputation. Her new daughter, Lagertha, is an important addition to a species beli…",
-            "signal": "Opportunity"
+            "headline": "“Parachute science” is failing the tropics, home to more than 80% of insect species",
+            "why_it_matters": "Insects quietly hold much of the natural world together, yet conservation efforts are overlooking the tropical regions where more than 80 percent of insect species live. Monash University researchers have developed a glo…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Scientists say love follows hidden mathematical rules",
-            "why_it_matters": "Could math help explain why some relationships survive life’s inevitable stresses while others slowly fall apart? Researchers have spent decades developing mathematical models that treat romantic feelings as changing sys…",
-            "signal": "Opportunity"
+            "headline": "Caffeine may flip an ancient cellular switch linked to slower aging",
+            "why_it_matters": "Scientists found that caffeine activates an ancient cellular energy system involved in stress resistance, DNA repair, and growth. The discovery could help explain caffeine’s links to healthier aging and may point toward …",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -897,10 +888,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
-            "Giant new dinosaur discovered beneath construction site in Brazil",
-            "Ozempic and Wegovy may have an unexpected mental health benefit",
-            "The American “cheetah” wasn’t a cheetah at all"
+            "Scientists find a bone-building switch that could fight osteoporosis",
+            "Interstellar comet 3I/ATLAS is bursting with methanol",
+            "Have we found alien life? Hundreds of scientists weigh in",
+            "Ozempic and Wegovy linked to nearly 40% fewer asthma attacks"
           ],
           "confidence": "Medium"
         },
@@ -915,7 +906,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: Scientists discover a powerful new antivenom hidden in rattlesnake blood\n\nScience Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Cheetah #Hidden #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: Scientists find a bone-building switch that could fight osteoporosis\n\nScience Sentiment: Mixed (+0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Ancient #Find #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
