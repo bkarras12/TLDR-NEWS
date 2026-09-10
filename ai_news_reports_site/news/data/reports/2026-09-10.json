@@ -1,11 +1,13 @@
 {
   "date": "2026-09-10",
-  "generated_at_utc": "2026-09-10T07:41:28Z",
+  "generated_at_utc": "2026-09-10T17:25:18Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "since",
-    "trump"
+    "fire",
+    "trump",
+    "iran",
+    "iphone"
   ],
   "categories": {
     "world": {
@@ -17,30 +19,72 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0701,
+        "score": -0.1828,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.117, dampened ×0.6 → -0.0701). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.305, dampened ×0.6 → -0.1828). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Trump says every adult American would get $5,000 if Republicans win midterms",
+          "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 15:38:56 GMT",
+          "summary": "Mokha's capture would bring the Iran-backed group closer to controlling the Bab al-Mandab Strait waterway, a key shipping route.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
+          "url": "https://www.bbc.co.uk/news/articles/cj4jynv59ddo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 16:31:30 GMT",
+          "summary": "One pilot told the other about the aircraft's \"excessive speed\" but received an uneven response even as alarms sounded.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump says every adult American will get $5,000 if Republicans win midterms",
           "url": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 10 Sep 2026 06:56:38 GMT",
+          "published": "Thu, 10 Sep 2026 13:23:37 GMT",
           "summary": "Speaking at a party convention, the US president gave no details on how the plan would work or where the money would come from.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
+          "url": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 15:54:17 GMT",
+          "summary": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Twenty-five dead after fire on cargo ship in eastern China",
+          "url": "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 12:24:54 GMT",
+          "summary": "Of the 42 people on board, 17 were were evacuated, CCTV reports.",
+          "source": "BBC News"
+        },
+        {
+          "title": "More than 20 children feared dead in DR Congo school fire",
+          "url": "https://www.bbc.co.uk/news/articles/cgjq15j7318o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 16:21:50 GMT",
+          "summary": "Officials say there was a stampede as they fled a fire that engulfed two schools in the eastern rebel-held city of Bukavu.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Royal family rift after popular TV news presenter chosen to succeed Ugandan king",
+          "url": "https://www.bbc.co.uk/news/articles/c8jdpj4ydm2o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 13:12:40 GMT",
+          "summary": "King Oyo's family say he left a will naming his young son as heir to the Tooro kingdom.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
+          "url": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 09:32:34 GMT",
+          "summary": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
           "source": "BBC News"
         },
         {
           "title": "Iran war won't end until after crucial November elections, says Trump",
           "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 10 Sep 2026 05:56:38 GMT",
+          "published": "Thu, 10 Sep 2026 10:43:53 GMT",
           "summary": "The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
-          "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 10 Sep 2026 06:30:19 GMT",
-          "summary": "The fire broke out as the vessel nearing its destination at the tourist hotspot of Coron in Palawan.",
           "source": "BBC News"
         },
         {
@@ -51,112 +95,70 @@
           "source": "BBC News"
         },
         {
-          "title": "Apple's new boss starts with big gamble on costly first folding iPhone",
-          "url": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 20:00:33 GMT",
-          "summary": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
+          "title": "Muted US response to UK's West Bank sanctions may reflect simmering frustration",
+          "url": "https://www.bbc.co.uk/news/articles/cevw2lxnwk9o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 09 Sep 2026 21:21:13 GMT",
+          "summary": "The UK accuses Israel's government of turning a blind eye to the \"ethnic cleansing\" of Palestinians by settlers.",
           "source": "BBC News"
         },
         {
-          "title": "Google picks Finland for its largest single investment in Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c8r6y4me2g6o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 17:06:48 GMT",
-          "summary": "The US tech giant says the €13bn data centre project will create tens of thousands of jobs.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-          "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 16:46:53 GMT",
-          "summary": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
-          "source": "BBC News"
-        },
-        {
-          "title": "Uganda pulling out of Prince Harry's Invictus Games, says military chief",
-          "url": "https://www.bbc.co.uk/news/articles/c3d7pzyjzllo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 15:01:58 GMT",
-          "summary": "The decision, announced by the chief of defence, comes just two months after Uganda said it would participate.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Europe's royalty pay respects to King Harald V in Norway",
-          "url": "https://www.bbc.co.uk/news/articles/cd94jgy7e94o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 16:30:28 GMT",
-          "summary": "The Prince of Wales and three Nordic kings were among those who attended proceedings on Wednesday.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trump gave $45,000 cash gifts to Natalie Harp and two other aides, public records show",
-          "url": "https://www.bbc.co.uk/news/articles/c046rxw93xlo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 18:27:35 GMT",
-          "summary": "The White House has described the cash gifts to Harp and three others as personal - and legal.",
-          "source": "BBC News"
-        },
-        {
-          "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
-          "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 10:20:40 GMT",
-          "summary": "It is the latest strike in a long trade war, and comes after Canadian counter-tariffs on US goods come into force.",
-          "source": "BBC News"
-        },
-        {
-          "title": "N Korea has built two-storey uranium enrichment facility, says watchdog",
-          "url": "https://www.bbc.co.uk/news/articles/cy0zqk2w92lo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 11:29:59 GMT",
-          "summary": "The International Atomic Energy Agency's says the facility is cause for \"serious concern\".",
+          "title": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
+          "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 06:30:19 GMT",
+          "summary": "The fire broke out as the vessel nearing its destination at the tourist hotspot of Coron in Palawan.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Trump says every adult American would get $5,000 if Republicans win midterms.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.070). Top story: Trump says every adult American would get $5,000 if Republicans win midterms.",
+        "key_takeaway": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.183). Top story: Yemen's Houthis reportedly seize strategic Red Sea port of Mokha.",
         "key_themes": [
-          "Trump says every adult American would get $5,000 if Republicans win midterms",
-          "Iran war won't end until after crucial November elections, says Trump",
-          "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
-          "Spanish intelligence warned of Ceuta mass crossing plans before surge",
-          "Apple's new boss starts with big gamble on costly first folding iPhone"
+          "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+          "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
+          "Trump says every adult American will get $5,000 if Republicans win midterms",
+          "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
+          "Twenty-five dead after fire on cargo ship in eastern China"
         ],
         "notable_headlines": [
           {
-            "headline": "Trump says every adult American would get $5,000 if Republicans win midterms",
+            "headline": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+            "why_it_matters": "Mokha's capture would bring the Iran-backed group closer to controlling the Bab al-Mandab Strait waterway, a key shipping route.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
+            "why_it_matters": "One pilot told the other about the aircraft's \"excessive speed\" but received an uneven response even as alarms sounded.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trump says every adult American will get $5,000 if Republicans win midterms",
             "why_it_matters": "Speaking at a party convention, the US president gave no details on how the plan would work or where the money would come from.",
-            "signal": "Unclear"
+            "signal": "Risk"
           },
           {
-            "headline": "Iran war won't end until after crucial November elections, says Trump",
-            "why_it_matters": "The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.",
-            "signal": "Unclear"
+            "headline": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
+            "why_it_matters": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
+            "signal": "Risk"
           },
           {
-            "headline": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
-            "why_it_matters": "The fire broke out as the vessel nearing its destination at the tourist hotspot of Coron in Palawan.",
-            "signal": "Unclear"
+            "headline": "Twenty-five dead after fire on cargo ship in eastern China",
+            "why_it_matters": "Of the 42 people on board, 17 were were evacuated, CCTV reports.",
+            "signal": "Risk"
           },
           {
-            "headline": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
-            "why_it_matters": "Declassified documents show Spanish and Moroccan authorities were alerted to social media calls for a mass migrant crossing the day before tens of thousands entered Ceuta.",
-            "signal": "Unclear"
+            "headline": "More than 20 children feared dead in DR Congo school fire",
+            "why_it_matters": "Officials say there was a stampede as they fled a fire that engulfed two schools in the eastern rebel-held city of Bukavu.",
+            "signal": "Risk"
           },
           {
-            "headline": "Apple's new boss starts with big gamble on costly first folding iPhone",
+            "headline": "Royal family rift after popular TV news presenter chosen to succeed Ugandan king",
+            "why_it_matters": "King Oyo's family say he left a will naming his young son as heir to the Tooro kingdom.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
             "why_it_matters": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Google picks Finland for its largest single investment in Europe",
-            "why_it_matters": "The US tech giant says the €13bn data centre project will create tens of thousands of jobs.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-            "why_it_matters": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Uganda pulling out of Prince Harry's Invictus Games, says military chief",
-            "why_it_matters": "The decision, announced by the chief of defence, comes just two months after Uganda said it would participate.",
-            "signal": "Unclear"
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -171,10 +173,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Trump says every adult American would get $5,000 if Republicans win midterms",
-            "Iran war won't end until after crucial November elections, says Trump",
-            "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
-            "Spanish intelligence warned of Ceuta mass crossing plans before surge"
+            "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+            "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
+            "Trump says every adult American will get $5,000 if Republicans win midterms",
+            "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack"
           ],
           "confidence": "Medium"
         },
@@ -185,11 +187,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary trump",
+          "latest news summary yemen's",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Trump says every adult American would get $5,000 if Republicans win midterms\n\nWorld Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #5000 #Adult #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Yemen's Houthis reportedly seize strategic Red Sea port of Mokha\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Cargo #Dead #Fire #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -200,16 +202,30 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1544,
+        "score": -0.1435,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.257, dampened ×0.6 → -0.1544). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.239, dampened ×0.6 → -0.1435). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Bond market rebuffs US treasury’s plan to buy back $6bn in government debt",
-          "url": "https://www.theguardian.com/business/2026/sep/09/treasury-bond-buyback",
-          "published": "Wed, 09 Sep 2026 19:56:30 GMT",
-          "summary": "<p>Scott Bessent made announcement on Wednesday as bond yields rose to highest point since 2008 financial crisis</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/sep/09/donald-trump-rnc-republican-national-convention-jd-vance-midterms-latest-news-updates\">US politics live – latest updates</a></p></li></ul><p>The US treasury moved to cut the cost of borrowing on Wednesday only to be swiftly rebuffed by the bond market.</p><p>Scott Bessent, the treasury secretary, announced the",
+          "title": "Trouble in US bond market could mean higher prices are here to stay",
+          "url": "https://www.theguardian.com/business/2026/sep/10/bond-market-higher-costs",
+          "published": "Thu, 10 Sep 2026 10:00:21 GMT",
+          "summary": "<p>Concerns over rising inflation, continuing war with Iran, and the US’s record national debt have shaken the market </p><p>Americans who have been grappling with the higher cost of living over the last few years now face another issue: trouble in the US bond market that could mean elevated costs are here to stay.</p><p>US government bonds – known as treasurys – are supposed to be the most stable type of investment vehicle. But investor concerns over issues including rising inflation, the conti",
+          "source": "The Guardian"
+        },
+        {
+          "title": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+          "url": "https://www.theguardian.com/business/2026/sep/10/ecb-raises-interest-rates-to-25-amid-warning-iran-war-is-fuelling-inflation",
+          "published": "Thu, 10 Sep 2026 13:10:15 GMT",
+          "summary": "<p>Borrowing costs climb in Europe and oil tops $105 a barrel as bank says growing price pressures in eurozone will be ‘longer lasting than we had anticipated’</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/sep/10/markets-economy-oil-uk-flight-disruption-primark-home-delivery-business-live-news\">Business live – latest updates</a></p></li></ul><p>The European Central Bank has raised interest rates to 2.5% and warned that the risk of higher inflation over the next year has r",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’",
+          "url": "https://www.theguardian.com/technology/2026/sep/09/apple-product-showcase-ceo-john-ternus",
+          "published": "Wed, 09 Sep 2026 19:07:53 GMT",
+          "summary": "<p>John Ternus helms his first major event as head of $4.5tn company, where he announces first foldable iPhone</p><p>John Ternus, Apple’s new CEO, helmed the company’s annual showcase of new iPhones and other products on Wednesday. It was the first time the public saw the warm and unpretentious demeanor of the executive, who is filling the shoes of Tim Cook and his predecessor, Steve Jobs, at the $4.5tn tech giant.</p><p>The event kicked off with a video montage of characters describing the best",
           "source": "The Guardian"
         },
         {
@@ -255,20 +271,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "US added 162,000 jobs in August, with unemployment rate holding steady",
-          "url": "https://www.theguardian.com/business/2026/sep/04/august-economy-jobs-report",
-          "published": "Fri, 04 Sep 2026 12:40:44 GMT",
-          "summary": "<p>Number of new jobs being added has been fluctuating, with private companies adding 38,000 jobs in August</p><p>The US economy added 162,000 jobs in August, an uptick after a sluggish summer for the labor market.</p><p>The unemployment rate held steady at 4.1%, still down from its most recent peak of 4.5% last November, according to new data from the Bureau of Labor Statistics (BLS). Despite the relative stability of the unemployment rate, the number of new jobs added to the economy has been f",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Nvidia to buy developer platform Hugging Face in $12.9bn deal",
-          "url": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
-          "published": "Thu, 03 Sep 2026 16:59:56 GMT",
-          "summary": "<p>Semi-conductor giant bets that support for open AI models could offset potential slowdown in demand for chips</p><p><a href=\"https://www.theguardian.com/technology/nvidia\">Nvidia</a> will buy the popular developer platform Hugging Face for nearly $13bn, betting that support for ⁠open AI models could offset a potential slowdown in demand for the semiconductor giant’s chips.</p><p>Shares ⁠in Nvidia were ⁠slightly lower ​after the $12.93bn (£9.57bn) deal – which ranks among its biggest ever – wa",
-          "source": "The Guardian"
-        },
-        {
           "title": "‘The most anti-union president’: how Trump turned his back on US workers",
           "url": "https://www.theguardian.com/us-news/2026/sep/07/trump-workers-labor-union",
           "published": "Mon, 07 Sep 2026 11:00:49 GMT",
@@ -291,19 +293,29 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Bond market rebuffs US treasury’s plan to buy back $6bn in government debt.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.154). Top story: Bond market rebuffs US treasury’s plan to buy back $6bn in government debt.",
+        "key_takeaway": "Trouble in US bond market could mean higher prices are here to stay.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.143). Top story: Trouble in US bond market could mean higher prices are here to stay.",
         "key_themes": [
-          "Bond market rebuffs US treasury’s plan to buy back $6bn in government debt",
+          "Trouble in US bond market could mean higher prices are here to stay",
+          "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+          "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’",
           "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
-          "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns",
-          "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
-          "US labor unions saw membership gains in 2025, mostly in states with bargaining protections"
+          "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns"
         ],
         "notable_headlines": [
           {
-            "headline": "Bond market rebuffs US treasury’s plan to buy back $6bn in government debt",
-            "why_it_matters": "<p>Scott Bessent made announcement on Wednesday as bond yields rose to highest point since 2008 financial crisis</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/sep/09/donald-trump-rnc-republican-nat…",
+            "headline": "Trouble in US bond market could mean higher prices are here to stay",
+            "why_it_matters": "<p>Concerns over rising inflation, continuing war with Iran, and the US’s record national debt have shaken the market </p><p>Americans who have been grappling with the higher cost of living over the last few years now fa…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+            "why_it_matters": "<p>Borrowing costs climb in Europe and oil tops $105 a barrel as bank says growing price pressures in eurozone will be ‘longer lasting than we had anticipated’</p><ul><li><p><a href=\"https://www.theguardian.com/business/…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’",
+            "why_it_matters": "<p>John Ternus helms his first major event as head of $4.5tn company, where he announces first foldable iPhone</p><p>John Ternus, Apple’s new CEO, helmed the company’s annual showcase of new iPhones and other products on…",
             "signal": "Risk"
           },
           {
@@ -330,16 +342,6 @@
             "headline": "‘There’s no plan’: as instability in global bond markets rises, what are the knock-on effects?",
             "why_it_matters": "<p>From mortgages to inflation, concerns about the public finances of major economies have wide-reaching consequences</p><p>When Donald Trump was asked recently about the threat of rising interest rates on US government …",
             "signal": "Risk"
-          },
-          {
-            "headline": "Maria Bartiromo’s lawyer denies she was fired from Fox News anchor role",
-            "why_it_matters": "<p>Fox announced host’s departure Thursday but gave no explanation, only saying it was effective immediately</p><p>Maria Bartiromo’s lawyer sharply denied that she was fired from her job at Fox News on Friday, after repo…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "US added 162,000 jobs in August, with unemployment rate holding steady",
-            "why_it_matters": "<p>Number of new jobs being added has been fluctuating, with private companies adding 38,000 jobs in August</p><p>The US economy added 162,000 jobs in August, an uptick after a sluggish summer for the labor market.</p><p…",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -354,10 +356,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Bond market rebuffs US treasury’s plan to buy back $6bn in government debt",
-            "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
-            "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns",
-            "US bans Canadian dairy, alcohol and motorcycles as trade war escalates"
+            "Trouble in US bond market could mean higher prices are here to stay",
+            "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+            "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’",
+            "Oil prices rise above $100 a barrel for first time since July as Iran war escalates"
           ],
           "confidence": "Medium"
         },
@@ -368,11 +370,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary bond",
+          "latest news summary trouble",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Bond market rebuffs US treasury’s plan to buy back $6bn in government debt\n\nBusiness Sentiment: Mixed (-0.15)\n\nRead the full breakdown: https://tldrnews.info\n\n#Bond #Escalates #Jobs #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Trouble in US bond market could mean higher prices are here to stay\n\nBusiness Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prices #Bond #Escalates #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -383,131 +385,131 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2983,
+        "score": 0.2786,
         "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.497, dampened ×0.6 → +0.2983). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.464, dampened ×0.6 → +0.2786). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Volvo XC40 PHEV is back with a new look, better sensors, and Gemini AI",
-          "url": "https://www.theverge.com/transportation/992443/volvo-xc40-phev-specs-price-gemini",
-          "published": "2026-09-10T03:00:00-04:00",
-          "summary": "It's been about three years since Volvo discontinued its plug-in hybrid XC40. The mild hybrid version remains on sale in the US and elsewhere, alongside the electric EX40. Today, Volvo announced it was bringing back the PHEV version and giving it a major facelift. When it arrives at dealerships early next year, the new XC40 [&#8230;]",
+          "title": "Amazon’s Fire TV Stick 4K is over half off at under $20",
+          "url": "https://www.theverge.com/gadgets/993455/fire-tv-stick-4k-resident-evil-requiem-deal-sale",
+          "published": "2026-09-10T12:58:44-04:00",
+          "summary": "Looking to take full advantage of your 4K television, but your current streaming stick doesn’t have the right features? Through September 13th, you can grab an Amazon Fire TV Stick 4K from Woot for just $16.09 when you use the coupon code FIRE30 at checkout. With support for Wi-Fi 6 and 2GB of memory, it’s [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "There aren’t AirPods with cameras yet and I hope it stays that way",
-          "url": "https://www.theverge.com/tech/993064/no-airpods-with-cameras-apple-event",
-          "published": "2026-09-09T19:00:04-04:00",
-          "summary": "September Apple events are always a swirl of information and new, exciting products, and today's was no different. Apple announced its first foldable, the iPhone Duo, alongside the iPhone 18 Pro and Pro Max; active noise cancellation (ANC) is now on the cheapest AirPods model, the AirPods 5; and a Siri Recap feature comes to [&#8230;]",
+          "title": "Electric air taxis get the green light for test flights in Texas",
+          "url": "https://www.theverge.com/transportation/993341/evtol-air-taxi-aviation-eipp-texas",
+          "published": "2026-09-10T12:00:00-04:00",
+          "summary": "A new federal program to test the feasibility of electric, hybrid-electric, and autonomous aircraft kicks off today in Texas - before the rules governing this new technology have even been finalized. Earlier this year, the Federal Aviation Administration's Advanced Air Mobility and Electric Vertical Takeoff and Landing (eVTOL) Integration Pilot Program (eIPP) selected eight state-led [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The black iPhone Pro returns",
-          "url": "https://www.theverge.com/tech/993048/iphone-18-pro-black-color",
-          "published": "2026-09-09T18:37:51-04:00",
-          "summary": "Apple has seen reason: It has a black model in the iPhone Pro lineup again. Last year, Apple went bold with its colors for the iPhone 17 Pro, offering a flashy orange, a shiny silver, and a dark blue. Don't get me wrong, they looked nice. But there was no black (or dark gray) for [&#8230;]",
+          "title": "Universal Music is launching an AI music platform with ElevenLabs",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+          "published": "2026-09-10T11:38:19-04:00",
+          "summary": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thursday. The record label is developing the platform through a multiyear licensing agreement with ElevenLabs, a company that specializes [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The incomplete history of Duo devices",
-          "url": "https://www.theverge.com/tech/992755/apple-iphone-duo-history-of-devices",
-          "published": "2026-09-09T18:23:35-04:00",
-          "summary": "Apple announced the company's first device with a folding screen today, the iPhone Duo, but that's where the firsts end. The Duo is not only far from the first foldable on the market thanks to the efforts of Samsung and Google, but it's also not the first product to be called the Duo. Former Apple [&#8230;]",
+          "title": "Where to preorder the new Apple Watch Series 12 and Ultra 4",
+          "url": "https://www.theverge.com/gadgets/988579/apple-watch-series-12-5g-ultra-4-preorder-buy",
+          "published": "2026-09-10T11:00:00-04:00",
+          "summary": "The iPhone Duo was the unequivocal star of Apple's \"Surprise and shine\" event, but not for people who were mostly paying attention for news on wearables. Thankfully, Apple had a lot to share about its new Apple Watch Series 12 and Ultra 4. There's no update to the SE model for 2026, which isn't necessarily [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Automattic CEO Matt Mullenweg placed on leave",
-          "url": "https://www.theverge.com/tech/993022/wordpress-automattic-ceo-matt-mullenweg-leave-of-absence",
-          "published": "2026-09-09T18:15:52-04:00",
-          "summary": "Matt Mullenweg, the CEO of WordPress.com owner Automattic, has been placed on a paid leave of absence, as reported earlier by 404 Media. In an internal message by the outlet, Mullenweg claims Automattic chief financial officer Mark Davies \"conspired\" with board members to place him on leave. \"They voted to put me on a paid [&#8230;]",
+          "title": "Wolverine on the PS5 goes back to a simpler (and bloodier) style of action game",
+          "url": "https://www.theverge.com/games/992937/wolverine-review-ps5",
+          "published": "2026-09-10T11:00:00-04:00",
+          "summary": "Marvel's Wolverine captures just how angry its lead character is. The latest PS5 exclusive from Spider-Man developer Insomniac, Wolverine is a straightforward action game that is at its best when you're (literally) slicing through enemies or thrust into a sequence pulled from a blockbuster movie, like climbing the fuselage of a plane as it careens [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "It’s the year of smartphone price hikes",
-          "url": "https://www.theverge.com/gadgets/993005/smartphone-price-hikes-apple-iphone-18-pro",
-          "published": "2026-09-09T17:52:43-04:00",
-          "summary": "Paying more for a new phone seems almost unavoidable after Apple's event today. The new iPhone 18 Pro and Pro Max start at $1,199 and $1,299, respectively - a $100 price hike over their predecessors. You can't dodge the price hike by opting for an older iPhone, either, because Apple raised prices on those by [&#8230;]",
+          "title": "Meta’s Muse AI works and creeps me out",
+          "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
+          "published": "2026-09-10T11:00:00-04:00",
+          "summary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Suno releases its first AI music model made with record industry help",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
-          "published": "2026-09-09T17:42:19-04:00",
-          "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" The data includes content licensed [&#8230;]",
+          "title": "Another big James Talarico interview is punted to YouTube due to FCC threats",
+          "url": "https://www.theverge.com/policy/993383/jimmy-kimmel-fcc-brendan-carr-james-talarico",
+          "published": "2026-09-10T10:34:36-04:00",
+          "summary": "Jimmy Kimmel will be interviewing Democratic Texas Senate candidate James Talarico \"under unusual circumstances,\" posting the interview directly to YouTube, rather than airing it on TV during Jimmy Kimmel Live. In Wednesday night's episode, Kimmel said this was out of concern for retaliation from the Trump administration's FCC: [Trump's] FCC has threatened me, threatened our [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
-          "published": "2026-09-09T17:16:34-04:00",
-          "summary": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming mathematics. But before it was even formally announced, the breakthrough had been complicated by the unusual [&#8230;]",
+          "title": "The iPhone Duo’s hardware doesn’t look special, but its software might be",
+          "url": "https://www.theverge.com/tech/993300/iphone-duo-hardware-software-android-samsung-oppo",
+          "published": "2026-09-10T10:21:38-04:00",
+          "summary": "With the iPhone Duo, Apple has pulled off a familiar trick. It arrives into a mature Android foldable market with a handful of hardware features we've mostly already seen elsewhere, but paired with a level of software polish that makes a lot of them feel new again. It's those software flourishes that have me excited [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Read the Apple document explaining how new listening features still protect your privacy",
-          "url": "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy",
-          "published": "2026-09-09T16:44:43-04:00",
-          "summary": "At Wednesday's iPhone Duo launch event, Apple announced a handful of new Siri AI Audio Intelligence features, including Siri Recap, Live Rewind, Sound Recognition, and Music Recognition. Alongside its announcement, Apple released a document laying out how it plans to balance AI \"ambient listening\" and users' privacy. It says the raw audio from the new [&#8230;]",
+          "title": "How the iPhone Duo compares to other folding phones",
+          "url": "https://www.theverge.com/gadgets/988542/iphone-duo-foldable-samsung-google-spec-comparison",
+          "published": "2026-09-10T10:00:00-04:00",
+          "summary": "Apple's foldable phone is finally here - well, almost. The iPhone Duo, coming October 23rd, follows in the footsteps of past folding devices from Android phone makers like Samsung, OnePlus, and Google, with a $1,999 price tag that sits just above the Pixel 11 Pro Fold and Galaxy Z Fold 8. While its hardware bears [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "How the new Apple Watches compare to the last-gen models",
-          "url": "https://www.theverge.com/gadgets/990508/apple-watch-series-12-ultra-4-spec-comparison",
-          "published": "2026-09-09T16:42:51-04:00",
-          "summary": "Apple rolled out the Apple Watch Series 12 and Apple Watch Ultra 4 at its \"Surprise and shine\" event. The new watches feature sizable improvements to their health sensors and tracking, plus the ability to create brief audio transcriptions and summaries, plus a ceramic case option for the Series 12. Despite the new features, the [&#8230;]",
+          "title": "Why the current tech backlash feels different",
+          "url": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
+          "published": "2026-09-10T10:00:00-04:00",
+          "summary": "This interview has been lightly edited for length and clarity.&#160; Nick Statt: Hello and welcome to Decoder, Nilay&#8217;s show about big ideas and other problems. This is Nick Statt, senior producer. And I&#8217;m joined by our brand-new supervising producer, Greg Ott. Greg Ott: Good day, everyone. And Hi, Nilay. Nilay is here too. He is [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Volvo XC40 PHEV is back with a new look, better sensors, and Gemini AI.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.298). Top story: Volvo XC40 PHEV is back with a new look, better sensors, and Gemini AI.",
+        "key_takeaway": "Amazon’s Fire TV Stick 4K is over half off at under $20.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.279). Top story: Amazon’s Fire TV Stick 4K is over half off at under $20.",
         "key_themes": [
-          "Volvo XC40 PHEV is back with a new look, better sensors, and Gemini AI",
-          "There aren’t AirPods with cameras yet and I hope it stays that way",
-          "The black iPhone Pro returns",
-          "The incomplete history of Duo devices",
-          "Automattic CEO Matt Mullenweg placed on leave"
+          "Amazon’s Fire TV Stick 4K is over half off at under $20",
+          "Electric air taxis get the green light for test flights in Texas",
+          "Universal Music is launching an AI music platform with ElevenLabs",
+          "Where to preorder the new Apple Watch Series 12 and Ultra 4",
+          "Wolverine on the PS5 goes back to a simpler (and bloodier) style of action game"
         ],
         "notable_headlines": [
           {
-            "headline": "Volvo XC40 PHEV is back with a new look, better sensors, and Gemini AI",
-            "why_it_matters": "It's been about three years since Volvo discontinued its plug-in hybrid XC40. The mild hybrid version remains on sale in the US and elsewhere, alongside the electric EX40. Today, Volvo announced it was bringing back the …",
+            "headline": "Amazon’s Fire TV Stick 4K is over half off at under $20",
+            "why_it_matters": "Looking to take full advantage of your 4K television, but your current streaming stick doesn’t have the right features? Through September 13th, you can grab an Amazon Fire TV Stick 4K from Woot for just $16.09 when you u…",
             "signal": "Opportunity"
           },
           {
-            "headline": "There aren’t AirPods with cameras yet and I hope it stays that way",
-            "why_it_matters": "September Apple events are always a swirl of information and new, exciting products, and today's was no different. Apple announced its first foldable, the iPhone Duo, alongside the iPhone 18 Pro and Pro Max; active noise…",
+            "headline": "Electric air taxis get the green light for test flights in Texas",
+            "why_it_matters": "A new federal program to test the feasibility of electric, hybrid-electric, and autonomous aircraft kicks off today in Texas - before the rules governing this new technology have even been finalized. Earlier this year, t…",
             "signal": "Opportunity"
           },
           {
-            "headline": "The black iPhone Pro returns",
-            "why_it_matters": "Apple has seen reason: It has a black model in the iPhone Pro lineup again. Last year, Apple went bold with its colors for the iPhone 17 Pro, offering a flashy orange, a shiny silver, and a dark blue. Don't get me wrong,…",
+            "headline": "Universal Music is launching an AI music platform with ElevenLabs",
+            "why_it_matters": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thur…",
             "signal": "Opportunity"
           },
           {
-            "headline": "The incomplete history of Duo devices",
-            "why_it_matters": "Apple announced the company's first device with a folding screen today, the iPhone Duo, but that's where the firsts end. The Duo is not only far from the first foldable on the market thanks to the efforts of Samsung and …",
+            "headline": "Where to preorder the new Apple Watch Series 12 and Ultra 4",
+            "why_it_matters": "The iPhone Duo was the unequivocal star of Apple's \"Surprise and shine\" event, but not for people who were mostly paying attention for news on wearables. Thankfully, Apple had a lot to share about its new Apple Watch Ser…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Automattic CEO Matt Mullenweg placed on leave",
-            "why_it_matters": "Matt Mullenweg, the CEO of WordPress.com owner Automattic, has been placed on a paid leave of absence, as reported earlier by 404 Media. In an internal message by the outlet, Mullenweg claims Automattic chief financial o…",
+            "headline": "Wolverine on the PS5 goes back to a simpler (and bloodier) style of action game",
+            "why_it_matters": "Marvel's Wolverine captures just how angry its lead character is. The latest PS5 exclusive from Spider-Man developer Insomniac, Wolverine is a straightforward action game that is at its best when you're (literally) slici…",
             "signal": "Opportunity"
           },
           {
-            "headline": "It’s the year of smartphone price hikes",
-            "why_it_matters": "Paying more for a new phone seems almost unavoidable after Apple's event today. The new iPhone 18 Pro and Pro Max start at $1,199 and $1,299, respectively - a $100 price hike over their predecessors. You can't dodge the …",
+            "headline": "Meta’s Muse AI works and creeps me out",
+            "why_it_matters": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shoppin…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Suno releases its first AI music model made with record industry help",
-            "why_it_matters": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data t…",
+            "headline": "Another big James Talarico interview is punted to YouTube due to FCC threats",
+            "why_it_matters": "Jimmy Kimmel will be interviewing Democratic Texas Senate candidate James Talarico \"under unusual circumstances,\" posting the interview directly to YouTube, rather than airing it on TV during Jimmy Kimmel Live. In Wednes…",
             "signal": "Opportunity"
           },
           {
-            "headline": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
-            "why_it_matters": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of …",
+            "headline": "The iPhone Duo’s hardware doesn’t look special, but its software might be",
+            "why_it_matters": "With the iPhone Duo, Apple has pulled off a familiar trick. It arrives into a mature Android foldable market with a handful of hardware features we've mostly already seen elsewhere, but paired with a level of software po…",
             "signal": "Opportunity"
           }
         ],
@@ -523,10 +525,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Volvo XC40 PHEV is back with a new look, better sensors, and Gemini AI",
-            "There aren’t AirPods with cameras yet and I hope it stays that way",
-            "The black iPhone Pro returns",
-            "The incomplete history of Duo devices"
+            "Amazon’s Fire TV Stick 4K is over half off at under $20",
+            "Electric air taxis get the green light for test flights in Texas",
+            "Universal Music is launching an AI music platform with ElevenLabs",
+            "Where to preorder the new Apple Watch Series 12 and Ultra 4"
           ],
           "confidence": "Medium"
         },
@@ -537,11 +539,11 @@
         ],
         "related_topics": [
           "today's positive news headlines",
-          "latest news summary volvo",
+          "latest news summary amazon’s",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Volvo XC40 PHEV is back with a new look, better sensors, and Gemini AI\n\nTechnology Sentiment: Positive (+0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Academia #Airpods #Arent #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Amazon’s Fire TV Stick 4K is over half off at under $20\n\nTechnology Sentiment: Positive (+0.28)\n\nRead the full breakdown: https://tldrnews.info\n\n#Music #Action #Amazons #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
