@@ -1,13 +1,12 @@
 {
   "date": "2026-09-10",
-  "generated_at_utc": "2026-09-10T17:25:18Z",
+  "generated_at_utc": "2026-09-11T00:56:04Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "fire",
     "trump",
     "iran",
-    "iphone"
+    "fire"
   ],
   "categories": {
     "world": {
@@ -19,16 +18,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1828,
+        "score": -0.2194,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.305, dampened ×0.6 → -0.1828). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.366, dampened ×0.6 → -0.2194). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
           "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 10 Sep 2026 15:38:56 GMT",
+          "published": "Thu, 10 Sep 2026 18:15:47 GMT",
           "summary": "Mokha's capture would bring the Iran-backed group closer to controlling the Bab al-Mandab Strait waterway, a key shipping route.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Can Trump really pay $5,000 to every American adult?",
+          "url": "https://www.bbc.co.uk/news/articles/c8r6vj7r8rko?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 16:48:37 GMT",
+          "summary": "Analysts question if the US president's election year offer is workable, legal or affordable.",
           "source": "BBC News"
         },
         {
@@ -39,13 +45,6 @@
           "source": "BBC News"
         },
         {
-          "title": "Trump says every adult American will get $5,000 if Republicans win midterms",
-          "url": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 10 Sep 2026 13:23:37 GMT",
-          "summary": "Speaking at a party convention, the US president gave no details on how the plan would work or where the money would come from.",
-          "source": "BBC News"
-        },
-        {
           "title": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
           "url": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 10 Sep 2026 15:54:17 GMT",
@@ -53,17 +52,24 @@
           "source": "BBC News"
         },
         {
-          "title": "Twenty-five dead after fire on cargo ship in eastern China",
-          "url": "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 10 Sep 2026 12:24:54 GMT",
-          "summary": "Of the 42 people on board, 17 were were evacuated, CCTV reports.",
+          "title": "More than 20 children killed in DR Congo school fire",
+          "url": "https://www.bbc.co.uk/news/articles/cgjq15j7318o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 19:16:24 GMT",
+          "summary": "Officials say there was a stampede as they fled a fire that engulfed two schools in the eastern rebel-held city of Bukavu.",
           "source": "BBC News"
         },
         {
-          "title": "More than 20 children feared dead in DR Congo school fire",
-          "url": "https://www.bbc.co.uk/news/articles/cgjq15j7318o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 10 Sep 2026 16:21:50 GMT",
-          "summary": "Officials say there was a stampede as they fled a fire that engulfed two schools in the eastern rebel-held city of Bukavu.",
+          "title": "Man jailed after threatening to kill son's teacher in French village",
+          "url": "https://www.bbc.co.uk/news/articles/c62jln7n2vvo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 20:10:51 GMT",
+          "summary": "The father had threatened to behead a female primary school teacher near Toulouse.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Coach crash kills several people in Swiss Alps",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 20:44:51 GMT",
+          "summary": "A coach carrying 48 Dutch passengers overturns, leaving several people dead.",
           "source": "BBC News"
         },
         {
@@ -81,6 +87,13 @@
           "source": "BBC News"
         },
         {
+          "title": "Twenty-five dead after fire on cargo ship in eastern China",
+          "url": "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 10 Sep 2026 12:24:54 GMT",
+          "summary": "Of the 42 people on board, 17 were were evacuated, CCTV reports.",
+          "source": "BBC News"
+        },
+        {
           "title": "Iran war won't end until after crucial November elections, says Trump",
           "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 10 Sep 2026 10:43:53 GMT",
@@ -93,31 +106,17 @@
           "published": "Wed, 09 Sep 2026 21:23:45 GMT",
           "summary": "Declassified documents show Spanish and Moroccan authorities were alerted to social media calls for a mass migrant crossing the day before tens of thousands entered Ceuta.",
           "source": "BBC News"
-        },
-        {
-          "title": "Muted US response to UK's West Bank sanctions may reflect simmering frustration",
-          "url": "https://www.bbc.co.uk/news/articles/cevw2lxnwk9o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 09 Sep 2026 21:21:13 GMT",
-          "summary": "The UK accuses Israel's government of turning a blind eye to the \"ethnic cleansing\" of Palestinians by settlers.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
-          "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 10 Sep 2026 06:30:19 GMT",
-          "summary": "The fire broke out as the vessel nearing its destination at the tourist hotspot of Coron in Palawan.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
         "key_takeaway": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.183). Top story: Yemen's Houthis reportedly seize strategic Red Sea port of Mokha.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.219). Top story: Yemen's Houthis reportedly seize strategic Red Sea port of Mokha.",
         "key_themes": [
           "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+          "Can Trump really pay $5,000 to every American adult?",
           "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
-          "Trump says every adult American will get $5,000 if Republicans win midterms",
           "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
-          "Twenty-five dead after fire on cargo ship in eastern China"
+          "More than 20 children killed in DR Congo school fire"
         ],
         "notable_headlines": [
           {
@@ -126,13 +125,13 @@
             "signal": "Risk"
           },
           {
-            "headline": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
-            "why_it_matters": "One pilot told the other about the aircraft's \"excessive speed\" but received an uneven response even as alarms sounded.",
+            "headline": "Can Trump really pay $5,000 to every American adult?",
+            "why_it_matters": "Analysts question if the US president's election year offer is workable, legal or affordable.",
             "signal": "Risk"
           },
           {
-            "headline": "Trump says every adult American will get $5,000 if Republicans win midterms",
-            "why_it_matters": "Speaking at a party convention, the US president gave no details on how the plan would work or where the money would come from.",
+            "headline": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
+            "why_it_matters": "One pilot told the other about the aircraft's \"excessive speed\" but received an uneven response even as alarms sounded.",
             "signal": "Risk"
           },
           {
@@ -141,23 +140,23 @@
             "signal": "Risk"
           },
           {
-            "headline": "Twenty-five dead after fire on cargo ship in eastern China",
-            "why_it_matters": "Of the 42 people on board, 17 were were evacuated, CCTV reports.",
+            "headline": "More than 20 children killed in DR Congo school fire",
+            "why_it_matters": "Officials say there was a stampede as they fled a fire that engulfed two schools in the eastern rebel-held city of Bukavu.",
             "signal": "Risk"
           },
           {
-            "headline": "More than 20 children feared dead in DR Congo school fire",
-            "why_it_matters": "Officials say there was a stampede as they fled a fire that engulfed two schools in the eastern rebel-held city of Bukavu.",
+            "headline": "Man jailed after threatening to kill son's teacher in French village",
+            "why_it_matters": "The father had threatened to behead a female primary school teacher near Toulouse.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Coach crash kills several people in Swiss Alps",
+            "why_it_matters": "A coach carrying 48 Dutch passengers overturns, leaving several people dead.",
             "signal": "Risk"
           },
           {
             "headline": "Royal family rift after popular TV news presenter chosen to succeed Ugandan king",
             "why_it_matters": "King Oyo's family say he left a will naming his young son as heir to the Tooro kingdom.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
-            "why_it_matters": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
             "signal": "Risk"
           }
         ],
@@ -174,8 +173,8 @@
           ],
           "watch_list": [
             "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+            "Can Trump really pay $5,000 to every American adult?",
             "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
-            "Trump says every adult American will get $5,000 if Republicans win midterms",
             "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack"
           ],
           "confidence": "Medium"
@@ -191,7 +190,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Yemen's Houthis reportedly seize strategic Red Sea port of Mokha\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Cargo #Dead #Fire #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Yemen's Houthis reportedly seize strategic Red Sea port of Mokha\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Crash #Warned #5000 #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -202,16 +201,16 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1435,
+        "score": -0.0625,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.239, dampened ×0.6 → -0.1435). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.104, dampened ×0.6 → -0.0625). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Trouble in US bond market could mean higher prices are here to stay",
-          "url": "https://www.theguardian.com/business/2026/sep/10/bond-market-higher-costs",
-          "published": "Thu, 10 Sep 2026 10:00:21 GMT",
-          "summary": "<p>Concerns over rising inflation, continuing war with Iran, and the US’s record national debt have shaken the market </p><p>Americans who have been grappling with the higher cost of living over the last few years now face another issue: trouble in the US bond market that could mean elevated costs are here to stay.</p><p>US government bonds – known as treasurys – are supposed to be the most stable type of investment vehicle. But investor concerns over issues including rising inflation, the conti",
+          "title": "Global bond sell-off resumes as surging oil prices stoke fears about inflation",
+          "url": "https://www.theguardian.com/business/2026/sep/10/global-bond-selloff-oil-prices-inflation-middle-east-conflict-government-borrowing",
+          "published": "Thu, 10 Sep 2026 18:05:15 GMT",
+          "summary": "<p>Crude jumps above $107 a barrel amid concerns over Middle East conflict and out-of-control government borrowing</p><p>Nervous investors across big economies have been dumping government bonds, driving up the cost of borrowing, as surging oil prices amplified fears about rising inflation.</p><p>The cost of a barrel of oil jumped 6% to above $107 on Thursday amid concerns that <a href=\"https://www.theguardian.com/world/2026/sep/10/houthis-seize-key-port-mocha-yemen-red-sea-coast-iran-saudi-arab",
           "source": "The Guardian"
         },
         {
@@ -219,6 +218,13 @@
           "url": "https://www.theguardian.com/business/2026/sep/10/ecb-raises-interest-rates-to-25-amid-warning-iran-war-is-fuelling-inflation",
           "published": "Thu, 10 Sep 2026 13:10:15 GMT",
           "summary": "<p>Borrowing costs climb in Europe and oil tops $105 a barrel as bank says growing price pressures in eurozone will be ‘longer lasting than we had anticipated’</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/sep/10/markets-economy-oil-uk-flight-disruption-primark-home-delivery-business-live-news\">Business live – latest updates</a></p></li></ul><p>The European Central Bank has raised interest rates to 2.5% and warned that the risk of higher inflation over the next year has r",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The Odyssey and Spider-Man propel record-breaking summer box office worldwide",
+          "url": "https://www.theguardian.com/film/2026/sep/10/the-odyssey-and-spider-man-make-for-record-breaking-summer-box-office-worldwide",
+          "published": "Thu, 10 Sep 2026 13:57:06 GMT",
+          "summary": "<p>The biggest May to September of all time was recorded in US cinemas, with the UK enjoying a 56% rise in audiences, outstripped by an 88% lift in the Middle East and Africa</p><p>As well as celebrating their wedding, the actors Tom Holland and Zendaya have something else to toast: their two summer blockbusters – The Odyssey and Spider-Man: Brand New Day – have officially made box office history.</p><p>The films were credited as the driving force behind the US’s biggest summer season of all tim",
           "source": "The Guardian"
         },
         {
@@ -264,13 +270,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Maria Bartiromo’s lawyer denies she was fired from Fox News anchor role",
-          "url": "https://www.theguardian.com/media/2026/sep/04/maria-bartiromo-lawyer-denies-fox-news-firing",
-          "published": "Fri, 04 Sep 2026 17:56:11 GMT",
-          "summary": "<p>Fox announced host’s departure Thursday but gave no explanation, only saying it was effective immediately</p><p>Maria Bartiromo’s lawyer sharply denied that she was fired from her job at Fox News on Friday, after reports that she was dismissed after divulging the network’s editorial guidance to the White House.</p><p>Fox announced <a href=\"https://www.theguardian.com/media/2026/sep/03/maria-bartiromo-fox-news-departure\">Bartiromo’s departure</a> on Thursday but provided no explanation, saying",
-          "source": "The Guardian"
-        },
-        {
           "title": "‘The most anti-union president’: how Trump turned his back on US workers",
           "url": "https://www.theguardian.com/us-news/2026/sep/07/trump-workers-labor-union",
           "published": "Mon, 07 Sep 2026 11:00:49 GMT",
@@ -293,55 +292,55 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Trouble in US bond market could mean higher prices are here to stay.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.143). Top story: Trouble in US bond market could mean higher prices are here to stay.",
+        "key_takeaway": "Global bond sell-off resumes as surging oil prices stoke fears about inflation.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.062). Top story: Global bond sell-off resumes as surging oil prices stoke fears about inflation.",
         "key_themes": [
-          "Trouble in US bond market could mean higher prices are here to stay",
+          "Global bond sell-off resumes as surging oil prices stoke fears about inflation",
           "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
+          "The Odyssey and Spider-Man propel record-breaking summer box office worldwide",
           "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’",
-          "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
-          "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns"
+          "Oil prices rise above $100 a barrel for first time since July as Iran war escalates"
         ],
         "notable_headlines": [
           {
-            "headline": "Trouble in US bond market could mean higher prices are here to stay",
-            "why_it_matters": "<p>Concerns over rising inflation, continuing war with Iran, and the US’s record national debt have shaken the market </p><p>Americans who have been grappling with the higher cost of living over the last few years now fa…",
-            "signal": "Risk"
+            "headline": "Global bond sell-off resumes as surging oil prices stoke fears about inflation",
+            "why_it_matters": "<p>Crude jumps above $107 a barrel amid concerns over Middle East conflict and out-of-control government borrowing</p><p>Nervous investors across big economies have been dumping government bonds, driving up the cost of b…",
+            "signal": "Unclear"
           },
           {
             "headline": "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
             "why_it_matters": "<p>Borrowing costs climb in Europe and oil tops $105 a barrel as bank says growing price pressures in eurozone will be ‘longer lasting than we had anticipated’</p><ul><li><p><a href=\"https://www.theguardian.com/business/…",
-            "signal": "Risk"
+            "signal": "Unclear"
+          },
+          {
+            "headline": "The Odyssey and Spider-Man propel record-breaking summer box office worldwide",
+            "why_it_matters": "<p>The biggest May to September of all time was recorded in US cinemas, with the UK enjoying a 56% rise in audiences, outstripped by an 88% lift in the Middle East and Africa</p><p>As well as celebrating their wedding, t…",
+            "signal": "Unclear"
           },
           {
             "headline": "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’",
             "why_it_matters": "<p>John Ternus helms his first major event as head of $4.5tn company, where he announces first foldable iPhone</p><p>John Ternus, Apple’s new CEO, helmed the company’s annual showcase of new iPhones and other products on…",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
             "why_it_matters": "<p>Brent crude up by more than 3% after latest fire between US and Iran in Gulf and Houthi attacks on Saudi cities</p><p>The price of oil has risen above $100 a barrel for the first time since July as the escalating conf…",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "Electronic shelf labels likely to cost jobs and drive up grocery prices, US report warns",
             "why_it_matters": "<p>AFL-CIO calls for ban on such labels to protect consumers and workers from surveillance pricing and job cuts</p><p>The universal adoption of electronic shelf labels in grocery stores across the US could cost tens of t…",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
             "why_it_matters": "<p>Trump responds after Canada imposes $20bn in retaliatory tariffs and Canadian PM vows to diversify trade abroad</p><p>The US is banning dairy products, most alcoholic beverages and motorcycles from <a href=\"https://ww…",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "US labor unions saw membership gains in 2025, mostly in states with bargaining protections",
             "why_it_matters": "<p>Uptick in US union membership coincides with high public approval ratings of unions</p><p>After years of decline, union membership in the US increased by 411,000 members in 2025, the largest increase since 2008, accor…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "‘There’s no plan’: as instability in global bond markets rises, what are the knock-on effects?",
-            "why_it_matters": "<p>From mortgages to inflation, concerns about the public finances of major economies have wide-reaching consequences</p><p>When Donald Trump was asked recently about the threat of rising interest rates on US government …",
-            "signal": "Risk"
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -356,10 +355,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Trouble in US bond market could mean higher prices are here to stay",
+            "Global bond sell-off resumes as surging oil prices stoke fears about inflation",
             "ECB raises interest rates to 2.5% and warns Iran war is fuelling inflation",
-            "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’",
-            "Oil prices rise above $100 a barrel for first time since July as Iran war escalates"
+            "The Odyssey and Spider-Man propel record-breaking summer box office worldwide",
+            "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’"
           ],
           "confidence": "Medium"
         },
@@ -370,11 +369,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary trouble",
+          "latest news summary global",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Trouble in US bond market could mean higher prices are here to stay\n\nBusiness Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prices #Bond #Escalates #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Global bond sell-off resumes as surging oil prices stoke fears about inflation\n\nBusiness Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prices #Escalates #Inflation #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -385,11 +384,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2786,
+        "score": 0.2902,
         "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.464, dampened ×0.6 → +0.2786). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.484, dampened ×0.6 → +0.2902). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Slack can now vibe-code interactive charts and reports inside chats",
+          "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+          "published": "2026-09-10T17:25:21-04:00",
+          "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps, like Google Drive or Salesforce, to [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Schools are catching on to Big Tech’s playbook",
+          "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+          "published": "2026-09-10T15:44:20-04:00",
+          "summary": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schools on [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Amazon’s Fire TV Stick 4K is over half off at under $20",
           "url": "https://www.theverge.com/gadgets/993455/fire-tv-stick-4k-resident-evil-requiem-deal-sale",
@@ -445,33 +458,29 @@
           "published": "2026-09-10T10:21:38-04:00",
           "summary": "With the iPhone Duo, Apple has pulled off a familiar trick. It arrives into a mature Android foldable market with a handful of hardware features we've mostly already seen elsewhere, but paired with a level of software polish that makes a lot of them feel new again. It's those software flourishes that have me excited [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "How the iPhone Duo compares to other folding phones",
-          "url": "https://www.theverge.com/gadgets/988542/iphone-duo-foldable-samsung-google-spec-comparison",
-          "published": "2026-09-10T10:00:00-04:00",
-          "summary": "Apple's foldable phone is finally here - well, almost. The iPhone Duo, coming October 23rd, follows in the footsteps of past folding devices from Android phone makers like Samsung, OnePlus, and Google, with a $1,999 price tag that sits just above the Pixel 11 Pro Fold and Galaxy Z Fold 8. While its hardware bears [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Why the current tech backlash feels different",
-          "url": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
-          "published": "2026-09-10T10:00:00-04:00",
-          "summary": "This interview has been lightly edited for length and clarity.&#160; Nick Statt: Hello and welcome to Decoder, Nilay&#8217;s show about big ideas and other problems. This is Nick Statt, senior producer. And I&#8217;m joined by our brand-new supervising producer, Greg Ott. Greg Ott: Good day, everyone. And Hi, Nilay. Nilay is here too. He is [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Amazon’s Fire TV Stick 4K is over half off at under $20.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.279). Top story: Amazon’s Fire TV Stick 4K is over half off at under $20.",
+        "key_takeaway": "Slack can now vibe-code interactive charts and reports inside chats.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.290). Top story: Slack can now vibe-code interactive charts and reports inside chats.",
         "key_themes": [
+          "Slack can now vibe-code interactive charts and reports inside chats",
+          "Schools are catching on to Big Tech’s playbook",
           "Amazon’s Fire TV Stick 4K is over half off at under $20",
           "Electric air taxis get the green light for test flights in Texas",
-          "Universal Music is launching an AI music platform with ElevenLabs",
-          "Where to preorder the new Apple Watch Series 12 and Ultra 4",
-          "Wolverine on the PS5 goes back to a simpler (and bloodier) style of action game"
+          "Universal Music is launching an AI music platform with ElevenLabs"
         ],
         "notable_headlines": [
+          {
+            "headline": "Slack can now vibe-code interactive charts and reports inside chats",
+            "why_it_matters": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Schools are catching on to Big Tech’s playbook",
+            "why_it_matters": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for l…",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Amazon’s Fire TV Stick 4K is over half off at under $20",
             "why_it_matters": "Looking to take full advantage of your 4K television, but your current streaming stick doesn’t have the right features? Through September 13th, you can grab an Amazon Fire TV Stick 4K from Woot for just $16.09 when you u…",
@@ -501,16 +510,6 @@
             "headline": "Meta’s Muse AI works and creeps me out",
             "why_it_matters": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shoppin…",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Another big James Talarico interview is punted to YouTube due to FCC threats",
-            "why_it_matters": "Jimmy Kimmel will be interviewing Democratic Texas Senate candidate James Talarico \"under unusual circumstances,\" posting the interview directly to YouTube, rather than airing it on TV during Jimmy Kimmel Live. In Wednes…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The iPhone Duo’s hardware doesn’t look special, but its software might be",
-            "why_it_matters": "With the iPhone Duo, Apple has pulled off a familiar trick. It arrives into a mature Android foldable market with a handful of hardware features we've mostly already seen elsewhere, but paired with a level of software po…",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -525,10 +524,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Slack can now vibe-code interactive charts and reports inside chats",
+            "Schools are catching on to Big Tech’s playbook",
             "Amazon’s Fire TV Stick 4K is over half off at under $20",
-            "Electric air taxis get the green light for test flights in Texas",
-            "Universal Music is launching an AI music platform with ElevenLabs",
-            "Where to preorder the new Apple Watch Series 12 and Ultra 4"
+            "Electric air taxis get the green light for test flights in Texas"
           ],
           "confidence": "Medium"
         },
@@ -539,11 +538,11 @@
         ],
         "related_topics": [
           "today's positive news headlines",
-          "latest news summary amazon’s",
+          "latest news summary slack",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Amazon’s Fire TV Stick 4K is over half off at under $20\n\nTechnology Sentiment: Positive (+0.28)\n\nRead the full breakdown: https://tldrnews.info\n\n#Music #Action #Amazons #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Slack can now vibe-code interactive charts and reports inside chats\n\nTechnology Sentiment: Positive (+0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Music #Action #Amazons #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
