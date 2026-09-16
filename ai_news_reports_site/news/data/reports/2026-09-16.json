@@ -1,0 +1,921 @@
+{
+  "date": "2026-09-16",
+  "generated_at_utc": "2026-09-16T08:07:38Z",
+  "timezone": "America/Denver",
+  "model": "gpt-4o-mini",
+  "trending_topics": [
+    "support",
+    "since",
+    "reveal",
+    "openai",
+    "news",
+    "major",
+    "iran",
+    "gray",
+    "getting",
+    "fired"
+  ],
+  "categories": {
+    "world": {
+      "key": "world",
+      "title": "World",
+      "source": {
+        "site_name": "BBC News",
+        "site_url": "https://www.bbc.com/news",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+      },
+      "sentiment": {
+        "score": -0.2586,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.431, dampened ×0.6 → -0.2586). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 16 Sep 2026 06:57:32 GMT",
+          "summary": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
+          "source": "BBC News"
+        },
+        {
+          "title": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 16 Sep 2026 01:29:20 GMT",
+          "summary": "The star said he was not responsible for Macklemore being dropped from the line-up after he made pro-Palestinian statements on stage.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Three killed after LA news helicopter crashes while covering deadly bus collision",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gq0j5jg10o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 16 Sep 2026 07:00:58 GMT",
+          "summary": "The NBCLA news helicopter was flying near the scene of a fatal bus crash.",
+          "source": "BBC News"
+        },
+        {
+          "title": "At least 12 killed after war-damaged Gaza building collapses",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 16 Sep 2026 07:58:22 GMT",
+          "summary": "Dozens of people are missing beneath the rubble of the building in Gaza City, where 10 families had reportedly been living.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US limits visas for South African officials over alleged anti-white discrimination",
+          "url": "https://www.bbc.co.uk/news/articles/cqy0z5y7wnp2o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 16 Sep 2026 06:12:04 GMT",
+          "summary": "Secretary of State Marco Rubio says South Africa has not addressed US concerns over racial inequality.",
+          "source": "BBC News"
+        },
+        {
+          "title": "What weapon could the US have put into space?",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 15 Sep 2026 14:23:14 GMT",
+          "summary": "The announcement by the US points to a developing field of modern warfare in the Earth's orbit.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+          "url": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 15 Sep 2026 16:13:41 GMT",
+          "summary": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+          "url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 15 Sep 2026 20:34:12 GMT",
+          "summary": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Denmark says Russian warship fired flares at military helicopter",
+          "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 15 Sep 2026 11:40:00 GMT",
+          "summary": "The Danish prime minister has accused Russia of \"reckless\" behaviour, while the Kremlin is yet to comment.",
+          "source": "BBC News"
+        },
+        {
+          "title": "South African president vows justice as more women's bodies found near Johannesburg",
+          "url": "https://www.bbc.co.uk/news/articles/crgqde1nex2vo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 15 Sep 2026 18:01:51 GMT",
+          "summary": "Police have not linked the deaths to a serial killer but are investigating this possibility.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Suspected sabotage causes major Netherlands rail disruption",
+          "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 15 Sep 2026 16:55:04 GMT",
+          "summary": "Trains were cancelled or delayed on Tuesday after objects were found on tracks at multiple locations.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Five takeaways from Canada's push to woo the world's richest investors",
+          "url": "https://www.bbc.co.uk/news/articles/cmq8jdgel128o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 15 Sep 2026 22:46:20 GMT",
+          "summary": "A $1tn sales pitch, more than 160 projects on offer, pivot to the EU amid a bitter trade war with the US - takeaways from the first Canada Investment Summit.",
+          "source": "BBC News"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "OpenAI boss says world 'right to be afraid' but should trust AI firms.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.259). Top story: OpenAI boss says world 'right to be afraid' but should trust AI firms.",
+        "key_themes": [
+          "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+          "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
+          "Three killed after LA news helicopter crashes while covering deadly bus collision",
+          "At least 12 killed after war-damaged Gaza building collapses",
+          "US limits visas for South African officials over alleged anti-white discrimination"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+            "why_it_matters": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
+            "why_it_matters": "The star said he was not responsible for Macklemore being dropped from the line-up after he made pro-Palestinian statements on stage.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Three killed after LA news helicopter crashes while covering deadly bus collision",
+            "why_it_matters": "The NBCLA news helicopter was flying near the scene of a fatal bus crash.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "At least 12 killed after war-damaged Gaza building collapses",
+            "why_it_matters": "Dozens of people are missing beneath the rubble of the building in Gaza City, where 10 families had reportedly been living.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US limits visas for South African officials over alleged anti-white discrimination",
+            "why_it_matters": "Secretary of State Marco Rubio says South Africa has not addressed US concerns over racial inequality.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "What weapon could the US have put into space?",
+            "why_it_matters": "The announcement by the US points to a developing field of modern warfare in the Earth's orbit.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+            "why_it_matters": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+            "why_it_matters": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
+            "signal": "Risk"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+            "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
+            "Three killed after LA news helicopter crashes while covering deadly bus collision",
+            "At least 12 killed after war-damaged Gaza building collapses"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's negative news headlines",
+          "latest news summary openai",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "World: OpenAI boss says world 'right to be afraid' but should trust AI firms\n\nWorld Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Killed #Acts #Afraid #WorldNews #BreakingNews #News #Headlines #Trending"
+    },
+    "business": {
+      "key": "business",
+      "title": "Business",
+      "source": {
+        "site_name": "The Guardian",
+        "site_url": "https://www.theguardian.com/business",
+        "feed_url": "https://www.theguardian.com/business/rss"
+      },
+      "sentiment": {
+        "score": -0.069,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.115, dampened ×0.6 → -0.0690). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "US treasury secretary hails government’s bond buyback a success",
+          "url": "https://www.theguardian.com/business/2026/sep/15/scott-bessent-bonds-buyback",
+          "published": "Tue, 15 Sep 2026 19:50:18 GMT",
+          "summary": "<p>On Tuesday, the 10-year treasury rate yield reached a 19-year high at 5.041%, even as investors wary Iran war fallout</p><p>Scott Bessent, the US treasury secretary, claimed the government’s massive buyback of US bonds was a success.</p><p>The claim came as the 10-year treasury yield reached a 19-year high on Tuesday, increasing pressure on interest rates as the Federal Reserve weighs another hike to see off rising inflation.</p> <a href=\"https://www.theguardian.com/business/2026/sep/15/scott",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Could AI really wipe out humanity – six experts spell out the risks",
+          "url": "https://www.theguardian.com/technology/2026/sep/15/could-ai-really-wipe-out-humanity-and-hijack-the-internet",
+          "published": "Tue, 15 Sep 2026 17:54:48 GMT",
+          "summary": "<p>We examine claims and counterclaims about the risks and calls to slow down the pace of AI development</p><p>There have been some shocking claims in recent days about AI safety: we face a 10% chance of doom; AIs are worse than nukes; a “botnet” threatens the entire internet; it’s all a big tech psyop.</p><p>Below, we look at six claims and reactions to them.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/15/could-ai-really-wipe-out-humanity-and-hijack-the-internet\">Continue readi",
+          "source": "The Guardian"
+        },
+        {
+          "title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+          "url": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
+          "published": "Mon, 14 Sep 2026 22:10:52 GMT",
+          "summary": "<p>Donald Trump dismisses attempts to increase controls on artificial intelligence as ‘sick conspiracy’ </p><p><a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>-linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a <a href=\"https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development\">slowdown in AI “reckless” development</a>, citing fears the technology could soon",
+          "source": "The Guardian"
+        },
+        {
+          "title": "US borrowing costs hit 5% for first time since 2023 amid bond sell-off",
+          "url": "https://www.theguardian.com/business/2026/sep/14/oil-prices-rise-drone-attacks-saudi-arabia-east-west-pipeline",
+          "published": "Mon, 14 Sep 2026 16:48:34 GMT",
+          "summary": "<p>Soaring oil prices of above $108 a barrel after Houthi attacks on Saudi infrastructure stoke inflation fears </p><p>US government borrowing costs have risen to 5% for the first time since 2023 as soaring oil prices fuelled by the war in the Middle East trigger an intensifying sell-off in the global bond market.</p><p>The yield – in effect the interest rate – on 10-year US Treasury bonds hit the psychologically important threshold on Monday, on a day of renewed selling pressure on Wall Street",
+          "source": "The Guardian"
+        },
+        {
+          "title": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development",
+          "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
+          "published": "Sun, 13 Sep 2026 14:02:24 GMT",
+          "summary": "<p>Rare show of unity from rival developers after safety warnings from Anthropic boss and AI researchers</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown\">Analysis: critics perplexed and suspicious of call for a slowdown</a></p></li><li><p><a href=\"https://www.theguardian.com/commentisfree/2026/sep/11/the-guardian-view-on-controlling-ai-humanity-cannot-outsource-its-survival\">The Guard",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Tensions simmer on US-Canada border for two towns relying on each other",
+          "url": "https://www.theguardian.com/us-news/2026/sep/12/us-canada-border-tariffs-trade-war",
+          "published": "Sat, 12 Sep 2026 10:00:31 GMT",
+          "summary": "<p>Canadians ‘angry’ at Trump for suggesting Canada should become 51st state, says mayor, as US businesses see sales fall amid trade war</p><p>Like many Canadians, Tom Reid isn’t crossing the US-Canada border as often these days. But he needed a haircut.</p><p>The woman who cuts his hair lives in International Falls, Minnesota – her “sister is married to my wife’s cousin”, he explained – and so Reid, whose duty free shop in Fort Frances, Ontario, has to travel to her.</p> <a href=\"https://www.th",
+          "source": "The Guardian"
+        },
+        {
+          "title": "US consumers faced more high prices in August as Iran war raised energy costs",
+          "url": "https://www.theguardian.com/business/2026/sep/11/inflation-august-interest-rates",
+          "published": "Fri, 11 Sep 2026 12:38:12 GMT",
+          "summary": "<p>Annualized inflation rate was 3.4%, same as July, and core inflation, which omits energy and food prices, rose to 2.4%</p><p>US consumer prices remained stubbornly high in August as the end of the ceasefire between the US and <a href=\"https://www.theguardian.com/world/iran\">Iran</a> pushed energy prices up, according to data from the US Bureau of Labor Statistics released on Friday.</p><p>The annualized <a href=\"https://www.theguardian.com/business/inflation\">inflation</a> rate was 3.4%, the",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Iran’s Houthi allies capture strategic island on vital oil shipping route",
+          "url": "https://www.theguardian.com/world/2026/sep/11/iran-houthi-allies-capture-strategic-island-bab-al-mandab-strait",
+          "published": "Sat, 12 Sep 2026 04:45:28 GMT",
+          "summary": "<p>Rampant Yemeni fighters take control of island in narrow point of Bab al-Mandab strait, which Saudi is relying on for oil exports</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/sep/10/violence-erupts-in-yemen-again-why-it-matters-globally-and-how-it-is-linked-to-the-us-iran-war\">Why the rapid Houthi advance matters and what’s at stake</a></p></li></ul><p>Yemen’s rampant Houthi forces have captured the strategic island of Perim in the Bab al-Mandab strait, expanding their contro",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Global bond sell-off resumes as surging oil prices stoke fears about inflation",
+          "url": "https://www.theguardian.com/business/2026/sep/10/global-bond-selloff-oil-prices-inflation-middle-east-conflict-government-borrowing",
+          "published": "Thu, 10 Sep 2026 18:05:15 GMT",
+          "summary": "<p>Crude jumps above $107 a barrel amid concerns over Middle East conflict and out-of-control government borrowing</p><p>Nervous investors across big economies have been dumping government bonds, driving up the cost of borrowing, as surging oil prices amplified fears about rising inflation.</p><p>The cost of a barrel of oil jumped 6% to above $107 on Thursday amid concerns that <a href=\"https://www.theguardian.com/world/2026/sep/10/houthis-seize-key-port-mocha-yemen-red-sea-coast-iran-saudi-arab",
+          "source": "The Guardian"
+        },
+        {
+          "title": "She’s Donald Trump’s least-favorite Fox News host. But Jessica Tarlov remains undeterred",
+          "url": "https://www.theguardian.com/media/2026/sep/14/jessica-tarlov-fox-news-liberal",
+          "published": "Mon, 14 Sep 2026 11:00:56 GMT",
+          "summary": "<p>The 42-year-old liberal commentator regularly co-hosts the network’s 5pm talk show, taking flak from her conservative colleagues and harsh insults from the president.</p><p>Jessica Tarlov is the left-leaning Fox News host that some of the network’s most conservative viewers, including Donald Trump, love to hate.</p><p>The US president regularly bashes Tarlov on his Truth Social platform, in April calling her “one of the Least Attractive and Talented People on all of Television”, and demanding",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘Trump accounts’ promise to mint child millionaires. Experts have their doubts",
+          "url": "https://www.theguardian.com/us-news/2026/sep/13/donald-trump-accounts-child-investment-wealth",
+          "published": "Sun, 13 Sep 2026 11:00:05 GMT",
+          "summary": "<p>President has hyped growth of federal investment accounts to help US children – for his own political gain</p><p>Since returning to the White House, <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has scrapped rules that <a href=\"https://www.commondreams.org/news/gop-blocks-childcare-resolution\">made childcare more affordable</a> and pushed to <a href=\"https://www.edweek.org/policy-politics/trump-again-proposes-major-education-cuts-in-new-budget-proposal/2026/04\">cu",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘Too little, too late’: critics perplexed and suspicious of AI leaders’ call for a slowdown",
+          "url": "https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown",
+          "published": "Sun, 13 Sep 2026 16:54:58 GMT",
+          "summary": "<p>From the Trump administration to AI experts, plans by the Anthropic boss to boost safety have spawned a largely negative response</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development\">OpenAI boss and Elon Musk back slowdown on ‘reckless’ AI development</a></p></li><li><p><a href=\"https://www.theguardian.com/commentisfree/2026/sep/11/the-guardian-view-on-controlling-ai-humanity-cannot-outsource-its-surv",
+          "source": "The Guardian"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "US treasury secretary hails government’s bond buyback a success.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.069). Top story: US treasury secretary hails government’s bond buyback a success.",
+        "key_themes": [
+          "US treasury secretary hails government’s bond buyback a success",
+          "Could AI really wipe out humanity – six experts spell out the risks",
+          "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+          "US borrowing costs hit 5% for first time since 2023 amid bond sell-off",
+          "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "US treasury secretary hails government’s bond buyback a success",
+            "why_it_matters": "<p>On Tuesday, the 10-year treasury rate yield reached a 19-year high at 5.041%, even as investors wary Iran war fallout</p><p>Scott Bessent, the US treasury secretary, claimed the government’s massive buyback of US bond…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Could AI really wipe out humanity – six experts spell out the risks",
+            "why_it_matters": "<p>We examine claims and counterclaims about the risks and calls to slow down the pace of AI development</p><p>There have been some shocking claims in recent days about AI safety: we face a 10% chance of doom; AIs are wo…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+            "why_it_matters": "<p>Donald Trump dismisses attempts to increase controls on artificial intelligence as ‘sick conspiracy’ </p><p><a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>-linked stocks tumbled on Mon…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "US borrowing costs hit 5% for first time since 2023 amid bond sell-off",
+            "why_it_matters": "<p>Soaring oil prices of above $108 a barrel after Houthi attacks on Saudi infrastructure stoke inflation fears </p><p>US government borrowing costs have risen to 5% for the first time since 2023 as soaring oil prices fu…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development",
+            "why_it_matters": "<p>Rare show of unity from rival developers after safety warnings from Anthropic boss and AI researchers</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Tensions simmer on US-Canada border for two towns relying on each other",
+            "why_it_matters": "<p>Canadians ‘angry’ at Trump for suggesting Canada should become 51st state, says mayor, as US businesses see sales fall amid trade war</p><p>Like many Canadians, Tom Reid isn’t crossing the US-Canada border as often th…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "US consumers faced more high prices in August as Iran war raised energy costs",
+            "why_it_matters": "<p>Annualized inflation rate was 3.4%, same as July, and core inflation, which omits energy and food prices, rose to 2.4%</p><p>US consumer prices remained stubbornly high in August as the end of the ceasefire between th…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Iran’s Houthi allies capture strategic island on vital oil shipping route",
+            "why_it_matters": "<p>Rampant Yemeni fighters take control of island in narrow point of Bab al-Mandab strait, which Saudi is relying on for oil exports</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/sep/10/violence-erupts-in…",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "US treasury secretary hails government’s bond buyback a success",
+            "Could AI really wipe out humanity – six experts spell out the risks",
+            "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+            "US borrowing costs hit 5% for first time since 2023 amid bond sell-off"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary us",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Business: US treasury secretary hails government’s bond buyback a success\n\nBusiness Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Bond #Costs #Development #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "technology": {
+      "key": "technology",
+      "title": "Technology",
+      "source": {
+        "site_name": "The Verge",
+        "site_url": "https://www.theverge.com",
+        "feed_url": "https://www.theverge.com/rss/index.xml"
+      },
+      "sentiment": {
+        "score": 0.1032,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.172, dampened ×0.6 → +0.1032). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "The Boox Palma 3 gets stylus support and a sleek redesign",
+          "url": "https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16",
+          "published": "2026-09-15T22:00:00-04:00",
+          "summary": "Nearly two years after the last update to Boox's smartphone-sized black-and-white e-reader, the company announced the Palma 3 with a sleek redesign, new functionality, and a handful of other small updates that may justify its significant price bump depending on how you plan to use it. While the Palma 2 launched in 2024 for $279.99, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
+          "url": "https://www.theverge.com/tech/995430/canon-eos-r8-mark-11-full-frame-digital-camera-pricing-availability",
+          "published": "2026-09-15T21:00:00-04:00",
+          "summary": "Canon announced the second-generation of its EOS R8 with a new retro-inspired redesign and the addition of in-body stabilization. That feature was one of the most notable omissions from the original R8 that launched in 2023 as a smaller, cheaper, and more accessible alternative to the Canon R6 Mark II for photographers wanting a larger [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "AI and data centers are incredibly unpopular in every poll",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+          "published": "2026-09-15T19:34:25-04:00",
+          "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Microsoft announces Windows and Surface event for October 7th",
+          "url": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco",
+          "published": "2026-09-15T16:36:59-04:00",
+          "summary": "It's been more than two years since the last major Windows event, so Microsoft is heading to San Francisco next month to outline the future of Windows and Surface devices. At an event on October 7th, the company says it will host a \"conversation on how local AI will shape the next chapter of the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "What if social media isn’t hurting kids?",
+          "url": "https://www.theverge.com/policy/995704/peter-gray-restoring-childhood-jonathan-haidt",
+          "published": "2026-09-15T16:13:30-04:00",
+          "summary": "Two years ago, social psychologist Jonathan Haidt released his New York Times bestseller The Anxious Generation. The book posits that the rise of social media and smartphone use is largely to blame for the prominent decline in teen mental health since 2010. It quickly became a central rallying cry of the social media backlash. Haidt [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Kia’s electric van lineup is getting more interesting with reveal of PV7",
+          "url": "https://www.theverge.com/transportation/995608/kia-pv7-electric-van-specs-sale",
+          "published": "2026-09-15T14:39:44-04:00",
+          "summary": "You may not know it, but minivans are making a comeback in the US. Look around, and you'll start to notice an uptick in these breadboxes on wheels. Sales were up 21 percent in 2025, suggesting that the humble minivan is shaking off its \"uncool\" stigma and finding new fans among an SUV-weary public. I'm [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "One of the best 3D printers for beginners is almost $100 off",
+          "url": "https://www.theverge.com/gadgets/995518/elegoo-3d-printer-switch-joy-con-deal-sale",
+          "published": "2026-09-15T14:02:30-04:00",
+          "summary": "If the high price tag of premium 3D printers have kept you from exploring the hobby, this deal is a great entry point. Elegoo has its Centauri Carbon 2 Combo on sale for $369, almost $100 off its usual price of $449. This capable 3D printer can handle four filament rolls at once, with a [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "How The Oregon Trail became a generational icon",
+          "url": "https://www.theverge.com/podcast/995432/how-the-oregon-trail-became-a-generational-icon",
+          "published": "2026-09-15T12:18:10-04:00",
+          "summary": "Whether you played it in the back of your classroom or on your computer at home, if you were a kid in the last 30 years you almost certainly grew up playing The Oregon Trail. On the season 5 premiere of Version History, our fearless wagon leader David Pierce is joined by gaming journalist Chris [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Vintage Violence is an absurdist crime thriller for phone addicts",
+          "url": "https://www.theverge.com/entertainment/995472/tiff-2026-vintage-violence-the-devils-gentle-monster",
+          "published": "2026-09-15T12:00:00-04:00",
+          "summary": "There are a lot of movies that have tried to seamlessly integrate modern tech - text messages, livestreams, etc. - into their storytelling. Some of the most novel attempts have been in the genre space, like the Twitch-style horror flick Deadstream. But the most chaotic to date might just be Vintage Violence, an absurd crime [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Now Light’s minimalist phone can easily call an Uber",
+          "url": "https://www.theverge.com/gadgets/995449/light-phone-uber-lyft-rideshare-app",
+          "published": "2026-09-15T11:00:00-04:00",
+          "summary": "More than a decade after its Kickstarter proposed a \"cell phone designed to be used as little as possible,\" Light is adding a direct connection to Uber and Lyft with a new Rideshare tool. For owners of either the Light Phone III or the upcoming Light Flip, they can use it to find pick up [&#8230;]",
+          "source": "The Verge"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "The Boox Palma 3 gets stylus support and a sleek redesign.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.103). Top story: The Boox Palma 3 gets stylus support and a sleek redesign.",
+        "key_themes": [
+          "The Boox Palma 3 gets stylus support and a sleek redesign",
+          "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
+          "AI and data centers are incredibly unpopular in every poll",
+          "Microsoft announces Windows and Surface event for October 7th",
+          "What if social media isn’t hurting kids?"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "The Boox Palma 3 gets stylus support and a sleek redesign",
+            "why_it_matters": "Nearly two years after the last update to Boox's smartphone-sized black-and-white e-reader, the company announced the Palma 3 with a sleek redesign, new functionality, and a handful of other small updates that may justif…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
+            "why_it_matters": "Canon announced the second-generation of its EOS R8 with a new retro-inspired redesign and the addition of in-body stabilization. That feature was one of the most notable omissions from the original R8 that launched in 2…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "AI and data centers are incredibly unpopular in every poll",
+            "why_it_matters": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Microsoft announces Windows and Surface event for October 7th",
+            "why_it_matters": "It's been more than two years since the last major Windows event, so Microsoft is heading to San Francisco next month to outline the future of Windows and Surface devices. At an event on October 7th, the company says it …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "What if social media isn’t hurting kids?",
+            "why_it_matters": "Two years ago, social psychologist Jonathan Haidt released his New York Times bestseller The Anxious Generation. The book posits that the rise of social media and smartphone use is largely to blame for the prominent decl…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Kia’s electric van lineup is getting more interesting with reveal of PV7",
+            "why_it_matters": "You may not know it, but minivans are making a comeback in the US. Look around, and you'll start to notice an uptick in these breadboxes on wheels. Sales were up 21 percent in 2025, suggesting that the humble minivan is …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "One of the best 3D printers for beginners is almost $100 off",
+            "why_it_matters": "If the high price tag of premium 3D printers have kept you from exploring the hobby, this deal is a great entry point. Elegoo has its Centauri Carbon 2 Combo on sale for $369, almost $100 off its usual price of $449. Thi…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "How The Oregon Trail became a generational icon",
+            "why_it_matters": "Whether you played it in the back of your classroom or on your computer at home, if you were a kid in the last 30 years you almost certainly grew up playing The Oregon Trail. On the season 5 premiere of Version History, …",
+            "signal": "Opportunity"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "The Boox Palma 3 gets stylus support and a sleek redesign",
+            "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
+            "AI and data centers are incredibly unpopular in every poll",
+            "Microsoft announces Windows and Surface event for October 7th"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary the",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Technology: The Boox Palma 3 gets stylus support and a sleek redesign\n\nTechnology Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Almost #Announces #Became #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "sports": {
+      "key": "sports",
+      "title": "Sports",
+      "source": {
+        "site_name": "ESPN",
+        "site_url": "https://www.espn.com",
+        "feed_url": "https://www.espn.com/espn/rss/news"
+      },
+      "sentiment": {
+        "score": 0.0366,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.061, dampened ×0.6 → +0.0366). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "The AL shuts out the NL to win the All-Star Game! ...",
+          "url": "https://www.espn.com/mlb/story/_/id/49355726/mlb-all-star-game-2026-predictions-live-updates-analysis-takeaways",
+          "published": "Tue, 14 Jul 2026 23:48:11 EST",
+          "summary": "Baseball's best came to play. Relive all the action from the American League's dominant victory over the National League.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Cease, 10 AL relievers silence NL in 15-K shutout",
+          "url": "https://www.espn.com/mlb/story/_/id/49364253/cease-bullpen-silence-nl-15-k-shutout-al-wins-all-star-game",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Starting pitcher Dylan Cease combined with 10 relievers in a dominant three-hit, 15-strikeout shutout of the National League in a 4-0 win in Tuesday night's All-Star Game.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Silver: Kawhi probe must end before season starts",
+          "url": "https://www.espn.com/nba/story/_/id/49364590/silver-kawhi-leonard-probe-finish-season-starts",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Adam Silver acknowledged that the investigation into Kawhi Leonard for alleged cap circumvention must conclude before the start of next season.",
+          "source": "ESPN"
+        },
+        {
+          "title": "AL 3B Caminero hit by pitch, exits in 3rd inning",
+          "url": "https://www.espn.com/mlb/story/_/id/49363719/al-3b-junior-caminero-hit-pitch-exits-third-inning",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhouse, X-rays came back negative.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Mbappé critical of tactics in loss by 'sloppy' Fra...",
+          "url": "https://www.espn.com/soccer/story/_/id/49362319/kylian-mbappe-critical-tactics-sloppy-france-loss",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Kylian Mbappé seemed to question Didier Deschamps' approach and tactics after France's 2-0 defeat to Spain in the FIFA World Cup semifinal Tuesday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Maxey-led 76ers trio has talked to LeBron...",
+          "url": "https://www.espn.com/nba/story/_/id/49362336/76ers-tyrese-maxey-joel-embiid-jaylen-brown-communication-lebron-james-amid-pursuit",
+          "published": "Wed, 15 Jul 2026 00:59:12 EST",
+          "summary": "76ers stars Tyrese Maxey, Joel Embiid and Jaylen Brown have all been in communication with LeBron James amid the team's pursuit, sources told ESPN on Tuesday, with Maxey leading the charge.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Fan fired for alleged racist message to Aces' Gray...",
+          "url": "https://www.espn.com/wnba/story/_/id/49362546/fan-fired-alleged-racist-message-aces-chelsea-gray",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Hilton Grand Vacations said Tuesday that it has fired a man who allegedly sent a racist message to Aces guard Chelsea Gray on social media.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: No. 1 pick Cholowsky gets record bonus",
+          "url": "https://www.espn.com/mlb/story/_/id/49361630/no-1-pick-roch-cholowsky-gets-record-1035m-bonus-white-sox",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Roch Cholowsky, the No. 1 pick in the MLB draft, has reportedly agreed to a contract with the White Sox that includes a record-breaking $10.35M signing bonus.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Matt Freese: USMNT criticism 'hurts my heart'",
+          "url": "https://www.espn.com/soccer/story/_/id/49361949/matt-freese-criticism-usmnt-world-cup-play-hurts-my-heart",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "USMNT goalkeeper Matt Freese said he felt hurt by the backlash following the elimination from the 2026 World Cup after losing 4-1 to Belgium in the round of 16.",
+          "source": "ESPN"
+        },
+        {
+          "title": "⚾ Red Sox win streak since Jaylen Brown trade",
+          "url": "https://www.espn.com/mlb/story/_/id/49359997/boston-red-sox-celtics-jaylen-brown-trade",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Trading the star guard has been painful for Boston sports fans, but something unexpected happened -- the Red Sox haven't stopped winning since.",
+          "source": "ESPN"
+        },
+        {
+          "title": "World Cup favorites France unravel as Spain book s...",
+          "url": "https://www.espn.com/soccer/story/_/id/49361910/world-cup-favorites-france-unravel-spain-book-spot-final-ease",
+          "published": "Tue, 14 Jul 2026 19:51:42 EST",
+          "summary": "Spain have sealed their place in the 2026 World Cup final, but why did France collapse so easily?",
+          "source": "ESPN"
+        },
+        {
+          "title": "France-Spain player ratings: Porro, Rodri earn hig...",
+          "url": "https://www.espn.com/soccer/story/_/id/49361775/france-spain-player-ratings-porro-rodri-earn-high-marks-mbappe-fails-make-impact-2026-world-cup",
+          "published": "Tue, 14 Jul 2026 19:51:42 EST",
+          "summary": "Spain received strong performances up and down the lineup as they beat France to make the World Cup final.",
+          "source": "ESPN"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "The AL shuts out the NL to win the All-Star Game! ....",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.037). Top story: The AL shuts out the NL to win the All-Star Game! ....",
+        "key_themes": [
+          "The AL shuts out the NL to win the All-Star Game! ...",
+          "Cease, 10 AL relievers silence NL in 15-K shutout",
+          "Silver: Kawhi probe must end before season starts",
+          "AL 3B Caminero hit by pitch, exits in 3rd inning",
+          "Mbappé critical of tactics in loss by 'sloppy' Fra..."
+        ],
+        "notable_headlines": [
+          {
+            "headline": "The AL shuts out the NL to win the All-Star Game! ...",
+            "why_it_matters": "Baseball's best came to play. Relive all the action from the American League's dominant victory over the National League.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Cease, 10 AL relievers silence NL in 15-K shutout",
+            "why_it_matters": "Starting pitcher Dylan Cease combined with 10 relievers in a dominant three-hit, 15-strikeout shutout of the National League in a 4-0 win in Tuesday night's All-Star Game.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Silver: Kawhi probe must end before season starts",
+            "why_it_matters": "Adam Silver acknowledged that the investigation into Kawhi Leonard for alleged cap circumvention must conclude before the start of next season.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "AL 3B Caminero hit by pitch, exits in 3rd inning",
+            "why_it_matters": "In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhous…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Mbappé critical of tactics in loss by 'sloppy' Fra...",
+            "why_it_matters": "Kylian Mbappé seemed to question Didier Deschamps' approach and tactics after France's 2-0 defeat to Spain in the FIFA World Cup semifinal Tuesday.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Sources: Maxey-led 76ers trio has talked to LeBron...",
+            "why_it_matters": "76ers stars Tyrese Maxey, Joel Embiid and Jaylen Brown have all been in communication with LeBron James amid the team's pursuit, sources told ESPN on Tuesday, with Maxey leading the charge.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Fan fired for alleged racist message to Aces' Gray...",
+            "why_it_matters": "Hilton Grand Vacations said Tuesday that it has fired a man who allegedly sent a racist message to Aces guard Chelsea Gray on social media.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Sources: No. 1 pick Cholowsky gets record bonus",
+            "why_it_matters": "Roch Cholowsky, the No. 1 pick in the MLB draft, has reportedly agreed to a contract with the White Sox that includes a record-breaking $10.35M signing bonus.",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "The AL shuts out the NL to win the All-Star Game! ...",
+            "Cease, 10 AL relievers silence NL in 15-K shutout",
+            "Silver: Kawhi probe must end before season starts",
+            "AL 3B Caminero hit by pitch, exits in 3rd inning"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's neutral news headlines",
+          "latest news summary the",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Sports: The AL shuts out the NL to win the All-Star Game! ...\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #76ers #Aces #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "science": {
+      "key": "science",
+      "title": "Science",
+      "source": {
+        "site_name": "ScienceDaily",
+        "site_url": "https://www.sciencedaily.com",
+        "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
+      },
+      "sentiment": {
+        "score": 0.0403,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.067, dampened ×0.6 → +0.0403). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Smelling chocolate helped men complete more reps without feeling more tired",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260914102445.htm",
+          "published": "Tue, 15 Sep 2026 11:03:54 EDT",
+          "summary": "Simply smelling chocolate helped men complete more leg extension repetitions without making the workout feel harder, with dark chocolate producing the strongest effect. The researchers think familiar food aromas may influence appetite and motivation by making the brain anticipate eating.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "This Australian cave hid 25,000 years of ritual secrets",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260914102443.htm",
+          "published": "Tue, 15 Sep 2026 10:43:23 EDT",
+          "summary": "Microscopic plant remains are revealing how GunaiKurnai ancestors used Cloggs Cave for ritual practices over thousands of years. People deliberately gathered whole grasses, carried them into the dark cave, and burned them in thin layers, leaving behind traces that may span 25,000 years. A standing stone erected around 2,000 years ago and other ritual objects strengthen the evidence that the cave was a long-lived spiritual site.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover a major brain shift between ages 50 and 75",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260914102441.htm",
+          "published": "Tue, 15 Sep 2026 10:28:38 EDT",
+          "summary": "Scientists have uncovered sweeping changes in how the human brain controls and organizes its genome beginning in midlife, offering new clues to why aging sharply increases the risk of Alzheimer’s and other neurodegenerative diseases. One of the biggest shifts occurred between about ages 50 and 75, when many of the brain’s original immune cells declined and were replaced by cells with more inflammatory characteristics. Researchers also found weakening of cells that help maintain the blood-brain b",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "UV light reveals possible camouflage on a 125-million-year-old crocodile",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260914102436.htm",
+          "published": "Tue, 15 Sep 2026 10:07:13 EDT",
+          "summary": "A 125-million-year-old crocodile fossil has revealed preserved skin, possible sensory organs, sophisticated respiratory structures, and an unexpected pattern on its tail. Ultraviolet light exposed alternating bands that may represent ancient camouflage, potentially preserving the oldest known coloration in a crocodylomorph.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "The shape behind the Einstein problem just revealed strange new physics",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260914102432.htm",
+          "published": "Tue, 15 Sep 2026 09:14:55 EDT",
+          "summary": "A mathematical shape famous for covering a surface without ever repeating has revealed an unexpected ability to twist light into unusual chiral patterns. The discovery could lead to new ways of controlling light, polarization, and advanced optical devices.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Supermassive black hole winds are 100 times more powerful than scientists thought",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260914102429.htm",
+          "published": "Tue, 15 Sep 2026 08:34:32 EDT",
+          "summary": "Astronomers have discovered that winds from a supermassive black hole are about 100 times more powerful than previously thought. XRISM observations showed the resulting turbulence spreading roughly 300,000 light-years, extending far beyond the black hole’s host galaxy. The energy involved rivals several billion supernova explosions, revealing just how dramatically black holes can influence the space around them.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Nearly 10,000 patients reveal what works best for knee arthritis pain relief",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260913082208.htm",
+          "published": "Mon, 14 Sep 2026 23:57:43 EDT",
+          "summary": "A major analysis of 139 clinical trials involving nearly 10,000 people suggests that some of the simplest treatments may work best for knee osteoarthritis. Knee braces ranked highest overall for reducing pain, stiffness, and mobility problems, while water-based therapy was especially effective for pain and regular exercise consistently improved both pain and physical function. More high-tech approaches, including ultrasound, generally performed worse.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Plague was killing entire families thousands of years before the Black Death",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260913082203.htm",
+          "published": "Mon, 14 Sep 2026 22:54:45 EDT",
+          "summary": "Ancient DNA reveals that plague was already killing hunter-gatherers in Siberia 5,500 years ago, long before cities and flea-driven epidemics. The prehistoric strains may have been especially dangerous because they carried a genetic factor capable of provoking severe immune reactions.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Cancer is rising in younger adults. Faster biological aging may help explain why",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260913082200.htm",
+          "published": "Mon, 14 Sep 2026 10:47:07 EDT",
+          "summary": "Cancer rates are rising in adults under 55, and new research suggests accelerated biological aging may be one piece of the puzzle. Scientists found that people from more recent generations tended to have bodies that appeared biologically older than those of earlier generations at the same chronological age. Greater biological age acceleration was linked to a higher risk of early onset cancers, with specific patterns seen for lung, gastrointestinal, uterine and colorectal cancers.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Chemistry textbooks have been getting this wrong for nearly 100 years",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
+          "published": "Mon, 14 Sep 2026 10:13:47 EDT",
+          "summary": "A foundational chemistry concept found in textbooks for almost 100 years may have been taught incorrectly. Researchers say the inductive effect in neutral molecules appears to extend only across one chemical bond, rather than gradually weakening over three or four bonds as traditionally taught. The team argues that updating this explanation could make organic chemistry easier to understand and provide a stronger foundation for future research and innovation.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Hidden brain wiring may help keep the mind sharp as gray matter shrinks",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260913081921.htm",
+          "published": "Mon, 14 Sep 2026 10:23:40 EDT",
+          "summary": "Scientists have discovered that the brain’s short-range wiring may help protect cognition even as gray matter shrinks with age. Healthier connections just beneath the brain’s surface were linked to better language skills and appeared to weaken the impact of gray matter loss.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "This German submarine sank in 1917. It’s still leaking TNT",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260913081919.htm",
+          "published": "Mon, 14 Sep 2026 09:30:51 EDT",
+          "summary": "A World War I submarine wreck off Denmark is leaking TNT into the surrounding water, seabed, and marine life more than a century after it sank. Scientists warn that thousands of similar wrecks could pose growing environmental risks as they continue to corrode.",
+          "source": "ScienceDaily"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Smelling chocolate helped men complete more reps without feeling more tired.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.040). Top story: Smelling chocolate helped men complete more reps without feeling more tired.",
+        "key_themes": [
+          "Smelling chocolate helped men complete more reps without feeling more tired",
+          "This Australian cave hid 25,000 years of ritual secrets",
+          "Scientists discover a major brain shift between ages 50 and 75",
+          "UV light reveals possible camouflage on a 125-million-year-old crocodile",
+          "The shape behind the Einstein problem just revealed strange new physics"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Smelling chocolate helped men complete more reps without feeling more tired",
+            "why_it_matters": "Simply smelling chocolate helped men complete more leg extension repetitions without making the workout feel harder, with dark chocolate producing the strongest effect. The researchers think familiar food aromas may infl…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "This Australian cave hid 25,000 years of ritual secrets",
+            "why_it_matters": "Microscopic plant remains are revealing how GunaiKurnai ancestors used Cloggs Cave for ritual practices over thousands of years. People deliberately gathered whole grasses, carried them into the dark cave, and burned the…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Scientists discover a major brain shift between ages 50 and 75",
+            "why_it_matters": "Scientists have uncovered sweeping changes in how the human brain controls and organizes its genome beginning in midlife, offering new clues to why aging sharply increases the risk of Alzheimer’s and other neurodegenerat…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "UV light reveals possible camouflage on a 125-million-year-old crocodile",
+            "why_it_matters": "A 125-million-year-old crocodile fossil has revealed preserved skin, possible sensory organs, sophisticated respiratory structures, and an unexpected pattern on its tail. Ultraviolet light exposed alternating bands that …",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "The shape behind the Einstein problem just revealed strange new physics",
+            "why_it_matters": "A mathematical shape famous for covering a surface without ever repeating has revealed an unexpected ability to twist light into unusual chiral patterns. The discovery could lead to new ways of controlling light, polariz…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Supermassive black hole winds are 100 times more powerful than scientists thought",
+            "why_it_matters": "Astronomers have discovered that winds from a supermassive black hole are about 100 times more powerful than previously thought. XRISM observations showed the resulting turbulence spreading roughly 300,000 light-years, e…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Nearly 10,000 patients reveal what works best for knee arthritis pain relief",
+            "why_it_matters": "A major analysis of 139 clinical trials involving nearly 10,000 people suggests that some of the simplest treatments may work best for knee osteoarthritis. Knee braces ranked highest overall for reducing pain, stiffness,…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Plague was killing entire families thousands of years before the Black Death",
+            "why_it_matters": "Ancient DNA reveals that plague was already killing hunter-gatherers in Siberia 5,500 years ago, long before cities and flea-driven epidemics. The prehistoric strains may have been especially dangerous because they carri…",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "Smelling chocolate helped men complete more reps without feeling more tired",
+            "This Australian cave hid 25,000 years of ritual secrets",
+            "Scientists discover a major brain shift between ages 50 and 75",
+            "UV light reveals possible camouflage on a 125-million-year-old crocodile"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's neutral news headlines",
+          "latest news summary smelling",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Science: Smelling chocolate helped men complete more reps without feeling more tired\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Black #Scientists #10000 #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+    }
+  }
+}
