@@ -1,11 +1,13 @@
 {
   "date": "2026-09-25",
-  "generated_at_utc": "2026-09-25T18:09:59Z",
+  "generated_at_utc": "2026-09-26T01:26:50Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "reveal",
-    "trump"
+    "dead",
+    "trump",
+    "data"
   ],
   "categories": {
     "world": {
@@ -17,16 +19,51 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1988,
+        "score": -0.2444,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.331, dampened ×0.6 → -0.1988). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.407, dampened ×0.6 → -0.2444). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Special agents' blood and urine test results stolen in FBI hack",
-          "url": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 13:56:16 GMT",
-          "summary": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
+          "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+          "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 25 Sep 2026 23:38:48 GMT",
+          "summary": "Asked about the Iranian offer, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 25 Sep 2026 20:47:49 GMT",
+          "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
+          "source": "BBC News"
+        },
+        {
+          "title": "South African white genocide does not exist, new ambassador to US tells BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 25 Sep 2026 23:20:48 GMT",
+          "summary": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+          "url": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 25 Sep 2026 23:05:40 GMT",
+          "summary": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
+          "source": "BBC News"
+        },
+        {
+          "title": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+          "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 26 Sep 2026 01:25:30 GMT",
+          "summary": "OpenAI agents tried to get information from \"governments, universities, public agencies, and other institutions\" through extreme means that sometimes curbed security controls, the company said.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
+          "url": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 26 Sep 2026 01:24:31 GMT",
+          "summary": "Tasia Fortune's body was found hanging from a tree on the grounds of an abandoned home in Jackson in August.",
           "source": "BBC News"
         },
         {
@@ -37,17 +74,24 @@
           "source": "BBC News"
         },
         {
-          "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
-          "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 03:57:09 GMT",
-          "summary": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for.",
+          "title": "Two arrested after people seen mysteriously emerging from various New York City sewers",
+          "url": "https://www.bbc.co.uk/news/articles/cwddvv44091vo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 25 Sep 2026 17:59:03 GMT",
+          "summary": "The city has seen a string of incidents in which people have climbed out of manholes late at night.",
           "source": "BBC News"
         },
         {
           "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
           "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 17:32:15 GMT",
+          "published": "Fri, 25 Sep 2026 19:13:35 GMT",
           "summary": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump's plans for massive arch move ahead",
+          "url": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 25 Sep 2026 18:27:46 GMT",
+          "summary": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\".",
           "source": "BBC News"
         },
         {
@@ -63,64 +107,47 @@
           "published": "Fri, 25 Sep 2026 13:23:33 GMT",
           "summary": "A gunman shot Jim Copenhaver twice while also killing another man and grazing Trump's ear with a bullet.",
           "source": "BBC News"
-        },
-        {
-          "title": "Senior Kazakh officials detained after 14 service members swept out to sea",
-          "url": "https://www.bbc.co.uk/news/articles/cm0reew1591zo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 15:29:48 GMT",
-          "summary": "Seventeen service members were swept out to the Caspian Sea during military exercises.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Jay-Z rape accuser says her allegation was false",
-          "url": "https://www.bbc.co.uk/news/articles/cm4g53547wygo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 10:51:28 GMT",
-          "summary": "A woman who accused Jay-Z of raping her when she was 13 now says she has never met the rap superstar.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Internet restricted after fighting breaks out in Ethiopia's Tigray region",
-          "url": "https://www.bbc.co.uk/news/articles/cqp8dxxg325no?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 17:13:55 GMT",
-          "summary": "During the two-year civil war in Tigray, the region was totally cut off from the outside world.",
-          "source": "BBC News"
-        },
-        {
-          "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
-          "url": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 09:48:33 GMT",
-          "summary": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-          "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 11:44:44 GMT",
-          "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "Africa's richest man helps fund $660m fuel pipeline between Ethiopia and Djibouti",
-          "url": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 25 Sep 2026 14:24:19 GMT",
-          "summary": "The pipeline would strengthen energy security in landlocked Ethiopia, while creating jobs at Djibouti's port.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Special agents' blood and urine test results stolen in FBI hack.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.199). Top story: Special agents' blood and urine test results stolen in FBI hack.",
+        "key_takeaway": "Iran offers US deal to reopen Strait of Hormuz in seven days.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.244). Top story: Iran offers US deal to reopen Strait of Hormuz in seven days.",
         "key_themes": [
-          "Special agents' blood and urine test results stolen in FBI hack",
-          "Pope warns against 'losing humanity' to AI machines",
-          "Xi got Trump's red carpet welcome - but not everything he wanted",
-          "Supreme Court allows Trump to use controversial database to check voter citizenship",
-          "Students strike across Germany in protest against military service"
+          "Iran offers US deal to reopen Strait of Hormuz in seven days",
+          "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+          "South African white genocide does not exist, new ambassador to US tells BBC",
+          "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+          "OpenAI investigating 'dozens' of instances of agents acting improperly"
         ],
         "notable_headlines": [
           {
-            "headline": "Special agents' blood and urine test results stolen in FBI hack",
-            "why_it_matters": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
+            "headline": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+            "why_it_matters": "Asked about the Iranian offer, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+            "why_it_matters": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "South African white genocide does not exist, new ambassador to US tells BBC",
+            "why_it_matters": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+            "why_it_matters": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+            "why_it_matters": "OpenAI agents tried to get information from \"governments, universities, public agencies, and other institutions\" through extreme means that sometimes curbed security controls, the company said.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Black woman found hanging from tree was dead before body was 'staged', police say",
+            "why_it_matters": "Tasia Fortune's body was found hanging from a tree on the grounds of an abandoned home in Jackson in August.",
             "signal": "Risk"
           },
           {
@@ -129,33 +156,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Xi got Trump's red carpet welcome - but not everything he wanted",
-            "why_it_matters": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Supreme Court allows Trump to use controversial database to check voter citizenship",
-            "why_it_matters": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Students strike across Germany in protest against military service",
-            "why_it_matters": "A law establishing voluntary military service came into effect in January, but protest organisers fear compulsory service could follow.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Man shot during 2024 Trump campaign rally in Butler dies",
-            "why_it_matters": "A gunman shot Jim Copenhaver twice while also killing another man and grazing Trump's ear with a bullet.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Senior Kazakh officials detained after 14 service members swept out to sea",
-            "why_it_matters": "Seventeen service members were swept out to the Caspian Sea during military exercises.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Jay-Z rape accuser says her allegation was false",
-            "why_it_matters": "A woman who accused Jay-Z of raping her when she was 13 now says she has never met the rap superstar.",
+            "headline": "Two arrested after people seen mysteriously emerging from various New York City sewers",
+            "why_it_matters": "The city has seen a string of incidents in which people have climbed out of manholes late at night.",
             "signal": "Risk"
           }
         ],
@@ -171,10 +173,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Special agents' blood and urine test results stolen in FBI hack",
-            "Pope warns against 'losing humanity' to AI machines",
-            "Xi got Trump's red carpet welcome - but not everything he wanted",
-            "Supreme Court allows Trump to use controversial database to check voter citizenship"
+            "Iran offers US deal to reopen Strait of Hormuz in seven days",
+            "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+            "South African white genocide does not exist, new ambassador to US tells BBC",
+            "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach"
           ],
           "confidence": "Medium"
         },
@@ -185,11 +187,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary special",
+          "latest news summary iran",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Special agents' blood and urine test results stolen in FBI hack\n\nWorld Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Against #Service #Trump #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Iran offers US deal to reopen Strait of Hormuz in seven days\n\nWorld Sentiment: Mixed (-0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Agents #Data #Acting #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -383,16 +385,23 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0258,
+        "score": 0.0446,
         "label": "Neutral",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.043, dampened ×0.6 → +0.0258). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.074, dampened ×0.6 → +0.0446). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Roku&#8217;s first OLED TVs are up to $400 off, starting at $699",
+          "url": "https://www.theverge.com/gadgets/1000859/roku-pro-series-oled-nothing-phone-4a-pro-deal-sale",
+          "published": "2026-09-25T14:18:57-04:00",
+          "summary": "Roku recently launched its first-ever OLED TVs. The $999 starting price was already impressive for the 55-inch Pro Series model that has a 120Hz refresh rate OLED panel (with four HDMI 2.1 ports and support for Dolby Vision and HDR 10 Plus). The price is even lower right now at Amazon when you enter the [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Phones don’t have lights",
           "url": "https://www.theverge.com/podcast/1000751/vergecast-meta-connect-muse-googlebooks",
           "published": "2026-09-25T13:42:59-04:00",
-          "summary": "Mark Zuckerberg has a new defense of the Ray-Ban Meta glasses: they're actually doing more to signal they're taking a photo than phones do. He's brought this up in at least two recent interviews, noting that the glasses have a light that comes on to signal when a photo is being taken, while phones do [&#8230;]",
+          "summary": "Mark Zuckerberg has a new defense of the Ray-Ban Meta glasses: They're actually doing more to signal they're taking a photo than phones do. He's brought this up in at least two recent interviews, noting that the glasses have a light that comes on to signal when a photo is being taken, while phones do [&#8230;]",
           "source": "The Verge"
         },
         {
@@ -450,29 +459,27 @@
           "published": "2026-09-25T10:10:00-04:00",
           "summary": "For the third year in a row, I've been scared out of my wits by a new Silent Hill game. First it was the modern remake of Silent Hill 2, then the Japan-set spinoff Silent Hill F. Now I find myself slowly crawling through a quaint Scottish town in Silent Hill: Townfall, trying my best [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-          "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-          "published": "2026-09-25T09:00:00-04:00",
-          "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion detected\" notification from my security camera. \"Just [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Phones don’t have lights.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is neutral (0.026). Top story: Phones don’t have lights.",
+        "key_takeaway": "Roku&#8217;s first OLED TVs are up to $400 off, starting at $699.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is neutral (0.045). Top story: Roku&#8217;s first OLED TVs are up to $400 off, starting at $699.",
         "key_themes": [
+          "Roku&#8217;s first OLED TVs are up to $400 off, starting at $699",
           "Phones don’t have lights",
           "These camera apps give you more control over the iPhone 18 Pro’s aperture",
           "Tesla&#8217;s Optimus robot is going through growing pains",
-          "Meta makes the Muse filesystem even more accessible",
-          "Leaks reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K"
+          "Meta makes the Muse filesystem even more accessible"
         ],
         "notable_headlines": [
           {
+            "headline": "Roku&#8217;s first OLED TVs are up to $400 off, starting at $699",
+            "why_it_matters": "Roku recently launched its first-ever OLED TVs. The $999 starting price was already impressive for the 55-inch Pro Series model that has a 120Hz refresh rate OLED panel (with four HDMI 2.1 ports and support for Dolby Vis…",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Phones don’t have lights",
-            "why_it_matters": "Mark Zuckerberg has a new defense of the Ray-Ban Meta glasses: they're actually doing more to signal they're taking a photo than phones do. He's brought this up in at least two recent interviews, noting that the glasses …",
+            "why_it_matters": "Mark Zuckerberg has a new defense of the Ray-Ban Meta glasses: They're actually doing more to signal they're taking a photo than phones do. He's brought this up in at least two recent interviews, noting that the glasses …",
             "signal": "Unclear"
           },
           {
@@ -504,11 +511,6 @@
             "headline": "One company is at the center of a wave of rogue AI attacks",
             "why_it_matters": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Goo…",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Cricut&#8217;s new compact crafter prints, cuts, and laminates stickers",
-            "why_it_matters": "Cricut announced its first crafting machines with printing capabilities that are primarily designed as all-in-one solutions for turning photos and other images into precut stickers. The Cricut StickerPix Print plus Cut a…",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -523,10 +525,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Roku&#8217;s first OLED TVs are up to $400 off, starting at $699",
             "Phones don’t have lights",
             "These camera apps give you more control over the iPhone 18 Pro’s aperture",
-            "Tesla&#8217;s Optimus robot is going through growing pains",
-            "Meta makes the Muse filesystem even more accessible"
+            "Tesla&#8217;s Optimus robot is going through growing pains"
           ],
           "confidence": "Medium"
         },
@@ -537,11 +539,11 @@
         ],
         "related_topics": [
           "today's neutral news headlines",
-          "latest news summary phones",
+          "latest news summary roku&#8217;s",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Phones don’t have lights\n\nTechnology Sentiment: Neutral (+0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Mini #Accessible #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Roku&#8217;s first OLED TVs are up to $400 off, starting at $699\n\nTechnology Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Mini #Accessible #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
