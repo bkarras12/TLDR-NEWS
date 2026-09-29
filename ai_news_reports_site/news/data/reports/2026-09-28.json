@@ -1,10 +1,11 @@
 {
   "date": "2026-09-28",
-  "generated_at_utc": "2026-09-28T20:20:25Z",
+  "generated_at_utc": "2026-09-29T02:33:46Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "record"
+    "record",
+    "against"
   ],
   "categories": {
     "world": {
@@ -16,16 +17,30 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1959,
+        "score": -0.225,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.327, dampened ×0.6 → -0.1959). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.375, dampened ×0.6 → -0.2250). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "OpenAI scraps rollout of new model over safety concerns",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 29 Sep 2026 02:29:25 GMT",
+          "summary": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
+          "source": "BBC News"
+        },
         {
           "title": "Inside Yemen's front-line city as Houthis battle for control",
           "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 27 Sep 2026 21:16:31 GMT",
           "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+          "source": "BBC News"
+        },
+        {
+          "title": "New York Times executive fatally shot allegedly by elderly in-laws",
+          "url": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 28 Sep 2026 20:50:03 GMT",
+          "summary": "Jonathan McKinsey's in-laws, who are both 77 years old, face multiple charges including first-degree murder.",
           "source": "BBC News"
         },
         {
@@ -36,17 +51,24 @@
           "source": "BBC News"
         },
         {
+          "title": "French PM warns against escalation of school protests after 164 arrested",
+          "url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 28 Sep 2026 21:46:53 GMT",
+          "summary": "Students are protesting over issues such as overcrowded classes, but the prime minister has condemned reports of violence.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Tennessee governor rejects clemency bid for Christa Pike as execution looms",
+          "url": "https://www.bbc.co.uk/news/articles/ckr50yyddljlo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 28 Sep 2026 22:27:33 GMT",
+          "summary": "If the execution proceeds, Pike would be the first woman executed in Tennessee in more than 200 years.",
+          "source": "BBC News"
+        },
+        {
           "title": "Twelve women have been killed in one part of South Africa since July. Here's what we know so far",
           "url": "https://www.bbc.co.uk/news/articles/c6m27dprvzv7o?at_medium=RSS&at_campaign=rss",
           "published": "Mon, 28 Sep 2026 17:26:21 GMT",
           "summary": "South African President Cyril Ramaphosa says the murders are a \"stain on our national conscience\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "Iran court upholds lashes sentence for singer who performed without hijab",
-          "url": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 28 Sep 2026 17:15:00 GMT",
-          "summary": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
           "source": "BBC News"
         },
         {
@@ -57,9 +79,16 @@
           "source": "BBC News"
         },
         {
+          "title": "Iran court upholds lashes sentence for singer who performed without hijab",
+          "url": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 28 Sep 2026 17:15:00 GMT",
+          "summary": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
+          "source": "BBC News"
+        },
+        {
           "title": "Stand-up comic released after being convicted of insulting Erdoğan",
           "url": "https://www.bbc.co.uk/news/articles/c8zxzlqwzw0eo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 28 Sep 2026 19:26:15 GMT",
+          "published": "Mon, 28 Sep 2026 20:23:12 GMT",
           "summary": "Turkish comedian Deniz Göktaş also faces a travel ban but has been released due to time served.",
           "source": "BBC News"
         },
@@ -76,50 +105,32 @@
           "published": "Mon, 28 Sep 2026 12:47:09 GMT",
           "summary": "Goodman Group, the property giant behind the Project Mars data centre, says the decision is due to changes to the \"policy and regulatory environment\".",
           "source": "BBC News"
-        },
-        {
-          "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
-          "url": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 28 Sep 2026 18:11:07 GMT",
-          "summary": "It comes after the woman filed a civil lawsuit alleging she was drugged and raped at a fraternity house in 2024.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Remains of dozens of suspected kidnap victims found in Nigerian forests",
-          "url": "https://www.bbc.co.uk/news/articles/c6e30x757nx4o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 28 Sep 2026 16:25:00 GMT",
-          "summary": "Investigations are ongoing to establish the identities of at least 28 people whose remains were recovered by police.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Mexico's Pacific coast braces for Hurricane Polo",
-          "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 28 Sep 2026 11:05:49 GMT",
-          "summary": "The category-three storm is approaching the state of Baja California Sur, on Mexico's northern Pacific coast.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trump-Xi summit: What wasn't said might matter the most",
-          "url": "https://www.bbc.co.uk/news/articles/cxp84g2ly1mjo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 28 Sep 2026 07:52:23 GMT",
-          "summary": "The most revealing thing about the summit in Washington may be what the two leaders did not say - and what we still don't know.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Inside Yemen's front-line city as Houthis battle for control.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.196). Top story: Inside Yemen's front-line city as Houthis battle for control.",
+        "key_takeaway": "OpenAI scraps rollout of new model over safety concerns.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.225). Top story: OpenAI scraps rollout of new model over safety concerns.",
         "key_themes": [
+          "OpenAI scraps rollout of new model over safety concerns",
           "Inside Yemen's front-line city as Houthis battle for control",
+          "New York Times executive fatally shot allegedly by elderly in-laws",
           "Seoul summons Ukraine envoy over North Korean prisoner-of-war row",
-          "Twelve women have been killed in one part of South Africa since July. Here's what we know so far",
-          "Iran court upholds lashes sentence for singer who performed without hijab",
-          "Nigerian attempts to break world record by dancing non-stop for seven days"
+          "French PM warns against escalation of school protests after 164 arrested"
         ],
         "notable_headlines": [
           {
+            "headline": "OpenAI scraps rollout of new model over safety concerns",
+            "why_it_matters": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Inside Yemen's front-line city as Houthis battle for control",
             "why_it_matters": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "New York Times executive fatally shot allegedly by elderly in-laws",
+            "why_it_matters": "Jonathan McKinsey's in-laws, who are both 77 years old, face multiple charges including first-degree murder.",
             "signal": "Risk"
           },
           {
@@ -128,33 +139,23 @@
             "signal": "Risk"
           },
           {
+            "headline": "French PM warns against escalation of school protests after 164 arrested",
+            "why_it_matters": "Students are protesting over issues such as overcrowded classes, but the prime minister has condemned reports of violence.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Tennessee governor rejects clemency bid for Christa Pike as execution looms",
+            "why_it_matters": "If the execution proceeds, Pike would be the first woman executed in Tennessee in more than 200 years.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Twelve women have been killed in one part of South Africa since July. Here's what we know so far",
             "why_it_matters": "South African President Cyril Ramaphosa says the murders are a \"stain on our national conscience\".",
             "signal": "Risk"
           },
           {
-            "headline": "Iran court upholds lashes sentence for singer who performed without hijab",
-            "why_it_matters": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Nigerian attempts to break world record by dancing non-stop for seven days",
             "why_it_matters": "Crowds have gathered in Lagos to watch Ben Dancer, who says he will carry on dancing until Tuesday morning.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Stand-up comic released after being convicted of insulting Erdoğan",
-            "why_it_matters": "Turkish comedian Deniz Göktaş also faces a travel ban but has been released due to time served.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Four bodies found after avalanche hits Himalayan climbing group",
-            "why_it_matters": "Rescuers are still looking for 12 Nepalese cook staff who were preparing for climbers to ascend the Himlung Himal peak.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Plan for controversial Sydney data centre scrapped after push-back",
-            "why_it_matters": "Goodman Group, the property giant behind the Project Mars data centre, says the decision is due to changes to the \"policy and regulatory environment\".",
             "signal": "Risk"
           }
         ],
@@ -170,10 +171,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "OpenAI scraps rollout of new model over safety concerns",
             "Inside Yemen's front-line city as Houthis battle for control",
-            "Seoul summons Ukraine envoy over North Korean prisoner-of-war row",
-            "Twelve women have been killed in one part of South Africa since July. Here's what we know so far",
-            "Iran court upholds lashes sentence for singer who performed without hijab"
+            "New York Times executive fatally shot allegedly by elderly in-laws",
+            "Seoul summons Ukraine envoy over North Korean prisoner-of-war row"
           ],
           "confidence": "Medium"
         },
@@ -184,11 +185,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary inside",
+          "latest news summary openai",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Inside Yemen's front-line city as Houthis battle for control\n\nWorld Sentiment: Mixed (-0.20)\n\nRead the full breakdown: https://tldrnews.info\n\n#Africa #Attempts #Avalanche #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: OpenAI scraps rollout of new model over safety concerns\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Africa #Against #Allegedly #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -382,11 +383,18 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1912,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.319, dampened ×0.6 → +0.1912). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.2735,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.456, dampened ×0.6 → +0.2735). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+          "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+          "published": "2026-09-28T17:31:35-04:00",
+          "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Bose starts adding Auracast to its headphones",
           "url": "https://www.theverge.com/tech/1001522/bose-headphones-get-auracast-support",
@@ -449,26 +457,24 @@
           "published": "2026-09-28T10:55:12-04:00",
           "summary": "It’s been a while since we’ve seen a big price cut on a capable robot vacuum and mop hybrid that can scale over short steps and threshold to hunt messes. Dreame’s X50 Ultra is the model that my colleague Jen recommends for hard floors and carpets, and it’s down to $899.99 at Amazon for Prime [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Bose’s first wired earbuds in 11 years add noise canceling",
-          "url": "https://www.theverge.com/tech/1001326/bose-wired-earbuds-noise-canceling-headphones-preorder",
-          "published": "2026-09-28T10:09:44-04:00",
-          "summary": "Everything old is new again as today Bose announced its first pair of wired earbuds since discontinuing the option in 2015. The new tethered earbuds, which are simply called the Bose Noise Cancelling Wired Earbuds, do away with battery anxiety and the need to remember to charge them every few days. Their functionality is limited, [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Bose starts adding Auracast to its headphones.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.191). Top story: Bose starts adding Auracast to its headphones.",
+        "key_takeaway": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.274). Top story: AMD is acquiring AI company World Labs in a deal worth more than $8 billion.",
         "key_themes": [
+          "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
           "Bose starts adding Auracast to its headphones",
           "OpenAI’s AI agents need to catch up",
           "Trump finalizes rule to make cars less fuel efficient",
-          "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
-          "Florida seeks a ban on ChatGPT acting like a person"
+          "AI is supercharging hacking, and your local hospitals and banks aren’t ready"
         ],
         "notable_headlines": [
+          {
+            "headline": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+            "why_it_matters": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was val…",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Bose starts adding Auracast to its headphones",
             "why_it_matters": "A new firmware update for the $449 Bose QuietComfort Ultra Headphones Gen 2 adds support for Bluetooth LE Audio and Auracast as beta features. The flagship Ultra headphones are the first from Bose to support the audio sh…",
@@ -503,11 +509,6 @@
             "headline": "Walmart won’t hike prices based on your shopping history, CEO says",
             "why_it_matters": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company…",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Volkswagen replaces ID.4 with all-electric Tiguan",
-            "why_it_matters": "In a widely expected move, Volkswagen announced Monday that it will replace the recently retired ID.4 crossover with the upcoming ID.Tiguan. The decision is an acknowledgment by the German automaker that its more recogni…",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -522,10 +523,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
             "Bose starts adding Auracast to its headphones",
             "OpenAI’s AI agents need to catch up",
-            "Trump finalizes rule to make cars less fuel efficient",
-            "AI is supercharging hacking, and your local hospitals and banks aren’t ready"
+            "Trump finalizes rule to make cars less fuel efficient"
           ],
           "confidence": "Medium"
         },
@@ -535,12 +536,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary bose",
+          "today's positive news headlines",
+          "latest news summary amd",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Bose starts adding Auracast to its headphones\n\nTechnology Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #Acting #Adding #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: AMD is acquiring AI company World Labs in a deal worth more than $8 billion\n\nTechnology Sentiment: Positive (+0.27)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #Acquiring #Acting #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
