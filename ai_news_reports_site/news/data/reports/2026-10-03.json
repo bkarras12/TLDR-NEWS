@@ -1,10 +1,11 @@
 {
   "date": "2026-10-03",
-  "generated_at_utc": "2026-10-03T08:45:36Z",
+  "generated_at_utc": "2026-10-03T17:42:42Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "sources"
+    "sources",
+    "risk"
   ],
   "categories": {
     "world": {
@@ -16,23 +17,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.3982,
+        "score": -0.263,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.664, dampened ×0.6 → -0.3982). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.438, dampened ×0.6 → -0.2630). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-          "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 03 Oct 2026 08:26:06 GMT",
-          "summary": "The flydubai plane plunged more than 17,000ft two and a half hours into its journey before passengers and crew overpowered the attacker.",
+          "title": "Tennessee prison chief to resign after Christa Pike's failed execution, governor says",
+          "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 03 Oct 2026 16:57:02 GMT",
+          "summary": "Pike survived two lethal injections on Wednesday and is currently in critical condition in hospital.",
           "source": "BBC News"
         },
         {
-          "title": "Russia strikes second major bridge in Kyiv, mayor says",
+          "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
+          "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 03 Oct 2026 14:27:33 GMT",
+          "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
           "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 03 Oct 2026 07:25:09 GMT",
-          "summary": "The strike on Northern Bridge comes after repeat attacks on another major bridge in recent days.",
+          "published": "Sat, 03 Oct 2026 16:16:49 GMT",
+          "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 03 Oct 2026 13:34:11 GMT",
+          "summary": "More than 50 protests are taking place on Saturday after the government failed to get emergency legislation through parliament.",
           "source": "BBC News"
         },
         {
@@ -43,24 +58,10 @@
           "source": "BBC News"
         },
         {
-          "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
-          "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 20:32:07 GMT",
-          "summary": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
-          "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 03 Oct 2026 02:23:07 GMT",
-          "summary": "A lawyer for Jane Doe says she is \"not doing well\" amid attempts to uncover her identity.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Riot police clash with students as education protests rage in France",
-          "url": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 21:13:27 GMT",
-          "summary": "About 735 schools have faced disruption as violent protests over standards and lack of teachers continue.",
+          "title": "Medical plane with 6 on board missing off Massachusetts coast",
+          "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 03 Oct 2026 15:56:14 GMT",
+          "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
           "source": "BBC News"
         },
         {
@@ -71,60 +72,70 @@
           "source": "BBC News"
         },
         {
-          "title": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
-          "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 15:30:12 GMT",
-          "summary": "The defeat raises pressure on Sánchez to call a snap election, after a series of scandals affecting his party and allies.",
+          "title": "Why has Brazil accused the US of election interference?",
+          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 03 Oct 2026 13:52:13 GMT",
+          "summary": "The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.",
           "source": "BBC News"
         },
         {
-          "title": "US road rage killer's sentence quashed because AI video of victim was shown in court",
-          "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 23:06:00 GMT",
-          "summary": "The Arizona appeals court ruled that airing an AI message from the dead victim \"crossed that line\".",
+          "title": "UK-Iranian dual national bailed after RAF Fairford incident arrest",
+          "url": "https://www.bbc.co.uk/news/articles/c6d095ygggv1o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 03 Oct 2026 10:58:51 GMT",
+          "summary": "The 25-year-old man was arrested in the London borough of Westminster on Thursday.",
           "source": "BBC News"
         },
         {
-          "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
-          "url": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 21:00:41 GMT",
-          "summary": "The lava rock formation protruding from the rocky cliffs of Volcanoes National Park crumbled some time last weekend.",
+          "title": "Riot police clash with students as education protests rage in France",
+          "url": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 21:13:27 GMT",
+          "summary": "About 735 schools have faced disruption as violent protests over standards and lack of teachers continue.",
           "source": "BBC News"
         },
         {
-          "title": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 03:09:13 GMT",
-          "summary": "President Lee Jae Myung also accused Kyiv of \"attempting to provoke a war on the Korean Peninsula\".",
+          "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 03 Oct 2026 02:23:07 GMT",
+          "summary": "A lawyer for Jane Doe says she is \"not doing well\" amid attempts to uncover her identity.",
           "source": "BBC News"
         },
         {
-          "title": "Japan's first mayor to take maternity leave lands on TIME100 Next list",
-          "url": "https://www.bbc.co.uk/news/articles/cqj3d3d37nxgo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 05:53:51 GMT",
-          "summary": "Shoko Kawata's maternity leave drew mixed reactions in Japan, a country struggling to lift birth rates.",
+          "title": "Kim wins Asian Games gold to secure military exemption",
+          "url": "https://www.bbc.co.uk/sport/golf/articles/cmy0rn425k4xo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 03 Oct 2026 08:51:14 GMT",
+          "summary": "Golfer Tom Kim wins gold at the Asian Games to secure an exemption from mandatory service in South Korea's military.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Flydubai co-pilot attacked captain with axe, UAE official says.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.398). Top story: Flydubai co-pilot attacked captain with axe, UAE official says.",
+        "key_takeaway": "Tennessee prison chief to resign after Christa Pike's failed execution, governor says.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.263). Top story: Tennessee prison chief to resign after Christa Pike's failed execution, governor says.",
         "key_themes": [
+          "Tennessee prison chief to resign after Christa Pike's failed execution, governor says",
           "Flydubai co-pilot attacked captain with axe, UAE official says",
-          "Russia strikes second major bridge in Kyiv, mayor says",
-          "G7 to release millions of barrels of oil and diesel after Trump threat",
-          "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
-          "Cornell frat house rape accuser 'under siege' online, says lawyer"
+          "Russia hits second major bridge in Ukraine's capital Kyiv",
+          "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+          "G7 to release millions of barrels of oil and diesel after Trump threat"
         ],
         "notable_headlines": [
           {
-            "headline": "Flydubai co-pilot attacked captain with axe, UAE official says",
-            "why_it_matters": "The flydubai plane plunged more than 17,000ft two and a half hours into its journey before passengers and crew overpowered the attacker.",
+            "headline": "Tennessee prison chief to resign after Christa Pike's failed execution, governor says",
+            "why_it_matters": "Pike survived two lethal injections on Wednesday and is currently in critical condition in hospital.",
             "signal": "Risk"
           },
           {
-            "headline": "Russia strikes second major bridge in Kyiv, mayor says",
-            "why_it_matters": "The strike on Northern Bridge comes after repeat attacks on another major bridge in recent days.",
+            "headline": "Flydubai co-pilot attacked captain with axe, UAE official says",
+            "why_it_matters": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Russia hits second major bridge in Ukraine's capital Kyiv",
+            "why_it_matters": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+            "why_it_matters": "More than 50 protests are taking place on Saturday after the government failed to get emergency legislation through parliament.",
             "signal": "Risk"
           },
           {
@@ -133,18 +144,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
-            "why_it_matters": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Cornell frat house rape accuser 'under siege' online, says lawyer",
-            "why_it_matters": "A lawyer for Jane Doe says she is \"not doing well\" amid attempts to uncover her identity.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Riot police clash with students as education protests rage in France",
-            "why_it_matters": "About 735 schools have faced disruption as violent protests over standards and lack of teachers continue.",
+            "headline": "Medical plane with 6 on board missing off Massachusetts coast",
+            "why_it_matters": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
             "signal": "Risk"
           },
           {
@@ -153,8 +154,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
-            "why_it_matters": "The defeat raises pressure on Sánchez to call a snap election, after a series of scandals affecting his party and allies.",
+            "headline": "Why has Brazil accused the US of election interference?",
+            "why_it_matters": "The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.",
             "signal": "Risk"
           }
         ],
@@ -179,11 +180,11 @@
         ],
         "related_topics": [
           "today's negative news headlines",
-          "latest news summary flydubai",
+          "latest news summary tennessee",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Flydubai co-pilot attacked captain with axe, UAE official says\n\nWorld Sentiment: Negative (-0.40)\n\nRead the full breakdown: https://tldrnews.info\n\n#Accuser #Attacked #Barrels #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Tennessee prison chief to resign after Christa Pike's failed execution, governor says\n\nWorld Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Accused #Anger #Attacked #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -194,11 +195,18 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0568,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.095, dampened ×0.6 → -0.0568). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0442,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.074, dampened ×0.6 → -0.0442). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "The American dream remains elusive in the valley that inspired East of Eden",
+          "url": "https://www.theguardian.com/us-news/2026/oct/03/salinas-california-john-steinbeck",
+          "published": "Sat, 03 Oct 2026 09:00:54 GMT",
+          "summary": "<p>John Steinbeck’s hometown of Salinas is the least affordable city in the US for the middle class, a recent Brookings Institution analysis found </p><p>Nestled between two mountain ranges at the crook of central California’s coastline sits a valley known as the “salad bowl of the world”.</p><p>Farm workers stoop over neatly lined rows of crops off Highway 101 to harvest more than half of the nation’s supply of lettuce and nearly a third of its strawberries. The soil here is so rich that author",
+          "source": "The Guardian"
+        },
         {
           "title": "US added just 29,000 jobs in September in sharp drop from last month’s gains",
           "url": "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
@@ -256,13 +264,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "As the US midterms approach, Trump’s boasts on the economy fall flat with voters",
-          "url": "https://www.theguardian.com/business/2026/sep/28/trump-us-economy-midterm-elections",
-          "published": "Mon, 28 Sep 2026 11:00:32 GMT",
-          "summary": "<p>Trump’s tariffs and his war against Iran caused prices to rise, but the US president continues to claim it’s ‘the greatest economy in history’</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/sep/04/sign-up-to-the-stakes-2026-your-weekly-guide-to-the-us-midterms\">Sign up for The Stakes 2026: your weekly guide to the US midterms</a></p></li></ul><p>Donald Trump has taken to repeating a familiar boast: “<a href=\"https://www.presidency.ucsb.edu/documents/pool-reports-september-16-",
-          "source": "The Guardian"
-        },
-        {
           "title": "I went to America’s largest gathering of astrologers. It was a battle over how to read the stars",
           "url": "https://www.theguardian.com/science/ng-interactive/2026/oct/01/united-astrology-conference",
           "published": "Thu, 01 Oct 2026 11:00:49 GMT",
@@ -285,16 +286,21 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "US added just 29,000 jobs in September in sharp drop from last month’s gains.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.057). Top story: US added just 29,000 jobs in September in sharp drop from last month’s gains.",
+        "key_takeaway": "The American dream remains elusive in the valley that inspired East of Eden.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.044). Top story: The American dream remains elusive in the valley that inspired East of Eden.",
         "key_themes": [
+          "The American dream remains elusive in the valley that inspired East of Eden",
           "US added just 29,000 jobs in September in sharp drop from last month’s gains",
           "G7 to release up to 100m barrels of emergency oil and diesel reserves",
           "US borrowing costs hit 24-year high as global bond sell-off intensifies",
-          "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns",
-          "Good news in US inflation report boosts chances Fed won’t hike rates"
+          "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns"
         ],
         "notable_headlines": [
+          {
+            "headline": "The American dream remains elusive in the valley that inspired East of Eden",
+            "why_it_matters": "<p>John Steinbeck’s hometown of Salinas is the least affordable city in the US for the middle class, a recent Brookings Institution analysis found </p><p>Nestled between two mountain ranges at the crook of central Califo…",
+            "signal": "Unclear"
+          },
           {
             "headline": "US added just 29,000 jobs in September in sharp drop from last month’s gains",
             "why_it_matters": "<p>Final jobs report before the midterm elections also shows the US unemployment rate rose slightly to 4.2%</p><p>US employers added just 29,000 jobs in September, a sharp drop from last month’s gains, and unemployment r…",
@@ -329,11 +335,6 @@
             "headline": "Anthropic ‘warns of existential AI risks to humanity’ in IPO document",
             "why_it_matters": "<p>Reported admission to investors of AI’s ‘self-preserving behaviours’ comes as company prepares for a potential $2tn flotation</p><p>Anthropic is telling investors that advanced AI could pose “catastrophic or existenti…",
             "signal": "Unclear"
-          },
-          {
-            "headline": "US ban on Canadian imports likely to weaken already fragile relationship",
-            "why_it_matters": "<p>It marks another ratcheting up of Trump’s trade war and affects nearly $1bn in imports of a $880bn trade relationship</p><p>US-<a href=\"https://www.theguardian.com/world/canada\">Canada</a> relations, already tense, ar…",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -348,10 +349,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "The American dream remains elusive in the valley that inspired East of Eden",
             "US added just 29,000 jobs in September in sharp drop from last month’s gains",
             "G7 to release up to 100m barrels of emergency oil and diesel reserves",
-            "US borrowing costs hit 24-year high as global bond sell-off intensifies",
-            "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns"
+            "US borrowing costs hit 24-year high as global bond sell-off intensifies"
           ],
           "confidence": "Medium"
         },
@@ -361,12 +362,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary us",
+          "today's neutral news headlines",
+          "latest news summary the",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: US added just 29,000 jobs in September in sharp drop from last month’s gains\n\nBusiness Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#100m #24year #29000 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: The American dream remains elusive in the valley that inspired East of Eden\n\nBusiness Sentiment: Neutral (-0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#100m #24year #29000 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -377,11 +378,46 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2585,
-        "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.431, dampened ×0.6 → +0.2585). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1668,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.278, dampened ×0.6 → +0.1668). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+          "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+          "published": "2026-10-03T12:49:10-04:00",
+          "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the RE Engine for [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The best early October Prime Day deals happening now",
+          "url": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
+          "published": "2026-10-03T12:22:40-04:00",
+          "summary": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on the 8th if you’re on the East [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+          "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+          "published": "2026-10-03T11:00:00-04:00",
+          "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the curious.) Before that, Kakul held executive roles [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "An OpenAI safety employee has quit and is sounding the alarm",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "published": "2026-10-03T10:31:56-04:00",
+          "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "3D movies are finally worth watching",
+          "url": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
+          "published": "2026-10-03T08:00:00-04:00",
+          "summary": "Why am I suddenly buying up every 3D Blu-ray I can find after 3D became one of the biggest tech flops of all time? The technology's finally ready for 3D movies to shine, more than 15 years since James Cameron's Avatar wowed me on the big screen and went on to become the highest-grossing film [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Meta open sources code to let you make Muse AI gadgets",
           "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
@@ -416,54 +452,44 @@
           "published": "2026-10-02T14:00:00-04:00",
           "summary": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Breaking up (with Elon Musk) is hard to do",
-          "url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
-          "published": "2026-10-02T13:37:36-04:00",
-          "summary": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from \"Big Tech Alert,\" an account that, among other things, monitors what accounts are following and unfollowing each other. That post noted [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Rivian’s sales pop as the company’s big R2 bet starts to pay off",
-          "url": "https://www.theverge.com/transportation/1004127/rivian-q3-2026-production-delivery-r2",
-          "published": "2026-10-02T13:15:03-04:00",
-          "summary": "Rivian had high hopes for its more affordable R2 vehicle - and so far, those hopes appear to be paying off. The company released its third-quarter production and delivery numbers today, reporting 19,751 vehicles produced and 19,248 delivered. That represents an 85 percent year-over-year increase in production and a 45 percent jump in deliveries. (For [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Beehiiv creators are buzzing about a new price increase",
-          "url": "https://www.theverge.com/tech/1004133/beehiiv-price-increase-reactions",
-          "published": "2026-10-02T12:51:49-04:00",
-          "summary": "Beehiiv, a creator platform that has risen in popularity as an alternative to Substack, is increasing its prices - and many users aren't happy. In a post explaining the increase, Beehiiv cofounder and CEO Tyler Denk says it will allow the company to \"continue investing in our core platform experience.\" As part of the change, [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
-          "url": "https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller",
-          "published": "2026-10-02T12:35:13-04:00",
-          "summary": "Nacon announced what the company is claiming is the world's first officially licensed PlayStation 5 controller with a built-in screen for adjusting settings like joystick sensitivity or remapping buttons right on the gamepad. The Revolution 5 Unlimited's screen can also be used to mix audio from multiple sources so while using a pair of headphones [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Dots get up in Muse’s business",
-          "url": "https://www.theverge.com/podcast/1004059/openai-dots-kindle-homepad-cybercab-vergecast",
-          "published": "2026-10-02T11:47:05-04:00",
-          "summary": "OpenAI's answer to Muse arrived this week, and it looks a whole lot like Muse dressed up in a suit and tie. Dots is a business-first product - for now, at least - costing a minimum of $100 per month. And sure, you can make a cute little Dot character, just like you can make [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Meta open sources code to let you make Muse AI gadgets.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.259). Top story: Meta open sources code to let you make Muse AI gadgets.",
+        "key_takeaway": "Capcom is preparing for a ‘future where we create games together with AI’.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.167). Top story: Capcom is preparing for a ‘future where we create games together with AI’.",
         "key_themes": [
-          "Meta open sources code to let you make Muse AI gadgets",
-          "Netflix is pivoting away from prestige",
-          "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-          "Sling TV drops its one-day cable passes",
-          "OpenAI’s Dot agent is enterprise software that can also order your dinner"
+          "Capcom is preparing for a ‘future where we create games together with AI’",
+          "The best early October Prime Day deals happening now",
+          "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+          "An OpenAI safety employee has quit and is sounding the alarm",
+          "3D movies are finally worth watching"
         ],
         "notable_headlines": [
+          {
+            "headline": "Capcom is preparing for a ‘future where we create games together with AI’",
+            "why_it_matters": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouth…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The best early October Prime Day deals happening now",
+            "why_it_matters": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+            "why_it_matters": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espr…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "An OpenAI safety employee has quit and is sounding the alarm",
+            "why_it_matters": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "3D movies are finally worth watching",
+            "why_it_matters": "Why am I suddenly buying up every 3D Blu-ray I can find after 3D became one of the biggest tech flops of all time? The technology's finally ready for 3D movies to shine, more than 15 years since James Cameron's Avatar wo…",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Meta open sources code to let you make Muse AI gadgets",
             "why_it_matters": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, ad…",
@@ -477,31 +503,6 @@
           {
             "headline": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
             "why_it_matters": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users w…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Sling TV drops its one-day cable passes",
-            "why_it_matters": "Dish-owned Sling TV will no longer be offering its Sling Pass feature that allowed people to buy a single day of cable TV programming at a time, as reported by The Desk. The feature was announced last year and offered a …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-            "why_it_matters": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace softwa…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Breaking up (with Elon Musk) is hard to do",
-            "why_it_matters": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from \"Big Tech Alert,\" an account tha…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Rivian’s sales pop as the company’s big R2 bet starts to pay off",
-            "why_it_matters": "Rivian had high hopes for its more affordable R2 vehicle - and so far, those hopes appear to be paying off. The company released its third-quarter production and delivery numbers today, reporting 19,751 vehicles produced…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Beehiiv creators are buzzing about a new price increase",
-            "why_it_matters": "Beehiiv, a creator platform that has risen in popularity as an alternative to Substack, is increasing its prices - and many users aren't happy. In a post explaining the increase, Beehiiv cofounder and CEO Tyler Denk says…",
             "signal": "Opportunity"
           }
         ],
@@ -517,10 +518,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Meta open sources code to let you make Muse AI gadgets",
-            "Netflix is pivoting away from prestige",
-            "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-            "Sling TV drops its one-day cable passes"
+            "Capcom is preparing for a ‘future where we create games together with AI’",
+            "The best early October Prime Day deals happening now",
+            "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+            "An OpenAI safety employee has quit and is sounding the alarm"
           ],
           "confidence": "Medium"
         },
@@ -530,12 +531,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's positive news headlines",
-          "latest news summary meta",
+          "today's mixed news headlines",
+          "latest news summary capcom",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Meta open sources code to let you make Muse AI gadgets\n\nTechnology Sentiment: Positive (+0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Increase #Access #Agent #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Capcom is preparing for a ‘future where we create games together with AI’\n\nTechnology Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Access #Agents #Alarm #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -729,11 +730,60 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0113,
+        "score": 0.0412,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.019, dampened ×0.6 → +0.0113). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.069, dampened ×0.6 → +0.0412). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "This protective enzyme could help stop fatty liver disease from getting worse",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm",
+          "published": "Sat, 03 Oct 2026 09:46:11 EDT",
+          "summary": "Scientists have identified an enzyme that may act as a natural defense against the worsening of fatty liver disease, which affects an estimated 100 million Americans. The enzyme, called UBE2N, helps liver cells clear away damaged mitochondria and break down fat, potentially preventing the inflammation, scarring, and cell damage associated with the more dangerous condition MASH.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "ESA’s Juice just used Earth as a slingshot to Jupiter",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm",
+          "published": "Sat, 03 Oct 2026 09:34:11 EDT",
+          "summary": "ESA’s Juice spacecraft raced past Earth on September 28, using our planet’s gravity to dramatically reshape its path toward Jupiter without burning much fuel. The flyby changed its direction by 20 degrees and increased its speed by 3.5 km/s, while also giving scientists a rare chance to test its instruments on Earth and the Moon.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA’s Roman telescope just opened its planet-hunting eye",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
+          "published": "Fri, 02 Oct 2026 08:21:30 EDT",
+          "summary": "NASA’s Roman Space Telescope has demonstrated remarkable pointing stability and given its powerful planet-imaging coronagraph its first look at the cosmos. The telescope can already stay locked on a target with precision comparable to aiming a laser at a dime from about 150 miles away. Its coronagraph also captured stars in the Large Magellanic Cloud, confirming that the instrument can produce focused images.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Chang’e-6 lunar soil contains a surprising magnetic time capsule",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm",
+          "published": "Sat, 03 Oct 2026 09:12:14 EDT",
+          "summary": "Scientists studying Chang’e-6 lunar soil have discovered a previously unknown magnetic mineral in natural Moon samples: a form of metallic iron called γ-Fe. Found inside tiny impact-glass particles, the nanoscale iron can preserve a stable magnetic signal, potentially acting like a microscopic fossil of the Moon’s long-lost magnetic field.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Powerful simulations reveal how the first stars changed the universe",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261001214012.htm",
+          "published": "Sat, 03 Oct 2026 08:50:57 EDT",
+          "summary": "Ultra-detailed simulations are showing how the first stars lit up the dark Universe and seeded space with elements such as carbon, oxygen, and iron. The MEGATRON project could bridge JWST observations of the earliest galaxies with chemical clues preserved in ancient stars today.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists find an “earthquake gate” as California fault stress hits a 1,000-year high",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261001095521.htm",
+          "published": "Fri, 02 Oct 2026 00:58:10 EDT",
+          "summary": "Researchers say stress on Southern California’s San Andreas and San Jacinto faults has reached some of the highest levels seen in a 1,000-year simulation. Because both faults are highly stressed at the same time, the Cajon Pass junction may be increasingly primed for a rupture that could cross both systems, although the study does not predict when an earthquake will happen.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Leucine does more than build muscle. It powers up your cells",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261001095319.htm",
+          "published": "Sat, 03 Oct 2026 08:33:15 EDT",
+          "summary": "The essential amino acid leucine can boost cellular energy production by protecting key proteins on mitochondria from being destroyed. The discovery reveals a new connection between nutrition and metabolism that could eventually lead to new approaches for metabolic disorders and cancer.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "This diet may slow brain aging by 2.5 years",
           "url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
@@ -742,132 +792,83 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Your gut may be making a molecule that raises Alzheimer’s risk",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260930225459.htm",
+          "published": "Sat, 03 Oct 2026 08:13:21 EDT",
+          "summary": "Scientists have linked a gut bacterial compound called ImP to greater Alzheimer’s risk, harmful brain protein buildup, and faster cognitive decline. The finding raises the possibility that reducing ImP in the blood could one day help slow or prevent dementia.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists just made a superconductor stronger using “empty space”",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260930225456.htm",
+          "published": "Sat, 03 Oct 2026 08:03:23 EDT",
+          "summary": "Researchers have demonstrated that quantum fluctuations in supposedly empty space can strengthen superconductivity, raising the transition temperature of an ultrathin material by as much as 5.4%. The discovery opens the possibility of using specially engineered vacuum environments to control quantum materials without direct contact or external driving.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists just pushed superconductors beyond their usual current limit",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260930225452.htm",
+          "published": "Fri, 02 Oct 2026 07:08:12 EDT",
+          "summary": "Ultrashort electrical pulses allowed scientists to push superconductors closer than ever to the point where their electron pairs actually break apart. The method revealed hidden differences between superconducting materials and could open new ways to probe and control their quantum behavior.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Alzheimer’s risk gene APOE4 may have a reversible weakness",
           "url": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm",
           "published": "Thu, 01 Oct 2026 00:45:26 EDT",
           "summary": "The Alzheimer’s risk gene APOE4 may actively damage brain blood vessels and sabotage the cellular systems that remove harmful proteins. Researchers were able to reverse some of these effects in experiments, revealing promising new targets for Alzheimer’s, Parkinson’s, and other neurodegenerative diseases.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Could quitting ultra-processed food boost your mental health?",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260930225448.htm",
-          "published": "Thu, 01 Oct 2026 02:34:01 EDT",
-          "summary": "People with depression who dramatically cut ultra-processed foods experienced notable improvements in their symptoms in a small preliminary study. Researchers suspect healthier eating may benefit the brain partly by reducing gut damage and chronic inflammation.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "This giant stick insect fooled scientists for decades",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260930020315.htm",
-          "published": "Thu, 01 Oct 2026 09:59:22 EDT",
-          "summary": "Scientists have identified two new species of large Australian stick insects, including one that lays extraordinary “lidded” eggs never before recorded in the group. The discovery also revealed that a familiar stick insect had been misidentified for decades, showing how much biodiversity may still be hiding in plain sight.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm",
-          "published": "Wed, 30 Sep 2026 04:36:42 EDT",
-          "summary": "NASA’s SpaceX Crew-13 mission is scheduled to launch four astronauts to the International Space Station on October 1. The Dragon could reach the orbiting laboratory in just 7 hours and 50 minutes, making it the fastest U.S. spacecraft journey to the ISS in history.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
-          "published": "Thu, 01 Oct 2026 09:17:13 EDT",
-          "summary": "A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times by shielding quantum information from common forms of electromagnetic noise. If experiments confirm the predictions, the technology could eventually work alongside today’s superconducting qubits or serve as a new kind of quantum memory.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "New “plant armor” more than triples strawberry yields",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260930020257.htm",
-          "published": "Thu, 01 Oct 2026 09:43:15 EDT",
-          "summary": "A new protective fabric boosted strawberry yields by as much as 3.56 times while blocking insects and still allowing sunlight, rain, and airflow to reach the plants. Originally inspired by research on military clothing, Plant Armor could also help farms reduce pesticide and water use.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Cannabis users were twice as likely to commit violence, review finds",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260930020255.htm",
-          "published": "Wed, 30 Sep 2026 08:49:01 EDT",
-          "summary": "A review of more than 265,000 people found that cannabis use was associated with higher rates of both committing violence and becoming a victim of it. The researchers say the link is significant but does not prove cannabis itself is the cause.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A record-breaking X-ray flash may reveal the birth of a magnetar",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260930020252.htm",
-          "published": "Wed, 30 Sep 2026 08:27:27 EDT",
-          "summary": "Astronomers have found strong evidence that some mysterious, minutes-long X-ray flashes are produced when two neutron stars collide and create a magnetar. One record-setting event glowed in X-rays for nearly 10 minutes, potentially opening a new way to find these extreme cosmic mergers.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Quantum teleportation breakthrough: Scientists crack a 25-year entanglement challenge",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260929053550.htm",
-          "published": "Tue, 29 Sep 2026 08:02:30 EDT",
-          "summary": "Scientists have developed and experimentally demonstrated a long-sought method for identifying W states, an important form of multi-photon quantum entanglement. The technique could make complex entangled systems much easier to measure, opening new possibilities for quantum teleportation, communication, and computing.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Sharks can hear nearly 250 feet away and pinpoint the source",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260929053536.htm",
-          "published": "Tue, 29 Sep 2026 23:58:33 EDT",
-          "summary": "Wild blacktip sharks can detect low-frequency sounds from nearly 250 feet away, according to experiments conducted off the Florida coast. The sharks not only heard the sounds but sharply changed direction away from them, suggesting they could pinpoint where they were coming from.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Bats may have first evolved in Europe 65 million years ago",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260929053531.htm",
-          "published": "Wed, 30 Sep 2026 01:12:36 EDT",
-          "summary": "A huge genomic and fossil study suggests bats first evolved in Europe around 65 to 60 million years ago before spreading across the globe. The findings also indicate that flight and echolocation emerged near the beginning of bat evolution, potentially helping explain how bats became one of the most successful mammal groups on Earth.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "This diet may slow brain aging by 2.5 years.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.011). Top story: This diet may slow brain aging by 2.5 years.",
+        "key_takeaway": "This protective enzyme could help stop fatty liver disease from getting worse.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.041). Top story: This protective enzyme could help stop fatty liver disease from getting worse.",
         "key_themes": [
-          "This diet may slow brain aging by 2.5 years",
-          "Alzheimer’s risk gene APOE4 may have a reversible weakness",
-          "Could quitting ultra-processed food boost your mental health?",
-          "This giant stick insect fooled scientists for decades",
-          "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever"
+          "This protective enzyme could help stop fatty liver disease from getting worse",
+          "ESA’s Juice just used Earth as a slingshot to Jupiter",
+          "NASA’s Roman telescope just opened its planet-hunting eye",
+          "Chang’e-6 lunar soil contains a surprising magnetic time capsule",
+          "Powerful simulations reveal how the first stars changed the universe"
         ],
         "notable_headlines": [
           {
+            "headline": "This protective enzyme could help stop fatty liver disease from getting worse",
+            "why_it_matters": "Scientists have identified an enzyme that may act as a natural defense against the worsening of fatty liver disease, which affects an estimated 100 million Americans. The enzyme, called UBE2N, helps liver cells clear awa…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "ESA’s Juice just used Earth as a slingshot to Jupiter",
+            "why_it_matters": "ESA’s Juice spacecraft raced past Earth on September 28, using our planet’s gravity to dramatically reshape its path toward Jupiter without burning much fuel. The flyby changed its direction by 20 degrees and increased i…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "NASA’s Roman telescope just opened its planet-hunting eye",
+            "why_it_matters": "NASA’s Roman Space Telescope has demonstrated remarkable pointing stability and given its powerful planet-imaging coronagraph its first look at the cosmos. The telescope can already stay locked on a target with precision…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Chang’e-6 lunar soil contains a surprising magnetic time capsule",
+            "why_it_matters": "Scientists studying Chang’e-6 lunar soil have discovered a previously unknown magnetic mineral in natural Moon samples: a form of metallic iron called γ-Fe. Found inside tiny impact-glass particles, the nanoscale iron ca…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Powerful simulations reveal how the first stars changed the universe",
+            "why_it_matters": "Ultra-detailed simulations are showing how the first stars lit up the dark Universe and seeded space with elements such as carbon, oxygen, and iron. The MEGATRON project could bridge JWST observations of the earliest gal…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Scientists find an “earthquake gate” as California fault stress hits a 1,000-year high",
+            "why_it_matters": "Researchers say stress on Southern California’s San Andreas and San Jacinto faults has reached some of the highest levels seen in a 1,000-year simulation. Because both faults are highly stressed at the same time, the Caj…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Leucine does more than build muscle. It powers up your cells",
+            "why_it_matters": "The essential amino acid leucine can boost cellular energy production by protecting key proteins on mitochondria from being destroyed. The discovery reveals a new connection between nutrition and metabolism that could ev…",
+            "signal": "Unclear"
+          },
+          {
             "headline": "This diet may slow brain aging by 2.5 years",
             "why_it_matters": "People who followed the MIND diet more closely showed slower brain shrinkage and less grey matter loss over time, with the strongest differences equivalent to about 2.5 years of delayed brain aging. Berries and poultry w…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Alzheimer’s risk gene APOE4 may have a reversible weakness",
-            "why_it_matters": "The Alzheimer’s risk gene APOE4 may actively damage brain blood vessels and sabotage the cellular systems that remove harmful proteins. Researchers were able to reverse some of these effects in experiments, revealing pro…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Could quitting ultra-processed food boost your mental health?",
-            "why_it_matters": "People with depression who dramatically cut ultra-processed foods experienced notable improvements in their symptoms in a small preliminary study. Researchers suspect healthier eating may benefit the brain partly by redu…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "This giant stick insect fooled scientists for decades",
-            "why_it_matters": "Scientists have identified two new species of large Australian stick insects, including one that lays extraordinary “lidded” eggs never before recorded in the group. The discovery also revealed that a familiar stick inse…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
-            "why_it_matters": "NASA’s SpaceX Crew-13 mission is scheduled to launch four astronauts to the International Space Station on October 1. The Dragon could reach the orbiting laboratory in just 7 hours and 50 minutes, making it the fastest U…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough",
-            "why_it_matters": "A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times by shielding quantum information from common forms of electromagnetic noise. If experiments confirm the predictions…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "New “plant armor” more than triples strawberry yields",
-            "why_it_matters": "A new protective fabric boosted strawberry yields by as much as 3.56 times while blocking insects and still allowing sunlight, rain, and airflow to reach the plants. Originally inspired by research on military clothing, …",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Cannabis users were twice as likely to commit violence, review finds",
-            "why_it_matters": "A review of more than 265,000 people found that cannabis use was associated with higher rates of both committing violence and becoming a victim of it. The researchers say the link is significant but does not prove cannab…",
             "signal": "Unclear"
           }
         ],
@@ -883,10 +884,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "This diet may slow brain aging by 2.5 years",
-            "Alzheimer’s risk gene APOE4 may have a reversible weakness",
-            "Could quitting ultra-processed food boost your mental health?",
-            "This giant stick insect fooled scientists for decades"
+            "This protective enzyme could help stop fatty liver disease from getting worse",
+            "ESA’s Juice just used Earth as a slingshot to Jupiter",
+            "NASA’s Roman telescope just opened its planet-hunting eye",
+            "Chang’e-6 lunar soil contains a surprising magnetic time capsule"
           ],
           "confidence": "Medium"
         },
@@ -901,7 +902,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: This diet may slow brain aging by 2.5 years\n\nScience Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Aging #Alzheimers #Apoe4 #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: This protective enzyme could help stop fatty liver disease from getting worse\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#1000year #Aging #Brain #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
