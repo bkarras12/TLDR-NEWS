@@ -1,10 +1,11 @@
 {
   "date": "2026-10-02",
-  "generated_at_utc": "2026-10-02T18:50:55Z",
+  "generated_at_utc": "2026-10-03T01:52:26Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "warns"
+    "warns",
+    "sources"
   ],
   "categories": {
     "world": {
@@ -16,37 +17,37 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2519,
+        "score": -0.4018,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.420, dampened ×0.6 → -0.2519). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.670, dampened ×0.6 → -0.4018). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 20:25:19 GMT",
+          "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+          "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 20:32:07 GMT",
+          "summary": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 23:53:35 GMT",
+          "summary": "A lawyer for Jane Doe says she is \"not doing well\" amid attempts to uncover her identity.",
+          "source": "BBC News"
+        },
+        {
           "title": "Riot police clash with students as education protests rage in France",
           "url": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 17:43:10 GMT",
-          "summary": "More than 600 schools have faced disruption as protests over standards and lack of teachers continue.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 17:44:08 GMT",
-          "summary": "The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024.",
-          "source": "BBC News"
-        },
-        {
-          "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-          "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 09:08:06 GMT",
-          "summary": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
-          "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 15:26:37 GMT",
-          "summary": "Vitaliy Klitschko says Ukraine's capital is in a \"very dramatic situation\" as Russia hits critical infrastructure.",
+          "published": "Fri, 02 Oct 2026 21:13:27 GMT",
+          "summary": "About 735 schools have faced disruption as violent protests over standards and lack of teachers continue.",
           "source": "BBC News"
         },
         {
@@ -57,10 +58,38 @@
           "source": "BBC News"
         },
         {
-          "title": "I've seen nearly 500 executions - but never one like Christa Pike's",
-          "url": "https://www.bbc.co.uk/news/articles/c6d949gq47x9o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 14:01:09 GMT",
-          "summary": "Texas reporter Michael Graczyk has seen botched executions in his time, but not one in which an inmate survived.",
+          "title": "US road rage killer's sentence quashed because AI video of victim was shown in court",
+          "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 23:06:00 GMT",
+          "summary": "The Arizona appeals court ruled that airing an AI message from the dead victim \"crossed that line\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Women given shorts at Oktoberfest to prevent upskirting",
+          "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 23:16:03 GMT",
+          "summary": "The step at the Munich festival comes after thousands of voyeuristic videos emerged on social media.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 15:26:37 GMT",
+          "summary": "Vitaliy Klitschko says Ukraine's capital is in a \"very dramatic situation\" as Russia hits critical infrastructure.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+          "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 09:08:06 GMT",
+          "summary": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
+          "url": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 02 Oct 2026 21:00:41 GMT",
+          "summary": "The lava rock formation protruding from the rocky cliffs of Volcanoes National Park crumbled some time last weekend.",
           "source": "BBC News"
         },
         {
@@ -76,65 +105,37 @@
           "published": "Fri, 02 Oct 2026 05:53:51 GMT",
           "summary": "Shoko Kawata's maternity leave drew mixed reactions in Japan, a country struggling to lift birth rates.",
           "source": "BBC News"
-        },
-        {
-          "title": "OpenAI fires workers for 'mishandling sensitive information'",
-          "url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 08:20:32 GMT",
-          "summary": "The former employees were investigated for sharing data with an outside AI evaluation group.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-          "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 01 Oct 2026 19:59:24 GMT",
-          "summary": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
-          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 16:08:25 GMT",
-          "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Australia says platforms like Steam and Roblox have 'significant' child safety gaps",
-          "url": "https://www.bbc.co.uk/news/articles/cjvgygzzy6lro?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 02 Oct 2026 04:21:31 GMT",
-          "summary": "Fortnite and Minecraft also told to 'lift their game' by online safety regulator.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Riot police clash with students as education protests rage in France.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.252). Top story: Riot police clash with students as education protests rage in France.",
+        "key_takeaway": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.402). Top story: G7 to release 100 million barrels of oil and diesel after Trump export ban threat.",
         "key_themes": [
+          "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+          "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+          "Cornell frat house rape accuser 'under siege' online, says lawyer",
           "Riot police clash with students as education protests rage in France",
-          "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-          "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-          "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
           "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87"
         ],
         "notable_headlines": [
           {
+            "headline": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+            "why_it_matters": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+            "why_it_matters": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+            "why_it_matters": "A lawyer for Jane Doe says she is \"not doing well\" amid attempts to uncover her identity.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Riot police clash with students as education protests rage in France",
-            "why_it_matters": "More than 600 schools have faced disruption as protests over standards and lack of teachers continue.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-            "why_it_matters": "The woman, known as Jane Doe, alleges she was raped by seven students at a fraternity house at the university in 2024.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-            "why_it_matters": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
-            "why_it_matters": "Vitaliy Klitschko says Ukraine's capital is in a \"very dramatic situation\" as Russia hits critical infrastructure.",
+            "why_it_matters": "About 735 schools have faced disruption as violent protests over standards and lack of teachers continue.",
             "signal": "Risk"
           },
           {
@@ -143,18 +144,18 @@
             "signal": "Risk"
           },
           {
-            "headline": "I've seen nearly 500 executions - but never one like Christa Pike's",
-            "why_it_matters": "Texas reporter Michael Graczyk has seen botched executions in his time, but not one in which an inmate survived.",
+            "headline": "US road rage killer's sentence quashed because AI video of victim was shown in court",
+            "why_it_matters": "The Arizona appeals court ruled that airing an AI message from the dead victim \"crossed that line\".",
             "signal": "Risk"
           },
           {
-            "headline": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row",
-            "why_it_matters": "President Lee Jae Myung also accused Kyiv of \"attempting to provoke a war on the Korean Peninsula\".",
+            "headline": "Women given shorts at Oktoberfest to prevent upskirting",
+            "why_it_matters": "The step at the Munich festival comes after thousands of voyeuristic videos emerged on social media.",
             "signal": "Risk"
           },
           {
-            "headline": "Japan's first mayor to take maternity leave lands on TIME100 Next list",
-            "why_it_matters": "Shoko Kawata's maternity leave drew mixed reactions in Japan, a country struggling to lift birth rates.",
+            "headline": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
+            "why_it_matters": "Vitaliy Klitschko says Ukraine's capital is in a \"very dramatic situation\" as Russia hits critical infrastructure.",
             "signal": "Risk"
           }
         ],
@@ -179,11 +180,11 @@
         ],
         "related_topics": [
           "today's negative news headlines",
-          "latest news summary riot",
+          "latest news summary g7",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Riot police clash with students as education protests rage in France\n\nWorld Sentiment: Negative (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Mayor #Warns #Woman #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: G7 to release 100 million barrels of oil and diesel after Trump export ban threat\n\nWorld Sentiment: Negative (-0.40)\n\nRead the full breakdown: https://tldrnews.info\n\n#Rage #Accuser #Apart #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -194,9 +195,9 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0459,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.077, dampened ×0.6 → -0.0459). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0568,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.095, dampened ×0.6 → -0.0568). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -209,8 +210,8 @@
         {
           "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
           "url": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
-          "published": "Fri, 02 Oct 2026 15:57:13 GMT",
-          "summary": "<p>Leaders agree a coordinated drawdown within four months as rising prices put pressure on households and economies</p><p>Leaders of G7 nations are to release up to 100m barrels of their emergency diesel and crude oil stockpiles after coming under <a href=\"https://www.theguardian.com/business/2026/oct/01/britain-talks-european-allies-eu-emergency-diesel-stockpiles-reserves\">pressure from Donald Trump</a> to ease surging fuel prices.</p><p>The drawdown of reserves from some of the world’s larges",
+          "published": "Fri, 02 Oct 2026 18:52:03 GMT",
+          "summary": "<p>Leaders agree a coordinated drawdown after surge in prices and Donald Trump’s threat to cut off US supplies</p><p>Leaders of G7 nations are to release up to 100m barrels of their emergency diesel and crude oil stockpiles after <a href=\"https://www.theguardian.com/business/2026/oct/01/britain-talks-european-allies-eu-emergency-diesel-stockpiles-reserves\">Donald Trump</a> threatened to cut off supplies of US diesel.</p><p>The French President, Emmanuel Macron, said ministers from some of world’",
           "source": "The Guardian"
         },
         {
@@ -286,7 +287,7 @@
       ],
       "ai_report": {
         "key_takeaway": "US added just 29,000 jobs in September in sharp drop from last month’s gains.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.046). Top story: US added just 29,000 jobs in September in sharp drop from last month’s gains.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.057). Top story: US added just 29,000 jobs in September in sharp drop from last month’s gains.",
         "key_themes": [
           "US added just 29,000 jobs in September in sharp drop from last month’s gains",
           "G7 to release up to 100m barrels of emergency oil and diesel reserves",
@@ -302,7 +303,7 @@
           },
           {
             "headline": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
-            "why_it_matters": "<p>Leaders agree a coordinated drawdown within four months as rising prices put pressure on households and economies</p><p>Leaders of G7 nations are to release up to 100m barrels of their emergency diesel and crude oil s…",
+            "why_it_matters": "<p>Leaders agree a coordinated drawdown after surge in prices and Donald Trump’s threat to cut off US supplies</p><p>Leaders of G7 nations are to release up to 100m barrels of their emergency diesel and crude oil stockpi…",
             "signal": "Unclear"
           },
           {
@@ -361,12 +362,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
+          "today's mixed news headlines",
           "latest news summary us",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: US added just 29,000 jobs in September in sharp drop from last month’s gains\n\nBusiness Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#100m #24year #29000 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: US added just 29,000 jobs in September in sharp drop from last month’s gains\n\nBusiness Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#100m #24year #29000 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -377,11 +378,39 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1676,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.279, dampened ×0.6 → +0.1676). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.2585,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.431, dampened ×0.6 → +0.2585). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Meta open sources code to let you make Muse AI gadgets",
+          "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+          "published": "2026-10-02T17:08:37-04:00",
+          "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Netflix is pivoting away from prestige",
+          "url": "https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig",
+          "published": "2026-10-02T16:30:26-04:00",
+          "summary": "Many of Netflix's biggest critically acclaimed hits have been the products of its multiyear production deals with noted directors like David Fincher and Shawn Levy. In the past few weeks, though, the streamer has brought some of those partnerships to an end in a way that feels indicative of a larger strategic shift. With rival [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "published": "2026-10-02T16:08:40-04:00",
+          "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Sling TV drops its one-day cable passes",
+          "url": "https://www.theverge.com/streaming/1004300/sling-tv-pass-cable-drops",
+          "published": "2026-10-02T16:00:20-04:00",
+          "summary": "Dish-owned Sling TV will no longer be offering its Sling Pass feature that allowed people to buy a single day of cable TV programming at a time, as reported by The Desk. The feature was announced last year and offered a day pass, a weekend pass, and a week-long pass option to be able to [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
@@ -423,47 +452,39 @@
           "published": "2026-10-02T11:47:05-04:00",
           "summary": "OpenAI's answer to Muse arrived this week, and it looks a whole lot like Muse dressed up in a suit and tie. Dots is a business-first product - for now, at least - costing a minimum of $100 per month. And sure, you can make a cute little Dot character, just like you can make [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Tesla will now let you drive off mid-charge if there’s an emergency",
-          "url": "https://www.theverge.com/transportation/1003967/tesla-charging-breakaway-emergency-shooting",
-          "published": "2026-10-02T10:34:14-04:00",
-          "summary": "Tesla introduced a new feature to enable drivers to escape quickly while charging their vehicles in response to a mass shooting at a Supercharger location in Idaho in August that left seven people wounded and four dead. When a Tesla vehicle is charging, the plug is locked to the charging port and driving is disabled. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Keurig’s new machine uses plastic-free compressed coffee pucks",
-          "url": "https://www.theverge.com/tech/1003956/keurig-alta-coffee-machine-altarounds-pucks-appliance-preorder",
-          "published": "2026-10-02T10:29:05-04:00",
-          "summary": "Keurig's new single-serve coffee machine delivers the same convenience that helped popularize its appliances but without the use of recyclable pods made from plastic and aluminum. The company first showed off its Keurig Alta machine two years ago while introducing the puck-shaped pod replacements called AltaRounds that wrap pressed coffee grounds in a plant-based coating [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Paramount’s Warner Bros. megamerger will just be called Skydance",
-          "url": "https://www.theverge.com/entertainment/1004016/paramount-warner-bros-skydance-megamerger-name",
-          "published": "2026-10-02T09:42:36-04:00",
-          "summary": "Paramount Skydance CEO David Ellison has announced that the company will just be called Skydance when it completes its $110 billion merger with Warner Bros. Discovery next week. In a post on X, Ellison writes that \"we wanted a name that would give the combined company an identity of its own while allowing Paramount and [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Tesla’s recovery hits a speed bump",
-          "url": "https://www.theverge.com/transportation/1003601/teslas-recovery-hits-a-speed-bump",
-          "published": "2026-10-02T09:08:16-04:00",
-          "summary": "Tesla sold fewer vehicles in the third quarter than it did a year ago, when consumers rushed to cash in on expiring federal tax credits for electric vehicle purchases. But the company still beat estimates from Wall Street, suggesting that it's recovery was still on track. Tesla said that it produced a total of 464,391 [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "OpenAI’s Dot agent is enterprise software that can also order your dinner.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.168). Top story: OpenAI’s Dot agent is enterprise software that can also order your dinner.",
+        "key_takeaway": "Meta open sources code to let you make Muse AI gadgets.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.259). Top story: Meta open sources code to let you make Muse AI gadgets.",
         "key_themes": [
-          "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-          "Breaking up (with Elon Musk) is hard to do",
-          "Rivian’s sales pop as the company’s big R2 bet starts to pay off",
-          "Beehiiv creators are buzzing about a new price increase",
-          "Nacon’s new PS5 controller can mix audio from your phone and console"
+          "Meta open sources code to let you make Muse AI gadgets",
+          "Netflix is pivoting away from prestige",
+          "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+          "Sling TV drops its one-day cable passes",
+          "OpenAI’s Dot agent is enterprise software that can also order your dinner"
         ],
         "notable_headlines": [
+          {
+            "headline": "Meta open sources code to let you make Muse AI gadgets",
+            "why_it_matters": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, ad…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Netflix is pivoting away from prestige",
+            "why_it_matters": "Many of Netflix's biggest critically acclaimed hits have been the products of its multiyear production deals with noted directors like David Fincher and Shawn Levy. In the past few weeks, though, the streamer has brought…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+            "why_it_matters": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users w…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Sling TV drops its one-day cable passes",
+            "why_it_matters": "Dish-owned Sling TV will no longer be offering its Sling Pass feature that allowed people to buy a single day of cable TV programming at a time, as reported by The Desk. The feature was announced last year and offered a …",
+            "signal": "Opportunity"
+          },
           {
             "headline": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
             "why_it_matters": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace softwa…",
@@ -483,26 +504,6 @@
             "headline": "Beehiiv creators are buzzing about a new price increase",
             "why_it_matters": "Beehiiv, a creator platform that has risen in popularity as an alternative to Substack, is increasing its prices - and many users aren't happy. In a post explaining the increase, Beehiiv cofounder and CEO Tyler Denk says…",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Nacon’s new PS5 controller can mix audio from your phone and console",
-            "why_it_matters": "Nacon announced what the company is claiming is the world's first officially licensed PlayStation 5 controller with a built-in screen for adjusting settings like joystick sensitivity or remapping buttons right on the gam…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Dots get up in Muse’s business",
-            "why_it_matters": "OpenAI's answer to Muse arrived this week, and it looks a whole lot like Muse dressed up in a suit and tie. Dots is a business-first product - for now, at least - costing a minimum of $100 per month. And sure, you can ma…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Tesla will now let you drive off mid-charge if there’s an emergency",
-            "why_it_matters": "Tesla introduced a new feature to enable drivers to escape quickly while charging their vehicles in response to a mass shooting at a Supercharger location in Idaho in August that left seven people wounded and four dead. …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Keurig’s new machine uses plastic-free compressed coffee pucks",
-            "why_it_matters": "Keurig's new single-serve coffee machine delivers the same convenience that helped popularize its appliances but without the use of recyclable pods made from plastic and aluminum. The company first showed off its Keurig …",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -517,10 +518,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-            "Breaking up (with Elon Musk) is hard to do",
-            "Rivian’s sales pop as the company’s big R2 bet starts to pay off",
-            "Beehiiv creators are buzzing about a new price increase"
+            "Meta open sources code to let you make Muse AI gadgets",
+            "Netflix is pivoting away from prestige",
+            "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+            "Sling TV drops its one-day cable passes"
           ],
           "confidence": "Medium"
         },
@@ -530,12 +531,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary openai’s",
+          "today's positive news headlines",
+          "latest news summary meta",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: OpenAI’s Dot agent is enterprise software that can also order your dinner\n\nTechnology Sentiment: Mixed (+0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #Agent #Audio #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Meta open sources code to let you make Muse AI gadgets\n\nTechnology Sentiment: Positive (+0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Increase #Access #Agent #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
