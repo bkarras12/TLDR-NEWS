@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "generated_at_utc": "2026-10-04T17:56:23Z",
+  "generated_at_utc": "2026-10-05T01:48:30Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -10,10 +10,10 @@
     "surprise",
     "stars",
     "spain",
-    "sexual",
+    "season",
     "months",
     "loss",
-    "harassment"
+    "getting"
   ],
   "categories": {
     "world": {
@@ -25,9 +25,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2743,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.457, dampened ×0.6 → -0.2743). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2086,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.348, dampened ×0.6 → -0.2086). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -52,6 +52,13 @@
           "source": "BBC News"
         },
         {
+          "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
+          "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 05 Oct 2026 00:27:06 GMT",
+          "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
+          "source": "BBC News"
+        },
+        {
           "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
           "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 04 Oct 2026 13:33:05 GMT",
@@ -66,17 +73,17 @@
           "source": "BBC News"
         },
         {
+          "title": "Indian police accused of sexually harassing journalists at protest",
+          "url": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 04 Oct 2026 17:01:19 GMT",
+          "summary": "The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.",
+          "source": "BBC News"
+        },
+        {
           "title": "US Marine arrested over murder of woman in Okinawa, Japan",
           "url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 04 Oct 2026 14:36:57 GMT",
           "summary": "Japan's government lodged a formal protest with the US, demanding that military officials take action.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Indian police accused of sexual harassment against journalists at protest",
-          "url": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 04 Oct 2026 17:01:19 GMT",
-          "summary": "The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.",
           "source": "BBC News"
         },
         {
@@ -87,9 +94,9 @@
           "source": "BBC News"
         },
         {
-          "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+          "title": "What to know about Brazil's election as Lula and Flávio Bolsonaro face off",
           "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 04 Oct 2026 11:03:20 GMT",
+          "published": "Sun, 04 Oct 2026 20:14:49 GMT",
           "summary": "Polls suggest the election will be a closely run contest between the left-wing incumbent and his right-wing rival.",
           "source": "BBC News"
         },
@@ -101,29 +108,22 @@
           "source": "BBC News"
         },
         {
-          "title": "Debris found from plane that went missing off US coast",
+          "title": "Rescuers suspend search for survivors after plane went missing off US coast",
           "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 04 Oct 2026 03:49:06 GMT",
+          "published": "Sun, 04 Oct 2026 23:29:18 GMT",
           "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Cornell president says university 'must do better' after frat house rape allegations",
-          "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 04 Oct 2026 00:11:25 GMT",
-          "summary": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\".",
           "source": "BBC News"
         }
       ],
       "ai_report": {
         "key_takeaway": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.274). Top story: Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.209). Top story: Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit.",
         "key_themes": [
           "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
           "Watch: What we know about Russian strikes on Kyiv bridges",
           "Yemen's government announces all-out war to reclaim land from Houthis",
-          "Ethiopian rebel forces withdraw from Tigray regional capital",
-          "Christa Pike's prognosis still unclear after failed execution, lawyer says"
+          "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
+          "Ethiopian rebel forces withdraw from Tigray regional capital"
         ],
         "notable_headlines": [
           {
@@ -142,6 +142,11 @@
             "signal": "Risk"
           },
           {
+            "headline": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
+            "why_it_matters": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Ethiopian rebel forces withdraw from Tigray regional capital",
             "why_it_matters": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.",
             "signal": "Risk"
@@ -152,18 +157,13 @@
             "signal": "Risk"
           },
           {
-            "headline": "US Marine arrested over murder of woman in Okinawa, Japan",
-            "why_it_matters": "Japan's government lodged a formal protest with the US, demanding that military officials take action.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Indian police accused of sexual harassment against journalists at protest",
+            "headline": "Indian police accused of sexually harassing journalists at protest",
             "why_it_matters": "The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.",
             "signal": "Risk"
           },
           {
-            "headline": "Australia investigating Flydubai co-pilot's links to country",
-            "why_it_matters": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
+            "headline": "US Marine arrested over murder of woman in Okinawa, Japan",
+            "why_it_matters": "Japan's government lodged a formal protest with the US, demanding that military officials take action.",
             "signal": "Risk"
           }
         ],
@@ -182,7 +182,7 @@
             "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
             "Watch: What we know about Russian strikes on Kyiv bridges",
             "Yemen's government announces all-out war to reclaim land from Houthis",
-            "Ethiopian rebel forces withdraw from Tigray regional capital"
+            "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round"
           ],
           "confidence": "Medium"
         },
@@ -192,12 +192,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's negative news headlines",
+          "today's mixed news headlines",
           "latest news summary kyiv",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit\n\nWorld Sentiment: Negative (-0.27)\n\nRead the full breakdown: https://tldrnews.info\n\n#Kyiv #Russian #Accused #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Kyiv #Russian #Accused #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -391,11 +391,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0715,
+        "score": 0.1446,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.119, dampened ×0.6 → +0.0715). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.241, dampened ×0.6 → +0.1446). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "The new Fitbit Edge leaks",
+          "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
+          "published": "2026-10-04T17:02:09-04:00",
+          "summary": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Prick’s theatrical industrial punk is perfect for spooky season",
+          "url": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review",
+          "published": "2026-10-04T16:00:00-04:00",
+          "summary": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "The best early October Prime Day deals happening now",
           "url": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
@@ -404,7 +418,7 @@
           "source": "The Verge"
         },
         {
-          "title": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+          "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
           "published": "2026-10-04T12:16:04-04:00",
           "summary": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ [&#8230;]",
@@ -451,72 +465,58 @@
           "published": "2026-10-04T08:00:00-04:00",
           "summary": "Google didn't even call the first Chromebook a \"Chromebook.\" The Cr-48 had no interesting design and no bright logos - it wasn't even designed to be a product you could buy. Instead, it was a portal to a big new idea about computers. In this week's episode of Version History, The Verge's Nilay Patel and [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "The rise, fall, and rise of portable MP3 players",
-          "url": "https://www.theverge.com/column/1003566/history-apple-ipod-mp3-music-player",
-          "published": "2026-10-04T08:00:00-04:00",
-          "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the collapse and the resurgence of the portable media player, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started We are [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Amazon’s colorful and sturdy new Kindles",
-          "url": "https://www.theverge.com/tech/1004199/amazon-kindle-openai-dots-witcher-3-remastered-bose-wired-headphones",
-          "published": "2026-10-04T08:00:00-04:00",
-          "summary": "Hi, friends! Welcome to Installer No. 146, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, it's October already?, and also you can read all the old editions at the Installer homepage.) This week, I'm wishing I could do Walmart potato drone delivery in Portland, watching Mike Tomlin [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "The best early October Prime Day deals happening now.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.071). Top story: The best early October Prime Day deals happening now.",
+        "key_takeaway": "The new Fitbit Edge leaks.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.145). Top story: The new Fitbit Edge leaks.",
         "key_themes": [
+          "The new Fitbit Edge leaks",
+          "Prick’s theatrical industrial punk is perfect for spooky season",
           "The best early October Prime Day deals happening now",
-          "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
-          "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-          "This toolless modular lever-action wallet is the coolest I’ve stuck to my phone",
-          "The AirPods Pro 3 are a fantastic deal at $179"
+          "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+          "An AI couldn’t beat humans at StarCraft, so it decided to cheat"
         ],
         "notable_headlines": [
           {
-            "headline": "The best early October Prime Day deals happening now",
-            "why_it_matters": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th…",
-            "signal": "Unclear"
+            "headline": "The new Fitbit Edge leaks",
+            "why_it_matters": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Goog…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+            "headline": "Prick’s theatrical industrial punk is perfect for spooky season",
+            "why_it_matters": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The best early October Prime Day deals happening now",
+            "why_it_matters": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
             "why_it_matters": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has …",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
             "why_it_matters": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they could…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "This toolless modular lever-action wallet is the coolest I’ve stuck to my phone",
             "why_it_matters": "This toolless modular lever-action wallet is the coolest I've stuck to my phone. Remember when I tested the ultra-thin and convenient OhSnap Snap Grip Stand and liked it so much I bought my own? Now, OhSnap has a magneti…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "The AirPods Pro 3 are a fantastic deal at $179",
             "why_it_matters": "It’s been a while since we’ve seen a good discount on the Apple AirPods Pro 3, but like the latest iPad Mini and the M5 MacBook Airs, a great one is happening now for October Prime Day. You can snag a pair of the noise-c…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "The MacBook Air M5 is $200 off for the first time in months",
             "why_it_matters": "Amazon’s October Prime Day has effectively chopped off Apple’s June price increases. Usually $1,299, the 13-inch MacBook Air with the M5 chip and 512GB of storage is on sale for $1,099 at Amazon. That’s a more palatable …",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "The iPad Mini is slightly cheaper again during Prime Day",
-            "why_it_matters": "Apple bumped up prices on several of its devices in June, and we haven’t seen a good discount on the iPad Mini since. Just ahead of Amazon’s October Prime Big Deals Days, however, both Wi-Fi only and cellular-connected m…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "The forgotten Chromebook that started it all",
-            "why_it_matters": "Google didn't even call the first Chromebook a \"Chromebook.\" The Cr-48 had no interesting design and no bright logos - it wasn't even designed to be a product you could buy. Instead, it was a portal to a big new idea abo…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -531,10 +531,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "The new Fitbit Edge leaks",
+            "Prick’s theatrical industrial punk is perfect for spooky season",
             "The best early October Prime Day deals happening now",
-            "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
-            "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-            "This toolless modular lever-action wallet is the coolest I’ve stuck to my phone"
+            "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment"
           ],
           "confidence": "Medium"
         },
@@ -549,7 +549,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: The best early October Prime Day deals happening now\n\nTechnology Sentiment: Mixed (+0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Prime #Again #Airpods #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: The new Fitbit Edge leaks\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Airpods #Beat #Best #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
