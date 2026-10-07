@@ -1,12 +1,12 @@
 {
   "date": "2026-10-07",
-  "generated_at_utc": "2026-10-07T09:35:27Z",
+  "generated_at_utc": "2026-10-07T19:40:09Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
+    "block",
     "trump",
-    "october",
-    "apple"
+    "alleged"
   ],
   "categories": {
     "world": {
@@ -18,30 +18,79 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1674,
+        "score": -0.191,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.279, dampened ×0.6 → -0.1674). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.318, dampened ×0.6 → -0.1910). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-          "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 07 Oct 2026 07:07:22 GMT",
-          "summary": "Experts and lawyers called the apparent recovery unprecedented, noting she is believed to be the only known person to survive a lethal injection.",
+          "title": "France halts use of stun grenades after boy's hand blown off in student protests",
+          "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 17:47:31 GMT",
+          "summary": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
           "source": "BBC News"
         },
         {
-          "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
-          "url": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 07 Oct 2026 05:02:18 GMT",
-          "summary": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there.",
+          "title": "Israelis demand accountability over 7 October failures three years after attacks",
+          "url": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 16:00:18 GMT",
+          "summary": "Prime Minister Benjamin Netanyahu has refused to take any personal responsibility for what happened or order a state inquiry.",
           "source": "BBC News"
         },
         {
-          "title": "India's opposition leader dragged onto bus as police break up protest",
-          "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 07 Oct 2026 07:45:47 GMT",
-          "summary": "Opposition leaders allege that CEC Gyanesh Kumar manipulated voter rolls to favour PM Narendra Modi's party.",
+          "title": "Canada suspends plans to expand assisted dying to people with mental illness",
+          "url": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 19:30:51 GMT",
+          "summary": "People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump to speak to Putin about plague lab worker's death in Russia",
+          "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 18:27:40 GMT",
+          "summary": "Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
+          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 18:12:58 GMT",
+          "summary": "Five children are among the victims of a strike that destroyed 30 flats in northern Ukraine as families slept.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations",
+          "url": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 09:49:31 GMT",
+          "summary": "The 73-year-old has been arrested over allegations that a charity she is linked to misused donations.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 11:51:52 GMT",
+          "summary": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Ten people linked to Kenya's first-ever Ebola case quarantined as screening concerns grow",
+          "url": "https://www.bbc.co.uk/news/articles/c6eq3x3v11d5o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 12:46:39 GMT",
+          "summary": "The patient passed through multiple cities in DR Congo, drove to Uganda and eventually flew to Kenya.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Japan beer giants raided over alleged price-fixing cartel",
+          "url": "https://www.bbc.co.uk/news/articles/cm5yn3592xk9o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 12:09:59 GMT",
+          "summary": "Asahi, Kirin and Suntory confirmed their premises were searched by Japanese competition authorities.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Oscar-winning actress Eva Marie Saint dies aged 102",
+          "url": "https://www.bbc.co.uk/news/articles/cqze43ky1xgdo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 07:37:16 GMT",
+          "summary": "She starred opposite Marlon Brando in On the Waterfront, then alongside Cary Grant in Hitchcock's North by Northwest.",
           "source": "BBC News"
         },
         {
@@ -52,127 +101,83 @@
           "source": "BBC News"
         },
         {
-          "title": "Ex-US spy who stashed gold bars in his home admits to $200m scam",
-          "url": "https://www.bbc.co.uk/news/articles/cr3wvq965dngo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 06 Oct 2026 19:53:45 GMT",
-          "summary": "David Rush, who also confessed to providing secrets to a foreign government, had revealed the existence of a \"clandestine human source\", prosecutors said.",
-          "source": "BBC News"
-        },
-        {
-          "title": "A beautiful Himalayan bird is changing its voice due to human activity, research shows",
-          "url": "https://www.bbc.co.uk/news/articles/cq9868z88rexo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 06 Oct 2026 23:07:44 GMT",
-          "summary": "A sharp increase in human activity is affecting the way the Himalayan monal lives and communicates, studies show.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Former Australian bishop jailed for sexually abusing young men",
-          "url": "https://www.bbc.co.uk/news/articles/cj62ylxqz173o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 07 Oct 2026 04:22:07 GMT",
-          "summary": "The former Bishop of Broome is one of the most senior Catholic clerics in the world to face sex abuse charges.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Tear gas in Paris and Marseille as school protests grow across France",
-          "url": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 06 Oct 2026 18:03:19 GMT",
-          "summary": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Pornhub returns to Australia but only for adults with Apple devices",
-          "url": "https://www.bbc.co.uk/news/articles/cwvgdlzvl9ego?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 07 Oct 2026 04:39:59 GMT",
-          "summary": "The world's most popular porn site went dark in March in Australia due to age verification laws.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Former German spy chief arrested for espionage and treason",
-          "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 06 Oct 2026 10:05:42 GMT",
-          "summary": "August Hanning is accused of obtaining classified information for a foreign power.",
-          "source": "BBC News"
-        },
-        {
-          "title": "'Ghost particles' from space telescope wins physics Nobel",
-          "url": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 06 Oct 2026 11:24:19 GMT",
-          "summary": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
-          "source": "BBC News"
-        },
-        {
-          "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
-          "url": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 06 Oct 2026 20:15:31 GMT",
-          "summary": "Gavin Newsom called the remarks \"deranged\", but the White House said Trump was warning of the risk of a nuclear Iran.",
+          "title": "California pair charged with abusing at least 14 surrogate-born children",
+          "url": "https://www.bbc.co.uk/news/articles/crx23dvnp8vxo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 07 Oct 2026 09:38:00 GMT",
+          "summary": "Guojun Xuan and Silvia Zhang were arrested at their Arcadia mansion after 21 children were removed from their custody last year.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.167). Top story: US death row inmate Christa Pike awake and speaking after failed execution, lawyers say.",
+        "key_takeaway": "France halts use of stun grenades after boy's hand blown off in student protests.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.191). Top story: France halts use of stun grenades after boy's hand blown off in student protests.",
         "key_themes": [
-          "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-          "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
-          "India's opposition leader dragged onto bus as police break up protest",
-          "What is pneumonic plague and how does it spread?",
-          "Ex-US spy who stashed gold bars in his home admits to $200m scam"
+          "France halts use of stun grenades after boy's hand blown off in student protests",
+          "Israelis demand accountability over 7 October failures three years after attacks",
+          "Canada suspends plans to expand assisted dying to people with mental illness",
+          "Trump to speak to Putin about plague lab worker's death in Russia",
+          "Children killed while they slept as Russian missile kills 19 in block of flats"
         ],
         "notable_headlines": [
           {
-            "headline": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-            "why_it_matters": "Experts and lawyers called the apparent recovery unprecedented, noting she is believed to be the only known person to survive a lethal injection.",
+            "headline": "France halts use of stun grenades after boy's hand blown off in student protests",
+            "why_it_matters": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
             "signal": "Risk"
           },
           {
-            "headline": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
-            "why_it_matters": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there.",
+            "headline": "Israelis demand accountability over 7 October failures three years after attacks",
+            "why_it_matters": "Prime Minister Benjamin Netanyahu has refused to take any personal responsibility for what happened or order a state inquiry.",
             "signal": "Risk"
           },
           {
-            "headline": "India's opposition leader dragged onto bus as police break up protest",
-            "why_it_matters": "Opposition leaders allege that CEC Gyanesh Kumar manipulated voter rolls to favour PM Narendra Modi's party.",
+            "headline": "Canada suspends plans to expand assisted dying to people with mental illness",
+            "why_it_matters": "People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely.",
             "signal": "Risk"
           },
           {
-            "headline": "What is pneumonic plague and how does it spread?",
-            "why_it_matters": "The death of a worker from a Russian lab that researches plague has prompted questions about the disease.",
+            "headline": "Trump to speak to Putin about plague lab worker's death in Russia",
+            "why_it_matters": "Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia.",
             "signal": "Risk"
           },
           {
-            "headline": "Ex-US spy who stashed gold bars in his home admits to $200m scam",
-            "why_it_matters": "David Rush, who also confessed to providing secrets to a foreign government, had revealed the existence of a \"clandestine human source\", prosecutors said.",
+            "headline": "Children killed while they slept as Russian missile kills 19 in block of flats",
+            "why_it_matters": "Five children are among the victims of a strike that destroyed 30 flats in northern Ukraine as families slept.",
             "signal": "Risk"
           },
           {
-            "headline": "A beautiful Himalayan bird is changing its voice due to human activity, research shows",
-            "why_it_matters": "A sharp increase in human activity is affecting the way the Himalayan monal lives and communicates, studies show.",
+            "headline": "Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations",
+            "why_it_matters": "The 73-year-old has been arrested over allegations that a charity she is linked to misused donations.",
             "signal": "Risk"
           },
           {
-            "headline": "Former Australian bishop jailed for sexually abusing young men",
-            "why_it_matters": "The former Bishop of Broome is one of the most senior Catholic clerics in the world to face sex abuse charges.",
+            "headline": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
+            "why_it_matters": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry.",
             "signal": "Risk"
           },
           {
-            "headline": "Tear gas in Paris and Marseille as school protests grow across France",
-            "why_it_matters": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.",
+            "headline": "Ten people linked to Kenya's first-ever Ebola case quarantined as screening concerns grow",
+            "why_it_matters": "The patient passed through multiple cities in DR Congo, drove to Uganda and eventually flew to Kenya.",
             "signal": "Risk"
           }
         ],
         "future_outlook": {
           "next_24_72_hours": [
-            "Outlook generation failed; review current headlines."
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
           ],
           "next_1_4_weeks": [
-            "Outlook generation failed; review current headlines."
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Model output reliability",
-            "Major developing stories",
-            "Source updates"
+            "France halts use of stun grenades after boy's hand blown off in student protests",
+            "Israelis demand accountability over 7 October failures three years after attacks",
+            "Canada suspends plans to expand assisted dying to people with mental illness",
+            "Trump to speak to Putin about plague lab worker's death in Russia"
           ],
-          "confidence": "Low"
+          "confidence": "Medium"
         },
         "caveats": [
           "This fallback report is generated from RSS headlines and summaries only.",
@@ -181,11 +186,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary us",
+          "latest news summary france",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: US death row inmate Christa Pike awake and speaking after failed execution, lawyers say\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#200m #Abusing #Across #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: France halts use of stun grenades after boy's hand blown off in student protests\n\nWorld Sentiment: Mixed (-0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Accountability #Alleged #Arrested #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -196,11 +201,25 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0146,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.024, dampened ×0.6 → -0.0146). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.1063,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.177, dampened ×0.6 → -0.1063). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Skepticism mires Trump’s Iowa steel plant project: ‘Promises are not the same as jobs’",
+          "url": "https://www.theguardian.com/business/2026/oct/07/trump-steel-plant-iowa-skepticism",
+          "published": "Wed, 07 Oct 2026 10:00:40 GMT",
+          "summary": "<p>The project has sparked doubts over whether the plant will be built and delivered as promised, given Trump’s record</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has long sought to portray himself as a man of steel, from the White House <a href=\"https://x.com/WhiteHouse/status/1943493150644777199\">photoshopping </a>Trump to look like Superman, to enacting tariffs on steel and approving the sale of US Steel to Japan’s Nippon Steel with a <a href=\"https://www.",
+          "source": "The Guardian"
+        },
+        {
+          "title": "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
+          "url": "https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit",
+          "published": "Wed, 07 Oct 2026 11:00:08 GMT",
+          "summary": "<p>Suit says AI tool allows independently owned franchises to exchange nonpublic price and sales information</p><p>McDonald’s is facing a lawsuit in federal court over its alleged use of an <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> tool to determine pricing across independent franchises, which prosecutors say violates antitrust laws and has unfairly inflated menu prices for Americans.</p><p>The vast majority of <a href=\"https://www.theguardian.com/business/",
+          "source": "The Guardian"
+        },
         {
           "title": "Disney accuses Trump officials of ‘blatant violations’ of constitution amid FCC battle",
           "url": "https://www.theguardian.com/media/2026/oct/06/disney-trump-abc-fcc",
@@ -251,17 +270,10 @@
           "source": "The Guardian"
         },
         {
-          "title": "MS Now connects ‘blue dots’ at Texas fan event: ‘I always feel hope when I watch them’",
-          "url": "https://www.theguardian.com/media/2026/oct/04/ms-now-fan-event-texas",
-          "published": "Sun, 04 Oct 2026 10:00:26 GMT",
-          "summary": "<p>Network at receiving end of White House press ban recently chose red state to host fan event as part of broader outreach</p><p>In 2024, Donald Trump and JD Vance carried Tarrant county, Texas, by 42,125 votes. So why, on the afternoon of 26 September, was the arena at the University of Texas-Arlington filled with nearly 5,000 super fans cheering for liberal media darlings Rachel Maddow and Lawrence O’Donnell like they were rock stars?</p><p>After two years of hosting the network’s annual fan",
-          "source": "The Guardian"
-        },
-        {
-          "title": "US added just 29,000 jobs in September in sharp drop from last month’s gains",
-          "url": "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
-          "published": "Fri, 02 Oct 2026 14:04:29 GMT",
-          "summary": "<p>Final jobs report before the midterm elections also shows the US unemployment rate rose slightly to 4.2%</p><p>US employers added just 29,000 jobs in September, a sharp drop from last month’s gains, and unemployment rose slightly to 4.2%, a sign of a cooling labor market in the final jobs report before the midterm election.</p><p>The numbers were under half of economists’ expectations of <a href=\"https://www.wsj.com/economy/jobs/adp-says-private-sector-hiring-picked-up-in-september-d8c0f59e\">",
+          "title": "Millionaire tax no more? Rightwing groups lead effort to repeal Washington state law",
+          "url": "https://www.theguardian.com/us-news/2026/oct/07/washington-state-millionaire-tax",
+          "published": "Wed, 07 Oct 2026 11:00:09 GMT",
+          "summary": "<p>An initiative on November’s ballot aims to overturn the 9.9% tax on earnings above $1m – who’s winning the fight? </p><p>Voters in Washington state will soon decide the fate of the state’s so-called “<a href=\"https://senatedemocrats.wa.gov/millionaires-tax-faq/\">millionaire tax</a>” – a 9.9% income tax on earnings above $1m that was <a href=\"https://governor.wa.gov/news/2026/governor-ferguson-signs-millionaires-tax-law\">signed</a> into law in March and is now facing a conservative-backed effo",
           "source": "The Guardian"
         },
         {
@@ -277,65 +289,58 @@
           "published": "Sun, 04 Oct 2026 11:00:27 GMT",
           "summary": "<p>Trump supporters may be surprised to learn the state takeover of means of production is not driven by the left</p><p>Americans will never accept the Democratic party’s slide to the left, or so desperate Republicans are hoping.</p><p>With the midterm elections fast upon us, Zohran Mamdani’s promise of a few city-run bodegas in New York City will scare the bejeezus out of middle America. Disgust over the democratic socialists’ unicorn-and-puppy promises of a <a href=\"https://program.dsausa.org\"",
           "source": "The Guardian"
-        },
-        {
-          "title": "I went to America’s largest gathering of astrologers. It was a battle over how to read the stars",
-          "url": "https://www.theguardian.com/science/ng-interactive/2026/oct/01/united-astrology-conference",
-          "published": "Thu, 01 Oct 2026 11:00:49 GMT",
-          "summary": "<p>Now a $15bn industry, astrology is more mainstream in the US than ever. But its practitioners are still debating: who gets to have authority on the celestial bodies?</p><p>“The dwarf planets change everything,” said the woman with the smart haircut as she made a <em>mind blown </em>gesture with her fingertips, temples to air.</p><p>I am at the United Astrology Conference, the largest professional gathering of astrologers in the world, in downtown Chicago. Around me, vendors are hoping to exci",
-          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Disney accuses Trump officials of ‘blatant violations’ of constitution amid FCC battle.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.015). Top story: Disney accuses Trump officials of ‘blatant violations’ of constitution amid FCC battle.",
+        "key_takeaway": "Skepticism mires Trump’s Iowa steel plant project: ‘Promises are not the same as jobs’.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.106). Top story: Skepticism mires Trump’s Iowa steel plant project: ‘Promises are not the same as jobs’.",
         "key_themes": [
+          "Skepticism mires Trump’s Iowa steel plant project: ‘Promises are not the same as jobs’",
+          "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
           "Disney accuses Trump officials of ‘blatant violations’ of constitution amid FCC battle",
           "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally",
-          "Misuse of AI is brands’ top reputational threat, new survey says",
-          "Paramount completes $111bn acquisition of Warner Bros to form new media empire Skydance",
-          "US supreme court hears big oil’s bid to block climate damage lawsuits"
+          "Misuse of AI is brands’ top reputational threat, new survey says"
         ],
         "notable_headlines": [
           {
+            "headline": "Skepticism mires Trump’s Iowa steel plant project: ‘Promises are not the same as jobs’",
+            "why_it_matters": "<p>The project has sparked doubts over whether the plant will be built and delivered as promised, given Trump’s record</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has long sought to p…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
+            "why_it_matters": "<p>Suit says AI tool allows independently owned franchises to exchange nonpublic price and sales information</p><p>McDonald’s is facing a lawsuit in federal court over its alleged use of an <a href=\"https://www.theguardi…",
+            "signal": "Risk"
+          },
+          {
             "headline": "Disney accuses Trump officials of ‘blatant violations’ of constitution amid FCC battle",
             "why_it_matters": "<p>Lawyers tell judge ABC being unfairly targeted as US regulator seeks review of network’s local TV station licenses</p><p>Lawyers for Disney accused the Trump administration of “blatant violations of the US constitutio…",
-            "signal": "Unclear"
+            "signal": "Risk"
           },
           {
             "headline": "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally",
             "why_it_matters": "<p>S&amp;P tops 7,800 for first time in history as investors optimistic despite signs of instability in US economy</p><p>The S&amp;P 500 and Nasdaq closed at a record high after a rally around AI chipmakers and a dip in …",
-            "signal": "Unclear"
+            "signal": "Risk"
           },
           {
             "headline": "Misuse of AI is brands’ top reputational threat, new survey says",
             "why_it_matters": "<p>The findings come after warnings from tech leaders that AI placed in the wrong hands could trigger larger threats such as nuclear war or bioweaponry destruction</p><p>Misusing <a href=\"https://www.theguardian.com/tech…",
-            "signal": "Unclear"
+            "signal": "Risk"
           },
           {
             "headline": "Paramount completes $111bn acquisition of Warner Bros to form new media empire Skydance",
             "why_it_matters": "<p>David Ellison and ex-Mattel CEO Ynon Kreiz to oversee both film studios, HBO Max, CNN and CBS News as co-executives</p><p><a href=\"https://www.theguardian.com/tv-and-radio/paramount-plus\">Paramount</a> completed its $…",
-            "signal": "Unclear"
+            "signal": "Risk"
           },
           {
             "headline": "US supreme court hears big oil’s bid to block climate damage lawsuits",
             "why_it_matters": "<p>How the court will lean is unclear amid Suncor Energy and ExxonMobil’s attempt to stop lawsuits at state level</p><p>The <a href=\"https://www.theguardian.com/us-news/us-supreme-court\">US supreme court</a> began its ne…",
-            "signal": "Unclear"
+            "signal": "Risk"
           },
           {
             "headline": "Mark Thompson will remain chief executive at CNN after Paramount sale",
             "why_it_matters": "<p>Decision by Paramount Skydance executive David Ellison was relief to employees who feared overhaul – and possibility of Bari Weiss taking over</p><p>Mark Thompson, who since 2023 has served as chair and chief executiv…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Trump’s recent statements on the economy are even more bonkers than usual | Steven Greenhouse",
-            "why_it_matters": "<p>Our ‘genius’ president is revealing his ignorance of economics, fueling concerns about the threat he poses to the world</p><p>Donald Trump recently made a bold claim about his abilities, <a href=\"https://truthsocial.c…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "MS Now connects ‘blue dots’ at Texas fan event: ‘I always feel hope when I watch them’",
-            "why_it_matters": "<p>Network at receiving end of White House press ban recently chose red state to host fan event as part of broader outreach</p><p>In 2024, Donald Trump and JD Vance carried Tarrant county, Texas, by 42,125 votes. So why,…",
-            "signal": "Unclear"
+            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -350,179 +355,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Skepticism mires Trump’s Iowa steel plant project: ‘Promises are not the same as jobs’",
+            "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
             "Disney accuses Trump officials of ‘blatant violations’ of constitution amid FCC battle",
-            "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally",
-            "Misuse of AI is brands’ top reputational threat, new survey says",
-            "Paramount completes $111bn acquisition of Warner Bros to form new media empire Skydance"
-          ],
-          "confidence": "Medium"
-        },
-        "caveats": [
-          "This fallback report is generated from RSS headlines and summaries only.",
-          "Verify key details by opening the source links in the headlines list.",
-          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
-        ],
-        "related_topics": [
-          "today's neutral news headlines",
-          "latest news summary disney",
-          "daily news briefing and analysis"
-        ]
-      },
-      "tweet_text": "Business: Disney accuses Trump officials of ‘blatant violations’ of constitution amid FCC battle\n\nBusiness Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Paramount #111bn #Accuses #Business #BreakingNews #News #WorldNews #Headlines #Trending"
-    },
-    "technology": {
-      "key": "technology",
-      "title": "Technology",
-      "source": {
-        "site_name": "The Verge",
-        "site_url": "https://www.theverge.com",
-        "feed_url": "https://www.theverge.com/rss/index.xml"
-      },
-      "sentiment": {
-        "score": 0.2405,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.401, dampened ×0.6 → +0.2405). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
-      },
-      "items": [
-        {
-          "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-          "published": "2026-10-07T05:00:00-04:00",
-          "summary": "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "OpenAI drops another batch of mathematical breakthroughs",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
-          "published": "2026-10-06T19:26:38-04:00",
-          "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Xbox has secured GTA 6 streaming rights",
-          "url": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights",
-          "published": "2026-10-06T18:12:27-04:00",
-          "summary": "Xbox CEO Asha Sharma told employees that Microsoft is getting ready to do something around Grand Theft Auto VI that \"no other platform holder is doing\" during an employee all-hands this morning. According to sources familiar with Microsoft's plans, Sharma's brief teaser was actually about Xbox managing to land a deal for game streaming rights [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The best robot vacuum and mop deals during October Prime Day",
-          "url": "https://www.theverge.com/gadgets/1006059/robot-vacuum-mop-roborock-qrevo-prime-day-deal-sale",
-          "published": "2026-10-06T18:00:00-04:00",
-          "summary": "Spending too much time constantly sweeping and mopping? If you have the money to delegate those chores to a robot cleaner, you could save a lot of personal time. Thankfully, it’s cheaper than usual to buy a robot vacuum / mop hybrid during Amazon’s Prime Big Deal Days, and some of our favorite models are [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
-          "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
-          "published": "2026-10-06T17:39:53-04:00",
-          "summary": "Apple is collaborating with LG on a new lineup of smart home devices, including a video doorbell, thermostat, indoor camera, and more, according to a report from Bloomberg. The products will reportedly feature LG branding but integrate with the company's rumored smart home hub that's expected to launch during an event on October 13th. Sources [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Sebastian Maniscalco’s SiriusXM channel is hurting up-and-coming talent, comics say",
-          "url": "https://www.theverge.com/entertainment/1006221/sebastian-maniscalco-siriusxm-channel-controversy",
-          "published": "2026-10-06T17:10:13-04:00",
-          "summary": "Comedian Sebastian Maniscalco is facing backlash from fellow comics who claim his takeover of SiriusXM's Raw Comedy channel is harming up-and-coming talent, as reported earlier by Deadline. Many established comics, including Patton Oswalt and Margaret Cho, have posted videos online calling on Maniscalco to carry on Raw Comedy's legacy by highlighting newer comedians on his [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Tesla&#8217;s Model 3 and Model Y can be a backup battery for your house",
-          "url": "https://www.theverge.com/transportation/1006193/tesla-model-3-model-y-powershare-home-backup",
-          "published": "2026-10-06T16:37:54-04:00",
-          "summary": "Some Tesla Model 3 and Model Y owners can use their EV battery to keep the lights on longer during a power outage, now that Tesla's expanding the Powershare Home Backup feature. It was previously only available on the Cybertruck, and also requires owning Tesla's Powerwall 3. However, support for the Powerwall 2 and Powerwall [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Google’s power-hungry data centers crave nuclear energy",
-          "url": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
-          "published": "2026-10-06T16:32:10-04:00",
-          "summary": "Google announced a new agreement to update six nuclear power plant sites across the US as the tech giant seeks to generate more electricity for its power-hungry data centers. Google signed the 20-year deal with Constellation, the leading nuclear power plant operator in the US. The power purchase agreement is meant to guarantee the revenue [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Amazon’s last-gen Kindle Paperwhite is 30 percent off",
-          "url": "https://www.theverge.com/gadgets/1006020/amazon-kindle-paperwhite-prime-day-deal-sale",
-          "published": "2026-10-06T16:00:00-04:00",
-          "summary": "Calling something “last-gen” usually means it comes with big compromises compared to the latest version. That’s not as true for the last-gen Kindle Paperwhite as it is with some other tech. The newer version can open books 30 percent faster (not the same as page-turning speed), and its aluminum design is a millimeter thinner — [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Save on MacBooks, iPads and Apple Watches during October Prime Day",
-          "url": "https://www.theverge.com/gadgets/1005662/apple-ipad-macbook-airpod-prime-day-deal-sale",
-          "published": "2026-10-06T15:30:00-04:00",
-          "summary": "Amazon’s October Big Deal Days are underway (lasting through tomorrow night), and we spotted a ton of Apple products and accessories in the sale, ranging from laptops and headphones to desktops and more. Some of the deals are only for Prime members, but other retailers are often matching or beating Amazon’s prices, and we’ll continue [&#8230;]",
-          "source": "The Verge"
-        }
-      ],
-      "ai_report": {
-        "key_takeaway": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.240). Top story: ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media.",
-        "key_themes": [
-          "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
-          "OpenAI drops another batch of mathematical breakthroughs",
-          "Xbox has secured GTA 6 streaming rights",
-          "The best robot vacuum and mop deals during October Prime Day",
-          "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat"
-        ],
-        "notable_headlines": [
-          {
-            "headline": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
-            "why_it_matters": "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced i…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "OpenAI drops another batch of mathematical breakthroughs",
-            "why_it_matters": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Xbox has secured GTA 6 streaming rights",
-            "why_it_matters": "Xbox CEO Asha Sharma told employees that Microsoft is getting ready to do something around Grand Theft Auto VI that \"no other platform holder is doing\" during an employee all-hands this morning. According to sources fami…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "The best robot vacuum and mop deals during October Prime Day",
-            "why_it_matters": "Spending too much time constantly sweeping and mopping? If you have the money to delegate those chores to a robot cleaner, you could save a lot of personal time. Thankfully, it’s cheaper than usual to buy a robot vacuum …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
-            "why_it_matters": "Apple is collaborating with LG on a new lineup of smart home devices, including a video doorbell, thermostat, indoor camera, and more, according to a report from Bloomberg. The products will reportedly feature LG brandin…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Sebastian Maniscalco’s SiriusXM channel is hurting up-and-coming talent, comics say",
-            "why_it_matters": "Comedian Sebastian Maniscalco is facing backlash from fellow comics who claim his takeover of SiriusXM's Raw Comedy channel is harming up-and-coming talent, as reported earlier by Deadline. Many established comics, inclu…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Tesla&#8217;s Model 3 and Model Y can be a backup battery for your house",
-            "why_it_matters": "Some Tesla Model 3 and Model Y owners can use their EV battery to keep the lights on longer during a power outage, now that Tesla's expanding the Powershare Home Backup feature. It was previously only available on the Cy…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Google’s power-hungry data centers crave nuclear energy",
-            "why_it_matters": "Google announced a new agreement to update six nuclear power plant sites across the US as the tech giant seeks to generate more electricity for its power-hungry data centers. Google signed the 20-year deal with Constella…",
-            "signal": "Opportunity"
-          }
-        ],
-        "future_outlook": {
-          "next_24_72_hours": [
-            "Track updates to the leading stories listed above.",
-            "Watch for clarifications or official responses in follow-up coverage.",
-            "Expect sentiment to move as new details emerge."
-          ],
-          "next_1_4_weeks": [
-            "Some stories may transition from breaking news to policy or market impact.",
-            "Recurring themes in the feed will indicate sustained momentum.",
-            "Cross-category spillover effects may become clearer with additional reporting."
-          ],
-          "watch_list": [
-            "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
-            "OpenAI drops another batch of mathematical breakthroughs",
-            "Xbox has secured GTA 6 streaming rights",
-            "The best robot vacuum and mop deals during October Prime Day"
+            "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally"
           ],
           "confidence": "Medium"
         },
@@ -533,11 +369,180 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary chatgpt",
+          "latest news summary skepticism",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media\n\nTechnology Sentiment: Mixed (+0.24)\n\nRead the full breakdown: https://tldrnews.info\n\n#Model #Another #Apple #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Skepticism mires Trump’s Iowa steel plant project: ‘Promises are not the same as jobs’\n\nBusiness Sentiment: Mixed (-0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Paramount #111bn #Accuses #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "technology": {
+      "key": "technology",
+      "title": "Technology",
+      "source": {
+        "site_name": "The Verge",
+        "site_url": "https://www.theverge.com",
+        "feed_url": "https://www.theverge.com/rss/index.xml"
+      },
+      "sentiment": {
+        "score": 0.2297,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.383, dampened ×0.6 → +0.2297). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Roku’s OLED TVs are up to $400 off during Prime Day, starting at $700",
+          "url": "https://www.theverge.com/gadgets/1007149/roku-oled-tv-pro-prime-day-deal-sale",
+          "published": "2026-10-07T15:27:39-04:00",
+          "summary": "Just over a week ago, we covered a deal at Amazon that knocked around 30 percent off Roku’s new (and first-ever) OLED TVs. The deal expired, but has returned for the final day of October Prime Day. The 55-inch Pro Series OLED is $699.99 at Amazon, which is 30 percent off its list price. The [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+          "published": "2026-10-07T15:10:42-04:00",
+          "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The first Nvidia RTX Spark laptops cost up to $7,000",
+          "url": "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
+          "published": "2026-10-07T15:05:52-04:00",
+          "summary": "The first array of laptops powered by Nvidia's new RTX Spark chip are designed to compete with high-end MacBook Pros - and they've got some high-end prices to match. The flagship Surface Laptop Ultra and RTX Spark laptops from Dell, Lenovo, MSI, HP, and Asus start as low as $2,599 for configurations with an 18-core [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "It appears .agent and .agi are about to be the hot new domains",
+          "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
+          "published": "2026-10-07T14:46:16-04:00",
+          "summary": "For the first time in years, the Internet Corporation for Assigned Names and Numbers - better known as ICANN - is accepting applications for new top-level domains. These are the suffixes at the end of all URLs, and you may know them as things like .com, .org, and .pizza. ICANN just announced the 1,615 applications [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
+          "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+          "published": "2026-10-07T14:42:22-04:00",
+          "summary": "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidia&#8217;s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Microsoft is giving Copilot more control over Windows and your files",
+          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "published": "2026-10-07T14:01:20-04:00",
+          "summary": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "How Microsoft built its MacBook Pro competitor",
+          "url": "https://www.theverge.com/tech/1006356/microsoft-surface-laptop-ultra-behind-the-scenes",
+          "published": "2026-10-07T14:00:00-04:00",
+          "summary": "Before Microsoft releases a laptop to the public, it needs to put the device through its paces. That all happens inside a windowless, warehouse-like lab on the company's Redmond, Washington, campus, where the team developing Surface devices programs robots to press their buttons thousands of times, pelts devices with radio waves from giant antennas, and [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Meta Quest 3S gets a rare discount during October Prime Day",
+          "url": "https://www.theverge.com/gadgets/1006810/meta-quest-3s-prime-day-deal-sale",
+          "published": "2026-10-07T14:00:00-04:00",
+          "summary": "Until the end of Amazon’s October sale later tonight, you can grab the 128GB Meta Quest 3S for just $297.49 (usually $349.99) at Amazon, Walmart, and Best Buy. While the lenses and displays aren’t quite as sharp as the Quest 3, the underlying chipset is the same, and this is a much more reasonable price [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "What The Social Reckoning gets right — and wrong",
+          "url": "https://www.theverge.com/policy/1007069/aaron-sorkin-social-reckoning-real-life",
+          "published": "2026-10-07T13:53:48-04:00",
+          "summary": "Aaron Sorkin's The Social Reckoning has its fair share of cinematic flair, but many details in the story hew closely to real life. The movie tells the story of how Frances Haugen, a Facebook civic integrity product manager, came to leak a large trove of internal documents to Wall Street Journal investigative reporter Jeff Horwitz, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The Surface Laptop Ultra finally has a release date — and a starting price of $2,599",
+          "url": "https://www.theverge.com/news/1006378/microsoft-surface-laptop-ultra-pricing-release-date",
+          "published": "2026-10-07T13:48:45-04:00",
+          "summary": "Months after revealing its Surface Laptop Ultra, Microsoft has announced that the Nvidia RTX Spark-equipped device will launch on October 16th. Pricing starts at $2,599 for the base configuration, featuring an 18-core CPU, 24GB of RAM, and 512GB of storage. The Surface Laptop Ultra ships with a 15-inch HDR touchscreen display with up to 2,000 [&#8230;]",
+          "source": "The Verge"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Roku’s OLED TVs are up to $400 off during Prime Day, starting at $700.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.230). Top story: Roku’s OLED TVs are up to $400 off during Prime Day, starting at $700.",
+        "key_themes": [
+          "Roku’s OLED TVs are up to $400 off during Prime Day, starting at $700",
+          "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
+          "The first Nvidia RTX Spark laptops cost up to $7,000",
+          "It appears .agent and .agi are about to be the hot new domains",
+          "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Roku’s OLED TVs are up to $400 off during Prime Day, starting at $700",
+            "why_it_matters": "Just over a week ago, we covered a deal at Amazon that knocked around 30 percent off Roku’s new (and first-ever) OLED TVs. The deal expired, but has returned for the final day of October Prime Day. The 55-inch Pro Series…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
+            "why_it_matters": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the abil…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The first Nvidia RTX Spark laptops cost up to $7,000",
+            "why_it_matters": "The first array of laptops powered by Nvidia's new RTX Spark chip are designed to compete with high-end MacBook Pros - and they've got some high-end prices to match. The flagship Surface Laptop Ultra and RTX Spark laptop…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "It appears .agent and .agi are about to be the hot new domains",
+            "why_it_matters": "For the first time in years, the Internet Corporation for Assigned Names and Numbers - better known as ICANN - is accepting applications for new top-level domains. These are the suffixes at the end of all URLs, and you m…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
+            "why_it_matters": "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidi…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Microsoft is giving Copilot more control over Windows and your files",
+            "why_it_matters": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Micros…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "How Microsoft built its MacBook Pro competitor",
+            "why_it_matters": "Before Microsoft releases a laptop to the public, it needs to put the device through its paces. That all happens inside a windowless, warehouse-like lab on the company's Redmond, Washington, campus, where the team develo…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The Meta Quest 3S gets a rare discount during October Prime Day",
+            "why_it_matters": "Until the end of Amazon’s October sale later tonight, you can grab the 128GB Meta Quest 3S for just $297.49 (usually $349.99) at Amazon, Walmart, and Best Buy. While the lenses and displays aren’t quite as sharp as the Q…",
+            "signal": "Opportunity"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "Roku’s OLED TVs are up to $400 off during Prime Day, starting at $700",
+            "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
+            "The first Nvidia RTX Spark laptops cost up to $7,000",
+            "It appears .agent and .agi are about to be the hot new domains"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary roku’s",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Technology: Roku’s OLED TVs are up to $400 off during Prime Day, starting at $700\n\nTechnology Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#During #Microsoft #Prime #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -731,11 +736,25 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0126,
+        "score": 0.0208,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.021, dampened ×0.6 → +0.0126). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.035, dampened ×0.6 → +0.0208). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+          "published": "Wed, 07 Oct 2026 09:09:15 EDT",
+          "summary": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon. By studying 21 rare “extreme debris disks” around young stars, researchers found that their dust can reveal the scale and intensity of planetary collisions.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists changed how zoo lions eat. Their wild side came out",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261005071535.htm",
+          "published": "Wed, 07 Oct 2026 08:46:44 EDT",
+          "summary": "Giving zoo lions whole carcasses on a feast-and-fast schedule appears to bring out more natural behavior. The lions spent nearly three times longer feeding, engaged in more tearing and manipulating of food, and rested more heavily after meals. Their activity then increased gradually during the fasting period, closely resembling the rhythm seen in wild lions.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Humans may not be as hardwired for violence as we thought",
           "url": "https://www.sciencedaily.com/releases/2026/10/261005071529.htm",
@@ -744,10 +763,38 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Webb finds a surprising atmosphere on a scorching lava world",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261005071526.htm",
+          "published": "Wed, 07 Oct 2026 07:58:25 EDT",
+          "summary": "The James Webb Space Telescope has found strong evidence that the rocky lava world HD 3167 b has an atmosphere, despite circling its star every 24 hours under extreme heat. The surprising discovery could help scientists understand how rocky planets retain atmospheres and what the young, molten Earth may once have looked like.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
           "url": "https://www.sciencedaily.com/releases/2026/10/261005071523.htm",
           "published": "Mon, 05 Oct 2026 07:59:17 EDT",
           "summary": "October skywatchers can see Saturn at opposition, catch meteors from Halley’s Comet during the Orionid peak, and watch the Moon sweep past the famous Pleiades star cluster. Moonlight may obscure some Orionids, but the best viewing should come before dawn after the Moon sets.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Earth’s center is moving, and NASA just measured it",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261005071520.htm",
+          "published": "Wed, 07 Oct 2026 07:30:51 EDT",
+          "summary": "Earth’s center of mass is constantly on the move, shifting by a few millimeters as enormous amounts of water, ice, and even air migrate around the planet with the seasons. NASA scientists have developed a more precise way to track these tiny swings using laser-ranging satellites, GPS data, and measurements of how water and ice deform Earth’s crust.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Physicists just found the ‘ghost’ of superconductivity",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261005071517.htm",
+          "published": "Wed, 07 Oct 2026 08:34:39 EDT",
+          "summary": "Physicists have found striking evidence for an unusual form of superconducting behavior in uranium ditelluride, where electron pairs organize into rippling patterns called pair density waves. Even more surprisingly, these patterns appear to survive after ordinary superconductivity disappears, suggesting that the electron pairs responsible for superconductivity may begin forming before the material actually becomes superconducting.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Drug target could block brain inflammation linked to Alzheimer’s and Parkinson’s",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261005071515.htm",
+          "published": "Wed, 07 Oct 2026 08:13:35 EDT",
+          "summary": "Blocking a receptor called P2X7 significantly reduced inflammation in human brain tissue, revealing a potential new treatment strategy for neurological and psychiatric disorders. The discovery could help researchers repurpose existing drugs for conditions including traumatic brain injury, Alzheimer’s, Parkinson’s, depression, and schizophrenia.",
           "source": "ScienceDaily"
         },
         {
@@ -777,64 +824,37 @@
           "published": "Tue, 06 Oct 2026 08:23:37 EDT",
           "summary": "Couples who exercise together report better communication, healthier conflict resolution, and lower marital stress than those who work out alone. Even something as simple as taking a walk together may create valuable opportunities to talk, listen, and feel more connected.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists finally see how nature moves energy so efficiently",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261004001841.htm",
-          "published": "Tue, 06 Oct 2026 03:49:51 EDT",
-          "summary": "Researchers have captured key steps in a chemical reaction that helps nature transfer energy with remarkable efficiency. Ultrafast X-rays revealed how changes involving electrons and protons are closely linked to the rearrangement of surrounding water molecules. Because similar reactions drive photosynthesis and other energy-conversion processes, the technique could help scientists develop better catalysts, fuel cells, and flow batteries.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Archaeologists may have finally solved a 100-year-old Florida mystery",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261004001835.htm",
-          "published": "Tue, 06 Oct 2026 08:41:48 EDT",
-          "summary": "Ancient pottery from Tampa Bay appears to have been made by migrant craftspeople who brought specialized Mississippian pottery-making knowledge hundreds of miles south. Remarkably, they even incorporated crushed fragments of older homeland pottery into new vessels, preserving a physical link to their past across generations.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Tropical trees built homes for ants. Wasps are taking them over",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261004001832.htm",
-          "published": "Mon, 05 Oct 2026 23:12:36 EDT",
-          "summary": "Predatory wasps are hijacking shelters built by tropical trees for their ant defenders, potentially disrupting an ancient partnership that protects the plants from hungry insects. The takeover is far more common in disturbed landscapes such as oil palm plantations and could have lasting consequences for forest recovery and evolution.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Animals may have evolved 200 million years earlier than we thought",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261003234023.htm",
-          "published": "Tue, 06 Oct 2026 22:29:56 EDT",
-          "summary": "New research suggests animals could have evolved as early as 800 to 700 million years ago, roughly 200 million years earlier than some previous estimates. If so, the first animals may have lived before or during Snowball Earth, leaving behind little trace because their soft bodies were rarely preserved.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "What happens in the brain when cannabis makes you anxious?",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261003234021.htm",
-          "published": "Tue, 06 Oct 2026 21:26:07 EDT",
-          "summary": "Cannabinoids may intensify anxiety by removing a natural brake on specific neurons in the brain’s fear center, particularly during stressful situations. In mice, shutting down those neurons sharply reduced cannabinoid-related anxious behavior.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "This mysterious hole on the Moon may open into a giant cave",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261003234013.htm",
-          "published": "Mon, 05 Oct 2026 00:47:40 EDT",
-          "summary": "NASA has selected the GIMLI project to investigate whether the Marius Hill Pit opens into a vast underground cave or lava tube. Using radar, seismic sensors, gravity measurements, and cameras, researchers will search beneath the lunar surface and estimate the size of any hidden void. Such caves could preserve clues to the Moon’s volcanic history and potentially provide protected shelters for future astronauts.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Humans may not be as hardwired for violence as we thought.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.013). Top story: Humans may not be as hardwired for violence as we thought.",
+        "key_takeaway": "NASA’s Webb finds signs of Mars-sized worlds smashing together.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.021). Top story: NASA’s Webb finds signs of Mars-sized worlds smashing together.",
         "key_themes": [
+          "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+          "Scientists changed how zoo lions eat. Their wild side came out",
           "Humans may not be as hardwired for violence as we thought",
-          "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
-          "A new way to fight gum disease without wiping out good bacteria",
-          "Goodbye joint replacements? Stanford scientists found a way to regrow cartilage and stop arthritis",
-          "Physicists just saw quarks make waves in the Big Bang’s primordial soup"
+          "Webb finds a surprising atmosphere on a scorching lava world",
+          "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky"
         ],
         "notable_headlines": [
           {
+            "headline": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+            "why_it_matters": "NASA’s James Webb Space Telescope is giving astronomers a glimpse of the kinds of violent collisions that may have shaped our own solar system, including the giant impact thought to have created the Moon. By studying 21 …",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Scientists changed how zoo lions eat. Their wild side came out",
+            "why_it_matters": "Giving zoo lions whole carcasses on a feast-and-fast schedule appears to bring out more natural behavior. The lions spent nearly three times longer feeding, engaged in more tearing and manipulating of food, and rested mo…",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Humans may not be as hardwired for violence as we thought",
             "why_it_matters": "A study comparing 100 primate species, including humans, suggests that everyday aggression and lethal violence did not evolve as part of the same simple behavioral spectrum. Species that frequently fight or show mild agg…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Webb finds a surprising atmosphere on a scorching lava world",
+            "why_it_matters": "The James Webb Space Telescope has found strong evidence that the rocky lava world HD 3167 b has an atmosphere, despite circling its star every 24 hours under extreme heat. The surprising discovery could help scientists …",
             "signal": "Unclear"
           },
           {
@@ -843,33 +863,18 @@
             "signal": "Unclear"
           },
           {
-            "headline": "A new way to fight gum disease without wiping out good bacteria",
-            "why_it_matters": "Scientists discovered that disrupting the chemical messages bacteria use to communicate can push dental plaque toward a healthier microbial balance. The approach could lead to new treatments for gum disease that control …",
+            "headline": "Earth’s center is moving, and NASA just measured it",
+            "why_it_matters": "Earth’s center of mass is constantly on the move, shifting by a few millimeters as enormous amounts of water, ice, and even air migrate around the planet with the seasons. NASA scientists have developed a more precise wa…",
             "signal": "Unclear"
           },
           {
-            "headline": "Goodbye joint replacements? Stanford scientists found a way to regrow cartilage and stop arthritis",
-            "why_it_matters": "Scientists have found a surprising way to regrow damaged knee cartilage by blocking a protein that becomes more abundant with age. In old mice, the treatment restored naturally lost cartilage and also helped prevent oste…",
+            "headline": "Physicists just found the ‘ghost’ of superconductivity",
+            "why_it_matters": "Physicists have found striking evidence for an unusual form of superconducting behavior in uranium ditelluride, where electron pairs organize into rippling patterns called pair density waves. Even more surprisingly, thes…",
             "signal": "Unclear"
           },
           {
-            "headline": "Physicists just saw quarks make waves in the Big Bang’s primordial soup",
-            "why_it_matters": "Physicists at CERN’s Large Hadron Collider have captured the clearest evidence yet that quark-gluon plasma, the scorching-hot matter that filled the newborn universe, behaves like a true liquid. By tracking individual qu…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Scientists say this simple habit could strengthen your marriage",
-            "why_it_matters": "Couples who exercise together report better communication, healthier conflict resolution, and lower marital stress than those who work out alone. Even something as simple as taking a walk together may create valuable opp…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Scientists finally see how nature moves energy so efficiently",
-            "why_it_matters": "Researchers have captured key steps in a chemical reaction that helps nature transfer energy with remarkable efficiency. Ultrafast X-rays revealed how changes involving electrons and protons are closely linked to the rea…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Archaeologists may have finally solved a 100-year-old Florida mystery",
-            "why_it_matters": "Ancient pottery from Tampa Bay appears to have been made by migrant craftspeople who brought specialized Mississippian pottery-making knowledge hundreds of miles south. Remarkably, they even incorporated crushed fragment…",
+            "headline": "Drug target could block brain inflammation linked to Alzheimer’s and Parkinson’s",
+            "why_it_matters": "Blocking a receptor called P2X7 significantly reduced inflammation in human brain tissue, revealing a potential new treatment strategy for neurological and psychiatric disorders. The discovery could help researchers repu…",
             "signal": "Unclear"
           }
         ],
@@ -885,10 +890,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+            "Scientists changed how zoo lions eat. Their wild side came out",
             "Humans may not be as hardwired for violence as we thought",
-            "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
-            "A new way to fight gum disease without wiping out good bacteria",
-            "Goodbye joint replacements? Stanford scientists found a way to regrow cartilage and stop arthritis"
+            "Webb finds a surprising atmosphere on a scorching lava world"
           ],
           "confidence": "Medium"
         },
@@ -899,11 +904,11 @@
         ],
         "related_topics": [
           "today's neutral news headlines",
-          "latest news summary humans",
+          "latest news summary nasa’s",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: Humans may not be as hardwired for violence as we thought\n\nScience Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Finally #100yearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: NASA’s Webb finds signs of Mars-sized worlds smashing together\n\nScience Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Finds #Webb #Across #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
