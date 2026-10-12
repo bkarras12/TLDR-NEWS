@@ -1,13 +1,10 @@
 {
   "date": "2026-10-12",
-  "generated_at_utc": "2026-10-12T10:02:16Z",
+  "generated_at_utc": "2026-10-12T21:56:38Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump",
-    "trumps",
-    "sources",
-    "nasa"
+    "diesel"
   ],
   "categories": {
     "world": {
@@ -19,16 +16,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1662,
+        "score": -0.1694,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.277, dampened ×0.6 → -0.1662). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.282, dampened ×0.6 → -0.1694). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
-          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 21:36:40 GMT",
-          "summary": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
+          "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 21:20:51 GMT",
+          "summary": "Despite the US president announcing energy infrastructure would not be targeted strikes have continued, Ukraine says.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+          "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 20:17:37 GMT",
+          "summary": "While Ukraine's Volodymyr Zelensky suggests he would sign up to a ceasefire on energy infrastructure, Russia has said little.",
           "source": "BBC News"
         },
         {
@@ -39,6 +43,55 @@
           "source": "BBC News"
         },
         {
+          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 20:54:09 GMT",
+          "summary": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
+          "source": "BBC News"
+        },
+        {
+          "title": "South Africa's deputy police chief resigns after being charged with sexual offences",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy9d940pyko?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 16:46:49 GMT",
+          "summary": "Shadrack Sibiya had denied grooming a 16-year-old and raping an 18-year-old.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Immigration agents search Congresswoman Ilhan Omar's home",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 17:09:55 GMT",
+          "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Fridges in French supermarkets hit by cyber attack",
+          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 18:31:32 GMT",
+          "summary": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Qantas flight grounded after bedbug outbreak",
+          "url": "https://www.bbc.co.uk/news/articles/cr62yzypnw7no?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 21:01:45 GMT",
+          "summary": "The flight from Italy to Australia was cancelled after passengers on the plane's previous journey complained of bug bites.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Tom Cruise film Digger forecast to become one of Hollywood's biggest flops",
+          "url": "https://www.bbc.co.uk/news/articles/cke8re5v1pgmo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 14:11:27 GMT",
+          "summary": "The film dropped by around 60% in its second weekend, and could become one of Hollywood's biggest flops.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US detains man accused in multi-billion Venezuelan money laundering scheme",
+          "url": "https://www.bbc.co.uk/news/articles/crp3gy0x0dd1o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 13:49:05 GMT",
+          "summary": "US officials had been offering a reward of $10m (£7.5m) for information leading to Álvaro Pulido's arrest.",
+          "source": "BBC News"
+        },
+        {
           "title": "Trump faces growing backlash over plans to import diesel from Russia",
           "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
           "published": "Sun, 11 Oct 2026 23:18:45 GMT",
@@ -46,83 +99,32 @@
           "source": "BBC News"
         },
         {
-          "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
-          "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 22:45:58 GMT",
-          "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
-          "source": "BBC News"
-        },
-        {
-          "title": "American ranchers wrestle with soaring costs - and their loyalty to Trump",
-          "url": "https://www.bbc.co.uk/news/articles/c6d7q5z17gp5o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 23:13:51 GMT",
-          "summary": "Many farmers in states that backed the president say they are being hit from all sides, with the crucial midterm elections just weeks away.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Poland detains man suspected of planning assassination of PM Tusk",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 17:27:24 GMT",
-          "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Watch: Endangered orangutans released back into the wild after Borneo fires",
-          "url": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 23:48:25 GMT",
-          "summary": "The critically endangered apes were rescued from intense wildfires that destroyed their habitat in August and September.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
-          "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 21:12:44 GMT",
-          "summary": "Neither Egypt nor Sudan has commented on the alleged strikes on an artisanal mining camp on Saturday.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Iconic Australian band Powderfinger announce first tour in 17 years",
-          "url": "https://www.bbc.co.uk/news/articles/c680zyx8gkkjo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 23:33:24 GMT",
-          "summary": "The band, who announced their reunion last week, say they are \"absolutely ecstatic\" to be playing together again.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Poland stabbings driven by online glorification of violence, Tusk says",
-          "url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 15:18:52 GMT",
-          "summary": "The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
-          "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 15:32:23 GMT",
-          "summary": "The boat was travelling from Djibouti to Yemen with 305 people on board, when it capsized near the port town of Obock on Thursday night.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
-          "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 11 Oct 2026 14:38:10 GMT",
-          "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
+          "title": "Thousands march to Indian Supreme Court to demand election chief resign",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 12 Oct 2026 15:19:17 GMT",
+          "summary": "The march follows a chaotic weekend in Delhi which saw thousands of protesters detained by police.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.166). Top story: Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants.",
+        "key_takeaway": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.169). Top story: Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says.",
         "key_themes": [
-          "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
+          "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+          "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
           "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
-          "Trump faces growing backlash over plans to import diesel from Russia",
-          "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
-          "American ranchers wrestle with soaring costs - and their loyalty to Trump"
+          "Saudi minister vows 'serious response' to Houthi attacks on airports",
+          "South Africa's deputy police chief resigns after being charged with sexual offences"
         ],
         "notable_headlines": [
           {
-            "headline": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
-            "why_it_matters": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
+            "headline": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+            "why_it_matters": "Despite the US president announcing energy infrastructure would not be targeted strikes have continued, Ukraine says.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+            "why_it_matters": "While Ukraine's Volodymyr Zelensky suggests he would sign up to a ceasefire on energy infrastructure, Russia has said little.",
             "signal": "Risk"
           },
           {
@@ -131,33 +133,28 @@
             "signal": "Risk"
           },
           {
-            "headline": "Trump faces growing backlash over plans to import diesel from Russia",
-            "why_it_matters": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
+            "headline": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+            "why_it_matters": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
             "signal": "Risk"
           },
           {
-            "headline": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
-            "why_it_matters": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
+            "headline": "South Africa's deputy police chief resigns after being charged with sexual offences",
+            "why_it_matters": "Shadrack Sibiya had denied grooming a 16-year-old and raping an 18-year-old.",
             "signal": "Risk"
           },
           {
-            "headline": "American ranchers wrestle with soaring costs - and their loyalty to Trump",
-            "why_it_matters": "Many farmers in states that backed the president say they are being hit from all sides, with the crucial midterm elections just weeks away.",
+            "headline": "Immigration agents search Congresswoman Ilhan Omar's home",
+            "why_it_matters": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
             "signal": "Risk"
           },
           {
-            "headline": "Poland detains man suspected of planning assassination of PM Tusk",
-            "why_it_matters": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
+            "headline": "Fridges in French supermarkets hit by cyber attack",
+            "why_it_matters": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
             "signal": "Risk"
           },
           {
-            "headline": "Watch: Endangered orangutans released back into the wild after Borneo fires",
-            "why_it_matters": "The critically endangered apes were rescued from intense wildfires that destroyed their habitat in August and September.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
-            "why_it_matters": "Neither Egypt nor Sudan has commented on the alleged strikes on an artisanal mining camp on Saturday.",
+            "headline": "Qantas flight grounded after bedbug outbreak",
+            "why_it_matters": "The flight from Italy to Australia was cancelled after passengers on the plane's previous journey complained of bug bites.",
             "signal": "Risk"
           }
         ],
@@ -173,10 +170,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
+            "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+            "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
             "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
-            "Trump faces growing backlash over plans to import diesel from Russia",
-            "One killed, 11 injured in second Houthi strike on Riyadh airport in two days"
+            "Saudi minister vows 'serious response' to Houthi attacks on airports"
           ],
           "confidence": "Medium"
         },
@@ -187,11 +184,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary zelensky",
+          "latest news summary six",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Killed #Russia #Trump #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceasefire #Energy #Abramovichs #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -202,145 +199,145 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.0661,
+        "score": -0.0591,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.110, dampened ×0.6 → +0.0661). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.098, dampened ×0.6 → -0.0591). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
-          "url": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
-          "published": "Sun, 11 Oct 2026 11:00:25 GMT",
-          "summary": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.</p><p>The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased th",
+          "title": "Stellantis and Renault back UK to get EU car industry protection",
+          "url": "https://www.theguardian.com/business/2026/oct/12/stellantis-renault-uk-eu-car-industry-imports-china",
+          "published": "Mon, 12 Oct 2026 17:22:05 GMT",
+          "summary": "<p>Bosses of Citroën owner and French carmaker also urge UK government to consider limiting imports from China</p><p>Stellantis and Renault have backed the UK car industry for inclusion in proposed rules to protect EU industry, but urged the British government to consider limiting imports of Chinese cars.</p><p>Emanuele Cappellano, who leads Stellantis’s European brands including Fiat, Citroën, Opel and Vauxhall, and François Provost, the chief executive of France’s Renault, said the UK should e",
           "source": "The Guardian"
         },
         {
-          "title": "‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff",
-          "url": "https://www.theguardian.com/us-news/2026/oct/10/tsa-union-agency-checkpoints-chairs",
-          "published": "Sat, 10 Oct 2026 11:00:55 GMT",
-          "summary": "<p>Order for workers to remain standing to ‘reinforce professionalism’ draws rebuke amid plunging morale</p><p>Union officials have launched a campaign to allow airport security staff to sit once more after the Trump administration unilaterally removed all the chairs for Transportation Security Administration (TSA) staff at checkpoints.</p><p>“People are pissed,” said Johnny Jones, secretary-treasurer of American Federation of Government Employees (AFGE) TSA council 100 and president of AFGE loc",
+          "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+          "url": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+          "published": "Mon, 12 Oct 2026 14:20:53 GMT",
+          "summary": "<p>US economists developed models that help central bankers and finance ministers to stabilise their economies</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Two US economists have won the 2026 Nobel economics prize for their work developing models that help central bankers and finance ministers to st",
           "source": "The Guardian"
         },
         {
-          "title": "United Auto Workers president Shawn Fain easily wins re-election",
-          "url": "https://www.theguardian.com/us-news/2026/oct/10/uaw-president-shawn-fain-wins-re-election",
-          "published": "Sat, 10 Oct 2026 13:46:49 GMT",
-          "summary": "<p>Fain was dogged by investigation but still decisively beat challenger Rich Boyer, who received just 13% of vote </p><p>The president of the United Auto Workers, Shawn Fain, has <a href=\"https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTIP_HdzfhEkH5bCpdbp3eHL8jzvTPkuNSGilo6IYdL9xKYrDI6_LBJ7KOrCV4O56JJAMqXbi4Y9eTJ/pubhtml\">easily won</a> his re-election bid after an campaign period marred by accusations of corruption and election interference.</p><p>The union’s election of leadership for a",
+          "title": "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
+          "url": "https://www.theguardian.com/world/2026/oct/12/roman-abramovich-aides-paperwork-tax-records-suggest",
+          "published": "Mon, 12 Oct 2026 05:00:46 GMT",
+          "summary": "<p>Accountancy firm Deloitte Cyprus among those that appear to have backdated records outlining the Russian billionaire’s assets</p><p>Aides of Roman Abramovich – including staff at the global accountancy firm Deloitte – falsified paperwork mapping the oligarch’s sprawling offshore business empire, records suggest, helping his businesses dodge tax and disguise assets.</p><p>New analysis of leaked corporate records uncovers what appears to have been a long-running and carefully orchestrated strat",
           "source": "The Guardian"
         },
         {
-          "title": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
-          "url": "https://www.theguardian.com/world/2026/oct/09/flock-job-cuts",
-          "published": "Fri, 09 Oct 2026 19:46:53 GMT",
-          "summary": "<p>Company, which grown rapidly in recent years, has been under scrutiny as privacy concerns grow</p><p>Flock Safety plans to shed about 18% of its employees, people with direct ⁠knowledge of the plans said on Thursday, as the maker of <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>-powered <a href=\"https://www.theguardian.com/world/surveillance\">surveillance</a> cameras and license-plate readers faces <a href=\"https://www.theguardian.com/us-news/2026/sep/25/flor",
+          "title": "IFS: budget will be ‘work of fiction’ without clear plan to cover UK’s £35bn spending pressures",
+          "url": "https://www.theguardian.com/business/2026/oct/12/ifs-budget-report-spending-pressures-tax-inflation-john-healey",
+          "published": "Mon, 12 Oct 2026 05:49:11 GMT",
+          "summary": "<p>Thinktank’s influential pre-budget report urges key decisions to be made now and not put off until next year</p><p>John Healey has been warned by Britain’s leading tax and spending experts that his budget risks being a “work of fiction” unless he sets out plans to cover £35bn in spending pressures.</p><p>As the war in the Middle East rattles the public finances, the Institute for Fiscal Studies (IFS) said the damage from higher inflation meant the chancellor would need to either top up funds",
           "source": "The Guardian"
         },
         {
-          "title": "Trump establishes committee to investigate Fed governor Lisa Cook",
-          "url": "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor",
-          "published": "Fri, 09 Oct 2026 18:05:12 GMT",
-          "summary": "<p>US president renews his efforts to oust Cook despite supreme court ruling that her firing was unconstitutional</p><p>Donald Trump announced on Friday that he is establishing a committee to investigate Lisa Cook, the US Federal Reserve governor, over allegations that she committed mortgage fraud, renewing his efforts to oust her despite <a href=\"https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-lisa-cook-ruling\">a June supreme court ruling</a> that her earlier firing was unco",
+          "title": "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack",
+          "url": "https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u",
+          "published": "Mon, 12 Oct 2026 16:38:36 GMT",
+          "summary": "<p>Hundreds of Intermarché shops and Coopérative U outlets in France hit, with fears Dutch chains also affected</p><p>Hackers have forced the temperature of many French supermarket fridges up to 50C overnight, in an “unprecedented” cyber-attack affecting several hundred stores across the country, with fires and food losses reported.</p><p>The Paris prosecutor’s office said on Monday ⁠the large-scale attack was “affecting connected refrigerators ⁠in several ​major food retailers across France”. R",
           "source": "The Guardian"
         },
         {
-          "title": "Trump immigrant purge could cut social security for Americans by $2,000 a year",
-          "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-immigration-cost-social-security",
-          "published": "Fri, 09 Oct 2026 12:00:28 GMT",
-          "summary": "<p>New report on economic cost of anti-immigration campaign projects 8.6% reduction in retirement payments by 2034</p><p>Elderly Americans can expect to lose an average of $2,152 in annual social security benefits each, a projected 8.6% reduction in their retirement payments, by 2034 and every year after as a direct consequence of the economic fallout from the Trump administration’s <a href=\"https://www.theguardian.com/us-news/series/ice-2-0-inside-trumps-new-immigration-dragnet\">anti-immigratio",
+          "title": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts",
+          "url": "https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety",
+          "published": "Sun, 11 Oct 2026 23:01:39 GMT",
+          "summary": "<p>Kanishka Narayan to say Britain cannot rely entirely on tech companies amid rising global concern over AI dangers</p><p>Companies building the most advanced AI systems must increase safety efforts, the UK’s AI minister will say, as he announces a strengthening of Britain’s cyber defences.</p><p>Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe. He will say Britain cannot rely entirely on technology companies to police their own models and will a",
           "source": "The Guardian"
         },
         {
-          "title": "Oil prices jump 5% on Middle East tensions and US hurricane threat",
-          "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-          "published": "Thu, 08 Oct 2026 11:11:47 GMT",
-          "summary": "<p>Global bond market sell-off continues and stocks fall amid reports White House has asked to see options for more strikes against Iran</p><p>Oil prices have risen sharply amid fears about escalating tensions in the Middle East and a squeeze on production from the threat of a hurricane off the US coast.</p><p>Brent crude, the international benchmark, rose by 5% to $105.3 a barrel on Thursday, triggering a wave of selling in the global bond and stock markets.</p> <a href=\"https://www.theguardian",
+          "title": "UK van drivers face extra £2.5bn in diesel costs this year, figures show",
+          "url": "https://www.theguardian.com/money/2026/oct/12/uk-van-drivers-diesel-costs-fuel-duty",
+          "published": "Mon, 12 Oct 2026 06:00:49 GMT",
+          "summary": "<p>Calls for planned fuel duty rise to be scrapped as analysis finds average fuel bill could hit £1,965, up from £1,294</p><p>Millions of British van drivers face a combined £2.5bn cost to cover the rising price of diesel this year, according to figures, fuelling calls for the government to scrap its planned fuel duty rise.</p><p>The owners of diesel vans and pickups can expect to collectively spend almost £8.5bn at the pump this year, according to analysis for the Guardian, after diesel prices",
           "source": "The Guardian"
         },
         {
-          "title": "Trump made ‘clear’ that media ban was due to critical coverage, court told",
-          "url": "https://www.theguardian.com/media/2026/oct/08/trump-media-ban-hearing",
-          "published": "Thu, 08 Oct 2026 17:56:04 GMT",
-          "summary": "<p>Lawyer for CNN, MS Now and Politico says Trump admitted he banned networks from White House over their coverage</p><p>Donald Trump continues to be the strongest witness for the media companies arguing that they were unfairly barred from the White House at his direction, a lawyer representing CNN, MS Now and Politico told a federal judge on Thursday afternoon.</p><p>The media coalition was in court asking the judge to extend the temporary restraining order (TRO) he issued on 24 September requi",
+          "title": "Revealed: Nigel Farage adviser had unpublicised role at polling firm",
+          "url": "https://www.theguardian.com/politics/2026/oct/12/nigel-farage-adviser-influential-role-polling-firm-chris-bruni-lowe",
+          "published": "Mon, 12 Oct 2026 13:42:27 GMT",
+          "summary": "<p>Exclusive: Chris Bruni-Lowe used Redfield &amp; Wilton Strategies role to develop potential campaign tactics, sources say</p><p>A close adviser to Nigel Farage had an influential role at a national polling company despite not being publicly associated with the firm, the Guardian can reveal.</p><p>Chris Bruni-Lowe, Farage’s private pollster for many years, played an important role in the operations of Redfield &amp; Wilton Strategies and used it to develop potential campaign strategies, accord",
           "source": "The Guardian"
         },
         {
-          "title": "Starbucks reportedly exploring Chipotle takeover",
-          "url": "https://www.theguardian.com/business/2026/oct/08/starbucks-chipotle-merger",
-          "published": "Thu, 08 Oct 2026 17:35:53 GMT",
-          "summary": "<p>Move would reunite chief executive Brian Niccol with chain he led before joining coffee company two years ago</p><p>Starbucks has explored a takeover of Chipotle Mexican Grill, the <a href=\"https://www.ft.com/content/79cef26a-e5e9-41d0-9af2-876dc23a9a7d?syn-25a6b1a6=1\">Financial Times </a>reported on Thursday, in a move that ⁠would reunite chief executive Brian Niccol with the burrito chain he led before joining the coffee giant two years ago.</p><p>The potential deal comes as restaurant chai",
+          "title": "Time to tell US raider Saba Capital to get lost – again | Nils Pratley",
+          "url": "https://www.theguardian.com/business/2026/oct/12/saba-capital-boaz-weinstein-baillie-gifford-us-growth-trust",
+          "published": "Mon, 12 Oct 2026 13:14:04 GMT",
+          "summary": "<p>Boaz Weinstein’s hedge fund is waging an aggressive campaign against the FTSE 250’s Baillie Gifford US Growth Trust</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Here we go again: another episode in <a href=\"https://www.theguardian.com/business/nils-pratley-on-finance/2026/mar/10/time-for-uk-regul",
           "source": "The Guardian"
         },
         {
-          "title": "‘People are feeling the real impacts’: influencers are targeting private equity with satire and rage",
-          "url": "https://www.theguardian.com/us-news/2026/oct/09/anti-private-equity-comedy-influencers",
-          "published": "Fri, 09 Oct 2026 11:00:26 GMT",
-          "summary": "<p>Skits and parodies making fun of the trillion-dollar industry have taken over social media, racking up millions of views</p><p>Johnny Hilbrant Partridge kept getting stuck next to the same kind of finance guy at weddings – the one bragging about his family’s full-time nanny and lavish vacations while<strong> </strong>name-dropping elite club memberships and private schools.</p><p>To Partridge, a former fitness instructor, their shameless knack for self-promotion felt ripe for comedy. Using a",
+          "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+          "url": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices",
+          "published": "Sun, 11 Oct 2026 15:56:25 GMT",
+          "summary": "<p>Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineries</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire\">Trump announces partial ceasefire but Zelenskyy says deal is ‘news to me’</a></p></li></ul><p>Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions on US imports of Russian diesel will have little “meanin",
           "source": "The Guardian"
         },
         {
-          "title": "Millionaire tax no more? Rightwing groups lead effort to repeal Washington state law",
-          "url": "https://www.theguardian.com/us-news/2026/oct/07/washington-state-millionaire-tax",
-          "published": "Wed, 07 Oct 2026 11:00:09 GMT",
-          "summary": "<p>An initiative on November’s ballot aims to overturn the 9.9% tax on earnings above $1m – who’s winning the fight? </p><p>Voters in Washington state will soon decide the fate of the state’s so-called “<a href=\"https://senatedemocrats.wa.gov/millionaires-tax-faq/\">millionaire tax</a>” – a 9.9% income tax on earnings above $1m that was <a href=\"https://governor.wa.gov/news/2026/governor-ferguson-signs-millionaires-tax-law\">signed</a> into law in March and is now facing a conservative-backed effo",
+          "title": "When AI is subject to less regulation than your fridge, something is startlingly wrong | Richard Hermer",
+          "url": "https://www.theguardian.com/commentisfree/2026/oct/12/ai-regulation-fridge-risk-humanity-public-debate-international-law",
+          "published": "Mon, 12 Oct 2026 17:33:41 GMT",
+          "summary": "<p>Let’s be clear: the risk to humanity is unprecedented. Without an urgent public debate and robust use of international law, we will lose control of the future</p><p>In my two years as attorney general, I spent more time working on national security than any other issue. The range and gravity of the threats posed to our nation are multifold, from terrorism, armed conflicts and nuclear proliferation, to the impacts of financial insecurity and the climate crisis. All profound challenges, yet one",
           "source": "The Guardian"
         },
         {
-          "title": "The American dream remains elusive in the valley that inspired East of Eden",
-          "url": "https://www.theguardian.com/us-news/2026/oct/03/salinas-california-john-steinbeck",
-          "published": "Sat, 03 Oct 2026 09:00:54 GMT",
-          "summary": "<p>John Steinbeck’s hometown of Salinas is the least affordable city in the US for the middle class, a recent Brookings Institution analysis found </p><p>Nestled between two mountain ranges at the crook of central California’s coastline sits a valley known as the “salad bowl of the world”.</p><p>Farm workers stoop over neatly lined rows of crops off Highway 101 to harvest more than half of the nation’s supply of lettuce and nearly a third of its strawberries. The soil here is so rich that author",
+          "title": "Labour has got the message – developing nations suffer most from bond market turmoil | Heather Stewart",
+          "url": "https://www.theguardian.com/business/2026/oct/11/labour-bond-market-turmoil-developing-nations-andy-burnham-brown-blair",
+          "published": "Sun, 11 Oct 2026 10:11:19 GMT",
+          "summary": "<p>Just as Brown and Blair did in 2005, Andy Burnham aims to champion debt relief to help developing countries</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/11/developing-nations-triple-shock-energy-crisis-el-nino-borrowing-costs-un-warns\">Developing nations face triple shock, UN warns</a></p></li></ul><p></p><p>From Washington to Paris, London to Tokyo, policymakers in every large economy have been counting the costs of bond market turmoil in recent weeks. But the brunt o",
           "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.066). Top story: US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy.",
+        "key_takeaway": "Stellantis and Renault back UK to get EU car industry protection.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.059). Top story: Stellantis and Renault back UK to get EU car industry protection.",
         "key_themes": [
-          "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
-          "‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff",
-          "United Auto Workers president Shawn Fain easily wins re-election",
-          "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
-          "Trump establishes committee to investigate Fed governor Lisa Cook"
+          "Stellantis and Renault back UK to get EU car industry protection",
+          "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+          "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
+          "IFS: budget will be ‘work of fiction’ without clear plan to cover UK’s £35bn spending pressures",
+          "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack"
         ],
         "notable_headlines": [
           {
-            "headline": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
-            "why_it_matters": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reaga…",
+            "headline": "Stellantis and Renault back UK to get EU car industry protection",
+            "why_it_matters": "<p>Bosses of Citroën owner and French carmaker also urge UK government to consider limiting imports from China</p><p>Stellantis and Renault have backed the UK car industry for inclusion in proposed rules to protect EU in…",
             "signal": "Unclear"
           },
           {
-            "headline": "‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff",
-            "why_it_matters": "<p>Order for workers to remain standing to ‘reinforce professionalism’ draws rebuke amid plunging morale</p><p>Union officials have launched a campaign to allow airport security staff to sit once more after the Trump adm…",
+            "headline": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+            "why_it_matters": "<p>US economists developed models that help central bankers and finance ministers to stabilise their economies</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oi…",
             "signal": "Unclear"
           },
           {
-            "headline": "United Auto Workers president Shawn Fain easily wins re-election",
-            "why_it_matters": "<p>Fain was dogged by investigation but still decisively beat challenger Rich Boyer, who received just 13% of vote </p><p>The president of the United Auto Workers, Shawn Fain, has <a href=\"https://docs.google.com/spreads…",
+            "headline": "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
+            "why_it_matters": "<p>Accountancy firm Deloitte Cyprus among those that appear to have backdated records outlining the Russian billionaire’s assets</p><p>Aides of Roman Abramovich – including staff at the global accountancy firm Deloitte –…",
             "signal": "Unclear"
           },
           {
-            "headline": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
-            "why_it_matters": "<p>Company, which grown rapidly in recent years, has been under scrutiny as privacy concerns grow</p><p>Flock Safety plans to shed about 18% of its employees, people with direct ⁠knowledge of the plans said on Thursday, …",
+            "headline": "IFS: budget will be ‘work of fiction’ without clear plan to cover UK’s £35bn spending pressures",
+            "why_it_matters": "<p>Thinktank’s influential pre-budget report urges key decisions to be made now and not put off until next year</p><p>John Healey has been warned by Britain’s leading tax and spending experts that his budget risks being …",
             "signal": "Unclear"
           },
           {
-            "headline": "Trump establishes committee to investigate Fed governor Lisa Cook",
-            "why_it_matters": "<p>US president renews his efforts to oust Cook despite supreme court ruling that her firing was unconstitutional</p><p>Donald Trump announced on Friday that he is establishing a committee to investigate Lisa Cook, the U…",
+            "headline": "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack",
+            "why_it_matters": "<p>Hundreds of Intermarché shops and Coopérative U outlets in France hit, with fears Dutch chains also affected</p><p>Hackers have forced the temperature of many French supermarket fridges up to 50C overnight, in an “unp…",
             "signal": "Unclear"
           },
           {
-            "headline": "Trump immigrant purge could cut social security for Americans by $2,000 a year",
-            "why_it_matters": "<p>New report on economic cost of anti-immigration campaign projects 8.6% reduction in retirement payments by 2034</p><p>Elderly Americans can expect to lose an average of $2,152 in annual social security benefits each, …",
+            "headline": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts",
+            "why_it_matters": "<p>Kanishka Narayan to say Britain cannot rely entirely on tech companies amid rising global concern over AI dangers</p><p>Companies building the most advanced AI systems must increase safety efforts, the UK’s AI ministe…",
             "signal": "Unclear"
           },
           {
-            "headline": "Oil prices jump 5% on Middle East tensions and US hurricane threat",
-            "why_it_matters": "<p>Global bond market sell-off continues and stocks fall amid reports White House has asked to see options for more strikes against Iran</p><p>Oil prices have risen sharply amid fears about escalating tensions in the Mid…",
+            "headline": "UK van drivers face extra £2.5bn in diesel costs this year, figures show",
+            "why_it_matters": "<p>Calls for planned fuel duty rise to be scrapped as analysis finds average fuel bill could hit £1,965, up from £1,294</p><p>Millions of British van drivers face a combined £2.5bn cost to cover the rising price of diese…",
             "signal": "Unclear"
           },
           {
-            "headline": "Trump made ‘clear’ that media ban was due to critical coverage, court told",
-            "why_it_matters": "<p>Lawyer for CNN, MS Now and Politico says Trump admitted he banned networks from White House over their coverage</p><p>Donald Trump continues to be the strongest witness for the media companies arguing that they were u…",
+            "headline": "Revealed: Nigel Farage adviser had unpublicised role at polling firm",
+            "why_it_matters": "<p>Exclusive: Chris Bruni-Lowe used Redfield &amp; Wilton Strategies role to develop potential campaign tactics, sources say</p><p>A close adviser to Nigel Farage had an influential role at a national polling company des…",
             "signal": "Unclear"
           }
         ],
@@ -356,10 +353,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
-            "‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff",
-            "United Auto Workers president Shawn Fain easily wins re-election",
-            "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say"
+            "Stellantis and Renault back UK to get EU car industry protection",
+            "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+            "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
+            "IFS: budget will be ‘work of fiction’ without clear plan to cover UK’s £35bn spending pressures"
           ],
           "confidence": "Medium"
         },
@@ -370,11 +367,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary us’s",
+          "latest news summary stellantis",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy\n\nBusiness Sentiment: Mixed (+0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #2000 #Aifueled #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Stellantis and Renault back UK to get EU car industry protection\n\nBusiness Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Work #25bn #35bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -385,131 +382,131 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1366,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.228, dampened ×0.6 → +0.1366). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.3209,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.535, dampened ×0.6 → +0.3209). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "A college in Illinois tried to cancel its Flock contact and it refused",
-          "url": "https://www.theverge.com/tech/1009411/elgin-community-college-flock-safety-cameras",
-          "published": "2026-10-11T16:06:43-04:00",
-          "summary": "In April of 2025, Elgin Community College had six Flock safety cameras installed to \"enhance the safety and security of students.\" But by September of that year, the school's administration grew concerned that Flock was sharing data with Customs and Border Patrol, that camera feeds were not properly secured, and that both law enforcement and [&#8230;]",
+          "title": "The Social Reckoning is flopping at the box office",
+          "url": "https://www.theverge.com/entertainment/1009630/social-reckoning-box-office-other-mommy",
+          "published": "2026-10-12T17:20:57-04:00",
+          "summary": "As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office. Per Variety, Aaron's Sorkin's follow up to The Social Network only grossed a measly $5.5 million this past weekend against a budget that's somewhere within the $30-42 million range. That would make it [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
-          "published": "2026-10-11T14:33:56-04:00",
-          "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he [&#8230;]",
+          "title": "Meta has some Wonder Full new AI models",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "published": "2026-10-12T13:00:00-04:00",
+          "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The new Apple TV could have a built-in mic and a remote with a speaker",
-          "url": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker",
-          "published": "2026-10-11T13:31:07-04:00",
-          "summary": "The latest rumors are that the new Apple TV will have a built-in microphone, while the upgraded remote will get a speaker. The mic would let users control the set-top box using Siri without having to speak into the remote or a connected HomePod device. That could also let the Apple TV serve as a [&#8230;]",
+          "title": "Elon Musk has donated over $276 million to Republican midterm efforts",
+          "url": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations",
+          "published": "2026-10-12T12:52:54-04:00",
+          "summary": "Elon Musk has handed out at least $276 million to Republican groups since July, The New York Times reports, making him both the party's top known donor and the biggest established midterm donor. $158 million of that money - one of the largest political donations in American history - has been funneled into the Senate [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "NASA dumped over 800GB of Artemis II data online",
-          "url": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
-          "published": "2026-10-11T11:34:40-04:00",
-          "summary": "If you thought you'd seen all there is to see from the Artemis II mission, you're wrong. This week NASA posted over 800GB worth of science data, images, and videos on the Artemis II: Sights &#38; Sounds of Science site. The archive includes over 11,000 photos and videos, over 8.5 hours of audio, and crew-annotated [&#8230;]",
+          "title": "The Yandex outage probably didn’t blitz Russian bots",
+          "url": "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk",
+          "published": "2026-10-12T11:43:07-04:00",
+          "summary": "Multiple Ukrainian drone strikes over the last week have taken Russian data centers offline and reportedly caused online bot traffic to plummet - but in reality it's probably not the kind of bot activity most people associate with Russia. A chart citing Cloudflare data has been circulating around social media platforms, showing a sharp decline [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "George A. Romero’s Season of the Witch is a slow-burn feminist occult drama",
-          "url": "https://www.theverge.com/entertainment/1009346/george-a-romero-season-of-the-witch-feminist-horror-review",
-          "published": "2026-10-11T11:15:00-04:00",
-          "summary": "George A. Romero is obviously best known as the father of the modern zombie movie. But between inventing the genre with Night of the Living Dead and his outbreak horror, The Crazies, Romero made two much lesser-known films: There's Always Vanilla, which I'll admit I've never seen, and Season of the Witch, or, as it [&#8230;]",
+          "title": "Mechanism&#8217;s first Switch 2 case is as awesome as I hoped it would be",
+          "url": "https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on",
+          "published": "2026-10-12T11:00:00-04:00",
+          "summary": "Most companies have slowed down releasing new Switch 2 cases, but one of my favorite accessory makers recently debuted its first, after a few delays. The $49 Basecase from Mechanism is a snap-on shell for the console that taps into the company's modular lineup of mounts. You could already mount the Switch 2 in numerous [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Vurt wants you to look at vertical videos as a genre of their own",
-          "url": "https://www.theverge.com/entertainment/1008720/vurt-microdramas-verticals-interview-hilmon-sorey",
-          "published": "2026-10-11T09:00:00-04:00",
-          "summary": "From Disney Plus to HBO Max, almost every major established streaming service is experimenting with ways to get into vertical content. It's clear that these companies see video-focused social media platforms like TikTok and Instagram as existential threats. In this arms race for viewers' attention, it has often felt like everyone is trying to find [&#8230;]",
+          "title": "Android is the best and worst thing about Googlebooks",
+          "url": "https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing",
+          "published": "2026-10-12T10:00:00-04:00",
+          "summary": "My first week with the new Android-powered laptops has been about as rocky as anyone's, but I've slowly learned to like them, even if love still feels a ways off. Every moment that's impressed me has been thanks to Android, whether I've been accessing a native version of a useful app or quickly checking my [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "What to expect from Apple’s ‘Welcome Home’ event",
-          "url": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
-          "published": "2026-10-11T09:00:00-04:00",
-          "summary": "We are quickly coming up on Apple's \"Welcome Home\" launch event, where we expect a host of smart home-related announcements. We are expecting refreshes to Apple TV and HomePod Mini, as well as a brand new smart home hub. We could also see the debut of a new platform called homeOS, and some partner devices [&#8230;]",
+          "title": "No Man’s Sky is coming to the iPhone and iPad",
+          "url": "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
+          "published": "2026-10-12T10:00:00-04:00",
+          "summary": "The No Man's Sky universe is about to get a little bit smaller - but in a good way. Hello Games announced that its long-running sci-fi exploration game will be coming to iOS, with versions for both the iPhone and iPad available starting on October 28th. According to Hello's Sean Murray, the mobile version of [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Horror is big business",
-          "url": "https://www.theverge.com/column/1008432/horror-popular-widows-bay-resident-evil",
-          "published": "2026-10-11T08:00:00-04:00",
-          "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on how pervasive horror has become, follow Andrew Webster. The Stepback, arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Resident Evil has been around for 30 [&#8230;]",
+          "title": "The OnePlus 16 is the company’s most interesting phone in years",
+          "url": "https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china",
+          "published": "2026-10-12T09:13:53-04:00",
+          "summary": "Today the OnePlus 16 launched in China, the company's first flagship phone since quitting both the US and European markets this summer. As luck would have it, it also looks like the company's best phone in some time. Like most OnePlus phones, the 16 is positioned around performance, with a Snapdragon 8 Elite Extreme Gen [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Why the LeapPad couldn&#8217;t survive the iPad",
-          "url": "https://www.theverge.com/podcast/1008578/leapfrog-leappad-technology-version-history",
-          "published": "2026-10-11T08:00:00-04:00",
-          "summary": "For multiple years, the hottest toy in the United States was a book. But not just any book: a smart book that could play sounds and respond to taps and help kids learn to read. It was the kind of gadget seemingly any parent could get behind, but it came with a high price - [&#8230;]",
+          "title": "CMF’s first wireless speakers look like musical milk cartons",
+          "url": "https://www.theverge.com/tech/1008191/nothing-cmf-speaker-m-s-series-bluetooth-design-customize",
+          "published": "2026-10-12T09:00:00-04:00",
+          "summary": "The CMF Speaker Series are the first portable Bluetooth speakers from the budget-focused brand that Nothing created but is in the process of spinning off into an India-based standalone subsidiary. As with many of CMF's products, like the Headphone Pro that launched a year ago, the new speakers deliver affordability alongside unique designs and bright [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
-          "published": "2026-10-11T07:00:00-04:00",
-          "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful [&#8230;]",
+          "title": "The Fitbit Edge is for folks who don’t want to go totally screenless",
+          "url": "https://www.theverge.com/gadgets/1008410/fitbit-edge-price-battery-specs-fitness-tracker",
+          "published": "2026-10-12T09:00:00-04:00",
+          "summary": "The Fitbit Edge may not be Google's best-kept fitness-tracking secret, but as of today, its existence is official. The tracker sits smack-dab between the recently launched Fitbit Air and the more powerful Google Pixel Watch 5 in the company's current wearable lineup. Basically, if you have smartwatch fatigue but don't want to give up notifications, [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "A college in Illinois tried to cancel its Flock contact and it refused.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.137). Top story: A college in Illinois tried to cancel its Flock contact and it refused.",
+        "key_takeaway": "The Social Reckoning is flopping at the box office.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.321). Top story: The Social Reckoning is flopping at the box office.",
         "key_themes": [
-          "A college in Illinois tried to cancel its Flock contact and it refused",
-          "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-          "The new Apple TV could have a built-in mic and a remote with a speaker",
-          "NASA dumped over 800GB of Artemis II data online",
-          "George A. Romero’s Season of the Witch is a slow-burn feminist occult drama"
+          "The Social Reckoning is flopping at the box office",
+          "Meta has some Wonder Full new AI models",
+          "Elon Musk has donated over $276 million to Republican midterm efforts",
+          "The Yandex outage probably didn’t blitz Russian bots",
+          "Mechanism&#8217;s first Switch 2 case is as awesome as I hoped it would be"
         ],
         "notable_headlines": [
           {
-            "headline": "A college in Illinois tried to cancel its Flock contact and it refused",
-            "why_it_matters": "In April of 2025, Elgin Community College had six Flock safety cameras installed to \"enhance the safety and security of students.\" But by September of that year, the school's administration grew concerned that Flock was …",
+            "headline": "The Social Reckoning is flopping at the box office",
+            "why_it_matters": "As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office. Per Variety, Aaron's Sorkin's follow up to The Social Network only grossed a measly $5.5…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-            "why_it_matters": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking w…",
+            "headline": "Meta has some Wonder Full new AI models",
+            "why_it_matters": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go t…",
             "signal": "Opportunity"
           },
           {
-            "headline": "The new Apple TV could have a built-in mic and a remote with a speaker",
-            "why_it_matters": "The latest rumors are that the new Apple TV will have a built-in microphone, while the upgraded remote will get a speaker. The mic would let users control the set-top box using Siri without having to speak into the remot…",
+            "headline": "Elon Musk has donated over $276 million to Republican midterm efforts",
+            "why_it_matters": "Elon Musk has handed out at least $276 million to Republican groups since July, The New York Times reports, making him both the party's top known donor and the biggest established midterm donor. $158 million of that mone…",
             "signal": "Opportunity"
           },
           {
-            "headline": "NASA dumped over 800GB of Artemis II data online",
-            "why_it_matters": "If you thought you'd seen all there is to see from the Artemis II mission, you're wrong. This week NASA posted over 800GB worth of science data, images, and videos on the Artemis II: Sights &#38; Sounds of Science site. …",
+            "headline": "The Yandex outage probably didn’t blitz Russian bots",
+            "why_it_matters": "Multiple Ukrainian drone strikes over the last week have taken Russian data centers offline and reportedly caused online bot traffic to plummet - but in reality it's probably not the kind of bot activity most people asso…",
             "signal": "Opportunity"
           },
           {
-            "headline": "George A. Romero’s Season of the Witch is a slow-burn feminist occult drama",
-            "why_it_matters": "George A. Romero is obviously best known as the father of the modern zombie movie. But between inventing the genre with Night of the Living Dead and his outbreak horror, The Crazies, Romero made two much lesser-known fil…",
+            "headline": "Mechanism&#8217;s first Switch 2 case is as awesome as I hoped it would be",
+            "why_it_matters": "Most companies have slowed down releasing new Switch 2 cases, but one of my favorite accessory makers recently debuted its first, after a few delays. The $49 Basecase from Mechanism is a snap-on shell for the console tha…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Vurt wants you to look at vertical videos as a genre of their own",
-            "why_it_matters": "From Disney Plus to HBO Max, almost every major established streaming service is experimenting with ways to get into vertical content. It's clear that these companies see video-focused social media platforms like TikTok …",
+            "headline": "Android is the best and worst thing about Googlebooks",
+            "why_it_matters": "My first week with the new Android-powered laptops has been about as rocky as anyone's, but I've slowly learned to like them, even if love still feels a ways off. Every moment that's impressed me has been thanks to Andro…",
             "signal": "Opportunity"
           },
           {
-            "headline": "What to expect from Apple’s ‘Welcome Home’ event",
-            "why_it_matters": "We are quickly coming up on Apple's \"Welcome Home\" launch event, where we expect a host of smart home-related announcements. We are expecting refreshes to Apple TV and HomePod Mini, as well as a brand new smart home hub.…",
+            "headline": "No Man’s Sky is coming to the iPhone and iPad",
+            "why_it_matters": "The No Man's Sky universe is about to get a little bit smaller - but in a good way. Hello Games announced that its long-running sci-fi exploration game will be coming to iOS, with versions for both the iPhone and iPad av…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Horror is big business",
-            "why_it_matters": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on how pervasive horror has become, follow Andrew Webster. The Stepback, arrives in our subscribers' inboxes on Su…",
+            "headline": "The OnePlus 16 is the company’s most interesting phone in years",
+            "why_it_matters": "Today the OnePlus 16 launched in China, the company's first flagship phone since quitting both the US and European markets this summer. As luck would have it, it also looks like the company's best phone in some time. Lik…",
             "signal": "Opportunity"
           }
         ],
@@ -525,10 +522,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "A college in Illinois tried to cancel its Flock contact and it refused",
-            "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-            "The new Apple TV could have a built-in mic and a remote with a speaker",
-            "NASA dumped over 800GB of Artemis II data online"
+            "The Social Reckoning is flopping at the box office",
+            "Meta has some Wonder Full new AI models",
+            "Elon Musk has donated over $276 million to Republican midterm efforts",
+            "The Yandex outage probably didn’t blitz Russian bots"
           ],
           "confidence": "Medium"
         },
@@ -538,12 +535,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary a",
+          "today's positive news headlines",
+          "latest news summary the",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: A college in Illinois tried to cancel its Flock contact and it refused\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#800gb #Apple #Apples #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: The Social Reckoning is flopping at the box office\n\nTechnology Sentiment: Positive (+0.32)\n\nRead the full breakdown: https://tldrnews.info\n\n#Android #Awesome #Best #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
