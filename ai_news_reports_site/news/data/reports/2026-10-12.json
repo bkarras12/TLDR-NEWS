@@ -1,10 +1,12 @@
 {
   "date": "2026-10-12",
-  "generated_at_utc": "2026-10-12T21:56:38Z",
+  "generated_at_utc": "2026-10-13T03:29:33Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "diesel"
+    "trump",
+    "trumps",
+    "sources"
   ],
   "categories": {
     "world": {
@@ -16,9 +18,9 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1694,
+        "score": -0.1602,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.282, dampened ×0.6 → -0.1694). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.267, dampened ×0.6 → -0.1602). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -45,8 +47,15 @@
         {
           "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
           "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 12 Oct 2026 20:54:09 GMT",
+          "published": "Tue, 13 Oct 2026 01:26:02 GMT",
           "summary": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Breaking Bad actor RJ Mitte dies aged 34",
+          "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 13 Oct 2026 00:12:25 GMT",
+          "summary": "Mitte, who lived with cerebral palsy, starred as Walter White Jr in the Emmy-winning drama series.",
           "source": "BBC News"
         },
         {
@@ -57,9 +66,9 @@
           "source": "BBC News"
         },
         {
-          "title": "Immigration agents search Congresswoman Ilhan Omar's home",
+          "title": "Immigration agents search congresswoman Ilhan Omar's home",
           "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 12 Oct 2026 17:09:55 GMT",
+          "published": "Mon, 12 Oct 2026 22:05:31 GMT",
           "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
           "source": "BBC News"
         },
@@ -97,24 +106,17 @@
           "published": "Sun, 11 Oct 2026 23:18:45 GMT",
           "summary": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
           "source": "BBC News"
-        },
-        {
-          "title": "Thousands march to Indian Supreme Court to demand election chief resign",
-          "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 12 Oct 2026 15:19:17 GMT",
-          "summary": "The march follows a chaotic weekend in Delhi which saw thousands of protesters detained by police.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
         "key_takeaway": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.169). Top story: Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.160). Top story: Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says.",
         "key_themes": [
           "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
           "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
           "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
           "Saudi minister vows 'serious response' to Houthi attacks on airports",
-          "South Africa's deputy police chief resigns after being charged with sexual offences"
+          "Breaking Bad actor RJ Mitte dies aged 34"
         ],
         "notable_headlines": [
           {
@@ -138,23 +140,23 @@
             "signal": "Risk"
           },
           {
+            "headline": "Breaking Bad actor RJ Mitte dies aged 34",
+            "why_it_matters": "Mitte, who lived with cerebral palsy, starred as Walter White Jr in the Emmy-winning drama series.",
+            "signal": "Risk"
+          },
+          {
             "headline": "South Africa's deputy police chief resigns after being charged with sexual offences",
             "why_it_matters": "Shadrack Sibiya had denied grooming a 16-year-old and raping an 18-year-old.",
             "signal": "Risk"
           },
           {
-            "headline": "Immigration agents search Congresswoman Ilhan Omar's home",
+            "headline": "Immigration agents search congresswoman Ilhan Omar's home",
             "why_it_matters": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
             "signal": "Risk"
           },
           {
             "headline": "Fridges in French supermarkets hit by cyber attack",
             "why_it_matters": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Qantas flight grounded after bedbug outbreak",
-            "why_it_matters": "The flight from Italy to Australia was cancelled after passengers on the plane's previous journey complained of bug bites.",
             "signal": "Risk"
           }
         ],
@@ -188,7 +190,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceasefire #Energy #Abramovichs #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says\n\nWorld Sentiment: Mixed (-0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ceasefire #Energy #Abramovichs #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -199,72 +201,16 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0591,
+        "score": 0.1394,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.098, dampened ×0.6 → -0.0591). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.232, dampened ×0.6 → +0.1394). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
-        {
-          "title": "Stellantis and Renault back UK to get EU car industry protection",
-          "url": "https://www.theguardian.com/business/2026/oct/12/stellantis-renault-uk-eu-car-industry-imports-china",
-          "published": "Mon, 12 Oct 2026 17:22:05 GMT",
-          "summary": "<p>Bosses of Citroën owner and French carmaker also urge UK government to consider limiting imports from China</p><p>Stellantis and Renault have backed the UK car industry for inclusion in proposed rules to protect EU industry, but urged the British government to consider limiting imports of Chinese cars.</p><p>Emanuele Cappellano, who leads Stellantis’s European brands including Fiat, Citroën, Opel and Vauxhall, and François Provost, the chief executive of France’s Renault, said the UK should e",
-          "source": "The Guardian"
-        },
         {
           "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
           "url": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
           "published": "Mon, 12 Oct 2026 14:20:53 GMT",
           "summary": "<p>US economists developed models that help central bankers and finance ministers to stabilise their economies</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Two US economists have won the 2026 Nobel economics prize for their work developing models that help central bankers and finance ministers to st",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
-          "url": "https://www.theguardian.com/world/2026/oct/12/roman-abramovich-aides-paperwork-tax-records-suggest",
-          "published": "Mon, 12 Oct 2026 05:00:46 GMT",
-          "summary": "<p>Accountancy firm Deloitte Cyprus among those that appear to have backdated records outlining the Russian billionaire’s assets</p><p>Aides of Roman Abramovich – including staff at the global accountancy firm Deloitte – falsified paperwork mapping the oligarch’s sprawling offshore business empire, records suggest, helping his businesses dodge tax and disguise assets.</p><p>New analysis of leaked corporate records uncovers what appears to have been a long-running and carefully orchestrated strat",
-          "source": "The Guardian"
-        },
-        {
-          "title": "IFS: budget will be ‘work of fiction’ without clear plan to cover UK’s £35bn spending pressures",
-          "url": "https://www.theguardian.com/business/2026/oct/12/ifs-budget-report-spending-pressures-tax-inflation-john-healey",
-          "published": "Mon, 12 Oct 2026 05:49:11 GMT",
-          "summary": "<p>Thinktank’s influential pre-budget report urges key decisions to be made now and not put off until next year</p><p>John Healey has been warned by Britain’s leading tax and spending experts that his budget risks being a “work of fiction” unless he sets out plans to cover £35bn in spending pressures.</p><p>As the war in the Middle East rattles the public finances, the Institute for Fiscal Studies (IFS) said the damage from higher inflation meant the chancellor would need to either top up funds",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack",
-          "url": "https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u",
-          "published": "Mon, 12 Oct 2026 16:38:36 GMT",
-          "summary": "<p>Hundreds of Intermarché shops and Coopérative U outlets in France hit, with fears Dutch chains also affected</p><p>Hackers have forced the temperature of many French supermarket fridges up to 50C overnight, in an “unprecedented” cyber-attack affecting several hundred stores across the country, with fires and food losses reported.</p><p>The Paris prosecutor’s office said on Monday ⁠the large-scale attack was “affecting connected refrigerators ⁠in several ​major food retailers across France”. R",
-          "source": "The Guardian"
-        },
-        {
-          "title": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts",
-          "url": "https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety",
-          "published": "Sun, 11 Oct 2026 23:01:39 GMT",
-          "summary": "<p>Kanishka Narayan to say Britain cannot rely entirely on tech companies amid rising global concern over AI dangers</p><p>Companies building the most advanced AI systems must increase safety efforts, the UK’s AI minister will say, as he announces a strengthening of Britain’s cyber defences.</p><p>Kanishka Narayan will call on companies developing frontier AI to do more to make sure it is safe. He will say Britain cannot rely entirely on technology companies to police their own models and will a",
-          "source": "The Guardian"
-        },
-        {
-          "title": "UK van drivers face extra £2.5bn in diesel costs this year, figures show",
-          "url": "https://www.theguardian.com/money/2026/oct/12/uk-van-drivers-diesel-costs-fuel-duty",
-          "published": "Mon, 12 Oct 2026 06:00:49 GMT",
-          "summary": "<p>Calls for planned fuel duty rise to be scrapped as analysis finds average fuel bill could hit £1,965, up from £1,294</p><p>Millions of British van drivers face a combined £2.5bn cost to cover the rising price of diesel this year, according to figures, fuelling calls for the government to scrap its planned fuel duty rise.</p><p>The owners of diesel vans and pickups can expect to collectively spend almost £8.5bn at the pump this year, according to analysis for the Guardian, after diesel prices",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Revealed: Nigel Farage adviser had unpublicised role at polling firm",
-          "url": "https://www.theguardian.com/politics/2026/oct/12/nigel-farage-adviser-influential-role-polling-firm-chris-bruni-lowe",
-          "published": "Mon, 12 Oct 2026 13:42:27 GMT",
-          "summary": "<p>Exclusive: Chris Bruni-Lowe used Redfield &amp; Wilton Strategies role to develop potential campaign tactics, sources say</p><p>A close adviser to Nigel Farage had an influential role at a national polling company despite not being publicly associated with the firm, the Guardian can reveal.</p><p>Chris Bruni-Lowe, Farage’s private pollster for many years, played an important role in the operations of Redfield &amp; Wilton Strategies and used it to develop potential campaign strategies, accord",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Time to tell US raider Saba Capital to get lost – again | Nils Pratley",
-          "url": "https://www.theguardian.com/business/2026/oct/12/saba-capital-boaz-weinstein-baillie-gifford-us-growth-trust",
-          "published": "Mon, 12 Oct 2026 13:14:04 GMT",
-          "summary": "<p>Boaz Weinstein’s hedge fund is waging an aggressive campaign against the FTSE 250’s Baillie Gifford US Growth Trust</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Here we go again: another episode in <a href=\"https://www.theguardian.com/business/nils-pratley-on-finance/2026/mar/10/time-for-uk-regul",
           "source": "The Guardian"
         },
         {
@@ -275,70 +221,126 @@
           "source": "The Guardian"
         },
         {
-          "title": "When AI is subject to less regulation than your fridge, something is startlingly wrong | Richard Hermer",
-          "url": "https://www.theguardian.com/commentisfree/2026/oct/12/ai-regulation-fridge-risk-humanity-public-debate-international-law",
-          "published": "Mon, 12 Oct 2026 17:33:41 GMT",
-          "summary": "<p>Let’s be clear: the risk to humanity is unprecedented. Without an urgent public debate and robust use of international law, we will lose control of the future</p><p>In my two years as attorney general, I spent more time working on national security than any other issue. The range and gravity of the threats posed to our nation are multifold, from terrorism, armed conflicts and nuclear proliferation, to the impacts of financial insecurity and the climate crisis. All profound challenges, yet one",
+          "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+          "url": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
+          "published": "Sun, 11 Oct 2026 11:00:25 GMT",
+          "summary": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.</p><p>The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased th",
           "source": "The Guardian"
         },
         {
-          "title": "Labour has got the message – developing nations suffer most from bond market turmoil | Heather Stewart",
-          "url": "https://www.theguardian.com/business/2026/oct/11/labour-bond-market-turmoil-developing-nations-andy-burnham-brown-blair",
-          "published": "Sun, 11 Oct 2026 10:11:19 GMT",
-          "summary": "<p>Just as Brown and Blair did in 2005, Andy Burnham aims to champion debt relief to help developing countries</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/11/developing-nations-triple-shock-energy-crisis-el-nino-borrowing-costs-un-warns\">Developing nations face triple shock, UN warns</a></p></li></ul><p></p><p>From Washington to Paris, London to Tokyo, policymakers in every large economy have been counting the costs of bond market turmoil in recent weeks. But the brunt o",
+          "title": "‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff",
+          "url": "https://www.theguardian.com/us-news/2026/oct/10/tsa-union-agency-checkpoints-chairs",
+          "published": "Sat, 10 Oct 2026 11:00:55 GMT",
+          "summary": "<p>Order for workers to remain standing to ‘reinforce professionalism’ draws rebuke amid plunging morale</p><p>Union officials have launched a campaign to allow airport security staff to sit once more after the Trump administration unilaterally removed all the chairs for Transportation Security Administration (TSA) staff at checkpoints.</p><p>“People are pissed,” said Johnny Jones, secretary-treasurer of American Federation of Government Employees (AFGE) TSA council 100 and president of AFGE loc",
+          "source": "The Guardian"
+        },
+        {
+          "title": "United Auto Workers president Shawn Fain easily wins re-election",
+          "url": "https://www.theguardian.com/us-news/2026/oct/10/uaw-president-shawn-fain-wins-re-election",
+          "published": "Sat, 10 Oct 2026 13:46:49 GMT",
+          "summary": "<p>Fain was dogged by investigation but still decisively beat challenger Rich Boyer, who received just 13% of vote </p><p>The president of the United Auto Workers, Shawn Fain, has <a href=\"https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTIP_HdzfhEkH5bCpdbp3eHL8jzvTPkuNSGilo6IYdL9xKYrDI6_LBJ7KOrCV4O56JJAMqXbi4Y9eTJ/pubhtml\">easily won</a> his re-election bid after an campaign period marred by accusations of corruption and election interference.</p><p>The union’s election of leadership for a",
+          "source": "The Guardian"
+        },
+        {
+          "title": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
+          "url": "https://www.theguardian.com/world/2026/oct/09/flock-job-cuts",
+          "published": "Fri, 09 Oct 2026 19:46:53 GMT",
+          "summary": "<p>Company, which grown rapidly in recent years, has been under scrutiny as privacy concerns grow</p><p>Flock Safety plans to shed about 18% of its employees, people with direct ⁠knowledge of the plans said on Thursday, as the maker of <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>-powered <a href=\"https://www.theguardian.com/world/surveillance\">surveillance</a> cameras and license-plate readers faces <a href=\"https://www.theguardian.com/us-news/2026/sep/25/flor",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump establishes committee to investigate Fed governor Lisa Cook",
+          "url": "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor",
+          "published": "Fri, 09 Oct 2026 18:05:12 GMT",
+          "summary": "<p>US president renews his efforts to oust Cook despite supreme court ruling that her firing was unconstitutional</p><p>Donald Trump announced on Friday that he is establishing a committee to investigate Lisa Cook, the US Federal Reserve governor, over allegations that she committed mortgage fraud, renewing his efforts to oust her despite <a href=\"https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-lisa-cook-ruling\">a June supreme court ruling</a> that her earlier firing was unco",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump immigrant purge could cut social security for Americans by $2,000 a year",
+          "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-immigration-cost-social-security",
+          "published": "Fri, 09 Oct 2026 12:00:28 GMT",
+          "summary": "<p>New report on economic cost of anti-immigration campaign projects 8.6% reduction in retirement payments by 2034</p><p>Elderly Americans can expect to lose an average of $2,152 in annual social security benefits each, a projected 8.6% reduction in their retirement payments, by 2034 and every year after as a direct consequence of the economic fallout from the Trump administration’s <a href=\"https://www.theguardian.com/us-news/series/ice-2-0-inside-trumps-new-immigration-dragnet\">anti-immigratio",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Oil prices jump 5% on Middle East tensions and US hurricane threat",
+          "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+          "published": "Thu, 08 Oct 2026 11:11:47 GMT",
+          "summary": "<p>Global bond market sell-off continues and stocks fall amid reports White House has asked to see options for more strikes against Iran</p><p>Oil prices have risen sharply amid fears about escalating tensions in the Middle East and a squeeze on production from the threat of a hurricane off the US coast.</p><p>Brent crude, the international benchmark, rose by 5% to $105.3 a barrel on Thursday, triggering a wave of selling in the global bond and stock markets.</p> <a href=\"https://www.theguardian",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘People are feeling the real impacts’: influencers are targeting private equity with satire and rage",
+          "url": "https://www.theguardian.com/us-news/2026/oct/09/anti-private-equity-comedy-influencers",
+          "published": "Fri, 09 Oct 2026 11:00:26 GMT",
+          "summary": "<p>Skits and parodies making fun of the trillion-dollar industry have taken over social media, racking up millions of views</p><p>Johnny Hilbrant Partridge kept getting stuck next to the same kind of finance guy at weddings – the one bragging about his family’s full-time nanny and lavish vacations while<strong> </strong>name-dropping elite club memberships and private schools.</p><p>To Partridge, a former fitness instructor, their shameless knack for self-promotion felt ripe for comedy. Using a",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Millionaire tax no more? Rightwing groups lead effort to repeal Washington state law",
+          "url": "https://www.theguardian.com/us-news/2026/oct/07/washington-state-millionaire-tax",
+          "published": "Wed, 07 Oct 2026 11:00:09 GMT",
+          "summary": "<p>An initiative on November’s ballot aims to overturn the 9.9% tax on earnings above $1m – who’s winning the fight? </p><p>Voters in Washington state will soon decide the fate of the state’s so-called “<a href=\"https://senatedemocrats.wa.gov/millionaires-tax-faq/\">millionaire tax</a>” – a 9.9% income tax on earnings above $1m that was <a href=\"https://governor.wa.gov/news/2026/governor-ferguson-signs-millionaires-tax-law\">signed</a> into law in March and is now facing a conservative-backed effo",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The American dream remains elusive in the valley that inspired East of Eden",
+          "url": "https://www.theguardian.com/us-news/2026/oct/03/salinas-california-john-steinbeck",
+          "published": "Sat, 03 Oct 2026 09:00:54 GMT",
+          "summary": "<p>John Steinbeck’s hometown of Salinas is the least affordable city in the US for the middle class, a recent Brookings Institution analysis found </p><p>Nestled between two mountain ranges at the crook of central California’s coastline sits a valley known as the “salad bowl of the world”.</p><p>Farm workers stoop over neatly lined rows of crops off Highway 101 to harvest more than half of the nation’s supply of lettuce and nearly a third of its strawberries. The soil here is so rich that author",
           "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Stellantis and Renault back UK to get EU car industry protection.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.059). Top story: Stellantis and Renault back UK to get EU car industry protection.",
+        "key_takeaway": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.139). Top story: Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises.",
         "key_themes": [
-          "Stellantis and Renault back UK to get EU car industry protection",
           "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
-          "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
-          "IFS: budget will be ‘work of fiction’ without clear plan to cover UK’s £35bn spending pressures",
-          "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack"
+          "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+          "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+          "‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff",
+          "United Auto Workers president Shawn Fain easily wins re-election"
         ],
         "notable_headlines": [
           {
-            "headline": "Stellantis and Renault back UK to get EU car industry protection",
-            "why_it_matters": "<p>Bosses of Citroën owner and French carmaker also urge UK government to consider limiting imports from China</p><p>Stellantis and Renault have backed the UK car industry for inclusion in proposed rules to protect EU in…",
-            "signal": "Unclear"
-          },
-          {
             "headline": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
             "why_it_matters": "<p>US economists developed models that help central bankers and finance ministers to stabilise their economies</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oi…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
-            "headline": "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
-            "why_it_matters": "<p>Accountancy firm Deloitte Cyprus among those that appear to have backdated records outlining the Russian billionaire’s assets</p><p>Aides of Roman Abramovich – including staff at the global accountancy firm Deloitte –…",
-            "signal": "Unclear"
+            "headline": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+            "why_it_matters": "<p>Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineries</p><ul><li><p><a href=\"https://www.theguardian.com/world/2…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "IFS: budget will be ‘work of fiction’ without clear plan to cover UK’s £35bn spending pressures",
-            "why_it_matters": "<p>Thinktank’s influential pre-budget report urges key decisions to be made now and not put off until next year</p><p>John Healey has been warned by Britain’s leading tax and spending experts that his budget risks being …",
-            "signal": "Unclear"
+            "headline": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+            "why_it_matters": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reaga…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack",
-            "why_it_matters": "<p>Hundreds of Intermarché shops and Coopérative U outlets in France hit, with fears Dutch chains also affected</p><p>Hackers have forced the temperature of many French supermarket fridges up to 50C overnight, in an “unp…",
-            "signal": "Unclear"
+            "headline": "‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff",
+            "why_it_matters": "<p>Order for workers to remain standing to ‘reinforce professionalism’ draws rebuke amid plunging morale</p><p>Union officials have launched a campaign to allow airport security staff to sit once more after the Trump adm…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts",
-            "why_it_matters": "<p>Kanishka Narayan to say Britain cannot rely entirely on tech companies amid rising global concern over AI dangers</p><p>Companies building the most advanced AI systems must increase safety efforts, the UK’s AI ministe…",
-            "signal": "Unclear"
+            "headline": "United Auto Workers president Shawn Fain easily wins re-election",
+            "why_it_matters": "<p>Fain was dogged by investigation but still decisively beat challenger Rich Boyer, who received just 13% of vote </p><p>The president of the United Auto Workers, Shawn Fain, has <a href=\"https://docs.google.com/spreads…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "UK van drivers face extra £2.5bn in diesel costs this year, figures show",
-            "why_it_matters": "<p>Calls for planned fuel duty rise to be scrapped as analysis finds average fuel bill could hit £1,965, up from £1,294</p><p>Millions of British van drivers face a combined £2.5bn cost to cover the rising price of diese…",
-            "signal": "Unclear"
+            "headline": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
+            "why_it_matters": "<p>Company, which grown rapidly in recent years, has been under scrutiny as privacy concerns grow</p><p>Flock Safety plans to shed about 18% of its employees, people with direct ⁠knowledge of the plans said on Thursday, …",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Revealed: Nigel Farage adviser had unpublicised role at polling firm",
-            "why_it_matters": "<p>Exclusive: Chris Bruni-Lowe used Redfield &amp; Wilton Strategies role to develop potential campaign tactics, sources say</p><p>A close adviser to Nigel Farage had an influential role at a national polling company des…",
-            "signal": "Unclear"
+            "headline": "Trump establishes committee to investigate Fed governor Lisa Cook",
+            "why_it_matters": "<p>US president renews his efforts to oust Cook despite supreme court ruling that her firing was unconstitutional</p><p>Donald Trump announced on Friday that he is establishing a committee to investigate Lisa Cook, the U…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Trump immigrant purge could cut social security for Americans by $2,000 a year",
+            "why_it_matters": "<p>New report on economic cost of anti-immigration campaign projects 8.6% reduction in retirement payments by 2034</p><p>Elderly Americans can expect to lose an average of $2,152 in annual social security benefits each, …",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -353,10 +355,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Stellantis and Renault back UK to get EU car industry protection",
             "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
-            "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
-            "IFS: budget will be ‘work of fiction’ without clear plan to cover UK’s £35bn spending pressures"
+            "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+            "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+            "‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff"
           ],
           "confidence": "Medium"
         },
@@ -367,11 +369,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary stellantis",
+          "latest news summary nobel",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Stellantis and Renault back UK to get EU car industry protection\n\nBusiness Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Work #25bn #35bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises\n\nBusiness Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Trumps #2000 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
