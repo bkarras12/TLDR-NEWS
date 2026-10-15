@@ -1,0 +1,920 @@
+{
+  "date": "2026-10-15",
+  "generated_at_utc": "2026-10-15T07:52:50Z",
+  "timezone": "America/Denver",
+  "model": "gpt-4o-mini",
+  "trending_topics": [
+    "white",
+    "states",
+    "since",
+    "share",
+    "prices",
+    "inflation",
+    "house",
+    "behind",
+    "australias"
+  ],
+  "categories": {
+    "world": {
+      "key": "world",
+      "title": "World",
+      "source": {
+        "site_name": "BBC News",
+        "site_url": "https://www.bbc.com/news",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+      },
+      "sentiment": {
+        "score": -0.0364,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.061, dampened ×0.6 → -0.0364). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 15 Oct 2026 04:30:08 GMT",
+          "summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Student protesters attack government buildings in Albania",
+          "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 14 Oct 2026 20:29:05 GMT",
+          "summary": "Buildings were set alight on the second day of demonstrations from thousands of students who want better university conditions and job prospects.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 15 Oct 2026 02:26:07 GMT",
+          "summary": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
+          "source": "BBC News"
+        },
+        {
+          "title": "White House defends new press secretary amid questions about her legal credentials",
+          "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 15 Oct 2026 03:03:16 GMT",
+          "summary": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
+          "url": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 15 Oct 2026 03:26:36 GMT",
+          "summary": "Thick orange smog descended on the Indonesian city of Palangka Raya as wildfires continue raging nearby.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Inside Brooklyn novelty shop at centre of 'surreal' row with Kelly Clarkson over mechanical bird",
+          "url": "https://www.bbc.co.uk/news/articles/cxvgdneplgzeo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 14 Oct 2026 22:19:13 GMT",
+          "summary": "Art of Play says its staff have been threatened after the singer complained online about how she was treated.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Sally Rooney books withdrawn in UK over Palestine Action support",
+          "url": "https://www.bbc.co.uk/news/articles/cmx23q4g307vo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 14 Oct 2026 16:56:21 GMT",
+          "summary": "The Irish writer is best known for novels such as Normal People, Intermezzo and Conversations With Friends.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 15 Oct 2026 07:20:45 GMT",
+          "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 14 Oct 2026 16:47:32 GMT",
+          "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
+          "url": "https://www.bbc.co.uk/news/articles/crje5we583qwo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 14 Oct 2026 22:31:10 GMT",
+          "summary": "All of the spots are in South Australia, reportedly because the state government paid for incognito inspectors to visit.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Hundreds of thousands of workers on strike across Republic of Ireland",
+          "url": "https://www.bbc.co.uk/news/articles/cjn5vxlrgqn4o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 14 Oct 2026 14:18:18 GMT",
+          "summary": "It comes amidst an an ongoing pay dispute between public sector workers and the Irish government.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US inflation rises more than expected - here's what is happening with prices",
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 14 Oct 2026 15:26:14 GMT",
+          "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
+          "source": "BBC News"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Musk says US government may be behind slowdown of Ukraine drone speeds.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.036). Top story: Musk says US government may be behind slowdown of Ukraine drone speeds.",
+        "key_themes": [
+          "Musk says US government may be behind slowdown of Ukraine drone speeds",
+          "Student protesters attack government buildings in Albania",
+          "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+          "White House defends new press secretary amid questions about her legal credentials",
+          "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+            "why_it_matters": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Student protesters attack government buildings in Albania",
+            "why_it_matters": "Buildings were set alight on the second day of demonstrations from thousands of students who want better university conditions and job prospects.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+            "why_it_matters": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "White House defends new press secretary amid questions about her legal credentials",
+            "why_it_matters": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
+            "why_it_matters": "Thick orange smog descended on the Indonesian city of Palangka Raya as wildfires continue raging nearby.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Inside Brooklyn novelty shop at centre of 'surreal' row with Kelly Clarkson over mechanical bird",
+            "why_it_matters": "Art of Play says its staff have been threatened after the singer complained online about how she was treated.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Sally Rooney books withdrawn in UK over Palestine Action support",
+            "why_it_matters": "The Irish writer is best known for novels such as Normal People, Intermezzo and Conversations With Friends.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Anthropic flags revenue surge to investors ahead of stock market debut",
+            "why_it_matters": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "Musk says US government may be behind slowdown of Ukraine drone speeds",
+            "Student protesters attack government buildings in Albania",
+            "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+            "White House defends new press secretary amid questions about her legal credentials"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's neutral news headlines",
+          "latest news summary musk",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "World: Musk says US government may be behind slowdown of Ukraine drone speeds\n\nWorld Sentiment: Neutral (-0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Government #Action #Ahead #WorldNews #BreakingNews #News #Headlines #Trending"
+    },
+    "business": {
+      "key": "business",
+      "title": "Business",
+      "source": {
+        "site_name": "The Guardian",
+        "site_url": "https://www.theguardian.com/business",
+        "feed_url": "https://www.theguardian.com/business/rss"
+      },
+      "sentiment": {
+        "score": -0.1135,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.189, dampened ×0.6 → -0.1135). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "US inflation rose to 3.7% in September in blow to Republicans before midterms",
+          "url": "https://www.theguardian.com/business/2026/oct/14/inflation-numbers-september",
+          "published": "Wed, 14 Oct 2026 14:29:42 GMT",
+          "summary": "<p>Final inflation report before voters go to polls comes amid widespread anger over cost of living under Trump</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/08/economy-midterm-elections-tell-us\">Send us your questions on how the US economy is shaping the midterm elections</a></p></li></ul><p><a href=\"https://www.theguardian.com/us-news/republicans\">Republicans</a> are entering the midterm elections with the highest rate of <a href=\"https://www.theguardian.com/business/inf",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Bank of America fined $1.2bn for money-laundering failures",
+          "url": "https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering",
+          "published": "Wed, 14 Oct 2026 11:54:29 GMT",
+          "summary": "<p>Third-largest fine in US treasury’s history, due to failure to report suspicious activity, may affect third-quarter earnings</p><p><a href=\"https://www.theguardian.com/business/bank-of-america\">Bank of America</a> (BAC.N), has been fined $1.21bn by US regulators for widespread failures to detect ‌potential money laundering and other illicit activity, a penalty the bank said will hurt third-quarter earnings.</p><p>The US treasury department said the fine, the third-largest in department histor",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
+          "url": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
+          "published": "Wed, 14 Oct 2026 04:34:29 GMT",
+          "summary": "<p>District court judge Timothy Kelly was ruling after Trump administration blocked access to three outlets last month</p><p>A federal judge ordered the White House on Tuesday to continue allowing journalists from CNN, MS Now and Politico to access the building as the media coalition’s lawsuit against the Trump administration plays out.</p><p>Timothy Kelly, a district court judge, had on 24 September <a href=\"https://www.nytimes.com/interactive/2026/09/24/us/politics/cnn-msnow-politico-trump-res",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "published": "Tue, 13 Oct 2026 12:30:01 GMT",
+          "summary": "<p>High valuations and debt put sector in danger, while fund also warns on government borrowing and cyber-attacks</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026\">IMF warns global economy ‘could soon test the limits of resilience’</a></p></li></ul><p>The threat of an AI share price crash rippling out across global markets is putting world financial stability at risk, the International Monetary fund has warned.",
+          "source": "The Guardian"
+        },
+        {
+          "title": "BBC asks judge to force Trump to sit for deposition as part of his $10bn lawsuit",
+          "url": "https://www.theguardian.com/media/2026/oct/13/bbc-trump-lawsuit-deposition",
+          "published": "Tue, 13 Oct 2026 20:49:53 GMT",
+          "summary": "<p>BBC asks US federal judge to compel Trump’s lawyers to schedule deposition after his team canceled initial session</p><p>The BBC is asking a federal judge in <a href=\"https://www.theguardian.com/us-news/florida\">Florida</a> to force <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> to sit for a deposition as part of the president’s $10bn defamation lawsuit against the British broadcaster.</p><p>According to a Tuesday filing, the BBC and Trump’s legal team had agreed f",
+          "source": "The Guardian"
+        },
+        {
+          "title": "​FTC and seven states seek contempt ruling against Shkreli over pharma ban",
+          "url": "https://www.theguardian.com/us-news/2026/oct/13/martin-shkreli-ftc-ruling-pharma-ban",
+          "published": "Tue, 13 Oct 2026 16:54:11 GMT",
+          "summary": "<p>Martin Shkreli’s 2022 release conditions bar him from participating in the pharmaceutical industry, including ownership stakes or business decisions</p><p>The Federal Trade Commission (FTC) and seven US states have alleged that pharmaceutical executive Martin Shkreli repeatedly violated a <a href=\"https://www.theguardian.com/us-news/2022/jan/14/martin-shkreli-barred-drug-industry-fined-us-court\">lifetime ban</a> on participating in the pharmaceutical industry, and they are asking a judge to h",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+          "url": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+          "published": "Mon, 12 Oct 2026 14:20:53 GMT",
+          "summary": "<p>US economists developed models that help central bankers and finance ministers to stabilise their economies</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Two US economists have won the 2026 Nobel economics prize for their work developing models that help central bankers and finance ministers to st",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+          "url": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices",
+          "published": "Sun, 11 Oct 2026 15:56:25 GMT",
+          "summary": "<p>Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineries</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire\">Trump announces partial ceasefire but Zelenskyy says deal is ‘news to me’</a></p></li></ul><p>Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions on US imports of Russian diesel will have little “meanin",
+          "source": "The Guardian"
+        },
+        {
+          "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+          "url": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
+          "published": "Sun, 11 Oct 2026 11:00:25 GMT",
+          "summary": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.</p><p>The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased th",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Is punishing the poor Trump’s last hand to play?",
+          "url": "https://www.theguardian.com/us-news/2026/oct/13/trump-aca-healthcare-politics-midterms",
+          "published": "Tue, 13 Oct 2026 11:00:56 GMT",
+          "summary": "<p>The pre-midterm defenestration of ACA enrollees looks like political madness – but the president appears to believe hitting poor people might work for him</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/08/economy-midterm-elections-tell-us\">Send us your questions on how the US economy is shaping the midterm elections</a></p></li></ul><p>There is a manic quality to <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>’s desperate dash to do something,",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘People are feeling the real impacts’: influencers are targeting private equity with satire and rage",
+          "url": "https://www.theguardian.com/us-news/2026/oct/09/anti-private-equity-comedy-influencers",
+          "published": "Fri, 09 Oct 2026 11:00:26 GMT",
+          "summary": "<p>Skits and parodies making fun of the trillion-dollar industry have taken over social media, racking up millions of views</p><p>Johnny Hilbrant Partridge kept getting stuck next to the same kind of finance guy at weddings – the one bragging about his family’s full-time nanny and lavish vacations while<strong> </strong>name-dropping elite club memberships and private schools.</p><p>To Partridge, a former fitness instructor, their shameless knack for self-promotion felt ripe for comedy. Using a",
+          "source": "The Guardian"
+        },
+        {
+          "title": "The American dream remains elusive in the valley that inspired East of Eden",
+          "url": "https://www.theguardian.com/us-news/2026/oct/03/salinas-california-john-steinbeck",
+          "published": "Sat, 03 Oct 2026 09:00:54 GMT",
+          "summary": "<p>John Steinbeck’s hometown of Salinas is the least affordable city in the US for the middle class, a recent Brookings Institution analysis found </p><p>Nestled between two mountain ranges at the crook of central California’s coastline sits a valley known as the “salad bowl of the world”.</p><p>Farm workers stoop over neatly lined rows of crops off Highway 101 to harvest more than half of the nation’s supply of lettuce and nearly a third of its strawberries. The soil here is so rich that author",
+          "source": "The Guardian"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "US inflation rose to 3.7% in September in blow to Republicans before midterms.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.114). Top story: US inflation rose to 3.7% in September in blow to Republicans before midterms.",
+        "key_themes": [
+          "US inflation rose to 3.7% in September in blow to Republicans before midterms",
+          "Bank of America fined $1.2bn for money-laundering failures",
+          "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
+          "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "BBC asks judge to force Trump to sit for deposition as part of his $10bn lawsuit"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "US inflation rose to 3.7% in September in blow to Republicans before midterms",
+            "why_it_matters": "<p>Final inflation report before voters go to polls comes amid widespread anger over cost of living under Trump</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/08/economy-midterm-elections-tell-us\">S…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Bank of America fined $1.2bn for money-laundering failures",
+            "why_it_matters": "<p>Third-largest fine in US treasury’s history, due to failure to report suspicious activity, may affect third-quarter earnings</p><p><a href=\"https://www.theguardian.com/business/bank-of-america\">Bank of America</a> (BA…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
+            "why_it_matters": "<p>District court judge Timothy Kelly was ruling after Trump administration blocked access to three outlets last month</p><p>A federal judge ordered the White House on Tuesday to continue allowing journalists from CNN, M…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Threat of AI share crash puts world financial stability at risk, says IMF",
+            "why_it_matters": "<p>High valuations and debt put sector in danger, while fund also warns on government borrowing and cyber-attacks</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "BBC asks judge to force Trump to sit for deposition as part of his $10bn lawsuit",
+            "why_it_matters": "<p>BBC asks US federal judge to compel Trump’s lawyers to schedule deposition after his team canceled initial session</p><p>The BBC is asking a federal judge in <a href=\"https://www.theguardian.com/us-news/florida\">Flori…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "​FTC and seven states seek contempt ruling against Shkreli over pharma ban",
+            "why_it_matters": "<p>Martin Shkreli’s 2022 release conditions bar him from participating in the pharmaceutical industry, including ownership stakes or business decisions</p><p>The Federal Trade Commission (FTC) and seven US states have al…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+            "why_it_matters": "<p>US economists developed models that help central bankers and finance ministers to stabilise their economies</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oi…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+            "why_it_matters": "<p>Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineries</p><ul><li><p><a href=\"https://www.theguardian.com/world/2…",
+            "signal": "Risk"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "US inflation rose to 3.7% in September in blow to Republicans before midterms",
+            "Bank of America fined $1.2bn for money-laundering failures",
+            "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
+            "Threat of AI share crash puts world financial stability at risk, says IMF"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary us",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Business: US inflation rose to 3.7% in September in blow to Republicans before midterms\n\nBusiness Sentiment: Mixed (-0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Judge #10bn #12bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "technology": {
+      "key": "technology",
+      "title": "Technology",
+      "source": {
+        "site_name": "The Verge",
+        "site_url": "https://www.theverge.com",
+        "feed_url": "https://www.theverge.com/rss/index.xml"
+      },
+      "sentiment": {
+        "score": 0.2145,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.358, dampened ×0.6 → +0.2145). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "McKinsey is making job applicants spar with a fake AI client",
+          "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+          "published": "2026-10-14T18:53:31-04:00",
+          "summary": "Consulting firm McKinsey &#38; Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,\" the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The best feature of Apple’s HomeView might be its simplicity",
+          "url": "https://www.theverge.com/tech/1011431/apple-homeview-smart-display-best-feature",
+          "published": "2026-10-14T18:00:02-04:00",
+          "summary": "I'm just going to come right out and say it. I love the approach Apple has taken with the HomeView. I think it's the shared, always-available household interface that my family might finally use. Is Apple's first smart display my dream smart home dashboard? No. But is it the right product for Apple Home at [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+          "published": "2026-10-14T17:11:28-04:00",
+          "summary": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Microsoft and Japan took down a cybercrime network behind over a billion scam messages",
+          "url": "https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown",
+          "published": "2026-10-14T16:03:43-04:00",
+          "summary": "We've all gotten a scam text about a nonexistent parking ticket or a fake package delivery, but hopefully you'll start seeing fewer of them. Microsoft says it helped dismantle a marketplace for scammers sending phishing messages like those around the world. Through an investigation with Japan's National Police Agency, it tracked scam activity back to [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The AI race is back on",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+          "published": "2026-10-14T15:06:03-04:00",
+          "summary": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
+          "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+          "published": "2026-10-14T14:47:54-04:00",
+          "summary": "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. James is among 40 bipartisan AGs who filed a notice of interest in Character.AI's bankruptcy case \"to put all parties on notice of the regulatory issues that [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "As a TV enthusiast, I was hoping for more from the Apple TV 4K",
+          "url": "https://www.theverge.com/tech/1011324/apple-tv-4k-missed-features",
+          "published": "2026-10-14T14:38:59-04:00",
+          "summary": "It's been four long years since the last Apple TV 4K was released, and in that time there have been lots of hopes and dreams for features in whatever comes next. A new chip, 4K/120Hz support, audio passthrough, a remote locator, better home control integration - the 2022 Apple TV 4K is a great box, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "YouTube sticks new labels on AI-generated songs",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+          "published": "2026-10-14T14:22:56-04:00",
+          "summary": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply to any and all use of AI tools in making music, but according to YouTube, it [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Save up to 20 percent on gift cards for REI, Barnes &#038; Noble, and more",
+          "url": "https://www.theverge.com/gadgets/1010749/google-play-gift-card-deal-sale",
+          "published": "2026-10-14T14:20:55-04:00",
+          "summary": "While we cover a lot of deals on specific products, it’s rare that we find worthwhile savings on gift cards that let you save on essentially anything the store sells. However, until October 19th, you can save up to twenty percent on gift cards when you buy them through the Google Play store. There are [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple&#8217;s new HomeView smart display is $10 cheaper at Amazon",
+          "url": "https://www.theverge.com/gadgets/1011227/apple-homeview-smart-display-deal-sale",
+          "published": "2026-10-14T13:24:42-04:00",
+          "summary": "Apple only just announced on Tuesday that its first smart display, the HomeView, will arrive on November 13th, but you can already save a couple bucks on it. Right now, you can buy the display for $289.99 ($10 off) in gray and the creamy white “starlight” colorway at Amazon. Sure, it’s a small discount, but [&#8230;]",
+          "source": "The Verge"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "McKinsey is making job applicants spar with a fake AI client.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.214). Top story: McKinsey is making job applicants spar with a fake AI client.",
+        "key_themes": [
+          "McKinsey is making job applicants spar with a fake AI client",
+          "The best feature of Apple’s HomeView might be its simplicity",
+          "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+          "Microsoft and Japan took down a cybercrime network behind over a billion scam messages",
+          "The AI race is back on"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "McKinsey is making job applicants spar with a fake AI client",
+            "why_it_matters": "Consulting firm McKinsey &#38; Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The best feature of Apple’s HomeView might be its simplicity",
+            "why_it_matters": "I'm just going to come right out and say it. I love the approach Apple has taken with the HomeView. I think it's the shared, always-available household interface that my family might finally use. Is Apple's first smart d…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+            "why_it_matters": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separatel…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Microsoft and Japan took down a cybercrime network behind over a billion scam messages",
+            "why_it_matters": "We've all gotten a scam text about a nonexistent parking ticket or a fake package delivery, but hopefully you'll start seeing fewer of them. Microsoft says it helped dismantle a marketplace for scammers sending phishing …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The AI race is back on",
+            "why_it_matters": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
+            "why_it_matters": "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. James is among…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "As a TV enthusiast, I was hoping for more from the Apple TV 4K",
+            "why_it_matters": "It's been four long years since the last Apple TV 4K was released, and in that time there have been lots of hopes and dreams for features in whatever comes next. A new chip, 4K/120Hz support, audio passthrough, a remote …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "YouTube sticks new labels on AI-generated songs",
+            "why_it_matters": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply …",
+            "signal": "Opportunity"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "McKinsey is making job applicants spar with a fake AI client",
+            "The best feature of Apple’s HomeView might be its simplicity",
+            "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+            "Microsoft and Japan took down a cybercrime network behind over a billion scam messages"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary mckinsey",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Technology: McKinsey is making job applicants spar with a fake AI client\n\nTechnology Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Aigenerated #Apple #Apples #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "sports": {
+      "key": "sports",
+      "title": "Sports",
+      "source": {
+        "site_name": "ESPN",
+        "site_url": "https://www.espn.com",
+        "feed_url": "https://www.espn.com/espn/rss/news"
+      },
+      "sentiment": {
+        "score": 0.0366,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.061, dampened ×0.6 → +0.0366). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "The AL shuts out the NL to win the All-Star Game! ...",
+          "url": "https://www.espn.com/mlb/story/_/id/49355726/mlb-all-star-game-2026-predictions-live-updates-analysis-takeaways",
+          "published": "Tue, 14 Jul 2026 23:48:11 EST",
+          "summary": "Baseball's best came to play. Relive all the action from the American League's dominant victory over the National League.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Cease, 10 AL relievers silence NL in 15-K shutout",
+          "url": "https://www.espn.com/mlb/story/_/id/49364253/cease-bullpen-silence-nl-15-k-shutout-al-wins-all-star-game",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Starting pitcher Dylan Cease combined with 10 relievers in a dominant three-hit, 15-strikeout shutout of the National League in a 4-0 win in Tuesday night's All-Star Game.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Silver: Kawhi probe must end before season starts",
+          "url": "https://www.espn.com/nba/story/_/id/49364590/silver-kawhi-leonard-probe-finish-season-starts",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Adam Silver acknowledged that the investigation into Kawhi Leonard for alleged cap circumvention must conclude before the start of next season.",
+          "source": "ESPN"
+        },
+        {
+          "title": "AL 3B Caminero hit by pitch, exits in 3rd inning",
+          "url": "https://www.espn.com/mlb/story/_/id/49363719/al-3b-junior-caminero-hit-pitch-exits-third-inning",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhouse, X-rays came back negative.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Mbappé critical of tactics in loss by 'sloppy' Fra...",
+          "url": "https://www.espn.com/soccer/story/_/id/49362319/kylian-mbappe-critical-tactics-sloppy-france-loss",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Kylian Mbappé seemed to question Didier Deschamps' approach and tactics after France's 2-0 defeat to Spain in the FIFA World Cup semifinal Tuesday.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Maxey-led 76ers trio has talked to LeBron...",
+          "url": "https://www.espn.com/nba/story/_/id/49362336/76ers-tyrese-maxey-joel-embiid-jaylen-brown-communication-lebron-james-amid-pursuit",
+          "published": "Wed, 15 Jul 2026 00:59:12 EST",
+          "summary": "76ers stars Tyrese Maxey, Joel Embiid and Jaylen Brown have all been in communication with LeBron James amid the team's pursuit, sources told ESPN on Tuesday, with Maxey leading the charge.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Fan fired for alleged racist message to Aces' Gray...",
+          "url": "https://www.espn.com/wnba/story/_/id/49362546/fan-fired-alleged-racist-message-aces-chelsea-gray",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Hilton Grand Vacations said Tuesday that it has fired a man who allegedly sent a racist message to Aces guard Chelsea Gray on social media.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: No. 1 pick Cholowsky gets record bonus",
+          "url": "https://www.espn.com/mlb/story/_/id/49361630/no-1-pick-roch-cholowsky-gets-record-1035m-bonus-white-sox",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Roch Cholowsky, the No. 1 pick in the MLB draft, has reportedly agreed to a contract with the White Sox that includes a record-breaking $10.35M signing bonus.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Matt Freese: USMNT criticism 'hurts my heart'",
+          "url": "https://www.espn.com/soccer/story/_/id/49361949/matt-freese-criticism-usmnt-world-cup-play-hurts-my-heart",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "USMNT goalkeeper Matt Freese said he felt hurt by the backlash following the elimination from the 2026 World Cup after losing 4-1 to Belgium in the round of 16.",
+          "source": "ESPN"
+        },
+        {
+          "title": "⚾ Red Sox win streak since Jaylen Brown trade",
+          "url": "https://www.espn.com/mlb/story/_/id/49359997/boston-red-sox-celtics-jaylen-brown-trade",
+          "published": "Wed, 15 Jul 2026 00:59:11 EST",
+          "summary": "Trading the star guard has been painful for Boston sports fans, but something unexpected happened -- the Red Sox haven't stopped winning since.",
+          "source": "ESPN"
+        },
+        {
+          "title": "World Cup favorites France unravel as Spain book s...",
+          "url": "https://www.espn.com/soccer/story/_/id/49361910/world-cup-favorites-france-unravel-spain-book-spot-final-ease",
+          "published": "Tue, 14 Jul 2026 19:51:42 EST",
+          "summary": "Spain have sealed their place in the 2026 World Cup final, but why did France collapse so easily?",
+          "source": "ESPN"
+        },
+        {
+          "title": "France-Spain player ratings: Porro, Rodri earn hig...",
+          "url": "https://www.espn.com/soccer/story/_/id/49361775/france-spain-player-ratings-porro-rodri-earn-high-marks-mbappe-fails-make-impact-2026-world-cup",
+          "published": "Tue, 14 Jul 2026 19:51:42 EST",
+          "summary": "Spain received strong performances up and down the lineup as they beat France to make the World Cup final.",
+          "source": "ESPN"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "The AL shuts out the NL to win the All-Star Game! ....",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.037). Top story: The AL shuts out the NL to win the All-Star Game! ....",
+        "key_themes": [
+          "The AL shuts out the NL to win the All-Star Game! ...",
+          "Cease, 10 AL relievers silence NL in 15-K shutout",
+          "Silver: Kawhi probe must end before season starts",
+          "AL 3B Caminero hit by pitch, exits in 3rd inning",
+          "Mbappé critical of tactics in loss by 'sloppy' Fra..."
+        ],
+        "notable_headlines": [
+          {
+            "headline": "The AL shuts out the NL to win the All-Star Game! ...",
+            "why_it_matters": "Baseball's best came to play. Relive all the action from the American League's dominant victory over the National League.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Cease, 10 AL relievers silence NL in 15-K shutout",
+            "why_it_matters": "Starting pitcher Dylan Cease combined with 10 relievers in a dominant three-hit, 15-strikeout shutout of the National League in a 4-0 win in Tuesday night's All-Star Game.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Silver: Kawhi probe must end before season starts",
+            "why_it_matters": "Adam Silver acknowledged that the investigation into Kawhi Leonard for alleged cap circumvention must conclude before the start of next season.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "AL 3B Caminero hit by pitch, exits in 3rd inning",
+            "why_it_matters": "In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhous…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Mbappé critical of tactics in loss by 'sloppy' Fra...",
+            "why_it_matters": "Kylian Mbappé seemed to question Didier Deschamps' approach and tactics after France's 2-0 defeat to Spain in the FIFA World Cup semifinal Tuesday.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Sources: Maxey-led 76ers trio has talked to LeBron...",
+            "why_it_matters": "76ers stars Tyrese Maxey, Joel Embiid and Jaylen Brown have all been in communication with LeBron James amid the team's pursuit, sources told ESPN on Tuesday, with Maxey leading the charge.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Fan fired for alleged racist message to Aces' Gray...",
+            "why_it_matters": "Hilton Grand Vacations said Tuesday that it has fired a man who allegedly sent a racist message to Aces guard Chelsea Gray on social media.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Sources: No. 1 pick Cholowsky gets record bonus",
+            "why_it_matters": "Roch Cholowsky, the No. 1 pick in the MLB draft, has reportedly agreed to a contract with the White Sox that includes a record-breaking $10.35M signing bonus.",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "The AL shuts out the NL to win the All-Star Game! ...",
+            "Cease, 10 AL relievers silence NL in 15-K shutout",
+            "Silver: Kawhi probe must end before season starts",
+            "AL 3B Caminero hit by pitch, exits in 3rd inning"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's neutral news headlines",
+          "latest news summary the",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Sports: The AL shuts out the NL to win the All-Star Game! ...\n\nSports Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #76ers #Aces #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "science": {
+      "key": "science",
+      "title": "Science",
+      "source": {
+        "site_name": "ScienceDaily",
+        "site_url": "https://www.sciencedaily.com",
+        "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
+      },
+      "sentiment": {
+        "score": 0.2111,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.352, dampened ×0.6 → +0.2111). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "A forgotten fossil reveals a fearsome dinosaur with giant claws",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+          "published": "Wed, 14 Oct 2026 18:51:56 EDT",
+          "summary": "A 120-million-year-old fossil forgotten in a museum for nearly a century has revealed a terrifying new dinosaur that may have been more dangerous to humans than a T. rex. The tiger-sized predator also provides the first evidence of megaraptorans in Europe, helping explain how these mysterious dinosaurs eventually became gigantic hunters.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Gigantic prehistoric snake discovered in India may have been one of the largest ever",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261014001406.htm",
+          "published": "Wed, 14 Oct 2026 01:44:39 EDT",
+          "summary": "A massive prehistoric snake discovered in India may have rivaled the largest snake ever known. Called Vasuki indicus, the 47-million-year-old giant could have reached up to 50 feet long, making it comparable to the legendary Titanoboa. Scientists believe its enormous body made it a slow-moving ambush predator, similar to a modern anaconda.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists may have overlooked a hidden Alzheimer's culprit for decades",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015838.htm",
+          "published": "Wed, 14 Oct 2026 07:06:19 EDT",
+          "summary": "For decades, scientists have focused on amyloid beta as a major culprit behind Alzheimer’s disease, spending billions of dollars developing treatments that have often delivered disappointing results. Now, researchers at UC Santa Cruz are drawing attention to a largely overlooked peptide called P3 that could also play a role in the disease. Previously believed to be harmless, P3 can form harmful-looking protein clumps even faster than amyloid beta and may also damage brain cells.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "The secret to easier exercise as an adult may start in childhood",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015811.htm",
+          "published": "Wed, 14 Oct 2026 07:36:23 EDT",
+          "summary": "Exercise during childhood could have a surprising lifelong benefit, potentially making physical activity less exhausting in adulthood. In a study involving guinea fowl, researchers discovered that birds accustomed to carrying weights while growing up could carry those weights as adults without using extra energy, while untrained birds burned 23% more.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists reveal 93% of Australia's Indigenous population was lost in just 73 years",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015807.htm",
+          "published": "Wed, 14 Oct 2026 19:34:00 EDT",
+          "summary": "A groundbreaking study suggests that 2.22 million Indigenous Australians lived on the continent before European colonization, far more than previously believed. Researchers estimate that 93% of this population was lost within 73 years, revealing a demographic catastrophe on a scale that dramatically changes our understanding of Australian history.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists reveal why some workout recovery tricks can backfire",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015805.htm",
+          "published": "Wed, 14 Oct 2026 08:04:20 EDT",
+          "summary": "Ice baths, massages, compression garments, and recovery supplements promise faster muscle recovery, but research suggests their benefits are often overstated, and some techniques may even undermine long-term gains. Scientists say the most effective recovery methods are far simpler and cheaper: getting enough sleep, eating well, and giving muscles time to rebuild.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Cornell scientists identify rare human genetic disorder in two unusually long-legged cats",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015801.htm",
+          "published": "Wed, 14 Oct 2026 07:56:22 EDT",
+          "summary": "Two unusually long-legged cats have helped scientists uncover the first genetically confirmed cases of Marfan syndrome in domestic felines. Researchers at Cornell University discovered that the brothers carried two altered copies of a gene linked to the rare connective tissue disorder, which can affect the eyes, heart, and blood vessels. Surprisingly, the cats survived into adulthood because their genetic mutation still allowed some normal function.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover how harmful “zombie cells” hide from the immune system",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015800.htm",
+          "published": "Wed, 14 Oct 2026 06:17:58 EDT",
+          "summary": "Scientists have discovered a protein that may help harmful aging cells hide from the immune system, allowing them to accumulate and fuel age-related health problems. Blocking the protein in mice reduced these cells and inflammation while improving blood sugar regulation and strength, offering a promising new direction for anti-aging research.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "AI reveals a hidden chemical shortcut that could turn CO2 into fuel",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261013015758.htm",
+          "published": "Tue, 13 Oct 2026 20:01:11 EDT",
+          "summary": "Scientists used artificial intelligence to uncover nearly 10,000 chemical reactions involved in transforming carbon dioxide into fuels and chemicals, revealing crucial pathways that traditional models had missed. The discovery dramatically improved predictions of CO2 conversion and uncovered a surprising hydrogen reaction that could inspire more efficient catalysts.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
+          "published": "Tue, 13 Oct 2026 07:27:24 EDT",
+          "summary": "NASA’s James Webb Space Telescope has revealed an ancient galaxy cluster with an unexpectedly dense concentration of dark matter, challenging theories about how the universe developed. The discovery also uncovered a surprising connection between scattered starlight and invisible dark matter that could transform how astronomers study the early cosmos.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists may have finally solved the mystery of the Moon’s two faces",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
+          "published": "Wed, 14 Oct 2026 06:38:46 EDT",
+          "summary": "Scientists may have solved a long-standing mystery about why the Moon’s two sides are so different, using samples collected from its farside for the first time. Their findings suggest that uneven heating from Earth's gravitational pull drove enormous flows of ancient magma, creating the dramatically different lunar landscapes we see today.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "AI can act exactly like a human, but we still don't think it's conscious",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261012185017.htm",
+          "published": "Tue, 13 Oct 2026 21:41:55 EDT",
+          "summary": "A new study reveals that people draw a surprisingly sharp line between human consciousness and artificial intelligence, even when both behave identically. Researchers found that participants considered even the most responsive AI less conscious than the least responsive human. Yet when asked about \"awareness\" instead, people judged humans and AI much more similarly.",
+          "source": "ScienceDaily"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "A forgotten fossil reveals a fearsome dinosaur with giant claws.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.211). Top story: A forgotten fossil reveals a fearsome dinosaur with giant claws.",
+        "key_themes": [
+          "A forgotten fossil reveals a fearsome dinosaur with giant claws",
+          "Gigantic prehistoric snake discovered in India may have been one of the largest ever",
+          "Scientists may have overlooked a hidden Alzheimer's culprit for decades",
+          "The secret to easier exercise as an adult may start in childhood",
+          "Scientists reveal 93% of Australia's Indigenous population was lost in just 73 years"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "A forgotten fossil reveals a fearsome dinosaur with giant claws",
+            "why_it_matters": "A 120-million-year-old fossil forgotten in a museum for nearly a century has revealed a terrifying new dinosaur that may have been more dangerous to humans than a T. rex. The tiger-sized predator also provides the first …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Gigantic prehistoric snake discovered in India may have been one of the largest ever",
+            "why_it_matters": "A massive prehistoric snake discovered in India may have rivaled the largest snake ever known. Called Vasuki indicus, the 47-million-year-old giant could have reached up to 50 feet long, making it comparable to the legen…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists may have overlooked a hidden Alzheimer's culprit for decades",
+            "why_it_matters": "For decades, scientists have focused on amyloid beta as a major culprit behind Alzheimer’s disease, spending billions of dollars developing treatments that have often delivered disappointing results. Now, researchers at …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The secret to easier exercise as an adult may start in childhood",
+            "why_it_matters": "Exercise during childhood could have a surprising lifelong benefit, potentially making physical activity less exhausting in adulthood. In a study involving guinea fowl, researchers discovered that birds accustomed to car…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists reveal 93% of Australia's Indigenous population was lost in just 73 years",
+            "why_it_matters": "A groundbreaking study suggests that 2.22 million Indigenous Australians lived on the continent before European colonization, far more than previously believed. Researchers estimate that 93% of this population was lost w…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists reveal why some workout recovery tricks can backfire",
+            "why_it_matters": "Ice baths, massages, compression garments, and recovery supplements promise faster muscle recovery, but research suggests their benefits are often overstated, and some techniques may even undermine long-term gains. Scien…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Cornell scientists identify rare human genetic disorder in two unusually long-legged cats",
+            "why_it_matters": "Two unusually long-legged cats have helped scientists uncover the first genetically confirmed cases of Marfan syndrome in domestic felines. Researchers at Cornell University discovered that the brothers carried two alter…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists discover how harmful “zombie cells” hide from the immune system",
+            "why_it_matters": "Scientists have discovered a protein that may help harmful aging cells hide from the immune system, allowing them to accumulate and fuel age-related health problems. Blocking the protein in mice reduced these cells and i…",
+            "signal": "Opportunity"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "A forgotten fossil reveals a fearsome dinosaur with giant claws",
+            "Gigantic prehistoric snake discovered in India may have been one of the largest ever",
+            "Scientists may have overlooked a hidden Alzheimer's culprit for decades",
+            "The secret to easier exercise as an adult may start in childhood"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary a",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Science: A forgotten fossil reveals a fearsome dinosaur with giant claws\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Reveal #Adult #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+    }
+  }
+}
