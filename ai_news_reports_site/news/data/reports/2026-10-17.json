@@ -1,10 +1,12 @@
 {
   "date": "2026-10-17",
-  "generated_at_utc": "2026-10-17T07:22:08Z",
+  "generated_at_utc": "2026-10-17T16:46:06Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump"
+    "trump",
+    "news",
+    "deforestation"
   ],
   "categories": {
     "world": {
@@ -16,29 +18,22 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2639,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.440, dampened ×0.6 → -0.2639). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2274,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.379, dampened ×0.6 → -0.2274). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Brazil sees record fall in Amazon deforestation as key election looms",
-          "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 17 Oct 2026 02:33:09 GMT",
-          "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
-          "source": "BBC News"
-        },
-        {
           "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
           "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 17 Oct 2026 06:39:40 GMT",
+          "published": "Sat, 17 Oct 2026 11:56:06 GMT",
           "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
           "source": "BBC News"
         },
         {
-          "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+          "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
           "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 17 Oct 2026 06:49:48 GMT",
+          "published": "Sat, 17 Oct 2026 09:58:17 GMT",
           "summary": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
           "source": "BBC News"
         },
@@ -50,24 +45,52 @@
           "source": "BBC News"
         },
         {
-          "title": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-          "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 16 Oct 2026 16:00:30 GMT",
-          "summary": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.",
+          "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+          "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 17 Oct 2026 02:33:09 GMT",
+          "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
           "source": "BBC News"
         },
         {
-          "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
-          "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 16 Oct 2026 14:31:04 GMT",
-          "summary": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
+          "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
+          "url": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 17 Oct 2026 12:11:58 GMT",
+          "summary": "She and five staff members were found to have used the inedible paint in meals to make them look more appealing.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Rare pink diamond goes on display in France 100 years after amateur heist",
+          "url": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 17 Oct 2026 10:46:41 GMT",
+          "summary": "The French royal jewel will be on public display for the first time since it was found hidden in an apple after a 1926 theft.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Pope discharged from hospital days after lung cancer surgery",
+          "url": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 17 Oct 2026 13:51:36 GMT",
+          "summary": "The pontiff will give the traditional Angelus prayer and blessing in St Peter's Square on Sunday.",
           "source": "BBC News"
         },
         {
           "title": "Katie Zacharia leaving White House role less than five days into job",
           "url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 17 Oct 2026 05:20:40 GMT",
+          "published": "Sat, 17 Oct 2026 09:14:10 GMT",
           "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Actress Selma Blair says she 'did not intend to harm anyone' in plane altercation",
+          "url": "https://www.bbc.co.uk/news/articles/cwly3zd1r45ro?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 17 Oct 2026 01:55:45 GMT",
+          "summary": "A publicist for the actress said the incident stemmed from a \"medical emergency\" and said she has a neurological disorder that can cause out-of-control responses.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Judge throws out child sex abuse charges against actor Timothy Busfield",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgxwq4q5r2o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 17 Oct 2026 00:38:34 GMT",
+          "summary": "The judge in the case said on Friday that the prosecutor \"failed to act in a fair and impartial manner\".",
           "source": "BBC News"
         },
         {
@@ -78,57 +101,31 @@
           "source": "BBC News"
         },
         {
-          "title": "Trial of German steakhouse heiress that sparked a huge spy scandal",
-          "url": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 16 Oct 2026 23:07:18 GMT",
-          "summary": "For 15 months, a high-security courtroom in Hamburg has been hearing the case of Christina Block, accused of ordering the abduction of her children.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Pope pictured for first time since surgery and cancer diagnosis",
-          "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 16 Oct 2026 23:20:37 GMT",
-          "summary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trump denies limiting Ukraine access to Starlink network",
-          "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 16 Oct 2026 19:33:48 GMT",
-          "summary": "Speed curbs limited Ukraine's defences against deadly Russian attacks on Tuesday night.",
-          "source": "BBC News"
-        },
-        {
-          "title": "India's 'cockroach' party founder detained ahead of protest",
-          "url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 16 Oct 2026 11:44:31 GMT",
-          "summary": "The youth-led movement had called for a Delhi protest after mass detentions last week and the jailing of two leaders.",
+          "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+          "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 16 Oct 2026 14:31:04 GMT",
+          "summary": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Brazil sees record fall in Amazon deforestation as key election looms.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.264). Top story: Brazil sees record fall in Amazon deforestation as key election looms.",
+        "key_takeaway": "Trump waives several Russia sanctions as row with Zelensky intensifies.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.227). Top story: Trump waives several Russia sanctions as row with Zelensky intensifies.",
         "key_themes": [
-          "Brazil sees record fall in Amazon deforestation as key election looms",
           "Trump waives several Russia sanctions as row with Zelensky intensifies",
-          "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+          "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
           "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-          "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role"
+          "Brazil sees record fall in Amazon deforestation as key election looms",
+          "Nursery owner in China jailed for life after hundreds of children poisoned"
         ],
         "notable_headlines": [
-          {
-            "headline": "Brazil sees record fall in Amazon deforestation as key election looms",
-            "why_it_matters": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
-            "signal": "Risk"
-          },
           {
             "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
             "why_it_matters": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
             "signal": "Risk"
           },
           {
-            "headline": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+            "headline": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
             "why_it_matters": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
             "signal": "Risk"
           },
@@ -138,23 +135,28 @@
             "signal": "Risk"
           },
           {
-            "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-            "why_it_matters": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.",
+            "headline": "Brazil sees record fall in Amazon deforestation as key election looms",
+            "why_it_matters": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
             "signal": "Risk"
           },
           {
-            "headline": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
-            "why_it_matters": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
+            "headline": "Nursery owner in China jailed for life after hundreds of children poisoned",
+            "why_it_matters": "She and five staff members were found to have used the inedible paint in meals to make them look more appealing.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Rare pink diamond goes on display in France 100 years after amateur heist",
+            "why_it_matters": "The French royal jewel will be on public display for the first time since it was found hidden in an apple after a 1926 theft.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Pope discharged from hospital days after lung cancer surgery",
+            "why_it_matters": "The pontiff will give the traditional Angelus prayer and blessing in St Peter's Square on Sunday.",
             "signal": "Risk"
           },
           {
             "headline": "Katie Zacharia leaving White House role less than five days into job",
             "why_it_matters": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
-            "why_it_matters": "Defence Minister Guido Crosetto tells the BBC the US risks prolonging Russia's full-scale invasion rather than helping to end it.",
             "signal": "Risk"
           }
         ],
@@ -170,10 +172,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Brazil sees record fall in Amazon deforestation as key election looms",
             "Trump waives several Russia sanctions as row with Zelensky intensifies",
-            "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-            "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico"
+            "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
+            "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+            "Brazil sees record fall in Amazon deforestation as key election looms"
           ],
           "confidence": "Medium"
         },
@@ -183,12 +185,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's negative news headlines",
-          "latest news summary brazil",
+          "today's mixed news headlines",
+          "latest news summary trump",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Brazil sees record fall in Amazon deforestation as key election looms\n\nWorld Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Role #Russia #Trump #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Trump waives several Russia sanctions as row with Zelensky intensifies\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Days #Jailed #Amateur #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -199,11 +201,18 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.39,
+        "score": -0.3849,
         "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.650, dampened ×0.6 → -0.3900). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.641, dampened ×0.6 → -0.3849). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds",
+          "url": "https://www.theguardian.com/environment/2026/oct/17/us-corporate-lobbyists-europe-deforestation",
+          "published": "Sat, 17 Oct 2026 11:00:31 GMT",
+          "summary": "<p>Environmental watchdog Mighty Earth reveals two-year effort to postpone and weaken EU Deforestation Regulation</p><p>US corporate lobbyists launched a two-year “blitz” to postpone and weaken the world’s most progressive legislation to protect forests, according to a new investigation by the environmental watchdog Mighty Earth.</p><p>Major US firms and trade associations, including Cargill, Bunge, Mondelēz and the US Soybean Export Council, as well as numerous other US firms and organizations,",
+          "source": "The Guardian"
+        },
         {
           "title": "‘People’s dignity, and democracy, is at stake’: meet the economist ditching ideology for reality",
           "url": "https://www.theguardian.com/business/2026/oct/16/isabella-weber-anti-fascist-economics",
@@ -261,13 +270,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
-          "url": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
-          "published": "Wed, 14 Oct 2026 04:34:29 GMT",
-          "summary": "<p>District court judge Timothy Kelly was ruling after Trump administration blocked access to three outlets last month</p><p>A federal judge ordered the White House on Tuesday to continue allowing journalists from CNN, MS Now and Politico to access the building as the media coalition’s lawsuit against the Trump administration plays out.</p><p>Timothy Kelly, a district court judge, had on 24 September <a href=\"https://www.nytimes.com/interactive/2026/09/24/us/politics/cnn-msnow-politico-trump-res",
-          "source": "The Guardian"
-        },
-        {
           "title": "Bad news for Trump ahead of the midterms: it’s still the economy, stupid",
           "url": "https://www.theguardian.com/business/2026/oct/15/trump-economy-midterm-elections",
           "published": "Thu, 15 Oct 2026 12:00:12 GMT",
@@ -290,16 +292,21 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "‘People’s dignity, and democracy, is at stake’: meet the economist ditching ideology for reality.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.390). Top story: ‘People’s dignity, and democracy, is at stake’: meet the economist ditching ideology for reality.",
+        "key_takeaway": "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.385). Top story: US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds.",
         "key_themes": [
+          "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds",
           "‘People’s dignity, and democracy, is at stake’: meet the economist ditching ideology for reality",
           "Key US voters say economy is getting worse ahead of midterms, exclusive poll finds",
           "Revealed: VW, Ford and Tesla batteries linked to destructive deforestation of indigenous lands",
-          "People in the US: what is your personal ‘recession indicator’?",
-          "US lawmakers unveil bill to hold Wall Street’s ‘Epstein-connected’ bosses to account"
+          "People in the US: what is your personal ‘recession indicator’?"
         ],
         "notable_headlines": [
+          {
+            "headline": "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds",
+            "why_it_matters": "<p>Environmental watchdog Mighty Earth reveals two-year effort to postpone and weaken EU Deforestation Regulation</p><p>US corporate lobbyists launched a two-year “blitz” to postpone and weaken the world’s most progressi…",
+            "signal": "Risk"
+          },
           {
             "headline": "‘People’s dignity, and democracy, is at stake’: meet the economist ditching ideology for reality",
             "why_it_matters": "<p>Exclusive: Isabella Weber prescribes a common-sense solution to poverty, inequality and fascism – making life’s essentials affordable for all</p><p>The trouble with economists, Isabella Weber believes, is they do not …",
@@ -334,11 +341,6 @@
             "headline": "US inflation rose to 3.7% in September in blow to Republicans before midterms",
             "why_it_matters": "<p>Final inflation report before voters go to polls comes amid widespread anger over cost of living under Trump</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/08/economy-midterm-elections-tell-us\">S…",
             "signal": "Risk"
-          },
-          {
-            "headline": "Bank of America fined $1.2bn for money-laundering failures",
-            "why_it_matters": "<p>Third-largest fine in US treasury’s history, due to failure to report suspicious activity, may affect third-quarter earnings</p><p><a href=\"https://www.theguardian.com/business/bank-of-america\">Bank of America</a> (BA…",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -353,10 +355,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds",
             "‘People’s dignity, and democracy, is at stake’: meet the economist ditching ideology for reality",
             "Key US voters say economy is getting worse ahead of midterms, exclusive poll finds",
-            "Revealed: VW, Ford and Tesla batteries linked to destructive deforestation of indigenous lands",
-            "People in the US: what is your personal ‘recession indicator’?"
+            "Revealed: VW, Ford and Tesla batteries linked to destructive deforestation of indigenous lands"
           ],
           "confidence": "Medium"
         },
@@ -367,11 +369,11 @@
         ],
         "related_topics": [
           "today's negative news headlines",
-          "latest news summary ‘people’s",
+          "latest news summary us",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: ‘People’s dignity, and democracy, is at stake’: meet the economist ditching ideology for...\n\nBusiness Sentiment: Negative (-0.39)\n\nRead the full breakdown: https://tldrnews.info\n\n#Inflation #Midterms #12bn #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law,...\n\nBusiness Sentiment: Negative (-0.38)\n\nRead the full breakdown: https://tldrnews.info\n\n#Deforestation #Finds #Inflation #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -382,132 +384,132 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1444,
+        "score": 0.0983,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.241, dampened ×0.6 → +0.1444). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.164, dampened ×0.6 → +0.0983). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Elon Musk settles lawsuits over $1 million voter giveaway",
+          "url": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
+          "published": "2026-10-17T12:39:44-04:00",
+          "summary": "In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered voter in a swing state. That prompted legal challenges, raised questions about its legality, and drew lawsuits from two Arizona residents claiming the lottery was a fraud. Musk has now agreed to settle the two lawsuits filed in [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Meta removes language that may have allowed it to scrape news sites",
+          "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+          "published": "2026-10-17T11:04:36-04:00",
+          "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update",
+          "url": "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale",
+          "published": "2026-10-17T11:00:00-04:00",
+          "summary": "If you’re wondering what video game to play this weekend, my colleague Sheena Vasani spotted a discounted Nintendo Switch title with instant digital delivery. Walmart has the digital version of Pikmin 4 for Switch discounted to $39.88, just over $20 lower than its usual price. This version of the game follows the same puzzle formula [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Jad Abumrad loves a butterfly knife and a good springy pillow",
+          "url": "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview",
+          "published": "2026-10-17T10:30:00-04:00",
+          "summary": "It's hard to overstate Jad Abumrad's impact on the podcasting world. He created and hosted Dolly Parton's America and Fela Kuti: Fear No Man, two Peabody Award-winning shows that offered unprecedented looks at the lives of two of the most important music icons of the last century. Before that, though, he created Radiolab, an experimental [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "SpaceX’s ambitious, expensive gamble to replace AT&#038;T, T-Mobile, and Verizon",
+          "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
+          "published": "2026-10-17T10:00:00-04:00",
+          "summary": "Today, I’m talking with Walter Piecyk, a partner and analyst at LightShed Partners who covers tech, media, and telecom, about SpaceX’s recently announced plan to become a major wireless carrier. Last week, SpaceX agreed to buy a big chunk of low-band spectrum to expand the Starlink network, spectrum that’s been traded around the telecom business [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Websites are closing their doors to AI agents",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "published": "2026-10-17T09:00:00-04:00",
+          "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Bose’s new wired earbuds are simple in the best way",
+          "url": "https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review",
+          "published": "2026-10-17T09:00:00-04:00",
+          "summary": "After Apple courageously removed the headphone jack from the iPhone in 2016, most people switched to Bluetooth earbuds and never looked back. But their wired counterparts have stuck around, and their sales even went up this year after five years of decline. Part of the resurgence can be tied to the fact that they're cool [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple’s HomeView is just the latest threat to online recipe writers",
+          "url": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting",
+          "published": "2026-10-17T08:00:00-04:00",
+          "summary": "When Apple revealed the HomeView to the world, it did so with an unusual ad for the company: Instead of pristine, polished tech in immaculate rooms, it's a three-minute look at the messy, frantic morning routine of a family of five. Apple's new smart display sits in the center of the chaos on the kitchen [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "It’s a dream week for tech docs",
+          "url": "https://www.theverge.com/tech/1013367/best-tech-documentaries-musk-holmes-installer",
+          "published": "2026-10-17T08:00:00-04:00",
+          "summary": "Hi, friends! Welcome to Installer No. 148, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope you're enjoying all your pumpkin-flavored everything, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Marc Andreessen and the future of [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "All the news about the iPhone Duo",
           "url": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
           "published": "2026-10-16T19:36:26-04:00",
           "summary": "Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID, it uses Touch ID on the power button. It has two cameras, a main lens and [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
-          "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
-          "published": "2026-10-16T18:51:22-04:00",
-          "summary": "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok earlier this year to make nonconsensual, sexualized deepfakes, including minors. Apple didn't pull X or Grok from the App [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "We can finally hear some of Wu-Tang Clan&#8217;s Once Upon A Time in Shaolin album",
-          "url": "https://www.theverge.com/entertainment/1013277/wu-tang-once-upon-a-time-in-shaolin-pablo-torre-martin-shkreli",
-          "published": "2026-10-16T16:50:27-04:00",
-          "summary": "Wu-Tang's Once Upon A Time in Shaolin album has, for the most part, been extremely difficult to listen to, but you can now hear two snippets of the album thanks to the podcast Pablo Torre Finds Out, which just published an episode all about the exclusive record. Once Upon A Time in Shaolin has a [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
-          "url": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
-          "published": "2026-10-16T16:49:04-04:00",
-          "summary": "After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that \"Despite its name, full self-driving is not fully autonomous. Technology does not relieve drivers of their responsibility to safely operate their vehicles.\" Video released by CHP shows the Tesla speeding [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Why Apple is finally making its own smart home devices",
-          "url": "https://www.theverge.com/tech/1013025/apple-home-collection-products-lg-schneider-smart-home",
-          "published": "2026-10-16T14:30:27-04:00",
-          "summary": "For more than a decade, Apple has told other companies to build smart home devices for its platform. This week, Apple launched its own. The Apple Home Collection is a lineup of cameras, thermostats, sensors, a smart door lock, and a video doorbell, all codeveloped with LG Electronics and Schneider Electric. They arrive alongside HomeView, [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The new Apple TV 4K just got its first (very small) discount",
-          "url": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-          "published": "2026-10-16T12:02:22-04:00",
-          "summary": "Earlier this week, Apple announced its new Apple TV 4K, which costs nearly twice as much as the 2022 model did at launch. Amazon is now offering the first discount on the forthcoming streaming box (coming out on November 13th), just days after discounting Apple’s new smart display for the first time. Right now, you [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Apple&#8217;s HomeView has an app problem",
-          "url": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast",
-          "published": "2026-10-16T11:38:17-04:00",
-          "summary": "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bunch of apps. And [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Analogue is re-releasing its SNES and Genesis consoles with some nice upgrades",
-          "url": "https://www.theverge.com/tech/1012901/analogue-retro-console-supern-nt-plus-nintendo-sega-genesis-mega-plus",
-          "published": "2026-10-16T11:08:38-04:00",
-          "summary": "Analogue announced new versions of its Super Nt and Mega Sg retro consoles today with a \"reworked industrial design\" and built-in wireless connectivity for controllers and accessories. Like the original versions, the new Super Nt Plus and Mega Sg Plus are able to play Nintendo and Sega Genesis cartridges using an FPGA processor that perfectly [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "A fake WhatsApp clone is showing up before the real version on the Play Store",
-          "url": "https://www.theverge.com/tech/1012918/google-play-store-fake-whatsapp-android",
-          "published": "2026-10-16T11:02:23-04:00",
-          "summary": "After a Chrome clone was spotted on the Play Store earlier this week, a user on Reddit says they're seeing a fake version of WhatsApp in a \"sponsored\" slot above the real version. As reported earlier by Android Authority, the WhatsApp dupe has racked up over 500,000 downloads and, at the time of writing, its [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-          "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-          "published": "2026-10-16T11:00:00-04:00",
-          "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "All the news about the iPhone Duo.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.144). Top story: All the news about the iPhone Duo.",
+        "key_takeaway": "Elon Musk settles lawsuits over $1 million voter giveaway.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.098). Top story: Elon Musk settles lawsuits over $1 million voter giveaway.",
         "key_themes": [
-          "All the news about the iPhone Duo",
-          "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
-          "We can finally hear some of Wu-Tang Clan&#8217;s Once Upon A Time in Shaolin album",
-          "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
-          "Why Apple is finally making its own smart home devices"
+          "Elon Musk settles lawsuits over $1 million voter giveaway",
+          "Meta removes language that may have allowed it to scrape news sites",
+          "Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update",
+          "Jad Abumrad loves a butterfly knife and a good springy pillow",
+          "SpaceX’s ambitious, expensive gamble to replace AT&#038;T, T-Mobile, and Verizon"
         ],
         "notable_headlines": [
           {
-            "headline": "All the news about the iPhone Duo",
-            "why_it_matters": "Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. …",
-            "signal": "Opportunity"
+            "headline": "Elon Musk settles lawsuits over $1 million voter giveaway",
+            "why_it_matters": "In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered voter in a swing state. That prompted legal challenges, raised questions about its legality, and drew lawsuits from two Arizona …",
+            "signal": "Unclear"
           },
           {
-            "headline": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
-            "why_it_matters": "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X use…",
-            "signal": "Opportunity"
+            "headline": "Meta removes language that may have allowed it to scrape news sites",
+            "why_it_matters": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the …",
+            "signal": "Unclear"
           },
           {
-            "headline": "We can finally hear some of Wu-Tang Clan&#8217;s Once Upon A Time in Shaolin album",
-            "why_it_matters": "Wu-Tang's Once Upon A Time in Shaolin album has, for the most part, been extremely difficult to listen to, but you can now hear two snippets of the album thanks to the podcast Pablo Torre Finds Out, which just published …",
-            "signal": "Opportunity"
+            "headline": "Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update",
+            "why_it_matters": "If you’re wondering what video game to play this weekend, my colleague Sheena Vasani spotted a discounted Nintendo Switch title with instant digital delivery. Walmart has the digital version of Pikmin 4 for Switch discou…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
-            "why_it_matters": "After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that \"Despite its name, full self-driving is not fully autonomous. Technolog…",
-            "signal": "Opportunity"
+            "headline": "Jad Abumrad loves a butterfly knife and a good springy pillow",
+            "why_it_matters": "It's hard to overstate Jad Abumrad's impact on the podcasting world. He created and hosted Dolly Parton's America and Fela Kuti: Fear No Man, two Peabody Award-winning shows that offered unprecedented looks at the lives …",
+            "signal": "Unclear"
           },
           {
-            "headline": "Why Apple is finally making its own smart home devices",
-            "why_it_matters": "For more than a decade, Apple has told other companies to build smart home devices for its platform. This week, Apple launched its own. The Apple Home Collection is a lineup of cameras, thermostats, sensors, a smart door…",
-            "signal": "Opportunity"
+            "headline": "SpaceX’s ambitious, expensive gamble to replace AT&#038;T, T-Mobile, and Verizon",
+            "why_it_matters": "Today, I’m talking with Walter Piecyk, a partner and analyst at LightShed Partners who covers tech, media, and telecom, about SpaceX’s recently announced plan to become a major wireless carrier. Last week, SpaceX agreed …",
+            "signal": "Unclear"
           },
           {
-            "headline": "The new Apple TV 4K just got its first (very small) discount",
-            "why_it_matters": "Earlier this week, Apple announced its new Apple TV 4K, which costs nearly twice as much as the 2022 model did at launch. Amazon is now offering the first discount on the forthcoming streaming box (coming out on November…",
-            "signal": "Opportunity"
+            "headline": "Websites are closing their doors to AI agents",
+            "why_it_matters": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Apple&#8217;s HomeView has an app problem",
-            "why_it_matters": "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oomph, is always conne…",
-            "signal": "Opportunity"
+            "headline": "Bose’s new wired earbuds are simple in the best way",
+            "why_it_matters": "After Apple courageously removed the headphone jack from the iPhone in 2016, most people switched to Bluetooth earbuds and never looked back. But their wired counterparts have stuck around, and their sales even went up t…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Analogue is re-releasing its SNES and Genesis consoles with some nice upgrades",
-            "why_it_matters": "Analogue announced new versions of its Super Nt and Mega Sg retro consoles today with a \"reworked industrial design\" and built-in wireless connectivity for controllers and accessories. Like the original versions, the new…",
-            "signal": "Opportunity"
+            "headline": "Apple’s HomeView is just the latest threat to online recipe writers",
+            "why_it_matters": "When Apple revealed the HomeView to the world, it did so with an unusual ad for the company: Instead of pristine, polished tech in immaculate rooms, it's a three-minute look at the messy, frantic morning routine of a fam…",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -522,10 +524,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "All the news about the iPhone Duo",
-            "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
-            "We can finally hear some of Wu-Tang Clan&#8217;s Once Upon A Time in Shaolin album",
-            "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars"
+            "Elon Musk settles lawsuits over $1 million voter giveaway",
+            "Meta removes language that may have allowed it to scrape news sites",
+            "Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update",
+            "Jad Abumrad loves a butterfly knife and a good springy pillow"
           ],
           "confidence": "Medium"
         },
@@ -536,11 +538,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary all",
+          "latest news summary elon",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: All the news about the iPhone Duo\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apple #Apple8217s #Finally #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Elon Musk settles lawsuits over $1 million voter giveaway\n\nTechnology Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abumrad #Agents #Ahead #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -734,11 +736,53 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.0921,
+        "score": 0.1566,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.153, dampened ×0.6 → +0.0921). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.261, dampened ×0.6 → +0.1566). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
+          "published": "Sat, 17 Oct 2026 01:14:50 EDT",
+          "summary": "Scientists have discovered a surprising two-way relationship between sleep and growth hormone, revealing how the brain carefully balances physical recovery with wakefulness. The findings could help explain why poor sleep harms metabolism and brain health, potentially opening the door to new treatments for sleep and neurological disorders.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
+          "published": "Fri, 16 Oct 2026 21:52:59 EDT",
+          "summary": "In 1960, scientists predicted that runaway population growth would bring humanity to the brink of destruction on November 13, 2026, and their mathematical forecasts remained surprisingly accurate for decades. But as birth rates declined and population growth slowed, the terrifying prediction unraveled, revealing how even convincing scientific models can fail when human behavior changes.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+          "published": "Sat, 17 Oct 2026 09:28:13 EDT",
+          "summary": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe. By moving a mirror just one-sixteenth the width of a human hair, the team helped bring its powerful instruments into near-perfect alignment. Roman’s Wide Field Instrument now produces image quality nearly 30% better than predicted, promising exceptionally sharp cosmic surveys.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "SpaceX just delivered some very strange cargo to the International Space Station",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070628.htm",
+          "published": "Fri, 16 Oct 2026 19:51:58 EDT",
+          "summary": "SpaceX just delivered some surprisingly strange cargo to the International Space Station, including tiny brain models, 3D heart tissue, and technology for making artificial retinas in space. Scientists hope these experiments could unlock new ways to treat devastating brain diseases, restore eyesight, and test future medicines. The shipment also includes materials for creating unusual glass in near weightlessness and the station’s final upgraded solar arrays.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "This bird flies thousands of miles, but its wings have a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+          "published": "Sat, 17 Oct 2026 09:05:02 EDT",
+          "summary": "Scientists have uncovered an unexpected trade-off in the wings of the European nightjar, a bird that migrates thousands of kilometers but sacrifices high-speed flight efficiency to hunt insects with remarkable agility. Even more surprisingly, it generates thrust on the upward wingbeat, a technique that could inspire new flying technologies.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Brain cells meant to protect us may be fueling cognitive decline",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+          "published": "Sat, 17 Oct 2026 08:44:22 EDT",
+          "summary": "Scientists have uncovered a surprising cause of age-related cognitive decline involving brain cells previously thought to be entirely beneficial. As these cells become dysfunctional, they can produce abnormal amounts of myelin, disrupting nerve fibers and potentially contributing to worsening memory and thinking skills.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
           "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
@@ -754,9 +798,16 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+          "published": "Sat, 17 Oct 2026 08:26:49 EDT",
+          "summary": "NASA’s James Webb Space Telescope has revealed that a turbulent world 20 light-years away has a surprisingly orderly weather system, with three recurring atmospheric states driven by temperature changes and shifting clouds. The breakthrough gives scientists a powerful new tool for uncovering weather patterns on distant worlds and understanding the conditions that shape their atmospheres.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Arctic sea ice hits another troubling low in 2026",
           "url": "https://www.sciencedaily.com/releases/2026/10/261015073212.htm",
-          "published": "Thu, 15 Oct 2026 08:40:44 EDT",
+          "published": "Thu, 15 Oct 2026 07:32:12 EDT",
           "summary": "Arctic sea ice is shrinking in both winter and summer, with satellite records revealing that the region's remaining ice is becoming thinner, younger, and more vulnerable to melting. Despite a recent slowdown in summer losses, scientists warn that the Arctic could experience a nearly ice-free summer before 2050.",
           "source": "ScienceDaily"
         },
@@ -773,107 +824,58 @@
           "published": "Fri, 16 Oct 2026 01:50:44 EDT",
           "summary": "As Hurricane Simon unleashed destructive winds and flooding along Mexico’s coast, NASA satellites captured an extraordinary sight: massive atmospheric waves rippling high above the storm. The rare images reveal how powerful hurricanes can disturb the upper atmosphere, creating patterns that are usually invisible from space.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "A protein that fuels cancer could also be the key to fighting it",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073203.htm",
-          "published": "Fri, 16 Oct 2026 00:51:38 EDT",
-          "summary": "Scientists have discovered how to turn a protein that normally fuels cancer growth into a weapon against it. By activating PPARD in immune cells, researchers made them better at burning fat and attacking tumors, slowing or stopping cancer growth in laboratory experiments. The approach showed promise against colorectal, breast, and ovarian cancers, as well as melanoma.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "USC scientists discover how to create a never-ending supply of cancer-fighting cells",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015003803.htm",
-          "published": "Fri, 16 Oct 2026 08:46:50 EDT",
-          "summary": "USC scientists have discovered a way to create a potentially renewable supply of genetically engineered immune cells that can attack cancer and strengthen the body's natural defenses. By growing and modifying immature immune cells rather than mature ones, researchers developed a system that can continuously produce tumor-fighting cells inside the body.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Mysterious brain activity under anesthesia challenges what we know about consciousness",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015003440.htm",
-          "published": "Thu, 15 Oct 2026 08:52:05 EDT",
-          "summary": "Even under general anesthesia, the human brain can analyze language, recognize different types of words, and predict what comes next in a story, according to a surprising discovery by Baylor researchers. The findings challenge our understanding of consciousness and suggest that the unconscious brain is far more capable than scientists previously realized.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A quantum highway just one atom high could transform superconductors",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
-          "published": "Fri, 16 Oct 2026 00:22:01 EDT",
-          "summary": "Scientists discovered that atomic steps just one atom high can guide quantum vortices through superconductors, making them move more than 1,000 times more easily in one direction than another. This remarkable control over quantum motion could lead to a new generation of ultra-efficient superconducting electronics.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Yale scientists discover how stress changes the brain to make memories stronger",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261014015517.htm",
-          "published": "Fri, 16 Oct 2026 07:55:35 EDT",
-          "summary": "Yale scientists have uncovered how the stress hormone cortisol helps the brain turn emotional experiences into stronger, longer-lasting memories. The discovery reveals that stress can reshape communication between brain networks involved in emotion and memory, potentially explaining why certain moments are so difficult to forget.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists discover a plastic-eating “Pac-Man” enzyme with a surprising secret",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261014015509.htm",
-          "published": "Fri, 16 Oct 2026 06:32:03 EDT",
-          "summary": "Scientists have discovered a remarkable “Pac-Man enzyme” that helps bacteria devour certain types of plastic and may offer new hope in the fight against plastic pollution. Researchers found that several biodegradable plastics completely broke down in soil within about a year, while conventional plastic remained largely unchanged.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Astronomers discover a strange universal rule behind black hole eruptions",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261014015507.htm",
-          "published": "Fri, 16 Oct 2026 06:45:33 EDT",
-          "summary": "Scientists have discovered that black holes of vastly different sizes appear to launch powerful jets according to the same universal rule. The breakthrough could explain why some black holes suddenly erupt years after devouring a star and help astronomers predict when these spectacular outbursts will happen.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "“Crawzilla” was huge. Then scientists found an even bigger crayfish.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.092). Top story: “Crawzilla” was huge. Then scientists found an even bigger crayfish.",
+        "key_takeaway": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.157). Top story: Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain.",
         "key_themes": [
-          "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
-          "The uranium cubes that exposed Nazi Germany’s nuclear failure",
-          "Arctic sea ice hits another troubling low in 2026",
-          "Antarctica’s sea ice has undergone a stunning reversal",
-          "NASA captures strange waves high above Hurricane Simon"
+          "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+          "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
+          "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+          "SpaceX just delivered some very strange cargo to the International Space Station",
+          "This bird flies thousands of miles, but its wings have a catch"
         ],
         "notable_headlines": [
           {
+            "headline": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+            "why_it_matters": "Scientists have discovered a surprising two-way relationship between sleep and growth hormone, revealing how the brain carefully balances physical recovery with wakefulness. The findings could help explain why poor sleep…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
+            "why_it_matters": "In 1960, scientists predicted that runaway population growth would bring humanity to the brink of destruction on November 13, 2026, and their mathematical forecasts remained surprisingly accurate for decades. But as birt…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+            "why_it_matters": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe. By moving a mirror just one-sixteenth the width of a human hair, th…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "SpaceX just delivered some very strange cargo to the International Space Station",
+            "why_it_matters": "SpaceX just delivered some surprisingly strange cargo to the International Space Station, including tiny brain models, 3D heart tissue, and technology for making artificial retinas in space. Scientists hope these experim…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "This bird flies thousands of miles, but its wings have a catch",
+            "why_it_matters": "Scientists have uncovered an unexpected trade-off in the wings of the European nightjar, a bird that migrates thousands of kilometers but sacrifices high-speed flight efficiency to hunt insects with remarkable agility. E…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Brain cells meant to protect us may be fueling cognitive decline",
+            "why_it_matters": "Scientists have uncovered a surprising cause of age-related cognitive decline involving brain cells previously thought to be entirely beneficial. As these cells become dysfunctional, they can produce abnormal amounts of …",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
             "why_it_matters": "A nationwide search for giant crayfish uncovered a record-breaking Tennessee specimen and a surprising mystery about how big these freshwater creatures can grow. Scientists found that North American crayfish seem to hit …",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           },
           {
             "headline": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
             "why_it_matters": "Scientists investigating Nazi Germany's secret nuclear program have uncovered evidence that its final experimental reactor was nowhere near as close to working as previously claimed. Analysis of surviving uranium cubes a…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Arctic sea ice hits another troubling low in 2026",
-            "why_it_matters": "Arctic sea ice is shrinking in both winter and summer, with satellite records revealing that the region's remaining ice is becoming thinner, younger, and more vulnerable to melting. Despite a recent slowdown in summer lo…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Antarctica’s sea ice has undergone a stunning reversal",
-            "why_it_matters": "Antarctic sea ice reached its third-lowest winter maximum in 2026, extending a remarkable decline that began after years of record-breaking growth. Scientists are investigating whether the dramatic reversal signals a lon…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "NASA captures strange waves high above Hurricane Simon",
-            "why_it_matters": "As Hurricane Simon unleashed destructive winds and flooding along Mexico’s coast, NASA satellites captured an extraordinary sight: massive atmospheric waves rippling high above the storm. The rare images reveal how power…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "A protein that fuels cancer could also be the key to fighting it",
-            "why_it_matters": "Scientists have discovered how to turn a protein that normally fuels cancer growth into a weapon against it. By activating PPARD in immune cells, researchers made them better at burning fat and attacking tumors, slowing …",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "USC scientists discover how to create a never-ending supply of cancer-fighting cells",
-            "why_it_matters": "USC scientists have discovered a way to create a potentially renewable supply of genetically engineered immune cells that can attack cancer and strengthen the body's natural defenses. By growing and modifying immature im…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Mysterious brain activity under anesthesia challenges what we know about consciousness",
-            "why_it_matters": "Even under general anesthesia, the human brain can analyze language, recognize different types of words, and predict what comes next in a story, according to a surprising discovery by Baylor researchers. The findings cha…",
-            "signal": "Unclear"
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -888,10 +890,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
-            "The uranium cubes that exposed Nazi Germany’s nuclear failure",
-            "Arctic sea ice hits another troubling low in 2026",
-            "Antarctica’s sea ice has undergone a stunning reversal"
+            "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+            "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
+            "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+            "SpaceX just delivered some very strange cargo to the International Space Station"
           ],
           "confidence": "Medium"
         },
@@ -902,11 +904,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary “crawzilla”",
+          "latest news summary scientists",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: “Crawzilla” was huge. Then scientists found an even bigger crayfish\n\nScience Sentiment: Mixed (+0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #2026 #Above #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain\n\nScience Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Space #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
