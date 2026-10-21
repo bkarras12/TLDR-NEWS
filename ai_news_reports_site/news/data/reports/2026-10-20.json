@@ -1,10 +1,13 @@
 {
   "date": "2026-10-20",
-  "generated_at_utc": "2026-10-20T18:12:58Z",
+  "generated_at_utc": "2026-10-21T01:27:40Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "sources"
+    "trump",
+    "sources",
+    "musk",
+    "abuse"
   ],
   "categories": {
     "world": {
@@ -16,23 +19,51 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2464,
+        "score": -0.2307,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.411, dampened ×0.6 → -0.2464). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.385, dampened ×0.6 → -0.2307). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
-          "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 12:08:06 GMT",
-          "summary": "France's second city saw some of the worst violence as chaos gripped the country on Saturday.",
+          "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 20 Oct 2026 21:27:39 GMT",
+          "summary": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
           "source": "BBC News"
         },
         {
-          "title": "Man charged with attack on Australian MP as suspect's father says she is family friend",
+          "title": "France is divided over who to blame for and what to learn from weekend riots",
+          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 21 Oct 2026 01:22:51 GMT",
+          "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Elon Musk says Tesla-SpaceX merger being considered",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 20 Oct 2026 23:24:47 GMT",
+          "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Man charged with attack on Australia MP to face court",
           "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 20 Oct 2026 11:25:35 GMT",
           "summary": "Brendan Nugent's family say they have known Helen Haines, who remains in a critical condition, for more than 20 years.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+          "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 20 Oct 2026 20:00:57 GMT",
+          "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+          "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 20 Oct 2026 22:22:17 GMT",
+          "summary": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet.",
           "source": "BBC News"
         },
         {
@@ -43,27 +74,6 @@
           "source": "BBC News"
         },
         {
-          "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 16:59:06 GMT",
-          "summary": "The Canadian province has voted overwhelmingly to remain part of Canada, though deep political divisions endure.",
-          "source": "BBC News"
-        },
-        {
-          "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 11:45:49 GMT",
-          "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Why Israeli Gen Z voters are drawn to the far right",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg632xgndeo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 08:53:06 GMT",
-          "summary": "More than half a million young people will cast their ballots in Israel next week - and they could make all the difference.",
-          "source": "BBC News"
-        },
-        {
           "title": "Swimmer, 65, killed in shark attack off South Africa's east coast",
           "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 20 Oct 2026 15:58:57 GMT",
@@ -71,10 +81,17 @@
           "source": "BBC News"
         },
         {
-          "title": "Kenya cult leader's children still being starved weeks before trial, son says",
-          "url": "https://www.bbc.co.uk/news/articles/c6d7q2rxqxgxo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 13:23:32 GMT",
-          "summary": "Dan Mackenzie initially defended his father but now says he felt he had to report his own grandmother.",
+          "title": "Trump sued over Canadian tariffs in latest legal challenge",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 20 Oct 2026 19:30:05 GMT",
+          "summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 20 Oct 2026 11:45:49 GMT",
+          "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
           "source": "BBC News"
         },
         {
@@ -87,44 +104,50 @@
         {
           "title": "Suspect arrested after historic town hall set alight - French media",
           "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 16:06:39 GMT",
+          "published": "Tue, 20 Oct 2026 21:05:50 GMT",
           "summary": "The spire of the clock tower at Limoges city hall dramatically collapsed as it was engulfed in flames on Saturday.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Mission blasts off for Mars to grab a piece of its moon",
-          "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss",
-          "published": "Mon, 19 Oct 2026 19:45:46 GMT",
-          "summary": "A spacecraft is set to launch on an ambitious mission to bring 10g of Martian moon dust back to Earth.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Seventh day of violent clashes between Albanian protesters and police",
-          "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 02:45:05 GMT",
-          "summary": "Almost 300 people have been injured, more than half of them police, as violent anti-government demonstrations show no sign of easing.",
           "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.246). Top story: Marseille braces for more unrest after protests give way to 'apocalyptic' disorder.",
+        "key_takeaway": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.231). Top story: Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo.",
         "key_themes": [
-          "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
-          "Man charged with attack on Australian MP as suspect's father says she is family friend",
-          "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-          "'Great result for Canada', says Carney as Alberta votes to reject separatism",
-          "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?"
+          "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+          "France is divided over who to blame for and what to learn from weekend riots",
+          "Elon Musk says Tesla-SpaceX merger being considered",
+          "Man charged with attack on Australia MP to face court",
+          "Trump and Zelensky appear at loggerheads despite Oslo optimism"
         ],
         "notable_headlines": [
           {
-            "headline": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
-            "why_it_matters": "France's second city saw some of the worst violence as chaos gripped the country on Saturday.",
+            "headline": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+            "why_it_matters": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
             "signal": "Risk"
           },
           {
-            "headline": "Man charged with attack on Australian MP as suspect's father says she is family friend",
+            "headline": "France is divided over who to blame for and what to learn from weekend riots",
+            "why_it_matters": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Elon Musk says Tesla-SpaceX merger being considered",
+            "why_it_matters": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Man charged with attack on Australia MP to face court",
             "why_it_matters": "Brendan Nugent's family say they have known Helen Haines, who remains in a critical condition, for more than 20 years.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+            "why_it_matters": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+            "why_it_matters": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet.",
             "signal": "Risk"
           },
           {
@@ -133,28 +156,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
-            "why_it_matters": "The Canadian province has voted overwhelmingly to remain part of Canada, though deep political divisions endure.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
-            "why_it_matters": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Why Israeli Gen Z voters are drawn to the far right",
-            "why_it_matters": "More than half a million young people will cast their ballots in Israel next week - and they could make all the difference.",
-            "signal": "Risk"
-          },
-          {
             "headline": "Swimmer, 65, killed in shark attack off South Africa's east coast",
             "why_it_matters": "Janine Lochrenberg, 65, was out on her daily morning swim with her club when she was attacked, her family tell the BBC.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Kenya cult leader's children still being starved weeks before trial, son says",
-            "why_it_matters": "Dan Mackenzie initially defended his father but now says he felt he had to report his own grandmother.",
             "signal": "Risk"
           }
         ],
@@ -170,10 +173,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
-            "Man charged with attack on Australian MP as suspect's father says she is family friend",
-            "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-            "'Great result for Canada', says Carney as Alberta votes to reject separatism"
+            "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+            "France is divided over who to blame for and what to learn from weekend riots",
+            "Elon Musk says Tesla-SpaceX merger being considered",
+            "Man charged with attack on Australia MP to face court"
           ],
           "confidence": "Medium"
         },
@@ -184,11 +187,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary marseille",
+          "latest news summary zelensky",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Marseille braces for more unrest after protests give way to 'apocalyptic' disorder\n\nWorld Sentiment: Mixed (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Attack #Africas #Alberta #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Attack #Oslo #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -199,16 +202,23 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.2144,
+        "score": -0.1366,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.357, dampened ×0.6 → -0.2144). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.228, dampened ×0.6 → -0.1366). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details – latest updates",
-          "url": "https://www.theguardian.com/business/live/2026/oct/20/uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates",
-          "published": "Tue, 20 Oct 2026 15:38:25 GMT",
-          "summary": "<p>Google apologises after power issue causes a major Cloud outage in its London region today that led to problems at banks, Revolut, and court video cameras</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/20/revolut-down-app-cards-service-disruption\"><strong>Google cloud failure hits millions as UK courts and banks knocked offline</strong></a></p></li></ul><p><strong>The pound has rallied after Britain’s unemployment rate fell unexpectedly this morning to 4.7%.</strong></p>",
+          "title": "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
+          "url": "https://www.theguardian.com/business/2026/oct/20/scott-kirby-united-wealth-tax-backlash",
+          "published": "Tue, 20 Oct 2026 20:06:31 GMT",
+          "summary": "<p>Scott Kirby says wealth inequality is a ‘danger to society’ and calls for inheritance tax in recent interview</p><p>Scott Kirby, the CEO of United Airlines, is under scrutiny from conservative politicians and commentators for saying wealth inequality is a “danger to society” and calling for a national wealth and inheritance tax in a recent interview.</p><p>Talking to the <a href=\"https://www.nytimes.com/2026/10/18/business/scott-kirby-united-airlines.html\">New York Times</a>, Kirby was asked",
+          "source": "The Guardian"
+        },
+        {
+          "title": "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
+          "url": "https://www.theguardian.com/technology/2026/oct/20/judge-dismisses-sam-altman-sister-lawsuit",
+          "published": "Tue, 20 Oct 2026 15:34:04 GMT",
+          "summary": "<p>Ann Altman, the Open AI CEO’s sister, accused her brother of repeatedly sexually abusing her over two decades ago</p><p>A judge dismissed a lawsuit filed by Sam Altman’s sister against him on Tuesday. Ann Altman accused the OpenAI CEO of repeatedly sexually abusing her more than two decades ago, which he has denied.</p><p>In dismissing Ann Altman’s ⁠lawsuit, the US district judge Zachary Bluestone wrote that she had refused to appear for an independent medical examination despite warnings ⁠th",
           "source": "The Guardian"
         },
         {
@@ -261,13 +271,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "‘People’s dignity, and democracy, is at stake’: meet the economist ditching ideology for reality",
-          "url": "https://www.theguardian.com/business/2026/oct/16/isabella-weber-anti-fascist-economics",
-          "published": "Fri, 16 Oct 2026 04:00:50 GMT",
-          "summary": "<p>Exclusive: Isabella Weber prescribes a common-sense solution to poverty, inequality and fascism – making life’s essentials affordable for all</p><p>The trouble with economists, Isabella Weber believes, is they do not behave like dentists. They obsess over ideological purity and are inflexible when searching for solutions, regardless of society’s symptoms. Dentists have no such pretensions – patients have little patience for dogma when in insufferable pain.</p><p>John Maynard Keynes, Weber cla",
-          "source": "The Guardian"
-        },
-        {
           "title": "Bad news for Trump ahead of the midterms: it’s still the economy, stupid",
           "url": "https://www.theguardian.com/business/2026/oct/15/trump-economy-midterm-elections",
           "published": "Thu, 15 Oct 2026 12:00:12 GMT",
@@ -290,19 +293,24 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details – latest updates.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.214). Top story: Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details – latest updates.",
+        "key_takeaway": "United Airlines CEO faces rightwing backlash after calling for US wealth tax.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.137). Top story: United Airlines CEO faces rightwing backlash after calling for US wealth tax.",
         "key_themes": [
-          "Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details – latest updates",
+          "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
+          "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
           "European air fares could rise by as much as 20% in 2027, Ryanair boss predicts",
           "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
-          "HelloFresh workers claim physical abuse and denied bathroom breaks in class-action suit",
-          "Christiane Amanpour announces she’s leaving CNN after 43 years"
+          "HelloFresh workers claim physical abuse and denied bathroom breaks in class-action suit"
         ],
         "notable_headlines": [
           {
-            "headline": "Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details – latest updates",
-            "why_it_matters": "<p>Google apologises after power issue causes a major Cloud outage in its London region today that led to problems at banks, Revolut, and court video cameras</p><ul><li><p><a href=\"https://www.theguardian.com/business/20…",
+            "headline": "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
+            "why_it_matters": "<p>Scott Kirby says wealth inequality is a ‘danger to society’ and calls for inheritance tax in recent interview</p><p>Scott Kirby, the CEO of United Airlines, is under scrutiny from conservative politicians and commenta…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
+            "why_it_matters": "<p>Ann Altman, the Open AI CEO’s sister, accused her brother of repeatedly sexually abusing her over two decades ago</p><p>A judge dismissed a lawsuit filed by Sam Altman’s sister against him on Tuesday. Ann Altman accus…",
             "signal": "Risk"
           },
           {
@@ -334,11 +342,6 @@
             "headline": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
             "why_it_matters": "<p>The $48bn giveaway comes amid concerns about the tech and as the company prepares for a stock market listing</p><p>Anthropic has said it will commit 5% of its shares to a fund for the “public good”, as the AI develope…",
             "signal": "Risk"
-          },
-          {
-            "headline": "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds",
-            "why_it_matters": "<p>Environmental watchdog Mighty Earth reveals two-year effort to postpone and weaken EU Deforestation Regulation</p><p>US corporate lobbyists launched a two-year “blitz” to postpone and weaken the world’s most progressi…",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -353,10 +356,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details – latest updates",
+            "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
+            "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
             "European air fares could rise by as much as 20% in 2027, Ryanair boss predicts",
-            "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
-            "HelloFresh workers claim physical abuse and denied bathroom breaks in class-action suit"
+            "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?"
           ],
           "confidence": "Medium"
         },
@@ -367,11 +370,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary google",
+          "latest news summary united",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details –...\n\nBusiness Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#2027 #Abuse #Ailisters #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: United Airlines CEO faces rightwing backlash after calling for US wealth tax\n\nBusiness Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abuse #2027 #Ailisters #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -382,132 +385,132 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.0194,
-        "label": "Neutral",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.032, dampened ×0.6 → +0.0194). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.1329,
+        "label": "Mixed",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.221, dampened ×0.6 → +0.1329). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
-          "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-          "published": "2026-10-20T14:07:34-04:00",
-          "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. [&#8230;]",
+          "title": "YouTube might be testing hiding the dislike button",
+          "url": "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu",
+          "published": "2026-10-20T20:00:56-04:00",
+          "summary": "YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and a user on Reddit also shared an image of the dislike button being absent for them. Right now, [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The $20,000 Voxel bot will help you find misplaced things around your home",
-          "url": "https://www.theverge.com/tech/1014533/tuesday-labs-voxel-series-1-home-robot-reservation",
-          "published": "2026-10-20T13:49:55-04:00",
-          "summary": "Tuesday Labs, a New York City-based robotics lab and design studio, has opened reservations for Voxel, its new bi-pedal robot designed to learn and take over routine tasks throughout your home. Similar to other robots like Weave Robotics' Issac 1 that are designed for household chores beyond mopping or vacuuming floors, Voxel features a pair [&#8230;]",
+          "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+          "published": "2026-10-20T19:04:19-04:00",
+          "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Chrome will now show a warning before you visit ‘suspicious’ sites",
-          "url": "https://www.theverge.com/tech/1014446/google-chrome-suspicious-website-warning",
-          "published": "2026-10-20T13:00:00-04:00",
-          "summary": "Google is launching a new browser safety feature for Chrome that aims to keep you better informed about how malicious a website might be before you open it. The new suspicious site warnings, available when Chrome's Enhanced Protection is on, build on a similar two-stage system introduced for Chrome file downloads in 2024, which provides [&#8230;]",
+          "title": "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
+          "url": "https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers",
+          "published": "2026-10-20T18:20:11-04:00",
+          "summary": "Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fraud. In December 2025, Shirley published a viral video alleging fraud at daycares in Minnesota that were operated by members [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "AMD is bringing FSR 4.1 to Xbox consoles and handhelds",
-          "url": "https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops",
-          "published": "2026-10-20T12:21:18-04:00",
-          "summary": "AMD has just revealed that it's bringing its latest upscaling technology, FSR 4.1, to the Xbox Series S and X consoles, as well as laptops, 6000-series GPUs, and handhelds like the Xbox Ally X devices. FSR 4.1 will start appearing for Radeon RX 6000-series GPUs today, as well as Ryzen AI Max 300 and 400 [&#8230;]",
+          "title": "Google’s more personalized Gemini AI is heading to your car",
+          "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+          "published": "2026-10-20T18:11:34-04:00",
+          "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Arturia’s MiniFreak 49 makes its Freak synths more professional",
-          "url": "https://www.theverge.com/gadgets/1014255/arturias-minifreak-49-synthesizer",
-          "published": "2026-10-20T12:00:00-04:00",
-          "summary": "Arturia is adding to its Freak line of proudly weird digital synths with the MiniFreak 49. Under the hood, it's almost identical to the current MiniFreak, but it adds a number of more professional features and some interface improvements. The most noticeable change is that, rather than the MiniFreak's 37 minikeys or the MicroFreak's 25 [&#8230;]",
+          "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
+          "url": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
+          "published": "2026-10-20T17:30:24-04:00",
+          "summary": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the request of shareholders and consist of independent directors (though he did not name them). He also [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Gospel according to Peter (Thiel)",
-          "url": "https://www.theverge.com/tech/1014252/peter-thiel-antichrist-lectures-analysis",
-          "published": "2026-10-20T11:45:00-04:00",
-          "summary": "It's a time of apocalyptic worldviews in Silicon Valley. The latest AI doom cycle is driven by effective altruism (EA), a philosophy that has lurked around the fringes for years but recently burst into the mainstream because its adherents are embedded across the AI industry, from Anthropic to newly appointed AI safety watchdog METR. EA [&#8230;]",
+          "title": "SpaceX will try catching Starship and its booster for first time, Musk says",
+          "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
+          "published": "2026-10-20T17:02:53-04:00",
+          "summary": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first time in history an orbital launch vehicle has been fully recovered. \"This is a [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Over $963,000 worth of graded Pokémon and sports cards were stolen from FedEx",
-          "url": "https://www.theverge.com/entertainment/1014276/professional-sports-authenticator-psa-stolen-graded-sports-pokemon-cards-fedex",
-          "published": "2026-10-20T10:48:55-04:00",
-          "summary": "Last week over 200 packages of graded trading cards being shipped back to their owners were stolen from a FedEx truck parked outside the headquarters of Professional Sports Authenticator (PSA) in Santa Ana, California, according to a report by The Athletic. PSA is one of the largest third-party sports and hobby card grading companies in [&#8230;]",
+          "title": "Netflix is telling investors not to worry, even though you&#8217;re watching less and less",
+          "url": "https://www.theverge.com/streaming/1014826/netflix-earnings-q3-2026-viewing-time",
+          "published": "2026-10-20T16:52:07-04:00",
+          "summary": "Netflix is making monetization a top priority amid reports of falling viewing time. As part of its third-quarter earnings report on Tuesday, Netflix lists improvements to monetization as one of its main focuses going forward, alongside efforts to boost entertainment value and leverage new technology. The streaming giant doesn't say exactly how it plans to [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-          "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-          "published": "2026-10-20T10:18:37-04:00",
-          "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and [&#8230;]",
+          "title": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
+          "url": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
+          "published": "2026-10-20T16:32:09-04:00",
+          "summary": "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has published several videos featuring Downey showcasing the capabilities of the new glasses, including as a tool to get help with a putt, practice art, [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "TikTok employees said they knew about child safety issues, but execs failed to act",
-          "url": "https://www.theverge.com/tech/1014250/tiktok-employees-internal-child-safety-warnings",
-          "published": "2026-10-20T09:11:23-04:00",
-          "summary": "TikTok was repeatedly warned by its own staffers about risks its platform posed to child safety, according to court records obtained by NPR. The publication reports that employees were frustrated over TikTok executives failing to appropriately act on concerns they raised, including minors bypassing age-restricted content, and appearing in \"transactional sexual content\" the company could [&#8230;]",
+          "title": "SpaceX says big AI growth fueled revenue jump",
+          "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+          "published": "2026-10-20T16:26:58-04:00",
+          "summary": "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.\" While its Space division posted a $7 million loss in income from operations, its Connectivity group posted income from operations $2.4 [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
-          "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
-          "published": "2026-10-20T09:06:44-04:00",
-          "summary": "Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present users with a [&#8230;]",
+          "title": "Oura adds two new cardiovascular health tracking features to its smart rings",
+          "url": "https://www.theverge.com/tech/1014712/oura-smart-rings-track-cardio-effort-vo2-max-cardiovascular",
+          "published": "2026-10-20T16:26:04-04:00",
+          "summary": "Oura is introducing two new cardiovascular-focused health tracking features to its smart rings designed to help users better understand the effect regular workouts and exercise are having on their long-term health, and whether they need to ramp it up or dial things down. Cardio Effort and automatic VO2 Max (previously known as Cardio Capacity) are [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Meta pauses Muse sharing after researchers find AI chats on the web.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is neutral (0.019). Top story: Meta pauses Muse sharing after researchers find AI chats on the web.",
+        "key_takeaway": "YouTube might be testing hiding the dislike button.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.133). Top story: YouTube might be testing hiding the dislike button.",
         "key_themes": [
-          "Meta pauses Muse sharing after researchers find AI chats on the web",
-          "The $20,000 Voxel bot will help you find misplaced things around your home",
-          "Chrome will now show a warning before you visit ‘suspicious’ sites",
-          "AMD is bringing FSR 4.1 to Xbox consoles and handhelds",
-          "Arturia’s MiniFreak 49 makes its Freak synths more professional"
+          "YouTube might be testing hiding the dislike button",
+          "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+          "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
+          "Google’s more personalized Gemini AI is heading to your car",
+          "Tesla and SpaceX are discussing a possible merger, Musk says"
         ],
         "notable_headlines": [
           {
-            "headline": "Meta pauses Muse sharing after researchers find AI chats on the web",
-            "why_it_matters": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, res…",
-            "signal": "Unclear"
+            "headline": "YouTube might be testing hiding the dislike button",
+            "why_it_matters": "YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "The $20,000 Voxel bot will help you find misplaced things around your home",
-            "why_it_matters": "Tuesday Labs, a New York City-based robotics lab and design studio, has opened reservations for Voxel, its new bi-pedal robot designed to learn and take over routine tasks throughout your home. Similar to other robots li…",
-            "signal": "Unclear"
+            "headline": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+            "why_it_matters": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by …",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Chrome will now show a warning before you visit ‘suspicious’ sites",
-            "why_it_matters": "Google is launching a new browser safety feature for Chrome that aims to keep you better informed about how malicious a website might be before you open it. The new suspicious site warnings, available when Chrome's Enhan…",
-            "signal": "Unclear"
+            "headline": "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
+            "why_it_matters": "Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fr…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "AMD is bringing FSR 4.1 to Xbox consoles and handhelds",
-            "why_it_matters": "AMD has just revealed that it's bringing its latest upscaling technology, FSR 4.1, to the Xbox Series S and X consoles, as well as laptops, 6000-series GPUs, and handhelds like the Xbox Ally X devices. FSR 4.1 will start…",
-            "signal": "Unclear"
+            "headline": "Google’s more personalized Gemini AI is heading to your car",
+            "why_it_matters": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps,…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Arturia’s MiniFreak 49 makes its Freak synths more professional",
-            "why_it_matters": "Arturia is adding to its Freak line of proudly weird digital synths with the MiniFreak 49. Under the hood, it's almost identical to the current MiniFreak, but it adds a number of more professional features and some inter…",
-            "signal": "Unclear"
+            "headline": "Tesla and SpaceX are discussing a possible merger, Musk says",
+            "why_it_matters": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "The Gospel according to Peter (Thiel)",
-            "why_it_matters": "It's a time of apocalyptic worldviews in Silicon Valley. The latest AI doom cycle is driven by effective altruism (EA), a philosophy that has lurked around the fringes for years but recently burst into the mainstream bec…",
-            "signal": "Unclear"
+            "headline": "SpaceX will try catching Starship and its booster for first time, Musk says",
+            "why_it_matters": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt wou…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Over $963,000 worth of graded Pokémon and sports cards were stolen from FedEx",
-            "why_it_matters": "Last week over 200 packages of graded trading cards being shipped back to their owners were stolen from a FedEx truck parked outside the headquarters of Professional Sports Authenticator (PSA) in Santa Ana, California, a…",
-            "signal": "Unclear"
+            "headline": "Netflix is telling investors not to worry, even though you&#8217;re watching less and less",
+            "why_it_matters": "Netflix is making monetization a top priority amid reports of falling viewing time. As part of its third-quarter earnings report on Tuesday, Netflix lists improvements to monetization as one of its main focuses going for…",
+            "signal": "Opportunity"
           },
           {
-            "headline": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-            "why_it_matters": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made cha…",
-            "signal": "Unclear"
+            "headline": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
+            "why_it_matters": "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has published several videos featuring Downey…",
+            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -522,10 +525,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Meta pauses Muse sharing after researchers find AI chats on the web",
-            "The $20,000 Voxel bot will help you find misplaced things around your home",
-            "Chrome will now show a warning before you visit ‘suspicious’ sites",
-            "AMD is bringing FSR 4.1 to Xbox consoles and handhelds"
+            "YouTube might be testing hiding the dislike button",
+            "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+            "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
+            "Google’s more personalized Gemini AI is heading to your car"
           ],
           "confidence": "Medium"
         },
@@ -535,12 +538,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
-          "latest news summary meta",
+          "today's mixed news headlines",
+          "latest news summary youtube",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Meta pauses Muse sharing after researchers find AI chats on the web\n\nTechnology Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Find #20000 #963000 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: YouTube might be testing hiding the dislike button\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Less #Musk #Spacex #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
