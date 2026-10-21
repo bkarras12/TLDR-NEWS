@@ -1,14 +1,12 @@
 {
   "date": "2026-10-21",
-  "generated_at_utc": "2026-10-21T08:09:30Z",
+  "generated_at_utc": "2026-10-21T18:19:39Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
-    "spacex",
-    "sources",
-    "musk",
-    "abuse"
+    "starts",
+    "sources"
   ],
   "categories": {
     "world": {
@@ -20,43 +18,36 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2174,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.362, dampened ×0.6 → -0.2174). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2622,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.437, dampened ×0.6 → -0.2622). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 21 Oct 2026 06:37:55 GMT",
-          "summary": "Steve Witkoff is in St Petersburg to discuss proposals on ending Russia's years-long conflict with Ukraine.",
+          "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 21 Oct 2026 17:42:34 GMT",
+          "summary": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg.",
           "source": "BBC News"
         },
         {
-          "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-          "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 20:00:57 GMT",
-          "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+          "title": "Macron accuses foreign leaders of exploiting French riots",
+          "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 21 Oct 2026 14:04:28 GMT",
+          "summary": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
           "source": "BBC News"
         },
         {
-          "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 21 Oct 2026 06:50:40 GMT",
-          "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Australian MP loses both legs after alleged car attack",
+          "title": "Australian MP loses both legs after alleged car attack, husband says",
           "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 21 Oct 2026 07:56:30 GMT",
           "summary": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
           "source": "BBC News"
         },
         {
-          "title": "Elon Musk confirms talks to merge Tesla and SpaceX",
+          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
           "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 21 Oct 2026 05:48:46 GMT",
+          "published": "Wed, 21 Oct 2026 08:42:49 GMT",
           "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
           "source": "BBC News"
         },
@@ -68,10 +59,38 @@
           "source": "BBC News"
         },
         {
+          "title": "Gambia to pay victims of Yahya Jammeh's rule from proceeds of his seized US mansion",
+          "url": "https://www.bbc.co.uk/news/articles/cmn8wx75l2n8o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 21 Oct 2026 08:31:48 GMT",
+          "summary": "The Gambia has confirmed receiving $2.5m from the sale of the house in Maryland.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Family of prison officer killed by IRA receives state apology",
+          "url": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 21 Oct 2026 16:58:16 GMT",
+          "summary": "Brian Stack was crossing a street in Dublin in 1983 when he was shot in the back of the neck and died 18 months later.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Nigeria confirms Ebola case linked to East Africa",
+          "url": "https://www.bbc.co.uk/news/articles/cm2l4xw7xpjgo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 21 Oct 2026 12:39:34 GMT",
+          "summary": "The female patient, who sources have told the BBC is not Nigerian, is in isolation and in an Abuja hospital.",
+          "source": "BBC News"
+        },
+        {
           "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
           "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
           "published": "Tue, 20 Oct 2026 17:30:15 GMT",
           "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump and Zelensky at loggerheads despite new optimism",
+          "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+          "published": "Tue, 20 Oct 2026 20:00:57 GMT",
+          "summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
           "source": "BBC News"
         },
         {
@@ -87,62 +106,36 @@
           "published": "Tue, 20 Oct 2026 15:58:57 GMT",
           "summary": "Janine Lochrenberg, 65, was out on her daily morning swim with her club when she was attacked, her family tell the BBC.",
           "source": "BBC News"
-        },
-        {
-          "title": "Trump sued over Canadian tariffs in latest legal challenge",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 19:30:05 GMT",
-          "summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 11:45:49 GMT",
-          "summary": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Tourist found guilty after stealing Las Vegas flamingo from enclosure",
-          "url": "https://www.bbc.co.uk/news/articles/cq398rjewd1jo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 20 Oct 2026 03:10:39 GMT",
-          "summary": "The man testified that he snatched Peachy from its enclosure at the Flamingo hotel and casino after drinking 30 to 40 beers, but did not mean any harm.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.217). Top story: US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'.",
+        "key_takeaway": "Russia says it is ready to resume talks with Ukraine and US to end war.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.262). Top story: Russia says it is ready to resume talks with Ukraine and US to end war.",
         "key_themes": [
-          "US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'",
-          "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-          "Katya Adler: France divided over who to blame for riots and what to learn from them",
-          "Australian MP loses both legs after alleged car attack",
-          "Elon Musk confirms talks to merge Tesla and SpaceX"
+          "Russia says it is ready to resume talks with Ukraine and US to end war",
+          "Macron accuses foreign leaders of exploiting French riots",
+          "Australian MP loses both legs after alleged car attack, husband says",
+          "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "Pakistan arrests man wanted by US over $126m postage fraud case"
         ],
         "notable_headlines": [
           {
-            "headline": "US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'",
-            "why_it_matters": "Steve Witkoff is in St Petersburg to discuss proposals on ending Russia's years-long conflict with Ukraine.",
+            "headline": "Russia says it is ready to resume talks with Ukraine and US to end war",
+            "why_it_matters": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg.",
             "signal": "Risk"
           },
           {
-            "headline": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-            "why_it_matters": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+            "headline": "Macron accuses foreign leaders of exploiting French riots",
+            "why_it_matters": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
             "signal": "Risk"
           },
           {
-            "headline": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-            "why_it_matters": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Australian MP loses both legs after alleged car attack",
+            "headline": "Australian MP loses both legs after alleged car attack, husband says",
             "why_it_matters": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
             "signal": "Risk"
           },
           {
-            "headline": "Elon Musk confirms talks to merge Tesla and SpaceX",
+            "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
             "why_it_matters": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
             "signal": "Risk"
           },
@@ -152,13 +145,18 @@
             "signal": "Risk"
           },
           {
-            "headline": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-            "why_it_matters": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+            "headline": "Gambia to pay victims of Yahya Jammeh's rule from proceeds of his seized US mansion",
+            "why_it_matters": "The Gambia has confirmed receiving $2.5m from the sale of the house in Maryland.",
             "signal": "Risk"
           },
           {
-            "headline": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
-            "why_it_matters": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet.",
+            "headline": "Family of prison officer killed by IRA receives state apology",
+            "why_it_matters": "Brian Stack was crossing a street in Dublin in 1983 when he was shot in the back of the neck and died 18 months later.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Nigeria confirms Ebola case linked to East Africa",
+            "why_it_matters": "The female patient, who sources have told the BBC is not Nigerian, is in isolation and in an Abuja hospital.",
             "signal": "Risk"
           }
         ],
@@ -174,10 +172,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'",
-            "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-            "Katya Adler: France divided over who to blame for riots and what to learn from them",
-            "Australian MP loses both legs after alleged car attack"
+            "Russia says it is ready to resume talks with Ukraine and US to end war",
+            "Macron accuses foreign leaders of exploiting French riots",
+            "Australian MP loses both legs after alleged car attack, husband says",
+            "Elon Musk confirms he is considering merging Tesla and SpaceX"
           ],
           "confidence": "Medium"
         },
@@ -187,12 +185,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary us",
+          "today's negative news headlines",
+          "latest news summary russia",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: US envoy arrives in Russia ahead of meeting with Putin as Zelensky says intelligence sharing 'works now'\n\nWorld Sentiment: Mixed (-0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Zelensky #126m #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Russia says it is ready to resume talks with Ukraine and US to end war\n\nWorld Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Case #Confirms #126m #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -203,11 +201,32 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1366,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.228, dampened ×0.6 → -0.1366). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.26,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.433, dampened ×0.6 → -0.2600). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "‘Hunted like animals’: inside Trump’s war on the people who build America",
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/21/trump-ice-construction-worker-deportation",
+          "published": "Wed, 21 Oct 2026 10:00:02 GMT",
+          "summary": "<p>Lorenzo Salgado Araujo was a house framer before he was killed by ICE agents. Countless other Latino builders in Texas live in fear of a similar fate</p><p>Every morning long before dawn, while America sleeps, legions of Texas construction workers grab their fluorescent vests and hard hats, sling ladders and tools into their trucks, and head down the highway for another day of grueling labour under the blistering sun.</p><p>Elsewhere, before the first flush of daylight settles over Texas’s co",
+          "source": "The Guardian"
+        },
+        {
+          "title": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
+          "url": "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests",
+          "published": "Wed, 21 Oct 2026 13:17:32 GMT",
+          "summary": "<p>Yield on 10-year government bonds passes 5% amid failure to pass budget and fallout from violent street protests</p><p></p><p>France’s borrowing costs have climbed above 5% for the first time in 24 years as political concerns and the government’s failure to agree a much-delayed budget spook the financial markets.</p><p>With some civic buildings still smouldering from recent riots, a fresh bout of selling pushed up the yield – or interest rate – on bonds issued by the second largest economy in",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Tesla and SpaceX explore merger as Elon Musk gives backing",
+          "url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report",
+          "published": "Wed, 21 Oct 2026 01:10:07 GMT",
+          "summary": "<p>Billionaire, on SpaceX earnings call, says ‘special committees’ exploring idea but no agreement reached yet</p><p>As SpaceX released its second-ever public earnings report on Tuesday, Elon Musk declared his support for combining the aerospace and AI company with his electric vehicle company, Tesla. He said both companies had created special committees to explore a potential merger, but have not reached any agreement on terms of a transaction.</p><p>“Both SpaceX and Tesla have formed special c",
+          "source": "The Guardian"
+        },
         {
           "title": "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
           "url": "https://www.theguardian.com/business/2026/oct/20/scott-kirby-united-wealth-tax-backlash",
@@ -251,27 +270,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "China’s economy grows faster than forecast after AI boom boosts exports",
-          "url": "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports",
-          "published": "Mon, 19 Oct 2026 09:27:04 GMT",
-          "summary": "<p>Third-quarter GDP up by 4.5% compared with last year as industrial output is buoyed by electronics demand</p><p>Roaring exports lifted China’s economic growth in the third quarter of this year, with factory output growing much faster than consumer spending.</p><p>China’s GDP grew by 4.5% year-on-year between July and September, the National Bureau of Statistics of China reported on Monday. The figures were better than economists had expected and up from the second quarter’s growth rate of 4.3",
-          "source": "The Guardian"
-        },
-        {
-          "title": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
-          "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
-          "published": "Mon, 19 Oct 2026 12:51:04 GMT",
-          "summary": "<p>The $48bn giveaway comes amid concerns about the tech and as the company prepares for a stock market listing</p><p>Anthropic has said it will commit 5% of its shares to a fund for the “public good”, as the AI developer behind the Claude chatbot seeks to bolster its appeal before its stock market listing.</p><p>The company announced it would commit the shares, worth around $48bn (£36bn) at its latest valuation in May, subject to shareholder approval. It will add a further 2% of its stock to th",
-          "source": "The Guardian"
-        },
-        {
-          "title": "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds",
-          "url": "https://www.theguardian.com/environment/2026/oct/17/us-corporate-lobbyists-europe-deforestation",
-          "published": "Sat, 17 Oct 2026 11:00:31 GMT",
-          "summary": "<p>Environmental watchdog Mighty Earth reveals two-year effort to postpone and weaken EU Deforestation Regulation</p><p>US corporate lobbyists launched a two-year “blitz” to postpone and weaken the world’s most progressive legislation to protect forests, according to a new investigation by the environmental watchdog Mighty Earth.</p><p>Major US firms and trade associations, including Cargill, Bunge, Mondelēz and the US Soybean Export Council, as well as numerous other US firms and organizations,",
-          "source": "The Guardian"
-        },
-        {
           "title": "Bad news for Trump ahead of the midterms: it’s still the economy, stupid",
           "url": "https://www.theguardian.com/business/2026/oct/15/trump-economy-midterm-elections",
           "published": "Thu, 15 Oct 2026 12:00:12 GMT",
@@ -294,16 +292,31 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "United Airlines CEO faces rightwing backlash after calling for US wealth tax.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.137). Top story: United Airlines CEO faces rightwing backlash after calling for US wealth tax.",
+        "key_takeaway": "‘Hunted like animals’: inside Trump’s war on the people who build America.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.260). Top story: ‘Hunted like animals’: inside Trump’s war on the people who build America.",
         "key_themes": [
+          "‘Hunted like animals’: inside Trump’s war on the people who build America",
+          "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
+          "Tesla and SpaceX explore merger as Elon Musk gives backing",
           "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
-          "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
-          "European air fares could rise by as much as 20% in 2027, Ryanair boss predicts",
-          "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
-          "HelloFresh workers claim physical abuse and denied bathroom breaks in class-action suit"
+          "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister"
         ],
         "notable_headlines": [
+          {
+            "headline": "‘Hunted like animals’: inside Trump’s war on the people who build America",
+            "why_it_matters": "<p>Lorenzo Salgado Araujo was a house framer before he was killed by ICE agents. Countless other Latino builders in Texas live in fear of a similar fate</p><p>Every morning long before dawn, while America sleeps, legions…",
+            "signal": "Risk"
+          },
+          {
+            "headline": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
+            "why_it_matters": "<p>Yield on 10-year government bonds passes 5% amid failure to pass budget and fallout from violent street protests</p><p></p><p>France’s borrowing costs have climbed above 5% for the first time in 24 years as political …",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Tesla and SpaceX explore merger as Elon Musk gives backing",
+            "why_it_matters": "<p>Billionaire, on SpaceX earnings call, says ‘special committees’ exploring idea but no agreement reached yet</p><p>As SpaceX released its second-ever public earnings report on Tuesday, Elon Musk declared his support fo…",
+            "signal": "Risk"
+          },
           {
             "headline": "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
             "why_it_matters": "<p>Scott Kirby says wealth inequality is a ‘danger to society’ and calls for inheritance tax in recent interview</p><p>Scott Kirby, the CEO of United Airlines, is under scrutiny from conservative politicians and commenta…",
@@ -328,21 +341,6 @@
             "headline": "HelloFresh workers claim physical abuse and denied bathroom breaks in class-action suit",
             "why_it_matters": "<p>The meal kit delivery service denies the allegations, saying it found claims to be ‘entirely without merit’</p><p>Workers at a HelloFresh facility in Newark, <a href=\"https://www.theguardian.com/us-news/new-jersey\">Ne…",
             "signal": "Risk"
-          },
-          {
-            "headline": "Christiane Amanpour announces she’s leaving CNN after 43 years",
-            "why_it_matters": "<p>Anchor’s departure not thought to be linked to company’s recent acquisition by David Ellison’s Skydance Media</p><p>Christiane Amanpour, one of CNN’s most decorated and venerated journalists, is leaving the network af…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "China’s economy grows faster than forecast after AI boom boosts exports",
-            "why_it_matters": "<p>Third-quarter GDP up by 4.5% compared with last year as industrial output is buoyed by electronics demand</p><p>Roaring exports lifted China’s economic growth in the third quarter of this year, with factory output gro…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
-            "why_it_matters": "<p>The $48bn giveaway comes amid concerns about the tech and as the company prepares for a stock market listing</p><p>Anthropic has said it will commit 5% of its shares to a fund for the “public good”, as the AI develope…",
-            "signal": "Risk"
           }
         ],
         "future_outlook": {
@@ -357,10 +355,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
-            "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
-            "European air fares could rise by as much as 20% in 2027, Ryanair boss predicts",
-            "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?"
+            "‘Hunted like animals’: inside Trump’s war on the people who build America",
+            "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
+            "Tesla and SpaceX explore merger as Elon Musk gives backing",
+            "United Airlines CEO faces rightwing backlash after calling for US wealth tax"
           ],
           "confidence": "Medium"
         },
@@ -370,12 +368,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary united",
+          "today's negative news headlines",
+          "latest news summary ‘hunted",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: United Airlines CEO faces rightwing backlash after calling for US wealth tax\n\nBusiness Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abuse #2027 #Ailisters #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: ‘Hunted like animals’: inside Trump’s war on the people who build America\n\nBusiness Sentiment: Negative (-0.26)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abuse #2027 #24year #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -386,131 +384,131 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1329,
+        "score": 0.1239,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.221, dampened ×0.6 → +0.1329). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.207, dampened ×0.6 → +0.1239). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "YouTube might be testing hiding the dislike button",
-          "url": "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu",
-          "published": "2026-10-20T20:00:56-04:00",
-          "summary": "YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and a user on Reddit also shared an image of the dislike button being absent for them. Right now, [&#8230;]",
+          "title": "Will TP-Link really make routers in the US? Here’s what it told us",
+          "url": "https://www.theverge.com/policy/1013807/tp-link-router-us-onshoring-manufacturing-assembly-interview",
+          "published": "2026-10-21T14:00:00-04:00",
+          "summary": "TP-Link, one of the world's leading manufacturers of consumer Wi-Fi routers, is in a precarious position in the US. The company just launched its first Wi-Fi 8 routers, but can't bring them here because of President Donald Trump's foreign router ban. Even though competitors Netgear and Asus make their routers in Asia, they've mysteriously obtained [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
-          "published": "2026-10-20T19:04:19-04:00",
-          "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or [&#8230;]",
+          "title": "GM promises smarter cars, faster updates, and autonomous dry-cleaning runs",
+          "url": "https://www.theverge.com/transportation/1014322/gm-onward-ai-ev-battery-compute-av",
+          "published": "2026-10-21T14:00:00-04:00",
+          "summary": "General Motors is still very much in the business of selling gas-guzzling trucks and massive SUVs. But if you listen to its leadership, the Detroit giant is rapidly transforming into a nimble, software-defined tech player with a tightened grip on AI. That was the pitch today, when GM hosted its tech-focused Onward event to unveil [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
-          "url": "https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers",
-          "published": "2026-10-20T18:20:11-04:00",
-          "summary": "Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fraud. In December 2025, Shirley published a viral video alleging fraud at daycares in Minnesota that were operated by members [&#8230;]",
+          "title": "Xbox Cloud Gaming’s pay-as-you-go option starts at $3.99 for 10 hours",
+          "url": "https://www.theverge.com/news/1015321/xbox-cloud-gaming-pay-as-you-go-cloud-hours-pricing",
+          "published": "2026-10-21T14:00:00-04:00",
+          "summary": "Microsoft announced last month that it will let anyone access Xbox Cloud Gaming in November, without the need to subscribe to Xbox Game Pass. The new pay-as-you-go model will require players to purchase bundles of cloud hours, and now Microsoft is revealing today that bundles will start at $3.99 for 10 hours of cloud playtime. [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Google’s more personalized Gemini AI is heading to your car",
-          "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-          "published": "2026-10-20T18:11:34-04:00",
-          "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving [&#8230;]",
+          "title": "Samsung’s latest 55-inch Frame TV is down to its lowest price yet",
+          "url": "https://www.theverge.com/gadgets/1015568/samsung-the-frame-tv-2026-deal-sale",
+          "published": "2026-10-21T13:35:40-04:00",
+          "summary": "If you want a TV but prefer something that won’t clash with your room’s decor, Samsung&#8217;s The Frame is a standout option that’s designed to look like a piece of framed art instead of a black, monolithic rectangle mounted to your wall. You can buy the latest version of the 55-inch Samsung Frame TV on [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
-          "url": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
-          "published": "2026-10-20T17:30:24-04:00",
-          "summary": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the request of shareholders and consist of independent directors (though he did not name them). He also [&#8230;]",
+          "title": "EA is shutting down BioWare",
+          "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+          "published": "2026-10-21T13:19:07-04:00",
+          "summary": "BioWare, the legendary studio behind RPGs like Mass Effect, Dragon Age, and Star Wars: Knights of the Old Republic, is shutting down, the company confirmed in a statement. Alongside the closure, Electronic Arts has chosen not to continue development on the next Mass Effect game that was in the works, according to an announcement sent [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "SpaceX will try catching Starship and its booster for first time, Musk says",
-          "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
-          "published": "2026-10-20T17:02:53-04:00",
-          "summary": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first time in history an orbital launch vehicle has been fully recovered. \"This is a [&#8230;]",
+          "title": "They want your blood",
+          "url": "https://www.theverge.com/column/1015563/blood-death-clock-longevity-apps-health-tech",
+          "published": "2026-10-21T13:00:00-04:00",
+          "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. It's an overcast Saturday morning when I give my 12th vial of blood for testing in six weeks. It's my [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Netflix is telling investors not to worry, even though you&#8217;re watching less and less",
-          "url": "https://www.theverge.com/streaming/1014826/netflix-earnings-q3-2026-viewing-time",
-          "published": "2026-10-20T16:52:07-04:00",
-          "summary": "Netflix is making monetization a top priority amid reports of falling viewing time. As part of its third-quarter earnings report on Tuesday, Netflix lists improvements to monetization as one of its main focuses going forward, alongside efforts to boost entertainment value and leverage new technology. The streaming giant doesn't say exactly how it plans to [&#8230;]",
+          "title": "Supernatural’s comeback starts today, with more music and VR workouts coming soon",
+          "url": "https://www.theverge.com/tech/1015550/supernatural-vr-workout-app-relaunch",
+          "published": "2026-10-21T12:05:51-04:00",
+          "summary": "Despite Meta saying it would stop creating new content for Supernatural, the beloved fitness VR game is back after spinning off to go its own way and is relaunching with an Early Access preview in the Meta Horizon Store. Thousands of \"remastered\" workouts and some new ones are available in the new app starting today, [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
-          "url": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
-          "published": "2026-10-20T16:32:09-04:00",
-          "summary": "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has published several videos featuring Downey showcasing the capabilities of the new glasses, including as a tool to get help with a putt, practice art, [&#8230;]",
+          "title": "Apple Music has a new logo",
+          "url": "https://www.theverge.com/tech/1015533/apple-music-new-logo",
+          "published": "2026-10-21T11:48:12-04:00",
+          "summary": "Apple is officially launching a rebrand of Apple Music. Following the appearance of a redesigned wordmark in a video and an updated app icon in an iOS 27.2 beta, Apple introduced the new \"identity\" for Apple Music today. There's a new logo, the updated wordmark, and a new sound composed by British producer Fred Again [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "SpaceX says big AI growth fueled revenue jump",
-          "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
-          "published": "2026-10-20T16:26:58-04:00",
-          "summary": "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.\" While its Space division posted a $7 million loss in income from operations, its Connectivity group posted income from operations $2.4 [&#8230;]",
+          "title": "Conversational Gemini navigation comes to Apple CarPlay",
+          "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+          "published": "2026-10-21T11:00:00-04:00",
+          "summary": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details). It's taken almost 12 months for Google to bring [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Oura adds two new cardiovascular health tracking features to its smart rings",
-          "url": "https://www.theverge.com/tech/1014712/oura-smart-rings-track-cardio-effort-vo2-max-cardiovascular",
-          "published": "2026-10-20T16:26:04-04:00",
-          "summary": "Oura is introducing two new cardiovascular-focused health tracking features to its smart rings designed to help users better understand the effect regular workouts and exercise are having on their long-term health, and whether they need to ramp it up or dial things down. Cardio Effort and automatic VO2 Max (previously known as Cardio Capacity) are [&#8230;]",
+          "title": "Samsung’s 5K monitor has good gaming chops and a great price",
+          "url": "https://www.theverge.com/gadgets/1015346/samsung-5k-monitor-gaming-gta-6-usbc-charger-deal-sale",
+          "published": "2026-10-21T10:47:14-04:00",
+          "summary": "There are quite a few 5K monitors out there. Many of them are designed to appeal to Mac users who are looking for cheaper Studio Display alternatives without giving up the pixel-dense 218ppi screen. However, if you’re interested in hearing about one with gaming chops, Samsung’s 27-inch Odyssey G80HF seems like one of the best [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "YouTube might be testing hiding the dislike button.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.133). Top story: YouTube might be testing hiding the dislike button.",
+        "key_takeaway": "Will TP-Link really make routers in the US? Here’s what it told us.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.124). Top story: Will TP-Link really make routers in the US? Here’s what it told us.",
         "key_themes": [
-          "YouTube might be testing hiding the dislike button",
-          "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-          "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
-          "Google’s more personalized Gemini AI is heading to your car",
-          "Tesla and SpaceX are discussing a possible merger, Musk says"
+          "Will TP-Link really make routers in the US? Here’s what it told us",
+          "GM promises smarter cars, faster updates, and autonomous dry-cleaning runs",
+          "Xbox Cloud Gaming’s pay-as-you-go option starts at $3.99 for 10 hours",
+          "Samsung’s latest 55-inch Frame TV is down to its lowest price yet",
+          "EA is shutting down BioWare"
         ],
         "notable_headlines": [
           {
-            "headline": "YouTube might be testing hiding the dislike button",
-            "why_it_matters": "YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and…",
+            "headline": "Will TP-Link really make routers in the US? Here’s what it told us",
+            "why_it_matters": "TP-Link, one of the world's leading manufacturers of consumer Wi-Fi routers, is in a precarious position in the US. The company just launched its first Wi-Fi 8 routers, but can't bring them here because of President Dona…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-            "why_it_matters": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by …",
+            "headline": "GM promises smarter cars, faster updates, and autonomous dry-cleaning runs",
+            "why_it_matters": "General Motors is still very much in the business of selling gas-guzzling trucks and massive SUVs. But if you listen to its leadership, the Detroit giant is rapidly transforming into a nimble, software-defined tech playe…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
-            "why_it_matters": "Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fr…",
+            "headline": "Xbox Cloud Gaming’s pay-as-you-go option starts at $3.99 for 10 hours",
+            "why_it_matters": "Microsoft announced last month that it will let anyone access Xbox Cloud Gaming in November, without the need to subscribe to Xbox Game Pass. The new pay-as-you-go model will require players to purchase bundles of cloud …",
             "signal": "Opportunity"
           },
           {
-            "headline": "Google’s more personalized Gemini AI is heading to your car",
-            "why_it_matters": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps,…",
+            "headline": "Samsung’s latest 55-inch Frame TV is down to its lowest price yet",
+            "why_it_matters": "If you want a TV but prefer something that won’t clash with your room’s decor, Samsung&#8217;s The Frame is a standout option that’s designed to look like a piece of framed art instead of a black, monolithic rectangle mo…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Tesla and SpaceX are discussing a possible merger, Musk says",
-            "why_it_matters": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees…",
+            "headline": "EA is shutting down BioWare",
+            "why_it_matters": "BioWare, the legendary studio behind RPGs like Mass Effect, Dragon Age, and Star Wars: Knights of the Old Republic, is shutting down, the company confirmed in a statement. Alongside the closure, Electronic Arts has chose…",
             "signal": "Opportunity"
           },
           {
-            "headline": "SpaceX will try catching Starship and its booster for first time, Musk says",
-            "why_it_matters": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt wou…",
+            "headline": "They want your blood",
+            "why_it_matters": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. It's…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Netflix is telling investors not to worry, even though you&#8217;re watching less and less",
-            "why_it_matters": "Netflix is making monetization a top priority amid reports of falling viewing time. As part of its third-quarter earnings report on Tuesday, Netflix lists improvements to monetization as one of its main focuses going for…",
+            "headline": "Supernatural’s comeback starts today, with more music and VR workouts coming soon",
+            "why_it_matters": "Despite Meta saying it would stop creating new content for Supernatural, the beloved fitness VR game is back after spinning off to go its own way and is relaunching with an Early Access preview in the Meta Horizon Store.…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
-            "why_it_matters": "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has published several videos featuring Downey…",
+            "headline": "Apple Music has a new logo",
+            "why_it_matters": "Apple is officially launching a rebrand of Apple Music. Following the appearance of a redesigned wordmark in a video and an updated app icon in an iOS 27.2 beta, Apple introduced the new \"identity\" for Apple Music today.…",
             "signal": "Opportunity"
           }
         ],
@@ -526,10 +524,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "YouTube might be testing hiding the dislike button",
-            "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-            "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
-            "Google’s more personalized Gemini AI is heading to your car"
+            "Will TP-Link really make routers in the US? Here’s what it told us",
+            "GM promises smarter cars, faster updates, and autonomous dry-cleaning runs",
+            "Xbox Cloud Gaming’s pay-as-you-go option starts at $3.99 for 10 hours",
+            "Samsung’s latest 55-inch Frame TV is down to its lowest price yet"
           ],
           "confidence": "Medium"
         },
@@ -540,11 +538,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary youtube",
+          "latest news summary will",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: YouTube might be testing hiding the dislike button\n\nTechnology Sentiment: Mixed (+0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Less #Musk #Spacex #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Will TP-Link really make routers in the US? Here’s what it told us\n\nTechnology Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Down #Music #Starts #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -738,16 +736,65 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": -0.0075,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.012, dampened ×0.6 → -0.0075). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0551,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.092, dampened ×0.6 → -0.0551). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085727.htm",
+          "published": "Wed, 21 Oct 2026 00:08:28 EDT",
+          "summary": "A decades-long mystery beneath the North Sea has finally been solved. Scientists have confirmed that the Silverpit Crater, buried 700 meters below the seabed, was created when a 160-meter-wide asteroid struck Earth roughly 43 to 46 million years ago. The violent collision blasted a towering curtain of rock and water 1.5 kilometers into the air and triggered a tsunami more than 100 meters high.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Too much RNA can starve cells of energy, scientists discover",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
+          "published": "Wed, 21 Oct 2026 09:02:34 EDT",
+          "summary": "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy. A new study found that excess RNA, including the normally essential messenger RNA (mRNA), can directly disrupt mitochondria without relying on the immune system. The discovery could help explain how viral infections and certain aging-related diseases damage cells.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "A train was delayed by a solar storm. But something didn't add up.",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085021.htm",
+          "published": "Wed, 21 Oct 2026 08:35:57 EDT",
+          "summary": "Scientists have cracked a 178-year-old mystery surrounding a train delayed by a solar storm, revealing that the famous incident happened in 1848 rather than 1841. The discovery rewrites the early history of space weather and highlights a threat that still endangers modern power grids, satellites, and communication systems.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Astronauts’ hearts just passed a surprising test for Mars",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085016.htm",
+          "published": "Wed, 21 Oct 2026 07:59:14 EDT",
+          "summary": "A new study tracking 13 astronauts suggests that the human heart may be surprisingly well equipped for a journey to Mars, especially with regular exercise during spaceflight. Researchers found that astronauts' hearts adapted to months of weightlessness and handled simulated Martian gravity without major problems, offering new hope for future missions to the Red Planet.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm",
+          "published": "Wed, 21 Oct 2026 07:03:52 EDT",
+          "summary": "Scientists have turned blood cells from an 80-year-old into neural stem cells with a molecular age of less than 20, effectively reversing more than 60 years of cellular aging in the laboratory. The discovery offers a new way to investigate how cells become younger and could help researchers better understand age-related diseases such as Alzheimer's.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA’s Perseverance Mars rover just shattered the all-time off-world driving record",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020084818.htm",
+          "published": "Wed, 21 Oct 2026 05:22:36 EDT",
+          "summary": "NASA’s Perseverance rover has shattered a historic space exploration record, traveling farther across another world than any vehicle before it. Its advanced self-driving system helped it surpass Opportunity’s 28.06-mile record in just five and a half years, a feat that previously took nearly 15. Now, Perseverance is exploring some of the oldest rocks in the solar system, searching for clues about ancient Martian environments that may once have supported life.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Scientists finally uncover why statins can cause muscle pain",
           "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
           "published": "Tue, 20 Oct 2026 09:00:56 EDT",
           "summary": "Scientists have uncovered a surprising reason why statins, the widely prescribed cholesterol-lowering drugs that help prevent heart attacks and strokes, can sometimes cause muscle pain, weakness, and even severe muscle damage. Using advanced imaging technology, researchers discovered that statins can attach to a crucial protein in muscle cells and force open a channel that normally controls calcium flow. This causes calcium to leak continuously, potentially damaging muscle tissue.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover ghostly, eyeless creature hidden in Chinese cave",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093445.htm",
+          "published": "Tue, 20 Oct 2026 23:08:17 EDT",
+          "summary": "Deep inside a high-altitude Chinese cave, scientists discovered a ghostly, eyeless freshwater snail that has evolved to live entirely in darkness, marking the first recorded discovery of its kind in China. Named after a faceless mythical creature, the rare species may already be in danger, with researchers finding only three living adults.",
           "source": "ScienceDaily"
         },
         {
@@ -777,106 +824,57 @@
           "published": "Tue, 20 Oct 2026 08:20:44 EDT",
           "summary": "Scientists have identified the “fattest” belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago. The exceptionally rare fossils reveal a creature unlike anything previously known, potentially a predator of smaller squid-like animals and a surprising survivor of a supposedly vanished family.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Your aging brain may be trading memory for something more valuable",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093357.htm",
-          "published": "Tue, 20 Oct 2026 07:31:22 EDT",
-          "summary": "The aging brain may be undergoing a remarkable transformation rather than simply losing its abilities, shifting its focus from remembering details to understanding the bigger picture. Scientists suggest this change could be an evolutionary adaptation that helps older adults develop wisdom and share decades of knowledge with younger generations.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists find a way to fight Alzheimer’s brain damage without removing toxic tau",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093355.htm",
-          "published": "Tue, 20 Oct 2026 05:52:35 EDT",
-          "summary": "Scientists have found a promising way to protect the brain from Alzheimer’s-related damage by blocking immune cells that contribute to the destruction of neurons. In mice, the treatment preserved roughly 40% more tissue in memory centers and improved memory, even without removing harmful tau protein buildup.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "NASA solves a strange mystery hidden inside asteroid Bennu’s boulders",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205101.htm",
-          "published": "Mon, 19 Oct 2026 22:23:00 EDT",
-          "summary": "NASA scientists have finally uncovered why asteroid Bennu loses heat so quickly despite being covered in massive boulders. Samples returned to Earth reveal that its rocks are filled with hidden cracks, solving a mystery that has puzzled researchers for years.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
-          "published": "Mon, 19 Oct 2026 07:23:26 EDT",
-          "summary": "Walking just 3,000 steps a day could help slow Alzheimer’s-related brain changes, according to new research. Scientists discovered that physical activity was linked to less buildup of harmful tau proteins and nearly half the cognitive and functional decline, even in people already showing early signs of the disease. The strongest benefits appeared at 5,000 to 7,500 daily steps, suggesting that the popular 10,000-step goal may not be necessary.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists reach the ultimate quantum limit on a surface",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
-          "published": "Mon, 19 Oct 2026 23:02:41 EDT",
-          "summary": "Scientists have achieved a quantum breakthrough by creating an ultra-clean surface where individual molecules can maintain their delicate quantum properties at the fundamental limit. The discovery could unlock unprecedented control over molecules and help drive the next generation of quantum technologies.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "NASA reveals 16 stunning galaxies hiding cosmic chaos",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205050.htm",
-          "published": "Tue, 20 Oct 2026 02:17:55 EDT",
-          "summary": "NASA's stunning new gallery of 16 galaxies reveals colossal black hole jets, explosive star formation, and spectacular cosmic collisions through the combined power of Chandra, James Webb, Hubble, and other telescopes. These extraordinary images expose the hidden forces shaping galaxies across the universe and offer clues about the Milky Way's own past and future.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
-          "published": "Mon, 19 Oct 2026 09:09:18 EDT",
-          "summary": "A massive landslide in Alaska triggered the second-highest tsunami ever recorded, sending water and debris 1,580 feet up a mountainside just hours after tourists visited the area. Scientists discovered that the disaster was preceded by several warning signs, including rapid glacier retreat, heavy rainfall, and thousands of tiny seismic tremors. As glaciers retreat, similar disasters could become a growing danger in mountainous coastal regions.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Scientists finally uncover why statins can cause muscle pain.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.007). Top story: Scientists finally uncover why statins can cause muscle pain.",
+        "key_takeaway": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.055). Top story: A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami.",
         "key_themes": [
-          "Scientists finally uncover why statins can cause muscle pain",
-          "Hurricane warning maps are improving, but a dangerous problem remains",
-          "Astronomers uncover new secrets of the Universe’s first five minutes",
-          "Scientists discover a surprising link between vitamin C and cancer survival",
-          "Scientists discover a bizarre Jurassic “squid” unlike anything ever seen"
+          "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+          "Too much RNA can starve cells of energy, scientists discover",
+          "A train was delayed by a solar storm. But something didn't add up.",
+          "Astronauts’ hearts just passed a surprising test for Mars",
+          "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells"
         ],
         "notable_headlines": [
+          {
+            "headline": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+            "why_it_matters": "A decades-long mystery beneath the North Sea has finally been solved. Scientists have confirmed that the Silverpit Crater, buried 700 meters below the seabed, was created when a 160-meter-wide asteroid struck Earth rough…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Too much RNA can starve cells of energy, scientists discover",
+            "why_it_matters": "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy. A new study found that excess RNA, including the normally essential messenger …",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "A train was delayed by a solar storm. But something didn't add up.",
+            "why_it_matters": "Scientists have cracked a 178-year-old mystery surrounding a train delayed by a solar storm, revealing that the famous incident happened in 1848 rather than 1841. The discovery rewrites the early history of space weather…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Astronauts’ hearts just passed a surprising test for Mars",
+            "why_it_matters": "A new study tracking 13 astronauts suggests that the human heart may be surprisingly well equipped for a journey to Mars, especially with regular exercise during spaceflight. Researchers found that astronauts' hearts ada…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
+            "why_it_matters": "Scientists have turned blood cells from an 80-year-old into neural stem cells with a molecular age of less than 20, effectively reversing more than 60 years of cellular aging in the laboratory. The discovery offers a new…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "NASA’s Perseverance Mars rover just shattered the all-time off-world driving record",
+            "why_it_matters": "NASA’s Perseverance rover has shattered a historic space exploration record, traveling farther across another world than any vehicle before it. Its advanced self-driving system helped it surpass Opportunity’s 28.06-mile …",
+            "signal": "Unclear"
+          },
           {
             "headline": "Scientists finally uncover why statins can cause muscle pain",
             "why_it_matters": "Scientists have uncovered a surprising reason why statins, the widely prescribed cholesterol-lowering drugs that help prevent heart attacks and strokes, can sometimes cause muscle pain, weakness, and even severe muscle d…",
             "signal": "Unclear"
           },
           {
-            "headline": "Hurricane warning maps are improving, but a dangerous problem remains",
-            "why_it_matters": "A new study reveals that improved hurricane forecast graphics may help people identify threatened areas without making them more likely to recognize the danger or take protective action. Researchers also found that a wid…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Astronomers uncover new secrets of the Universe’s first five minutes",
-            "why_it_matters": "Scientists have achieved a major breakthrough in understanding the Universe’s earliest moments, measuring the amount of helium formed in the first five minutes after the Big Bang with unprecedented precision. Using one o…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Scientists discover a surprising link between vitamin C and cancer survival",
-            "why_it_matters": "A surprising clinical trial suggests that taking vitamin C daily could improve survival in people with precancerous blood disorders and early-stage blood cancers. Patients receiving the supplement had fewer adverse event…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Scientists discover a bizarre Jurassic “squid” unlike anything ever seen",
-            "why_it_matters": "Scientists have identified the “fattest” belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago. The exceptionally rare fossils reveal a creature unl…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Your aging brain may be trading memory for something more valuable",
-            "why_it_matters": "The aging brain may be undergoing a remarkable transformation rather than simply losing its abilities, shifting its focus from remembering details to understanding the bigger picture. Scientists suggest this change could…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Scientists find a way to fight Alzheimer’s brain damage without removing toxic tau",
-            "why_it_matters": "Scientists have found a promising way to protect the brain from Alzheimer’s-related damage by blocking immune cells that contribute to the destruction of neurons. In mice, the treatment preserved roughly 40% more tissue …",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "NASA solves a strange mystery hidden inside asteroid Bennu’s boulders",
-            "why_it_matters": "NASA scientists have finally uncovered why asteroid Bennu loses heat so quickly despite being covered in massive boulders. Samples returned to Earth reveal that its rocks are filled with hidden cracks, solving a mystery …",
+            "headline": "Scientists discover ghostly, eyeless creature hidden in Chinese cave",
+            "why_it_matters": "Deep inside a high-altitude Chinese cave, scientists discovered a ghostly, eyeless freshwater snail that has evolved to live entirely in darkness, marking the first recorded discovery of its kind in China. Named after a …",
             "signal": "Unclear"
           }
         ],
@@ -892,10 +890,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Scientists finally uncover why statins can cause muscle pain",
-            "Hurricane warning maps are improving, but a dangerous problem remains",
-            "Astronomers uncover new secrets of the Universe’s first five minutes",
-            "Scientists discover a surprising link between vitamin C and cancer survival"
+            "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+            "Too much RNA can starve cells of energy, scientists discover",
+            "A train was delayed by a solar storm. But something didn't add up.",
+            "Astronauts’ hearts just passed a surprising test for Mars"
           ],
           "confidence": "Medium"
         },
@@ -905,12 +903,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
-          "latest news summary scientists",
+          "today's mixed news headlines",
+          "latest news summary a",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: Scientists finally uncover why statins can cause muscle pain\n\nScience Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Brain #Discover #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami\n\nScience Sentiment: Mixed (-0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Cells #Discover #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
