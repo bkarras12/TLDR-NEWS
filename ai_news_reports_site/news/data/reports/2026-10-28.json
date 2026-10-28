@@ -1,12 +1,14 @@
 {
   "date": "2026-10-28",
-  "generated_at_utc": "2026-10-28T09:10:25Z",
+  "generated_at_utc": "2026-10-28T19:12:50Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "fuel",
     "trumps",
-    "trump"
+    "record",
+    "heart",
+    "four",
+    "costs"
   ],
   "categories": {
     "world": {
@@ -18,16 +20,51 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2149,
+        "score": -0.1747,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.358, dampened ×0.6 → -0.2149). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.291, dampened ×0.6 → -0.1747). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 28 Oct 2026 16:59:47 GMT",
+          "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+          "source": "BBC News"
+        },
+        {
+          "title": "How could Israel break election deadlock? Here are four scenarios",
+          "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 28 Oct 2026 14:30:31 GMT",
+          "summary": "With 85% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+          "source": "BBC News"
+        },
+        {
           "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
           "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 28 Oct 2026 07:53:20 GMT",
+          "published": "Wed, 28 Oct 2026 10:31:22 GMT",
           "summary": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
+          "source": "BBC News"
+        },
+        {
+          "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+          "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 28 Oct 2026 10:17:54 GMT",
+          "summary": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
+          "url": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 28 Oct 2026 10:18:40 GMT",
+          "summary": "The energy minister described it as a \"major milestone\" for the East African nation.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
+          "url": "https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 28 Oct 2026 08:28:39 GMT",
+          "summary": "No official reason has been given for postponing next month’s hearing to May 2027, the family says.",
           "source": "BBC News"
         },
         {
@@ -71,57 +108,47 @@
           "published": "Tue, 27 Oct 2026 21:09:12 GMT",
           "summary": "Marry Mubaiwa had been held on remand for seven years after being charged in 2019 for her then husband's attempted murder.",
           "source": "BBC News"
-        },
-        {
-          "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
-          "url": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 28 Oct 2026 02:20:25 GMT",
-          "summary": "The trio - two of whom were high-profile US real estate moguls - were found guilty using their social status to lure women to parties and then raping them.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Egypt court fines journalist Lina Attalah and orders news site's closure",
-          "url": "https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 27 Oct 2026 20:44:40 GMT",
-          "summary": "Amnesty International said the verdict against Attalah and independent outlet Mada Masr represented \"a crushing blow to press freedom\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ghanaian twin brothers and US woman plead guilty to $9m romance scam",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0vg2j442lo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 27 Oct 2026 18:43:41 GMT",
-          "summary": "The group targeted elderly people across US and Europe, luring them into romantic relationship before persuading them to transfer large sums of money.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
-          "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 27 Oct 2026 13:25:54 GMT",
-          "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Ballon d'Or ceremony raises case of French sports journalist jailed in Algeria",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2qgyqr79wo?at_medium=RSS&at_campaign=rss",
-          "published": "Tue, 27 Oct 2026 14:29:39 GMT",
-          "summary": "He is in jail accused of supporting terrorism after travelling to the politically sensitive region Kabylie.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.215). Top story: Luxury cruise passengers stranded in Cambodia due to soaring fuel costs.",
+        "key_takeaway": "Netanyahu's bloc leading Israel election but short of majority, partial results show.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.175). Top story: Netanyahu's bloc leading Israel election but short of majority, partial results show.",
         "key_themes": [
+          "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+          "How could Israel break election deadlock? Here are four scenarios",
           "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-          "Ceasefire extended across Ukraine's Kherson region, officials say",
-          "King acknowledges 'suffering of the past' as Caribbean tour begins",
-          "Dutch zookeeper dies after being mauled by leopard",
-          "Norway and Finland leaders hold rare call with Putin"
+          "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+          "Tanzania celebrates first natural gas discovery in more than 10 years"
         ],
         "notable_headlines": [
           {
+            "headline": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+            "why_it_matters": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "How could Israel break election deadlock? Here are four scenarios",
+            "why_it_matters": "With 85% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+            "signal": "Risk"
+          },
+          {
             "headline": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
             "why_it_matters": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+            "why_it_matters": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Tanzania celebrates first natural gas discovery in more than 10 years",
+            "why_it_matters": "The energy minister described it as a \"major milestone\" for the East African nation.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
+            "why_it_matters": "No official reason has been given for postponing next month’s hearing to May 2027, the family says.",
             "signal": "Risk"
           },
           {
@@ -132,31 +159,6 @@
           {
             "headline": "King acknowledges 'suffering of the past' as Caribbean tour begins",
             "why_it_matters": "The King is on a nine-day tour that will take him to three countries, including the Bahamas, Guyana and Antigua and Barbuda.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Dutch zookeeper dies after being mauled by leopard",
-            "why_it_matters": "The woman began her career at the park when she was 17 and had worked there on-and-off for four decades.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Norway and Finland leaders hold rare call with Putin",
-            "why_it_matters": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
-            "why_it_matters": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Ex-wife of Zimbabwe's vice-president freed after collapse of attempted murder case",
-            "why_it_matters": "Marry Mubaiwa had been held on remand for seven years after being charged in 2019 for her then husband's attempted murder.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
-            "why_it_matters": "The trio - two of whom were high-profile US real estate moguls - were found guilty using their social status to lure women to parties and then raping them.",
             "signal": "Risk"
           }
         ],
@@ -172,10 +174,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+            "How could Israel break election deadlock? Here are four scenarios",
             "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-            "Ceasefire extended across Ukraine's Kherson region, officials say",
-            "King acknowledges 'suffering of the past' as Caribbean tour begins",
-            "Dutch zookeeper dies after being mauled by leopard"
+            "Serbian shot dead after attacking officer outside Israeli embassy, minister says"
           ],
           "confidence": "Medium"
         },
@@ -186,11 +188,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary luxury",
+          "latest news summary netanyahu's",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Luxury cruise passengers stranded in Cambodia due to soaring fuel costs\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Case #Acknowledges #Across #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Netanyahu's bloc leading Israel election but short of majority, partial results show\n\nWorld Sentiment: Mixed (-0.17)\n\nRead the full breakdown: https://tldrnews.info\n\n#Election #Israel #Accused #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -201,11 +203,32 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.1368,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.228, dampened ×0.6 → -0.1368). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0147,
+        "label": "Neutral",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.024, dampened ×0.6 → +0.0147). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Fed holds interest rates steady in last decision before midterms",
+          "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+          "published": "Wed, 28 Oct 2026 18:07:23 GMT",
+          "summary": "<p>US central bank last month raised rates for first time since 2023, in move that infuriated Donald Trump</p><p>The US Federal Reserve left interest rates unchanged on Wednesday during its last board meeting before the midterm elections, keeping rates at one of the highest pre-election levels seen in over 20 years.</p><p>Two out of 12 board members voted against the pause, preferring to raise rates by a quarter point this meeting, the Fed board said in a statement. Last month, Fed officials rai",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
+          "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
+          "published": "Wed, 28 Oct 2026 14:30:29 GMT",
+          "summary": "<p>Critics warn of climate danger as president in Texas claims change will save companies and consumers billions</p><p>Donald Trump said his administration is “terminating” Biden-era regulations holding oil and gas companies accountable for large leaks of planet-warming methane during a rally in Lubbock, Texas, on Tuesday evening.</p><p>“Tonight, I’m officially terminating Biden’s expensive and unnecessary methane regulations to save consumers and energy producers,” Trump said, lifting what he c",
+          "source": "The Guardian"
+        },
+        {
+          "title": "San Francisco estate sells for record $10m above listing price as AI boom drives up costs",
+          "url": "https://www.theguardian.com/us-news/2026/oct/27/san-francisco-real-estate-listing-price-ai",
+          "published": "Tue, 27 Oct 2026 20:23:03 GMT",
+          "summary": "<p>Eight-bedroom mansion listed at $18.5m sold for $28.5m and has a private garden and three-car garage</p><p>A <a href=\"https://www.theguardian.com/us-news/san-francisco\">San Francisco</a> estate sold for $10m above its listing price this month in a new record for the city as the <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">artificial intelligence</a> boom continues to drive up real estate prices.</p><p>Located in the city’s tony Presidio Heights neighborhood, the e",
+          "source": "The Guardian"
+        },
         {
           "title": "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
           "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
@@ -218,13 +241,6 @@
           "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
           "published": "Tue, 27 Oct 2026 04:42:50 GMT",
           "summary": "<p>Lack of profits and the threat posed by western countries are raising concern about the sustainability of Beijing’s AI boom</p><p>Trillions of dollars have been wiped from China’s stock markets in recent months amid increasing anxiety about the future of artificial intelligence, as Beijing races against the United States for dominance in the sector.</p><p>The STAR 50 Index, which tracks technology and innovation companies on the Shanghai stock exchange, has plunged 40% since June. Other index",
-          "source": "The Guardian"
-        },
-        {
-          "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
-          "url": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts",
-          "published": "Mon, 26 Oct 2026 11:00:42 GMT",
-          "summary": "<p>As the US midterm elections approach, we take a look at data to see a true picture of the US economy under Trump</p><p>With the <a href=\"https://www.theguardian.com/us-news/us-midterm-elections-2026\">midterm elections</a> fast approaching, many Americans have the <a href=\"https://www.theguardian.com/business/useconomy\">economy</a> on their minds.</p><p>US voters are <a href=\"https://www.theguardian.com/business/2026/oct/15/voters-economy-cost-of-living-prices-poll\">exhausted</a> by years of h",
           "source": "The Guardian"
         },
         {
@@ -256,24 +272,17 @@
           "source": "The Guardian"
         },
         {
-          "title": "Too little, too late: Trump takes on gas prices as fuel costs hamper his midterm hopes",
-          "url": "https://www.theguardian.com/us-news/2026/oct/22/trump-high-gas-prices-midterms-cycle",
-          "published": "Thu, 22 Oct 2026 11:00:40 GMT",
-          "summary": "<p>Polls show US voters are deeply upset by high gas prices and are likely to punish Republicans in the midterms as a result</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/oct/21/immigration-ice-mass-deportation-trump-midterm-elections\">How will Trump’s mass deportation agenda shape the US midterm elections? Our reporters answer your questions</a></p></li></ul><p>With fewer than two weeks until the <a href=\"https://www.theguardian.com/us-news/us-midterm-elections-2026\">midt",
-          "source": "The Guardian"
-        },
-        {
-          "title": "The young Americans choosing Y2K cars over shiny new SUVs: ‘I get so much crap from people’",
-          "url": "https://www.theguardian.com/us-news/2026/oct/23/y2k-used-cars-gen-z",
-          "published": "Fri, 23 Oct 2026 11:30:24 GMT",
-          "summary": "<p>People under 35 are hunting for no-frills rides they can pay for in cash and fix themselves – defying expectations to take on steep loans</p><p>Jack Price joined the marines in fall 2021 knowing he would need a car to get around base and that he couldn’t afford a new one. A joyless, month-long search through dealer classifieds and Facebook Marketplace listings ended when his mother spotted a 2010 Volkswagen Jetta posted on her office listserv by a co-worker moving abroad. With just 60,000 mil",
-          "source": "The Guardian"
-        },
-        {
           "title": "The survival of American democracy depends on taxing billionaires",
           "url": "https://www.theguardian.com/us-news/2026/oct/27/democracy-tax-billionaires",
           "published": "Tue, 27 Oct 2026 11:00:36 GMT",
           "summary": "<p>It is essential not just to fund the public goods the nation needs, it is indispensable to restore a sense of fairness</p><p>Money doesn’t buy happiness, we’re told. Even some economists agree. The Nobel prize-winning economists Daniel Kahneman and Angus Deaton once <a href=\"https://www.pnas.org/doi/full/10.1073/pnas.1011492107\">proposed that</a> rising income increased people’s emotional wellbeing only up to a ceiling of about $115,000 in today’s money.</p><p>They probably hadn’t met many bi",
+          "source": "The Guardian"
+        },
+        {
+          "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
+          "url": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts",
+          "published": "Mon, 26 Oct 2026 11:00:42 GMT",
+          "summary": "<p>As the US midterm elections approach, we take a look at data to see a true picture of the US economy under Trump</p><p>With the <a href=\"https://www.theguardian.com/us-news/us-midterm-elections-2026\">midterm elections</a> fast approaching, many Americans have the <a href=\"https://www.theguardian.com/business/useconomy\">economy</a> on their minds.</p><p>US voters are <a href=\"https://www.theguardian.com/business/2026/oct/15/voters-economy-cost-of-living-prices-poll\">exhausted</a> by years of h",
           "source": "The Guardian"
         },
         {
@@ -282,65 +291,58 @@
           "published": "Mon, 26 Oct 2026 11:00:41 GMT",
           "summary": "<p>Adding gratuity doesn’t always make sense, but the obligation to has been entrenched as a societal norm</p><p>You arrive at a pizza place to pick up your order. The credit-card screen asks if you would like to tip and gives some choices. It seems strange to tip the cashier, who did nothing but hand over the pizza. But it also seems a little harsh to select “no tip” instead of one of those more generous options.</p><p>What’s the right thing to do?</p> <a href=\"https://www.theguardian.com/lifea",
           "source": "The Guardian"
-        },
-        {
-          "title": "‘Hunted like animals’: inside Trump’s war on the people who build America",
-          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/21/trump-ice-construction-worker-deportation",
-          "published": "Wed, 21 Oct 2026 10:00:02 GMT",
-          "summary": "<p>Lorenzo Salgado Araujo was a house framer before he was killed by ICE agents. Countless other Latino builders in Texas live in fear of a similar fate</p><p>Every morning long before dawn, while America sleeps, legions of Texas construction workers grab their fluorescent vests and hard hats, sling ladders and tools into their trucks, and head down the highway for another day of grueling labour under the blistering sun.</p><p>Elsewhere, before the first flush of daylight settles over Texas’s co",
-          "source": "The Guardian"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Four takeaways from Anthropic’s potentially record-breaking stock market filing.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.137). Top story: Four takeaways from Anthropic’s potentially record-breaking stock market filing.",
+        "key_takeaway": "Fed holds interest rates steady in last decision before midterms.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.015). Top story: Fed holds interest rates steady in last decision before midterms.",
         "key_themes": [
+          "Fed holds interest rates steady in last decision before midterms",
+          "Trump says government to ‘terminate’ Biden-era methane emissions rules",
+          "San Francisco estate sells for record $10m above listing price as AI boom drives up costs",
           "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
-          "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
-          "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
-          "European gas prices soar to four-year high over winter supply fears",
-          "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home"
+          "Chinese markets lose trillions as race for AI supremacy with US takes its toll"
         ],
         "notable_headlines": [
           {
+            "headline": "Fed holds interest rates steady in last decision before midterms",
+            "why_it_matters": "<p>US central bank last month raised rates for first time since 2023, in move that infuriated Donald Trump</p><p>The US Federal Reserve left interest rates unchanged on Wednesday during its last board meeting before the …",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
+            "why_it_matters": "<p>Critics warn of climate danger as president in Texas claims change will save companies and consumers billions</p><p>Donald Trump said his administration is “terminating” Biden-era regulations holding oil and gas compa…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "San Francisco estate sells for record $10m above listing price as AI boom drives up costs",
+            "why_it_matters": "<p>Eight-bedroom mansion listed at $18.5m sold for $28.5m and has a private garden and three-car garage</p><p>A <a href=\"https://www.theguardian.com/us-news/san-francisco\">San Francisco</a> estate sold for $10m above its…",
+            "signal": "Unclear"
+          },
+          {
             "headline": "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
             "why_it_matters": "<p>The AI company’s first public financial disclosures reveal explosive growth, huge costs and risks ranging from cyber-attacks to the limits of safeguards</p><p>Anthropic <a href=\"https://www.theguardian.com/technology/…",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
             "why_it_matters": "<p>Lack of profits and the threat posed by western countries are raising concern about the sustainability of Beijing’s AI boom</p><p>Trillions of dollars have been wiped from China’s stock markets in recent months amid i…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
-            "why_it_matters": "<p>As the US midterm elections approach, we take a look at data to see a true picture of the US economy under Trump</p><p>With the <a href=\"https://www.theguardian.com/us-news/us-midterm-elections-2026\">midterm elections…",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "European gas prices soar to four-year high over winter supply fears",
             "why_it_matters": "<p>Jump fuelled by fears of further Middle East supply disruptions amid reports of US-Israeli plans to strike Iran </p><p>European gas prices have jumped to levels not seen since 2022 as fears continue to grow around the…",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
             "why_it_matters": "<p>VW investment, creating 4,500 jobs in Georgia, comes amid Trump’s damaging tariffs, intense Chinese competition and costly shift towards EVs</p><p>Audi has said it will spend $4bn (£3bn) to build its first factory in …",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
             "why_it_matters": "<p>Republican senator faces critical re-election battle in state where president’s trade war has outraged voters </p><p>Donald Trump dropped some of the US’s tariffs on Canada on Friday to “better serve the public intere…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
-            "why_it_matters": "<p>Brent crude increase follows Tehran threatening retaliatory attacks on Gulf refineries and datacentres</p><p>Oil has hit its highest level in more than six months as fears of fresh escalation in the Middle East confli…",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Too little, too late: Trump takes on gas prices as fuel costs hamper his midterm hopes",
-            "why_it_matters": "<p>Polls show US voters are deeply upset by high gas prices and are likely to punish Republicans in the midterms as a result</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/oct/21/immigration-ice-mas…",
-            "signal": "Risk"
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -355,10 +357,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
-            "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
-            "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
-            "European gas prices soar to four-year high over winter supply fears"
+            "Fed holds interest rates steady in last decision before midterms",
+            "Trump says government to ‘terminate’ Biden-era methane emissions rules",
+            "San Francisco estate sells for record $10m above listing price as AI boom drives up costs",
+            "Four takeaways from Anthropic’s potentially record-breaking stock market filing"
           ],
           "confidence": "Medium"
         },
@@ -368,12 +370,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary four",
+          "today's neutral news headlines",
+          "latest news summary fed",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Four takeaways from Anthropic’s potentially record-breaking stock market filing\n\nBusiness Sentiment: Mixed (-0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Fears #Prices #Takes #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Fed holds interest rates steady in last decision before midterms\n\nBusiness Sentiment: Neutral (+0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Trump #Above #Anthropics #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -384,131 +386,131 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1788,
+        "score": 0.1599,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.298, dampened ×0.6 → +0.1788). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.266, dampened ×0.6 → +0.1599). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
-          "url": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge",
-          "published": "2026-10-27T18:55:05-04:00",
-          "summary": "Within hours of the iPhone Duo launch last Friday, people reported that the inner screen on some brand new foldable phones was already broken. The issue was similar across many photos shared on social media: some kind of issue or crack would appear in the middle of the screen above the hinge, with lines appearing [&#8230;]",
+          "title": "Brendan Carr plans to let prisons jam cellphone signals",
+          "url": "https://www.theverge.com/policy/1021165/fcc-brendan-carr-prison-phone-jamming",
+          "published": "2026-10-28T14:57:02-04:00",
+          "summary": "FCC Chairman Brendan Carr announced the agency will vote on November 19th on rules that would allow prisons to use signal jamming. Radiofrequency jammers are generally banned under Section 333 and the Communications Act of 1934, with few exceptions, and Carr has noted they've been permitted for use at some federal facilities already. Carr claims [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-          "published": "2026-10-27T16:48:58-04:00",
-          "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI [&#8230;]",
+          "title": "Microsoft is ending Copilot support on smart TVs",
+          "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+          "published": "2026-10-28T14:36:26-04:00",
+          "summary": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official announcement from LG, Samsung, [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Elon Musk says Ukraine&#8217;s military violated Starlink&#8217;s terms of service",
-          "url": "https://www.theverge.com/science/1019879/elon-musk-starlink-ukraine-terms-of-service",
-          "published": "2026-10-27T15:24:06-04:00",
-          "summary": "Elon Musk claims Ukraine violated Starlink's terms of service before the recent slowdown, as reported earlier by Ars Technica. According to Musk, \"Ukraine military violated Starlink terms of service and used it for offensive drone strikes to kill people. That loophole was closed last week,\" however Ukrainian officials have denied that happened, or that it [&#8230;]",
+          "title": "Surprise: The Google Xreal glasses debut at a Meta-beating $1,099",
+          "url": "https://www.theverge.com/tech/1020960/google-xreal-glasses-debut-meta-vr-glasses-price-release-date",
+          "published": "2026-10-28T14:14:11-04:00",
+          "summary": "In this economy, how often does a product get less expensive before its debut? That just happened with the Google / Xreal Aura, the lightweight 95-gram glasses with a tethered Android XR compute puck and multiple virtual screens that just went on sale today. Xreal and Google have just announced the headset costs $1,099 through [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Trump is making it easier for fossil fuel companies to leak methane",
-          "url": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump",
-          "published": "2026-10-27T14:25:13-04:00",
-          "summary": "In its latest gift to oil and gas companies, the Trump administration is expected to announce plans today to weaken rules that guard against methane leaks. Methane is a smog-forming pollutant and a powerful greenhouse gas that's up to 80 times as potent as carbon dioxide on a 20-year horizon. It's the primary component of [&#8230;]",
+          "title": "Here’s where to preorder the new MacBook Pros",
+          "url": "https://www.theverge.com/gadgets/1019109/apple-macbook-pro-m6-proled-xdr-how-to-buy-price-release-date",
+          "published": "2026-10-28T14:10:23-04:00",
+          "summary": "As expected, Apple finally showed off its 14- and 16-inch MacBook Pros at its recent \"Pro and Tell\" event. The long-awaited laptops feature a Tandem OLED display with full touch capabilities, while also cutting some weight and bringing back the glowing Apple logo. While less exciting, there's also an updated 14-inch MacBook Pro that features [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "VisionQuest is what happens when AI really goes rogue",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
-          "published": "2026-10-27T13:30:00-04:00",
-          "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come to dominate the conversation about real-world generative artificial [&#8230;]",
+          "title": "You can see every red flag in Theranos 2.0",
+          "url": "https://www.theverge.com/column/1020859/optimizer-theranos-haemanthus-you-can-see-everything",
+          "published": "2026-10-28T14:00:00-04:00",
+          "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. From afar, it's easy to look back at the Theranos debacle and scream at Nathan Fielder that, obviously, Elizabeth Holmes [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "The Super Mouse puts a touchscreen macro pad under your hand",
-          "url": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
-          "published": "2026-10-27T13:00:00-04:00",
-          "summary": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact touchscreen sitting beneath your hand. The Super Mouse may not prioritize ergonomics with its boxy design, but it can replace other peripherals on your desk, like a trackpad, [&#8230;]",
+          "title": "Here’s how macOS is changing for touchscreens",
+          "url": "https://www.theverge.com/tech/1020084/macos-touchscreen-changes",
+          "published": "2026-10-28T13:48:28-04:00",
+          "summary": "Touchscreen laptops are nothing new in the Windows world, but Apple has only just announced its first MacBook with a touchscreen. Apple isn't rushing to change a bunch of things in macOS to optimize for touch, though: Most of the touch action will be in the apps themselves, it seems. As far as major macOS [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-          "published": "2026-10-27T12:51:22-04:00",
-          "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and shareholders eager for returns may [&#8230;]",
+          "title": "Apple ‘Pro and tell’ event: Everything announced this week",
+          "url": "https://www.theverge.com/tech/1020069/apple-pro-and-tell-event-everything-announced-this-week",
+          "published": "2026-10-28T13:27:38-04:00",
+          "summary": "Apple closed out its week of product announcements with its \"Pro and tell\" event on Wednesday, where it took the wraps off its long-rumored touchscreen MacBook Pro. Though Apple may have saved its biggest and most exciting update for last, it revealed a few other device upgrades and updates in the days leading up to [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Meta’s $25 billion legal loss just put blood in the water",
-          "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
-          "published": "2026-10-27T12:44:40-04:00",
-          "summary": "When attorneys general from across the US announced a $17 billion settlement with Meta this summer, the sum was unprecedented. But a ruling last week by a New Mexico judge blew that number out of the water. The judge ordered Meta to pay $25 billion to resolve claims that Meta misled users around the 2018 [&#8230;]",
+          "title": "Watch Apple’s reveal video for the touchscreen MacBook Pro",
+          "url": "https://www.theverge.com/tech/1020676/apple-touchscreen-macbook-pro-reveal-video",
+          "published": "2026-10-28T13:19:23-04:00",
+          "summary": "Apple just announced its first touchscreen MacBook at its \"Pro and tell\" event on Wednesday. It showed off the long-awaited touchscreen in a video of the new MacBook Pro during the event that you can watch right here to see the new display in action. The new MacBook Pro's PROLED XDR touch display is a [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
-          "published": "2026-10-27T12:14:18-04:00",
-          "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into a job application. You [&#8230;]",
+          "title": "Hands-on with Apple’s touchscreen MacBook Pro",
+          "url": "https://www.theverge.com/tech/1020549/macbook-studio-touchscreen-hands-on",
+          "published": "2026-10-28T13:16:55-04:00",
+          "summary": "Steve Jobs famously called touchscreen laptops \"ergonomically terrible,\" and for over a decade, Apple stridently refused to make one. Today that all changes with the MacBook Pro - the company's first laptop to embrace a touch interface. While it's unlikely that Apple can fix all the \"terrible\" ergonomics of having to lift your arm up [&#8230;]",
           "source": "The Verge"
         },
         {
-          "title": "Major League Baseball is looking for a new kind of fan",
-          "url": "https://www.theverge.com/report/1019478/major-league-baseball-fandom-social-media-world-series-influencers",
-          "published": "2026-10-27T12:02:43-04:00",
-          "summary": "On October 2nd, just as Major League Baseball's Division Series was kicking off, the main MLB Instagram and TikTok accounts posted a video hyping up the teams still in the running for the World Series. It featured clips of players from the Milwaukee Brewers, Los Angeles Dodgers, Chicago White Sox, and more sliding into home [&#8230;]",
+          "title": "Here’s where you can preorder the new OLED-equipped iPad Mini",
+          "url": "https://www.theverge.com/gadgets/1019037/oled-ipad-mini-2026-preorder-price-how-to-buy-release-date",
+          "published": "2026-10-28T13:12:47-04:00",
+          "summary": "Apple's smallest tablet is getting a bigger screen. Earlier this week, the company announced the eighth-generation iPad Mini alongside several new MacBook Pro models, bringing OLED technology to Apple's miniature tablet for the first time. The diminutive slate won't hit shelves until November 6th; however, you can already preorder it from Amazon, Walmart, Apple, and [&#8230;]",
           "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Here’s why the iPhone Duo’s hinge could be cracking the screen.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.179). Top story: Here’s why the iPhone Duo’s hinge could be cracking the screen.",
+        "key_takeaway": "Brendan Carr plans to let prisons jam cellphone signals.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.160). Top story: Brendan Carr plans to let prisons jam cellphone signals.",
         "key_themes": [
-          "Here’s why the iPhone Duo’s hinge could be cracking the screen",
-          "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-          "Elon Musk says Ukraine&#8217;s military violated Starlink&#8217;s terms of service",
-          "Trump is making it easier for fossil fuel companies to leak methane",
-          "VisionQuest is what happens when AI really goes rogue"
+          "Brendan Carr plans to let prisons jam cellphone signals",
+          "Microsoft is ending Copilot support on smart TVs",
+          "Surprise: The Google Xreal glasses debut at a Meta-beating $1,099",
+          "Here’s where to preorder the new MacBook Pros",
+          "You can see every red flag in Theranos 2.0"
         ],
         "notable_headlines": [
           {
-            "headline": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
-            "why_it_matters": "Within hours of the iPhone Duo launch last Friday, people reported that the inner screen on some brand new foldable phones was already broken. The issue was similar across many photos shared on social media: some kind of…",
+            "headline": "Brendan Carr plans to let prisons jam cellphone signals",
+            "why_it_matters": "FCC Chairman Brendan Carr announced the agency will vote on November 19th on rules that would allow prisons to use signal jamming. Radiofrequency jammers are generally banned under Section 333 and the Communications Act …",
             "signal": "Opportunity"
           },
           {
-            "headline": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-            "why_it_matters": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course …",
+            "headline": "Microsoft is ending Copilot support on smart TVs",
+            "why_it_matters": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Elon Musk says Ukraine&#8217;s military violated Starlink&#8217;s terms of service",
-            "why_it_matters": "Elon Musk claims Ukraine violated Starlink's terms of service before the recent slowdown, as reported earlier by Ars Technica. According to Musk, \"Ukraine military violated Starlink terms of service and used it for offen…",
+            "headline": "Surprise: The Google Xreal glasses debut at a Meta-beating $1,099",
+            "why_it_matters": "In this economy, how often does a product get less expensive before its debut? That just happened with the Google / Xreal Aura, the lightweight 95-gram glasses with a tethered Android XR compute puck and multiple virtual…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Trump is making it easier for fossil fuel companies to leak methane",
-            "why_it_matters": "In its latest gift to oil and gas companies, the Trump administration is expected to announce plans today to weaken rules that guard against methane leaks. Methane is a smog-forming pollutant and a powerful greenhouse ga…",
+            "headline": "Here’s where to preorder the new MacBook Pros",
+            "why_it_matters": "As expected, Apple finally showed off its 14- and 16-inch MacBook Pros at its recent \"Pro and Tell\" event. The long-awaited laptops feature a Tandem OLED display with full touch capabilities, while also cutting some weig…",
             "signal": "Opportunity"
           },
           {
-            "headline": "VisionQuest is what happens when AI really goes rogue",
-            "why_it_matters": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The …",
+            "headline": "You can see every red flag in Theranos 2.0",
+            "why_it_matters": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. From…",
             "signal": "Opportunity"
           },
           {
-            "headline": "The Super Mouse puts a touchscreen macro pad under your hand",
-            "why_it_matters": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact touchscreen sitting beneath your hand. The…",
+            "headline": "Here’s how macOS is changing for touchscreens",
+            "why_it_matters": "Touchscreen laptops are nothing new in the Windows world, but Apple has only just announced its first MacBook with a touchscreen. Apple isn't rushing to change a bunch of things in macOS to optimize for touch, though: Mo…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Anthropic’s elaborate plan to keep Wall Street at bay",
-            "why_it_matters": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit o…",
+            "headline": "Apple ‘Pro and tell’ event: Everything announced this week",
+            "why_it_matters": "Apple closed out its week of product announcements with its \"Pro and tell\" event on Wednesday, where it took the wraps off its long-rumored touchscreen MacBook Pro. Though Apple may have saved its biggest and most exciti…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Meta’s $25 billion legal loss just put blood in the water",
-            "why_it_matters": "When attorneys general from across the US announced a $17 billion settlement with Meta this summer, the sum was unprecedented. But a ruling last week by a New Mexico judge blew that number out of the water. The judge ord…",
+            "headline": "Watch Apple’s reveal video for the touchscreen MacBook Pro",
+            "why_it_matters": "Apple just announced its first touchscreen MacBook at its \"Pro and tell\" event on Wednesday. It showed off the long-awaited touchscreen in a video of the new MacBook Pro during the event that you can watch right here to …",
             "signal": "Opportunity"
           }
         ],
@@ -524,10 +526,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Here’s why the iPhone Duo’s hinge could be cracking the screen",
-            "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-            "Elon Musk says Ukraine&#8217;s military violated Starlink&#8217;s terms of service",
-            "Trump is making it easier for fossil fuel companies to leak methane"
+            "Brendan Carr plans to let prisons jam cellphone signals",
+            "Microsoft is ending Copilot support on smart TVs",
+            "Surprise: The Google Xreal glasses debut at a Meta-beating $1,099",
+            "Here’s where to preorder the new MacBook Pros"
           ],
           "confidence": "Medium"
         },
@@ -538,11 +540,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary here’s",
+          "latest news summary brendan",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Here’s why the iPhone Duo’s hinge could be cracking the screen\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Anthropics #Billion #Blood #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Brendan Carr plans to let prisons jam cellphone signals\n\nTechnology Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Heres #Macbook #1099 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -736,9 +738,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.2075,
+        "score": 0.2081,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.346, dampened ×0.6 → +0.2075). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.347, dampened ×0.6 → +0.2081). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -749,10 +751,38 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Scientists discover a secret glow in toxic fire salamanders",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261027063707.htm",
+          "published": "Wed, 28 Oct 2026 08:11:52 EDT",
+          "summary": "Researchers have discovered a surprising hidden ability in Europe's familiar black-and-yellow fire salamanders: they glow green and cyan under ultraviolet light. The mysterious fluorescence comes mainly from glands in their skin and their toxic secretions, which can continue glowing for more than 24 hours after being released.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
+          "published": "Wed, 28 Oct 2026 06:29:36 EDT",
+          "summary": "NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect. Tiny experimental detectors also uncovered surprising details about how radiation passes through the human body, offering valuable insights for future lunar exploration.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Scientists discover the immune system’s hidden sense of touch",
           "url": "https://www.sciencedaily.com/releases/2026/10/261026225617.htm",
           "published": "Tue, 27 Oct 2026 20:54:54 EDT",
           "summary": "Scientists at McGill University have discovered a surprising new ability of immune cells that could change how we understand long-term immunity. Researchers found that T cells can actually sense how stiff their surrounding tissues are, using these physical signals to help determine whether they develop into long-lasting memory cells that protect against future infections.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover a hidden 100-million-year-old volcanic system",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261026225615.htm",
+          "published": "Wed, 28 Oct 2026 08:00:17 EDT",
+          "summary": "Scientists have uncovered a long-lost volcanic system in Iran that dates back roughly 100 million years, revealing a hidden chapter in Earth's tectonic history. The discovery sheds new light on the disappearance of an ancient ocean and the powerful geological forces that reshaped the Middle East.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Earth's ice ages may have been driven by a hidden ocean chain reaction",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261026225610.htm",
+          "published": "Wed, 28 Oct 2026 07:08:25 EDT",
+          "summary": "Scientists have uncovered a surprising connection between Earth's opposite poles that may help explain how the planet plunged into past ice ages. New research suggests that as massive ice sheets expanded across the Northern Hemisphere, they cooled Atlantic Ocean waters that eventually traveled south toward Antarctica. This cooling may have disrupted Southern Ocean circulation, allowing the ocean to absorb and store more carbon dioxide from the atmosphere, further cooling the planet.",
           "source": "ScienceDaily"
         },
         {
@@ -796,45 +826,17 @@
           "published": "Mon, 26 Oct 2026 07:35:53 EDT",
           "summary": "Regular exercise does more than strengthen the heart. New research reveals that it actually reshapes the nerves controlling how the heart functions, and the changes are surprisingly different on the left and right sides of the body.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists discover a surprising clue to why some brains resist Alzheimer’s",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261025222538.htm",
-          "published": "Tue, 27 Oct 2026 00:02:26 EDT",
-          "summary": "Why do some people stay mentally sharp even when their brains show signs of Alzheimer’s disease? Scientists in the Netherlands may have uncovered an important clue hidden in a rare group of immature brain cells. Researchers discovered that these cells remain present even in people over 80, but their behavior differs dramatically between those who develop dementia and those who remain cognitively healthy.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
-          "published": "Mon, 26 Oct 2026 07:06:08 EDT",
-          "summary": "A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight-kilometer error in the location of an ancient Chinese capital, scientists were able to reconstruct a total solar eclipse that occurred in 709 BCE and obtain more accurate measurements of how fast Earth was spinning at the time.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists solve a 30-year mystery behind inflammatory bowel disease",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261025073053.htm",
-          "published": "Mon, 26 Oct 2026 19:57:03 EDT",
-          "summary": "Scientists have identified a hidden cause of inflammatory bowel disease: antibodies that disable the immune system’s natural ability to control inflammation, potentially explaining severe illness in thousands of patients. The breakthrough also solves a 30-year genetic mystery and could pave the way for more precise diagnoses and targeted treatments.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Mayo Clinic discovers new ways to fight the “zombie” cells that drive aging",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261025073049.htm",
-          "published": "Mon, 26 Oct 2026 22:32:38 EDT",
-          "summary": "Mayo Clinic scientists have uncovered surprising new insights into “zombie cells,” aging cells that linger in the body and contribute to inflammation and disease. Seven studies reveal why these cells are harmful and identify new strategies for targeting them, including a natural compound found in tomatoes. In aging mice, experimental treatments reduced inflammation and improved physical and brain health. The findings could open the door to therapies that combat some of the biological processes b",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
         "key_takeaway": "The autistic brain processes faces differently than scientists thought.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.207). Top story: The autistic brain processes faces differently than scientists thought.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.208). Top story: The autistic brain processes faces differently than scientists thought.",
         "key_themes": [
           "The autistic brain processes faces differently than scientists thought",
+          "Scientists discover a secret glow in toxic fire salamanders",
+          "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
           "Scientists discover the immune system’s hidden sense of touch",
-          "The asteroid that killed the dinosaurs may have helped ants conquer the world",
-          "Common drugs may help dangerous viruses spread through the body",
-          "James Webb discovers a scorching lava planet with a “giant sunscreen”"
+          "Scientists discover a hidden 100-million-year-old volcanic system"
         ],
         "notable_headlines": [
           {
@@ -843,8 +845,28 @@
             "signal": "Opportunity"
           },
           {
+            "headline": "Scientists discover a secret glow in toxic fire salamanders",
+            "why_it_matters": "Researchers have discovered a surprising hidden ability in Europe's familiar black-and-yellow fire salamanders: they glow green and cyan under ultraviolet light. The mysterious fluorescence comes mainly from glands in th…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
+            "why_it_matters": "NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect. Tiny experimental detectors also uncovered surprising details about …",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Scientists discover the immune system’s hidden sense of touch",
             "why_it_matters": "Scientists at McGill University have discovered a surprising new ability of immune cells that could change how we understand long-term immunity. Researchers found that T cells can actually sense how stiff their surroundi…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scientists discover a hidden 100-million-year-old volcanic system",
+            "why_it_matters": "Scientists have uncovered a long-lost volcanic system in Iran that dates back roughly 100 million years, revealing a hidden chapter in Earth's tectonic history. The discovery sheds new light on the disappearance of an an…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Earth's ice ages may have been driven by a hidden ocean chain reaction",
+            "why_it_matters": "Scientists have uncovered a surprising connection between Earth's opposite poles that may help explain how the planet plunged into past ice ages. New research suggests that as massive ice sheets expanded across the North…",
             "signal": "Opportunity"
           },
           {
@@ -855,26 +877,6 @@
           {
             "headline": "Common drugs may help dangerous viruses spread through the body",
             "why_it_matters": "A surprising discovery reveals that widely used anti-inflammatory drugs may unintentionally help dangerous viruses spread through the body. Scientists found that JAK inhibitors, prescribed for rheumatoid arthritis and ot…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
-            "why_it_matters": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago. James Webb Space Telescope o…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Smithsonian scientists just recreated the first 2 billion years of the Universe",
-            "why_it_matters": "Scientists have created one of the largest and most detailed simulations of the early universe ever made, offering an extraordinary new glimpse into the cosmos shortly after the Big Bang. Called Lumina, the groundbreakin…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Do spiders dream? Scientists just found a surprising clue",
-            "why_it_matters": "Scientists have discovered that spiders may sleep in ways surprisingly similar to humans, complete with distinct sleep stages and a dream-like REM state. Researchers at the University of Bonn studied the Australian jumpi…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Exercise doesn't just strengthen your heart. It rewires it",
-            "why_it_matters": "Regular exercise does more than strengthen the heart. New research reveals that it actually reshapes the nerves controlling how the heart functions, and the changes are surprisingly different on the left and right sides …",
             "signal": "Opportunity"
           }
         ],
@@ -891,9 +893,9 @@
           ],
           "watch_list": [
             "The autistic brain processes faces differently than scientists thought",
-            "Scientists discover the immune system’s hidden sense of touch",
-            "The asteroid that killed the dinosaurs may have helped ants conquer the world",
-            "Common drugs may help dangerous viruses spread through the body"
+            "Scientists discover a secret glow in toxic fire salamanders",
+            "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
+            "Scientists discover the immune system’s hidden sense of touch"
           ],
           "confidence": "Medium"
         },
@@ -908,7 +910,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: The autistic brain processes faces differently than scientists thought\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Ants #Asteroid #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: The autistic brain processes faces differently than scientists thought\n\nScience Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Discover #Hidden #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
