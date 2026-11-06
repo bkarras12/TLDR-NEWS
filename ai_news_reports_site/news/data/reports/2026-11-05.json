@@ -1,14 +1,14 @@
 {
   "date": "2026-11-05",
-  "generated_at_utc": "2026-11-05T20:54:28Z",
+  "generated_at_utc": "2026-11-06T03:21:38Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
+    "midterms",
     "tech",
     "stocks",
-    "hosts",
-    "blue"
+    "election"
   ],
   "categories": {
     "world": {
@@ -20,11 +20,39 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2456,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.409, dampened ×0.6 → -0.2456). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.3114,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.519, dampened ×0.6 → -0.3114). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Nov 2026 02:57:24 GMT",
+          "summary": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump signs order preventing future presidents from changing Oval Office",
+          "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Nov 2026 03:17:39 GMT",
+          "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
+          "source": "BBC News"
+        },
+        {
+          "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Nov 2026 02:08:57 GMT",
+          "summary": "The Trump administration has downplayed reports the pair could be on their way out after heavy Republicans election losses.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+          "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Nov 2026 00:02:57 GMT",
+          "summary": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
+          "source": "BBC News"
+        },
         {
           "title": "Hoax bomb threats target European airlines and airports for second time in a week",
           "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
@@ -33,24 +61,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Who could be behind hoax bomb threats to European air travel?",
-          "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Nov 2026 19:58:40 GMT",
-          "summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
-          "source": "BBC News"
-        },
-        {
-          "title": "California governor commutes death sentences for all 548 people on death row",
+          "title": "California governor commutes sentences for state's 548 death row inmates",
           "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Nov 2026 20:28:38 GMT",
-          "summary": "California has historically had the largest population of death row inmates in the US.",
-          "source": "BBC News"
-        },
-        {
-          "title": "French protests see numbers surge as unions join strikes over high cost of living",
-          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Nov 2026 17:59:53 GMT",
-          "summary": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher.",
+          "published": "Thu, 05 Nov 2026 23:09:33 GMT",
+          "summary": "California has historically had the largest population of people on death row in the US.",
           "source": "BBC News"
         },
         {
@@ -61,6 +75,20 @@
           "source": "BBC News"
         },
         {
+          "title": "French protests see numbers surge as unions join strikes over high cost of living",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 05 Nov 2026 17:59:53 GMT",
+          "summary": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+          "url": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 06 Nov 2026 01:28:03 GMT",
+          "summary": "The results mean America's two most populous cities - New York and Los Angeles - will be led by democratic socialists.",
+          "source": "BBC News"
+        },
+        {
           "title": "Eight killed in series of shootings in western Turkey",
           "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 05 Nov 2026 19:32:54 GMT",
@@ -68,10 +96,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Nov 2026 17:57:57 GMT",
-          "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
+          "title": "Who could be behind hoax bomb threats to European air travel?",
+          "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 05 Nov 2026 19:58:40 GMT",
+          "summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
           "source": "BBC News"
         },
         {
@@ -80,65 +108,47 @@
           "published": "Thu, 05 Nov 2026 19:08:08 GMT",
           "summary": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire.",
           "source": "BBC News"
-        },
-        {
-          "title": "Russell Brand is being investigated over two new rape complaints, police say",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgx8q09gg4o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Nov 2026 15:44:49 GMT",
-          "summary": "Det Supt Andy Furphy said he hoped other potential victims would gain \"courage\" and \"confidence\" from the guilty verdicts.",
-          "source": "BBC News"
-        },
-        {
-          "title": "The Pitt and ER are similar enough for lawsuit to proceed, judge rules",
-          "url": "https://www.bbc.co.uk/news/articles/cq4g1r42jx00o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Nov 2026 11:21:35 GMT",
-          "summary": "The widow of ER creator Michael Crichton argues The Pitt is effectively a reboot of the 1990s series.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Pope Leo hosts Bob Dylan at official residence in Rome",
-          "url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Nov 2026 02:09:23 GMT",
-          "summary": "Pope Leo had previously quoted Dylan's work in the preface of a book warning against nuclear rearmament.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Watch: How rapist Brand was never far from controversy",
-          "url": "https://www.bbc.co.uk/news/videos/c9dr8713zjgyo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 05 Nov 2026 14:28:21 GMT",
-          "summary": "BBC correspondent Sima Kotecha explains how the trial unfolded.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Hoax bomb threats target European airlines and airports for second time in a week.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.246). Top story: Hoax bomb threats target European airlines and airports for second time in a week.",
+        "key_takeaway": "Global tech stocks plunge as US midterms add to AI slowdown fears.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.311). Top story: Global tech stocks plunge as US midterms add to AI slowdown fears.",
         "key_themes": [
-          "Hoax bomb threats target European airlines and airports for second time in a week",
-          "Who could be behind hoax bomb threats to European air travel?",
-          "California governor commutes death sentences for all 548 people on death row",
-          "French protests see numbers surge as unions join strikes over high cost of living",
-          "Paraguay President Santiago Peña resigns after bank collapse"
+          "Global tech stocks plunge as US midterms add to AI slowdown fears",
+          "Trump signs order preventing future presidents from changing Oval Office",
+          "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+          "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+          "Hoax bomb threats target European airlines and airports for second time in a week"
         ],
         "notable_headlines": [
+          {
+            "headline": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+            "why_it_matters": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trump signs order preventing future presidents from changing Oval Office",
+            "why_it_matters": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+            "why_it_matters": "The Trump administration has downplayed reports the pair could be on their way out after heavy Republicans election losses.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+            "why_it_matters": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
+            "signal": "Risk"
+          },
           {
             "headline": "Hoax bomb threats target European airlines and airports for second time in a week",
             "why_it_matters": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
             "signal": "Risk"
           },
           {
-            "headline": "Who could be behind hoax bomb threats to European air travel?",
-            "why_it_matters": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "California governor commutes death sentences for all 548 people on death row",
-            "why_it_matters": "California has historically had the largest population of death row inmates in the US.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "French protests see numbers surge as unions join strikes over high cost of living",
-            "why_it_matters": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher.",
+            "headline": "California governor commutes sentences for state's 548 death row inmates",
+            "why_it_matters": "California has historically had the largest population of people on death row in the US.",
             "signal": "Risk"
           },
           {
@@ -147,18 +157,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Eight killed in series of shootings in western Turkey",
-            "why_it_matters": "Victims are found in several locations in three separate vehicles, according to local reports.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-            "why_it_matters": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-            "why_it_matters": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire.",
+            "headline": "French protests see numbers surge as unions join strikes over high cost of living",
+            "why_it_matters": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher.",
             "signal": "Risk"
           }
         ],
@@ -174,10 +174,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Hoax bomb threats target European airlines and airports for second time in a week",
-            "Who could be behind hoax bomb threats to European air travel?",
-            "California governor commutes death sentences for all 548 people on death row",
-            "French protests see numbers surge as unions join strikes over high cost of living"
+            "Global tech stocks plunge as US midterms add to AI slowdown fears",
+            "Trump signs order preventing future presidents from changing Oval Office",
+            "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+            "Pope begins lengthy trip to Latin America weeks after lung cancer surgery"
           ],
           "confidence": "Medium"
         },
@@ -187,12 +187,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary hoax",
+          "today's negative news headlines",
+          "latest news summary global",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Hoax bomb threats target European airlines and airports for second time in a week\n\nWorld Sentiment: Mixed (-0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Bomb #Death #European #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Global tech stocks plunge as US midterms add to AI slowdown fears\n\nWorld Sentiment: Negative (-0.31)\n\nRead the full breakdown: https://tldrnews.info\n\n#Airlines #Airports #America #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -203,23 +203,23 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": 0.0041,
+        "score": 0.0399,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.007, dampened ×0.6 → +0.0041). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.066, dampened ×0.6 → +0.0399). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph",
+          "title": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
           "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-          "published": "Thu, 05 Nov 2026 18:44:25 GMT",
-          "summary": "<p>Nasdaq heading for its worst day in 18 months in volatile trading on Wall Street</p><p>The Nasdaq share index was on track for its worst day in 18 months after slumping by up to 5% on Thursday amid growing signs that the artificial intelligence industry will face tougher regulation because of the <a href=\"https://www.theguardian.com/us-news/2026/nov/05/democrats-state-legislatures-midterm-elections\">midterm election</a> results.</p><p>As Wall Street sustained widespread losses, the Nasdaq com",
+          "published": "Thu, 05 Nov 2026 21:23:18 GMT",
+          "summary": "<p>Nearly $2tn shaved off Nasdaq value as worries of curbs to AI datacenters ripple across bourses</p><p>The Nasdaq share index had its worst day in 18 months after slumping 5.5% on Thursday amid growing signs that the artificial intelligence industry will face tougher regulation because of the <a href=\"https://www.theguardian.com/us-news/2026/nov/05/democrats-state-legislatures-midterm-elections\">midterm election</a> results.</p><p>As Wall Street sustained widespread losses, the Nasdaq composit",
           "source": "The Guardian"
         },
         {
           "title": "Rural voters were feeling left behind before the midterms, poll shows",
           "url": "https://www.theguardian.com/business/2026/nov/05/former-trump-voters-economy",
           "published": "Thu, 05 Nov 2026 11:00:22 GMT",
-          "summary": "<p>Polling done for the Guardian shows plummeting support from a former key constituency of Donald Trump’s base</p><p>Polling conducted by the Harris Poll for the Guardian before the election shows just how angry voters were and points to one key reason Republicans lost so badly: plummeting support from rural voters, once a key constituency of Donald Trump’s base.</p><p>Over the summer, 95% of Americans indicated they believed there was an <a href=\"https://www.theguardian.com/business/2026/jul/0",
+          "summary": "<p>Polling done for the Guardian shows plummeting support from a former key constituency of Donald Trump’s base</p><ul><li><p><a href=\"https://www.theguardian.com/community/live/2026/nov/05/what-happens-after-the-blue-wave-our-reporters-answer-your-midterm-election-results-questions\">Q&amp;A: Ask your questions about Democrats’ win in the midterms</a></p></li></ul><p>Polling conducted by the Harris Poll for the Guardian before the election shows just how angry voters were and points to one key r",
           "source": "The Guardian"
         },
         {
@@ -294,10 +294,10 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.004). Top story: US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph.",
+        "key_takeaway": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.040). Top story: Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph.",
         "key_themes": [
-          "US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph",
+          "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
           "Rural voters were feeling left behind before the midterms, poll shows",
           "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
           "Trump blamed Fox News for Republican losses even as network’s hosts went easy on him",
@@ -305,13 +305,13 @@
         ],
         "notable_headlines": [
           {
-            "headline": "US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph",
-            "why_it_matters": "<p>Nasdaq heading for its worst day in 18 months in volatile trading on Wall Street</p><p>The Nasdaq share index was on track for its worst day in 18 months after slumping by up to 5% on Thursday amid growing signs that …",
+            "headline": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
+            "why_it_matters": "<p>Nearly $2tn shaved off Nasdaq value as worries of curbs to AI datacenters ripple across bourses</p><p>The Nasdaq share index had its worst day in 18 months after slumping 5.5% on Thursday amid growing signs that the a…",
             "signal": "Unclear"
           },
           {
             "headline": "Rural voters were feeling left behind before the midterms, poll shows",
-            "why_it_matters": "<p>Polling done for the Guardian shows plummeting support from a former key constituency of Donald Trump’s base</p><p>Polling conducted by the Harris Poll for the Guardian before the election shows just how angry voters …",
+            "why_it_matters": "<p>Polling done for the Guardian shows plummeting support from a former key constituency of Donald Trump’s base</p><ul><li><p><a href=\"https://www.theguardian.com/community/live/2026/nov/05/what-happens-after-the-blue-wa…",
             "signal": "Unclear"
           },
           {
@@ -357,7 +357,7 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph",
+            "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
             "Rural voters were feeling left behind before the midterms, poll shows",
             "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
             "Trump blamed Fox News for Republican losses even as network’s hosts went easy on him"
@@ -371,11 +371,11 @@
         ],
         "related_topics": [
           "today's neutral news headlines",
-          "latest news summary us",
+          "latest news summary nasdaq",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election...\n\nBusiness Sentiment: Neutral (+0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#Investors #Democrats #Health #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’...\n\nBusiness Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Investors #Democrats #Health #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -386,11 +386,60 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2059,
+        "score": 0.1448,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.343, dampened ×0.6 → +0.2059). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.241, dampened ×0.6 → +0.1448). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "OpenAI is stepping back from NDAs for data center projects",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+          "published": "2026-11-05T19:37:56-05:00",
+          "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Airbnb is working on an AI travel agent",
+          "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+          "published": "2026-11-05T19:06:12-05:00",
+          "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
+          "url": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
+          "published": "2026-11-05T18:45:10-05:00",
+          "summary": "The New York Times Company is in talks\"exclusive negotations\" to acquire Letterboxd, the social network for film lovers, for around $330 million, The New York Times reports. The Times Company, Sony Pictures Entertainment, and A24 were all recently rumored to be among those interested in buying Letterboxd. The negotiations with the Times Company have included [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;",
+          "url": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
+          "published": "2026-11-05T18:17:10-05:00",
+          "summary": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim H&#246;ttges says he takes the Elon Musk-owned company \"super serious,\" but that it will cost at least $200 billion to pull off: He [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Perplexity launches its own take on AI agents for work",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+          "published": "2026-11-05T17:26:50-05:00",
+          "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Salon is shutting down after 31 years",
+          "url": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down",
+          "published": "2026-11-05T17:08:14-05:00",
+          "summary": "Salon launched 31 years ago as one of the first online-only news magazine outlets, and it announced today in an unsigned post that it's ceasing publication. The company said that the \"business realities of independent digital journalism have changed profoundly over the years,\" and it decided that its publishing model is \"no longer sustainable.\" It [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The midterms proved once and for all that X is not real life",
+          "url": "https://www.theverge.com/policy/1028253/midterm-elections-x-right-wing-memes",
+          "published": "2026-11-05T16:55:00-05:00",
+          "summary": "A week before the midterm elections, Vice President JD Vance hosted a town hall in Texas with Fox News host Jesse Watters. It was a friendly event with a friendly audience in what should have been a friendly state, and maybe that's why Vance couldn't help himself. When a college student earnestly asked how the [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Blue Origin’s next launch now won’t happen until 2027",
           "url": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
@@ -411,106 +460,57 @@
           "published": "2026-11-05T14:03:04-05:00",
           "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "EA is bringing 25 classic PC games to Steam",
-          "url": "https://www.theverge.com/games/1023553/ea-classic-pc-games-steam-anniversary-edition",
-          "published": "2026-11-05T13:30:00-05:00",
-          "summary": "Electronic Arts is launching 25 classic games on Steam, including \"Anniversary Editions\" of the motorcycle racer Road Rash and six Wing Commander titles. These Anniversary Editions preserve \"the original look, feel and creative intent of the game\" but also have quality-of-life updates to support modern systems and controls and improve performance, according to EA. The [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Claude AI can plug directly into your bank account",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
-          "published": "2026-11-05T13:00:00-05:00",
-          "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "‘Total repudiation’: The blue wave is about to hit AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
-          "published": "2026-11-05T12:51:52-05:00",
-          "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Ember’s smallest self-heating mug is on sale for just $33",
-          "url": "https://www.theverge.com/gadgets/1027689/ember-cup-6-ounce-woot-kitchen-sale-deal",
-          "published": "2026-11-05T12:34:23-05:00",
-          "summary": "We’ve been fans of Ember’s temperature-controlled mugs for years, though given the price tag, we admit that they’re somewhat of a luxury purchase. Thankfully, if you&#8217;ve been looking for a more affordable option, Woot is selling the Ember Cup in black for $32.99 ($67 off) with a 90-day warranty through November 7th. You can potentially [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "TikTok launched a dedicated TikTok Shop app",
-          "url": "https://www.theverge.com/tech/1027772/tiktok-shop-app",
-          "published": "2026-11-05T12:27:36-05:00",
-          "summary": "TikTok has released a standalone app for TikTok Shop in a few countries, as spotted by social media consultant Matt Navarra. According to its App Store listing, the TikTok Shop app offers: - Personalized picks inspired by your interests - LIVE streams &#38; short videos to see products in action - App-only deals, free shipping [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Nintendo says it’s not planning another Switch 2 price hike",
-          "url": "https://www.theverge.com/games/1027757/nintendo-switch-2-price-hike-plans-ram",
-          "published": "2026-11-05T12:24:39-05:00",
-          "summary": "Nintendo president Shuntaro Furukawa said during the company's latest earnings call that it's \"not considering additional changes\" to the Switch 2's price, Reuters reports. The Switch 2 got a $50 price hike earlier this year, bringing its starting price up to $499. Nintendo said in Thursday's earnings report that Switch 2 sales have dropped 37.4 [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The FAA is finally ditching floppy disks",
-          "url": "https://www.theverge.com/transportation/1027511/faa-floppy-disks-sean-duffy-air-traffic-control-eids",
-          "published": "2026-11-05T12:13:42-05:00",
-          "summary": "It's the year 2026 and the Federal Aviation Administration is still running critical pieces of American airspace on 3.5-inch magnetic floppy disks. But those technology artifacts could be headed for the dustbin after Transportation Secretary Sean Duffy announced an effort to ditch floppy disks in favor of a new digital system. Duffy announced Thursday that [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Blue Origin’s next launch now won’t happen until 2027.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.206). Top story: Blue Origin’s next launch now won’t happen until 2027.",
+        "key_takeaway": "OpenAI is stepping back from NDAs for data center projects.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.145). Top story: OpenAI is stepping back from NDAs for data center projects.",
         "key_themes": [
-          "Blue Origin’s next launch now won’t happen until 2027",
-          "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
-          "Muse has a voice mode now",
-          "EA is bringing 25 classic PC games to Steam",
-          "Claude AI can plug directly into your bank account"
+          "OpenAI is stepping back from NDAs for data center projects",
+          "Airbnb is working on an AI travel agent",
+          "The New York Times is in talks to buy Letterboxd for around $330 million",
+          "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;",
+          "Perplexity launches its own take on AI agents for work"
         ],
         "notable_headlines": [
           {
+            "headline": "OpenAI is stepping back from NDAs for data center projects",
+            "why_it_matters": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Airbnb is working on an AI travel agent",
+            "why_it_matters": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple,…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The New York Times is in talks to buy Letterboxd for around $330 million",
+            "why_it_matters": "The New York Times Company is in talks\"exclusive negotations\" to acquire Letterboxd, the social network for film lovers, for around $330 million, The New York Times reports. The Times Company, Sony Pictures Entertainment…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;",
+            "why_it_matters": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim H&#246;ttges says he takes the E…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Perplexity launches its own take on AI agents for work",
+            "why_it_matters": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Salon is shutting down after 31 years",
+            "why_it_matters": "Salon launched 31 years ago as one of the first online-only news magazine outlets, and it announced today in an unsigned post that it's ceasing publication. The company said that the \"business realities of independent di…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "The midterms proved once and for all that X is not real life",
+            "why_it_matters": "A week before the midterm elections, Vice President JD Vance hosted a town hall in Texas with Fox News host Jesse Watters. It was a friendly event with a friendly audience in what should have been a friendly state, and m…",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Blue Origin’s next launch now won’t happen until 2027",
             "why_it_matters": "Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from CEO Dave Limp sent to staff. The new timeline follows a May launchpad explosion …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
-            "why_it_matters": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual price, and just $50 higher than the lowest w…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Muse has a voice mode now",
-            "why_it_matters": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article.…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "EA is bringing 25 classic PC games to Steam",
-            "why_it_matters": "Electronic Arts is launching 25 classic games on Steam, including \"Anniversary Editions\" of the motorcycle racer Road Rash and six Wing Commander titles. These Anniversary Editions preserve \"the original look, feel and c…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Claude AI can plug directly into your bank account",
-            "why_it_matters": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can a…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "‘Total repudiation’: The blue wave is about to hit AI",
-            "why_it_matters": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgi…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Ember’s smallest self-heating mug is on sale for just $33",
-            "why_it_matters": "We’ve been fans of Ember’s temperature-controlled mugs for years, though given the price tag, we admit that they’re somewhat of a luxury purchase. Thankfully, if you&#8217;ve been looking for a more affordable option, Wo…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "TikTok launched a dedicated TikTok Shop app",
-            "why_it_matters": "TikTok has released a standalone app for TikTok Shop in a few countries, as spotted by social media consultant Matt Navarra. According to its App Store listing, the TikTok Shop app offers: - Personalized picks inspired b…",
             "signal": "Opportunity"
           }
         ],
@@ -526,10 +526,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Blue Origin’s next launch now won’t happen until 2027",
-            "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
-            "Muse has a voice mode now",
-            "EA is bringing 25 classic PC games to Steam"
+            "OpenAI is stepping back from NDAs for data center projects",
+            "Airbnb is working on an AI travel agent",
+            "The New York Times is in talks to buy Letterboxd for around $330 million",
+            "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;"
           ],
           "confidence": "Medium"
         },
@@ -540,11 +540,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary blue",
+          "latest news summary openai",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Blue Origin’s next launch now won’t happen until 2027\n\nTechnology Sentiment: Mixed (+0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Blue #Tiktok #2027 #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: OpenAI is stepping back from NDAs for data center projects\n\nTechnology Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#2027 #8216welcome #Agent #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
