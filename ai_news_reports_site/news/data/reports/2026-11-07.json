@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "generated_at_utc": "2026-11-07T18:25:25Z",
+  "generated_at_utc": "2026-11-08T02:16:53Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -18,16 +18,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.302,
-        "label": "Negative",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.503, dampened ×0.6 → -0.3020). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2324,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.387, dampened ×0.6 → -0.2324). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "What we know about Krakow mass shooting so far",
+          "title": "What we know so far after Krakow gun attack",
           "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 07 Nov 2026 18:22:11 GMT",
-          "summary": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
+          "published": "Sun, 08 Nov 2026 01:47:41 GMT",
+          "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 07 Nov 2026 22:19:59 GMT",
+          "summary": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
           "source": "BBC News"
         },
         {
@@ -41,7 +48,7 @@
           "title": "US offers $20m reward for information about Iran's nuclear programme",
           "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 07 Nov 2026 18:14:38 GMT",
-          "summary": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+          "summary": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
           "source": "BBC News"
         },
         {
@@ -66,9 +73,9 @@
           "source": "BBC News"
         },
         {
-          "title": "Paraguay's president impeached and under house arrest after bank collapse",
+          "title": "Paraguay's former president charged after bank collapse",
           "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 07 Nov 2026 07:20:00 GMT",
+          "published": "Sat, 07 Nov 2026 19:17:22 GMT",
           "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
           "source": "BBC News"
         },
@@ -99,29 +106,27 @@
           "published": "Sat, 07 Nov 2026 07:27:44 GMT",
           "summary": "The 82-year-old appeared in court in Florida after the FBI searched two Los Angeles-area storage units he rented.",
           "source": "BBC News"
-        },
-        {
-          "title": "Texas mayor instructs police to limit co-operation with ICE",
-          "url": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 07 Nov 2026 08:15:55 GMT",
-          "summary": "There has been months of public outcry in Houston after an Immigration and Customs Enforcement (ICE) officer fatally shot a man who was driving to work.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "What we know about Krakow mass shooting so far.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.302). Top story: What we know about Krakow mass shooting so far.",
+        "key_takeaway": "What we know so far after Krakow gun attack.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.232). Top story: What we know so far after Krakow gun attack.",
         "key_themes": [
-          "What we know about Krakow mass shooting so far",
+          "What we know so far after Krakow gun attack",
+          "Israel's president tasks opposition leader Eisenkot with forming government",
           "No clear winner after tight New Zealand general election",
           "US offers $20m reward for information about Iran's nuclear programme",
-          "Houthis say at least 25 killed in Saudi air strike",
-          "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC"
+          "Houthis say at least 25 killed in Saudi air strike"
         ],
         "notable_headlines": [
           {
-            "headline": "What we know about Krakow mass shooting so far",
-            "why_it_matters": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
+            "headline": "What we know so far after Krakow gun attack",
+            "why_it_matters": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Israel's president tasks opposition leader Eisenkot with forming government",
+            "why_it_matters": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
             "signal": "Risk"
           },
           {
@@ -131,7 +136,7 @@
           },
           {
             "headline": "US offers $20m reward for information about Iran's nuclear programme",
-            "why_it_matters": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+            "why_it_matters": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
             "signal": "Risk"
           },
           {
@@ -150,13 +155,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Paraguay's president impeached and under house arrest after bank collapse",
+            "headline": "Paraguay's former president charged after bank collapse",
             "why_it_matters": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Pope in 'pretty good health' as he starts Latin America tour",
-            "why_it_matters": "Pope Leo travels to Uruguay just three weeks after having surgery for lung cancer.",
             "signal": "Risk"
           }
         ],
@@ -172,10 +172,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "What we know about Krakow mass shooting so far",
+            "What we know so far after Krakow gun attack",
+            "Israel's president tasks opposition leader Eisenkot with forming government",
             "No clear winner after tight New Zealand general election",
-            "US offers $20m reward for information about Iran's nuclear programme",
-            "Houthis say at least 25 killed in Saudi air strike"
+            "US offers $20m reward for information about Iran's nuclear programme"
           ],
           "confidence": "Medium"
         },
@@ -185,12 +185,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's negative news headlines",
+          "today's mixed news headlines",
           "latest news summary what",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: What we know about Krakow mass shooting so far\n\nWorld Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Pick #America #Arrest #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: What we know so far after Krakow gun attack\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Pick #President #Attack #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
