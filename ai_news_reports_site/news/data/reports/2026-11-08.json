@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "generated_at_utc": "2026-11-08T18:36:11Z",
+  "generated_at_utc": "2026-11-09T02:33:15Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -16,22 +16,22 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.2275,
+        "score": -0.1766,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.379, dampened ×0.6 → -0.2275). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.294, dampened ×0.6 → -0.1766). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
           "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 08 Nov 2026 18:22:53 GMT",
+          "published": "Sun, 08 Nov 2026 23:34:18 GMT",
           "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
           "source": "BBC News"
         },
         {
           "title": "Seven dead and more than 100 injured after trains collide in Egypt",
           "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 08 Nov 2026 17:35:13 GMT",
+          "published": "Sun, 08 Nov 2026 19:58:02 GMT",
           "summary": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
           "source": "BBC News"
         },
@@ -50,10 +50,10 @@
           "source": "BBC News"
         },
         {
-          "title": "Houthis say at least 33 killed in Saudi air strike",
-          "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-          "published": "Sun, 08 Nov 2026 04:03:12 GMT",
-          "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+          "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+          "published": "Sun, 08 Nov 2026 21:37:36 GMT",
+          "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
           "source": "BBC News"
         },
         {
@@ -108,13 +108,13 @@
       ],
       "ai_report": {
         "key_takeaway": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.228). Top story: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.177). Top story: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says.",
         "key_themes": [
           "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
           "Seven dead and more than 100 injured after trains collide in Egypt",
           "Homes and temples glow across India to mark Diwali",
           "Iran executes three men for 'armed unrest' after January protests",
-          "Houthis say at least 33 killed in Saudi air strike"
+          "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes"
         ],
         "notable_headlines": [
           {
@@ -138,8 +138,8 @@
             "signal": "Risk"
           },
           {
-            "headline": "Houthis say at least 33 killed in Saudi air strike",
-            "why_it_matters": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+            "headline": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+            "why_it_matters": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
             "signal": "Risk"
           },
           {
@@ -188,7 +188,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says\n\nWorld Sentiment: Mixed (-0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Across #America #Armed #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Across #America #Aramco #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -382,11 +382,46 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.058,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.097, dampened ×0.6 → +0.0580). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0258,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg -0.043, dampened ×0.6 → -0.0258). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "published": "2026-11-08T17:54:50-05:00",
+          "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+          "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
+          "published": "2026-11-08T17:37:22-05:00",
+          "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Epic Games Launcher is coming to SteamOS",
+          "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
+          "published": "2026-11-08T15:52:05-05:00",
+          "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirmed SteamOS compatibility, along with a handful of other distros, to GamingOnLinux. In response [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+          "published": "2026-11-08T15:22:39-05:00",
+          "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Apple is racing to make Siri more agentic",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+          "published": "2026-11-08T14:18:19-05:00",
+          "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Elvis and Eminem rights holders are suing Suno",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
@@ -421,54 +456,44 @@
           "published": "2026-11-07T12:00:00-05:00",
           "summary": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrella with a powerful fan nearby, figuring I was protected from the sun and heat. Half an hour later, I felt exhausted, dizzy, [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Costco members can get $5 off the reimagined Ocarina of Time",
-          "url": "https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale",
-          "published": "2026-11-07T11:00:00-05:00",
-          "summary": "While some retailers were offering preorder discounts on the remastered Legend of Zelda: The Ocarina of Time, it’s not too late to save if you missed out. Costco members can currently get $5 off the digital version online, bringing the price down to $54.99. Considering an annual Costco membership runs $65, that discount almost offsets [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Discogs’ Kevin Lewandowski can’t live without his AeroPress",
-          "url": "https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview",
-          "published": "2026-11-07T11:00:00-05:00",
-          "summary": "Twenty-five years ago, Kevin Lewandowski founded Discogs, arguably the destination online for obsessive vinyl collectors and music nerds of all stripes. It is a marketplace for buying and selling records, obviously, but it's also become so much more. It's a shockingly comprehensive database that covers not just albums and singles, but all the various versions [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-          "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-          "published": "2026-11-07T10:50:00-05:00",
-          "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "The US let Nvidia sell chips to an empty office in China",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-          "published": "2026-11-07T10:43:45-05:00",
-          "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "AI broke the cybersecurity world. What’s next?",
-          "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-          "published": "2026-11-07T10:00:00-05:00",
-          "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Elvis and Eminem rights holders are suing Suno.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.058). Top story: Elvis and Eminem rights holders are suing Suno.",
+        "key_takeaway": "Here’s the full text of Jensen Huang’s memo to Nvidia.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is neutral (-0.026). Top story: Here’s the full text of Jensen Huang’s memo to Nvidia.",
         "key_themes": [
-          "Elvis and Eminem rights holders are suing Suno",
-          "Apple’s M5 MacBook Air is down to its lowest price since July",
-          "Chatbots might be coming to Apple’s HomeView",
-          "There’s no slowing down media’s pivot-to-video 2.0",
-          "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance"
+          "Here’s the full text of Jensen Huang’s memo to Nvidia",
+          "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+          "Epic Games Launcher is coming to SteamOS",
+          "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+          "Apple is racing to make Siri more agentic"
         ],
         "notable_headlines": [
+          {
+            "headline": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+            "why_it_matters": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing t…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+            "why_it_matters": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at …",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Epic Games Launcher is coming to SteamOS",
+            "why_it_matters": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+            "why_it_matters": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the c…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Apple is racing to make Siri more agentic",
+            "why_it_matters": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has de…",
+            "signal": "Unclear"
+          },
           {
             "headline": "Elvis and Eminem rights holders are suing Suno",
             "why_it_matters": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music …",
@@ -482,31 +507,6 @@
           {
             "headline": "Chatbots might be coming to Apple’s HomeView",
             "why_it_matters": "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no details about what apps would fall under …",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "There’s no slowing down media’s pivot-to-video 2.0",
-            "why_it_matters": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the pressures of creating content for the internet, follow Mia Sato. The Stepback arrives in our subscribers' i…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
-            "why_it_matters": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrella with a powerful fan nearby, figuring I…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Costco members can get $5 off the reimagined Ocarina of Time",
-            "why_it_matters": "While some retailers were offering preorder discounts on the remastered Legend of Zelda: The Ocarina of Time, it’s not too late to save if you missed out. Costco members can currently get $5 off the digital version onlin…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Discogs’ Kevin Lewandowski can’t live without his AeroPress",
-            "why_it_matters": "Twenty-five years ago, Kevin Lewandowski founded Discogs, arguably the destination online for obsessive vinyl collectors and music nerds of all stripes. It is a marketplace for buying and selling records, obviously, but …",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-            "why_it_matters": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this …",
             "signal": "Unclear"
           }
         ],
@@ -522,10 +522,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Elvis and Eminem rights holders are suing Suno",
-            "Apple’s M5 MacBook Air is down to its lowest price since July",
-            "Chatbots might be coming to Apple’s HomeView",
-            "There’s no slowing down media’s pivot-to-video 2.0"
+            "Here’s the full text of Jensen Huang’s memo to Nvidia",
+            "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+            "Epic Games Launcher is coming to SteamOS",
+            "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy"
           ],
           "confidence": "Medium"
         },
@@ -535,12 +535,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary elvis",
+          "today's neutral news headlines",
+          "latest news summary here’s",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Elvis and Eminem rights holders are suing Suno\n\nTechnology Sentiment: Mixed (+0.06)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apples #Down #Aeropress #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Here’s the full text of Jensen Huang’s memo to Nvidia\n\nTechnology Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Apples #Coming #Huangs #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -734,9 +734,9 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.2489,
+        "score": 0.2328,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.415, dampened ×0.6 → +0.2489). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.388, dampened ×0.6 → +0.2328). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
@@ -744,6 +744,13 @@
           "url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm",
           "published": "Sat, 07 Nov 2026 18:34:19 EST",
           "summary": "Scientists have discovered a surprising quantum limit that prevents electrons from being tracked with unlimited precision in both space and time. The breakthrough could pave the way for manipulating chemical reactions and developing electronics hundreds of thousands of times faster than today's technology.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "An ancient ocean full of giant predators reveals a surprising twist in evolution",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261106174535.htm",
+          "published": "Sun, 08 Nov 2026 17:45:01 EST",
+          "summary": "A remarkable fossil discovery in Colombia is challenging how scientists understand major evolutionary changes in Earth's history. Researchers uncovered an incredibly diverse ancient marine ecosystem where giant reptiles, sharks, and other creatures thrived as older evolutionary groups approached extinction and newer ones emerged. They call this previously unrecognized pattern a \"Biotic Inflection,\" suggesting that major transformations in life can occur without mass extinctions.",
           "source": "ScienceDaily"
         },
         {
@@ -775,6 +782,13 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Hidden climate superpower: Why some ocean “snow” carries six times more carbon",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261105224558.htm",
+          "published": "Sun, 08 Nov 2026 20:14:33 EST",
+          "summary": "Scientists have discovered that the stickiness of underwater “marine snow” plays a surprisingly important role in how much carbon reaches the deep ocean. Gooier particles resist bacterial breakdown and can transport more than six times as much carbon to the depths, revealing an unexpected connection between ocean slime and Earth's climate.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
           "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
           "published": "Fri, 06 Nov 2026 03:21:08 EST",
@@ -796,48 +810,39 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Scientists discover stunning new Amazon fish that may already be endangered",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm",
+          "published": "Sun, 08 Nov 2026 18:56:14 EST",
+          "summary": "Researchers have discovered a stunning new species of tiny orange-patterned fish in the Brazilian Amazon, but its survival may already be at risk. Named Laimosemion laranja, the brilliantly colored killifish measures less than three centimeters long and was found in just three small forest pools. Its extremely limited habitat is threatened by mining, deforestation, pollution, and expanding development.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin",
           "url": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
           "published": "Thu, 05 Nov 2026 20:11:19 EST",
           "summary": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, with women showing the strongest benefits. Because declining blood flow can occur years before Alzheimer's symptoms appear, the discovery raises hopes for preventing or delaying the disease before memory loss b",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
-          "published": "Sat, 07 Nov 2026 04:44:48 EST",
-          "summary": "Scientists have uncovered evidence that Europe was dominated for more than 20 million years by open woodlands, colorful meadows, and large grazing animals, not the dense forests long considered its natural state. The surprising discovery challenges modern reforestation strategies, suggesting that planting thick forests could actually harm the biodiversity conservationists hope to protect.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm",
-          "published": "Sat, 07 Nov 2026 22:46:51 EST",
-          "summary": "Scientists have created record-breaking X-ray flashes lasting just 300 attoseconds, concentrating enormous power into an incredibly tiny spot. The breakthrough could unlock a new way to observe electrons in action and potentially control the ultrafast processes that drive chemical reactions.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Human bodies produce 2 billion metric tons of CO2 a year just by staying alive",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261104012305.htm",
-          "published": "Sat, 07 Nov 2026 05:00:03 EST",
-          "summary": "Humans collectively produce more than 2 billion tonnes of carbon dioxide annually just by turning food into energy, a 74% increase over three decades largely driven by population growth. Unlike fossil fuel emissions, however, the CO2 we exhale is part of the natural carbon cycle, and scientists say measuring it more accurately could improve climate models.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
         "key_takeaway": "A hidden limit of space and time could unlock electronics 100,000 times faster.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.249). Top story: A hidden limit of space and time could unlock electronics 100,000 times faster.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.233). Top story: A hidden limit of space and time could unlock electronics 100,000 times faster.",
         "key_themes": [
           "A hidden limit of space and time could unlock electronics 100,000 times faster",
+          "An ancient ocean full of giant predators reveals a surprising twist in evolution",
           "A nuclear blast could save Earth from an asteroid, but there's a catch",
           "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
-          "Mysterious gas leaks suggest Mars may still be volcanically alive",
-          "Stronger flu shot linked to nearly 55% lower Alzheimer's risk"
+          "Mysterious gas leaks suggest Mars may still be volcanically alive"
         ],
         "notable_headlines": [
           {
             "headline": "A hidden limit of space and time could unlock electronics 100,000 times faster",
             "why_it_matters": "Scientists have discovered a surprising quantum limit that prevents electrons from being tracked with unlimited precision in both space and time. The breakthrough could pave the way for manipulating chemical reactions an…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "An ancient ocean full of giant predators reveals a surprising twist in evolution",
+            "why_it_matters": "A remarkable fossil discovery in Colombia is challenging how scientists understand major evolutionary changes in Earth's history. Researchers uncovered an incredibly diverse ancient marine ecosystem where giant reptiles,…",
             "signal": "Opportunity"
           },
           {
@@ -861,18 +866,13 @@
             "signal": "Opportunity"
           },
           {
+            "headline": "Hidden climate superpower: Why some ocean “snow” carries six times more carbon",
+            "why_it_matters": "Scientists have discovered that the stickiness of underwater “marine snow” plays a surprisingly important role in how much carbon reaches the deep ocean. Gooier particles resist bacterial breakdown and can transport more…",
+            "signal": "Opportunity"
+          },
+          {
             "headline": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
             "why_it_matters": "November's night sky is packed with celestial wonders, from bright meteor fireballs and a close pairing of Mars and Jupiter to a spectacular supermoon. Meanwhile, NASA's Voyager 1 is making history by becoming the first …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "NASA’s Swift telescope falls to Earth after nearly 22 years in space",
-            "why_it_matters": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia. Originally designed to last just two years, the pioneering space teles…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists just found dinosaur blood that survived 115 million years",
-            "why_it_matters": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can survive. The extraordinary preservation …",
             "signal": "Opportunity"
           }
         ],
@@ -889,9 +889,9 @@
           ],
           "watch_list": [
             "A hidden limit of space and time could unlock electronics 100,000 times faster",
+            "An ancient ocean full of giant predators reveals a surprising twist in evolution",
             "A nuclear blast could save Earth from an asteroid, but there's a catch",
-            "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
-            "Mysterious gas leaks suggest Mars may still be volcanically alive"
+            "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago"
           ],
           "confidence": "Medium"
         },
@@ -906,7 +906,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: A hidden limit of space and time could unlock electronics 100,000 times faster\n\nScience Sentiment: Mixed (+0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Earth #Nearly #Space #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: A hidden limit of space and time could unlock electronics 100,000 times faster\n\nScience Sentiment: Mixed (+0.23)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ancient #Hidden #Ocean #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
