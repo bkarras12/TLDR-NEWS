@@ -1,11 +1,12 @@
 {
   "date": "2026-11-11",
-  "generated_at_utc": "2026-11-11T21:04:35Z",
+  "generated_at_utc": "2026-11-12T03:44:33Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "alleged",
-    "price"
+    "nvidia",
+    "jensen"
   ],
   "categories": {
     "world": {
@@ -17,16 +18,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.0114,
+        "score": -0.0211,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.019, dampened ×0.6 → -0.0114). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.035, dampened ×0.6 → -0.0211). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Clashes erupt in Barcelona as thousands join Spain general strike",
+          "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
           "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Nov 2026 20:52:52 GMT",
+          "published": "Wed, 11 Nov 2026 22:07:37 GMT",
           "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 12 Nov 2026 02:09:08 GMT",
+          "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
           "source": "BBC News"
         },
         {
@@ -37,24 +45,17 @@
           "source": "BBC News"
         },
         {
-          "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-          "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Nov 2026 16:45:11 GMT",
-          "summary": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
+          "title": "New York building collapse kills one person and injures 12",
+          "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 12 Nov 2026 02:33:12 GMT",
+          "summary": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
           "source": "BBC News"
         },
         {
-          "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Nov 2026 18:38:45 GMT",
-          "summary": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public. It is not known if the incidents are linked.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-          "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Nov 2026 16:38:07 GMT",
-          "summary": "The news comes at a turbulent time for Prabowo, who faces a growing rift with his predecessor Joko Widodo.",
+          "title": "Australian teen missing in bush for six days rescued alive",
+          "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 12 Nov 2026 02:40:18 GMT",
+          "summary": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
           "source": "BBC News"
         },
         {
@@ -65,10 +66,38 @@
           "source": "BBC News"
         },
         {
-          "title": "Missing 11-month-old baby found buried alive in a crate in South Carolina",
+          "title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+          "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 16:38:07 GMT",
+          "summary": "The news comes at a turbulent time for Prabowo, who faces a growing rift with his predecessor Joko Widodo.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Famed ship SS United States to be sunk off coast of Florida",
+          "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 18:42:27 GMT",
+          "summary": "Activists unsuccessfully fought for the historic liner to be preserved and turned into a museum, but it will now become the world's largest artificial ocean reef.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 18:38:45 GMT",
+          "summary": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
           "url": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss",
           "published": "Wed, 11 Nov 2026 18:10:57 GMT",
           "summary": "Officials say the child was found close to his father's home on Tuesday, a day after he was taken, and is being cared for in hospital.",
+          "source": "BBC News"
+        },
+        {
+          "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+          "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+          "published": "Wed, 11 Nov 2026 16:45:11 GMT",
+          "summary": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
           "source": "BBC News"
         },
         {
@@ -77,50 +106,27 @@
           "published": "Wed, 11 Nov 2026 13:24:29 GMT",
           "summary": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
           "source": "BBC News"
-        },
-        {
-          "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
-          "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Nov 2026 12:53:11 GMT",
-          "summary": "The country begins a 42-day countdown to being declared Ebola-free, provided no new cases are recorded.",
-          "source": "BBC News"
-        },
-        {
-          "title": "African writing award probe finds 'no evidence' winning story was AI generated",
-          "url": "https://www.bbc.co.uk/news/articles/cmglr260z7eko?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Nov 2026 20:00:54 GMT",
-          "summary": "Zimbabwean writer Simbarashe Kundizeza has also vehemently denied the allegation made in a US magazine.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'",
-          "url": "https://www.bbc.co.uk/news/articles/cmkg5jr59835o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Nov 2026 13:25:47 GMT",
-          "summary": "Mada Masr editor-in-chief Lina Attalah is being tried on the charge of \"publishing false news\" and potentially faces imprisonment.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
-          "url": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
-          "published": "Wed, 11 Nov 2026 00:19:42 GMT",
-          "summary": "Double amputee Zaher told the BBC last year about his favourite footballer and a dream of being able to walk again.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Clashes erupt in Barcelona as thousands join Spain general strike.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.011). Top story: Clashes erupt in Barcelona as thousands join Spain general strike.",
+        "key_takeaway": "Clashes erupt in Barcelona after thousands join Spain general strike.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.021). Top story: Clashes erupt in Barcelona after thousands join Spain general strike.",
         "key_themes": [
-          "Clashes erupt in Barcelona as thousands join Spain general strike",
+          "Clashes erupt in Barcelona after thousands join Spain general strike",
+          "Democrat Scott Colom seals historic win in Mississippi Senate race",
           "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-          "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-          "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-          "Indonesia's vice president resigns amid signs ruling alliance is fraying"
+          "New York building collapse kills one person and injures 12",
+          "Australian teen missing in bush for six days rescued alive"
         ],
         "notable_headlines": [
           {
-            "headline": "Clashes erupt in Barcelona as thousands join Spain general strike",
+            "headline": "Clashes erupt in Barcelona after thousands join Spain general strike",
             "why_it_matters": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+            "why_it_matters": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
             "signal": "Unclear"
           },
           {
@@ -129,18 +135,13 @@
             "signal": "Unclear"
           },
           {
-            "headline": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-            "why_it_matters": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
+            "headline": "New York building collapse kills one person and injures 12",
+            "why_it_matters": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
             "signal": "Unclear"
           },
           {
-            "headline": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-            "why_it_matters": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public. It is not known if the incidents are linked.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-            "why_it_matters": "The news comes at a turbulent time for Prabowo, who faces a growing rift with his predecessor Joko Widodo.",
+            "headline": "Australian teen missing in bush for six days rescued alive",
+            "why_it_matters": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
             "signal": "Unclear"
           },
           {
@@ -149,13 +150,13 @@
             "signal": "Unclear"
           },
           {
-            "headline": "Missing 11-month-old baby found buried alive in a crate in South Carolina",
-            "why_it_matters": "Officials say the child was found close to his father's home on Tuesday, a day after he was taken, and is being cared for in hospital.",
+            "headline": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+            "why_it_matters": "The news comes at a turbulent time for Prabowo, who faces a growing rift with his predecessor Joko Widodo.",
             "signal": "Unclear"
           },
           {
-            "headline": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-            "why_it_matters": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
+            "headline": "Famed ship SS United States to be sunk off coast of Florida",
+            "why_it_matters": "Activists unsuccessfully fought for the historic liner to be preserved and turned into a museum, but it will now become the world's largest artificial ocean reef.",
             "signal": "Unclear"
           }
         ],
@@ -171,10 +172,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Clashes erupt in Barcelona as thousands join Spain general strike",
+            "Clashes erupt in Barcelona after thousands join Spain general strike",
+            "Democrat Scott Colom seals historic win in Mississippi Senate race",
             "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-            "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-            "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax"
+            "New York building collapse kills one person and injures 12"
           ],
           "confidence": "Medium"
         },
@@ -189,7 +190,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Clashes erupt in Barcelona as thousands join Spain general strike\n\nWorld Sentiment: Neutral (-0.01)\n\nRead the full breakdown: https://tldrnews.info\n\n#Threats #11monthold #Abseiling #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Clashes erupt in Barcelona after thousands join Spain general strike\n\nWorld Sentiment: Neutral (-0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abseiling #Alive #Alliance #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -215,7 +216,7 @@
         {
           "title": "Nvidia hires leading US law firm to investigate Jensen Huang’s relationship",
           "url": "https://www.theguardian.com/technology/2026/nov/11/nvidia-hires-leading-us-law-firm-to-investigate-jensen-huang-relationship",
-          "published": "Wed, 11 Nov 2026 11:49:12 GMT",
+          "published": "Wed, 11 Nov 2026 21:59:07 GMT",
           "summary": "<p>Move comes as chipmaker reels from reports its CEO was having an affair with an alleged Chinese spy</p><p>Nvidia has appointed a leading US law firm to conduct a “thorough and independent” investigation into <a href=\"https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security\">the relationship</a> between its chief executive, Jensen Huang, and an <a href=\"https://www.theguardian.com/technology/2026/nov/09/who-is-alice-huang-the-woman-linked-to-nvidias-ceo\">a",
           "source": "The Guardian"
         },
@@ -383,11 +384,32 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2985,
+        "score": 0.2874,
         "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.497, dampened ×0.6 → +0.2985). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.479, dampened ×0.6 → +0.2874). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+          "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+          "published": "2026-11-11T17:44:36-05:00",
+          "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+          "url": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+          "published": "2026-11-11T17:00:00-05:00",
+          "summary": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-friendly. And it's working. I've been testing [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "United won’t let your AI agent book your flight",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+          "published": "2026-11-11T16:54:21-05:00",
+          "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
           "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
@@ -436,40 +458,34 @@
           "published": "2026-11-11T10:00:00-05:00",
           "summary": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Sony’s latest Pulse wireless headset packs planar magnetic drivers at a good price",
-          "url": "https://www.theverge.com/games/1031291/sony-playstation-pulse-wireless-gaming-headset-hands-on",
-          "published": "2026-11-11T09:00:00-05:00",
-          "summary": "It's tempting to seek out the do-everything wireless gaming headset with noise cancellation, phenomenal sound quality, multiplatform connectivity, swappable batteries - you name it. But if you just want the basics done well, Sony's new $99.99 PlayStation Pulse headset is worth considering. It has very good sound and just enough extras, even if you use [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
-          "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
-          "published": "2026-11-11T09:00:00-05:00",
-          "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Streaming is still trying to be TikTok",
-          "url": "https://www.theverge.com/streaming/1030864/streaming-skydance-paramount-disney-hulu-earnings-tiktok-short-form-video",
-          "published": "2026-11-11T08:30:00-05:00",
-          "summary": "At Skydance's first employee town hall after it acquired Warner Bros. Discovery in October, CEO David Ellison told staff that the company behind Paramount Plus and HBO Max was competing for people's attention with some of the world's biggest tech companies. Months earlier, he'd singled out a way to get viewers to spend more time [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Loot boxes, influencers, and addictive features face an EU crackdown.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.298). Top story: Loot boxes, influencers, and addictive features face an EU crackdown.",
+        "key_takeaway": "Nvidia is reportedly preparing to fire Jensen Huang.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.287). Top story: Nvidia is reportedly preparing to fire Jensen Huang.",
         "key_themes": [
+          "Nvidia is reportedly preparing to fire Jensen Huang",
+          "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+          "United won’t let your AI agent book your flight",
           "Loot boxes, influencers, and addictive features face an EU crackdown",
-          "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
-          "Google’s Tabletop AI experiment lets you build custom collaboration apps",
-          "The best early Black Friday deals you can already shop",
-          "Sharge’s eye-catching MacBook charger is over 25 percent off"
+          "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck"
         ],
         "notable_headlines": [
+          {
+            "headline": "Nvidia is reportedly preparing to fire Jensen Huang",
+            "why_it_matters": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+            "why_it_matters": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart devices into your sm…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "United won’t let your AI agent book your flight",
+            "why_it_matters": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wa…",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Loot boxes, influencers, and addictive features face an EU crackdown",
             "why_it_matters": "Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make \"your online experience fairer.\" The newly proposed Digital Fairness Act (DFA) published by the EU …",
@@ -494,21 +510,6 @@
             "headline": "Sharge’s eye-catching MacBook charger is over 25 percent off",
             "why_it_matters": "Looking for a MacBook and device charger that’s as stylish as it is capable? Both Amazon and Sharge are selling the Pixel 140W GaN charger for $69.88 and $69.90, respectively, a $24 discount on its usual price. If you’re…",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Ocarina of Time is even better if you use a smartphone app",
-            "why_it_matters": "I never liked hunting for Golden Skulltulas in The Legend of Zelda: Ocarina of Time. The game has 100 of them tucked all over Hyrule, and even over my many hours with the N64 classic growing up, I can't remember ever act…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
-            "why_it_matters": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold imp…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Sony’s latest Pulse wireless headset packs planar magnetic drivers at a good price",
-            "why_it_matters": "It's tempting to seek out the do-everything wireless gaming headset with noise cancellation, phenomenal sound quality, multiplatform connectivity, swappable batteries - you name it. But if you just want the basics done w…",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -523,10 +524,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Loot boxes, influencers, and addictive features face an EU crackdown",
-            "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
-            "Google’s Tabletop AI experiment lets you build custom collaboration apps",
-            "The best early Black Friday deals you can already shop"
+            "Nvidia is reportedly preparing to fire Jensen Huang",
+            "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+            "United won’t let your AI agent book your flight",
+            "Loot boxes, influencers, and addictive features face an EU crackdown"
           ],
           "confidence": "Medium"
         },
@@ -537,11 +538,11 @@
         ],
         "related_topics": [
           "today's positive news headlines",
-          "latest news summary loot",
+          "latest news summary nvidia",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Loot boxes, influencers, and addictive features face an EU crackdown\n\nTechnology Sentiment: Positive (+0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Googles #25mph #Addictive #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Nvidia is reportedly preparing to fire Jensen Huang\n\nTechnology Sentiment: Positive (+0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Home #Your #25mph #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
