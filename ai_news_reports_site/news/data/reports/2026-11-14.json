@@ -1,0 +1,918 @@
+{
+  "date": "2026-11-14",
+  "generated_at_utc": "2026-11-14T09:40:16Z",
+  "timezone": "America/Denver",
+  "model": "gpt-4o-mini",
+  "trending_topics": [
+    "stop",
+    "outage",
+    "ground",
+    "jensen",
+    "huang",
+    "price",
+    "contract"
+  ],
+  "categories": {
+    "world": {
+      "key": "world",
+      "title": "World",
+      "source": {
+        "site_name": "BBC News",
+        "site_url": "https://www.bbc.com/news",
+        "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+      },
+      "sentiment": {
+        "score": -0.1316,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.219, dampened ×0.6 → -0.1316). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "What we know about the ground stop and what to do if you're affected",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Nov 2026 07:42:11 GMT",
+          "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+          "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 13 Nov 2026 23:40:45 GMT",
+          "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Nov 2026 05:52:31 GMT",
+          "summary": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Nov 2026 06:42:27 GMT",
+          "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Setback for SpaceX Starship rocket's double-catch test",
+          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Nov 2026 00:01:01 GMT",
+          "summary": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 13 Nov 2026 16:40:31 GMT",
+          "summary": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 13 Nov 2026 19:53:57 GMT",
+          "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Estonia bans Russian athletes as backlash intensifies",
+          "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 13 Nov 2026 17:54:33 GMT",
+          "summary": "Estonia is the latest country to say it will not allow Russian or Belarusian athletes to compete on its territory as a result of the ongoing war in Ukraine.",
+          "source": "BBC News"
+        },
+        {
+          "title": "The Peruvian city that has embraced Pope Leo as one of its own",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 13 Nov 2026 18:34:45 GMT",
+          "summary": "Pope Leo XIV is in Peru as part of his Latin America tour, just weeks after having surgery for lung cancer.",
+          "source": "BBC News"
+        },
+        {
+          "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+          "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 13 Nov 2026 15:42:52 GMT",
+          "summary": "German reforms mean foreign and domestic intelligence services will have greater powers to combat espionage, terrorism and sabotage.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Democratic Senate leader Schumer set to face leadership challenge",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 13 Nov 2026 19:03:10 GMT",
+          "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
+          "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 13 Nov 2026 13:11:23 GMT",
+          "summary": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov.",
+          "source": "BBC News"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "What we know about the ground stop and what to do if you're affected.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.132). Top story: What we know about the ground stop and what to do if you're affected.",
+        "key_themes": [
+          "What we know about the ground stop and what to do if you're affected",
+          "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+          "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+          "Microsoft says services fully restored after day-long global outage",
+          "Setback for SpaceX Starship rocket's double-catch test"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "What we know about the ground stop and what to do if you're affected",
+            "why_it_matters": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+            "why_it_matters": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+            "why_it_matters": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Microsoft says services fully restored after day-long global outage",
+            "why_it_matters": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Setback for SpaceX Starship rocket's double-catch test",
+            "why_it_matters": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+            "why_it_matters": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+            "why_it_matters": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Estonia bans Russian athletes as backlash intensifies",
+            "why_it_matters": "Estonia is the latest country to say it will not allow Russian or Belarusian athletes to compete on its territory as a result of the ongoing war in Ukraine.",
+            "signal": "Risk"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "What we know about the ground stop and what to do if you're affected",
+            "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+            "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+            "Microsoft says services fully restored after day-long global outage"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary what",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "World: What we know about the ground stop and what to do if you're affected\n\nWorld Sentiment: Mixed (-0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#Putin #Affected #Athletes #WorldNews #BreakingNews #News #Headlines #Trending"
+    },
+    "business": {
+      "key": "business",
+      "title": "Business",
+      "source": {
+        "site_name": "The Guardian",
+        "site_url": "https://www.theguardian.com/business",
+        "feed_url": "https://www.theguardian.com/business/rss"
+      },
+      "sentiment": {
+        "score": -0.0916,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.153, dampened ×0.6 → -0.0916). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Microsoft outage shakes up companies, schools and local governments across US",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
+          "published": "Fri, 13 Nov 2026 21:13:59 GMT",
+          "summary": "<p>Local officials warn some services remain unavailable even as Outlook starts to resume normal operations after outage</p><ul><li><p><a href=\"https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news\">Microsoft outage – live updates</a></p></li></ul><p>The Microsoft Outlook outage has shaken up companies and local governments across the US that use its suite of email, calendar, video conferencing and cl",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+          "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+          "published": "Sat, 14 Nov 2026 02:15:53 GMT",
+          "summary": "<p>Transportation secretary Sean Duffy says the airspace is now open and the problem has been identified</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage\">Chaos at US airports as stoppage grinds travel plans to a halt</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explained\">What to know about the rare nationwide ground stop issued by the FAA</a></p></li></ul><p>Flights in the US have slowly star",
+          "source": "The Guardian"
+        },
+        {
+          "title": "A timeline of the affair scandal that sank Nvidia’s Jensen Huang",
+          "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-affair-timeline",
+          "published": "Fri, 13 Nov 2026 04:00:08 GMT",
+          "summary": "<p>CEO behind the meteoric rise of Nvidia stepped down after it was revealed he had an affair with an alleged Chinese spy </p><p>Jensen Huang has stepped down as CEO of <a href=\"https://www.theguardian.com/technology/nvidia\">Nvidia</a>, the company at the center of the <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> boom, after leading it for more than 30 years.</p><p>Huang, an electrical engineer by education, stewarded the company from a $1bn firm when it went",
+          "source": "The Guardian"
+        },
+        {
+          "title": "College students rally in support of Starbucks baristas urging boycott over contract negotiations",
+          "url": "https://www.theguardian.com/us-news/2026/nov/12/starbucks-workers-campus-rally-contract-talks",
+          "published": "Thu, 12 Nov 2026 11:00:48 GMT",
+          "summary": "<p>Rallies are planned at more than US 40 campuses as workers seeking better pay and conditions decry stalled talks</p><p>Starbucks baristas, students, elected officials and allies are planning rallies at <a href=\"https://starbucksworkersunited.controlshift.app/events?link_id=2&amp;can_id=debd8d2ad19f005d15f9bbdff314d42a&amp;source=email-nov-12-day-of-action-for-starbucks-baristas&amp;email_referrer=email_3490793&amp;email_subject=nov-12-day-of-action-for-starbucks-baristas&amp;&amp;\">over 40 co",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Home sales hit 16-year low in October amid soaring mortgage rates",
+          "url": "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low",
+          "published": "Fri, 13 Nov 2026 17:20:32 GMT",
+          "summary": "<p>Sales of built units fell to 3.75m in October, down by 8.8% from last year, with mortgage rates at nearly three-year high</p><p>US existing home sales hit a 16-year low in October as buyers were driven away by high <a href=\"https://www.theguardian.com/money/mortgage-rates\">mortgage rates</a> and rising inflation, according to new data released on Wednesday.</p><p>Sales of already built units dropped to 3.75m in October, down by 8.8% from last year, the National Association of Realtors (NAR) r",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Democrats’ US election sweep brings the price of their promised social contract into focus",
+          "url": "https://www.theguardian.com/business/2026/nov/11/democrats-election-medicaid-costs",
+          "published": "Wed, 11 Nov 2026 11:00:46 GMT",
+          "summary": "<p>‘The post-election wish list is about to run into harsh fiscal reality: there is no money’</p><p>Is this an opportunity for a new America? As the Reagan revolution four decades ago launched US society down the path to low taxes and meager solidarity, perhaps the Republican bloodbath last week could turn US politics toward building a new social contract anchored on an aspiration to equitable prosperity.</p><p>One can sense the ambition of the bumper new crop of <a href=\"https://www.theguardian",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Federal judge allows Trump’s $10bn defamation lawsuit against BBC to proceed",
+          "url": "https://www.theguardian.com/us-news/2026/nov/10/trump-10bn-defamation-lawsuit-bbc-allowed",
+          "published": "Wed, 11 Nov 2026 01:18:56 GMT",
+          "summary": "<p>Trump-appointed judge Jeffrey T Kuntz partially denies British broadcaster’s motion to dismiss over edit</p><p>Federal judge Jeffrey T Kuntz ruled on Tuesday that Donald Trump’s lawsuit against the BBC can proceed, denying in part the British broadcaster’s motion to dismiss the case. The president’s $10bn defamation lawsuit stems from the BBC’s splicing together of disparate comments he made before the 6 January US Capitol insurrection, as rendered in a Panorama documentary called Trump: A Se",
+          "source": "The Guardian"
+        },
+        {
+          "title": "US inflation rose 0.4% in October as price increases cooled and gas costs dipped",
+          "url": "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
+          "published": "Tue, 10 Nov 2026 15:38:48 GMT",
+          "summary": "<p>New data comes after Republicans’ midterms losses – which were largely seen as a rebuke of the party over high prices</p><p>US inflation rose 0.4% from September to October, slightly above expectations but still a cooldown in price increases as the cost of gas dipped during the month.</p><p>The Bureau of Labor Statistics did not release the usual year-over-year inflation figure as part of the consumer price index (CPI), which measures the price of a basket of goods and services, as data was n",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
+          "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
+          "published": "Tue, 10 Nov 2026 12:45:54 GMT",
+          "summary": "<p>California lawsuit comes as Donald Trump says FBI is investigating tech CEO’s links with Alice Huang</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/09/nvidia-board-jensen-huang\">Nvidia’s board needs to do some succession planning – sharpish</a></p></li></ul><p>Nvidia and its chief executive, Jensen Huang, have been accused of misleading shareholders in a lawsuit over the Chinese <a href=\"https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-us-china-do",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached?",
+          "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-built-an-ai-kingdom-now-hes-gone-will-nvidias-ramparts-be-breached",
+          "published": "Thu, 12 Nov 2026 17:50:35 GMT",
+          "summary": "<p>CEO’s affair and resignation has brought company’s murky corporate contracts and supply chains into sharp focus</p><p>Can the AI economy survive without its “central bank”? What does Jensen Huang’s fall mean for the world’s second-most valuable company, and what might a tremor in its fortunes mean for the world?</p><p>Nvidia’s sky-high valuation is based on the fact that it designs and sells the advanced AI chips, called graphics processing units (GPUs), that underpin the AI economy. Without",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Farewell to Elon Musk’s Cybertruck. Has any car ever been more repellent? | Arwa Mahdawi",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/11/farewell-cybertruck-elon-musk-car-repellent",
+          "published": "Wed, 11 Nov 2026 11:00:47 GMT",
+          "summary": "<p>Safety campaigners have condemned it and owners have complained about it. Goodbye to a steel monstrosity seemingly designed by a five-year-old</p><p>Elon Musk is having a rough go of it, isn’t he? The world’s richest man spent almost half a billion dollars on the <a href=\"https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis\">midterms</a> in a failed attempt to defend Republican control of government. Now the tech mogul, who moved from California to Texas to e",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Economic relief is on the way, Democrats say. But what, how and when?",
+          "url": "https://www.theguardian.com/us-news/2026/nov/09/democrats-midterms-economy-healthcare",
+          "published": "Mon, 09 Nov 2026 11:00:07 GMT",
+          "summary": "<p>Winning candidates promised to cut costs, rein in corporations, curb billionaire power and improve the economy</p><p>Don’t worry, cash-strapped Americans, “relief is on the way”, the senator Chuck Schumer promised last week in a press conference celebrating Democrats’ <a href=\"https://www.theguardian.com/us-news/2026/nov/04/democrats-house-midterm-elections-results\">massive midterms win</a>.</p><p>Winning candidates promised to cut food and healthcare costs, rein in corporations ripping off c",
+          "source": "The Guardian"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Microsoft outage shakes up companies, schools and local governments across US.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.092). Top story: Microsoft outage shakes up companies, schools and local governments across US.",
+        "key_themes": [
+          "Microsoft outage shakes up companies, schools and local governments across US",
+          "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+          "A timeline of the affair scandal that sank Nvidia’s Jensen Huang",
+          "College students rally in support of Starbucks baristas urging boycott over contract negotiations",
+          "Home sales hit 16-year low in October amid soaring mortgage rates"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Microsoft outage shakes up companies, schools and local governments across US",
+            "why_it_matters": "<p>Local officials warn some services remain unavailable even as Outlook starts to resume normal operations after outage</p><ul><li><p><a href=\"https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-dow…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+            "why_it_matters": "<p>Transportation secretary Sean Duffy says the airspace is now open and the problem has been identified</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage\">Chaos at US air…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "A timeline of the affair scandal that sank Nvidia’s Jensen Huang",
+            "why_it_matters": "<p>CEO behind the meteoric rise of Nvidia stepped down after it was revealed he had an affair with an alleged Chinese spy </p><p>Jensen Huang has stepped down as CEO of <a href=\"https://www.theguardian.com/technology/nvi…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "College students rally in support of Starbucks baristas urging boycott over contract negotiations",
+            "why_it_matters": "<p>Rallies are planned at more than US 40 campuses as workers seeking better pay and conditions decry stalled talks</p><p>Starbucks baristas, students, elected officials and allies are planning rallies at <a href=\"https:…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Home sales hit 16-year low in October amid soaring mortgage rates",
+            "why_it_matters": "<p>Sales of built units fell to 3.75m in October, down by 8.8% from last year, with mortgage rates at nearly three-year high</p><p>US existing home sales hit a 16-year low in October as buyers were driven away by high <a…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Democrats’ US election sweep brings the price of their promised social contract into focus",
+            "why_it_matters": "<p>‘The post-election wish list is about to run into harsh fiscal reality: there is no money’</p><p>Is this an opportunity for a new America? As the Reagan revolution four decades ago launched US society down the path to…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Federal judge allows Trump’s $10bn defamation lawsuit against BBC to proceed",
+            "why_it_matters": "<p>Trump-appointed judge Jeffrey T Kuntz partially denies British broadcaster’s motion to dismiss over edit</p><p>Federal judge Jeffrey T Kuntz ruled on Tuesday that Donald Trump’s lawsuit against the BBC can proceed, de…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "US inflation rose 0.4% in October as price increases cooled and gas costs dipped",
+            "why_it_matters": "<p>New data comes after Republicans’ midterms losses – which were largely seen as a rebuke of the party over high prices</p><p>US inflation rose 0.4% from September to October, slightly above expectations but still a coo…",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "Microsoft outage shakes up companies, schools and local governments across US",
+            "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+            "A timeline of the affair scandal that sank Nvidia’s Jensen Huang",
+            "College students rally in support of Starbucks baristas urging boycott over contract negotiations"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary microsoft",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Business: Microsoft outage shakes up companies, schools and local governments across US\n\nBusiness Sentiment: Mixed (-0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Contract #October #Price #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "technology": {
+      "key": "technology",
+      "title": "Technology",
+      "source": {
+        "site_name": "The Verge",
+        "site_url": "https://www.theverge.com",
+        "feed_url": "https://www.theverge.com/rss/index.xml"
+      },
+      "sentiment": {
+        "score": -0.0288,
+        "label": "Neutral",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg -0.048, dampened ×0.6 → -0.0288). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+          "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+          "published": "2026-11-13T20:53:04-05:00",
+          "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It's unclear how [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Amazon has a plan to index the world’s online shopping data",
+          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+          "published": "2026-11-13T18:49:11-05:00",
+          "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+          "published": "2026-11-13T15:45:10-05:00",
+          "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+          "url": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
+          "published": "2026-11-13T15:30:00-05:00",
+          "summary": "Bluetooth speakers are often boring boxes in plain colors, but not this one! As part of Nothing’s ongoing early Black Friday promo, you can grab its unique, milk carton-shaped CMF Speaker S from Amazon and Nothing for just $39. That’s a solid $20 discount and the lowest price we’ve seen on Nothing’s newfangled wireless speaker, [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
+          "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
+          "published": "2026-11-13T14:14:38-05:00",
+          "summary": "The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to save you a few bucks on your digital copy. We found discounts on gift cards for both Sony PlayStation and Microsoft Xbox Series [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
+          "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
+          "published": "2026-11-13T13:10:41-05:00",
+          "summary": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's new T1 HE instead looks more like other trackball mice already available from companies like Logitech and Kensington with a 34mm ball positioned [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Jensen Huang was reckless with the environment, too",
+          "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+          "published": "2026-11-13T12:44:22-05:00",
+          "summary": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new wave of water- and chemical-intensive factories, drained power grids from inside massive data centers, and set the stage for a looming e-waste problem. Under Huang's [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
+          "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
+          "published": "2026-11-13T12:12:56-05:00",
+          "summary": "Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids to hold. But it turns out the company wasn't done shrinking its hardware. Camp Snap's new CS-8 Micro is even smaller than the [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "The new Apple TV has a YouTube problem",
+          "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+          "published": "2026-11-13T11:55:57-05:00",
+          "summary": "People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying \"YouTube is not yet available on this device.\" In [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Microsoft&#8217;s massive Outlook outage might be over",
+          "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+          "published": "2026-11-13T11:17:11-05:00",
+          "summary": "Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to their emails had been restored, though the flow of Outlook mail [&#8230;]",
+          "source": "The Verge"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "FAA lifts nationwide ground stop that blocked takeoffs for hours.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is neutral (-0.029). Top story: FAA lifts nationwide ground stop that blocked takeoffs for hours.",
+        "key_themes": [
+          "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+          "Amazon has a plan to index the world’s online shopping data",
+          "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+          "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+          "Here’s how you can save on your GTA VI preorder ahead of launch"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+            "why_it_matters": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the s…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Amazon has a plan to index the world’s online shopping data",
+            "why_it_matters": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, cal…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+            "why_it_matters": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US …",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+            "why_it_matters": "Bluetooth speakers are often boring boxes in plain colors, but not this one! As part of Nothing’s ongoing early Black Friday promo, you can grab its unique, milk carton-shaped CMF Speaker S from Amazon and Nothing for ju…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Here’s how you can save on your GTA VI preorder ahead of launch",
+            "why_it_matters": "The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to save you a few bucks on your dig…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
+            "why_it_matters": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's new T1 HE instead looks more like …",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Jensen Huang was reckless with the environment, too",
+            "why_it_matters": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new wave of water- and chemical-inten…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
+            "why_it_matters": "Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids to hold. But it turns out the company wa…",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+            "Amazon has a plan to index the world’s online shopping data",
+            "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+            "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's neutral news headlines",
+          "latest news summary faa",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Technology: FAA lifts nationwide ground stop that blocked takeoffs for hours\n\nTechnology Sentiment: Neutral (-0.03)\n\nRead the full breakdown: https://tldrnews.info\n\n#Your #Adjust #Agents #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "sports": {
+      "key": "sports",
+      "title": "Sports",
+      "source": {
+        "site_name": "ESPN",
+        "site_url": "https://www.espn.com",
+        "feed_url": "https://www.espn.com/espn/rss/news"
+      },
+      "sentiment": {
+        "score": 0.1226,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.204, dampened ×0.6 → +0.1226). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Jayden Daniels' late TD keeps Commanders' NFC East hopes alive with win over Giants",
+          "url": "https://www.espn.com/nfl/story/_/id/50466279/new-york-giants-washington-commanders-week-10-tnf",
+          "published": "Fri, 13 Nov 2026 00:08:16 EST",
+          "summary": "New York couldn't close out a win against Washington, giving up a late touchdown drive. Its division lead is now shrinking.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Scrutinized Daniels finds redemption with game-winning drive for Commanders",
+          "url": "https://www.espn.com/nfl/story/_/id/50469451/commanders-jayden-daniels-redemption-game-winning-drive",
+          "published": "Fri, 13 Nov 2026 03:21:30 EST",
+          "summary": "Commanders quarterback Jayden Daniels shook off two interceptions and multiple weeks of failed late-game drives to deliver when Washington needed him most.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Cade authors NBA's first 50-point, 10-assist, 0-turnover game in 2OT thriller",
+          "url": "https://www.espn.com/nba/story/_/id/50468039/cade-cunningham-ausar-thompson-power-pistons-wizards",
+          "published": "Fri, 13 Nov 2026 03:20:53 EST",
+          "summary": "Cade Cunningham had 52 points, 11 assists and no turnovers as the Pistons outlasted the Wizards in double overtime Thursday night.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Pochettino agrees deal to replace Carrick at Man United",
+          "url": "https://www.espn.com/soccer/story/_/id/50452966/mauricio-pochettino-man-united-deal-sources",
+          "published": "Fri, 13 Nov 2026 03:21:29 EST",
+          "summary": "Mauricio Pochettino has agreed to become the next Manchester United manager with an announcement expected on Friday, sources have told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Cubs' Crow-Armstrong, Astros' Alvarez sweep votes as unanimous MVP winners",
+          "url": "https://www.espn.com/mlb/story/_/id/50466186/cubs-pete-crow-armstrong-astros-yordan-alvarez-win-mvp-honors",
+          "published": "Fri, 13 Nov 2026 03:20:53 EST",
+          "summary": "Cubs star Pete Crow-Armstrong and the Astros' Yordan Alvarez each earned all 30 first-place votes to win the MVP awards in their respective leagues Thursday night.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Harbaugh bemoans 'loophole' after nixed trade, urges NFL to look into it",
+          "url": "https://www.espn.com/nfl/story/_/id/50464601/chargers-jim-harbaugh-irked-broncos-nixed-trade",
+          "published": "Fri, 13 Nov 2026 03:20:53 EST",
+          "summary": "Chargers coach Jim Harbaugh on Thursday expressed frustration with the Denver Broncos about a nixed trade this week involving linebacker Daiyan Henley.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Jefferson, Vikings see 'joy' in Cousins' first full day back with team",
+          "url": "https://www.espn.com/nfl/story/_/id/50466164/vikings-hyped-welcome-back-leader-kirk-cousins-1st-day-practice",
+          "published": "Fri, 13 Nov 2026 03:20:53 EST",
+          "summary": "The Minnesota Vikings reveled Thursday in quarterback Kirk Cousins' first full day back with the organization.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Cowboys CB Porter: Absence is because of ankle injury, not my contract",
+          "url": "https://www.espn.com/nfl/story/_/id/50464810/cowboys-joey-porter-absence-due-injury-not-contract",
+          "published": "Fri, 13 Nov 2026 03:20:53 EST",
+          "summary": "Cowboys CB Joey Porter Jr. wants it known his absence the past two weeks has everything to do with an ankle injury and nothing to do with a future contract.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Giants' Winston lets 'the dogs out' on 4th-down ploy; Commanders don't bite",
+          "url": "https://www.espn.com/nfl/story/_/id/50469309/giants-jameis-winston-barks-let-dogs-vs-commanders",
+          "published": "Fri, 13 Nov 2026 03:20:53 EST",
+          "summary": "Giants quarterback Jameis Winston broke into a rendition of \"Who Let the Dogs Out\" in an attempt to draw the Commanders offside on fourth down in New York's 24-21 loss.",
+          "source": "ESPN"
+        },
+        {
+          "title": "🏆 Top candidates for Barnwell's NFL midseason awards",
+          "url": "https://www.espn.com/nfl/story/_/id/50452792/2026-midseason-awards-ranking-mvp-rookies-coaches-barnwell",
+          "published": "Fri, 13 Nov 2026 03:20:53 EST",
+          "summary": "Joe Burrow for MVP? Arvell Reese as the DROY? Hardware for Jaxon Smith-Njigba and Will Anderson Jr.? We ranked the top contenders to win eight NFL awards through Week 9.",
+          "source": "ESPN"
+        },
+        {
+          "title": "MLB Awards Week: Pete Crow-Armstrong, Yordan Alvarez win unanimous MVPs",
+          "url": "https://www.espn.com/mlb/story/_/id/50391276/2026-season-awards-mvp-cy-young-al-nl",
+          "published": "Thu, 12 Nov 2026 20:01:21 EST",
+          "summary": "Baseball's best players and managers of 2026 collected their hardware this week.",
+          "source": "ESPN"
+        },
+        {
+          "title": "The NFL midseason report: Every team from every angle, plus keys to the second half",
+          "url": "https://www.espn.com/nfl/story/_/id/50448976/2026-nfl-midseason-report-questions-stats-fantasy",
+          "published": "Thu, 12 Nov 2026 23:55:57 EST",
+          "summary": "Here's what to watch in the second half, key QB stats and fantasy nuggets for all 32 teams.",
+          "source": "ESPN"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Jayden Daniels' late TD keeps Commanders' NFC East hopes alive with win over Giants.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.123). Top story: Jayden Daniels' late TD keeps Commanders' NFC East hopes alive with win over Giants.",
+        "key_themes": [
+          "Jayden Daniels' late TD keeps Commanders' NFC East hopes alive with win over Giants",
+          "Scrutinized Daniels finds redemption with game-winning drive for Commanders",
+          "Cade authors NBA's first 50-point, 10-assist, 0-turnover game in 2OT thriller",
+          "Sources: Pochettino agrees deal to replace Carrick at Man United",
+          "Cubs' Crow-Armstrong, Astros' Alvarez sweep votes as unanimous MVP winners"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Jayden Daniels' late TD keeps Commanders' NFC East hopes alive with win over Giants",
+            "why_it_matters": "New York couldn't close out a win against Washington, giving up a late touchdown drive. Its division lead is now shrinking.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Scrutinized Daniels finds redemption with game-winning drive for Commanders",
+            "why_it_matters": "Commanders quarterback Jayden Daniels shook off two interceptions and multiple weeks of failed late-game drives to deliver when Washington needed him most.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Cade authors NBA's first 50-point, 10-assist, 0-turnover game in 2OT thriller",
+            "why_it_matters": "Cade Cunningham had 52 points, 11 assists and no turnovers as the Pistons outlasted the Wizards in double overtime Thursday night.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Sources: Pochettino agrees deal to replace Carrick at Man United",
+            "why_it_matters": "Mauricio Pochettino has agreed to become the next Manchester United manager with an announcement expected on Friday, sources have told ESPN.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Cubs' Crow-Armstrong, Astros' Alvarez sweep votes as unanimous MVP winners",
+            "why_it_matters": "Cubs star Pete Crow-Armstrong and the Astros' Yordan Alvarez each earned all 30 first-place votes to win the MVP awards in their respective leagues Thursday night.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Harbaugh bemoans 'loophole' after nixed trade, urges NFL to look into it",
+            "why_it_matters": "Chargers coach Jim Harbaugh on Thursday expressed frustration with the Denver Broncos about a nixed trade this week involving linebacker Daiyan Henley.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Jefferson, Vikings see 'joy' in Cousins' first full day back with team",
+            "why_it_matters": "The Minnesota Vikings reveled Thursday in quarterback Kirk Cousins' first full day back with the organization.",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Cowboys CB Porter: Absence is because of ankle injury, not my contract",
+            "why_it_matters": "Cowboys CB Joey Porter Jr. wants it known his absence the past two weeks has everything to do with an ankle injury and nothing to do with a future contract.",
+            "signal": "Opportunity"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "Jayden Daniels' late TD keeps Commanders' NFC East hopes alive with win over Giants",
+            "Scrutinized Daniels finds redemption with game-winning drive for Commanders",
+            "Cade authors NBA's first 50-point, 10-assist, 0-turnover game in 2OT thriller",
+            "Sources: Pochettino agrees deal to replace Carrick at Man United"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary jayden",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Sports: Jayden Daniels' late TD keeps Commanders' NFC East hopes alive with win over Giants\n\nSports Sentiment: Mixed (+0.12)\n\nRead the full breakdown: https://tldrnews.info\n\n#Commanders #Daniels #0turnover #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "science": {
+      "key": "science",
+      "title": "Science",
+      "source": {
+        "site_name": "ScienceDaily",
+        "site_url": "https://www.sciencedaily.com",
+        "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
+      },
+      "sentiment": {
+        "score": 0.0967,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.161, dampened ×0.6 → +0.0967). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
+          "published": "Fri, 13 Nov 2026 21:59:05 EST",
+          "summary": "A 5,000-year-old mystery surrounding the tombs of Egypt’s first kings has taken a disturbing turn. Scientists reexamining 46 ancient skulls discovered evidence of potentially fatal head injuries in 18, suggesting that at least 39% of those studied may have been deliberately killed. The findings support a century-old theory that royal attendants were sacrificed when kings died, possibly to serve them in the afterlife.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm",
+          "published": "Fri, 13 Nov 2026 07:55:11 EST",
+          "summary": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute infection experienced lasting changes to their spleens and weakened immune responses, potentially leaving them more vulnerable to future threats. Surprisingly, prior vaccination completely prevented these harmful changes in the mouse model.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "A new treasure map reveals where Earth's lost prehistoric life may be hiding",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112025529.htm",
+          "published": "Thu, 12 Nov 2026 06:24:47 EST",
+          "summary": "A sweeping analysis of 540 million years of marine fossils has revealed surprising gaps in our understanding of Earth's ancient life. Scientists discovered that some of the greatest opportunities for finding previously unknown species lie in relatively recent geological periods, rather than the distant past. By mapping unexplored fossil-rich regions around the world, researchers have created a powerful tool to guide future excavations.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Scientists capture electrons making seemingly impossible quantum jumps",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+          "published": "Fri, 13 Nov 2026 20:13:05 EST",
+          "summary": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented look at quantum behavior and could help unlock a new generation of ultrafast, light-controlled electronics.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Superheated magma could fuel towering lava fountains",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111221811.htm",
+          "published": "Fri, 13 Nov 2026 06:56:39 EST",
+          "summary": "Why do some volcanoes erupt with spectacular lava fountains while others release lava more quietly? Scientists have discovered that a hidden effect of extreme heat inside magma may help explain the difference. Experiments revealed that superheated magma can delay crystal formation for more than eight hours, compared with just 20 minutes in magma that has not been superheated.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "NASA’s Perseverance confirms a key ingredient for life hidden in ancient Mars rocks",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005908.htm",
+          "published": "Thu, 12 Nov 2026 06:37:06 EST",
+          "summary": "NASA's Perseverance rover has confirmed complex organic carbon just beneath the surface of ancient Martian rocks, raising intriguing questions about the Red Planet's potential to have supported life. The remarkable preservation of these compounds, along with similar discoveries thousands of miles away, suggests the building blocks of life may once have been widespread across Mars.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "The Sun unleashed a monster storm. Earth may have made it worse",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005905.htm",
+          "published": "Fri, 13 Nov 2026 04:49:36 EST",
+          "summary": "The massive solar storm that illuminated skies worldwide in May 2024 has uncovered an unexpected twist: Earth's own atmosphere may have helped make the storm so powerful. Satellite measurements revealed that roughly 85% of the charged particles fueling the disturbance originated from Earth's upper atmosphere rather than the solar wind. Scientists also detected an extraordinary 40% weakening of Earth's magnetic field high above the planet.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005901.htm",
+          "published": "Fri, 13 Nov 2026 06:08:34 EST",
+          "summary": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago. Scientists exploring an overlooked branch of an alternative gravity theory discovered that dark energy could have switched from negative to positive roughly 9.5 billion years ago, potentially changing how we understand cosmic history.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Crows can make decisions twice as fast as humans, scientists discover",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+          "published": "Thu, 12 Nov 2026 07:17:19 EST",
+          "summary": "Crows may be even smarter than we thought, and their brains are astonishingly fast. Researchers at the University of Tübingen discovered that crows can make visual decisions twice as quickly as humans and monkeys, taking just 235 milliseconds on average to identify the direction of moving dots while maintaining remarkable accuracy.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Where are all the males? Ancient human fossils reveal a startling mystery",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm",
+          "published": "Wed, 11 Nov 2026 04:43:55 EST",
+          "summary": "A remarkable discovery in a South African cave suggests that an extinct human relative may have created an all-female burial site more than 240,000 years ago. Scientists analyzed ancient proteins preserved in Homo naledi teeth and found no male-specific markers among at least 20 individuals, potentially solving a mystery that has puzzled researchers for over a decade.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "A butterfly that fooled scientists for 200 years finally reveals its secrets",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042556.htm",
+          "published": "Thu, 12 Nov 2026 05:47:43 EST",
+          "summary": "Researchers have discovered that a familiar tropical butterfly actually belongs to three nearly identical species, including one previously unknown to science. Hidden ultraviolet wing patterns and DNA differences revealed the truth, leaving scientists puzzled about how the butterflies remain genetically separate despite living side by side.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "AI-powered bionic eye breakthrough could help the blind see again",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
+          "published": "Thu, 12 Nov 2026 06:55:55 EST",
+          "summary": "Scientists have developed an AI-powered approach that makes experimental bionic vision technology more precise, helping predict the flashes and shapes of light perceived by a blind man with a brain implant. By learning how an individual's brain responds to electrical stimulation, the technology could bring researchers closer to restoring some degree of sight to people with blindness.",
+          "source": "ScienceDaily"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.097). Top story: 5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings.",
+        "key_themes": [
+          "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+          "Scientists discover a hidden danger of viral infections that vaccines may prevent",
+          "A new treasure map reveals where Earth's lost prehistoric life may be hiding",
+          "Scientists capture electrons making seemingly impossible quantum jumps",
+          "Superheated magma could fuel towering lava fountains"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+            "why_it_matters": "A 5,000-year-old mystery surrounding the tombs of Egypt’s first kings has taken a disturbing turn. Scientists reexamining 46 ancient skulls discovered evidence of potentially fatal head injuries in 18, suggesting that at…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
+            "why_it_matters": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute infection experienced lasting changes to t…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "A new treasure map reveals where Earth's lost prehistoric life may be hiding",
+            "why_it_matters": "A sweeping analysis of 540 million years of marine fossils has revealed surprising gaps in our understanding of Earth's ancient life. Scientists discovered that some of the greatest opportunities for finding previously u…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Scientists capture electrons making seemingly impossible quantum jumps",
+            "why_it_matters": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented lo…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Superheated magma could fuel towering lava fountains",
+            "why_it_matters": "Why do some volcanoes erupt with spectacular lava fountains while others release lava more quietly? Scientists have discovered that a hidden effect of extreme heat inside magma may help explain the difference. Experiment…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "NASA’s Perseverance confirms a key ingredient for life hidden in ancient Mars rocks",
+            "why_it_matters": "NASA's Perseverance rover has confirmed complex organic carbon just beneath the surface of ancient Martian rocks, raising intriguing questions about the Red Planet's potential to have supported life. The remarkable prese…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "The Sun unleashed a monster storm. Earth may have made it worse",
+            "why_it_matters": "The massive solar storm that illuminated skies worldwide in May 2024 has uncovered an unexpected twist: Earth's own atmosphere may have helped make the storm so powerful. Satellite measurements revealed that roughly 85% …",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
+            "why_it_matters": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago. Scientists exploring an overlooked branch of an alternative gravity theory discovered that dark energ…",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+            "Scientists discover a hidden danger of viral infections that vaccines may prevent",
+            "A new treasure map reveals where Earth's lost prehistoric life may be hiding",
+            "Scientists capture electrons making seemingly impossible quantum jumps"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary 5,000-year-old",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Science: 5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings\n\nScience Sentiment: Mixed (+0.10)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ancient #Hidden #Life #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+    }
+  }
+}
