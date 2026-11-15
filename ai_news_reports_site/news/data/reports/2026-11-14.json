@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "generated_at_utc": "2026-11-14T18:55:16Z",
+  "generated_at_utc": "2026-11-15T02:31:50Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
@@ -18,23 +18,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1338,
+        "score": -0.0845,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.223, dampened ×0.6 → -0.1338). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.141, dampened ×0.6 → -0.0845). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
           "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
           "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Nov 2026 17:16:36 GMT",
+          "published": "Sat, 14 Nov 2026 19:12:25 GMT",
           "summary": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
           "source": "BBC News"
         },
         {
           "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
           "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Nov 2026 15:15:57 GMT",
-          "summary": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
+          "published": "Sat, 14 Nov 2026 22:37:25 GMT",
+          "summary": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
           "source": "BBC News"
         },
         {
@@ -45,17 +45,17 @@
           "source": "BBC News"
         },
         {
+          "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+          "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 14 Nov 2026 22:09:40 GMT",
+          "summary": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
+          "source": "BBC News"
+        },
+        {
           "title": "Philippines wins first Eurovision Song Contest Asia",
           "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
           "published": "Sat, 14 Nov 2026 18:17:58 GMT",
           "summary": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Second catch attempt for SpaceX Starship rocket",
-          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 14 Nov 2026 14:18:41 GMT",
-          "summary": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
           "source": "BBC News"
         },
         {
@@ -96,7 +96,7 @@
         {
           "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
           "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 13 Nov 2026 23:40:45 GMT",
+          "published": "Sat, 14 Nov 2026 20:23:06 GMT",
           "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
           "source": "BBC News"
         },
@@ -110,54 +110,54 @@
       ],
       "ai_report": {
         "key_takeaway": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.134). Top story: Copper wire upgrade caused nationwide flight suspension, US transport secretary says.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.085). Top story: Copper wire upgrade caused nationwide flight suspension, US transport secretary says.",
         "key_themes": [
           "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
           "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
           "Italy fines Meta €805m over accessing users' photos",
-          "Philippines wins first Eurovision Song Contest Asia",
-          "Second catch attempt for SpaceX Starship rocket"
+          "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+          "Philippines wins first Eurovision Song Contest Asia"
         ],
         "notable_headlines": [
           {
             "headline": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
             "why_it_matters": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-            "why_it_matters": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
-            "signal": "Risk"
+            "why_it_matters": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
+            "signal": "Unclear"
           },
           {
             "headline": "Italy fines Meta €805m over accessing users' photos",
             "why_it_matters": "The social media giant is accused of not informing 20 million users it had access to their photos.",
-            "signal": "Risk"
+            "signal": "Unclear"
+          },
+          {
+            "headline": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+            "why_it_matters": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
+            "signal": "Unclear"
           },
           {
             "headline": "Philippines wins first Eurovision Song Contest Asia",
             "why_it_matters": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Second catch attempt for SpaceX Starship rocket",
-            "why_it_matters": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
             "why_it_matters": "Sotheby's says it will work with the heirs of a family who had previously owned the artwork to try and reach a solution.",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
             "why_it_matters": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
-            "signal": "Risk"
+            "signal": "Unclear"
           },
           {
             "headline": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
             "why_it_matters": "The 52-year-old general’s provocative posts and military threats have fuelled rumours of a dynastic succession.",
-            "signal": "Risk"
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -175,7 +175,7 @@
             "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
             "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
             "Italy fines Meta €805m over accessing users' photos",
-            "Philippines wins first Eurovision Song Contest Asia"
+            "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth"
           ],
           "confidence": "Medium"
         },
@@ -190,7 +190,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Copper wire upgrade caused nationwide flight suspension, US transport secretary says\n\nWorld Sentiment: Mixed (-0.13)\n\nRead the full breakdown: https://tldrnews.info\n\n#180m #805m #Accessing #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Copper wire upgrade caused nationwide flight suspension, US transport secretary says\n\nWorld Sentiment: Mixed (-0.08)\n\nRead the full breakdown: https://tldrnews.info\n\n#180m #805m #Accessing #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -384,11 +384,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2466,
-        "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.411, dampened ×0.6 → +0.2466). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.2678,
+        "label": "Positive",
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.446, dampened ×0.6 → +0.2678). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+          "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+          "published": "2026-11-14T16:44:44-05:00",
+          "summary": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopstick' catches of its boosters before, but this is the first time the maneuver has successfully been executed on the Starship vehicle itself. SpaceX CEO Elon [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+          "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+          "published": "2026-11-14T14:47:40-05:00",
+          "summary": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animated Magic: The Gathering series was first teased back in 2019 with Joe and Anthony Russo at [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Work to replace old copper wire led to the FAA’s ground stop",
           "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
@@ -444,33 +458,29 @@
           "published": "2026-11-13T20:53:04-05:00",
           "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It's unclear how [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Amazon has a plan to index the world’s online shopping data",
-          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-          "published": "2026-11-13T18:49:11-05:00",
-          "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-          "published": "2026-11-13T15:45:10-05:00",
-          "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Work to replace old copper wire led to the FAA’s ground stop.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.247). Top story: Work to replace old copper wire led to the FAA’s ground stop.",
+        "key_takeaway": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.268). Top story: Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship.",
         "key_themes": [
+          "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+          "Magic: The Gathering is getting a Netflix animated series. For real this time.",
           "Work to replace old copper wire led to the FAA’s ground stop",
           "Here are our favorite deals from REI’s giant Holiday Sale",
-          "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
-          "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
-          "This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers"
+          "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs"
         ],
         "notable_headlines": [
+          {
+            "headline": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+            "why_it_matters": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopstick' catches of its …",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+            "why_it_matters": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix …",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Work to replace old copper wire led to the FAA’s ground stop",
             "why_it_matters": "At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA fa…",
@@ -500,16 +510,6 @@
             "headline": "A gadget to make your dumb house smarter",
             "why_it_matters": "Hi, friends! Welcome to Installer No. 152, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for taking time away from Zelda to be here, and also you can read all the old e…",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Jensen Huang and the decline of the visionary showman founder CEO",
-            "why_it_matters": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers a…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
-            "why_it_matters": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the s…",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -524,10 +524,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+            "Magic: The Gathering is getting a Netflix animated series. For real this time.",
             "Work to replace old copper wire led to the FAA’s ground stop",
-            "Here are our favorite deals from REI’s giant Holiday Sale",
-            "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
-            "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print"
+            "Here are our favorite deals from REI’s giant Holiday Sale"
           ],
           "confidence": "Medium"
         },
@@ -537,12 +537,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary work",
+          "today's positive news headlines",
+          "latest news summary watch",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Work to replace old copper wire led to the FAA’s ground stop\n\nTechnology Sentiment: Mixed (+0.25)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ground #Stop #Altman #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship\n\nTechnology Sentiment: Positive (+0.27)\n\nRead the full breakdown: https://tldrnews.info\n\n#Altman #Analog #Animated #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
