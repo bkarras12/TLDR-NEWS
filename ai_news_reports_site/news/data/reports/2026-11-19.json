@@ -1,12 +1,15 @@
 {
   "date": "2026-11-19",
-  "generated_at_utc": "2026-11-19T21:56:42Z",
+  "generated_at_utc": "2026-11-20T03:56:44Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "history",
-    "free",
-    "deal"
+    "without",
+    "public",
+    "nvidia",
+    "judge",
+    "free"
   ],
   "categories": {
     "world": {
@@ -18,16 +21,23 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": 0.019,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.032, dampened ×0.6 → +0.0190). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.0716,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.119, dampened ×0.6 → -0.0716). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+          "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
           "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Nov 2026 21:38:42 GMT",
+          "published": "Thu, 19 Nov 2026 23:33:51 GMT",
           "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
+          "source": "BBC News"
+        },
+        {
+          "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Nov 2026 00:13:21 GMT",
+          "summary": "Orla Guerin speaks to seven people trapped in Taiz by the Houthis who reveal what life is like under siege.",
           "source": "BBC News"
         },
         {
@@ -38,6 +48,13 @@
           "source": "BBC News"
         },
         {
+          "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Nov 2026 00:50:24 GMT",
+          "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+          "source": "BBC News"
+        },
+        {
           "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
           "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
           "published": "Thu, 19 Nov 2026 17:38:22 GMT",
@@ -45,10 +62,31 @@
           "source": "BBC News"
         },
         {
-          "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Nov 2026 21:21:43 GMT",
-          "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+          "title": "California targets Nvidia in China AI chip probe",
+          "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 19 Nov 2026 23:04:30 GMT",
+          "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 19 Nov 2026 23:40:29 GMT",
+          "summary": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+          "url": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 19 Nov 2026 22:48:22 GMT",
+          "summary": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Trump posthumously pardons US baseball legend Pete Rose",
+          "url": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo?at_medium=RSS&at_campaign=rss",
+          "published": "Thu, 19 Nov 2026 23:51:50 GMT",
+          "summary": "Rose, who died in 2024, was given a lifetime ban from the sport for betting on games but was reinstated last year.",
           "source": "BBC News"
         },
         {
@@ -71,57 +109,27 @@
           "published": "Thu, 19 Nov 2026 00:49:19 GMT",
           "summary": "Châtaigniers en fleurs was painted in 1890 in the final two months of Vincent van Gogh's life.",
           "source": "BBC News"
-        },
-        {
-          "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Nov 2026 21:26:10 GMT",
-          "summary": "\"She fought until she couldn’t anymore,\" the Cincinnati Zoo said in a statement. Fiona became ill a few days after the incident.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Nov 2026 13:31:23 GMT",
-          "summary": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "Susan Smith denied parole again 32 years after drowning her two sons",
-          "url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Nov 2026 17:23:34 GMT",
-          "summary": "At a hearing on the possibility of parole, Smith said she wished she could change the past, and her two children \"did not deserve to die\".",
-          "source": "BBC News"
-        },
-        {
-          "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
-          "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Nov 2026 12:56:30 GMT",
-          "summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
-          "source": "BBC News"
-        },
-        {
-          "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
-          "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
-          "published": "Thu, 19 Nov 2026 09:21:54 GMT",
-          "summary": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Anthropic becomes most valuable AI firm as shares soar in stock market debut.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.019). Top story: Anthropic becomes most valuable AI firm as shares soar in stock market debut.",
+        "key_takeaway": "Anthropic becomes one of world's most valuable public companies in stock market debut.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.072). Top story: Anthropic becomes one of world's most valuable public companies in stock market debut.",
         "key_themes": [
-          "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+          "Anthropic becomes one of world's most valuable public companies in stock market debut",
+          "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
           "Myanmar committed genocide against Rohingya minority, top UN court rules",
-          "Trump, Putin and Xi release 'peace declaration' after historic meeting",
           "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-          "Dozens missing after boat carrying migrants sinks off Senegal's coast"
+          "Trump, Putin and Xi release 'peace declaration' after historic meeting"
         ],
         "notable_headlines": [
           {
-            "headline": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+            "headline": "Anthropic becomes one of world's most valuable public companies in stock market debut",
             "why_it_matters": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+            "why_it_matters": "Orla Guerin speaks to seven people trapped in Taiz by the Houthis who reveal what life is like under siege.",
             "signal": "Unclear"
           },
           {
@@ -130,33 +138,28 @@
             "signal": "Unclear"
           },
           {
-            "headline": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-            "why_it_matters": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
-            "signal": "Unclear"
-          },
-          {
             "headline": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
             "why_it_matters": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
             "signal": "Unclear"
           },
           {
-            "headline": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-            "why_it_matters": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people.",
+            "headline": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+            "why_it_matters": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
             "signal": "Unclear"
           },
           {
-            "headline": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-            "why_it_matters": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week.",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-            "why_it_matters": "Châtaigniers en fleurs was painted in 1890 in the final two months of Vincent van Gogh's life.",
+            "headline": "California targets Nvidia in China AI chip probe",
+            "why_it_matters": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
             "signal": "Unclear"
           },
           {
             "headline": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-            "why_it_matters": "\"She fought until she couldn’t anymore,\" the Cincinnati Zoo said in a statement. Fiona became ill a few days after the incident.",
+            "why_it_matters": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+            "why_it_matters": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
             "signal": "Unclear"
           }
         ],
@@ -172,9 +175,9 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+            "Anthropic becomes one of world's most valuable public companies in stock market debut",
+            "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
             "Myanmar committed genocide against Rohingya minority, top UN court rules",
-            "Trump, Putin and Xi release 'peace declaration' after historic meeting",
             "Europe ready for talks with Russia on ending war in Ukraine, leaders say"
           ],
           "confidence": "Medium"
@@ -185,12 +188,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
+          "today's mixed news headlines",
           "latest news summary anthropic",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Anthropic becomes most valuable AI firm as shares soar in stock market debut\n\nWorld Sentiment: Neutral (+0.02)\n\nRead the full breakdown: https://tldrnews.info\n\n#Putin #1904m #Against #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Anthropic becomes one of world's most valuable public companies in stock market debut\n\nWorld Sentiment: Mixed (-0.07)\n\nRead the full breakdown: https://tldrnews.info\n\n#Abuse #Against #Anthropic #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -201,16 +204,16 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0007,
+        "score": -0.0013,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.001, dampened ×0.6 → -0.0007). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.002, dampened ×0.6 → -0.0013). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Anthropic begins public trading at $2tn valuation after largest-ever IPO",
+          "title": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
           "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
-          "published": "Thu, 19 Nov 2026 17:36:14 GMT",
-          "summary": "<p>AI startup and Claude chatbot maker likely to become one of the world’s most valuable publicly traded businesses</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates?\">Anthropic IPO – live updates</a></p></li></ul><p><a href=\"https://www.theguardian.com/technology/anthropic\">Anthropic</a> shares soared more than a third when trading got under way on its US market debut on Thursday, valuing t",
+          "published": "Thu, 19 Nov 2026 22:09:18 GMT",
+          "summary": "<p>AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97</p><p><a href=\"https://www.theguardian.com/technology/anthropic\">Anthropic</a> closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market on Thursday, Anthropic shares were trading at just over $97 with a nearly $1.3tn total market capitalization, $1.75tn fully diluted.</p><p>While the f",
           "source": "The Guardian"
         },
         {
@@ -292,10 +295,10 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Anthropic begins public trading at $2tn valuation after largest-ever IPO.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.001). Top story: Anthropic begins public trading at $2tn valuation after largest-ever IPO.",
+        "key_takeaway": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.001). Top story: Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO.",
         "key_themes": [
-          "Anthropic begins public trading at $2tn valuation after largest-ever IPO",
+          "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
           "Labor leaders call on governments to stop awarding Amazon public contracts",
           "US ⁠judge allows Trump’s $15bn lawsuit against New York Times to proceed",
           "Democrats demand answers from Howard Lutnick about Nvidia and his family’s business",
@@ -303,8 +306,8 @@
         ],
         "notable_headlines": [
           {
-            "headline": "Anthropic begins public trading at $2tn valuation after largest-ever IPO",
-            "why_it_matters": "<p>AI startup and Claude chatbot maker likely to become one of the world’s most valuable publicly traded businesses</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-marke…",
+            "headline": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
+            "why_it_matters": "<p>AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97</p><p><a href=\"https://www.theguardian.com/technology/anthropic\">Anthropic</a> close…",
             "signal": "Unclear"
           },
           {
@@ -355,7 +358,7 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Anthropic begins public trading at $2tn valuation after largest-ever IPO",
+            "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
             "Labor leaders call on governments to stop awarding Amazon public contracts",
             "US ⁠judge allows Trump’s $15bn lawsuit against New York Times to proceed",
             "Democrats demand answers from Howard Lutnick about Nvidia and his family’s business"
@@ -373,7 +376,7 @@
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Anthropic begins public trading at $2tn valuation after largest-ever IPO\n\nBusiness Sentiment: Neutral (-0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#Judge #Lawsuit #Nvidia #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO\n\nBusiness Sentiment: Neutral (-0.00)\n\nRead the full breakdown: https://tldrnews.info\n\n#Judge #Lawsuit #Nvidia #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -384,11 +387,25 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.1893,
+        "score": 0.1759,
         "label": "Mixed",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.316, dampened ×0.6 → +0.1893). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.293, dampened ×0.6 → +0.1759). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Apple is hiring engineers to build its own AI agent",
+          "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+          "published": "2026-11-19T17:31:41-05:00",
+          "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. [&#8230;]",
+          "source": "The Verge"
+        },
+        {
+          "title": "A brief history of Nvidia’s recent stock fluctuations",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+          "published": "2026-11-19T16:59:35-05:00",
+          "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings [&#8230;]",
+          "source": "The Verge"
+        },
         {
           "title": "Meta now sells 3D movies on Quest VR headsets",
           "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
@@ -444,33 +461,29 @@
           "published": "2026-11-19T13:33:08-05:00",
           "summary": "Sonos speakers and soundbars aren&#8217;t exactly cheap, but thankfully the company&#8217;s Black Friday sale has already begun, making everything a little easier to afford through November 30th. Most notably, you can pick up the Arc Ultra soundbar for a new low of $849 ($250 off) from Sonos, Amazon, and Best Buy, or the newfangled Sonos [&#8230;]",
           "source": "The Verge"
-        },
-        {
-          "title": "Gemini on Mac can now use your computer",
-          "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-          "published": "2026-11-19T13:21:13-05:00",
-          "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Leaked images reveal Motorola’s wide foldable",
-          "url": "https://www.theverge.com/tech/1037848/motorola-razr-flex-wide-foldable-folding-smartphone-android-leak",
-          "published": "2026-11-19T13:19:03-05:00",
-          "summary": "New leaked images of Motorola's next folding smartphone shared by SammyGuru add more credence to the theory that widescreen could be the default design for foldables moving forward. Following a single leaked shot shared to Reddit yesterday, this new crop of images reveal the Motorola Razr Flex from several angles in two finishes with its [&#8230;]",
-          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Meta now sells 3D movies on Quest VR headsets.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.189). Top story: Meta now sells 3D movies on Quest VR headsets.",
+        "key_takeaway": "Apple is hiring engineers to build its own AI agent.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.176). Top story: Apple is hiring engineers to build its own AI agent.",
         "key_themes": [
+          "Apple is hiring engineers to build its own AI agent",
+          "A brief history of Nvidia’s recent stock fluctuations",
           "Meta now sells 3D movies on Quest VR headsets",
           "Meta’s Muse Charm might cost $300",
-          "Google is putting AI chats right on the homepage",
-          "FCC greenlights rule allowing prisons to jam cellphone signals",
-          "Sony’s WH-1000XM5 are cheaper than ever for Black Friday"
+          "Google is putting AI chats right on the homepage"
         ],
         "notable_headlines": [
+          {
+            "headline": "Apple is hiring engineers to build its own AI agent",
+            "why_it_matters": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg,…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "A brief history of Nvidia’s recent stock fluctuations",
+            "why_it_matters": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 pe…",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Meta now sells 3D movies on Quest VR headsets",
             "why_it_matters": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are available in Meta's TV app and include titles like Avatar, Spide…",
@@ -500,16 +513,6 @@
             "headline": "You can now buy a Steam Machine without getting on a waitlist",
             "why_it_matters": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon. The good news: You can now purchase …",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "Some creators are skeptical of Instagram’s new affiliate program",
-            "why_it_matters": "For years, influencers have come up with workarounds on social media to figure out how to share affiliate links with followers. A new integration between Instagram and Amazon was announced earlier this month as a way to …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Sonos is taking up to 30 percent off speakers and soundbars right now",
-            "why_it_matters": "Sonos speakers and soundbars aren&#8217;t exactly cheap, but thankfully the company&#8217;s Black Friday sale has already begun, making everything a little easier to afford through November 30th. Most notably, you can pi…",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -524,10 +527,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Apple is hiring engineers to build its own AI agent",
+            "A brief history of Nvidia’s recent stock fluctuations",
             "Meta now sells 3D movies on Quest VR headsets",
-            "Meta’s Muse Charm might cost $300",
-            "Google is putting AI chats right on the homepage",
-            "FCC greenlights rule allowing prisons to jam cellphone signals"
+            "Meta’s Muse Charm might cost $300"
           ],
           "confidence": "Medium"
         },
@@ -538,11 +541,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary meta",
+          "latest news summary apple",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Technology: Meta now sells 3D movies on Quest VR headsets\n\nTechnology Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#Right #Affiliate #Allowing #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: Apple is hiring engineers to build its own AI agent\n\nTechnology Sentiment: Mixed (+0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Agent #Allowing #Apple #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "sports": {
       "key": "sports",
@@ -736,11 +739,18 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.036,
-        "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.060, dampened ×0.6 → +0.0360). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": 0.0893,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.149, dampened ×0.6 → +0.0893). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Experimental compound burns fat without sacrificing muscle",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm",
+          "published": "Thu, 19 Nov 2026 19:19:49 EST",
+          "summary": "Researchers at UC Berkeley have identified a compound that could transform weight-loss treatment by helping the body burn more energy instead of suppressing appetite like Ozempic and Wegovy. In mice, the compound boosted energy expenditure by up to 18%, improved blood sugar control, reduced liver fat, and promoted weight loss without significant muscle loss. Even more promising, combining it with existing GLP-1 medications produced greater benefits than either treatment alone.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
           "url": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm",
@@ -817,26 +827,24 @@
           "published": "Wed, 18 Nov 2026 03:27:56 EST",
           "summary": "Scientists may have finally explained why up to more than a billion years of Earth's geological history are missing from rocks around the world. New research suggests that powerful currents deep inside the planet slowly raised and lowered entire continents, allowing erosion to erase vast stretches of geological history before they were buried and preserved.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "New discovery reveals what may be holding back room-temperature superconductors",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
-          "published": "Wed, 18 Nov 2026 07:16:46 EST",
-          "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, suggesting that a different obstacle may be preventing room-temperature superconductivity.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (0.036). Top story: Scientists tested 212 plant-based foods. Every single one contained fungal toxins.",
+        "key_takeaway": "Experimental compound burns fat without sacrificing muscle.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.089). Top story: Experimental compound burns fat without sacrificing muscle.",
         "key_themes": [
+          "Experimental compound burns fat without sacrificing muscle",
           "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
           "This 6-million-year-old whale may have had the most crooked face in mammal history",
           "Is free will an illusion? New brain research reveals a surprising twist",
-          "Why do farts smell so bad? The secret is brewing in your gut",
-          "Something strange is living beneath the skin of deep-sea pigs"
+          "Why do farts smell so bad? The secret is brewing in your gut"
         ],
         "notable_headlines": [
+          {
+            "headline": "Experimental compound burns fat without sacrificing muscle",
+            "why_it_matters": "Researchers at UC Berkeley have identified a compound that could transform weight-loss treatment by helping the body burn more energy instead of suppressing appetite like Ozempic and Wegovy. In mice, the compound boosted…",
+            "signal": "Unclear"
+          },
           {
             "headline": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
             "why_it_matters": "A new study has uncovered a surprising concern hiding in popular plant-based foods and drinks. Researchers tested 212 vegan and vegetarian products sold in the UK, including meat alternatives, oat milk, almond milk, and …",
@@ -871,11 +879,6 @@
             "headline": "This strange creature lived 309 million years ago, long before the dinosaurs",
             "why_it_matters": "More than 300 million years ago, long before dinosaurs roamed Earth, the Chicago area was a steamy, swampy landscape teeming with bizarre creatures. Now, scientists at the Field Museum have identified a previously unreco…",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Too much exercise could leave your brain stuck in overdrive",
-            "why_it_matters": "Exercising too much without adequate recovery may disrupt brain chemistry in surprising ways. Scientists found that mice subjected to prolonged, intense training had elevated dopamine levels in a brain region linked to m…",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -890,10 +893,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Experimental compound burns fat without sacrificing muscle",
             "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
             "This 6-million-year-old whale may have had the most crooked face in mammal history",
-            "Is free will an illusion? New brain research reveals a surprising twist",
-            "Why do farts smell so bad? The secret is brewing in your gut"
+            "Is free will an illusion? New brain research reveals a surprising twist"
           ],
           "confidence": "Medium"
         },
@@ -903,12 +906,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's neutral news headlines",
-          "latest news summary scientists",
+          "today's mixed news headlines",
+          "latest news summary experimental",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: Scientists tested 212 plant-based foods. Every single one contained fungal toxins\n\nScience Sentiment: Neutral (+0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Brain #Strange #Your #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: Experimental compound burns fat without sacrificing muscle\n\nScience Sentiment: Mixed (+0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Strange #6millionyearold #Before #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
