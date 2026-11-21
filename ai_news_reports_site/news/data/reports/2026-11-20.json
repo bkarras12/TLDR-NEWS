@@ -1,14 +1,14 @@
 {
   "date": "2026-11-20",
-  "generated_at_utc": "2026-11-20T21:39:02Z",
+  "generated_at_utc": "2026-11-21T03:53:37Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
     "trump",
     "deal",
-    "anthropic",
     "free",
-    "black"
+    "black",
+    "anthropic"
   ],
   "categories": {
     "world": {
@@ -20,11 +20,18 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1098,
+        "score": -0.2097,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.183, dampened ×0.6 → -0.1098). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.350, dampened ×0.6 → -0.2097). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Nov 2026 22:42:47 GMT",
+          "summary": "Pressures weighed on US markets, with the S&amp;P 500 and the Dow Jones Industrial Average pushed into correction territory.",
+          "source": "BBC News"
+        },
         {
           "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
           "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
@@ -35,15 +42,22 @@
         {
           "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
           "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 20 Nov 2026 16:54:29 GMT",
+          "published": "Sat, 21 Nov 2026 02:09:46 GMT",
           "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
           "source": "BBC News"
         },
         {
-          "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 20 Nov 2026 13:01:16 GMT",
-          "summary": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine.",
+          "title": "French police officers sentenced for beating of music producer Michel Zecler",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Nov 2026 22:37:09 GMT",
+          "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
+          "source": "BBC News"
+        },
+        {
+          "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+          "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Nov 2026 23:08:57 GMT",
+          "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
           "source": "BBC News"
         },
         {
@@ -54,10 +68,24 @@
           "source": "BBC News"
         },
         {
-          "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 20 Nov 2026 20:00:53 GMT",
-          "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+          "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Nov 2026 13:01:16 GMT",
+          "summary": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+          "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 21 Nov 2026 00:01:39 GMT",
+          "summary": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+          "published": "Fri, 20 Nov 2026 21:57:07 GMT",
+          "summary": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
           "source": "BBC News"
         },
         {
@@ -80,47 +108,24 @@
           "published": "Fri, 20 Nov 2026 15:55:16 GMT",
           "summary": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
           "source": "BBC News"
-        },
-        {
-          "title": "Texas death-row inmate screams as execution takes more than one hour",
-          "url": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 20 Nov 2026 12:42:37 GMT",
-          "summary": "This prolonged execution comes weeks after Christa Pike survived the lethal injection of the same drug.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Catherine Zeta-Jones' daughter says parents warned her about 'nepo baby' label",
-          "url": "https://www.bbc.co.uk/news/articles/cmgj35zvjyp9o?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 20 Nov 2026 15:55:02 GMT",
-          "summary": "Carys Douglas, 23, made her stage debut this year in Anton Chekhov's play, The Seagull, in the US.",
-          "source": "BBC News"
-        },
-        {
-          "title": "South Korea catches 111 students with new measures against exam cheating",
-          "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 20 Nov 2026 10:16:19 GMT",
-          "summary": "The students were caught with banned smart devices while taking the high-stakes Suneung exam.",
-          "source": "BBC News"
-        },
-        {
-          "title": "White House removes cyber-security chief after series of tech outages",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 20 Nov 2026 19:03:56 GMT",
-          "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "UK to explore even closer ties with EU after agreeing deal, says Burnham.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.110). Top story: UK to explore even closer ties with EU after agreeing deal, says Burnham.",
+        "key_takeaway": "Tech stock sell-off drags markets down as Anthropic shares slide.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.210). Top story: Tech stock sell-off drags markets down as Anthropic shares slide.",
         "key_themes": [
+          "Tech stock sell-off drags markets down as Anthropic shares slide",
           "UK to explore even closer ties with EU after agreeing deal, says Burnham",
           "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-          "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-          "Gérard Depardieu and French author investigated over sexual allegations",
-          "Anthropic shares fall after blockbuster opening as wider tech sell-off continues"
+          "French police officers sentenced for beating of music producer Michel Zecler",
+          "In a year of AI solving maths problems, Anthropic may have just solved the biggest"
         ],
         "notable_headlines": [
+          {
+            "headline": "Tech stock sell-off drags markets down as Anthropic shares slide",
+            "why_it_matters": "Pressures weighed on US markets, with the S&amp;P 500 and the Dow Jones Industrial Average pushed into correction territory.",
+            "signal": "Risk"
+          },
           {
             "headline": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
             "why_it_matters": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
@@ -132,8 +137,13 @@
             "signal": "Risk"
           },
           {
-            "headline": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-            "why_it_matters": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine.",
+            "headline": "French police officers sentenced for beating of music producer Michel Zecler",
+            "why_it_matters": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+            "why_it_matters": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
             "signal": "Risk"
           },
           {
@@ -142,23 +152,13 @@
             "signal": "Risk"
           },
           {
-            "headline": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-            "why_it_matters": "Other tech companies have also taken a hit as share markets broadly slump.",
+            "headline": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+            "why_it_matters": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine.",
             "signal": "Risk"
           },
           {
-            "headline": "Trump threatens ban on US firms building AI data centres overseas",
-            "why_it_matters": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-            "why_it_matters": "Nikhil Gupta pleaded guilty to murder-for-hire, conspiracy to commit murder-for-hire, and conspiracy to commit money laundering in February.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Nearly 600 women killed in South Africa within three months",
-            "why_it_matters": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
+            "headline": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+            "why_it_matters": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
             "signal": "Risk"
           }
         ],
@@ -174,10 +174,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Tech stock sell-off drags markets down as Anthropic shares slide",
             "UK to explore even closer ties with EU after agreeing deal, says Burnham",
             "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-            "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-            "Gérard Depardieu and French author investigated over sexual allegations"
+            "French police officers sentenced for beating of music producer Michel Zecler"
           ],
           "confidence": "Medium"
         },
@@ -188,11 +188,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary uk",
+          "latest news summary tech",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: UK to explore even closer ties with EU after agreeing deal, says Burnham\n\nWorld Sentiment: Mixed (-0.11)\n\nRead the full breakdown: https://tldrnews.info\n\n#Hits #19plus #Africa #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Tech stock sell-off drags markets down as Anthropic shares slide\n\nWorld Sentiment: Mixed (-0.21)\n\nRead the full breakdown: https://tldrnews.info\n\n#Anthropic #French #Hits #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -203,16 +203,16 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0452,
+        "score": -0.0459,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.075, dampened ×0.6 → -0.0452). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.077, dampened ×0.6 → -0.0459). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
+          "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
           "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-          "published": "Fri, 20 Nov 2026 16:26:07 GMT",
-          "summary": "<p>Nasdaq erases 2026 gains and Asian markets record worst week since 2020 as investors question huge sums being poured into AI buildout</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders\">Who are Anthropic’s seven co-founders, now worth $180bn?</a></p></li></ul><p>Anthropic’s shares fell at the start of its second day of trading, as its <a href=\"https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo\">record-breaking IPO<",
+          "published": "Fri, 20 Nov 2026 21:38:17 GMT",
+          "summary": "<p>The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders\">Who are Anthropic’s seven co-founders, now worth $180bn?</a></p></li></ul><p>As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it. On Friday, the Nasdaq Composite erased all its gains for 2026 and closed",
           "source": "The Guardian"
         },
         {
@@ -294,10 +294,10 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Anthropic shares slump on second day of trading as markets reel from AI sell-off.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.045). Top story: Anthropic shares slump on second day of trading as markets reel from AI sell-off.",
+        "key_takeaway": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.046). Top story: Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading.",
         "key_themes": [
-          "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
+          "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
           "What exactly is in the deal between the UK and the EU?",
           "These US fishers see offshore wind as a ‘godsend’. Trump wants to shut it down",
           "Labor leaders call on governments to stop awarding Amazon public contracts",
@@ -305,8 +305,8 @@
         ],
         "notable_headlines": [
           {
-            "headline": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-            "why_it_matters": "<p>Nasdaq erases 2026 gains and Asian markets record worst week since 2020 as investors question huge sums being poured into AI buildout</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/19/who-are-a…",
+            "headline": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+            "why_it_matters": "<p>The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/19/…",
             "signal": "Unclear"
           },
           {
@@ -357,7 +357,7 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
+            "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
             "What exactly is in the deal between the UK and the EU?",
             "These US fishers see offshore wind as a ‘godsend’. Trump wants to shut it down",
             "Labor leaders call on governments to stop awarding Amazon public contracts"
@@ -371,11 +371,11 @@
         ],
         "related_topics": [
           "today's neutral news headlines",
-          "latest news summary anthropic",
+          "latest news summary nasdaq",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Anthropic shares slump on second day of trading as markets reel from AI sell-off\n\nBusiness Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Judge #Lawsuit #Nvidia #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading\n\nBusiness Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Judge #Lawsuit #Nvidia #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -402,7 +402,7 @@
           "title": "Rockstar says GTA VI made $3.79 billion in its first day",
           "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
           "published": "2026-11-20T14:35:06-05:00",
-          "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million in pre-orders. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand [&#8230;]",
+          "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand [&#8230;]",
           "source": "The Verge"
         },
         {
@@ -480,7 +480,7 @@
           },
           {
             "headline": "Rockstar says GTA VI made $3.79 billion in its first day",
-            "why_it_matters": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million in pre-orders. \"It is…",
+            "why_it_matters": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It …",
             "signal": "Opportunity"
           },
           {
@@ -738,11 +738,25 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.1363,
+        "score": 0.1626,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.227, dampened ×0.6 → +0.1363). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.271, dampened ×0.6 → +0.1626). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
+          "published": "Fri, 20 Nov 2026 21:24:22 EST",
+          "summary": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the aging probe continues its historic journey through interstellar space, pushing the limits of human exploration despite dwindling power and technical challenges.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
+          "published": "Fri, 20 Nov 2026 21:11:14 EST",
+          "summary": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument could soon reveal Mercury's hidden chemical secrets and transform our understanding of how the solar system's smallest planet formed.",
+          "source": "ScienceDaily"
+        },
         {
           "title": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
           "url": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm",
@@ -812,33 +826,29 @@
           "published": "Thu, 19 Nov 2026 05:33:03 EST",
           "summary": "Scientists have discovered a strange bacterium hiding beneath the skin of deep-sea creatures known as sea pigs, revealing an unexpected biological partnership. The microbe has an unusually tiny genome, yet more than a quarter of its DNA is devoted to making surface proteins, some of them exceptionally large. Researchers suspect it depends heavily on its host for survival, but what the sea pigs gain in return remains a mystery.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Why hydrogen flames can glow orange, then turn nearly invisible",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261118065509.htm",
-          "published": "Thu, 19 Nov 2026 05:10:24 EST",
-          "summary": "Hydrogen flames can shift from bright orange to nearly invisible depending on something unexpected: tiny amounts of sodium floating in the air. Scientists say this discovery could help make future hydrogen-powered stoves and ovens safer by replacing visual flame detection with specialized sensors.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "This strange creature lived 309 million years ago, long before the dinosaurs",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261117033928.htm",
-          "published": "Wed, 18 Nov 2026 18:24:05 EST",
-          "summary": "More than 300 million years ago, long before dinosaurs roamed Earth, the Chicago area was a steamy, swampy landscape teeming with bizarre creatures. Now, scientists at the Field Museum have identified a previously unrecognized species of ancient amphibian ancestor, revealing new clues about the evolution of frogs and salamanders.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.136). Top story: Two massive stars may be secretly feeding the Milky Way’s supermassive black hole.",
+        "key_takeaway": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.163). Top story: NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it.",
         "key_themes": [
+          "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+          "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
           "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
           "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-          "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
-          "Experimental compound burns fat without sacrificing muscle",
-          "Scientists tested 212 plant-based foods. Every single one contained fungal toxins"
+          "Scientists turn Moon dust into LEGO-like bricks for future lunar bases"
         ],
         "notable_headlines": [
+          {
+            "headline": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+            "why_it_matters": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the a…",
+            "signal": "Opportunity"
+          },
+          {
+            "headline": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+            "why_it_matters": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument …",
+            "signal": "Opportunity"
+          },
           {
             "headline": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
             "why_it_matters": "Astronomers have traced mysterious gas clouds near the Milky Way's central supermassive black hole to a massive pair of stars whose colliding winds appear to create dense clumps of material. These clouds may eventually f…",
@@ -868,16 +878,6 @@
             "headline": "A 3-million-year-old child just made human evolution far more complicated",
             "why_it_matters": "A groundbreaking study of the 3-million-year-old Taung Child fossil suggests that several ancient human ancestors once thought to belong to the same species may actually represent different branches of our evolutionary f…",
             "signal": "Opportunity"
-          },
-          {
-            "headline": "This 6-million-year-old whale may have had the most crooked face in mammal history",
-            "why_it_matters": "A bizarre whale that lived roughly 6 million years ago had a face so dramatically crooked that scientists believe it may have been the most asymmetrical of any mammal. Discovered in Peru, the extinct pygmy sperm whale Sc…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Is free will an illusion? New brain research reveals a surprising twist",
-            "why_it_matters": "New research reveals that the brain makes free choices and forced decisions using surprisingly similar neural processes, with activity building toward a decision before we act. The discovery challenges assumptions about …",
-            "signal": "Opportunity"
           }
         ],
         "future_outlook": {
@@ -892,10 +892,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+            "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
             "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
-            "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-            "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
-            "Experimental compound burns fat without sacrificing muscle"
+            "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect"
           ],
           "confidence": "Medium"
         },
@@ -906,11 +906,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary two",
+          "latest news summary nasa’s",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: Two massive stars may be secretly feeding the Milky Way’s supermassive black hole\n\nScience Sentiment: Mixed (+0.14)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #3millionyearold #6millionyearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it\n\nScience Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Finally #3millionyearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
