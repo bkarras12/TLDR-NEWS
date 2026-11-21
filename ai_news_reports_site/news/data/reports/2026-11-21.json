@@ -1,13 +1,11 @@
 {
   "date": "2026-11-21",
-  "generated_at_utc": "2026-11-21T10:29:45Z",
+  "generated_at_utc": "2026-11-21T20:19:41Z",
   "timezone": "America/Denver",
   "model": "gpt-4o-mini",
   "trending_topics": [
-    "trump",
-    "deal",
-    "free",
-    "black",
+    "agree",
+    "finally",
     "anthropic"
   ],
   "categories": {
@@ -20,11 +18,25 @@
         "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
       },
       "sentiment": {
-        "score": -0.1787,
-        "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.298, dampened ×0.6 → -0.1787). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "score": -0.2966,
+        "label": "Negative",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.494, dampened ×0.6 → -0.2966). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 21 Nov 2026 13:17:38 GMT",
+          "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Russia-bound ship attacked in Gulf of Finland",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 21 Nov 2026 19:20:22 GMT",
+          "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+          "source": "BBC News"
+        },
         {
           "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
           "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
@@ -33,24 +45,24 @@
           "source": "BBC News"
         },
         {
-          "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-          "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 21 Nov 2026 08:10:25 GMT",
-          "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
-          "source": "BBC News"
-        },
-        {
           "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
           "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 21 Nov 2026 09:52:11 GMT",
+          "published": "Sat, 21 Nov 2026 19:33:49 GMT",
           "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
           "source": "BBC News"
         },
         {
           "title": "FBI reportedly investigating apparent hack of its criminal database",
           "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 21 Nov 2026 09:34:20 GMT",
+          "published": "Sat, 21 Nov 2026 16:35:15 GMT",
           "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+          "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 21 Nov 2026 13:15:21 GMT",
+          "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
           "source": "BBC News"
         },
         {
@@ -58,6 +70,13 @@
           "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
           "published": "Fri, 20 Nov 2026 22:37:09 GMT",
           "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
+          "source": "BBC News"
+        },
+        {
+          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+          "published": "Sat, 21 Nov 2026 10:26:36 GMT",
+          "summary": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
           "source": "BBC News"
         },
         {
@@ -75,7 +94,7 @@
           "source": "BBC News"
         },
         {
-          "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+          "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
           "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
           "published": "Fri, 20 Nov 2026 23:08:57 GMT",
           "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
@@ -87,48 +106,32 @@
           "published": "Sat, 21 Nov 2026 00:01:39 GMT",
           "summary": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
           "source": "BBC News"
-        },
-        {
-          "title": "Trafalgar Square Christmas tree felled in Norway",
-          "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 21 Nov 2026 08:10:03 GMT",
-          "summary": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-          "published": "Sat, 21 Nov 2026 10:26:36 GMT",
-          "summary": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
-          "source": "BBC News"
-        },
-        {
-          "title": "Trump threatens ban on US firms building AI data centres overseas",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-          "published": "Fri, 20 Nov 2026 20:54:12 GMT",
-          "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
-          "source": "BBC News"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Tech stock sell-off drags markets down as Anthropic shares slide.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.179). Top story: Tech stock sell-off drags markets down as Anthropic shares slide.",
+        "key_takeaway": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is negative (-0.297). Top story: Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting.",
         "key_themes": [
+          "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+          "Russia-bound ship attacked in Gulf of Finland",
           "Tech stock sell-off drags markets down as Anthropic shares slide",
-          "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
           "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-          "FBI reportedly investigating apparent hack of its criminal database",
-          "French police officers sentenced for beating of music producer Michel Zecler"
+          "FBI reportedly investigating apparent hack of its criminal database"
         ],
         "notable_headlines": [
           {
-            "headline": "Tech stock sell-off drags markets down as Anthropic shares slide",
-            "why_it_matters": "Pressures weighed on US markets, with the S&amp;P 500 and the Dow Jones Industrial Average pushed into correction territory.",
+            "headline": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+            "why_it_matters": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
             "signal": "Risk"
           },
           {
-            "headline": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-            "why_it_matters": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
+            "headline": "Russia-bound ship attacked in Gulf of Finland",
+            "why_it_matters": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+            "signal": "Risk"
+          },
+          {
+            "headline": "Tech stock sell-off drags markets down as Anthropic shares slide",
+            "why_it_matters": "Pressures weighed on US markets, with the S&amp;P 500 and the Dow Jones Industrial Average pushed into correction territory.",
             "signal": "Risk"
           },
           {
@@ -142,23 +145,18 @@
             "signal": "Risk"
           },
           {
+            "headline": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+            "why_it_matters": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+            "signal": "Risk"
+          },
+          {
             "headline": "French police officers sentenced for beating of music producer Michel Zecler",
             "why_it_matters": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
             "signal": "Risk"
           },
           {
-            "headline": "Man convicted of starting Palisades fire in Los Angeles",
-            "why_it_matters": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "Deal with EU not dependent on tuition fees agreement, Miliband says",
-            "why_it_matters": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
-            "signal": "Risk"
-          },
-          {
-            "headline": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
-            "why_it_matters": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+            "headline": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+            "why_it_matters": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
             "signal": "Risk"
           }
         ],
@@ -174,10 +172,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+            "Russia-bound ship attacked in Gulf of Finland",
             "Tech stock sell-off drags markets down as Anthropic shares slide",
-            "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-            "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-            "FBI reportedly investigating apparent hack of its criminal database"
+            "Fight over fossil fuels leaves COP31 climate talks in deadlock"
           ],
           "confidence": "Medium"
         },
@@ -187,12 +185,12 @@
           "OpenAI generation failed (RateLimitError). Used deterministic fallback."
         ],
         "related_topics": [
-          "today's mixed news headlines",
-          "latest news summary tech",
+          "today's negative news headlines",
+          "latest news summary zelensky",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "World: Tech stock sell-off drags markets down as Anthropic shares slide\n\nWorld Sentiment: Mixed (-0.18)\n\nRead the full breakdown: https://tldrnews.info\n\n#Anthropic #Agreement #Angeles #WorldNews #BreakingNews #News #Headlines #Trending"
+      "tweet_text": "World: Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting\n\nWorld Sentiment: Negative (-0.30)\n\nRead the full breakdown: https://tldrnews.info\n\n#Accuses #Anthropic #Apparent #WorldNews #BreakingNews #News #Headlines #Trending"
     },
     "business": {
       "key": "business",
@@ -203,11 +201,18 @@
         "feed_url": "https://www.theguardian.com/business/rss"
       },
       "sentiment": {
-        "score": -0.0459,
+        "score": -0.0359,
         "label": "Neutral",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.077, dampened ×0.6 → -0.0459). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.060, dampened ×0.6 → -0.0359). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
+        {
+          "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+          "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
+          "published": "Sat, 21 Nov 2026 13:00:01 GMT",
+          "summary": "<p>‘Poster child of AI bubble’ CoreWeave symbolises increasingly risky business model of datacentre buildout</p><p>The Egyptians had pyramids. The Roman empire had roads. The early 21st-century tech bros have massive buildings full of expensive glass and metal blocks providing the substratum for a powerful inhuman intelligence.</p><p>Building all those datacentres is taking a while, locals everywhere are angry about them and it is unclear whether the inhuman intelligence inside them is actually",
+          "source": "The Guardian"
+        },
         {
           "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
           "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
@@ -220,6 +225,13 @@
           "url": "https://www.theguardian.com/politics/2026/nov/20/what-is-in-deal-between-uk-eu-explainer",
           "published": "Fri, 20 Nov 2026 18:19:53 GMT",
           "summary": "<p>The two sides have come to agreements on food and drink, emissions trading and the youth exchange scheme</p><ul><li><p><a href=\"https://www.theguardian.com/politics/2026/nov/20/fallout-over-tuition-fees-may-snag-burnhams-eu-deal-say-insiders\">Burnham has agreed EU reset deal with tuition fees issue unresolved, says No 10</a></p></li></ul><p>After months of on-off negotiations, leaks and late nights, the EU and UK have agreed <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/state",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+          "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation",
+          "published": "Fri, 20 Nov 2026 23:42:43 GMT",
+          "summary": "<p>German company faced 65,000 claims from people who said they developed cancer after using weedkiller</p><p>A <a href=\"https://www.theguardian.com/us-news/missouri\">Missouri</a> judge on Friday approved <a href=\"https://www.theguardian.com/business/bayer\">Bayer</a>’s $7.25bn settlement of lawsuits ⁠alleging that its weedkiller ​Roundup causes cancer, potentially resolving litigation that has weighed on the German company for close to a decade.</p><p>Judge Timothy Boyer of a state court in St L",
           "source": "The Guardian"
         },
         {
@@ -258,20 +270,6 @@
           "source": "The Guardian"
         },
         {
-          "title": "Judge extends deadline for Trump’s deposition in $10bn BBC lawsuit",
-          "url": "https://www.theguardian.com/us-news/2026/nov/17/trump-bbc-deposition-delay",
-          "published": "Tue, 17 Nov 2026 21:45:58 GMT",
-          "summary": "<p>President, who had agreed to sit for deposition in October but backed out, must now appear by 22 January</p><p>Donald Trump has been granted a temporary delay before he must give a witness statement in his $10bn defamation lawsuit against the BBC.</p><p>In late October, <a href=\"https://www.theguardian.com/us-news/2026/oct/22/trump-bbc-lawsuit-deposition-discovery\">Enjoliqué Lett, a federal magistrate judge, gave Trump a firm 11 December deadline</a> to sit for a deposition by lawyers represe",
-          "source": "The Guardian"
-        },
-        {
-          "title": "Deutsche Bank dismissed warnings about dealings with risky clients, reports claim",
-          "url": "https://www.theguardian.com/business/2026/nov/17/deutsche-bank-dimissed-warnings-risky-clients-reports-claim",
-          "published": "Tue, 17 Nov 2026 13:35:39 GMT",
-          "summary": "<p>International investigation using trove of leaked internal data allegedly shows German bank overlooked compliance concerns to safeguard profits</p><p>Deutsche Bank reportedly dismissed warnings about its dealings with risky clients, including high-profile Russian oligarchs, to protect profits, the findings of an investigation into a trove of leaked bank documents indicate.</p><p>A leak of 15m internal files is reported to show that the troubled German bank repeatedly ignored concerns by its c",
-          "source": "The Guardian"
-        },
-        {
           "title": "What impact has Brexit had on the UK and EU economies?",
           "url": "https://www.theguardian.com/business/2026/nov/20/what-impact-brexit-uk-eu-economies",
           "published": "Fri, 20 Nov 2026 07:00:26 GMT",
@@ -294,16 +292,21 @@
         }
       ],
       "ai_report": {
-        "key_takeaway": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.046). Top story: Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading.",
+        "key_takeaway": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is neutral (-0.036). Top story: ‘Little room for error’: what a debt-laden cloud computing company says about the AI boom.",
         "key_themes": [
+          "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
           "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
           "What exactly is in the deal between the UK and the EU?",
-          "These US fishers see offshore wind as a ‘godsend’. Trump wants to shut it down",
-          "Labor leaders call on governments to stop awarding Amazon public contracts",
-          "US ⁠judge allows Trump’s $15bn lawsuit against New York Times to proceed"
+          "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+          "These US fishers see offshore wind as a ‘godsend’. Trump wants to shut it down"
         ],
         "notable_headlines": [
+          {
+            "headline": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+            "why_it_matters": "<p>‘Poster child of AI bubble’ CoreWeave symbolises increasingly risky business model of datacentre buildout</p><p>The Egyptians had pyramids. The Roman empire had roads. The early 21st-century tech bros have massive bui…",
+            "signal": "Unclear"
+          },
           {
             "headline": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
             "why_it_matters": "<p>The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/19/…",
@@ -312,6 +315,11 @@
           {
             "headline": "What exactly is in the deal between the UK and the EU?",
             "why_it_matters": "<p>The two sides have come to agreements on food and drink, emissions trading and the youth exchange scheme</p><ul><li><p><a href=\"https://www.theguardian.com/politics/2026/nov/20/fallout-over-tuition-fees-may-snag-burnh…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+            "why_it_matters": "<p>German company faced 65,000 claims from people who said they developed cancer after using weedkiller</p><p>A <a href=\"https://www.theguardian.com/us-news/missouri\">Missouri</a> judge on Friday approved <a href=\"https:…",
             "signal": "Unclear"
           },
           {
@@ -333,16 +341,6 @@
             "headline": "Democrats demand answers from Howard Lutnick about Nvidia and his family’s business",
             "why_it_matters": "<p>Democratic lawmakers ask if commerce secretary favored Nvidia to enrich his adult children and Cantor Fitzgerald</p><p>The US commerce secretary, Howard Lutnick, faces mounting questions over his handling of the <a hr…",
             "signal": "Unclear"
-          },
-          {
-            "headline": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
-            "why_it_matters": "<p>Company issues first earnings report after ouster of CEO over allegations of affair with suspected Chinese spy</p><p>Nvidia “does not intend to reinstate Jensen as CEO”, the chairman of the company’s board said Tuesda…",
-            "signal": "Unclear"
-          },
-          {
-            "headline": "Judge extends deadline for Trump’s deposition in $10bn BBC lawsuit",
-            "why_it_matters": "<p>President, who had agreed to sit for deposition in October but backed out, must now appear by 22 January</p><p>Donald Trump has been granted a temporary delay before he must give a witness statement in his $10bn defam…",
-            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -357,10 +355,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
             "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
             "What exactly is in the deal between the UK and the EU?",
-            "These US fishers see offshore wind as a ‘godsend’. Trump wants to shut it down",
-            "Labor leaders call on governments to stop awarding Amazon public contracts"
+            "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer"
           ],
           "confidence": "Medium"
         },
@@ -371,11 +369,11 @@
         ],
         "related_topics": [
           "today's neutral news headlines",
-          "latest news summary nasdaq",
+          "latest news summary ‘little",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Business: Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading\n\nBusiness Sentiment: Neutral (-0.05)\n\nRead the full breakdown: https://tldrnews.info\n\n#Judge #Lawsuit #Nvidia #Business #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Business: ‘Little room for error’: what a debt-laden cloud computing company says about the AI boom\n\nBusiness Sentiment: Neutral (-0.04)\n\nRead the full breakdown: https://tldrnews.info\n\n#Judge #15bn #2026 #Business #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "technology": {
       "key": "technology",
@@ -386,314 +384,131 @@
         "feed_url": "https://www.theverge.com/rss/index.xml"
       },
       "sentiment": {
-        "score": 0.2896,
-        "label": "Positive",
-        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.483, dampened ×0.6 → +0.2896). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
-      },
-      "items": [
-        {
-          "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-          "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
-          "published": "2026-11-20T15:43:52-05:00",
-          "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-          "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
-          "published": "2026-11-20T14:35:06-05:00",
-          "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-          "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
-          "published": "2026-11-20T14:15:00-05:00",
-          "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy&#8217;s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-          "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-          "published": "2026-11-20T13:50:19-05:00",
-          "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Multiplying your Switch 2’s storage costs less than usual right now",
-          "url": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
-          "published": "2026-11-20T13:15:00-05:00",
-          "summary": "Expanding your Nintendo Switch 2’s 256GB of built-in storage with a microSD card is pricier than it was with Nintendo’s original console. That’s because microSD Express cards, while physically identical to ones you might have lying around, have faster read and write speeds. Thankfully, Samsung’s 256GB model has dropped to $44.99 at Amazon ahead of [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
-          "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
-          "published": "2026-11-20T13:00:00-05:00",
-          "summary": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and retire Google Assistant on its smart home devices. The Nest app shutdown takes place on January 25th, 2027, meaning you'll have to manage your Nest [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Here are the Apple deals actually worth picking up ahead of Black Friday",
-          "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
-          "published": "2026-11-20T12:33:59-05:00",
-          "summary": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks and other Apple devices even more expensive. Fortunately, Black Friday offers a chance to [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Teenage Engineering’s first CD player puts the spinning disc on display",
-          "url": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
-          "published": "2026-11-20T12:05:52-05:00",
-          "summary": "Teenage Engineering announced what it describes as \"a modern take on a classic CD player\" with its new EP/BC-1 featuring a slab-like design that leaves the spinning disc exposed instead of hiding it under a lid or inside a slide-out tray. The company says the EP/BC-1 is the first entry in its new broadcast series [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-          "published": "2026-11-20T11:34:13-05:00",
-          "summary": "Anthropic mathematician Levent Alp&#246;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [&#8230;]",
-          "source": "The Verge"
-        },
-        {
-          "title": "Boys Noize turns to the club (and an obscure Italian synth) for inspiration on 7LLVSION",
-          "url": "https://www.theverge.com/entertainment/1038444/boys-noize-7llvsion-interview",
-          "published": "2026-11-20T11:22:15-05:00",
-          "summary": "If you're wondering how Alex Ridha's (aka Boys Noize) collaboration with Nine Inch Nails influenced his new record 7LLVSION, the answer is simple: It didn't. That's not to say Ridha didn't learn anything from the virtuosic production team of Trent Reznor and Atticus Ross, but most of the songs on 7LLVSION had been knocking around [&#8230;]",
-          "source": "The Verge"
-        }
-      ],
-      "ai_report": {
-        "key_takeaway": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion.",
-        "summary": "10 headlines were curated for this category. Overall sentiment is positive (0.290). Top story: YouTube is reportedly preparing to settle social media addiction claims for $3 billion.",
-        "key_themes": [
-          "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-          "Rockstar says GTA VI made $3.79 billion in its first day",
-          "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-          "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-          "Multiplying your Switch 2’s storage costs less than usual right now"
-        ],
-        "notable_headlines": [
-          {
-            "headline": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-            "why_it_matters": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"i…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Rockstar says GTA VI made $3.79 billion in its first day",
-            "why_it_matters": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-            "why_it_matters": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy&#8217;s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-            "why_it_matters": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Multiplying your Switch 2’s storage costs less than usual right now",
-            "why_it_matters": "Expanding your Nintendo Switch 2’s 256GB of built-in storage with a microSD card is pricier than it was with Nintendo’s original console. That’s because microSD Express cards, while physically identical to ones you might…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Google says it’s going to shut off Google Assistant on smart speakers next year",
-            "why_it_matters": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and retire Google Assistant on its smart home devices.…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Here are the Apple deals actually worth picking up ahead of Black Friday",
-            "why_it_matters": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks a…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Teenage Engineering’s first CD player puts the spinning disc on display",
-            "why_it_matters": "Teenage Engineering announced what it describes as \"a modern take on a classic CD player\" with its new EP/BC-1 featuring a slab-like design that leaves the spinning disc exposed instead of hiding it under a lid or inside…",
-            "signal": "Opportunity"
-          }
-        ],
-        "future_outlook": {
-          "next_24_72_hours": [
-            "Track updates to the leading stories listed above.",
-            "Watch for clarifications or official responses in follow-up coverage.",
-            "Expect sentiment to move as new details emerge."
-          ],
-          "next_1_4_weeks": [
-            "Some stories may transition from breaking news to policy or market impact.",
-            "Recurring themes in the feed will indicate sustained momentum.",
-            "Cross-category spillover effects may become clearer with additional reporting."
-          ],
-          "watch_list": [
-            "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-            "Rockstar says GTA VI made $3.79 billion in its first day",
-            "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-            "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US"
-          ],
-          "confidence": "Medium"
-        },
-        "caveats": [
-          "This fallback report is generated from RSS headlines and summaries only.",
-          "Verify key details by opening the source links in the headlines list.",
-          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
-        ],
-        "related_topics": [
-          "today's positive news headlines",
-          "latest news summary youtube",
-          "daily news briefing and analysis"
-        ]
-      },
-      "tweet_text": "Technology: YouTube is reportedly preparing to settle social media addiction claims for $3 billion\n\nTechnology Sentiment: Positive (+0.29)\n\nRead the full breakdown: https://tldrnews.info\n\n#Ahead #Billion #Black #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
-    },
-    "sports": {
-      "key": "sports",
-      "title": "Sports",
-      "source": {
-        "site_name": "ESPN",
-        "site_url": "https://www.espn.com",
-        "feed_url": "https://www.espn.com/espn/rss/news"
-      },
-      "sentiment": {
-        "score": 0.194,
+        "score": 0.219,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.323, dampened ×0.6 → +0.1940). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 10 per-headline sentiment scores (raw avg +0.365, dampened ×0.6 → +0.2190). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
-          "title": "Luis scores 11 in LSU debut; Wade says, 'Everyone we played tonight was eligible'",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50525838/rj-luis-jr-not-lsu-starting-lineup-game-vs-ul-monroe",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "RJ Luis Jr. came off the bench and played 15 minutes in Wednesday night's game against UL Monroe, a move that promises to intensify the showdown between the university and SEC.",
-          "source": "ESPN"
+          "title": "The UN fails to agree on rules regulating ‘killer robots’",
+          "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+          "published": "2026-11-21T15:03:37-05:00",
+          "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "Giannis, Bam put Bucks drama aside, 'on to the next thing' after Heat win",
-          "url": "https://www.espn.com/nba/story/_/id/50528238/giannis-bam-adebayo-put-drama-aside-heat-hold-bucks",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "Heat star Giannis Antetokounmpo said Wednesday night's win over the Bucks was like any other night, while Bam Adebayo said he has moved past his issues with Tyler Herro.",
-          "source": "ESPN"
+          "title": "The FBI and USDA were reportedly hacked",
+          "url": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+          "published": "2026-11-21T12:42:27-05:00",
+          "summary": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state, and local law [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "Georgia AG encourages SEC to take 'action' vs. LSU, 'including expulsion'",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50524054/georgia-ag-asks-sec-take-action-vs-lsu-expulsion",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "The Georgia Attorney General blasted LSU in a letter to SEC commissioner Greg Sankey, encouraging sanctions against the Tigers, \"up to and including expulsion.\"",
-          "source": "ESPN"
+          "title": "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
+          "url": "https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview",
+          "published": "2026-11-21T11:00:00-05:00",
+          "summary": "You probably know John Roberts best as the voice of Linda Belcher on Bob's Burgers. The show just wrapped up its 16th season and shows no signs of slowing down anytime soon. The show remains a reliable source of laughs, top-notch puns, and frankly wholesome fun. Comedy is just part of Roberts' life, however. In [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "Redick cites fatigue as Luka's shot goes cold, Lakers' win streak ends at 9",
-          "url": "https://www.espn.com/nba/story/_/id/50529118/luka-doncic-struggles-jazz-end-lakers-winning-streak-9",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "Luka Doncic said his performance in Wednesday's loss to Utah, in which he shot 10-of-28 and had nine turnovers, was \"unacceptable\" as the Lakers' win streak ended at nine.",
-          "source": "ESPN"
+          "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+          "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+          "published": "2026-11-21T11:00:00-05:00",
+          "summary": "Amazon only announced its first digital photo frame less than a month ago, but it&#8217;s already getting a sizable discount for Black Friday. You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114 ($115 off), making it a great holiday gift for anyone who loves displaying family photos. If [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "'I love the clutch': 76ers rally, improve to 11-0 in tight games",
-          "url": "https://www.espn.com/nba/story/_/id/50528417/76ers-rally-vs-magic-improve-11-0-clutch-games",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "The 76ers improved to 11-0 in clutch games after overcoming a 17-point deficit to beat the Magic on Wednesday night.",
-          "source": "ESPN"
+          "title": "Can Anthropic afford to put safety first?",
+          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "published": "2026-11-21T10:00:00-05:00",
+          "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "Houston takes down No. 1 Florida, but Sampson says no celebrating in November",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50525586/houston-stuns-florida-kelvin-sampson-keeps-win-perspective",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "Houston coach Kelvin Sampson isn't overreacting to November basketball, not even after his No. 8 Cougars toppled top-ranked Florida 86-76 on Wednesday night.",
-          "source": "ESPN"
+          "title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
+          "url": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
+          "published": "2026-11-21T09:55:28-05:00",
+          "summary": "If you’re looking for a new pair of earbuds, the Soundcore Liberty 5 Pro are on sale for $129.99 at Amazon, Best Buy, and Walmart right now. That’s the lowest price we’ve seen for Anker’s excellent wireless earbuds, which normally retail for $169.99 and come in four colors (black, white, blue, and pink) all of [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "Manfred says MLB owners won't OK deal without cap as lockout looms",
-          "url": "https://www.espn.com/mlb/story/_/id/50523785/rob-manfred-says-mlb-owners-compromise-salary-cap",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "Commissioner Rob Manfred said owners will not accept any deal without a salary cap, leaving MLB on track for a lockout that could threaten the 2027 season.",
-          "source": "ESPN"
+          "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+          "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+          "published": "2026-11-21T09:00:00-05:00",
+          "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "CB Humphrey apologizes for 'criminals' quip about Baltimore; mayor responds",
-          "url": "https://www.espn.com/nfl/story/_/id/50524109/ravens-humphrey-apologizes-criminals-quip-podcast",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "Ravens cornerback Marlon Humphrey apologized Wednesday for the derogatory comment he recently made about Baltimore on his podcast.",
-          "source": "ESPN"
+          "title": "The Xiaomi 18 Pro proves two screens aren’t better than one",
+          "url": "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review",
+          "published": "2026-11-21T08:00:00-05:00",
+          "summary": "Xiaomi introduced a second screen to its flagship phones with last year's 17 Pros, but didn't release them outside China. That means the new 18 Pro and Pro Max are the first chance I've had to find out if a screen on the back of a phone is any more useful now than it was [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "🔥 Heat unveil 'A Night in Vice City' court ahead of GTA VI release",
-          "url": "https://www.espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game",
-          "published": "Thu, 19 Nov 2026 02:51:38 EST",
-          "summary": "With Grand Theft Auto VI's long-awaited release date Thursday, the Heat are partnering with Rockstar Games to offer a topical lead-up event the night before.",
-          "source": "ESPN"
+          "title": "The game of the year is finally here",
+          "url": "https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer",
+          "published": "2026-11-21T08:00:00-05:00",
+          "summary": "Hi, friends! Welcome to Installer No. 153, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for tearing yourself away from GTA to be here, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about nuclear radiation [&#8230;]",
+          "source": "The Verge"
         },
         {
-          "title": "Passan's MLB offseason preview: Latest intel on top free agents, where Skubal will sign",
-          "url": "https://www.espn.com/mlb/story/_/id/50512111/passan-offseason-preview-2026-27-free-agent-updates",
-          "published": "Wed, 18 Nov 2026 19:17:54 EST",
-          "summary": "The hot stove is about to get blazing hot. Here's what will shape the coming weeks of offseason moves.",
-          "source": "ESPN"
-        },
-        {
-          "title": "MLB free agency tracker: 2026-27 offseason trades, moves",
-          "url": "https://www.espn.com/mlb/story/_/id/50328768/free-agency-tracker-offseason-trades-moves-2026-2027",
-          "published": "Wed, 18 Nov 2026 19:17:54 EST",
-          "summary": "We've got you covered on all the major MLB hot stove signings and trades.",
-          "source": "ESPN"
-        },
-        {
-          "title": "NBA Power Rankings: One wild stat for all 30 teams",
-          "url": "https://www.espn.com/nba/story/_/id/50513109/nba-power-rankings-wild-stats-spurs-lakers",
-          "published": "Wed, 18 Nov 2026 19:56:17 EST",
-          "summary": "Here's where all 30 teams rank this week -- along with one remarkable stat that has fueled each franchise through one month of the season.",
-          "source": "ESPN"
+          "title": "Harbinger is building the unsexy EVs that keep the economy moving",
+          "url": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+          "published": "2026-11-21T07:00:00-05:00",
+          "summary": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round, capping a banner stretch that includes a $300 million order from FedEx and a new defense contract with the US military. Harbinger is stacking up [&#8230;]",
+          "source": "The Verge"
         }
       ],
       "ai_report": {
-        "key_takeaway": "Luis scores 11 in LSU debut; Wade says, 'Everyone we played tonight was eligible'.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.194). Top story: Luis scores 11 in LSU debut; Wade says, 'Everyone we played tonight was eligible'.",
+        "key_takeaway": "The UN fails to agree on rules regulating ‘killer robots’.",
+        "summary": "10 headlines were curated for this category. Overall sentiment is mixed (0.219). Top story: The UN fails to agree on rules regulating ‘killer robots’.",
         "key_themes": [
-          "Luis scores 11 in LSU debut; Wade says, 'Everyone we played tonight was eligible'",
-          "Giannis, Bam put Bucks drama aside, 'on to the next thing' after Heat win",
-          "Georgia AG encourages SEC to take 'action' vs. LSU, 'including expulsion'",
-          "Redick cites fatigue as Luka's shot goes cold, Lakers' win streak ends at 9",
-          "'I love the clutch': 76ers rally, improve to 11-0 in tight games"
+          "The UN fails to agree on rules regulating ‘killer robots’",
+          "The FBI and USDA were reportedly hacked",
+          "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
+          "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+          "Can Anthropic afford to put safety first?"
         ],
         "notable_headlines": [
           {
-            "headline": "Luis scores 11 in LSU debut; Wade says, 'Everyone we played tonight was eligible'",
-            "why_it_matters": "RJ Luis Jr. came off the bench and played 15 minutes in Wednesday night's game against UL Monroe, a move that promises to intensify the showdown between the university and SEC.",
+            "headline": "The UN fails to agree on rules regulating ‘killer robots’",
+            "why_it_matters": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings a…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Giannis, Bam put Bucks drama aside, 'on to the next thing' after Heat win",
-            "why_it_matters": "Heat star Giannis Antetokounmpo said Wednesday night's win over the Bucks was like any other night, while Bam Adebayo said he has moved past his issues with Tyler Herro.",
+            "headline": "The FBI and USDA were reportedly hacked",
+            "why_it_matters": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this ti…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Georgia AG encourages SEC to take 'action' vs. LSU, 'including expulsion'",
-            "why_it_matters": "The Georgia Attorney General blasted LSU in a letter to SEC commissioner Greg Sankey, encouraging sanctions against the Tigers, \"up to and including expulsion.\"",
+            "headline": "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
+            "why_it_matters": "You probably know John Roberts best as the voice of Linda Belcher on Bob's Burgers. The show just wrapped up its 16th season and shows no signs of slowing down anytime soon. The show remains a reliable source of laughs, …",
             "signal": "Opportunity"
           },
           {
-            "headline": "Redick cites fatigue as Luka's shot goes cold, Lakers' win streak ends at 9",
-            "why_it_matters": "Luka Doncic said his performance in Wednesday's loss to Utah, in which he shot 10-of-28 and had nine turnovers, was \"unacceptable\" as the Lakers' win streak ended at nine.",
+            "headline": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+            "why_it_matters": "Amazon only announced its first digital photo frame less than a month ago, but it&#8217;s already getting a sizable discount for Black Friday. You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting …",
             "signal": "Opportunity"
           },
           {
-            "headline": "'I love the clutch': 76ers rally, improve to 11-0 in tight games",
-            "why_it_matters": "The 76ers improved to 11-0 in clutch games after overcoming a 17-point deficit to beat the Magic on Wednesday night.",
+            "headline": "Can Anthropic afford to put safety first?",
+            "why_it_matters": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last T…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Houston takes down No. 1 Florida, but Sampson says no celebrating in November",
-            "why_it_matters": "Houston coach Kelvin Sampson isn't overreacting to November basketball, not even after his No. 8 Cougars toppled top-ranked Florida 86-76 on Wednesday night.",
+            "headline": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
+            "why_it_matters": "If you’re looking for a new pair of earbuds, the Soundcore Liberty 5 Pro are on sale for $129.99 at Amazon, Best Buy, and Walmart right now. That’s the lowest price we’ve seen for Anker’s excellent wireless earbuds, whic…",
             "signal": "Opportunity"
           },
           {
-            "headline": "Manfred says MLB owners won't OK deal without cap as lockout looms",
-            "why_it_matters": "Commissioner Rob Manfred said owners will not accept any deal without a salary cap, leaving MLB on track for a lockout that could threaten the 2027 season.",
+            "headline": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+            "why_it_matters": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, …",
             "signal": "Opportunity"
           },
           {
-            "headline": "CB Humphrey apologizes for 'criminals' quip about Baltimore; mayor responds",
-            "why_it_matters": "Ravens cornerback Marlon Humphrey apologized Wednesday for the derogatory comment he recently made about Baltimore on his podcast.",
+            "headline": "The Xiaomi 18 Pro proves two screens aren’t better than one",
+            "why_it_matters": "Xiaomi introduced a second screen to its flagship phones with last year's 17 Pros, but didn't release them outside China. That means the new 18 Pro and Pro Max are the first chance I've had to find out if a screen on the…",
             "signal": "Opportunity"
           }
         ],
@@ -709,10 +524,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
-            "Luis scores 11 in LSU debut; Wade says, 'Everyone we played tonight was eligible'",
-            "Giannis, Bam put Bucks drama aside, 'on to the next thing' after Heat win",
-            "Georgia AG encourages SEC to take 'action' vs. LSU, 'including expulsion'",
-            "Redick cites fatigue as Luka's shot goes cold, Lakers' win streak ends at 9"
+            "The UN fails to agree on rules regulating ‘killer robots’",
+            "The FBI and USDA were reportedly hacked",
+            "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
+            "Amazon’s first digital photo frame is up to 50 percent off for Black Friday"
           ],
           "confidence": "Medium"
         },
@@ -723,11 +538,194 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary luis",
+          "latest news summary the",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Sports: Luis scores 11 in LSU debut; Wade says, 'Everyone we played tonight was eligible'\n\nSports Sentiment: Mixed (+0.19)\n\nRead the full breakdown: https://tldrnews.info\n\n#76ers #Action #Apologizes #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Technology: The UN fails to agree on rules regulating ‘killer robots’\n\nTechnology Sentiment: Mixed (+0.22)\n\nRead the full breakdown: https://tldrnews.info\n\n#Afford #Agree #Amazons #Tech #BreakingNews #News #WorldNews #Headlines #Trending"
+    },
+    "sports": {
+      "key": "sports",
+      "title": "Sports",
+      "source": {
+        "site_name": "ESPN",
+        "site_url": "https://www.espn.com",
+        "feed_url": "https://www.espn.com/espn/rss/news"
+      },
+      "sentiment": {
+        "score": -0.0905,
+        "label": "Mixed",
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg -0.151, dampened ×0.6 → -0.0905). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+      },
+      "items": [
+        {
+          "title": "Titans DL Harrell hospitalized after car accident in Tampa",
+          "url": "https://www.espn.com/nfl/story/_/id/50551434/titans-dl-jaylen-harrell-hospitalized-car-accident-tampa",
+          "published": "Sat, 21 Nov 2026 14:09:20 EST",
+          "summary": "Titans defensive lineman Jaylen Harrell was involved in a serious car accident Friday and remains hospitalized, according to the team.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Michigan expected to start QB Underwood; Marsh not playing after charge",
+          "url": "https://www.espn.com/college-football/story/_/id/50549879/sources-michigan-expected-start-bryce-underwood-vs-ucla",
+          "published": "Sat, 21 Nov 2026 14:09:20 EST",
+          "summary": "Michigan is returning to QB Bryce Underwood vs. No. 4 UCLA after Tommy Carr had started the past four games, sources told ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Mets, CF Ewing agree on 8-year, $95M extension, sources say",
+          "url": "https://www.espn.com/mlb/story/_/id/50552088/mets-aj-ewing-reach-8-year-95m-extension-sources-say",
+          "published": "Sat, 21 Nov 2026 14:09:20 EST",
+          "summary": "The Mets and 22-year-old center fielder A.J. Ewing have agreed to an eight-year, $95 million contract extension, sources confirmed to ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Sources: Struggling Aggies expected to bench Reed, start Hart vs. Sooners",
+          "url": "https://www.espn.com/college-football/story/_/id/50549670/sources-texas-expected-bench-marcel-reed-vs-sooners",
+          "published": "Sat, 21 Nov 2026 14:09:20 EST",
+          "summary": "Texas A&amp;M is expected to make a change at quarterback, going with sophomore Brady Hart over Marcel Reed against Oklahoma, sources confirmed to ESPN.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Melo calls out Humphrey for Baltimore remark: Back your apology with action",
+          "url": "https://www.espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
+          "published": "Sat, 21 Nov 2026 15:01:22 EST",
+          "summary": "Former NBA star Carmelo Anthony challenged Ravens cornerback Marlon Humphrey to do more than apologize after he said Baltimore was \"best at making criminals.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Maresca: Man City denied 'clear' goal in Fulham draw",
+          "url": "https://www.espn.com/soccer/story/_/id/50551332/man-city-fulham-haaland-disallowed-goal-premier-league",
+          "published": "Sat, 21 Nov 2026 14:09:20 EST",
+          "summary": "Enzo Maresca said Manchester City were denied a \"clear\" goal in their 1-1 draw with Fulham after Erling Haaland was judged to have fouled goalkeeper Bernd Leno.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Raiders owner Davis upset by 'Madden' version of his father: 'Totally unfair'",
+          "url": "https://www.espn.com/nfl/story/_/id/50549761/mark-davis-upset-father-portrayal-movie-madden",
+          "published": "Sat, 21 Nov 2026 14:09:20 EST",
+          "summary": "Saying \"I did the best I could to protect him,\" Raiders owner Mark Davis expressed frustration with the depiction of his father, the late Al Davis, in the new movie \"Madden.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "Udoka says Rockets 'mentally fragile,' blasts defense after loss to Nuggets",
+          "url": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
+          "published": "Sat, 21 Nov 2026 14:09:20 EST",
+          "summary": "Coach Ime Udoka was upset by the Rockets' lack of physicality and effort as they gave up a season high in points during a loss to the Nuggets, calling the defense \"as bad as I've seen it.\"",
+          "source": "ESPN"
+        },
+        {
+          "title": "🔮 NFL Week 11 crystal ball: Predictions on upsets, TD scorers, more",
+          "url": "https://www.espn.com/nfl/story/_/id/50521728/week-11-predictions-upsets-fantasy-sleepers-stats-2026",
+          "published": "Sat, 21 Nov 2026 14:09:20 EST",
+          "summary": "Eagles upsetting the Steelers? Big receiving day for Christian McCaffrey? Touchdown for Josh Downs? Let's predict 15 things for Week 11.",
+          "source": "ESPN"
+        },
+        {
+          "title": "Our guide to every game: Matchup previews, predictions, picks and nuggets",
+          "url": "https://www.espn.com/nfl/story/_/id/50522208/week-11-picks-predictions-schedule-fantasy-odds-2026",
+          "published": "Sat, 21 Nov 2026 08:12:34 EST",
+          "summary": "There are 12 more games in Week 11, and we have picks, key stats and more for all of them.",
+          "source": "ESPN"
+        },
+        {
+          "title": "NHL Tonight: What to watch in all 14 games on Saturday",
+          "url": "https://www.espn.com/nhl/story/_/id/50542625/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
+          "published": "Sat, 21 Nov 2026 14:34:59 EST",
+          "summary": "Find game previews, betting intel, broadcast information, stats and highlights here.",
+          "source": "ESPN"
+        },
+        {
+          "title": "From 100 losses to ... building a World Series contender? Why Mike Trout has new hope for Angels",
+          "url": "https://www.espn.com/mlb/story/_/id/50531850/mike-trout-angels-new-owner-stan-kroenke",
+          "published": "Fri, 20 Nov 2026 18:16:36 EST",
+          "summary": "The sale of the Angels has the franchise's greatest player excited about the future again.",
+          "source": "ESPN"
+        }
+      ],
+      "ai_report": {
+        "key_takeaway": "Titans DL Harrell hospitalized after car accident in Tampa.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (-0.090). Top story: Titans DL Harrell hospitalized after car accident in Tampa.",
+        "key_themes": [
+          "Titans DL Harrell hospitalized after car accident in Tampa",
+          "Sources: Michigan expected to start QB Underwood; Marsh not playing after charge",
+          "Mets, CF Ewing agree on 8-year, $95M extension, sources say",
+          "Sources: Struggling Aggies expected to bench Reed, start Hart vs. Sooners",
+          "Melo calls out Humphrey for Baltimore remark: Back your apology with action"
+        ],
+        "notable_headlines": [
+          {
+            "headline": "Titans DL Harrell hospitalized after car accident in Tampa",
+            "why_it_matters": "Titans defensive lineman Jaylen Harrell was involved in a serious car accident Friday and remains hospitalized, according to the team.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Sources: Michigan expected to start QB Underwood; Marsh not playing after charge",
+            "why_it_matters": "Michigan is returning to QB Bryce Underwood vs. No. 4 UCLA after Tommy Carr had started the past four games, sources told ESPN.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Mets, CF Ewing agree on 8-year, $95M extension, sources say",
+            "why_it_matters": "The Mets and 22-year-old center fielder A.J. Ewing have agreed to an eight-year, $95 million contract extension, sources confirmed to ESPN.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Sources: Struggling Aggies expected to bench Reed, start Hart vs. Sooners",
+            "why_it_matters": "Texas A&amp;M is expected to make a change at quarterback, going with sophomore Brady Hart over Marcel Reed against Oklahoma, sources confirmed to ESPN.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Melo calls out Humphrey for Baltimore remark: Back your apology with action",
+            "why_it_matters": "Former NBA star Carmelo Anthony challenged Ravens cornerback Marlon Humphrey to do more than apologize after he said Baltimore was \"best at making criminals.\"",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Maresca: Man City denied 'clear' goal in Fulham draw",
+            "why_it_matters": "Enzo Maresca said Manchester City were denied a \"clear\" goal in their 1-1 draw with Fulham after Erling Haaland was judged to have fouled goalkeeper Bernd Leno.",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Raiders owner Davis upset by 'Madden' version of his father: 'Totally unfair'",
+            "why_it_matters": "Saying \"I did the best I could to protect him,\" Raiders owner Mark Davis expressed frustration with the depiction of his father, the late Al Davis, in the new movie \"Madden.\"",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "Udoka says Rockets 'mentally fragile,' blasts defense after loss to Nuggets",
+            "why_it_matters": "Coach Ime Udoka was upset by the Rockets' lack of physicality and effort as they gave up a season high in points during a loss to the Nuggets, calling the defense \"as bad as I've seen it.\"",
+            "signal": "Unclear"
+          }
+        ],
+        "future_outlook": {
+          "next_24_72_hours": [
+            "Track updates to the leading stories listed above.",
+            "Watch for clarifications or official responses in follow-up coverage.",
+            "Expect sentiment to move as new details emerge."
+          ],
+          "next_1_4_weeks": [
+            "Some stories may transition from breaking news to policy or market impact.",
+            "Recurring themes in the feed will indicate sustained momentum.",
+            "Cross-category spillover effects may become clearer with additional reporting."
+          ],
+          "watch_list": [
+            "Titans DL Harrell hospitalized after car accident in Tampa",
+            "Sources: Michigan expected to start QB Underwood; Marsh not playing after charge",
+            "Mets, CF Ewing agree on 8-year, $95M extension, sources say",
+            "Sources: Struggling Aggies expected to bench Reed, start Hart vs. Sooners"
+          ],
+          "confidence": "Medium"
+        },
+        "caveats": [
+          "This fallback report is generated from RSS headlines and summaries only.",
+          "Verify key details by opening the source links in the headlines list.",
+          "OpenAI generation failed (RateLimitError). Used deterministic fallback."
+        ],
+        "related_topics": [
+          "today's mixed news headlines",
+          "latest news summary titans",
+          "daily news briefing and analysis"
+        ]
+      },
+      "tweet_text": "Sports: Titans DL Harrell hospitalized after car accident in Tampa\n\nSports Sentiment: Mixed (-0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Sources #Expected #Start #Sports #BreakingNews #News #WorldNews #Headlines #Trending"
     },
     "science": {
       "key": "science",
@@ -738,15 +736,29 @@
         "feed_url": "https://www.sciencedaily.com/rss/top/science.xml"
       },
       "sentiment": {
-        "score": 0.1626,
+        "score": 0.0862,
         "label": "Mixed",
-        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.271, dampened ×0.6 → +0.1626). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
+        "rationale": "Average of 12 per-headline sentiment scores (raw avg +0.144, dampened ×0.6 → +0.0862). This is a coarse signal; interpret as overall tone, not factual positivity/negativity."
       },
       "items": [
         {
+          "title": "Time may be far stranger than we realize. Scientists have a way to test it",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm",
+          "published": "Sat, 21 Nov 2026 10:09:46 EST",
+          "summary": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously. Using atomic clocks with dramatically enhanced sensitivity, researchers hope to reveal a never-before-observed quantum effect that could transform our understanding of time and gravity.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "A giant star swallowed another star. James Webb reveals the aftermath",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
+          "published": "Sat, 21 Nov 2026 09:53:40 EST",
+          "summary": "Astronomers have witnessed a spectacular cosmic collision in the Andromeda galaxy, where a small star spiraled into a giant star 18,000 times brighter than the Sun, triggering a violent eruption. NASA’s James Webb Space Telescope captured the aftermath just 47 days later, revealing new details about how two stars can merge into one.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
           "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
-          "published": "Fri, 20 Nov 2026 21:24:22 EST",
+          "published": "Fri, 20 Nov 2026 07:55:54 EST",
           "summary": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the aging probe continues its historic journey through interstellar space, pushing the limits of human exploration despite dwindling power and technical challenges.",
           "source": "ScienceDaily"
         },
@@ -765,6 +777,27 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Who was buried in Westminster Abbey's Roman coffin? A 150-year mystery may be solved",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261119194553.htm",
+          "published": "Sat, 21 Nov 2026 09:25:39 EST",
+          "summary": "A mysterious skeleton discovered in a Roman sarcophagus at Westminster Abbey may finally be identified after more than 150 years. New dating evidence suggests the remains belonged to a high-ranking medieval abbot who was buried inside a centuries-old recycled Roman coffin.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Even scientists can't agree on what science actually is",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261119194541.htm",
+          "published": "Sat, 21 Nov 2026 08:55:11 EST",
+          "summary": "Scientists cannot agree on what science actually is, and a new study finds their views are surprisingly more divided than those of the general public. The findings could help explain public frustration with scientific uncertainty and raise questions about how artificial intelligence might reshape future discoveries.",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "A 50-year-old theory about evolution may have been wrong all along",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
+          "published": "Sat, 21 Nov 2026 09:06:15 EST",
+          "summary": "A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. An extensive new analysis of mutations in bacteria and yeast found no evidence that essential genes mutate less frequently than other genes. Researchers say earlier studies may have been misled by harmful mutations that disappeared through natural selection before scientists could detect them.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
           "url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm",
           "published": "Fri, 20 Nov 2026 07:23:23 EST",
@@ -779,105 +812,70 @@
           "source": "ScienceDaily"
         },
         {
+          "title": "Scientists say the human family tree may need a radical rewrite",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261118074039.htm",
+          "published": "Sat, 21 Nov 2026 08:44:55 EST",
+          "summary": "The human family tree may need a major overhaul. New research from Monash University challenges the traditional classification of our ancient ancestors, arguing that species such as Australopithecus and Paranthropus should be grouped within our own genus, Homo. As scientists uncover more fossils and analyze evolutionary relationships, the boundaries that once separated these ancient relatives are becoming increasingly difficult to defend.",
+          "source": "ScienceDaily"
+        },
+        {
           "title": "Experimental compound burns fat without sacrificing muscle",
           "url": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm",
           "published": "Thu, 19 Nov 2026 19:19:49 EST",
           "summary": "Researchers at UC Berkeley have identified a compound that could transform weight-loss treatment by helping the body burn more energy instead of suppressing appetite like Ozempic and Wegovy. In mice, the compound boosted energy expenditure by up to 18%, improved blood sugar control, reduced liver fat, and promoted weight loss without significant muscle loss. Even more promising, combining it with existing GLP-1 medications produced greater benefits than either treatment alone.",
           "source": "ScienceDaily"
-        },
-        {
-          "title": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm",
-          "published": "Thu, 19 Nov 2026 06:13:29 EST",
-          "summary": "A new study has uncovered a surprising concern hiding in popular plant-based foods and drinks. Researchers tested 212 vegan and vegetarian products sold in the UK, including meat alternatives, oat milk, almond milk, and soy milk, and found that every single one contained at least one potentially harmful fungal toxin. Known as mycotoxins, these naturally occurring compounds can contaminate grains, legumes, and seeds during farming and storage.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "A 3-million-year-old child just made human evolution far more complicated",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
-          "published": "Thu, 19 Nov 2026 22:17:52 EST",
-          "summary": "A groundbreaking study of the 3-million-year-old Taung Child fossil suggests that several ancient human ancestors once thought to belong to the same species may actually represent different branches of our evolutionary family tree. The discovery challenges a century of assumptions and reveals how dramatic climate changes helped shape a surprisingly complex story of human origins.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "This 6-million-year-old whale may have had the most crooked face in mammal history",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
-          "published": "Thu, 19 Nov 2026 05:59:55 EST",
-          "summary": "A bizarre whale that lived roughly 6 million years ago had a face so dramatically crooked that scientists believe it may have been the most asymmetrical of any mammal. Discovered in Peru, the extinct pygmy sperm whale Scaphokogia huachafo had an enormous downward-curving snout and a skull so distorted that researchers initially thought it had been damaged after death. Instead, its strange anatomy appears to have been an extraordinary evolutionary adaptation for hunting along the seafloor.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Is free will an illusion? New brain research reveals a surprising twist",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261118065524.htm",
-          "published": "Wed, 18 Nov 2026 20:21:35 EST",
-          "summary": "New research reveals that the brain makes free choices and forced decisions using surprisingly similar neural processes, with activity building toward a decision before we act. The discovery challenges assumptions about free will while suggesting that our personal preferences and experiences still shape what we choose.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Why do farts smell so bad? The secret is brewing in your gut",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261118065521.htm",
-          "published": "Wed, 18 Nov 2026 06:55:21 EST",
-          "summary": "The secret behind truly terrible-smelling farts lies in tiny amounts of sulfur-containing gases produced by gut bacteria as they digest food. Scientists reveal why some foods make farts smell worse, why loud farts aren't always the stinkiest, and how our noses evolved to detect these powerful odors.",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Something strange is living beneath the skin of deep-sea pigs",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm",
-          "published": "Thu, 19 Nov 2026 05:33:03 EST",
-          "summary": "Scientists have discovered a strange bacterium hiding beneath the skin of deep-sea creatures known as sea pigs, revealing an unexpected biological partnership. The microbe has an unusually tiny genome, yet more than a quarter of its DNA is devoted to making surface proteins, some of them exceptionally large. Researchers suspect it depends heavily on its host for survival, but what the sea pigs gain in return remains a mystery.",
-          "source": "ScienceDaily"
         }
       ],
       "ai_report": {
-        "key_takeaway": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it.",
-        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.163). Top story: NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it.",
+        "key_takeaway": "Time may be far stranger than we realize. Scientists have a way to test it.",
+        "summary": "12 headlines were curated for this category. Overall sentiment is mixed (0.086). Top story: Time may be far stranger than we realize. Scientists have a way to test it.",
         "key_themes": [
+          "Time may be far stranger than we realize. Scientists have a way to test it",
+          "A giant star swallowed another star. James Webb reveals the aftermath",
           "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
           "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
-          "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
-          "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-          "Scientists turn Moon dust into LEGO-like bricks for future lunar bases"
+          "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole"
         ],
         "notable_headlines": [
           {
+            "headline": "Time may be far stranger than we realize. Scientists have a way to test it",
+            "why_it_matters": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously. Using atomic clocks with dramatically enhanced sensitivity, researchers ho…",
+            "signal": "Unclear"
+          },
+          {
+            "headline": "A giant star swallowed another star. James Webb reveals the aftermath",
+            "why_it_matters": "Astronomers have witnessed a spectacular cosmic collision in the Andromeda galaxy, where a small star spiraled into a giant star 18,000 times brighter than the Sun, triggering a violent eruption. NASA’s James Webb Space …",
+            "signal": "Unclear"
+          },
+          {
             "headline": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
             "why_it_matters": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the a…",
-            "signal": "Opportunity"
+            "signal": "Unclear"
           },
           {
             "headline": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
             "why_it_matters": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument …",
-            "signal": "Opportunity"
+            "signal": "Unclear"
           },
           {
             "headline": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
             "why_it_matters": "Astronomers have traced mysterious gas clouds near the Milky Way's central supermassive black hole to a massive pair of stars whose colliding winds appear to create dense clumps of material. These clouds may eventually f…",
-            "signal": "Opportunity"
+            "signal": "Unclear"
           },
           {
-            "headline": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-            "why_it_matters": "Scientists at CERN have found the first evidence of an incredibly rare particle decay after more than 40 years of searching, detecting a process expected to occur just once in every 10 billion beauty particles. The break…",
-            "signal": "Opportunity"
+            "headline": "Who was buried in Westminster Abbey's Roman coffin? A 150-year mystery may be solved",
+            "why_it_matters": "A mysterious skeleton discovered in a Roman sarcophagus at Westminster Abbey may finally be identified after more than 150 years. New dating evidence suggests the remains belonged to a high-ranking medieval abbot who was…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
-            "why_it_matters": "Scientists have found a way to 3D-print Moon dust into LEGO-like bricks, raising the possibility of building lunar bases using materials already on the Moon. The experimental blocks still need to be strengthened, but the…",
-            "signal": "Opportunity"
+            "headline": "Even scientists can't agree on what science actually is",
+            "why_it_matters": "Scientists cannot agree on what science actually is, and a new study finds their views are surprisingly more divided than those of the general public. The findings could help explain public frustration with scientific un…",
+            "signal": "Unclear"
           },
           {
-            "headline": "Experimental compound burns fat without sacrificing muscle",
-            "why_it_matters": "Researchers at UC Berkeley have identified a compound that could transform weight-loss treatment by helping the body burn more energy instead of suppressing appetite like Ozempic and Wegovy. In mice, the compound boosted…",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
-            "why_it_matters": "A new study has uncovered a surprising concern hiding in popular plant-based foods and drinks. Researchers tested 212 vegan and vegetarian products sold in the UK, including meat alternatives, oat milk, almond milk, and …",
-            "signal": "Opportunity"
-          },
-          {
-            "headline": "A 3-million-year-old child just made human evolution far more complicated",
-            "why_it_matters": "A groundbreaking study of the 3-million-year-old Taung Child fossil suggests that several ancient human ancestors once thought to belong to the same species may actually represent different branches of our evolutionary f…",
-            "signal": "Opportunity"
+            "headline": "A 50-year-old theory about evolution may have been wrong all along",
+            "why_it_matters": "A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. An extensive new analysis of mutations in bacteria and yeast found no evidence that essential g…",
+            "signal": "Unclear"
           }
         ],
         "future_outlook": {
@@ -892,10 +890,10 @@
             "Cross-category spillover effects may become clearer with additional reporting."
           ],
           "watch_list": [
+            "Time may be far stranger than we realize. Scientists have a way to test it",
+            "A giant star swallowed another star. James Webb reveals the aftermath",
             "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
-            "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
-            "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
-            "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect"
+            "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes"
           ],
           "confidence": "Medium"
         },
@@ -906,11 +904,11 @@
         ],
         "related_topics": [
           "today's mixed news headlines",
-          "latest news summary nasa’s",
+          "latest news summary time",
           "daily news briefing and analysis"
         ]
       },
-      "tweet_text": "Science: NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it\n\nScience Sentiment: Mixed (+0.16)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Finally #3millionyearold #Science #BreakingNews #News #WorldNews #Headlines #Trending"
+      "tweet_text": "Science: Time may be far stranger than we realize. Scientists have a way to test it\n\nScience Sentiment: Mixed (+0.09)\n\nRead the full breakdown: https://tldrnews.info\n\n#Scientists #Star #150year #Science #BreakingNews #News #WorldNews #Headlines #Trending"
     }
   }
 }
